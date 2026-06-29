@@ -5,28 +5,24 @@
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class KSStruct
+    public class KSStruct : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6AD7670
+        public void .ctor(){} // RVA: 0x7AE8C7AC0
     }
 
-    public class KeySequence
+    public class KeySequence : Object
     {
-        public System.Xml.Schema.TypedObject[] Particle1; // 0x10
-        public int Particle2; // 0x18
-        public int hashcode; // 0x1C
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6AD8420
-        public void get_PosLine(){} // RVA: 0x760030
-        public void get_PosCol(){} // RVA: 0xCEF5B0
-        public void get_Item(){} // RVA: 0x6AD84E0
-        public void set_Item(){} // RVA: 0x6AD8510
-        public void IsQualified(){} // RVA: 0x6AD8670
-        public void GetHashCode(){} // RVA: 0x6AD86E0
-        public void Equals(){} // RVA: 0x6AD8B20
-        public void ToString(){} // RVA: 0x6AD8C40
+        public void .ctor(){} // RVA: 0x7AE8C8890
+        public void get_PosLine(){} // RVA: 0x7A851DB90
+        public void get_PosCol(){} // RVA: 0x7A8AB15F0
+        public void get_Item(){} // RVA: 0x7AE8C8950
+        public void set_Item(){} // RVA: 0x7AE8C8980
+        public void IsQualified(){} // RVA: 0x7AE8C8AE0
+        public void GetHashCode(){} // RVA: 0x7AE8C8B50
+        public void Equals(){} // RVA: 0x7AE8C8F80
+        public void ToString(){} // RVA: 0x7AE8C90A0
     }
 
 }

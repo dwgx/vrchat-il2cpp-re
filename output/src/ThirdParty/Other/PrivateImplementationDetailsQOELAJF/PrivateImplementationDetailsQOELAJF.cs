@@ -5,22 +5,22 @@
 
 namespace ThirdParty.Other.PrivateImplementationDetailsQOELAJF
 {
-    public class ArrayCopy128
+    public class ArrayCopy128 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ArrayCopy192
+    public class ArrayCopy192 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ArrayCopy64
+    public class ArrayCopy64 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

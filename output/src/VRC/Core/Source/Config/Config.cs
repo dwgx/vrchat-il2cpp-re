@@ -5,21 +5,19 @@
 
 namespace VRC.Core.Source.Config
 {
-    public class NoAllocByteSetStorage
+    public class NoAllocByteSetStorage : Object
     {
-        public string configPath; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x993F800
-        public void get_Count(){} // RVA: 0x993FB40
-        public void Has(){} // RVA: 0x993FB90
-        public void Get(){} // RVA: 0x993FC10
-        public void Remove(){} // RVA: 0x993FCD0
-        public void Clear(){} // RVA: 0x993FDA0
-        public void Set(){} // RVA: 0x993FDF0
-        public void LoadFromDisk(){} // RVA: 0x9940160
-        public void SaveToDisk(){} // RVA: 0x9940200
-        public void .cctor(){} // RVA: 0x9940970
+        public void .ctor(){} // RVA: 0x7B177B2F0
+        public void get_Count(){} // RVA: 0x7B177B630
+        public void Has(){} // RVA: 0x7B177B680
+        public void Get(){} // RVA: 0x7B177B700
+        public void Remove(){} // RVA: 0x7B177B7C0
+        public void Clear(){} // RVA: 0x7B177B890
+        public void Set(){} // RVA: 0x7B177B8E0
+        public void LoadFromDisk(){} // RVA: 0x7B177BC50
+        public void SaveToDisk(){} // RVA: 0x7B177BCF0
+        public void .cctor(){} // RVA: 0x7B177C460
     }
 
 }

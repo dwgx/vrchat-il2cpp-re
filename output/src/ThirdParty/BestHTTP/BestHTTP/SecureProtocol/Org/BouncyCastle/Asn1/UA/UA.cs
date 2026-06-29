@@ -5,11 +5,11 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.UA
 {
-    public class UAObjectIdentifiers
+    public class UAObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9759050
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B1592F30
     }
 
 }

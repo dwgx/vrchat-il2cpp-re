@@ -1,214 +1,193 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq.Expressions
 // Classes: 10
-// Methods: 158
+// Methods: 135
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class DebugInfoExpression
+    public class DebugInfoExpression : Expression
     {
-        public System.Linq.Expressions.SymbolDocumentInfo <Document>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E0640 | overloaded x2
-        public void get_Type(){} // RVA: 0x65E0470
-        public void get_NodeType(){} // RVA: 0x210E2D0
-        public void get_StartLine(){} // RVA: 0x65E0520
-        public void get_StartColumn(){} // RVA: 0x65E0550
-        public void get_EndLine(){} // RVA: 0x65E0580
-        public void get_EndColumn(){} // RVA: 0x65E05B0
-        public void get_Document(){} // RVA: 0x2F8380
-        public void get_IsClear(){} // RVA: 0x65E05E0
-        public void Accept(){} // RVA: 0x65E0610
+        public void .ctor(){} // RVA: 0x7AE3CEE70
+        public void get_Type(){} // RVA: 0x7AE3CECA0
+        public void get_NodeType(){} // RVA: 0x7A9F22B40
+        public void get_StartLine(){} // RVA: 0x7AE3CED50
+        public void get_StartColumn(){} // RVA: 0x7AE3CED80
+        public void get_EndLine(){} // RVA: 0x7AE3CEDB0
+        public void get_EndColumn(){} // RVA: 0x7AE3CEDE0
+        public void get_Document(){} // RVA: 0x7A80F2570
+        public void get_IsClear(){} // RVA: 0x7AE3CEE10
+        public void Accept(){} // RVA: 0x7AE3CEE40
     }
 
-    public class DebugViewWriter
+    public class DebugViewWriter : ExpressionVisitor
     {
-        public int Tab;
-        public int MaxColumn;
-        public System.IO.TextWriter _out; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E06E0
-        public void get_Base(){} // RVA: 0x65E0800
-        public void get_Delta(){} // RVA: 0x791DC0
-        public void get_Depth(){} // RVA: 0x65E0870
-        public void Indent(){} // RVA: 0x65E08F0
-        public void Dedent(){} // RVA: 0x65E0900
-        public void NewLine(){} // RVA: 0x65E0910
-        public void GetId(){} // RVA: 0x283FA0
-        public void GetLambdaId(){} // RVA: 0x65E0920
-        public void GetParamId(){} // RVA: 0x65E0970
-        public void GetLabelTargetId(){} // RVA: 0x65E09C0
-        public void WriteTo(){} // RVA: 0x65E0CA0 | overloaded x2
-        public void Out(){} // RVA: 0x65E0E60 | overloaded x4
-        public void WriteLine(){} // RVA: 0x65E1030
-        public void Write(){} // RVA: 0x65E1070
-        public void GetFlow(){} // RVA: 0x65E10C0
-        public void CheckBreak(){} // RVA: 0x65E1180
-        public void VisitExpressions(){} // RVA: 0x283FA0 | overloaded x3
-        public void VisitDeclarations(){} // RVA: 0x65E11C0
-        public void VisitBinary(){} // RVA: 0x65E1280
-        public void VisitParameter(){} // RVA: 0x65E1A50
-        public void VisitLambda(){} // RVA: 0xCE10
-        public void IsSimpleExpression(){} // RVA: 0x65E1BE0
-        public void VisitConditional(){} // RVA: 0x65E1CF0
-        public void VisitConstant(){} // RVA: 0x65E1FA0
-        public void GetConstantValueSuffix(){} // RVA: 0x65E23E0
-        public void VisitRuntimeVariables(){} // RVA: 0x65E26D0
-        public void OutMember(){} // RVA: 0x65E27A0
-        public void VisitMember(){} // RVA: 0x65E28D0
-        public void VisitInvocation(){} // RVA: 0x65E2A20
-        public void NeedsParentheses(){} // RVA: 0x65E2AD0
-        public void GetOperatorPrecedence(){} // RVA: 0x65E2CA0
-        public void ParenthesizedVisit(){} // RVA: 0x65E2E20
-        public void VisitMethodCall(){} // RVA: 0x65E2F00
-        public void VisitNewArray(){} // RVA: 0x65E3130
-        public void VisitNew(){} // RVA: 0x65E3290
-        public void VisitElementInit(){} // RVA: 0x65E33A0
-        public void VisitListInit(){} // RVA: 0x65E3500
-        public void VisitMemberAssignment(){} // RVA: 0x65E35F0
-        public void VisitMemberListBinding(){} // RVA: 0x65E36B0
-        public void VisitMemberMemberBinding(){} // RVA: 0x65E37F0
-        public void VisitMemberInit(){} // RVA: 0x65E3930
-        public void VisitTypeBinary(){} // RVA: 0x65E3A20
-        public void VisitUnary(){} // RVA: 0x65E3B10
-        public void VisitBlock(){} // RVA: 0x65E4050
-        public void VisitDefault(){} // RVA: 0x65E4330
-        public void VisitLabel(){} // RVA: 0x65E43F0
-        public void VisitGoto(){} // RVA: 0x65E44A0
-        public void VisitLoop(){} // RVA: 0x65E4600
-        public void VisitSwitchCase(){} // RVA: 0x65E4750
-        public void VisitSwitch(){} // RVA: 0x65E4A10
-        public void VisitCatchBlock(){} // RVA: 0x65E4BF0
-        public void VisitTry(){} // RVA: 0x65E4D80
-        public void VisitIndex(){} // RVA: 0x65E4F50
-        public void VisitExtension(){} // RVA: 0x65E5110
-        public void VisitDebugInfo(){} // RVA: 0x65E5320
-        public void DumpLabel(){} // RVA: 0x65E56B0
-        public void GetLabelTargetName(){} // RVA: 0x65E57F0
-        public void WriteLambda(){} // RVA: 0x65E5930
-        public void GetLambdaName(){} // RVA: 0x65E5B60
-        public void ContainsWhiteSpace(){} // RVA: 0x65E5CD0
-        public void QuoteName(){} // RVA: 0x65E5D80
-        public void GetDisplayName(){} // RVA: 0x65E5E80
-        public void <VisitExpressions>b__37_0(){} // RVA: 0x283FA0
-        public void <VisitDeclarations>b__38_0(){} // RVA: 0x65E6020
-        public void <VisitListInit>b__58_0(){} // RVA: 0x65E6140
-        public void <VisitMemberListBinding>b__60_0(){} // RVA: 0x65E6140
-        public void <VisitMemberMemberBinding>b__61_0(){} // RVA: 0x65E6160
-        public void <VisitMemberInit>b__62_0(){} // RVA: 0x65E6160
+        public void .ctor(){} // RVA: 0x7AE3CEF10
+        public void get_Base(){} // RVA: 0x7AE3CF030
+        public void get_Delta(){} // RVA: 0x7A854FDE0
+        public void get_Depth(){} // RVA: 0x7AE3CF0A0
+        public void Indent(){} // RVA: 0x7AE3CF120
+        public void Dedent(){} // RVA: 0x7AE3CF130
+        public void NewLine(){} // RVA: 0x7AE3CF140
+        public void GetId(){} // RVA: 0x7A8051B10
+        public void GetLambdaId(){} // RVA: 0x7AE3CF150
+        public void GetParamId(){} // RVA: 0x7AE3CF1A0
+        public void GetLabelTargetId(){} // RVA: 0x7AE3CF1F0
+        public void WriteTo(){} // RVA: 0x7AE3CF4C0
+        public void Out(){} // RVA: 0x7AE3CF660
+        public void WriteLine(){} // RVA: 0x7AE3CF830
+        public void Write(){} // RVA: 0x7AE3CF870
+        public void GetFlow(){} // RVA: 0x7AE3CF8C0
+        public void CheckBreak(){} // RVA: 0x7AE3CF980
+        public void VisitExpressions(){} // RVA: 0x7A8051B10
+        public void VisitDeclarations(){} // RVA: 0x7AE3CF9C0
+        public void VisitBinary(){} // RVA: 0x7AE3CFA80
+        public void VisitParameter(){} // RVA: 0x7AE3D0260
+        public void VisitLambda(){} // RVA: 0x7A7E00B20
+        public void IsSimpleExpression(){} // RVA: 0x7AE3D03F0
+        public void VisitConditional(){} // RVA: 0x7AE3D04E0
+        public void VisitConstant(){} // RVA: 0x7AE3D0780
+        public void GetConstantValueSuffix(){} // RVA: 0x7AE3D0BC0
+        public void VisitRuntimeVariables(){} // RVA: 0x7AE3D0EB0
+        public void OutMember(){} // RVA: 0x7AE3D0F80
+        public void VisitMember(){} // RVA: 0x7AE3D10B0
+        public void VisitInvocation(){} // RVA: 0x7AE3D1200
+        public void NeedsParentheses(){} // RVA: 0x7AE3D12B0
+        public void GetOperatorPrecedence(){} // RVA: 0x7AE3D1480
+        public void ParenthesizedVisit(){} // RVA: 0x7AE3D1600
+        public void VisitMethodCall(){} // RVA: 0x7AE3D16E0
+        public void VisitNewArray(){} // RVA: 0x7AE3D1910
+        public void VisitNew(){} // RVA: 0x7AE3D1A70
+        public void VisitElementInit(){} // RVA: 0x7AE3D1B80
+        public void VisitListInit(){} // RVA: 0x7AE3D1CE0
+        public void VisitMemberAssignment(){} // RVA: 0x7AE3D1DD0
+        public void VisitMemberListBinding(){} // RVA: 0x7AE3D1E90
+        public void VisitMemberMemberBinding(){} // RVA: 0x7AE3D1FD0
+        public void VisitMemberInit(){} // RVA: 0x7AE3D2110
+        public void VisitTypeBinary(){} // RVA: 0x7AE3D2200
+        public void VisitUnary(){} // RVA: 0x7AE3D22F0
+        public void VisitBlock(){} // RVA: 0x7AE3D2840
+        public void VisitDefault(){} // RVA: 0x7AE3D2B20
+        public void VisitLabel(){} // RVA: 0x7AE3D2BE0
+        public void VisitGoto(){} // RVA: 0x7AE3D2C90
+        public void VisitLoop(){} // RVA: 0x7AE3D2DF0
+        public void VisitSwitchCase(){} // RVA: 0x7AE3D2F40
+        public void VisitSwitch(){} // RVA: 0x7AE3D3220
+        public void VisitCatchBlock(){} // RVA: 0x7AE3D3400
+        public void VisitTry(){} // RVA: 0x7AE3D3590
+        public void VisitIndex(){} // RVA: 0x7AE3D3760
+        public void VisitExtension(){} // RVA: 0x7AE3D3920
+        public void VisitDebugInfo(){} // RVA: 0x7AE3D3B30
+        public void DumpLabel(){} // RVA: 0x7AE3D3EC0
+        public void GetLabelTargetName(){} // RVA: 0x7AE3D4000
+        public void WriteLambda(){} // RVA: 0x7AE3D4140
+        public void GetLambdaName(){} // RVA: 0x7AE3D4370
+        public void ContainsWhiteSpace(){} // RVA: 0x7AE3D44E0
+        public void QuoteName(){} // RVA: 0x7AE3D4590
+        public void GetDisplayName(){} // RVA: 0x7AE3D4690
+        public void <VisitExpressions>b__37_0(){} // RVA: 0x7A8051B10
+        public void <VisitDeclarations>b__38_0(){} // RVA: 0x7AE3D4830
+        public void <VisitListInit>b__58_0(){} // RVA: 0x7AE3D4950
+        public void <VisitMemberListBinding>b__60_0(){} // RVA: 0x7AE3D4950
+        public void <VisitMemberMemberBinding>b__61_0(){} // RVA: 0x7AE3D4970
+        public void <VisitMemberInit>b__62_0(){} // RVA: 0x7AE3D4970
     }
 
-    public class DefaultExpression
+    public class DefaultExpression : Expression
     {
-        public System.Type <Type>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E6260 | overloaded x2
-        public void get_Type(){} // RVA: 0x2F8380
-        public void get_NodeType(){} // RVA: 0x65E6220
-        public void Accept(){} // RVA: 0x65E6230
+        public void .ctor(){} // RVA: 0x7AE3D4A70
+        public void get_Type(){} // RVA: 0x7A80F2570
+        public void get_NodeType(){} // RVA: 0x7AE3D4A30
+        public void Accept(){} // RVA: 0x7AE3D4A40
     }
 
-    public class DynamicExpression
+    public class DynamicExpression : Expression
     {
-        public System.Runtime.CompilerServices.CallSiteBinder <Binder>k__BackingField; // 0x10
-        public System.Type <DelegateType>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E7100 | overloaded x2
-        public void get_CanReduce(){} // RVA: 0x3C2850
-        public void Reduce(){} // RVA: 0x65E63A0
-        public void Make(){} // RVA: 0x65E6BB0 | overloaded x5
-        public void get_Type(){} // RVA: 0x65E6DB0
-        public void get_NodeType(){} // RVA: 0x5B1C80
-        public void get_Binder(){} // RVA: 0x2F8380
-        public void get_DelegateType(){} // RVA: 0x2E07C0
-        public void get_Arguments(){} // RVA: 0xAE50F0
-        public void GetOrMakeArguments(){} // RVA: 0x65E6E60
-        public void Accept(){} // RVA: 0x65E6E90
-        public void Rewrite(){} // RVA: 0x65E6F50
-        public void Update(){} // RVA: 0x65E6F80
-        public void SameArguments(){} // RVA: 0x65E7040
-        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E7070
-        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x65E70A0
-        public void Dynamic(){} // RVA: 0x65C1F80 | overloaded x6
-        public void MakeDynamic(){} // RVA: 0x65C1FD0 | overloaded x6
-        public void System.Linq.Expressions.IDynamicExpression.Rewrite(){} // RVA: 0x65E70D0
-        public void System.Linq.Expressions.IDynamicExpression.CreateCallSite(){} // RVA: 0x65E70F0
+        public void .ctor(){} // RVA: 0x7AE3D5900
+        public void get_CanReduce(){} // RVA: 0x7A81BD750
+        public void Reduce(){} // RVA: 0x7AE3D4BB0
+        public void Make(){} // RVA: 0x7AE3D53E0
+        public void get_Type(){} // RVA: 0x7AE3D55E0
+        public void get_NodeType(){} // RVA: 0x7A836B0B0
+        public void get_Binder(){} // RVA: 0x7A80F2570
+        public void get_DelegateType(){} // RVA: 0x7A80DA7B0
+        public void get_Arguments(){} // RVA: 0x7A8881850
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5690
+        public void Accept(){} // RVA: 0x7AE3D56C0
+        public void Rewrite(){} // RVA: 0x7AE3D5750
+        public void Update(){} // RVA: 0x7AE3D5780
+        public void SameArguments(){} // RVA: 0x7AE3D5840
+        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x7AE3D5870
+        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x7AE3D58A0
+        public void Dynamic(){} // RVA: 0x7AE3B0590
+        public void MakeDynamic(){} // RVA: 0x7AE3B05E0
+        public void System.Linq.Expressions.IDynamicExpression.Rewrite(){} // RVA: 0x7AE3D58D0
+        public void System.Linq.Expressions.IDynamicExpression.CreateCallSite(){} // RVA: 0x7AE3D58F0
     }
 
-    public class DynamicExpression1 : .ctor
+    public class DynamicExpression1 : DynamicExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E7130
-        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E7410
-        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x3CFAF0
-        public void SameArguments(){} // RVA: 0x65E74B0
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void Rewrite(){} // RVA: 0x65E7640
+        public void .ctor(){} // RVA: 0x7AE3D5930
+        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x7AE3D5C10
+        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x7A81CA9D0
+        public void SameArguments(){} // RVA: 0x7AE3D5CB0
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void Rewrite(){} // RVA: 0x7AE3D5E50
     }
 
-    public class DynamicExpression2 : .ctor
+    public class DynamicExpression2 : DynamicExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E7680
-        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E7760
-        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x3E2CB0
-        public void SameArguments(){} // RVA: 0x65E7810
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void Rewrite(){} // RVA: 0x65E7A90
+        public void .ctor(){} // RVA: 0x7AE3D5E90
+        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x7AE3D5F70
+        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x7A81DDCC0
+        public void SameArguments(){} // RVA: 0x7AE3D6020
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void Rewrite(){} // RVA: 0x7AE3D62A0
     }
 
-    public class DynamicExpression3 : .ctor
+    public class DynamicExpression3 : DynamicExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E7B70
-        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E7CA0
-        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0xA308B0
-        public void SameArguments(){} // RVA: 0x65E7D60
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void Rewrite(){} // RVA: 0x65E8030
+        public void .ctor(){} // RVA: 0x7AE3D6380
+        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x7AE3D64B0
+        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x7A87EE0F0
+        public void SameArguments(){} // RVA: 0x7AE3D6570
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void Rewrite(){} // RVA: 0x7AE3D6830
     }
 
-    public class DynamicExpression4 : .ctor
+    public class DynamicExpression4 : DynamicExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E8130
-        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E82B0
-        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0xA7E130
-        public void SameArguments(){} // RVA: 0x65E8390
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void Rewrite(){} // RVA: 0x65E86A0
+        public void .ctor(){} // RVA: 0x7AE3D6930
+        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x7AE3D6AB0
+        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x7A883BE70
+        public void SameArguments(){} // RVA: 0x7AE3D6B90
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void Rewrite(){} // RVA: 0x7AE3D6E90
     }
 
-    public class DynamicExpressionN : .ctor
+    public class DynamicExpressionN : DynamicExpression
     {
-        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E7130
-        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x65E71A0
-        public void SameArguments(){} // RVA: 0x65E7200
-        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x65E72E0
-        public void GetOrMakeArguments(){} // RVA: 0x65E7330
-        public void Rewrite(){} // RVA: 0x65E7370
+        public void .ctor(){} // RVA: 0x7AE3D5930
+        public void System.Linq.Expressions.IArgumentProvider.GetArgument(){} // RVA: 0x7AE3D59A0
+        public void SameArguments(){} // RVA: 0x7AE3D5A00
+        public void System.Linq.Expressions.IArgumentProvider.get_ArgumentCount(){} // RVA: 0x7AE3D5AE0
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5B30
+        public void Rewrite(){} // RVA: 0x7AE3D5B70
     }
 
-    public class DynamicExpressionVisitor
+    public class DynamicExpressionVisitor : ExpressionVisitor
     {
         // ── Methods ──
-        public void VisitDynamic(){} // RVA: 0x65EB3A0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void VisitDynamic(){} // RVA: 0x7AE3D9BB0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

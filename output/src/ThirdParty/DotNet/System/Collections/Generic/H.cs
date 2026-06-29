@@ -1,3970 +1,3668 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
-// Classes: 96
-// Methods: 3854
+// Classes: 100
+// Methods: 3160
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
-    public class HashSet`1 : System.Collections.Generic
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x26C40 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x24B10
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x283FA0
-        public void Clear(){} // RVA: 0x24A50
-        public void Contains(){} // RVA: 0x283FA0
-        public void CopyTo(){} // RVA: 0x24B10 | overloaded x3
-        public void Remove(){} // RVA: 0x283FA0
-        public void get_Count(){} // RVA: 0xD840
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0xDBE0
-        public void GetEnumerator(){} // RVA: 0x283FA0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0xCD60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
-        public void GetObjectData(){}
-        public void OnDeserialization(){} // RVA: 0x24B10
-        public void Add(){} // RVA: 0x283FA0
-        public void UnionWith(){} // RVA: 0x24B10
-        public void IntersectWith(){} // RVA: 0x24B10
-        public void SetEquals(){} // RVA: 0xDE40
-        public void RemoveWhere(){} // RVA: 0x12590
-        public void get_Comparer(){} // RVA: 0xCD60
-        public void TrimExcess(){} // RVA: 0x24A50
-        public void Initialize(){} // RVA: 0x13FB0
-        public void IncreaseCapacity(){} // RVA: 0x24A50
-        public void SetCapacity(){} // RVA: 0x24FA0
-        public void AddIfNotPresent(){} // RVA: 0x283FA0
-        public void AddValue(){} // RVA: 0x283FA0
-        public void ContainsAllElements(){} // RVA: 0xDE40
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x24B10
-        public void IntersectWithEnumerable(){} // RVA: 0x24B10
-        public void InternalIndexOf(){} // RVA: 0x283FA0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x283FA0
-        public void AreEqualityComparersEqual(){} // RVA: 0xE230
-        public void InternalGetHashCode(){} // RVA: 0x283FA0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EF1E0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EEE90
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EF2F0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E4400
-        public void CopyTo(){} // RVA: 0x34F0AD0 | overloaded x3
-        public void Remove(){} // RVA: 0x34EF350
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34E4940
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34E49D0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34E49D0
-        public void GetObjectData(){} // RVA: 0x34EF650
-        public void OnDeserialization(){} // RVA: 0x34EF9E0
-        public void Add(){} // RVA: 0x34EF2F0
-        public void UnionWith(){} // RVA: 0x34F0350
-        public void IntersectWith(){} // RVA: 0x34F0590
-        public void SetEquals(){} // RVA: 0x34F0870
-        public void RemoveWhere(){} // RVA: 0x34F0D30
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F0E60
-        public void Initialize(){} // RVA: 0x34F11A0
-        public void IncreaseCapacity(){} // RVA: 0x34F1310
-        public void SetCapacity(){} // RVA: 0x34F13E0
-        public void AddIfNotPresent(){} // RVA: 0x34F15D0
-        public void AddValue(){} // RVA: 0x34F1A50
-        public void ContainsAllElements(){} // RVA: 0x34F1B70
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34F1D40
-        public void IntersectWithEnumerable(){} // RVA: 0x34F1E30
-        public void InternalIndexOf(){} // RVA: 0x34E7520
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34F2240
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34E7BA0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34D4920 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34D45F0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34D4A30
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34D0AF0
-        public void CopyTo(){} // RVA: 0x34D2350 | overloaded x3
-        public void Remove(){} // RVA: 0x34D0CB0
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34D0F00
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34D0F90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34D0F90
-        public void GetObjectData(){} // RVA: 0x34D4A50
-        public void OnDeserialization(){} // RVA: 0x34D4DE0
-        public void Add(){} // RVA: 0x34D4A30
-        public void UnionWith(){} // RVA: 0x34D5640
-        public void IntersectWith(){} // RVA: 0x34D5870
-        public void SetEquals(){} // RVA: 0x34D5B30
-        public void RemoveWhere(){} // RVA: 0x34D2590
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34D5D60
-        public void Initialize(){} // RVA: 0x34D6090
-        public void IncreaseCapacity(){} // RVA: 0x34D6200
-        public void SetCapacity(){} // RVA: 0x34D62D0
-        public void AddIfNotPresent(){} // RVA: 0x34D64C0
-        public void AddValue(){} // RVA: 0x34D3160
-        public void ContainsAllElements(){} // RVA: 0x34D6820
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34D69E0
-        public void IntersectWithEnumerable(){} // RVA: 0x34D6AC0
-        public void InternalIndexOf(){} // RVA: 0x34D3A50
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34D7050
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34D4000
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34D09C0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34D0690
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34D0AD0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34D0AF0
-        public void CopyTo(){} // RVA: 0x34D2350 | overloaded x3
-        public void Remove(){} // RVA: 0x34D0CB0
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34D0F00
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34D0F90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34D0F90
-        public void GetObjectData(){} // RVA: 0x34D1050
-        public void OnDeserialization(){} // RVA: 0x34D13E0
-        public void Add(){} // RVA: 0x34D0AD0
-        public void UnionWith(){} // RVA: 0x34D1C40
-        public void IntersectWith(){} // RVA: 0x34D1E70
-        public void SetEquals(){} // RVA: 0x34D20F0
-        public void RemoveWhere(){} // RVA: 0x34D2590
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34D26A0
-        public void Initialize(){} // RVA: 0x34D29D0
-        public void IncreaseCapacity(){} // RVA: 0x34D2B40
-        public void SetCapacity(){} // RVA: 0x34D2C10
-        public void AddIfNotPresent(){} // RVA: 0x34D2E00
-        public void AddValue(){} // RVA: 0x34D3160
-        public void ContainsAllElements(){} // RVA: 0x34D3220
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34D33E0
-        public void IntersectWithEnumerable(){} // RVA: 0x34D34C0
-        public void InternalIndexOf(){} // RVA: 0x34D3A50
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34D3BD0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34D4000
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34FB5A0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34FB270
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34FB6B0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34D7E70
-        public void CopyTo(){} // RVA: 0x34D9720 | overloaded x3
-        public void Remove(){} // RVA: 0x34D8030
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34D8280
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34D8310
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34D8310
-        public void GetObjectData(){} // RVA: 0x34FB6D0
-        public void OnDeserialization(){} // RVA: 0x34FBA60
-        public void Add(){} // RVA: 0x34FB6B0
-        public void UnionWith(){} // RVA: 0x34FC2D0
-        public void IntersectWith(){} // RVA: 0x34FC500
-        public void SetEquals(){} // RVA: 0x34FC780
-        public void RemoveWhere(){} // RVA: 0x34D9960
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34FC9B0
-        public void Initialize(){} // RVA: 0x34FCCE0
-        public void IncreaseCapacity(){} // RVA: 0x34FCE50
-        public void SetCapacity(){} // RVA: 0x34FCF20
-        public void AddIfNotPresent(){} // RVA: 0x34FD110
-        public void AddValue(){} // RVA: 0x34DA530
-        public void ContainsAllElements(){} // RVA: 0x34FD470
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34DA7B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FD630
-        public void InternalIndexOf(){} // RVA: 0x34DAE20
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FDBC0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34DB3D0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34E8450 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34E8120
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34E8560
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34E8960
-        public void OnDeserialization(){} // RVA: 0x34E8CF0
-        public void Add(){} // RVA: 0x34E8560
-        public void UnionWith(){} // RVA: 0x34E9590
-        public void IntersectWith(){} // RVA: 0x34E97C0
-        public void SetEquals(){} // RVA: 0x34E9A40
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34E9D80
-        public void Initialize(){} // RVA: 0x34EA0B0
-        public void IncreaseCapacity(){} // RVA: 0x34EA220
-        public void SetCapacity(){} // RVA: 0x34EA2F0
-        public void AddIfNotPresent(){} // RVA: 0x34EA4E0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EA950
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EAB00
-        public void IntersectWithEnumerable(){} // RVA: 0x34EABE0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EB180
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34FE8B0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34FE580
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34FE9C0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34FE9E0
-        public void OnDeserialization(){} // RVA: 0x34FED70
-        public void Add(){} // RVA: 0x34FE9C0
-        public void UnionWith(){} // RVA: 0x34FF610
-        public void IntersectWith(){} // RVA: 0x34FF840
-        public void SetEquals(){} // RVA: 0x34FFAC0
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34FFCF0
-        public void Initialize(){} // RVA: 0x3500020
-        public void IncreaseCapacity(){} // RVA: 0x3500190
-        public void SetCapacity(){} // RVA: 0x3500260
-        public void AddIfNotPresent(){} // RVA: 0x3500450
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x3500800
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EAB00
-        public void IntersectWithEnumerable(){} // RVA: 0x35009B0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x3500D90
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3508830 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x35083A0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x35088D0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x35089C0
-        public void CopyTo(){} // RVA: 0x350A620 | overloaded x3
-        public void Remove(){} // RVA: 0x3508D80
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x263BC0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x3509420
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3509420
-        public void GetObjectData(){} // RVA: 0x35094E0
-        public void OnDeserialization(){} // RVA: 0x3509850
-        public void Add(){} // RVA: 0x3509DE0
-        public void UnionWith(){} // RVA: 0x3509ED0
-        public void IntersectWith(){} // RVA: 0x350A210
-        public void SetEquals(){} // RVA: 0x350A3C0
-        public void RemoveWhere(){} // RVA: 0x350A9C0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x350ACC0
-        public void Initialize(){} // RVA: 0x350B130
-        public void IncreaseCapacity(){} // RVA: 0x350B2A0
-        public void SetCapacity(){} // RVA: 0x350B370
-        public void AddIfNotPresent(){} // RVA: 0x350B630
-        public void AddValue(){} // RVA: 0x350BBF0
-        public void ContainsAllElements(){} // RVA: 0x350BEC0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x350C170
-        public void IntersectWithEnumerable(){} // RVA: 0x350C400
-        public void InternalIndexOf(){} // RVA: 0x350CA00
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x350CD80
-        public void AreEqualityComparersEqual(){} // RVA: 0x350D2B0
-        public void InternalGetHashCode(){} // RVA: 0x350D3C0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34D7D40 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34D7A10
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34D7E50
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34D7E70
-        public void CopyTo(){} // RVA: 0x34D9720 | overloaded x3
-        public void Remove(){} // RVA: 0x34D8030
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34D8280
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34D8310
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34D8310
-        public void GetObjectData(){} // RVA: 0x34D83D0
-        public void OnDeserialization(){} // RVA: 0x34D8760
-        public void Add(){} // RVA: 0x34D7E50
-        public void UnionWith(){} // RVA: 0x34D8FD0
-        public void IntersectWith(){} // RVA: 0x34D9200
-        public void SetEquals(){} // RVA: 0x34D94C0
-        public void RemoveWhere(){} // RVA: 0x34D9960
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34D9A70
-        public void Initialize(){} // RVA: 0x34D9DA0
-        public void IncreaseCapacity(){} // RVA: 0x34D9F10
-        public void SetCapacity(){} // RVA: 0x34D9FE0
-        public void AddIfNotPresent(){} // RVA: 0x34DA1D0
-        public void AddValue(){} // RVA: 0x34DA530
-        public void ContainsAllElements(){} // RVA: 0x34DA5F0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34DA7B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34DA890
-        public void InternalIndexOf(){} // RVA: 0x34DAE20
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34DAFA0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34DB3D0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3505550 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x3505220
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x3505660
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34CCAC0
-        public void CopyTo(){} // RVA: 0x34CE360 | overloaded x3
-        public void Remove(){} // RVA: 0x34CCC80
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x3505680
-        public void OnDeserialization(){} // RVA: 0x3505A10
-        public void Add(){} // RVA: 0x3505660
-        public void UnionWith(){} // RVA: 0x3506270
-        public void IntersectWith(){} // RVA: 0x35064A0
-        public void SetEquals(){} // RVA: 0x3506760
-        public void RemoveWhere(){} // RVA: 0x34CE5A0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x3506990
-        public void Initialize(){} // RVA: 0x3506CB0
-        public void IncreaseCapacity(){} // RVA: 0x3506E20
-        public void SetCapacity(){} // RVA: 0x3506EF0
-        public void AddIfNotPresent(){} // RVA: 0x35070E0
-        public void AddValue(){} // RVA: 0x34CF180
-        public void ContainsAllElements(){} // RVA: 0x3507460
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34CF3F0
-        public void IntersectWithEnumerable(){} // RVA: 0x3507610
-        public void InternalIndexOf(){} // RVA: 0x34CFA50
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x3507B90
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34D00A0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34EBED0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34EBBA0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34EBFE0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E8580
-        public void CopyTo(){} // RVA: 0x34DD6E0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E8710
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34DC250
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34DC2E0
-        public void GetObjectData(){} // RVA: 0x34EC000
-        public void OnDeserialization(){} // RVA: 0x34EC390
-        public void Add(){} // RVA: 0x34EBFE0
-        public void UnionWith(){} // RVA: 0x34ECC30
-        public void IntersectWith(){} // RVA: 0x34ECE60
-        public void SetEquals(){} // RVA: 0x34ED120
-        public void RemoveWhere(){} // RVA: 0x34E9C70
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34ED350
-        public void Initialize(){} // RVA: 0x34ED680
-        public void IncreaseCapacity(){} // RVA: 0x34ED7F0
-        public void SetCapacity(){} // RVA: 0x34ED8C0
-        public void AddIfNotPresent(){} // RVA: 0x34EDAB0
-        public void AddValue(){} // RVA: 0x34EA890
-        public void ContainsAllElements(){} // RVA: 0x34EDE60
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34EE010
-        public void IntersectWithEnumerable(){} // RVA: 0x34EE0F0
-        public void InternalIndexOf(){} // RVA: 0x34EAFC0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34EE4D0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34EB5B0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34D4920 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34D45F0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34D4A30
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34D0AF0
-        public void CopyTo(){} // RVA: 0x34D2350 | overloaded x3
-        public void Remove(){} // RVA: 0x34D0CB0
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34D0F00
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34D0F90
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34D0F90
-        public void GetObjectData(){} // RVA: 0x34D4A50
-        public void OnDeserialization(){} // RVA: 0x34D4DE0
-        public void Add(){} // RVA: 0x34D4A30
-        public void UnionWith(){} // RVA: 0x34D5640
-        public void IntersectWith(){} // RVA: 0x34D5870
-        public void SetEquals(){} // RVA: 0x34D5B30
-        public void RemoveWhere(){} // RVA: 0x34D2590
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34D5D60
-        public void Initialize(){} // RVA: 0x34D6090
-        public void IncreaseCapacity(){} // RVA: 0x34D6200
-        public void SetCapacity(){} // RVA: 0x34D62D0
-        public void AddIfNotPresent(){} // RVA: 0x34D64C0
-        public void AddValue(){} // RVA: 0x34D3160
-        public void ContainsAllElements(){} // RVA: 0x34D6820
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34D69E0
-        public void IntersectWithEnumerable(){} // RVA: 0x34D6AC0
-        public void InternalIndexOf(){} // RVA: 0x34D3A50
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34D7050
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34D4000
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34E42C0 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34E3F60
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34E43D0
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34E4400
-        public void CopyTo(){} // RVA: 0x34E5EB0 | overloaded x3
-        public void Remove(){} // RVA: 0x34E4660
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34E4940
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34E49D0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34E49D0
-        public void GetObjectData(){} // RVA: 0x34E4AA0
-        public void OnDeserialization(){} // RVA: 0x34E4E30
-        public void Add(){} // RVA: 0x34E43D0
-        public void UnionWith(){} // RVA: 0x34E5730
-        public void IntersectWith(){} // RVA: 0x34E5970
-        public void SetEquals(){} // RVA: 0x34E5C50
-        public void RemoveWhere(){} // RVA: 0x34E60F0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34E6220
-        public void Initialize(){} // RVA: 0x34E6550
-        public void IncreaseCapacity(){} // RVA: 0x34E66C0
-        public void SetCapacity(){} // RVA: 0x34E6790
-        public void AddIfNotPresent(){} // RVA: 0x34E6980
-        public void AddValue(){} // RVA: 0x34E6D90
-        public void ContainsAllElements(){} // RVA: 0x34E6E50
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34E7020
-        public void IntersectWithEnumerable(){} // RVA: 0x34E7110
-        public void InternalIndexOf(){} // RVA: 0x34E7520
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34E7750
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34E7BA0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x350DE30 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x350DAD0
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x350DF40
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34DFE80
-        public void CopyTo(){} // RVA: 0x34E1930 | overloaded x3
-        public void Remove(){} // RVA: 0x34E0090
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34E0350
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34E03E0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34E03E0
-        public void GetObjectData(){} // RVA: 0x350DF80
-        public void OnDeserialization(){} // RVA: 0x350E310
-        public void Add(){} // RVA: 0x350DF40
-        public void UnionWith(){} // RVA: 0x350EC60
-        public void IntersectWith(){} // RVA: 0x350EEB0
-        public void SetEquals(){} // RVA: 0x350F1B0
-        public void RemoveWhere(){} // RVA: 0x34E1BA0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x350F3E0
-        public void Initialize(){} // RVA: 0x350F720
-        public void IncreaseCapacity(){} // RVA: 0x350F890
-        public void SetCapacity(){} // RVA: 0x350F960
-        public void AddIfNotPresent(){} // RVA: 0x350FB50
-        public void AddValue(){} // RVA: 0x34E2890
-        public void ContainsAllElements(){} // RVA: 0x350FF80
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34E2BB0
-        public void IntersectWithEnumerable(){} // RVA: 0x3510170
-        public void InternalIndexOf(){} // RVA: 0x34E32B0
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x3510750
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34E38F0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x3501A80 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x3501750
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x3501B90
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x3501BB0
-        public void CopyTo(){} // RVA: 0x34CE360 | overloaded x3
-        public void Remove(){} // RVA: 0x3501D40
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x3501F80
-        public void OnDeserialization(){} // RVA: 0x3502310
-        public void Add(){} // RVA: 0x3501B90
-        public void UnionWith(){} // RVA: 0x3502B70
-        public void IntersectWith(){} // RVA: 0x3502DA0
-        public void SetEquals(){} // RVA: 0x3503060
-        public void RemoveWhere(){} // RVA: 0x3503290
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x35033A0
-        public void Initialize(){} // RVA: 0x35036C0
-        public void IncreaseCapacity(){} // RVA: 0x3503830
-        public void SetCapacity(){} // RVA: 0x3503900
-        public void AddIfNotPresent(){} // RVA: 0x3503AF0
-        public void AddValue(){} // RVA: 0x34CF180
-        public void ContainsAllElements(){} // RVA: 0x3503E40
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x3504000
-        public void IntersectWithEnumerable(){} // RVA: 0x35040E0
-        public void InternalIndexOf(){} // RVA: 0x3504680
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x3504800
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x3504C30
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34CC930 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34CC600
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34CCA40
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34CCAC0
-        public void CopyTo(){} // RVA: 0x34CE360 | overloaded x3
-        public void Remove(){} // RVA: 0x34CCC80
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34CD020
-        public void OnDeserialization(){} // RVA: 0x34CD3B0
-        public void Add(){} // RVA: 0x34CCA40
-        public void UnionWith(){} // RVA: 0x34CDC10
-        public void IntersectWith(){} // RVA: 0x34CDE40
-        public void SetEquals(){} // RVA: 0x34CE100
-        public void RemoveWhere(){} // RVA: 0x34CE5A0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34CE6B0
-        public void Initialize(){} // RVA: 0x34CE9D0
-        public void IncreaseCapacity(){} // RVA: 0x34CEB40
-        public void SetCapacity(){} // RVA: 0x34CEC10
-        public void AddIfNotPresent(){} // RVA: 0x34CEE00
-        public void AddValue(){} // RVA: 0x34CF180
-        public void ContainsAllElements(){} // RVA: 0x34CF230
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34CF3F0
-        public void IntersectWithEnumerable(){} // RVA: 0x34CF4D0
-        public void InternalIndexOf(){} // RVA: 0x34CFA50
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34CFBF0
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34D00A0
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-    }
-
-    public class HashSet`1
-    {
-        public int Lower31BitMask;
-        public int StackAllocThreshold;
-        public int ShrinkThreshold;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x34F7650 | overloaded x7
-        public void CopyFrom(){} // RVA: 0x34F7320
-        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x34F7760
-        public void Clear(){} // RVA: 0x34CCA60
-        public void Contains(){} // RVA: 0x34F7780
-        public void CopyTo(){} // RVA: 0x34F9000 | overloaded x3
-        public void Remove(){} // RVA: 0x34F7990
-        public void get_Count(){} // RVA: 0x760030
-        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void GetEnumerator(){} // RVA: 0x34CCED0
-        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x34CCF60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x34CCF60
-        public void GetObjectData(){} // RVA: 0x34F7C50
-        public void OnDeserialization(){} // RVA: 0x34F7FE0
-        public void Add(){} // RVA: 0x34F7760
-        public void UnionWith(){} // RVA: 0x34F88F0
-        public void IntersectWith(){} // RVA: 0x34F8B20
-        public void SetEquals(){} // RVA: 0x34F8DA0
-        public void RemoveWhere(){} // RVA: 0x34F9250
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void TrimExcess(){} // RVA: 0x34F9360
-        public void Initialize(){} // RVA: 0x34F9690
-        public void IncreaseCapacity(){} // RVA: 0x34F9800
-        public void SetCapacity(){} // RVA: 0x34F98D0
-        public void AddIfNotPresent(){} // RVA: 0x34F9AC0
-        public void AddValue(){} // RVA: 0x34F9ED0
-        public void ContainsAllElements(){} // RVA: 0x34F9FF0
-        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x34FA1B0
-        public void IntersectWithEnumerable(){} // RVA: 0x34FA290
-        public void InternalIndexOf(){} // RVA: 0x34FA670
-        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x34FA840
-        public void AreEqualityComparersEqual(){} // RVA: 0x34D0020
-        public void InternalGetHashCode(){} // RVA: 0x34FAC70
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7E19BE0
+        public void CopyFrom(){} // RVA: 0x7A7E18800
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7A8051B10
+        public void Clear(){} // RVA: 0x7A7E18770
+        public void Contains(){} // RVA: 0x7A8051B10
+        public void CopyTo(){} // RVA: 0x7A7E1E220
+        public void Remove(){} // RVA: 0x7A8051B10
+        public void get_Count(){} // RVA: 0x7A7E00710
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A7E01900
+        public void GetEnumerator(){} // RVA: 0x7A8051B10
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7A7E00680
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+        public void GetObjectData(){} // RVA: 0x7A7E18890
+        public void OnDeserialization(){} // RVA: 0x7A7E18800
+        public void Add(){} // RVA: 0x7A8051B10
+        public void UnionWith(){} // RVA: 0x7A7E18800
+        public void IntersectWith(){} // RVA: 0x7A7E18800
+        public void SetEquals(){} // RVA: 0x7A7E019D0
+        public void RemoveWhere(){} // RVA: 0x7A7E01630
+        public void get_Comparer(){} // RVA: 0x7A7E00680
+        public void TrimExcess(){} // RVA: 0x7A7E18770
+        public void Initialize(){} // RVA: 0x7A7E062A0
+        public void IncreaseCapacity(){} // RVA: 0x7A7E18770
+        public void SetCapacity(){} // RVA: 0x7A7E189D0
+        public void AddIfNotPresent(){} // RVA: 0x7A8051B10
+        public void AddValue(){} // RVA: 0x7A8051B10
+        public void ContainsAllElements(){} // RVA: 0x7A7E019D0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7A7E18800
+        public void IntersectWithEnumerable(){} // RVA: 0x7A7E18800
+        public void InternalIndexOf(){} // RVA: 0x7A8051B10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7A8051B10
+        public void AreEqualityComparersEqual(){} // RVA: 0x7A7E01F80
+        public void InternalGetHashCode(){} // RVA: 0x7A8051B10
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2E3670
+        public void CopyFrom(){} // RVA: 0x7AB2E3310
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E3780
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2D8A90
+        public void CopyTo(){} // RVA: 0x7AB2E4F60
+        public void Remove(){} // RVA: 0x7AB2E37E0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D8FD0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D9060
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D9060
+        public void GetObjectData(){} // RVA: 0x7AB2E3AE0
+        public void OnDeserialization(){} // RVA: 0x7AB2E3E70
+        public void Add(){} // RVA: 0x7AB2E3780
+        public void UnionWith(){} // RVA: 0x7AB2E47E0
+        public void IntersectWith(){} // RVA: 0x7AB2E4A30
+        public void SetEquals(){} // RVA: 0x7AB2E4D00
+        public void RemoveWhere(){} // RVA: 0x7AB2E51B0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E52D0
+        public void Initialize(){} // RVA: 0x7AB2E5620
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E5790
+        public void SetCapacity(){} // RVA: 0x7AB2E5860
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E5A40
+        public void AddValue(){} // RVA: 0x7AB2E5EC0
+        public void ContainsAllElements(){} // RVA: 0x7AB2E5FE0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2E61B0
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E62A0
+        public void InternalIndexOf(){} // RVA: 0x7AB2DBB70
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E66B0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DC1F0
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void CopyTo(){} // RVA: 0x7AB2EBE30
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7AB2C98E0
+        public void .ctor(){} // RVA: 0x7AB2C97D0
+        public void CopyFrom(){} // RVA: 0x7AB2C9480
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2C98E0
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2C5B70
+        public void CopyTo(){} // RVA: 0x7AB2C73E0
+        public void Remove(){} // RVA: 0x7AB2C5D30
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C5F80
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C6010
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C6010
+        public void GetObjectData(){} // RVA: 0x7AB2C9900
+        public void OnDeserialization(){} // RVA: 0x7AB2C9C90
+        public void UnionWith(){} // RVA: 0x7AB2CA510
+        public void IntersectWith(){} // RVA: 0x7AB2CA740
+        public void SetEquals(){} // RVA: 0x7AB2CA9F0
+        public void RemoveWhere(){} // RVA: 0x7AB2C7610
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2CAC20
+        public void Initialize(){} // RVA: 0x7AB2CAF30
+        public void IncreaseCapacity(){} // RVA: 0x7AB2CB0A0
+        public void SetCapacity(){} // RVA: 0x7AB2CB170
+        public void AddIfNotPresent(){} // RVA: 0x7AB2CB350
+        public void AddValue(){} // RVA: 0x7AB2C81C0
+        public void ContainsAllElements(){} // RVA: 0x7AB2CB6B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2C8440
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2CB870
+        public void InternalIndexOf(){} // RVA: 0x7AB2C88E0
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2CBC50
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2C8E90
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x7A851DB90
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EB320
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2C5A40
+        public void CopyFrom(){} // RVA: 0x7AB2C56F0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2C5B50
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2C5B70
+        public void CopyTo(){} // RVA: 0x7AB2C73E0
+        public void Remove(){} // RVA: 0x7AB2C5D30
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C5F80
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C6010
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C6010
+        public void GetObjectData(){} // RVA: 0x7AB2C60D0
+        public void OnDeserialization(){} // RVA: 0x7AB2C6460
+        public void Add(){} // RVA: 0x7AB2C5B50
+        public void UnionWith(){} // RVA: 0x7AB2C6CE0
+        public void IntersectWith(){} // RVA: 0x7AB2C6F10
+        public void SetEquals(){} // RVA: 0x7AB2C7180
+        public void RemoveWhere(){} // RVA: 0x7AB2C7610
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2C7730
+        public void Initialize(){} // RVA: 0x7AB2C7A40
+        public void IncreaseCapacity(){} // RVA: 0x7AB2C7BB0
+        public void SetCapacity(){} // RVA: 0x7AB2C7C80
+        public void AddIfNotPresent(){} // RVA: 0x7AB2C7E60
+        public void AddValue(){} // RVA: 0x7AB2C81C0
+        public void ContainsAllElements(){} // RVA: 0x7AB2C8280
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2C8440
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2C8500
+        public void InternalIndexOf(){} // RVA: 0x7AB2C88E0
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2C8A60
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2C8E90
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EFA60
+        public void CopyFrom(){} // RVA: 0x7AB2EF710
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EFB70
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2CCA90
+        public void CopyTo(){} // RVA: 0x7AB2CE330
+        public void Remove(){} // RVA: 0x7AB2CCC50
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2CCEA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2CCF30
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2CCF30
+        public void GetObjectData(){} // RVA: 0x7AB2EFB90
+        public void OnDeserialization(){} // RVA: 0x7AB2EFF20
+        public void Add(){} // RVA: 0x7AB2EFB70
+        public void UnionWith(){} // RVA: 0x7AB2F0790
+        public void IntersectWith(){} // RVA: 0x7AB2F09C0
+        public void SetEquals(){} // RVA: 0x7AB2F0C30
+        public void RemoveWhere(){} // RVA: 0x7AB2CE570
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2F0E60
+        public void Initialize(){} // RVA: 0x7AB2F1170
+        public void IncreaseCapacity(){} // RVA: 0x7AB2F12E0
+        public void SetCapacity(){} // RVA: 0x7AB2F13B0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2F1590
+        public void AddValue(){} // RVA: 0x7AB2CF120
+        public void ContainsAllElements(){} // RVA: 0x7AB2F18F0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2CF3A0
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2F1AB0
+        public void InternalIndexOf(){} // RVA: 0x7AB2CF840
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2F1E90
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2CFDF0
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void CopyTo(){} // RVA: 0x7AB2EBE30
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EB320
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2DCAC0
+        public void CopyFrom(){} // RVA: 0x7AB2DC770
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2DCBD0
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2DCFD0
+        public void OnDeserialization(){} // RVA: 0x7AB2DD360
+        public void Add(){} // RVA: 0x7AB2DCBD0
+        public void UnionWith(){} // RVA: 0x7AB2DDC10
+        public void IntersectWith(){} // RVA: 0x7AB2DDE40
+        public void SetEquals(){} // RVA: 0x7AB2DE0B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2DE3F0
+        public void Initialize(){} // RVA: 0x7AB2DE700
+        public void IncreaseCapacity(){} // RVA: 0x7AB2DE870
+        public void SetCapacity(){} // RVA: 0x7AB2DE940
+        public void AddIfNotPresent(){} // RVA: 0x7AB2DEB20
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2DEED0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2DF150
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2DF6F0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2F2BA0
+        public void CopyFrom(){} // RVA: 0x7AB2F2850
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2F2CB0
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2F2CD0
+        public void OnDeserialization(){} // RVA: 0x7AB2F3060
+        public void Add(){} // RVA: 0x7AB2F2CB0
+        public void UnionWith(){} // RVA: 0x7AB2F3910
+        public void IntersectWith(){} // RVA: 0x7AB2F3B40
+        public void SetEquals(){} // RVA: 0x7AB2F3DB0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2F3FE0
+        public void Initialize(){} // RVA: 0x7AB2F42F0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2F4460
+        public void SetCapacity(){} // RVA: 0x7AB2F4530
+        public void AddIfNotPresent(){} // RVA: 0x7AB2F4710
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2F4AC0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2F4C80
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2F5050
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2FCA60
+        public void CopyFrom(){} // RVA: 0x7AB2FC5D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2FCB00
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2FCBF0
+        public void CopyTo(){} // RVA: 0x7AB2FE7F0
+        public void Remove(){} // RVA: 0x7AB2FCFA0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2FD640
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2FD640
+        public void GetObjectData(){} // RVA: 0x7AB2FD6F0
+        public void OnDeserialization(){} // RVA: 0x7AB2FDA60
+        public void Add(){} // RVA: 0x7AB2FDFF0
+        public void UnionWith(){} // RVA: 0x7AB2FE0E0
+        public void IntersectWith(){} // RVA: 0x7AB2FE420
+        public void SetEquals(){} // RVA: 0x7AB2FE5C0
+        public void RemoveWhere(){} // RVA: 0x7AB2FEB90
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2FEE80
+        public void Initialize(){} // RVA: 0x7AB2FF2F0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2FF460
+        public void SetCapacity(){} // RVA: 0x7AB2FF530
+        public void AddIfNotPresent(){} // RVA: 0x7AB2FF7F0
+        public void AddValue(){} // RVA: 0x7AB2FFDA0
+        public void ContainsAllElements(){} // RVA: 0x7AB300070
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB300320
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB3005A0
+        public void InternalIndexOf(){} // RVA: 0x7AB300B90
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB300F00
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB301430
+        public void InternalGetHashCode(){} // RVA: 0x7AB301540
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2CC960
+        public void CopyFrom(){} // RVA: 0x7AB2CC610
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2CCA70
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2CCA90
+        public void CopyTo(){} // RVA: 0x7AB2CE330
+        public void Remove(){} // RVA: 0x7AB2CCC50
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2CCEA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2CCF30
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2CCF30
+        public void GetObjectData(){} // RVA: 0x7AB2CCFF0
+        public void OnDeserialization(){} // RVA: 0x7AB2CD380
+        public void Add(){} // RVA: 0x7AB2CCA70
+        public void UnionWith(){} // RVA: 0x7AB2CDBF0
+        public void IntersectWith(){} // RVA: 0x7AB2CDE20
+        public void SetEquals(){} // RVA: 0x7AB2CE0D0
+        public void RemoveWhere(){} // RVA: 0x7AB2CE570
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2CE690
+        public void Initialize(){} // RVA: 0x7AB2CE9A0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2CEB10
+        public void SetCapacity(){} // RVA: 0x7AB2CEBE0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2CEDC0
+        public void AddValue(){} // RVA: 0x7AB2CF120
+        public void ContainsAllElements(){} // RVA: 0x7AB2CF1E0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2CF3A0
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2CF460
+        public void InternalIndexOf(){} // RVA: 0x7AB2CF840
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2CF9C0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2CFDF0
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2F97F0
+        public void CopyFrom(){} // RVA: 0x7AB2F94A0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2F9900
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2C1B90
+        public void CopyTo(){} // RVA: 0x7AB2C3430
+        public void Remove(){} // RVA: 0x7AB2C1D50
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2F9920
+        public void OnDeserialization(){} // RVA: 0x7AB2F9CB0
+        public void Add(){} // RVA: 0x7AB2F9900
+        public void UnionWith(){} // RVA: 0x7AB2FA520
+        public void IntersectWith(){} // RVA: 0x7AB2FA750
+        public void SetEquals(){} // RVA: 0x7AB2FAA00
+        public void RemoveWhere(){} // RVA: 0x7AB2C3670
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2FAC30
+        public void Initialize(){} // RVA: 0x7AB2FAF40
+        public void IncreaseCapacity(){} // RVA: 0x7AB2FB0B0
+        public void SetCapacity(){} // RVA: 0x7AB2FB180
+        public void AddIfNotPresent(){} // RVA: 0x7AB2FB360
+        public void AddValue(){} // RVA: 0x7AB2C4210
+        public void ContainsAllElements(){} // RVA: 0x7AB2FB6C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2C4480
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2FB870
+        public void InternalIndexOf(){} // RVA: 0x7AB2C4AD0
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2FBE00
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2C5100
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2C97D0
+        public void CopyFrom(){} // RVA: 0x7AB2C9480
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2C98E0
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2C5B70
+        public void CopyTo(){} // RVA: 0x7AB2C73E0
+        public void Remove(){} // RVA: 0x7AB2C5D30
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C5F80
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C6010
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C6010
+        public void GetObjectData(){} // RVA: 0x7AB2C9900
+        public void OnDeserialization(){} // RVA: 0x7AB2C9C90
+        public void Add(){} // RVA: 0x7AB2C98E0
+        public void UnionWith(){} // RVA: 0x7AB2CA510
+        public void IntersectWith(){} // RVA: 0x7AB2CA740
+        public void SetEquals(){} // RVA: 0x7AB2CA9F0
+        public void RemoveWhere(){} // RVA: 0x7AB2C7610
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2CAC20
+        public void Initialize(){} // RVA: 0x7AB2CAF30
+        public void IncreaseCapacity(){} // RVA: 0x7AB2CB0A0
+        public void SetCapacity(){} // RVA: 0x7AB2CB170
+        public void AddIfNotPresent(){} // RVA: 0x7AB2CB350
+        public void AddValue(){} // RVA: 0x7AB2C81C0
+        public void ContainsAllElements(){} // RVA: 0x7AB2CB6B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2C8440
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2CB870
+        public void InternalIndexOf(){} // RVA: 0x7AB2C88E0
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2CBC50
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2C8E90
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2D8950
+        public void CopyFrom(){} // RVA: 0x7AB2D85D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2D8A60
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2D8A90
+        public void CopyTo(){} // RVA: 0x7AB2DA540
+        public void Remove(){} // RVA: 0x7AB2D8CF0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D8FD0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D9060
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D9060
+        public void GetObjectData(){} // RVA: 0x7AB2D9130
+        public void OnDeserialization(){} // RVA: 0x7AB2D94C0
+        public void Add(){} // RVA: 0x7AB2D8A60
+        public void UnionWith(){} // RVA: 0x7AB2D9DC0
+        public void IntersectWith(){} // RVA: 0x7AB2DA010
+        public void SetEquals(){} // RVA: 0x7AB2DA2E0
+        public void RemoveWhere(){} // RVA: 0x7AB2DA780
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2DA8A0
+        public void Initialize(){} // RVA: 0x7AB2DABB0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2DAD20
+        public void SetCapacity(){} // RVA: 0x7AB2DADF0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2DAFD0
+        public void AddValue(){} // RVA: 0x7AB2DB3E0
+        public void ContainsAllElements(){} // RVA: 0x7AB2DB4A0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DB670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2DB760
+        public void InternalIndexOf(){} // RVA: 0x7AB2DBB70
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2DBDA0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DC1F0
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void Add(){} // RVA: 0x7AB2E0570
+        public void .ctor(){} // RVA: 0x7AB2E0460
+        public void CopyFrom(){} // RVA: 0x7AB2E0110
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2E0570
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2DCBF0
+        public void CopyTo(){} // RVA: 0x7AB2D2120
+        public void Remove(){} // RVA: 0x7AB2DCD80
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D0C90
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D0D20
+        public void GetObjectData(){} // RVA: 0x7AB2E0590
+        public void OnDeserialization(){} // RVA: 0x7AB2E0920
+        public void UnionWith(){} // RVA: 0x7AB2E11D0
+        public void IntersectWith(){} // RVA: 0x7AB2E1400
+        public void SetEquals(){} // RVA: 0x7AB2E16B0
+        public void RemoveWhere(){} // RVA: 0x7AB2DE2E0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2E18E0
+        public void Initialize(){} // RVA: 0x7AB2E1BF0
+        public void IncreaseCapacity(){} // RVA: 0x7AB2E1D60
+        public void SetCapacity(){} // RVA: 0x7AB2E1E30
+        public void AddIfNotPresent(){} // RVA: 0x7AB2E2010
+        public void AddValue(){} // RVA: 0x7AB2D2F00
+        public void ContainsAllElements(){} // RVA: 0x7AB2E23C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2DF090
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2E2580
+        public void InternalIndexOf(){} // RVA: 0x7AB2DF520
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2E2950
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2DFB20
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB301FC0
+        public void CopyFrom(){} // RVA: 0x7AB301C50
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB3020D0
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2D46D0
+        public void CopyTo(){} // RVA: 0x7AB2D6180
+        public void Remove(){} // RVA: 0x7AB2D48E0
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2D4BA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2D4C30
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2D4C30
+        public void GetObjectData(){} // RVA: 0x7AB302110
+        public void OnDeserialization(){} // RVA: 0x7AB3024A0
+        public void Add(){} // RVA: 0x7AB3020D0
+        public void UnionWith(){} // RVA: 0x7AB302E00
+        public void IntersectWith(){} // RVA: 0x7AB303060
+        public void SetEquals(){} // RVA: 0x7AB303360
+        public void RemoveWhere(){} // RVA: 0x7AB2D63F0
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB303590
+        public void Initialize(){} // RVA: 0x7AB3038D0
+        public void IncreaseCapacity(){} // RVA: 0x7AB303A40
+        public void SetCapacity(){} // RVA: 0x7AB303B10
+        public void AddIfNotPresent(){} // RVA: 0x7AB303CF0
+        public void AddValue(){} // RVA: 0x7AB2D70E0
+        public void ContainsAllElements(){} // RVA: 0x7AB304120
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2D7400
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB304310
+        public void InternalIndexOf(){} // RVA: 0x7AB2D7940
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB304740
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2D7F60
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2F5D60
+        public void CopyFrom(){} // RVA: 0x7AB2F5A10
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2F5E70
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2F5E90
+        public void CopyTo(){} // RVA: 0x7AB2C3430
+        public void Remove(){} // RVA: 0x7AB2F6020
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2F6260
+        public void OnDeserialization(){} // RVA: 0x7AB2F65F0
+        public void Add(){} // RVA: 0x7AB2F5E70
+        public void UnionWith(){} // RVA: 0x7AB2F6E50
+        public void IntersectWith(){} // RVA: 0x7AB2F7080
+        public void SetEquals(){} // RVA: 0x7AB2F7330
+        public void RemoveWhere(){} // RVA: 0x7AB2F7560
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2F7670
+        public void Initialize(){} // RVA: 0x7AB2F7980
+        public void IncreaseCapacity(){} // RVA: 0x7AB2F7AF0
+        public void SetCapacity(){} // RVA: 0x7AB2F7BC0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2F7DA0
+        public void AddValue(){} // RVA: 0x7AB2C4210
+        public void ContainsAllElements(){} // RVA: 0x7AB2F80F0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2F82B0
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2F8370
+        public void InternalIndexOf(){} // RVA: 0x7AB2F8900
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2F8A80
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2F8EB0
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2C1A00
+        public void CopyFrom(){} // RVA: 0x7AB2C16B0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2C1B10
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2C1B90
+        public void CopyTo(){} // RVA: 0x7AB2C3430
+        public void Remove(){} // RVA: 0x7AB2C1D50
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2C20F0
+        public void OnDeserialization(){} // RVA: 0x7AB2C2480
+        public void Add(){} // RVA: 0x7AB2C1B10
+        public void UnionWith(){} // RVA: 0x7AB2C2CF0
+        public void IntersectWith(){} // RVA: 0x7AB2C2F20
+        public void SetEquals(){} // RVA: 0x7AB2C31D0
+        public void RemoveWhere(){} // RVA: 0x7AB2C3670
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2C3780
+        public void Initialize(){} // RVA: 0x7AB2C3A90
+        public void IncreaseCapacity(){} // RVA: 0x7AB2C3C00
+        public void SetCapacity(){} // RVA: 0x7AB2C3CD0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2C3EB0
+        public void AddValue(){} // RVA: 0x7AB2C4210
+        public void ContainsAllElements(){} // RVA: 0x7AB2C42C0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2C4480
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2C4540
+        public void InternalIndexOf(){} // RVA: 0x7AB2C4AD0
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2C4C50
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2C5100
+    }
+
+    public class HashSet`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB2EBB20
+        public void CopyFrom(){} // RVA: 0x7AB2EB7D0
+        public void System.Collections.Generic.ICollection<T>.Add(){} // RVA: 0x7AB2EBC30
+        public void Clear(){} // RVA: 0x7AB2C1B30
+        public void Contains(){} // RVA: 0x7AB2EBC50
+        public void CopyTo(){} // RVA: 0x7AB2ED4D0
+        public void Remove(){} // RVA: 0x7AB2EBE60
+        public void get_Count(){} // RVA: 0x7A851DB90
+        public void System.Collections.Generic.ICollection<T>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void GetEnumerator(){} // RVA: 0x7AB2C1FA0
+        public void System.Collections.Generic.IEnumerable<T>.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB2C2030
+        public void GetObjectData(){} // RVA: 0x7AB2EC120
+        public void OnDeserialization(){} // RVA: 0x7AB2EC4B0
+        public void Add(){} // RVA: 0x7AB2EBC30
+        public void UnionWith(){} // RVA: 0x7AB2ECDD0
+        public void IntersectWith(){} // RVA: 0x7AB2ED000
+        public void SetEquals(){} // RVA: 0x7AB2ED270
+        public void RemoveWhere(){} // RVA: 0x7AB2ED720
+        public void get_Comparer(){} // RVA: 0x7A83F69F0
+        public void TrimExcess(){} // RVA: 0x7AB2ED830
+        public void Initialize(){} // RVA: 0x7AB2EDB60
+        public void IncreaseCapacity(){} // RVA: 0x7AB2EDCD0
+        public void SetCapacity(){} // RVA: 0x7AB2EDDA0
+        public void AddIfNotPresent(){} // RVA: 0x7AB2EDF80
+        public void AddValue(){} // RVA: 0x7AB2EE390
+        public void ContainsAllElements(){} // RVA: 0x7AB2EE4B0
+        public void IntersectWithHashSetWithSameEC(){} // RVA: 0x7AB2EE670
+        public void IntersectWithEnumerable(){} // RVA: 0x7AB2EE730
+        public void InternalIndexOf(){} // RVA: 0x7AB2EEB10
+        public void CheckUniqueAndUnfoundElements(){} // RVA: 0x7AB2EECE0
+        public void AreEqualityComparersEqual(){} // RVA: 0x7AB2C5080
+        public void InternalGetHashCode(){} // RVA: 0x7AB2EF110
+    }
+
+    public class HashSet`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class HashSet`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class HashSet`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class HashSet`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class HashSet`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class HashSet`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
 }

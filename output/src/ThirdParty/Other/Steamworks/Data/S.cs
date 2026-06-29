@@ -1,397 +1,309 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Steamworks.Data
-// Classes: 45
-// Methods: 94
+// Classes: 42
+// Methods: 91
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class Screenshot
-    {
-    }
-
-    public class ScreenshotHandle
+    public class ScreenshotHandle : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x20C5210
-        public void ToString(){} // RVA: 0x20C5200
-        public void GetHashCode(){} // RVA: 0x19689B0
-        public void Equals(){} // RVA: 0x20D5E20 | overloaded x2
-        public void CompareTo(){} // RVA: 0x20D5E30
+        public void op_Implicit(){} // RVA: 0x7A9ED9B50
+        public void ToString(){} // RVA: 0x7A771EAE0
+        public void GetHashCode(){} // RVA: 0x7A765F070
+        public void Equals(){} // RVA: 0x7A7729020
+        public void CompareTo(){} // RVA: 0x7A7729030
     }
 
-    public class ScreenshotReady_t
-    {
-        public uint Local; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CEDE0
-        public void .cctor(){} // RVA: 0x20CEDF0
-    }
-
-    public class ScreenshotRequested_t
-    {
-        public int _datasize;
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CEEF0
-        public void .cctor(){} // RVA: 0x20CEF00
-    }
-
-    public class SearchForGameProgressCallback_t
-    {
-        public ulong LSearchID; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CAE20
-        public void .cctor(){} // RVA: 0x20CAE30
-    }
-
-    public class SearchForGameResultCallback_t
-    {
-        public ulong LSearchID; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CAF30
-        public void .cctor(){} // RVA: 0x20CAF40
-    }
-
-    public class SetPersonaNameResponse_t
-    {
-        public bool Success; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C94B0
-        public void .cctor(){} // RVA: 0x20C94C0
-    }
-
-    public class SetUserItemVoteResult_t
-    {
-        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D0ED0
-        public void .cctor(){} // RVA: 0x20D0EE0
-    }
-
-    public class Socket
+    public class ScreenshotReady_t : ValueType
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x20C5200
+        public void get_CallbackType(){} // RVA: 0x7A7725D70
+        public void .cctor(){} // RVA: 0x7A9EE3690
     }
 
-    public class StartPlaytimeTrackingResult_t
-    {
-        public 0x659B1530 Result; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D10F0
-        public void .cctor(){} // RVA: 0x20D1100
-    }
-
-    public class SteamAPICallCompleted_t
-    {
-        public ulong AsyncCall; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C9B10
-        public void .cctor(){} // RVA: 0x20C9B20
-    }
-
-    public class SteamAppInstalled_t
-    {
-        public Steamworks.AppId AppID; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D1B90
-        public void .cctor(){} // RVA: 0x20D1BA0
-    }
-
-    public class SteamAppUninstalled_t
-    {
-        public Steamworks.AppId AppID; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D1CA0
-        public void .cctor(){} // RVA: 0x20D1CB0
-    }
-
-    public class SteamInputConfigurationLoaded_t
-    {
-        public Steamworks.AppId AppID; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D0650
-        public void .cctor(){} // RVA: 0x20D0660
-    }
-
-    public class SteamInputDeviceConnected_t
-    {
-        public ulong ConnectedDeviceHandle; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D0430
-        public void .cctor(){} // RVA: 0x20D0440
-    }
-
-    public class SteamInputDeviceDisconnected_t
-    {
-        public ulong DisconnectedDeviceHandle; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D0540
-        public void .cctor(){} // RVA: 0x20D0550
-    }
-
-    public class SteamInventoryDefinitionUpdate_t
-    {
-        public int _datasize;
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D3840
-        public void .cctor(){} // RVA: 0x20D3850
-    }
-
-    public class SteamInventoryEligiblePromoItemDefIDs_t
-    {
-        public 0x659B1530 Result; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D3950
-        public void .cctor(){} // RVA: 0x20D3960
-    }
-
-    public class SteamInventoryFullUpdate_t
-    {
-        public int Handle; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D3730
-        public void .cctor(){} // RVA: 0x20D3740
-    }
-
-    public class SteamInventoryRequestPricesResult_t
-    {
-        public 0x659B1530 Result; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D3B70
-        public void .cctor(){} // RVA: 0x20D3B80
-    }
-
-    public class SteamInventoryResultReady_t
-    {
-        public int Handle; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D3620
-        public void .cctor(){} // RVA: 0x20D3630
-    }
-
-    public class SteamInventoryResult_t
+    public class ScreenshotRequested_t : ValueType
     {
         // ── Methods ──
-        public void op_Implicit(){} // RVA: 0x20C5210
-        public void ToString(){} // RVA: 0x20D5E50
-        public void GetHashCode(){} // RVA: 0x19689B0
-        public void Equals(){} // RVA: 0x20D5E20 | overloaded x2
-        public void CompareTo(){} // RVA: 0x20D5EF0
+        public void get_CallbackType(){} // RVA: 0x7A7725D80
+        public void .cctor(){} // RVA: 0x7A9EE37A0
     }
 
-    public class SteamInventoryStartPurchaseResult_t
-    {
-        public 0x659B1530 Result; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D3A60
-        public void .cctor(){} // RVA: 0x20D3A70
-    }
-
-    public class SteamItemDetails_t
-    {
-    }
-
-    public class SteamNetAuthenticationStatus_t
-    {
-        public 0x659B1B60 Avail; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D4500
-        public void .cctor(){} // RVA: 0x20D4510
-    }
-
-    public class SteamNetConnectionStatusChangedCallback_t
-    {
-        public Steamworks.Data.Connection Conn; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D43F0
-        public void .cctor(){} // RVA: 0x20D4400
-    }
-
-    public class SteamNetworkingFakeIPResult_t
-    {
-        public 0x659B1530 Result; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D53E0
-        public void .cctor(){} // RVA: 0x20D53F0
-    }
-
-    public class SteamNetworkingMessagesSessionFailed_t
-    {
-        public Steamworks.Data.ConnectionInfo Nfo; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D42E0
-        public void .cctor(){} // RVA: 0x20D42F0
-    }
-
-    public class SteamNetworkingMessagesSessionRequest_t
-    {
-        public Steamworks.Data.NetIdentity DentityRemote; // 0x10
-
-        // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D41D0
-        public void .cctor(){} // RVA: 0x20D41E0
-    }
-
-    public class SteamNetworkingPOPID
+    public class SearchForGameProgressCallback_t : ValueType
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x20C5200
-        public void GetHashCode(){} // RVA: 0x19689B0
-        public void Equals(){} // RVA: 0x20D5E20 | overloaded x2
-        public void CompareTo(){} // RVA: 0x20D5E30
+        public void get_CallbackType(){} // RVA: 0x7A7720AF0
+        public void .cctor(){} // RVA: 0x7A9EDF6D0
     }
 
-    public class SteamParentalSettingsChanged_t
+    public class SearchForGameResultCallback_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D3EA0
-        public void .cctor(){} // RVA: 0x20D3EB0
+        public void get_CallbackType(){} // RVA: 0x7A7720B00
+        public void .cctor(){} // RVA: 0x7A9EDF7E0
     }
 
-    public class SteamRelayNetworkStatus_t
+    public class SetPersonaNameResponse_t : ValueType
     {
-        public 0x659B1B60 Avail; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D4610
-        public void .cctor(){} // RVA: 0x20D4620
+        public void get_CallbackType(){} // RVA: 0x7A77207E0
+        public void .cctor(){} // RVA: 0x7A9EDDD60
     }
 
-    public class SteamRemotePlaySessionConnected_t
+    public class SetUserItemVoteResult_t : ValueType
     {
-        public uint SessionID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D3FB0
-        public void .cctor(){} // RVA: 0x20D3FC0
+        public void get_CallbackType(){} // RVA: 0x7A7726270
+        public void .cctor(){} // RVA: 0x7A9EE5780
     }
 
-    public class SteamRemotePlaySessionDisconnected_t
+    public class Socket : ValueType
     {
-        public uint SessionID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D40C0
-        public void .cctor(){} // RVA: 0x20D40D0
+        public void ToString(){} // RVA: 0x7A771EAE0
     }
 
-    public class SteamServerConnectFailure_t
+    public class StartPlaytimeTrackingResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C7090
-        public void .cctor(){} // RVA: 0x20C70A0
+        public void get_CallbackType(){} // RVA: 0x7A7726290
+        public void .cctor(){} // RVA: 0x7A9EE59A0
     }
 
-    public class SteamServersConnected_t
+    public class SteamAPICallCompleted_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C6F80
-        public void .cctor(){} // RVA: 0x20C6F90
+        public void get_CallbackType(){} // RVA: 0x7A77209D0
+        public void .cctor(){} // RVA: 0x7A9EDE3C0
     }
 
-    public class SteamServersDisconnected_t
+    public class SteamAppInstalled_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C71A0
-        public void .cctor(){} // RVA: 0x20C71B0
+        public void get_CallbackType(){} // RVA: 0x7A7726730
+        public void .cctor(){} // RVA: 0x7A9EE6440
     }
 
-    public class SteamShutdown_t
+    public class SteamAppUninstalled_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C9C20
-        public void .cctor(){} // RVA: 0x20C9C30
+        public void get_CallbackType(){} // RVA: 0x7A7726740
+        public void .cctor(){} // RVA: 0x7A9EE6550
     }
 
-    public class SteamUGCDetails_t
+    public class SteamInputConfigurationLoaded_t : ValueType
     {
-    }
-
-    public class SteamUGCQueryCompleted_t
-    {
-        public ulong Handle; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D0760
-        public void .cctor(){} // RVA: 0x20D0770
+        public void get_CallbackType(){} // RVA: 0x7A7725EE0
+        public void .cctor(){} // RVA: 0x7A9EE4F00
     }
 
-    public class SteamUGCRequestUGCDetailsResult_t
+    public class SteamInputDeviceConnected_t : ValueType
     {
-        public Steamworks.Data.SteamUGCDetails_t Details; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D0870
-        public void .cctor(){} // RVA: 0x20D0880
+        public void get_CallbackType(){} // RVA: 0x7A7725EC0
+        public void .cctor(){} // RVA: 0x7A9EE4CE0
     }
 
-    public class StopPlaytimeTrackingResult_t
+    public class SteamInputDeviceDisconnected_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D1200
-        public void .cctor(){} // RVA: 0x20D1210
+        public void get_CallbackType(){} // RVA: 0x7A7725ED0
+        public void .cctor(){} // RVA: 0x7A9EE4DF0
     }
 
-    public class StoreAuthURLResponse_t
+    public class SteamInventoryDefinitionUpdate_t : ValueType
     {
-        public byte[] URL; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C7C40
-        public void .cctor(){} // RVA: 0x20C7C50
+        public void get_CallbackType(){} // RVA: 0x7A77271F0
+        public void .cctor(){} // RVA: 0x7A9EE80F0
     }
 
-    public class SubmitItemUpdateResult_t
+    public class SteamInventoryEligiblePromoItemDefIDs_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D0A90
-        public void .cctor(){} // RVA: 0x20D0AA0
+        public void get_CallbackType(){} // RVA: 0x7A7727200
+        public void .cctor(){} // RVA: 0x7A9EE8200
     }
 
-    public class SubmitPlayerResultResultCallback_t
+    public class SteamInventoryFullUpdate_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CB370
-        public void .cctor(){} // RVA: 0x20CB380
+        public void get_CallbackType(){} // RVA: 0x7A77271E0
+        public void .cctor(){} // RVA: 0x7A9EE7FE0
+    }
+
+    public class SteamInventoryRequestPricesResult_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7727370
+        public void .cctor(){} // RVA: 0x7A9EE8420
+    }
+
+    public class SteamInventoryResultReady_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A77271D0
+        public void .cctor(){} // RVA: 0x7A9EE7ED0
+    }
+
+    public class SteamInventoryResult_t : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7A9ED9B50
+        public void ToString(){} // RVA: 0x7A7729050
+        public void GetHashCode(){} // RVA: 0x7A765F070
+        public void Equals(){} // RVA: 0x7A7729020
+        public void CompareTo(){} // RVA: 0x7A77290D0
+    }
+
+    public class SteamInventoryStartPurchaseResult_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7727210
+        public void .cctor(){} // RVA: 0x7A9EE8310
+    }
+
+    public class SteamNetAuthenticationStatus_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A77279D0
+        public void .cctor(){} // RVA: 0x7A9EE8DB0
+    }
+
+    public class SteamNetConnectionStatusChangedCallback_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7727830
+        public void .cctor(){} // RVA: 0x7A9EE8CA0
+    }
+
+    public class SteamNetworkingFakeIPResult_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7728550
+        public void .cctor(){} // RVA: 0x7A9EE9C90
+    }
+
+    public class SteamNetworkingMessagesSessionFailed_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A77276B0
+        public void .cctor(){} // RVA: 0x7A9EE8B90
+    }
+
+    public class SteamNetworkingMessagesSessionRequest_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7727570
+        public void .cctor(){} // RVA: 0x7A9EE8A80
+    }
+
+    public class SteamNetworkingPOPID : ValueType
+    {
+        // ── Methods ──
+        public void ToString(){} // RVA: 0x7A771EAE0
+        public void GetHashCode(){} // RVA: 0x7A765F070
+        public void Equals(){} // RVA: 0x7A7729020
+        public void CompareTo(){} // RVA: 0x7A7729030
+    }
+
+    public class SteamParentalSettingsChanged_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7727540
+        public void .cctor(){} // RVA: 0x7A9EE8750
+    }
+
+    public class SteamRelayNetworkStatus_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7727B90
+        public void .cctor(){} // RVA: 0x7A9EE8EC0
+    }
+
+    public class SteamRemotePlaySessionConnected_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7727550
+        public void .cctor(){} // RVA: 0x7A9EE8860
+    }
+
+    public class SteamRemotePlaySessionDisconnected_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7727560
+        public void .cctor(){} // RVA: 0x7A9EE8970
+    }
+
+    public class SteamServerConnectFailure_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A771ED60
+        public void .cctor(){} // RVA: 0x7A9EDB940
+    }
+
+    public class SteamServersConnected_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A771ED50
+        public void .cctor(){} // RVA: 0x7A9EDB830
+    }
+
+    public class SteamServersDisconnected_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A771ED70
+        public void .cctor(){} // RVA: 0x7A9EDBA50
+    }
+
+    public class SteamShutdown_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A77209E0
+        public void .cctor(){} // RVA: 0x7A9EDE4D0
+    }
+
+    public class SteamUGCQueryCompleted_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A77260B0
+        public void .cctor(){} // RVA: 0x7A9EE5010
+    }
+
+    public class SteamUGCRequestUGCDetailsResult_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7726210
+        public void .cctor(){} // RVA: 0x7A9EE5120
+    }
+
+    public class StopPlaytimeTrackingResult_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A77262A0
+        public void .cctor(){} // RVA: 0x7A9EE5AB0
+    }
+
+    public class StoreAuthURLResponse_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A771F130
+        public void .cctor(){} // RVA: 0x7A9EDC4F0
+    }
+
+    public class SubmitItemUpdateResult_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7726230
+        public void .cctor(){} // RVA: 0x7A9EE5340
+    }
+
+    public class SubmitPlayerResultResultCallback_t : ValueType
+    {
+        // ── Methods ──
+        public void get_CallbackType(){} // RVA: 0x7A7720B40
+        public void .cctor(){} // RVA: 0x7A9EDFC20
     }
 
 }

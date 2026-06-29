@@ -1,923 +1,767 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.MeaMod.DNS.Model
 // Classes: 53
-// Methods: 560
+// Methods: 494
 
 namespace ThirdParty.Other.MeaMod.DNS.Model
 {
-    public class AAAARecord
+    public class AAAARecord : AddressRecord
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC1390
+        public void .ctor(){} // RVA: 0x7AD8AE930
     }
 
-    public class AFSDBRecord
+    public class AFSDBRecord : ResourceRecord
     {
-        public ushort <Subtype>k__BackingField; // 0x30
-        public MeaMod.DNS.Model.DomainName <Target>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC1A90
-        public void get_Subtype(){} // RVA: 0x3BE7880
-        public void set_Subtype(){} // RVA: 0x5AC1AF0
-        public void get_Target(){} // RVA: 0x4976A0
-        public void set_Target(){} // RVA: 0x49B830
-        public void ReadData(){} // RVA: 0x5AC1BC0 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC1CF0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8AF030
+        public void get_Subtype(){} // RVA: 0x7AB9DFA00
+        public void set_Subtype(){} // RVA: 0x7AD8AF090
+        public void get_Target(){} // RVA: 0x7A8292C30
+        public void set_Target(){} // RVA: 0x7A8296DE0
+        public void ReadData(){} // RVA: 0x7AD8AF160
+        public void WriteData(){} // RVA: 0x7AD8AF290
     }
 
-    public class ARecord
+    public class ARecord : AddressRecord
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC1DA0
+        public void .ctor(){} // RVA: 0x7AD8AF340
     }
 
-    public class AddressRecord
+    public class AddressRecord : ResourceRecord
     {
-        public System.Net.IPAddress <Address>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC1400
-        public void get_Address(){} // RVA: 0x6374D0
-        public void set_Address(){} // RVA: 0x30B890
-        public void Create(){} // RVA: 0x5AC1470
-        public void ReadData(){} // RVA: 0x5AC1870 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC1A40 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8AE9A0
+        public void get_Address(){} // RVA: 0x7A83F69F0
+        public void set_Address(){} // RVA: 0x7A8105A90
+        public void Create(){} // RVA: 0x7AD8AEA10
+        public void ReadData(){} // RVA: 0x7AD8AEE10
+        public void WriteData(){} // RVA: 0x7AD8AEFE0
     }
 
-    public class CNAMERecord
+    public class CNAMERecord : ResourceRecord
     {
-        public MeaMod.DNS.Model.DomainName <Target>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC1E10
-        public void get_Target(){} // RVA: 0x6374D0
-        public void set_Target(){} // RVA: 0x30B890
-        public void ReadData(){} // RVA: 0x5AC1EE0 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC1FB0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8AF3B0
+        public void get_Target(){} // RVA: 0x7A83F69F0
+        public void set_Target(){} // RVA: 0x7A8105A90
+        public void ReadData(){} // RVA: 0x7AD8AF480
+        public void WriteData(){} // RVA: 0x7AD8AF550
     }
 
-    public class DNAMERecord
+    public class DNAMERecord : ResourceRecord
     {
-        public MeaMod.DNS.Model.DomainName <Target>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC2010
-        public void get_Target(){} // RVA: 0x6374D0
-        public void set_Target(){} // RVA: 0x30B890
-        public void ReadData(){} // RVA: 0x5AC1EE0 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC1FB0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8AF5B0
+        public void get_Target(){} // RVA: 0x7A83F69F0
+        public void set_Target(){} // RVA: 0x7A8105A90
+        public void ReadData(){} // RVA: 0x7AD8AF480
+        public void WriteData(){} // RVA: 0x7AD8AF550
     }
 
-    public class DNSKEYRecord
+    public class DNSKEYRecord : ResourceRecord
     {
-        public 0x659ACB48 <Flags>k__BackingField; // 0x30
-        public byte <Protocol>k__BackingField; // 0x32
-        public 0x659ADFE8 <Algorithm>k__BackingField; // 0x33
-        public byte[] <PublicKey>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC2100 | overloaded x2
-        public void get_Flags(){} // RVA: 0x3BE7880
-        public void set_Flags(){} // RVA: 0x5AC1AF0
-        public void get_Protocol(){} // RVA: 0x3BE7520
-        public void set_Protocol(){} // RVA: 0x5AC2490
-        public void get_Algorithm(){} // RVA: 0x5AC24A0
-        public void set_Algorithm(){} // RVA: 0x5AC24B0
-        public void get_PublicKey(){} // RVA: 0x4976A0
-        public void set_PublicKey(){} // RVA: 0x49B830
-        public void KeyTag(){} // RVA: 0x5AC24C0
-        public void ReadData(){} // RVA: 0x5AC2720 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC27D0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8AF6A0
+        public void get_Flags(){} // RVA: 0x7AB9DFA00
+        public void set_Flags(){} // RVA: 0x7AD8AF090
+        public void get_Protocol(){} // RVA: 0x7AB9DF6A0
+        public void set_Protocol(){} // RVA: 0x7AD8AFA40
+        public void get_Algorithm(){} // RVA: 0x7AD8AFA50
+        public void set_Algorithm(){} // RVA: 0x7AD8AFA60
+        public void get_PublicKey(){} // RVA: 0x7A8292C30
+        public void set_PublicKey(){} // RVA: 0x7A8296DE0
+        public void KeyTag(){} // RVA: 0x7AD8AFA70
+        public void ReadData(){} // RVA: 0x7AD8AFD00
+        public void WriteData(){} // RVA: 0x7AD8AFDB0
     }
 
-    public class DSRecord
+    public class DSRecord : ResourceRecord
     {
-        public ushort <KeyTag>k__BackingField; // 0x30
-        public 0x659ADFE8 <Algorithm>k__BackingField; // 0x32
-        public 0x659ACA98 <HashAlgorithm>k__BackingField; // 0x33
-        public byte[] <Digest>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC2940 | overloaded x2
-        public void get_KeyTag(){} // RVA: 0x3BE7880
-        public void set_KeyTag(){} // RVA: 0x5AC1AF0
-        public void get_Algorithm(){} // RVA: 0x3BE7520
-        public void set_Algorithm(){} // RVA: 0x5AC2490
-        public void get_HashAlgorithm(){} // RVA: 0x5AC24A0
-        public void set_HashAlgorithm(){} // RVA: 0x5AC24B0
-        public void get_Digest(){} // RVA: 0x4976A0
-        public void set_Digest(){} // RVA: 0x49B830
-        public void ReadData(){} // RVA: 0x5AC2E50 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC2FA0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8AFF20
+        public void get_KeyTag(){} // RVA: 0x7AB9DFA00
+        public void set_KeyTag(){} // RVA: 0x7AD8AF090
+        public void get_Algorithm(){} // RVA: 0x7AB9DF6A0
+        public void set_Algorithm(){} // RVA: 0x7AD8AFA40
+        public void get_HashAlgorithm(){} // RVA: 0x7AD8AFA50
+        public void set_HashAlgorithm(){} // RVA: 0x7AD8AFA60
+        public void get_Digest(){} // RVA: 0x7A8292C30
+        public void set_Digest(){} // RVA: 0x7A8296DE0
+        public void ReadData(){} // RVA: 0x7AD8B0440
+        public void WriteData(){} // RVA: 0x7AD8B0590
     }
 
-    public class DigestRegistry
+    public class DigestRegistry : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x5AB7910
-        public void Create(){} // RVA: 0x5AB7DD0 | overloaded x2
+        public void .cctor(){} // RVA: 0x7AD8A4D90
+        public void Create(){} // RVA: 0x7AD8A5250
     }
 
-    public class DnsObject
+    public class DnsObject : Object
     {
-        public System.DateTime <CreationTime>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_CreationTime(){} // RVA: 0x2F8380
-        public void set_CreationTime(){} // RVA: 0x1967700
-        public void Length(){} // RVA: 0x5AB8260
-        public void Clone(){} // RVA: 0x283FA0 | overloaded x2
-        public void Read(){} // RVA: 0xCE10 | overloaded x4
-        public void ToByteArray(){} // RVA: 0x5AB8720
-        public void Write(){} // RVA: 0x24B10 | overloaded x2
-        public void .ctor(){} // RVA: 0x5AB88B0
+        public void get_CreationTime(){} // RVA: 0x7A80F2570
+        public void set_CreationTime(){} // RVA: 0x7A97242F0
+        public void Length(){} // RVA: 0x7AD8A56E0
+        public void Clone(){} // RVA: 0x7A8051B10
+        public void Read(){} // RVA: 0x7A7E00B20
+        public void ToByteArray(){} // RVA: 0x7AD8A5BB0
+        public void Write(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7AD8A5D50
     }
 
-    public class DomainName
+    public class DomainName : Object
     {
-        public string dot;
-
         // ── Methods ──
-        public void get_Labels(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0x5AB89D0 | overloaded x2
-        public void Join(){} // RVA: 0x5AB8AE0
-        public void ToString(){} // RVA: 0x5AB8BE0
-        public void EscapeLabel(){} // RVA: 0x5AB8CB0
-        public void ToCanonical(){} // RVA: 0x5AB8F20
-        public void BelongsTo(){} // RVA: 0x5AB9140
-        public void IsSubdomainOf(){} // RVA: 0x5AB91D0
-        public void Parent(){} // RVA: 0x5AB9350
-        public void Parse(){} // RVA: 0x5AB94A0
-        public void GetHashCode(){} // RVA: 0x5AB97B0
-        public void Equals(){} // RVA: 0x5AB98C0 | overloaded x2
-        public void op_Equality(){} // RVA: 0x5AB9A20
-        public void op_Inequality(){} // RVA: 0x5AB9A40
-        public void op_Implicit(){} // RVA: 0x5AB9AD0
-        public void LabelsEqual(){} // RVA: 0x5AB9B30
-        public void .cctor(){} // RVA: 0x5AB9C00
+        public void get_Labels(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7AD8A5E70
+        public void Join(){} // RVA: 0x7AD8A5F80
+        public void ToString(){} // RVA: 0x7AD8A6090
+        public void EscapeLabel(){} // RVA: 0x7AD8A6160
+        public void ToCanonical(){} // RVA: 0x7AD8A63D0
+        public void BelongsTo(){} // RVA: 0x7AD8A65F0
+        public void IsSubdomainOf(){} // RVA: 0x7AD8A6680
+        public void Parent(){} // RVA: 0x7AD8A6840
+        public void Parse(){} // RVA: 0x7AD8A6990
+        public void GetHashCode(){} // RVA: 0x7AD8A6C90
+        public void Equals(){} // RVA: 0x7AD8A6DA0
+        public void op_Equality(){} // RVA: 0x7AD8A6F30
+        public void op_Inequality(){} // RVA: 0x7AD8A6F50
+        public void op_Implicit(){} // RVA: 0x7AD8A6FE0
+        public void LabelsEqual(){} // RVA: 0x7AD8A7040
+        public void .cctor(){} // RVA: 0x7AD8A7110
     }
 
-    public class EdnsDAUOption
+    public class EdnsDAUOption : EdnsOption
     {
-        public System.Collections.Generic.List`1<0x659ADFE8> <Algorithms>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AB9DA0
-        public void get_Algorithms(){} // RVA: 0x2E07C0
-        public void set_Algorithms(){} // RVA: 0x343E80
-        public void Create(){} // RVA: 0x5AB9E60
-        public void ReadData(){} // RVA: 0x5AB9FF0
-        public void WriteData(){} // RVA: 0x5ABA150
-        public void ToString(){} // RVA: 0x5ABA350
+        public void .ctor(){} // RVA: 0x7AD8A72B0
+        public void get_Algorithms(){} // RVA: 0x7A80DA7B0
+        public void set_Algorithms(){} // RVA: 0x7A813E420
+        public void Create(){} // RVA: 0x7AD8A7370
+        public void ReadData(){} // RVA: 0x7AD8A7500
+        public void WriteData(){} // RVA: 0x7AD8A7660
+        public void ToString(){} // RVA: 0x7AD8A7870
     }
 
-    public class EdnsDHUOption
+    public class EdnsDHUOption : EdnsOption
     {
-        public System.Collections.Generic.List`1<0x659ACA98> <Algorithms>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ABA440
-        public void get_Algorithms(){} // RVA: 0x2E07C0
-        public void set_Algorithms(){} // RVA: 0x343E80
-        public void Create(){} // RVA: 0x5ABA500
-        public void ReadData(){} // RVA: 0x5ABA690
-        public void WriteData(){} // RVA: 0x5ABA7F0
-        public void ToString(){} // RVA: 0x5ABA9F0
+        public void .ctor(){} // RVA: 0x7AD8A7960
+        public void get_Algorithms(){} // RVA: 0x7A80DA7B0
+        public void set_Algorithms(){} // RVA: 0x7A813E420
+        public void Create(){} // RVA: 0x7AD8A7A20
+        public void ReadData(){} // RVA: 0x7AD8A7BB0
+        public void WriteData(){} // RVA: 0x7AD8A7D10
+        public void ToString(){} // RVA: 0x7AD8A7F20
     }
 
-    public class EdnsKeepaliveOption
+    public class EdnsKeepaliveOption : EdnsOption
     {
-        public System.Nullable`1<System.TimeSpan> <Timeout>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ABAA60
-        public void get_Timeout(){} // RVA: 0x994EE0
-        public void set_Timeout(){} // RVA: 0x9949A0
-        public void ReadData(){} // RVA: 0x5ABAA70
-        public void WriteData(){} // RVA: 0x5ABABD0
-        public void ToString(){} // RVA: 0x5ABACC0
+        public void .ctor(){} // RVA: 0x7AD8A7F90
+        public void get_Timeout(){} // RVA: 0x7A872EEF0
+        public void set_Timeout(){} // RVA: 0x7A872E9B0
+        public void ReadData(){} // RVA: 0x7AD8A7FA0
+        public void WriteData(){} // RVA: 0x7AD8A8100
+        public void ToString(){} // RVA: 0x7AD8A81F0
     }
 
-    public class EdnsN3UOption
+    public class EdnsN3UOption : EdnsOption
     {
-        public System.Collections.Generic.List`1<0x659ACA98> <Algorithms>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ABAD70
-        public void get_Algorithms(){} // RVA: 0x2E07C0
-        public void set_Algorithms(){} // RVA: 0x343E80
-        public void Create(){} // RVA: 0x5ABAE30
-        public void ReadData(){} // RVA: 0x5ABAFC0
-        public void WriteData(){} // RVA: 0x5ABB120
-        public void ToString(){} // RVA: 0x5ABB320
+        public void .ctor(){} // RVA: 0x7AD8A82A0
+        public void get_Algorithms(){} // RVA: 0x7A80DA7B0
+        public void set_Algorithms(){} // RVA: 0x7A813E420
+        public void Create(){} // RVA: 0x7AD8A8360
+        public void ReadData(){} // RVA: 0x7AD8A84F0
+        public void WriteData(){} // RVA: 0x7AD8A8650
+        public void ToString(){} // RVA: 0x7AD8A8860
     }
 
-    public class EdnsNSIDOption
+    public class EdnsNSIDOption : EdnsOption
     {
-        public byte[] <Id>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ABB390
-        public void get_Id(){} // RVA: 0x2E07C0
-        public void set_Id(){} // RVA: 0x343E80
-        public void ReadData(){} // RVA: 0x5ABB3A0
-        public void WriteData(){} // RVA: 0x5ABB420
+        public void .ctor(){} // RVA: 0x7AD8A88D0
+        public void get_Id(){} // RVA: 0x7A80DA7B0
+        public void set_Id(){} // RVA: 0x7A813E420
+        public void ReadData(){} // RVA: 0x7AD8A88E0
+        public void WriteData(){} // RVA: 0x7AD8A8960
     }
 
-    public class EdnsOption
+    public class EdnsOption : Object
     {
-        public 0x659AD018 <Type>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x1C0F720
-        public void set_Type(){} // RVA: 0x1C0FA70
-        public void ReadData(){} // RVA: 0x2BAA0
-        public void WriteData(){} // RVA: 0x24B10
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Type(){} // RVA: 0x7A99CD750
+        public void set_Type(){} // RVA: 0x7A99CDAA0
+        public void ReadData(){} // RVA: 0x7A7E1D590
+        public void WriteData(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class EdnsOptionRegistry
+    public class EdnsOptionRegistry : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x5ABB480
-        public void Register(){} // RVA: 0x24A80
+        public void .cctor(){} // RVA: 0x7AD8A89C0
+        public void Register(){} // RVA: 0x7A7E187D0
     }
 
-    public class EdnsPaddingOption
+    public class EdnsPaddingOption : EdnsOption
     {
-        public byte[] <Padding>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ABB600
-        public void get_Padding(){} // RVA: 0x2E07C0
-        public void set_Padding(){} // RVA: 0x343E80
-        public void ReadData(){} // RVA: 0x5ABB3A0
-        public void WriteData(){} // RVA: 0x5ABB420
-        public void ToString(){} // RVA: 0x5ABB610
+        public void .ctor(){} // RVA: 0x7AD8A8B40
+        public void get_Padding(){} // RVA: 0x7A80DA7B0
+        public void set_Padding(){} // RVA: 0x7A813E420
+        public void ReadData(){} // RVA: 0x7AD8A88E0
+        public void WriteData(){} // RVA: 0x7AD8A8960
+        public void ToString(){} // RVA: 0x7AD8A8B50
     }
 
-    public class HINFORecord
+    public class HINFORecord : ResourceRecord
     {
-        public string <Cpu>k__BackingField; // 0x30
-        public string <OS>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC30F0
-        public void get_Cpu(){} // RVA: 0x6374D0
-        public void set_Cpu(){} // RVA: 0x30B890
-        public void get_OS(){} // RVA: 0x4976A0
-        public void set_OS(){} // RVA: 0x49B830
-        public void ReadData(){} // RVA: 0x5AC3250 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC33A0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B06E0
+        public void get_Cpu(){} // RVA: 0x7A83F69F0
+        public void set_Cpu(){} // RVA: 0x7A8105A90
+        public void get_OS(){} // RVA: 0x7A8292C30
+        public void set_OS(){} // RVA: 0x7A8296DE0
+        public void ReadData(){} // RVA: 0x7AD8B0840
+        public void WriteData(){} // RVA: 0x7AD8B0990
     }
 
-    public class IPAddressExtensions
+    public class IPAddressExtensions : Object
     {
         // ── Methods ──
-        public void GetArpaName(){} // RVA: 0x5ABB710
+        public void GetArpaName(){} // RVA: 0x7AD8A8C50
     }
 
     public class IPresentationSerialiser
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0xCE10
-        public void Write(){} // RVA: 0x24B10
+        public void Read(){} // RVA: 0x7A7E00B20
+        public void Write(){} // RVA: 0x7A7E18800
     }
 
     public class IResolver
     {
         // ── Methods ──
-        public void ResolveAsync(){}
+        public void ResolveAsync(){} // RVA: 0x7A7E06640
     }
 
     public class IWireSerialiser
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0xCE10
-        public void Write(){} // RVA: 0x24B10
+        public void Read(){} // RVA: 0x7A7E00B20
+        public void Write(){} // RVA: 0x7A7E18800
     }
 
-    public class MXRecord
+    public class MXRecord : ResourceRecord
     {
-        public ushort <Preference>k__BackingField; // 0x30
-        public MeaMod.DNS.Model.DomainName <Exchange>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC33F0
-        public void get_Preference(){} // RVA: 0x3BE7880
-        public void set_Preference(){} // RVA: 0x5AC1AF0
-        public void get_Exchange(){} // RVA: 0x4976A0
-        public void set_Exchange(){} // RVA: 0x49B830
-        public void ReadData(){} // RVA: 0x5AC1BC0 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC1CF0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B09E0
+        public void get_Preference(){} // RVA: 0x7AB9DFA00
+        public void set_Preference(){} // RVA: 0x7AD8AF090
+        public void get_Exchange(){} // RVA: 0x7A8292C30
+        public void set_Exchange(){} // RVA: 0x7A8296DE0
+        public void ReadData(){} // RVA: 0x7AD8AF160
+        public void WriteData(){} // RVA: 0x7AD8AF290
     }
 
-    public class Message
+    public class Message : DnsObject
     {
-        public byte opcode4; // 0x18
-        public int MaxLength;
-        public int MinLength;
-        public ushort <Id>k__BackingField; // 0x1A
-        public bool <QR>k__BackingField; // 0x1C
-        public bool <AA>k__BackingField; // 0x1D
-        public bool <TC>k__BackingField; // 0x1E
-        public bool <RD>k__BackingField; // 0x1F
-        public bool <RA>k__BackingField; // 0x20
-        public int <Z>k__BackingField; // 0x24
-        public bool <AD>k__BackingField; // 0x28
-        public bool <CD>k__BackingField; // 0x29
-        public 0x659AD330 <Status>k__BackingField; // 0x2A
-        public System.Collections.Generic.List`1<MeaMod.DNS.Model.Question> <Questions>k__BackingField; // 0x30
-        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <Answers>k__BackingField; // 0x38
-        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <AuthorityRecords>k__BackingField; // 0x40
-        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <AdditionalRecords>k__BackingField; // 0x48
-
         // ── Methods ──
-        public void get_Id(){} // RVA: 0x2892CA0
-        public void set_Id(){} // RVA: 0x5ABBFD0
-        public void get_QR(){} // RVA: 0x2F8390
-        public void set_QR(){} // RVA: 0x2F83A0
-        public void get_IsQuery(){} // RVA: 0x5ABBFE0
-        public void get_IsResponse(){} // RVA: 0x2F8390
-        public void get_Opcode(){} // RVA: 0x5ABBFF0
-        public void set_Opcode(){} // RVA: 0x5ABC100
-        public void get_AA(){} // RVA: 0x1B98300
-        public void set_AA(){} // RVA: 0x1B982F0
-        public void get_TC(){} // RVA: 0x1B98CC0
-        public void set_TC(){} // RVA: 0x1B98330
-        public void get_RD(){} // RVA: 0x1B98310
-        public void set_RD(){} // RVA: 0x1B98320
-        public void get_RA(){} // RVA: 0x3CB9D0
-        public void set_RA(){} // RVA: 0x3CB9E0
-        public void get_Z(){} // RVA: 0xCEF5B0
-        public void set_Z(){} // RVA: 0x16E1F00
-        public void get_AD(){} // RVA: 0x6E8A80
-        public void set_AD(){} // RVA: 0x6E8B80
-        public void get_CD(){} // RVA: 0xC36000
-        public void set_CD(){} // RVA: 0x190AB20
-        public void get_DO(){} // RVA: 0x5ABC260
-        public void set_DO(){} // RVA: 0x5ABC320
-        public void get_Status(){} // RVA: 0x205EA40
-        public void set_Status(){} // RVA: 0x205EA30
-        public void get_Questions(){} // RVA: 0x6374D0
-        public void get_Answers(){} // RVA: 0x4976A0
-        public void set_Answers(){} // RVA: 0x49B830
-        public void get_AuthorityRecords(){} // RVA: 0x35A740
-        public void set_AuthorityRecords(){} // RVA: 0x305200
-        public void get_AdditionalRecords(){} // RVA: 0x358730
-        public void set_AdditionalRecords(){} // RVA: 0x358740
-        public void CreateResponse(){} // RVA: 0x5ABC4C0
-        public void Truncate(){} // RVA: 0x5ABC590
-        public void UseDnsSecurity(){} // RVA: 0x5ABC6F0
-        public void Read(){} // RVA: 0x5ABC710
-        public void Write(){} // RVA: 0x5ABCD10
-        public void ToString(){} // RVA: 0x5ABD500
-        public void Stringify(){} // RVA: 0x5ABDBC0
-        public void .ctor(){} // RVA: 0x5ABDE00
+        public void get_Id(){} // RVA: 0x7AA69D090
+        public void set_Id(){} // RVA: 0x7AD8A9500
+        public void get_QR(){} // RVA: 0x7A80F2580
+        public void set_QR(){} // RVA: 0x7A80F2590
+        public void get_IsQuery(){} // RVA: 0x7AD8A9510
+        public void get_IsResponse(){} // RVA: 0x7A80F2580
+        public void get_Opcode(){} // RVA: 0x7AD8A9520
+        public void set_Opcode(){} // RVA: 0x7AD8A9630
+        public void get_AA(){} // RVA: 0x7A99562E0
+        public void set_AA(){} // RVA: 0x7A99562D0
+        public void get_TC(){} // RVA: 0x7A9956C80
+        public void set_TC(){} // RVA: 0x7A9956310
+        public void get_RD(){} // RVA: 0x7A99562F0
+        public void set_RD(){} // RVA: 0x7A9956300
+        public void get_RA(){} // RVA: 0x7A81C68D0
+        public void set_RA(){} // RVA: 0x7A81C68E0
+        public void get_Z(){} // RVA: 0x7A8AB15F0
+        public void set_Z(){} // RVA: 0x7A94794D0
+        public void get_AD(){} // RVA: 0x7A84A5BD0
+        public void set_AD(){} // RVA: 0x7A84A5CD0
+        public void get_CD(){} // RVA: 0x7A89FCA90
+        public void set_CD(){} // RVA: 0x7A96C67C0
+        public void get_DO(){} // RVA: 0x7AD8A9790
+        public void set_DO(){} // RVA: 0x7AD8A9850
+        public void get_Status(){} // RVA: 0x7A9E700C0
+        public void set_Status(){} // RVA: 0x7A9E700B0
+        public void get_Questions(){} // RVA: 0x7A83F69F0
+        public void get_Answers(){} // RVA: 0x7A8292C30
+        public void set_Answers(){} // RVA: 0x7A8296DE0
+        public void get_AuthorityRecords(){} // RVA: 0x7A8154D80
+        public void set_AuthorityRecords(){} // RVA: 0x7A80FF440
+        public void get_AdditionalRecords(){} // RVA: 0x7A8152D80
+        public void set_AdditionalRecords(){} // RVA: 0x7A8152D90
+        public void CreateResponse(){} // RVA: 0x7AD8A99F0
+        public void Truncate(){} // RVA: 0x7AD8A9AC0
+        public void UseDnsSecurity(){} // RVA: 0x7AD8A9C20
+        public void Read(){} // RVA: 0x7AD8A9C40
+        public void Write(){} // RVA: 0x7AD8AA250
+        public void ToString(){} // RVA: 0x7AD8AAA50
+        public void Stringify(){} // RVA: 0x7AD8AB120
+        public void .ctor(){} // RVA: 0x7AD8AB370
     }
 
-    public class NSEC3PARAMRecord
+    public class NSEC3PARAMRecord : ResourceRecord
     {
-        public 0x659ACA98 <HashAlgorithm>k__BackingField; // 0x30
-        public byte <Flags>k__BackingField; // 0x31
-        public ushort <Iterations>k__BackingField; // 0x32
-        public byte[] <Salt>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC3450
-        public void get_HashAlgorithm(){} // RVA: 0x303450
-        public void set_HashAlgorithm(){} // RVA: 0x303460
-        public void get_Flags(){} // RVA: 0x303470
-        public void set_Flags(){} // RVA: 0x303480
-        public void get_Iterations(){} // RVA: 0x5AC34B0
-        public void set_Iterations(){} // RVA: 0x5AC34C0
-        public void get_Salt(){} // RVA: 0x4976A0
-        public void set_Salt(){} // RVA: 0x49B830
-        public void ReadData(){} // RVA: 0x5AC3690 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC37B0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B0A40
+        public void get_HashAlgorithm(){} // RVA: 0x7A80FD690
+        public void set_HashAlgorithm(){} // RVA: 0x7A80FD6A0
+        public void get_Flags(){} // RVA: 0x7A80FD6B0
+        public void set_Flags(){} // RVA: 0x7A80FD6C0
+        public void get_Iterations(){} // RVA: 0x7AD8B0AA0
+        public void set_Iterations(){} // RVA: 0x7AD8B0AB0
+        public void get_Salt(){} // RVA: 0x7A8292C30
+        public void set_Salt(){} // RVA: 0x7A8296DE0
+        public void ReadData(){} // RVA: 0x7AD8B0C80
+        public void WriteData(){} // RVA: 0x7AD8B0DA0
     }
 
-    public class NSEC3Record
+    public class NSEC3Record : ResourceRecord
     {
-        public 0x659ACA98 <HashAlgorithm>k__BackingField; // 0x30
-        public 0x659AD388 <Flags>k__BackingField; // 0x31
-        public ushort <Iterations>k__BackingField; // 0x32
-        public byte[] <Salt>k__BackingField; // 0x38
-        public byte[] <NextHashedOwnerName>k__BackingField; // 0x40
-        public System.Collections.Generic.List`1<0x659ACBF8> <Types>k__BackingField; // 0x48
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC3920
-        public void get_HashAlgorithm(){} // RVA: 0x303450
-        public void set_HashAlgorithm(){} // RVA: 0x303460
-        public void get_Flags(){} // RVA: 0x303470
-        public void set_Flags(){} // RVA: 0x303480
-        public void get_Iterations(){} // RVA: 0x5AC34B0
-        public void set_Iterations(){} // RVA: 0x5AC34C0
-        public void get_Salt(){} // RVA: 0x4976A0
-        public void set_Salt(){} // RVA: 0x49B830
-        public void get_NextHashedOwnerName(){} // RVA: 0x35A740
-        public void set_NextHashedOwnerName(){} // RVA: 0x305200
-        public void get_Types(){} // RVA: 0x358730
-        public void set_Types(){} // RVA: 0x358740
-        public void ReadData(){} // RVA: 0x5AC3F50 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC42E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B0F10
+        public void get_HashAlgorithm(){} // RVA: 0x7A80FD690
+        public void set_HashAlgorithm(){} // RVA: 0x7A80FD6A0
+        public void get_Flags(){} // RVA: 0x7A80FD6B0
+        public void set_Flags(){} // RVA: 0x7A80FD6C0
+        public void get_Iterations(){} // RVA: 0x7AD8B0AA0
+        public void set_Iterations(){} // RVA: 0x7AD8B0AB0
+        public void get_Salt(){} // RVA: 0x7A8292C30
+        public void set_Salt(){} // RVA: 0x7A8296DE0
+        public void get_NextHashedOwnerName(){} // RVA: 0x7A8154D80
+        public void set_NextHashedOwnerName(){} // RVA: 0x7A80FF440
+        public void get_Types(){} // RVA: 0x7A8152D80
+        public void set_Types(){} // RVA: 0x7A8152D90
+        public void ReadData(){} // RVA: 0x7AD8B1540
+        public void WriteData(){} // RVA: 0x7AD8B18F0
     }
 
-    public class NSECRecord
+    public class NSECRecord : ResourceRecord
     {
-        public MeaMod.DNS.Model.DomainName <NextOwnerName>k__BackingField; // 0x30
-        public System.Collections.Generic.List`1<0x659ACBF8> <Types>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC4750
-        public void get_NextOwnerName(){} // RVA: 0x6374D0
-        public void set_NextOwnerName(){} // RVA: 0x30B890
-        public void get_Types(){} // RVA: 0x4976A0
-        public void set_Types(){} // RVA: 0x49B830
-        public void ReadData(){} // RVA: 0x5AC4C90 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC4DC0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B1D70
+        public void get_NextOwnerName(){} // RVA: 0x7A83F69F0
+        public void set_NextOwnerName(){} // RVA: 0x7A8105A90
+        public void get_Types(){} // RVA: 0x7A8292C30
+        public void set_Types(){} // RVA: 0x7A8296DE0
+        public void ReadData(){} // RVA: 0x7AD8B22B0
+        public void WriteData(){} // RVA: 0x7AD8B23E0
     }
 
-    public class NSRecord
+    public class NSRecord : ResourceRecord
     {
-        public MeaMod.DNS.Model.DomainName <Authority>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC50F0
-        public void get_Authority(){} // RVA: 0x6374D0
-        public void set_Authority(){} // RVA: 0x30B890
-        public void ReadData(){} // RVA: 0x5AC1EE0 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC1FB0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B2720
+        public void get_Authority(){} // RVA: 0x7A83F69F0
+        public void set_Authority(){} // RVA: 0x7A8105A90
+        public void ReadData(){} // RVA: 0x7AD8AF480
+        public void WriteData(){} // RVA: 0x7AD8AF550
     }
 
-    public class NULLRecord
+    public class NULLRecord : ResourceRecord
     {
-        public byte[] <Data>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC5150
-        public void get_Data(){} // RVA: 0x6374D0
-        public void set_Data(){} // RVA: 0x30B890
-        public void ReadData(){} // RVA: 0x5AC5230 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC52A0
+        public void .ctor(){} // RVA: 0x7AD8B2780
+        public void get_Data(){} // RVA: 0x7A83F69F0
+        public void set_Data(){} // RVA: 0x7A8105A90
+        public void ReadData(){} // RVA: 0x7AD8B2860
+        public void WriteData(){} // RVA: 0x7AD8B28D0
     }
 
-    public class OPTRecord
+    public class OPTRecord : ResourceRecord
     {
-        public System.Collections.Generic.List`1<MeaMod.DNS.Model.EdnsOption> <Options>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC5300
-        public void get_RequestorPayloadSize(){} // RVA: 0x5AC0F30
-        public void set_RequestorPayloadSize(){} // RVA: 0x5AC0F40
-        public void get_Opcode8(){} // RVA: 0x5AC54D0
-        public void set_Opcode8(){} // RVA: 0x5AC5540
-        public void get_Version(){} // RVA: 0x5AC55E0
-        public void set_Version(){} // RVA: 0x5AC5650
-        public void get_DO(){} // RVA: 0x5AC56F0
-        public void set_DO(){} // RVA: 0x5AC5750
-        public void get_Options(){} // RVA: 0x6374D0
-        public void set_Options(){} // RVA: 0x30B890
-        public void ReadData(){} // RVA: 0x5AC5810
-        public void WriteData(){} // RVA: 0x5AC59D0
-        public void ToString(){} // RVA: 0x5AC5BE0
+        public void .ctor(){} // RVA: 0x7AD8B2930
+        public void get_RequestorPayloadSize(){} // RVA: 0x7AD8AE4C0
+        public void set_RequestorPayloadSize(){} // RVA: 0x7AD8AE4D0
+        public void get_Opcode8(){} // RVA: 0x7AD8B2B00
+        public void set_Opcode8(){} // RVA: 0x7AD8B2B70
+        public void get_Version(){} // RVA: 0x7AD8B2C10
+        public void set_Version(){} // RVA: 0x7AD8B2C80
+        public void get_DO(){} // RVA: 0x7AD8B2D20
+        public void set_DO(){} // RVA: 0x7AD8B2D80
+        public void get_Options(){} // RVA: 0x7A83F69F0
+        public void set_Options(){} // RVA: 0x7A8105A90
+        public void ReadData(){} // RVA: 0x7AD8B2E40
+        public void WriteData(){} // RVA: 0x7AD8B3000
+        public void ToString(){} // RVA: 0x7AD8B3200
     }
 
-    public class PTRRecord
+    public class PTRRecord : ResourceRecord
     {
-        public MeaMod.DNS.Model.DomainName <DomainName>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC5F10
-        public void get_DomainName(){} // RVA: 0x6374D0
-        public void set_DomainName(){} // RVA: 0x30B890
-        public void ReadData(){} // RVA: 0x5AC1EE0 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC1FB0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B3550
+        public void get_DomainName(){} // RVA: 0x7A83F69F0
+        public void set_DomainName(){} // RVA: 0x7A8105A90
+        public void ReadData(){} // RVA: 0x7AD8AF480
+        public void WriteData(){} // RVA: 0x7AD8AF550
     }
 
-    public class PresentationReader
+    public class PresentationReader : Object
     {
-        public System.DateTime UnixEpoch;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ABE080
-        public void get_Origin(){} // RVA: 0x35A740
-        public void set_Origin(){} // RVA: 0x305200
-        public void ReadByte(){} // RVA: 0x5ABE1A0
-        public void ReadUInt16(){} // RVA: 0x5ABE2C0
-        public void ReadUInt32(){} // RVA: 0x5ABE3E0
-        public void ReadDomainName(){} // RVA: 0x5ABE490
-        public void MakeAbsoluteDomainName(){} // RVA: 0x5ABE4C0
-        public void ReadString(){} // RVA: 0x5ABE670
-        public void ReadBase64String(){} // RVA: 0x5ABE680
-        public void ReadTimeSpan16(){} // RVA: 0x5ABE810
-        public void ReadTimeSpan32(){} // RVA: 0x5ABE8C0
-        public void ReadIPAddress(){} // RVA: 0x5ABE970
-        public void ReadDnsType(){} // RVA: 0x5ABEA70
-        public void ReadDateTime(){} // RVA: 0x5ABEC70
-        public void ReadResourceData(){} // RVA: 0x5ABEE50
-        public void ReadResourceRecord(){} // RVA: 0x5ABF1A0
-        public void IsEndOfLine(){} // RVA: 0x5ABF930
-        public void ReadToken(){} // RVA: 0x5ABFA90
-        public void .cctor(){} // RVA: 0x5ABFE60
+        public void .ctor(){} // RVA: 0x7AD8AB5F0
+        public void get_Origin(){} // RVA: 0x7A8154D80
+        public void set_Origin(){} // RVA: 0x7A80FF440
+        public void ReadByte(){} // RVA: 0x7AD8AB710
+        public void ReadUInt16(){} // RVA: 0x7AD8AB830
+        public void ReadUInt32(){} // RVA: 0x7AD8AB950
+        public void ReadDomainName(){} // RVA: 0x7AD8ABA00
+        public void MakeAbsoluteDomainName(){} // RVA: 0x7AD8ABA30
+        public void ReadString(){} // RVA: 0x7AD8ABBE0
+        public void ReadBase64String(){} // RVA: 0x7AD8ABBF0
+        public void ReadTimeSpan16(){} // RVA: 0x7AD8ABD80
+        public void ReadTimeSpan32(){} // RVA: 0x7AD8ABE30
+        public void ReadIPAddress(){} // RVA: 0x7AD8ABEE0
+        public void ReadDnsType(){} // RVA: 0x7AD8ABFE0
+        public void ReadDateTime(){} // RVA: 0x7AD8AC1E0
+        public void ReadResourceData(){} // RVA: 0x7AD8AC3C0
+        public void ReadResourceRecord(){} // RVA: 0x7AD8AC710
+        public void IsEndOfLine(){} // RVA: 0x7AD8ACEC0
+        public void ReadToken(){} // RVA: 0x7AD8AD020
+        public void .cctor(){} // RVA: 0x7AD8AD3F0
     }
 
-    public class PresentationWriter
+    public class PresentationWriter : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void WriteSpace(){} // RVA: 0x5ABFFD0
-        public void WriteEndOfLine(){} // RVA: 0x5AC0000
-        public void WriteByte(){} // RVA: 0x5AC0060
-        public void WriteUInt16(){} // RVA: 0x5AC00D0
-        public void WriteUInt32(){} // RVA: 0x5AC0140
-        public void WriteString(){} // RVA: 0x5AC01B0
-        public void WriteStringUnencoded(){} // RVA: 0x5AC03B0
-        public void WriteDomainName(){} // RVA: 0x5AC0420
-        public void WriteBase16String(){} // RVA: 0x5AC04B0
-        public void WriteBase64String(){} // RVA: 0x5AC0520
-        public void WriteTimeSpan16(){} // RVA: 0x5AC0660
-        public void WriteTimeSpan32(){} // RVA: 0x5AC0730
-        public void WriteDateTime(){} // RVA: 0x5AC0800
-        public void WriteIPAddress(){} // RVA: 0x5AC0960
-        public void WriteDnsType(){} // RVA: 0x5AC09C0
-        public void WriteDnsClass(){} // RVA: 0x5AC0C30
-        public void .cctor(){} // RVA: 0x5AC0EA0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void WriteSpace(){} // RVA: 0x7AD8AD560
+        public void WriteEndOfLine(){} // RVA: 0x7AD8AD590
+        public void WriteByte(){} // RVA: 0x7AD8AD5F0
+        public void WriteUInt16(){} // RVA: 0x7AD8AD660
+        public void WriteUInt32(){} // RVA: 0x7AD8AD6D0
+        public void WriteString(){} // RVA: 0x7AD8AD740
+        public void WriteStringUnencoded(){} // RVA: 0x7AD8AD940
+        public void WriteDomainName(){} // RVA: 0x7AD8AD9B0
+        public void WriteBase16String(){} // RVA: 0x7AD8ADA40
+        public void WriteBase64String(){} // RVA: 0x7AD8ADAB0
+        public void WriteTimeSpan16(){} // RVA: 0x7AD8ADBF0
+        public void WriteTimeSpan32(){} // RVA: 0x7AD8ADCC0
+        public void WriteDateTime(){} // RVA: 0x7AD8ADD90
+        public void WriteIPAddress(){} // RVA: 0x7AD8ADEF0
+        public void WriteDnsType(){} // RVA: 0x7AD8ADF50
+        public void WriteDnsClass(){} // RVA: 0x7AD8AE1C0
+        public void .cctor(){} // RVA: 0x7AD8AE430
     }
 
-    public class Question
+    public class Question : DnsObject
     {
-        public MeaMod.DNS.Model.DomainName <Name>k__BackingField; // 0x18
-        public 0x659ACBF8 <Type>k__BackingField; // 0x20
-        public 0x659ACAF0 <Class>k__BackingField; // 0x22
-
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x2E07C0
-        public void set_Name(){} // RVA: 0x343E80
-        public void get_Type(){} // RVA: 0x44B4370
-        public void set_Type(){} // RVA: 0x5AC0F20
-        public void get_Class(){} // RVA: 0x5AC0F30
-        public void set_Class(){} // RVA: 0x5AC0F40
-        public void Read(){} // RVA: 0x5AC0F50
-        public void Write(){} // RVA: 0x5AC1030
-        public void ToString(){} // RVA: 0x5AC1110
-        public void .ctor(){} // RVA: 0x5AC1330
+        public void get_Name(){} // RVA: 0x7A80DA7B0
+        public void set_Name(){} // RVA: 0x7A813E420
+        public void get_Type(){} // RVA: 0x7AC2A24B0
+        public void set_Type(){} // RVA: 0x7AD8AE4B0
+        public void get_Class(){} // RVA: 0x7AD8AE4C0
+        public void set_Class(){} // RVA: 0x7AD8AE4D0
+        public void Read(){} // RVA: 0x7AD8AE4E0
+        public void Write(){} // RVA: 0x7AD8AE5C0
+        public void ToString(){} // RVA: 0x7AD8AE6A0
+        public void .ctor(){} // RVA: 0x7AD8AE8D0
     }
 
-    public class RPRecord
+    public class RPRecord : ResourceRecord
     {
-        public MeaMod.DNS.Model.DomainName <Mailbox>k__BackingField; // 0x30
-        public MeaMod.DNS.Model.DomainName <TextName>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC5F70
-        public void get_Mailbox(){} // RVA: 0x6374D0
-        public void set_Mailbox(){} // RVA: 0x30B890
-        public void get_TextName(){} // RVA: 0x4976A0
-        public void set_TextName(){} // RVA: 0x49B830
-        public void ReadData(){} // RVA: 0x5AC61B0 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC6310 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B35B0
+        public void get_Mailbox(){} // RVA: 0x7A83F69F0
+        public void set_Mailbox(){} // RVA: 0x7A8105A90
+        public void get_TextName(){} // RVA: 0x7A8292C30
+        public void set_TextName(){} // RVA: 0x7A8296DE0
+        public void ReadData(){} // RVA: 0x7AD8B37F0
+        public void WriteData(){} // RVA: 0x7AD8B3950
     }
 
-    public class RRSIGRecord
+    public class RRSIGRecord : ResourceRecord
     {
-        public 0x659ACBF8 <TypeCovered>k__BackingField; // 0x30
-        public 0x659ADFE8 <Algorithm>k__BackingField; // 0x32
-        public byte <Labels>k__BackingField; // 0x33
-        public System.TimeSpan <OriginalTTL>k__BackingField; // 0x38
-        public System.DateTime <SignatureExpiration>k__BackingField; // 0x40
-        public System.DateTime <SignatureInception>k__BackingField; // 0x48
-        public ushort <KeyTag>k__BackingField; // 0x50
-        public MeaMod.DNS.Model.DomainName <SignerName>k__BackingField; // 0x58
-        public byte[] <Signature>k__BackingField; // 0x60
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC63E0
-        public void get_TypeCovered(){} // RVA: 0x3BE7880
-        public void set_TypeCovered(){} // RVA: 0x5AC1AF0
-        public void get_Algorithm(){} // RVA: 0x3BE7520
-        public void set_Algorithm(){} // RVA: 0x5AC2490
-        public void get_Labels(){} // RVA: 0x5AC24A0
-        public void set_Labels(){} // RVA: 0x5AC24B0
-        public void get_OriginalTTL(){} // RVA: 0x4976A0
-        public void set_OriginalTTL(){} // RVA: 0xF501D0
-        public void get_SignatureExpiration(){} // RVA: 0x35A740
-        public void set_SignatureExpiration(){} // RVA: 0x36B37A0
-        public void get_SignatureInception(){} // RVA: 0x358730
-        public void set_SignatureInception(){} // RVA: 0x179D760
-        public void get_KeyTag(){} // RVA: 0x41E3C10
-        public void set_KeyTag(){} // RVA: 0x5AC6440
-        public void get_SignerName(){} // RVA: 0x3A5500
-        public void set_SignerName(){} // RVA: 0x3A5510
-        public void get_Signature(){} // RVA: 0x37B370
-        public void set_Signature(){} // RVA: 0x37B380
-        public void ReadData(){} // RVA: 0x5AC6790 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC6900 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B3A20
+        public void get_TypeCovered(){} // RVA: 0x7AB9DFA00
+        public void set_TypeCovered(){} // RVA: 0x7AD8AF090
+        public void get_Algorithm(){} // RVA: 0x7AB9DF6A0
+        public void set_Algorithm(){} // RVA: 0x7AD8AFA40
+        public void get_Labels(){} // RVA: 0x7AD8AFA50
+        public void set_Labels(){} // RVA: 0x7AD8AFA60
+        public void get_OriginalTTL(){} // RVA: 0x7A8292C30
+        public void set_OriginalTTL(){} // RVA: 0x7A82C26E0
+        public void get_SignatureExpiration(){} // RVA: 0x7A8154D80
+        public void set_SignatureExpiration(){} // RVA: 0x7A82C0820
+        public void get_SignatureInception(){} // RVA: 0x7A8152D80
+        public void set_SignatureInception(){} // RVA: 0x7A9558880
+        public void get_KeyTag(){} // RVA: 0x7ABFD44A0
+        public void set_KeyTag(){} // RVA: 0x7AD8B3A80
+        public void get_SignerName(){} // RVA: 0x7A81A0050
+        public void set_SignerName(){} // RVA: 0x7A81A0060
+        public void get_Signature(){} // RVA: 0x7A8175DF0
+        public void set_Signature(){} // RVA: 0x7A8175E00
+        public void ReadData(){} // RVA: 0x7AD8B3DD0
+        public void WriteData(){} // RVA: 0x7AD8B3F40
     }
 
-    public class ResourceRecord
+    public class ResourceRecord : DnsObject
     {
-        public System.TimeSpan DefaultTTL;
-        public System.TimeSpan DefaultHostTTL; // 0x8
-        public MeaMod.DNS.Model.DomainName <Name>k__BackingField; // 0x18
-        public 0x659ACBF8 <Type>k__BackingField; // 0x20
-        public 0x659ACAF0 <Class>k__BackingField; // 0x22
-
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x2E07C0
-        public void set_Name(){} // RVA: 0x343E80
-        public void get_CanonicalName(){} // RVA: 0x5AC9870
-        public void get_Type(){} // RVA: 0x44B4370
-        public void set_Type(){} // RVA: 0x5AC0F20
-        public void get_Class(){} // RVA: 0x5AC0F30
-        public void set_Class(){} // RVA: 0x5AC0F40
-        public void get_TTL(){} // RVA: 0x30B130
-        public void set_TTL(){} // RVA: 0x8AC650
-        public void IsExpired(){} // RVA: 0x5AC98B0
-        public void GetDataLength(){} // RVA: 0x5AC9990
-        public void GetData(){} // RVA: 0x5AC9AE0
-        public void Read(){} // RVA: 0x5ACAA00 | overloaded x3
-        public void ReadData(){} // RVA: 0x2DD310 | overloaded x2
-        public void Write(){} // RVA: 0x5ACA650 | overloaded x2
-        public void WriteData(){} // RVA: 0x5ACA810 | overloaded x2
-        public void Equals(){} // RVA: 0x5AC9FC0
-        public void op_Equality(){} // RVA: 0x5ACA140
-        public void op_Inequality(){} // RVA: 0x5ACA170
-        public void GetHashCode(){} // RVA: 0x5ACA1B0
-        public void ToString(){} // RVA: 0x5ACA430
-        public void .ctor(){} // RVA: 0x5ACAA20
-        public void .cctor(){} // RVA: 0x5ACAAD0
+        public void get_Name(){} // RVA: 0x7A80DA7B0
+        public void set_Name(){} // RVA: 0x7A813E420
+        public void get_CanonicalName(){} // RVA: 0x7AD8B6ED0
+        public void get_Type(){} // RVA: 0x7AC2A24B0
+        public void set_Type(){} // RVA: 0x7AD8AE4B0
+        public void get_Class(){} // RVA: 0x7AD8AE4C0
+        public void set_Class(){} // RVA: 0x7AD8AE4D0
+        public void get_TTL(){} // RVA: 0x7A8105330
+        public void set_TTL(){} // RVA: 0x7A8669350
+        public void IsExpired(){} // RVA: 0x7AD8B6F10
+        public void GetDataLength(){} // RVA: 0x7AD8B6FF0
+        public void GetData(){} // RVA: 0x7AD8B7140
+        public void Read(){} // RVA: 0x7AD8B8050
+        public void ReadData(){} // RVA: 0x7A80D7310
+        public void Write(){} // RVA: 0x7AD8B7CA0
+        public void WriteData(){} // RVA: 0x7AD8B7E60
+        public void Equals(){} // RVA: 0x7AD8B7620
+        public void op_Equality(){} // RVA: 0x7AD8B77A0
+        public void op_Inequality(){} // RVA: 0x7AD8B77D0
+        public void GetHashCode(){} // RVA: 0x7AD8B7810
+        public void ToString(){} // RVA: 0x7AD8B7A80
+        public void .ctor(){} // RVA: 0x7AD8B8070
+        public void .cctor(){} // RVA: 0x7AD8B8120
     }
 
-    public class ResourceRegistry
+    public class ResourceRegistry : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x5ACAC90
-        public void Register(){} // RVA: 0x24A80
-        public void Create(){} // RVA: 0x5ACB000
+        public void .cctor(){} // RVA: 0x7AD8B82E0
+        public void Register(){} // RVA: 0x7A7E187D0
+        public void Create(){} // RVA: 0x7AD8B8650
     }
 
-    public class SOARecord
+    public class SOARecord : ResourceRecord
     {
-        public MeaMod.DNS.Model.DomainName <PrimaryName>k__BackingField; // 0x30
-        public MeaMod.DNS.Model.DomainName <Mailbox>k__BackingField; // 0x38
-        public uint <SerialNumber>k__BackingField; // 0x40
-        public System.TimeSpan <Refresh>k__BackingField; // 0x48
-        public System.TimeSpan <Retry>k__BackingField; // 0x50
-        public System.TimeSpan <Expire>k__BackingField; // 0x58
-        public System.TimeSpan <Minimum>k__BackingField; // 0x60
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC6AC0
-        public void get_PrimaryName(){} // RVA: 0x6374D0
-        public void set_PrimaryName(){} // RVA: 0x30B890
-        public void get_Mailbox(){} // RVA: 0x4976A0
-        public void set_Mailbox(){} // RVA: 0x49B830
-        public void get_SerialNumber(){} // RVA: 0x37E080
-        public void set_SerialNumber(){} // RVA: 0x37E090
-        public void get_Refresh(){} // RVA: 0x358730
-        public void set_Refresh(){} // RVA: 0x179D760
-        public void get_Retry(){} // RVA: 0x37E0E0
-        public void set_Retry(){} // RVA: 0x4C4D50
-        public void get_Expire(){} // RVA: 0x3A5500
-        public void set_Expire(){} // RVA: 0x4C34E0
-        public void get_Minimum(){} // RVA: 0x37B370
-        public void set_Minimum(){} // RVA: 0x5AC6B90
-        public void ReadData(){} // RVA: 0x5AC6CE0 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC6EE0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B4100
+        public void get_PrimaryName(){} // RVA: 0x7A83F69F0
+        public void set_PrimaryName(){} // RVA: 0x7A8105A90
+        public void get_Mailbox(){} // RVA: 0x7A8292C30
+        public void set_Mailbox(){} // RVA: 0x7A8296DE0
+        public void get_SerialNumber(){} // RVA: 0x7A8178B30
+        public void set_SerialNumber(){} // RVA: 0x7A8178B40
+        public void get_Refresh(){} // RVA: 0x7A8152D80
+        public void set_Refresh(){} // RVA: 0x7A9558880
+        public void get_Retry(){} // RVA: 0x7A8178B90
+        public void set_Retry(){} // RVA: 0x7A82C1E60
+        public void get_Expire(){} // RVA: 0x7A81A0050
+        public void set_Expire(){} // RVA: 0x7A82C2080
+        public void get_Minimum(){} // RVA: 0x7A8175DF0
+        public void set_Minimum(){} // RVA: 0x7AD8B41D0
+        public void ReadData(){} // RVA: 0x7AD8B4320
+        public void WriteData(){} // RVA: 0x7AD8B4520
     }
 
-    public class SRVRecord
+    public class SRVRecord : ResourceRecord
     {
-        public ushort <Priority>k__BackingField; // 0x30
-        public ushort <Weight>k__BackingField; // 0x32
-        public ushort <Port>k__BackingField; // 0x34
-        public MeaMod.DNS.Model.DomainName <Target>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC70E0
-        public void get_Priority(){} // RVA: 0x3BE7880
-        public void set_Priority(){} // RVA: 0x5AC1AF0
-        public void get_Weight(){} // RVA: 0x5AC34B0
-        public void set_Weight(){} // RVA: 0x5AC34C0
-        public void get_Port(){} // RVA: 0x5AC7140
-        public void set_Port(){} // RVA: 0x5AC7150
-        public void get_Target(){} // RVA: 0x4976A0
-        public void set_Target(){} // RVA: 0x49B830
-        public void ReadData(){} // RVA: 0x5AC7260 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC7460 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B4720
+        public void get_Priority(){} // RVA: 0x7AB9DFA00
+        public void set_Priority(){} // RVA: 0x7AD8AF090
+        public void get_Weight(){} // RVA: 0x7AD8B0AA0
+        public void set_Weight(){} // RVA: 0x7AD8B0AB0
+        public void get_Port(){} // RVA: 0x7AD8B4780
+        public void set_Port(){} // RVA: 0x7AD8B4790
+        public void get_Target(){} // RVA: 0x7A8292C30
+        public void set_Target(){} // RVA: 0x7A8296DE0
+        public void ReadData(){} // RVA: 0x7AD8B48A0
+        public void WriteData(){} // RVA: 0x7AD8B4AA0
     }
 
-    public class SecurityAlgorithmRegistry
+    public class SecurityAlgorithmRegistry : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x5ACB120
-        public void GetMetadata(){} // RVA: 0x5ACB730
+        public void .cctor(){} // RVA: 0x7AD8B8770
+        public void GetMetadata(){} // RVA: 0x7AD8B8D80
     }
 
-    public class TKEYRecord
+    public class TKEYRecord : ResourceRecord
     {
-        public byte[] NoData;
-        public MeaMod.DNS.Model.DomainName <Algorithm>k__BackingField; // 0x30
-        public System.DateTime <Inception>k__BackingField; // 0x38
-        public System.DateTime <Expiration>k__BackingField; // 0x40
-        public 0x659AD228 <Mode>k__BackingField; // 0x48
-        public 0x659AD330 <Error>k__BackingField; // 0x4A
-        public byte[] <Key>k__BackingField; // 0x50
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC75A0
-        public void get_Algorithm(){} // RVA: 0x6374D0
-        public void set_Algorithm(){} // RVA: 0x30B890
-        public void get_Inception(){} // RVA: 0x4976A0
-        public void set_Inception(){} // RVA: 0xF501D0
-        public void get_Expiration(){} // RVA: 0x35A740
-        public void set_Expiration(){} // RVA: 0x36B37A0
-        public void get_Mode(){} // RVA: 0x5AC76F0
-        public void set_Mode(){} // RVA: 0x5AC7700
-        public void get_Error(){} // RVA: 0x16DF2D0
-        public void set_Error(){} // RVA: 0x16DE990
-        public void get_Key(){} // RVA: 0x37E0E0
-        public void set_Key(){} // RVA: 0x4354D0
-        public void get_OtherData(){} // RVA: 0x3A5500
-        public void set_OtherData(){} // RVA: 0x3A5510
-        public void ReadData(){} // RVA: 0x5AC7A40 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC7D70 | overloaded x2
-        public void .cctor(){} // RVA: 0x5AC7F30
+        public void .ctor(){} // RVA: 0x7AD8B4BE0
+        public void get_Algorithm(){} // RVA: 0x7A83F69F0
+        public void set_Algorithm(){} // RVA: 0x7A8105A90
+        public void get_Inception(){} // RVA: 0x7A8292C30
+        public void set_Inception(){} // RVA: 0x7A82C26E0
+        public void get_Expiration(){} // RVA: 0x7A8154D80
+        public void set_Expiration(){} // RVA: 0x7A82C0820
+        public void get_Mode(){} // RVA: 0x7AD8B4D30
+        public void set_Mode(){} // RVA: 0x7AD8B4D40
+        public void get_Error(){} // RVA: 0x7A9476890
+        public void set_Error(){} // RVA: 0x7A9475F50
+        public void get_Key(){} // RVA: 0x7A8178B90
+        public void set_Key(){} // RVA: 0x7A8230620
+        public void get_OtherData(){} // RVA: 0x7A81A0050
+        public void set_OtherData(){} // RVA: 0x7A81A0060
+        public void ReadData(){} // RVA: 0x7AD8B5080
+        public void WriteData(){} // RVA: 0x7AD8B53B0
+        public void .cctor(){} // RVA: 0x7AD8B5570
     }
 
-    public class TSIGRecord
+    public class TSIGRecord : ResourceRecord
     {
-        public byte[] NoData;
-        public string HMACMD5;
-        public string GSSTSIG;
-        public string HMACSHA1;
-        public string HMACSHA224;
-        public string HMACSHA256;
-        public string HMACSHA384;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC7FE0
-        public void get_Algorithm(){} // RVA: 0x6374D0
-        public void set_Algorithm(){} // RVA: 0x30B890
-        public void get_TimeSigned(){} // RVA: 0x4976A0
-        public void set_TimeSigned(){} // RVA: 0xF501D0
-        public void get_MAC(){} // RVA: 0x35A740
-        public void set_MAC(){} // RVA: 0x305200
-        public void get_Fudge(){} // RVA: 0x358730
-        public void set_Fudge(){} // RVA: 0x179D760
-        public void get_OriginalMessageId(){} // RVA: 0x41E3C10
-        public void set_OriginalMessageId(){} // RVA: 0x5AC6440
-        public void get_Error(){} // RVA: 0x1BE5300
-        public void set_Error(){} // RVA: 0x1BE2180
-        public void get_OtherData(){} // RVA: 0x3A5500
-        public void set_OtherData(){} // RVA: 0x3A5510
-        public void ReadData(){} // RVA: 0x5AC8B70 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC8F30 | overloaded x2
-        public void .cctor(){} // RVA: 0x5AC9180
+        public void .ctor(){} // RVA: 0x7AD8B5620
+        public void get_Algorithm(){} // RVA: 0x7A83F69F0
+        public void set_Algorithm(){} // RVA: 0x7A8105A90
+        public void get_TimeSigned(){} // RVA: 0x7A8292C30
+        public void set_TimeSigned(){} // RVA: 0x7A82C26E0
+        public void get_MAC(){} // RVA: 0x7A8154D80
+        public void set_MAC(){} // RVA: 0x7A80FF440
+        public void get_Fudge(){} // RVA: 0x7A8152D80
+        public void set_Fudge(){} // RVA: 0x7A9558880
+        public void get_OriginalMessageId(){} // RVA: 0x7ABFD44A0
+        public void set_OriginalMessageId(){} // RVA: 0x7AD8B3A80
+        public void get_Error(){} // RVA: 0x7A99A3440
+        public void set_Error(){} // RVA: 0x7A99A0320
+        public void get_OtherData(){} // RVA: 0x7A81A0050
+        public void set_OtherData(){} // RVA: 0x7A81A0060
+        public void ReadData(){} // RVA: 0x7AD8B61B0
+        public void WriteData(){} // RVA: 0x7AD8B6570
+        public void .cctor(){} // RVA: 0x7AD8B67C0
     }
 
-    public class TXTRecord
+    public class TXTRecord : ResourceRecord
     {
-        public System.Collections.Generic.List`1<string> <Strings>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AC9230
-        public void get_Strings(){} // RVA: 0x6374D0
-        public void set_Strings(){} // RVA: 0x30B890
-        public void ReadData(){} // RVA: 0x5AC9440 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC9670 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AD8B6870
+        public void get_Strings(){} // RVA: 0x7A83F69F0
+        public void set_Strings(){} // RVA: 0x7A8105A90
+        public void ReadData(){} // RVA: 0x7AD8B6A80
+        public void WriteData(){} // RVA: 0x7AD8B6CC0
     }
 
-    public class UnknownEdnsOption
+    public class UnknownEdnsOption : EdnsOption
     {
-        public byte[] <Data>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x2E07C0
-        public void set_Data(){} // RVA: 0x343E80
-        public void ReadData(){} // RVA: 0x5ABB3A0
-        public void WriteData(){} // RVA: 0x5ABB420
-        public void ToString(){} // RVA: 0x5ACB8E0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Data(){} // RVA: 0x7A80DA7B0
+        public void set_Data(){} // RVA: 0x7A813E420
+        public void ReadData(){} // RVA: 0x7AD8A88E0
+        public void WriteData(){} // RVA: 0x7AD8A8960
+        public void ToString(){} // RVA: 0x7AD8B8F30
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class UnknownRecord
+    public class UnknownRecord : ResourceRecord
     {
-        public byte[] <Data>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x6374D0
-        public void set_Data(){} // RVA: 0x30B890
-        public void ReadData(){} // RVA: 0x5AC5230 | overloaded x2
-        public void WriteData(){} // RVA: 0x5AC52A0
-        public void .ctor(){} // RVA: 0x5AC9820
+        public void get_Data(){} // RVA: 0x7A83F69F0
+        public void set_Data(){} // RVA: 0x7A8105A90
+        public void ReadData(){} // RVA: 0x7AD8B2860
+        public void WriteData(){} // RVA: 0x7AD8B28D0
+        public void .ctor(){} // RVA: 0x7AD8B6E80
     }
 
-    public class UpdateMessage
+    public class UpdateMessage : DnsObject
     {
-        public ushort <Id>k__BackingField; // 0x18
-        public bool <QR>k__BackingField; // 0x1A
-        public 0x659AD2D8 <Opcode>k__BackingField; // 0x1C
-        public int <Z>k__BackingField; // 0x20
-        public 0x659AD330 <Status>k__BackingField; // 0x24
-        public MeaMod.DNS.Model.Question <Zone>k__BackingField; // 0x28
-        public MeaMod.DNS.Model.UpdatePrerequisiteList <Prerequisites>k__BackingField; // 0x30
-        public MeaMod.DNS.Model.UpdateResourceList <Updates>k__BackingField; // 0x38
-        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <AdditionalResources>k__BackingField; // 0x40
-
         // ── Methods ──
-        public void get_Id(){} // RVA: 0x2892C90
-        public void set_Id(){} // RVA: 0x4470200
-        public void get_QR(){} // RVA: 0x1B98340
-        public void set_QR(){} // RVA: 0x1B98210
-        public void get_IsUpdate(){} // RVA: 0x5ACBA90
-        public void get_IsResponse(){} // RVA: 0x1B98340
-        public void get_Opcode(){} // RVA: 0x5ACBAA0
-        public void set_Opcode(){} // RVA: 0x5ACBAB0
-        public void get_Z(){} // RVA: 0x760030
-        public void set_Z(){} // RVA: 0x99E0D0
-        public void get_Status(){} // RVA: 0x2F87C0
-        public void set_Status(){} // RVA: 0x4D7670
-        public void get_Zone(){} // RVA: 0x30B130
-        public void set_Zone(){} // RVA: 0x2DEE90
-        public void get_Prerequisites(){} // RVA: 0x6374D0
-        public void get_Updates(){} // RVA: 0x4976A0
-        public void get_AdditionalResources(){} // RVA: 0x35A740
-        public void CreateResponse(){} // RVA: 0x5ACBAC0
-        public void Read(){} // RVA: 0x5ACBB40
-        public void Write(){} // RVA: 0x5ACC0E0
-        public void .ctor(){} // RVA: 0x5ACC710
+        public void get_Id(){} // RVA: 0x7AA69D080
+        public void set_Id(){} // RVA: 0x7AC25E3B0
+        public void get_QR(){} // RVA: 0x7A9956320
+        public void set_QR(){} // RVA: 0x7A99561F0
+        public void get_IsUpdate(){} // RVA: 0x7AD8B90E0
+        public void get_IsResponse(){} // RVA: 0x7A9956320
+        public void get_Opcode(){} // RVA: 0x7AD8B90F0
+        public void set_Opcode(){} // RVA: 0x7AD8B9100
+        public void get_Z(){} // RVA: 0x7A851DB90
+        public void set_Z(){} // RVA: 0x7A8738180
+        public void get_Status(){} // RVA: 0x7A80F29B0
+        public void set_Status(){} // RVA: 0x7A9727920
+        public void get_Zone(){} // RVA: 0x7A8105330
+        public void set_Zone(){} // RVA: 0x7A80D8E80
+        public void get_Prerequisites(){} // RVA: 0x7A83F69F0
+        public void get_Updates(){} // RVA: 0x7A8292C30
+        public void get_AdditionalResources(){} // RVA: 0x7A8154D80
+        public void CreateResponse(){} // RVA: 0x7AD8B9110
+        public void Read(){} // RVA: 0x7AD8B9190
+        public void Write(){} // RVA: 0x7AD8B9740
+        public void .ctor(){} // RVA: 0x7AD8B9D80
     }
 
-    public class UpdatePrerequisiteList
+    public class UpdatePrerequisiteList : List`1
     {
         // ── Methods ──
-        public void MustExist(){} // RVA: 0x5ACCBC0 | overloaded x4
-        public void MustNotExist(){} // RVA: 0xCE10 | overloaded x3
-        public void .ctor(){} // RVA: 0x5ACCDB0
+        public void MustExist(){} // RVA: 0x7AD8BA230
+        public void MustNotExist(){} // RVA: 0x7A7E00B20
+        public void .ctor(){} // RVA: 0x7AD8BA420
     }
 
-    public class UpdateResourceList
+    public class UpdateResourceList : List`1
     {
         // ── Methods ──
-        public void AddResource(){} // RVA: 0x5ACCE20
-        public void DeleteResource(){} // RVA: 0xCE10 | overloaded x4
-        public void .ctor(){} // RVA: 0x5ACD170
+        public void AddResource(){} // RVA: 0x7AD8BA490
+        public void DeleteResource(){} // RVA: 0x7A7E00B20
+        public void .ctor(){} // RVA: 0x7AD8BA7E0
     }
 
-    public class WireReader
+    public class WireReader : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ACD1E0
-        public void ReadByte(){} // RVA: 0x5ACD300
-        public void ReadBytes(){} // RVA: 0x5ACD380
-        public void ReadByteLengthPrefixedBytes(){} // RVA: 0x5ACD470
-        public void ReadUInt16LengthPrefixedBytes(){} // RVA: 0x5ACD4A0
-        public void ReadUInt16(){} // RVA: 0x5ACD4E0
-        public void ReadUInt32(){} // RVA: 0x5ACD520
-        public void ReadUInt48(){} // RVA: 0x5ACD590
-        public void ReadDomainName(){} // RVA: 0x5ACD640
-        public void ReadLabels(){} // RVA: 0x5ACD6E0
-        public void ReadString(){} // RVA: 0x5ACD900
-        public void ReadTimeSpan16(){} // RVA: 0x5ACDBC0
-        public void ReadTimeSpan32(){} // RVA: 0x5ACDC90
-        public void ReadIPAddress(){} // RVA: 0x5ACDD40
-        public void ReadBitmap(){} // RVA: 0x5ACDE20
-        public void ReadDateTime32(){} // RVA: 0x5ACDF70
-        public void ReadDateTime48(){} // RVA: 0x5ACE060
-        public void .cctor(){} // RVA: 0x5ACE200
+        public void .ctor(){} // RVA: 0x7AD8BA850
+        public void ReadByte(){} // RVA: 0x7AD8BA970
+        public void ReadBytes(){} // RVA: 0x7AD8BA9F0
+        public void ReadByteLengthPrefixedBytes(){} // RVA: 0x7AD8BAAE0
+        public void ReadUInt16LengthPrefixedBytes(){} // RVA: 0x7AD8BAB10
+        public void ReadUInt16(){} // RVA: 0x7AD8BAB50
+        public void ReadUInt32(){} // RVA: 0x7AD8BAB90
+        public void ReadUInt48(){} // RVA: 0x7AD8BAC00
+        public void ReadDomainName(){} // RVA: 0x7AD8BACB0
+        public void ReadLabels(){} // RVA: 0x7AD8BAD50
+        public void ReadString(){} // RVA: 0x7AD8BAF70
+        public void ReadTimeSpan16(){} // RVA: 0x7AD8BB220
+        public void ReadTimeSpan32(){} // RVA: 0x7AD8BB2F0
+        public void ReadIPAddress(){} // RVA: 0x7AD8BB3A0
+        public void ReadBitmap(){} // RVA: 0x7AD8BB480
+        public void ReadDateTime32(){} // RVA: 0x7AD8BB5D0
+        public void ReadDateTime48(){} // RVA: 0x7AD8BB6C0
+        public void .cctor(){} // RVA: 0x7AD8BB860
     }
 
-    public class WireWriter
+    public class WireWriter : Object
     {
-        public int System.Collections.Generic.IEnumerator<System.Byte>.Current;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ACE330
-        public void get_CanonicalForm(){} // RVA: 0x3BC230
-        public void set_CanonicalForm(){} // RVA: 0x3BC240
-        public void PushLengthPrefixedScope(){} // RVA: 0x5ACE500
-        public void PopLengthPrefixedScope(){} // RVA: 0x5ACE5E0
-        public void WriteByte(){} // RVA: 0x5ACE750
-        public void WriteBytes(){} // RVA: 0x5ACE790
-        public void WriteByteLengthPrefixedBytes(){} // RVA: 0x5ACE7F0
-        public void WriteUint16LengthPrefixedBytes(){} // RVA: 0x5ACE910
-        public void WriteUInt16(){} // RVA: 0x5ACEA10
-        public void WriteUInt32(){} // RVA: 0x5ACEA80
-        public void WriteUInt48(){} // RVA: 0x5ACEB30
-        public void WriteDomainName(){} // RVA: 0x5ACED70 | overloaded x2
-        public void WriteString(){} // RVA: 0x5ACF140
-        public void WriteTimeSpan16(){} // RVA: 0x5ACF340
-        public void WriteTimeSpan32(){} // RVA: 0x5ACF400
-        public void WriteDateTime32(){} // RVA: 0x5ACF480
-        public void WriteDateTime48(){} // RVA: 0x5ACF5B0
-        public void WriteIPAddress(){} // RVA: 0x5ACF6E0
-        public void WriteBitmap(){} // RVA: 0x5ACF750
-        public void ToBytes(){} // RVA: 0x5AD0080
-        public void .cctor(){} // RVA: 0x5AD0140
+        public void .ctor(){} // RVA: 0x7AD8BB990
+        public void get_CanonicalForm(){} // RVA: 0x7A81B7080
+        public void set_CanonicalForm(){} // RVA: 0x7A81B7090
+        public void PushLengthPrefixedScope(){} // RVA: 0x7AD8BBB60
+        public void PopLengthPrefixedScope(){} // RVA: 0x7AD8BBC40
+        public void WriteByte(){} // RVA: 0x7AD8BBDB0
+        public void WriteBytes(){} // RVA: 0x7AD8BBDF0
+        public void WriteByteLengthPrefixedBytes(){} // RVA: 0x7AD8BBE50
+        public void WriteUint16LengthPrefixedBytes(){} // RVA: 0x7AD8BBF70
+        public void WriteUInt16(){} // RVA: 0x7AD8BC070
+        public void WriteUInt32(){} // RVA: 0x7AD8BC0E0
+        public void WriteUInt48(){} // RVA: 0x7AD8BC190
+        public void WriteDomainName(){} // RVA: 0x7AD8BC3D0
+        public void WriteString(){} // RVA: 0x7AD8BC7C0
+        public void WriteTimeSpan16(){} // RVA: 0x7AD8BC9C0
+        public void WriteTimeSpan32(){} // RVA: 0x7AD8BCA80
+        public void WriteDateTime32(){} // RVA: 0x7AD8BCB00
+        public void WriteDateTime48(){} // RVA: 0x7AD8BCC30
+        public void WriteIPAddress(){} // RVA: 0x7AD8BCD60
+        public void WriteBitmap(){} // RVA: 0x7AD8BCDD0
+        public void ToBytes(){} // RVA: 0x7AD8BD710
+        public void .cctor(){} // RVA: 0x7AD8BD7D0
     }
 
 }

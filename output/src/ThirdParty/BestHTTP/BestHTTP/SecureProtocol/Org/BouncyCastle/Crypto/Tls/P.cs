@@ -1,64 +1,57 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls
 // Classes: 4
-// Methods: 33
+// Methods: 29
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls
 {
-    public class PrfAlgorithm
+    public class PrfAlgorithm : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ProtocolVersion
+    public class ProtocolVersion : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion SSLv3;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion TLSv10; // 0x8
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion TLSv11; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion TLSv12; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion DTLSv10; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.ProtocolVersion DTLSv12; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x952FA90
-        public void get_FullVersion(){} // RVA: 0x32A5C0
-        public void get_MajorVersion(){} // RVA: 0x952FAF0
-        public void get_MinorVersion(){} // RVA: 0x3A75E0
-        public void get_IsDtls(){} // RVA: 0x952FB00
-        public void get_IsSsl(){} // RVA: 0x952FB20
-        public void get_IsTls(){} // RVA: 0x952FB80
-        public void GetEquivalentTLSVersion(){} // RVA: 0x952FBA0
-        public void IsEqualOrEarlierVersionOf(){} // RVA: 0x952FC60
-        public void IsLaterVersionOf(){} // RVA: 0x952FCC0
-        public void Equals(){} // RVA: 0x952FDC0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x32A5C0
-        public void Get(){} // RVA: 0x952FDE0
-        public void ToString(){} // RVA: 0x2E07C0
-        public void GetUnknownVersion(){} // RVA: 0x95300A0
-        public void .cctor(){} // RVA: 0x9530260
+        public void .ctor(){} // RVA: 0x7B1365DC0
+        public void get_FullVersion(){} // RVA: 0x7A8124910
+        public void get_MajorVersion(){} // RVA: 0x7B1365E20
+        public void get_MinorVersion(){} // RVA: 0x7A81A2200
+        public void get_IsDtls(){} // RVA: 0x7B1365E30
+        public void get_IsSsl(){} // RVA: 0x7B1365E50
+        public void get_IsTls(){} // RVA: 0x7B1365EB0
+        public void GetEquivalentTLSVersion(){} // RVA: 0x7B1365ED0
+        public void IsEqualOrEarlierVersionOf(){} // RVA: 0x7B1365F90
+        public void IsLaterVersionOf(){} // RVA: 0x7B1365FF0
+        public void Equals(){} // RVA: 0x7B13660F0
+        public void GetHashCode(){} // RVA: 0x7A8124910
+        public void Get(){} // RVA: 0x7B1366110
+        public void ToString(){} // RVA: 0x7A80DA7B0
+        public void GetUnknownVersion(){} // RVA: 0x7B13663D0
+        public void .cctor(){} // RVA: 0x7B1366590
     }
 
-    public class PskTlsClient
+    public class PskTlsClient : AbstractTlsClient
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9530B20 | overloaded x3
-        public void GetCipherSuites(){} // RVA: 0x9530C20
-        public void GetKeyExchange(){} // RVA: 0x9530C90
-        public void GetAuthentication(){} // RVA: 0x9530D50
-        public void CreatePskKeyExchange(){} // RVA: 0x9530DA0
+        public void .ctor(){} // RVA: 0x7B1366E50
+        public void GetCipherSuites(){} // RVA: 0x7B1366F50
+        public void GetKeyExchange(){} // RVA: 0x7B1366FC0
+        public void GetAuthentication(){} // RVA: 0x7B1367080
+        public void CreatePskKeyExchange(){} // RVA: 0x7B13670D0
     }
 
-    public class PskTlsServer
+    public class PskTlsServer : AbstractTlsServer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9530F70 | overloaded x2
-        public void GetRsaEncryptionCredentials(){} // RVA: 0x9531020
-        public void GetDHParameters(){} // RVA: 0x9531070
-        public void GetCipherSuites(){} // RVA: 0x95310D0
-        public void GetCredentials(){} // RVA: 0x9531140
-        public void GetKeyExchange(){} // RVA: 0x9531210
-        public void CreatePskKeyExchange(){} // RVA: 0x95312D0
+        public void .ctor(){} // RVA: 0x7B13672A0
+        public void GetRsaEncryptionCredentials(){} // RVA: 0x7B1367350
+        public void GetDHParameters(){} // RVA: 0x7B13673A0
+        public void GetCipherSuites(){} // RVA: 0x7B1367400
+        public void GetCredentials(){} // RVA: 0x7B1367470
+        public void GetKeyExchange(){} // RVA: 0x7B1367540
+        public void CreatePskKeyExchange(){} // RVA: 0x7B1367600
     }
 
 }

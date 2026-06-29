@@ -1,927 +1,899 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 371
+// Methods: 393
 
-public class Label
+public class LambdaSignature`1 : Object
 {
+    // ── Methods ──
+    public void get_Instance(){} // RVA: 0x7A7E006B0
+    public void .ctor(){} // RVA: 0x7A7E18770
 }
 
-public class LabelExpressionProxy
+public class LayoutMatcher[] : Array
 {
-    public System.Linq.Expressions.LabelExpression Body; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x65DAFF0
-    public void get_CanReduce(){} // RVA: 0x7F02E0
-    public void get_DebugView(){} // RVA: 0x65DA6E0
-    public void get_DefaultValue(){} // RVA: 0xB2EEA0
-    public void get_NodeType(){} // RVA: 0x7F01B0
-    public void get_Target(){} // RVA: 0xB2ECF0
-    public void get_Type(){} // RVA: 0x7F0250
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class LambdaExpressionProxy
+public class LazyCAttrData : Object
 {
-    public System.Linq.Expressions.LambdaExpression CanReduce; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x65DB0D0
-    public void get_Body(){} // RVA: 0xB2ECF0
-    public void get_CanReduce(){} // RVA: 0x7F02E0
-    public void get_DebugView(){} // RVA: 0x65DA6E0
-    public void get_Name(){} // RVA: 0x7F0280
-    public void get_NodeType(){} // RVA: 0x7F01B0
-    public void get_Parameters(){} // RVA: 0x7F02B0
-    public void get_ReturnType(){} // RVA: 0x65DB1B0
-    public void get_TailCall(){} // RVA: 0x7F0180
-    public void get_Type(){} // RVA: 0x7F0250
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class LambdaSignature`1
+public class Leg : BodyPart
 {
-    public LambdaSignature`1<T> s_instance;
-
     // ── Methods ──
-    public void get_Instance(){} // RVA: 0xC960
-    public void .ctor(){} // RVA: 0x24A50
+    public void get_position(){} // RVA: 0x7A8203DD0
+    public void set_position(){} // RVA: 0x7A8203DF0
+    public void get_rotation(){} // RVA: 0x7A8203E10
+    public void set_rotation(){} // RVA: 0x7A8203E20
+    public void get_hasToes(){} // RVA: 0x7A8203E30
+    public void set_hasToes(){} // RVA: 0x7A8203E40
+    public void get_thigh(){} // RVA: 0x7A81F65F0
+    public void get_calf(){} // RVA: 0x7A8203E50
+    public void get_foot(){} // RVA: 0x7A8203E80
+    public void get_toes(){} // RVA: 0x7A8203EB0
+    public void get_lastBone(){} // RVA: 0x7A8203EE0
+    public void get_thighRelativeToPelvis(){} // RVA: 0x7A8142830
+    public void set_thighRelativeToPelvis(){} // RVA: 0x7A8142850
+    public void OnRead(){} // RVA: 0x7A8203F20
+    public void PreSolve(){} // RVA: 0x7A8204CA0
+    public void ApplyOffsets(){} // RVA: 0x7A8205A60
+    public void ApplyPositionOffset(){} // RVA: 0x7A82068C0
+    public void ApplyRotationOffset(){} // RVA: 0x7A8206970
+    public void Solve(){} // RVA: 0x7A8206FF0
+    public void VrcFindKneeTargetBend(){} // RVA: 0x7A82072E0
+    public void FixTwistRotations(){} // RVA: 0x7A8207550
+    public void Stretching(){} // RVA: 0x7A8208070
+    public void Write(){} // RVA: 0x7A82086D0
+    public void ResetOffsets(){} // RVA: 0x7A8208990
+    public void .ctor(){} // RVA: 0x7A8208A70
 }
 
-public class LastActiveSpanTracker
+public class LegacySignalSource : Object
 {
-    public object Sentry.IBaseTracer.IsOtelInstrumenter; // 0x10
-
     // ── Methods ──
-    public void get_TrackedSpans(){} // RVA: 0x63CB400
-    public void Push(){} // RVA: 0x63CB450
-    public void PeekActive(){} // RVA: 0x63CB610
-    public void Clear(){} // RVA: 0x63CB8E0
-    public void .ctor(){} // RVA: 0x63CBAA0
+    public void .ctor(){} // RVA: 0x7A9B34920
+    public void get_SignalDuration(){} // RVA: 0x7A9B349E0
+    public void GetSignal(){} // RVA: 0x7A9B34A20
 }
 
-public class LatencyData
+public class LinkImage : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class LaterInitParam
+public class LinkedSlot : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6A27890
+    public void .ctor(){} // RVA: 0x7A7E18800
 }
 
-public class Layer
+public class LinkedSlot : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7AB5DB350
 }
 
-public class LayerDesc
+public class LinkedSlotVolatile[] : Array
 {
     // ── Methods ──
-    public void ToString(){} // RVA: 0x6170B10
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A0FB0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2A50
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2501E0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class LayerDescInternal
+public class ListBuilder`1 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6170D80
-    public void ToLayerDesc(){} // RVA: 0x6170E40
+    public void .ctor(){} // RVA: 0x7A7E189D0
+    public void get_Item(){} // RVA: 0x7A8051B10
+    public void ToArray(){} // RVA: 0x7A7E00680
+    public void CopyTo(){} // RVA: 0x7A7E1D590
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void Add(){} // RVA: 0x7A8051B10
 }
 
-public class LayerSubmit
+public class ListBuilder`1 : ValueType
 {
+    // ── Methods ──
+    public void ToArray(){} // RVA: 0x7A7914930
+    public void Add(){} // RVA: 0x7A7914950
+    public void .ctor(){} // RVA: 0x7A79148E0
+    public void get_Item(){} // RVA: 0x7A79148F0
+    public void CopyTo(){} // RVA: 0x7A7914940
+    public void get_Count(){} // RVA: 0x7A7677B20
 }
 
-public class LayerTexture
+public class ListBuilder`1 : ValueType
 {
+    // ── Methods ──
+    public void ToArray(){} // RVA: 0x7A7914930
+    public void get_Count(){} // RVA: 0x7A7677B20
+    public void get_Item(){} // RVA: 0x7A79148F0
+    public void Add(){} // RVA: 0x7A7914950
+    public void .ctor(){} // RVA: 0x7A79148E0
+    public void CopyTo(){} // RVA: 0x7A7914940
 }
 
-public class LayoutCache
+public class ListBuilder`1 : ValueType
 {
-    public int unbalancedgroupscount; // 0x10
-
     // ── Methods ──
-    public void set_id(){} // RVA: 0x2E00C0
-    public void .ctor(){} // RVA: 0x71873A0
-    public void ResetCursor(){} // RVA: 0x7187590
+    public void CopyTo(){} // RVA: 0x7A7914940
+    public void ToArray(){} // RVA: 0x7A7914930
+    public void get_Count(){} // RVA: 0x7A7677B20
+    public void Add(){} // RVA: 0x7A7914950
+    public void .ctor(){} // RVA: 0x7A79148E0
 }
 
-public class LayoutJson
+public class ListBuilder`1 : ValueType
 {
     // ── Methods ──
-    public void ToLayout(){} // RVA: 0x6EF9270
-    public void FromLayout(){} // RVA: 0x6EF9F40
+    public void CopyTo(){} // RVA: 0x7A7914940
+    public void ToArray(){} // RVA: 0x7A7914930
+    public void get_Count(){} // RVA: 0x7A7677B20
+    public void Add(){} // RVA: 0x7A7914950
+    public void .ctor(){} // RVA: 0x7A79148E0
 }
 
-public class LayoutJsonNameAndDescriptorOnly
+public class ListBuilder`1 : ValueType
 {
+    // ── Methods ──
+    public void ToArray(){} // RVA: 0x7A7914930
+    public void get_Count(){} // RVA: 0x7A7677B20
+    public void get_Item(){} // RVA: 0x7A79148F0
+    public void Add(){} // RVA: 0x7A7914950
+    public void .ctor(){} // RVA: 0x7A79148E0
+    public void CopyTo(){} // RVA: 0x7A7914940
 }
 
-public class LayoutMatcher
+public class ListBuilder`1 : ValueType
 {
+    // ── Methods ──
+    public void ToArray(){} // RVA: 0x7A7914930
+    public void Add(){} // RVA: 0x7A7914950
+    public void .ctor(){} // RVA: 0x7A79148E0
+    public void get_Item(){} // RVA: 0x7A79148F0
+    public void CopyTo(){} // RVA: 0x7A7914940
+    public void get_Count(){} // RVA: 0x7A7677B20
 }
 
-public class LayoutNotFoundException
+public class ListElementProperty : Property`2
 {
-    public string <layout>k__BackingField; // 0x90
-
     // ── Methods ──
-    public void get_layout(){} // RVA: 0x796DE0
-    public void .ctor(){} // RVA: 0x6DB7640 | overloaded x5
+    public void get_Index(){} // RVA: 0x7A7E00710
+    public void get_Name(){} // RVA: 0x7A7E00680
+    public void .ctor(){} // RVA: 0x7A7E18770
 }
 
-public class LayoutedWindow
+public class ListIterator`1 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x71831F0
-    public void DoWindow(){} // RVA: 0x7183300
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void GetEnumerator(){} // RVA: 0x7A8051B10
+    public void get_Current(){} // RVA: 0x7A8051B10
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Dispose(){} // RVA: 0x7A7E18770
 }
 
-public class LazyCAttrData
+public class ListOfTWrapper`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_Item(){} // RVA: 0x7A8051B10
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
 }
 
-public class LeftShiftByte
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x6628510
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class LeftShiftInt16
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x6628130
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LeftShiftInt32
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x6628260
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LeftShiftInt64
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x6628370
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LeftShiftSByte
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x6628000
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LeftShiftUInt16
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x6628640
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LeftShiftUInt32
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x6628770
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LeftShiftUInt64
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void Run(){} // RVA: 0x6628910
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class Leg
+public class ListPoolImpl`1 : Object
 {
-    public UnityEngine.Transform target; // 0x48
-    public UnityEngine.Transform bendGoal; // 0x50
-    public float positionWeight; // 0x58
-    public float rotationWeight; // 0x5C
-    public float bendGoalWeight; // 0x60
-    public float swivelOffset; // 0x64
-    public float bendToTargetWeight; // 0x68
-    public float legLengthMlp; // 0x6C
-    public UnityEngine.AnimationCurve stretchCurve; // 0x70
-
     // ── Methods ──
-    public void get_position(){} // RVA: 0x408F20
-    public void set_position(){} // RVA: 0x408F40
-    public void get_rotation(){} // RVA: 0x408F60
-    public void set_rotation(){} // RVA: 0x408F70
-    public void get_hasToes(){} // RVA: 0x408F80
-    public void set_hasToes(){} // RVA: 0x408F90
-    public void get_thigh(){} // RVA: 0x3FB5F0
-    public void get_calf(){} // RVA: 0x408FA0
-    public void get_foot(){} // RVA: 0x408FD0
-    public void get_toes(){} // RVA: 0x409000
-    public void get_lastBone(){} // RVA: 0x409030
-    public void get_thighRelativeToPelvis(){} // RVA: 0x348260
-    public void set_thighRelativeToPelvis(){} // RVA: 0x348280
-    public void OnRead(){} // RVA: 0x409070
-    public void PreSolve(){} // RVA: 0x409E10
-    public void ApplyOffsets(){} // RVA: 0x40ABD0
-    public void ApplyPositionOffset(){} // RVA: 0x40BA40
-    public void ApplyRotationOffset(){} // RVA: 0x40BAF0
-    public void Solve(){} // RVA: 0x40C180
-    public void VrcFindKneeTargetBend(){} // RVA: 0x40C470
-    public void FixTwistRotations(){} // RVA: 0x40C6E0
-    public void Stretching(){} // RVA: 0x40D210
-    public void Write(){} // RVA: 0x40D880
-    public void ResetOffsets(){} // RVA: 0x40DB40
-    public void .ctor(){} // RVA: 0x40DC20
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class Leg
+public class ListPoolImpl`1 : Object
 {
-    public bool IKOffset; // 0x10
-    public UnityEngine.Vector3 heightOffset; // 0x14
-    public UnityEngine.Quaternion rotationOffset; // 0x20
-    public bool <initiated>k__BackingField; // 0x30
-    public float <heightFromGround>k__BackingField; // 0x34
-    public UnityEngine.Vector3 <velocity>k__BackingField; // 0x38
-    public UnityEngine.Transform <transform>k__BackingField; // 0x48
-    public float <IKOffset>k__BackingField; // 0x50
-    public bool invertFootCenter; // 0x54
-    public UnityEngine.RaycastHit <heelHit>k__BackingField; // 0x58
-    public UnityEngine.RaycastHit <capsuleHit>k__BackingField; // 0x84
-    public RootMotion.FinalIK.Grounding grounding; // 0xB0
-
     // ── Methods ──
-    public void get_isGrounded(){} // RVA: 0x3A75E0
-    public void set_isGrounded(){} // RVA: 0x3A75F0
-    public void get_IKPosition(){} // RVA: 0x3A7600
-    public void set_IKPosition(){} // RVA: 0x3A7620
-    public void get_initiated(){} // RVA: 0x303450
-    public void set_initiated(){} // RVA: 0x303460
-    public void get_heightFromGround(){} // RVA: 0x3A7630
-    public void set_heightFromGround(){} // RVA: 0x3A7640
-    public void get_velocity(){} // RVA: 0x343F40
-    public void set_velocity(){} // RVA: 0x343F60
-    public void get_transform(){} // RVA: 0x358730
-    public void set_transform(){} // RVA: 0x358740
-    public void get_IKOffset(){} // RVA: 0x345460
-    public void set_IKOffset(){} // RVA: 0x345470
-    public void get_heelHit(){} // RVA: 0x3A7650
-    public void set_heelHit(){} // RVA: 0x3A7680
-    public void get_capsuleHit(){} // RVA: 0x3A76B0
-    public void set_capsuleHit(){} // RVA: 0x3A76E0
-    public void get_GetHitPoint(){} // RVA: 0x3A7710
-    public void SetFootPosition(){} // RVA: 0x3A7790
-    public void Initiate(){} // RVA: 0x3A77B0
-    public void OnEnable(){} // RVA: 0x3A7A40
-    public void Reset(){} // RVA: 0x3A7B30
-    public void Process(){} // RVA: 0x3A7CC0
-    public void get_stepHeightFromGround(){} // RVA: 0x3A8C70
-    public void GetCapsuleHit(){} // RVA: 0x3A8CC0
-    public void GetRaycastHit(){} // RVA: 0x3A93B0
-    public void RotateNormal(){} // RVA: 0x3A9910
-    public void SetFootToPoint(){} // RVA: 0x3A9A30
-    public void SetFootToPlane(){} // RVA: 0x3A9B40
-    public void GetHeightFromGround(){} // RVA: 0x3A9F30
-    public void RotateFoot(){} // RVA: 0x3AA0E0
-    public void GetRotationOffsetTarget(){} // RVA: 0x3AA270
-    public void get_rootYOffset(){} // RVA: 0x3AA390
-    public void .ctor(){} // RVA: 0x3AA4E0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LegacyAnimationUpdate
+public class ListPoolImpl`1 : Object
 {
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LegacyFixedAnimationUpdate
+public class ListPoolImpl`1 : Object
 {
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LegacySignalSource
+public class ListPoolImpl`1 : Object
 {
-    public Cinemachine.CinemachineImpulseDefinition m_Def; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1D32040
-    public void get_SignalDuration(){} // RVA: 0x1D32100
-    public void GetSignal(){} // RVA: 0x1D32140
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanByte
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x6629FB0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanChar
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x6629B90
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanDouble
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662A690
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanInt16
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x6629A30
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanInt32
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x6629CF0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanInt64
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x6629E50
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualByte
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662BCF0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualChar
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662B8D0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualDouble
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662C3D0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualInt16
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662B770
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualInt32
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662BA30
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualInt64
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662BB90
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualSByte
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662B610
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualSingle
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662C270
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualUInt16
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662BE50
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualUInt32
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662BFB0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanOrEqualUInt64
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662C110
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanSByte
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x66298D0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanSingle
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662A530
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanUInt16
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662A110
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanUInt32
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662A270
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LessThanUInt64
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void Run(){} // RVA: 0x662A3D0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class Level
+public class ListPoolImpl`1 : Object
 {
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LicFileLicense
+public class ListPoolImpl`1 : Object
 {
-    public System.ComponentModel.LicFileLicenseProvider _owner; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xF19AE0
-    public void get_LicenseKey(){} // RVA: 0x2E07C0
-    public void Dispose(){} // RVA: 0x6C66E60
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LifetimeByEmitterSpeedModule
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x100A2F0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LightmapAdditionalData
+public class ListPoolImpl`1 : Object
 {
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class Lights
+public class ListPoolImpl`1 : Object
 {
+    // ── Methods ──
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LightsModule
+public class ListPoolImpl`1 : Object
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x100A2F0
-    public void get_enabled(){} // RVA: 0x71C3390
-    public void set_enabled(){} // RVA: 0x71C33E0
-    public void get_ratio(){} // RVA: 0x71C3440
-    public void set_ratio(){} // RVA: 0x71C3490
-    public void get_useRandomDistribution(){} // RVA: 0x71C34F0
-    public void set_useRandomDistribution(){} // RVA: 0x71C3540
-    public void get_light(){} // RVA: 0x71C35A0
-    public void set_light(){} // RVA: 0x71C35F0
-    public void get_useParticleColor(){} // RVA: 0x71C3650
-    public void set_useParticleColor(){} // RVA: 0x71C36A0
-    public void get_sizeAffectsRange(){} // RVA: 0x71C3700
-    public void set_sizeAffectsRange(){} // RVA: 0x71C3750
-    public void get_alphaAffectsIntensity(){} // RVA: 0x71C37B0
-    public void set_alphaAffectsIntensity(){} // RVA: 0x71C3800
-    public void get_range(){} // RVA: 0x71C3860
-    public void set_range(){} // RVA: 0x71C38D0
-    public void get_rangeMultiplier(){} // RVA: 0x71C3930
-    public void set_rangeMultiplier(){} // RVA: 0x71C3980
-    public void get_intensity(){} // RVA: 0x71C39E0
-    public void set_intensity(){} // RVA: 0x71C3A50
-    public void get_intensityMultiplier(){} // RVA: 0x71C3AB0
-    public void set_intensityMultiplier(){} // RVA: 0x71C3B00
-    public void get_maxLights(){} // RVA: 0x71C3B60
-    public void set_maxLights(){} // RVA: 0x71C3BB0
-    public void get_enabled_Injected(){} // RVA: 0x71C3390
-    public void set_enabled_Injected(){} // RVA: 0x71C33E0
-    public void get_ratio_Injected(){} // RVA: 0x71C3440
-    public void set_ratio_Injected(){} // RVA: 0x71C3490
-    public void get_useRandomDistribution_Injected(){} // RVA: 0x71C34F0
-    public void set_useRandomDistribution_Injected(){} // RVA: 0x71C3540
-    public void get_light_Injected(){} // RVA: 0x71C35A0
-    public void set_light_Injected(){} // RVA: 0x71C35F0
-    public void get_useParticleColor_Injected(){} // RVA: 0x71C3650
-    public void set_useParticleColor_Injected(){} // RVA: 0x71C36A0
-    public void get_sizeAffectsRange_Injected(){} // RVA: 0x71C3700
-    public void set_sizeAffectsRange_Injected(){} // RVA: 0x71C3750
-    public void get_alphaAffectsIntensity_Injected(){} // RVA: 0x71C37B0
-    public void set_alphaAffectsIntensity_Injected(){} // RVA: 0x71C3800
-    public void get_range_Injected(){} // RVA: 0x71C3C10
-    public void set_range_Injected(){} // RVA: 0x71C3C70
-    public void get_rangeMultiplier_Injected(){} // RVA: 0x71C3930
-    public void set_rangeMultiplier_Injected(){} // RVA: 0x71C3980
-    public void get_intensity_Injected(){} // RVA: 0x71C3CD0
-    public void set_intensity_Injected(){} // RVA: 0x71C3D30
-    public void get_intensityMultiplier_Injected(){} // RVA: 0x71C3AB0
-    public void set_intensityMultiplier_Injected(){} // RVA: 0x71C3B00
-    public void get_maxLights_Injected(){} // RVA: 0x71C3B60
-    public void set_maxLights_Injected(){} // RVA: 0x71C3BB0
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LimbOrientation
+public class ListPoolImpl`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x326480
+    public void .cctor(){} // RVA: 0x7AA9D5D30
 }
 
-public class LimitPoint
+public class ListQueryMatcher`1 : UQueryMatcher
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x446DC0
+    public void get_matches(){} // RVA: 0x7A7E00680
+    public void set_matches(){} // RVA: 0x7A7E18800
+    public void OnRuleMatchedElement(){} // RVA: 0x7A7E01A40
+    public void Reset(){} // RVA: 0x7A7E18770
+    public void .ctor(){} // RVA: 0x7A7E18770
 }
 
-public class LimitVelocityOverLifetimeModule
+public class ListWrapper`1 : ValueType
 {
-    public UnityEngine.ParticleSystem enabled; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x100A2F0
-    public void get_enabled(){} // RVA: 0x71BC270
-    public void set_enabled(){} // RVA: 0x71BC2C0
-    public void get_limitX(){} // RVA: 0x71BC320
-    public void set_limitX(){} // RVA: 0x71BC390
-    public void get_limitXMultiplier(){} // RVA: 0x71BC3F0
-    public void set_limitXMultiplier(){} // RVA: 0x71BC440
-    public void get_limitY(){} // RVA: 0x71BC4A0
-    public void set_limitY(){} // RVA: 0x71BC510
-    public void get_limitYMultiplier(){} // RVA: 0x71BC570
-    public void set_limitYMultiplier(){} // RVA: 0x71BC5C0
-    public void get_limitZ(){} // RVA: 0x71BC620
-    public void set_limitZ(){} // RVA: 0x71BC690
-    public void get_limitZMultiplier(){} // RVA: 0x71BC6F0
-    public void set_limitZMultiplier(){} // RVA: 0x71BC740
-    public void get_limit(){} // RVA: 0x71BC7A0
-    public void set_limit(){} // RVA: 0x71BC810
-    public void get_limitMultiplier(){} // RVA: 0x71BC870
-    public void set_limitMultiplier(){} // RVA: 0x71BC8C0
-    public void get_dampen(){} // RVA: 0x71BC920
-    public void set_dampen(){} // RVA: 0x71BC970
-    public void get_separateAxes(){} // RVA: 0x71BC9D0
-    public void set_separateAxes(){} // RVA: 0x71BCA20
-    public void get_space(){} // RVA: 0x71BCA80
-    public void set_space(){} // RVA: 0x71BCAD0
-    public void get_drag(){} // RVA: 0x71BCB30
-    public void set_drag(){} // RVA: 0x71BCBA0
-    public void get_dragMultiplier(){} // RVA: 0x71BCC00
-    public void set_dragMultiplier(){} // RVA: 0x71BCC50
-    public void get_multiplyDragByParticleSize(){} // RVA: 0x71BCCB0
-    public void set_multiplyDragByParticleSize(){} // RVA: 0x71BCD00
-    public void get_multiplyDragByParticleVelocity(){} // RVA: 0x71BCD60
-    public void set_multiplyDragByParticleVelocity(){} // RVA: 0x71BCDB0
-    public void get_enabled_Injected(){} // RVA: 0x71BC270
-    public void set_enabled_Injected(){} // RVA: 0x71BC2C0
-    public void get_limitX_Injected(){} // RVA: 0x71BCE10
-    public void set_limitX_Injected(){} // RVA: 0x71BCE70
-    public void get_limitXMultiplier_Injected(){} // RVA: 0x71BC3F0
-    public void set_limitXMultiplier_Injected(){} // RVA: 0x71BC440
-    public void get_limitY_Injected(){} // RVA: 0x71BCED0
-    public void set_limitY_Injected(){} // RVA: 0x71BCF30
-    public void get_limitYMultiplier_Injected(){} // RVA: 0x71BC570
-    public void set_limitYMultiplier_Injected(){} // RVA: 0x71BC5C0
-    public void get_limitZ_Injected(){} // RVA: 0x71BCF90
-    public void set_limitZ_Injected(){} // RVA: 0x71BCFF0
-    public void get_limitZMultiplier_Injected(){} // RVA: 0x71BC6F0
-    public void set_limitZMultiplier_Injected(){} // RVA: 0x71BC740
-    public void get_limit_Injected(){} // RVA: 0x71BD050
-    public void set_limit_Injected(){} // RVA: 0x71BD0B0
-    public void get_limitMultiplier_Injected(){} // RVA: 0x71BC870
-    public void set_limitMultiplier_Injected(){} // RVA: 0x71BC8C0
-    public void get_dampen_Injected(){} // RVA: 0x71BC920
-    public void set_dampen_Injected(){} // RVA: 0x71BC970
-    public void get_separateAxes_Injected(){} // RVA: 0x71BC9D0
-    public void set_separateAxes_Injected(){} // RVA: 0x71BCA20
-    public void get_space_Injected(){} // RVA: 0x71BCA80
-    public void set_space_Injected(){} // RVA: 0x71BCAD0
-    public void get_drag_Injected(){} // RVA: 0x71BD110
-    public void set_drag_Injected(){} // RVA: 0x71BD170
-    public void get_dragMultiplier_Injected(){} // RVA: 0x71BCC00
-    public void set_dragMultiplier_Injected(){} // RVA: 0x71BCC50
-    public void get_multiplyDragByParticleSize_Injected(){} // RVA: 0x71BCCB0
-    public void set_multiplyDragByParticleSize_Injected(){} // RVA: 0x71BCD00
-    public void get_multiplyDragByParticleVelocity_Injected(){} // RVA: 0x71BCD60
-    public void set_multiplyDragByParticleVelocity_Injected(){} // RVA: 0x71BCDB0
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_Item(){} // RVA: 0x7A7E00520
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
 }
 
-public class Limits
+public class ListWrapper`1 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x301570
+    public void .ctor(){} // RVA: 0x7A7923C10
+    public void get_Count(){} // RVA: 0x7A7923AA0
+    public void get_Item(){} // RVA: 0x7A7923B00
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7923CC0
+    public void GetEnumerator(){} // RVA: 0x7A7923D00
 }
 
-public class LineBreakingTable
+public class ListWrapper`1 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7A7923C10
+    public void get_Count(){} // RVA: 0x7A7923AA0
+    public void get_Item(){} // RVA: 0x7A7923D10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7923CC0
+    public void GetEnumerator(){} // RVA: 0x7A7923D00
 }
 
-public class LineInfoAnnotation
+public class ListWrapper`1 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4438000
+    public void .ctor(){} // RVA: 0x7A7923C10
+    public void get_Count(){} // RVA: 0x7A7923AA0
+    public void get_Item(){} // RVA: 0x7A7923D10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7923CC0
+    public void GetEnumerator(){} // RVA: 0x7A7923D00
 }
 
-public class LineInfoAnnotation
+public class ListWrapper`1 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4438000
+    public void .ctor(){} // RVA: 0x7A7923C10
+    public void get_Count(){} // RVA: 0x7A7923AA0
+    public void get_Item(){} // RVA: 0x7A7923D10
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7923CC0
+    public void GetEnumerator(){} // RVA: 0x7A7923D00
 }
 
-public class LineSegment
+public class LiteralList : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2E6DF0
+    public void .ctor(){} // RVA: 0x7A7637E60
+    public void GetHashCode(){} // RVA: 0x7A7FCC570
+    public void Equals(){} // RVA: 0x7A7FCC580
 }
 
-public class LinkImage
+public class LoadingInfoData : ScriptableObject
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void Equals(){} // RVA: 0x7A9588CD0
+    public void CreateInstance(){} // RVA: 0x7A9588F30
+    public void CreateScriptableObject(){} // RVA: 0x7A95890D0
+    public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7A9589270
+    public void .ctor(){} // RVA: 0x7A82F4A40
+    public void Initialize(){} // RVA: 0x7A9589410
+    public void GetHashCode(){} // RVA: 0x7A95895B0
+    public void ToString(){} // RVA: 0x7A9589810
+    // ── Unresolved (hash) ──
+    public void m_C36(){} // RVA: 0x7A95899B0
+    public void m_BB4(){} // RVA: 0x7A9589B50
+    public void m_DA5(){} // RVA: 0x7A9589CF0
 }
 
-public class Linked1CancellationTokenSource
+public class LoadingInfoSet : ScriptableObject
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5F27790
-    public void Dispose(){} // RVA: 0x5F27910
+    public void Equals(){} // RVA: 0x7A958A3E0
+    public void CreateInstance(){} // RVA: 0x7A958A800
+    public void CreateScriptableObject(){} // RVA: 0x7A958A830
+    public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7A958A9A0
+    public void GetHashCode(){} // RVA: 0x7A958AC30
+    public void ToString(){} // RVA: 0x7A958B2E0
+    public void Awake(){} // RVA: 0x7A958BF50
+    public void OnDestroy(){} // RVA: 0x7A958C0E0
+    public void .ctor(){} // RVA: 0x7A82F4A40
+    public void Initialize(){} // RVA: 0x7A81937A0
+    // ── Unresolved (hash) ──
+    public void m_C44(){} // RVA: 0x7A958B4E0
+    public void m_986(){} // RVA: 0x7A958BD50
+    public void m_841(){} // RVA: 0x7A958C160
+    public void m_4E0(){} // RVA: 0x7A958C3A0
+    public void m_E3B(){} // RVA: 0x7A958C830
+    public void m_47B(){} // RVA: 0x7A958C9B0
+    public void m_CCB(){} // RVA: 0x7A958CC30
+    public void m_4C2(){} // RVA: 0x7A81937A0
+    public void m_495(){} // RVA: 0x7A958D2E0
+    public void m_2A6(){} // RVA: 0x7A958D990
 }
 
-public class Linked2CancellationTokenSource
+public class LocalMinima : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5F27950
-    public void Dispose(){} // RVA: 0x5F27BC0
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class LinkedNCancellationTokenSource
+public class LockedStack : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5F27C10
-    public void Dispose(){} // RVA: 0x5F27E40
-    public void .cctor(){} // RVA: 0x5F27ED0
+    public void TryPush(){} // RVA: 0x7A7E019D0
+    public void TryPop(){} // RVA: 0x7A7E00680
+    public void Trim(){} // RVA: 0x7A8051B10
+    public void .ctor(){} // RVA: 0x7A7E18770
 }
 
-public class LinkedSlot
+public class LockedStack : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C8030
 }
 
-public class LinkedSlot
+public class LockedStack : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x37EE800
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C6910
 }
 
-public class LinkedSlotVolatile
+public class LockedStack : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C8E10
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C8F50
 }
 
-public class LinkedSlotVolatile
+public class LockedStack : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C84D0
 }
 
-public class LinqEnumerator
+public class LockedStack : Object
 {
-    public OVRSimpleJSON.JSONNode m_Node; // 0x10
-    public Enumerator m_Enumerator; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61D2970
-    public void get_Current(){} // RVA: 0x61D2AA0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x61D2AD0
-    public void MoveNext(){} // RVA: 0x61D2B30
-    public void Dispose(){} // RVA: 0x61D2B40
-    public void GetEnumerator(){} // RVA: 0x61D2BB0
-    public void Reset(){} // RVA: 0x61D2C10
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x61D2CD0
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C7250
 }
 
-public class ListBuffer16
+public class LockedStack : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x9519C70
-    public void EncodeTo(){} // RVA: 0x9519D00
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C8280
 }
 
-public class ListBuilder`1
+public class LockedStack : Object
 {
-    public T[] _item;
-    public T _item;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24FA0
-    public void get_Item(){} // RVA: 0x283FA0
-    public void ToArray(){} // RVA: 0xCD60
-    public void CopyTo(){} // RVA: 0x2BAA0
-    public void get_Count(){} // RVA: 0xD840
-    public void Add(){} // RVA: 0x283FA0
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C5160
 }
 
-public class ListBuilder`1
+public class LockedStack : Object
 {
-    public System.Reflection.ConstructorInfo[] _items; // 0x10
-    public System.Reflection.ConstructorInfo _item; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x37EF250
-    public void get_Item(){} // RVA: 0x37EF2B0
-    public void ToArray(){} // RVA: 0x37EF2E0
-    public void CopyTo(){} // RVA: 0x37EF3D0
-    public void get_Count(){} // RVA: 0x32A5C0
-    public void Add(){} // RVA: 0x37EF480
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C8E10
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C8F50
 }
 
-public class ListBuilder`1
+public class LockedStack : Object
 {
-    public System.Reflection.MethodInfo[] _items; // 0x10
-    public System.Reflection.MethodInfo _item; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x37EF250
-    public void get_Item(){} // RVA: 0x37EF2B0
-    public void ToArray(){} // RVA: 0x37EF2E0
-    public void CopyTo(){} // RVA: 0x37EF3D0
-    public void get_Count(){} // RVA: 0x32A5C0
-    public void Add(){} // RVA: 0x37EF480
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C5160
 }
 
-public class ListBuilder`1
+public class LockedStack : Object
 {
-    public System.Reflection.PropertyInfo[] _items; // 0x10
-    public System.Reflection.PropertyInfo _item; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x37EF250
-    public void get_Item(){} // RVA: 0x37EF2B0
-    public void ToArray(){} // RVA: 0x37EF2E0
-    public void CopyTo(){} // RVA: 0x37EF3D0
-    public void get_Count(){} // RVA: 0x32A5C0
-    public void Add(){} // RVA: 0x37EF480
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C8E10
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C8F50
 }
 
-public class ListBuilder`1
+public class LockedStack : Object
 {
-    public System.Reflection.FieldInfo[] _items; // 0x10
-    public System.Reflection.FieldInfo _item; // 0x18
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C8E10
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C8F50
 }
 
-public class ListBuilder`1
+public class LockedStack : Object
 {
-    public System.Reflection.FieldInfo[] _items; // 0x10
-    public System.Reflection.FieldInfo _item; // 0x18
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C8BC0
 }
 
-public class ListBuilder`1
+public class LockedStack : Object
 {
-    public System.Reflection.FieldInfo[] _items; // 0x10
-    public System.Reflection.FieldInfo _item; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x37EF250
-    public void get_Item(){} // RVA: 0x37EF2B0
-    public void ToArray(){} // RVA: 0x37EF2E0
-    public void CopyTo(){} // RVA: 0x37EF3D0
-    public void get_Count(){} // RVA: 0x32A5C0
-    public void Add(){} // RVA: 0x37EF480
+    public void .ctor(){} // RVA: 0x7AB9C53B0
+    public void TryPush(){} // RVA: 0x7AB9C4FC0
+    public void TryPop(){} // RVA: 0x7AB9C50D0
+    public void Trim(){} // RVA: 0x7AB9C5160
 }
 
-public class ListDummy`1
+public class LockedStack[] : Array
 {
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class ListDummy`1
+public class LogCallback : MulticastDelegate
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AEE9B3D0
+    public void Invoke(){} // RVA: 0x7A8234660
 }
 
-public class ListElementProperty
+public class LogEventDelegate : MulticastDelegate
 {
-    public int m_Index;
-
     // ── Methods ──
-    public void get_Index(){} // RVA: 0xD840
-    public void get_Name(){} // RVA: 0xCD60
-    public void .ctor(){} // RVA: 0x24A50
+    public void .ctor(){} // RVA: 0x7B18DBAC0
+    public void Invoke(){} // RVA: 0x7AB112E00
+    public void BeginInvoke(){} // RVA: 0x7B18DBC30
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class ListElementProperty
+public class LogValues`1 : ValueType
 {
-    public int m_Index;
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void get_Item(){} // RVA: 0x7A7E00520
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void ToString(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class ListElementProperty
+public class LogValues`2 : ValueType
 {
-    public int m_Index;
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void get_Item(){} // RVA: 0x7A7E00520
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void ToString(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class ListEntry
+public class LogValues`3 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6C4F040
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_Item(){} // RVA: 0x7A7E00520
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void ToString(){} // RVA: 0x7A7E00680
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class ListInitExpressionProxy
+public class LogValues`4 : ValueType
 {
-    public System.Linq.Expressions.ListInitExpression Body; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x65DB1D0
-    public void get_CanReduce(){} // RVA: 0x7F02E0
-    public void get_DebugView(){} // RVA: 0x65DA6E0
-    public void get_Initializers(){} // RVA: 0xB2EEA0
-    public void get_NewExpression(){} // RVA: 0xB2ECF0
-    public void get_NodeType(){} // RVA: 0x7F01B0
-    public void get_Type(){} // RVA: 0x7F0250
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_Item(){} // RVA: 0x7A7E00520
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void ToArray(){} // RVA: 0x7A7E00680
+    public void ToString(){} // RVA: 0x7A7E00680
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class ListIterator`1 : list
+public class LogValues`5 : ValueType
 {
-    public bool isNull;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void GetEnumerator(){} // RVA: 0x283FA0
-    public void get_Current(){} // RVA: 0x283FA0
-    public void MoveNext(){} // RVA: 0xDBE0
-    public void Dispose(){} // RVA: 0x24A50
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_Item(){} // RVA: 0x7A7E00520
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void ToArray(){} // RVA: 0x7A7E00680
+    public void ToString(){} // RVA: 0x7A7E00680
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class ListOfTWrapper`1
+public class LogValues`6 : ValueType
 {
-    public System.Collections.Generic.IList`1<T> _collection;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void get_Count(){} // RVA: 0xD840
-    public void get_Item(){} // RVA: 0x283FA0
-    public void GetEnumerator(){} // RVA: 0xCD60
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_Item(){} // RVA: 0x7A7E00520
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void ToArray(){} // RVA: 0x7A7E00680
+    public void ToString(){} // RVA: 0x7A7E00680
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class ListPlayersDelegate
+public class LookAtBone : Bone
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1B072F0
-    public void Invoke(){} // RVA: 0x33BA50
-    public void BeginInvoke(){} // RVA: 0x33BA60
-    public void EndInvoke(){} // RVA: 0x2DECB0
+    public void .ctor(){} // RVA: 0x7A81E7DD0
+    public void Initiate(){} // RVA: 0x7A81E7E40
+    public void LookAt(){} // RVA: 0x7A81E81E0
+    public void get_forward(){} // RVA: 0x7A81E8550
 }
 
-public class ListPoolImpl`1
+public class LookAtBone[] : Array
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x24A80
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class ListPoolImpl`1
+public class Lookup`2 : Object
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x2BE21A0
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void CreateEmpty(){} // RVA: 0x7A7E006B0
+    public void Create(){} // RVA: 0x7A8051B10
+    public void CreateAsync(){} // RVA: 0x7A8051B10
+    public void get_Item(){} // RVA: 0x7A8051B10
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void Contains(){} // RVA: 0x7A8051B10
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class ListPoolImpl`1
+public class LowMemoryCallback : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x2BE21A0
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
 }
 
-public class ListPoolImpl`1
+public class LowerCaseMapping : ValueType
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x2BE21A0
+    public void .ctor(){} // RVA: 0x7A7E9D7E0
 }
 
-public class ListPoolImpl`1
+public class LowerCaseMapping[] : Array
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x2BE21A0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1700
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E030
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2DD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250770
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E030
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }

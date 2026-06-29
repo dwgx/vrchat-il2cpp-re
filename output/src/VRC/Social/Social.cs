@@ -8,14 +8,6 @@ namespace VRC.Social
     /// <summary>Originally: ÎÍÌÎÏÎÎÎÌÍÌÍÌÌÌÏÌÍÌÏÏÌÌ</summary>
     public class FolderStatusRowView
     {
-        public UnityEngine.Transform innerTransform; // 0x20
-        public UnityEngine.UI.RawImage folderImage; // 0x28
-        public UnityEngine.UI.RawImage statusImage; // 0x30
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ textField; // 0x38
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ textCenterField; // 0x40
-        public UnityEngine.GameObject playingObj; // 0x48
-        public UnityEngine.GameObject cancelObj; // 0x50
-
         // ── Methods ──
         public void set_imageUrl(){} // RVA: 0x4C34F0
         public void OnEnable(){} // RVA: 0x11CDC50
@@ -43,21 +35,6 @@ namespace VRC.Social
     /// <summary>Originally: ÌÏÎÍÌÎÏÏÍÏÌÏÌÎÍÌÍÍÏÎÍÍÎ</summary>
     public class GroupsStorageCacheContext
     {
-        public ÌÏÎÍÌÎÏÏÍÏÌÏÌÎÍÌÍÍÏÎÍÍÎ ÍÏÍÏÎÌÍÎÏÏÏÌÏÌÏÌÌÌÌÌÍÏÌ;
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÎÍÎÏÎÍÎÍÏÌÏÍÍÌÎÍÎÍÌÍÍÍ>> <ÌÏÎÎÌÏÏÏÌÌÌÍÍÎÎÌÍÏÌÎÍÍÍ>k__BackingField; // 0x28
-        public ÌÌÍÍÌÍÌÏÏÎÌÌÎÏÏÎÌÎÏÎÍÎÌ <ÎÍÏÎÎÎÎÏÏÏÏÎÎÍÎÏÌÎÎÎÌÍÎ>k__BackingField; // 0x30
-        public ÏÍÍÍÏÎÌÍÏÌÍÎÍÍÏÏÌÏÍÌÎÍÍ<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> <ÍÌÏÍÏÍÌÎÏÏÌÌÎÍÏÍÍÌÎÏÎÎÌ>k__BackingField; // 0x38
-        public System.Action ÍÍÎÏÏÌÌÎÏÏÎÎÍÎÌÍÌÏÌÎÎÍÌ; // 0x40
-        public ÍÍÍÏÏÎÏÎÌÎÍÌÍÌÌÎÎÌÍÎÍÍÍ ÌÍÍÌÌÏÍÌÍÎÍÍÌÍÎÎÍÍÌÎÏÍÌ; // 0x48
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> ÎÏÎÌÎÍÎÎÌÌÌÌÍÏÍÍÌÎÎÌÏÌÌ; // 0x50
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÌÌÎÎÌÏÏÌÌÎÏÍÏÍÌÎÌÎÍÏÏ>k__BackingField; // 0x58
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.IList> <ÍÏÏÍÌÎÍÏÍÎÌÏÏÎÎÍÏÍÍÍÎÍÌ>k__BackingField; // 0x60
-        public VRC.UI.Client.Groups.GroupsStorage <ÎÏÏÍÍÏÎÍÌÎÌÍÏÍÏÌÎÍÌÎÎÎÎ>k__BackingField; // 0x68
-        public VRC.UI.Client.Groups.GroupCache <ÎÍÏÏÎÌÏÏÏÏÏÍÎÌÏÍÎÏÎÌÏÌÏ>k__BackingField; // 0x70
-        public ÎÎÏÌÏÏÌÏÌÍÌÏÎÏÏÏÏÍÍÌÌÌÍ ÍÍÍÏÍÎÏÌÌÍÍÌÍÌÏÌÏÍÎÎÏÌÌ; // 0x78
-        public ÍÎÎÍÏÌÍÌÍÏÍÏÏÎÎÍÎÏÍÏÍÌÍ ÌÎÎÏÏÌÎÍÍÍÍÍÏÎÌÏÍÏÌÎÎÌÍ; // 0x80
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ>> <ÌÎÏÏÎÎÍÍÍÏÏÍÌÍÎÏÍÍÎÏÌÏÎ>k__BackingField; // 0x88
-
         // ── Methods ──
         public void OrthoNormalize2(){} // RVA: 0xC96010
         public void get_SameFunc(){} // RVA: 0x31C010
@@ -121,13 +98,10 @@ namespace VRC.Social
     /// <summary>Originally: ÏÌÌÌÍÏÍÎÎÏÍÎÍÍÏÏÏÎÍÏÍÍÍ</summary>
     public class IconStatusDescriptionView
     {
-        public UnityEngine.GameObject f_9F2; // 0x20
-        public UnityEngine.GameObject f_56B; // 0x28
-        public UnityEngine.GameObject f_56B; // 0x30
-        public UnityEngine.GameObject f_69A; // 0x38
-        public UnityEngine.GameObject Icon; // 0x40
-        public TMPro.TMP_Text ÎÏÏÌÌÍÍÌÌÎÏÌÍÍÍÎÍÌÌÏÍÍÍ; // 0x48
-        public UnityEngine.GameObject IconSecondary; // 0x50
+        public object f_9F2;
+        public object f_56B;
+        public object f_56B;
+        public object f_69A;
 
         // ── Methods ──
         public void CalculateInitialOffset(){} // RVA: 0x1470A80

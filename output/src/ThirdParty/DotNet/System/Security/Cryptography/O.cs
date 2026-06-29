@@ -1,50 +1,62 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Security.Cryptography
-// Classes: 3
-// Methods: 23
+// Classes: 4
+// Methods: 34
 
 namespace ThirdParty.DotNet.System.Security.Cryptography
 {
-    public class Oid
+    public class Oid : Object
     {
-        public string Item; // 0x10
-        public string Count; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x28914C0 | overloaded x5
-        public void FromOidValue(){} // RVA: 0x6C31FA0
-        public void get_Value(){} // RVA: 0x2F8380
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void get_FriendlyName(){} // RVA: 0x6C32190
+        public void .ctor(){} // RVA: 0x7AA69B920
+        public void FromOidValue(){} // RVA: 0x7AEA20EC0
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void set_Value(){} // RVA: 0x7A80D8E20
+        public void get_FriendlyName(){} // RVA: 0x7AEA210B0
     }
 
-    public class OidCollection
+    public class OidCollection : Object
     {
-        public System.Collections.Generic.List`1<System.Security.Cryptography.Oid> _list; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6C32270
-        public void Add(){} // RVA: 0x6C32330
-        public void get_Item(){} // RVA: 0x6C32400
-        public void get_Count(){} // RVA: 0x6C32480
-        public void GetEnumerator(){} // RVA: 0x6C324D0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x6C32570
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x6C32580
-        public void get_IsSynchronized(){} // RVA: 0x2DD320
-        public void get_SyncRoot(){} // RVA: 0x1A3F520
+        public void .ctor(){} // RVA: 0x7AEA21190
+        public void Add(){} // RVA: 0x7AEA21250
+        public void get_Item(){} // RVA: 0x7AEA21320
+        public void get_Count(){} // RVA: 0x7AEA213A0
+        public void GetEnumerator(){} // RVA: 0x7AEA213F0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AEA21490
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AEA214A0
+        public void get_IsSynchronized(){} // RVA: 0x7A80D7320
+        public void get_SyncRoot(){} // RVA: 0x7A97F8BA0
     }
 
-    public class OidEnumerator
+    public class OidEnumerator : Object
     {
-        public System.Security.Cryptography.OidCollection _oids; // 0x10
-        public int _current; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5D7B410
-        public void get_Current(){} // RVA: 0x6C327F0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x6C327F0
-        public void MoveNext(){} // RVA: 0x6C32820
-        public void Reset(){} // RVA: 0x1CC8140
+        public void .ctor(){} // RVA: 0x7ADB69480
+        public void get_Current(){} // RVA: 0x7AEA21720
+        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7AEA21720
+        public void MoveNext(){} // RVA: 0x7AEA21750
+        public void Reset(){} // RVA: 0x7A9ACA7B0
+    }
+
+    public class Oid[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
 }

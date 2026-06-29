@@ -1,88 +1,81 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
 // Classes: 6
-// Methods: 45
+// Methods: 43
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class AbstractProgressBar
+    public class AbstractProgressBar : BindableElement
     {
-        public string ussClassName;
-        public string containerUssClassName; // 0x8
-        public string titleUssClassName; // 0x10
-        public string titleContainerUssClassName; // 0x18
-
         // ── Methods ──
-        public void set_title(){} // RVA: 0x73B8F70
-        public void get_lowValue(){} // RVA: 0x73B8FA0
-        public void set_lowValue(){} // RVA: 0x73B8FB0
-        public void get_highValue(){} // RVA: 0x73B8FD0
-        public void set_highValue(){} // RVA: 0x73B8FE0
-        public void .ctor(){} // RVA: 0x73B9000
-        public void OnGeometryChanged(){} // RVA: 0x73B94C0
-        public void get_value(){} // RVA: 0x73B94F0
-        public void set_value(){} // RVA: 0x73B9500
-        public void SetValueWithoutNotify(){} // RVA: 0x73B96F0
-        public void SetProgress(){} // RVA: 0x73B9730
-        public void CalculateProgressWidth(){} // RVA: 0x73B9910
-        public void .cctor(){} // RVA: 0x73B99C0
+        public void set_title(){} // RVA: 0x7AF198340
+        public void get_lowValue(){} // RVA: 0x7AF198370
+        public void set_lowValue(){} // RVA: 0x7AF198380
+        public void get_highValue(){} // RVA: 0x7AF1983A0
+        public void set_highValue(){} // RVA: 0x7AF1983B0
+        public void .ctor(){} // RVA: 0x7AF1983D0
+        public void OnGeometryChanged(){} // RVA: 0x7AF198890
+        public void get_value(){} // RVA: 0x7AF1988C0
+        public void set_value(){} // RVA: 0x7AF1988D0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AF198AD0
+        public void SetProgress(){} // RVA: 0x7AF198B10
+        public void CalculateProgressWidth(){} // RVA: 0x7AF198D00
+        public void .cctor(){} // RVA: 0x7AF198DB0
     }
 
-    public class AlignmentUtils
+    public class AlignmentUtils : Object
     {
         // ── Methods ──
-        public void RoundToPixelGrid(){} // RVA: 0x72E3810
-        public void CeilToPixelGrid(){} // RVA: 0x72E3840
+        public void RoundToPixelGrid(){} // RVA: 0x7AF0C3BD0
+        public void CeilToPixelGrid(){} // RVA: 0x7AF0C3C00
     }
 
-    public class AncestorFilter
+    public class AncestorFilter : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x73D2780
-        public void AddHash(){} // RVA: 0x73D2840
-        public void IsCandidate(){} // RVA: 0x73D2900
-        public void PushElement(){} // RVA: 0x73D2970
-        public void PopElement(){} // RVA: 0x73D2C40
+        public void .ctor(){} // RVA: 0x7AF1B1BA0
+        public void AddHash(){} // RVA: 0x7AF1B1C60
+        public void IsCandidate(){} // RVA: 0x7AF1B1D20
+        public void PushElement(){} // RVA: 0x7AF1B1D90
+        public void PopElement(){} // RVA: 0x7AF1B2070
     }
 
-    public class Angle
+    public class Angle : ValueType
     {
-        public float m_Value; // 0x10
-
         // ── Methods ──
-        public void None(){} // RVA: 0x743BE70
-        public void get_value(){} // RVA: 0x1D26670
-        public void .ctor(){} // RVA: 0x2B60610 | overloaded x2
-        public void ToDegrees(){} // RVA: 0x743BE90
-        public void op_Implicit(){} // RVA: 0x743BEF0
-        public void op_Equality(){} // RVA: 0x743BF10
-        public void Equals(){} // RVA: 0x743BF70 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x743C020
-        public void ToString(){} // RVA: 0x743C040
+        public void None(){} // RVA: 0x7AF21B2A0
+        public void get_value(){} // RVA: 0x7A7673D20
+        public void .ctor(){} // RVA: 0x7A77E7A70
+        public void ToDegrees(){} // RVA: 0x7A7F06520
+        public void op_Implicit(){} // RVA: 0x7AF21B320
+        public void op_Equality(){} // RVA: 0x7AF21B340
+        public void Equals(){} // RVA: 0x7A7F065B0
+        public void GetHashCode(){} // RVA: 0x7A7F06660
+        public void ToString(){} // RVA: 0x7A7F06690
     }
 
-    public class AtlasBase
+    public class AtlasBase : Object
     {
         // ── Methods ──
-        public void TryGetAtlas(){} // RVA: 0x72E3870
-        public void ReturnAtlas(){} // RVA: 0x2DD310
-        public void Reset(){} // RVA: 0x2DD310
-        public void OnAssignedToPanel(){} // RVA: 0x2DD310
-        public void OnRemovedFromPanel(){} // RVA: 0x2DD310
-        public void OnUpdateDynamicTextures(){} // RVA: 0x2DD310
-        public void InvokeAssignedToPanel(){} // RVA: 0x4EE62A0
-        public void InvokeRemovedFromPanel(){} // RVA: 0x408EFF0
-        public void InvokeUpdateDynamicTextures(){} // RVA: 0x6BF8D40
-        public void RepaintTexturedElements(){} // RVA: 0x72E38E0
-        public void SetDynamicTexture(){} // RVA: 0x72E3B20
-        public void .ctor(){} // RVA: 0x72E3B40
+        public void TryGetAtlas(){} // RVA: 0x7AF0C3C30
+        public void ReturnAtlas(){} // RVA: 0x7A80D7310
+        public void Reset(){} // RVA: 0x7A80D7310
+        public void OnAssignedToPanel(){} // RVA: 0x7A80D7310
+        public void OnRemovedFromPanel(){} // RVA: 0x7A80D7310
+        public void OnUpdateDynamicTextures(){} // RVA: 0x7A80D7310
+        public void InvokeAssignedToPanel(){} // RVA: 0x7ACF03DA0
+        public void InvokeRemovedFromPanel(){} // RVA: 0x7ABE84300
+        public void InvokeUpdateDynamicTextures(){} // RVA: 0x7AE9E7E00
+        public void RepaintTexturedElements(){} // RVA: 0x7AF0C3CA0
+        public void SetDynamicTexture(){} // RVA: 0x7AF0C3EC0
+        public void .ctor(){} // RVA: 0x7AF0C3EE0
     }
 
-    public class AttachToPanelEvent
+    public class AttachToPanelEvent : PanelChangedEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F4670
-        public void .ctor(){} // RVA: 0x73F4760
+        public void .cctor(){} // RVA: 0x7AF1D3890
+        public void .ctor(){} // RVA: 0x7AF1D3980
     }
 
 }

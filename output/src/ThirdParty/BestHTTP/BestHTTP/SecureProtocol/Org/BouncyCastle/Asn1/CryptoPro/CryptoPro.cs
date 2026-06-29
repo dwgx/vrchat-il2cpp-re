@@ -1,99 +1,82 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.CryptoPro
 // Classes: 7
-// Methods: 47
+// Methods: 39
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.CryptoPro
 {
-    public class CryptoProObjectIdentifiers
+    public class CryptoProObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x97BA3C0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B15F4F10
     }
 
-    public class ECGost3410NamedCurves
+    public class ECGost3410NamedCurves : Object
     {
-        public System.Collections.IDictionary P;
-
         // ── Methods ──
-        public void ConfigureBasepoint(){} // RVA: 0x97BB270
-        public void ConfigureCurve(){} // RVA: 0x1A3F520
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x97BB310
-        public void GetByOid(){} // RVA: 0x97BD6B0
-        public void get_Names(){} // RVA: 0x97BD790
-        public void GetByName(){} // RVA: 0x97BD8E0
-        public void GetName(){} // RVA: 0x97BDA60
-        public void GetOid(){} // RVA: 0x97BDB20
+        public void ConfigureBasepoint(){} // RVA: 0x7B15F5DC0
+        public void ConfigureCurve(){} // RVA: 0x7A97F8BA0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B15F5E60
+        public void GetByOid(){} // RVA: 0x7B15F8210
+        public void get_Names(){} // RVA: 0x7B15F82F0
+        public void GetByName(){} // RVA: 0x7B15F8440
+        public void GetName(){} // RVA: 0x7B15F85C0
+        public void GetOid(){} // RVA: 0x7B15F8680
     }
 
-    public class ECGost3410ParamSetParameters
+    public class ECGost3410ParamSetParameters : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger p; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger q; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger a; // 0x20
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97BDDD0 | overloaded x2
-        public void .ctor(){} // RVA: 0x97BE5C0 | overloaded x2
-        public void get_P(){} // RVA: 0x972AF80
-        public void get_Q(){} // RVA: 0x972AFA0
-        public void get_A(){} // RVA: 0x972AFC0
-        public void ToAsn1Object(){} // RVA: 0x97BE920
+        public void GetInstance(){} // RVA: 0x7B15F8780
+        public void .ctor(){} // RVA: 0x7B15F8F70
+        public void get_P(){} // RVA: 0x7B1564AD0
+        public void get_Q(){} // RVA: 0x7B1564AF0
+        public void get_A(){} // RVA: 0x7B1564B10
+        public void ToAsn1Object(){} // RVA: 0x7B15F92D0
     }
 
-    public class Gost28147Parameters
+    public class Gost28147Parameters : Asn1Encodable
     {
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97BED10 | overloaded x2
-        public void .ctor(){} // RVA: 0x97BEED0
-        public void ToAsn1Object(){} // RVA: 0x97BF0B0
+        public void GetInstance(){} // RVA: 0x7B15F9510
+        public void .ctor(){} // RVA: 0x7B15F96D0
+        public void ToAsn1Object(){} // RVA: 0x7B15F98B0
     }
 
-    public class Gost3410NamedParameters
+    public class Gost3410NamedParameters : Object
     {
-        public System.Collections.IDictionary KeySize;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x97BF1C0
-        public void GetByOid(){} // RVA: 0x97BF9B0
-        public void get_Names(){} // RVA: 0x97BFA90
-        public void GetByName(){} // RVA: 0x97BFBE0
-        public void GetOid(){} // RVA: 0x97BFD60
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B15F99C0
+        public void GetByOid(){} // RVA: 0x7B15FA1D0
+        public void get_Names(){} // RVA: 0x7B15FA2B0
+        public void GetByName(){} // RVA: 0x7B15FA400
+        public void GetOid(){} // RVA: 0x7B15FA580
     }
 
-    public class Gost3410ParamSetParameters
+    public class Gost3410ParamSetParameters : Asn1Encodable
     {
-        public int keySize; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger p; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger q; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger a; // 0x28
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97C0010 | overloaded x2
-        public void .ctor(){} // RVA: 0x97C0560 | overloaded x2
-        public void get_KeySize(){} // RVA: 0x32A5C0
-        public void get_P(){} // RVA: 0x972AFA0
-        public void get_Q(){} // RVA: 0x972AFC0
-        public void get_A(){} // RVA: 0x97C07F0
-        public void ToAsn1Object(){} // RVA: 0x97C0810
+        public void GetInstance(){} // RVA: 0x7B15FA680
+        public void .ctor(){} // RVA: 0x7B15FABD0
+        public void get_KeySize(){} // RVA: 0x7A8124910
+        public void get_P(){} // RVA: 0x7B1564AF0
+        public void get_Q(){} // RVA: 0x7B1564B10
+        public void get_A(){} // RVA: 0x7B15FAE60
+        public void ToAsn1Object(){} // RVA: 0x7B15FAE80
     }
 
-    public class Gost3410PublicKeyAlgParameters
+    public class Gost3410PublicKeyAlgParameters : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier digestParamSet; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet; // 0x20
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97C0A00 | overloaded x2
-        public void .ctor(){} // RVA: 0x97C0CB0 | overloaded x3
-        public void get_PublicKeyParamSet(){} // RVA: 0x2F8380
-        public void get_DigestParamSet(){} // RVA: 0x2E07C0
-        public void get_EncryptionParamSet(){} // RVA: 0x30B0C0
-        public void ToAsn1Object(){} // RVA: 0x97C1010
+        public void GetInstance(){} // RVA: 0x7B15FB070
+        public void .ctor(){} // RVA: 0x7B15FB320
+        public void get_PublicKeyParamSet(){} // RVA: 0x7A80F2570
+        public void get_DigestParamSet(){} // RVA: 0x7A80DA7B0
+        public void get_EncryptionParamSet(){} // RVA: 0x7A81052C0
+        public void ToAsn1Object(){} // RVA: 0x7B15FB680
     }
 
 }

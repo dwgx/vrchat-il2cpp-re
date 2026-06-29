@@ -5,62 +5,52 @@
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
-    public class ValueListBuilder`1
+    public class ValueListBuilder`1 : ValueType
     {
-        public System.Span`1<T> Length;
-        public T[] _arrayFromPool;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void get_Length(){} // RVA: 0xD840
-        public void get_Item(){} // RVA: 0x1BCC0
-        public void Append(){} // RVA: 0x283FA0
-        public void AsSpan(){} // RVA: 0x283FA0
-        public void Dispose(){} // RVA: 0x24A50
-        public void Grow(){} // RVA: 0x24A50
-        public void Pop(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void get_Length(){} // RVA: 0x7A7E00710
+        public void get_Item(){} // RVA: 0x7A7E00740
+        public void Append(){} // RVA: 0x7A8051B10
+        public void AsSpan(){} // RVA: 0x7A8051B10
+        public void Dispose(){} // RVA: 0x7A7E18770
+        public void Grow(){} // RVA: 0x7A7E18770
+        public void Pop(){} // RVA: 0x7A8051B10
     }
 
-    public class ValueListBuilder`1
+    public class ValueListBuilder`1 : ValueType
     {
-        public System.Span`1<T> Count;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void get_Length(){} // RVA: 0xD840
-        public void Append(){} // RVA: 0x283FA0
-        public void AsSpan(){} // RVA: 0x283FA0
-        public void Dispose(){} // RVA: 0x24A50
-        public void Grow(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void get_Length(){} // RVA: 0x7A7E00710
+        public void Append(){} // RVA: 0x7A8051B10
+        public void AsSpan(){} // RVA: 0x7A8051B10
+        public void Dispose(){} // RVA: 0x7A7E18770
+        public void Grow(){} // RVA: 0x7A7E18770
     }
 
-    public class ValueListBuilder`1
+    public class ValueListBuilder`1 : ValueType
     {
-        public System.Span`1<int> _span; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4635C70
-        public void get_Length(){} // RVA: 0x5BED50
-        public void Append(){} // RVA: 0x4636160
-        public void AsSpan(){} // RVA: 0x4635D30
-        public void Dispose(){} // RVA: 0x4635E00
-        public void Grow(){} // RVA: 0x4635EC0
+        public void Append(){} // RVA: 0x7AC427C70
+        public void AsSpan(){} // RVA: 0x7AC427840
+        public void Dispose(){} // RVA: 0x7AC427910
+        public void .ctor(){} // RVA: 0x7AC427780
+        public void get_Length(){} // RVA: 0x7A83782A0
+        public void Grow(){} // RVA: 0x7AC4279D0
     }
 
-    public class ValueListBuilder`1
+    public class ValueListBuilder`1 : ValueType
     {
-        public System.Span`1<int> _span; // 0x10
-        public int[] _arrayFromPool; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4635C70
-        public void get_Length(){} // RVA: 0x5BED50
-        public void get_Item(){} // RVA: 0x4635C80
-        public void Append(){} // RVA: 0x4635CA0
-        public void AsSpan(){} // RVA: 0x4635D30
-        public void Dispose(){} // RVA: 0x4635E00
-        public void Grow(){} // RVA: 0x4635EC0
-        public void Pop(){} // RVA: 0x4636130
+        public void .ctor(){} // RVA: 0x7AC427780
+        public void Append(){} // RVA: 0x7AC4277B0
+        public void AsSpan(){} // RVA: 0x7AC427840
+        public void Pop(){} // RVA: 0x7AC427C40
+        public void get_Length(){} // RVA: 0x7A83782A0
+        public void get_Item(){} // RVA: 0x7AC427790
+        public void Dispose(){} // RVA: 0x7AC427910
+        public void Grow(){} // RVA: 0x7AC4279D0
     }
 
 }

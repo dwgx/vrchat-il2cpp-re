@@ -5,23 +5,23 @@
 
 namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
-    public class VersionConverter
+    public class VersionConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x6368F00
-        public void Write(){} // RVA: 0x6369050
-        public void .ctor(){} // RVA: 0x6369120
+        public void Read(){} // RVA: 0x7AE1556F0
+        public void Write(){} // RVA: 0x7AE155850
+        public void .ctor(){} // RVA: 0x7AE155920
     }
 
-    public class VersionConverter
+    public class VersionConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x68E6B30
-        public void ReadCore(){} // RVA: 0x68E6B70
-        public void Write(){} // RVA: 0x68E6D80
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E6E40
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E6E50
-        public void .ctor(){} // RVA: 0x68E6ED0
+        public void Read(){} // RVA: 0x7AE6D53D0
+        public void ReadCore(){} // RVA: 0x7AE6D5410
+        public void Write(){} // RVA: 0x7AE6D5620
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D56E0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D56F0
+        public void .ctor(){} // RVA: 0x7AE6D5770
     }
 
 }

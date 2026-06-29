@@ -1,61 +1,61 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Sentry.Sentry.Infrastructure
 // Classes: 7
-// Methods: 19
+// Methods: 18
 
 namespace ThirdParty.Sentry.Sentry.Infrastructure
 {
-    public class ConsoleAndTraceDiagnosticLogger
+    public class ConsoleAndTraceDiagnosticLogger : DiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1C0FA70
-        public void LogMessage(){} // RVA: 0x643C580
+        public void .ctor(){} // RVA: 0x7A99CDAA0
+        public void LogMessage(){} // RVA: 0x7AE22A520
     }
 
-    public class ConsoleDiagnosticLogger
+    public class ConsoleDiagnosticLogger : DiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1C0FA70
-        public void LogMessage(){} // RVA: 0x643C610
+        public void .ctor(){} // RVA: 0x7A99CDAA0
+        public void LogMessage(){} // RVA: 0x7AE22A5B0
     }
 
-    public class DiagnosticLogger
+    public class DiagnosticLogger : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1C0FA70
-        public void IsEnabled(){} // RVA: 0x643C660
-        public void Log(){} // RVA: 0x643C670
-        public void LogMessage(){} // RVA: 0x24B10
-        public void ScrubNewlines(){} // RVA: 0x643C960
+        public void .ctor(){} // RVA: 0x7A99CDAA0
+        public void IsEnabled(){} // RVA: 0x7AE22A600
+        public void Log(){} // RVA: 0x7AE22A610
+        public void LogMessage(){} // RVA: 0x7A7E18800
+        public void ScrubNewlines(){} // RVA: 0x7AE22A900
     }
 
-    public class FileDiagnosticLogger
+    public class FileDiagnosticLogger : DiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x643CD30 | overloaded x2
-        public void LogMessage(){} // RVA: 0x643CEC0
-        public void <.ctor>b__3_0(){} // RVA: 0x643CF50
+        public void .ctor(){} // RVA: 0x7AE22ACD0
+        public void LogMessage(){} // RVA: 0x7AE22AE60
+        public void <.ctor>b__3_0(){} // RVA: 0x7AE22AEF0
     }
 
     public class ISystemClock
     {
         // ── Methods ──
-        public void GetUtcNow(){} // RVA: 0xC770
+        public void GetUtcNow(){} // RVA: 0x7A7E00490
     }
 
-    public class SystemClock
+    public class SystemClock : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void GetUtcNow(){} // RVA: 0x643CF90
-        public void .cctor(){} // RVA: 0x643D040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void GetUtcNow(){} // RVA: 0x7AE22AF30
+        public void .cctor(){} // RVA: 0x7AE22AFE0
     }
 
-    public class TraceDiagnosticLogger
+    public class TraceDiagnosticLogger : DiagnosticLogger
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1C0FA70
-        public void LogMessage(){} // RVA: 0x643D0E0
+        public void .ctor(){} // RVA: 0x7A99CDAA0
+        public void LogMessage(){} // RVA: 0x7AE22B080
     }
 
 }

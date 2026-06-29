@@ -5,28 +5,24 @@
 
 namespace VRC.Udon.VM.Common
 {
-    public class LightweightStack`1
+    public class LightweightStack`1 : Object
     {
-        public T[] SerializationHistoryLength;
-
         // ── Methods ──
-        public void get_Contents(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x24FA0
-        public void Push(){} // RVA: 0x283FA0
-        public void TryPop(){} // RVA: 0xDE40
-        public void PopSlice(){} // RVA: 0x283FA0
+        public void get_Contents(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E189D0
+        public void Push(){} // RVA: 0x7A8051B10
+        public void TryPop(){} // RVA: 0x7A7E019D0
+        public void PopSlice(){} // RVA: 0x7A8051B10
     }
 
-    public class LightweightStack`1
+    public class LightweightStack`1 : Object
     {
-        public uint[] _array; // 0x10
-
         // ── Methods ──
-        public void get_Contents(){} // RVA: 0x37E1DA0
-        public void .ctor(){} // RVA: 0x37E1DF0
-        public void Push(){} // RVA: 0x37E1E80
-        public void TryPop(){} // RVA: 0x37E1FA0
-        public void PopSlice(){} // RVA: 0x37E1FF0
+        public void .ctor(){} // RVA: 0x7AB5CE8F0
+        public void get_Contents(){} // RVA: 0x7AB5CE8A0
+        public void Push(){} // RVA: 0x7AB5CE980
+        public void TryPop(){} // RVA: 0x7AB5CEAA0
+        public void PopSlice(){} // RVA: 0x7AB5CEAF0
     }
 
 }

@@ -5,20 +5,20 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class ArrayBuilderExtensions
+    public class ArrayBuilderExtensions : Object
     {
         // ── Methods ──
-        public void ToReadOnly(){} // RVA: 0x283FA0
+        public void ToReadOnly(){} // RVA: 0x7A8051B10
     }
 
-    public class AssignBinaryExpression
+    public class AssignBinaryExpression : BinaryExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65B0F20
-        public void Make(){} // RVA: 0x65B0F30
-        public void get_IsByRef(){} // RVA: 0x2DD320
-        public void get_Type(){} // RVA: 0x65B0FC0
-        public void get_NodeType(){} // RVA: 0x65B0FF0
+        public void .ctor(){} // RVA: 0x7AE39F430
+        public void Make(){} // RVA: 0x7AE39F440
+        public void get_IsByRef(){} // RVA: 0x7A80D7320
+        public void get_Type(){} // RVA: 0x7AE39F4D0
+        public void get_NodeType(){} // RVA: 0x7AE39F500
     }
 
 }

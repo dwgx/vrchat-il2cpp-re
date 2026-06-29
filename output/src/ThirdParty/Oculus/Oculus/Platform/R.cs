@@ -1,111 +1,113 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Oculus.Oculus.Platform
 // Classes: 7
-// Methods: 66
+// Methods: 70
 
 namespace ThirdParty.Oculus.Oculus.Platform
 {
-    public class Request
+    public class Request : Object
     {
-        public Callback callback_; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xC5BE60
-        public void get_RequestID(){} // RVA: 0x2E07C0
-        public void set_RequestID(){} // RVA: 0xC5BE60
-        public void OnComplete(){} // RVA: 0x60DC960
-        public void HandleMessage(){} // RVA: 0x60DCA10
-        public void RunCallbacks(){} // RVA: 0x60DCA90
+        public void .ctor(){} // RVA: 0x7A8A224D0
+        public void get_RequestID(){} // RVA: 0x7A80DA7B0
+        public void set_RequestID(){} // RVA: 0x7A8A224D0
+        public void OnComplete(){} // RVA: 0x7ADEC8C50
+        public void HandleMessage(){} // RVA: 0x7ADEC8D00
+        public void RunCallbacks(){} // RVA: 0x7ADEC8D80
+        public void callback_(){} // RVA: 0x7B4194918
     }
 
-    public class Request`1
+    public class Request`1 : Request
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24CC0
-        public void OnComplete(){} // RVA: 0xCE10
-        public void HandleMessage(){} // RVA: 0x24B10
+        public void .ctor(){} // RVA: 0x7A7E188D0
+        public void OnComplete(){} // RVA: 0x7A7E00B20
+        public void HandleMessage(){} // RVA: 0x7A7E18800
     }
 
-    public class RichPresence
+    public class RichPresence : Object
     {
         // ── Methods ──
-        public void Clear(){} // RVA: 0x60D9750
-        public void GetDestinations(){} // RVA: 0x60D98F0
-        public void Set(){} // RVA: 0x60D9AA0
-        public void GetNextDestinationListPage(){} // RVA: 0x60D9C50
+        public void Clear(){} // RVA: 0x7ADEC5A40
+        public void GetDestinations(){} // RVA: 0x7ADEC5BE0
+        public void Set(){} // RVA: 0x7ADEC5D90
+        public void GetNextDestinationListPage(){} // RVA: 0x7ADEC5F40
     }
 
-    public class RichPresenceOptions
+    public class RichPresenceOptions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60DCBE0
-        public void SetApiName(){} // RVA: 0x60DCC90
-        public void SetCurrentCapacity(){} // RVA: 0x60DCDD0
-        public void SetDeeplinkMessageOverride(){} // RVA: 0x60DCE90
-        public void SetEndTime(){} // RVA: 0x60DCFD0
-        public void SetExtraContext(){} // RVA: 0x60DD0E0
-        public void SetInstanceId(){} // RVA: 0x60DD1A0
-        public void SetIsIdle(){} // RVA: 0x60DD2E0
-        public void SetIsJoinable(){} // RVA: 0x60DD3A0
-        public void SetMaxCapacity(){} // RVA: 0x60DD460
-        public void SetStartTime(){} // RVA: 0x60DD520
-        public void op_Explicit(){} // RVA: 0x6081810
-        public void Finalize(){} // RVA: 0x60DD630
+        public void .ctor(){} // RVA: 0x7ADEC8ED0
+        public void SetApiName(){} // RVA: 0x7ADEC8F80
+        public void SetCurrentCapacity(){} // RVA: 0x7ADEC90C0
+        public void SetDeeplinkMessageOverride(){} // RVA: 0x7ADEC9180
+        public void SetEndTime(){} // RVA: 0x7ADEC92C0
+        public void SetExtraContext(){} // RVA: 0x7ADEC93D0
+        public void SetInstanceId(){} // RVA: 0x7ADEC9490
+        public void SetIsIdle(){} // RVA: 0x7ADEC95D0
+        public void SetIsJoinable(){} // RVA: 0x7ADEC9690
+        public void SetMaxCapacity(){} // RVA: 0x7ADEC9750
+        public void SetStartTime(){} // RVA: 0x7ADEC9810
+        public void op_Explicit(){} // RVA: 0x7ADE6D8D0
+        public void Finalize(){} // RVA: 0x7ADEC9920
+        public void Handle(){} // RVA: 0x7B3FA9088
     }
 
-    public class RoomOptions
+    public class RoomOptions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60DD720
-        public void SetDataStore(){} // RVA: 0x60DD7D0
-        public void ClearDataStore(){} // RVA: 0x60DD940
-        public void SetExcludeRecentlyMet(){} // RVA: 0x60DDA00
-        public void SetMaxUserResults(){} // RVA: 0x60DDAC0
-        public void SetOrdering(){} // RVA: 0x60DDB80
-        public void SetRecentlyMetTimeWindow(){} // RVA: 0x60DDC40
-        public void SetRoomId(){} // RVA: 0x60DDD00
-        public void SetTurnOffUpdates(){} // RVA: 0x60DDDD0
-        public void op_Explicit(){} // RVA: 0x6081810
-        public void Finalize(){} // RVA: 0x60DDE90
+        public void .ctor(){} // RVA: 0x7ADEC9A10
+        public void SetDataStore(){} // RVA: 0x7ADEC9AC0
+        public void ClearDataStore(){} // RVA: 0x7ADEC9C30
+        public void SetExcludeRecentlyMet(){} // RVA: 0x7ADEC9CF0
+        public void SetMaxUserResults(){} // RVA: 0x7ADEC9DB0
+        public void SetOrdering(){} // RVA: 0x7ADEC9E70
+        public void SetRecentlyMetTimeWindow(){} // RVA: 0x7ADEC9F30
+        public void SetRoomId(){} // RVA: 0x7ADEC9FF0
+        public void SetTurnOffUpdates(){} // RVA: 0x7ADECA0C0
+        public void op_Explicit(){} // RVA: 0x7ADE6D8D0
+        public void Finalize(){} // RVA: 0x7ADECA180
+        public void Handle(){} // RVA: 0x7B3FAD508
     }
 
-    public class Rooms
+    public class Rooms : Object
     {
         // ── Methods ──
-        public void UpdateDataStore(){} // RVA: 0x60C4940
-        public void SetRoomInviteNotificationCallback(){} // RVA: 0x60C4F10
-        public void CreateAndJoinPrivate(){} // RVA: 0x60C4F80
-        public void CreateAndJoinPrivate2(){} // RVA: 0x60C5160
-        public void Get(){} // RVA: 0x60C5340
-        public void GetCurrent(){} // RVA: 0x60C5500
-        public void GetCurrentForUser(){} // RVA: 0x60C56B0
-        public void GetInvitableUsers(){} // RVA: 0x60C5870
-        public void GetInvitableUsers2(){} // RVA: 0x60C5A20
-        public void GetModeratedRooms(){} // RVA: 0x60C5BE0
-        public void InviteUser(){} // RVA: 0x60C5D90
-        public void Join(){} // RVA: 0x60C5FD0
-        public void Join2(){} // RVA: 0x60C61A0
-        public void KickUser(){} // RVA: 0x60C6370
-        public void LaunchInvitableUserFlow(){} // RVA: 0x60C6550
-        public void Leave(){} // RVA: 0x60C66F0
-        public void SetDescription(){} // RVA: 0x60C68B0
-        public void UpdateMembershipLockStatus(){} // RVA: 0x60C6AF0
-        public void UpdateOwner(){} // RVA: 0x60C6CC0
-        public void UpdatePrivateRoomJoinPolicy(){} // RVA: 0x60C6E80
-        public void SetRoomInviteAcceptedNotificationCallback(){} // RVA: 0x60C4F10
-        public void SetRoomInviteReceivedNotificationCallback(){} // RVA: 0x60C7050
-        public void SetUpdateNotificationCallback(){} // RVA: 0x60C70C0
-        public void GetNextRoomListPage(){} // RVA: 0x60C7130
+        public void UpdateDataStore(){} // RVA: 0x7ADEB0C00
+        public void SetRoomInviteNotificationCallback(){} // RVA: 0x7ADEB11E0
+        public void CreateAndJoinPrivate(){} // RVA: 0x7ADEB1250
+        public void CreateAndJoinPrivate2(){} // RVA: 0x7ADEB1430
+        public void Get(){} // RVA: 0x7ADEB1610
+        public void GetCurrent(){} // RVA: 0x7ADEB17D0
+        public void GetCurrentForUser(){} // RVA: 0x7ADEB1980
+        public void GetInvitableUsers(){} // RVA: 0x7ADEB1B40
+        public void GetInvitableUsers2(){} // RVA: 0x7ADEB1CF0
+        public void GetModeratedRooms(){} // RVA: 0x7ADEB1EB0
+        public void InviteUser(){} // RVA: 0x7ADEB2060
+        public void Join(){} // RVA: 0x7ADEB22A0
+        public void Join2(){} // RVA: 0x7ADEB2470
+        public void KickUser(){} // RVA: 0x7ADEB2640
+        public void LaunchInvitableUserFlow(){} // RVA: 0x7ADEB2820
+        public void Leave(){} // RVA: 0x7ADEB29C0
+        public void SetDescription(){} // RVA: 0x7ADEB2B80
+        public void UpdateMembershipLockStatus(){} // RVA: 0x7ADEB2DC0
+        public void UpdateOwner(){} // RVA: 0x7ADEB2F90
+        public void UpdatePrivateRoomJoinPolicy(){} // RVA: 0x7ADEB3150
+        public void SetRoomInviteAcceptedNotificationCallback(){} // RVA: 0x7ADEB11E0
+        public void SetRoomInviteReceivedNotificationCallback(){} // RVA: 0x7ADEB3320
+        public void SetUpdateNotificationCallback(){} // RVA: 0x7ADEB3390
+        public void GetNextRoomListPage(){} // RVA: 0x7ADEB3400
     }
 
-    public class RosterOptions
+    public class RosterOptions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60DDF80
-        public void AddSuggestedUser(){} // RVA: 0x60DE030
-        public void ClearSuggestedUsers(){} // RVA: 0x60DE100
-        public void op_Explicit(){} // RVA: 0x6081810
-        public void Finalize(){} // RVA: 0x60DE1C0
+        public void .ctor(){} // RVA: 0x7ADECA270
+        public void AddSuggestedUser(){} // RVA: 0x7ADECA320
+        public void ClearSuggestedUsers(){} // RVA: 0x7ADECA3F0
+        public void op_Explicit(){} // RVA: 0x7ADE6D8D0
+        public void Finalize(){} // RVA: 0x7ADECA4B0
+        public void Handle(){} // RVA: 0x7B3FA6FC8
     }
 
 }

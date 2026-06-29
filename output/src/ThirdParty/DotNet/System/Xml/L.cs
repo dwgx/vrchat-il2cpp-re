@@ -5,11 +5,11 @@
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class LineInfo
+    public class LineInfo : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x8AE010
-        public void Set(){} // RVA: 0x8AE010
+        public void .ctor(){} // RVA: 0x7A7615330
+        public void Set(){} // RVA: 0x7A7615330
     }
 
 }

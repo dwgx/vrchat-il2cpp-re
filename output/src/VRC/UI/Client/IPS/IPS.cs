@@ -1,27 +1,23 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI.Client.IPS
 // Classes: 1
-// Methods: 11
+// Methods: 10
 
 namespace VRC.UI.Client.IPS
 {
-    public class IpsProvidedContentLoader`2
+    public class IpsProvidedContentLoader`2 : Object
     {
-        public ÏÍÏÏÏÌÏÏÍÎÍÍÌÏÌÍÏÍÏÌÎÏÍ <ÍÎÎÍÎÍÍÏÎÍÍÎÌÍÏÌÍÌÍÏÌÎÏ>k__BackingField;
-
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void .ctor(){} // RVA: 0x2DC60
-        public void Initialize(){} // RVA: 0xCD60
-        public void set_PagedData(){} // RVA: 0x2DC60
-        public void get_Item(){} // RVA: 0xCD60
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void AwaitUnsafeOnCompleted_AE9C2D98AF72(){} // RVA: 0x2DC60
-        public void get_PagedData(){} // RVA: 0xCD60
-        public void AwaitUnsafeOnCompleted_CB39B4F08737(){} // RVA: 0x2DC60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        // ── Unresolved (hash) ──
-        public void m_2AB(){} // RVA: 0xCD60
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void Initialize(){} // RVA: 0x7A7E00680
+        public void get_PagedData(){} // RVA: 0x7A7E00680
+        public void set_PagedData(){} // RVA: 0x7A7E18890
+        public void CompareBaseObjects(){} // RVA: 0x7A7E18890
+        public void IsNativeObjectAlive(){} // RVA: 0x7A7E00680
+        public void GetCachedPtr(){} // RVA: 0x7A7E18890
+        public void get_name(){} // RVA: 0x7A7E00680
+        public void set_name(){} // RVA: 0x7A7E18890
+        public void Instantiate(){} // RVA: 0x7A7E00680
     }
 
 }

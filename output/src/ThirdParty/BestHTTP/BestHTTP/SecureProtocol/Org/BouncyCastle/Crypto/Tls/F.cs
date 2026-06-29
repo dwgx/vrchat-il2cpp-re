@@ -5,11 +5,11 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls
 {
-    public class FiniteFieldDheGroup
+    public class FiniteFieldDheGroup : Object
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x952DF50
-        public void .ctor(){} // RVA: 0x2DD310
+        public void IsValid(){} // RVA: 0x7B1364270
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

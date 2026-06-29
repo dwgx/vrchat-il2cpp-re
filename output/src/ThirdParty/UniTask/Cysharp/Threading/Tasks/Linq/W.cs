@@ -5,46 +5,46 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class WhereAwaitWithCancellation`1
+    public class WhereAwaitWithCancellation`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class WhereAwait`1
+    public class WhereAwait`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class WhereIntAwaitWithCancellation`1
+    public class WhereIntAwaitWithCancellation`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class WhereIntAwait`1
+    public class WhereIntAwait`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class WhereInt`1
+    public class WhereInt`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Where`1
+    public class Where`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
 }

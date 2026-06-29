@@ -5,20 +5,18 @@
 
 namespace ThirdParty.Other.Unity.Services.Core.Environments.Internal
 {
-    public class Environments
+    public class Environments : Object
     {
-        public string <Current>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x2F8380
-        public void set_Current(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Current(){} // RVA: 0x7A80F2570
+        public void set_Current(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
     public class IEnvironments
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0xCD60
+        public void get_Current(){} // RVA: 0x7A7E00680
     }
 
 }

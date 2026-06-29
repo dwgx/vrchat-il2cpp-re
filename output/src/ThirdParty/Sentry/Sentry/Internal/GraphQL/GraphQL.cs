@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Sentry.Sentry.Internal.GraphQL
 {
-    public class GraphQLRequestContentReader
+    public class GraphQLRequestContentReader : Object
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x642D940
+        public void Read(){} // RVA: 0x7AE21B660
     }
 
 }

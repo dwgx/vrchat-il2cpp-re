@@ -1,110 +1,86 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq.Expressions
 // Classes: 9
-// Methods: 35
+// Methods: 33
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class TryExpression
+    public class TryExpression : Expression
     {
-        public System.Type <Type>k__BackingField; // 0x10
-        public System.Linq.Expressions.Expression <Body>k__BackingField; // 0x18
-        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.CatchBlock> <Handlers>k__BackingField; // 0x20
-        public System.Linq.Expressions.Expression <Finally>k__BackingField; // 0x28
-        public System.Linq.Expressions.Expression <Fault>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6605F20 | overloaded x2
-        public void get_Type(){} // RVA: 0x2F8380
-        public void get_NodeType(){} // RVA: 0x6605DD0
-        public void get_Body(){} // RVA: 0x2E07C0
-        public void get_Handlers(){} // RVA: 0x30B0C0
-        public void get_Finally(){} // RVA: 0x30B130
-        public void get_Fault(){} // RVA: 0x6374D0
-        public void Accept(){} // RVA: 0x6605DE0
-        public void Update(){} // RVA: 0x6605E10
+        public void .ctor(){} // RVA: 0x7AE3F4930
+        public void get_Type(){} // RVA: 0x7A80F2570
+        public void get_NodeType(){} // RVA: 0x7AE3F47E0
+        public void get_Body(){} // RVA: 0x7A80DA7B0
+        public void get_Handlers(){} // RVA: 0x7A81052C0
+        public void get_Finally(){} // RVA: 0x7A8105330
+        public void get_Fault(){} // RVA: 0x7A83F69F0
+        public void Accept(){} // RVA: 0x7AE3F47F0
+        public void Update(){} // RVA: 0x7AE3F4820
     }
 
-    public class TypeBinaryExpression
+    public class TypeBinaryExpression : Expression
     {
-        public 0x65908648 <NodeType>k__BackingField; // 0x10
-        public System.Linq.Expressions.Expression <Expression>k__BackingField; // 0x18
-        public System.Type <TypeOperand>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6607120 | overloaded x2
-        public void get_Type(){} // RVA: 0x6606070
-        public void get_NodeType(){} // RVA: 0x32A5C0
-        public void get_Expression(){} // RVA: 0x2E07C0
-        public void get_TypeOperand(){} // RVA: 0x30B0C0
-        public void ReduceTypeEqual(){} // RVA: 0x6606120
-        public void ByValParameterTypeEqual(){} // RVA: 0x66068F0
-        public void ReduceConstantTypeEqual(){} // RVA: 0x6606E70
-        public void Accept(){} // RVA: 0x6607030
-        public void Update(){} // RVA: 0x6607060
+        public void .ctor(){} // RVA: 0x7AE3F5B00
+        public void get_Type(){} // RVA: 0x7AE3F4A80
+        public void get_NodeType(){} // RVA: 0x7A8124910
+        public void get_Expression(){} // RVA: 0x7A80DA7B0
+        public void get_TypeOperand(){} // RVA: 0x7A81052C0
+        public void ReduceTypeEqual(){} // RVA: 0x7AE3F4B30
+        public void ByValParameterTypeEqual(){} // RVA: 0x7AE3F52E0
+        public void ReduceConstantTypeEqual(){} // RVA: 0x7AE3F5860
+        public void Accept(){} // RVA: 0x7AE3F5A10
+        public void Update(){} // RVA: 0x7AE3F5A40
     }
 
-    public class TypedConstantExpression
+    public class TypedConstantExpression : ConstantExpression
     {
-        public System.Type <Type>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E0360
-        public void get_Type(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7AE3CEB90
+        public void get_Type(){} // RVA: 0x7A80DA7B0
     }
 
-    public class TypedDynamicExpression1
+    public class TypedDynamicExpression1 : DynamicExpression1
     {
-        public System.Type <Type>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E7390
-        public void get_Type(){} // RVA: 0x30B130
+        public void .ctor(){} // RVA: 0x7AE3D5B90
+        public void get_Type(){} // RVA: 0x7A8105330
     }
 
-    public class TypedDynamicExpression2
+    public class TypedDynamicExpression2 : DynamicExpression2
     {
-        public System.Type <Type>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E7AE0
-        public void get_Type(){} // RVA: 0x6374D0
+        public void .ctor(){} // RVA: 0x7AE3D62F0
+        public void get_Type(){} // RVA: 0x7A83F69F0
     }
 
-    public class TypedDynamicExpression3
+    public class TypedDynamicExpression3 : DynamicExpression3
     {
-        public System.Type <Type>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E8090
-        public void get_Type(){} // RVA: 0x4976A0
+        public void .ctor(){} // RVA: 0x7AE3D6890
+        public void get_Type(){} // RVA: 0x7A8292C30
     }
 
-    public class TypedDynamicExpression4
+    public class TypedDynamicExpression4 : DynamicExpression4
     {
-        public System.Type <Type>k__BackingField; // 0x40
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E8710
-        public void get_Type(){} // RVA: 0x35A740
+        public void .ctor(){} // RVA: 0x7AE3D6F00
+        public void get_Type(){} // RVA: 0x7A8154D80
     }
 
-    public class TypedDynamicExpressionN
+    public class TypedDynamicExpressionN : DynamicExpressionN
     {
-        public System.Type <Type>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E7390
-        public void get_Type(){} // RVA: 0x30B130
+        public void .ctor(){} // RVA: 0x7AE3D5B90
+        public void get_Type(){} // RVA: 0x7A8105330
     }
 
-    public class TypedParameterExpression
+    public class TypedParameterExpression : ParameterExpression
     {
-        public System.Type <Type>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6601CA0
-        public void get_Type(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7AE3F0490
+        public void get_Type(){} // RVA: 0x7A80DA7B0
     }
 
 }

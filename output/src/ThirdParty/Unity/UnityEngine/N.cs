@@ -1,45 +1,42 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine
 // Classes: 4
-// Methods: 20
+// Methods: 14
 
 namespace ThirdParty.Unity.UnityEngine
 {
-    public class NativeClassAttribute
+    public class NativeClassAttribute : Attribute
     {
-        public string <QualifiedNativeName>k__BackingField; // 0x10
-        public string <Declaration>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void set_QualifiedNativeName(){} // RVA: 0x2DEE30
-        public void set_Declaration(){} // RVA: 0x343E80
-        public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
+        public void set_QualifiedNativeName(){} // RVA: 0x7A80D8E20
+        public void set_Declaration(){} // RVA: 0x7A813E420
+        public void .ctor(){} // RVA: 0x7A8CE4080
     }
 
-    public class NoAllocHelpers
+    public class NoAllocHelpers : Object
     {
         // ── Methods ──
-        public void ResizeList(){} // RVA: 0x2A490
-        public void EnsureListElemCount(){} // RVA: 0x2A490
-        public void SafeLength(){} // RVA: 0xD920 | overloaded x2
-        public void ExtractArrayFromListT(){} // RVA: 0xCE50
-        public void Internal_ResizeList(){} // RVA: 0x712AC50
-        public void ExtractArrayFromList(){} // RVA: 0x712ACB0
+        public void ResizeList(){} // RVA: 0x7AA54B960
+        public void EnsureListElemCount(){} // RVA: 0x7AA54B710
+        public void SafeLength(){} // RVA: 0x7AA54BB70
+        public void ExtractArrayFromListT(){} // RVA: 0x7AA54B8B0
+        public void Internal_ResizeList(){} // RVA: 0x7AEF09AB0
+        public void ExtractArrayFromList(){} // RVA: 0x7AEF09B10
     }
 
-    public class NonReorderableAttribute
+    public class NonReorderableAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class NumericFieldDraggerUtility
+    public class NumericFieldDraggerUtility : Object
     {
         // ── Methods ──
-        public void Acceleration(){} // RVA: 0x711E640
-        public void NiceDelta(){} // RVA: 0x711E680
-        public void CalculateFloatDragSensitivity(){} // RVA: 0x711E870 | overloaded x2
-        public void CalculateIntDragSensitivity(){} // RVA: 0x711EA80 | overloaded x4
+        public void Acceleration(){} // RVA: 0x7AEEFD430
+        public void NiceDelta(){} // RVA: 0x7AEEFD470
+        public void CalculateFloatDragSensitivity(){} // RVA: 0x7AEEFD660
+        public void CalculateIntDragSensitivity(){} // RVA: 0x7AEEFD870
     }
 
 }

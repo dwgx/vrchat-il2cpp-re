@@ -1,36 +1,30 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
 // Classes: 3
-// Methods: 9
+// Methods: 7
 
 namespace ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
 {
-    public class SetsRequiredMembersAttribute
+    public class SetsRequiredMembersAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class StringSyntaxAttribute
+    public class StringSyntaxAttribute : Attribute
     {
-        public string <Syntax>k__BackingField; // 0x10
-        public object[] <Arguments>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
-        public void get_Syntax(){} // RVA: 0x2F8380
-        public void get_Arguments(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void get_Syntax(){} // RVA: 0x7A80F2570
+        public void get_Arguments(){} // RVA: 0x7A80DA7B0
     }
 
-    public class StringSyntaxAttribute
+    public class StringSyntaxAttribute : Attribute
     {
-        public string <Syntax>k__BackingField; // 0x10
-        public object[] <Arguments>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0 | overloaded x2
-        public void get_Syntax(){} // RVA: 0x2F8380
-        public void get_Arguments(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void get_Syntax(){} // RVA: 0x7A80F2570
+        public void get_Arguments(){} // RVA: 0x7A80DA7B0
     }
 
 }

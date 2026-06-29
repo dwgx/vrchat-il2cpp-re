@@ -5,27 +5,27 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class EmptyAnalyticsAdapter
+    public class EmptyAnalyticsAdapter : Object
     {
         // ── Methods ──
-        public void SendTransactionEvent(){} // RVA: 0x2DD310
-        public void SendTransactionFailedEvent(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x2DD310
+        public void SendTransactionEvent(){} // RVA: 0x7A80D7310
+        public void SendTransactionFailedEvent(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class EnumerableExtensions
+    public class EnumerableExtensions : Object
     {
         // ── Methods ──
-        public void NonNull(){} // RVA: 0xCE50
-        public void IgnoreExceptions(){} // RVA: 0xCEC0
+        public void NonNull(){} // RVA: 0x7A7E00BA0
+        public void IgnoreExceptions(){} // RVA: 0x7A7E00C10
     }
 
-    public class ExponentialRetryPolicy
+    public class ExponentialRetryPolicy : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D897D0
-        public void Invoke(){} // RVA: 0x724A900
-        public void AdjustDelay(){} // RVA: 0x724AAD0
+        public void .ctor(){} // RVA: 0x7A9B8CFF0
+        public void Invoke(){} // RVA: 0x7AF02A370
+        public void AdjustDelay(){} // RVA: 0x7AF02A540
     }
 
 }

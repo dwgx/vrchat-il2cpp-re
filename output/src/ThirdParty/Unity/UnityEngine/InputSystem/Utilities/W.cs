@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
-    public class WhereObservable`1
+    public class WhereObservable`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void Subscribe(){} // RVA: 0xCE10
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void Subscribe(){} // RVA: 0x7A7E00B20
     }
 
 }

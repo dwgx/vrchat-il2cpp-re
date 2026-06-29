@@ -5,16 +5,16 @@
 
 namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
-    public class KeyValuePairConverter`2
+    public class KeyValuePairConverter`2 : SmallObjectWithParameterizedConstructorConverter`5
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x2DC60
-        public void TryLookupConstructorParameter(){} // RVA: 0x115A0
-        public void EndRead(){} // RVA: 0x24B10
-        public void FoundKeyProperty(){}
-        public void FoundValueProperty(){}
-        public void .ctor(){} // RVA: 0x24A50
-        public void .cctor(){} // RVA: 0x24A80
+        public void Initialize(){} // RVA: 0x7A7E18890
+        public void TryLookupConstructorParameter(){} // RVA: 0x7A7E01DE0
+        public void EndRead(){} // RVA: 0x7A7E18800
+        public void FoundKeyProperty(){} // RVA: 0x7A7E03AD0
+        public void FoundValueProperty(){} // RVA: 0x7A7E03AD0
+        public void .ctor(){} // RVA: 0x7A7E18770
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
 }

@@ -1,241 +1,203 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
 // Classes: 29
-// Methods: 58
+// Methods: 50
 
 namespace ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
 {
-    public class DisallowNullAttribute
+    public class DisallowNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DisallowNullAttribute
+    public class DisallowNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DisallowNullAttribute
+    public class DisallowNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DisallowNullAttribute
+    public class DisallowNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DisallowNullAttribute
+    public class DisallowNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnAttribute
+    public class DoesNotReturnAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoesNotReturnIfAttribute
+    public class DoesNotReturnIfAttribute : Attribute
     {
-        public bool <ParameterValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_ParameterValue(){} // RVA: 0x3A75E0
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void get_ParameterValue(){} // RVA: 0x7A81A2200
+        public void .ctor(){} // RVA: 0x7A81A2210
     }
 
-    public class DoesNotReturnIfAttribute
+    public class DoesNotReturnIfAttribute : Attribute
     {
-        public bool <ParameterValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
-        public void get_ParameterValue(){} // RVA: 0x3A75E0
+        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_ParameterValue(){} // RVA: 0x7A81A2200
     }
 
-    public class DoesNotReturnIfAttribute
+    public class DoesNotReturnIfAttribute : Attribute
     {
-        public bool <ParameterValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_ParameterValue(){} // RVA: 0x3A75E0
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void get_ParameterValue(){} // RVA: 0x7A81A2200
+        public void .ctor(){} // RVA: 0x7A81A2210
     }
 
-    public class DoesNotReturnIfAttribute
+    public class DoesNotReturnIfAttribute : Attribute
     {
-        public bool <ParameterValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
-        public void get_ParameterValue(){} // RVA: 0x3A75E0
+        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_ParameterValue(){} // RVA: 0x7A81A2200
     }
 
-    public class DoesNotReturnIfAttribute
+    public class DoesNotReturnIfAttribute : Attribute
     {
-        public bool <ParameterValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
-        public void get_ParameterValue(){} // RVA: 0x3A75E0
+        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_ParameterValue(){} // RVA: 0x7A81A2200
     }
 
-    public class DynamicDependencyAttribute
+    public class DynamicDependencyAttribute : Attribute
     {
-        public string <MemberSignature>k__BackingField; // 0x10
-        public 0x658BE140 <MemberTypes>k__BackingField; // 0x18
-        public System.Type <Type>k__BackingField; // 0x20
-        public string <TypeName>k__BackingField; // 0x28
-        public string <AssemblyName>k__BackingField; // 0x30
-        public string <Condition>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6459190 | overloaded x5
-        public void get_MemberSignature(){} // RVA: 0x2F8380
-        public void get_MemberTypes(){} // RVA: 0x5BED50
-        public void get_Type(){} // RVA: 0x30B0C0
-        public void get_TypeName(){} // RVA: 0x30B130
-        public void get_AssemblyName(){} // RVA: 0x6374D0
-        public void get_Condition(){} // RVA: 0x4976A0
-        public void set_Condition(){} // RVA: 0x49B830
+        public void .ctor(){} // RVA: 0x7AE247240
+        public void get_MemberSignature(){} // RVA: 0x7A80F2570
+        public void get_MemberTypes(){} // RVA: 0x7A83782A0
+        public void get_Type(){} // RVA: 0x7A81052C0
+        public void get_TypeName(){} // RVA: 0x7A8105330
+        public void get_AssemblyName(){} // RVA: 0x7A83F69F0
+        public void get_Condition(){} // RVA: 0x7A8292C30
+        public void set_Condition(){} // RVA: 0x7A8296DE0
     }
 
-    public class DynamicDependencyAttribute
+    public class DynamicDependencyAttribute : Attribute
     {
-        public string <MemberSignature>k__BackingField; // 0x10
-        public 0x658F0390 <MemberTypes>k__BackingField; // 0x18
-        public System.Type <Type>k__BackingField; // 0x20
-        public string <TypeName>k__BackingField; // 0x28
-        public string <AssemblyName>k__BackingField; // 0x30
-        public string <Condition>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6459190 | overloaded x5
-        public void get_MemberSignature(){} // RVA: 0x2F8380
-        public void get_MemberTypes(){} // RVA: 0x5BED50
-        public void get_Type(){} // RVA: 0x30B0C0
-        public void get_TypeName(){} // RVA: 0x30B130
-        public void get_AssemblyName(){} // RVA: 0x6374D0
-        public void get_Condition(){} // RVA: 0x4976A0
-        public void set_Condition(){} // RVA: 0x49B830
+        public void .ctor(){} // RVA: 0x7AE247240
+        public void get_MemberSignature(){} // RVA: 0x7A80F2570
+        public void get_MemberTypes(){} // RVA: 0x7A83782A0
+        public void get_Type(){} // RVA: 0x7A81052C0
+        public void get_TypeName(){} // RVA: 0x7A8105330
+        public void get_AssemblyName(){} // RVA: 0x7A83F69F0
+        public void get_Condition(){} // RVA: 0x7A8292C30
+        public void set_Condition(){} // RVA: 0x7A8296DE0
     }
 
-    public class DynamicallyAccessedMembersAttribute
+    public class DynamicallyAccessedMembersAttribute : Attribute
     {
-        public 0x658BE140 <MemberTypes>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void get_MemberTypes(){} // RVA: 0x32A5C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void get_MemberTypes(){} // RVA: 0x7A8124910
     }
 
-    public class DynamicallyAccessedMembersAttribute
+    public class DynamicallyAccessedMembersAttribute : Attribute
     {
-        public 0x658F0390 <MemberTypes>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
     }
 
-    public class DynamicallyAccessedMembersAttribute
+    public class DynamicallyAccessedMembersAttribute : Attribute
     {
-        public 0x658F0390 <MemberTypes>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
     }
 
-    public class DynamicallyAccessedMembersAttribute
+    public class DynamicallyAccessedMembersAttribute : Attribute
     {
-        public 0x658F0390 <MemberTypes>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
     }
 
-    public class DynamicallyAccessedMembersAttribute
+    public class DynamicallyAccessedMembersAttribute : Attribute
     {
-        public 0x658F0390 <MemberTypes>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
     }
 
-    public class DynamicallyAccessedMembersAttribute
+    public class DynamicallyAccessedMembersAttribute : Attribute
     {
-        public 0x658F0390 <MemberTypes>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
     }
 
-    public class DynamicallyAccessedMembersAttribute
+    public class DynamicallyAccessedMembersAttribute : Attribute
     {
-        public 0x658F0390 <MemberTypes>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void get_MemberTypes(){} // RVA: 0x32A5C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void get_MemberTypes(){} // RVA: 0x7A8124910
     }
 
 }

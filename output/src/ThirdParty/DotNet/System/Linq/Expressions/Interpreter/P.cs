@@ -5,31 +5,29 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class ParameterByRefUpdater
+    public class ParameterByRefUpdater : ByRefUpdater
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6640D50
-        public void Update(){} // RVA: 0x6640DB0
+        public void .ctor(){} // RVA: 0x7AE42F6D0
+        public void Update(){} // RVA: 0x7AE42F730
     }
 
-    public class PopInstruction
+    public class PopInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.PopInstruction Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x66548D0
-        public void Run(){} // RVA: 0x6654910
-        public void .cctor(){} // RVA: 0x6654950
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE443330
+        public void Run(){} // RVA: 0x7AE443370
+        public void .cctor(){} // RVA: 0x7AE4433B0
     }
 
-    public class PropertyByRefUpdater
+    public class PropertyByRefUpdater : ByRefUpdater
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6641210
-        public void Update(){} // RVA: 0x6641450
-        public void UndefineTemps(){} // RVA: 0x6641530
+        public void .ctor(){} // RVA: 0x7AE42FB90
+        public void Update(){} // RVA: 0x7AE42FDD0
+        public void UndefineTemps(){} // RVA: 0x7AE42FEB0
     }
 
 }

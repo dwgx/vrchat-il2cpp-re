@@ -5,21 +5,21 @@
 
 namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Ball
 {
-    public class Ball
+    public class Ball : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x30A210
-        public void Move(){} // RVA: 0x30A310
-        public void .ctor(){} // RVA: 0x30A730
+        public void Start(){} // RVA: 0x7A8104480
+        public void Move(){} // RVA: 0x7A8104580
+        public void .ctor(){} // RVA: 0x7A8104990
     }
 
-    public class BallUserControl
+    public class BallUserControl : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x30A790
-        public void Update(){} // RVA: 0x30AB20
-        public void FixedUpdate(){} // RVA: 0x30B070
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7A81049F0
+        public void Update(){} // RVA: 0x7A8104D80
+        public void FixedUpdate(){} // RVA: 0x7A8105270
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
 }

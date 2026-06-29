@@ -1,32 +1,30 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime
 // Classes: 3
-// Methods: 9
+// Methods: 7
 
 namespace ThirdParty.DotNet.System.Runtime
 {
-    public class AmbiguousImplementationException
+    public class AmbiguousImplementationException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CCB830 | overloaded x3
+        public void .ctor(){} // RVA: 0x7ADAB9A80
     }
 
-    public class GCSettings
+    public class GCSettings : Object
     {
-        public 0x657EA3E0 <LargeObjectHeapCompactionMode>k__BackingField;
-
         // ── Methods ──
-        public void set_LargeObjectHeapCompactionMode(){} // RVA: 0x5CCB8B0
+        public void set_LargeObjectHeapCompactionMode(){} // RVA: 0x7ADAB9B00
     }
 
-    public class RuntimeImports
+    public class RuntimeImports : Object
     {
         // ── Methods ──
-        public void RhZeroMemory(){} // RVA: 0x5CCB8F0
-        public void ZeroMemory(){} // RVA: 0x5CCB8F0
-        public void Memmove(){} // RVA: 0x5CCB900
-        public void Memmove_wbarrier(){} // RVA: 0x5CCB910
-        public void _ecvt_s(){} // RVA: 0x5CCBA00
+        public void RhZeroMemory(){} // RVA: 0x7ADAB9B40
+        public void ZeroMemory(){} // RVA: 0x7ADAB9B40
+        public void Memmove(){} // RVA: 0x7ADAB9B50
+        public void Memmove_wbarrier(){} // RVA: 0x7ADAB9B60
+        public void _ecvt_s(){} // RVA: 0x7ADAB9C50
     }
 
 }

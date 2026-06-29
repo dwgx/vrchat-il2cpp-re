@@ -1,165 +1,142 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Operators
 // Classes: 16
-// Methods: 60
+// Methods: 54
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Operators
 {
-    public class Asn1CipherBuilderWithKey : .ctor
+    public class Asn1CipherBuilderWithKey : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Parameters.KeyParameter encKey; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algorithmIdentifier; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9598E30
-        public void get_AlgorithmDetails(){} // RVA: 0x2E07C0
-        public void GetMaxOutputSize(){} // RVA: 0x9599010
-        public void BuildCipher(){} // RVA: 0x9599050
-        public void get_Key(){} // RVA: 0x2F8380
+        public void .ctor(){} // RVA: 0x7B13CF820
+        public void get_AlgorithmDetails(){} // RVA: 0x7A80DA7B0
+        public void GetMaxOutputSize(){} // RVA: 0x7B13CFA00
+        public void BuildCipher(){} // RVA: 0x7B13CFA40
+        public void get_Key(){} // RVA: 0x7A80F2570
     }
 
-    public class Asn1KeyWrapper
+    public class Asn1KeyWrapper : Object
     {
-        public string algorithm; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9599510
-        public void get_AlgorithmDetails(){} // RVA: 0x9599670
-        public void Wrap(){} // RVA: 0x95996C0
+        public void .ctor(){} // RVA: 0x7B13CFF20
+        public void get_AlgorithmDetails(){} // RVA: 0x7B13D0080
+        public void Wrap(){} // RVA: 0x7B13D00D0
     }
 
-    public class Asn1SignatureFactory
+    public class Asn1SignatureFactory : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID; // 0x10
-        public string algorithm; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x959CFF0 | overloaded x2
-        public void get_AlgorithmDetails(){} // RVA: 0x2F8380
-        public void CreateCalculator(){} // RVA: 0x959D1C0
-        public void get_SignatureAlgNames(){} // RVA: 0x959D300
+        public void .ctor(){} // RVA: 0x7B13D38F0
+        public void get_AlgorithmDetails(){} // RVA: 0x7A80F2570
+        public void CreateCalculator(){} // RVA: 0x7B13D3AC0
+        public void get_SignatureAlgNames(){} // RVA: 0x7B13D3C00
     }
 
-    public class Asn1VerifierFactory
+    public class Asn1VerifierFactory : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F28620 | overloaded x2
-        public void get_AlgorithmDetails(){} // RVA: 0x2F8380
-        public void CreateCalculator(){} // RVA: 0x959D4F0
+        public void .ctor(){} // RVA: 0x7ADD17380
+        public void get_AlgorithmDetails(){} // RVA: 0x7A80F2570
+        public void CreateCalculator(){} // RVA: 0x7B13D3DF0
     }
 
-    public class Asn1VerifierFactoryProvider
+    public class Asn1VerifierFactoryProvider : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicKey; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void CreateVerifierFactory(){} // RVA: 0x959D660
-        public void get_SignatureAlgNames(){} // RVA: 0x959D720
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void CreateVerifierFactory(){} // RVA: 0x7B13D3F60
+        public void get_SignatureAlgNames(){} // RVA: 0x7B13D4020
     }
 
-    public class BufferedCipherWrapper
+    public class BufferedCipherWrapper : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IBufferedCipher bufferedCipher; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9599320
-        public void GetMaxOutputSize(){} // RVA: 0x9599450
-        public void GetUpdateOutputSize(){} // RVA: 0x95994B0
-        public void get_Stream(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7B13CFD20
+        public void GetMaxOutputSize(){} // RVA: 0x7B13CFE60
+        public void GetUpdateOutputSize(){} // RVA: 0x7B13CFEC0
+        public void get_Stream(){} // RVA: 0x7A80DA7B0
     }
 
-    public class DefaultSignatureCalculator
+    public class DefaultSignatureCalculator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO.SignerSink mSignerSink; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x959D770
-        public void get_Stream(){} // RVA: 0x2F8380
-        public void GetResult(){} // RVA: 0x959D830
+        public void .ctor(){} // RVA: 0x7B13D4070
+        public void get_Stream(){} // RVA: 0x7A80F2570
+        public void GetResult(){} // RVA: 0x7B13D4130
     }
 
-    public class DefaultSignatureResult
+    public class DefaultSignatureResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Collect(){} // RVA: 0x959D930 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Collect(){} // RVA: 0x7B13D4230
     }
 
-    public class DefaultVerifierCalculator
+    public class DefaultVerifierCalculator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IO.SignerSink mSignerSink; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x959D9C0
-        public void get_Stream(){} // RVA: 0x2F8380
-        public void GetResult(){} // RVA: 0x959DA80
+        public void .ctor(){} // RVA: 0x7B13D42C0
+        public void get_Stream(){} // RVA: 0x7A80F2570
+        public void GetResult(){} // RVA: 0x7B13D4380
     }
 
-    public class DefaultVerifierResult
+    public class DefaultVerifierResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void IsVerified(){} // RVA: 0x959DB90 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void IsVerified(){} // RVA: 0x7B13D4490
     }
 
-    public class GenericKey
+    public class GenericKey : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier AlgorithmName; // 0x10
-        public object IsPartialBlockOkay; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0 | overloaded x3
-        public void get_AlgorithmIdentifier(){} // RVA: 0x2F8380
-        public void get_Representation(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void get_AlgorithmIdentifier(){} // RVA: 0x7A80F2570
+        public void get_Representation(){} // RVA: 0x7A80DA7B0
     }
 
-    public class KeyWrapperUtil
+    public class KeyWrapperUtil : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x9599720
-        public void WrapperForName(){} // RVA: 0x9599C80
-        public void UnwrapperForName(){} // RVA: 0x9599EC0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x7B13D0130
+        public void WrapperForName(){} // RVA: 0x7B13D0690
+        public void UnwrapperForName(){} // RVA: 0x7B13D0840
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class RsaOaepWrapper
+    public class RsaOaepWrapper : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x959A100
-        public void get_AlgorithmDetails(){} // RVA: 0x2F8380
-        public void Unwrap(){} // RVA: 0x959A530
-        public void Wrap(){} // RVA: 0x959A630
+        public void .ctor(){} // RVA: 0x7B13D09F0
+        public void get_AlgorithmDetails(){} // RVA: 0x7A80F2570
+        public void Unwrap(){} // RVA: 0x7B13D0E30
+        public void Wrap(){} // RVA: 0x7B13D0F30
     }
 
-    public class RsaOaepWrapperProvider : `
+    public class RsaOaepWrapperProvider : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper(){} // RVA: 0x959A730
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper(){} // RVA: 0x7B13D1030
     }
 
     public class WrapperProvider
     {
         // ── Methods ──
-        public void CreateWrapper(){}
+        public void CreateWrapper(){} // RVA: 0x7A7E10900
     }
 
-    public class X509Utilities
+    public class X509Utilities : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x959A7C0
-        public void GetDigestAlgName(){} // RVA: 0x959C090
-        public void GetSignatureName(){} // RVA: 0x959C570
-        public void CreatePssParams(){} // RVA: 0x959C8B0
-        public void GetAlgorithmOid(){} // RVA: 0x959CA00
-        public void GetSigAlgID(){} // RVA: 0x959CB90
-        public void GetAlgNames(){} // RVA: 0x959CE80
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x7B13D10C0
+        public void GetDigestAlgName(){} // RVA: 0x7B13D2990
+        public void GetSignatureName(){} // RVA: 0x7B13D2E70
+        public void CreatePssParams(){} // RVA: 0x7B13D31B0
+        public void GetAlgorithmOid(){} // RVA: 0x7B13D3300
+        public void GetSigAlgID(){} // RVA: 0x7B13D3490
+        public void GetAlgNames(){} // RVA: 0x7B13D3780
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

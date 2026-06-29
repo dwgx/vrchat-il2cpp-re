@@ -5,13 +5,11 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class TimedTrialStatus_t
+    public class TimedTrialStatus_t : ValueType
     {
-        public Steamworks.AppId AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CEAB0
-        public void .cctor(){} // RVA: 0x20CEAC0
+        public void get_CallbackType(){} // RVA: 0x7A7725D40
+        public void .cctor(){} // RVA: 0x7A9EE3360
     }
 
 }

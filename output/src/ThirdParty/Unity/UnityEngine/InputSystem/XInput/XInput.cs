@@ -8,38 +8,33 @@ namespace ThirdParty.Unity.UnityEngine.InputSystem.XInput
     public class IXboxOneRumble
     {
         // ── Methods ──
-        public void SetMotorSpeeds(){}
+        public void SetMotorSpeeds(){} // RVA: 0x7A7E26A20
     }
 
-    public class XInputController
+    public class XInputController : Gamepad
     {
-        public UnityEngine.InputSystem.Controls.ButtonControl <menu>k__BackingField; // 0x210
-        public UnityEngine.InputSystem.Controls.ButtonControl <view>k__BackingField; // 0x218
-        public bool m_HaveParsedCapabilities; // 0x220
-        public 0x6586B368 m_SubType; // 0x224
-
         // ── Methods ──
-        public void get_menu(){} // RVA: 0xD9F7C0
-        public void set_menu(){} // RVA: 0xD9BA80
-        public void get_view(){} // RVA: 0xD88BD0
-        public void set_view(){} // RVA: 0xD9AC30
-        public void get_subType(){} // RVA: 0x6EA2E90
-        public void get_flags(){} // RVA: 0x6EA2ED0
-        public void FinishSetup(){} // RVA: 0x6EA2F10
-        public void ParseCapabilities(){} // RVA: 0x6EA2FF0
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void get_menu(){} // RVA: 0x7A8B63C30
+        public void set_menu(){} // RVA: 0x7A8B5FB80
+        public void get_view(){} // RVA: 0x7A8B4BD50
+        public void set_view(){} // RVA: 0x7A8B5EDA0
+        public void get_subType(){} // RVA: 0x7AEC814A0
+        public void get_flags(){} // RVA: 0x7AEC814E0
+        public void FinishSetup(){} // RVA: 0x7AEC81520
+        public void ParseCapabilities(){} // RVA: 0x7AEC81600
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
-    public class XInputControllerWindows
+    public class XInputControllerWindows : XInputController
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
-    public class XInputSupport
+    public class XInputSupport : Object
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x6EA3190
+        public void Initialize(){} // RVA: 0x7AEC817A0
     }
 
 }

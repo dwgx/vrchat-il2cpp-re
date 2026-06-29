@@ -5,10 +5,10 @@
 
 namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
-    public class YieldAwaitable
+    public class YieldAwaitable : ValueType
     {
         // ── Methods ──
-        public void GetAwaiter(){} // RVA: 0x2DD320
+        public void GetAwaiter(){} // RVA: 0x7A77CFDD0
     }
 
 }

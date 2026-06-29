@@ -1,32 +1,29 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Xml.Schema
 // Classes: 3
-// Methods: 7
+// Methods: 6
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class ValidationEventArgs
+    public class ValidationEventArgs : EventArgs
     {
-        public System.Xml.Schema.XmlSchemaException ex; // 0x10
-        public 0x65880760 severity; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x698E2E0 | overloaded x2
-        public void get_Severity(){} // RVA: 0x5BED50
-        public void get_Exception(){} // RVA: 0x2F8380
+        public void .ctor(){} // RVA: 0x7AE77CD40
+        public void get_Severity(){} // RVA: 0x7A83782A0
+        public void get_Exception(){} // RVA: 0x7A80F2570
     }
 
-    public class ValidationEventHandler
+    public class ValidationEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1AFE240
-        public void Invoke(){} // RVA: 0x439370
+        public void .ctor(){} // RVA: 0x7A98B8320
+        public void Invoke(){} // RVA: 0x7A82344F0
     }
 
-    public class ValidationState
+    public class ValidationState : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x698E3A0
+        public void .ctor(){} // RVA: 0x7AE77CE00
     }
 
 }

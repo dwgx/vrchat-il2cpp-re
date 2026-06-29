@@ -1,61 +1,59 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.ComponentModel
 // Classes: 6
-// Methods: 23
+// Methods: 21
 
 namespace ThirdParty.DotNet.System.ComponentModel
 {
-    public class SByteConverter
+    public class SByteConverter : BaseNumberConverter
     {
         // ── Methods ──
-        public void get_TargetType(){} // RVA: 0x6C7AFE0
-        public void FromString(){} // RVA: 0x6C7B120 | overloaded x2
-        public void ToString(){} // RVA: 0x6C7B1F0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_TargetType(){} // RVA: 0x7AEA6A980
+        public void FromString(){} // RVA: 0x7AEA6AAC0
+        public void ToString(){} // RVA: 0x7AEA6AB90
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SRCategoryAttribute
+    public class SRCategoryAttribute : CategoryAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3DE09E0
+        public void .ctor(){} // RVA: 0x7ABBDAFD0
     }
 
-    public class SettingsBindableAttribute
+    public class SettingsBindableAttribute : Attribute
     {
-        public System.ComponentModel.SettingsBindableAttribute Yes;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
-        public void get_Bindable(){} // RVA: 0x3A75E0
-        public void Equals(){} // RVA: 0x6C7B290
-        public void GetHashCode(){} // RVA: 0x6C7B330
-        public void .cctor(){} // RVA: 0x6C7B380
+        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_Bindable(){} // RVA: 0x7A81A2200
+        public void Equals(){} // RVA: 0x7AEA6AC30
+        public void GetHashCode(){} // RVA: 0x7AEA6ACD0
+        public void .cctor(){} // RVA: 0x7AEA6AD20
     }
 
-    public class SingleConverter
+    public class SingleConverter : BaseNumberConverter
     {
         // ── Methods ──
-        public void get_AllowHex(){} // RVA: 0x2DD320
-        public void get_TargetType(){} // RVA: 0x6C7B4B0
-        public void FromString(){} // RVA: 0x6C7B660 | overloaded x2
-        public void ToString(){} // RVA: 0x6C7B6D0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_AllowHex(){} // RVA: 0x7A80D7320
+        public void get_TargetType(){} // RVA: 0x7AEA6AE50
+        public void FromString(){} // RVA: 0x7AEA6B000
+        public void ToString(){} // RVA: 0x7AEA6B070
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class StringConverter
+    public class StringConverter : TypeConverter
     {
         // ── Methods ──
-        public void CanConvertFrom(){} // RVA: 0x6C7B7C0
-        public void ConvertFrom(){} // RVA: 0x6C7B8B0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void CanConvertFrom(){} // RVA: 0x7AEA6B160
+        public void ConvertFrom(){} // RVA: 0x7AEA6B250
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SyntaxCheck
+    public class SyntaxCheck : Object
     {
         // ── Methods ──
-        public void CheckMachineName(){} // RVA: 0x6C7B9B0
-        public void CheckPath(){} // RVA: 0x6C7BA70
-        public void CheckRootedPath(){} // RVA: 0x6C7BB30
+        public void CheckMachineName(){} // RVA: 0x7AEA6B350
+        public void CheckPath(){} // RVA: 0x7AEA6B410
+        public void CheckRootedPath(){} // RVA: 0x7AEA6B4D0
     }
 
 }

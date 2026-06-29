@@ -5,18 +5,18 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class BufferSkip`1
+    public class BufferSkip`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1E220
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Buffer`1
+    public class Buffer`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2BAA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1D590
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
 }

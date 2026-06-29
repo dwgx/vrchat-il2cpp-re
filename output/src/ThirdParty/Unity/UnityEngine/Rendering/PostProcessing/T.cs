@@ -1,82 +1,80 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 // Classes: 7
-// Methods: 37
+// Methods: 36
 
 namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
-    public class TargetPool
+    public class TargetPool : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F52DC0
-        public void Get(){} // RVA: 0x6F52EB0 | overloaded x2
-        public void Reset(){} // RVA: 0xA52E70
+        public void .ctor(){} // RVA: 0x7AED311B0
+        public void Get(){} // RVA: 0x7AED312A0
+        public void Reset(){} // RVA: 0x7A8810990
     }
 
-    public class TemporalAntialiasing
+    public class TemporalAntialiasing : Object
     {
-        public float jitterSpread; // 0x10
-        public float sharpness; // 0x14
-
         // ── Methods ──
-        public void get_jitter(){} // RVA: 0x18F7880
-        public void set_jitter(){} // RVA: 0x8AC650
-        public void get_sampleIndex(){} // RVA: 0x891AF0
-        public void set_sampleIndex(){} // RVA: 0x1CB95F0
-        public void IsSupported(){} // RVA: 0x6F2A560
-        public void GetCameraFlags(){} // RVA: 0x66CCC0
-        public void ResetHistory(){} // RVA: 0x1199240
-        public void GenerateRandomOffset(){} // RVA: 0x6F2A640
-        public void GetJitteredProjectionMatrix(){} // RVA: 0x6F2A720
-        public void ConfigureJitteredProjectionMatrix(){} // RVA: 0x6F2A9F0
-        public void ConfigureStereoJitteredProjectionMatrices(){} // RVA: 0x6F2ABD0
-        public void GenerateHistoryName(){} // RVA: 0x6F2B060
-        public void CheckHistory(){} // RVA: 0x6F2B1D0
-        public void Render(){} // RVA: 0x6F2B870
-        public void Release(){} // RVA: 0x6F2BF00
-        public void .ctor(){} // RVA: 0x6F2C060
+        public void get_jitter(){} // RVA: 0x7A96B3750
+        public void set_jitter(){} // RVA: 0x7A8669350
+        public void get_sampleIndex(){} // RVA: 0x7A864E8D0
+        public void set_sampleIndex(){} // RVA: 0x7A9ABBD00
+        public void IsSupported(){} // RVA: 0x7AED08B50
+        public void GetCameraFlags(){} // RVA: 0x7A8401A30
+        public void ResetHistory(){} // RVA: 0x7A8F567E0
+        public void GenerateRandomOffset(){} // RVA: 0x7AED08C30
+        public void GetJitteredProjectionMatrix(){} // RVA: 0x7AED08D10
+        public void ConfigureJitteredProjectionMatrix(){} // RVA: 0x7AED08FD0
+        public void ConfigureStereoJitteredProjectionMatrices(){} // RVA: 0x7AED091B0
+        public void GenerateHistoryName(){} // RVA: 0x7AED09640
+        public void CheckHistory(){} // RVA: 0x7AED097B0
+        public void Render(){} // RVA: 0x7AED09E50
+        public void Release(){} // RVA: 0x7AED0A4D0
+        public void .ctor(){} // RVA: 0x7AED0A640
+        public void jitterSpread(){} // RVA: 0x7B4192828
     }
 
-    public class TextureFormatUtilities
+    public class TextureFormatUtilities : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x6F530F0
-        public void IsObsolete(){} // RVA: 0x6F542B0
-        public void GetUncompressedRenderTextureFormat(){} // RVA: 0x6F54440
-        public void IsSupported(){} // RVA: 0x6F54760 | overloaded x2
+        public void .cctor(){} // RVA: 0x7AED314E0
+        public void IsObsolete(){} // RVA: 0x7AED32690
+        public void GetUncompressedRenderTextureFormat(){} // RVA: 0x7AED32820
+        public void IsSupported(){} // RVA: 0x7AED32B50
     }
 
-    public class TextureLerper
+    public class TextureLerper : Object
     {
-        public UnityEngine.Rendering.PostProcessing.TextureLerper m_Instance;
-
         // ── Methods ──
-        public void get_instance(){} // RVA: 0x6F54830
-        public void .ctor(){} // RVA: 0x6F54A30
-        public void BeginFrame(){} // RVA: 0x6F54B70
-        public void EndFrame(){} // RVA: 0x6F54CB0
-        public void Get(){} // RVA: 0x6F54F20
-        public void Lerp(){} // RVA: 0x6F55C30 | overloaded x2
-        public void Clear(){} // RVA: 0x6F56470
+        public void get_instance(){} // RVA: 0x7AED32C20
+        public void .ctor(){} // RVA: 0x7AED32E20
+        public void BeginFrame(){} // RVA: 0x7AED32F60
+        public void EndFrame(){} // RVA: 0x7AED330A0
+        public void Get(){} // RVA: 0x7AED33310
+        public void Lerp(){} // RVA: 0x7AED34050
+        public void Clear(){} // RVA: 0x7AED34890
+        // ── Unresolved (hash) ──
+        public void m_Instance(){} // RVA: 0x7B3FA8F68
     }
 
-    public class TextureParameter
+    public class TextureParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void Interp(){} // RVA: 0x6F30920
-        public void .ctor(){} // RVA: 0x6F313F0
+        public void Interp(){} // RVA: 0x7AED0EE80
+        public void .ctor(){} // RVA: 0x7AED0F950
     }
 
-    public class TonemapperParameter
+    public class TonemapperParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F12D80
+        public void .ctor(){} // RVA: 0x7AECF13F0
     }
 
-    public class TrackballAttribute
+    public class TrackballAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
     }
 
 }

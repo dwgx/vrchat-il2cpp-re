@@ -5,11 +5,11 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Kisa
 {
-    public class KisaObjectIdentifiers
+    public class KisaObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9794A00
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B15CF1D0
     }
 
 }

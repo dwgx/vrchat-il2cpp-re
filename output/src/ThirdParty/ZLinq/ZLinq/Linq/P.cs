@@ -5,15 +5,15 @@
 
 namespace ThirdParty.ZLinq.ZLinq.Linq
 {
-    public class Prepend`2
+    public class Prepend`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void TryGetNonEnumeratedCount(){} // RVA: 0xDE40
-        public void TryGetSpan(){} // RVA: 0xDE40
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void TryGetNext(){} // RVA: 0xDE40
-        public void Dispose(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
+        public void TryGetSpan(){} // RVA: 0x7A7E019D0
+        public void TryCopyTo(){} // RVA: 0x7A8051B10
+        public void TryGetNext(){} // RVA: 0x7A7E019D0
+        public void Dispose(){} // RVA: 0x7A7E18770
     }
 
 }

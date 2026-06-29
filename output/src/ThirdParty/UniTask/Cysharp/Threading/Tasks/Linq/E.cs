@@ -5,46 +5,46 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class ElementAt
+    public class ElementAt : Object
     {
         // ── Methods ──
-        public void ElementAtAsync(){} // RVA: 0x283FA0
+        public void ElementAtAsync(){} // RVA: 0x7A8051B10
     }
 
-    public class Empty`1
+    public class Empty`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24A50
-        public void GetAsyncEnumerator(){}
-        public void .cctor(){} // RVA: 0x24A80
+        public void .ctor(){} // RVA: 0x7A7E18770
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class EveryUpdate
+    public class EveryUpdate : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F157F0
-        public void GetAsyncEnumerator(){} // RVA: 0x6D2AB50
+        public void .ctor(){} // RVA: 0x7ADD04440
+        public void GetAsyncEnumerator(){} // RVA: 0x7AEB1A090
     }
 
-    public class EveryValueChangedStandardObject`2
+    public class EveryValueChangedStandardObject`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class EveryValueChangedUnityObject`2
+    public class EveryValueChangedUnityObject`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Except`1
+    public class Except`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
 }

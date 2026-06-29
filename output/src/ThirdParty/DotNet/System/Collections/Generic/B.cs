@@ -1,27 +1,27 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 2
-// Methods: 12
+// Methods: 9
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
-    public class BitHelper
+    public class BitHelper : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x64A49D0 | overloaded x2
-        public void MarkBit(){} // RVA: 0x667D8C0
-        public void IsMarked(){} // RVA: 0x667D930
-        public void ToIntArrayLength(){} // RVA: 0x667D9B0
+        public void .ctor(){} // RVA: 0x7AE291C00
+        public void MarkBit(){} // RVA: 0x7AE46C070
+        public void IsMarked(){} // RVA: 0x7AE46C0E0
+        public void ToIntArrayLength(){} // RVA: 0x7AE46C160
     }
 
-    public class ByteEqualityComparer
+    public class ByteEqualityComparer : EqualityComparer`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x5E0EDF0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x5E0EE80 | overloaded x2
-        public void IndexOf(){} // RVA: 0x5E0EB40
-        public void LastIndexOf(){} // RVA: 0x3470870
-        public void .ctor(){} // RVA: 0x5E0EEE0
+        public void Equals(){} // RVA: 0x7ADBFD440
+        public void GetHashCode(){} // RVA: 0x7ADBFD4C0
+        public void IndexOf(){} // RVA: 0x7ADBFD190
+        public void LastIndexOf(){} // RVA: 0x7AB260310
+        public void .ctor(){} // RVA: 0x7ADBFD520
     }
 
 }

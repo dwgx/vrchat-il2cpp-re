@@ -1,73 +1,54 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.InputSystem.DualShock.LowLevel
-// Classes: 7
+// Classes: 6
 // Methods: 16
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.DualShock.LowLevel
 {
-    public class DualSenseHIDBluetoothOutputReport
+    public class DualSenseHIDBluetoothOutputReport : ValueType
     {
-        public int kSize;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x6EBFB80
-        public void get_typeStatic(){} // RVA: 0x6EBFB80
-        public void Create(){} // RVA: 0x6EDA320
+        public void get_Type(){} // RVA: 0x7AEC9E160
+        public void get_typeStatic(){} // RVA: 0x7A7EB5DC0
+        public void Create(){} // RVA: 0x7AECB8B40
     }
 
-    public class DualSenseHIDInputReport
+    public class DualSenseHIDInputReport : ValueType
     {
-        public UnityEngine.InputSystem.Utilities.FourCC Format;
-
         // ── Methods ──
-        public void get_format(){} // RVA: 0x6EDA230
-        public void .cctor(){} // RVA: 0x6EDA290
+        public void get_format(){} // RVA: 0x7A7EB7970
+        public void .cctor(){} // RVA: 0x7AECB8AB0
     }
 
-    public class DualSenseHIDOutputReportPayload
+    public class DualSenseHIDUSBOutputReport : ValueType
     {
+        // ── Methods ──
+        public void get_Type(){} // RVA: 0x7AEC9E160
+        public void get_typeStatic(){} // RVA: 0x7A7EB5DC0
+        public void Create(){} // RVA: 0x7AECB8AF0
     }
 
-    public class DualSenseHIDUSBOutputReport
+    public class DualShock3HIDInputReport : ValueType
     {
-        public int kSize;
-        public UnityEngine.InputSystem.LowLevel.InputDeviceCommand baseCommand; // 0x10
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x6EBFB80
-        public void get_typeStatic(){} // RVA: 0x6EBFB80
-        public void Create(){} // RVA: 0x6EDA2D0
+        public void get_format(){} // RVA: 0x7A7EB7A30
     }
 
-    public class DualShock3HIDInputReport
+    public class DualShock4HIDInputReport : ValueType
     {
-        public ushort padding1; // 0x10
-
         // ── Methods ──
-        public void get_format(){} // RVA: 0x6EBFB70
+        public void get_format(){} // RVA: 0x7A7EB79D0
+        public void .cctor(){} // RVA: 0x7AECB8C10
     }
 
-    public class DualShock4HIDInputReport
+    public class DualShockHIDOutputReport : ValueType
     {
-        public UnityEngine.InputSystem.Utilities.FourCC Format;
-
         // ── Methods ──
-        public void get_format(){} // RVA: 0x6EDA390
-        public void .cctor(){} // RVA: 0x6EDA3F0
-    }
-
-    public class DualShockHIDOutputReport
-    {
-        public int kSize;
-        public int kReportId;
-
-        // ── Methods ──
-        public void get_Type(){} // RVA: 0x6EBFB80
-        public void get_typeStatic(){} // RVA: 0x6EBFB80
-        public void SetMotorSpeeds(){} // RVA: 0x6EDA430
-        public void SetColor(){} // RVA: 0x6EDA480
-        public void Create(){} // RVA: 0x6EDA500
+        public void get_Type(){} // RVA: 0x7AEC9E160
+        public void get_typeStatic(){} // RVA: 0x7A7EB5DC0
+        public void SetMotorSpeeds(){} // RVA: 0x7A7EB7A40
+        public void SetColor(){} // RVA: 0x7A7EB7A90
+        public void Create(){} // RVA: 0x7AECB8D20
     }
 
 }

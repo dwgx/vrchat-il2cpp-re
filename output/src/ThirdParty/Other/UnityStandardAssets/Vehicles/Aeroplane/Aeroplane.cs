@@ -5,130 +5,117 @@
 
 namespace ThirdParty.Other.UnityStandardAssets.Vehicles.Aeroplane
 {
-    public class AeroplaneAiControl
+    public class AeroplaneAiControl : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x304C50
-        public void Reset(){} // RVA: 0x304D30
-        public void FixedUpdate(){} // RVA: 0x304D40
-        public void SetTarget(){} // RVA: 0x305200
-        public void .ctor(){} // RVA: 0x305260
+        public void Awake(){} // RVA: 0x7A80FEE90
+        public void Reset(){} // RVA: 0x7A80FEF70
+        public void FixedUpdate(){} // RVA: 0x7A80FEF80
+        public void SetTarget(){} // RVA: 0x7A80FF440
+        public void .ctor(){} // RVA: 0x7A80FF4A0
     }
 
-    public class AeroplaneAudio
+    public class AeroplaneAudio : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x3052E0
-        public void Update(){} // RVA: 0x305A80
-        public void .ctor(){} // RVA: 0x305E70
+        public void Awake(){} // RVA: 0x7A80FF520
+        public void Update(){} // RVA: 0x7A80FFCC0
+        public void .ctor(){} // RVA: 0x7A81000B0
     }
 
-    public class AeroplaneControlSurfaceAnimator
+    public class AeroplaneControlSurfaceAnimator : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x3084F0
-        public void Update(){} // RVA: 0x308650
-        public void RotateSurface(){} // RVA: 0x3087D0
-        public void .ctor(){} // RVA: 0x308AC0
+        public void Start(){} // RVA: 0x7A8102730
+        public void Update(){} // RVA: 0x7A81028A0
+        public void RotateSurface(){} // RVA: 0x7A8102A40
+        public void .ctor(){} // RVA: 0x7A8102D30
     }
 
-    public class AeroplaneController
+    public class AeroplaneController : MonoBehaviour
     {
-        public float m_MaxEnginePower; // 0x20
-        public float m_Lift; // 0x24
-        public float m_ZeroLiftSpeed; // 0x28
-        public float m_RollEffect; // 0x2C
-        public float m_PitchEffect; // 0x30
-        public float m_YawEffect; // 0x34
-        public float m_BankedTurnEffect; // 0x38
-        public float m_AerodynamicEffect; // 0x3C
-        public float m_AutoTurnPitch; // 0x40
-        public float m_AutoRollLevel; // 0x44
-        public float m_AutoPitchLevel; // 0x48
-        public float m_AirBrakesEffect; // 0x4C
-
         // ── Methods ──
-        public void get_Altitude(){} // RVA: 0x305FE0
-        public void set_Altitude(){} // RVA: 0x305FF0
-        public void get_Throttle(){} // RVA: 0x306000
-        public void set_Throttle(){} // RVA: 0x306010
-        public void get_AirBrakes(){} // RVA: 0x306020
-        public void set_AirBrakes(){} // RVA: 0x306030
-        public void get_ForwardSpeed(){} // RVA: 0x306040
-        public void set_ForwardSpeed(){} // RVA: 0x306050
-        public void get_EnginePower(){} // RVA: 0x306060
-        public void set_EnginePower(){} // RVA: 0x306070
-        public void get_MaxEnginePower(){} // RVA: 0x306080
-        public void get_RollAngle(){} // RVA: 0x2FE680
-        public void set_RollAngle(){} // RVA: 0x306090
-        public void get_PitchAngle(){} // RVA: 0x3060A0
-        public void set_PitchAngle(){} // RVA: 0x3060B0
-        public void get_RollInput(){} // RVA: 0x3060C0
-        public void set_RollInput(){} // RVA: 0x3060D0
-        public void get_PitchInput(){} // RVA: 0x3060E0
-        public void set_PitchInput(){} // RVA: 0x3060F0
-        public void get_YawInput(){} // RVA: 0x306100
-        public void set_YawInput(){} // RVA: 0x306110
-        public void get_ThrottleInput(){} // RVA: 0x306120
-        public void set_ThrottleInput(){} // RVA: 0x306130
-        public void Start(){} // RVA: 0x306140
-        public void Move(){} // RVA: 0x3064A0
-        public void ClampInputs(){} // RVA: 0x306930
-        public void CalculateRollAndPitchAngles(){} // RVA: 0x3069D0
-        public void AutoLevel(){} // RVA: 0x306D90
-        public void CalculateForwardSpeed(){} // RVA: 0x306E10
-        public void ControlThrottle(){} // RVA: 0x306F60
-        public void CalculateDrag(){} // RVA: 0x307020
-        public void CaluclateAerodynamicEffect(){} // RVA: 0x3071A0
-        public void CalculateLinearForces(){} // RVA: 0x307820
-        public void CalculateTorque(){} // RVA: 0x307BF0
-        public void CalculateAltitude(){} // RVA: 0x307FC0
-        public void Immobilize(){} // RVA: 0x308420
-        public void Reset(){} // RVA: 0x308430
-        public void .ctor(){} // RVA: 0x308440
+        public void get_Altitude(){} // RVA: 0x7A8100220
+        public void set_Altitude(){} // RVA: 0x7A8100230
+        public void get_Throttle(){} // RVA: 0x7A8100240
+        public void set_Throttle(){} // RVA: 0x7A8100250
+        public void get_AirBrakes(){} // RVA: 0x7A8100260
+        public void set_AirBrakes(){} // RVA: 0x7A8100270
+        public void get_ForwardSpeed(){} // RVA: 0x7A8100280
+        public void set_ForwardSpeed(){} // RVA: 0x7A8100290
+        public void get_EnginePower(){} // RVA: 0x7A81002A0
+        public void set_EnginePower(){} // RVA: 0x7A81002B0
+        public void get_MaxEnginePower(){} // RVA: 0x7A81002C0
+        public void get_RollAngle(){} // RVA: 0x7A80F8890
+        public void set_RollAngle(){} // RVA: 0x7A81002D0
+        public void get_PitchAngle(){} // RVA: 0x7A81002E0
+        public void set_PitchAngle(){} // RVA: 0x7A81002F0
+        public void get_RollInput(){} // RVA: 0x7A8100300
+        public void set_RollInput(){} // RVA: 0x7A8100310
+        public void get_PitchInput(){} // RVA: 0x7A8100320
+        public void set_PitchInput(){} // RVA: 0x7A8100330
+        public void get_YawInput(){} // RVA: 0x7A8100340
+        public void set_YawInput(){} // RVA: 0x7A8100350
+        public void get_ThrottleInput(){} // RVA: 0x7A8100360
+        public void set_ThrottleInput(){} // RVA: 0x7A8100370
+        public void Start(){} // RVA: 0x7A8100380
+        public void Move(){} // RVA: 0x7A81006E0
+        public void ClampInputs(){} // RVA: 0x7A8100B70
+        public void CalculateRollAndPitchAngles(){} // RVA: 0x7A8100C10
+        public void AutoLevel(){} // RVA: 0x7A8100FD0
+        public void CalculateForwardSpeed(){} // RVA: 0x7A8101050
+        public void ControlThrottle(){} // RVA: 0x7A81011A0
+        public void CalculateDrag(){} // RVA: 0x7A8101260
+        public void CaluclateAerodynamicEffect(){} // RVA: 0x7A81013E0
+        public void CalculateLinearForces(){} // RVA: 0x7A8101A60
+        public void CalculateTorque(){} // RVA: 0x7A8101E30
+        public void CalculateAltitude(){} // RVA: 0x7A8102200
+        public void Immobilize(){} // RVA: 0x7A8102660
+        public void Reset(){} // RVA: 0x7A8102670
+        public void .ctor(){} // RVA: 0x7A8102680
     }
 
-    public class AeroplanePropellerAnimator
+    public class AeroplanePropellerAnimator : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x308B10
-        public void Update(){} // RVA: 0x308CB0
-        public void .ctor(){} // RVA: 0x308EF0
+        public void Awake(){} // RVA: 0x7A8102D80
+        public void Update(){} // RVA: 0x7A8102F20
+        public void .ctor(){} // RVA: 0x7A8103150
     }
 
-    public class AeroplaneUserControl2Axis
+    public class AeroplaneUserControl2Axis : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x308F50
-        public void FixedUpdate(){} // RVA: 0x308FE0
-        public void AdjustInputForMobileControls(){} // RVA: 0x309170
-        public void .ctor(){} // RVA: 0x309250
+        public void Awake(){} // RVA: 0x7A81031B0
+        public void FixedUpdate(){} // RVA: 0x7A8103240
+        public void AdjustInputForMobileControls(){} // RVA: 0x7A81033D0
+        public void .ctor(){} // RVA: 0x7A81034B0
     }
 
-    public class AeroplaneUserControl4Axis
+    public class AeroplaneUserControl4Axis : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x3092B0
-        public void FixedUpdate(){} // RVA: 0x309340
-        public void AdjustInputForMobileControls(){} // RVA: 0x309580
-        public void .ctor(){} // RVA: 0x309250
+        public void Awake(){} // RVA: 0x7A8103510
+        public void FixedUpdate(){} // RVA: 0x7A81035A0
+        public void AdjustInputForMobileControls(){} // RVA: 0x7A81037E0
+        public void .ctor(){} // RVA: 0x7A81034B0
     }
 
-    public class JetParticleEffect
+    public class JetParticleEffect : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x309620
-        public void Update(){} // RVA: 0x309990
-        public void FindAeroplaneParent(){} // RVA: 0x309CE0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7A8103880
+        public void Update(){} // RVA: 0x7A8103BF0
+        public void FindAeroplaneParent(){} // RVA: 0x7A8103F50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class LandingGear
+    public class LandingGear : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x309F10
-        public void Update(){} // RVA: 0x30A0A0
-        public void .ctor(){} // RVA: 0x30A1B0
+        public void Start(){} // RVA: 0x7A8104180
+        public void Update(){} // RVA: 0x7A8104310
+        public void .ctor(){} // RVA: 0x7A8104420
     }
 
 }

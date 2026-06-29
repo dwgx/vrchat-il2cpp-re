@@ -1,92 +1,90 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Utf8StringInterpolation
 // Classes: 6
-// Methods: 208
+// Methods: 52
 
 namespace ThirdParty.Other.Utf8StringInterpolation
 {
-    public class Shims
+    public class Shims : Object
     {
         // ── Methods ──
-        public void TryFormat(){} // RVA: 0x750C130 | overloaded x4
+        public void TryFormat(){} // RVA: 0x7AF2EC230
     }
 
-    public class Utf8String
+    public class Utf8String : Object
     {
         // ── Methods ──
-        public void CreateWriter(){} // RVA: 0x750C600
+        public void CreateWriter(){} // RVA: 0x7AF2EC6E0
     }
 
-    public class Utf8StringBuffer
+    public class Utf8StringBuffer : ValueType
     {
-        public System.Buffers.ArrayBufferWriter`1<byte> innerBuffer; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x100A2F0
-        public void get_WrittenCount(){} // RVA: 0x750C9A0
-        public void get_WrittenSpan(){} // RVA: 0x750C9F0
-        public void ToString(){} // RVA: 0x750CA50
-        public void Dispose(){} // RVA: 0x750CAD0
+        public void .ctor(){} // RVA: 0x7A7637E60
+        public void get_WrittenCount(){} // RVA: 0x7A7F0DB40
+        public void get_WrittenSpan(){} // RVA: 0x7A7F0DB90
+        public void ToString(){} // RVA: 0x7A7F0DBF0
+        public void Dispose(){} // RVA: 0x7A7F0DC70
     }
 
-    public class Utf8StringWriter`1
+    public class Utf8StringWriter`1 : ValueType
     {
         // ── Methods ──
-        public void AppendFormatted(){} // RVA: 0x2C800 | overloaded x36
-        public void AppendFormattedAlignment(){} // RVA: 0x283FA0 | overloaded x17
-        public void GetBufferWriter(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x283FA0
-        public void AppendLiteral(){} // RVA: 0x24B10
-        public void AppendWhitespace(){} // RVA: 0x24FA0
-        public void AppendUtf8(){}
-        public void AppendString(){}
-        public void AppendFormattedCore(){} // RVA: 0x283FA0
-        public void TryGrow(){} // RVA: 0x24FA0
-        public void GrowCore(){} // RVA: 0x24FA0
-        public void ClearState(){} // RVA: 0x24A50
-        public void GetStringByteCount(){}
-        public void Flush(){} // RVA: 0x24A50
-        public void .cctor(){} // RVA: 0x24A80
+        public void AppendFormatted(){} // RVA: 0x7A7E18AE0
+        public void AppendFormattedAlignment(){} // RVA: 0x7A8051B10
+        public void GetBufferWriter(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void AppendLiteral(){} // RVA: 0x7A7E18800
+        public void AppendWhitespace(){} // RVA: 0x7A7E189D0
+        public void AppendUtf8(){} // RVA: 0x7A7E18800
+        public void AppendString(){} // RVA: 0x7A7E01630
+        public void AppendFormattedCore(){} // RVA: 0x7A8051B10
+        public void TryGrow(){} // RVA: 0x7A7E189D0
+        public void GrowCore(){} // RVA: 0x7A7E189D0
+        public void ClearState(){} // RVA: 0x7A7E18770
+        public void GetStringByteCount(){} // RVA: 0x7A7E01630
+        public void Flush(){} // RVA: 0x7A7E18770
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class Utf8StringWriter`1
+    public class Utf8StringWriter`1 : ValueType
     {
         // ── Methods ──
-        public void AppendFormatted(){} // RVA: 0x45CAFF0 | overloaded x36
-        public void AppendFormattedAlignment(){} // RVA: 0x45CA2A0 | overloaded x17
-        public void GetBufferWriter(){} // RVA: 0x2E07C0
-        public void .ctor(){} // RVA: 0x45CA9B0
-        public void AppendLiteral(){} // RVA: 0x45CAA70
-        public void AppendWhitespace(){} // RVA: 0x45CAB70
-        public void AppendUtf8(){} // RVA: 0x45CACE0
-        public void AppendString(){} // RVA: 0x45CAE40
-        public void AppendFormattedCore(){} // RVA: 0x283FA0
-        public void TryGrow(){} // RVA: 0x45CB940
-        public void GrowCore(){} // RVA: 0x45CB9F0
-        public void ClearState(){} // RVA: 0x45CBB50
-        public void GetStringByteCount(){} // RVA: 0x45CBBF0
-        public void Flush(){} // RVA: 0x45CBCA0
-        public void .cctor(){} // RVA: 0x45CBD00
+        public void AppendUtf8(){} // RVA: 0x7AC3B8560
+        public void Flush(){} // RVA: 0x7AC3B9520
+        public void .ctor(){} // RVA: 0x7AC3B8220
+        public void AppendFormatted(){} // RVA: 0x7AA150F00
+        public void AppendFormattedAlignment(){} // RVA: 0x7AC3B7B10
+        public void GetBufferWriter(){} // RVA: 0x7A80DA7B0
+        public void AppendLiteral(){} // RVA: 0x7AC3B82F0
+        public void AppendWhitespace(){} // RVA: 0x7AC3B83F0
+        public void AppendString(){} // RVA: 0x7AC3B86C0
+        public void AppendFormattedCore(){} // RVA: 0x7AA1630B0
+        public void TryGrow(){} // RVA: 0x7AC3B91C0
+        public void GrowCore(){} // RVA: 0x7AC3B9270
+        public void ClearState(){} // RVA: 0x7AC3B93D0
+        public void GetStringByteCount(){} // RVA: 0x7AC3B9470
+        public void .cctor(){} // RVA: 0x7AC3B9580
     }
 
-    public class Utf8StringWriter`1
+    public class Utf8StringWriter`1 : ValueType
     {
         // ── Methods ──
-        public void AppendFormatted(){} // RVA: 0x45CAFF0 | overloaded x36
-        public void AppendFormattedAlignment(){} // RVA: 0x45CA2A0 | overloaded x17
-        public void GetBufferWriter(){} // RVA: 0x2E07C0
-        public void .ctor(){} // RVA: 0x45CA9B0
-        public void AppendLiteral(){} // RVA: 0x45CAA70
-        public void AppendWhitespace(){} // RVA: 0x45CAB70
-        public void AppendUtf8(){} // RVA: 0x45CACE0
-        public void AppendString(){} // RVA: 0x45CAE40
-        public void AppendFormattedCore(){} // RVA: 0x283FA0
-        public void TryGrow(){} // RVA: 0x45CB940
-        public void GrowCore(){} // RVA: 0x45CB9F0
-        public void ClearState(){} // RVA: 0x45CBB50
-        public void GetStringByteCount(){} // RVA: 0x45CBBF0
-        public void Flush(){} // RVA: 0x45CBCA0
-        public void .cctor(){} // RVA: 0x45CBD00
+        public void Flush(){} // RVA: 0x7AC3B9520
+        public void AppendFormatted(){} // RVA: 0x7AA153D80
+        public void AppendFormattedAlignment(){} // RVA: 0x7AC3B7B10
+        public void GetBufferWriter(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x7AC3B8220
+        public void AppendLiteral(){} // RVA: 0x7AC3B82F0
+        public void AppendWhitespace(){} // RVA: 0x7AC3B83F0
+        public void AppendUtf8(){} // RVA: 0x7AC3B8560
+        public void AppendString(){} // RVA: 0x7AC3B86C0
+        public void AppendFormattedCore(){} // RVA: 0x7A8051B10
+        public void TryGrow(){} // RVA: 0x7AC3B91C0
+        public void GrowCore(){} // RVA: 0x7AC3B9270
+        public void ClearState(){} // RVA: 0x7AC3B93D0
+        public void GetStringByteCount(){} // RVA: 0x7AC3B9470
+        public void .cctor(){} // RVA: 0x7AC3B9580
     }
 
 }

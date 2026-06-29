@@ -5,11 +5,11 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Rosstandart
 {
-    public class RosstandartObjectIdentifiers
+    public class RosstandartObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9770E40
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B15AAD30
     }
 
 }

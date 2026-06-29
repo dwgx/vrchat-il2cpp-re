@@ -5,26 +5,26 @@
 
 namespace ThirdParty.Other.Unity.MemoryProfiler
 {
-    public class DefaultMetadataCollect
+    public class DefaultMetadataCollect : MetadataCollect
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F0D400
-        public void CollectMetadata(){} // RVA: 0x6F0D560
+        public void .ctor(){} // RVA: 0x7AECEBA50
+        public void CollectMetadata(){} // RVA: 0x7AECEBBB0
     }
 
-    public class MetadataCollect
+    public class MetadataCollect : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F0D1A0
-        public void CollectMetadata(){} // RVA: 0x24B10
-        public void Dispose(){} // RVA: 0x6F0D2D0
+        public void .ctor(){} // RVA: 0x7AECEB7F0
+        public void CollectMetadata(){} // RVA: 0x7A7E18800
+        public void Dispose(){} // RVA: 0x7AECEB920
     }
 
-    public class MetadataInjector
+    public class MetadataInjector : Object
     {
         // ── Methods ──
-        public void PlayerInitMetadata(){} // RVA: 0x6F0CD60
-        public void InitializeMetadataCollection(){} // RVA: 0x6F0CF90
+        public void PlayerInitMetadata(){} // RVA: 0x7AECEB3B0
+        public void InitializeMetadataCollection(){} // RVA: 0x7AECEB5E0
     }
 
 }

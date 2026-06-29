@@ -1,74 +1,72 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Purchasing
 // Classes: 9
-// Methods: 20
+// Methods: 19
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class FakeAmazonExtensions
+    public class FakeAmazonExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FakeAppleConfiguration
+    public class FakeAppleConfiguration : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FakeAppleExtensions
+    public class FakeAppleExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FakeGooglePlayStoreConfiguration
+    public class FakeGooglePlayStoreConfiguration : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FakeGooglePlayStoreExtensions
+    public class FakeGooglePlayStoreExtensions : Object
     {
         // ── Methods ──
-        public void IsPurchasedProductDeferred(){} // RVA: 0x2DD320
-        public void .ctor(){} // RVA: 0x2DD310
+        public void IsPurchasedProductDeferred(){} // RVA: 0x7A80D7320
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FakeMicrosoftExtensions
+    public class FakeMicrosoftExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FakeStore
+    public class FakeStore : JSONStore
     {
-        public UnityEngine.Purchasing.Extension.IStoreCallback m_Biller; // 0x48
-
         // ── Methods ──
-        public void get_unavailableProductId(){} // RVA: 0x37B370
-        public void Initialize(){} // RVA: 0x723E850
-        public void RetrieveProducts(){} // RVA: 0x723EA40
-        public void StoreRetrieveProducts(){} // RVA: 0x723EC40
-        public void Purchase(){} // RVA: 0x723F460
-        public void FakePurchase(){} // RVA: 0x723F860
-        public void FinishTransaction(){} // RVA: 0x2DD310 | overloaded x2
-        public void StartUI(){}
-        public void .ctor(){} // RVA: 0x723FBB0
-        public void <>n__0(){} // RVA: 0x723FC80
+        public void get_unavailableProductId(){} // RVA: 0x7A8175DF0
+        public void Initialize(){} // RVA: 0x7AF01DEF0
+        public void RetrieveProducts(){} // RVA: 0x7AF01E0E0
+        public void StoreRetrieveProducts(){} // RVA: 0x7AF01E2E0
+        public void Purchase(){} // RVA: 0x7AF01EAD0
+        public void FakePurchase(){} // RVA: 0x7AF01EED0
+        public void FinishTransaction(){} // RVA: 0x7A80D7310
+        public void StartUI(){} // RVA: 0x7A7E04950
+        public void .ctor(){} // RVA: 0x7AF01F220
+        public void <>n__0(){} // RVA: 0x7AF01F2F0
     }
 
-    public class FakeTransactionHistoryExtensions
+    public class FakeTransactionHistoryExtensions : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FakeUDPExtension
+    public class FakeUDPExtension : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

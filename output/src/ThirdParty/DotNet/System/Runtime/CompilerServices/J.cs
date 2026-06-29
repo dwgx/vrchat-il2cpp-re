@@ -5,12 +5,12 @@
 
 namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
-    public class JitHelpers
+    public class JitHelpers : Object
     {
         // ── Methods ──
-        public void UnsafeCast(){} // RVA: 0x283FA0
-        public void UnsafeEnumCast(){} // RVA: 0x283FA0
-        public void UnsafeEnumCastLong(){} // RVA: 0x283FA0
+        public void UnsafeEnumCast(){} // RVA: 0x7AA4DFC60
+        public void UnsafeCast(){} // RVA: 0x7AA4DFC30
+        public void UnsafeEnumCastLong(){} // RVA: 0x7A8051B10
     }
 
 }

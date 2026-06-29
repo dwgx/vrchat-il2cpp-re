@@ -1,58 +1,55 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 4
-// Methods: 29
+// Methods: 27
 
 namespace ThirdParty.DotNet.System
 {
-    public class __ComObject
+    public class __ComObject : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F19440
+        public void .ctor(){} // RVA: 0x7ADD08090
     }
 
-    public class __DTString
+    public class __DTString : ValueType
     {
-        public System.ReadOnlySpan`1<char> Value; // 0x10
-        public int Index; // 0x20
-
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x5E904E0
-        public void .ctor(){} // RVA: 0x5E905B0 | overloaded x2
-        public void get_CompareInfo(){} // RVA: 0x2E07C0
-        public void GetNext(){} // RVA: 0x5E90840
-        public void AtEnd(){} // RVA: 0x5E908F0
-        public void Advance(){} // RVA: 0x5E90970
-        public void GetRegularToken(){} // RVA: 0x5E90A20
-        public void GetSeparatorToken(){} // RVA: 0x5E90D50
-        public void MatchSpecifiedWord(){} // RVA: 0x5E90F90
-        public void MatchSpecifiedWords(){} // RVA: 0x5E910E0
-        public void Match(){} // RVA: 0x5E91740 | overloaded x2
-        public void MatchLongestWords(){} // RVA: 0x5E91800
-        public void GetRepeatCount(){} // RVA: 0x5E918E0
-        public void GetNextDigit(){} // RVA: 0x5E919C0
-        public void GetChar(){} // RVA: 0x5E91A90
-        public void GetDigit(){} // RVA: 0x5E91AB0
-        public void SkipWhiteSpaces(){} // RVA: 0x5E91AE0
-        public void SkipWhiteSpaceCurrent(){} // RVA: 0x5E91BB0
-        public void TrimTail(){} // RVA: 0x5E91D00
-        public void RemoveTrailingInQuoteSpaces(){} // RVA: 0x5E91E40
-        public void RemoveLeadingInQuoteSpaces(){} // RVA: 0x5E92140
-        public void GetSubString(){} // RVA: 0x5E924B0
-        public void ConsumeSubString(){} // RVA: 0x5E92610
-        public void .cctor(){} // RVA: 0x5E926C0
+        public void get_Length(){} // RVA: 0x7ADC7F020
+        public void .ctor(){} // RVA: 0x7ADC7F0F0
+        public void get_CompareInfo(){} // RVA: 0x7A80DA7B0
+        public void GetNext(){} // RVA: 0x7ADC7F380
+        public void AtEnd(){} // RVA: 0x7ADC7F430
+        public void Advance(){} // RVA: 0x7ADC7F4B0
+        public void GetRegularToken(){} // RVA: 0x7ADC7F560
+        public void GetSeparatorToken(){} // RVA: 0x7ADC7F890
+        public void MatchSpecifiedWord(){} // RVA: 0x7ADC7FAD0
+        public void MatchSpecifiedWords(){} // RVA: 0x7ADC7FC20
+        public void Match(){} // RVA: 0x7ADC80280
+        public void MatchLongestWords(){} // RVA: 0x7ADC80340
+        public void GetRepeatCount(){} // RVA: 0x7ADC80440
+        public void GetNextDigit(){} // RVA: 0x7ADC80520
+        public void GetChar(){} // RVA: 0x7ADC805F0
+        public void GetDigit(){} // RVA: 0x7ADC80610
+        public void SkipWhiteSpaces(){} // RVA: 0x7ADC80640
+        public void SkipWhiteSpaceCurrent(){} // RVA: 0x7ADC80710
+        public void TrimTail(){} // RVA: 0x7ADC80860
+        public void RemoveTrailingInQuoteSpaces(){} // RVA: 0x7ADC809A0
+        public void RemoveLeadingInQuoteSpaces(){} // RVA: 0x7ADC80CA0
+        public void GetSubString(){} // RVA: 0x7ADC81010
+        public void ConsumeSubString(){} // RVA: 0x7ADC81170
+        public void .cctor(){} // RVA: 0x7ADC81220
     }
 
-    public class __Il2CppComDelegate
+    public class __Il2CppComDelegate : __Il2CppComObject
     {
         // ── Methods ──
-        public void Finalize(){} // RVA: 0x9B1A0E0
+        public void Finalize(){} // RVA: 0x7B195C0D0
     }
 
-    public class __Il2CppComObject
+    public class __Il2CppComObject : Object
     {
         // ── Methods ──
-        public void Finalize(){} // RVA: 0x9B1A0E0
+        public void Finalize(){} // RVA: 0x7B195C0D0
     }
 
 }

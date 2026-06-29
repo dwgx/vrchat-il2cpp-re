@@ -1,63 +1,52 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.SDK3.Network
 // Classes: 3
-// Methods: 41
+// Methods: 29
 
 namespace VRC.SDK3.Network
 {
-    public class Stats
+    public class Stats : Object
     {
-        public System.Func`1<float> _ThroughputPercentage;
-        public System.Func`1<float> _RoundTripVariance; // 0x8
-        public System.Func`1<int> _RoundTripTime; // 0x10
-        public System.Func`1<int> _BytesInMax; // 0x18
-        public System.Func`1<float> _BytesInAverage; // 0x20
-        public System.Func`1<int> _BytesOutMax; // 0x28
-        public System.Func`1<float> _BytesOutAverage; // 0x30
-        public System.Func`1<float> _HitchesPerNetworkTick; // 0x38
-        public System.Func`1<float> _Suffering; // 0x40
-        public System.Func`1<float> _TimeInRoom; // 0x48
-
         // ── Methods ──
-        public void get_ThroughputPercentage(){} // RVA: 0x9A17AF0
-        public void get_RoundTripVariance(){} // RVA: 0x9A17B50
-        public void get_RoundTripTime(){} // RVA: 0x9A17BB0
-        public void get_BytesInMax(){} // RVA: 0x9A17C10
-        public void get_BytesInAverage(){} // RVA: 0x9A17C70
-        public void get_BytesOutMax(){} // RVA: 0x9A17CD0
-        public void get_BytesOutAverage(){} // RVA: 0x9A17D30
-        public void get_HitchesPerNetworkTick(){} // RVA: 0x9A17D90
-        public void get_Suffering(){} // RVA: 0x9A17DF0
-        public void get_TimeInRoom(){} // RVA: 0x9A17E50
-        public void Group(){} // RVA: 0x9A18400 | overloaded x2
-        public void ReceiveInterval(){} // RVA: 0x9A18470 | overloaded x2
-        public void GroupDelay(){} // RVA: 0x9A184E0 | overloaded x2
-        public void FinalDelay(){} // RVA: 0x9A18550 | overloaded x2
-        public void Sleeping(){} // RVA: 0x9A185C0 | overloaded x2
-        public void Size(){} // RVA: 0x9A18630 | overloaded x2
-        public void BytesPerSecondAverage(){} // RVA: 0x9A186A0 | overloaded x2
-        public void TotalBytes(){} // RVA: 0x9A18710 | overloaded x2
-        public void UpdateInterval(){} // RVA: 0x9A18780 | overloaded x2
-        public void ReliableEventsInOutboundQueue(){} // RVA: 0x9A187F0 | overloaded x2
-        public void LastSendTime(){} // RVA: 0x9A18860 | overloaded x2
-        public void LastReceiveTime(){} // RVA: 0x9A188D0 | overloaded x2
+        public void get_ThroughputPercentage(){} // RVA: 0x7B1856E80
+        public void get_RoundTripVariance(){} // RVA: 0x7B1856EE0
+        public void get_RoundTripTime(){} // RVA: 0x7B1856F40
+        public void get_BytesInMax(){} // RVA: 0x7B1856FA0
+        public void get_BytesInAverage(){} // RVA: 0x7B1857000
+        public void get_BytesOutMax(){} // RVA: 0x7B1857060
+        public void get_BytesOutAverage(){} // RVA: 0x7B18570C0
+        public void get_HitchesPerNetworkTick(){} // RVA: 0x7B1857120
+        public void get_Suffering(){} // RVA: 0x7B1857180
+        public void get_TimeInRoom(){} // RVA: 0x7B18571E0
+        public void Group(){} // RVA: 0x7B1857790
+        public void ReceiveInterval(){} // RVA: 0x7B1857800
+        public void GroupDelay(){} // RVA: 0x7B1857870
+        public void FinalDelay(){} // RVA: 0x7B18578E0
+        public void Sleeping(){} // RVA: 0x7B1857950
+        public void Size(){} // RVA: 0x7B18579C0
+        public void BytesPerSecondAverage(){} // RVA: 0x7B1857A30
+        public void TotalBytes(){} // RVA: 0x7B1857AA0
+        public void UpdateInterval(){} // RVA: 0x7B1857B10
+        public void ReliableEventsInOutboundQueue(){} // RVA: 0x7B1857B80
+        public void LastSendTime(){} // RVA: 0x7B1857BF0
+        public void LastReceiveTime(){} // RVA: 0x7B1857C60
     }
 
-    public class VRCNetworkBehaviour
+    public class VRCNetworkBehaviour : VRCNetworkBehaviour
     {
         // ── Methods ──
-        public void NetworkConfigure(){} // RVA: 0x24A50
-        public void add_OnNetworkBehaviourAwake(){} // RVA: 0x9A17830
-        public void remove_OnNetworkBehaviourAwake(){} // RVA: 0x9A17960
-        public void Awake(){} // RVA: 0x9A17A90
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void NetworkConfigure(){} // RVA: 0x7A7E18770
+        public void add_OnNetworkBehaviourAwake(){} // RVA: 0x7B1856BC0
+        public void remove_OnNetworkBehaviourAwake(){} // RVA: 0x7B1856CF0
+        public void Awake(){} // RVA: 0x7B1856E20
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class VRCUdonSyncTypeConverter
+    public class VRCUdonSyncTypeConverter : Object
     {
         // ── Methods ──
-        public void TypeToUdonType(){} // RVA: 0x9A18940
-        public void UdonTypeToType(){} // RVA: 0x9A196E0
+        public void TypeToUdonType(){} // RVA: 0x7B1857CD0
+        public void UdonTypeToType(){} // RVA: 0x7B1858A70
     }
 
 }

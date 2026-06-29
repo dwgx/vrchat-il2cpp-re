@@ -5,26 +5,26 @@
 
 namespace ThirdParty.Other.Internal.Cryptography
 {
-    public class Helpers
+    public class Helpers : Object
     {
         // ── Methods ──
-        public void CloneByteArray(){} // RVA: 0x5C23970
-        public void GenerateRandom(){} // RVA: 0x5C239F0
-        public void WriteInt(){} // RVA: 0x5C23AE0
-        public void ToHexArrayUpper(){} // RVA: 0x5C23B50
-        public void ToHexStringUpper(){} // RVA: 0x5C23C70
-        public void NibbleToHex(){} // RVA: 0x5C23C90
+        public void CloneByteArray(){} // RVA: 0x7ADA11890
+        public void GenerateRandom(){} // RVA: 0x7ADA11910
+        public void WriteInt(){} // RVA: 0x7ADA11A00
+        public void ToHexArrayUpper(){} // RVA: 0x7ADA11A70
+        public void ToHexStringUpper(){} // RVA: 0x7ADA11B60
+        public void NibbleToHex(){} // RVA: 0x7ADA11B80
     }
 
-    public class OidLookup
+    public class OidLookup : Object
     {
         // ── Methods ──
-        public void ToFriendlyName(){} // RVA: 0x6BE8020
-        public void ToOid(){} // RVA: 0x6BE8300
-        public void ShouldUseCache(){} // RVA: 0x3C2850
-        public void NativeOidToFriendlyName(){} // RVA: 0x6BE85B0
-        public void NativeFriendlyNameToOid(){} // RVA: 0x6BE8B50
-        public void .cctor(){} // RVA: 0x6BE90F0
+        public void ToFriendlyName(){} // RVA: 0x7AE9D7000
+        public void ToOid(){} // RVA: 0x7AE9D72E0
+        public void ShouldUseCache(){} // RVA: 0x7A81BD750
+        public void NativeOidToFriendlyName(){} // RVA: 0x7AE9D7590
+        public void NativeFriendlyNameToOid(){} // RVA: 0x7AE9D7B30
+        public void .cctor(){} // RVA: 0x7AE9D80D0
     }
 
 }

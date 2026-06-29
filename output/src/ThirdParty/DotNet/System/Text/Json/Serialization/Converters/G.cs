@@ -5,24 +5,24 @@
 
 namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
-    public class GuidConverter
+    public class GuidConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x6365E20
-        public void Write(){} // RVA: 0x6365EC0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x6365F30
-        public void WriteAsPropertyNameCore(){} // RVA: 0x6365F90
-        public void .ctor(){} // RVA: 0x6365FC0
+        public void Read(){} // RVA: 0x7AE152840
+        public void Write(){} // RVA: 0x7AE1528E0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE152950
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE1529B0
+        public void .ctor(){} // RVA: 0x7AE1529E0
     }
 
-    public class GuidConverter
+    public class GuidConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x68E3E50
-        public void Write(){} // RVA: 0x68E3EB0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E3EE0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E3F30
-        public void .ctor(){} // RVA: 0x68E3F60
+        public void Read(){} // RVA: 0x7AE6D27D0
+        public void Write(){} // RVA: 0x7AE6D2830
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D28A0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D28F0
+        public void .ctor(){} // RVA: 0x7AE6D2920
     }
 
 }

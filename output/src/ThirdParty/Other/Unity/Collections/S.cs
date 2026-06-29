@@ -5,11 +5,11 @@
 
 namespace ThirdParty.Other.Unity.Collections
 {
-    public class Spinner
+    public class Spinner : ValueType
     {
         // ── Methods ──
-        public void Acquire(){} // RVA: 0x6D75E80
-        public void Release(){} // RVA: 0x6D75EA0
+        public void Acquire(){} // RVA: 0x7A7EA33E0
+        public void Release(){} // RVA: 0x7A7EA3400
     }
 
 }

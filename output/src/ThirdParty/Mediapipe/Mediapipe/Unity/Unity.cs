@@ -1,1480 +1,1327 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe.Unity
 // Classes: 83
-// Methods: 997
+// Methods: 904
 
 namespace ThirdParty.Mediapipe.Mediapipe.Unity
 {
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public T annotation;
-        public bool isStale;
-        public UnityEngine.Vector2Int <imageSize>k__BackingField;
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xDBE0
-        public void set_isMirrored(){} // RVA: 0x25130
-        public void get_rotationAngle(){} // RVA: 0xD840
-        public void set_rotationAngle(){} // RVA: 0x24FA0
-        public void get_imageSize(){}
-        public void set_imageSize(){}
-        public void Start(){} // RVA: 0x24A50
-        public void LateUpdate(){} // RVA: 0x24A50
-        public void OnDestroy(){} // RVA: 0x24A50
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x24A50
+        public void get_isMirrored(){} // RVA: 0x7A7E01900
+        public void set_isMirrored(){} // RVA: 0x7A7E18C30
+        public void get_rotationAngle(){} // RVA: 0x7A7E00710
+        public void set_rotationAngle(){} // RVA: 0x7A7E189D0
+        public void get_imageSize(){} // RVA: 0x7A7E00680
+        public void set_imageSize(){} // RVA: 0x7A7E188D0
+        public void Start(){} // RVA: 0x7A7E18770
+        public void LateUpdate(){} // RVA: 0x7A7E18770
+        public void OnDestroy(){} // RVA: 0x7A7E18770
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.RectangleAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.DetectionAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.DetectionListAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.MultiFaceLandmarkListAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.RectangleListAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.PoseLandmarkListAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.PointListAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.MultiHandLandmarkListAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.HolisticLandmarkListAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.MultiPoseLandmarkListWithMaskAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AnnotationController`1
+    public class AnnotationController`1 : MonoBehaviour
     {
-        public Mediapipe.Unity.MaskAnnotation annotation; // 0x20
-        public bool isStale; // 0x28
-        public UnityEngine.Vector2Int <imageSize>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_isMirrored(){} // RVA: 0xB1C8B0
-        public void set_isMirrored(){} // RVA: 0x38EE2C0
-        public void get_rotationAngle(){} // RVA: 0x38EE330
-        public void set_rotationAngle(){} // RVA: 0x38EE360
-        public void get_imageSize(){} // RVA: 0x38EE3C0
-        public void set_imageSize(){} // RVA: 0x38EE3D0
-        public void Start(){} // RVA: 0x38EE3E0
-        public void LateUpdate(){} // RVA: 0x38EE780
-        public void OnDestroy(){} // RVA: 0x38EE7A0
-        public void SyncNow(){} // RVA: 0x24A50
-        public void UpdateCurrentTarget(){} // RVA: 0x283FA0
-        public void IsTargetChanged(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_isMirrored(){} // RVA: 0x7A88B8F30
+        public void set_isMirrored(){} // RVA: 0x7AB6D67D0
+        public void get_rotationAngle(){} // RVA: 0x7AB6D6840
+        public void set_rotationAngle(){} // RVA: 0x7AB6D6870
+        public void get_imageSize(){} // RVA: 0x7AB6D68D0
+        public void set_imageSize(){} // RVA: 0x7AB6D68E0
+        public void Start(){} // RVA: 0x7AB6D68F0
+        public void LateUpdate(){} // RVA: 0x7AB6D6C90
+        public void OnDestroy(){} // RVA: 0x7AB6D6CB0
+        public void SyncNow(){} // RVA: 0x7A7E18770
+        public void UpdateCurrentTarget(){} // RVA: 0x7A8051B10
+        public void IsTargetChanged(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Arrow
+    public class Arrow : MonoBehaviour
     {
-        public UnityEngine.Color _color; // 0x20
-        public UnityEngine.Vector3 _direction; // 0x30
-        public float _magnitude; // 0x3C
-        public float _capScale; // 0x40
-        public float _lineWidth; // 0x44
-
         // ── Methods ──
-        public void Start(){} // RVA: 0x5B332E0
-        public void get_cone(){} // RVA: 0x5B33360
-        public void get_lineRenderer(){} // RVA: 0x5B335A0
-        public void get_direction(){} // RVA: 0x1B414E0
-        public void set_direction(){} // RVA: 0x5B33630
-        public void get_magnitude(){} // RVA: 0x9FC6D0
-        public void set_magnitude(){} // RVA: 0x5B33680
-        public void get_color(){} // RVA: 0x1EFB630
-        public void set_color(){} // RVA: 0x5B336F0
-        public void SetVector(){} // RVA: 0x5B33720
-        public void SetCapScale(){} // RVA: 0x5B33860
-        public void SetLineWidth(){} // RVA: 0x5B33870
-        public void ApplyColor(){} // RVA: 0x5B33880
-        public void ApplyDirection(){} // RVA: 0x5B33A20
-        public void ApplyMagnitude(){} // RVA: 0x5B33C00
-        public void ApplyCapScale(){} // RVA: 0x5B33F60
-        public void ApplyLineWidth(){} // RVA: 0x5B34040
-        public void .ctor(){} // RVA: 0x5B34120
+        public void Start(){} // RVA: 0x7AD9208A0
+        public void get_cone(){} // RVA: 0x7AD920920
+        public void get_lineRenderer(){} // RVA: 0x7AD920B60
+        public void get_direction(){} // RVA: 0x7A98DA220
+        public void set_direction(){} // RVA: 0x7AD920BF0
+        public void get_magnitude(){} // RVA: 0x7A87B9920
+        public void set_magnitude(){} // RVA: 0x7AD920C40
+        public void get_color(){} // RVA: 0x7A9D01C90
+        public void set_color(){} // RVA: 0x7AD920CB0
+        public void SetVector(){} // RVA: 0x7AD920CE0
+        public void SetCapScale(){} // RVA: 0x7AD920E20
+        public void SetLineWidth(){} // RVA: 0x7AD920E30
+        public void ApplyColor(){} // RVA: 0x7AD920E40
+        public void ApplyDirection(){} // RVA: 0x7AD920FE0
+        public void ApplyMagnitude(){} // RVA: 0x7AD9211C0
+        public void ApplyCapScale(){} // RVA: 0x7AD921520
+        public void ApplyLineWidth(){} // RVA: 0x7AD921600
+        public void .ctor(){} // RVA: 0x7AD9216E0
     }
 
-    public class AssetBundleResourceManager
+    public class AssetBundleResourceManager : ResourceManager
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B517E0
-        public void PrepareAssetAsync(){} // RVA: 0x5B51AF0
-        public void PathToResourceAsFile(){} // RVA: 0x5B51C00
-        public void GetResourceContents(){} // RVA: 0x5B51C90
-        public void GetCachePathFor(){} // RVA: 0x5B51D60
-        public void .cctor(){} // RVA: 0x5B51E00
+        public void .ctor(){} // RVA: 0x7AD93F360
+        public void PrepareAssetAsync(){} // RVA: 0x7AD93F670
+        public void PathToResourceAsFile(){} // RVA: 0x7AD93F780
+        public void GetResourceContents(){} // RVA: 0x7AD93F810
+        public void GetCachePathFor(){} // RVA: 0x7AD93F8E0
+        public void .cctor(){} // RVA: 0x7AD93F980
+        public void _TAG(){} // RVA: 0x7B3FB4428
     }
 
-    public class CircleAnnotation
+    public class CircleAnnotation : HierarchicalAnnotation
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x5B341D0
-        public void OnDisable(){} // RVA: 0x5B34210
-        public void SetColor(){} // RVA: 0x5B34310
-        public void SetLineWidth(){} // RVA: 0x5B34340
-        public void Draw(){} // RVA: 0x5B34350
-        public void ApplyColor(){} // RVA: 0x5B34730
-        public void ApplyLineWidth(){} // RVA: 0x5B348D0
-        public void .ctor(){} // RVA: 0x5B349E0
+        public void OnEnable(){} // RVA: 0x7AD921790
+        public void OnDisable(){} // RVA: 0x7AD9217D0
+        public void SetColor(){} // RVA: 0x7AD9218D0
+        public void SetLineWidth(){} // RVA: 0x7AD921900
+        public void Draw(){} // RVA: 0x7AD921910
+        public void ApplyColor(){} // RVA: 0x7AD921D00
+        public void ApplyLineWidth(){} // RVA: 0x7AD921EA0
+        public void .ctor(){} // RVA: 0x7AD921FB0
     }
 
-    public class Connection
+    public class Connection : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void start(){} // RVA: 0x7B3F58C38
     }
 
-    public class ConnectionAnnotation
+    public class ConnectionAnnotation : LineAnnotation
     {
-        public Mediapipe.Unity.Connection _currentTarget; // 0x50
-
         // ── Methods ──
-        public void get_isEmpty(){} // RVA: 0x5B34A40
-        public void Draw(){} // RVA: 0x5B34A50
-        public void Redraw(){} // RVA: 0x5B34C10
-        public void ActivateFor(){} // RVA: 0x5B34C20
-        public void .ctor(){} // RVA: 0x5B349E0
+        public void get_isEmpty(){} // RVA: 0x7AD922010
+        public void Draw(){} // RVA: 0x7AD922020
+        public void Redraw(){} // RVA: 0x7AD9221E0
+        public void ActivateFor(){} // RVA: 0x7AD9221F0
+        public void .ctor(){} // RVA: 0x7AD921FB0
     }
 
-    public class ConnectionListAnnotation
+    public class ConnectionListAnnotation : ListAnnotation`1
     {
         // ── Methods ──
-        public void Fill(){} // RVA: 0x5B34CA0
-        public void SetColor(){} // RVA: 0x5B34FD0
-        public void SetLineWidth(){} // RVA: 0x5B35000
-        public void Draw(){} // RVA: 0x5B35010
-        public void Redraw(){} // RVA: 0x5B351C0
-        public void InstantiateChild(){} // RVA: 0x5B353E0
-        public void ApplyColor(){} // RVA: 0x5B35480
-        public void ApplyLineWidth(){} // RVA: 0x5B356C0
-        public void .ctor(){} // RVA: 0x5B358E0
+        public void Fill(){} // RVA: 0x7AD922270
+        public void SetColor(){} // RVA: 0x7AD9225C0
+        public void SetLineWidth(){} // RVA: 0x7AD9225F0
+        public void Draw(){} // RVA: 0x7AD922600
+        public void Redraw(){} // RVA: 0x7AD9227C0
+        public void InstantiateChild(){} // RVA: 0x7AD922A00
+        public void ApplyColor(){} // RVA: 0x7AD922AA0
+        public void ApplyLineWidth(){} // RVA: 0x7AD922D00
+        public void .ctor(){} // RVA: 0x7AD922F40
     }
 
-    public class DetectionAnnotation
+    public class DetectionAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.RectangleAnnotation _boundingBoxAnnotation; // 0x30
-        public Mediapipe.Unity.PointListAnnotation _keypointsAnnotation; // 0x38
-
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x5B35C20
-        public void set_rotationAngle(){} // RVA: 0x5B35CB0
-        public void SetLineWidth(){} // RVA: 0x5B35D30
-        public void SetKeypointRadius(){} // RVA: 0x5B35D60
-        public void Draw(){} // RVA: 0x5B36370 | overloaded x2
-        public void GetColor(){} // RVA: 0x5B36A60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void set_isMirrored(){} // RVA: 0x7AD923280
+        public void set_rotationAngle(){} // RVA: 0x7AD923310
+        public void SetLineWidth(){} // RVA: 0x7AD923390
+        public void SetKeypointRadius(){} // RVA: 0x7AD9233C0
+        public void Draw(){} // RVA: 0x7AD9239E0
+        public void GetColor(){} // RVA: 0x7AD9240E0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class DetectionAnnotationController
+    public class DetectionAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B36B00
-        public void DrawLater(){} // RVA: 0x5B36B70
-        public void SyncNow(){} // RVA: 0x5B36BD0
-        public void .ctor(){} // RVA: 0x5B36C00
+        public void DrawNow(){} // RVA: 0x7AD924180
+        public void DrawLater(){} // RVA: 0x7AD9241F0
+        public void SyncNow(){} // RVA: 0x7AD924250
+        public void .ctor(){} // RVA: 0x7AD924280
     }
 
-    public class DetectionListAnnotation
+    public class DetectionListAnnotation : ListAnnotation`1
     {
         // ── Methods ──
-        public void SetLineWidth(){} // RVA: 0x5B36C70
-        public void SetKeypointRadius(){} // RVA: 0x5B36C80
-        public void Draw(){} // RVA: 0x5B36FE0 | overloaded x4
-        public void InstantiateChild(){} // RVA: 0x5B37010
-        public void ApplyLineWidth(){} // RVA: 0x5B370B0
-        public void ApplyKeypointRadius(){} // RVA: 0x5B372E0
-        public void .ctor(){} // RVA: 0x5B37510
+        public void SetLineWidth(){} // RVA: 0x7AD9242F0
+        public void SetKeypointRadius(){} // RVA: 0x7AD924300
+        public void Draw(){} // RVA: 0x7AD924670
+        public void InstantiateChild(){} // RVA: 0x7AD9246A0
+        public void ApplyLineWidth(){} // RVA: 0x7AD924740
+        public void ApplyKeypointRadius(){} // RVA: 0x7AD924990
+        public void .ctor(){} // RVA: 0x7AD924BE0
     }
 
-    public class DetectionListAnnotationController
+    public class DetectionListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B37790 | overloaded x2
-        public void DrawLater(){} // RVA: 0x5B37820 | overloaded x2
-        public void SyncNow(){} // RVA: 0x5B37890
-        public void .ctor(){} // RVA: 0x5B378C0
+        public void DrawNow(){} // RVA: 0x7AD924E60
+        public void DrawLater(){} // RVA: 0x7AD924EF0
+        public void SyncNow(){} // RVA: 0x7AD924F60
+        public void .ctor(){} // RVA: 0x7AD924F90
     }
 
-    public class DetectionResultAnnotationController
+    public class DetectionResultAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B36B00
-        public void DrawLater(){} // RVA: 0x5B37930
-        public void SyncNow(){} // RVA: 0x5B379E0
-        public void .ctor(){} // RVA: 0x5B37B40
+        public void DrawNow(){} // RVA: 0x7AD924180
+        public void DrawLater(){} // RVA: 0x7AD925000
+        public void SyncNow(){} // RVA: 0x7AD9250B0
+        public void .ctor(){} // RVA: 0x7AD925210
     }
 
-    public class FaceLandmarkListAnnotation
+    public class FaceLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
-        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
-
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x5B37E30
-        public void set_rotationAngle(){} // RVA: 0x5B37EA0
-        public void Start(){} // RVA: 0x5B37F00
-        public void SetLandmarkColor(){} // RVA: 0x5B37F70
-        public void SetLandmarkRadius(){} // RVA: 0x5B37FB0
-        public void SetConnectionColor(){} // RVA: 0x5B37FE0
-        public void SetConnectionWidth(){} // RVA: 0x5B38020
-        public void Draw(){} // RVA: 0x5B38230 | overloaded x4
-        public void .ctor(){} // RVA: 0x5B382C0
+        public void set_isMirrored(){} // RVA: 0x7AD925500
+        public void set_rotationAngle(){} // RVA: 0x7AD925570
+        public void Start(){} // RVA: 0x7AD9255D0
+        public void SetLandmarkColor(){} // RVA: 0x7AD925640
+        public void SetLandmarkRadius(){} // RVA: 0x7AD925680
+        public void SetConnectionColor(){} // RVA: 0x7AD9256B0
+        public void SetConnectionWidth(){} // RVA: 0x7AD9256F0
+        public void Draw(){} // RVA: 0x7AD925920
+        public void .ctor(){} // RVA: 0x7AD9259C0
     }
 
-    public class FaceLandmarkListAnnotationController
+    public class FaceLandmarkListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B39B70 | overloaded x2
-        public void DrawLater(){} // RVA: 0x5B39C60 | overloaded x2
-        public void SyncNow(){} // RVA: 0x5B39CD0
-        public void .ctor(){} // RVA: 0x5B39D10
+        public void DrawNow(){} // RVA: 0x7AD927270
+        public void DrawLater(){} // RVA: 0x7AD927360
+        public void SyncNow(){} // RVA: 0x7AD9273D0
+        public void .ctor(){} // RVA: 0x7AD927410
     }
 
-    public class FaceLandmarkListWithIrisAnnotation
+    public class FaceLandmarkListWithIrisAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.FaceLandmarkListAnnotation _faceLandmarkListAnnotation; // 0x30
-        public Mediapipe.Unity.IrisLandmarkListAnnotation _leftIrisLandmarkListAnnotation; // 0x38
-
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x5B35C20
-        public void set_rotationAngle(){} // RVA: 0x5B35CB0
-        public void SetFaceLandmarkColor(){} // RVA: 0x5B39D90
-        public void SetIrisLandmarkColor(){} // RVA: 0x5B39DD0
-        public void SetFaceLandmarkRadius(){} // RVA: 0x5B39E50
-        public void SetIrisLandmarkRadius(){} // RVA: 0x5B39E80
-        public void SetFaceConnectionColor(){} // RVA: 0x5B39EF0
-        public void SetFaceConnectionWidth(){} // RVA: 0x5B39F30
-        public void SetIrisCircleColor(){} // RVA: 0x5B39F60
-        public void SetIrisCircleWidth(){} // RVA: 0x5B39FE0
-        public void Draw(){} // RVA: 0x5B3A1C0 | overloaded x4
-        public void DrawFaceLandmarkList(){} // RVA: 0x5B3A3B0 | overloaded x2
-        public void DrawLeftIrisLandmarkList(){} // RVA: 0x5B3A490 | overloaded x2
-        public void DrawRightIrisLandmarkList(){} // RVA: 0x5B3A4F0 | overloaded x2
-        public void PartitionLandmarkList(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void set_isMirrored(){} // RVA: 0x7AD923280
+        public void set_rotationAngle(){} // RVA: 0x7AD923310
+        public void SetFaceLandmarkColor(){} // RVA: 0x7AD927490
+        public void SetIrisLandmarkColor(){} // RVA: 0x7AD9274D0
+        public void SetFaceLandmarkRadius(){} // RVA: 0x7AD927550
+        public void SetIrisLandmarkRadius(){} // RVA: 0x7AD927580
+        public void SetFaceConnectionColor(){} // RVA: 0x7AD9275F0
+        public void SetFaceConnectionWidth(){} // RVA: 0x7AD927630
+        public void SetIrisCircleColor(){} // RVA: 0x7AD927660
+        public void SetIrisCircleWidth(){} // RVA: 0x7AD9276E0
+        public void Draw(){} // RVA: 0x7AD9278C0
+        public void DrawFaceLandmarkList(){} // RVA: 0x7AD927AB0
+        public void DrawLeftIrisLandmarkList(){} // RVA: 0x7AD927B90
+        public void DrawRightIrisLandmarkList(){} // RVA: 0x7AD927BF0
+        public void PartitionLandmarkList(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class FaceLandmarkerResultAnnotationController
+    public class FaceLandmarkerResultAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B37BB0
-        public void DrawLater(){} // RVA: 0x5B37BF0
-        public void UpdateCurrentTarget(){} // RVA: 0x5B37C50
-        public void SyncNow(){} // RVA: 0x5B37CA0
-        public void .ctor(){} // RVA: 0x5B37DC0
+        public void DrawNow(){} // RVA: 0x7AD925280
+        public void DrawLater(){} // RVA: 0x7AD9252C0
+        public void UpdateCurrentTarget(){} // RVA: 0x7AD925320
+        public void SyncNow(){} // RVA: 0x7AD925370
+        public void .ctor(){} // RVA: 0x7AD925490
     }
 
-    public class GpuManager
+    public class GpuManager : Object
     {
-        public object _SetupLock;
-        public UIntPtr _CurrentContext; // 0x8
-        public bool _IsContextInitialized; // 0x10
-
         // ── Methods ──
-        public void get_GpuResources(){} // RVA: 0x5B50A10
-        public void set_GpuResources(){} // RVA: 0x5B50A70
-        public void get_GlCalculatorHelper(){} // RVA: 0x5B50B30
-        public void set_GlCalculatorHelper(){} // RVA: 0x5B50B90
-        public void get_IsInitialized(){} // RVA: 0x5B50C50
-        public void set_IsInitialized(){} // RVA: 0x5B50CB0
-        public void Initialize(){} // RVA: 0x5B50D10
-        public void Shutdown(){} // RVA: 0x5B50D50
-        public void .cctor(){} // RVA: 0x5B50F00
+        public void get_GpuResources(){} // RVA: 0x7AD93E590
+        public void set_GpuResources(){} // RVA: 0x7AD93E5F0
+        public void get_GlCalculatorHelper(){} // RVA: 0x7AD93E6B0
+        public void set_GlCalculatorHelper(){} // RVA: 0x7AD93E710
+        public void get_IsInitialized(){} // RVA: 0x7AD93E7D0
+        public void set_IsInitialized(){} // RVA: 0x7AD93E830
+        public void Initialize(){} // RVA: 0x7AD93E890
+        public void Shutdown(){} // RVA: 0x7AD93E8D0
+        public void .cctor(){} // RVA: 0x7AD93EA80
     }
 
-    public class HandLandmarkListAnnotation
+    public class HandLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
-        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
-        public UnityEngine.Color _leftLandmarkColor; // 0x40
-
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x5B37E30
-        public void set_rotationAngle(){} // RVA: 0x5B37EA0
-        public void get_Item(){} // RVA: 0x5B3A7C0
-        public void Start(){} // RVA: 0x5B3A860
-        public void SetLeftLandmarkColor(){} // RVA: 0x4469B20
-        public void SetRightLandmarkColor(){} // RVA: 0x5B3A8D0
-        public void SetLandmarkRadius(){} // RVA: 0x5B37FB0
-        public void SetConnectionColor(){} // RVA: 0x5B37FE0
-        public void SetConnectionWidth(){} // RVA: 0x5B38020
-        public void SetHandedness(){} // RVA: 0x5B3AC70 | overloaded x5
-        public void Draw(){} // RVA: 0x5B3AE60 | overloaded x4
-        public void .ctor(){} // RVA: 0x5B3AEF0
+        public void set_isMirrored(){} // RVA: 0x7AD925500
+        public void set_rotationAngle(){} // RVA: 0x7AD925570
+        public void get_Item(){} // RVA: 0x7AD927EC0
+        public void Start(){} // RVA: 0x7AD927F60
+        public void SetLeftLandmarkColor(){} // RVA: 0x7AC257C80
+        public void SetRightLandmarkColor(){} // RVA: 0x7AD927FD0
+        public void SetLandmarkRadius(){} // RVA: 0x7AD925680
+        public void SetConnectionColor(){} // RVA: 0x7AD9256B0
+        public void SetConnectionWidth(){} // RVA: 0x7AD9256F0
+        public void SetHandedness(){} // RVA: 0x7AD928370
+        public void Draw(){} // RVA: 0x7AD928580
+        public void .ctor(){} // RVA: 0x7AD928620
     }
 
-    public class HandLandmarkerResultAnnotationController
+    public class HandLandmarkerResultAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B3A520
-        public void DrawLater(){} // RVA: 0x5B3A560
-        public void UpdateCurrentTarget(){} // RVA: 0x5B3A5C0
-        public void SyncNow(){} // RVA: 0x5B3A610
-        public void .ctor(){} // RVA: 0x5B3A750
+        public void DrawNow(){} // RVA: 0x7AD927C20
+        public void DrawLater(){} // RVA: 0x7AD927C60
+        public void UpdateCurrentTarget(){} // RVA: 0x7AD927CC0
+        public void SyncNow(){} // RVA: 0x7AD927D10
+        public void .ctor(){} // RVA: 0x7AD927E50
     }
 
-    public class HierarchicalAnnotation
+    public class HierarchicalAnnotation : MonoBehaviour
     {
-        public Mediapipe.Unity.IHierachicalAnnotation _root; // 0x20
-        public bool <isMirrored>k__BackingField; // 0x28
-        public 0x65931D60 <rotationAngle>k__BackingField; // 0x2C
-
         // ── Methods ──
-        public void get_root(){} // RVA: 0x5B3B890
-        public void set_root(){} // RVA: 0x30B0D0
-        public void GetAnnotationLayer(){} // RVA: 0x5B3BC30
-        public void GetScreenRect(){} // RVA: 0x5B3BD50
-        public void get_isActive(){} // RVA: 0x5B3BEE0
-        public void get_isActiveInHierarchy(){} // RVA: 0x5B3BF80
-        public void SetActive(){} // RVA: 0x5B3C020
-        public void ActivateFor(){} // RVA: 0x283FA0
-        public void get_isMirrored(){} // RVA: 0x6E8A80
-        public void set_isMirrored(){} // RVA: 0x6E8B80
-        public void get_rotationAngle(){} // RVA: 0x1209F00
-        public void set_rotationAngle(){} // RVA: 0x1AFCF60
-        public void InstantiateChild(){} // RVA: 0x283FA0 | overloaded x2
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Mediapipe.Unity.IHierachicalAnnotation.get_transform(){} // RVA: 0x891B00
+        public void get_root(){} // RVA: 0x7AD928FC0
+        public void set_root(){} // RVA: 0x7A81052D0
+        public void GetAnnotationLayer(){} // RVA: 0x7AD929360
+        public void GetScreenRect(){} // RVA: 0x7AD929480
+        public void get_isActive(){} // RVA: 0x7AD929610
+        public void get_isActiveInHierarchy(){} // RVA: 0x7AD9296B0
+        public void SetActive(){} // RVA: 0x7AD929750
+        public void ActivateFor(){} // RVA: 0x7A8051B10
+        public void get_isMirrored(){} // RVA: 0x7A84A5BD0
+        public void set_isMirrored(){} // RVA: 0x7A84A5CD0
+        public void get_rotationAngle(){} // RVA: 0x7A8F9ACE0
+        public void set_rotationAngle(){} // RVA: 0x7A98B6D80
+        public void InstantiateChild(){} // RVA: 0x7AA4B74F0
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void Mediapipe.Unity.IHierachicalAnnotation.get_transform(){} // RVA: 0x7A864E8E0
     }
 
-    public class HolisticLandmarkListAnnotation
+    public class HolisticLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation _faceLandmarkListAnnotation; // 0x30
-        public Mediapipe.Unity.PoseLandmarkListAnnotation _poseLandmarkListAnnotation; // 0x38
-
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x5B3C180
-        public void set_rotationAngle(){} // RVA: 0x5B3C250
-        public void Start(){} // RVA: 0x5B3C310
-        public void Draw(){} // RVA: 0x5B3C5F0 | overloaded x2
-        public void RedrawWristJoints(){} // RVA: 0x5B3C660
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void set_isMirrored(){} // RVA: 0x7AD9298B0
+        public void set_rotationAngle(){} // RVA: 0x7AD929980
+        public void Start(){} // RVA: 0x7AD929A40
+        public void Draw(){} // RVA: 0x7AD929D10
+        public void RedrawWristJoints(){} // RVA: 0x7AD929D80
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class HolisticLandmarkListAnnotationController
+    public class HolisticLandmarkListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B3CAB0 | overloaded x2
-        public void DrawFaceLandmarkListLater(){} // RVA: 0x5B3CCE0 | overloaded x2
-        public void DrawPoseLandmarkListLater(){} // RVA: 0x5B3CDB0 | overloaded x2
-        public void DrawLeftHandLandmarkListLater(){} // RVA: 0x5B3CE80 | overloaded x2
-        public void DrawRightHandLandmarkListLater(){} // RVA: 0x5B3CF50 | overloaded x2
-        public void SyncNow(){} // RVA: 0x5B3CFC0
-        public void .ctor(){} // RVA: 0x5B3D020
+        public void DrawNow(){} // RVA: 0x7AD92A1D0
+        public void DrawFaceLandmarkListLater(){} // RVA: 0x7AD92A400
+        public void DrawPoseLandmarkListLater(){} // RVA: 0x7AD92A4D0
+        public void DrawLeftHandLandmarkListLater(){} // RVA: 0x7AD92A5A0
+        public void DrawRightHandLandmarkListLater(){} // RVA: 0x7AD92A670
+        public void SyncNow(){} // RVA: 0x7AD92A6E0
+        public void .ctor(){} // RVA: 0x7AD92A740
     }
 
     public class IHierachicalAnnotation
     {
         // ── Methods ──
-        public void get_root(){} // RVA: 0xCD60
-        public void get_transform(){} // RVA: 0xCD60
+        public void get_root(){} // RVA: 0x7A7E00680
+        public void get_transform(){} // RVA: 0x7A7E00680
     }
 
-    public class ImageFrameExtension
+    public class ImageFrameExtension : Object
     {
         // ── Methods ──
-        public void TryReadChannelNormalized(){} // RVA: 0x5B4FFD0 | overloaded x3
-        public void TryReadChannel(){} // RVA: 0x283FA0 | overloaded x2
-        public void ByteNormalizer(){} // RVA: 0x5B509B0
-        public void UshortNormalizer(){} // RVA: 0x5B509D0
-        public void IsChannelNumberValid(){} // RVA: 0x5B509F0
+        public void TryReadChannelNormalized(){} // RVA: 0x7AD93DB20
+        public void TryReadChannel(){} // RVA: 0x7A8051B10
+        public void ByteNormalizer(){} // RVA: 0x7AD93E530
+        public void UshortNormalizer(){} // RVA: 0x7AD93E550
+        public void IsChannelNumberValid(){} // RVA: 0x7AD93E570
     }
 
-    public class IrisLandmarkListAnnotation
+    public class IrisLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
-        public Mediapipe.Unity.CircleAnnotation _circleAnnotation; // 0x38
-
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x5B37E30
-        public void set_rotationAngle(){} // RVA: 0x5B37EA0
-        public void SetLandmarkColor(){} // RVA: 0x5B37F70
-        public void SetLandmarkRadius(){} // RVA: 0x5B37FB0
-        public void SetCircleColor(){} // RVA: 0x5B3D0A0
-        public void SetCircleWidth(){} // RVA: 0x5B3D0E0
-        public void Draw(){} // RVA: 0x5B3D650 | overloaded x4
-        public void CalculateRadius(){} // RVA: 0x5B3D770 | overloaded x2
-        public void CalculateDistance(){} // RVA: 0x5B3DD60 | overloaded x2
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void set_isMirrored(){} // RVA: 0x7AD925500
+        public void set_rotationAngle(){} // RVA: 0x7AD925570
+        public void SetLandmarkColor(){} // RVA: 0x7AD925640
+        public void SetLandmarkRadius(){} // RVA: 0x7AD925680
+        public void SetCircleColor(){} // RVA: 0x7AD92A7C0
+        public void SetCircleWidth(){} // RVA: 0x7AD92A800
+        public void Draw(){} // RVA: 0x7AD92ADB0
+        public void CalculateRadius(){} // RVA: 0x7AD92AED0
+        public void CalculateDistance(){} // RVA: 0x7AD92B3E0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class LabelAnnotation
+    public class LabelAnnotation : HierarchicalAnnotation
     {
         // ── Methods ──
-        public void Draw(){} // RVA: 0x5B3DF70
-        public void GetFontSize(){} // RVA: 0x5B3E660
-        public void DecideTextColor(){} // RVA: 0x5B3E6B0
-        public void CalcRelativeLuminance(){} // RVA: 0x5B3E7B0
-        public void CalcContrastRatio(){} // RVA: 0x5B3E8B0
-        public void ActivateFor(){} // RVA: 0x5B3E920
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Draw(){} // RVA: 0x7AD92B590
+        public void GetFontSize(){} // RVA: 0x7AD92BC90
+        public void DecideTextColor(){} // RVA: 0x7AD92BCE0
+        public void CalcRelativeLuminance(){} // RVA: 0x7AD92BDE0
+        public void CalcContrastRatio(){} // RVA: 0x7AD92BEE0
+        public void ActivateFor(){} // RVA: 0x7AD92BF50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class LineAnnotation
+    public class LineAnnotation : HierarchicalAnnotation
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x5B3E9A0
-        public void OnDisable(){} // RVA: 0x5B3E9E0
-        public void SetColor(){} // RVA: 0x5B3E9F0
-        public void SetLineWidth(){} // RVA: 0x5B3EA20
-        public void Draw(){} // RVA: 0x5B3EB30 | overloaded x2
-        public void ApplyColor(){} // RVA: 0x5B3ED90
-        public void ApplyLineWidth(){} // RVA: 0x5B3EF30
-        public void .ctor(){} // RVA: 0x5B349E0
+        public void OnEnable(){} // RVA: 0x7AD92BFD0
+        public void OnDisable(){} // RVA: 0x7AD92C010
+        public void SetColor(){} // RVA: 0x7AD92C020
+        public void SetLineWidth(){} // RVA: 0x7AD92C050
+        public void Draw(){} // RVA: 0x7AD92C160
+        public void ApplyColor(){} // RVA: 0x7AD92C3C0
+        public void ApplyLineWidth(){} // RVA: 0x7AD92C560
+        public void .ctor(){} // RVA: 0x7AD921FB0
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab;
-        public System.Collections.Generic.List`1<T> _children;
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0x283FA0
-        public void get_count(){} // RVA: 0xD840
-        public void Fill(){} // RVA: 0x24FA0
-        public void Add(){} // RVA: 0x283FA0
-        public void set_isMirrored(){} // RVA: 0x25130
-        public void set_rotationAngle(){} // RVA: 0x24FA0
-        public void Destroy(){} // RVA: 0x24A50
-        public void InstantiateChild(){} // RVA: 0x283FA0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x24A50
+        public void get_children(){} // RVA: 0x7A7E00680
+        public void get_Item(){} // RVA: 0x7A8051B10
+        public void get_count(){} // RVA: 0x7A7E00710
+        public void Fill(){} // RVA: 0x7A7E189D0
+        public void Add(){} // RVA: 0x7A8051B10
+        public void set_isMirrored(){} // RVA: 0x7A7E18C30
+        public void set_rotationAngle(){} // RVA: 0x7A7E189D0
+        public void Destroy(){} // RVA: 0x7A7E18770
+        public void InstantiateChild(){} // RVA: 0x7A8051B10
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab; // 0x30
-        public System.Collections.Generic.List`1<Mediapipe.Unity.ConnectionAnnotation> _children; // 0x38
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0x37EE8E0
-        public void get_Item(){} // RVA: 0x37EE9B0
-        public void get_count(){} // RVA: 0x37EEA10
-        public void Fill(){} // RVA: 0x37EEA40
-        public void Add(){} // RVA: 0x37EEB60
-        public void set_isMirrored(){} // RVA: 0x37EEC00
-        public void set_rotationAngle(){} // RVA: 0x37EED70
-        public void Destroy(){} // RVA: 0x37EEEE0
-        public void InstantiateChild(){} // RVA: 0x37EF0C0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_children(){} // RVA: 0x7AB5DB430
+        public void get_Item(){} // RVA: 0x7AB5DB500
+        public void get_count(){} // RVA: 0x7AB5DB560
+        public void Fill(){} // RVA: 0x7AB5DB590
+        public void Add(){} // RVA: 0x7AB5DB6B0
+        public void set_isMirrored(){} // RVA: 0x7AB5DB750
+        public void set_rotationAngle(){} // RVA: 0x7AB5DB8D0
+        public void Destroy(){} // RVA: 0x7AB5DBA50
+        public void InstantiateChild(){} // RVA: 0x7AB5DBC50
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab; // 0x30
-        public System.Collections.Generic.List`1<Mediapipe.Unity.PoseLandmarkListAnnotation> _children; // 0x38
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0x37EE8E0
-        public void get_Item(){} // RVA: 0x37EE9B0
-        public void get_count(){} // RVA: 0x37EEA10
-        public void Fill(){} // RVA: 0x37EEA40
-        public void Add(){} // RVA: 0x37EEB60
-        public void set_isMirrored(){} // RVA: 0x37EEC00
-        public void set_rotationAngle(){} // RVA: 0x37EED70
-        public void Destroy(){} // RVA: 0x37EEEE0
-        public void InstantiateChild(){} // RVA: 0x37EF0C0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_children(){} // RVA: 0x7AB5DB430
+        public void get_Item(){} // RVA: 0x7AB5DB500
+        public void get_count(){} // RVA: 0x7AB5DB560
+        public void Fill(){} // RVA: 0x7AB5DB590
+        public void Add(){} // RVA: 0x7AB5DB6B0
+        public void set_isMirrored(){} // RVA: 0x7AB5DB750
+        public void set_rotationAngle(){} // RVA: 0x7AB5DB8D0
+        public void Destroy(){} // RVA: 0x7AB5DBA50
+        public void InstantiateChild(){} // RVA: 0x7AB5DBC50
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab; // 0x30
-        public System.Collections.Generic.List`1<Mediapipe.Unity.HandLandmarkListAnnotation> _children; // 0x38
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0x37EE8E0
-        public void get_Item(){} // RVA: 0x37EE9B0
-        public void get_count(){} // RVA: 0x37EEA10
-        public void Fill(){} // RVA: 0x37EEA40
-        public void Add(){} // RVA: 0x37EEB60
-        public void set_isMirrored(){} // RVA: 0x37EEC00
-        public void set_rotationAngle(){} // RVA: 0x37EED70
-        public void Destroy(){} // RVA: 0x37EEEE0
-        public void InstantiateChild(){} // RVA: 0x37EF0C0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_children(){} // RVA: 0x7AB5DB430
+        public void get_Item(){} // RVA: 0x7AB5DB500
+        public void get_count(){} // RVA: 0x7AB5DB560
+        public void Fill(){} // RVA: 0x7AB5DB590
+        public void Add(){} // RVA: 0x7AB5DB6B0
+        public void set_isMirrored(){} // RVA: 0x7AB5DB750
+        public void set_rotationAngle(){} // RVA: 0x7AB5DB8D0
+        public void Destroy(){} // RVA: 0x7AB5DBA50
+        public void InstantiateChild(){} // RVA: 0x7AB5DBC50
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab; // 0x30
-        public System.Collections.Generic.List`1<Mediapipe.Unity.PoseLandmarkListWithMaskAnnotation> _children; // 0x38
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0x37EE8E0
-        public void get_Item(){} // RVA: 0x37EE9B0
-        public void get_count(){} // RVA: 0x37EEA10
-        public void Fill(){} // RVA: 0x37EEA40
-        public void Add(){} // RVA: 0x37EEB60
-        public void set_isMirrored(){} // RVA: 0x37EEC00
-        public void set_rotationAngle(){} // RVA: 0x37EED70
-        public void Destroy(){} // RVA: 0x37EEEE0
-        public void InstantiateChild(){} // RVA: 0x37EF0C0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_children(){} // RVA: 0x7AB5DB430
+        public void get_Item(){} // RVA: 0x7AB5DB500
+        public void get_count(){} // RVA: 0x7AB5DB560
+        public void Fill(){} // RVA: 0x7AB5DB590
+        public void Add(){} // RVA: 0x7AB5DB6B0
+        public void set_isMirrored(){} // RVA: 0x7AB5DB750
+        public void set_rotationAngle(){} // RVA: 0x7AB5DB8D0
+        public void Destroy(){} // RVA: 0x7AB5DBA50
+        public void InstantiateChild(){} // RVA: 0x7AB5DBC50
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab; // 0x30
-        public System.Collections.Generic.List`1<Mediapipe.Unity.FaceLandmarkListWithIrisAnnotation> _children; // 0x38
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0x37EE8E0
-        public void get_Item(){} // RVA: 0x37EE9B0
-        public void get_count(){} // RVA: 0x37EEA10
-        public void Fill(){} // RVA: 0x37EEA40
-        public void Add(){} // RVA: 0x37EEB60
-        public void set_isMirrored(){} // RVA: 0x37EEC00
-        public void set_rotationAngle(){} // RVA: 0x37EED70
-        public void Destroy(){} // RVA: 0x37EEEE0
-        public void InstantiateChild(){} // RVA: 0x37EF0C0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_children(){} // RVA: 0x7AB5DB430
+        public void get_Item(){} // RVA: 0x7AB5DB500
+        public void get_count(){} // RVA: 0x7AB5DB560
+        public void Fill(){} // RVA: 0x7AB5DB590
+        public void Add(){} // RVA: 0x7AB5DB6B0
+        public void set_isMirrored(){} // RVA: 0x7AB5DB750
+        public void set_rotationAngle(){} // RVA: 0x7AB5DB8D0
+        public void Destroy(){} // RVA: 0x7AB5DBA50
+        public void InstantiateChild(){} // RVA: 0x7AB5DBC50
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab; // 0x30
-        public System.Collections.Generic.List`1<Mediapipe.Unity.PointAnnotation> _children; // 0x38
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0x37EE8E0
-        public void get_Item(){} // RVA: 0x37EE9B0
-        public void get_count(){} // RVA: 0x37EEA10
-        public void Fill(){} // RVA: 0x37EEA40
-        public void Add(){} // RVA: 0x37EEB60
-        public void set_isMirrored(){} // RVA: 0x37EEC00
-        public void set_rotationAngle(){} // RVA: 0x37EED70
-        public void Destroy(){} // RVA: 0x37EEEE0
-        public void InstantiateChild(){} // RVA: 0x37EF0C0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_children(){} // RVA: 0x7AB5DB430
+        public void get_Item(){} // RVA: 0x7AB5DB500
+        public void get_count(){} // RVA: 0x7AB5DB560
+        public void Fill(){} // RVA: 0x7AB5DB590
+        public void Add(){} // RVA: 0x7AB5DB6B0
+        public void set_isMirrored(){} // RVA: 0x7AB5DB750
+        public void set_rotationAngle(){} // RVA: 0x7AB5DB8D0
+        public void Destroy(){} // RVA: 0x7AB5DBA50
+        public void InstantiateChild(){} // RVA: 0x7AB5DBC50
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab; // 0x30
-        public System.Collections.Generic.List`1<Mediapipe.Unity.DetectionAnnotation> _children; // 0x38
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0x37EE8E0
-        public void get_Item(){} // RVA: 0x37EE9B0
-        public void get_count(){} // RVA: 0x37EEA10
-        public void Fill(){} // RVA: 0x37EEA40
-        public void Add(){} // RVA: 0x37EEB60
-        public void set_isMirrored(){} // RVA: 0x37EEC00
-        public void set_rotationAngle(){} // RVA: 0x37EED70
-        public void Destroy(){} // RVA: 0x37EEEE0
-        public void InstantiateChild(){} // RVA: 0x37EF0C0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_children(){} // RVA: 0x7AB5DB430
+        public void get_Item(){} // RVA: 0x7AB5DB500
+        public void get_count(){} // RVA: 0x7AB5DB560
+        public void Fill(){} // RVA: 0x7AB5DB590
+        public void Add(){} // RVA: 0x7AB5DB6B0
+        public void set_isMirrored(){} // RVA: 0x7AB5DB750
+        public void set_rotationAngle(){} // RVA: 0x7AB5DB8D0
+        public void Destroy(){} // RVA: 0x7AB5DBA50
+        public void InstantiateChild(){} // RVA: 0x7AB5DBC50
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListAnnotation`1
+    public class ListAnnotation`1 : HierarchicalAnnotation
     {
-        public UnityEngine.GameObject _annotationPrefab; // 0x30
-        public System.Collections.Generic.List`1<Mediapipe.Unity.RectangleAnnotation> _children; // 0x38
-
         // ── Methods ──
-        public void get_children(){} // RVA: 0x37EE8E0
-        public void get_Item(){} // RVA: 0x37EE9B0
-        public void get_count(){} // RVA: 0x37EEA10
-        public void Fill(){} // RVA: 0x37EEA40
-        public void Add(){} // RVA: 0x37EEB60
-        public void set_isMirrored(){} // RVA: 0x37EEC00
-        public void set_rotationAngle(){} // RVA: 0x37EED70
-        public void Destroy(){} // RVA: 0x37EEEE0
-        public void InstantiateChild(){} // RVA: 0x37EF0C0
-        public void CallActionForAll(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_children(){} // RVA: 0x7AB5DB430
+        public void get_Item(){} // RVA: 0x7AB5DB500
+        public void get_count(){} // RVA: 0x7AB5DB560
+        public void Fill(){} // RVA: 0x7AB5DB590
+        public void Add(){} // RVA: 0x7AB5DB6B0
+        public void set_isMirrored(){} // RVA: 0x7AB5DB750
+        public void set_rotationAngle(){} // RVA: 0x7AB5DB8D0
+        public void Destroy(){} // RVA: 0x7AB5DBA50
+        public void InstantiateChild(){} // RVA: 0x7AB5DBC50
+        public void CallActionForAll(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Logger
+    public class Logger : Object
     {
-        public 0x659318E8 _minLogLevel;
-
         // ── Methods ──
-        public void set_MinLogLevel(){} // RVA: 0x5B51740
-        public void .cctor(){} // RVA: 0x5B517A0
+        public void set_MinLogLevel(){} // RVA: 0x7AD93F2C0
+        public void .cctor(){} // RVA: 0x7AD93F320
     }
 
-    public class MaskAnnotation
+    public class MaskAnnotation : HierarchicalAnnotation
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x5B3F040
-        public void OnDisable(){} // RVA: 0x5B3F080
-        public void OnDestroy(){} // RVA: 0x5B3F160
-        public void Init(){} // RVA: 0x5B3F1E0
-        public void Read(){} // RVA: 0x5B3F3D0
-        public void Clear(){} // RVA: 0x5B3F400
-        public void Draw(){} // RVA: 0x5B3F470 | overloaded x2
-        public void CreateMonoColorTexture(){} // RVA: 0x5B3F4B0
-        public void InitMaskBuffer(){} // RVA: 0x5B3F650
-        public void ApplyMaterial(){} // RVA: 0x5B3F8B0
-        public void ApplyMaskTexture(){} // RVA: 0x5B3FB10
-        public void ApplyThreshold(){} // RVA: 0x5B3FD00
-        public void .ctor(){} // RVA: 0x5B3FE10
+        public void OnEnable(){} // RVA: 0x7AD92C670
+        public void OnDisable(){} // RVA: 0x7AD92C6B0
+        public void OnDestroy(){} // RVA: 0x7AD92C790
+        public void Init(){} // RVA: 0x7AD92C810
+        public void Read(){} // RVA: 0x7AD92CA10
+        public void Clear(){} // RVA: 0x7AD92CA40
+        public void Draw(){} // RVA: 0x7AD92CAB0
+        public void CreateMonoColorTexture(){} // RVA: 0x7AD92CAF0
+        public void InitMaskBuffer(){} // RVA: 0x7AD92CC90
+        public void ApplyMaterial(){} // RVA: 0x7AD92CF00
+        public void ApplyMaskTexture(){} // RVA: 0x7AD92D160
+        public void ApplyThreshold(){} // RVA: 0x7AD92D350
+        public void .ctor(){} // RVA: 0x7AD92D460
     }
 
-    public class MaskAnnotationController
+    public class MaskAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void InitScreen(){} // RVA: 0x5B3FE70
-        public void DrawNow(){} // RVA: 0x5B3FEA0
-        public void DrawLater(){} // RVA: 0x5B3FF50
-        public void UpdateMaskArray(){} // RVA: 0x5B3FFE0
-        public void SyncNow(){} // RVA: 0x5B40020
-        public void .ctor(){} // RVA: 0x5B40090
+        public void InitScreen(){} // RVA: 0x7AD92D4C0
+        public void DrawNow(){} // RVA: 0x7AD92D4F0
+        public void DrawLater(){} // RVA: 0x7AD92D5A0
+        public void UpdateMaskArray(){} // RVA: 0x7AD92D630
+        public void SyncNow(){} // RVA: 0x7AD92D670
+        public void .ctor(){} // RVA: 0x7AD92D6E0
     }
 
-    public class MaskOverlayAnnotation
+    public class MaskOverlayAnnotation : HierarchicalAnnotation
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x5B40100
-        public void OnDisable(){} // RVA: 0x5B40250
-        public void OnDestroy(){} // RVA: 0x5B40410
-        public void Init(){} // RVA: 0x5B40580
-        public void SetMaskTexture(){} // RVA: 0x5B40AA0
-        public void SetThreshold(){} // RVA: 0x5B40B20
-        public void Read(){} // RVA: 0x5B40B70 | overloaded x2
-        public void Clear(){} // RVA: 0x5B40BB0
-        public void Draw(){} // RVA: 0x5B40CA0 | overloaded x3
-        public void CreateMonoColorTexture(){} // RVA: 0x5B40CE0
-        public void InitMaskBuffer(){} // RVA: 0x5B40E80
-        public void ApplyMaterial(){} // RVA: 0x5B410F0
-        public void ApplyMaskTexture(){} // RVA: 0x5B41350
-        public void ApplyThreshold(){} // RVA: 0x5B41540
-        public void .ctor(){} // RVA: 0x5B41650
+        public void OnEnable(){} // RVA: 0x7AD92D750
+        public void OnDisable(){} // RVA: 0x7AD92D8A0
+        public void OnDestroy(){} // RVA: 0x7AD92DA60
+        public void Init(){} // RVA: 0x7AD92DBD0
+        public void SetMaskTexture(){} // RVA: 0x7AD92E0F0
+        public void SetThreshold(){} // RVA: 0x7AD92E170
+        public void Read(){} // RVA: 0x7AD92E1C0
+        public void Clear(){} // RVA: 0x7AD92E200
+        public void Draw(){} // RVA: 0x7AD92E2F0
+        public void CreateMonoColorTexture(){} // RVA: 0x7AD92E330
+        public void InitMaskBuffer(){} // RVA: 0x7AD92E4D0
+        public void ApplyMaterial(){} // RVA: 0x7AD92E750
+        public void ApplyMaskTexture(){} // RVA: 0x7AD92E9B0
+        public void ApplyThreshold(){} // RVA: 0x7AD92EBA0
+        public void .ctor(){} // RVA: 0x7AD92ECB0
     }
 
-    public class MultiFaceLandmarkListAnnotation
+    public class MultiFaceLandmarkListAnnotation : ListAnnotation`1
     {
         // ── Methods ──
-        public void SetFaceLandmarkRadius(){} // RVA: 0x5B416B0
-        public void SetIrisLandmarkRadius(){} // RVA: 0x5B416C0
-        public void SetFaceLandmarkColor(){} // RVA: 0x5B416D0
-        public void SetIrisLandmarkColor(){} // RVA: 0x5B41700
-        public void SetFaceConnectionWidth(){} // RVA: 0x5B41730
-        public void SetFaceConnectionColor(){} // RVA: 0x5B41740
-        public void SetIrisCircleWidth(){} // RVA: 0x5B41770
-        public void SetIrisCircleColor(){} // RVA: 0x5B41780
-        public void Draw(){} // RVA: 0x5B418C0 | overloaded x2
-        public void InstantiateChild(){} // RVA: 0x5B419D0
-        public void ApplyFaceLandmarkRadius(){} // RVA: 0x5B41C70
-        public void ApplyIrisLandmarkRadius(){} // RVA: 0x5B41EB0
-        public void ApplyFaceLandmarkColor(){} // RVA: 0x5B420D0
-        public void ApplyIrisLandmarkColor(){} // RVA: 0x5B42330
-        public void ApplyFaceConnectionWidth(){} // RVA: 0x5B42570
-        public void ApplyFaceConnectionColor(){} // RVA: 0x5B427B0
-        public void ApplyIrisCircleWidth(){} // RVA: 0x5B42A10
-        public void ApplyIrisCircleColor(){} // RVA: 0x5B42C30
-        public void .ctor(){} // RVA: 0x5B42E70
+        public void SetFaceLandmarkRadius(){} // RVA: 0x7AD92ED10
+        public void SetIrisLandmarkRadius(){} // RVA: 0x7AD92ED20
+        public void SetFaceLandmarkColor(){} // RVA: 0x7AD92ED30
+        public void SetIrisLandmarkColor(){} // RVA: 0x7AD92ED60
+        public void SetFaceConnectionWidth(){} // RVA: 0x7AD92ED90
+        public void SetFaceConnectionColor(){} // RVA: 0x7AD92EDA0
+        public void SetIrisCircleWidth(){} // RVA: 0x7AD92EDD0
+        public void SetIrisCircleColor(){} // RVA: 0x7AD92EDE0
+        public void Draw(){} // RVA: 0x7AD92EF20
+        public void InstantiateChild(){} // RVA: 0x7AD92F030
+        public void ApplyFaceLandmarkRadius(){} // RVA: 0x7AD92F2D0
+        public void ApplyIrisLandmarkRadius(){} // RVA: 0x7AD92F530
+        public void ApplyFaceLandmarkColor(){} // RVA: 0x7AD92F770
+        public void ApplyIrisLandmarkColor(){} // RVA: 0x7AD92F9F0
+        public void ApplyFaceConnectionWidth(){} // RVA: 0x7AD92FC50
+        public void ApplyFaceConnectionColor(){} // RVA: 0x7AD92FEB0
+        public void ApplyIrisCircleWidth(){} // RVA: 0x7AD930130
+        public void ApplyIrisCircleColor(){} // RVA: 0x7AD930370
+        public void .ctor(){} // RVA: 0x7AD9305D0
     }
 
-    public class MultiFaceLandmarkListAnnotationController
+    public class MultiFaceLandmarkListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B36B00
-        public void DrawLater(){} // RVA: 0x5B43240
-        public void SyncNow(){} // RVA: 0x5B432A0
-        public void .ctor(){} // RVA: 0x5B433C0
+        public void DrawNow(){} // RVA: 0x7AD924180
+        public void DrawLater(){} // RVA: 0x7AD9309A0
+        public void SyncNow(){} // RVA: 0x7AD930A00
+        public void .ctor(){} // RVA: 0x7AD930B20
     }
 
-    public class MultiHandLandmarkListAnnotation
+    public class MultiHandLandmarkListAnnotation : ListAnnotation`1
     {
         // ── Methods ──
-        public void SetLeftLandmarkColor(){} // RVA: 0x5B43430
-        public void SetRightLandmarkColor(){} // RVA: 0x5B43460
-        public void SetLandmarkRadius(){} // RVA: 0x5B43490
-        public void SetConnectionColor(){} // RVA: 0x5B434A0
-        public void SetConnectionWidth(){} // RVA: 0x5B434D0
-        public void SetHandedness(){} // RVA: 0x5B437E0 | overloaded x2
-        public void Draw(){} // RVA: 0x5B43BF0 | overloaded x2
-        public void InstantiateChild(){} // RVA: 0x5B43D00
-        public void ApplyLeftLandmarkColor(){} // RVA: 0x5B43DD0
-        public void ApplyRightLandmarkColor(){} // RVA: 0x5B43FF0
-        public void ApplyLandmarkRadius(){} // RVA: 0x5B44210
-        public void ApplyConnectionColor(){} // RVA: 0x5B44440
-        public void ApplyConnectionWidth(){} // RVA: 0x5B44690
-        public void .ctor(){} // RVA: 0x5B448C0
+        public void SetLeftLandmarkColor(){} // RVA: 0x7AD930B90
+        public void SetRightLandmarkColor(){} // RVA: 0x7AD930BC0
+        public void SetLandmarkRadius(){} // RVA: 0x7AD930BF0
+        public void SetConnectionColor(){} // RVA: 0x7AD930C00
+        public void SetConnectionWidth(){} // RVA: 0x7AD930C30
+        public void SetHandedness(){} // RVA: 0x7AD930F60
+        public void Draw(){} // RVA: 0x7AD9313B0
+        public void InstantiateChild(){} // RVA: 0x7AD9314C0
+        public void ApplyLeftLandmarkColor(){} // RVA: 0x7AD931590
+        public void ApplyRightLandmarkColor(){} // RVA: 0x7AD9317D0
+        public void ApplyLandmarkRadius(){} // RVA: 0x7AD931A10
+        public void ApplyConnectionColor(){} // RVA: 0x7AD931C60
+        public void ApplyConnectionWidth(){} // RVA: 0x7AD931ED0
+        public void .ctor(){} // RVA: 0x7AD932120
     }
 
-    public class MultiHandLandmarkListAnnotationController
+    public class MultiHandLandmarkListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B44C00
-        public void DrawLater(){} // RVA: 0x5B44D20 | overloaded x2
-        public void SyncNow(){} // RVA: 0x5B44D80
-        public void .ctor(){} // RVA: 0x5B44F10
+        public void DrawNow(){} // RVA: 0x7AD932480
+        public void DrawLater(){} // RVA: 0x7AD9325A0
+        public void SyncNow(){} // RVA: 0x7AD932600
+        public void .ctor(){} // RVA: 0x7AD9327A0
     }
 
-    public class MultiPoseLandmarkListAnnotation
+    public class MultiPoseLandmarkListAnnotation : ListAnnotation`1
     {
         // ── Methods ──
-        public void SetLeftLandmarkColor(){} // RVA: 0x5B44F80
-        public void SetRightLandmarkColor(){} // RVA: 0x5B44FB0
-        public void SetLandmarkRadius(){} // RVA: 0x5B44FE0
-        public void SetConnectionColor(){} // RVA: 0x5B44FF0
-        public void SetConnectionWidth(){} // RVA: 0x5B45020
-        public void Draw(){} // RVA: 0x5B45140 | overloaded x2
-        public void InstantiateChild(){} // RVA: 0x5B45250
-        public void ApplyLeftLandmarkColor(){} // RVA: 0x5B45350
-        public void ApplyRightLandmarkColor(){} // RVA: 0x5B45590
-        public void ApplyLandmarkRadius(){} // RVA: 0x5B457D0
-        public void ApplyConnectionColor(){} // RVA: 0x5B45A00
-        public void ApplyConnectionWidth(){} // RVA: 0x5B45C50
-        public void .ctor(){} // RVA: 0x5B45E80
+        public void SetLeftLandmarkColor(){} // RVA: 0x7AD932810
+        public void SetRightLandmarkColor(){} // RVA: 0x7AD932840
+        public void SetLandmarkRadius(){} // RVA: 0x7AD932870
+        public void SetConnectionColor(){} // RVA: 0x7AD932880
+        public void SetConnectionWidth(){} // RVA: 0x7AD9328B0
+        public void Draw(){} // RVA: 0x7AD9329D0
+        public void InstantiateChild(){} // RVA: 0x7AD932AE0
+        public void ApplyLeftLandmarkColor(){} // RVA: 0x7AD932BE0
+        public void ApplyRightLandmarkColor(){} // RVA: 0x7AD932E40
+        public void ApplyLandmarkRadius(){} // RVA: 0x7AD9330A0
+        public void ApplyConnectionColor(){} // RVA: 0x7AD9332F0
+        public void ApplyConnectionWidth(){} // RVA: 0x7AD933560
+        public void .ctor(){} // RVA: 0x7AD9337B0
     }
 
-    public class MultiPoseLandmarkListWithMaskAnnotation
+    public class MultiPoseLandmarkListWithMaskAnnotation : ListAnnotation`1
     {
         // ── Methods ──
-        public void SetLeftLandmarkColor(){} // RVA: 0x5B461A0
-        public void SetRightLandmarkColor(){} // RVA: 0x5B461D0
-        public void SetLandmarkRadius(){} // RVA: 0x5B46200
-        public void SetConnectionColor(){} // RVA: 0x5B46210
-        public void SetConnectionWidth(){} // RVA: 0x5B46240
-        public void InitMask(){} // RVA: 0x5B46250
-        public void SetMaskTexture(){} // RVA: 0x5B46260
-        public void SetMaskThreshold(){} // RVA: 0x5B462F0
-        public void ReadMask(){} // RVA: 0x5B46300
-        public void Draw(){} // RVA: 0x5B463E0
-        public void InstantiateChild(){} // RVA: 0x5B464F0
-        public void ApplyLeftLandmarkColor(){} // RVA: 0x5B46700
-        public void ApplyRightLandmarkColor(){} // RVA: 0x5B46950
-        public void ApplyLandmarkRadius(){} // RVA: 0x5B46BA0
-        public void ApplyConnectionColor(){} // RVA: 0x5B46DE0
-        public void ApplyConnectionWidth(){} // RVA: 0x5B47040
-        public void ApplyMaskTexture(){} // RVA: 0x5B47280
-        public void ApplyMaskThreshold(){} // RVA: 0x5B474C0
-        public void .ctor(){} // RVA: 0x5B476F0
+        public void SetLeftLandmarkColor(){} // RVA: 0x7AD933AD0
+        public void SetRightLandmarkColor(){} // RVA: 0x7AD933B00
+        public void SetLandmarkRadius(){} // RVA: 0x7AD933B30
+        public void SetConnectionColor(){} // RVA: 0x7AD933B40
+        public void SetConnectionWidth(){} // RVA: 0x7AD933B70
+        public void InitMask(){} // RVA: 0x7AD933B80
+        public void SetMaskTexture(){} // RVA: 0x7AD933B90
+        public void SetMaskThreshold(){} // RVA: 0x7AD933C20
+        public void ReadMask(){} // RVA: 0x7AD933C30
+        public void Draw(){} // RVA: 0x7AD933D10
+        public void InstantiateChild(){} // RVA: 0x7AD933E20
+        public void ApplyLeftLandmarkColor(){} // RVA: 0x7AD934030
+        public void ApplyRightLandmarkColor(){} // RVA: 0x7AD9342A0
+        public void ApplyLandmarkRadius(){} // RVA: 0x7AD934510
+        public void ApplyConnectionColor(){} // RVA: 0x7AD934770
+        public void ApplyConnectionWidth(){} // RVA: 0x7AD9349F0
+        public void ApplyMaskTexture(){} // RVA: 0x7AD934C50
+        public void ApplyMaskThreshold(){} // RVA: 0x7AD934EC0
+        public void .ctor(){} // RVA: 0x7AD935110
     }
 
-    public class NormalizedLandmarkListAnnotationController
+    public class NormalizedLandmarkListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B47A20 | overloaded x3
-        public void DrawLater(){} // RVA: 0x5B47B20 | overloaded x3
-        public void SyncNow(){} // RVA: 0x5B47B80
-        public void FlattenNormalizedLandmarkLists(){} // RVA: 0x5B47BB0
-        public void .ctor(){} // RVA: 0x5B47F10
+        public void DrawNow(){} // RVA: 0x7AD935450
+        public void DrawLater(){} // RVA: 0x7AD935550
+        public void SyncNow(){} // RVA: 0x7AD9355B0
+        public void FlattenNormalizedLandmarkLists(){} // RVA: 0x7AD9355E0
+        public void .ctor(){} // RVA: 0x7AD935940
     }
 
-    public class NormalizedRectAnnotationController
+    public class NormalizedRectAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B48020
-        public void DrawLater(){} // RVA: 0x5B48090
-        public void SyncNow(){} // RVA: 0x5B480F0
-        public void .ctor(){} // RVA: 0x5B48120
+        public void DrawNow(){} // RVA: 0x7AD935A50
+        public void DrawLater(){} // RVA: 0x7AD935AC0
+        public void SyncNow(){} // RVA: 0x7AD935B20
+        public void .ctor(){} // RVA: 0x7AD935B50
     }
 
-    public class NormalizedRectListAnnotationController
+    public class NormalizedRectListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B48020
-        public void DrawLater(){} // RVA: 0x5B48190
-        public void SyncNow(){} // RVA: 0x5B481F0
-        public void .ctor(){} // RVA: 0x5B483B0
+        public void DrawNow(){} // RVA: 0x7AD935A50
+        public void DrawLater(){} // RVA: 0x7AD935BC0
+        public void SyncNow(){} // RVA: 0x7AD935C20
+        public void .ctor(){} // RVA: 0x7AD935DE0
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<T>> _InstanceTable;
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0xCD60
-        public void add_OnReceived(){} // RVA: 0x24B10
-        public void remove_OnReceived(){} // RVA: 0x24B10
-        public void get_referencePacket(){} // RVA: 0xCD60
-        public void .ctor(){}
-        public void Dispose(){} // RVA: 0x25130 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x24A50
-        public void DisposeUnmanaged(){} // RVA: 0x24A50
-        public void Finalize(){} // RVA: 0x24A50
-        public void StartPolling(){} // RVA: 0x24A50
-        public void AddListener(){} // RVA: 0x2A2D0
-        public void RemoveListener(){} // RVA: 0x24B10
-        public void WaitNextAsync(){} // RVA: 0xCD60
-        public void WaitNextInternal(){} // RVA: 0xCD60
-        public void StartWaitNextTask(){} // RVA: 0xCD60
-        public void Next(){} // RVA: 0xDE40
-        public void ClearWaitTask(){} // RVA: 0x24A50
-        public void InvokeOnReceived(){} // RVA: 0x24B10
-        public void ThrowIfDisposed(){} // RVA: 0x24A50
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x23260
-        public void .cctor(){} // RVA: 0x24A80
+        public void get_outputPacket(){} // RVA: 0x7A7E00680
+        public void add_OnReceived(){} // RVA: 0x7A7E18800
+        public void remove_OnReceived(){} // RVA: 0x7A7E18800
+        public void get_referencePacket(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x7A7E1EE20
+        public void Dispose(){} // RVA: 0x7A7E18C30
+        public void DisposeManaged(){} // RVA: 0x7A7E18770
+        public void DisposeUnmanaged(){} // RVA: 0x7A7E18770
+        public void Finalize(){} // RVA: 0x7A7E18770
+        public void StartPolling(){} // RVA: 0x7A7E18770
+        public void AddListener(){} // RVA: 0x7A7E1DFE0
+        public void RemoveListener(){} // RVA: 0x7A7E18800
+        public void WaitNextAsync(){} // RVA: 0x7A7E00680
+        public void WaitNextInternal(){} // RVA: 0x7A7E00680
+        public void StartWaitNextTask(){} // RVA: 0x7A7E00680
+        public void Next(){} // RVA: 0x7A7E019D0
+        public void ClearWaitTask(){} // RVA: 0x7A7E18770
+        public void InvokeOnReceived(){} // RVA: 0x7A7E18800
+        public void ThrowIfDisposed(){} // RVA: 0x7A7E18770
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7A7E16FB0
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.LandmarkList>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<Mediapipe.Detection>>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.ImageFrame>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.Detection>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int mscorlib;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.NormalizedLandmarkList>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<Mediapipe.NormalizedRect>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<...>>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<...>>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<...>>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class OutputStream`1
+    public class OutputStream`1 : Object
     {
-        public int _Counter;
-        public Mediapipe.GlobalInstanceTable`2<int,Mediapipe.Unity.OutputStream`1<System.Collections.Generic.List`1<...>>> _InstanceTable; // 0x8
-
         // ── Methods ──
-        public void get_outputPacket(){} // RVA: 0x3DD71F0
-        public void add_OnReceived(){} // RVA: 0x3DD73D0
-        public void remove_OnReceived(){} // RVA: 0x3DD74E0
-        public void get_referencePacket(){} // RVA: 0x3DD75F0
-        public void .ctor(){} // RVA: 0x3DD76F0
-        public void Dispose(){} // RVA: 0x3DD79F0 | overloaded x2
-        public void DisposeManaged(){} // RVA: 0x3DD7B30
-        public void DisposeUnmanaged(){} // RVA: 0x3DD7C20
-        public void Finalize(){} // RVA: 0x3DD7DE0
-        public void StartPolling(){} // RVA: 0x3DD7E70
-        public void AddListener(){} // RVA: 0x3DD80B0
-        public void RemoveListener(){} // RVA: 0x3DD82B0
-        public void WaitNextAsync(){} // RVA: 0x3DD83D0
-        public void WaitNextInternal(){} // RVA: 0x3DD8540
-        public void StartWaitNextTask(){} // RVA: 0x3DD8740
-        public void Next(){} // RVA: 0x3DD8AE0
-        public void ClearWaitTask(){} // RVA: 0x3DD8CC0
-        public void InvokeOnReceived(){} // RVA: 0x3DD8D90
-        public void ThrowIfDisposed(){} // RVA: 0x3DD8F10
-        public void InvokeIfOutputStreamFound(){} // RVA: 0x3DD8FA0
-        public void .cctor(){} // RVA: 0x3DD96A0
+        public void get_outputPacket(){} // RVA: 0x7ABBD1970
+        public void add_OnReceived(){} // RVA: 0x7ABBD1B50
+        public void remove_OnReceived(){} // RVA: 0x7ABBD1C60
+        public void get_referencePacket(){} // RVA: 0x7ABBD1D70
+        public void .ctor(){} // RVA: 0x7ABBD1E70
+        public void Dispose(){} // RVA: 0x7ABBD2180
+        public void DisposeManaged(){} // RVA: 0x7ABBD22C0
+        public void DisposeUnmanaged(){} // RVA: 0x7ABBD23B0
+        public void Finalize(){} // RVA: 0x7ABBD2570
+        public void StartPolling(){} // RVA: 0x7ABBD2600
+        public void AddListener(){} // RVA: 0x7ABBD2840
+        public void RemoveListener(){} // RVA: 0x7ABBD2A50
+        public void WaitNextAsync(){} // RVA: 0x7ABBD2B70
+        public void WaitNextInternal(){} // RVA: 0x7ABBD2CE0
+        public void StartWaitNextTask(){} // RVA: 0x7ABBD2EE0
+        public void Next(){} // RVA: 0x7ABBD3280
+        public void ClearWaitTask(){} // RVA: 0x7ABBD3460
+        public void InvokeOnReceived(){} // RVA: 0x7ABBD3530
+        public void ThrowIfDisposed(){} // RVA: 0x7ABBD36C0
+        public void InvokeIfOutputStreamFound(){} // RVA: 0x7ABBD3750
+        public void .cctor(){} // RVA: 0x7ABBD3E50
     }
 
-    public class PointAnnotation
+    public class PointAnnotation : HierarchicalAnnotation
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x5B48420
-        public void OnDisable(){} // RVA: 0x5B48460
-        public void SetColor(){} // RVA: 0x5B48470
-        public void SetRadius(){} // RVA: 0x5B484A0
-        public void Draw(){} // RVA: 0x5B48E20 | overloaded x6
-        public void ApplyColor(){} // RVA: 0x5B49070
-        public void ApplyRadius(){} // RVA: 0x5B49130
-        public void GetColor(){} // RVA: 0x5B49250
-        public void .ctor(){} // RVA: 0x5B492D0
+        public void OnEnable(){} // RVA: 0x7AD935E50
+        public void OnDisable(){} // RVA: 0x7AD935E90
+        public void SetColor(){} // RVA: 0x7AD935EA0
+        public void SetRadius(){} // RVA: 0x7AD935ED0
+        public void Draw(){} // RVA: 0x7AD936770
+        public void ApplyColor(){} // RVA: 0x7AD936990
+        public void ApplyRadius(){} // RVA: 0x7AD936A50
+        public void GetColor(){} // RVA: 0x7AD936B70
+        public void .ctor(){} // RVA: 0x7AD936BF0
     }
 
-    public class PointListAnnotation
+    public class PointListAnnotation : ListAnnotation`1
     {
         // ── Methods ──
-        public void SetColor(){} // RVA: 0x5B49330
-        public void SetRadius(){} // RVA: 0x5B49360
-        public void Draw(){} // RVA: 0x5B499F0 | overloaded x9
-        public void InstantiateChild(){} // RVA: 0x5B49B00
-        public void ApplyColor(){} // RVA: 0x5B49BA0
-        public void ApplyRadius(){} // RVA: 0x5B49DE0
-        public void .ctor(){} // RVA: 0x5B4A000
+        public void SetColor(){} // RVA: 0x7AD936C50
+        public void SetRadius(){} // RVA: 0x7AD936C80
+        public void Draw(){} // RVA: 0x7AD937330
+        public void InstantiateChild(){} // RVA: 0x7AD937450
+        public void ApplyColor(){} // RVA: 0x7AD9374F0
+        public void ApplyRadius(){} // RVA: 0x7AD937750
+        public void .ctor(){} // RVA: 0x7AD937990
     }
 
-    public class PoseLandmarkListAnnotation
+    public class PoseLandmarkListAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PointListAnnotation _landmarkListAnnotation; // 0x30
-        public Mediapipe.Unity.ConnectionListAnnotation _connectionListAnnotation; // 0x38
-        public UnityEngine.Color _leftLandmarkColor; // 0x40
-
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x5B37E30
-        public void set_rotationAngle(){} // RVA: 0x5B37EA0
-        public void get_Item(){} // RVA: 0x5B4B1C0
-        public void Start(){} // RVA: 0x5B4B260
-        public void SetLeftLandmarkColor(){} // RVA: 0x5B4B350
-        public void SetRightLandmarkColor(){} // RVA: 0x5B4B380
-        public void SetLandmarkRadius(){} // RVA: 0x5B37FB0
-        public void SetConnectionColor(){} // RVA: 0x5B37FE0
-        public void SetConnectionWidth(){} // RVA: 0x5B38020
-        public void Draw(){} // RVA: 0x5B4BA60 | overloaded x10
-        public void ApplyLeftLandmarkColor(){} // RVA: 0x5B4BB10
-        public void ApplyRightLandmarkColor(){} // RVA: 0x5B4BD40
-        public void ApplyMask(){} // RVA: 0x5B4BF70
-        public void .ctor(){} // RVA: 0x5B4C510
-        public void .cctor(){} // RVA: 0x5B4C570
+        public void set_isMirrored(){} // RVA: 0x7AD925500
+        public void set_rotationAngle(){} // RVA: 0x7AD925570
+        public void get_Item(){} // RVA: 0x7AD938BF0
+        public void Start(){} // RVA: 0x7AD938C90
+        public void SetLeftLandmarkColor(){} // RVA: 0x7AD938D80
+        public void SetRightLandmarkColor(){} // RVA: 0x7AD938DB0
+        public void SetLandmarkRadius(){} // RVA: 0x7AD925680
+        public void SetConnectionColor(){} // RVA: 0x7AD9256B0
+        public void SetConnectionWidth(){} // RVA: 0x7AD9256F0
+        public void Draw(){} // RVA: 0x7AD9394D0
+        public void ApplyLeftLandmarkColor(){} // RVA: 0x7AD9395A0
+        public void ApplyRightLandmarkColor(){} // RVA: 0x7AD9397D0
+        public void ApplyMask(){} // RVA: 0x7AD939A00
+        public void .ctor(){} // RVA: 0x7AD939FC0
+        public void .cctor(){} // RVA: 0x7AD93A020
     }
 
-    public class PoseLandmarkListAnnotationController
+    public class PoseLandmarkListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void DrawNow(){} // RVA: 0x5B39B70 | overloaded x2
-        public void DrawLater(){} // RVA: 0x5B4D610 | overloaded x2
-        public void SyncNow(){} // RVA: 0x5B4D680
-        public void .ctor(){} // RVA: 0x5B4D750
+        public void DrawNow(){} // RVA: 0x7AD927270
+        public void DrawLater(){} // RVA: 0x7AD93B0C0
+        public void SyncNow(){} // RVA: 0x7AD93B130
+        public void .ctor(){} // RVA: 0x7AD93B200
     }
 
-    public class PoseLandmarkListWithMaskAnnotation
+    public class PoseLandmarkListWithMaskAnnotation : HierarchicalAnnotation
     {
-        public Mediapipe.Unity.PoseLandmarkListAnnotation _poseLandmarkListAnnotation; // 0x30
-        public Mediapipe.Unity.MaskOverlayAnnotation _maskOverlayAnnotation; // 0x38
-
         // ── Methods ──
-        public void set_isMirrored(){} // RVA: 0x5B37E30
-        public void set_rotationAngle(){} // RVA: 0x5B37EA0
-        public void InitMask(){} // RVA: 0x5B4D7C0
-        public void SetLeftLandmarkColor(){} // RVA: 0x5B4D7F0
-        public void SetRightLandmarkColor(){} // RVA: 0x5B4D830
-        public void SetLandmarkRadius(){} // RVA: 0x5B39E50
-        public void SetConnectionColor(){} // RVA: 0x5B39EF0
-        public void SetConnectionWidth(){} // RVA: 0x5B39F30
-        public void SetMaskTexture(){} // RVA: 0x5B4D870
-        public void SetMaskThreshold(){} // RVA: 0x5B4D900
-        public void ReadMask(){} // RVA: 0x5B4D930
-        public void Draw(){} // RVA: 0x5B4D980
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void set_isMirrored(){} // RVA: 0x7AD925500
+        public void set_rotationAngle(){} // RVA: 0x7AD925570
+        public void InitMask(){} // RVA: 0x7AD93B270
+        public void SetLeftLandmarkColor(){} // RVA: 0x7AD93B2A0
+        public void SetRightLandmarkColor(){} // RVA: 0x7AD93B2E0
+        public void SetLandmarkRadius(){} // RVA: 0x7AD927550
+        public void SetConnectionColor(){} // RVA: 0x7AD9275F0
+        public void SetConnectionWidth(){} // RVA: 0x7AD927630
+        public void SetMaskTexture(){} // RVA: 0x7AD93B320
+        public void SetMaskThreshold(){} // RVA: 0x7AD93B3B0
+        public void ReadMask(){} // RVA: 0x7AD93B3E0
+        public void Draw(){} // RVA: 0x7AD93B430
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class PoseLandmarkerResultAnnotationController
+    public class PoseLandmarkerResultAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void InitScreen(){} // RVA: 0x5B4A8B0
-        public void DrawNow(){} // RVA: 0x5B4A8E0
-        public void DrawLater(){} // RVA: 0x5B4A920
-        public void ReadMask(){} // RVA: 0x5B4A950
-        public void UpdateCurrentTarget(){} // RVA: 0x5B4AA70
-        public void SyncNow(){} // RVA: 0x5B4ABC0
-        public void .ctor(){} // RVA: 0x5B4B0E0
+        public void InitScreen(){} // RVA: 0x7AD938350
+        public void DrawNow(){} // RVA: 0x7AD938380
+        public void DrawLater(){} // RVA: 0x7AD9383C0
+        public void ReadMask(){} // RVA: 0x7AD9383F0
+        public void UpdateCurrentTarget(){} // RVA: 0x7AD938510
+        public void SyncNow(){} // RVA: 0x7AD938620
+        public void .ctor(){} // RVA: 0x7AD938B10
     }
 
-    public class PoseWorldLandmarkListAnnotationController
+    public class PoseWorldLandmarkListAnnotationController : AnnotationController`1
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x5B4DA30
-        public void DrawNow(){} // RVA: 0x5B4DBA0 | overloaded x2
-        public void DrawLater(){} // RVA: 0x5B4DC90 | overloaded x2
-        public void SyncNow(){} // RVA: 0x5B4DD00
-        public void .ctor(){} // RVA: 0x5B4DDE0
+        public void Start(){} // RVA: 0x7AD93B4F0
+        public void DrawNow(){} // RVA: 0x7AD93B660
+        public void DrawLater(){} // RVA: 0x7AD93B750
+        public void SyncNow(){} // RVA: 0x7AD93B7C0
+        public void .ctor(){} // RVA: 0x7AD93B8A0
     }
 
-    public class RectangleAnnotation
+    public class RectangleAnnotation : HierarchicalAnnotation
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x5B4DE70
-        public void OnDisable(){} // RVA: 0x5B4DEB0
-        public void SetColor(){} // RVA: 0x5B4DF80
-        public void SetLineWidth(){} // RVA: 0x5B4DFB0
-        public void Draw(){} // RVA: 0x5B4E680 | overloaded x5
-        public void ApplyColor(){} // RVA: 0x5B4E820
-        public void ApplyLineWidth(){} // RVA: 0x5B4E9C0
-        public void .ctor(){} // RVA: 0x5B4EAD0
-        public void .cctor(){} // RVA: 0x5B4EB30
+        public void OnEnable(){} // RVA: 0x7AD93B930
+        public void OnDisable(){} // RVA: 0x7AD93B970
+        public void SetColor(){} // RVA: 0x7AD93BA40
+        public void SetLineWidth(){} // RVA: 0x7AD93BA70
+        public void Draw(){} // RVA: 0x7AD93C160
+        public void ApplyColor(){} // RVA: 0x7AD93C300
+        public void ApplyLineWidth(){} // RVA: 0x7AD93C4A0
+        public void .ctor(){} // RVA: 0x7AD93C5B0
+        public void .cctor(){} // RVA: 0x7AD93C610
     }
 
-    public class RectangleListAnnotation
+    public class RectangleListAnnotation : ListAnnotation`1
     {
         // ── Methods ──
-        public void SetColor(){} // RVA: 0x5B4ED20
-        public void SetLineWidth(){} // RVA: 0x5B4ED50
-        public void Draw(){} // RVA: 0x5B4EE70 | overloaded x2
-        public void InstantiateChild(){} // RVA: 0x5B4F020
-        public void ApplyColor(){} // RVA: 0x5B4F0C0
-        public void ApplyLineWidth(){} // RVA: 0x5B4F300
-        public void .ctor(){} // RVA: 0x5B4F520
+        public void SetColor(){} // RVA: 0x7AD93C800
+        public void SetLineWidth(){} // RVA: 0x7AD93C830
+        public void Draw(){} // RVA: 0x7AD93C950
+        public void InstantiateChild(){} // RVA: 0x7AD93CB10
+        public void ApplyColor(){} // RVA: 0x7AD93CBB0
+        public void ApplyLineWidth(){} // RVA: 0x7AD93CE10
+        public void .ctor(){} // RVA: 0x7AD93D050
     }
 
-    public class RotationAngleExtension
+    public class RotationAngleExtension : Object
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x5B52FE0
-        public void Reverse(){} // RVA: 0x5B53010
-        public void GetEulerAngles(){} // RVA: 0x5B53040
+        public void Add(){} // RVA: 0x7AD940B60
+        public void Reverse(){} // RVA: 0x7AD940B90
+        public void GetEulerAngles(){} // RVA: 0x7AD940BC0
     }
 
-    public class StreamingAssetsResourceManager
+    public class StreamingAssetsResourceManager : ResourceManager
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B52530 | overloaded x2
-        public void PrepareAssetAsync(){} // RVA: 0x5B52580
-        public void PathToResourceAsFile(){} // RVA: 0x5B526F0
-        public void GetResourceContents(){} // RVA: 0x5B52780
-        public void CreateCacheFile(){} // RVA: 0x5B52850
-        public void GetAssetPathFor(){} // RVA: 0x5B528F0
-        public void GetCachePathFor(){} // RVA: 0x5B52990
-        public void .cctor(){} // RVA: 0x5B52AE0
+        public void .ctor(){} // RVA: 0x7AD9400B0
+        public void PrepareAssetAsync(){} // RVA: 0x7AD940100
+        public void PathToResourceAsFile(){} // RVA: 0x7AD940270
+        public void GetResourceContents(){} // RVA: 0x7AD940300
+        public void CreateCacheFile(){} // RVA: 0x7AD9403D0
+        public void GetAssetPathFor(){} // RVA: 0x7AD940470
+        public void GetCachePathFor(){} // RVA: 0x7AD940510
+        public void .cctor(){} // RVA: 0x7AD940660
+        public void _TAG(){} // RVA: 0x7B3FB4428
     }
 
 }

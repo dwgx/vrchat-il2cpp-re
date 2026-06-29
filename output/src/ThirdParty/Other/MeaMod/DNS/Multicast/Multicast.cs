@@ -1,183 +1,156 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.MeaMod.DNS.Multicast
 // Classes: 9
-// Methods: 112
+// Methods: 103
 
 namespace ThirdParty.Other.MeaMod.DNS.Multicast
 {
-    public class MessageEventArgs
+    public class MessageEventArgs : EventArgs
     {
-        public MeaMod.DNS.Model.Message <Message>k__BackingField; // 0x10
-        public System.Net.IPEndPoint <RemoteEndPoint>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_Message(){} // RVA: 0x2F8380
-        public void set_Message(){} // RVA: 0x2DEE30
-        public void get_RemoteEndPoint(){} // RVA: 0x2E07C0
-        public void set_RemoteEndPoint(){} // RVA: 0x343E80
-        public void get_IsLegacyUnicast(){} // RVA: 0x5AAAF30
-        public void .ctor(){} // RVA: 0x5AAAFA0
+        public void get_Message(){} // RVA: 0x7A80F2570
+        public void set_Message(){} // RVA: 0x7A80D8E20
+        public void get_RemoteEndPoint(){} // RVA: 0x7A80DA7B0
+        public void set_RemoteEndPoint(){} // RVA: 0x7A813E420
+        public void get_IsLegacyUnicast(){} // RVA: 0x7AD8983E0
+        public void .ctor(){} // RVA: 0x7AD898450
     }
 
-    public class MulticastClient
+    public class MulticastClient : Object
     {
         // ── Methods ──
-        public void add_MessageReceived(){} // RVA: 0x5AAAFF0
-        public void remove_MessageReceived(){} // RVA: 0x5AAB0F0
-        public void .ctor(){} // RVA: 0x5AAB1F0
-        public void SendAsync(){} // RVA: 0x5AAC010
-        public void Listen(){} // RVA: 0x5AAC220
-        public void GetNetworkInterfaceLocalAddresses(){} // RVA: 0x5AAC3E0
-        public void Dispose(){} // RVA: 0x5AAC9A0 | overloaded x2
-        public void Finalize(){} // RVA: 0x5AAC950
-        public void .cctor(){} // RVA: 0x5AACA10
+        public void add_MessageReceived(){} // RVA: 0x7AD8984A0
+        public void remove_MessageReceived(){} // RVA: 0x7AD8985B0
+        public void .ctor(){} // RVA: 0x7AD8986C0
+        public void SendAsync(){} // RVA: 0x7AD8994F0
+        public void Listen(){} // RVA: 0x7AD899700
+        public void GetNetworkInterfaceLocalAddresses(){} // RVA: 0x7AD8998C0
+        public void Dispose(){} // RVA: 0x7AD899E90
+        public void Finalize(){} // RVA: 0x7AD899E40
+        public void .cctor(){} // RVA: 0x7AD899F00
     }
 
-    public class MulticastService
+    public class MulticastService : Object
     {
-        public int packetOverhead;
-        public int maxDatagramSize;
-        public System.TimeSpan maxLegacyUnicastTTL;
-        public System.Collections.Generic.List`1<System.Net.NetworkInformation.NetworkInterface> knownNics; // 0x10
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x5AAE1D0
-        public void add_QueryReceived(){} // RVA: 0x5AAE370
-        public void remove_QueryReceived(){} // RVA: 0x5AAE470
-        public void add_AnswerReceived(){} // RVA: 0x5AAE570
-        public void remove_AnswerReceived(){} // RVA: 0x5AAE670
-        public void add_MalformedMessage(){} // RVA: 0x5AAE770
-        public void remove_MalformedMessage(){} // RVA: 0x5AAE870
-        public void add_NetworkInterfaceDiscovered(){} // RVA: 0x5AAE970
-        public void remove_NetworkInterfaceDiscovered(){} // RVA: 0x5AAEA70
-        public void .ctor(){} // RVA: 0x5AAEB70
-        public void get_UseIpv4(){} // RVA: 0x359320
-        public void set_UseIpv4(){} // RVA: 0x359330
-        public void get_UseIpv6(){} // RVA: 0x5AAEFD0
-        public void set_UseIpv6(){} // RVA: 0x5AAEFE0
-        public void get_IgnoreDuplicateMessages(){} // RVA: 0x5AAEFF0
-        public void set_IgnoreDuplicateMessages(){} // RVA: 0x5AAF000
-        public void get_NetworkInterfaceDiscoveryInterval(){} // RVA: 0x4C7C50
-        public void set_NetworkInterfaceDiscoveryInterval(){} // RVA: 0x5AAF010
-        public void GetNetworkInterfaces(){} // RVA: 0x5AAF020
-        public void GetIPAddresses(){} // RVA: 0x5AAF4F0
-        public void GetLinkLocalAddresses(){} // RVA: 0x5AAF7E0
-        public void Start(){} // RVA: 0x5AAF980
-        public void Stop(){} // RVA: 0x5AAF9F0
-        public void OnNetworkAddressChanged(){} // RVA: 0x5AAFB70
-        public void FindNetworkInterfaces(){} // RVA: 0x5AAFB80
-        public void ResolveAsync(){} // RVA: 0x5AB0800
-        public void SendQuery(){} // RVA: 0x5AB0ED0 | overloaded x2
-        public void SendUnicastQuery(){} // RVA: 0x5AB0D30
-        public void SendAnswer(){} // RVA: 0x5AB0FB0 | overloaded x2
-        public void Send(){} // RVA: 0x5AB16B0
-        public void OnDnsMessage(){} // RVA: 0x5AB18D0
-        public void Dispose(){} // RVA: 0x5AB1BC0 | overloaded x2
-        public void <FindNetworkInterfaces>b__47_2(){} // RVA: 0x5AB1BE0
+        public void .cctor(){} // RVA: 0x7AD89B6C0
+        public void add_QueryReceived(){} // RVA: 0x7AD89B860
+        public void remove_QueryReceived(){} // RVA: 0x7AD89B970
+        public void add_AnswerReceived(){} // RVA: 0x7AD89BA80
+        public void remove_AnswerReceived(){} // RVA: 0x7AD89BB90
+        public void add_MalformedMessage(){} // RVA: 0x7AD89BCA0
+        public void remove_MalformedMessage(){} // RVA: 0x7AD89BDB0
+        public void add_NetworkInterfaceDiscovered(){} // RVA: 0x7AD89BEC0
+        public void remove_NetworkInterfaceDiscovered(){} // RVA: 0x7AD89BFD0
+        public void .ctor(){} // RVA: 0x7AD89C0E0
+        public void get_UseIpv4(){} // RVA: 0x7A8153980
+        public void set_UseIpv4(){} // RVA: 0x7A8153990
+        public void get_UseIpv6(){} // RVA: 0x7AD89C540
+        public void set_UseIpv6(){} // RVA: 0x7AD89C550
+        public void get_IgnoreDuplicateMessages(){} // RVA: 0x7AD89C560
+        public void set_IgnoreDuplicateMessages(){} // RVA: 0x7AD89C570
+        public void get_NetworkInterfaceDiscoveryInterval(){} // RVA: 0x7A82C2060
+        public void set_NetworkInterfaceDiscoveryInterval(){} // RVA: 0x7AD89C580
+        public void GetNetworkInterfaces(){} // RVA: 0x7AD89C590
+        public void GetIPAddresses(){} // RVA: 0x7AD89CA60
+        public void GetLinkLocalAddresses(){} // RVA: 0x7AD89CD50
+        public void Start(){} // RVA: 0x7AD89CEF0
+        public void Stop(){} // RVA: 0x7AD89CF60
+        public void OnNetworkAddressChanged(){} // RVA: 0x7AD89D0E0
+        public void FindNetworkInterfaces(){} // RVA: 0x7AD89D0F0
+        public void ResolveAsync(){} // RVA: 0x7AD89DD60
+        public void SendQuery(){} // RVA: 0x7AD89E440
+        public void SendUnicastQuery(){} // RVA: 0x7AD89E2A0
+        public void SendAnswer(){} // RVA: 0x7AD89E520
+        public void Send(){} // RVA: 0x7AD89EBF0
+        public void OnDnsMessage(){} // RVA: 0x7AD89EE20
+        public void Dispose(){} // RVA: 0x7AD89F110
+        public void <FindNetworkInterfaces>b__47_2(){} // RVA: 0x7AD89F130
     }
 
-    public class NetworkInterfaceEventArgs
+    public class NetworkInterfaceEventArgs : EventArgs
     {
-        public System.Collections.Generic.IEnumerable`1<System.Net.NetworkInformation.NetworkInterface> <NetworkInterfaces>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_NetworkInterfaces(){} // RVA: 0x2F8380
-        public void set_NetworkInterfaces(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x5AB2610
+        public void get_NetworkInterfaces(){} // RVA: 0x7A80F2570
+        public void set_NetworkInterfaces(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AD89FB10
     }
 
-    public class RecentMessages
+    public class RecentMessages : Object
     {
-        public System.Collections.Concurrent.ConcurrentDictionary`2<string,System.DateTime> Messages; // 0x10
-
         // ── Methods ──
-        public void get_Interval(){} // RVA: 0x2E07C0
-        public void set_Interval(){} // RVA: 0xC5BE60
-        public void TryAdd(){} // RVA: 0x5AB2660
-        public void Prune(){} // RVA: 0x5AB2720
-        public void GetId(){} // RVA: 0x5AB2B10
-        public void .ctor(){} // RVA: 0x5AB2DD0
+        public void get_Interval(){} // RVA: 0x7A80DA7B0
+        public void set_Interval(){} // RVA: 0x7A8A224D0
+        public void TryAdd(){} // RVA: 0x7AD89FB60
+        public void Prune(){} // RVA: 0x7AD89FC20
+        public void GetId(){} // RVA: 0x7AD8A0010
+        public void .ctor(){} // RVA: 0x7AD8A02E0
     }
 
-    public class ServiceDiscovery
+    public class ServiceDiscovery : Object
     {
-        public MeaMod.DNS.Model.DomainName LocalDomain;
-        public MeaMod.DNS.Model.DomainName SubName; // 0x8
-        public MeaMod.DNS.Model.DomainName ServiceName; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AB30A0 | overloaded x2
-        public void get_Mdns(){} // RVA: 0x30B0C0
-        public void set_Mdns(){} // RVA: 0x30B0D0
-        public void get_AnswersContainsAdditionalRecords(){} // RVA: 0x6E8A80
-        public void set_AnswersContainsAdditionalRecords(){} // RVA: 0x6E8B80
-        public void get_NameServer(){} // RVA: 0x6374D0
-        public void add_ServiceDiscovered(){} // RVA: 0x5AB3480
-        public void remove_ServiceDiscovered(){} // RVA: 0x5AB3580
-        public void add_ServiceInstanceDiscovered(){} // RVA: 0x5AB3680
-        public void remove_ServiceInstanceDiscovered(){} // RVA: 0x5AB3780
-        public void add_ServiceInstanceShutdown(){} // RVA: 0x5AB3880
-        public void remove_ServiceInstanceShutdown(){} // RVA: 0x5AB3980
-        public void QueryAllServices(){} // RVA: 0x5AB3A80
-        public void QueryUnicastAllServices(){} // RVA: 0x5AB3B10
-        public void QueryServiceInstances(){} // RVA: 0x5AB3D10 | overloaded x2
-        public void QueryUnicastServiceInstances(){} // RVA: 0x5AB3F50
-        public void Advertise(){} // RVA: 0x5AB40C0
-        public void Announce(){} // RVA: 0x5AB4A20
-        public void Unadvertise(){} // RVA: 0x5AB5280 | overloaded x2
-        public void OnAnswer(){} // RVA: 0x5AB5390
-        public void OnQuery(){} // RVA: 0x5AB58E0
-        public void Dispose(){} // RVA: 0x32AFC0 | overloaded x2
-        public void .cctor(){} // RVA: 0x5AB6080
-        public void <Unadvertise>b__35_0(){} // RVA: 0x5AB62B0
+        public void .ctor(){} // RVA: 0x7AD8A05B0
+        public void get_Mdns(){} // RVA: 0x7A81052C0
+        public void set_Mdns(){} // RVA: 0x7A81052D0
+        public void get_AnswersContainsAdditionalRecords(){} // RVA: 0x7A84A5BD0
+        public void set_AnswersContainsAdditionalRecords(){} // RVA: 0x7A84A5CD0
+        public void get_NameServer(){} // RVA: 0x7A83F69F0
+        public void add_ServiceDiscovered(){} // RVA: 0x7AD8A0990
+        public void remove_ServiceDiscovered(){} // RVA: 0x7AD8A0AA0
+        public void add_ServiceInstanceDiscovered(){} // RVA: 0x7AD8A0BB0
+        public void remove_ServiceInstanceDiscovered(){} // RVA: 0x7AD8A0CC0
+        public void add_ServiceInstanceShutdown(){} // RVA: 0x7AD8A0DD0
+        public void remove_ServiceInstanceShutdown(){} // RVA: 0x7AD8A0EE0
+        public void QueryAllServices(){} // RVA: 0x7AD8A0FF0
+        public void QueryUnicastAllServices(){} // RVA: 0x7AD8A1080
+        public void QueryServiceInstances(){} // RVA: 0x7AD8A1280
+        public void QueryUnicastServiceInstances(){} // RVA: 0x7AD8A14C0
+        public void Advertise(){} // RVA: 0x7AD8A1630
+        public void Announce(){} // RVA: 0x7AD8A1FC0
+        public void Unadvertise(){} // RVA: 0x7AD8A2740
+        public void OnAnswer(){} // RVA: 0x7AD8A27F0
+        public void OnQuery(){} // RVA: 0x7AD8A2D40
+        public void Dispose(){} // RVA: 0x7A8125330
+        public void .cctor(){} // RVA: 0x7AD8A34E0
+        public void <Unadvertise>b__35_0(){} // RVA: 0x7AD8A3710
     }
 
-    public class ServiceInstanceDiscoveryEventArgs
+    public class ServiceInstanceDiscoveryEventArgs : MessageEventArgs
     {
-        public MeaMod.DNS.Model.DomainName ServiceInstanceName; // 0x20
-
         // ── Methods ──
-        public void get_ServiceInstanceName(){} // RVA: 0x30B0C0
-        public void set_ServiceInstanceName(){} // RVA: 0x30B0D0
-        public void .ctor(){} // RVA: 0x5AAAFA0
+        public void get_ServiceInstanceName(){} // RVA: 0x7A81052C0
+        public void set_ServiceInstanceName(){} // RVA: 0x7A81052D0
+        public void .ctor(){} // RVA: 0x7AD898450
     }
 
-    public class ServiceInstanceShutdownEventArgs
+    public class ServiceInstanceShutdownEventArgs : MessageEventArgs
     {
-        public MeaMod.DNS.Model.DomainName Domain; // 0x20
-
         // ── Methods ──
-        public void get_ServiceInstanceName(){} // RVA: 0x30B0C0
-        public void set_ServiceInstanceName(){} // RVA: 0x30B0D0
-        public void .ctor(){} // RVA: 0x5AAAFA0
+        public void get_ServiceInstanceName(){} // RVA: 0x7A81052C0
+        public void set_ServiceInstanceName(){} // RVA: 0x7A81052D0
+        public void .ctor(){} // RVA: 0x7AD898450
     }
 
-    public class ServiceProfile
+    public class ServiceProfile : Object
     {
-        public MeaMod.DNS.Model.DomainName <Domain>k__BackingField; // 0x10
-        public MeaMod.DNS.Model.DomainName <ServiceName>k__BackingField; // 0x18
-        public MeaMod.DNS.Model.DomainName <InstanceName>k__BackingField; // 0x20
-        public MeaMod.DNS.Model.DomainName <HostName>k__BackingField; // 0x28
-        public System.Collections.Generic.List`1<MeaMod.DNS.Model.ResourceRecord> <Resources>k__BackingField; // 0x30
-        public System.Collections.Generic.List`1<string> <Subtypes>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x5AB68D0 | overloaded x2
-        public void get_Domain(){} // RVA: 0x2F8380
-        public void get_ServiceName(){} // RVA: 0x2E07C0
-        public void set_ServiceName(){} // RVA: 0x343E80
-        public void get_InstanceName(){} // RVA: 0x30B0C0
-        public void set_InstanceName(){} // RVA: 0x30B0D0
-        public void get_QualifiedServiceName(){} // RVA: 0x5AB74A0
-        public void get_HostName(){} // RVA: 0x30B130
-        public void set_HostName(){} // RVA: 0x2DEE90
-        public void get_FullyQualifiedName(){} // RVA: 0x5AB75B0
-        public void get_Resources(){} // RVA: 0x6374D0
-        public void set_Resources(){} // RVA: 0x30B890
-        public void get_Subtypes(){} // RVA: 0x4976A0
-        public void set_Subtypes(){} // RVA: 0x49B830
-        public void AddProperty(){} // RVA: 0x5AB7710
+        public void .cctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7AD8A3D30
+        public void get_Domain(){} // RVA: 0x7A80F2570
+        public void get_ServiceName(){} // RVA: 0x7A80DA7B0
+        public void set_ServiceName(){} // RVA: 0x7A813E420
+        public void get_InstanceName(){} // RVA: 0x7A81052C0
+        public void set_InstanceName(){} // RVA: 0x7A81052D0
+        public void get_QualifiedServiceName(){} // RVA: 0x7AD8A4920
+        public void get_HostName(){} // RVA: 0x7A8105330
+        public void set_HostName(){} // RVA: 0x7A80D8E80
+        public void get_FullyQualifiedName(){} // RVA: 0x7AD8A4A30
+        public void get_Resources(){} // RVA: 0x7A83F69F0
+        public void set_Resources(){} // RVA: 0x7A8105A90
+        public void get_Subtypes(){} // RVA: 0x7A8292C30
+        public void set_Subtypes(){} // RVA: 0x7A8296DE0
+        public void AddProperty(){} // RVA: 0x7AD8A4B90
     }
 
 }

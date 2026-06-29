@@ -1,385 +1,449 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.Microsoft.Extensions.Options
-// Classes: 53
-// Methods: 103
+// Classes: 48
+// Methods: 201
 
 namespace ThirdParty.DotNet.Microsoft.Extensions.Options
 {
-    public class ConfigureNamedOptions`1
+    public class ConfigureNamedOptions`1 : Object
     {
-        public string <Name>k__BackingField;
-        public System.Action`1<T> <Action>k__BackingField;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void get_Name(){} // RVA: 0xCD60
-        public void get_Action(){} // RVA: 0xCD60
-        public void Configure(){} // RVA: 0x283FA0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void get_Name(){} // RVA: 0x7A7E00680
+        public void get_Action(){} // RVA: 0x7A7E00680
+        public void Configure(){} // RVA: 0x7A8051B10
     }
 
-    public class ConfigureNamedOptions`1 : `w1
+    public class ConfigureNamedOptions`1 : Object
     {
-        public string <Name>k__BackingField; // 0x10
-        public System.Action`1<Microsoft.Extensions.Logging.LoggerFilterOptions> <Action>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
-        public void get_Name(){} // RVA: 0x2F8380
-        public void get_Action(){} // RVA: 0x2E07C0
-        public void Configure(){} // RVA: 0x2AC5A80 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void get_Name(){} // RVA: 0x7A80F2570
+        public void get_Action(){} // RVA: 0x7A80DA7B0
+        public void Configure(){} // RVA: 0x7AA8C4ED0
     }
 
-    public class ConfigureOptions`1
+    public class ConfigureOptions`1 : Object
     {
-        public System.Action`1<T> <Action>k__BackingField;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void get_Action(){} // RVA: 0xCD60
-        public void Configure(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Action(){} // RVA: 0x7A7E00680
+        public void Configure(){} // RVA: 0x7A8051B10
     }
 
-    public class ConfigureOptions`1
+    public class ConfigureOptions`1 : Object
     {
-        public System.Action`1<Microsoft.Extensions.Logging.LoggerFilterOptions> <Action>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Action(){} // RVA: 0x2F8380
-        public void Configure(){} // RVA: 0x2AC5B00
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Action(){} // RVA: 0x7A80F2570
+        public void Configure(){} // RVA: 0x7AA8C4F50
     }
 
     public class IConfigureNamedOptions`1
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x283FA0
-    }
-
-    public class IConfigureNamedOptions`1
-    {
-    }
-
-    public class IConfigureNamedOptions`1
-    {
-        // ── Methods ──
-        public void Configure(){} // RVA: 0x2DC60
+        public void Configure(){} // RVA: 0x7A8051B10
     }
 
     public class IConfigureNamedOptions`1
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x2DC60
+        public void Configure(){} // RVA: 0x7A7E18890
+    }
+
+    public class IConfigureNamedOptions`1
+    {
+        // ── Methods ──
+        public void Configure(){} // RVA: 0x7A7E18890
     }
 
     public class IConfigureOptions`1
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x283FA0
-    }
-
-    public class IConfigureOptions`1
-    {
-    }
-
-    public class IConfigureOptions`1
-    {
-        // ── Methods ──
-        public void Configure(){} // RVA: 0x24B10
-    }
-
-    public class IConfigureOptions`1
-    {
-    }
-
-    public class IConfigureOptions`1
-    {
+        public void Configure(){} // RVA: 0x7A8051B10
     }
 
     public class IConfigureOptions`1
     {
         // ── Methods ──
-        public void Configure(){} // RVA: 0x24B10
+        public void Configure(){} // RVA: 0x7A7E18800
+    }
+
+    public class IConfigureOptions`1
+    {
+        // ── Methods ──
+        public void Configure(){} // RVA: 0x7A7E18800
+    }
+
+    public class IConfigureOptions`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class IConfigureOptions`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
     public class IOptionsChangeTokenSource`1
     {
         // ── Methods ──
-        public void GetChangeToken(){} // RVA: 0xCD60
-        public void get_Name(){} // RVA: 0xCD60
+        public void GetChangeToken(){} // RVA: 0x7A7E00680
+        public void get_Name(){} // RVA: 0x7A7E00680
     }
 
     public class IOptionsChangeTokenSource`1
     {
         // ── Methods ──
-        public void GetChangeToken(){} // RVA: 0xCD60
-        public void get_Name(){} // RVA: 0xCD60
+        public void GetChangeToken(){} // RVA: 0x7A7E00680
+        public void get_Name(){} // RVA: 0x7A7E00680
+    }
+
+    public class IOptionsChangeTokenSource`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
     public class IOptionsFactory`1
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x283FA0
-    }
-
-    public class IOptionsFactory`1
-    {
-    }
-
-    public class IOptionsFactory`1
-    {
-        // ── Methods ──
-        public void Create(){} // RVA: 0xCE10
+        public void Create(){} // RVA: 0x7A8051B10
     }
 
     public class IOptionsFactory`1
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0xCE10
+        public void Create(){} // RVA: 0x7A7E00B20
+    }
+
+    public class IOptionsFactory`1
+    {
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7A7E00B20
     }
 
     public class IOptionsMonitorCache`1
     {
         // ── Methods ──
-        public void GetOrAdd(){} // RVA: 0x283FA0
-        public void TryRemove(){} // RVA: 0xDE40
+        public void GetOrAdd(){} // RVA: 0x7A8051B10
+        public void TryRemove(){} // RVA: 0x7A7E019D0
     }
 
     public class IOptionsMonitorCache`1
     {
-    }
-
-    public class IOptionsMonitorCache`1
-    {
         // ── Methods ──
-        public void GetOrAdd(){} // RVA: 0x1E6A0
-        public void TryRemove(){} // RVA: 0xDE40
+        public void GetOrAdd(){} // RVA: 0x7A7E00BD0
+        public void TryRemove(){} // RVA: 0x7A7E019D0
     }
 
     public class IOptionsMonitor`1
     {
         // ── Methods ──
-        public void get_CurrentValue(){} // RVA: 0x283FA0
-        public void OnChange(){} // RVA: 0xCE10
+        public void get_CurrentValue(){} // RVA: 0x7A8051B10
+        public void OnChange(){} // RVA: 0x7A7E00B20
     }
 
     public class IOptionsMonitor`1
     {
-    }
-
-    public class IOptionsMonitor`1
-    {
         // ── Methods ──
-        public void get_CurrentValue(){} // RVA: 0xCD60
-        public void OnChange(){} // RVA: 0xCE10
-    }
-
-    public class IOptionsSnapshot`1
-    {
-    }
-
-    public class IOptionsSnapshot`1
-    {
+        public void get_CurrentValue(){} // RVA: 0x7A7E00680
+        public void OnChange(){} // RVA: 0x7A7E00B20
     }
 
     public class IOptions`1
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x283FA0
-    }
-
-    public class IOptions`1
-    {
-    }
-
-    public class IOptions`1
-    {
+        public void get_Value(){} // RVA: 0x7A8051B10
     }
 
     public class IOptions`1
     {
         // ── Methods ──
-        public void get_Value(){} // RVA: 0xCD60
-    }
-
-    public class IOptions`1
-    {
+        public void get_Value(){} // RVA: 0x7A7E00680
     }
 
     public class IPostConfigureOptions`1
     {
         // ── Methods ──
-        public void PostConfigure(){} // RVA: 0x283FA0
+        public void PostConfigure(){} // RVA: 0x7A8051B10
     }
 
     public class IPostConfigureOptions`1
     {
         // ── Methods ──
-        public void PostConfigure(){} // RVA: 0x2DC60
+        public void PostConfigure(){} // RVA: 0x7A7E18890
     }
 
     public class IPostConfigureOptions`1
     {
         // ── Methods ──
-        public void PostConfigure(){} // RVA: 0x2DC60
+        public void PostConfigure(){} // RVA: 0x7A7E18890
+    }
+
+    public class IPostConfigureOptions`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class IPostConfigureOptions`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
     public class IValidateOptions`1
     {
         // ── Methods ──
-        public void Validate(){} // RVA: 0x283FA0
+        public void Validate(){} // RVA: 0x7A8051B10
     }
 
     public class IValidateOptions`1
     {
         // ── Methods ──
-        public void Validate(){} // RVA: 0x1E6A0
+        public void Validate(){} // RVA: 0x7A7E00BD0
     }
 
     public class IValidateOptions`1
     {
         // ── Methods ──
-        public void Validate(){} // RVA: 0x1E6A0
+        public void Validate(){} // RVA: 0x7A7E00BD0
     }
 
-    public class Options
+    public class IValidateOptions`1[] : Array
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x5BB6410
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class OptionsCache`1
+    public class IValidateOptions`1[] : Array
     {
         // ── Methods ──
-        public void GetOrAdd(){} // RVA: 0x283FA0 | overloaded x2
-        public void TryGetValue(){} // RVA: 0x11120
-        public void TryRemove(){} // RVA: 0xDE40
-        public void .ctor(){} // RVA: 0x24A50
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class OptionsCache`1
+    public class Options : Object
     {
         // ── Methods ──
-        public void GetOrAdd(){} // RVA: 0x283FA0 | overloaded x2
-        public void TryGetValue(){} // RVA: 0x3D9E170
-        public void TryRemove(){} // RVA: 0x3D9E340
-        public void .ctor(){} // RVA: 0x3D9E450
+        public void .cctor(){} // RVA: 0x7AD9A4080
     }
 
-    public class OptionsFactory`1
+    public class OptionsCache`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090 | overloaded x2
-        public void Create(){} // RVA: 0x283FA0
-        public void CreateInstance(){} // RVA: 0x283FA0
+        public void GetOrAdd(){} // RVA: 0x7A8051B10
+        public void TryGetValue(){} // RVA: 0x7A7E01A40
+        public void TryRemove(){} // RVA: 0x7A7E019D0
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class OptionsFactory`1
+    public class OptionsCache`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3D9E630 | overloaded x2
-        public void Create(){} // RVA: 0x3D9E960
-        public void CreateInstance(){} // RVA: 0x3D9EE40
+        public void GetOrAdd(){} // RVA: 0x7AA135A10
+        public void TryGetValue(){} // RVA: 0x7ABB998D0
+        public void TryRemove(){} // RVA: 0x7ABB99AB0
+        public void .ctor(){} // RVA: 0x7ABB99BC0
     }
 
-    public class OptionsFactory`1
+    public class OptionsFactory`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3D9E630 | overloaded x2
-        public void Create(){} // RVA: 0x3D9E960
-        public void CreateInstance(){} // RVA: 0x3D9EE40
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void Create(){} // RVA: 0x7A8051B10
+        public void CreateInstance(){} // RVA: 0x7A8051B10
     }
 
-    public class OptionsManager`1
+    public class OptionsFactory`1 : Object
     {
-        public Microsoft.Extensions.Options.IOptionsFactory`1<T> _factory;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void get_Value(){} // RVA: 0x283FA0
-        public void Get(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x7ABB99DA0
+        public void Create(){} // RVA: 0x7ABB9A0D0
+        public void CreateInstance(){} // RVA: 0x7ABB9A5C0
     }
 
-    public class OptionsMonitorExtensions
+    public class OptionsFactory`1 : Object
     {
         // ── Methods ──
-        public void OnChange(){} // RVA: 0xCEC0
+        public void .ctor(){} // RVA: 0x7ABB99DA0
+        public void Create(){} // RVA: 0x7ABB9A0D0
+        public void CreateInstance(){} // RVA: 0x7ABB9A5C0
     }
 
-    public class OptionsMonitor`1
+    public class OptionsManager`1 : Object
     {
-        public Microsoft.Extensions.Options.IOptionsMonitorCache`1<T> _cache;
-
         // ── Methods ──
-        public void add__onChange(){} // RVA: 0x24B10
-        public void remove__onChange(){} // RVA: 0x24B10
-        public void .ctor(){} // RVA: 0x2F090
-        public void InvokeChanged(){} // RVA: 0x24B10
-        public void get_CurrentValue(){} // RVA: 0x283FA0
-        public void Get(){} // RVA: 0x283FA0
-        public void OnChange(){} // RVA: 0xCE10
-        public void Dispose(){} // RVA: 0x24A50
-        public void <.ctor>g__RegisterSource|6_0(){} // RVA: 0x24B10
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Value(){} // RVA: 0x7A8051B10
+        public void Get(){} // RVA: 0x7A8051B10
     }
 
-    public class OptionsMonitor`1
+    public class OptionsMonitorExtensions : Object
     {
-        public Microsoft.Extensions.Options.IOptionsMonitorCache`1<Microsoft.Extensions.Logging.LoggerFilterOptions> _cache; // 0x10
-
         // ── Methods ──
-        public void add__onChange(){} // RVA: 0x3D9F350
-        public void remove__onChange(){} // RVA: 0x3D9F460
-        public void .ctor(){} // RVA: 0x3D9F570
-        public void InvokeChanged(){} // RVA: 0x3D9F910
-        public void get_CurrentValue(){} // RVA: 0x3D9FA10
-        public void Get(){} // RVA: 0x3D9FA80
-        public void OnChange(){} // RVA: 0x3D9FF60
-        public void Dispose(){} // RVA: 0x3DA01B0
-        public void <.ctor>g__RegisterSource|6_0(){} // RVA: 0x3DA03D0
+        public void OnChange(){} // RVA: 0x7AA5527F0
     }
 
-    public class OptionsValidationException
+    public class OptionsMonitor`1 : Object
     {
-        public string <OptionsName>k__BackingField; // 0x90
-        public System.Type <OptionsType>k__BackingField; // 0x98
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BB64D0
-        public void get_Failures(){} // RVA: 0xA085E0
-        public void get_Message(){} // RVA: 0x5BB6700
+        public void add__onChange(){} // RVA: 0x7A7E18800
+        public void remove__onChange(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void InvokeChanged(){} // RVA: 0x7A7E18800
+        public void get_CurrentValue(){} // RVA: 0x7A8051B10
+        public void Get(){} // RVA: 0x7A8051B10
+        public void OnChange(){} // RVA: 0x7A7E00B20
+        public void Dispose(){} // RVA: 0x7A7E18770
+        public void <.ctor>g__RegisterSource|6_0(){} // RVA: 0x7A7E18800
     }
 
-    public class UnnamedOptionsManager`1
+    public class OptionsMonitor`1 : Object
     {
-        public Microsoft.Extensions.Options.IOptionsFactory`1<T> _factory;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void get_Value(){} // RVA: 0x283FA0
+        public void add__onChange(){} // RVA: 0x7ABB9AAD0
+        public void remove__onChange(){} // RVA: 0x7ABB9ABE0
+        public void .ctor(){} // RVA: 0x7ABB9ACF0
+        public void InvokeChanged(){} // RVA: 0x7ABB9B0A0
+        public void get_CurrentValue(){} // RVA: 0x7ABB9B1A0
+        public void Get(){} // RVA: 0x7ABB9B210
+        public void OnChange(){} // RVA: 0x7ABB9B6D0
+        public void Dispose(){} // RVA: 0x7ABB9B920
+        public void <.ctor>g__RegisterSource|6_0(){} // RVA: 0x7ABB9BB50
     }
 
-    public class UnnamedOptionsManager`1
+    public class OptionsValidationException : Exception
     {
-        public Microsoft.Extensions.Options.IOptionsFactory`1<Microsoft.Extensions.Logging.LoggerFactoryOptions> _factory; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Value(){} // RVA: 0x45AA710
+        public void .ctor(){} // RVA: 0x7AD9A4140
+        public void get_Failures(){} // RVA: 0x7A87C5850
+        public void get_Message(){} // RVA: 0x7AD9A4370
     }
 
-    public class ValidateOptionsResult
+    public class UnnamedOptionsManager`1 : Object
     {
-        public Microsoft.Extensions.Options.ValidateOptionsResult PW00;
-        public Microsoft.Extensions.Options.ValidateOptionsResult Success; // 0x8
-        public bool <Succeeded>k__BackingField; // 0x10
-        public bool <Skipped>k__BackingField; // 0x11
-
         // ── Methods ──
-        public void set_Succeeded(){} // RVA: 0x3A75F0
-        public void set_Skipped(){} // RVA: 0x543470
-        public void get_Failed(){} // RVA: 0x195A940
-        public void get_Failures(){} // RVA: 0x2E07C0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x5BB6750
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Value(){} // RVA: 0x7A8051B10
+    }
+
+    public class UnnamedOptionsManager`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Value(){} // RVA: 0x7AC398700
+    }
+
+    public class ValidateOptionsResult : Object
+    {
+        // ── Methods ──
+        public void set_Succeeded(){} // RVA: 0x7A81A2210
+        public void set_Skipped(){} // RVA: 0x7A82FBFC0
+        public void get_Failed(){} // RVA: 0x7A9716B70
+        public void get_Failures(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AD9A43C0
     }
 
 }

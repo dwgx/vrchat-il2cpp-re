@@ -1,24 +1,24 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 // Classes: 2
-// Methods: 8
+// Methods: 6
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class Last
+    public class Last : Object
     {
         // ── Methods ──
-        public void LastAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void LastAwaitAsync(){} // RVA: 0x283FA0
-        public void LastAwaitWithCancellationAsync(){} // RVA: 0x283FA0
+        public void LastAsync(){} // RVA: 0x7A8051B10
+        public void LastAwaitAsync(){} // RVA: 0x7A8051B10
+        public void LastAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
     }
 
-    public class LongCount
+    public class LongCount : Object
     {
         // ── Methods ──
-        public void LongCountAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void LongCountAwaitAsync(){} // RVA: 0x283FA0
-        public void LongCountAwaitWithCancellationAsync(){} // RVA: 0x283FA0
+        public void LongCountAsync(){} // RVA: 0x7A8051B10
+        public void LongCountAwaitAsync(){} // RVA: 0x7A8051B10
+        public void LongCountAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
     }
 
 }

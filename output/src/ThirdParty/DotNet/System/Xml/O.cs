@@ -5,17 +5,17 @@
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class OnRemoveWriter
+    public class OnRemoveWriter : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x35D190
-        public void Invoke(){} // RVA: 0x338C60
+        public void .ctor(){} // RVA: 0x7A81577F0
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class OpenedHost
+    public class OpenedHost : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

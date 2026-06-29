@@ -1,78 +1,84 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Text.Unicode
-// Classes: 6
-// Methods: 26
+// Classes: 7
+// Methods: 41
 
 namespace ThirdParty.DotNet.System.Text.Unicode
 {
-    public class UnicodeHelpers
+    public class UnicodeHelpers : Object
     {
-        public object FirstCodePoint;
-
         // ── Methods ──
-        public void GetDefinedBmpCodePointsBitmapLittleEndian(){} // RVA: 0x62ECB70
-        public void GetUtf16SurrogatePairFromAstralScalarValue(){} // RVA: 0x62EC240
-        public void GetUtf8RepresentationForScalarValue(){} // RVA: 0x62ECC00
-        public void get_DefinedCharsBitmapSpan(){} // RVA: 0x62ECC80
+        public void GetDefinedBmpCodePointsBitmapLittleEndian(){} // RVA: 0x7AE0D8860
+        public void GetUtf16SurrogatePairFromAstralScalarValue(){} // RVA: 0x7AE0D7FF0
+        public void GetUtf8RepresentationForScalarValue(){} // RVA: 0x7AE0D88F0
+        public void get_DefinedCharsBitmapSpan(){} // RVA: 0x7AE0D8970
     }
 
-    public class UnicodeHelpers
+    public class UnicodeHelpers : Object
     {
         // ── Methods ──
-        public void GetDefinedBmpCodePointsBitmapLittleEndian(){} // RVA: 0x6835600
-        public void GetUtf16SurrogatePairFromAstralScalarValue(){} // RVA: 0x62EC240
-        public void GetUtf8RepresentationForScalarValue(){} // RVA: 0x62ECC00
-        public void get_DefinedCharsBitmapSpan(){} // RVA: 0x6835670
+        public void GetDefinedBmpCodePointsBitmapLittleEndian(){} // RVA: 0x7AE624370
+        public void GetUtf16SurrogatePairFromAstralScalarValue(){} // RVA: 0x7AE0D7FF0
+        public void GetUtf8RepresentationForScalarValue(){} // RVA: 0x7AE0D88F0
+        public void get_DefinedCharsBitmapSpan(){} // RVA: 0x7AE6243E0
     }
 
-    public class UnicodeRange
+    public class UnicodeRange : Object
     {
-        public int <FirstCodePoint>k__BackingField; // 0x10
-        public int <Length>k__BackingField; // 0x14
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68356D0
-        public void get_FirstCodePoint(){} // RVA: 0x32A5C0
-        public void set_FirstCodePoint(){} // RVA: 0x2E00C0
-        public void get_Length(){} // RVA: 0x8ABED0
-        public void set_Length(){} // RVA: 0x8AC660
-        public void Create(){} // RVA: 0x68357A0
+        public void .ctor(){} // RVA: 0x7AE624440
+        public void get_FirstCodePoint(){} // RVA: 0x7A8124910
+        public void set_FirstCodePoint(){} // RVA: 0x7A80DA0C0
+        public void get_Length(){} // RVA: 0x7A8668BC0
+        public void set_Length(){} // RVA: 0x7A8669360
+        public void Create(){} // RVA: 0x7AE624510
     }
 
-    public class UnicodeRange
+    public class UnicodeRange : Object
     {
-        public int All; // 0x10
-        public int BasicLatin; // 0x14
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x62ECCF0
-        public void get_FirstCodePoint(){} // RVA: 0x32A5C0
-        public void set_FirstCodePoint(){} // RVA: 0x2E00C0
-        public void get_Length(){} // RVA: 0x8ABED0
-        public void set_Length(){} // RVA: 0x8AC660
-        public void Create(){} // RVA: 0x62ECDC0
+        public void .ctor(){} // RVA: 0x7AE0D89E0
+        public void get_FirstCodePoint(){} // RVA: 0x7A8124910
+        public void set_FirstCodePoint(){} // RVA: 0x7A80DA0C0
+        public void get_Length(){} // RVA: 0x7A8668BC0
+        public void set_Length(){} // RVA: 0x7A8669360
+        public void Create(){} // RVA: 0x7AE0D8AB0
     }
 
-    public class UnicodeRanges
+    public class UnicodeRange[] : Array
     {
-        public System.Text.Unicode.UnicodeRange IsAscii;
-        public System.Text.Unicode.UnicodeRange IsBmp; // 0x8
-
         // ── Methods ──
-        public void get_All(){} // RVA: 0x68358B0
-        public void CreateRange(){} // RVA: 0x6835910
-        public void get_BasicLatin(){} // RVA: 0x6835A80
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class UnicodeRanges
+    public class UnicodeRanges : Object
     {
-        public System.Text.Unicode.UnicodeRange _all;
-        public System.Text.Unicode.UnicodeRange _u0000; // 0x8
-
         // ── Methods ──
-        public void get_All(){} // RVA: 0x62ECED0
-        public void CreateRange(){} // RVA: 0x62ECF30
-        public void get_BasicLatin(){} // RVA: 0x62ED0A0
+        public void get_All(){} // RVA: 0x7AE624620
+        public void CreateRange(){} // RVA: 0x7AE624680
+        public void get_BasicLatin(){} // RVA: 0x7AE6247F0
+    }
+
+    public class UnicodeRanges : Object
+    {
+        // ── Methods ──
+        public void get_All(){} // RVA: 0x7AE0D8BC0
+        public void CreateRange(){} // RVA: 0x7AE0D8C20
+        public void get_BasicLatin(){} // RVA: 0x7AE0D8D90
     }
 
 }

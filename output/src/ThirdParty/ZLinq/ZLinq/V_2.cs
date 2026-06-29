@@ -1,161 +1,98 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.ZLinq.ZLinq
-// Classes: 32
-// Methods: 14
+// Classes: 14
+// Methods: 20
 
 namespace ThirdParty.ZLinq.ZLinq
 {
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
+    public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2AC7570
-        public void Cast(){} // RVA: 0x283FA0
-        public void OfType(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x7A76BA6C0
     }
 
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
+    public class ValueEnumerable`2 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x20463F0
-        public void Cast(){} // RVA: 0x283FA0
-        public void OfType(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x7A76FC390
     }
 
-    public class ValueEnumerable`2
+    public class ValueEnumerable`2 : ValueType
     {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerable`2
-    {
-    }
-
-    public class ValueEnumerator`2 : current
-    {
-        public U enumerator;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void get_Current(){} // RVA: 0x283FA0
-        public void MoveNext(){} // RVA: 0xDBE0
-        public void Dispose(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A76BA6C0
     }
 
-    public class ValueEnumerator`2
+    public class ValueEnumerable`2 : ValueType
     {
-        public ZLinq.Linq.ArrayWhereSelect`2<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ,string> enumerator; // 0x10
-    }
-
-    public class ValueEnumerator`2
-    {
-        public ZLinq.Linq.ArrayWhereSelect`2<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ,string> enumerator; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4634170
-        public void get_Current(){} // RVA: 0x30B0C0
-        public void MoveNext(){} // RVA: 0x46341D0
-        public void Dispose(){} // RVA: 0x2BDF1A0
+        public void .ctor(){} // RVA: 0x7A76FC390
     }
 
-    public class ValueEnumerator`2
+    public class ValueEnumerable`2 : ValueType
     {
-        public ZLinq.Linq.ArrayWhereSelect`2<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ,string> enumerator; // 0x10
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76BA6C0
     }
 
-    public class ValueEnumerator`2
+    public class ValueEnumerable`2 : ValueType
     {
-        public ZLinq.Linq.ArrayWhereSelect`2<ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ,string> enumerator; // 0x10
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76FC390
+    }
+
+    public class ValueEnumerable`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A77DC300
+    }
+
+    public class ValueEnumerable`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76FC390
+    }
+
+    public class ValueEnumerable`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76FC390
+    }
+
+    public class ValueEnumerable`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76FC390
+    }
+
+    public class ValueEnumerable`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76FC390
+    }
+
+    public class ValueEnumerable`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A77DC1F0
+        public void Cast(){} // RVA: 0x7A8051B10
+        public void OfType(){} // RVA: 0x7A8051B10
+    }
+
+    public class ValueEnumerable`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76FC390
+        public void Cast(){} // RVA: 0x7A8051B10
+        public void OfType(){} // RVA: 0x7A8051B10
+    }
+
+    public class ValueEnumerator`2 : ValueType
+    {
+        // ── Methods ──
+        public void Dispose(){} // RVA: 0x7A77F5000
+        public void MoveNext(){} // RVA: 0x7A7B46850
+        public void get_Current(){} // RVA: 0x7A767FF40
     }
 
 }

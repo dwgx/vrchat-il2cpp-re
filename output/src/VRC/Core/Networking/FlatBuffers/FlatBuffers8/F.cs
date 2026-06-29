@@ -5,54 +5,46 @@
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
-    public class FaceTrackedVisemeData
+    public class FaceTrackedVisemeData : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void FaceTrackedVisemeValues(){} // RVA: 0x75E5870
-        public void CreateFaceTrackedVisemeData(){} // RVA: 0x75E6030
-        public void UnPack(){} // RVA: 0x75E6140
-        public void UnPackTo(){} // RVA: 0x75E61B0
-        public void Pack(){} // RVA: 0x75E62B0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void FaceTrackedVisemeValues(){} // RVA: 0x7A7F12D70
+        public void CreateFaceTrackedVisemeData(){} // RVA: 0x7AF3C45C0
+        public void UnPack(){} // RVA: 0x7A7F12F00
+        public void UnPackTo(){} // RVA: 0x7A7F12F10
+        public void Pack(){} // RVA: 0x7AF3C4860
     }
 
-    public class FaceTrackedVisemeDataT
+    public class FaceTrackedVisemeDataT : Object
     {
-        public byte[] Contents; // 0x10
-
         // ── Methods ──
-        public void get_FaceTrackedVisemeValues(){} // RVA: 0x2F8380
-        public void set_FaceTrackedVisemeValues(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x75E62D0
+        public void get_FaceTrackedVisemeValues(){} // RVA: 0x7A80F2570
+        public void set_FaceTrackedVisemeValues(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AF3C4880
     }
 
-    public class FloatHalf
+    public class FloatHalf : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Data(){} // RVA: 0x75E5870
-        public void CreateFloatHalf(){} // RVA: 0x75EDD30
-        public void UnPack(){} // RVA: 0x75EDE40
-        public void UnPackTo(){} // RVA: 0x75EDEB0
-        public void Pack(){} // RVA: 0x75EDFB0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Data(){} // RVA: 0x7A7F12D70
+        public void CreateFloatHalf(){} // RVA: 0x7AF3CC310
+        public void UnPack(){} // RVA: 0x7A7F139C0
+        public void UnPackTo(){} // RVA: 0x7A7F139D0
+        public void Pack(){} // RVA: 0x7AF3CC5B0
     }
 
-    public class FloatHalfT
+    public class FloatHalfT : Object
     {
-        public byte[] ByteBuffer; // 0x10
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x2F8380
-        public void set_Data(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x75EDFD0
+        public void get_Data(){} // RVA: 0x7A80F2570
+        public void set_Data(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AF3CC5D0
     }
 
 }

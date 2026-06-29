@@ -1,110 +1,108 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Xml
 // Classes: 11
-// Methods: 49
+// Methods: 45
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class UTF16Decoder
+    public class UTF16Decoder : Decoder
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6A89FC0
-        public void GetCharCount(){} // RVA: 0x6A89FD0 | overloaded x2
-        public void GetChars(){} // RVA: 0x6A8A0D0
-        public void Convert(){} // RVA: 0x6A8A2D0
+        public void .ctor(){} // RVA: 0x7AE87A740
+        public void GetCharCount(){} // RVA: 0x7AE87A750
+        public void GetChars(){} // RVA: 0x7AE87A850
+        public void Convert(){} // RVA: 0x7AE87AA80
     }
 
-    public class Ucs4Decoder
+    public class Ucs4Decoder : Decoder
     {
         // ── Methods ──
-        public void GetCharCount(){} // RVA: 0x6A8B0F0
-        public void GetFullChars(){}
-        public void GetChars(){} // RVA: 0x6A8B100
-        public void Convert(){} // RVA: 0x6A8B2B0
-        public void Ucs4ToUTF16(){} // RVA: 0x6A8B4D0
-        public void .ctor(){} // RVA: 0x6A8B540
+        public void GetCharCount(){} // RVA: 0x7AE87B920
+        public void GetFullChars(){} // RVA: 0x7A7E0A1D0
+        public void GetChars(){} // RVA: 0x7AE87B930
+        public void Convert(){} // RVA: 0x7AE87BAF0
+        public void Ucs4ToUTF16(){} // RVA: 0x7AE87BD40
+        public void .ctor(){} // RVA: 0x7AE87BDB0
     }
 
-    public class Ucs4Decoder1234
+    public class Ucs4Decoder1234 : Ucs4Decoder
     {
         // ── Methods ──
-        public void GetFullChars(){} // RVA: 0x6A8B890
-        public void .ctor(){} // RVA: 0x6A8B880
+        public void GetFullChars(){} // RVA: 0x7AE87C120
+        public void .ctor(){} // RVA: 0x7AE87C110
     }
 
-    public class Ucs4Decoder2143
+    public class Ucs4Decoder2143 : Ucs4Decoder
     {
         // ── Methods ──
-        public void GetFullChars(){} // RVA: 0x6A8BB40
-        public void .ctor(){} // RVA: 0x6A8B880
+        public void GetFullChars(){} // RVA: 0x7AE87C3F0
+        public void .ctor(){} // RVA: 0x7AE87C110
     }
 
-    public class Ucs4Decoder3412
+    public class Ucs4Decoder3412 : Ucs4Decoder
     {
         // ── Methods ──
-        public void GetFullChars(){} // RVA: 0x6A8BDF0
-        public void .ctor(){} // RVA: 0x6A8B880
+        public void GetFullChars(){} // RVA: 0x7AE87C6C0
+        public void .ctor(){} // RVA: 0x7AE87C110
     }
 
-    public class Ucs4Decoder4321
+    public class Ucs4Decoder4321 : Ucs4Decoder
     {
         // ── Methods ──
-        public void GetFullChars(){} // RVA: 0x6A8B5D0
-        public void .ctor(){} // RVA: 0x6A8B880
+        public void GetFullChars(){} // RVA: 0x7AE87BE40
+        public void .ctor(){} // RVA: 0x7AE87C110
     }
 
-    public class Ucs4Encoding
+    public class Ucs4Encoding : Encoding
     {
-        public System.Xml.Ucs4Decoder ucs4Decoder; // 0x38
-
         // ── Methods ──
-        public void get_WebName(){} // RVA: 0x43E1C0
-        public void GetDecoder(){} // RVA: 0x4976A0
-        public void GetByteCount(){} // RVA: 0x6A8A6F0 | overloaded x2
-        public void GetBytes(){} // RVA: 0x519240 | overloaded x2
-        public void GetMaxByteCount(){} // RVA: 0x519240
-        public void GetCharCount(){} // RVA: 0x6A8A790 | overloaded x2
-        public void GetChars(){} // RVA: 0x6A8A740
-        public void GetMaxCharCount(){} // RVA: 0x6A8A780
-        public void get_CodePage(){} // RVA: 0x519240
-        public void GetEncoder(){} // RVA: 0x519240
-        public void get_UCS4_Littleendian(){} // RVA: 0x6A8A7B0
-        public void get_UCS4_Bigendian(){} // RVA: 0x6A8A8A0
-        public void get_UCS4_2143(){} // RVA: 0x6A8A990
-        public void get_UCS4_3412(){} // RVA: 0x6A8AA80
-        public void .ctor(){} // RVA: 0x5C58B40
+        public void get_WebName(){} // RVA: 0x7A82393C0
+        public void GetDecoder(){} // RVA: 0x7A8292C30
+        public void GetByteCount(){} // RVA: 0x7AE87AF20
+        public void GetBytes(){} // RVA: 0x7A82D1450
+        public void GetMaxByteCount(){} // RVA: 0x7A82D1450
+        public void GetCharCount(){} // RVA: 0x7AE87AFC0
+        public void GetChars(){} // RVA: 0x7AE87AF70
+        public void GetMaxCharCount(){} // RVA: 0x7AE87AFB0
+        public void get_CodePage(){} // RVA: 0x7A82D1450
+        public void GetEncoder(){} // RVA: 0x7A82D1450
+        public void get_UCS4_Littleendian(){} // RVA: 0x7AE87AFE0
+        public void get_UCS4_Bigendian(){} // RVA: 0x7AE87B0D0
+        public void get_UCS4_2143(){} // RVA: 0x7AE87B1C0
+        public void get_UCS4_3412(){} // RVA: 0x7AE87B2B0
+        public void .ctor(){} // RVA: 0x7ADA46C20
     }
 
-    public class Ucs4Encoding1234
+    public class Ucs4Encoding1234 : Ucs4Encoding
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6A8AB70
-        public void get_EncodingName(){} // RVA: 0x6A8AC30
-        public void GetPreamble(){} // RVA: 0x6A8AC70
+        public void .ctor(){} // RVA: 0x7AE87B3A0
+        public void get_EncodingName(){} // RVA: 0x7AE87B460
+        public void GetPreamble(){} // RVA: 0x7AE87B4A0
     }
 
-    public class Ucs4Encoding2143
+    public class Ucs4Encoding2143 : Ucs4Encoding
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6A8AE30
-        public void get_EncodingName(){} // RVA: 0x6A8AEF0
-        public void GetPreamble(){} // RVA: 0x6A8AF30
+        public void .ctor(){} // RVA: 0x7AE87B660
+        public void get_EncodingName(){} // RVA: 0x7AE87B720
+        public void GetPreamble(){} // RVA: 0x7AE87B760
     }
 
-    public class Ucs4Encoding3412
+    public class Ucs4Encoding3412 : Ucs4Encoding
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6A8AF90
-        public void get_EncodingName(){} // RVA: 0x6A8B050
-        public void GetPreamble(){} // RVA: 0x6A8B090
+        public void .ctor(){} // RVA: 0x7AE87B7C0
+        public void get_EncodingName(){} // RVA: 0x7AE87B880
+        public void GetPreamble(){} // RVA: 0x7AE87B8C0
     }
 
-    public class Ucs4Encoding4321
+    public class Ucs4Encoding4321 : Ucs4Encoding
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6A8ACD0
-        public void get_EncodingName(){} // RVA: 0x6A8AD90
-        public void GetPreamble(){} // RVA: 0x6A8ADD0
+        public void .ctor(){} // RVA: 0x7AE87B500
+        public void get_EncodingName(){} // RVA: 0x7AE87B5C0
+        public void GetPreamble(){} // RVA: 0x7AE87B600
     }
 
 }

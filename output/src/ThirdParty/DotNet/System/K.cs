@@ -5,12 +5,12 @@
 
 namespace ThirdParty.DotNet.System
 {
-    public class KnownTerminals
+    public class KnownTerminals : Object
     {
         // ── Methods ──
-        public void get_linux(){} // RVA: 0x5F061C0
-        public void get_xterm(){} // RVA: 0x5F06230
-        public void get_ansi(){} // RVA: 0x5F062A0
+        public void get_linux(){} // RVA: 0x7ADCF4DF0
+        public void get_xterm(){} // RVA: 0x7ADCF4E60
+        public void get_ansi(){} // RVA: 0x7ADCF4ED0
     }
 
 }

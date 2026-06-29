@@ -5,230 +5,230 @@
 
 namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
-    public class DateTimeConverter
+    public class DateTimeConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x63650D0
-        public void Write(){} // RVA: 0x63650E0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x6365140
-        public void WriteAsPropertyNameCore(){} // RVA: 0x63651A0
-        public void .ctor(){} // RVA: 0x63651D0
+        public void Read(){} // RVA: 0x7AE151AF0
+        public void Write(){} // RVA: 0x7AE151B00
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE151B60
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE151BC0
+        public void .ctor(){} // RVA: 0x7AE151BF0
     }
 
-    public class DateTimeConverter
+    public class DateTimeConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x68E30B0
-        public void Write(){} // RVA: 0x68E3110
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E3140
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E3180
-        public void .ctor(){} // RVA: 0x68E31B0
+        public void Read(){} // RVA: 0x7AE6D1B10
+        public void Write(){} // RVA: 0x7AE6D1B70
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D1BA0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D1BE0
+        public void .ctor(){} // RVA: 0x7AE6D1C10
     }
 
-    public class DateTimeOffsetConverter
+    public class DateTimeOffsetConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x6365210
-        public void Write(){} // RVA: 0x63652B0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x6365320
-        public void WriteAsPropertyNameCore(){} // RVA: 0x6365380
-        public void .ctor(){} // RVA: 0x63653B0
+        public void Read(){} // RVA: 0x7AE151C30
+        public void Write(){} // RVA: 0x7AE151CD0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE151D40
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE151DA0
+        public void .ctor(){} // RVA: 0x7AE151DD0
     }
 
-    public class DateTimeOffsetConverter
+    public class DateTimeOffsetConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x68E3200
-        public void Write(){} // RVA: 0x68E3260
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E3290
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E32E0
-        public void .ctor(){} // RVA: 0x68E3310
+        public void Read(){} // RVA: 0x7AE6D1C60
+        public void Write(){} // RVA: 0x7AE6D1CC0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D1D30
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D1D80
+        public void .ctor(){} // RVA: 0x7AE6D1DB0
     }
 
-    public class DecimalConverter
+    public class DecimalConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63653F0
-        public void Read(){} // RVA: 0x6365440
-        public void Write(){} // RVA: 0x63654A0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x63654D0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x63655F0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x6365620
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x63657A0
+        public void .ctor(){} // RVA: 0x7AE151E10
+        public void Read(){} // RVA: 0x7AE151E60
+        public void Write(){} // RVA: 0x7AE151EC0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE151EF0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE152010
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE152040
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE1521C0
     }
 
-    public class DecimalConverter
+    public class DecimalConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68E3360
-        public void Read(){} // RVA: 0x68E33C0
-        public void Write(){} // RVA: 0x68E3410
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E3440
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E3510
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x68E3540
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x68E3650
+        public void .ctor(){} // RVA: 0x7AE6D1E00
+        public void Read(){} // RVA: 0x7AE6D1E60
+        public void Write(){} // RVA: 0x7AE6D1EB0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D1EE0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D1FC0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE6D1FF0
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE6D2120
     }
 
-    public class DefaultObjectConverter
+    public class DefaultObjectConverter : ObjectConverter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68E1D60
-        public void Read(){} // RVA: 0x68E1DB0
-        public void OnTryRead(){} // RVA: 0x68E1E80
+        public void .ctor(){} // RVA: 0x7AE6D07E0
+        public void Read(){} // RVA: 0x7AE6D0830
+        public void OnTryRead(){} // RVA: 0x7AE6D0900
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCF690
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveIdMetadata(){} // RVA: 0x7A7E01900
+        public void OnWriteResume(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveMetadata(){} // RVA: 0xDBE0
-        public void OnWriteResume(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x24A50
+        public void get_CanHaveMetadata(){} // RVA: 0x7A7E01900
+        public void OnWriteResume(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCED30
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveIdMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C28F0
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCF690
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveIdMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C28F0
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0xDBE0
-        public void OnWriteResume(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x24A50
+        public void get_CanHaveIdMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C28F0
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCED30
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveIdMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C28F0
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCF690
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveIdMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C28F0
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCED30
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveIdMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C28F0
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCED30
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C3220
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCF690
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C3220
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCED30
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C3220
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveIdMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCED30
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C3220
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCF690
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C3220
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryDefaultConverter`3
+    public class DictionaryDefaultConverter`3 : JsonDictionaryConverter`3
     {
         // ── Methods ──
-        public void get_CanHaveMetadata(){} // RVA: 0x3C2850
-        public void OnWriteResume(){} // RVA: 0x2BCF690
-        public void .ctor(){} // RVA: 0x2BCF670
+        public void get_CanHaveMetadata(){} // RVA: 0x7A81BD750
+        public void OnWriteResume(){} // RVA: 0x7AA9C3220
+        public void .ctor(){} // RVA: 0x7AA9C3200
     }
 
-    public class DictionaryOfTKeyTValueConverter`3
+    public class DictionaryOfTKeyTValueConverter`3 : DictionaryDefaultConverter`3
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x283FA0
-        public void CreateCollection(){} // RVA: 0x2DC60
-        public void OnWriteResume(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x24A50
+        public void Add(){} // RVA: 0x7A8051B10
+        public void CreateCollection(){} // RVA: 0x7A7E18890
+        public void OnWriteResume(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class DictionaryOfTKeyTValueConverter`3
+    public class DictionaryOfTKeyTValueConverter`3 : DictionaryDefaultConverter`3
     {
         // ── Methods ──
-        public void get_CanPopulate(){} // RVA: 0xDBE0
-        public void Add(){} // RVA: 0x283FA0
-        public void OnWriteResume(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x24A50
+        public void get_CanPopulate(){} // RVA: 0x7A7E01900
+        public void Add(){} // RVA: 0x7A8051B10
+        public void OnWriteResume(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class DoubleConverter
+    public class DoubleConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63657F0
-        public void Read(){} // RVA: 0x6365840
-        public void Write(){} // RVA: 0x63658A0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x63658D0
-        public void WriteAsPropertyNameCore(){} // RVA: 0x63658E0
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x6365910
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x63659A0
+        public void .ctor(){} // RVA: 0x7AE152210
+        public void Read(){} // RVA: 0x7AE152260
+        public void Write(){} // RVA: 0x7AE1522C0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE1522F0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE152300
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE152330
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE1523C0
     }
 
-    public class DoubleConverter
+    public class DoubleConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68E36A0
-        public void Read(){} // RVA: 0x68E3700
-        public void Write(){} // RVA: 0x68E3740
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E3770
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E3780
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x68E37B0
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x68E3820
+        public void .ctor(){} // RVA: 0x7AE6D2170
+        public void Read(){} // RVA: 0x7AE6D21D0
+        public void Write(){} // RVA: 0x7AE6D2210
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D2240
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D2250
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE6D2280
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE6D22F0
     }
 
 }

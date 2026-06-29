@@ -1,77 +1,71 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Xml.Schema
 // Classes: 6
-// Methods: 43
+// Methods: 33
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class NamespaceList
+    public class NamespaceList : Object
     {
-        public 0x6587D8F8 type; // 0x10
-        public System.Collections.Hashtable set; // 0x18
-        public string targetNamespace; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x693B3C0 | overloaded x2
-        public void Clone(){} // RVA: 0x693B730
-        public void get_Type(){} // RVA: 0x32A5C0
-        public void get_Excluded(){} // RVA: 0x30B0C0
-        public void get_Enumerate(){} // RVA: 0x693B8D0
-        public void Allows(){} // RVA: 0x693BA00 | overloaded x2
-        public void ToString(){} // RVA: 0x693BA30
-        public void IsSubset(){} // RVA: 0x693BE50
-        public void Union(){} // RVA: 0x693C100
-        public void CompareSetToOther(){} // RVA: 0x693C5F0
-        public void Intersection(){} // RVA: 0x693C760
-        public void RemoveNamespace(){} // RVA: 0x693CC60
+        public void .ctor(){} // RVA: 0x7AE72A980
+        public void Clone(){} // RVA: 0x7AE72ACF0
+        public void get_Type(){} // RVA: 0x7A8124910
+        public void get_Excluded(){} // RVA: 0x7A81052C0
+        public void get_Enumerate(){} // RVA: 0x7AE72AE90
+        public void Allows(){} // RVA: 0x7AE72AFC0
+        public void ToString(){} // RVA: 0x7AE72AFF0
+        public void IsSubset(){} // RVA: 0x7AE72B430
+        public void Union(){} // RVA: 0x7AE72B6F0
+        public void CompareSetToOther(){} // RVA: 0x7AE72BBC0
+        public void Intersection(){} // RVA: 0x7AE72BD30
+        public void RemoveNamespace(){} // RVA: 0x7AE72C220
     }
 
-    public class NamespaceListNode
+    public class NamespaceListNode : SyntaxTreeNode
     {
-        public System.Xml.Schema.NamespaceList namespaceList; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
-        public void GetResolvedSymbols(){} // RVA: 0x6ADA5D0
-        public void ExpandTree(){} // RVA: 0x6ADA600
-        public void ConstructPos(){} // RVA: 0x6ADAA30
-        public void get_IsNullable(){} // RVA: 0x6ADAA70
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void GetResolvedSymbols(){} // RVA: 0x7AE8CAA00
+        public void ExpandTree(){} // RVA: 0x7AE8CAA30
+        public void ConstructPos(){} // RVA: 0x7AE8CAE60
+        public void get_IsNullable(){} // RVA: 0x7AE8CAEA0
     }
 
-    public class NamespaceListV1Compat
+    public class NamespaceListV1Compat : NamespaceList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x693CCD0
-        public void Allows(){} // RVA: 0x693CCE0
+        public void .ctor(){} // RVA: 0x7AE72C290
+        public void Allows(){} // RVA: 0x7AE72C2A0
     }
 
-    public class NfaContentValidator
+    public class NfaContentValidator : ContentValidator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6ADFAC0
-        public void InitValidation(){} // RVA: 0x6ADFCA0
-        public void ValidateElement(){} // RVA: 0x6ADFD70
-        public void CompleteValidation(){} // RVA: 0x6AE0020
-        public void ExpectedElements(){} // RVA: 0x6AE00A0
-        public void ExpectedParticles(){} // RVA: 0x6AE02B0
+        public void .ctor(){} // RVA: 0x7AE8D0000
+        public void InitValidation(){} // RVA: 0x7AE8D01E0
+        public void ValidateElement(){} // RVA: 0x7AE8D02B0
+        public void CompleteValidation(){} // RVA: 0x7AE8D0580
+        public void ExpectedElements(){} // RVA: 0x7AE8D0600
+        public void ExpectedParticles(){} // RVA: 0x7AE8D0810
     }
 
-    public class Numeric10FacetsChecker
+    public class Numeric10FacetsChecker : FacetsChecker
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6B05C30
-        public void CheckValueFacets(){} // RVA: 0x6B06670 | overloaded x5
-        public void MatchEnumeration(){} // RVA: 0x6B067F0 | overloaded x2
-        public void CheckTotalAndFractionDigits(){} // RVA: 0x6B06960
-        public void .cctor(){} // RVA: 0x6B06F70
+        public void .ctor(){} // RVA: 0x7AE8F6480
+        public void CheckValueFacets(){} // RVA: 0x7AE8F6EC0
+        public void MatchEnumeration(){} // RVA: 0x7AE8F7040
+        public void CheckTotalAndFractionDigits(){} // RVA: 0x7AE8F71B0
+        public void .cctor(){} // RVA: 0x7AE8F77C0
     }
 
-    public class Numeric2FacetsChecker
+    public class Numeric2FacetsChecker : FacetsChecker
     {
         // ── Methods ──
-        public void CheckValueFacets(){} // RVA: 0x6B07450 | overloaded x3
-        public void MatchEnumeration(){} // RVA: 0x6B07590 | overloaded x2
-        public void .ctor(){} // RVA: 0x2DD310
+        public void CheckValueFacets(){} // RVA: 0x7AE8F7CA0
+        public void MatchEnumeration(){} // RVA: 0x7AE8F7DE0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

@@ -5,31 +5,27 @@
 
 namespace ThirdParty.Sentry.Sentry.Internal.ScopeStack
 {
-    public class AsyncLocalScopeStackContainer
+    public class AsyncLocalScopeStackContainer : Object
     {
-        public System.Threading.AsyncLocal`1<System.Collections.Generic.KeyValuePair`2<Sentry.Scope,Sentry.ISentryClient>[]> _asyncLocalScope; // 0x10
-
         // ── Methods ──
-        public void get_Stack(){} // RVA: 0x641F130
-        public void set_Stack(){} // RVA: 0x641F180
-        public void .ctor(){} // RVA: 0x641F1E0
+        public void get_Stack(){} // RVA: 0x7AE20CF10
+        public void set_Stack(){} // RVA: 0x7AE20CF60
+        public void .ctor(){} // RVA: 0x7AE20CFC0
     }
 
-    public class GlobalScopeStackContainer
+    public class GlobalScopeStackContainer : Object
     {
-        public System.Collections.Generic.KeyValuePair`2<Sentry.Scope,Sentry.ISentryClient>[] <Stack>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Stack(){} // RVA: 0x2F8380
-        public void set_Stack(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Stack(){} // RVA: 0x7A80F2570
+        public void set_Stack(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
     public class IScopeStackContainer
     {
         // ── Methods ──
-        public void get_Stack(){} // RVA: 0xCD60
-        public void set_Stack(){} // RVA: 0x24B10
+        public void get_Stack(){} // RVA: 0x7A7E00680
+        public void set_Stack(){} // RVA: 0x7A7E18800
     }
 
 }

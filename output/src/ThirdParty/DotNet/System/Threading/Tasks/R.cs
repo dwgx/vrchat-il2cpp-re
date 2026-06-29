@@ -5,22 +5,20 @@
 
 namespace ThirdParty.DotNet.System.Threading.Tasks
 {
-    public class RangeManager
+    public class RangeManager : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F445A0
-        public void RegisterNewWorker(){} // RVA: 0x5F447F0
+        public void .ctor(){} // RVA: 0x7ADD32F80
+        public void RegisterNewWorker(){} // RVA: 0x7ADD331C0
     }
 
-    public class RangeWorker
+    public class RangeWorker : ValueType
     {
-        public System.Threading.Tasks.IndexRange[] _indexRanges; // 0x10
-
         // ── Methods ──
-        public void get_IsInitialized(){} // RVA: 0x1102770
-        public void .ctor(){} // RVA: 0x5F44250
-        public void FindNewWork(){} // RVA: 0x5F442C0
-        public void FindNewWork32(){} // RVA: 0x5F44550
+        public void get_IsInitialized(){} // RVA: 0x7A763CB50
+        public void .ctor(){} // RVA: 0x7A7E44300
+        public void FindNewWork(){} // RVA: 0x7A7E44320
+        public void FindNewWork32(){} // RVA: 0x7A7E44330
     }
 
 }

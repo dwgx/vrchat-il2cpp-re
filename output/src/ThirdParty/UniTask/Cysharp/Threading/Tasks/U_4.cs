@@ -1,948 +1,1132 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
 // Classes: 100
-// Methods: 440
+// Methods: 624
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
-    public class UniTask`1
+    public class UniTaskCompletionSource : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÎÌÎÍÏÌÌÍÎÏÍÍÍÏÎÍÏÍÏÌÍÍÏ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÌÎÍÍÌÍÌÌÎÏÌÌÎÌÏÎÎÎÌÎÎÌÏ<ÏÎÌÌÍÍÎÏÍÏÌÎÌÎÏÌÍÎÎÌÌÏÍ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4534A60 | overloaded x2
-        public void get_Status(){} // RVA: 0x4534AD0
-        public void GetAwaiter(){} // RVA: 0x4534B50
-        public void Preserve(){} // RVA: 0x4534BA0
-        public void AsUniTask(){} // RVA: 0x458AFF0
-        public void op_Implicit(){} // RVA: 0x4589640 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4589740
-        public void ToString(){} // RVA: 0x458B200
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void MarkHandled(){} // RVA: 0x7AEAEF020
+        public void get_Task(){} // RVA: 0x7AEAEF030
+        public void TrySetResult(){} // RVA: 0x7AEAEF090
+        public void TrySetCanceled(){} // RVA: 0x7AEAEF0A0
+        public void TrySetException(){} // RVA: 0x7AEAEF110
+        public void GetResult(){} // RVA: 0x7AEAEF300
+        public void GetStatus(){} // RVA: 0x7A8178B30
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B30
+        public void OnCompleted(){} // RVA: 0x7AEAEF400
+        public void TrySignalCompletion(){} // RVA: 0x7AEAEF7F0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCoreShared : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÎÍÍÌÍÌÌÎÏÌÌÎÌÏÎÎÎÌÎÎÌÏ<ÏÎÌÌÍÍÎÏÍÏÌÎÌÎÏÌÍÎÎÌÌÏÍ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<int,ÏÎÌÌÍÍÎÏÍÏÌÎÌÎÏÌÍÎÎÌÌÏÍ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4585300
-        public void op_Implicit(){} // RVA: 0x4580B60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4580C50
-        public void ToString(){} // RVA: 0x4585510
+        public void CompletionSentinel(){} // RVA: 0x7AEAEE440
+        public void .cctor(){} // RVA: 0x7AEAEE490
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<int,ÏÎÌÌÍÍÎÏÍÏÌÎÌÎÏÌÍÎÎÌÌÏÍ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<bool,ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ>>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x453AE40 | overloaded x2
-        public void get_Status(){} // RVA: 0x453AEB0
-        public void GetAwaiter(){} // RVA: 0x453AF30
-        public void Preserve(){} // RVA: 0x453AF80
-        public void AsUniTask(){} // RVA: 0x4576920
-        public void op_Implicit(){} // RVA: 0x456EEC0 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x456EFD0
-        public void ToString(){} // RVA: 0x4576B20
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x45376B0 | overloaded x2
-        public void get_Status(){} // RVA: 0x4537720
-        public void GetAwaiter(){} // RVA: 0x180B7B0
-        public void Preserve(){} // RVA: 0x45377A0
-        public void AsUniTask(){} // RVA: 0x4583980
-        public void op_Implicit(){} // RVA: 0x457C090 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x457C190
-        public void ToString(){} // RVA: 0x4583B90
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<bool,System.ValueTuple`2<bool,ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ>>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÎÏÏÌÌÏÏÎÍÍÎÍÍÎÏÏÍÎÏÏÏÏÎ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x453AE40 | overloaded x2
-        public void get_Status(){} // RVA: 0x453AEB0
-        public void GetAwaiter(){} // RVA: 0x453AF30
-        public void Preserve(){} // RVA: 0x453AF80
-        public void AsUniTask(){} // RVA: 0x4593E10
-        public void op_Implicit(){} // RVA: 0x453B2C0 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x453B3D0
-        public void ToString(){} // RVA: 0x4594010
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÎÏÏÌÌÏÏÎÍÍÎÍÍÎÏÏÍÎÏÏÏÏÎ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<string,UnityEngine.Texture2D>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x45866A0
-        public void op_Implicit(){} // RVA: 0x4585F60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4586050
-        public void ToString(){} // RVA: 0x45868B0
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<string,UnityEngine.Texture2D>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÌÎÍÍÌÍÌÌÎÏÌÌÎÌÏÎÎÎÌÎÎÌÏ<ÏÌÌÎÎÏÌÍÌÍÍÌÌÍÍÌÌÌÌÌÍÍÏ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4534A60 | overloaded x2
-        public void get_Status(){} // RVA: 0x4534AD0
-        public void GetAwaiter(){} // RVA: 0x4534B50
-        public void Preserve(){} // RVA: 0x4534BA0
-        public void AsUniTask(){} // RVA: 0x458AFF0
-        public void op_Implicit(){} // RVA: 0x4589640 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4589740
-        public void ToString(){} // RVA: 0x458B200
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÎÍÍÌÍÌÌÎÏÌÌÎÌÏÎÎÎÌÎÎÌÏ<ÏÌÌÎÎÏÌÍÌÍÍÌÌÍÍÌÌÌÌÌÍÍÏ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<0x6571ACF8> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4564390 | overloaded x2
-        public void get_Status(){} // RVA: 0x45643F0
-        public void GetAwaiter(){} // RVA: 0x6D2390
-        public void Preserve(){} // RVA: 0x4564470
-        public void AsUniTask(){} // RVA: 0x458DA80
-        public void op_Implicit(){} // RVA: 0x458D6E0 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458D7C0
-        public void ToString(){} // RVA: 0x458DC80
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,0x6571ACF8>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<int,ÏÌÌÎÎÏÌÍÌÍÍÌÌÍÍÌÌÌÌÌÍÍÏ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4585300
-        public void op_Implicit(){} // RVA: 0x4580B60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4580C50
-        public void ToString(){} // RVA: 0x4585510
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<int,ÏÌÌÎÎÏÌÍÌÍÍÌÌÍÍÌÌÌÌÌÍÍÏ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÎÎÎÎÎÏÏÍÎÎÌÍÌÎÏÏÏÌÌÏÏÎ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x453B840 | overloaded x2
-        public void get_Status(){} // RVA: 0x453B8B0
-        public void GetAwaiter(){} // RVA: 0x453B930
-        public void Preserve(){} // RVA: 0x453B990
-        public void AsUniTask(){} // RVA: 0x4593070
-        public void op_Implicit(){} // RVA: 0x4593280 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x45933B0
-        public void ToString(){} // RVA: 0x4593630
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÍÎÎÎÎÎÏÏÍÎÎÌÍÌÎÏÏÏÌÌÏÏÎ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÌÎÏÍÍÎÍÎÎÎÎÏÎÌÏÌÎÌÍÍÏÍÌ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x45376B0 | overloaded x2
-        public void get_Status(){} // RVA: 0x4537720
-        public void GetAwaiter(){} // RVA: 0x180B7B0
-        public void Preserve(){} // RVA: 0x45377A0
-        public void AsUniTask(){} // RVA: 0x4594B40
-        public void op_Implicit(){} // RVA: 0x457C090 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x457C190
-        public void ToString(){} // RVA: 0x4594D50
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÎÏÍÍÎÍÎÎÎÎÏÎÌÏÌÎÌÍÍÏÍÌ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<bool,bool>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÏÏÍÌÏÏÎÍÎÌÎÎÌÏÍÏÍÎÏÌÎÍÏ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<0x65716A48,ÎÍÏÌÍÎÍÏÎÌÏÏÍÏÏÎÏÎÏÌÎÏÌ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4585630
-        public void op_Implicit(){} // RVA: 0x4580B60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4580C50
-        public void ToString(){} // RVA: 0x4585840
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<0x65716AA0,UnityEngine.GameObject>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4585630
-        public void op_Implicit(){} // RVA: 0x4580B60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4580C50
-        public void ToString(){} // RVA: 0x4585840
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<0x65716AA0,UnityEngine.GameObject>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<UnityEngine.Object> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`3<bool,bool,UnityEngine.GameObject>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4587200
-        public void op_Implicit(){} // RVA: 0x4580B60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4580C50
-        public void ToString(){} // RVA: 0x4587410
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,UnityEngine.Object>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`3<bool,bool,UnityEngine.GameObject>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÌÌÏÎÌÌÍÎÎÎÍÏÍÌÎÏÎÏÏÏÏÌÌ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x45376B0 | overloaded x2
-        public void get_Status(){} // RVA: 0x4537720
-        public void GetAwaiter(){} // RVA: 0x180B7B0
-        public void Preserve(){} // RVA: 0x45377A0
-        public void AsUniTask(){} // RVA: 0x45927C0
-        public void op_Implicit(){} // RVA: 0x4537AE0 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4537BE0
-        public void ToString(){} // RVA: 0x45929D0
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÌÏÎÌÌÍÎÎÎÍÏÍÌÎÏÎÏÏÏÏÌÌ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<bool,UnityEngine.GameObject>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<0x65716A48,ÎÍÏÌÍÎÍÏÎÌÏÏÍÏÏÎÏÎÏÌÎÏÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<string,bool>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4585D50
-        public void op_Implicit(){} // RVA: 0x4585F60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4586050
-        public void ToString(){} // RVA: 0x4586250
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<string,bool>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<string,string>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x45866A0
-        public void op_Implicit(){} // RVA: 0x4585F60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4586050
-        public void ToString(){} // RVA: 0x45868B0
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<string,string>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<UnityEngine.Texture> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void Reset(){} // RVA: 0x7A7AEEE40
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEEE50
+        public void MarkHandled(){} // RVA: 0x7A7AE49C0
+        public void TrySetResult(){} // RVA: 0x7A7AEEE60
+        public void TrySetException(){} // RVA: 0x7A7AEEE90
+        public void TrySetCanceled(){} // RVA: 0x7A7AEEEA0
+        public void get_Version(){} // RVA: 0x7A7AE4B50
+        public void GetStatus(){} // RVA: 0x7A7AEEFE0
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEEFF0
+        public void GetResult(){} // RVA: 0x7A7AE4B80
+        public void OnCompleted(){} // RVA: 0x7A7AEF000
+        public void ValidateToken(){} // RVA: 0x7A7ADBEF0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<LoadingInfoData> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,UnityEngine.Texture>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>,System.ValueTuple`2<VRC.Core.APIUser,VRC.Core.ApiContainer>>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x45376B0 | overloaded x2
-        public void get_Status(){} // RVA: 0x4537720
-        public void GetAwaiter(){} // RVA: 0x180B7B0
-        public void Preserve(){} // RVA: 0x45377A0
-        public void AsUniTask(){} // RVA: 0x45378D0
-        public void op_Implicit(){} // RVA: 0x4537AE0 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4537BE0
-        public void ToString(){} // RVA: 0x4537E10
+        public void Reset(){} // RVA: 0x7A7AE8A70
+        public void ReportUnhandledError(){} // RVA: 0x7A7AE8A80
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AE8A90
+        public void TrySetException(){} // RVA: 0x7A7AE8AA0
+        public void TrySetCanceled(){} // RVA: 0x7A7AE8AB0
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AE8AC0
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AE8AD0
+        public void GetResult(){} // RVA: 0x7A7AE8A50
+        public void OnCompleted(){} // RVA: 0x7A7AE8AE0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<string,byte[]>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x45866A0
-        public void op_Implicit(){} // RVA: 0x4585F60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4586050
-        public void ToString(){} // RVA: 0x45868B0
+        public void Reset(){} // RVA: 0x7A7AEE440
+        public void ReportUnhandledError(){} // RVA: 0x7A7AEE450
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AEE460
+        public void TrySetException(){} // RVA: 0x7A7AEE470
+        public void TrySetCanceled(){} // RVA: 0x7A7AEE480
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AEE490
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AEE4A0
+        public void GetResult(){} // RVA: 0x7A7ADB3D0
+        public void OnCompleted(){} // RVA: 0x7A7AEE4B0
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>,System.ValueTuple`2<VRC.Core.APIUser,VRC.Core.ApiContainer>>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<string,byte[]>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.Collections.Generic.IList`1<ÏÎÌÎÏÍÎÎÍÌÌÎÌÌÌÌÏÎÏÍÌÎÌ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void Reset(){} // RVA: 0x7A7AE89E0
+        public void ReportUnhandledError(){} // RVA: 0x7A7AE89F0
+        public void MarkHandled(){} // RVA: 0x7A7ADB240
+        public void TrySetResult(){} // RVA: 0x7A7AE8A00
+        public void TrySetException(){} // RVA: 0x7A7AE8A10
+        public void TrySetCanceled(){} // RVA: 0x7A7AE8A20
+        public void get_Version(){} // RVA: 0x7A767FEE0
+        public void GetStatus(){} // RVA: 0x7A7AE8A30
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AE8A40
+        public void GetResult(){} // RVA: 0x7A7AE8A50
+        public void OnCompleted(){} // RVA: 0x7A7AE8A60
+        public void ValidateToken(){} // RVA: 0x7A7AD91E0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSourceCore`1 : ValueType
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.Collections.Generic.IList`1<ÏÎÌÎÏÍÎÎÍÌÌÎÌÌÌÌÏÎÏÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.Collections.Generic.List`1<ÌÏÍÍÏÌÌÏÎÏÌÍÏÌÌÍÍÌÍÏÏÍÍ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void Reset(){} // RVA: 0x7A7AE5FF0
+        public void ReportUnhandledError(){} // RVA: 0x7A7AE6000
+        public void MarkHandled(){} // RVA: 0x7A7ADAFD0
+        public void TrySetResult(){} // RVA: 0x7A7AE6010
+        public void TrySetException(){} // RVA: 0x7A7AE6030
+        public void TrySetCanceled(){} // RVA: 0x7A7AE6040
+        public void get_Version(){} // RVA: 0x7A7ADB150
+        public void GetStatus(){} // RVA: 0x7A7AE6050
+        public void UnsafeGetStatus(){} // RVA: 0x7A7AE6060
+        public void GetResult(){} // RVA: 0x7A7ADB180
+        public void OnCompleted(){} // RVA: 0x7A7AE6070
+        public void ValidateToken(){} // RVA: 0x7A7ADB1C0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource[] : Array
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.Collections.Generic.List`1<ÌÏÍÍÏÌÌÏÎÏÌÍÏÌÌÍÍÌÍÏÏÍÍ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`3<string,bool,VRC.Localization.LocalizableString>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x453B840 | overloaded x2
-        public void get_Status(){} // RVA: 0x453B8B0
-        public void GetAwaiter(){} // RVA: 0x453B930
-        public void Preserve(){} // RVA: 0x453B990
-        public void AsUniTask(){} // RVA: 0x4588920
-        public void op_Implicit(){} // RVA: 0x4588B30 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4588C60
-        public void ToString(){} // RVA: 0x4588EE0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`3<string,bool,VRC.Localization.LocalizableString>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.Collections.IList> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.Collections.IList>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÍÏÌÍÍÌÌÏÏÌÎÏÎÏÎÍÍÌÌÍÎÌÎ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÍÌÌÎÎÌÏÌÍÎÎÎÏÏÏÌÎÏÌÍÌÎ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4580950
-        public void op_Implicit(){} // RVA: 0x4580B60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4580C50
-        public void ToString(){} // RVA: 0x4580E50
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<VRC.Core.ApiContainer> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,VRC.Core.ApiContainer>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`3<ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ,ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ,int>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÏÏÍÏÌÎÏÎÏÍÌÌÍÍÌÎÌÌÌÏÎÌÌ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÏÏÍÏÌÎÏÎÏÍÌÌÍÍÌÎÌÌÌÏÎÌÌ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<UnityEngine.Texture2D[]> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÏÏÎÍÏÎÎÌÌÎÌÏÍÍÎÏÏÏÎÌÏÌÌ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,UnityEngine.Texture2D[]>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<UnityEngine.GameObject>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.Net.HttpListenerContext> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.Net.HttpListenerContext>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`4<int,string,int,bool>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4534A60 | overloaded x2
-        public void get_Status(){} // RVA: 0x4534AD0
-        public void GetAwaiter(){} // RVA: 0x4534B50
-        public void Preserve(){} // RVA: 0x4534BA0
-        public void AsUniTask(){} // RVA: 0x458A330
-        public void op_Implicit(){} // RVA: 0x4537190 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4537290
-        public void ToString(){} // RVA: 0x458A540
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`4<int,string,int,bool>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÎÌÎÎÌÎÎÎÍÌÏÎÌÍÏÌÎÍÍÎÎÍÎ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÎÌÎÎÌÎÎÎÍÌÏÎÌÍÏÌÎÍÍÎÎÍÎ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4580950
-        public void op_Implicit(){} // RVA: 0x4580B60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4580C50
-        public void ToString(){} // RVA: 0x4580E50
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.Collections.Generic.List`1<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÍÏÏÍÏÏÍÎÌÎÎÎÍÌÏÌÍÌÎÎÎÏÌ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÍÏÏÍÏÏÍÎÌÎÎÎÍÌÏÌÍÌÎÎÎÏÌ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÌÍÌÏÌÌÌÌÍÎÎÍÍÎÎÍÎÌÌÍÎÏÎ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÍÌÏÌÌÌÌÍÎÎÍÍÎÎÍÎÌÌÍÎÏÎ>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<UnityEngine.GameObject,VRC.SDK3.Props.Components.VRCPropDescriptor>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x45866A0
-        public void op_Implicit(){} // RVA: 0x4585F60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4586050
-        public void ToString(){} // RVA: 0x45868B0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<UnityEngine.GameObject,VRC.SDK3.Props.Components.VRCPropDescriptor>>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<UnityEngine.Rendering.AsyncGPUReadbackRequest> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x458B9E0
-        public void op_Implicit(){} // RVA: 0x4535830 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4535980
-        public void ToString(){} // RVA: 0x458BBF0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,UnityEngine.Rendering.AsyncGPUReadbackRequest>> source; // 0x10
-    }
-
-    public class UniTask`1
-    {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ>> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535420 | overloaded x2
-        public void get_Status(){} // RVA: 0x4535480
-        public void GetAwaiter(){} // RVA: 0x81E8F0
-        public void Preserve(){} // RVA: 0x4535500
-        public void AsUniTask(){} // RVA: 0x4580950
-        public void op_Implicit(){} // RVA: 0x4580B60 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x4580C50
-        public void ToString(){} // RVA: 0x4580E50
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ> source; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4535D30 | overloaded x2
-        public void get_Status(){} // RVA: 0x4EB260
-        public void GetAwaiter(){} // RVA: 0x4EB090
-        public void Preserve(){} // RVA: 0x4535D90
-        public void AsUniTask(){} // RVA: 0x458EB80
-        public void op_Implicit(){} // RVA: 0x458ED80 | overloaded x2
-        public void SuppressCancellationThrow(){} // RVA: 0x458EE70
-        public void ToString(){} // RVA: 0x458F040
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
     }
 
-    public class UniTask`1
+    public class UniTaskCompletionSource`1 : Object
     {
-        public Cysharp.Threading.Tasks.IUniTaskSource`1<System.ValueTuple`2<bool,System.ValueTuple`2<bool,ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ>>> source; // 0x10
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void TrySetException(){} // RVA: 0x7AC2DBC00
+        public void TrySetResult(){} // RVA: 0x7AC2DBB20
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetCanceled(){} // RVA: 0x7AC2DBB90
+        public void GetResult(){} // RVA: 0x7AC2DB120
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2DBE10
+        public void TrySignalCompletion(){} // RVA: 0x7AC2DC200
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D41E0
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D91E0
+        public void MarkHandled(){} // RVA: 0x7AC2D91D0
+        public void TrySetResult(){} // RVA: 0x7AC2D9240
+        public void TrySetCanceled(){} // RVA: 0x7AC2D9270
+        public void TrySetException(){} // RVA: 0x7AC2D92E0
+        public void GetResult(){} // RVA: 0x7AC2D94F0
+        public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC2D95E0
+        public void GetStatus(){} // RVA: 0x7A8178B70
+        public void UnsafeGetStatus(){} // RVA: 0x7A8178B70
+        public void OnCompleted(){} // RVA: 0x7AC2D96E0
+        public void TrySignalCompletion(){} // RVA: 0x7AC2D9AD0
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2D69A0
+    }
+
+    public class UniTaskCompletionSource`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Task(){} // RVA: 0x7AC2DAD80
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7B35880
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7B35880
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7B35880
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void .ctor(){} // RVA: 0x7A7B35880
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AEFD20
+        public void get_Status(){} // RVA: 0x7A7AEFD30
+        public void GetAwaiter(){} // RVA: 0x7A7AEFD40
+        public void Preserve(){} // RVA: 0x7A7AEFE10
+        public void AsUniTask(){} // RVA: 0x7A7AF0DF0
+        public void op_Implicit(){} // RVA: 0x7AC2E3960
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7AF0E20
+        public void ToString(){} // RVA: 0x7A7AF0E60
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0FD0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF0690
+        public void get_Status(){} // RVA: 0x7A7B35890
+        public void GetAwaiter(){} // RVA: 0x7A7AF0700
+        public void Preserve(){} // RVA: 0x7A7AF07C0
+        public void AsUniTask(){} // RVA: 0x7A7B358A0
+        public void op_Implicit(){} // RVA: 0x7AC37D020
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B358D0
+        public void ToString(){} // RVA: 0x7A7B35910
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AF01D0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void op_Implicit(){} // RVA: 0x7AC37CFC0
+    }
+
+    public class UniTask`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7B30D80
+        public void GetAwaiter(){} // RVA: 0x7A7AF0240
+        public void get_Status(){} // RVA: 0x7A7AF0230
+        public void Preserve(){} // RVA: 0x7A7AF02F0
+        public void AsUniTask(){} // RVA: 0x7A7B31150
+        public void op_Implicit(){} // RVA: 0x7AC374190
+        public void SuppressCancellationThrow(){} // RVA: 0x7A7B30DD0
+        public void ToString(){} // RVA: 0x7A7B31180
+    }
+
+    public class UniTask`1[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
 }

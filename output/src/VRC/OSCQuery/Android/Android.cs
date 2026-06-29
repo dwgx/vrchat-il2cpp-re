@@ -1,46 +1,45 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.OSCQuery.Android
 // Classes: 2
-// Methods: 26
+// Methods: 27
 
 namespace VRC.OSCQuery.Android
 {
-    public class AndroidDiscovery
+    public class AndroidDiscovery : Object
     {
-        public float multicastDelay; // 0x10
-
         // ── Methods ──
-        public void getMulticastLock(){} // RVA: 0x598C60
-        public void get_MulticastLockStatus(){} // RVA: 0x5992B0
-        public void set_MulticastLockStatus(){} // RVA: 0x5992C0
-        public void add_MulticastLockStatusChanged(){} // RVA: 0x599310
-        public void remove_MulticastLockStatusChanged(){} // RVA: 0x599410
-        public void OnMulticastLockStatusChanged(){} // RVA: 0x599510
-        public void acquireMultiCastPeriodically(){} // RVA: 0x5996F0
-        public void ProcessErrors(){} // RVA: 0x599840
-        public void .ctor(){} // RVA: 0x5998E0
-        public void StartService(){} // RVA: 0x59A460
-        public void OnServiceProfileFoundFromJava(){} // RVA: 0x59A990
-        public void OnDestroy(){} // RVA: 0x59ACE0
-        public void GetOSCQueryServices(){} // RVA: 0x37B370
-        public void GetOSCServices(){} // RVA: 0x358D50
-        public void Dispose(){} // RVA: 0x59ACF0
-        public void RefreshServices(){} // RVA: 0x2DD310
-        public void Advertise(){} // RVA: 0x59AED0
-        public void Unadvertise(){} // RVA: 0x2DD310
-        public void add_OnOscServiceAdded(){} // RVA: 0x59B0A0
-        public void remove_OnOscServiceAdded(){} // RVA: 0x59B1A0
-        public void add_OnOscQueryServiceAdded(){} // RVA: 0x59B2A0
-        public void remove_OnOscQueryServiceAdded(){} // RVA: 0x59B3A0
-        public void <ProcessErrors>b__18_0(){} // RVA: 0x59B4A0
+        public void getMulticastLock(){} // RVA: 0x7A8351FA0
+        public void get_MulticastLockStatus(){} // RVA: 0x7A83525F0
+        public void set_MulticastLockStatus(){} // RVA: 0x7A8352600
+        public void add_MulticastLockStatusChanged(){} // RVA: 0x7A8352650
+        public void remove_MulticastLockStatusChanged(){} // RVA: 0x7A8352760
+        public void OnMulticastLockStatusChanged(){} // RVA: 0x7A8352870
+        public void acquireMultiCastPeriodically(){} // RVA: 0x7A8352A50
+        public void ProcessErrors(){} // RVA: 0x7A8352BA0
+        public void .ctor(){} // RVA: 0x7A8352C40
+        public void StartService(){} // RVA: 0x7A83537C0
+        public void OnServiceProfileFoundFromJava(){} // RVA: 0x7A8353CF0
+        public void OnDestroy(){} // RVA: 0x7A8354050
+        public void GetOSCQueryServices(){} // RVA: 0x7A8175DF0
+        public void GetOSCServices(){} // RVA: 0x7A8153390
+        public void Dispose(){} // RVA: 0x7A8354060
+        public void RefreshServices(){} // RVA: 0x7A80D7310
+        public void Advertise(){} // RVA: 0x7A8354240
+        public void Unadvertise(){} // RVA: 0x7A80D7310
+        public void add_OnOscServiceAdded(){} // RVA: 0x7A8354410
+        public void remove_OnOscServiceAdded(){} // RVA: 0x7A8354520
+        public void add_OnOscQueryServiceAdded(){} // RVA: 0x7A8354630
+        public void remove_OnOscQueryServiceAdded(){} // RVA: 0x7A8354750
+        public void <ProcessErrors>b__18_0(){} // RVA: 0x7A8354870
     }
 
-    public class JavaBridge
+    public class JavaBridge : AndroidJavaProxy
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x59BC70
-        public void OnJavaServiceInfo(){} // RVA: 0x59BCE0
-        public void GetServiceTypeFromJavaString(){} // RVA: 0x59C040
+        public void .ctor(){} // RVA: 0x7A8355060
+        public void OnJavaServiceInfo(){} // RVA: 0x7A83550D0
+        public void GetServiceTypeFromJavaString(){} // RVA: 0x7A8355430
+        public void OnServiceProfileFound(){} // RVA: 0x7B41AC7D8
     }
 
 }

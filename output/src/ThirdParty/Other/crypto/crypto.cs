@@ -5,15 +5,15 @@
 
 namespace ThirdParty.Other.crypto
 {
-    public class Security
+    public class Security : Object
     {
         // ── Methods ──
-        public void ComputeHash(){} // RVA: 0x9429300
-        public void Decrypt(){} // RVA: 0x9429530
-        public void Encrypt(){} // RVA: 0x9429600
-        public void GenerateText(){} // RVA: 0x9429700
-        public void CreateCipher(){} // RVA: 0x9429800
-        public void .ctor(){} // RVA: 0x2DD310
+        public void ComputeHash(){} // RVA: 0x7B125CDC0
+        public void Decrypt(){} // RVA: 0x7B125CFF0
+        public void Encrypt(){} // RVA: 0x7B125D0C0
+        public void GenerateText(){} // RVA: 0x7B125D1C0
+        public void CreateCipher(){} // RVA: 0x7B125D2C0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

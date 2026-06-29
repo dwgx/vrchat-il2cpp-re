@@ -1,49 +1,35 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Immutable
-// Classes: 5
+// Classes: 3
 // Methods: 12
 
 namespace ThirdParty.DotNet.System.Collections.Immutable
 {
-    public class AllocFreeConcurrentStack
+    public class AllocFreeConcurrentStack`1 : Object
     {
-    }
-
-    public class AllocFreeConcurrentStack
-    {
-    }
-
-    public class AllocFreeConcurrentStack`1
-    {
-        public System.Type Count;
-
         // ── Methods ──
-        public void TryAdd(){} // RVA: 0x283FA0
-        public void TryTake(){} // RVA: 0xDCC0
-        public void get_ThreadLocalStack(){} // RVA: 0xC960
-        public void .cctor(){} // RVA: 0x24A80
+        public void TryAdd(){} // RVA: 0x7A8051B10
+        public void TryTake(){} // RVA: 0x7A7E01A10
+        public void get_ThreadLocalStack(){} // RVA: 0x7A7E006B0
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class AllocFreeConcurrentStack`1
+    public class AllocFreeConcurrentStack`1 : Object
     {
-        public System.Type capacity;
-
         // ── Methods ──
-        public void TryAdd(){} // RVA: 0x283FA0
-        public void TryTake(){} // RVA: 0xDCC0
-        public void get_ThreadLocalStack(){} // RVA: 0xC960
-        public void .cctor(){} // RVA: 0x24A80
+        public void TryAdd(){} // RVA: 0x7A8051B10
+        public void TryTake(){} // RVA: 0x7A7E01A10
+        public void get_ThreadLocalStack(){} // RVA: 0x7A7E006B0
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class AllocFreeConcurrentStack`1
+    public class AllocFreeConcurrentStack`1 : Object
     {
-        public System.Type s_typeOfT;
-
         // ── Methods ──
-        public void TryAdd(){} // RVA: 0x37FEBF0
-        public void TryTake(){} // RVA: 0x37FED40
-        public void get_ThreadLocalStack(){} // RVA: 0x37FEE80
-        public void .cctor(){} // RVA: 0x37FF210
+        public void TryAdd(){} // RVA: 0x7AB5F14F0
+        public void TryTake(){} // RVA: 0x7AB5F1650
+        public void get_ThreadLocalStack(){} // RVA: 0x7AB5F1790
+        public void .cctor(){} // RVA: 0x7AB5F1B20
     }
 
 }

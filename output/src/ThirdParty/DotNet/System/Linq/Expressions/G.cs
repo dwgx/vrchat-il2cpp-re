@@ -1,26 +1,21 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq.Expressions
 // Classes: 1
-// Methods: 9
+// Methods: 8
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class GotoExpression
+    public class GotoExpression : Expression
     {
-        public System.Type <Type>k__BackingField; // 0x10
-        public System.Linq.Expressions.Expression <Value>k__BackingField; // 0x18
-        public System.Linq.Expressions.LabelTarget <Target>k__BackingField; // 0x20
-        public 0x659086F8 <Kind>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65F9BD0 | overloaded x2
-        public void get_Type(){} // RVA: 0x2F8380
-        public void get_NodeType(){} // RVA: 0xFE5FD0
-        public void get_Value(){} // RVA: 0x2E07C0
-        public void get_Target(){} // RVA: 0x30B0C0
-        public void get_Kind(){} // RVA: 0x791DC0
-        public void Accept(){} // RVA: 0x65F9AE0
-        public void Update(){} // RVA: 0x65F9B10
+        public void .ctor(){} // RVA: 0x7AE3E83F0
+        public void get_Type(){} // RVA: 0x7A80F2570
+        public void get_NodeType(){} // RVA: 0x7A8D8FC40
+        public void get_Value(){} // RVA: 0x7A80DA7B0
+        public void get_Target(){} // RVA: 0x7A81052C0
+        public void get_Kind(){} // RVA: 0x7A854FDE0
+        public void Accept(){} // RVA: 0x7AE3E8300
+        public void Update(){} // RVA: 0x7AE3E8330
     }
 
 }

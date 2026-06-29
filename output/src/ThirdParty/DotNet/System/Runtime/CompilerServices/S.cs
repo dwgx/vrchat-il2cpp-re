@@ -1,128 +1,107 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.CompilerServices
-// Classes: 15
-// Methods: 36
+// Classes: 14
+// Methods: 29
 
 namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
-    public class ScopedRefAttribute
+    public class ScopedRefAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ScopedRefAttribute
+    public class ScopedRefAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ScopedRefAttribute
+    public class ScopedRefAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SkipLocalsInitAttribute
+    public class SkipLocalsInitAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class StateMachineAttribute
-    {
-        public System.Type <StateMachineType>k__BackingField; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_StateMachineType(){} // RVA: 0x2F8380
-    }
-
-    public class StringFreezingAttribute
+    public class StateMachineAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_StateMachineType(){} // RVA: 0x7A80F2570
     }
 
-    public class StrongBox`1 : System.Runtime.CompilerServices.IStrongBox.Value
-    {
-        public T Value;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0 | overloaded x2
-        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0xCD60
-        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x24B10
-    }
-
-    public class StrongBox`1
-    {
-        public System.Text.Encodings.Web.AllowedBmpCodePointsBitmap Value; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40AA560 | overloaded x2
-        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x40AA580
-        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x40AA5D0
-    }
-
-    public class StrongBox`1
-    {
-        public System.DateTime Value; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1967700 | overloaded x2
-        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x40AA640
-        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x40AA670
-    }
-
-    public class StrongBox`1
-    {
-        public object Value; // 0x10
-    }
-
-    public class StrongBox`1
-    {
-        public VRC.SDKBase.VRCPlayerApi Value; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x2F8380
-        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x40ABBF0
-    }
-
-    public class StrongBox`1
-    {
-        public int Value; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0 | overloaded x2
-        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x40AABC0
-        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x40AABF0
-    }
-
-    public class StrongBox`1
-    {
-        public string Value; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x2F8380
-        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x40ABBF0
-    }
-
-    public class StrongBox`1
-    {
-        public object Value; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x2F8380
-        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x40ABBF0
-    }
-
-    public class SuppressIldasmAttribute
+    public class StringFreezingAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
+    }
+
+    public class StrongBox`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x7A7E00680
+        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x7A7E18800
+    }
+
+    public class StrongBox`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ABE9F8D0
+        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x7ABE9F910
+        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x7ABE9F980
+    }
+
+    public class StrongBox`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A97242F0
+        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x7ABE9F9F0
+        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x7ABE9FA20
+    }
+
+    public class StrongBox`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x7A80F2570
+        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x7ABEA0FA0
+    }
+
+    public class StrongBox`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x7ABE9FF70
+        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x7ABE9FFA0
+    }
+
+    public class StrongBox`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x7A80F2570
+        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x7ABEA0FA0
+    }
+
+    public class StrongBox`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void System.Runtime.CompilerServices.IStrongBox.get_Value(){} // RVA: 0x7A80F2570
+        public void System.Runtime.CompilerServices.IStrongBox.set_Value(){} // RVA: 0x7ABEA0FA0
+    }
+
+    public class SuppressIldasmAttribute : Attribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

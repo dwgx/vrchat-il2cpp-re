@@ -1,292 +1,249 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.FlatBuffers.FlatBuffers8
 // Classes: 16
-// Methods: 163
+// Methods: 161
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
-    public class PlayerDrone
+    public class PlayerDrone : ValueType
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsPlayerDrone(){} // RVA: 0x75E0C40 | overloaded x2
-        public void VerifyPlayerDrone(){} // RVA: 0x75E44C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_Throttle(){} // RVA: 0x75E3420
-        public void CreatePlayerDrone(){} // RVA: 0x75E45B0
-        public void StartPlayerDrone(){} // RVA: 0x75E0EB0
-        public void AddThrottle(){} // RVA: 0x75E3560
-        public void EndPlayerDrone(){} // RVA: 0x75E46A0
-        public void FinishPlayerDroneBuffer(){} // RVA: 0x75E2530
-        public void FinishSizePrefixedPlayerDroneBuffer(){} // RVA: 0x75E2590
-        public void UnPack(){} // RVA: 0x75E4730
-        public void UnPackTo(){} // RVA: 0x75E3700
-        public void Pack(){} // RVA: 0x75E47D0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsPlayerDrone(){} // RVA: 0x7AF3BF190
+        public void VerifyPlayerDrone(){} // RVA: 0x7AF3C2A50
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_Throttle(){} // RVA: 0x7A7F12A70
+        public void CreatePlayerDrone(){} // RVA: 0x7AF3C2B40
+        public void StartPlayerDrone(){} // RVA: 0x7AF3BF400
+        public void AddThrottle(){} // RVA: 0x7AF3C1AF0
+        public void EndPlayerDrone(){} // RVA: 0x7AF3C2C30
+        public void FinishPlayerDroneBuffer(){} // RVA: 0x7AF3C0AA0
+        public void FinishSizePrefixedPlayerDroneBuffer(){} // RVA: 0x7AF3C0B00
+        public void UnPack(){} // RVA: 0x7A7F12C50
+        public void UnPackTo(){} // RVA: 0x7A7F12AD0
+        public void Pack(){} // RVA: 0x7AF3C2D60
     }
 
-    public class PlayerDroneT
+    public class PlayerDroneT : Object
     {
-        public float <Throttle>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Throttle(){} // RVA: 0x407320
-        public void set_Throttle(){} // RVA: 0x407330
-        public void .ctor(){} // RVA: 0xA5D070
-        public void DeserializeFromBinary(){} // RVA: 0x75E47F0
-        public void SerializeToBinary(){} // RVA: 0x75E4920
+        public void get_Throttle(){} // RVA: 0x7A82023C0
+        public void set_Throttle(){} // RVA: 0x7A82023D0
+        public void .ctor(){} // RVA: 0x7A881ACE0
+        public void DeserializeFromBinary(){} // RVA: 0x7AF3C2D80
+        public void SerializeToBinary(){} // RVA: 0x7AF3C2EB0
     }
 
-    public class PlayerDroneVerify
+    public class PlayerDroneVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E39B0
+        public void Verify(){} // RVA: 0x7AF3C1F40
     }
 
-    public class PoseFingerData
+    public class PoseFingerData : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void FingerStretch(){} // RVA: 0x75E5870
-        public void FingerSpread(){} // RVA: 0x75E58A0
-        public void CreatePoseFingerData(){} // RVA: 0x75E58D0
-        public void UnPack(){} // RVA: 0x75E5A60
-        public void UnPackTo(){} // RVA: 0x75E5AD0
-        public void Pack(){} // RVA: 0x75E5C90
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void FingerStretch(){} // RVA: 0x7A7F12D70
+        public void FingerSpread(){} // RVA: 0x7A7F12DA0
+        public void CreatePoseFingerData(){} // RVA: 0x7AF3C3E60
+        public void UnPack(){} // RVA: 0x7A7F12DD0
+        public void UnPackTo(){} // RVA: 0x7A7F12DE0
+        public void Pack(){} // RVA: 0x7AF3C4220
     }
 
-    public class PoseFingerDataT
+    public class PoseFingerDataT : Object
     {
-        public byte[] ByteBuffer; // 0x10
-        public byte[] HandGestureLeft; // 0x18
-
         // ── Methods ──
-        public void get_FingerStretch(){} // RVA: 0x2F8380
-        public void set_FingerStretch(){} // RVA: 0x2DEE30
-        public void get_FingerSpread(){} // RVA: 0x2E07C0
-        public void set_FingerSpread(){} // RVA: 0x343E80
-        public void .ctor(){} // RVA: 0x75E5CB0
+        public void get_FingerStretch(){} // RVA: 0x7A80F2570
+        public void set_FingerStretch(){} // RVA: 0x7A80D8E20
+        public void get_FingerSpread(){} // RVA: 0x7A80DA7B0
+        public void set_FingerSpread(){} // RVA: 0x7A813E420
+        public void .ctor(){} // RVA: 0x7AF3C4240
     }
 
-    public class PoseHandGestures
+    public class PoseHandGestures : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_HandGestureLeft(){} // RVA: 0x75E5DC0
-        public void get_HandGestureRight(){} // RVA: 0x75E5DF0
-        public void CreatePoseHandGestures(){} // RVA: 0x75E5E20
-        public void UnPack(){} // RVA: 0x75E5F20
-        public void UnPackTo(){} // RVA: 0x75E5FB0
-        public void Pack(){} // RVA: 0x75E6010
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_HandGestureLeft(){} // RVA: 0x7A7F12E10
+        public void get_HandGestureRight(){} // RVA: 0x7A7F12E40
+        public void CreatePoseHandGestures(){} // RVA: 0x7AF3C43B0
+        public void UnPack(){} // RVA: 0x7A7F12E70
+        public void UnPackTo(){} // RVA: 0x7A7F12E80
+        public void Pack(){} // RVA: 0x7AF3C45A0
     }
 
-    public class PoseHandGesturesT
+    public class PoseHandGesturesT : Object
     {
-        public byte ByteBuffer; // 0x10
-        public byte <HandGestureRight>k__BackingField; // 0x11
-
         // ── Methods ──
-        public void get_HandGestureLeft(){} // RVA: 0x3A75E0
-        public void set_HandGestureLeft(){} // RVA: 0x3A75F0
-        public void get_HandGestureRight(){} // RVA: 0x543460
-        public void set_HandGestureRight(){} // RVA: 0x543470
-        public void .ctor(){} // RVA: 0x570B30
+        public void get_HandGestureLeft(){} // RVA: 0x7A81A2200
+        public void set_HandGestureLeft(){} // RVA: 0x7A81A2210
+        public void get_HandGestureRight(){} // RVA: 0x7A82FBFB0
+        public void set_HandGestureRight(){} // RVA: 0x7A82FBFC0
+        public void .ctor(){} // RVA: 0x7A83299A0
     }
 
-    public class PoseMuscleData
+    public class PoseMuscleData : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_BodyRotation(){} // RVA: 0x75E4E20
-        public void get_HipPosition(){} // RVA: 0x75E4E60
-        public void Muscles(){} // RVA: 0x75E4EA0
-        public void CreatePoseMuscleData(){} // RVA: 0x75E4ED0
-        public void UnPack(){} // RVA: 0x75E50D0
-        public void UnPackTo(){} // RVA: 0x75E52E0
-        public void Pack(){} // RVA: 0x75E5570
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_BodyRotation(){} // RVA: 0x7A7F12C80
+        public void get_HipPosition(){} // RVA: 0x7A7F12CC0
+        public void Muscles(){} // RVA: 0x7A7F12D00
+        public void CreatePoseMuscleData(){} // RVA: 0x7AF3C3460
+        public void UnPack(){} // RVA: 0x7A7F12D30
+        public void UnPackTo(){} // RVA: 0x7A7F12D40
+        public void Pack(){} // RVA: 0x7AF3C3B10
     }
 
-    public class PoseMuscleDataT
+    public class PoseMuscleDataT : Object
     {
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionTenBitT ByteBuffer; // 0x10
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3HalfT <HipPosition>k__BackingField; // 0x18
-        public byte[] <Muscles>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void get_BodyRotation(){} // RVA: 0x2F8380
-        public void set_BodyRotation(){} // RVA: 0x2DEE30
-        public void get_HipPosition(){} // RVA: 0x2E07C0
-        public void set_HipPosition(){} // RVA: 0x343E80
-        public void get_Muscles(){} // RVA: 0x30B0C0
-        public void set_Muscles(){} // RVA: 0x30B0D0
-        public void .ctor(){} // RVA: 0x75E56C0
+        public void get_BodyRotation(){} // RVA: 0x7A80F2570
+        public void set_BodyRotation(){} // RVA: 0x7A80D8E20
+        public void get_HipPosition(){} // RVA: 0x7A80DA7B0
+        public void set_HipPosition(){} // RVA: 0x7A813E420
+        public void get_Muscles(){} // RVA: 0x7A81052C0
+        public void set_Muscles(){} // RVA: 0x7A81052D0
+        public void .ctor(){} // RVA: 0x7AF3C3C50
     }
 
-    public class PosePositionDataUnion
+    public class PosePositionDataUnion : Object
     {
-        public 0x65918138 ByteBuffer; // 0x10
-        public object Contents; // 0x18
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x3A75E0
-        public void set_Type(){} // RVA: 0x3A75F0
-        public void get_Value(){} // RVA: 0x2E07C0
-        public void set_Value(){} // RVA: 0x343E80
-        public void .ctor(){} // RVA: 0x75DFAD0
-        public void As(){} // RVA: 0x283FA0
-        public void AsPoseMuscleData(){} // RVA: 0x75E4A20
-        public void FromPoseMuscleData(){} // RVA: 0x75E4AE0
-        public void Pack(){} // RVA: 0x75E4BE0
+        public void get_Type(){} // RVA: 0x7A81A2200
+        public void set_Type(){} // RVA: 0x7A81A2210
+        public void get_Value(){} // RVA: 0x7A80DA7B0
+        public void set_Value(){} // RVA: 0x7A813E420
+        public void .ctor(){} // RVA: 0x7AF3BE020
+        public void As(){} // RVA: 0x7A8051B10
+        public void AsPoseMuscleData(){} // RVA: 0x7AF3C2FB0
+        public void FromPoseMuscleData(){} // RVA: 0x7AF3C3070
+        public void Pack(){} // RVA: 0x7AF3C3170
     }
 
-    public class PosePositionDataVerify
+    public class PosePositionDataVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E4DE0
+        public void Verify(){} // RVA: 0x7AF3C3370
     }
 
-    public class PoseRecorder
+    public class PoseRecorder : ValueType
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsPoseRecorder(){} // RVA: 0x75E0C40 | overloaded x2
-        public void VerifyPoseRecorder(){} // RVA: 0x75E6360
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_Contents(){} // RVA: 0x75E6450
-        public void get_MotionFlags(){} // RVA: 0x75E64A0
-        public void get_ExtraFlags(){} // RVA: 0x75E64F0
-        public void get_StandingHeight(){} // RVA: 0x75E6540
-        public void get_AngVelocity(){} // RVA: 0x75E6590
-        public void get_Gestures(){} // RVA: 0x75E65E0
-        public void get_Fingers(){} // RVA: 0x75E66F0
-        public void get_PoseType(){} // RVA: 0x75E6800
-        public void Pose(){} // RVA: 0x283FA0
-        public void PoseAsPoseMuscleData(){} // RVA: 0x75E6850
-        public void get_Puppet(){} // RVA: 0x75E68E0
-        public void get_EyeLookTargetPosition(){} // RVA: 0x75E69F0
-        public void get_EyeClosedAmount(){} // RVA: 0x75E6B00
-        public void get_SpineLengthFactor(){} // RVA: 0x75E6B50
-        public void get_FaceTrackedVisemes(){} // RVA: 0x75E6C60
-        public void CreatePoseRecorder(){} // RVA: 0x75E6D70
-        public void StartPoseRecorder(){} // RVA: 0x75E7200
-        public void AddContents(){} // RVA: 0x75E7220
-        public void AddMotionFlags(){} // RVA: 0x75E7290
-        public void AddExtraFlags(){} // RVA: 0x75E7300
-        public void AddStandingHeight(){} // RVA: 0x75E7370
-        public void AddAngVelocity(){} // RVA: 0x75E73E0
-        public void AddGestures(){} // RVA: 0x75E7450
-        public void AddFingers(){} // RVA: 0x75E7480
-        public void AddPoseType(){} // RVA: 0x75E74B0
-        public void AddPose(){} // RVA: 0x75E7520
-        public void AddPuppet(){} // RVA: 0x75E7560
-        public void AddEyeLookTargetPosition(){} // RVA: 0x75E7590
-        public void AddEyeClosedAmount(){} // RVA: 0x75E75C0
-        public void AddSpineLengthFactor(){} // RVA: 0x75E7630
-        public void AddFaceTrackedVisemes(){} // RVA: 0x75E7660
-        public void EndPoseRecorder(){} // RVA: 0x75E7690
-        public void FinishPoseRecorderBuffer(){} // RVA: 0x75E2530
-        public void FinishSizePrefixedPoseRecorderBuffer(){} // RVA: 0x75E2590
-        public void UnPack(){} // RVA: 0x75E7720
-        public void UnPackTo(){} // RVA: 0x75E7790
-        public void Pack(){} // RVA: 0x75E8210
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsPoseRecorder(){} // RVA: 0x7AF3BF190
+        public void VerifyPoseRecorder(){} // RVA: 0x7AF3C4910
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_Contents(){} // RVA: 0x7A7F12F40
+        public void get_MotionFlags(){} // RVA: 0x7A7F12F90
+        public void get_ExtraFlags(){} // RVA: 0x7A7F12FE0
+        public void get_StandingHeight(){} // RVA: 0x7A7F13030
+        public void get_AngVelocity(){} // RVA: 0x7A7F13080
+        public void get_Gestures(){} // RVA: 0x7A7F130D0
+        public void get_Fingers(){} // RVA: 0x7A7F13100
+        public void get_PoseType(){} // RVA: 0x7A7F13130
+        public void Pose(){} // RVA: 0x7A8051B10
+        public void PoseAsPoseMuscleData(){} // RVA: 0x7A7F13180
+        public void get_Puppet(){} // RVA: 0x7A7F13210
+        public void get_EyeLookTargetPosition(){} // RVA: 0x7A7F13240
+        public void get_EyeClosedAmount(){} // RVA: 0x7A7F13270
+        public void get_SpineLengthFactor(){} // RVA: 0x7A7F132C0
+        public void get_FaceTrackedVisemes(){} // RVA: 0x7A7F132F0
+        public void CreatePoseRecorder(){} // RVA: 0x7AF3C5380
+        public void StartPoseRecorder(){} // RVA: 0x7AF3C5810
+        public void AddContents(){} // RVA: 0x7AF3C5830
+        public void AddMotionFlags(){} // RVA: 0x7AF3C58A0
+        public void AddExtraFlags(){} // RVA: 0x7AF3C5910
+        public void AddStandingHeight(){} // RVA: 0x7AF3C5980
+        public void AddAngVelocity(){} // RVA: 0x7AF3C59F0
+        public void AddGestures(){} // RVA: 0x7AF3C5A60
+        public void AddFingers(){} // RVA: 0x7AF3C5A90
+        public void AddPoseType(){} // RVA: 0x7AF3C5AC0
+        public void AddPose(){} // RVA: 0x7AF3C5B30
+        public void AddPuppet(){} // RVA: 0x7AF3C5B70
+        public void AddEyeLookTargetPosition(){} // RVA: 0x7AF3C5BA0
+        public void AddEyeClosedAmount(){} // RVA: 0x7AF3C5BD0
+        public void AddSpineLengthFactor(){} // RVA: 0x7AF3C5C40
+        public void AddFaceTrackedVisemes(){} // RVA: 0x7AF3C5C70
+        public void EndPoseRecorder(){} // RVA: 0x7AF3C5CA0
+        public void FinishPoseRecorderBuffer(){} // RVA: 0x7AF3C0AA0
+        public void FinishSizePrefixedPoseRecorderBuffer(){} // RVA: 0x7AF3C0B00
+        public void UnPack(){} // RVA: 0x7A7F13320
+        public void UnPackTo(){} // RVA: 0x7A7F13330
+        public void Pack(){} // RVA: 0x7AF3C6820
     }
 
-    public class PoseRecorderT
+    public class PoseRecorderT : Object
     {
-        public ushort <Contents>k__BackingField; // 0x10
-        public byte <MotionFlags>k__BackingField; // 0x12
-        public byte <ExtraFlags>k__BackingField; // 0x13
-        public byte <StandingHeight>k__BackingField; // 0x14
-        public byte <AngVelocity>k__BackingField; // 0x15
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.PoseHandGesturesT <Gestures>k__BackingField; // 0x18
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.PoseFingerDataT <Fingers>k__BackingField; // 0x20
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.PosePositionDataUnion <Pose>k__BackingField; // 0x28
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.PuppetDataT <Puppet>k__BackingField; // 0x30
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.Vector3TenBitT <EyeLookTargetPosition>k__BackingField; // 0x38
-        public byte <EyeClosedAmount>k__BackingField; // 0x40
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.FloatHalfT <SpineLengthFactor>k__BackingField; // 0x48
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.FaceTrackedVisemeDataT <FaceTrackedVisemes>k__BackingField; // 0x50
-
         // ── Methods ──
-        public void get_Contents(){} // RVA: 0x1C0F720
-        public void set_Contents(){} // RVA: 0x1C0FA70
-        public void get_MotionFlags(){} // RVA: 0x195A940
-        public void set_MotionFlags(){} // RVA: 0x195A9A0
-        public void get_ExtraFlags(){} // RVA: 0x195A9E0
-        public void set_ExtraFlags(){} // RVA: 0x195A9B0
-        public void get_StandingHeight(){} // RVA: 0x42CBD0
-        public void set_StandingHeight(){} // RVA: 0x42CBE0
-        public void get_AngVelocity(){} // RVA: 0x5992B0
-        public void set_AngVelocity(){} // RVA: 0x195A9C0
-        public void get_Gestures(){} // RVA: 0x2E07C0
-        public void set_Gestures(){} // RVA: 0x343E80
-        public void get_Fingers(){} // RVA: 0x30B0C0
-        public void set_Fingers(){} // RVA: 0x30B0D0
-        public void get_Pose(){} // RVA: 0x30B130
-        public void set_Pose(){} // RVA: 0x2DEE90
-        public void get_Puppet(){} // RVA: 0x6374D0
-        public void set_Puppet(){} // RVA: 0x30B890
-        public void get_EyeLookTargetPosition(){} // RVA: 0x4976A0
-        public void set_EyeLookTargetPosition(){} // RVA: 0x49B830
-        public void get_EyeClosedAmount(){} // RVA: 0x398C00
-        public void set_EyeClosedAmount(){} // RVA: 0x398C10
-        public void get_SpineLengthFactor(){} // RVA: 0x358730
-        public void set_SpineLengthFactor(){} // RVA: 0x358740
-        public void get_FaceTrackedVisemes(){} // RVA: 0x37E0E0
-        public void set_FaceTrackedVisemes(){} // RVA: 0x4354D0
-        public void .ctor(){} // RVA: 0x75E8330
-        public void DeserializeFromBinary(){} // RVA: 0x75E86E0
-        public void SerializeToBinary(){} // RVA: 0x75E87D0
+        public void get_Contents(){} // RVA: 0x7A99CD750
+        public void set_Contents(){} // RVA: 0x7A99CDAA0
+        public void get_MotionFlags(){} // RVA: 0x7A9716B70
+        public void set_MotionFlags(){} // RVA: 0x7A9716BD0
+        public void get_ExtraFlags(){} // RVA: 0x7A9716C10
+        public void set_ExtraFlags(){} // RVA: 0x7A9716BE0
+        public void get_StandingHeight(){} // RVA: 0x7A8227C00
+        public void set_StandingHeight(){} // RVA: 0x7A8227C10
+        public void get_AngVelocity(){} // RVA: 0x7A83525F0
+        public void set_AngVelocity(){} // RVA: 0x7A9716BF0
+        public void get_Gestures(){} // RVA: 0x7A80DA7B0
+        public void set_Gestures(){} // RVA: 0x7A813E420
+        public void get_Fingers(){} // RVA: 0x7A81052C0
+        public void set_Fingers(){} // RVA: 0x7A81052D0
+        public void get_Pose(){} // RVA: 0x7A8105330
+        public void set_Pose(){} // RVA: 0x7A80D8E80
+        public void get_Puppet(){} // RVA: 0x7A83F69F0
+        public void set_Puppet(){} // RVA: 0x7A8105A90
+        public void get_EyeLookTargetPosition(){} // RVA: 0x7A8292C30
+        public void set_EyeLookTargetPosition(){} // RVA: 0x7A8296DE0
+        public void get_EyeClosedAmount(){} // RVA: 0x7A8193790
+        public void set_EyeClosedAmount(){} // RVA: 0x7A81937A0
+        public void get_SpineLengthFactor(){} // RVA: 0x7A8152D80
+        public void set_SpineLengthFactor(){} // RVA: 0x7A8152D90
+        public void get_FaceTrackedVisemes(){} // RVA: 0x7A8178B90
+        public void set_FaceTrackedVisemes(){} // RVA: 0x7A8230620
+        public void .ctor(){} // RVA: 0x7AF3C6910
+        public void DeserializeFromBinary(){} // RVA: 0x7AF3C6CC0
+        public void SerializeToBinary(){} // RVA: 0x7AF3C6DC0
     }
 
-    public class PoseRecorderVerify
+    public class PoseRecorderVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E88D0
+        public void Verify(){} // RVA: 0x7AF3C6EC0
     }
 
-    public class PuppetData
+    public class PuppetData : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Channels(){} // RVA: 0x75E5870
-        public void CreatePuppetData(){} // RVA: 0x75EE060
-        public void UnPack(){} // RVA: 0x75EE170
-        public void UnPackTo(){} // RVA: 0x75EE1E0
-        public void Pack(){} // RVA: 0x75EE2E0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Channels(){} // RVA: 0x7A7F12D70
+        public void CreatePuppetData(){} // RVA: 0x7AF3CC660
+        public void UnPack(){} // RVA: 0x7A7F13A00
+        public void UnPackTo(){} // RVA: 0x7A7F13A10
+        public void Pack(){} // RVA: 0x7AF3CC900
     }
 
-    public class PuppetDataT
+    public class PuppetDataT : Object
     {
-        public byte[] Objects; // 0x10
-
         // ── Methods ──
-        public void get_Channels(){} // RVA: 0x2F8380
-        public void set_Channels(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x75EE300
+        public void get_Channels(){} // RVA: 0x7A80F2570
+        public void set_Channels(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AF3CC920
     }
 
 }

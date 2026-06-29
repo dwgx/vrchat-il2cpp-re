@@ -5,303 +5,237 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class RegisterActivationCodeResponse_t
+    public class RegisterActivationCodeResponse_t : ValueType
     {
-        public 0x659B1A00 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CE670
-        public void .cctor(){} // RVA: 0x20CE680
+        public void get_CallbackType(){} // RVA: 0x7A7725850
+        public void .cctor(){} // RVA: 0x7A9EE2F20
     }
 
-    public class RemotePlaySession
+    public class RemotePlaySession : ValueType
     {
-        public uint <Id>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Id(){} // RVA: 0x19689B0
-        public void set_Id(){} // RVA: 0x833580
-        public void ToString(){} // RVA: 0x20D6530
-        public void op_Implicit(){} // RVA: 0x20C5210
+        public void get_Id(){} // RVA: 0x7A765F070
+        public void set_Id(){} // RVA: 0x7A76134D0
+        public void ToString(){} // RVA: 0x7A7729700
+        public void op_Implicit(){} // RVA: 0x7A9ED9B50
     }
 
-    public class RemoteStorageDeletePublishedFileResult_t
+    public class RemoteStorageDeletePublishedFileResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CBE10
-        public void .cctor(){} // RVA: 0x20CBE20
+        public void get_CallbackType(){} // RVA: 0x7A7720F50
+        public void .cctor(){} // RVA: 0x7A9EE06C0
     }
 
-    public class RemoteStorageDownloadUGCResult_t
+    public class RemoteStorageDownloadUGCResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC470
-        public void .cctor(){} // RVA: 0x20CC480
+        public void get_CallbackType(){} // RVA: 0x7A7722730
+        public void .cctor(){} // RVA: 0x7A9EE0D20
     }
 
-    public class RemoteStorageEnumeratePublishedFilesByUserActionResult_t
+    public class RemoteStorageEnumeratePublishedFilesByUserActionResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CD020
-        public void .cctor(){} // RVA: 0x20CD030
+        public void get_CallbackType(){} // RVA: 0x7A77250D0
+        public void .cctor(){} // RVA: 0x7A9EE18D0
     }
 
-    public class RemoteStorageEnumerateUserPublishedFilesResult_t
+    public class RemoteStorageEnumerateUserPublishedFilesResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CBF20
-        public void .cctor(){} // RVA: 0x20CBF30
+        public void get_CallbackType(){} // RVA: 0x7A77216F0
+        public void .cctor(){} // RVA: 0x7A9EE07D0
     }
 
-    public class RemoteStorageEnumerateUserSharedWorkshopFilesResult_t
+    public class RemoteStorageEnumerateUserSharedWorkshopFilesResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CCE00
-        public void .cctor(){} // RVA: 0x20CCE10
+        public void get_CallbackType(){} // RVA: 0x7A7724290
+        public void .cctor(){} // RVA: 0x7A9EE16B0
     }
 
-    public class RemoteStorageEnumerateUserSubscribedFilesResult_t
+    public class RemoteStorageEnumerateUserSubscribedFilesResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC140
-        public void .cctor(){} // RVA: 0x20CC150
+        public void get_CallbackType(){} // RVA: 0x7A7722520
+        public void .cctor(){} // RVA: 0x7A9EE09F0
     }
 
-    public class RemoteStorageEnumerateWorkshopFilesResult_t
+    public class RemoteStorageEnumerateWorkshopFilesResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC690
-        public void .cctor(){} // RVA: 0x20CC6A0
+        public void get_CallbackType(){} // RVA: 0x7A7723E20
+        public void .cctor(){} // RVA: 0x7A9EE0F40
     }
 
-    public class RemoteStorageFileReadAsyncComplete_t
+    public class RemoteStorageFileReadAsyncComplete_t : ValueType
     {
-        public ulong FileReadAsync; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CD460
-        public void .cctor(){} // RVA: 0x20CD470
+        public void get_CallbackType(){} // RVA: 0x7A7725110
+        public void .cctor(){} // RVA: 0x7A9EE1D10
     }
 
-    public class RemoteStorageFileShareResult_t
+    public class RemoteStorageFileShareResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CBBF0
-        public void .cctor(){} // RVA: 0x20CBC00
+        public void get_CallbackType(){} // RVA: 0x7A7720F30
+        public void .cctor(){} // RVA: 0x7A9EE04A0
     }
 
-    public class RemoteStorageFileWriteAsyncComplete_t
+    public class RemoteStorageFileWriteAsyncComplete_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CD350
-        public void .cctor(){} // RVA: 0x20CD360
+        public void get_CallbackType(){} // RVA: 0x7A7725100
+        public void .cctor(){} // RVA: 0x7A9EE1C00
     }
 
-    public class RemoteStorageGetPublishedFileDetailsResult_t
+    public class RemoteStorageGetPublishedFileDetailsResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC580
-        public void .cctor(){} // RVA: 0x20CC590
+        public void get_CallbackType(){} // RVA: 0x7A7722FE0
+        public void .cctor(){} // RVA: 0x7A9EE0E30
     }
 
-    public class RemoteStorageGetPublishedItemVoteDetailsResult_t
+    public class RemoteStorageGetPublishedItemVoteDetailsResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC7A0
-        public void .cctor(){} // RVA: 0x20CC7B0
+        public void get_CallbackType(){} // RVA: 0x7A7723E30
+        public void .cctor(){} // RVA: 0x7A9EE1050
     }
 
-    public class RemoteStorageLocalFileChange_t
+    public class RemoteStorageLocalFileChange_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CD570
-        public void .cctor(){} // RVA: 0x20CD580
+        public void get_CallbackType(){} // RVA: 0x7A7725120
+        public void .cctor(){} // RVA: 0x7A9EE1E20
     }
 
-    public class RemoteStoragePublishFileProgress_t
+    public class RemoteStoragePublishFileProgress_t : ValueType
     {
-        public double DPercentFile; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CD130
-        public void .cctor(){} // RVA: 0x20CD140
+        public void get_CallbackType(){} // RVA: 0x7A77250E0
+        public void .cctor(){} // RVA: 0x7A9EE19E0
     }
 
-    public class RemoteStoragePublishFileResult_t
+    public class RemoteStoragePublishFileResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CBD00
-        public void .cctor(){} // RVA: 0x20CBD10
+        public void get_CallbackType(){} // RVA: 0x7A7720F40
+        public void .cctor(){} // RVA: 0x7A9EE05B0
     }
 
-    public class RemoteStoragePublishedFileDeleted_t
+    public class RemoteStoragePublishedFileDeleted_t : ValueType
     {
-        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CCAD0
-        public void .cctor(){} // RVA: 0x20CCAE0
+        public void get_CallbackType(){} // RVA: 0x7A7723E60
+        public void .cctor(){} // RVA: 0x7A9EE1380
     }
 
-    public class RemoteStoragePublishedFileSubscribed_t
+    public class RemoteStoragePublishedFileSubscribed_t : ValueType
     {
-        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC8B0
-        public void .cctor(){} // RVA: 0x20CC8C0
+        public void get_CallbackType(){} // RVA: 0x7A7723E40
+        public void .cctor(){} // RVA: 0x7A9EE1160
     }
 
-    public class RemoteStoragePublishedFileUnsubscribed_t
+    public class RemoteStoragePublishedFileUnsubscribed_t : ValueType
     {
-        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC9C0
-        public void .cctor(){} // RVA: 0x20CC9D0
+        public void get_CallbackType(){} // RVA: 0x7A7723E50
+        public void .cctor(){} // RVA: 0x7A9EE1270
     }
 
-    public class RemoteStoragePublishedFileUpdated_t
+    public class RemoteStoragePublishedFileUpdated_t : ValueType
     {
-        public Steamworks.Data.PublishedFileId PublishedFileId; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CD240
-        public void .cctor(){} // RVA: 0x20CD250
+        public void get_CallbackType(){} // RVA: 0x7A77250F0
+        public void .cctor(){} // RVA: 0x7A9EE1AF0
     }
 
-    public class RemoteStorageSetUserPublishedFileActionResult_t
+    public class RemoteStorageSetUserPublishedFileActionResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CCF10
-        public void .cctor(){} // RVA: 0x20CCF20
+        public void get_CallbackType(){} // RVA: 0x7A77242A0
+        public void .cctor(){} // RVA: 0x7A9EE17C0
     }
 
-    public class RemoteStorageSubscribePublishedFileResult_t
+    public class RemoteStorageSubscribePublishedFileResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC030
-        public void .cctor(){} // RVA: 0x20CC040
+        public void get_CallbackType(){} // RVA: 0x7A7721700
+        public void .cctor(){} // RVA: 0x7A9EE08E0
     }
 
-    public class RemoteStorageUnsubscribePublishedFileResult_t
+    public class RemoteStorageUnsubscribePublishedFileResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC250
-        public void .cctor(){} // RVA: 0x20CC260
+        public void get_CallbackType(){} // RVA: 0x7A7722530
+        public void .cctor(){} // RVA: 0x7A9EE0B00
     }
 
-    public class RemoteStorageUpdatePublishedFileResult_t
+    public class RemoteStorageUpdatePublishedFileResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CC360
-        public void .cctor(){} // RVA: 0x20CC370
+        public void get_CallbackType(){} // RVA: 0x7A7722540
+        public void .cctor(){} // RVA: 0x7A9EE0C10
     }
 
-    public class RemoteStorageUpdateUserPublishedItemVoteResult_t
+    public class RemoteStorageUpdateUserPublishedItemVoteResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CCBE0
-        public void .cctor(){} // RVA: 0x20CCBF0
+        public void get_CallbackType(){} // RVA: 0x7A7723E70
+        public void .cctor(){} // RVA: 0x7A9EE1490
     }
 
-    public class RemoteStorageUserVoteDetails_t
+    public class RemoteStorageUserVoteDetails_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CCCF0
-        public void .cctor(){} // RVA: 0x20CCD00
+        public void get_CallbackType(){} // RVA: 0x7A7723E80
+        public void .cctor(){} // RVA: 0x7A9EE15A0
     }
 
-    public class RemoveAppDependencyResult_t
+    public class RemoveAppDependencyResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D1640
-        public void .cctor(){} // RVA: 0x20D1650
+        public void get_CallbackType(){} // RVA: 0x7A77262E0
+        public void .cctor(){} // RVA: 0x7A9EE5EF0
     }
 
-    public class RemoveUGCDependencyResult_t
+    public class RemoveUGCDependencyResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D1420
-        public void .cctor(){} // RVA: 0x20D1430
+        public void get_CallbackType(){} // RVA: 0x7A77262C0
+        public void .cctor(){} // RVA: 0x7A9EE5CD0
     }
 
-    public class RequestPlayersForGameFinalResultCallback_t
+    public class RequestPlayersForGameFinalResultCallback_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CB260
-        public void .cctor(){} // RVA: 0x20CB270
+        public void get_CallbackType(){} // RVA: 0x7A7720B30
+        public void .cctor(){} // RVA: 0x7A9EDFB10
     }
 
-    public class RequestPlayersForGameProgressCallback_t
+    public class RequestPlayersForGameProgressCallback_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CB040
-        public void .cctor(){} // RVA: 0x20CB050
+        public void get_CallbackType(){} // RVA: 0x7A7720B10
+        public void .cctor(){} // RVA: 0x7A9EDF8F0
     }
 
-    public class RequestPlayersForGameResultCallback_t
+    public class RequestPlayersForGameResultCallback_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CB150
-        public void .cctor(){} // RVA: 0x20CB160
+        public void get_CallbackType(){} // RVA: 0x7A7720B20
+        public void .cctor(){} // RVA: 0x7A9EDFA00
     }
 
-    public class ReservationNotificationCallback_t
+    public class ReservationNotificationCallback_t : ValueType
     {
-        public ulong BeaconID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CB7B0
-        public void .cctor(){} // RVA: 0x20CB7C0
+        public void get_CallbackType(){} // RVA: 0x7A7720D30
+        public void .cctor(){} // RVA: 0x7A9EE0060
     }
 
 }

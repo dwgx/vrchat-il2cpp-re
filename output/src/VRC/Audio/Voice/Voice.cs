@@ -5,62 +5,53 @@
 
 namespace VRC.Audio.Voice
 {
-    public class MicrophoneManager
+    public class MicrophoneManager : Object
     {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÏÏÎÍÍÏÏÌÌÎÎÍÌÌÍÏÎÍÌÏÏÍ>k__BackingField; // 0x10
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÎÏÏÍÍÌÌÍÍÍÎÌÏÌÏÍÎÌÌÍÍ>k__BackingField; // 0x18
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÍÎÍÎÌÍÎÎÎÍÎÏÏÌÌÏÎÌÌÏÌÍÏ> <ÍÎÎÍÍÍÍÎÍÍÌÎÌÎÍÎÌÌÌÌÌÎÏ>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x30B0C0
-        public void GetPosition(){} // RVA: 0xFE4A40
-        public void .ctor(){} // RVA: 0xFE4E20
-        public void Initialize(){} // RVA: 0xFE53A0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void get_Current(){} // RVA: 0x2F8380
-        // ── Unresolved (hash) ──
-        public void m_EF5(){} // RVA: 0xFE4AC0
-        public void m_7D0(){} // RVA: 0xFE4B40
-        public void m_A33(){} // RVA: 0xFE50C0
-        public void m_23F(){} // RVA: 0x2F8380
-        public void m_BAA(){} // RVA: 0x30B0C0
-        public void m_81D(){} // RVA: 0xFE5480
-        public void m_91E(){} // RVA: 0xFE5610
-        public void m_8FB(){} // RVA: 0xFE5690
+        public void GetInstanceID(){} // RVA: 0x7A81052C0
+        public void Equals(){} // RVA: 0x7A8D8E6B0
+        public void GetHashCode(){} // RVA: 0x7A8D8E730
+        public void op_Implicit(){} // RVA: 0x7A8D8E7B0
+        public void .ctor(){} // RVA: 0x7A8D8EA90
+        public void IsNativeObjectAlive(){} // RVA: 0x7A8D8ED30
+        public void Initialize(){} // RVA: 0x7A8D8F010
+        public void get_name(){} // RVA: 0x7A81052C0
+        public void set_name(){} // RVA: 0x7A80F2570
+        public void Instantiate(){} // RVA: 0x7A81052C0
+        public void Destroy(){} // RVA: 0x7A80DA7B0
+        public void DestroyImmediate(){} // RVA: 0x7A8D8F0F0
+        public void FindObjectsOfType(){} // RVA: 0x7A80F2570
+        public void FindObjectsByType(){} // RVA: 0x7A8D8F280
+        public void DontDestroyOnLoad(){} // RVA: 0x7A8D8F300
     }
 
-    public class VoicePriorityManager
+    public class VoicePriorityManager : Object
     {
-        public System.Collections.Generic.List`1<ÎÎÎÏÎÏÏÎÎÏÎÍÍÏÌÏÍÏÍÏÎÎÌ> ÍÌÎÏÏÎÌÍÏÍÌÍÍÎÌÌÌÎÌÍÏÎÍ; // 0x10
-        public System.Collections.Concurrent.ConcurrentDictionary`2<ÏÍÏÎÌÏÎÎÌÌÏÎÍÌÏÍÎÏÎÏÍÌÎ,ÎÎÎÏÎÏÏÎÎÏÎÍÍÏÌÏÍÏÍÏÎÎÌ> ÍÎÍÍÏÌÌÍÍÍÌÌÍÏÎÏÏÏÏÏÏÎÌ; // 0x18
-        public object ÍÏÌÍÏÍÌÍÎÍÌÍÏÏÏÌÌÌÌÏÌÏÎ; // 0x20
-
         // ── Methods ──
-        public void ResolveTypeName(){} // RVA: 0xFE6900
-        public void .cctor(){} // RVA: 0xFE7090
-        public void GetExternFunctionParameterCount(){} // RVA: 0xFE7170
-        public void Contains(){} // RVA: 0x2F8380
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-        public void CopyTo(){} // RVA: 0xFE7180
-        public void Clear(){} // RVA: 0xFE71D0
-        public void Add(){} // RVA: 0xFE7380
-        public void GetComponentsInChildren(){} // RVA: 0xFE7AD0
-        public void GetExternFunctionParameterCount_68C6F3540081(){} // RVA: 0xFE7170
-        public void GetComponentsInChildren_3725B3EE4333(){} // RVA: 0xFE7B70
-        public void GetComponentsInChildren_4F13759EAE5B(){} // RVA: 0xFE8020
-        public void GetExternFunctionParameterCount_14A959393C9B(){} // RVA: 0xFE7170
-        public void GetMethods(){} // RVA: 0xFE80C0
-        public void Remove(){} // RVA: 0x2F8380
-        public void Initialize(){} // RVA: 0xFE8200
-        public void GetMethodsByName(){} // RVA: 0xFE82E0
-        public void GetMethodsByName_96EAD25C2F2E(){} // RVA: 0xFE8360
-        public void GetProperties(){} // RVA: 0xFE8510
-        public void GetFields(){} // RVA: 0xFE86F0
-        public void GetComponentsInParent(){} // RVA: 0xFE8830
-        public void .ctor(){} // RVA: 0xFE8970
-        public void GetFieldsByName(){} // RVA: 0xFE8B50
-        public void GetFieldsByName_895EBA02F486(){} // RVA: 0xFE8CD0
+        public void GetInstanceID(){} // RVA: 0x7A8D90570
+        public void .cctor(){} // RVA: 0x7A8D90D00
+        public void Equals(){} // RVA: 0x7A8D90DE0
+        public void op_Implicit(){} // RVA: 0x7A80F2570
+        public void CompareBaseObjects(){} // RVA: 0x7A80D7320
+        public void IsNativeObjectAlive(){} // RVA: 0x7A8D90DF0
+        public void GetCachedPtr(){} // RVA: 0x7A8D90E40
+        public void get_name(){} // RVA: 0x7A8D91000
+        public void set_name(){} // RVA: 0x7A8D91770
+        public void Instantiate(){} // RVA: 0x7A8D90DE0
+        public void Destroy(){} // RVA: 0x7A8D91810
+        public void DestroyImmediate(){} // RVA: 0x7A8D91CC0
+        public void FindObjectsOfType(){} // RVA: 0x7A8D90DE0
+        public void FindObjectsByType(){} // RVA: 0x7A8D91D60
+        public void DontDestroyOnLoad(){} // RVA: 0x7A80F2570
+        public void Initialize(){} // RVA: 0x7A8D91EA0
+        public void set_hideFlags(){} // RVA: 0x7A8D91F80
+        public void FindObjectOfType(){} // RVA: 0x7A8D92000
+        public void FindFirstObjectByType(){} // RVA: 0x7A8D921A0
+        public void CheckNullArgument(){} // RVA: 0x7A8D92380
+        public void GetHashCode(){} // RVA: 0x7A8D924C0
+        public void .ctor(){} // RVA: 0x7A8D92600
+        public void op_Inequality(){} // RVA: 0x7A8D927E0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A8D92960
     }
 
 }

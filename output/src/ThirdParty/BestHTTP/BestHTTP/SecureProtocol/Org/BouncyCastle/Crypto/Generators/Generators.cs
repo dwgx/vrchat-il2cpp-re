@@ -1,388 +1,376 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Generators
 // Classes: 37
-// Methods: 203
+// Methods: 183
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Generators
 {
-    public class BCrypt
+    public class BCrypt : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95CFB80
-        public void F(){} // RVA: 0x95CFC90
-        public void ProcessTable(){} // RVA: 0x95CFD20
-        public void InitState(){} // RVA: 0x95CFE60
-        public void CyclicXorKey(){} // RVA: 0x95CFFA0
-        public void EncryptMagicString(){} // RVA: 0x95D0050
-        public void ProcessTableWithSalt(){} // RVA: 0x95D0460
-        public void DeriveRawKey(){} // RVA: 0x95D06B0
-        public void PasswordToByteArray(){} // RVA: 0x95D0CE0
-        public void Generate(){} // RVA: 0x95D0E10
-        public void .cctor(){} // RVA: 0x95D1150
+        public void .ctor(){} // RVA: 0x7B1406F00
+        public void F(){} // RVA: 0x7B1407010
+        public void ProcessTable(){} // RVA: 0x7B14070A0
+        public void InitState(){} // RVA: 0x7B1407200
+        public void CyclicXorKey(){} // RVA: 0x7B1407340
+        public void EncryptMagicString(){} // RVA: 0x7B1407410
+        public void ProcessTableWithSalt(){} // RVA: 0x7B1407830
+        public void DeriveRawKey(){} // RVA: 0x7B1407AE0
+        public void PasswordToByteArray(){} // RVA: 0x7B1408010
+        public void Generate(){} // RVA: 0x7B1408140
+        public void .cctor(){} // RVA: 0x7B1408480
     }
 
-    public class BaseKdfBytesGenerator
+    public class BaseKdfBytesGenerator : Object
     {
-        public int counterStart; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CC5AF0
-        public void Init(){} // RVA: 0x95CF410
-        public void get_Digest(){} // RVA: 0x2E07C0
-        public void GenerateBytes(){} // RVA: 0x95CF6F0
+        public void .ctor(){} // RVA: 0x7A9AC8120
+        public void Init(){} // RVA: 0x7B14067B0
+        public void get_Digest(){} // RVA: 0x7A80DA7B0
+        public void GenerateBytes(){} // RVA: 0x7B1406A90
     }
 
-    public class DHBasicKeyPairGenerator
+    public class DHBasicKeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95D1CB0
-        public void GenerateKeyPair(){} // RVA: 0x95D1DB0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B1408FC0
+        public void GenerateKeyPair(){} // RVA: 0x7B14090C0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DHKeyGeneratorHelper
+    public class DHKeyGeneratorHelper : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void CalculatePrivate(){} // RVA: 0x95D1F30
-        public void CalculatePublic(){} // RVA: 0x95D21E0
-        public void .cctor(){} // RVA: 0x95D2210
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CalculatePrivate(){} // RVA: 0x7B1409290
+        public void CalculatePublic(){} // RVA: 0x7B1409540
+        public void .cctor(){} // RVA: 0x7B1409570
     }
 
-    public class DHKeyPairGenerator
+    public class DHKeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95D22B0
-        public void GenerateKeyPair(){} // RVA: 0x95D23B0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B1409610
+        public void GenerateKeyPair(){} // RVA: 0x7B1409710
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DHParametersGenerator
+    public class DHParametersGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95D2530
-        public void GenerateParameters(){} // RVA: 0x95D2590
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B14098E0
+        public void GenerateParameters(){} // RVA: 0x7B1409940
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DHParametersHelper
+    public class DHParametersHelper : Object
     {
         // ── Methods ──
-        public void ConstructBigPrimeProducts(){} // RVA: 0x95D26F0
-        public void GenerateSafePrimes(){} // RVA: 0x95D2870
-        public void SelectGenerator(){} // RVA: 0x95D2FC0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x95D3100
+        public void ConstructBigPrimeProducts(){} // RVA: 0x7B1409AA0
+        public void GenerateSafePrimes(){} // RVA: 0x7B1409C30
+        public void SelectGenerator(){} // RVA: 0x7B140A3A0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B140A4E0
     }
 
-    public class DesEdeKeyGenerator
+    public class DesEdeKeyGenerator : DesKeyGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95D1570 | overloaded x2
-        public void engineInit(){} // RVA: 0x95D1580
-        public void engineGenerateKey(){} // RVA: 0x95D1780
+        public void .ctor(){} // RVA: 0x7B14088A0
+        public void engineInit(){} // RVA: 0x7B14088B0
+        public void engineGenerateKey(){} // RVA: 0x7B1408AB0
     }
 
-    public class DesKeyGenerator
+    public class DesKeyGenerator : CipherKeyGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95D1570 | overloaded x2
-        public void engineInit(){} // RVA: 0x95D1A20
-        public void engineGenerateKey(){} // RVA: 0x95D1B50
+        public void .ctor(){} // RVA: 0x7B14088A0
+        public void engineInit(){} // RVA: 0x7B1408D20
+        public void engineGenerateKey(){} // RVA: 0x7B1408E60
     }
 
-    public class DsaKeyPairGenerator
+    public class DsaKeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95D34A0
-        public void GenerateKeyPair(){} // RVA: 0x95D3600
-        public void GeneratePrivateKey(){} // RVA: 0x95D3870
-        public void CalculatePublicKey(){} // RVA: 0x95D39C0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x95D39F0
+        public void Init(){} // RVA: 0x7B140A8B0
+        public void GenerateKeyPair(){} // RVA: 0x7B140AA10
+        public void GeneratePrivateKey(){} // RVA: 0x7B140AC80
+        public void CalculatePublicKey(){} // RVA: 0x7B140ADD0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B140AE00
     }
 
-    public class DsaParametersGenerator
+    public class DsaParametersGenerator : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void Init(){} // RVA: 0x95D3C50 | overloaded x2
-        public void GenerateParameters(){} // RVA: 0x95D3F90
-        public void GenerateParameters_FIPS186_2(){} // RVA: 0x95D3FC0
-        public void CalculateGenerator_FIPS186_2(){} // RVA: 0x95D4860
-        public void GenerateParameters_FIPS186_3(){} // RVA: 0x95D49B0
-        public void CalculateGenerator_FIPS186_3_Unverifiable(){} // RVA: 0x6BF8D20
-        public void CalculateGenerator_FIPS186_3_Verifiable(){} // RVA: 0x95D5240
-        public void IsValidDsaStrength(){} // RVA: 0x95D5570
-        public void Hash(){} // RVA: 0x95D5590
-        public void GetDefaultN(){} // RVA: 0x95D5630
-        public void Inc(){} // RVA: 0x95D5650
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Init(){} // RVA: 0x7B140B060
+        public void GenerateParameters(){} // RVA: 0x7B140B3A0
+        public void GenerateParameters_FIPS186_2(){} // RVA: 0x7B140B3D0
+        public void CalculateGenerator_FIPS186_2(){} // RVA: 0x7B140BCC0
+        public void GenerateParameters_FIPS186_3(){} // RVA: 0x7B140BE10
+        public void CalculateGenerator_FIPS186_3_Unverifiable(){} // RVA: 0x7AE9E7DE0
+        public void CalculateGenerator_FIPS186_3_Verifiable(){} // RVA: 0x7B140C6A0
+        public void IsValidDsaStrength(){} // RVA: 0x7B140C9F0
+        public void Hash(){} // RVA: 0x7B140CA10
+        public void GetDefaultN(){} // RVA: 0x7B140CAB0
+        public void Inc(){} // RVA: 0x7B140CAD0
     }
 
-    public class ECKeyPairGenerator
+    public class ECKeyPairGenerator : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95D56F0 | overloaded x2
-        public void Init(){} // RVA: 0x95D57F0
-        public void GenerateKeyPair(){} // RVA: 0x95D5EE0
-        public void CreateBasePointMultiplier(){} // RVA: 0x95D61F0
-        public void FindECCurveByOid(){} // RVA: 0x95D6230
-        public void GetCorrespondingPublicKey(){} // RVA: 0x95D6350
+        public void .ctor(){} // RVA: 0x7B140CB80
+        public void Init(){} // RVA: 0x7B140CC80
+        public void GenerateKeyPair(){} // RVA: 0x7B140D360
+        public void CreateBasePointMultiplier(){} // RVA: 0x7B140D670
+        public void FindECCurveByOid(){} // RVA: 0x7B140D6B0
+        public void GetCorrespondingPublicKey(){} // RVA: 0x7B140D7D0
     }
 
-    public class Ed25519KeyPairGenerator
+    public class Ed25519KeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x1D78690
-        public void GenerateKeyPair(){} // RVA: 0x95D6470
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7A9B7BB50
+        public void GenerateKeyPair(){} // RVA: 0x7B140D8F0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class Ed448KeyPairGenerator
+    public class Ed448KeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x1D78690
-        public void GenerateKeyPair(){} // RVA: 0x95D6620
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7A9B7BB50
+        public void GenerateKeyPair(){} // RVA: 0x7B140DAA0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ElGamalKeyPairGenerator
+    public class ElGamalKeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95D67D0
-        public void GenerateKeyPair(){} // RVA: 0x95D68D0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B140DC50
+        public void GenerateKeyPair(){} // RVA: 0x7B140DD50
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ElGamalParametersGenerator
+    public class ElGamalParametersGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95D2530
-        public void GenerateParameters(){} // RVA: 0x95D6AD0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B14098E0
+        public void GenerateParameters(){} // RVA: 0x7B140DF50
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class Gost3410KeyPairGenerator
+    public class Gost3410KeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95D6BC0
-        public void GenerateKeyPair(){} // RVA: 0x95D6ED0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B140E040
+        public void GenerateKeyPair(){} // RVA: 0x7B140E350
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class Gost3410ParametersGenerator
+    public class Gost3410ParametersGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95D2530
-        public void procedure_A(){} // RVA: 0x95D7370
-        public void procedure_Aa(){} // RVA: 0x95D7DE0
-        public void procedure_B(){} // RVA: 0x95D8860
-        public void procedure_Bb(){} // RVA: 0x95D9470
-        public void procedure_C(){} // RVA: 0x95DA080
-        public void GenerateParameters(){} // RVA: 0x95DA230
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B14098E0
+        public void procedure_A(){} // RVA: 0x7B140E7F0
+        public void procedure_Aa(){} // RVA: 0x7B140F2C0
+        public void procedure_B(){} // RVA: 0x7B140FDC0
+        public void procedure_Bb(){} // RVA: 0x7B1410A00
+        public void procedure_C(){} // RVA: 0x7B1411640
+        public void GenerateParameters(){} // RVA: 0x7B14117F0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class HkdfBytesGenerator : .ctor
+    public class HkdfBytesGenerator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Macs.HMac hMacHash; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95DA780
-        public void Init(){} // RVA: 0x95DA870
-        public void Extract(){} // RVA: 0x95DAB40
-        public void ExpandNext(){} // RVA: 0x95DACA0
-        public void get_Digest(){} // RVA: 0x65DABF0
-        public void GenerateBytes(){} // RVA: 0x95DADE0
+        public void .ctor(){} // RVA: 0x7B1411D40
+        public void Init(){} // RVA: 0x7B1411E30
+        public void Extract(){} // RVA: 0x7B1412110
+        public void ExpandNext(){} // RVA: 0x7B1412270
+        public void get_Digest(){} // RVA: 0x7AE3C9490
+        public void GenerateBytes(){} // RVA: 0x7B14123B0
     }
 
-    public class Kdf1BytesGenerator
+    public class Kdf1BytesGenerator : BaseKdfBytesGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95DAF80
+        public void .ctor(){} // RVA: 0x7B1412550
     }
 
-    public class Kdf2BytesGenerator
+    public class Kdf2BytesGenerator : BaseKdfBytesGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6A0B4C0
+        public void .ctor(){} // RVA: 0x7AE7FB640
     }
 
-    public class KdfCounterBytesGenerator
+    public class KdfCounterBytesGenerator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger IntegerMax;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95DAFE0
-        public void Init(){} // RVA: 0x95DB110
-        public void GetMac(){} // RVA: 0x2F8380
-        public void get_Digest(){} // RVA: 0x95DB5E0
-        public void GenerateBytes(){} // RVA: 0x95DB690
-        public void generateNext(){} // RVA: 0x95DB860
-        public void .cctor(){} // RVA: 0x95DBA90
+        public void .ctor(){} // RVA: 0x7B14125B0
+        public void Init(){} // RVA: 0x7B14126E0
+        public void GetMac(){} // RVA: 0x7A80F2570
+        public void get_Digest(){} // RVA: 0x7B1412BA0
+        public void GenerateBytes(){} // RVA: 0x7B1412C50
+        public void generateNext(){} // RVA: 0x7B1412E20
+        public void .cctor(){} // RVA: 0x7B1413050
     }
 
-    public class KdfDoublePipelineIterationBytesGenerator
+    public class KdfDoublePipelineIterationBytesGenerator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger IntegerMax;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95DBBE0
-        public void Init(){} // RVA: 0x95DBD70
-        public void generateNext(){} // RVA: 0x95DC240
-        public void get_Digest(){} // RVA: 0x95DC500
-        public void GenerateBytes(){} // RVA: 0x95DC5B0
-        public void GetMac(){} // RVA: 0x2F8380
-        public void .cctor(){} // RVA: 0x95DC780
+        public void .ctor(){} // RVA: 0x7B14131A0
+        public void Init(){} // RVA: 0x7B1413330
+        public void generateNext(){} // RVA: 0x7B14137F0
+        public void get_Digest(){} // RVA: 0x7B1413AB0
+        public void GenerateBytes(){} // RVA: 0x7B1413B60
+        public void GetMac(){} // RVA: 0x7A80F2570
+        public void .cctor(){} // RVA: 0x7B1413D30
     }
 
-    public class KdfFeedbackBytesGenerator
+    public class KdfFeedbackBytesGenerator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger IntegerMax;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95DC8D0
-        public void Init(){} // RVA: 0x95DCA00
-        public void get_Digest(){} // RVA: 0x95DCF60
-        public void GenerateBytes(){} // RVA: 0x95DD010
-        public void generateNext(){} // RVA: 0x95DD1E0
-        public void GetMac(){} // RVA: 0x2F8380
-        public void .cctor(){} // RVA: 0x95DD440
+        public void .ctor(){} // RVA: 0x7B1413E80
+        public void Init(){} // RVA: 0x7B1413FB0
+        public void get_Digest(){} // RVA: 0x7B1414510
+        public void GenerateBytes(){} // RVA: 0x7B14145C0
+        public void generateNext(){} // RVA: 0x7B1414790
+        public void GetMac(){} // RVA: 0x7A80F2570
+        public void .cctor(){} // RVA: 0x7B14149F0
     }
 
-    public class Mgf1BytesGenerator
+    public class Mgf1BytesGenerator : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.IDigest digest; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95DD590
-        public void Init(){} // RVA: 0x95DD640
-        public void get_Digest(){} // RVA: 0x2F8380
-        public void ItoOSP(){} // RVA: 0x95717E0
-        public void GenerateBytes(){} // RVA: 0x95DD890
+        public void .ctor(){} // RVA: 0x7B1414B40
+        public void Init(){} // RVA: 0x7B1414BF0
+        public void get_Digest(){} // RVA: 0x7A80F2570
+        public void ItoOSP(){} // RVA: 0x7B13A8260
+        public void GenerateBytes(){} // RVA: 0x7B1414E40
     }
 
-    public class NaccacheSternKeyPairGenerator
+    public class NaccacheSternKeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95DDD70
-        public void GenerateKeyPair(){} // RVA: 0x95DDE70
-        public void generatePrime(){} // RVA: 0x95DF500
-        public void permuteList(){} // RVA: 0x95DF580
-        public void findFirstPrimes(){} // RVA: 0x95DF960
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x95DFB50
+        public void Init(){} // RVA: 0x7B1415320
+        public void GenerateKeyPair(){} // RVA: 0x7B1415420
+        public void generatePrime(){} // RVA: 0x7B1416AB0
+        public void permuteList(){} // RVA: 0x7B1416B30
+        public void findFirstPrimes(){} // RVA: 0x7B1416F00
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B1417100
     }
 
-    public class OpenBsdBCrypt
+    public class OpenBsdBCrypt : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x95DFC30
-        public void .ctor(){} // RVA: 0x2DD310
-        public void CreateBcryptString(){} // RVA: 0x95E0060
-        public void Generate(){} // RVA: 0x95E03C0 | overloaded x2
-        public void CheckPassword(){} // RVA: 0x95E0780
-        public void EncodeData(){} // RVA: 0x95E0C40
-        public void DecodeSaltString(){} // RVA: 0x95E1030
+        public void .cctor(){} // RVA: 0x7B14171E0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateBcryptString(){} // RVA: 0x7B1417610
+        public void Generate(){} // RVA: 0x7B1417970
+        public void CheckPassword(){} // RVA: 0x7B1417D30
+        public void EncodeData(){} // RVA: 0x7B14181F0
+        public void DecodeSaltString(){} // RVA: 0x7B1418620
     }
 
-    public class OpenSslPbeParametersGenerator
+    public class OpenSslPbeParametersGenerator : PbeParametersGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95E1530
-        public void Init(){} // RVA: 0x95E15F0 | overloaded x2
-        public void GenerateDerivedKey(){} // RVA: 0x95E1610
-        public void GenerateDerivedParameters(){} // RVA: 0x95E1C20 | overloaded x4
-        public void GenerateDerivedMacParameters(){} // RVA: 0x95E1D20
+        public void .ctor(){} // RVA: 0x7B1418B30
+        public void Init(){} // RVA: 0x7B1418BF0
+        public void GenerateDerivedKey(){} // RVA: 0x7B1418C10
+        public void GenerateDerivedParameters(){} // RVA: 0x7B1419220
+        public void GenerateDerivedMacParameters(){} // RVA: 0x7B1419320
     }
 
-    public class Pkcs12ParametersGenerator
+    public class Pkcs12ParametersGenerator : PbeParametersGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95E1DB0
-        public void Adjust(){} // RVA: 0x95E1E80
-        public void GenerateDerivedKey(){} // RVA: 0x95E1F40
-        public void GenerateDerivedParameters(){} // RVA: 0x95E27E0 | overloaded x4
-        public void GenerateDerivedMacParameters(){} // RVA: 0x95E2900
+        public void .ctor(){} // RVA: 0x7B14193B0
+        public void Adjust(){} // RVA: 0x7B1419480
+        public void GenerateDerivedKey(){} // RVA: 0x7B1419580
+        public void GenerateDerivedParameters(){} // RVA: 0x7B1419E20
+        public void GenerateDerivedMacParameters(){} // RVA: 0x7B1419F40
     }
 
-    public class Pkcs5S1ParametersGenerator
+    public class Pkcs5S1ParametersGenerator : PbeParametersGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE90
-        public void GenerateDerivedKey(){} // RVA: 0x95E29A0
-        public void GenerateDerivedParameters(){} // RVA: 0x95E2F40 | overloaded x4
-        public void GenerateDerivedMacParameters(){} // RVA: 0x95E3100
+        public void .ctor(){} // RVA: 0x7A80D8E80
+        public void GenerateDerivedKey(){} // RVA: 0x7B1419FE0
+        public void GenerateDerivedParameters(){} // RVA: 0x7B141A580
+        public void GenerateDerivedMacParameters(){} // RVA: 0x7B141A740
     }
 
-    public class Pkcs5S2ParametersGenerator
+    public class Pkcs5S2ParametersGenerator : PbeParametersGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95E32A0 | overloaded x2
-        public void F(){} // RVA: 0x95E3400
-        public void GenerateDerivedKey(){} // RVA: 0x95E3650
-        public void GenerateDerivedParameters(){} // RVA: 0x95E3990 | overloaded x4
-        public void GenerateDerivedMacParameters(){} // RVA: 0x95E3A90
+        public void .ctor(){} // RVA: 0x7B141A8E0
+        public void F(){} // RVA: 0x7B141AA40
+        public void GenerateDerivedKey(){} // RVA: 0x7B141ACC0
+        public void GenerateDerivedParameters(){} // RVA: 0x7B141B010
+        public void GenerateDerivedMacParameters(){} // RVA: 0x7B141B110
     }
 
-    public class Poly1305KeyGenerator
+    public class Poly1305KeyGenerator : CipherKeyGenerator
     {
         // ── Methods ──
-        public void engineInit(){} // RVA: 0x95E3B20
-        public void engineGenerateKey(){} // RVA: 0x95E3BA0
-        public void Clamp(){} // RVA: 0x95E3CF0
-        public void CheckKey(){} // RVA: 0x95E3DB0
-        public void CheckMask(){} // RVA: 0x95E3EC0
-        public void .ctor(){} // RVA: 0x6ABC8E0
+        public void engineInit(){} // RVA: 0x7B141B1A0
+        public void engineGenerateKey(){} // RVA: 0x7B141B220
+        public void Clamp(){} // RVA: 0x7B141B370
+        public void CheckKey(){} // RVA: 0x7B141B430
+        public void CheckMask(){} // RVA: 0x7B141B540
+        public void .ctor(){} // RVA: 0x7AE8AD0C0
     }
 
-    public class RsaBlindingFactorGenerator
+    public class RsaBlindingFactorGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95E3F30
-        public void GenerateBlindingFactor(){} // RVA: 0x95E4300
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B141B5B0
+        public void GenerateBlindingFactor(){} // RVA: 0x7B141B980
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class RsaKeyPairGenerator
+    public class RsaKeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95E44C0
-        public void GenerateKeyPair(){} // RVA: 0x95E4750
-        public void ChooseRandomPrime(){} // RVA: 0x95E4CF0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x95E5030
+        public void Init(){} // RVA: 0x7B141BB40
+        public void GenerateKeyPair(){} // RVA: 0x7B141BDE0
+        public void ChooseRandomPrime(){} // RVA: 0x7B141C350
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B141C6A0
     }
 
-    public class SCrypt
+    public class SCrypt : Object
     {
         // ── Methods ──
-        public void Generate(){} // RVA: 0x95E52D0
-        public void MFcrypt(){} // RVA: 0x95E5650
-        public void SingleIterationPBKDF2(){} // RVA: 0x95E5A80
-        public void SMix(){} // RVA: 0x95E5BD0
-        public void BlockMix(){} // RVA: 0x95E6270
-        public void Xor(){} // RVA: 0x95E6410
-        public void Clear(){} // RVA: 0x95E6480
-        public void ClearAll(){} // RVA: 0x95E64B0
-        public void IsPowerOf2(){} // RVA: 0x95E6530
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Generate(){} // RVA: 0x7B141C940
+        public void MFcrypt(){} // RVA: 0x7B141CCC0
+        public void SingleIterationPBKDF2(){} // RVA: 0x7B141D100
+        public void SMix(){} // RVA: 0x7B141D250
+        public void BlockMix(){} // RVA: 0x7B141DBE0
+        public void Xor(){} // RVA: 0x7B141DDA0
+        public void Clear(){} // RVA: 0x7B141DE40
+        public void ClearAll(){} // RVA: 0x7B141DE70
+        public void IsPowerOf2(){} // RVA: 0x7B141DEF0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class X25519KeyPairGenerator
+    public class X25519KeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x1D78690
-        public void GenerateKeyPair(){} // RVA: 0x95E6540
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7A9B7BB50
+        public void GenerateKeyPair(){} // RVA: 0x7B141DF00
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class X448KeyPairGenerator
+    public class X448KeyPairGenerator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x1D78690
-        public void GenerateKeyPair(){} // RVA: 0x95E66E0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7A9B7BB50
+        public void GenerateKeyPair(){} // RVA: 0x7B141E0A0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

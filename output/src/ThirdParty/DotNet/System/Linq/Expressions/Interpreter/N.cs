@@ -5,157 +5,120 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class NegateCheckedInstruction
+    public class NegateCheckedInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x664B4D0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x664B510
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE439EE0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE439F20
     }
 
-    public class NegateInstruction
+    public class NegateInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x664ABB0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x664ABF0
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE4395C0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE439600
     }
 
-    public class NewArrayBoundsInstruction
+    public class NewArrayBoundsInstruction : Instruction
     {
-        public System.Type _elementType; // 0x10
-        public int _rank; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D66A50
-        public void get_ConsumedStack(){} // RVA: 0x5BED50
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x660DAB0
-        public void Run(){} // RVA: 0x660DAF0
+        public void .ctor(){} // RVA: 0x7A9B6A000
+        public void get_ConsumedStack(){} // RVA: 0x7A83782A0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE3FC510
+        public void Run(){} // RVA: 0x7AE3FC550
     }
 
-    public class NewArrayInitInstruction
+    public class NewArrayInitInstruction : Instruction
     {
-        public System.Type _elementType; // 0x10
-        public int _elementCount; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D66A50
-        public void get_ConsumedStack(){} // RVA: 0x5BED50
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x660D820
-        public void Run(){} // RVA: 0x660D860
+        public void .ctor(){} // RVA: 0x7A9B6A000
+        public void get_ConsumedStack(){} // RVA: 0x7A83782A0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE3FC280
+        public void Run(){} // RVA: 0x7AE3FC2C0
     }
 
-    public class NewArrayInstruction
+    public class NewArrayInstruction : Instruction
     {
-        public System.Type _elementType; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x660D960
-        public void Run(){} // RVA: 0x660D9A0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE3FC3C0
+        public void Run(){} // RVA: 0x7AE3FC400
     }
 
-    public class NewInstruction
+    public class NewInstruction : Instruction
     {
-        public System.Reflection.ConstructorInfo _constructor; // 0x10
-        public int _argumentCount; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D66A50
-        public void get_ConsumedStack(){} // RVA: 0x5BED50
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x664BBC0
-        public void Run(){} // RVA: 0x664BC00
-        public void GetArgs(){} // RVA: 0x664BD00
-        public void ToString(){} // RVA: 0x664BE90
+        public void .ctor(){} // RVA: 0x7A9B6A000
+        public void get_ConsumedStack(){} // RVA: 0x7A83782A0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE43A5D0
+        public void Run(){} // RVA: 0x7AE43A610
+        public void GetArgs(){} // RVA: 0x7AE43A710
+        public void ToString(){} // RVA: 0x7AE43A8C0
     }
 
-    public class NotEqualInstruction
+    public class NotEqualInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_reference;
-        public System.Linq.Expressions.Interpreter.Instruction s_Boolean; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_SByte; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x664C310
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x664C350
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE43AD40
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE43AD80
     }
 
-    public class NotInstruction
+    public class NotInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_Boolean;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x664E600
-        public void Create(){} // RVA: 0x664E640
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE43D060
+        public void Create(){} // RVA: 0x7AE43D0A0
     }
 
-    public class NullCheckInstruction
+    public class NullCheckInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x664F410
-        public void Run(){} // RVA: 0x664F450
-        public void .cctor(){} // RVA: 0x664F4D0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE43DE70
+        public void Run(){} // RVA: 0x7AE43DEB0
+        public void .cctor(){} // RVA: 0x7AE43DF30
     }
 
-    public class NullableMethodCallInstruction
+    public class NullableMethodCallInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.NullableMethodCallInstruction s_hasValue;
-        public System.Linq.Expressions.Interpreter.NullableMethodCallInstruction s_value; // 0x8
-        public System.Linq.Expressions.Interpreter.NullableMethodCallInstruction s_equals; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6657220
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x6657260
-        public void CreateGetValue(){} // RVA: 0x6657880
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE445CB0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE445CF0
+        public void CreateGetValue(){} // RVA: 0x7AE446310
     }
 
-    public class NumericConvertInstruction
+    public class NumericConvertInstruction : Instruction
     {
-        public 0x657DC788 _from; // 0x10
-        public 0x657DC788 _to; // 0x14
-        public bool _isLiftedToNull; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x664F570
-        public void Run(){} // RVA: 0x664F580
-        public void Convert(){} // RVA: 0xCE10
-        public void get_InstructionName(){} // RVA: 0x664F700
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void ToString(){} // RVA: 0x664F740
+        public void .ctor(){} // RVA: 0x7AE43DFD0
+        public void Run(){} // RVA: 0x7AE43DFE0
+        public void Convert(){} // RVA: 0x7A7E00B20
+        public void get_InstructionName(){} // RVA: 0x7AE43E160
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void ToString(){} // RVA: 0x7AE43E1A0
     }
 
 }

@@ -1,88 +1,94 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Collections
-// Classes: 4
-// Methods: 51
+// Classes: 5
+// Methods: 61
 
 namespace ThirdParty.Other.Unity.Collections
 {
-    public class AllocatorManager
+    public class AllocatorManager : Object
     {
         // ── Methods ──
-        public void AllocateBlock(){} // RVA: 0x283FA0
-        public void Allocate(){} // RVA: 0x283FA0 | overloaded x2
-        public void AllocateStruct(){} // RVA: 0x283FA0
-        public void FreeBlock(){} // RVA: 0x24D50
-        public void Free(){} // RVA: 0x283FA0 | overloaded x4
-        public void CheckDelegate(){} // RVA: 0x57538A0
-        public void UseDelegate(){} // RVA: 0x6D75F30
-        public void allocate_block(){} // RVA: 0x6D75F80
-        public void forward_mono_allocate_block(){} // RVA: 0x6D76020
-        public void LegacyOf(){} // RVA: 0x6D76140
-        public void TryLegacy(){} // RVA: 0x6D76150
-        public void Try(){} // RVA: 0x6D762F0
-        public void IsCustomAllocator(){} // RVA: 0x6D76660
-        public void .cctor(){} // RVA: 0x6D76670
-        public void Initialize$StackAllocator_Try_000000AB$BurstDirectCall(){} // RVA: 0x6D76830
-        public void Initialize$SlabAllocator_Try_000000B9$BurstDirectCall(){} // RVA: 0x6D76880
+        public void AllocateBlock(){} // RVA: 0x7AA1942C0
+        public void Allocate(){} // RVA: 0x7AA193EE0
+        public void AllocateStruct(){} // RVA: 0x7A8051B10
+        public void FreeBlock(){} // RVA: 0x7AA195DE0
+        public void Free(){} // RVA: 0x7AA1958C0
+        public void CheckDelegate(){} // RVA: 0x7AD5229D0
+        public void UseDelegate(){} // RVA: 0x7AEB63CB0
+        public void allocate_block(){} // RVA: 0x7AEB63D00
+        public void forward_mono_allocate_block(){} // RVA: 0x7AEB63DA0
+        public void LegacyOf(){} // RVA: 0x7AEB63EC0
+        public void TryLegacy(){} // RVA: 0x7AEB63ED0
+        public void Try(){} // RVA: 0x7AEB64070
+        public void IsCustomAllocator(){} // RVA: 0x7AEB643E0
+        public void .cctor(){} // RVA: 0x7AEB643F0
+        public void Initialize$StackAllocator_Try_000000AB$BurstDirectCall(){} // RVA: 0x7AEB645B0
+        public void Initialize$SlabAllocator_Try_000000B9$BurstDirectCall(){} // RVA: 0x7AEB64600
     }
 
-    public class ArrayOfArrays`1
+    public class Allocator[] : Array
     {
-        public AllocatorHandle m_backingAllocatorHandle;
-        public int m_lengthInElements;
-        public int m_capacityInElements;
-        public int m_log2BlockSizeInElements;
-        public int m_blocks;
-
         // ── Methods ──
-        public void get_BlockSizeInElements(){} // RVA: 0xD840
-        public void get_BlockSizeInBytes(){} // RVA: 0xD840
-        public void get_BlockMask(){} // RVA: 0xD840
-        public void get_Length(){} // RVA: 0xD840
-        public void LockfreeAdd(){} // RVA: 0x283FA0
-        public void get_Item(){} // RVA: 0x1BCC0
-        public void Rewind(){} // RVA: 0x24A50
-        public void Clear(){} // RVA: 0x24A50
-        public void Dispose(){} // RVA: 0x24A50
-        public void RemoveAtSwapBack(){} // RVA: 0x24FA0
-        public void BlockIndexOfElement(){} // RVA: 0x13FB0
-        public void TrimExcess(){} // RVA: 0x24A50
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D3F10
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EBF0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6990
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA281BF0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EBF0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ArrayOfArrays`1
+    public class ArrayOfArrays`1 : ValueType
     {
-        public AllocatorHandle m_backingAllocatorHandle; // 0x10
-        public int m_lengthInElements; // 0x14
-        public int m_capacityInElements; // 0x18
-        public int m_log2BlockSizeInElements; // 0x1C
-        public int m_blocks; // 0x20
-
         // ── Methods ──
-        public void get_BlockSizeInElements(){} // RVA: 0x39B8A30
-        public void get_BlockSizeInBytes(){} // RVA: 0x39B8A40
-        public void get_BlockMask(){} // RVA: 0x39B8A70
-        public void get_Length(){} // RVA: 0x19689E0
-        public void LockfreeAdd(){} // RVA: 0x39B8AA0
-        public void get_Item(){} // RVA: 0x39B8C10
-        public void Rewind(){} // RVA: 0x39B8CC0
-        public void Clear(){} // RVA: 0x39B8CD0
-        public void Dispose(){} // RVA: 0x39B8D70
-        public void RemoveAtSwapBack(){} // RVA: 0x39B8DE0
-        public void BlockIndexOfElement(){} // RVA: 0x39B8E90
-        public void TrimExcess(){} // RVA: 0x39B8EA0
+        public void get_BlockSizeInElements(){} // RVA: 0x7A7E00710
+        public void get_BlockSizeInBytes(){} // RVA: 0x7A7E00710
+        public void get_BlockMask(){} // RVA: 0x7A7E00710
+        public void get_Length(){} // RVA: 0x7A7E00710
+        public void LockfreeAdd(){} // RVA: 0x7A8051B10
+        public void get_Item(){} // RVA: 0x7A7E00740
+        public void Rewind(){} // RVA: 0x7A7E18770
+        public void Clear(){} // RVA: 0x7A7E18770
+        public void Dispose(){} // RVA: 0x7A7E18770
+        public void RemoveAtSwapBack(){} // RVA: 0x7A7E189D0
+        public void BlockIndexOfElement(){} // RVA: 0x7A7E062A0
+        public void TrimExcess(){} // RVA: 0x7A7E18770
     }
 
-    public class AutoFreeAllocator
+    public class ArrayOfArrays`1 : ValueType
     {
-        public Unity.Collections.ArrayOfArrays`1<UIntPtr> m_allocated; // 0x10
-
         // ── Methods ──
-        public void Update(){} // RVA: 0x6D77EC0
-        public void FreeAll(){} // RVA: 0x6D78020
-        public void Dispose(){} // RVA: 0x6D78170
-        public void Try(){} // RVA: 0x6D782C0 | overloaded x2
-        public void get_Handle(){} // RVA: 0x37E080
-        public void Try$BurstManaged(){} // RVA: 0x6D78320
+        public void get_BlockSizeInElements(){} // RVA: 0x7A794ED20
+        public void get_BlockSizeInBytes(){} // RVA: 0x7A794ED30
+        public void get_BlockMask(){} // RVA: 0x7A794ED60
+        public void get_Length(){} // RVA: 0x7A765F0A0
+        public void LockfreeAdd(){} // RVA: 0x7A794ED90
+        public void get_Item(){} // RVA: 0x7A794EDA0
+        public void Rewind(){} // RVA: 0x7A794EDB0
+        public void Clear(){} // RVA: 0x7A794EDC0
+        public void Dispose(){} // RVA: 0x7A794EDD0
+        public void RemoveAtSwapBack(){} // RVA: 0x7A794EDE0
+        public void BlockIndexOfElement(){} // RVA: 0x7A794EDF0
+        public void TrimExcess(){} // RVA: 0x7A794EE00
+    }
+
+    public class AutoFreeAllocator : ValueType
+    {
+        // ── Methods ──
+        public void Update(){} // RVA: 0x7A7EA3B00
+        public void FreeAll(){} // RVA: 0x7A7EA3B10
+        public void Dispose(){} // RVA: 0x7A7EA3B20
+        public void Try(){} // RVA: 0x7AEB660E0
+        public void get_Handle(){} // RVA: 0x7A7690D90
+        public void Try$BurstManaged(){} // RVA: 0x7AEB66140
     }
 
 }

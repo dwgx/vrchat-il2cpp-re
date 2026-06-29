@@ -1,14 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Data
 // Classes: 1
-// Methods: 3
+// Methods: 1
 
 namespace ThirdParty.DotNet.System.Data
 {
-    public class VersionNotFoundException
+    public class VersionNotFoundException : DataException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x66CC870 | overloaded x3
+        public void .ctor(){} // RVA: 0x7AE4BAB10
     }
 
 }

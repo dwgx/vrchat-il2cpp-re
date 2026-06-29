@@ -5,21 +5,16 @@
 
 namespace ThirdParty.Sentry.Sentry
 {
-    public class UserFeedback
+    public class UserFeedback : Object
     {
-        public Sentry.SentryId <EventId>k__BackingField; // 0x10
-        public string <Name>k__BackingField; // 0x20
-        public string <Email>k__BackingField; // 0x28
-        public string <Comments>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void get_EventId(){} // RVA: 0x196ABE0
-        public void get_Name(){} // RVA: 0x30B0C0
-        public void get_Email(){} // RVA: 0x30B130
-        public void get_Comments(){} // RVA: 0x6374D0
-        public void .ctor(){} // RVA: 0x63CBC00
-        public void WriteTo(){} // RVA: 0x63CBD10
-        public void FromJson(){} // RVA: 0x63CBEC0
+        public void get_EventId(){} // RVA: 0x7A97277F0
+        public void get_Name(){} // RVA: 0x7A81052C0
+        public void get_Email(){} // RVA: 0x7A8105330
+        public void get_Comments(){} // RVA: 0x7A83F69F0
+        public void .ctor(){} // RVA: 0x7AE1B90F0
+        public void WriteTo(){} // RVA: 0x7AE1B9200
+        public void FromJson(){} // RVA: 0x7AE1B93D0
     }
 
 }

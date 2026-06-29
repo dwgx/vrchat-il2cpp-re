@@ -5,10 +5,10 @@
 
 namespace ThirdParty.ZLinq.ZLinq
 {
-    public class ZLinqDropInAttribute
+    public class ZLinqDropInAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D66A50
+        public void .ctor(){} // RVA: 0x7A9B6A000
     }
 
 }

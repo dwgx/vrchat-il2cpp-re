@@ -1,444 +1,612 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
 // Classes: 100
-// Methods: 24
+// Methods: 104
 
 namespace ThirdParty.DotNet.System
 {
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3369790
-        public void Invoke(){} // RVA: 0x3368000
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7AA988290
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3367520
-        public void Invoke(){} // RVA: 0x33BCF0
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33675F0
-        public void Invoke(){} // RVA: 0x2BB9AF0
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
-    {
-    }
-
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B3C7C0
-        public void Invoke(){} // RVA: 0x338C60
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7AB163A50
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7AA988290
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Predicate`1
+    public class Predicate`1 : MulticastDelegate
     {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7AA988290
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8136170
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7AB1600E0
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8136170
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0x7A98D5420
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7AB15F050
+        public void .ctor(){} // RVA: 0x7AB1607D0
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0x7A98D5420
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7AB15F050
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+        public void .ctor(){} // RVA: 0x7A98D5420
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8136170
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Predicate`1 : MulticastDelegate
+    {
+        // ── Methods ──
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
 }

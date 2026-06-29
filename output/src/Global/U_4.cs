@@ -1,866 +1,266 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 100
-// Methods: 181
+// Classes: 34
+// Methods: 92
 
-public class UxmlTraits
+public class UnaryExpressionProxy : Object
 {
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EB0A0
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45EB220
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EB6C0
-    public void Init(){} // RVA: 0x45E8540
-    public void ParseChoiceList(){} // RVA: 0x45EB840
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EBCE0
-    public void Init(){} // RVA: 0x45E8540
-    public void ParseChoiceList(){} // RVA: 0x45EBE60
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EB3B0
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45EB530
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EB9D0
-    public void Init(){} // RVA: 0x45E8540
-    public void ParseChoiceList(){} // RVA: 0x45EBB50
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x72FCA70
-    public void .ctor(){} // RVA: 0x72FCD60
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7305DC0
-    public void Init(){} // RVA: 0x7306630
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x72FECD0
-    public void .ctor(){} // RVA: 0x72FEE10
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73078F0
-    public void .ctor(){} // RVA: 0x7307D10
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x7309190
-    public void .ctor(){} // RVA: 0x7309540
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x730A510
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x74834C0
-    public void .ctor(){} // RVA: 0x7483760
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x730A920
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x730B9F0
-    public void .ctor(){} // RVA: 0x730BD60
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x730D440
-    public void .ctor(){} // RVA: 0x730D780
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x730E8A0
-    public void .ctor(){} // RVA: 0x730EA20
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x730F9A0
-    public void .ctor(){} // RVA: 0x730FCB0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x7311200
-    public void .ctor(){} // RVA: 0x7311570
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x7312630
-    public void .ctor(){} // RVA: 0x73128D0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x7313980
-    public void .ctor(){} // RVA: 0x7313C80
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7314B80
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73153A0
-    public void .ctor(){} // RVA: 0x73155E0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x7317930
-    public void .ctor(){} // RVA: 0x7317D60
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x7318B60
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45E80B0
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45E8230
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45E8EB0
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45E9030
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EA720
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45EA8A0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45E83C0
-    public void Init(){} // RVA: 0x45E8540
-    public void ParseChoiceList(){} // RVA: 0x45E86B0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x45E91C0
-    public void .ctor(){} // RVA: 0x45E9710
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x731A710
-    public void .ctor(){} // RVA: 0x731A880
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x731EDD0
-    public void .ctor(){} // RVA: 0x731EEE0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x731FC80
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x7320A20
-    public void .ctor(){} // RVA: 0x7320BB0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x73A1AF0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73A3C70
-    public void .ctor(){} // RVA: 0x73A3E80
-    public void .cctor(){} // RVA: 0x73A3FD0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x73A6700
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x73A7010
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x73A7180
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x73A7C20
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x73AAF30
-    public void Init(){} // RVA: 0x73AB390
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45E8BA0
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45E8D20
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45E74A0
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45E7790
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EAA30
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45E8B50
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EAA80
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45EAC00
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x45EAD90
-    public void Init(){} // RVA: 0x45E7620
-    public void ParseChoiceList(){} // RVA: 0x45EAF10
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73B6640
-    public void .ctor(){} // RVA: 0x73B6930
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73B7580
-    public void .ctor(){} // RVA: 0x73B7950
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x73A7010
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73B9DA0
-    public void .ctor(){} // RVA: 0x73BA000
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73BB5F0
-    public void .ctor(){} // RVA: 0x73BB710
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73BCBE0
-    public void .ctor(){} // RVA: 0x73BCD20
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73BD350
-    public void .ctor(){} // RVA: 0x73BD4C0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73BECB0
-    public void .ctor(){} // RVA: 0x73BEF10
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73C7110
-    public void .ctor(){} // RVA: 0x73C7730
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73C8F90
-    public void .ctor(){} // RVA: 0x73C92D0
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73CA710
-    public void .ctor(){} // RVA: 0x73CAA50
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
-    // ── Methods ──
-    public void Init(){} // RVA: 0x73CBA30
-    public void .ctor(){} // RVA: 0x73CBB50
-}
-
-public class UxmlTraits
-{
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x73CC110
+    public void .ctor(){} // RVA: 0x7AE3CA620
+    public void get_CanReduce(){} // RVA: 0x7A858ABB0
+    public void get_DebugView(){} // RVA: 0x7AE3C8F80
+    public void get_IsLifted(){} // RVA: 0x7AE3CA700
+    public void get_IsLiftedToNull(){} // RVA: 0x7AE3CA720
+    public void get_Method(){} // RVA: 0x7A88F3AF0
+    public void get_NodeType(){} // RVA: 0x7A858AA80
+    public void get_Operand(){} // RVA: 0x7A88F38D0
+    public void get_Type(){} // RVA: 0x7A858AB20
 }
 
-public class UxmlTraits
+public class Unchecked : NumericConvertInstruction
 {
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
     // ── Methods ──
-    public void Init(){} // RVA: 0x73CEB30
-    public void .ctor(){} // RVA: 0x73CECE0
+    public void get_InstructionName(){} // RVA: 0x7AE43E320
+    public void .ctor(){} // RVA: 0x7AE43DFD0
+    public void Convert(){} // RVA: 0x7AE43E360
+    public void ConvertInt32(){} // RVA: 0x7AE43E790
+    public void ConvertInt64(){} // RVA: 0x7AE43EA70
+    public void ConvertUInt64(){} // RVA: 0x7AE43ED20
+    public void ConvertDouble(){} // RVA: 0x7AE43EFF0
 }
 
-public class UxmlTraits
+public class UndeclaredNotation : Object
 {
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x73D0D30
+    public void .ctor(){} // RVA: 0x7AE86CA10
 }
 
-public class UxmlTraits
+public class UnmanagedReadOrWrite : MulticastDelegate
 {
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x73D1EB0
+    public void .ctor(){} // RVA: 0x7ADFCC2D0
+    public void Invoke(){} // RVA: 0x7A8234660
 }
 
-public class UxmlTraits
+public class Uri : Object
 {
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_Name; // 0x18
-    public UnityEngine.UIElements.UxmlStringAttributeDescription m_ViewDataKey; // 0x20
-
     // ── Methods ──
-    public void Init(){} // RVA: 0x7477380
-    public void .ctor(){} // RVA: 0x7477A10
-}
-
-public class unitytls_errorstate
-{
+    public void TryParse(){} // RVA: 0x7AE6091B0
 }
 
-public class unitytls_errorstate_create_t
+public class UrlDecoder : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2BB9390
-    public void Invoke(){} // RVA: 0x2BB9460
+    public void FlushBytes(){} // RVA: 0x7AE91AFF0
+    public void .ctor(){} // RVA: 0x7AE91B060
+    public void AddChar(){} // RVA: 0x7AE91B170
+    public void AddByte(){} // RVA: 0x7AE91B1D0
+    public void GetString(){} // RVA: 0x7AE91B2A0
 }
 
-public class unitytls_errorstate_raise_error_t
+public class Utf8MessageState : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1E60340
-    public void Invoke(){} // RVA: 0x439370
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class unitytls_interface_struct
+public class unitytls_ciphersuite[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-}
-
-public class unitytls_key
-{
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D3F10
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EBF0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6990
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA281BF0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EBF0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class unitytls_key_free_t
+public class unitytls_interface_struct : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x338B80
-    public void Invoke(){} // RVA: 0x338C60
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class unitytls_key_get_ref_t
+public class unitytls_key_free_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61E3B50
-    public void Invoke(){} // RVA: 0x439370
+    public void .ctor(){} // RVA: 0x7A8132FA0
+    public void Invoke(){} // RVA: 0x7A8133090
 }
 
-public class unitytls_key_parse_der_t
+public class unitytls_random_generate_bytes_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6683190
-    public void Invoke(){} // RVA: 0x331B260
+    public void .ctor(){} // RVA: 0x7A8F31550
+    public void Invoke(){} // RVA: 0x7A8234660
 }
 
-public class unitytls_key_parse_pem_t
+public class unitytls_tlsctx_create_client_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6683190
-    public void Invoke(){} // RVA: 0x331B260
-}
-
-public class unitytls_key_ref
-{
+    public void .ctor(){} // RVA: 0x7AE471F50
+    public void Invoke(){} // RVA: 0x7AE472020
 }
 
-public class unitytls_random_generate_bytes_t
+public class unitytls_tlsctx_create_server_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x11769B0
-    public void Invoke(){} // RVA: 0x4394E0
-}
-
-public class unitytls_tlsctx
-{
-}
-
-public class unitytls_tlsctx_callbacks
-{
+    public void .ctor(){} // RVA: 0x7AE471F50
+    public void Invoke(){} // RVA: 0x7AE472020
 }
 
-public class unitytls_tlsctx_certificate_callback
+public class unitytls_tlsctx_free_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6682FD0
-    public void Invoke(){} // RVA: 0x33B4400
+    public void .ctor(){} // RVA: 0x7A8132FA0
+    public void Invoke(){} // RVA: 0x7A8133090
 }
 
-public class unitytls_tlsctx_create_client_t
+public class unitytls_tlsctx_get_ciphersuite_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6683690
-    public void Invoke(){} // RVA: 0x6683760
+    public void .ctor(){} // RVA: 0x7ADFC85C0
+    public void Invoke(){} // RVA: 0x7A82344F0
 }
 
-public class unitytls_tlsctx_create_server_t
+public class unitytls_tlsctx_get_protocol_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6683690
-    public void Invoke(){} // RVA: 0x6683760
+    public void .ctor(){} // RVA: 0x7ADFC85C0
+    public void Invoke(){} // RVA: 0x7A82344F0
 }
 
-public class unitytls_tlsctx_free_t
+public class unitytls_tlsctx_notify_close_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x338B80
-    public void Invoke(){} // RVA: 0x338C60
+    public void .ctor(){} // RVA: 0x7A9C160C0
+    public void Invoke(){} // RVA: 0x7A82344F0
 }
 
-public class unitytls_tlsctx_get_ciphersuite_t
+public class unitytls_tlsctx_process_handshake_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61DB960
-    public void Invoke(){} // RVA: 0x439370
+    public void .ctor(){} // RVA: 0x7ADFC85C0
+    public void Invoke(){} // RVA: 0x7A82344F0
 }
 
-public class unitytls_tlsctx_get_protocol_t
+public class unitytls_tlsctx_read_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61DB960
-    public void Invoke(){} // RVA: 0x439370
+    public void .ctor(){} // RVA: 0x7AD9C7150
+    public void Invoke(){} // RVA: 0x7A89D0820
 }
 
-public class unitytls_tlsctx_notify_close_t
+public class unitytls_tlsctx_server_require_client_authentication_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1E11FC0
-    public void Invoke(){} // RVA: 0x439370
+    public void .ctor(){} // RVA: 0x7AE471CC0
+    public void Invoke(){} // RVA: 0x7A8234660
 }
 
-public class unitytls_tlsctx_process_handshake_t
+public class unitytls_tlsctx_set_certificate_callback_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61DB960
-    public void Invoke(){} // RVA: 0x439370
-}
-
-public class unitytls_tlsctx_protocolrange
-{
+    public void .ctor(){} // RVA: 0x7ADFD19D0
+    public void Invoke(){} // RVA: 0x7A89D0820
 }
 
-public class unitytls_tlsctx_read_callback
+public class unitytls_tlsctx_set_supported_ciphersuites_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5BD95E0
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7ADFD19D0
+    public void Invoke(){} // RVA: 0x7A89D0820
 }
 
-public class unitytls_tlsctx_read_t
+public class unitytls_tlsctx_set_trace_callback_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5BD95E0
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7ADFD19D0
+    public void Invoke(){} // RVA: 0x7A89D0820
 }
 
-public class unitytls_tlsctx_server_require_client_authentication_t
+public class unitytls_tlsctx_set_x509verify_callback_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6683410
-    public void Invoke(){} // RVA: 0x4394E0
+    public void .ctor(){} // RVA: 0x7ADFD19D0
+    public void Invoke(){} // RVA: 0x7A89D0820
 }
 
-public class unitytls_tlsctx_set_certificate_callback_t
+public class unitytls_tlsctx_write_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61E4C40
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7AD9C7150
+    public void Invoke(){} // RVA: 0x7A89D0820
 }
 
-public class unitytls_tlsctx_set_supported_ciphersuites_t
+public class unitytls_x509_export_der_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61E4C40
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7AE471B20
+    public void Invoke(){} // RVA: 0x7A89D0820
 }
 
-public class unitytls_tlsctx_set_trace_callback_t
+public class unitytls_x509list_append_der_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61E4C40
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7ADFD19D0
+    public void Invoke(){} // RVA: 0x7A89D0820
 }
 
-public class unitytls_tlsctx_set_x509verify_callback_t
+public class unitytls_x509list_append_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61E4C40
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7AE471CC0
+    public void Invoke(){} // RVA: 0x7A8234660
 }
 
-public class unitytls_tlsctx_trace_callback
+public class unitytls_x509list_create_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61E4C40
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7AC426AF0
+    public void Invoke(){} // RVA: 0x7A8133090
 }
 
-public class unitytls_tlsctx_write_callback
+public class unitytls_x509list_free_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5BD95E0
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7A8132FA0
+    public void Invoke(){} // RVA: 0x7A8133090
 }
 
-public class unitytls_tlsctx_write_t
+public class unitytls_x509list_get_ref_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5BD95E0
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7ADFD0880
+    public void Invoke(){} // RVA: 0x7A82344F0
 }
 
-public class unitytls_tlsctx_x509verify_callback
+public class unitytls_x509list_get_x509_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x66830B0
-    public void Invoke(){} // RVA: 0x4394E0
+    public void .ctor(){} // RVA: 0x7AE471BF0
+    public void Invoke(){} // RVA: 0x7A8234660
 }
 
-public class unitytls_x509_export_der_t
+public class unitytls_x509verify_default_ca_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6683270
-    public void Invoke(){} // RVA: 0xC09580
-}
-
-public class unitytls_x509_ref
-{
-}
-
-public class unitytls_x509list
-{
+    public void .ctor(){} // RVA: 0x7AE471DB0
+    public void Invoke(){} // RVA: 0x7AB1A9990
 }
 
-public class unitytls_x509list_append_der_t
+public class unitytls_x509verify_explicit_ca_t : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x61E4C40
-    public void Invoke(){} // RVA: 0xC09580
+    public void .ctor(){} // RVA: 0x7AE471E80
+    public void Invoke(){} // RVA: 0x7AB1A9B20
 }

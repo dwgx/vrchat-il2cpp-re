@@ -5,43 +5,43 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls
 {
-    public class ECBasisType
+    public class ECBasisType : Object
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x952DE30
-        public void .ctor(){} // RVA: 0x2DD310
+        public void IsValid(){} // RVA: 0x7B1364150
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ECCurveType
+    public class ECCurveType : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ECPointFormat
+    public class ECPointFormat : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class EncryptionAlgorithm
+    public class EncryptionAlgorithm : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ExporterLabel
+    public class ExporterLabel : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x952DE40
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B1364160
     }
 
-    public class ExtensionType
+    public class ExtensionType : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x952DEF0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B1364210
     }
 
 }

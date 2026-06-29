@@ -1,508 +1,608 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 100
-// Methods: 0
+// Methods: 100
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.Tuple`2<object,Transmtn.InventoryEvent>> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.Tuple`2<object,Transmtn.TextureEvent>> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABC2C420
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABFF4580
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÏÌÌÎÏÎÏÏÎÌÏÎÎÌÎÍÌÎÎÌÏÎ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB9FECF0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB967CD0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÎÏÌÎÌÎÎÏÌÏÌÍÌÎÏÌÎÌÎÎÌÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÏÏÍÎÌÏÎÎÌÍÏÏÏÎÌÎÍÍÍÍÌÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÎÍÍÌÍÏÏÎÍÍÌÏÎÎÎÍÌÎÎÎÏÍÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÏÏÌÌÎÎÏÌÎÏÏÎÎÍÌÌÍÎÏÌÍÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.UIVertex> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.UICharInfo> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.UILineInfo> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Frame> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Point> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.Action> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<byte[]> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataPairT> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.NetworkCallingViewT> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABAE63C0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<BucketInfo> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VrcEvent> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<EventInfo> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.BoneWeight> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.Threading.Thread> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB967CD0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<OscCore.OscActionPair> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.Func`3<System.Net.HttpListenerContext,System.Action,System.Threading.Tasks.Task>> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.ValueTuple`3<UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Color>> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.Core.ApiMessage> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÏÍÏÍÍÎÌÏÌÏÎÍÎÏÌÌÌÎÎÌÌÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<OVRBone> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<OVRBoneCapsule> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.InputDevice> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.XR.XRDisplaySubsystem> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.Core.ApiPendingTransaction> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÎÏÌÎÌÌÎÎÏÏÎÌÎÍÍÎÎÏÍÍÏÍÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÍÌÌÌÏÎÏÎÌÍÌÍÏÎÏÎÌÏÎÍÌÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÌÌÎÍÏÎÌÏÍÍÏÎÍÎÎÎÌÏÌÏÏÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Discord.Sdk.UserHandle> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÍÌÍÏÏÏÍÏÏÍÍÌÎÎÍÌÌÌÌÏÎÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÍÍÌÍÍÍÎÌÍÎÎÏÌÌÌÏÏÏÏÌÏÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB95BA30
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÏÌÍÍÌÎÍÏÏÏÌÎÍÌÎÌÍÎÌÍÍÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÏÌÏÎÏÌÍÌÍÌÍÏÎÌÌÏÎÎÍÍÏÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÌÌÍÎÍÏÎÌÌÏÏÎÌÎÎÌÎÏÍÎÌÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.Core.Networking.Tween.AnimationEvent> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.Core.Networking.Tween.AnimatorEvent> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<TimestampedRenderTexture[]> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<RenderHeads.Media.AVProVideo.HttpHeader> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<RenderHeads.Media.AVProVideo.Subtitle> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<RenderHeads.Media.AVProVideo.VideoTrack> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB95EF80
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<RenderHeads.Media.AVProVideo.AudioTrack> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<RenderHeads.Media.AVProVideo.TextTrack> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABC31760
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<TriggerEvent> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.MonoBehaviour> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÏÍÍÌÍÎÍÌÍÎÏÌÏÌÌÌÎÌÍÌÏÎ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÌÌÍÌÍÎÎÍÍÍÏÏÍÌÎÏÌÌÏÎÍÎ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÍÏÏÏÍÍÍÏÏÌÏÎÍÎÍÍÏÏÎÎÍÎ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB95EF80
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÎÎÏÍÌÌÍÌÏÎÏÏÍÌÎÌÎÌÏÎÌÏÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABB71560
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÍÎÎÎÍÌÌÍÎÎÌÍÎÏÎÎÌÎÏÌÏÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB964740
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÎÏÏÍÎÍÍÌÌÍÎÍÍÏÌÏÏÏÏÍÌÎÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB96DB20
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÌÏÏÌÏÎÍÎÏÍÌÌÎÍÍÌÌÏÌÍÍÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<0x658991A8> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÍÏÎÌÎÍÍÏÌÏÍÎÌÌÎÎÏÌÌÎÎÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<OptionData> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<DropdownItem> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Mediapipe.Tasks.Components.Containers.NormalizedLandmarks> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB9607C0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Mediapipe.Tasks.Components.Containers.Landmarks> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Mediapipe.Image> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Mediapipe.Tasks.Components.Containers.Classifications> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.ValueTuple`2<int,int>> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Mediapipe.Tasks.Components.Containers.Detection> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<PhysSound.PhysSoundAudioSet> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<PhysSound.PhysSoundAudioContainer> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB95BA30
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<PhysSound.PhysSoundMaterial> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÍÌÌÎÎÌÏÌÍÎÎÎÏÏÏÌÎÏÌÍÌÎ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.AssetCustomization.IPartOptionBinder> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÌÏÍÌÌÏÌÎÍÍÎÌÍÌÍÏÍÎÎÏÌÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÏÍÌÍÍÏÌÌÍÎÍÏÍÏÏÎÌÏÏÏÍÎ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Version> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABAE63C0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÏÌÎÍÌÍÍÍÎÏÌÍÌÏÌÎÍÏÍÌÎÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.Animator> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<UnityEngine.Light> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Renderer,bool>> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÎÌÍÎÎÎÌÍÌÍÌÎÏÎÎÍÏÌÎÌÏÏÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÏÌÎÎÎÎÏÏÌÏÎÎÏÎÍÍÎÏÏÌÎÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB95BA30
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÎÏÎÌÌÍÏÎÍÌÎÌÏÏÏÌÎÏÍÍÏÎ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7AB964740
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÌÍÌÏÎÍÍÌÍÌÏÌÌÏÏÎÏÏÍÏÏÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÎÌÌÌÍÏÎÏÌÍÌÎÎÎÍÌÍÎÌÎÍÎÏ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.SDKBase.VRC_Pickup> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABC29C70
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.Core.ApiLicense> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÏÎÎÎÎÎÏÍÌÎÌÌÍÏÎÌÏÏÌÏÍÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÏÏÍÏÎÎÍÏÍÌÏÌÏÎÎÍÏÎÏÏÏÌÌ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÍÏÏÎÍÌÎÏÎÌÍÏÎÎÏÎÍÍÏÍÎÌÎ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABB797E0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<Resource> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<VRC.UI.Core.Styles.StyleResource> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<System.Collections.Generic.KeyValuePair`2<int,0x65986AD8>> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
-    public class ArraySortHelper`1
+    public class ArraySortHelper`1 : Object
     {
-        public System.Collections.Generic.ArraySortHelper`1<ÌÌÍÎÍÌÍÏÌÏÏÏÎÎÍÎÏÎÏÍÍÎÍ> s_defaultArraySortHelper;
+        // ── Methods ──
+        public void Sort(){} // RVA: 0x7ABDF37B0
     }
 
 }

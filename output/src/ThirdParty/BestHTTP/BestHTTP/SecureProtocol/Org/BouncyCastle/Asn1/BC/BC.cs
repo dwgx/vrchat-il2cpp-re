@@ -1,32 +1,27 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.BC
 // Classes: 2
-// Methods: 11
+// Methods: 9
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.BC
 {
-    public class BCObjectIdentifiers
+    public class BCObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x97F8820
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B16329E0
     }
 
-    public class LinkedCertificate
+    public class LinkedCertificate : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.DigestInfo mDigest; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralName mCertLocation; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.X509Name mCertIssuer; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.GeneralNames mCACerts; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x97FA200 | overloaded x3
-        public void GetInstance(){} // RVA: 0x97FA450
-        public void get_Digest(){} // RVA: 0x2F8380
-        public void get_CertLocation(){} // RVA: 0x2E07C0
-        public void get_CertIssuer(){} // RVA: 0x30B0C0
-        public void get_CACerts(){} // RVA: 0x30B130
-        public void ToAsn1Object(){} // RVA: 0x97FA530
+        public void .ctor(){} // RVA: 0x7B16343C0
+        public void GetInstance(){} // RVA: 0x7B1634610
+        public void get_Digest(){} // RVA: 0x7A80F2570
+        public void get_CertLocation(){} // RVA: 0x7A80DA7B0
+        public void get_CertIssuer(){} // RVA: 0x7A81052C0
+        public void get_CACerts(){} // RVA: 0x7A8105330
+        public void ToAsn1Object(){} // RVA: 0x7B16346F0
     }
 
 }

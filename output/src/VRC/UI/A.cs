@@ -1,87 +1,48 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 2
-// Methods: 52
+// Classes: 1
+// Methods: 35
 
 namespace VRC.UI
 {
-    /// <summary>Originally: ÌÎÍÍÍÌÏÍÌÏÌÍÍÏÌÌÎÎÏÏÎÎÍ</summary>
-    public class AnimationUIHandler_BE53
+    public class AvatarProxySettings : Object
     {
-        public ÌÎÌÍÌÎÏÏÎÍÌÍÌÏÌÌÌÏÌÌÌÍÌ ÍÌÏÍÌÏÌÎÏÏÍÏÎÌÎÏÌÍÎÎÍÍÍ; // 0x20
-
         // ── Methods ──
-        public void ToArray(){} // RVA: 0x950140
-        public void Awake(){} // RVA: 0x950270
-        public void OnDestroy(){} // RVA: 0x43E1C0
-        public void OnEnable(){} // RVA: 0x950560
-        public void OnDisable(){} // RVA: 0x43E1C0
-        public void ConstructFromArray(){} // RVA: 0x950580
-        public void ToArray_7EC866A448BB(){} // RVA: 0x950900
-        public void ConstructFromArrayStart(){} // RVA: 0x950BF0
-        public void ConstructFromArrayStart_3CD386685216(){} // RVA: 0x951290
-        public void ConstructFromArrayStart_96F016923ED0(){} // RVA: 0x9512D0
-        public void ToArray_39E5C2802722(){} // RVA: 0x9513D0
-        public void ToArray_FD85A18054E3(){} // RVA: 0x951760
-        public void ToArray_34CA7D80C5E8(){} // RVA: 0x9517C0
-        public void ToArray_D5F380B2B01F(){} // RVA: 0x951B30
-        public void .ctor(){} // RVA: 0x951BA0
-        public void .cctor(){} // RVA: 0x951BF0
-        // ── Unresolved (hash) ──
-        public void m_E6A(){}
-    }
-
-    public class AvatarProxySettings
-    {
-        public bool ÍÍÍÌÍÎÎÍÌÎÎÌÏÌÌÌÎÏÏÏÎÎÌ;
-        public bool ÎÎÌÍÎÎÌÎÍÎÍÍÏÏÍÌÎÌÍÏÎÌÌ;
-        public float ÍÏÌÎÏÌÎÍÏÎÍÌÍÏÏÎÎÍÌÌÌÍÍ;
-        public float ÍÌÌÎÏÍÎÌÍÍÌÌÏÍÎÎÌÌÎÌÏÏÌ;
-        public float ÌÌÏÍÍÍÍÏÌÌÌÏÏÏÍÌÌÏÌÏÌÌÏ;
-        public float ÎÍÏÏÌÎÌÌÌÏÍÎÍÎÏÍÎÍÎÎÏÎÍ;
-        public float ÌÌÏÌÏÏÏÎÌÎÌÏÌÌÌÌÍÏÍÍÌÎÌ;
-        public int ÏÌÎÍÏÎÍÏÏÏÏÎÎÎÍÎÎÌÌÍÎÍÌ;
-        public int ÍÎÌÌÏÏÍÌÍÌÏÍÎÎÌÎÌÍÏÍÏÌÏ;
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÏÎÎÌÏÎÏÎÎÌÏÎÏÌÍÎÏÎÎÏÏÏÏ>k__BackingField; // 0x10
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<float> <ÎÎÎÌÍÎÎÏÏÌÏÎÍÎÌÌÏÎÍÍÏÎÎ>k__BackingField; // 0x18
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÏÏÎÎÏÌÏÌÌÏÏÍÎÍÎÍÏÍÎÎÍ>k__BackingField; // 0x20
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xAFDCC0
-        public void .ctor(){} // RVA: 0xAFDCD0
-        public void Initialize(){} // RVA: 0xAFE290
-        public void op_Implicit(){} // RVA: 0x30B0C0
-        public void CompareBaseObjects(){} // RVA: 0xAFE2D0
-        public void IsNativeObjectAlive(){} // RVA: 0xAFE840
-        public void GetMaxDampTime(){} // RVA: 0xAFE880
-        public void get_name(){} // RVA: 0xAFEAA0
-        public void set_name(){} // RVA: 0xAFEAE0
-        public void Instantiate(){} // RVA: 0xAFED90
-        public void GetLanguage(){} // RVA: 0xAFEDD0
-        public void GetHashCode(){} // RVA: 0xAFF0C0
-        public void .cctor(){} // RVA: 0xAFF100
-        public void ToString(){} // RVA: 0xAFF140
-        public void DoThrowUInt16OverflowException(){} // RVA: 0x4976A0
-        public void InitializeConcurrencyDetails(){} // RVA: 0xAFF380
-        public void RegisterEvents_B5FC1A46A10E(){} // RVA: 0xAFF390
-        public void GetSettingsPointer(){} // RVA: 0x2F8380
-        public void DoThrowInt16OverflowException(){} // RVA: 0xAFF5B0
-        public void Destroy(){} // RVA: 0xAFF5C0
-        public void FindObjectsByType(){} // RVA: 0xAFF7B0
-        public void DestroyImmediate(){} // RVA: 0xAFF910
-        public void UpdateDelay(){} // RVA: 0x30B130
-        public void FindObjectsOfType(){} // RVA: 0xAFF920
-        public void GetMethod(){} // RVA: 0xAFF960
-        public void ApplyProxySettings(){} // RVA: 0x4976A0
-        public void RegisterProxyEvents(){} // RVA: 0xAFFC50
-        public void DontDestroyOnLoad(){} // RVA: 0xAFFC60
-        public void .ctor_0F0620718FB5(){} // RVA: 0x2E07C0
-        public void Initialize_3D7C44C5E420(){} // RVA: 0xAFFE90
-        public void DoThrowUInt64OverflowException(){} // RVA: 0x6374D0
-        public void GetSessionId(){} // RVA: 0xAFFEA0
-        public void FindFirstObjectByType(){} // RVA: 0xAFFE90
-        public void RegisterEvents(){} // RVA: 0xB000D0
-        public void UnregisterEvents(){} // RVA: 0xB002C0
+        public void GetInstanceID(){} // RVA: 0x7A889A580
+        public void .ctor(){} // RVA: 0x7A889A590
+        public void Initialize(){} // RVA: 0x7A889AB60
+        public void op_Implicit(){} // RVA: 0x7A81052C0
+        public void CompareBaseObjects(){} // RVA: 0x7A889ABA0
+        public void IsNativeObjectAlive(){} // RVA: 0x7A889B120
+        public void ToString(){} // RVA: 0x7A889B160
+        public void get_name(){} // RVA: 0x7A889B380
+        public void set_name(){} // RVA: 0x7A889B3C0
+        public void Instantiate(){} // RVA: 0x7A889B670
+        public void Destroy(){} // RVA: 0x7A889B6B0
+        public void DestroyImmediate(){} // RVA: 0x7A889B9A0
+        public void FindObjectsOfType(){} // RVA: 0x7A889B9E0
+        public void FindObjectsByType(){} // RVA: 0x7A889BA20
+        public void DontDestroyOnLoad(){} // RVA: 0x7A8292C30
+        public void get_hideFlags(){} // RVA: 0x7A889BC60
+        public void set_hideFlags(){} // RVA: 0x7A889BC70
+        public void FindObjectOfType(){} // RVA: 0x7A80F2570
+        public void FindFirstObjectByType(){} // RVA: 0x7A889BE90
+        public void GetMethod(){} // RVA: 0x7A889BEA0
+        public void Equals(){} // RVA: 0x7A889C090
+        public void op_Equality(){} // RVA: 0x7A889C1F0
+        public void op_Inequality(){} // RVA: 0x7A8105330
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A889C200
+        public void Internal_CloneSingle(){} // RVA: 0x7A889C240
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A8292C30
+        public void Internal_InstantiateSingle(){} // RVA: 0x7A889C530
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7A889C540
+        public void GetName(){} // RVA: 0x7A80DA7B0
+        public void SetName(){} // RVA: 0x7A889C770
+        public void FindObjectFromInstanceID(){} // RVA: 0x7A83F69F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x7A889C780
+        public void GetHashCode(){} // RVA: 0x7A889C770
+        public void RegisterEvents(){} // RVA: 0x7A889C9B0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x7A889CBA0
     }
 
 }

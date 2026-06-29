@@ -1,62 +1,51 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Xml
 // Classes: 2
-// Methods: 38
+// Methods: 33
 
 namespace ThirdParty.DotNet.System.Xml
 {
-    public class ValidateNames
+    public class ValidateNames : Object
     {
         // ── Methods ──
-        public void ParseNmtoken(){} // RVA: 0x6A7C390
-        public void ParseNmtokenNoNamespaces(){} // RVA: 0x6A7C470
-        public void ParseNameNoNamespaces(){} // RVA: 0x6A7C550
-        public void IsNameNoNamespaces(){} // RVA: 0x6A7C6A0
-        public void ParseNCName(){} // RVA: 0x6A7C850 | overloaded x2
-        public void ParseQName(){} // RVA: 0x6A7C8B0
-        public void ParseQNameThrow(){} // RVA: 0x6A7C9A0
-        public void ThrowInvalidName(){} // RVA: 0x6A7CB60
-        public void GetInvalidNameException(){} // RVA: 0x6A7CD50
-        public void SplitQName(){} // RVA: 0x6A7D010
-        public void .cctor(){} // RVA: 0x6A7D210
+        public void ParseNmtoken(){} // RVA: 0x7AE86CAF0
+        public void ParseNmtokenNoNamespaces(){} // RVA: 0x7AE86CBD0
+        public void ParseNameNoNamespaces(){} // RVA: 0x7AE86CCB0
+        public void IsNameNoNamespaces(){} // RVA: 0x7AE86CE00
+        public void ParseNCName(){} // RVA: 0x7AE86CFB0
+        public void ParseQName(){} // RVA: 0x7AE86D010
+        public void ParseQNameThrow(){} // RVA: 0x7AE86D100
+        public void ThrowInvalidName(){} // RVA: 0x7AE86D2C0
+        public void GetInvalidNameException(){} // RVA: 0x7AE86D4B0
+        public void SplitQName(){} // RVA: 0x7AE86D770
+        public void .cctor(){} // RVA: 0x7AE86D970
     }
 
-    public class ValidatingReaderNodeData
+    public class ValidatingReaderNodeData : Object
     {
-        public string localName; // 0x10
-        public string namespaceUri; // 0x18
-        public string prefix; // 0x20
-        public string nameWPrefix; // 0x28
-        public string rawValue; // 0x30
-        public string originalStringValue; // 0x38
-        public int depth; // 0x40
-        public System.Xml.AttributePSVIInfo attributePSVIInfo; // 0x48
-        public 0x658787D8 nodeType; // 0x50
-        public int lineNo; // 0x54
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6A155F0 | overloaded x2
-        public void get_LocalName(){} // RVA: 0x2F8380
-        public void set_LocalName(){} // RVA: 0x2DEE30
-        public void get_Namespace(){} // RVA: 0x2E07C0
-        public void set_Namespace(){} // RVA: 0x343E80
-        public void get_Prefix(){} // RVA: 0x30B0C0
-        public void set_Prefix(){} // RVA: 0x30B0D0
-        public void GetAtomizedNameWPrefix(){} // RVA: 0x6A15600
-        public void get_Depth(){} // RVA: 0x37E080
-        public void set_Depth(){} // RVA: 0x37E090
-        public void get_RawValue(){} // RVA: 0x6374D0
-        public void set_RawValue(){} // RVA: 0x30B890
-        public void get_OriginalStringValue(){} // RVA: 0x4976A0
-        public void get_NodeType(){} // RVA: 0x59C540
-        public void set_NodeType(){} // RVA: 0x65F570
-        public void get_AttInfo(){} // RVA: 0x358730
-        public void set_AttInfo(){} // RVA: 0x358740
-        public void get_LineNumber(){} // RVA: 0xC5BE80
-        public void get_LinePosition(){} // RVA: 0x9EAB90
-        public void Clear(){} // RVA: 0x6A15760
-        public void SetLineInfo(){} // RVA: 0x6A159A0 | overloaded x2
-        public void SetItemData(){} // RVA: 0x6A15BE0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7AE8057C0
+        public void get_LocalName(){} // RVA: 0x7A80F2570
+        public void set_LocalName(){} // RVA: 0x7A80D8E20
+        public void get_Namespace(){} // RVA: 0x7A80DA7B0
+        public void set_Namespace(){} // RVA: 0x7A813E420
+        public void get_Prefix(){} // RVA: 0x7A81052C0
+        public void set_Prefix(){} // RVA: 0x7A81052D0
+        public void GetAtomizedNameWPrefix(){} // RVA: 0x7AE8057D0
+        public void get_Depth(){} // RVA: 0x7A8178B30
+        public void set_Depth(){} // RVA: 0x7A8178B40
+        public void get_RawValue(){} // RVA: 0x7A83F69F0
+        public void set_RawValue(){} // RVA: 0x7A8105A90
+        public void get_OriginalStringValue(){} // RVA: 0x7A8292C30
+        public void get_NodeType(){} // RVA: 0x7A8355950
+        public void set_NodeType(){} // RVA: 0x7A83F4180
+        public void get_AttInfo(){} // RVA: 0x7A8152D80
+        public void set_AttInfo(){} // RVA: 0x7A8152D90
+        public void get_LineNumber(){} // RVA: 0x7A8A22410
+        public void get_LinePosition(){} // RVA: 0x7A87A7DA0
+        public void Clear(){} // RVA: 0x7AE805930
+        public void SetLineInfo(){} // RVA: 0x7AE805B70
+        public void SetItemData(){} // RVA: 0x7AE805DB0
     }
 
 }

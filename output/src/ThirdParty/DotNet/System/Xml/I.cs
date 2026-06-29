@@ -8,149 +8,149 @@ namespace ThirdParty.DotNet.System.Xml
     public class IDtdAttributeInfo
     {
         // ── Methods ──
-        public void get_Prefix(){} // RVA: 0xCD60
-        public void get_LocalName(){} // RVA: 0xCD60
-        public void get_LineNumber(){} // RVA: 0xD840
-        public void get_LinePosition(){} // RVA: 0xD840
-        public void get_IsNonCDataType(){} // RVA: 0xDBE0
-        public void get_IsDeclaredInExternal(){} // RVA: 0xDBE0
-        public void get_IsXmlAttribute(){} // RVA: 0xDBE0
+        public void get_Prefix(){} // RVA: 0x7A7E00680
+        public void get_LocalName(){} // RVA: 0x7A7E00680
+        public void get_LineNumber(){} // RVA: 0x7A7E00710
+        public void get_LinePosition(){} // RVA: 0x7A7E00710
+        public void get_IsNonCDataType(){} // RVA: 0x7A7E01900
+        public void get_IsDeclaredInExternal(){} // RVA: 0x7A7E01900
+        public void get_IsXmlAttribute(){} // RVA: 0x7A7E01900
     }
 
     public class IDtdAttributeListInfo
     {
         // ── Methods ──
-        public void get_HasNonCDataAttributes(){} // RVA: 0xDBE0
-        public void LookupAttribute(){} // RVA: 0x1E6A0
-        public void LookupDefaultAttributes(){} // RVA: 0xCD60
+        public void get_HasNonCDataAttributes(){} // RVA: 0x7A7E01900
+        public void LookupAttribute(){} // RVA: 0x7A7E00BD0
+        public void LookupDefaultAttributes(){} // RVA: 0x7A7E00680
     }
 
     public class IDtdDefaultAttributeInfo
     {
         // ── Methods ──
-        public void get_DefaultValueExpanded(){} // RVA: 0xCD60
-        public void get_DefaultValueTyped(){} // RVA: 0xCD60
-        public void get_ValueLineNumber(){} // RVA: 0xD840
-        public void get_ValueLinePosition(){} // RVA: 0xD840
+        public void get_DefaultValueExpanded(){} // RVA: 0x7A7E00680
+        public void get_DefaultValueTyped(){} // RVA: 0x7A7E00680
+        public void get_ValueLineNumber(){} // RVA: 0x7A7E00710
+        public void get_ValueLinePosition(){} // RVA: 0x7A7E00710
     }
 
     public class IDtdEntityInfo
     {
         // ── Methods ──
-        public void get_Name(){} // RVA: 0xCD60
-        public void get_IsExternal(){} // RVA: 0xDBE0
-        public void get_IsDeclaredInExternal(){} // RVA: 0xDBE0
-        public void get_IsUnparsedEntity(){} // RVA: 0xDBE0
-        public void get_IsParameterEntity(){} // RVA: 0xDBE0
-        public void get_BaseUriString(){} // RVA: 0xCD60
-        public void get_DeclaredUriString(){} // RVA: 0xCD60
-        public void get_SystemId(){} // RVA: 0xCD60
-        public void get_PublicId(){} // RVA: 0xCD60
-        public void get_Text(){} // RVA: 0xCD60
-        public void get_LineNumber(){} // RVA: 0xD840
-        public void get_LinePosition(){} // RVA: 0xD840
+        public void get_Name(){} // RVA: 0x7A7E00680
+        public void get_IsExternal(){} // RVA: 0x7A7E01900
+        public void get_IsDeclaredInExternal(){} // RVA: 0x7A7E01900
+        public void get_IsUnparsedEntity(){} // RVA: 0x7A7E01900
+        public void get_IsParameterEntity(){} // RVA: 0x7A7E01900
+        public void get_BaseUriString(){} // RVA: 0x7A7E00680
+        public void get_DeclaredUriString(){} // RVA: 0x7A7E00680
+        public void get_SystemId(){} // RVA: 0x7A7E00680
+        public void get_PublicId(){} // RVA: 0x7A7E00680
+        public void get_Text(){} // RVA: 0x7A7E00680
+        public void get_LineNumber(){} // RVA: 0x7A7E00710
+        public void get_LinePosition(){} // RVA: 0x7A7E00710
     }
 
     public class IDtdInfo
     {
         // ── Methods ──
-        public void get_Name(){} // RVA: 0xCD60
-        public void get_InternalDtdSubset(){} // RVA: 0xCD60
-        public void get_HasDefaultAttributes(){} // RVA: 0xDBE0
-        public void get_HasNonCDataAttributes(){} // RVA: 0xDBE0
-        public void LookupAttributeList(){} // RVA: 0x1E6A0
-        public void LookupEntity(){} // RVA: 0xCE10
+        public void get_Name(){} // RVA: 0x7A7E00680
+        public void get_InternalDtdSubset(){} // RVA: 0x7A7E00680
+        public void get_HasDefaultAttributes(){} // RVA: 0x7A7E01900
+        public void get_HasNonCDataAttributes(){} // RVA: 0x7A7E01900
+        public void LookupAttributeList(){} // RVA: 0x7A7E00BD0
+        public void LookupEntity(){} // RVA: 0x7A7E00B20
     }
 
     public class IDtdParser
     {
         // ── Methods ──
-        public void ParseInternalDtd(){} // RVA: 0x1D640
-        public void ParseFreeFloatingDtd(){} // RVA: 0x1F400
+        public void ParseInternalDtd(){} // RVA: 0x7A7E01780
+        public void ParseFreeFloatingDtd(){} // RVA: 0x7A7E130E0
     }
 
     public class IDtdParserAdapter
     {
         // ── Methods ──
-        public void get_NameTable(){} // RVA: 0xCD60
-        public void get_NamespaceResolver(){} // RVA: 0xCD60
-        public void get_BaseUri(){} // RVA: 0xCD60
-        public void get_ParsingBuffer(){} // RVA: 0xCD60
-        public void get_ParsingBufferLength(){} // RVA: 0xD840
-        public void get_CurrentPosition(){} // RVA: 0xD840
-        public void set_CurrentPosition(){} // RVA: 0x24FA0
-        public void get_LineNo(){} // RVA: 0xD840
-        public void get_LineStartPosition(){} // RVA: 0xD840
-        public void get_IsEof(){} // RVA: 0xDBE0
-        public void get_EntityStackLength(){} // RVA: 0xD840
-        public void get_IsEntityEolNormalized(){} // RVA: 0xDBE0
-        public void ReadData(){} // RVA: 0xD840
-        public void OnNewLine(){} // RVA: 0x24FA0
-        public void ParseNumericCharRef(){} // RVA: 0x12590
-        public void ParseNamedCharRef(){}
-        public void ParsePI(){} // RVA: 0x24B10
-        public void ParseComment(){} // RVA: 0x24B10
-        public void PushEntity(){} // RVA: 0x11120
-        public void PopEntity(){} // RVA: 0x11120
-        public void PushExternalSubset(){} // RVA: 0x11120
-        public void PushInternalDtd(){} // RVA: 0x2DC60
-        public void OnSystemId(){}
-        public void OnPublicId(){}
-        public void Throw(){} // RVA: 0x24B10
+        public void get_NameTable(){} // RVA: 0x7A7E00680
+        public void get_NamespaceResolver(){} // RVA: 0x7A7E00680
+        public void get_BaseUri(){} // RVA: 0x7A7E00680
+        public void get_ParsingBuffer(){} // RVA: 0x7A7E00680
+        public void get_ParsingBufferLength(){} // RVA: 0x7A7E00710
+        public void get_CurrentPosition(){} // RVA: 0x7A7E00710
+        public void set_CurrentPosition(){} // RVA: 0x7A7E189D0
+        public void get_LineNo(){} // RVA: 0x7A7E00710
+        public void get_LineStartPosition(){} // RVA: 0x7A7E00710
+        public void get_IsEof(){} // RVA: 0x7A7E01900
+        public void get_EntityStackLength(){} // RVA: 0x7A7E00710
+        public void get_IsEntityEolNormalized(){} // RVA: 0x7A7E01900
+        public void ReadData(){} // RVA: 0x7A7E00710
+        public void OnNewLine(){} // RVA: 0x7A7E189D0
+        public void ParseNumericCharRef(){} // RVA: 0x7A7E01630
+        public void ParseNamedCharRef(){} // RVA: 0x7A7E07940
+        public void ParsePI(){} // RVA: 0x7A7E18800
+        public void ParseComment(){} // RVA: 0x7A7E18800
+        public void PushEntity(){} // RVA: 0x7A7E01A40
+        public void PopEntity(){} // RVA: 0x7A7E01A40
+        public void PushExternalSubset(){} // RVA: 0x7A7E01A40
+        public void PushInternalDtd(){} // RVA: 0x7A7E18890
+        public void OnSystemId(){} // RVA: 0x7A7E20FF0
+        public void OnPublicId(){} // RVA: 0x7A7E20FF0
+        public void Throw(){} // RVA: 0x7A7E18800
     }
 
     public class IDtdParserAdapterV1
     {
         // ── Methods ──
-        public void get_V1CompatibilityMode(){} // RVA: 0xDBE0
-        public void get_Normalization(){} // RVA: 0xDBE0
-        public void get_Namespaces(){} // RVA: 0xDBE0
+        public void get_V1CompatibilityMode(){} // RVA: 0x7A7E01900
+        public void get_Normalization(){} // RVA: 0x7A7E01900
+        public void get_Namespaces(){} // RVA: 0x7A7E01900
     }
 
-    public class IDtdParserAdapterWithValidation : rJT
+    public class IDtdParserAdapterWithValidation
     {
         // ── Methods ──
-        public void get_DtdValidation(){} // RVA: 0xDBE0
-        public void get_ValidationEventHandling(){} // RVA: 0xCD60
+        public void get_DtdValidation(){} // RVA: 0x7A7E01900
+        public void get_ValidationEventHandling(){} // RVA: 0x7A7E00680
     }
 
     public class IValidationEventHandling
     {
         // ── Methods ──
-        public void get_EventHandler(){} // RVA: 0xCD60
-        public void SendEvent(){} // RVA: 0x2BAA0
+        public void get_EventHandler(){} // RVA: 0x7A7E00680
+        public void SendEvent(){} // RVA: 0x7A7E1D590
     }
 
     public class IXmlLineInfo
     {
         // ── Methods ──
-        public void HasLineInfo(){} // RVA: 0xDBE0
-        public void get_LineNumber(){} // RVA: 0xD840
-        public void get_LinePosition(){} // RVA: 0xD840
+        public void HasLineInfo(){} // RVA: 0x7A7E01900
+        public void get_LineNumber(){} // RVA: 0x7A7E00710
+        public void get_LinePosition(){} // RVA: 0x7A7E00710
     }
 
     public class IXmlNamespaceResolver
     {
         // ── Methods ──
-        public void GetNamespacesInScope(){} // RVA: 0x1BCC0
-        public void LookupNamespace(){} // RVA: 0xCE10
-        public void LookupPrefix(){} // RVA: 0xCE10
+        public void GetNamespacesInScope(){} // RVA: 0x7A7E00740
+        public void LookupNamespace(){} // RVA: 0x7A7E00B20
+        public void LookupPrefix(){} // RVA: 0x7A7E00B20
     }
 
-    public class IncrementalReadDecoder
+    public class IncrementalReadDecoder : Object
     {
         // ── Methods ──
-        public void get_IsFull(){} // RVA: 0xDBE0
-        public void Decode(){}
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_IsFull(){} // RVA: 0x7A7E01900
+        public void Decode(){} // RVA: 0x7A7E0A0A0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class IncrementalReadDummyDecoder
+    public class IncrementalReadDummyDecoder : IncrementalReadDecoder
     {
         // ── Methods ──
-        public void get_IsFull(){} // RVA: 0x2DD320
-        public void Decode(){} // RVA: 0x6A137E0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_IsFull(){} // RVA: 0x7A80D7320
+        public void Decode(){} // RVA: 0x7AE8039A0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

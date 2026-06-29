@@ -5,29 +5,25 @@
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
-    public class FloatHalf
+    public class FloatHalf : ValueType
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Data(){} // RVA: 0x7624F80
-        public void CreateFloatHalf(){} // RVA: 0x76264E0
-        public void UnPack(){} // RVA: 0x76265B0
-        public void UnPackTo(){} // RVA: 0x7626620
-        public void Pack(){} // RVA: 0x7626720
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Data(){} // RVA: 0x7A7F18B80
+        public void CreateFloatHalf(){} // RVA: 0x7AF405140
+        public void UnPack(){} // RVA: 0x7A7F19120
+        public void UnPackTo(){} // RVA: 0x7A7F19130
+        public void Pack(){} // RVA: 0x7AF4053A0
     }
 
-    public class FloatHalfT
+    public class FloatHalfT : Object
     {
-        public byte[] ByteBuffer; // 0x10
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x2F8380
-        public void set_Data(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x7626800
+        public void get_Data(){} // RVA: 0x7A80F2570
+        public void set_Data(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AF405480
     }
 
 }

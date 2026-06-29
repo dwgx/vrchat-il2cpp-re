@@ -1,39 +1,33 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe
 // Classes: 1
-// Methods: 23
+// Methods: 20
 
 namespace ThirdParty.Mediapipe.Mediapipe
 {
-    public class ExecutorConfig
+    public class ExecutorConfig : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.ExecutorConfig> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public string name_; // 0x18
-        public string type_; // 0x20
-        public Mediapipe.MediaPipeOptions options_; // 0x28
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x5AF47B0
-        public void get_Descriptor(){} // RVA: 0x5AF4810
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5AF48D0
-        public void .ctor(){} // RVA: 0x5AF4AB0 | overloaded x2
-        public void Clone(){} // RVA: 0x5AF4CE0
-        public void get_Name(){} // RVA: 0x2E07C0
-        public void set_Name(){} // RVA: 0x5AF4D40
-        public void get_Type(){} // RVA: 0x30B0C0
-        public void set_Type(){} // RVA: 0x5AF4E40
-        public void get_Options(){} // RVA: 0x30B130
-        public void set_Options(){} // RVA: 0x2DEE90
-        public void Equals(){} // RVA: 0x5AF50C0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x5AF51F0
-        public void ToString(){} // RVA: 0x5AF52B0
-        public void WriteTo(){} // RVA: 0x5A39740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5AF5300
-        public void CalculateSize(){} // RVA: 0x5AF53C0
-        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5AF56B0
-        public void .cctor(){} // RVA: 0x5AF57F0
+        public void get_Parser(){} // RVA: 0x7AD8E1E40
+        public void get_Descriptor(){} // RVA: 0x7AD8E1EA0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD8E1F60
+        public void .ctor(){} // RVA: 0x7AD8E2140
+        public void Clone(){} // RVA: 0x7AD8E2370
+        public void get_Name(){} // RVA: 0x7A80DA7B0
+        public void set_Name(){} // RVA: 0x7AD8E23D0
+        public void get_Type(){} // RVA: 0x7A81052C0
+        public void set_Type(){} // RVA: 0x7AD8E24D0
+        public void get_Options(){} // RVA: 0x7A8105330
+        public void set_Options(){} // RVA: 0x7A80D8E80
+        public void Equals(){} // RVA: 0x7AD8E2630
+        public void GetHashCode(){} // RVA: 0x7AD8E2760
+        public void ToString(){} // RVA: 0x7AD8E2820
+        public void WriteTo(){} // RVA: 0x7AD825C30
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD8E2870
+        public void CalculateSize(){} // RVA: 0x7AD8E2930
+        public void MergeFrom(){} // RVA: 0x7AD825F70
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD8E2C20
+        public void .cctor(){} // RVA: 0x7AD8E2D60
     }
 
 }

@@ -5,10 +5,10 @@
 
 namespace ThirdParty.DotNet.System.CodeDom.Compiler
 {
-    public class GeneratedCodeAttribute
+    public class GeneratedCodeAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
+        public void .ctor(){} // RVA: 0x7A8CE4080
     }
 
 }

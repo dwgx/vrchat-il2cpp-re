@@ -1,62 +1,63 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 // Classes: 7
-// Methods: 22
+// Methods: 20
 
 namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
-    public class Vector2Parameter
+    public class Vector2Parameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void Interp(){} // RVA: 0x6F30290
-        public void op_Implicit(){} // RVA: 0x6F30310 | overloaded x2
-        public void .ctor(){} // RVA: 0x6F30360
+        public void Interp(){} // RVA: 0x7AED0E800
+        public void op_Implicit(){} // RVA: 0x7AED0E880
+        public void .ctor(){} // RVA: 0x7AED0E8D0
     }
 
-    public class Vector3Parameter
+    public class Vector3Parameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void Interp(){} // RVA: 0x6F303B0
-        public void op_Implicit(){} // RVA: 0x6F30430 | overloaded x2
-        public void .ctor(){} // RVA: 0x6F30490
+        public void Interp(){} // RVA: 0x7AED0E920
+        public void op_Implicit(){} // RVA: 0x7AED0E9A0
+        public void .ctor(){} // RVA: 0x7AED0EA00
     }
 
-    public class Vector4Parameter
+    public class Vector4Parameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void Interp(){} // RVA: 0x6F30190
-        public void op_Implicit(){} // RVA: 0x6F30510 | overloaded x2
-        public void .ctor(){} // RVA: 0x6F30550
+        public void Interp(){} // RVA: 0x7AED0E700
+        public void op_Implicit(){} // RVA: 0x7AED0EA80
+        public void .ctor(){} // RVA: 0x7AED0EAC0
     }
 
-    public class VectorscopeMonitor
+    public class VectorscopeMonitor : Monitor
     {
         // ── Methods ──
-        public void OnDisable(){} // RVA: 0x6F2E830
-        public void NeedsHalfRes(){} // RVA: 0x3C2850
-        public void ShaderResourcesAvailable(){} // RVA: 0x6F2E8F0
-        public void Render(){} // RVA: 0x6F2E9F0
-        public void .ctor(){} // RVA: 0x6F2F3D0
+        public void OnDisable(){} // RVA: 0x7AED0CDB0
+        public void NeedsHalfRes(){} // RVA: 0x7A81BD750
+        public void ShaderResourcesAvailable(){} // RVA: 0x7AED0CE70
+        public void Render(){} // RVA: 0x7AED0CF70
+        public void .ctor(){} // RVA: 0x7AED0D950
+        public void size(){} // RVA: 0x7B4192828
     }
 
-    public class Vignette
+    public class Vignette : PostProcessEffectSettings
     {
         // ── Methods ──
-        public void IsEnabledAndSupported(){} // RVA: 0x6F2C260
-        public void .ctor(){} // RVA: 0x6F2C3C0
+        public void IsEnabledAndSupported(){} // RVA: 0x7AED0A840
+        public void .ctor(){} // RVA: 0x7AED0A9A0
     }
 
-    public class VignetteModeParameter
+    public class VignetteModeParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F2C210
+        public void .ctor(){} // RVA: 0x7AED0A7F0
     }
 
-    public class VignetteRenderer
+    public class VignetteRenderer : PostProcessEffectRenderer`1
     {
         // ── Methods ──
-        public void Render(){} // RVA: 0x6F2C9C0
-        public void .ctor(){} // RVA: 0x6F2CEC0
+        public void Render(){} // RVA: 0x7AED0AF90
+        public void .ctor(){} // RVA: 0x7AED0B490
     }
 
 }

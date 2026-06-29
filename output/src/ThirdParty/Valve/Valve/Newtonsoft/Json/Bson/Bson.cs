@@ -5,92 +5,74 @@
 
 namespace ThirdParty.Valve.Valve.Newtonsoft.Json.Bson
 {
-    public class BsonArray
+    public class BsonArray : BsonToken
     {
-        public System.Collections.Generic.List`1<Valve.Newtonsoft.Json.Bson.BsonToken> _children; // 0x18
-
         // ── Methods ──
-        public void Add(){} // RVA: 0x7585B60
-        public void get_Type(){} // RVA: 0x607DDD0
+        public void Add(){} // RVA: 0x7AF364250
+        public void get_Type(){} // RVA: 0x7ADE69DC0
     }
 
-    public class BsonObject
+    public class BsonObject : BsonToken
     {
-        public System.Collections.Generic.List`1<Valve.Newtonsoft.Json.Bson.BsonProperty> _children; // 0x18
-
         // ── Methods ──
-        public void Add(){} // RVA: 0x75858E0
-        public void get_Type(){} // RVA: 0x607DB00
+        public void Add(){} // RVA: 0x7AF363FC0
+        public void get_Type(){} // RVA: 0x7ADE69AF0
     }
 
-    public class BsonObjectId
+    public class BsonObjectId : Object
     {
-        public byte[] Type; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x2F8380
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x75857A0
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void set_Value(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AF363E80
     }
 
-    public class BsonProperty
+    public class BsonProperty : Object
     {
-        public Valve.Newtonsoft.Json.Bson.BsonString <Name>k__BackingField; // 0x10
-        public Valve.Newtonsoft.Json.Bson.BsonToken <Value>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void set_Name(){} // RVA: 0x2DEE30
-        public void set_Value(){} // RVA: 0x343E80
-        public void .ctor(){} // RVA: 0x2DD310
+        public void set_Name(){} // RVA: 0x7A80D8E20
+        public void set_Value(){} // RVA: 0x7A813E420
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class BsonRegex
+    public class BsonRegex : BsonToken
     {
-        public Valve.Newtonsoft.Json.Bson.BsonString <Pattern>k__BackingField; // 0x18
-        public Valve.Newtonsoft.Json.Bson.BsonString <Options>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void set_Pattern(){} // RVA: 0x343E80
-        public void set_Options(){} // RVA: 0x30B0D0
-        public void .ctor(){} // RVA: 0x7585D30
-        public void get_Type(){} // RVA: 0x5F88F0
+        public void set_Pattern(){} // RVA: 0x7A813E420
+        public void set_Options(){} // RVA: 0x7A81052D0
+        public void .ctor(){} // RVA: 0x7AF364420
+        public void get_Type(){} // RVA: 0x7A83B2180
     }
 
-    public class BsonString
+    public class BsonString : BsonValue
     {
-        public bool <IncludeLength>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void set_IncludeLength(){} // RVA: 0x6E8B80
-        public void .ctor(){} // RVA: 0x7585CC0
+        public void set_IncludeLength(){} // RVA: 0x7A84A5CD0
+        public void .ctor(){} // RVA: 0x7AF3643B0
     }
 
-    public class BsonToken
+    public class BsonToken : Object
     {
-        public Valve.Newtonsoft.Json.Bson.BsonToken <Parent>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0xDBE0
-        public void set_Parent(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Type(){} // RVA: 0x7A7E01900
+        public void set_Parent(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class BsonValue
+    public class BsonValue : BsonToken
     {
-        public object _value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7585C60
-        public void get_Type(){} // RVA: 0x3CB9D0
+        public void .ctor(){} // RVA: 0x7AF364350
+        public void get_Type(){} // RVA: 0x7A81C68D0
     }
 
-    public class BsonWriter
+    public class BsonWriter : JsonWriter
     {
         // ── Methods ──
-        public void AddValue(){} // RVA: 0x7585F00
-        public void AddToken(){} // RVA: 0x7585FC0
-        public void WriteObjectId(){} // RVA: 0x75863F0
-        public void WriteRegex(){} // RVA: 0x7586570
+        public void AddValue(){} // RVA: 0x7AF3645F0
+        public void AddToken(){} // RVA: 0x7AF3646B0
+        public void WriteObjectId(){} // RVA: 0x7AF364AD0
+        public void WriteRegex(){} // RVA: 0x7AF364C50
     }
 
 }

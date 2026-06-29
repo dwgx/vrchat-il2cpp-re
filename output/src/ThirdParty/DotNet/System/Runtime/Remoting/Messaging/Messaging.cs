@@ -1,607 +1,517 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.Remoting.Messaging
-// Classes: 44
-// Methods: 301
+// Classes: 41
+// Methods: 304
 
 namespace ThirdParty.DotNet.System.Runtime.Remoting.Messaging
 {
-    public class ArgInfo
+    public class ArgInfo : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CF4540
-        public void GetInOutArgs(){} // RVA: 0x5CF47D0
+        public void .ctor(){} // RVA: 0x7ADAE20E0
+        public void GetInOutArgs(){} // RVA: 0x7ADAE2370
     }
 
-    public class AsyncResult
-    {
-        public object async_state; // 0x10
-        public System.Threading.WaitHandle handle; // 0x18
-        public object async_delegate; // 0x20
-        public UIntPtr data; // 0x28
-        public object object_data; // 0x30
-        public bool sync_completed; // 0x38
-        public bool completed; // 0x39
-        public bool endinvoke_called; // 0x3A
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_AsyncState(){} // RVA: 0x2F8380
-        public void get_AsyncWaitHandle(){} // RVA: 0x5CF4930
-        public void get_CompletedSynchronously(){} // RVA: 0x4A6500
-        public void get_IsCompleted(){} // RVA: 0x4A7410
-        public void get_EndInvokeCalled(){} // RVA: 0x14CEB40
-        public void set_EndInvokeCalled(){} // RVA: 0x5CF4B50
-        public void get_AsyncDelegate(){} // RVA: 0x30B0C0
-        public void get_NextSink(){} // RVA: 0x519240
-        public void AsyncProcessMessage(){} // RVA: 0x5CF4B60
-        public void GetReplyMessage(){} // RVA: 0x3A5590
-        public void SetMessageCtrl(){} // RVA: 0x358D60
-        public void SetCompletedSynchronously(){} // RVA: 0x4A78C0
-        public void EndInvoke(){} // RVA: 0x5CF4BA0
-        public void SyncProcessMessage(){} // RVA: 0x5CF4D50
-        public void get_CallMessage(){} // RVA: 0x37B370
-        public void set_CallMessage(){} // RVA: 0x37B380
-        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x5CF4FC0
-        public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0x2DD310
-        public void Invoke(){} // RVA: 0x5CF5100
-    }
-
-    public class CADArgHolder
+    public class AsyncResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_AsyncState(){} // RVA: 0x7A80F2570
+        public void get_AsyncWaitHandle(){} // RVA: 0x7ADAE2500
+        public void get_CompletedSynchronously(){} // RVA: 0x7A82A20A0
+        public void get_IsCompleted(){} // RVA: 0x7A82A3DE0
+        public void get_EndInvokeCalled(){} // RVA: 0x7A9286CF0
+        public void set_EndInvokeCalled(){} // RVA: 0x7ADAE26D0
+        public void get_AsyncDelegate(){} // RVA: 0x7A81052C0
+        public void get_NextSink(){} // RVA: 0x7A82D1450
+        public void AsyncProcessMessage(){} // RVA: 0x7ADAE26E0
+        public void GetReplyMessage(){} // RVA: 0x7A81A00E0
+        public void SetMessageCtrl(){} // RVA: 0x7A81533A0
+        public void SetCompletedSynchronously(){} // RVA: 0x7A82A2C90
+        public void EndInvoke(){} // RVA: 0x7ADAE2720
+        public void SyncProcessMessage(){} // RVA: 0x7ADAE28A0
+        public void get_CallMessage(){} // RVA: 0x7A8175DF0
+        public void set_CallMessage(){} // RVA: 0x7A8175E00
+        public void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem(){} // RVA: 0x7ADAE2AE0
+        public void System.Threading.IThreadPoolWorkItem.MarkAborted(){} // RVA: 0x7A80D7310
+        public void Invoke(){} // RVA: 0x7ADAE2C30
     }
 
-    public class CADMessageBase
+    public class CADArgHolder : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CF5FA0
-        public void GetMethod(){} // RVA: 0x5CF6080
-        public void GetSignature(){} // RVA: 0x5CF6110
-        public void MarshalProperties(){} // RVA: 0x5CF6320
-        public void UnmarshalProperties(){} // RVA: 0x5CF6850
-        public void IsPossibleToIgnoreMarshal(){} // RVA: 0x5CF69D0
-        public void MarshalArgument(){} // RVA: 0x5CF6BC0
-        public void UnmarshalArgument(){} // RVA: 0x5CF6D50
-        public void MarshalArguments(){} // RVA: 0x5CF78F0
-        public void UnmarshalArguments(){} // RVA: 0x5CF7A70
-        public void SaveLogicalCallContext(){} // RVA: 0x5CF7BF0
-        public void GetLogicalCallContext(){} // RVA: 0x5CF7D80
+        public void .ctor(){} // RVA: 0x7A80DA0C0
     }
 
-    public class CADMethodCallMessage
-    {
-        public string PropertiesCount; // 0x38
-
-        // ── Methods ──
-        public void get_Uri(){} // RVA: 0x4976A0
-        public void Create(){} // RVA: 0x5CF7E20
-        public void .ctor(){} // RVA: 0x5CF7EB0
-        public void GetArguments(){} // RVA: 0x5CF8250
-        public void GetArgs(){} // RVA: 0x5CF84B0
-        public void get_PropertiesCount(){} // RVA: 0x760030
-    }
-
-    public class CADMethodRef
+    public class CADMessageBase : Object
     {
         // ── Methods ──
-        public void GetTypes(){} // RVA: 0x5CF53B0
-        public void Resolve(){} // RVA: 0x5CF5550
-        public void .ctor(){} // RVA: 0x5CF5B50
+        public void .ctor(){} // RVA: 0x7ADAE3B60
+        public void GetMethod(){} // RVA: 0x7ADAE3C40
+        public void GetSignature(){} // RVA: 0x7ADAE3CD0
+        public void MarshalProperties(){} // RVA: 0x7ADAE3EF0
+        public void UnmarshalProperties(){} // RVA: 0x7ADAE43E0
+        public void IsPossibleToIgnoreMarshal(){} // RVA: 0x7ADAE4560
+        public void MarshalArgument(){} // RVA: 0x7ADAE4750
+        public void UnmarshalArgument(){} // RVA: 0x7ADAE48E0
+        public void MarshalArguments(){} // RVA: 0x7ADAE5490
+        public void UnmarshalArguments(){} // RVA: 0x7ADAE5620
+        public void SaveLogicalCallContext(){} // RVA: 0x7ADAE57B0
+        public void GetLogicalCallContext(){} // RVA: 0x7ADAE5940
     }
 
-    public class CADMethodReturnMessage
-    {
-        public object _returnValue; // 0x38
-
-        // ── Methods ──
-        public void Create(){} // RVA: 0x5CF84C0
-        public void .ctor(){} // RVA: 0x5CF8550
-        public void GetArguments(){} // RVA: 0x5CF8A70
-        public void GetArgs(){} // RVA: 0x5CF84B0
-        public void GetReturnValue(){} // RVA: 0x5CF8CD0
-        public void GetException(){} // RVA: 0x5CF8CE0
-        public void get_PropertiesCount(){} // RVA: 0x760030
-    }
-
-    public class CADObjRef
+    public class CADMethodCallMessage : CADMessageBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CF5250
+        public void get_Uri(){} // RVA: 0x7A8292C30
+        public void Create(){} // RVA: 0x7ADAE59E0
+        public void .ctor(){} // RVA: 0x7ADAE5A70
+        public void GetArguments(){} // RVA: 0x7ADAE5E10
+        public void GetArgs(){} // RVA: 0x7ADAE6070
+        public void get_PropertiesCount(){} // RVA: 0x7A851DB90
     }
 
-    public class CallContext
+    public class CADMethodRef : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void SetCurrentCallContext(){} // RVA: 0x519240
-        public void SetLogicalCallContext(){} // RVA: 0x5CF1EE0
-        public void LogicalGetData(){} // RVA: 0x5CF1F80
-        public void LogicalSetData(){} // RVA: 0x5CF20C0
+        public void GetTypes(){} // RVA: 0x7ADAE2EF0
+        public void Resolve(){} // RVA: 0x7ADAE30B0
+        public void .ctor(){} // RVA: 0x7ADAE36D0
     }
 
-    public class CallContextRemotingData : ؄}e
-    {
-        public string _logicalCallID; // 0x10
-
-        // ── Methods ──
-        public void get_LogicalCallID(){} // RVA: 0x2F8380
-        public void set_LogicalCallID(){} // RVA: 0x2DEE30
-        public void get_HasInfo(){} // RVA: 0xF01170
-        public void Clone(){} // RVA: 0x5CF44A0
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class CallContextSecurityData
-    {
-        public System.Security.Principal.IPrincipal _principal; // 0x10
-
-        // ── Methods ──
-        public void get_HasInfo(){} // RVA: 0xF01170
-        public void Clone(){} // RVA: 0x5CF4400
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class ClientContextReplySink
+    public class CADMethodReturnMessage : CADMessageBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4CF2A0
-        public void SyncProcessMessage(){} // RVA: 0x5CF9260
-        public void AsyncProcessMessage(){} // RVA: 0x5CF9320
+        public void Create(){} // RVA: 0x7ADAE6080
+        public void .ctor(){} // RVA: 0x7ADAE6110
+        public void GetArguments(){} // RVA: 0x7ADAE6630
+        public void GetArgs(){} // RVA: 0x7ADAE6070
+        public void GetReturnValue(){} // RVA: 0x7ADAE6890
+        public void GetException(){} // RVA: 0x7ADAE68A0
+        public void get_PropertiesCount(){} // RVA: 0x7A851DB90
     }
 
-    public class ClientContextTerminatorSink
+    public class CADObjRef : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void SyncProcessMessage(){} // RVA: 0x5CF8D90
-        public void AsyncProcessMessage(){} // RVA: 0x5CF8F50
+        public void .ctor(){} // RVA: 0x7ADAE2D90
     }
 
-    public class ConstructionCall
-    {
-        public System.Runtime.Remoting.Activation.IActivator _activator; // 0x68
-        public object[] _activationAttributes; // 0x70
-        public System.Collections.IList _contextProperties; // 0x78
-        public System.Type _activationType; // 0x80
-        public string _activationTypeName; // 0x88
-        public bool _isContextOk; // 0x90
-        public System.Runtime.Remoting.Proxies.RemotingProxy _sourceProxy; // 0x98
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CF9460 | overloaded x2
-        public void InitDictionary(){} // RVA: 0x5CF9520
-        public void get_IsContextOk(){} // RVA: 0x134A670
-        public void set_IsContextOk(){} // RVA: 0x1348E00
-        public void get_ActivationType(){} // RVA: 0x5CF9720
-        public void get_ActivationTypeName(){} // RVA: 0x31C010
-        public void get_Activator(){} // RVA: 0x358D50
-        public void set_Activator(){} // RVA: 0x358D60
-        public void get_CallSiteActivationAttributes(){} // RVA: 0x3A5590
-        public void SetActivationAttributes(){} // RVA: 0x3A55A0
-        public void get_ContextProperties(){} // RVA: 0x5CF9830
-        public void InitMethodProperty(){} // RVA: 0x5CF98E0
-        public void GetObjectData(){} // RVA: 0x5CF9E10
-        public void get_Properties(){} // RVA: 0x5CFA690
-        public void get_SourceProxy(){} // RVA: 0xA1C8C0
-        public void set_SourceProxy(){} // RVA: 0x9AA650
-    }
-
-    public class ConstructionCallDictionary
+    public class CallContext : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CFA6D0
-        public void GetMethodProperty(){} // RVA: 0x5CFA7F0
-        public void SetMethodProperty(){} // RVA: 0x5CFAC00
-        public void .cctor(){} // RVA: 0x5CFAF10
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void SetCurrentCallContext(){} // RVA: 0x7A82D1450
+        public void SetLogicalCallContext(){} // RVA: 0x7ADADFA90
+        public void LogicalGetData(){} // RVA: 0x7ADADFB30
+        public void LogicalSetData(){} // RVA: 0x7ADADFC70
     }
 
-    public class ConstructionResponse
+    public class CallContextRemotingData : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CFB1B0 | overloaded x3
-        public void get_Properties(){} // RVA: 0x5CFB240
+        public void get_LogicalCallID(){} // RVA: 0x7A80F2570
+        public void set_LogicalCallID(){} // RVA: 0x7A80D8E20
+        public void get_HasInfo(){} // RVA: 0x7A8CCB4F0
+        public void Clone(){} // RVA: 0x7ADAE2040
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class EnvoyTerminatorSink
+    public class CallContextSecurityData : Object
     {
         // ── Methods ──
-        public void SyncProcessMessage(){} // RVA: 0x5CFB380
-        public void AsyncProcessMessage(){} // RVA: 0x5CFB410
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x5CFB4B0
+        public void get_HasInfo(){} // RVA: 0x7A8CCB4F0
+        public void Clone(){} // RVA: 0x7ADAE1FA0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ErrorMessage
-    {
-        public string _uri; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CFB550
-        public void get_ArgCount(){} // RVA: 0x519240
-        public void get_Args(){} // RVA: 0x519240
-        public void get_MethodBase(){} // RVA: 0x519240
-        public void get_MethodName(){} // RVA: 0x5CFB5E0
-        public void get_MethodSignature(){} // RVA: 0x519240
-        public void get_Properties(){} // RVA: 0x519240
-        public void get_TypeName(){} // RVA: 0x5CFB620
-        public void get_Uri(){} // RVA: 0x2F8380
-        public void GetArg(){} // RVA: 0x519240
-        public void get_LogicalCallContext(){} // RVA: 0x519240
-    }
-
-    public class Header
-    {
-    }
-
-    public class HeaderHandler
+    public class ClientContextReplySink : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B07170
-        public void Invoke(){} // RVA: 0x338C60
+        public void .ctor(){} // RVA: 0x7A9A41AA0
+        public void SyncProcessMessage(){} // RVA: 0x7ADAE6E20
+        public void AsyncProcessMessage(){} // RVA: 0x7ADAE6EE0
+    }
+
+    public class ClientContextTerminatorSink : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void SyncProcessMessage(){} // RVA: 0x7ADAE6950
+        public void AsyncProcessMessage(){} // RVA: 0x7ADAE6B10
+    }
+
+    public class ConstructionCall : MethodCall
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADAE7020
+        public void InitDictionary(){} // RVA: 0x7ADAE70D0
+        public void get_IsContextOk(){} // RVA: 0x7A9101D40
+        public void set_IsContextOk(){} // RVA: 0x7A91004C0
+        public void get_ActivationType(){} // RVA: 0x7ADAE72D0
+        public void get_ActivationTypeName(){} // RVA: 0x7A81163D0
+        public void get_Activator(){} // RVA: 0x7A8153390
+        public void set_Activator(){} // RVA: 0x7A81533A0
+        public void get_CallSiteActivationAttributes(){} // RVA: 0x7A81A00E0
+        public void SetActivationAttributes(){} // RVA: 0x7A81A00F0
+        public void get_ContextProperties(){} // RVA: 0x7ADAE73E0
+        public void InitMethodProperty(){} // RVA: 0x7ADAE7490
+        public void GetObjectData(){} // RVA: 0x7ADAE79C0
+        public void get_Properties(){} // RVA: 0x7ADAE8240
+        public void get_SourceProxy(){} // RVA: 0x7A87D9C10
+        public void set_SourceProxy(){} // RVA: 0x7A8744720
+    }
+
+    public class ConstructionCallDictionary : MessageDictionary
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADAE8280
+        public void GetMethodProperty(){} // RVA: 0x7ADAE83A0
+        public void SetMethodProperty(){} // RVA: 0x7ADAE87B0
+        public void .cctor(){} // RVA: 0x7ADAE8AC0
+    }
+
+    public class ConstructionResponse : MethodResponse
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADAE8D60
+        public void get_Properties(){} // RVA: 0x7ADAE8DF0
+    }
+
+    public class EnvoyTerminatorSink : Object
+    {
+        // ── Methods ──
+        public void SyncProcessMessage(){} // RVA: 0x7ADAE8F30
+        public void AsyncProcessMessage(){} // RVA: 0x7ADAE8FC0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7ADAE9060
+    }
+
+    public class ErrorMessage : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADAE9100
+        public void get_ArgCount(){} // RVA: 0x7A82D1450
+        public void get_Args(){} // RVA: 0x7A82D1450
+        public void get_MethodBase(){} // RVA: 0x7A82D1450
+        public void get_MethodName(){} // RVA: 0x7ADAE9190
+        public void get_MethodSignature(){} // RVA: 0x7A82D1450
+        public void get_Properties(){} // RVA: 0x7A82D1450
+        public void get_TypeName(){} // RVA: 0x7ADAE91D0
+        public void get_Uri(){} // RVA: 0x7A80F2570
+        public void GetArg(){} // RVA: 0x7A82D1450
+        public void get_LogicalCallContext(){} // RVA: 0x7A82D1450
+    }
+
+    public class HeaderHandler : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A98C1360
+        public void Invoke(){} // RVA: 0x7A8133090
+    }
+
+    public class Header[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
     public class IInternalMessage
     {
         // ── Methods ──
-        public void get_TargetIdentity(){} // RVA: 0xCD60
-        public void set_TargetIdentity(){} // RVA: 0x24B10
-        public void get_Uri(){} // RVA: 0xCD60
-        public void set_Uri(){} // RVA: 0x24B10
+        public void get_TargetIdentity(){} // RVA: 0x7A7E00680
+        public void set_TargetIdentity(){} // RVA: 0x7A7E18800
+        public void get_Uri(){} // RVA: 0x7A7E00680
+        public void set_Uri(){} // RVA: 0x7A7E18800
     }
 
     public class IMessage
     {
         // ── Methods ──
-        public void get_Properties(){} // RVA: 0xCD60
-    }
-
-    public class IMessageCtrl
-    {
+        public void get_Properties(){} // RVA: 0x7A7E00680
     }
 
     public class IMessageSink
     {
         // ── Methods ──
-        public void SyncProcessMessage(){} // RVA: 0xCE10
-        public void AsyncProcessMessage(){} // RVA: 0x1E6A0
-    }
-
-    public class IMethodCallMessage
-    {
+        public void SyncProcessMessage(){} // RVA: 0x7A7E00B20
+        public void AsyncProcessMessage(){} // RVA: 0x7A7E00BD0
     }
 
     public class IMethodMessage
     {
         // ── Methods ──
-        public void get_ArgCount(){} // RVA: 0xD840
-        public void get_Args(){} // RVA: 0xCD60
-        public void get_LogicalCallContext(){} // RVA: 0xCD60
-        public void get_MethodBase(){} // RVA: 0xCD60
-        public void get_MethodName(){} // RVA: 0xCD60
-        public void get_MethodSignature(){} // RVA: 0xCD60
-        public void get_TypeName(){} // RVA: 0xCD60
-        public void get_Uri(){} // RVA: 0xCD60
-        public void GetArg(){} // RVA: 0x1BCC0
+        public void get_ArgCount(){} // RVA: 0x7A7E00710
+        public void get_Args(){} // RVA: 0x7A7E00680
+        public void get_LogicalCallContext(){} // RVA: 0x7A7E00680
+        public void get_MethodBase(){} // RVA: 0x7A7E00680
+        public void get_MethodName(){} // RVA: 0x7A7E00680
+        public void get_MethodSignature(){} // RVA: 0x7A7E00680
+        public void get_TypeName(){} // RVA: 0x7A7E00680
+        public void get_Uri(){} // RVA: 0x7A7E00680
+        public void GetArg(){} // RVA: 0x7A7E00740
     }
 
     public class IMethodReturnMessage
     {
         // ── Methods ──
-        public void get_Exception(){} // RVA: 0xCD60
-        public void get_OutArgs(){} // RVA: 0xCD60
-        public void get_ReturnValue(){} // RVA: 0xCD60
+        public void get_Exception(){} // RVA: 0x7A7E00680
+        public void get_OutArgs(){} // RVA: 0x7A7E00680
+        public void get_ReturnValue(){} // RVA: 0x7A7E00680
     }
 
-    public class IllogicalCallContext
-    {
-        public System.Collections.Hashtable m_Datastore; // 0x10
-        public object m_HostContext; // 0x18
-
-        // ── Methods ──
-        public void get_Datastore(){} // RVA: 0x5CF2200
-        public void get_HostContext(){} // RVA: 0x2E07C0
-        public void set_HostContext(){} // RVA: 0x343E80
-        public void get_HasUserData(){} // RVA: 0x5CF22B0
-        public void FreeNamedDataSlot(){} // RVA: 0x5CF22F0
-        public void CreateCopy(){} // RVA: 0x5CF2330
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class LogicalCallContext
-    {
-        public System.Type s_callContextType;
-        public string s_CorrelationMgrSlotName;
-        public System.Collections.Hashtable m_Datastore; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CF2670 | overloaded x2
-        public void GetObjectData(){} // RVA: 0x5CF2E20
-        public void Clone(){} // RVA: 0x5CF33E0
-        public void Merge(){} // RVA: 0x5CF3CF0
-        public void get_HasInfo(){} // RVA: 0x5CF3FE0
-        public void get_HasUserData(){} // RVA: 0x5CF22B0
-        public void get_Datastore(){} // RVA: 0x5CF4040
-        public void GetData(){} // RVA: 0x5CF40F0
-        public void SetData(){} // RVA: 0x5CF4130
-        public void .cctor(){} // RVA: 0x5CF41F0
-    }
-
-    public class MCMDictionary
+    public class IllogicalCallContext : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CFE720
-        public void .cctor(){} // RVA: 0x5CFE840
+        public void get_Datastore(){} // RVA: 0x7ADADFDB0
+        public void get_HostContext(){} // RVA: 0x7A80DA7B0
+        public void set_HostContext(){} // RVA: 0x7A813E420
+        public void get_HasUserData(){} // RVA: 0x7ADADFE60
+        public void FreeNamedDataSlot(){} // RVA: 0x7ADADFEA0
+        public void CreateCopy(){} // RVA: 0x7ADADFEE0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MessageDictionary
-    {
-        public System.Collections.IDictionary _internalProperties; // 0x10
-        public System.Runtime.Remoting.Messaging.IMethodMessage _message; // 0x18
-        public string[] _methodKeys; // 0x20
-        public bool _ownProperties; // 0x28
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x343E80
-        public void HasUserData(){} // RVA: 0x5CFE9E0
-        public void get_InternalDictionary(){} // RVA: 0x5CFEAD0
-        public void set_MethodKeys(){} // RVA: 0x30B0D0
-        public void AllocInternalProperties(){} // RVA: 0x5CFEB80
-        public void GetInternalProperties(){} // RVA: 0x5CFEBE0
-        public void IsOverridenKey(){} // RVA: 0x5CFEC70
-        public void get_IsFixedSize(){} // RVA: 0x2DD320
-        public void get_IsReadOnly(){} // RVA: 0x2DD320
-        public void get_Item(){} // RVA: 0x5CFED10
-        public void set_Item(){} // RVA: 0x5CFEE70
-        public void GetMethodProperty(){} // RVA: 0x5CFEE80
-        public void SetMethodProperty(){} // RVA: 0x5CFF3E0
-        public void get_Keys(){} // RVA: 0x5CFF610
-        public void get_Values(){} // RVA: 0x5CFFA50
-        public void Add(){} // RVA: 0x5CFFED0
-        public void Clear(){} // RVA: 0x5D000A0
-        public void Contains(){} // RVA: 0x5D00100
-        public void Remove(){} // RVA: 0x5D00240
-        public void get_Count(){} // RVA: 0x5D003C0
-        public void get_IsSynchronized(){} // RVA: 0x2DD320
-        public void get_SyncRoot(){} // RVA: 0x1A3F520
-        public void CopyTo(){} // RVA: 0x5D00430
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x5D004A0
-        public void GetEnumerator(){} // RVA: 0x5D00500
-    }
-
-    public class MethodCall
-    {
-        public string _uri; // 0x10
-        public string _typeName; // 0x18
-        public string _methodName; // 0x20
-        public object[] _args; // 0x28
-        public System.Type[] _methodSignature; // 0x30
-        public System.Reflection.MethodBase _methodBase; // 0x38
-        public System.Runtime.Remoting.Messaging.LogicalCallContext _callContext; // 0x40
-        public System.Runtime.Remoting.Identity _targetIdentity; // 0x48
-        public System.Type[] _genericArguments; // 0x50
-        public System.Collections.IDictionary ExternalProperties; // 0x58
-        public System.Collections.IDictionary InternalProperties; // 0x60
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310 | overloaded x3
-        public void CopyFrom(){} // RVA: 0x5CFBA20
-        public void InitMethodProperty(){} // RVA: 0x5CFBDC0
-        public void GetObjectData(){} // RVA: 0x5CFC420
-        public void get_ArgCount(){} // RVA: 0x5CFD5F0
-        public void get_Args(){} // RVA: 0x30B130
-        public void get_LogicalCallContext(){} // RVA: 0x5CFD610
-        public void get_MethodBase(){} // RVA: 0x5CFD6B0
-        public void get_MethodName(){} // RVA: 0x5CFD720
-        public void get_MethodSignature(){} // RVA: 0x5CFD7B0
-        public void get_Properties(){} // RVA: 0x5CFA690
-        public void InitDictionary(){} // RVA: 0x5CFD9E0
-        public void get_TypeName(){} // RVA: 0x5CFDB00
-        public void get_Uri(){} // RVA: 0x2F8380
-        public void set_Uri(){} // RVA: 0x2DEE30
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri(){} // RVA: 0x2F8380
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(){} // RVA: 0x2DEE30
-        public void GetArg(){} // RVA: 0x5CFDBC0
-        public void Init(){} // RVA: 0x2DD310
-        public void ResolveMethod(){} // RVA: 0x5CFDBF0
-        public void CastTo(){} // RVA: 0x5CFE320
-        public void GetTypeNameFromAssemblyQualifiedName(){} // RVA: 0x5CFE5C0
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity(){} // RVA: 0x358730
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(){} // RVA: 0x358740
-        public void get_GenericArguments(){} // RVA: 0x5CFE680
-    }
-
-    public class MethodResponse
-    {
-        public string _methodName; // 0x10
-        public string _uri; // 0x18
-        public string _typeName; // 0x20
-        public System.Reflection.MethodBase _methodBase; // 0x28
-        public object _returnValue; // 0x30
-        public System.Exception _exception; // 0x38
-        public System.Type[] _methodSignature; // 0x40
-        public System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo; // 0x48
-        public object[] _args; // 0x50
-        public object[] _outArgs; // 0x58
-        public System.Runtime.Remoting.Messaging.IMethodCallMessage _callMsg; // 0x60
-        public System.Runtime.Remoting.Messaging.LogicalCallContext _callContext; // 0x68
-        public System.Runtime.Remoting.Identity _targetIdentity; // 0x70
-        public System.Collections.IDictionary ExternalProperties; // 0x78
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CFB1B0 | overloaded x4
-        public void InitMethodProperty(){} // RVA: 0x5D01510
-        public void get_ArgCount(){} // RVA: 0x5D01C10
-        public void get_Args(){} // RVA: 0x37E0E0
-        public void get_Exception(){} // RVA: 0x4976A0
-        public void get_LogicalCallContext(){} // RVA: 0x5D01C30
-        public void get_MethodBase(){} // RVA: 0x5D01CD0
-        public void get_MethodName(){} // RVA: 0x5D01F60
-        public void get_MethodSignature(){} // RVA: 0x5D02010
-        public void get_OutArgs(){} // RVA: 0x5D02130
-        public void get_Properties(){} // RVA: 0x5CFB240
-        public void get_ReturnValue(){} // RVA: 0x6374D0
-        public void get_TypeName(){} // RVA: 0x5D02240
-        public void get_Uri(){} // RVA: 0x5D022F0
-        public void set_Uri(){} // RVA: 0x343E80
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri(){} // RVA: 0x5D022F0
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(){} // RVA: 0x343E80
-        public void GetArg(){} // RVA: 0x5D023A0
-        public void GetObjectData(){} // RVA: 0x5D023D0
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity(){} // RVA: 0x3A5590
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(){} // RVA: 0x3A55A0
-    }
-
-    public class MethodReturnDictionary
+    public class LogicalCallContext : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5D02B70
-        public void .cctor(){} // RVA: 0x5D02D40
+        public void .ctor(){} // RVA: 0x7ADAE0220
+        public void GetObjectData(){} // RVA: 0x7ADAE09D0
+        public void Clone(){} // RVA: 0x7ADAE0F90
+        public void Merge(){} // RVA: 0x7ADAE1890
+        public void get_HasInfo(){} // RVA: 0x7ADAE1B80
+        public void get_HasUserData(){} // RVA: 0x7ADADFE60
+        public void get_Datastore(){} // RVA: 0x7ADAE1BE0
+        public void GetData(){} // RVA: 0x7ADAE1C90
+        public void SetData(){} // RVA: 0x7ADAE1CD0
+        public void .cctor(){} // RVA: 0x7ADAE1D90
     }
 
-    public class MonoMethodMessage
-    {
-        public System.Reflection.RuntimeMethodInfo method; // 0x10
-        public object[] args; // 0x18
-        public string[] names; // 0x20
-        public byte[] arg_types; // 0x28
-        public System.Runtime.Remoting.Messaging.LogicalCallContext ctx; // 0x30
-        public object rval; // 0x38
-        public System.Exception exc; // 0x40
-        public System.Runtime.Remoting.Messaging.AsyncResult asyncResult; // 0x48
-        public 0x657ED140 call_type; // 0x50
-        public string uri; // 0x58
-        public System.Runtime.Remoting.Messaging.MCMDictionary properties; // 0x60
-        public System.Runtime.Remoting.Identity identity; // 0x68
-        public System.Type[] methodSignature; // 0x70
-
-        // ── Methods ──
-        public void InitMessage(){} // RVA: 0x5D02FC0
-        public void .ctor(){} // RVA: 0x5D03810 | overloaded x3
-        public void GetMethodInfo(){} // RVA: 0x5D036E0
-        public void get_Properties(){} // RVA: 0x5D03970
-        public void get_ArgCount(){} // RVA: 0x5D03A20
-        public void get_Args(){} // RVA: 0x2E07C0
-        public void get_LogicalCallContext(){} // RVA: 0x6374D0
-        public void set_LogicalCallContext(){} // RVA: 0x30B890
-        public void get_MethodBase(){} // RVA: 0x2F8380
-        public void get_MethodName(){} // RVA: 0x5D03A60
-        public void get_MethodSignature(){} // RVA: 0x5D03AD0
-        public void get_TypeName(){} // RVA: 0x5D03CC0
-        public void get_Uri(){} // RVA: 0x3A5500
-        public void set_Uri(){} // RVA: 0x3A5510
-        public void GetArg(){} // RVA: 0x5D03D50
-        public void get_Exception(){} // RVA: 0x35A740
-        public void get_OutArgCount(){} // RVA: 0x5D03D80
-        public void get_OutArgs(){} // RVA: 0x5D03DE0
-        public void get_ReturnValue(){} // RVA: 0x4976A0
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity(){} // RVA: 0x358D50
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(){} // RVA: 0x358D60
-        public void get_AsyncResult(){} // RVA: 0x358730
-        public void get_CallType(){} // RVA: 0x5D03F60
-        public void NeedsOutProcessing(){} // RVA: 0x5D040A0
-    }
-
-    public class ObjRefSurrogate
+    public class MCMDictionary : MessageDictionary
     {
         // ── Methods ──
-        public void GetObjectData(){} // RVA: 0x5D041F0
-        public void SetObjectData(){} // RVA: 0x5D04300
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7ADAEC2E0
+        public void .cctor(){} // RVA: 0x7ADAEC400
     }
 
-    public class OneWayAttribute
-    {
-    }
-
-    public class RemotingSurrogate
+    public class MessageDictionary : Object
     {
         // ── Methods ──
-        public void GetObjectData(){} // RVA: 0x5D04120
-        public void SetObjectData(){} // RVA: 0x5D041B0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A813E420
+        public void HasUserData(){} // RVA: 0x7ADAEC5A0
+        public void get_InternalDictionary(){} // RVA: 0x7ADAEC690
+        public void set_MethodKeys(){} // RVA: 0x7A81052D0
+        public void AllocInternalProperties(){} // RVA: 0x7ADAEC740
+        public void GetInternalProperties(){} // RVA: 0x7ADAEC7A0
+        public void IsOverridenKey(){} // RVA: 0x7ADAEC830
+        public void get_IsFixedSize(){} // RVA: 0x7A80D7320
+        public void get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void get_Item(){} // RVA: 0x7ADAEC8E0
+        public void set_Item(){} // RVA: 0x7ADAECA50
+        public void GetMethodProperty(){} // RVA: 0x7ADAECA60
+        public void SetMethodProperty(){} // RVA: 0x7ADAECFC0
+        public void get_Keys(){} // RVA: 0x7ADAED1F0
+        public void get_Values(){} // RVA: 0x7ADAED620
+        public void Add(){} // RVA: 0x7ADAEDA90
+        public void Clear(){} // RVA: 0x7ADAEDC70
+        public void Contains(){} // RVA: 0x7ADAEDCD0
+        public void Remove(){} // RVA: 0x7ADAEDE20
+        public void get_Count(){} // RVA: 0x7ADAEDFC0
+        public void get_IsSynchronized(){} // RVA: 0x7A80D7320
+        public void get_SyncRoot(){} // RVA: 0x7A97F8BA0
+        public void CopyTo(){} // RVA: 0x7ADAEE030
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ADAEE0A0
+        public void GetEnumerator(){} // RVA: 0x7ADAEE100
     }
 
-    public class RemotingSurrogateSelector
+    public class MethodCall : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void ChainSelector(){} // RVA: 0x5D04350
-        public void GetSurrogate(){} // RVA: 0x5D04410
-        public void .cctor(){} // RVA: 0x5D04630
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CopyFrom(){} // RVA: 0x7ADAE95D0
+        public void InitMethodProperty(){} // RVA: 0x7ADAE9980
+        public void GetObjectData(){} // RVA: 0x7ADAE9FE0
+        public void get_ArgCount(){} // RVA: 0x7ADAEB1A0
+        public void get_Args(){} // RVA: 0x7A8105330
+        public void get_LogicalCallContext(){} // RVA: 0x7ADAEB1C0
+        public void get_MethodBase(){} // RVA: 0x7ADAEB260
+        public void get_MethodName(){} // RVA: 0x7ADAEB2D0
+        public void get_MethodSignature(){} // RVA: 0x7ADAEB360
+        public void get_Properties(){} // RVA: 0x7ADAE8240
+        public void InitDictionary(){} // RVA: 0x7ADAEB5B0
+        public void get_TypeName(){} // RVA: 0x7ADAEB6D0
+        public void get_Uri(){} // RVA: 0x7A80F2570
+        public void set_Uri(){} // RVA: 0x7A80D8E20
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri(){} // RVA: 0x7A80F2570
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(){} // RVA: 0x7A80D8E20
+        public void GetArg(){} // RVA: 0x7ADAEB790
+        public void Init(){} // RVA: 0x7A80D7310
+        public void ResolveMethod(){} // RVA: 0x7ADAEB7C0
+        public void CastTo(){} // RVA: 0x7ADAEBEE0
+        public void GetTypeNameFromAssemblyQualifiedName(){} // RVA: 0x7ADAEC180
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity(){} // RVA: 0x7A8152D80
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(){} // RVA: 0x7A8152D90
+        public void get_GenericArguments(){} // RVA: 0x7ADAEC240
     }
 
-    public class ReturnMessage
+    public class MethodResponse : Object
     {
-        public object[] _outArgs; // 0x10
-        public object[] _args; // 0x18
-        public System.Runtime.Remoting.Messaging.LogicalCallContext _callCtx; // 0x20
-        public object _returnValue; // 0x28
-        public string _uri; // 0x30
-        public System.Exception _exception; // 0x38
-        public System.Reflection.MethodBase _methodBase; // 0x40
-        public string _methodName; // 0x48
-        public System.Type[] _methodSignature; // 0x50
-        public string _typeName; // 0x58
-        public System.Runtime.Remoting.Messaging.MethodReturnDictionary _properties; // 0x60
-        public System.Runtime.Remoting.Identity _targetIdentity; // 0x68
-        public System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo; // 0x70
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5D04B10 | overloaded x2
-        public void get_ArgCount(){} // RVA: 0x33B7190
-        public void get_Args(){} // RVA: 0x2E07C0
-        public void get_LogicalCallContext(){} // RVA: 0x5D04D00
-        public void get_MethodBase(){} // RVA: 0x35A740
-        public void get_MethodName(){} // RVA: 0x5D04DA0
-        public void get_MethodSignature(){} // RVA: 0x5D04E70
-        public void get_Properties(){} // RVA: 0x5D050A0
-        public void get_TypeName(){} // RVA: 0x5D05150
-        public void get_Uri(){} // RVA: 0x6374D0
-        public void set_Uri(){} // RVA: 0x30B890
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri(){} // RVA: 0x6374D0
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(){} // RVA: 0x30B890
-        public void GetArg(){} // RVA: 0x5D05250
-        public void get_Exception(){} // RVA: 0x4976A0
-        public void get_OutArgs(){} // RVA: 0x5D05280
-        public void get_ReturnValue(){} // RVA: 0x30B130
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity(){} // RVA: 0x358D50
-        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(){} // RVA: 0x358D60
+        public void .ctor(){} // RVA: 0x7ADAE8D60
+        public void InitMethodProperty(){} // RVA: 0x7ADAEF140
+        public void get_ArgCount(){} // RVA: 0x7ADAEF840
+        public void get_Args(){} // RVA: 0x7A8178B90
+        public void get_Exception(){} // RVA: 0x7A8292C30
+        public void get_LogicalCallContext(){} // RVA: 0x7ADAEF860
+        public void get_MethodBase(){} // RVA: 0x7ADAEF900
+        public void get_MethodName(){} // RVA: 0x7ADAEFB90
+        public void get_MethodSignature(){} // RVA: 0x7ADAEFC40
+        public void get_OutArgs(){} // RVA: 0x7ADAEFD60
+        public void get_Properties(){} // RVA: 0x7ADAE8DF0
+        public void get_ReturnValue(){} // RVA: 0x7A83F69F0
+        public void get_TypeName(){} // RVA: 0x7ADAEFE70
+        public void get_Uri(){} // RVA: 0x7ADAEFF20
+        public void set_Uri(){} // RVA: 0x7A813E420
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri(){} // RVA: 0x7ADAEFF20
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(){} // RVA: 0x7A813E420
+        public void GetArg(){} // RVA: 0x7ADAEFFD0
+        public void GetObjectData(){} // RVA: 0x7ADAF0000
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity(){} // RVA: 0x7A81A00E0
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(){} // RVA: 0x7A81A00F0
     }
 
-    public class ServerContextTerminatorSink
+    public class MethodReturnDictionary : MessageDictionary
     {
         // ── Methods ──
-        public void SyncProcessMessage(){} // RVA: 0x5D05390
-        public void AsyncProcessMessage(){} // RVA: 0x5D05490
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7ADAF0780
+        public void .cctor(){} // RVA: 0x7ADAF0950
     }
 
-    public class ServerObjectReplySink
+    public class MonoMethodMessage : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4CF2A0
-        public void SyncProcessMessage(){} // RVA: 0x5D058F0
-        public void AsyncProcessMessage(){} // RVA: 0x5D05970
+        public void InitMessage(){} // RVA: 0x7ADAF0BD0
+        public void .ctor(){} // RVA: 0x7ADAF14B0
+        public void GetMethodInfo(){} // RVA: 0x7ADAF1380
+        public void get_Properties(){} // RVA: 0x7ADAF1610
+        public void get_ArgCount(){} // RVA: 0x7ADAF16C0
+        public void get_Args(){} // RVA: 0x7A80DA7B0
+        public void get_LogicalCallContext(){} // RVA: 0x7A83F69F0
+        public void set_LogicalCallContext(){} // RVA: 0x7A8105A90
+        public void get_MethodBase(){} // RVA: 0x7A80F2570
+        public void get_MethodName(){} // RVA: 0x7ADAF1700
+        public void get_MethodSignature(){} // RVA: 0x7ADAF1770
+        public void get_TypeName(){} // RVA: 0x7ADAF1980
+        public void get_Uri(){} // RVA: 0x7A81A0050
+        public void set_Uri(){} // RVA: 0x7A81A0060
+        public void GetArg(){} // RVA: 0x7ADAF1A10
+        public void get_Exception(){} // RVA: 0x7A8154D80
+        public void get_OutArgCount(){} // RVA: 0x7ADAF1A40
+        public void get_OutArgs(){} // RVA: 0x7ADAF1AA0
+        public void get_ReturnValue(){} // RVA: 0x7A8292C30
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity(){} // RVA: 0x7A8153390
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(){} // RVA: 0x7A81533A0
+        public void get_AsyncResult(){} // RVA: 0x7A8152D80
+        public void get_CallType(){} // RVA: 0x7ADAF1C40
+        public void NeedsOutProcessing(){} // RVA: 0x7ADAF1D80
     }
 
-    public class ServerObjectTerminatorSink
+    public class ObjRefSurrogate : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void SyncProcessMessage(){} // RVA: 0x5D05560
-        public void AsyncProcessMessage(){} // RVA: 0x5D05690
+        public void GetObjectData(){} // RVA: 0x7ADAF1ED0
+        public void SetObjectData(){} // RVA: 0x7ADAF1FE0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class StackBuilderSink : .ctor
+    public class RemotingSurrogate : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5D059B0
-        public void SyncProcessMessage(){} // RVA: 0x5D05A60
-        public void AsyncProcessMessage(){} // RVA: 0x5D05B50
-        public void ExecuteAsyncMessage(){} // RVA: 0x5D05C90
-        public void CheckParameters(){} // RVA: 0x5D05E70
-        public void <AsyncProcessMessage>b__4_0(){} // RVA: 0x5D061E0
+        public void GetObjectData(){} // RVA: 0x7ADAF1E00
+        public void SetObjectData(){} // RVA: 0x7ADAF1E90
+        public void .ctor(){} // RVA: 0x7A80D7310
+    }
+
+    public class RemotingSurrogateSelector : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void ChainSelector(){} // RVA: 0x7ADAF2030
+        public void GetSurrogate(){} // RVA: 0x7ADAF20F0
+        public void .cctor(){} // RVA: 0x7ADAF2310
+    }
+
+    public class ReturnMessage : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADAF2800
+        public void get_ArgCount(){} // RVA: 0x7AB1ACB90
+        public void get_Args(){} // RVA: 0x7A80DA7B0
+        public void get_LogicalCallContext(){} // RVA: 0x7ADAF29F0
+        public void get_MethodBase(){} // RVA: 0x7A8154D80
+        public void get_MethodName(){} // RVA: 0x7ADAF2A90
+        public void get_MethodSignature(){} // RVA: 0x7ADAF2B60
+        public void get_Properties(){} // RVA: 0x7ADAF2DB0
+        public void get_TypeName(){} // RVA: 0x7ADAF2E60
+        public void get_Uri(){} // RVA: 0x7A83F69F0
+        public void set_Uri(){} // RVA: 0x7A8105A90
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri(){} // RVA: 0x7A83F69F0
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(){} // RVA: 0x7A8105A90
+        public void GetArg(){} // RVA: 0x7ADAF2F60
+        public void get_Exception(){} // RVA: 0x7A8292C30
+        public void get_OutArgs(){} // RVA: 0x7ADAF2F90
+        public void get_ReturnValue(){} // RVA: 0x7A8105330
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity(){} // RVA: 0x7A8153390
+        public void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(){} // RVA: 0x7A81533A0
+    }
+
+    public class ServerContextTerminatorSink : Object
+    {
+        // ── Methods ──
+        public void SyncProcessMessage(){} // RVA: 0x7ADAF30A0
+        public void AsyncProcessMessage(){} // RVA: 0x7ADAF31A0
+        public void .ctor(){} // RVA: 0x7A80D7310
+    }
+
+    public class ServerObjectReplySink : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9A41AA0
+        public void SyncProcessMessage(){} // RVA: 0x7ADAF3600
+        public void AsyncProcessMessage(){} // RVA: 0x7ADAF3680
+    }
+
+    public class ServerObjectTerminatorSink : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void SyncProcessMessage(){} // RVA: 0x7ADAF3270
+        public void AsyncProcessMessage(){} // RVA: 0x7ADAF33A0
+    }
+
+    public class StackBuilderSink : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADAF36C0
+        public void SyncProcessMessage(){} // RVA: 0x7ADAF3770
+        public void AsyncProcessMessage(){} // RVA: 0x7ADAF3860
+        public void ExecuteAsyncMessage(){} // RVA: 0x7ADAF39A0
+        public void CheckParameters(){} // RVA: 0x7ADAF3B80
+        public void <AsyncProcessMessage>b__4_0(){} // RVA: 0x7ADAF3F00
     }
 
 }

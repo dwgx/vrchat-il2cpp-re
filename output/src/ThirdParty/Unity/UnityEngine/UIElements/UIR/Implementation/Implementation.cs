@@ -5,116 +5,108 @@
 
 namespace ThirdParty.Unity.UnityEngine.UIElements.UIR.Implementation
 {
-    public class CommandGenerator
+    public class CommandGenerator : Object
     {
         // ── Methods ──
-        public void GetVerticesTransformInfo(){} // RVA: 0x7357E80
-        public void ComputeTransformMatrix(){} // RVA: 0x7358080
-        public void IsParentOrAncestorOf(){} // RVA: 0x73581F0
-        public void PaintElement(){} // RVA: 0x7358240
-        public void InvokeGenerateVisualContent(){} // RVA: 0x7359C30
-        public void CreateBlitShader(){} // RVA: 0x7359D30
-        public void GetBlitMaterial(){} // RVA: 0x735A100
-        public void ClosePaintElement(){} // RVA: 0x735A5A0
-        public void UpdateOrAllocate(){} // RVA: 0x735A820
-        public void UpdateOpacityId(){} // RVA: 0x735AA20
-        public void DoUpdateOpacityId(){} // RVA: 0x735AAF0
-        public void NudgeVerticesToNewSpace(){} // RVA: 0x735ACB0
-        public void PrepareNudgeVertices(){} // RVA: 0x735B2F0
-        public void InjectMeshDrawCommand(){} // RVA: 0x735B420
-        public void InjectClosingMeshDrawCommand(){} // RVA: 0x735B6B0
-        public void FindCommandInsertionPoint(){} // RVA: 0x735B940
-        public void FindClosingCommandInsertionPoint(){} // RVA: 0x735BDD0
-        public void InjectCommandInBetween(){} // RVA: 0x735C290
-        public void InjectClosingCommandInBetween(){} // RVA: 0x735C610
-        public void ResetCommands(){} // RVA: 0x735C9C0
-        public void .cctor(){} // RVA: 0x735D020
+        public void GetVerticesTransformInfo(){} // RVA: 0x7AF1381C0
+        public void ComputeTransformMatrix(){} // RVA: 0x7AF1383C0
+        public void IsParentOrAncestorOf(){} // RVA: 0x7AF138550
+        public void PaintElement(){} // RVA: 0x7AF1385A0
+        public void InvokeGenerateVisualContent(){} // RVA: 0x7AF139FD0
+        public void CreateBlitShader(){} // RVA: 0x7AF13A0D0
+        public void GetBlitMaterial(){} // RVA: 0x7AF13A4B0
+        public void ClosePaintElement(){} // RVA: 0x7AF13A950
+        public void UpdateOrAllocate(){} // RVA: 0x7AF13AC00
+        public void UpdateOpacityId(){} // RVA: 0x7AF13AE00
+        public void DoUpdateOpacityId(){} // RVA: 0x7AF13AED0
+        public void NudgeVerticesToNewSpace(){} // RVA: 0x7AF13B1F0
+        public void PrepareNudgeVertices(){} // RVA: 0x7AF13B830
+        public void InjectMeshDrawCommand(){} // RVA: 0x7AF13B960
+        public void InjectClosingMeshDrawCommand(){} // RVA: 0x7AF13BC10
+        public void FindCommandInsertionPoint(){} // RVA: 0x7AF13BEC0
+        public void FindClosingCommandInsertionPoint(){} // RVA: 0x7AF13C350
+        public void InjectCommandInBetween(){} // RVA: 0x7AF13C810
+        public void InjectClosingCommandInBetween(){} // RVA: 0x7AF13CB90
+        public void ResetCommands(){} // RVA: 0x7AF13CF40
+        public void .cctor(){} // RVA: 0x7AF13D5A0
     }
 
-    public class RenderEvents
+    public class RenderEvents : Object
     {
         // ── Methods ──
-        public void ProcessOnClippingChanged(){} // RVA: 0x735D570
-        public void ProcessOnOpacityChanged(){} // RVA: 0x735D690
-        public void ProcessOnColorChanged(){} // RVA: 0x735D790
-        public void ProcessOnTransformOrSizeChanged(){} // RVA: 0x735D820
-        public void ProcessOnVisualsChanged(){} // RVA: 0x735D900
-        public void GetTransformIDTransformInfo(){} // RVA: 0x735DA50
-        public void GetClipRectIDClipInfo(){} // RVA: 0x735DC30
-        public void DepthFirstOnChildAdded(){} // RVA: 0x735DED0
-        public void DepthFirstOnChildRemoving(){} // RVA: 0x735EAC0
-        public void DepthFirstOnClippingChanged(){} // RVA: 0x735F830
-        public void DepthFirstOnOpacityChanged(){} // RVA: 0x735FF00
-        public void OnColorChanged(){} // RVA: 0x7360440
-        public void DepthFirstOnTransformOrSizeChanged(){} // RVA: 0x73606F0
-        public void DepthFirstOnVisualsChanged(){} // RVA: 0x7360E40
-        public void UpdateTextCoreSettings(){} // RVA: 0x7361420
-        public void IsElementHierarchyHidden(){} // RVA: 0x73619F0
-        public void GetLastDeepestChild(){} // RVA: 0x7361A50
-        public void DetermineSelfClipMethod(){} // RVA: 0x7361B90
-        public void UpdateLocalFlipsWinding(){} // RVA: 0x7361D60
-        public void UpdateWorldFlipsWinding(){} // RVA: 0x7361E50
-        public void UpdateZeroScaling(){} // RVA: 0x7361EA0
-        public void NeedsTransformID(){} // RVA: 0x7361FA0
-        public void NeedsColorID(){} // RVA: 0x7361FD0
-        public void NeedsTextCoreSettings(){} // RVA: 0x7361FF0
-        public void InitColorIDs(){} // RVA: 0x73620D0
-        public void SetColorValues(){} // RVA: 0x7362590
-        public void .cctor(){} // RVA: 0x7362A00
+        public void ProcessOnClippingChanged(){} // RVA: 0x7AF13DAF0
+        public void ProcessOnOpacityChanged(){} // RVA: 0x7AF13DC10
+        public void ProcessOnColorChanged(){} // RVA: 0x7AF13DD10
+        public void ProcessOnTransformOrSizeChanged(){} // RVA: 0x7AF13DDA0
+        public void ProcessOnVisualsChanged(){} // RVA: 0x7AF13DE80
+        public void GetTransformIDTransformInfo(){} // RVA: 0x7AF13DFD0
+        public void GetClipRectIDClipInfo(){} // RVA: 0x7AF13E1A0
+        public void DepthFirstOnChildAdded(){} // RVA: 0x7AF13E430
+        public void DepthFirstOnChildRemoving(){} // RVA: 0x7AF13F020
+        public void DepthFirstOnClippingChanged(){} // RVA: 0x7AF13FD10
+        public void DepthFirstOnOpacityChanged(){} // RVA: 0x7AF1403D0
+        public void OnColorChanged(){} // RVA: 0x7AF140910
+        public void DepthFirstOnTransformOrSizeChanged(){} // RVA: 0x7AF140BC0
+        public void DepthFirstOnVisualsChanged(){} // RVA: 0x7AF1412F0
+        public void UpdateTextCoreSettings(){} // RVA: 0x7AF141900
+        public void IsElementHierarchyHidden(){} // RVA: 0x7AF141EC0
+        public void GetLastDeepestChild(){} // RVA: 0x7AF141F20
+        public void DetermineSelfClipMethod(){} // RVA: 0x7AF142060
+        public void UpdateLocalFlipsWinding(){} // RVA: 0x7AF142230
+        public void UpdateWorldFlipsWinding(){} // RVA: 0x7AF142320
+        public void UpdateZeroScaling(){} // RVA: 0x7AF142370
+        public void NeedsTransformID(){} // RVA: 0x7AF142480
+        public void NeedsColorID(){} // RVA: 0x7AF1424B0
+        public void NeedsTextCoreSettings(){} // RVA: 0x7AF1424D0
+        public void InitColorIDs(){} // RVA: 0x7AF1425C0
+        public void SetColorValues(){} // RVA: 0x7AF142A80
+        public void .cctor(){} // RVA: 0x7AF142EE0
     }
 
-    public class UIRStylePainter
+    public class UIRStylePainter : Object
     {
-        public UnityEngine.UIElements.UIR.RenderChain m_Owner; // 0x10
-        public System.Collections.Generic.List`1<Entry> m_Entries; // 0x18
-        public UnityEngine.UIElements.AtlasBase m_Atlas; // 0x20
-        public UnityEngine.UIElements.UIR.VectorImageManager m_VectorImageManager; // 0x28
-        public Entry m_CurrentEntry; // 0x30
-        public ClosingInfo m_ClosingInfo; // 0x80
-        public int m_MaskDepth; // 0xB8
-
         // ── Methods ──
-        public void GetPooledMeshWriteData(){} // RVA: 0x7362A40
-        public void AllocRawVertsIndices(){} // RVA: 0x7362B30
-        public void AllocThroughDrawMesh(){} // RVA: 0x7362C20
-        public void .ctor(){} // RVA: 0x7362C50
-        public void get_meshGenerationContext(){} // RVA: 0xA902E0
-        public void get_currentElement(){} // RVA: 0x507710
-        public void set_currentElement(){} // RVA: 0x509930
-        public void get_entries(){} // RVA: 0x2F0F420
-        public void get_closingInfo(){} // RVA: 0x7363350
-        public void get_totalVertices(){} // RVA: 0x13CBAD0
-        public void set_totalVertices(){} // RVA: 0x13D7860
-        public void get_totalIndices(){} // RVA: 0x7363390
-        public void set_totalIndices(){} // RVA: 0x73633A0
-        public void Begin(){} // RVA: 0x73633B0
-        public void LandClipUnregisterMeshDrawCommand(){} // RVA: 0x7363BF0
-        public void LandClipRegisterMesh(){} // RVA: 0x7363CC0
-        public void DrawMesh(){} // RVA: 0x7363D70
-        public void TryAtlasTexture(){} // RVA: 0x7364370
-        public void BuildEntryFromNativeMesh(){} // RVA: 0x73645C0
-        public void BuildGradientEntryFromNativeMesh(){} // RVA: 0x7364B10
-        public void BuildRawEntryFromNativeMesh(){} // RVA: 0x7364F40
-        public void DrawText(){} // RVA: 0x73651B0
-        public void DrawTextInfo(){} // RVA: 0x7365280
-        public void DrawRectangle(){} // RVA: 0x73659F0
-        public void DrawBorder(){} // RVA: 0x7366480
-        public void DrawImmediate(){} // RVA: 0x73665D0
-        public void get_visualElement(){} // RVA: 0x7366850
-        public void DrawVisualElementBackground(){} // RVA: 0x7366860
-        public void DrawRectangleRepeat(){} // RVA: 0x73681E0
-        public void StampRectangleWithSubRect(){} // RVA: 0x736A450
-        public void DrawVisualElementBorder(){} // RVA: 0x736A8D0
-        public void ApplyVisualElementClipping(){} // RVA: 0x736B0A0
-        public void AdjustSpriteWinding(){} // RVA: 0x736B390
-        public void DrawSprite(){} // RVA: 0x736B760
-        public void ApplyInset(){} // RVA: 0x736C2D0
-        public void DrawVectorImage(){} // RVA: 0x736C600
-        public void MakeVectorGraphics(){} // RVA: 0x736CD70
-        public void Reset(){} // RVA: 0x736DA80
-        public void ValidateMeshWriteData(){} // RVA: 0x736DB80
-        public void GenerateStencilClipEntryForRoundedRectBackground(){} // RVA: 0x736DF90
-        public void GenerateStencilClipEntryForSVGBackground(){} // RVA: 0x736E890
+        public void GetPooledMeshWriteData(){} // RVA: 0x7AF142F20
+        public void AllocRawVertsIndices(){} // RVA: 0x7AF143010
+        public void AllocThroughDrawMesh(){} // RVA: 0x7AF143100
+        public void .ctor(){} // RVA: 0x7AF143130
+        public void get_meshGenerationContext(){} // RVA: 0x7A884DED0
+        public void get_currentElement(){} // RVA: 0x7A884F050
+        public void set_currentElement(){} // RVA: 0x7A8B5D8D0
+        public void get_entries(){} // RVA: 0x7AACE3A80
+        public void get_closingInfo(){} // RVA: 0x7AF143840
+        public void get_totalVertices(){} // RVA: 0x7A9183130
+        public void set_totalVertices(){} // RVA: 0x7A918EF30
+        public void get_totalIndices(){} // RVA: 0x7AF143880
+        public void set_totalIndices(){} // RVA: 0x7AF143890
+        public void Begin(){} // RVA: 0x7AF1438A0
+        public void LandClipUnregisterMeshDrawCommand(){} // RVA: 0x7AF144100
+        public void LandClipRegisterMesh(){} // RVA: 0x7AF1441D0
+        public void DrawMesh(){} // RVA: 0x7AF144280
+        public void TryAtlasTexture(){} // RVA: 0x7AF1448A0
+        public void BuildEntryFromNativeMesh(){} // RVA: 0x7AF144AF0
+        public void BuildGradientEntryFromNativeMesh(){} // RVA: 0x7AF145040
+        public void BuildRawEntryFromNativeMesh(){} // RVA: 0x7AF145480
+        public void DrawText(){} // RVA: 0x7AF1456F0
+        public void DrawTextInfo(){} // RVA: 0x7AF1457C0
+        public void DrawRectangle(){} // RVA: 0x7AF145F00
+        public void DrawBorder(){} // RVA: 0x7AF146990
+        public void DrawImmediate(){} // RVA: 0x7AF146AE0
+        public void get_visualElement(){} // RVA: 0x7AF146D90
+        public void DrawVisualElementBackground(){} // RVA: 0x7AF146DA0
+        public void DrawRectangleRepeat(){} // RVA: 0x7AF148720
+        public void StampRectangleWithSubRect(){} // RVA: 0x7AF14AA30
+        public void DrawVisualElementBorder(){} // RVA: 0x7AF14AEB0
+        public void ApplyVisualElementClipping(){} // RVA: 0x7AF14B6A0
+        public void AdjustSpriteWinding(){} // RVA: 0x7AF14B9D0
+        public void DrawSprite(){} // RVA: 0x7AF14BDF0
+        public void ApplyInset(){} // RVA: 0x7AF14C9B0
+        public void DrawVectorImage(){} // RVA: 0x7AF14CCE0
+        public void MakeVectorGraphics(){} // RVA: 0x7AF14D440
+        public void Reset(){} // RVA: 0x7AF14E130
+        public void ValidateMeshWriteData(){} // RVA: 0x7AF14E230
+        public void GenerateStencilClipEntryForRoundedRectBackground(){} // RVA: 0x7AF14E650
+        public void GenerateStencilClipEntryForSVGBackground(){} // RVA: 0x7AF14EF50
     }
 
 }

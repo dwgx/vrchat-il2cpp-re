@@ -226,3 +226,10 @@ output/_eac_*.md
 
 # === Field-type naming raw predictions (merged into fieldtype_class_names.json) ===
 output/fieldtype_name_predictions*.json
+
+# === June-13+ build extraction (large derived, regenerable) ===
+data/precise_dump_jun13.json
+data/precise_dump_jun05.json
+data/struct_crack_result.json
+# stray native build artifacts (kernel/driver scratch)
+*.obj

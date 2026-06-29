@@ -5,19 +5,19 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class FieldByRefUpdater
+    public class FieldByRefUpdater : ByRefUpdater
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6641210
-        public void Update(){} // RVA: 0x66412D0
-        public void UndefineTemps(){} // RVA: 0x6641380
+        public void .ctor(){} // RVA: 0x7AE42FB90
+        public void Update(){} // RVA: 0x7AE42FC50
+        public void UndefineTemps(){} // RVA: 0x7AE42FD00
     }
 
-    public class FieldInstruction
+    public class FieldInstruction : Instruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void ToString(){} // RVA: 0x6618B00
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void ToString(){} // RVA: 0x7AE407610
     }
 
 }

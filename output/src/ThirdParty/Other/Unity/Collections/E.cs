@@ -5,13 +5,11 @@
 
 namespace ThirdParty.Other.Unity.Collections
 {
-    public class ExcludeFromBurstCompatTestingAttribute
+    public class ExcludeFromBurstCompatTestingAttribute : Attribute
     {
-        public string <Reason>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void set_Reason(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void set_Reason(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
 }

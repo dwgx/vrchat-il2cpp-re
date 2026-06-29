@@ -1,109 +1,87 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Qualified
 // Classes: 8
-// Methods: 49
+// Methods: 39
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Qualified
 {
-    public class BiometricData
+    public class BiometricData : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Qualified.TypeOfBiometricData typeOfBiometricData; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString biometricDataHash; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerIA5String sourceDataUri; // 0x28
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x9750BA0
-        public void .ctor(){} // RVA: 0x9750F60 | overloaded x3
-        public void get_TypeOfBiometricData(){} // RVA: 0x2F8380
-        public void get_HashAlgorithm(){} // RVA: 0x2E07C0
-        public void get_BiometricDataHash(){} // RVA: 0x30B0C0
-        public void get_SourceDataUri(){} // RVA: 0x30B130
-        public void ToAsn1Object(){} // RVA: 0x97510B0
+        public void GetInstance(){} // RVA: 0x7B158A880
+        public void .ctor(){} // RVA: 0x7B158AC40
+        public void get_TypeOfBiometricData(){} // RVA: 0x7A80F2570
+        public void get_HashAlgorithm(){} // RVA: 0x7A80DA7B0
+        public void get_BiometricDataHash(){} // RVA: 0x7A81052C0
+        public void get_SourceDataUri(){} // RVA: 0x7A8105330
+        public void ToAsn1Object(){} // RVA: 0x7B158AD90
     }
 
-    public class EtsiQCObjectIdentifiers
+    public class EtsiQCObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9751330
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B158B020
     }
 
-    public class Iso4217CurrencyCode
+    public class Iso4217CurrencyCode : Asn1Encodable
     {
-        public int AlphabeticMaxSize;
-        public int NumericMinSize;
-        public int NumericMaxSize;
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97517C0
-        public void .ctor(){} // RVA: 0x9751D50 | overloaded x2
-        public void get_IsAlphabetic(){} // RVA: 0x9751ED0
-        public void get_Alphabetic(){} // RVA: 0x9751F60
-        public void get_Numeric(){} // RVA: 0x9751FF0
-        public void ToAsn1Object(){} // RVA: 0x7F0250
+        public void GetInstance(){} // RVA: 0x7B158B4B0
+        public void .ctor(){} // RVA: 0x7B158BA40
+        public void get_IsAlphabetic(){} // RVA: 0x7B158BBC0
+        public void get_Alphabetic(){} // RVA: 0x7B158BC40
+        public void get_Numeric(){} // RVA: 0x7B158BCD0
+        public void ToAsn1Object(){} // RVA: 0x7A858AB20
     }
 
-    public class MonetaryValue
+    public class MonetaryValue : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Qualified.Iso4217CurrencyCode currency; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger amount; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerInteger exponent; // 0x20
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97520B0
-        public void .ctor(){} // RVA: 0x9752490 | overloaded x2
-        public void get_Currency(){} // RVA: 0x2F8380
-        public void get_Amount(){} // RVA: 0x9752620
-        public void get_Exponent(){} // RVA: 0x9752640
-        public void ToAsn1Object(){} // RVA: 0x9752660
+        public void GetInstance(){} // RVA: 0x7B158BD90
+        public void .ctor(){} // RVA: 0x7B158C170
+        public void get_Currency(){} // RVA: 0x7A80F2570
+        public void get_Amount(){} // RVA: 0x7B158C310
+        public void get_Exponent(){} // RVA: 0x7B158C330
+        public void ToAsn1Object(){} // RVA: 0x7B158C350
     }
 
-    public class QCStatement
+    public class QCStatement : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier qcStatementId; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable qcStatementInfo; // 0x18
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97527C0
-        public void .ctor(){} // RVA: 0xF19AE0 | overloaded x3
-        public void get_StatementId(){} // RVA: 0x2F8380
-        public void get_StatementInfo(){} // RVA: 0x2E07C0
-        public void ToAsn1Object(){} // RVA: 0x9752C10
+        public void GetInstance(){} // RVA: 0x7B158C4B0
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void get_StatementId(){} // RVA: 0x7A80F2570
+        public void get_StatementInfo(){} // RVA: 0x7A80DA7B0
+        public void ToAsn1Object(){} // RVA: 0x7B158C900
     }
 
-    public class Rfc3739QCObjectIdentifiers
+    public class Rfc3739QCObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9752E10
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B158CB10
     }
 
-    public class SemanticsInformation
+    public class SemanticsInformation : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.DerObjectIdentifier semanticsIdentifier; // 0x10
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97530D0
-        public void .ctor(){} // RVA: 0x343E80 | overloaded x4
-        public void get_SemanticsIdentifier(){} // RVA: 0x2F8380
-        public void GetNameRegistrationAuthorities(){} // RVA: 0x2E07C0
-        public void ToAsn1Object(){} // RVA: 0x9753610
+        public void GetInstance(){} // RVA: 0x7B158CDD0
+        public void .ctor(){} // RVA: 0x7A813E420
+        public void get_SemanticsIdentifier(){} // RVA: 0x7A80F2570
+        public void GetNameRegistrationAuthorities(){} // RVA: 0x7A80DA7B0
+        public void ToAsn1Object(){} // RVA: 0x7B158D320
     }
 
-    public class TypeOfBiometricData
+    public class TypeOfBiometricData : Asn1Encodable
     {
-        public int Picture;
-        public int HandwrittenSignature;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1Encodable obj; // 0x10
-
         // ── Methods ──
-        public void GetInstance(){} // RVA: 0x97537E0
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void get_IsPredefined(){} // RVA: 0x9753CB0
-        public void get_PredefinedBiometricType(){} // RVA: 0x9753D40
-        public void get_BiometricDataOid(){} // RVA: 0x9753E00
-        public void ToAsn1Object(){} // RVA: 0x7F0250
+        public void GetInstance(){} // RVA: 0x7B158D500
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_IsPredefined(){} // RVA: 0x7B158D9D0
+        public void get_PredefinedBiometricType(){} // RVA: 0x7B158DA50
+        public void get_BiometricDataOid(){} // RVA: 0x7B158DB10
+        public void ToAsn1Object(){} // RVA: 0x7A858AB20
     }
 
 }

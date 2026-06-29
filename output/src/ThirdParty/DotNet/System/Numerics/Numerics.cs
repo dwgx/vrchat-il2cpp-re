@@ -1,333 +1,274 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Numerics
-// Classes: 22
-// Methods: 283
+// Classes: 16
+// Methods: 186
 
 namespace ThirdParty.DotNet.System.Numerics
 {
-    public class BigInteger
-    {
-        public int _sign; // 0x10
-        public uint[] _bits; // 0x18
-        public System.Numerics.BigInteger s_bnMinInt;
-        public System.Numerics.BigInteger s_bnOneInt; // 0x10
-        public System.Numerics.BigInteger s_bnZeroInt; // 0x20
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x68242A0 | overloaded x11
-        public void get_Zero(){} // RVA: 0x68245D0
-        public void get_MinusOne(){} // RVA: 0x6824630
-        public void get_IsZero(){} // RVA: 0x62E1480
-        public void get_IsEven(){} // RVA: 0x6824690
-        public void get_Sign(){} // RVA: 0x68246D0
-        public void Parse(){} // RVA: 0x6824780 | overloaded x2
-        public void ModPow(){} // RVA: 0x68247E0
-        public void GetHashCode(){} // RVA: 0x6824FC0
-        public void Equals(){} // RVA: 0x6825140 | overloaded x3
-        public void CompareTo(){} // RVA: 0x68254B0 | overloaded x3
-        public void ToByteArray(){} // RVA: 0x6825620 | overloaded x2
-        public void TryWriteBytes(){} // RVA: 0x68256D0
-        public void TryWriteOrCountBytes(){} // RVA: 0x6825790
-        public void TryGetBytes(){} // RVA: 0x6825840
-        public void ToString(){} // RVA: 0x6825F40 | overloaded x3
-        public void Add(){} // RVA: 0x6826040
-        public void op_Subtraction(){} // RVA: 0x6826200
-        public void Subtract(){} // RVA: 0x6826420
-        public void op_Implicit(){} // RVA: 0x6826760 | overloaded x8
-        public void op_Explicit(){} // RVA: 0x6826F10 | overloaded x11
-        public void op_LeftShift(){} // RVA: 0x6827080
-        public void op_RightShift(){} // RVA: 0x6827330
-        public void op_UnaryNegation(){} // RVA: 0x68277A0
-        public void op_Addition(){} // RVA: 0x6827810
-        public void op_Multiply(){} // RVA: 0x6827A30
-        public void op_Division(){} // RVA: 0x6827D50
-        public void op_Modulus(){} // RVA: 0x6828000
-        public void op_LessThanOrEqual(){} // RVA: 0x6828550 | overloaded x3
-        public void op_GreaterThanOrEqual(){} // RVA: 0x6828250
-        public void op_Inequality(){} // RVA: 0x6828470 | overloaded x2
-        public void op_LessThan(){} // RVA: 0x68284E0 | overloaded x2
-        public void op_Equality(){} // RVA: 0x6828410
-        public void GetPartsForBitManipulation(){} // RVA: 0x68285C0
-        public void GetDiffLength(){} // RVA: 0x68287A0
-        public void .cctor(){} // RVA: 0x6828800
-    }
-
-    public class BigIntegerCalculator
+    public class BigInteger : ValueType
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x6828EA0 | overloaded x3
-        public void AddSelf(){} // RVA: 0x6828F50
-        public void Subtract(){} // RVA: 0x6829220 | overloaded x3
-        public void SubtractSelf(){} // RVA: 0x68292D0
-        public void Compare(){} // RVA: 0x68293D0 | overloaded x2
-        public void Divide(){} // RVA: 0x6829770 | overloaded x3
-        public void Remainder(){} // RVA: 0x6829670 | overloaded x2
-        public void AddDivisor(){} // RVA: 0x6829B50
-        public void SubtractDivisor(){} // RVA: 0x6829B80
-        public void DivideGuessTooBig(){} // RVA: 0x6829BD0
-        public void CreateCopy(){} // RVA: 0x6829C10
-        public void LeadingZeros(){} // RVA: 0x6829C90
-        public void Pow(){} // RVA: 0x682A380 | overloaded x8
-        public void PowCore(){} // RVA: 0x682AF20 | overloaded x8
-        public void ActualLength(){} // RVA: 0x682B050 | overloaded x2
-        public void Square(){} // RVA: 0x682B180 | overloaded x2
-        public void Multiply(){} // RVA: 0x682B7A0 | overloaded x3
-        public void SubtractCore(){} // RVA: 0x682BD00
-        public void .cctor(){} // RVA: 0x682BE10
+        public void .ctor(){} // RVA: 0x7A7E8BF20
+        public void get_Zero(){} // RVA: 0x7AE613150
+        public void get_MinusOne(){} // RVA: 0x7AE6131B0
+        public void get_IsZero(){} // RVA: 0x7A7E6A950
+        public void get_IsEven(){} // RVA: 0x7A7E8BF30
+        public void get_Sign(){} // RVA: 0x7A7E8BF70
+        public void Parse(){} // RVA: 0x7AE613300
+        public void ModPow(){} // RVA: 0x7AE613360
+        public void GetHashCode(){} // RVA: 0x7A7E8BF90
+        public void Equals(){} // RVA: 0x7A7E8C020
+        public void CompareTo(){} // RVA: 0x7A7E8C070
+        public void ToByteArray(){} // RVA: 0x7A7E8C1E0
+        public void TryWriteBytes(){} // RVA: 0x7A7E8C1F0
+        public void TryWriteOrCountBytes(){} // RVA: 0x7A7E8C230
+        public void TryGetBytes(){} // RVA: 0x7A7E8C270
+        public void ToString(){} // RVA: 0x7A7E8C2E0
+        public void Add(){} // RVA: 0x7AE614C40
+        public void op_Subtraction(){} // RVA: 0x7AE614E00
+        public void Subtract(){} // RVA: 0x7AE615020
+        public void op_Implicit(){} // RVA: 0x7AE615360
+        public void op_Explicit(){} // RVA: 0x7AE615B20
+        public void op_LeftShift(){} // RVA: 0x7AE615C90
+        public void op_RightShift(){} // RVA: 0x7AE615F60
+        public void op_UnaryNegation(){} // RVA: 0x7AE6163E0
+        public void op_Addition(){} // RVA: 0x7AE616450
+        public void op_Multiply(){} // RVA: 0x7AE616670
+        public void op_Division(){} // RVA: 0x7AE6169A0
+        public void op_Modulus(){} // RVA: 0x7AE616C70
+        public void op_LessThanOrEqual(){} // RVA: 0x7AE6171E0
+        public void op_GreaterThanOrEqual(){} // RVA: 0x7AE616EE0
+        public void op_Inequality(){} // RVA: 0x7AE617100
+        public void op_LessThan(){} // RVA: 0x7AE617170
+        public void op_Equality(){} // RVA: 0x7AE6170A0
+        public void GetPartsForBitManipulation(){} // RVA: 0x7AE617250
+        public void GetDiffLength(){} // RVA: 0x7AE617430
+        public void .cctor(){} // RVA: 0x7AE6174A0
     }
 
-    public class BigNumber
+    public class BigIntegerCalculator : Object
     {
         // ── Methods ──
-        public void TryValidateParseStyleInteger(){} // RVA: 0x682CD80
-        public void TryParseBigInteger(){} // RVA: 0x682D020
-        public void ParseBigInteger(){} // RVA: 0x682D4C0 | overloaded x2
-        public void HexNumberToBigInteger(){} // RVA: 0x682D630
-        public void NumberToBigInteger(){} // RVA: 0x682D900
-        public void ParseFormatSpecifier(){} // RVA: 0x682DDA0
-        public void FormatBigIntegerToHex(){} // RVA: 0x682DEF0
-        public void FormatBigInteger(){} // RVA: 0x682E660 | overloaded x2
+        public void Add(){} // RVA: 0x7AE617B50
+        public void AddSelf(){} // RVA: 0x7AE617C00
+        public void Subtract(){} // RVA: 0x7AE617ED0
+        public void SubtractSelf(){} // RVA: 0x7AE617F80
+        public void Compare(){} // RVA: 0x7AE618070
+        public void Divide(){} // RVA: 0x7AE618450
+        public void Remainder(){} // RVA: 0x7AE618350
+        public void AddDivisor(){} // RVA: 0x7AE618820
+        public void SubtractDivisor(){} // RVA: 0x7AE618850
+        public void DivideGuessTooBig(){} // RVA: 0x7AE6188A0
+        public void CreateCopy(){} // RVA: 0x7AE6188E0
+        public void LeadingZeros(){} // RVA: 0x7AE618960
+        public void Pow(){} // RVA: 0x7AE619080
+        public void PowCore(){} // RVA: 0x7AE619C70
+        public void ActualLength(){} // RVA: 0x7AE619DB0
+        public void Square(){} // RVA: 0x7AE619EF0
+        public void Multiply(){} // RVA: 0x7AE61A520
+        public void SubtractCore(){} // RVA: 0x7AE61AA80
+        public void .cctor(){} // RVA: 0x7AE61AB90
     }
 
-    public class BitOperations
+    public class BigNumber : Object
     {
         // ── Methods ──
-        public void RoundUpToPowerOf2(){} // RVA: 0x9B077E0
-        public void get_Log2DeBruijn(){} // RVA: 0x9B07810
-        public void Log2(){} // RVA: 0x9B07870
-        public void Log2SoftwareFallback(){} // RVA: 0x9B07880
+        public void TryValidateParseStyleInteger(){} // RVA: 0x7AE61BB30
+        public void TryParseBigInteger(){} // RVA: 0x7AE61BDD0
+        public void ParseBigInteger(){} // RVA: 0x7AE61C280
+        public void HexNumberToBigInteger(){} // RVA: 0x7AE61C3F0
+        public void NumberToBigInteger(){} // RVA: 0x7AE61C6C0
+        public void ParseFormatSpecifier(){} // RVA: 0x7AE61CB30
+        public void FormatBigIntegerToHex(){} // RVA: 0x7AE61CC80
+        public void FormatBigInteger(){} // RVA: 0x7AE61D390
     }
 
-    public class BitOperations
+    public class BitOperations : Object
     {
         // ── Methods ──
-        public void RotateLeft(){} // RVA: 0x67F9B10
+        public void RoundUpToPowerOf2(){} // RVA: 0x7B1949570
+        public void get_Log2DeBruijn(){} // RVA: 0x7B19495A0
+        public void Log2(){} // RVA: 0x7B1949600
+        public void Log2SoftwareFallback(){} // RVA: 0x7B1949610
     }
 
-    public class ConstantHelper
+    public class BitOperations : Object
     {
         // ── Methods ──
-        public void GetByteWithAllBitsSet(){} // RVA: 0x5DAB380
-        public void GetSByteWithAllBitsSet(){} // RVA: 0x5DAB380
-        public void GetUInt16WithAllBitsSet(){} // RVA: 0x5DAB390
-        public void GetInt16WithAllBitsSet(){} // RVA: 0x75BB20
-        public void GetUInt32WithAllBitsSet(){} // RVA: 0x75BB20
-        public void GetInt32WithAllBitsSet(){} // RVA: 0x75BB20
-        public void GetUInt64WithAllBitsSet(){} // RVA: 0x1CA3200
-        public void GetInt64WithAllBitsSet(){} // RVA: 0x1CA3200
-        public void GetSingleWithAllBitsSet(){} // RVA: 0x219EC90
-        public void GetDoubleWithAllBitsSet(){} // RVA: 0x219ECA0
+        public void RotateLeft(){} // RVA: 0x7AE5E8370
     }
 
-    public class ConstantHelper
+    public class ConstantHelper : Object
     {
         // ── Methods ──
-        public void GetByteWithAllBitsSet(){} // RVA: 0x5DAB380
-        public void GetSByteWithAllBitsSet(){} // RVA: 0x5DAB380
-        public void GetUInt16WithAllBitsSet(){} // RVA: 0x5DAB390
-        public void GetInt16WithAllBitsSet(){} // RVA: 0x75BB20
-        public void GetUInt32WithAllBitsSet(){} // RVA: 0x75BB20
-        public void GetInt32WithAllBitsSet(){} // RVA: 0x75BB20
-        public void GetUInt64WithAllBitsSet(){} // RVA: 0x1CA3200
-        public void GetInt64WithAllBitsSet(){} // RVA: 0x1CA3200
-        public void GetSingleWithAllBitsSet(){} // RVA: 0x219EC90
-        public void GetDoubleWithAllBitsSet(){} // RVA: 0x219ECA0
+        public void GetByteWithAllBitsSet(){} // RVA: 0x7ADB99680
+        public void GetSByteWithAllBitsSet(){} // RVA: 0x7ADB99680
+        public void GetUInt16WithAllBitsSet(){} // RVA: 0x7ADB99690
+        public void GetInt16WithAllBitsSet(){} // RVA: 0x7A85193D0
+        public void GetUInt32WithAllBitsSet(){} // RVA: 0x7A85193D0
+        public void GetInt32WithAllBitsSet(){} // RVA: 0x7A85193D0
+        public void GetUInt64WithAllBitsSet(){} // RVA: 0x7A9AA5820
+        public void GetInt64WithAllBitsSet(){} // RVA: 0x7A9AA5820
+        public void GetSingleWithAllBitsSet(){} // RVA: 0x7A9FB2910
+        public void GetDoubleWithAllBitsSet(){} // RVA: 0x7A9FB2920
     }
 
-    public class DoubleUlong
-    {
-    }
-
-    public class NumericsHelpers
+    public class ConstantHelper : Object
     {
         // ── Methods ──
-        public void GetDoubleParts(){} // RVA: 0x682F480
-        public void GetDoubleFromParts(){} // RVA: 0x682F510
-        public void DangerousMakeTwosComplement(){} // RVA: 0x682F660
-        public void MakeUlong(){} // RVA: 0x682F6F0
-        public void Abs(){} // RVA: 0x682F700
-        public void CombineHash(){} // RVA: 0x682F710 | overloaded x2
-        public void CbitHighZero(){} // RVA: 0x682F720 | overloaded x2
+        public void GetByteWithAllBitsSet(){} // RVA: 0x7ADB99680
+        public void GetSByteWithAllBitsSet(){} // RVA: 0x7ADB99680
+        public void GetUInt16WithAllBitsSet(){} // RVA: 0x7ADB99690
+        public void GetInt16WithAllBitsSet(){} // RVA: 0x7A85193D0
+        public void GetUInt32WithAllBitsSet(){} // RVA: 0x7A85193D0
+        public void GetInt32WithAllBitsSet(){} // RVA: 0x7A85193D0
+        public void GetUInt64WithAllBitsSet(){} // RVA: 0x7A9AA5820
+        public void GetInt64WithAllBitsSet(){} // RVA: 0x7A9AA5820
+        public void GetSingleWithAllBitsSet(){} // RVA: 0x7A9FB2910
+        public void GetDoubleWithAllBitsSet(){} // RVA: 0x7A9FB2920
     }
 
-    public class Quaternion
+    public class NumericsHelpers : Object
     {
         // ── Methods ──
-        public void Normalize(){} // RVA: 0x6821200
-        public void Inverse(){} // RVA: 0x68212D0
-        public void Slerp(){} // RVA: 0x6821360
-        public void op_Multiply(){} // RVA: 0x6821590
-        public void Equals(){} // RVA: 0x68216D0 | overloaded x2
-        public void ToString(){} // RVA: 0x6821790
-        public void GetHashCode(){} // RVA: 0x6821A00
+        public void GetDoubleParts(){} // RVA: 0x7AE61E1D0
+        public void GetDoubleFromParts(){} // RVA: 0x7AE61E260
+        public void DangerousMakeTwosComplement(){} // RVA: 0x7AE61E3B0
+        public void MakeUlong(){} // RVA: 0x7AE61E450
+        public void Abs(){} // RVA: 0x7AE61E460
+        public void CombineHash(){} // RVA: 0x7AE61E470
+        public void CbitHighZero(){} // RVA: 0x7AE61E480
     }
 
-    public class Register
+    public class Quaternion : ValueType
     {
-    }
-
-    public class Register
-    {
-    }
-
-    public class Vector
-    {
-        public object IsHardwareAccelerated;
-
         // ── Methods ──
-        public void Equals(){} // RVA: 0x283FA0
-        public void LessThan(){} // RVA: 0x283FA0
-        public void get_IsHardwareAccelerated(){} // RVA: 0x2DD320
-        public void BitwiseOr(){} // RVA: 0x283FA0
-        public void AsVectorByte(){} // RVA: 0x283FA0
-        public void AsVectorUInt64(){} // RVA: 0x283FA0
+        public void Normalize(){} // RVA: 0x7AE60FD60
+        public void Inverse(){} // RVA: 0x7AE60FE30
+        public void Slerp(){} // RVA: 0x7AE60FEC0
+        public void op_Multiply(){} // RVA: 0x7AE6100F0
+        public void Equals(){} // RVA: 0x7A7E8B740
+        public void ToString(){} // RVA: 0x7A7E8B810
+        public void GetHashCode(){} // RVA: 0x7A7E8B820
     }
 
-    public class Vector
+    public class Vector : Object
     {
-        public object importedWithErrors;
-
         // ── Methods ──
-        public void Equals(){} // RVA: 0x283FA0
-        public void LessThan(){} // RVA: 0x283FA0
-        public void get_IsHardwareAccelerated(){} // RVA: 0x2DD320
-        public void BitwiseOr(){} // RVA: 0x283FA0
-        public void AsVectorUInt64(){} // RVA: 0x283FA0
+        public void Equals(){} // RVA: 0x7A8051B10
+        public void LessThan(){} // RVA: 0x7A8051B10
+        public void get_IsHardwareAccelerated(){} // RVA: 0x7A80D7320
+        public void BitwiseOr(){} // RVA: 0x7A8051B10
+        public void AsVectorByte(){} // RVA: 0x7A8051B10
+        public void AsVectorUInt64(){} // RVA: 0x7A8051B10
     }
 
-    public class Vector2
+    public class Vector : Object
     {
-        public float X; // 0x10
-
         // ── Methods ──
-        public void get_Zero(){} // RVA: 0x6821A70
-        public void GetHashCode(){} // RVA: 0x6821A80
-        public void Equals(){} // RVA: 0x6821E70 | overloaded x2
-        public void ToString(){} // RVA: 0x6821C70 | overloaded x2
-        public void .ctor(){} // RVA: 0x300D10
-        public void op_Addition(){} // RVA: 0x6821EA0
-        public void op_Subtraction(){} // RVA: 0x6821EE0
-        public void op_Multiply(){} // RVA: 0x6821F60 | overloaded x2
-        public void op_UnaryNegation(){} // RVA: 0x6821F90
+        public void Equals(){} // RVA: 0x7A9FAC2F0
+        public void LessThan(){} // RVA: 0x7A8051B10
+        public void get_IsHardwareAccelerated(){} // RVA: 0x7A80D7320
+        public void BitwiseOr(){} // RVA: 0x7A8051B10
+        public void AsVectorUInt64(){} // RVA: 0x7A8051B10
     }
 
-    public class Vector3
+    public class Vector2 : ValueType
     {
-        public float X; // 0x10
-
         // ── Methods ──
-        public void get_Zero(){} // RVA: 0x4827050
-        public void GetHashCode(){} // RVA: 0x6821FC0
-        public void Equals(){} // RVA: 0x6462200 | overloaded x2
-        public void ToString(){} // RVA: 0x68221F0 | overloaded x2
-        public void .ctor(){} // RVA: 0x300D70 | overloaded x2
-        public void op_Addition(){} // RVA: 0x6822560
-        public void op_Subtraction(){} // RVA: 0x68225A0
-        public void op_Multiply(){} // RVA: 0x6822620 | overloaded x2
-        public void op_Division(){} // RVA: 0x6822660 | overloaded x2
-        public void op_UnaryNegation(){} // RVA: 0x68226A0
+        public void get_Zero(){} // RVA: 0x7AE6105D0
+        public void GetHashCode(){} // RVA: 0x7A7E8B890
+        public void Equals(){} // RVA: 0x7A7E8BA90
+        public void ToString(){} // RVA: 0x7A7E8BA80
+        public void .ctor(){} // RVA: 0x7A7663240
+        public void op_Addition(){} // RVA: 0x7AE610A00
+        public void op_Subtraction(){} // RVA: 0x7AE610A40
+        public void op_Multiply(){} // RVA: 0x7AE610AC0
+        public void op_UnaryNegation(){} // RVA: 0x7AE610AF0
     }
 
-    public class Vector`1
+    public class Vector3 : ValueType
     {
-        public System.Numerics.Register register; // 0x10
-        public int s_count;
-        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
-    }
-
-    public class Vector`1
-    {
-        public System.Numerics.Register `/; // 0x10
-        public int s_count;
-        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
-    }
-
-    public class Vector`1
-    {
-        public System.Numerics.Register register; // 0x10
-        public int s_count;
-        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
-    }
-
-    public class Vector`1
-    {
-        public System.Numerics.Register register;
-        public int s_count;
-        public System.Numerics.Vector`1<T> s_zero;
-
         // ── Methods ──
-        public void get_Count(){} // RVA: 0xD870
-        public void get_Zero(){} // RVA: 0x283FA0
-        public void InitializeCount(){} // RVA: 0xD870
-        public void .ctor(){} // RVA: 0x24B10 | overloaded x4
-        public void get_Item(){} // RVA: 0x283FA0
-        public void Equals(){} // RVA: 0x283FA0 | overloaded x3
-        public void GetHashCode(){} // RVA: 0xD840
-        public void ToString(){} // RVA: 0x1E6A0 | overloaded x2
-        public void op_BitwiseOr(){} // RVA: 0x283FA0
-        public void op_Equality(){} // RVA: 0x283FA0
-        public void op_Inequality(){} // RVA: 0x283FA0
-        public void op_Explicit(){} // RVA: 0x283FA0 | overloaded x2
-        public void LessThan(){} // RVA: 0x283FA0
-        public void ScalarEquals(){} // RVA: 0x283FA0
-        public void ScalarLessThan(){} // RVA: 0x283FA0
-        public void GetOneValue(){} // RVA: 0x283FA0
-        public void GetAllBitsSetValue(){} // RVA: 0x283FA0
-        public void .cctor(){} // RVA: 0x24A80
+        public void get_Zero(){} // RVA: 0x7AC6170B0
+        public void GetHashCode(){} // RVA: 0x7A7E8BAC0
+        public void Equals(){} // RVA: 0x7A7E8BD20
+        public void ToString(){} // RVA: 0x7A7E8BD00
+        public void .ctor(){} // RVA: 0x7A7662DC0
+        public void op_Addition(){} // RVA: 0x7AE6110C0
+        public void op_Subtraction(){} // RVA: 0x7AE611100
+        public void op_Multiply(){} // RVA: 0x7AE611180
+        public void op_Division(){} // RVA: 0x7AE6111C0
+        public void op_UnaryNegation(){} // RVA: 0x7AE611200
     }
 
-    public class Vector`1
+    public class Vector`1 : ValueType
     {
-        public System.Numerics.Register register;
-        public int s_count;
-        public System.Numerics.Vector`1<T> s_zero;
-
         // ── Methods ──
-        public void get_Count(){} // RVA: 0xD870
-        public void get_Zero(){} // RVA: 0x283FA0
-        public void InitializeCount(){} // RVA: 0xD870
-        public void .ctor(){} // RVA: 0x24B10 | overloaded x4
-        public void get_Item(){} // RVA: 0x283FA0
-        public void Equals(){} // RVA: 0x283FA0 | overloaded x3
-        public void GetHashCode(){} // RVA: 0xD840
-        public void ToString(){} // RVA: 0x1E6A0 | overloaded x2
-        public void op_BitwiseOr(){} // RVA: 0x283FA0
-        public void op_Equality(){} // RVA: 0x283FA0
-        public void op_Inequality(){} // RVA: 0x283FA0
-        public void op_Explicit(){} // RVA: 0x283FA0
-        public void LessThan(){} // RVA: 0x283FA0
-        public void ScalarEquals(){} // RVA: 0x283FA0
-        public void ScalarLessThan(){} // RVA: 0x283FA0
-        public void GetOneValue(){} // RVA: 0x283FA0
-        public void GetAllBitsSetValue(){} // RVA: 0x283FA0
-        public void .cctor(){} // RVA: 0x24A80
+        public void get_Count(){} // RVA: 0x7A7E015C0
+        public void get_Zero(){} // RVA: 0x7A8051B10
+        public void InitializeCount(){} // RVA: 0x7A7E015C0
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Item(){} // RVA: 0x7A8051B10
+        public void Equals(){} // RVA: 0x7A8051B10
+        public void GetHashCode(){} // RVA: 0x7A7E00710
+        public void ToString(){} // RVA: 0x7A7E00BD0
+        public void op_BitwiseOr(){} // RVA: 0x7A8051B10
+        public void op_Equality(){} // RVA: 0x7A8051B10
+        public void op_Inequality(){} // RVA: 0x7A8051B10
+        public void op_Explicit(){} // RVA: 0x7A8051B10
+        public void LessThan(){} // RVA: 0x7A8051B10
+        public void ScalarEquals(){} // RVA: 0x7A8051B10
+        public void ScalarLessThan(){} // RVA: 0x7A8051B10
+        public void GetOneValue(){} // RVA: 0x7A8051B10
+        public void GetAllBitsSetValue(){} // RVA: 0x7A8051B10
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class Vector`1
+    public class Vector`1 : ValueType
     {
-        public System.Numerics.Register register; // 0x10
-        public int s_count;
-        public System.Numerics.Vector`1<ushort> s_zero; // 0x4
-
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x4ABCBA0
-        public void get_Zero(){} // RVA: 0x4ABCC40
-        public void InitializeCount(){} // RVA: 0x4AF4610
-        public void .ctor(){} // RVA: 0x1A53740 | overloaded x4
-        public void get_Item(){} // RVA: 0x4AF7670
-        public void Equals(){} // RVA: 0x4AF9E40 | overloaded x3
-        public void GetHashCode(){} // RVA: 0x4AF8970
-        public void ToString(){} // RVA: 0x4AF96E0 | overloaded x2
-        public void op_BitwiseOr(){} // RVA: 0x4AF9BC0
-        public void op_Equality(){} // RVA: 0x4AF9C40
-        public void op_Inequality(){} // RVA: 0x4AF9CE0
-        public void op_Explicit(){} // RVA: 0x4AF9DF0
-        public void LessThan(){} // RVA: 0x4AFA610
-        public void ScalarEquals(){} // RVA: 0x4AFAF60
-        public void ScalarLessThan(){} // RVA: 0x4AFBCD0
-        public void GetOneValue(){} // RVA: 0x4AFCA50
-        public void GetAllBitsSetValue(){} // RVA: 0x4AFD500
-        public void .cctor(){} // RVA: 0x4AFDFC0
+        public void get_Count(){} // RVA: 0x7A7E015C0
+        public void get_Zero(){} // RVA: 0x7A8051B10
+        public void InitializeCount(){} // RVA: 0x7A7E015C0
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Item(){} // RVA: 0x7A8051B10
+        public void Equals(){} // RVA: 0x7A8051B10
+        public void GetHashCode(){} // RVA: 0x7A7E00710
+        public void ToString(){} // RVA: 0x7A7E00BD0
+        public void op_BitwiseOr(){} // RVA: 0x7A8051B10
+        public void op_Equality(){} // RVA: 0x7A8051B10
+        public void op_Inequality(){} // RVA: 0x7A8051B10
+        public void op_Explicit(){} // RVA: 0x7A8051B10
+        public void LessThan(){} // RVA: 0x7A8051B10
+        public void ScalarEquals(){} // RVA: 0x7A8051B10
+        public void ScalarLessThan(){} // RVA: 0x7A8051B10
+        public void GetOneValue(){} // RVA: 0x7A8051B10
+        public void GetAllBitsSetValue(){} // RVA: 0x7A8051B10
+        public void .cctor(){} // RVA: 0x7A7E187D0
+    }
+
+    public class Vector`1 : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7AC8E88B0
+        public void .ctor(){} // RVA: 0x7A7662BD0
+        public void get_Count(){} // RVA: 0x7AC8AB5A0
+        public void get_Zero(){} // RVA: 0x7AC8AB640
+        public void InitializeCount(){} // RVA: 0x7AC8E3070
+        public void get_Item(){} // RVA: 0x7A7C85C00
+        public void GetHashCode(){} // RVA: 0x7A7C85C40
+        public void ToString(){} // RVA: 0x7A7C85D80
+        public void op_BitwiseOr(){} // RVA: 0x7AC8E8630
+        public void op_Equality(){} // RVA: 0x7AC8E86B0
+        public void op_Inequality(){} // RVA: 0x7AC8E8750
+        public void op_Explicit(){} // RVA: 0x7AC8E8860
+        public void LessThan(){} // RVA: 0x7AC8E9080
+        public void ScalarEquals(){} // RVA: 0x7AC8E99D0
+        public void ScalarLessThan(){} // RVA: 0x7AC8EA730
+        public void GetOneValue(){} // RVA: 0x7AC8EB4B0
+        public void GetAllBitsSetValue(){} // RVA: 0x7AC8EBF60
+        public void .cctor(){} // RVA: 0x7AC8ECA20
     }
 
 }

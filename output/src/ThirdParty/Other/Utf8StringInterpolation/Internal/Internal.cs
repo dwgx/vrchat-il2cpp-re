@@ -5,12 +5,12 @@
 
 namespace ThirdParty.Other.Utf8StringInterpolation.Internal
 {
-    public class ArrayBufferWriterPool
+    public class ArrayBufferWriterPool : Object
     {
         // ── Methods ──
-        public void Rent(){} // RVA: 0x750CC10
-        public void Return(){} // RVA: 0x750CDD0
-        public void .cctor(){} // RVA: 0x750CE80
+        public void Rent(){} // RVA: 0x7AF2ECC80
+        public void Return(){} // RVA: 0x7AF2ECE40
+        public void .cctor(){} // RVA: 0x7AF2ECEF0
     }
 
 }

@@ -5,66 +5,60 @@
 
 namespace ThirdParty.DotNet.System.Collections.Immutable
 {
-    public class DictionaryEnumerator`2
+    public class DictionaryEnumerator`2 : Object
     {
-        public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<U,T>> _inner;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void get_Entry(){} // RVA: 0xC770
-        public void get_Key(){} // RVA: 0xCD60
-        public void get_Value(){} // RVA: 0xCD60
-        public void get_Current(){} // RVA: 0xCD60
-        public void MoveNext(){} // RVA: 0xDBE0
-        public void Reset(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Entry(){} // RVA: 0x7A7E00490
+        public void get_Key(){} // RVA: 0x7A7E00680
+        public void get_Value(){} // RVA: 0x7A7E00680
+        public void get_Current(){} // RVA: 0x7A7E00680
+        public void MoveNext(){} // RVA: 0x7A7E01900
+        public void Reset(){} // RVA: 0x7A7E18770
     }
 
-    public class DictionaryEnumerator`2
+    public class DictionaryEnumerator`2 : Object
     {
-        public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<U,T>> _inner;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void get_Entry(){} // RVA: 0xC770
-        public void get_Key(){} // RVA: 0xCD60
-        public void get_Value(){} // RVA: 0xCD60
-        public void get_Current(){} // RVA: 0xCD60
-        public void MoveNext(){} // RVA: 0xDBE0
-        public void Reset(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Entry(){} // RVA: 0x7A7E00490
+        public void get_Key(){} // RVA: 0x7A7E00680
+        public void get_Value(){} // RVA: 0x7A7E00680
+        public void get_Current(){} // RVA: 0x7A7E00680
+        public void MoveNext(){} // RVA: 0x7A7E01900
+        public void Reset(){} // RVA: 0x7A7E18770
     }
 
-    public class DictionaryEnumerator`2
+    public class DictionaryEnumerator`2 : Object
     {
-        public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,VRC.Udon.Common.Interfaces.IUdonSymbol>> _inner; // 0x10
-    }
-
-    public class DictionaryEnumerator`2
-    {
-        public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<uint,VRC.Udon.Common.Interfaces.IUdonSymbol>> _inner; // 0x10
-    }
-
-    public class DisposableEnumeratorAdapter`2
-    {
-        public System.Collections.Generic.IEnumerator`1<T> _enumeratorObject;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10 | overloaded x2
-        public void get_Current(){} // RVA: 0x283FA0
-        public void MoveNext(){} // RVA: 0xDBE0
-        public void Dispose(){} // RVA: 0x24A50
-        public void GetEnumerator(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x7AA9CBC10
     }
 
-    public class DisposableEnumeratorAdapter`2
+    public class DictionaryEnumerator`2 : Object
     {
-        public System.Collections.Generic.IEnumerator`1<string> _enumeratorObject; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E5B080 | overloaded x2
-        public void get_Current(){} // RVA: 0x2E5B100
-        public void MoveNext(){} // RVA: 0x2E5B180
-        public void Dispose(){} // RVA: 0x2E5B210
-        public void GetEnumerator(){} // RVA: 0x2E5B2A0
+        public void .ctor(){} // RVA: 0x7AA9CBF10
+    }
+
+    public class DisposableEnumeratorAdapter`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Current(){} // RVA: 0x7A8051B10
+        public void MoveNext(){} // RVA: 0x7A7E01900
+        public void Dispose(){} // RVA: 0x7A7E18770
+        public void GetEnumerator(){} // RVA: 0x7A8051B10
+    }
+
+    public class DisposableEnumeratorAdapter`2 : ValueType
+    {
+        // ── Methods ──
+        public void GetEnumerator(){} // RVA: 0x7A781B560
+        public void get_Current(){} // RVA: 0x7A781B530
+        public void MoveNext(){} // RVA: 0x7A781B540
+        public void .ctor(){} // RVA: 0x7A781B520
+        public void Dispose(){} // RVA: 0x7A781B550
     }
 
 }

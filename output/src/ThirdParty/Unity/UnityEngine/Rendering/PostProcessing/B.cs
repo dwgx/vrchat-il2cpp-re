@@ -5,25 +5,25 @@
 
 namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
-    public class Bloom
+    public class Bloom : PostProcessEffectSettings
     {
         // ── Methods ──
-        public void IsEnabledAndSupported(){} // RVA: 0x6F10550
-        public void .ctor(){} // RVA: 0x6F10590
+        public void IsEnabledAndSupported(){} // RVA: 0x7AECEEBD0
+        public void .ctor(){} // RVA: 0x7AECEEC10
     }
 
-    public class BloomRenderer
+    public class BloomRenderer : PostProcessEffectRenderer`1
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x6F10BC0
-        public void Render(){} // RVA: 0x6F10E80
-        public void .ctor(){} // RVA: 0x6F123B0
+        public void Init(){} // RVA: 0x7AECEF240
+        public void Render(){} // RVA: 0x7AECEF510
+        public void .ctor(){} // RVA: 0x7AECF0A20
     }
 
-    public class BoolParameter
+    public class BoolParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F30140
+        public void .ctor(){} // RVA: 0x7AED0E6B0
     }
 
 }

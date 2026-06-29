@@ -5,39 +5,32 @@
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceDetector
 {
-    public class FaceDetector
+    public class FaceDetector : BaseVisionTaskApi
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B778B0
-        public void CreateFromOptions(){} // RVA: 0x5B779E0
-        public void TryDetect(){} // RVA: 0x5B78220
-        public void DetectInternal(){} // RVA: 0x5B78440
-        public void TryDetectForVideo(){} // RVA: 0x5B785A0
-        public void DetectForVideoInternal(){} // RVA: 0x5B787D0
-        public void DetectAsync(){} // RVA: 0x5B78950
-        public void BuildPacketsCallback(){} // RVA: 0x5B78AD0
-        public void TryBuildFaceDetectorResult(){} // RVA: 0x5B78C60
+        public void .ctor(){} // RVA: 0x7AD9655F0
+        public void CreateFromOptions(){} // RVA: 0x7AD965730
+        public void TryDetect(){} // RVA: 0x7AD965F70
+        public void DetectInternal(){} // RVA: 0x7AD9661A0
+        public void TryDetectForVideo(){} // RVA: 0x7AD966300
+        public void DetectForVideoInternal(){} // RVA: 0x7AD966540
+        public void DetectAsync(){} // RVA: 0x7AD9666C0
+        public void BuildPacketsCallback(){} // RVA: 0x7AD966840
+        public void TryBuildFaceDetectorResult(){} // RVA: 0x7AD9669D0
     }
 
-    public class FaceDetectorOptions
+    public class FaceDetectorOptions : Object
     {
-        public Mediapipe.Tasks.Core.BaseOptions <baseOptions>k__BackingField; // 0x10
-        public 0x65932078 <runningMode>k__BackingField; // 0x18
-        public float <minDetectionConfidence>k__BackingField; // 0x1C
-        public float <minSuppressionThreshold>k__BackingField; // 0x20
-        public int <numFaces>k__BackingField; // 0x24
-        public ResultCallback <resultCallback>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void get_baseOptions(){} // RVA: 0x2F8380
-        public void get_runningMode(){} // RVA: 0x5BED50
-        public void get_minDetectionConfidence(){} // RVA: 0x3AA570
-        public void get_minSuppressionThreshold(){} // RVA: 0x306080
-        public void get_numFaces(){} // RVA: 0xCEF5B0
-        public void get_resultCallback(){} // RVA: 0x30B130
-        public void .ctor(){} // RVA: 0x5B792C0
-        public void ToProto(){} // RVA: 0x5B79390
-        public void Mediapipe.Tasks.Core.ITaskOptions.ToCalculatorOptions(){} // RVA: 0x5B794A0
+        public void get_baseOptions(){} // RVA: 0x7A80F2570
+        public void get_runningMode(){} // RVA: 0x7A83782A0
+        public void get_minDetectionConfidence(){} // RVA: 0x7A81A5180
+        public void get_minSuppressionThreshold(){} // RVA: 0x7A81002C0
+        public void get_numFaces(){} // RVA: 0x7A8AB15F0
+        public void get_resultCallback(){} // RVA: 0x7A8105330
+        public void .ctor(){} // RVA: 0x7AD967050
+        public void ToProto(){} // RVA: 0x7AD967120
+        public void Mediapipe.Tasks.Core.ITaskOptions.ToCalculatorOptions(){} // RVA: 0x7AD967230
     }
 
 }

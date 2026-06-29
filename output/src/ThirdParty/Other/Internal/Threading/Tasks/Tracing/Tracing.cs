@@ -5,16 +5,14 @@
 
 namespace ThirdParty.Other.Internal.Threading.Tasks.Tracing
 {
-    public class TaskTrace
+    public class TaskTrace : Object
     {
-        public Internal.Runtime.Augments.TaskTraceCallbacks s_callbacks;
-
         // ── Methods ──
-        public void get_Enabled(){} // RVA: 0x5C23250
-        public void TaskWaitBegin_Asynchronous(){} // RVA: 0x5C232B0
-        public void TaskWaitBegin_Synchronous(){} // RVA: 0x5C23330
-        public void TaskWaitEnd(){} // RVA: 0x5C233B0
-        public void TaskScheduled(){} // RVA: 0x5C23430
+        public void get_Enabled(){} // RVA: 0x7ADA11170
+        public void TaskWaitBegin_Asynchronous(){} // RVA: 0x7ADA111D0
+        public void TaskWaitBegin_Synchronous(){} // RVA: 0x7ADA11250
+        public void TaskWaitEnd(){} // RVA: 0x7ADA112D0
+        public void TaskScheduled(){} // RVA: 0x7ADA11350
     }
 
 }

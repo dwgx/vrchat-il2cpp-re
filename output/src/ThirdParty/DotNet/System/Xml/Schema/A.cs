@@ -5,87 +5,76 @@
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class ActiveAxis
+    public class ActiveAxis : Object
     {
-        public int _currentDepth; // 0x10
-
         // ── Methods ──
-        public void get_CurrentDepth(){} // RVA: 0x32A5C0
-        public void Reactivate(){} // RVA: 0x6ACFB90
-        public void .ctor(){} // RVA: 0x6ACFBA0
-        public void MoveToStartElement(){} // RVA: 0x6ACFF40
-        public void EndElement(){} // RVA: 0x6AD00D0
-        public void MoveToAttribute(){} // RVA: 0x6AD0210
+        public void get_CurrentDepth(){} // RVA: 0x7A8124910
+        public void Reactivate(){} // RVA: 0x7AE8BFFB0
+        public void .ctor(){} // RVA: 0x7AE8BFFC0
+        public void MoveToStartElement(){} // RVA: 0x7AE8C0360
+        public void EndElement(){} // RVA: 0x7AE8C04F0
+        public void MoveToAttribute(){} // RVA: 0x7AE8C0630
     }
 
-    public class AllElementsContentValidator
+    public class AllElementsContentValidator : ContentValidator
     {
-        public System.Collections.Hashtable elements; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6AE1ED0
-        public void AddElement(){} // RVA: 0x6AE20C0
-        public void get_IsEmptiable(){} // RVA: 0x6AE2220
-        public void InitValidation(){} // RVA: 0x6AE2240
-        public void ValidateElement(){} // RVA: 0x6AE2320
-        public void CompleteValidation(){} // RVA: 0x6AE24C0
-        public void ExpectedElements(){} // RVA: 0x6AE2510
-        public void ExpectedParticles(){} // RVA: 0x6AE28D0
+        public void .ctor(){} // RVA: 0x7AE8D2490
+        public void AddElement(){} // RVA: 0x7AE8D2680
+        public void get_IsEmptiable(){} // RVA: 0x7AE8D27E0
+        public void InitValidation(){} // RVA: 0x7AE8D2800
+        public void ValidateElement(){} // RVA: 0x7AE8D28E0
+        public void CompleteValidation(){} // RVA: 0x7AE8D2A80
+        public void ExpectedElements(){} // RVA: 0x7AE8D2AD0
+        public void ExpectedParticles(){} // RVA: 0x7AE8D2E70
     }
 
-    public class Asttree
+    public class Asttree : Object
     {
-        public System.Collections.ArrayList PreserveWhitespace; // 0x10
-
         // ── Methods ──
-        public void get_SubtreeArray(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0x6AD0950
-        public void IsNameTest(){} // RVA: 0x6AD0A30
-        public void IsAttribute(){} // RVA: 0x6AD0A60
-        public void IsDescendantOrSelf(){} // RVA: 0x6AD0A90
-        public void IsSelf(){} // RVA: 0x6AD0AC0
-        public void CompileXPath(){} // RVA: 0x6AD0AF0
-        public void SetURN(){} // RVA: 0x6AD13E0
+        public void get_SubtreeArray(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7AE8C0D70
+        public void IsNameTest(){} // RVA: 0x7AE8C0E50
+        public void IsAttribute(){} // RVA: 0x7AE8C0E80
+        public void IsDescendantOrSelf(){} // RVA: 0x7AE8C0EB0
+        public void IsSelf(){} // RVA: 0x7AE8C0EE0
+        public void CompileXPath(){} // RVA: 0x7AE8C0F10
+        public void SetURN(){} // RVA: 0x7AE8C1810
     }
 
-    public class AutoValidator
+    public class AutoValidator : BaseValidator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6AD1550
-        public void get_PreserveWhitespace(){} // RVA: 0x2DD320
-        public void Validate(){} // RVA: 0x6AD1630
-        public void CompleteValidation(){} // RVA: 0x2DD310
-        public void FindId(){} // RVA: 0x519240
-        public void DetectValidationType(){} // RVA: 0x6AD1800
+        public void .ctor(){} // RVA: 0x7AE8C1980
+        public void get_PreserveWhitespace(){} // RVA: 0x7A80D7320
+        public void Validate(){} // RVA: 0x7AE8C1A60
+        public void CompleteValidation(){} // RVA: 0x7A80D7310
+        public void FindId(){} // RVA: 0x7A82D1450
+        public void DetectValidationType(){} // RVA: 0x7AE8C1C30
     }
 
-    public class AxisElement
+    public class AxisElement : Object
     {
-        public System.Xml.Schema.DoubleLinkAxis Subtree; // 0x10
-
         // ── Methods ──
-        public void get_CurNode(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0x6ACEC40
-        public void SetDepth(){} // RVA: 0x6ACECA0
-        public void MoveToParent(){} // RVA: 0x6ACECB0
-        public void MoveToChild(){} // RVA: 0x6ACEE40
+        public void get_CurNode(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7AE8BF050
+        public void SetDepth(){} // RVA: 0x7AE8BF0B0
+        public void MoveToParent(){} // RVA: 0x7AE8BF0C0
+        public void MoveToChild(){} // RVA: 0x7AE8BF250
     }
 
-    public class AxisStack
+    public class AxisStack : Object
     {
-        public System.Collections.ArrayList CurrentDepth; // 0x10
-        public System.Xml.Schema.ForwardAxis _subtree; // 0x18
-
         // ── Methods ──
-        public void get_Subtree(){} // RVA: 0x2E07C0
-        public void get_Length(){} // RVA: 0x5DFC050
-        public void .ctor(){} // RVA: 0x6ACF010
-        public void Push(){} // RVA: 0x6ACF1A0
-        public void Pop(){} // RVA: 0x6ACF290
-        public void Equal(){} // RVA: 0x6ACF2E0
-        public void MoveToParent(){} // RVA: 0x6ACF3A0
-        public void MoveToChild(){} // RVA: 0x6ACF740
-        public void MoveToAttribute(){} // RVA: 0x6ACF950
+        public void get_Subtree(){} // RVA: 0x7A80DA7B0
+        public void get_Length(){} // RVA: 0x7ADBEAB80
+        public void .ctor(){} // RVA: 0x7AE8BF420
+        public void Push(){} // RVA: 0x7AE8BF5C0
+        public void Pop(){} // RVA: 0x7AE8BF6B0
+        public void Equal(){} // RVA: 0x7AE8BF700
+        public void MoveToParent(){} // RVA: 0x7AE8BF7C0
+        public void MoveToChild(){} // RVA: 0x7AE8BFB60
+        public void MoveToAttribute(){} // RVA: 0x7AE8BFD70
     }
 
 }

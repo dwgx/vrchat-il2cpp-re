@@ -3,61 +3,57 @@
 // Classes: 6
 // Methods: 25
 
-public class YProperty
+public class YProperty : Property`2
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x720E8C0
-    public void .ctor(){} // RVA: 0x720E900
+    public void get_Name(){} // RVA: 0x7AEFEDD90
+    public void .ctor(){} // RVA: 0x7AEFEDDD0
 }
 
-public class YProperty
+public class YProperty : Property`2
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x720EB10
-    public void .ctor(){} // RVA: 0x720EB50
+    public void get_Name(){} // RVA: 0x7AEFEDFD0
+    public void .ctor(){} // RVA: 0x7AEFEE010
 }
 
-public class YProperty
+public class YProperty : Property`2
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x720EE10
-    public void .ctor(){} // RVA: 0x720EE50
+    public void get_Name(){} // RVA: 0x7AEFEE2D0
+    public void .ctor(){} // RVA: 0x7AEFEE310
 }
 
-public class YProperty
+public class YProperty : Property`2
 {
     // ── Methods ──
-    public void get_Name(){} // RVA: 0x720F180
-    public void .ctor(){} // RVA: 0x720F1C0
+    public void get_Name(){} // RVA: 0x7AEFEE640
+    public void .ctor(){} // RVA: 0x7AEFEE680
 }
 
-public class YieldAwaiter
+public class YieldAwaiter : ValueType
 {
-    public System.Threading.WaitCallback s_waitCallbackRunAction;
-
     // ── Methods ──
-    public void get_IsCompleted(){} // RVA: 0x2DD320
-    public void OnCompleted(){} // RVA: 0x5D481C0
-    public void UnsafeOnCompleted(){} // RVA: 0x5D48220
-    public void QueueContinuation(){} // RVA: 0x5D48280
-    public void RunAction(){} // RVA: 0x5D485F0
-    public void GetResult(){} // RVA: 0x2DD310
-    public void .cctor(){} // RVA: 0x5D48660
+    public void get_IsCompleted(){} // RVA: 0x7A77CFDD0
+    public void OnCompleted(){} // RVA: 0x7A7E32310
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7E32370
+    public void QueueContinuation(){} // RVA: 0x7ADB36500
+    public void RunAction(){} // RVA: 0x7ADB36870
+    public void GetResult(){} // RVA: 0x7A75F4910
+    public void .cctor(){} // RVA: 0x7ADB368E0
 }
 
-public class YieldPromise
+public class YieldPromise : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<YieldPromise> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x3DF6A30
-    public void .cctor(){} // RVA: 0x6CF3950
-    public void .ctor(){} // RVA: 0x2DD310
-    public void Create(){} // RVA: 0x6CF3AD0
-    public void GetResult(){} // RVA: 0x6CF3E50
-    public void GetStatus(){} // RVA: 0x6CF3FF0
-    public void UnsafeGetStatus(){} // RVA: 0x6CF4040
-    public void OnCompleted(){} // RVA: 0x6CF4080
-    public void MoveNext(){} // RVA: 0x6CF4100
-    public void TryReturn(){} // RVA: 0x6CF41B0
+    public void get_NextNode(){} // RVA: 0x7ABBF1F90
+    public void .cctor(){} // RVA: 0x7AEAE2880
+    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Create(){} // RVA: 0x7AEAE2A00
+    public void GetResult(){} // RVA: 0x7AEAE2D80
+    public void GetStatus(){} // RVA: 0x7AEAE2F20
+    public void UnsafeGetStatus(){} // RVA: 0x7AEAE2F70
+    public void OnCompleted(){} // RVA: 0x7AEAE2FB0
+    public void MoveNext(){} // RVA: 0x7AEAE3030
+    public void TryReturn(){} // RVA: 0x7AEAE30E0
 }

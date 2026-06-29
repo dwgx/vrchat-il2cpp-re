@@ -1,578 +1,503 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 33
-// Methods: 436
+// Classes: 31
+// Methods: 340
 
 namespace ThirdParty.DotNet.System
 {
-    public class LazyDebugView`1
-    {
-    }
-
-    public class LazyHelper
-    {
-        public System.LazyHelper NoneViaConstructor;
-
-        // ── Methods ──
-        public void get_State(){} // RVA: 0x32A5C0
-        public void .ctor(){} // RVA: 0x5E9B400 | overloaded x2
-        public void ThrowException(){} // RVA: 0x5E9B540
-        public void Create(){} // RVA: 0x5E9B560
-        public void CreateViaDefaultConstructor(){} // RVA: 0x5E9B700
-        public void GetModeFromIsThreadSafe(){} // RVA: 0x5E9B770
-        public void .cctor(){} // RVA: 0x5E9B780
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state;
-        public System.Func`1<T> _factory;
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2BAA0 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x24A50
-        public void ViaFactory(){} // RVA: 0x24FA0
-        public void ExecutionAndPublication(){} // RVA: 0x2A620
-        public void PublicationOnly(){} // RVA: 0x283FA0
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x24B10
-        public void PublicationOnlyViaFactory(){} // RVA: 0x24B10
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x24A50
-        public void CreateValue(){} // RVA: 0x283FA0
-        public void ToString(){} // RVA: 0xCD60
-        public void get_IsValueCreated(){} // RVA: 0xDBE0
-        public void get_Value(){} // RVA: 0x283FA0
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<Sentry.Extensibility.ISentryEventProcessor> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<Sentry.Extensibility.ISentryEventExceptionProcessor> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<string> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<Sentry.Extensibility.ISentryStackTraceFactory> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<Sentry.Internal.IClientReportRecorder> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<System.Collections.Generic.IList`1<Sentry.SubstringOrRegexPattern>> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<Sentry.PlatformAbstractions.SentryRuntime> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<System.Collections.Generic.List`1<DebugImageInfo>> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<bool> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DA7A0
-        public void .ctor(){} // RVA: 0x37DAA50 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DABD0
-        public void ViaFactory(){} // RVA: 0x37DAC50
-        public void ExecutionAndPublication(){} // RVA: 0x37DAE00
-        public void PublicationOnly(){} // RVA: 0x37DAFC0
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DB160
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DB1A0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DB200
-        public void CreateValue(){} // RVA: 0x37DB2C0
-        public void ToString(){} // RVA: 0x37DB430
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DB510
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<Microsoft.Extensions.Logging.LoggerFilterOptions> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<ÍÎÍÍÌÎÎÏÍÍÎÏÍÏÏÍÏÍÍÍÎÍÎ> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<System.Collections.Generic.Dictionary`2<System.Type,ÏÍÏÏÏÏÎÎÌÌÌÏÏÎÏÏÌÎÍÍÌÏÌ>> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<System.Collections.Generic.Dictionary`2<System.Type,ÌÏÌÏÎÎÌÌÍÏÌÏÌÏÏÏÏÌÌÏÎÍÏ>> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<System.Reflection.MethodInfo> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<System.Collections.Immutable.ImmutableArray`1<0x659C0BA8>> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37D8650
-        public void .ctor(){} // RVA: 0x37D8900 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37D8A80
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37D8D60
-        public void PublicationOnly(){} // RVA: 0x37D8F20
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37D9100
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37D9160
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37D91E0
-        public void CreateValue(){} // RVA: 0x37D92A0
-        public void ToString(){} // RVA: 0x37D9430
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37D9500
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<UnityEngine.RenderTexture> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<ÏÍÏÎÍÎÌÍÍÎÏÌÎÎÎÌÎÏÎÎÍÌÎ> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<int> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DC630
-        public void .ctor(){} // RVA: 0x37DC8E0 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DCA60
-        public void ViaFactory(){} // RVA: 0x37DCAE0
-        public void ExecutionAndPublication(){} // RVA: 0x37DCC90
-        public void PublicationOnly(){} // RVA: 0x37DCE50
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DCFF0
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DD030
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DD090
-        public void CreateValue(){} // RVA: 0x37DD150
-        public void ToString(){} // RVA: 0x37DD2C0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DD3C0
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<ÍÌÏÌÌÏÍÎÌÎÌÌÏÏÌÍÌÎÌÍÏÎÏ> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class Lazy`1
-    {
-        public System.LazyHelper _state; // 0x10
-        public System.Func`1<System.Collections.Generic.Dictionary`2<string,int>> _factory; // 0x18
-
-        // ── Methods ──
-        public void CreateViaDefaultConstructor(){} // RVA: 0x37DE2A0
-        public void .ctor(){} // RVA: 0x37DE570 | overloaded x6
-        public void ViaConstructor(){} // RVA: 0x37DE6F0
-        public void ViaFactory(){} // RVA: 0x37D8B60
-        public void ExecutionAndPublication(){} // RVA: 0x37DE7D0
-        public void PublicationOnly(){} // RVA: 0x37DE990
-        public void PublicationOnlyViaConstructor(){} // RVA: 0x37DEB70
-        public void PublicationOnlyViaFactory(){} // RVA: 0x37DEBD0
-        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x37DEC50
-        public void CreateValue(){} // RVA: 0x37DED10
-        public void ToString(){} // RVA: 0x37DEEA0
-        public void get_IsValueCreated(){} // RVA: 0x37D94F0
-        public void get_Value(){} // RVA: 0x37DEF40
-    }
-
-    public class LocalAppContext
-    {
-        public bool AllowDBNull;
-
-        // ── Methods ──
-        public void GetCachedSwitchValue(){} // RVA: 0x66C2D30
-        public void GetCachedSwitchValueInternal(){} // RVA: 0x66C2D50
-        public void get_DisableCaching(){} // RVA: 0x66C2DE0
-    }
-
-    public class LocalAppContextSwitches
-    {
-        public int s_allowArbitraryTypeInstantiation;
-    }
-
-    public class LocalAppContextSwitches
-    {
-        public int s_allowArbitraryTypeInstantiation;
-    }
-
-    public class LocalAppContextSwitches
-    {
-        public int s_allowArbitraryTypeInstantiation;
-
-        // ── Methods ──
-        public void get_AllowArbitraryTypeInstantiation(){} // RVA: 0x66C2CC0
-    }
-
-    public class LocalDataStore
+    public class LazyHelper : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ED1440
-        public void Dispose(){} // RVA: 0x5ED1540
-        public void GetData(){} // RVA: 0x5ED1570
-        public void SetData(){} // RVA: 0x5ED16A0
-        public void FreeData(){} // RVA: 0x5ED1830
-        public void PopulateElement(){} // RVA: 0x5ED1890
+        public void get_State(){} // RVA: 0x7A8124910
+        public void .ctor(){} // RVA: 0x7ADC89F50
+        public void ThrowException(){} // RVA: 0x7ADC8A090
+        public void Create(){} // RVA: 0x7ADC8A0B0
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7ADC8A250
+        public void GetModeFromIsThreadSafe(){} // RVA: 0x7ADC8A2C0
+        public void .cctor(){} // RVA: 0x7ADC8A2D0
     }
 
-    public class LocalDataStoreElement
+    public class Lazy`1 : Object
     {
-        public object m_value; // 0x10
-        public long m_cookie; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xC5BE60
-        public void get_Value(){} // RVA: 0x2F8380
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void get_Cookie(){} // RVA: 0x2E07C0
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E1F830
+        public void ViaConstructor(){} // RVA: 0x7A7E18770
+        public void ViaFactory(){} // RVA: 0x7A7E189D0
+        public void ExecutionAndPublication(){} // RVA: 0x7A7E1D550
+        public void PublicationOnly(){} // RVA: 0x7A8051B10
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7A7E18800
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7A7E18800
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7A7E18770
+        public void CreateValue(){} // RVA: 0x7A8051B10
+        public void ToString(){} // RVA: 0x7A7E00680
+        public void get_IsValueCreated(){} // RVA: 0x7A7E01900
+        public void get_Value(){} // RVA: 0x7A8051B10
     }
 
-    public class LocalDataStoreHolder
+    public class Lazy`1 : Object
     {
-        public System.LocalDataStore Value; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Finalize(){} // RVA: 0x5ED13E0
-        public void get_Store(){} // RVA: 0x2F8380
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
     }
 
-    public class LocalDataStoreMgr
+    public class Lazy`1 : Object
     {
         // ── Methods ──
-        public void CreateLocalDataStore(){} // RVA: 0x5ED1E00
-        public void DeleteLocalDataStore(){} // RVA: 0x5ED2170
-        public void AllocateDataSlot(){} // RVA: 0x5ED22E0
-        public void AllocateNamedDataSlot(){} // RVA: 0x5ED27C0
-        public void GetNamedDataSlot(){} // RVA: 0x5ED29A0
-        public void FreeNamedDataSlot(){} // RVA: 0x5ED2BB0
-        public void FreeDataSlot(){} // RVA: 0x5ED2D20
-        public void ValidateSlot(){} // RVA: 0x5ED2FA0
-        public void GetSlotTableLength(){} // RVA: 0xF3F910
-        public void .ctor(){} // RVA: 0x5ED3020
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
     }
 
-    public class LocalDataStoreSlot
+    public class Lazy`1 : Object
     {
-        public System.LocalDataStoreMgr m_mgr; // 0x10
-        public int m_slot; // 0x18
-        public long m_cookie; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5ED1D30
-        public void get_Manager(){} // RVA: 0x2F8380
-        public void get_Slot(){} // RVA: 0x5BED50
-        public void get_Cookie(){} // RVA: 0x30B0C0
-        public void Finalize(){} // RVA: 0x5ED1DA0
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5C76A0
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5C73F0
+        public void ViaConstructor(){} // RVA: 0x7AB5C7820
+        public void ViaFactory(){} // RVA: 0x7AB5C78A0
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5C7A50
+        public void PublicationOnly(){} // RVA: 0x7AB5C7BE0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5C7D80
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5C7DC0
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5C7E20
+        public void CreateValue(){} // RVA: 0x7AB5C7EE0
+        public void ToString(){} // RVA: 0x7AB5C8050
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5C8130
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5C55C0
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5C5310
+        public void ViaConstructor(){} // RVA: 0x7AB5C5740
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5C5A20
+        public void PublicationOnly(){} // RVA: 0x7AB5C5BB0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5C5D90
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5C5DF0
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5C5E70
+        public void CreateValue(){} // RVA: 0x7AB5C5F30
+        public void ToString(){} // RVA: 0x7AB5C60C0
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5C6190
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5CB100
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5CAE30
+        public void ViaConstructor(){} // RVA: 0x7AB5CB280
+        public void ViaFactory(){} // RVA: 0x7AB5C5820
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5CB360
+        public void PublicationOnly(){} // RVA: 0x7AB5CB4F0
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5CB6D0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5CB730
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5CB7B0
+        public void CreateValue(){} // RVA: 0x7AB5CB870
+        public void ToString(){} // RVA: 0x7AB5CBA00
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5CBAA0
+    }
+
+    public class Lazy`1 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AB5C94D0
+        public void CreateViaDefaultConstructor(){} // RVA: 0x7AB5C9220
+        public void ViaConstructor(){} // RVA: 0x7AB5C9650
+        public void ViaFactory(){} // RVA: 0x7AB5C96D0
+        public void ExecutionAndPublication(){} // RVA: 0x7AB5C9880
+        public void PublicationOnly(){} // RVA: 0x7AB5C9A10
+        public void PublicationOnlyViaConstructor(){} // RVA: 0x7AB5C9BB0
+        public void PublicationOnlyViaFactory(){} // RVA: 0x7AB5C9BF0
+        public void PublicationOnlyWaitForOtherThreadToPublish(){} // RVA: 0x7AB5C9C50
+        public void CreateValue(){} // RVA: 0x7AB5C9D10
+        public void ToString(){} // RVA: 0x7AB5C9E80
+        public void get_IsValueCreated(){} // RVA: 0x7AB5C6180
+        public void get_Value(){} // RVA: 0x7AB5C9F80
+    }
+
+    public class LocalAppContext : Object
+    {
+        // ── Methods ──
+        public void GetCachedSwitchValue(){} // RVA: 0x7AE4B0FF0
+        public void GetCachedSwitchValueInternal(){} // RVA: 0x7AE4B1010
+        public void get_DisableCaching(){} // RVA: 0x7AE4B10A0
+    }
+
+    public class LocalAppContextSwitches : Object
+    {
+        // ── Methods ──
+        public void get_AllowArbitraryTypeInstantiation(){} // RVA: 0x7AE4B0F80
+    }
+
+    public class LocalDataStore : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADCC0060
+        public void Dispose(){} // RVA: 0x7ADCC0160
+        public void GetData(){} // RVA: 0x7ADCC0190
+        public void SetData(){} // RVA: 0x7ADCC02C0
+        public void FreeData(){} // RVA: 0x7ADCC0450
+        public void PopulateElement(){} // RVA: 0x7ADCC04B0
+    }
+
+    public class LocalDataStoreElement : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8A224D0
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void set_Value(){} // RVA: 0x7A80D8E20
+        public void get_Cookie(){} // RVA: 0x7A80DA7B0
+    }
+
+    public class LocalDataStoreHolder : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Finalize(){} // RVA: 0x7ADCC0000
+        public void get_Store(){} // RVA: 0x7A80F2570
+    }
+
+    public class LocalDataStoreMgr : Object
+    {
+        // ── Methods ──
+        public void CreateLocalDataStore(){} // RVA: 0x7ADCC09E0
+        public void DeleteLocalDataStore(){} // RVA: 0x7ADCC0D10
+        public void AllocateDataSlot(){} // RVA: 0x7ADCC0E50
+        public void AllocateNamedDataSlot(){} // RVA: 0x7ADCC1300
+        public void GetNamedDataSlot(){} // RVA: 0x7ADCC14A0
+        public void FreeNamedDataSlot(){} // RVA: 0x7ADCC1660
+        public void FreeDataSlot(){} // RVA: 0x7ADCC17A0
+        public void ValidateSlot(){} // RVA: 0x7ADCC19E0
+        public void GetSlotTableLength(){} // RVA: 0x7A8D0A110
+        public void .ctor(){} // RVA: 0x7ADCC1A60
+    }
+
+    public class LocalDataStoreSlot : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADCC0910
+        public void get_Manager(){} // RVA: 0x7A80F2570
+        public void get_Slot(){} // RVA: 0x7A83782A0
+        public void get_Cookie(){} // RVA: 0x7A81052C0
+        public void Finalize(){} // RVA: 0x7ADCC0980
+    }
+
+    public class LocalDataStore[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
 }

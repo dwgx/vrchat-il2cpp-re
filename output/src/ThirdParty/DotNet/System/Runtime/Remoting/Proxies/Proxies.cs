@@ -1,68 +1,61 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.Remoting.Proxies
 // Classes: 4
-// Methods: 37
+// Methods: 33
 
 namespace ThirdParty.DotNet.System.Runtime.Remoting.Proxies
 {
-    public class ProxyAttribute
+    public class ProxyAttribute : Attribute
     {
         // ── Methods ──
-        public void CreateInstance(){} // RVA: 0x5CE1030
-        public void CreateProxy(){} // RVA: 0x5CE1160
-        public void GetPropertiesForNewContext(){} // RVA: 0x2DD310
-        public void IsContextOK(){} // RVA: 0x3C2850
+        public void CreateInstance(){} // RVA: 0x7ADACEE10
+        public void CreateProxy(){} // RVA: 0x7ADACEF40
+        public void GetPropertiesForNewContext(){} // RVA: 0x7A80D7310
+        public void IsContextOK(){} // RVA: 0x7A81BD750
     }
 
-    public class RealProxy
+    public class RealProxy : Object
     {
-        public System.Type class_to_proxy; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CE1D50 | overloaded x4
-        public void InternalGetProxyType(){} // RVA: 0x5CE1EA0
-        public void GetProxiedType(){} // RVA: 0x5CE1EB0
-        public void GetObjectData(){} // RVA: 0x5CE1F50
-        public void get_ObjectIdentity(){} // RVA: 0x4976A0
-        public void set_ObjectIdentity(){} // RVA: 0x49B830
-        public void Invoke(){} // RVA: 0xCE10
-        public void PrivateInvoke(){} // RVA: 0x5CE1FC0
-        public void InternalGetTransparentProxy(){} // RVA: 0x5CE2920
-        public void GetTransparentProxy(){} // RVA: 0x5CE2930
-        public void AttachServer(){} // RVA: 0x30B0D0
-        public void SetTargetDomain(){} // RVA: 0xA53440
-        public void GetAppDomainTarget(){} // RVA: 0x5CE2AE0
-        public void ProcessResponse(){} // RVA: 0x5CE2C70
+        public void .ctor(){} // RVA: 0x7ADACFB20
+        public void InternalGetProxyType(){} // RVA: 0x7ADACFC70
+        public void GetProxiedType(){} // RVA: 0x7ADACFC80
+        public void GetObjectData(){} // RVA: 0x7ADACFD20
+        public void get_ObjectIdentity(){} // RVA: 0x7A8292C30
+        public void set_ObjectIdentity(){} // RVA: 0x7A8296DE0
+        public void Invoke(){} // RVA: 0x7A7E00B20
+        public void PrivateInvoke(){} // RVA: 0x7ADACFD90
+        public void InternalGetTransparentProxy(){} // RVA: 0x7ADAD0700
+        public void GetTransparentProxy(){} // RVA: 0x7ADAD0710
+        public void AttachServer(){} // RVA: 0x7A81052D0
+        public void SetTargetDomain(){} // RVA: 0x7A8810F60
+        public void GetAppDomainTarget(){} // RVA: 0x7ADAD08C0
+        public void ProcessResponse(){} // RVA: 0x7ADAD0A40
     }
 
-    public class RemotingProxy
+    public class RemotingProxy : RealProxy
     {
-        public System.Reflection.MethodInfo _cache_GetTypeMethod;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CE3440 | overloaded x2
-        public void Invoke(){} // RVA: 0x5CE34F0
-        public void AttachIdentity(){} // RVA: 0x5CE3940
-        public void ActivateRemoteObject(){} // RVA: 0x5CE3F30
-        public void get_TypeName(){} // RVA: 0x5CE4020
-        public void CanCastTo(){} // RVA: 0x5CE4150
-        public void Finalize(){} // RVA: 0x5CE43A0
-        public void .cctor(){} // RVA: 0x5CE4470
+        public void .ctor(){} // RVA: 0x7ADAD1220
+        public void Invoke(){} // RVA: 0x7ADAD12D0
+        public void AttachIdentity(){} // RVA: 0x7ADAD1710
+        public void ActivateRemoteObject(){} // RVA: 0x7ADAD1C80
+        public void get_TypeName(){} // RVA: 0x7ADAD1D70
+        public void CanCastTo(){} // RVA: 0x7ADAD1EA0
+        public void Finalize(){} // RVA: 0x7ADAD20F0
+        public void .cctor(){} // RVA: 0x7ADAD21C0
     }
 
-    public class TransparentProxy
+    public class TransparentProxy : Object
     {
-        public System.Runtime.Remoting.Proxies.RealProxy ObjectIdentity; // 0x10
-        public Mono.RuntimeRemoteClassHandle _class; // 0x18
-
         // ── Methods ──
-        public void GetProxyType(){} // RVA: 0x5CE11C0
-        public void get_IsContextBoundObject(){} // RVA: 0x5CE12D0
-        public void get_TargetContext(){} // RVA: 0xB2EEA0
-        public void InCurrentContext(){} // RVA: 0x5CE13F0
-        public void LoadRemoteFieldNew(){} // RVA: 0x5CE1560
-        public void StoreRemoteField(){} // RVA: 0x5CE1900
-        public void .ctor(){} // RVA: 0x2DD310
+        public void GetProxyType(){} // RVA: 0x7ADACEFA0
+        public void get_IsContextBoundObject(){} // RVA: 0x7ADACF0B0
+        public void get_TargetContext(){} // RVA: 0x7A88F4330
+        public void InCurrentContext(){} // RVA: 0x7ADACF1C0
+        public void LoadRemoteFieldNew(){} // RVA: 0x7ADACF330
+        public void StoreRemoteField(){} // RVA: 0x7ADACF6D0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

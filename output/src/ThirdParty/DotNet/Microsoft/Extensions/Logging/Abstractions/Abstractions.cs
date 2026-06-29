@@ -5,68 +5,57 @@
 
 namespace ThirdParty.DotNet.Microsoft.Extensions.Logging.Abstractions
 {
-    public class LogEntry`1
+    public class LogEntry`1 : ValueType
     {
-        public 0x659DBCC8 <LogLevel>k__BackingField;
-        public string <Category>k__BackingField;
-        public Microsoft.Extensions.Logging.EventId <EventId>k__BackingField;
-        public T <State>k__BackingField;
-        public System.Exception <Exception>k__BackingField;
-        public System.Func`3<T,System.Exception,string> <Formatter>k__BackingField;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void get_LogLevel(){} // RVA: 0xD840
-        public void get_Category(){} // RVA: 0xCD60
-        public void get_EventId(){} // RVA: 0x283FA0
-        public void get_State(){} // RVA: 0x283FA0
-        public void get_Exception(){} // RVA: 0xCD60
-        public void get_Formatter(){} // RVA: 0xCD60
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void get_LogLevel(){} // RVA: 0x7A7E00710
+        public void get_Category(){} // RVA: 0x7A7E00680
+        public void get_EventId(){} // RVA: 0x7A8051B10
+        public void get_State(){} // RVA: 0x7A8051B10
+        public void get_Exception(){} // RVA: 0x7A7E00680
+        public void get_Formatter(){} // RVA: 0x7A7E00680
     }
 
-    public class NullLogger : Instance
+    public class NullLogger : Object
     {
-        public Microsoft.Extensions.Logging.Abstractions.NullLogger <Instance>k__BackingField;
-
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x5BADF40
-        public void .ctor(){} // RVA: 0x2DD310
-        public void BeginScope(){} // RVA: 0x283FA0
-        public void IsEnabled(){} // RVA: 0x2DD320
-        public void Log(){} // RVA: 0x283FA0
-        public void .cctor(){} // RVA: 0x5BADFA0
+        public void get_Instance(){} // RVA: 0x7AD99BC10
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void BeginScope(){} // RVA: 0x7A8051B10
+        public void IsEnabled(){} // RVA: 0x7A80D7320
+        public void Log(){} // RVA: 0x7A8051B10
+        public void .cctor(){} // RVA: 0x7AD99BC70
     }
 
-    public class NullLoggerFactory : .ctor
+    public class NullLoggerFactory : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void CreateLogger(){} // RVA: 0x5BAE040
-        public void AddProvider(){} // RVA: 0x2DD310
-        public void Dispose(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x5BAE0E0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateLogger(){} // RVA: 0x7AD99BD10
+        public void AddProvider(){} // RVA: 0x7A80D7310
+        public void Dispose(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AD99BDB0
     }
 
-    public class NullLoggerProvider : get_Instance
+    public class NullLoggerProvider : Object
     {
-        public Microsoft.Extensions.Logging.Abstractions.NullLoggerProvider <Instance>k__BackingField;
-
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x5BAE180
-        public void .ctor(){} // RVA: 0x2DD310
-        public void CreateLogger(){} // RVA: 0x5BAE1E0
-        public void Dispose(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x5BAE280
+        public void get_Instance(){} // RVA: 0x7AD99BE50
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateLogger(){} // RVA: 0x7AD99BEB0
+        public void Dispose(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AD99BF50
     }
 
-    public class NullLogger`1
+    public class NullLogger`1 : Object
     {
         // ── Methods ──
-        public void BeginScope(){} // RVA: 0x283FA0
-        public void Log(){} // RVA: 0x283FA0
-        public void IsEnabled(){} // RVA: 0xE1F0
-        public void .ctor(){} // RVA: 0x24A50
-        public void .cctor(){} // RVA: 0x24A80
+        public void BeginScope(){} // RVA: 0x7A8051B10
+        public void Log(){} // RVA: 0x7A8051B10
+        public void IsEnabled(){} // RVA: 0x7A7E01F00
+        public void .ctor(){} // RVA: 0x7A7E18770
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
 }

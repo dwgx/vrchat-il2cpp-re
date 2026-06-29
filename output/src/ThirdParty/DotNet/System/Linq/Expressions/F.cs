@@ -5,41 +5,34 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class FieldExpression
+    public class FieldExpression : MemberExpression
     {
-        public System.Reflection.FieldInfo _field; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FC840
-        public void GetMember(){} // RVA: 0x2E07C0
-        public void get_Type(){} // RVA: 0x65FC8B0
+        public void .ctor(){} // RVA: 0x7AE3EB040
+        public void GetMember(){} // RVA: 0x7A80DA7B0
+        public void get_Type(){} // RVA: 0x7AE3EB0B0
     }
 
-    public class FullConditionalExpression
+    public class FullConditionalExpression : ConditionalExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E00F0
-        public void GetFalse(){} // RVA: 0x30B0C0
+        public void .ctor(){} // RVA: 0x7AE3CE920
+        public void GetFalse(){} // RVA: 0x7A81052C0
     }
 
-    public class FullConditionalExpressionWithType
+    public class FullConditionalExpressionWithType : FullConditionalExpression
     {
-        public System.Type <Type>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65E0160
-        public void get_Type(){} // RVA: 0x30B130
+        public void .ctor(){} // RVA: 0x7AE3CE990
+        public void get_Type(){} // RVA: 0x7A8105330
     }
 
-    public class FullExpression`1
+    public class FullExpression`1 : ExpressionN`1
     {
-        public string <NameCore>k__BackingField;
-        public bool <TailCallCore>k__BackingField;
-
         // ── Methods ──
-        public void .ctor(){}
-        public void get_NameCore(){} // RVA: 0xCD60
-        public void get_TailCallCore(){} // RVA: 0xDBE0
+        public void .ctor(){} // RVA: 0x7A7E21DC0
+        public void get_NameCore(){} // RVA: 0x7A7E00680
+        public void get_TailCallCore(){} // RVA: 0x7A7E01900
     }
 
 }

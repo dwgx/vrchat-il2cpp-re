@@ -1,21 +1,21 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Services.Core.Internal.Serialization
 // Classes: 2
-// Methods: 4
+// Methods: 3
 
 namespace ThirdParty.Other.Unity.Services.Core.Internal.Serialization
 {
     public class IJsonSerializer
     {
         // ── Methods ──
-        public void DeserializeObject(){} // RVA: 0x283FA0
+        public void DeserializeObject(){} // RVA: 0x7A8051B10
     }
 
-    public class NewtonsoftSerializer
+    public class NewtonsoftSerializer : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void DeserializeObject(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void DeserializeObject(){} // RVA: 0x7A8051B10
     }
 
 }

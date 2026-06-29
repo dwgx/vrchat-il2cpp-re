@@ -1,89 +1,76 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core
 // Classes: 5
-// Methods: 45
+// Methods: 43
 
 namespace VRC.Core
 {
-    public class GC
+    public class GC : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0xD75BA0
-        public void Equals(){} // RVA: 0xD75C60
-        public void GetHashCode(){} // RVA: 0xD760A0
-        public void op_Implicit(){} // RVA: 0xD76400
-        public void CompareBaseObjects(){} // RVA: 0xD768C0
-        public void .cctor(){} // RVA: 0xD76B20
+        public void Init(){} // RVA: 0x7A8B387E0
+        public void Equals(){} // RVA: 0x7A8B388A0
+        public void GetHashCode(){} // RVA: 0x7A8B38CC0
+        public void op_Implicit(){} // RVA: 0x7A8B39010
+        public void CompareBaseObjects(){} // RVA: 0x7A8B394E0
+        public void .cctor(){} // RVA: 0x7A8B39750
     }
 
-    public class GPUTextureCompressor
+    public class GPUTextureCompressor : Object
     {
-        public VRC.Core.GPUTextureCompressor DestructionQueueCount;
-        public UnityEngine.ComputeShader _computeShader; // 0x10
-        public int _kernelCompressASTC; // 0x18
-        public int _kernelCompressBC7; // 0x1C
-
         // ── Methods ──
-        public void get_Instance(){} // RVA: 0x9A61950
-        public void CalculatePadding(){} // RVA: 0x9A61A40
-        public void CalculateTotalBlocks(){} // RVA: 0x9A61AB0
-        public void CalculateMipBlockOffset(){} // RVA: 0x9A61B70
-        public void get_ComputeShaderReady(){} // RVA: 0x9A61C30
-        public void get_BC7Supported(){} // RVA: 0x9A61D40
-        public void get_PreferredFormat(){} // RVA: 0x9A61EF0
-        public void .ctor(){} // RVA: 0x9A61F40
-        public void CompressSync(){} // RVA: 0x9A623E0 | overloaded x2
-        public void CompressAsync(){} // RVA: 0x9A626C0 | overloaded x2
-        public void GetASTCHeader(){} // RVA: 0x9A62780
-        public void GetKernelForFormat(){} // RVA: 0x9A628B0
-        public void GetExtendEdgesKernelForFormat(){} // RVA: 0x9A628C0
-        public void GetTextureFormatForCompression(){} // RVA: 0x9A628D0
-        public void CopyTextureProperties(){} // RVA: 0x9A628F0
-        public void ValidateFormat(){} // RVA: 0x9A62AF0
-        public void EnsureKernelsLoaded(){} // RVA: 0x9A62CE0
-        public void ExecuteCompression(){} // RVA: 0x9A62FF0
-        public void ExecuteCompressionCPUPath(){} // RVA: 0x9A64490
-        public void ExecuteCompressionAsync(){} // RVA: 0x9A652C0
-        public void CreateTextureFromReadbackData(){} // RVA: 0x9A664F0
-        public void .cctor(){} // RVA: 0x9A667A0
+        public void get_Instance(){} // RVA: 0x7B18A1A40
+        public void CalculatePadding(){} // RVA: 0x7B18A1B30
+        public void CalculateTotalBlocks(){} // RVA: 0x7B18A1BA0
+        public void CalculateMipBlockOffset(){} // RVA: 0x7B18A1C60
+        public void get_ComputeShaderReady(){} // RVA: 0x7B18A1D20
+        public void get_BC7Supported(){} // RVA: 0x7B18A1E30
+        public void get_PreferredFormat(){} // RVA: 0x7B18A1FE0
+        public void .ctor(){} // RVA: 0x7B18A2030
+        public void CompressSync(){} // RVA: 0x7B18A24D0
+        public void CompressAsync(){} // RVA: 0x7B18A27B0
+        public void GetASTCHeader(){} // RVA: 0x7B18A2870
+        public void GetKernelForFormat(){} // RVA: 0x7B18A29A0
+        public void GetExtendEdgesKernelForFormat(){} // RVA: 0x7B18A29B0
+        public void GetTextureFormatForCompression(){} // RVA: 0x7B18A29C0
+        public void CopyTextureProperties(){} // RVA: 0x7B18A29E0
+        public void ValidateFormat(){} // RVA: 0x7B18A2BE0
+        public void EnsureKernelsLoaded(){} // RVA: 0x7B18A2DD0
+        public void ExecuteCompression(){} // RVA: 0x7B18A30E0
+        public void ExecuteCompressionCPUPath(){} // RVA: 0x7B18A4440
+        public void ExecuteCompressionAsync(){} // RVA: 0x7B18A5280
+        public void CreateTextureFromReadbackData(){} // RVA: 0x7B18A6B70
+        public void .cctor(){} // RVA: 0x7B18A6E20
     }
 
-    public class GoogleDeviceCodeResponse
+    public class GoogleDeviceCodeResponse : ApiModel
     {
-        public string <device_code>k__BackingField; // 0x68
-        public string <user_code>k__BackingField; // 0x70
-        public string <verification_url>k__BackingField; // 0x78
-        public int <expires_in>k__BackingField; // 0x80
-        public int <interval>k__BackingField; // 0x84
-
         // ── Methods ──
-        public void get_device_code(){} // RVA: 0x358D50
-        public void set_device_code(){} // RVA: 0x358D60
-        public void get_user_code(){} // RVA: 0x3A5590
-        public void set_user_code(){} // RVA: 0x3A55A0
-        public void get_verification_url(){} // RVA: 0x4C7C50
-        public void set_verification_url(){} // RVA: 0x4C34F0
-        public void get_expires_in(){} // RVA: 0xFC4570
-        public void set_expires_in(){} // RVA: 0xFC4560
-        public void get_interval(){} // RVA: 0x1C5A600
-        public void set_interval(){} // RVA: 0x1C5A650
-        public void .ctor(){} // RVA: 0x9874150
+        public void get_device_code(){} // RVA: 0x7A8153390
+        public void set_device_code(){} // RVA: 0x7A81533A0
+        public void get_user_code(){} // RVA: 0x7A81A00E0
+        public void set_user_code(){} // RVA: 0x7A81A00F0
+        public void get_verification_url(){} // RVA: 0x7A82C2060
+        public void set_verification_url(){} // RVA: 0x7A82C0530
+        public void get_expires_in(){} // RVA: 0x7A8D6DF30
+        public void set_expires_in(){} // RVA: 0x7A8D6DF20
+        public void get_interval(){} // RVA: 0x7A9A18C60
+        public void set_interval(){} // RVA: 0x7A9A18CB0
+        public void .ctor(){} // RVA: 0x7B16AEF10
     }
 
-    public class GoogleLoginResponse
+    public class GoogleLoginResponse : ApiModel
     {
-        public VRC.Core.APIUser <user>k__BackingField; // 0x68
-
         // ── Methods ──
-        public void get_user(){} // RVA: 0x358D50
-        public void set_user(){} // RVA: 0x358D60
-        public void .ctor(){} // RVA: 0x98741A0
+        public void get_user(){} // RVA: 0x7A8153390
+        public void set_user(){} // RVA: 0x7A81533A0
+        public void .ctor(){} // RVA: 0x7B16AEF60
     }
 
-    public class GroupInstanceAccessType
+    public class GroupInstanceAccessType : Object
     {
         // ── Methods ──
-        public void GetInstanceWithAccessType(){} // RVA: 0x9918890
+        public void GetInstanceWithAccessType(){} // RVA: 0x7B1754240
     }
 
 }

@@ -5,14 +5,12 @@
 
 namespace ThirdParty.DotNet.System.Xml.XmlConfiguration
 {
-    public class XmlReaderSection
+    public class XmlReaderSection : Object
     {
-        public object Count;
-
         // ── Methods ──
-        public void get_ProhibitDefaultUrlResolver(){} // RVA: 0x2DD320
-        public void CreateDefaultResolver(){} // RVA: 0x6ACE8F0
-        public void get_CollapseWhiteSpaceIntoEmptyString(){} // RVA: 0x2DD320
+        public void get_ProhibitDefaultUrlResolver(){} // RVA: 0x7A80D7320
+        public void CreateDefaultResolver(){} // RVA: 0x7AE8BED00
+        public void get_CollapseWhiteSpaceIntoEmptyString(){} // RVA: 0x7A80D7320
     }
 
 }

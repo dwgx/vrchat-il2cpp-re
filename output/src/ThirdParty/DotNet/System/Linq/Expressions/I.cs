@@ -1,222 +1,195 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq.Expressions
 // Classes: 18
-// Methods: 99
+// Methods: 97
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
     public class IArgumentProvider
     {
         // ── Methods ──
-        public void GetArgument(){} // RVA: 0x1BCC0
-        public void get_ArgumentCount(){} // RVA: 0xD840
+        public void GetArgument(){} // RVA: 0x7A7E00740
+        public void get_ArgumentCount(){} // RVA: 0x7A7E00710
     }
 
     public class IDynamicExpression
     {
         // ── Methods ──
-        public void get_DelegateType(){} // RVA: 0xCD60
-        public void Rewrite(){} // RVA: 0xCE10
-        public void CreateCallSite(){} // RVA: 0xCD60
+        public void get_DelegateType(){} // RVA: 0x7A7E00680
+        public void Rewrite(){} // RVA: 0x7A7E00B20
+        public void CreateCallSite(){} // RVA: 0x7A7E00680
     }
 
     public class IParameterProvider
     {
         // ── Methods ──
-        public void GetParameter(){} // RVA: 0x1BCC0
-        public void get_ParameterCount(){} // RVA: 0xD840
+        public void GetParameter(){} // RVA: 0x7A7E00740
+        public void get_ParameterCount(){} // RVA: 0x7A7E00710
     }
 
-    public class IndexExpression
+    public class IndexExpression : Expression
     {
-        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x10
-        public System.Linq.Expressions.Expression <Object>k__BackingField; // 0x18
-        public System.Reflection.PropertyInfo <Indexer>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FA170 | overloaded x2
-        public void get_NodeType(){} // RVA: 0x65F9D60
-        public void get_Type(){} // RVA: 0x65F9D70
-        public void get_Object(){} // RVA: 0x2E07C0
-        public void get_Indexer(){} // RVA: 0x30B0C0
-        public void get_Arguments(){} // RVA: 0x65F9DE0
-        public void Update(){} // RVA: 0x65F9E20
-        public void GetArgument(){} // RVA: 0x65F9FA0
-        public void get_ArgumentCount(){} // RVA: 0x65FA000
-        public void Accept(){} // RVA: 0x65FA050
-        public void Rewrite(){} // RVA: 0x65FA080
+        public void .ctor(){} // RVA: 0x7AE3E8990
+        public void get_NodeType(){} // RVA: 0x7AE3E8580
+        public void get_Type(){} // RVA: 0x7AE3E8590
+        public void get_Object(){} // RVA: 0x7A80DA7B0
+        public void get_Indexer(){} // RVA: 0x7A81052C0
+        public void get_Arguments(){} // RVA: 0x7AE3E8600
+        public void Update(){} // RVA: 0x7AE3E8640
+        public void GetArgument(){} // RVA: 0x7AE3E87C0
+        public void get_ArgumentCount(){} // RVA: 0x7AE3E8820
+        public void Accept(){} // RVA: 0x7AE3E8870
+        public void Rewrite(){} // RVA: 0x7AE3E88A0
     }
 
-    public class InstanceMethodCallExpression : `
+    public class InstanceMethodCallExpression : MethodCallExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FDB50
-        public void GetInstance(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7AE3EC370
+        public void GetInstance(){} // RVA: 0x7A80DA7B0
     }
 
-    public class InstanceMethodCallExpression0 : .ctor
+    public class InstanceMethodCallExpression0 : InstanceMethodCallExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FDB50
-        public void GetArgument(){} // RVA: 0x65FFFA0
-        public void get_ArgumentCount(){} // RVA: 0x519240
-        public void GetOrMakeArguments(){} // RVA: 0x65FFFF0
-        public void SameArguments(){} // RVA: 0x6600050
-        public void Rewrite(){} // RVA: 0x66000B0
+        public void .ctor(){} // RVA: 0x7AE3EC370
+        public void GetArgument(){} // RVA: 0x7AE3EE790
+        public void get_ArgumentCount(){} // RVA: 0x7A82D1450
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3EE7E0
+        public void SameArguments(){} // RVA: 0x7AE3EE840
+        public void Rewrite(){} // RVA: 0x7AE3EE8A0
     }
 
-    public class InstanceMethodCallExpression1 : .ctor
+    public class InstanceMethodCallExpression1 : InstanceMethodCallExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FDE40
-        public void GetArgument(){} // RVA: 0x6600120
-        public void get_ArgumentCount(){} // RVA: 0x3CFAF0
-        public void SameArguments(){} // RVA: 0x66001C0
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void Rewrite(){} // RVA: 0x6600340
+        public void .ctor(){} // RVA: 0x7AE3EC660
+        public void GetArgument(){} // RVA: 0x7AE3EE910
+        public void get_ArgumentCount(){} // RVA: 0x7A81CA9D0
+        public void SameArguments(){} // RVA: 0x7AE3EE9B0
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void Rewrite(){} // RVA: 0x7AE3EEB40
     }
 
-    public class InstanceMethodCallExpression2 : .ctor
+    public class InstanceMethodCallExpression2 : InstanceMethodCallExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FEB40
-        public void GetArgument(){} // RVA: 0x6600410
-        public void get_ArgumentCount(){} // RVA: 0x3E2CB0
-        public void SameArguments(){} // RVA: 0x66004C0
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void Rewrite(){} // RVA: 0x6600740
+        public void .ctor(){} // RVA: 0x7AE3ED360
+        public void GetArgument(){} // RVA: 0x7AE3EEC10
+        public void get_ArgumentCount(){} // RVA: 0x7A81DDCC0
+        public void SameArguments(){} // RVA: 0x7AE3EECC0
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void Rewrite(){} // RVA: 0x7AE3EEF40
     }
 
-    public class InstanceMethodCallExpression3 : .ctor
+    public class InstanceMethodCallExpression3 : InstanceMethodCallExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FF130
-        public void GetArgument(){} // RVA: 0x6600850
-        public void get_ArgumentCount(){} // RVA: 0xA308B0
-        public void SameArguments(){} // RVA: 0x6600910
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void Rewrite(){} // RVA: 0x6600BE0
+        public void .ctor(){} // RVA: 0x7AE3ED940
+        public void GetArgument(){} // RVA: 0x7AE3EF050
+        public void get_ArgumentCount(){} // RVA: 0x7A87EE0F0
+        public void SameArguments(){} // RVA: 0x7AE3EF110
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void Rewrite(){} // RVA: 0x7AE3EF3D0
     }
 
-    public class InstanceMethodCallExpressionN : .ctor
+    public class InstanceMethodCallExpressionN : InstanceMethodCallExpression
     {
-        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FDE40
-        public void GetArgument(){} // RVA: 0x65FDF20
-        public void get_ArgumentCount(){} // RVA: 0x65FDF80
-        public void SameArguments(){} // RVA: 0x65FDFD0
-        public void GetOrMakeArguments(){} // RVA: 0x65FE0B0
-        public void Rewrite(){} // RVA: 0x65FE0F0
+        public void .ctor(){} // RVA: 0x7AE3EC660
+        public void GetArgument(){} // RVA: 0x7AE3EC740
+        public void get_ArgumentCount(){} // RVA: 0x7AE3EC7A0
+        public void SameArguments(){} // RVA: 0x7AE3EC7F0
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3EC8D0
+        public void Rewrite(){} // RVA: 0x7AE3EC910
     }
 
-    public class InvocationExpression
+    public class InvocationExpression : Expression
     {
-        public System.Type <Type>k__BackingField; // 0x10
-        public System.Linq.Expressions.Expression <Expression>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FA5E0 | overloaded x2
-        public void get_Type(){} // RVA: 0x2F8380
-        public void get_NodeType(){} // RVA: 0x606D1A0
-        public void get_Expression(){} // RVA: 0x2E07C0
-        public void get_Arguments(){} // RVA: 0xBEE7B0
-        public void Update(){} // RVA: 0x65FA2B0
-        public void GetOrMakeArguments(){} // RVA: 0x65FA3A0
-        public void GetArgument(){} // RVA: 0x65FA3D0
-        public void get_ArgumentCount(){} // RVA: 0x65FA400
-        public void Accept(){} // RVA: 0x65FA430
-        public void Rewrite(){} // RVA: 0x65FA460
-        public void get_LambdaOperand(){} // RVA: 0x65FA490
+        public void .ctor(){} // RVA: 0x7AE3E8DF0
+        public void get_Type(){} // RVA: 0x7A80F2570
+        public void get_NodeType(){} // RVA: 0x7ADE594F0
+        public void get_Expression(){} // RVA: 0x7A80DA7B0
+        public void get_Arguments(){} // RVA: 0x7A89B55B0
+        public void Update(){} // RVA: 0x7AE3E8AD0
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3E8BC0
+        public void GetArgument(){} // RVA: 0x7AE3E8BF0
+        public void get_ArgumentCount(){} // RVA: 0x7AE3E8C20
+        public void Accept(){} // RVA: 0x7AE3E8C50
+        public void Rewrite(){} // RVA: 0x7AE3E8C80
+        public void get_LambdaOperand(){} // RVA: 0x7AE3E8CB0
     }
 
-    public class InvocationExpression0
+    public class InvocationExpression0 : InvocationExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FA7F0
-        public void GetOrMakeArguments(){} // RVA: 0x65FA800
-        public void GetArgument(){} // RVA: 0x65FA860
-        public void get_ArgumentCount(){} // RVA: 0x519240
-        public void Rewrite(){} // RVA: 0x65FA8B0
+        public void .ctor(){} // RVA: 0x7AE3E9000
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3E9010
+        public void GetArgument(){} // RVA: 0x7AE3E9070
+        public void get_ArgumentCount(){} // RVA: 0x7A82D1450
+        public void Rewrite(){} // RVA: 0x7AE3E90C0
     }
 
-    public class InvocationExpression1
+    public class InvocationExpression1 : InvocationExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FA900
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void GetArgument(){} // RVA: 0x65FA970
-        public void get_ArgumentCount(){} // RVA: 0x3CFAF0
-        public void Rewrite(){} // RVA: 0x65FAA10
+        public void .ctor(){} // RVA: 0x7AE3E9110
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void GetArgument(){} // RVA: 0x7AE3E9180
+        public void get_ArgumentCount(){} // RVA: 0x7A81CA9D0
+        public void Rewrite(){} // RVA: 0x7AE3E9220
     }
 
-    public class InvocationExpression2
+    public class InvocationExpression2 : InvocationExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FAAC0
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void GetArgument(){} // RVA: 0x65FABA0
-        public void get_ArgumentCount(){} // RVA: 0x3E2CB0
-        public void Rewrite(){} // RVA: 0x65FAC50
+        public void .ctor(){} // RVA: 0x7AE3E92D0
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void GetArgument(){} // RVA: 0x7AE3E93B0
+        public void get_ArgumentCount(){} // RVA: 0x7A81DDCC0
+        public void Rewrite(){} // RVA: 0x7AE3E9460
     }
 
-    public class InvocationExpression3
+    public class InvocationExpression3 : InvocationExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FAD30
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void GetArgument(){} // RVA: 0x65FAE60
-        public void get_ArgumentCount(){} // RVA: 0xA308B0
-        public void Rewrite(){} // RVA: 0x65FAF20
+        public void .ctor(){} // RVA: 0x7AE3E9540
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void GetArgument(){} // RVA: 0x7AE3E9670
+        public void get_ArgumentCount(){} // RVA: 0x7A87EE0F0
+        public void Rewrite(){} // RVA: 0x7AE3E9730
     }
 
-    public class InvocationExpression4
+    public class InvocationExpression4 : InvocationExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FB020
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void GetArgument(){} // RVA: 0x65FB1A0
-        public void get_ArgumentCount(){} // RVA: 0xA7E130
-        public void Rewrite(){} // RVA: 0x65FB280
+        public void .ctor(){} // RVA: 0x7AE3E9830
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void GetArgument(){} // RVA: 0x7AE3E99B0
+        public void get_ArgumentCount(){} // RVA: 0x7A883BE70
+        public void Rewrite(){} // RVA: 0x7AE3E9A90
     }
 
-    public class InvocationExpression5
+    public class InvocationExpression5 : InvocationExpression
     {
-        public object _arg0; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FB3B0
-        public void GetOrMakeArguments(){} // RVA: 0x65E7630
-        public void GetArgument(){} // RVA: 0x65FB590
-        public void get_ArgumentCount(){} // RVA: 0x66CCC0
-        public void Rewrite(){} // RVA: 0x65FB680
+        public void .ctor(){} // RVA: 0x7AE3E9BC0
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3D5E40
+        public void GetArgument(){} // RVA: 0x7AE3E9DA0
+        public void get_ArgumentCount(){} // RVA: 0x7A8401A30
+        public void Rewrite(){} // RVA: 0x7AE3E9E90
     }
 
-    public class InvocationExpressionN
+    public class InvocationExpressionN : InvocationExpression
     {
-        public System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _arguments; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FA610
-        public void GetOrMakeArguments(){} // RVA: 0x65FA680
-        public void GetArgument(){} // RVA: 0x65FA6C0
-        public void get_ArgumentCount(){} // RVA: 0x65FA720
-        public void Rewrite(){} // RVA: 0x65FA770
+        public void .ctor(){} // RVA: 0x7AE3E8E20
+        public void GetOrMakeArguments(){} // RVA: 0x7AE3E8E90
+        public void GetArgument(){} // RVA: 0x7AE3E8ED0
+        public void get_ArgumentCount(){} // RVA: 0x7AE3E8F30
+        public void Rewrite(){} // RVA: 0x7AE3E8F80
     }
 
 }

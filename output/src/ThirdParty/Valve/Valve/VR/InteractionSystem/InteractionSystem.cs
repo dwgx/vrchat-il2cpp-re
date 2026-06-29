@@ -1,1090 +1,1092 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Valve.Valve.VR.InteractionSystem
-// Classes: 75
-// Methods: 667
+// Classes: 77
+// Methods: 699
 
 namespace ThirdParty.Valve.Valve.VR.InteractionSystem
 {
-    public class AfterTimer_Component
+    public class AfterTimer_Component : MonoBehaviour
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x655DA30
-        public void Wait(){} // RVA: 0x655DAB0
-        public void OnDestroy(){} // RVA: 0x655DB50
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Init(){} // RVA: 0x7AE34BC50
+        public void Wait(){} // RVA: 0x7AE34BCD0
+        public void OnDestroy(){} // RVA: 0x7AE34BD70
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class AllowTeleportWhileAttachedToHand
+    public class AllowTeleportWhileAttachedToHand : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x64FF8C0
+        public void .ctor(){} // RVA: 0x7AE2ED460
     }
 
-    public class ArcheryTarget
+    public class ArcheryTarget : MonoBehaviour
     {
         // ── Methods ──
-        public void ApplyDamage(){} // RVA: 0x6567180
-        public void FireExposure(){} // RVA: 0x6567180
-        public void OnDamageTaken(){} // RVA: 0x6567190
-        public void FallDown(){} // RVA: 0x6567270
-        public void .ctor(){} // RVA: 0x6567310
+        public void ApplyDamage(){} // RVA: 0x7AE355420
+        public void FireExposure(){} // RVA: 0x7AE355420
+        public void OnDamageTaken(){} // RVA: 0x7AE355430
+        public void FallDown(){} // RVA: 0x7AE355510
+        public void .ctor(){} // RVA: 0x7AE3555B0
     }
 
-    public class Arrow
+    public class Arrow : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6567740
-        public void Start(){} // RVA: 0x65679D0
-        public void FixedUpdate(){} // RVA: 0x6567A70
-        public void StartRelease(){} // RVA: 0x6567D50
-        public void ArrowReleased(){} // RVA: 0x65681E0
-        public void SetCollisionMode(){} // RVA: 0x6568D30
-        public void OnCollisionEnter(){} // RVA: 0x6568E70
-        public void StickInTarget(){} // RVA: 0x6569DD0
-        public void OnDestroy(){} // RVA: 0x656B000
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE3559E0
+        public void Start(){} // RVA: 0x7AE355C70
+        public void FixedUpdate(){} // RVA: 0x7AE355D10
+        public void StartRelease(){} // RVA: 0x7AE355FF0
+        public void ArrowReleased(){} // RVA: 0x7AE356480
+        public void SetCollisionMode(){} // RVA: 0x7AE356FE0
+        public void OnCollisionEnter(){} // RVA: 0x7AE357130
+        public void StickInTarget(){} // RVA: 0x7AE358090
+        public void OnDestroy(){} // RVA: 0x7AE3592D0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ArrowHand
+    public class ArrowHand : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x656B2B0
-        public void OnAttachedToHand(){} // RVA: 0x656B410
-        public void InstantiateArrow(){} // RVA: 0x656B470
-        public void HandAttachedUpdate(){} // RVA: 0x656B850
-        public void OnDetachedFromHand(){} // RVA: 0x656C900
-        public void FireArrow(){} // RVA: 0x656C9A0
-        public void EnableArrowSpawn(){} // RVA: 0x490010
-        public void ArrowReleaseHaptics(){} // RVA: 0x656D400
-        public void OnHandFocusLost(){} // RVA: 0x4BEC00
-        public void OnHandFocusAcquired(){} // RVA: 0x4BF550
-        public void FindBow(){} // RVA: 0x656D4A0
-        public void .ctor(){} // RVA: 0x656D540
+        public void Awake(){} // RVA: 0x7AE359580
+        public void OnAttachedToHand(){} // RVA: 0x7AE3596E0
+        public void InstantiateArrow(){} // RVA: 0x7AE359740
+        public void HandAttachedUpdate(){} // RVA: 0x7AE359B20
+        public void OnDetachedFromHand(){} // RVA: 0x7AE35ABF0
+        public void FireArrow(){} // RVA: 0x7AE35AC90
+        public void EnableArrowSpawn(){} // RVA: 0x7A828B550
+        public void ArrowReleaseHaptics(){} // RVA: 0x7AE35B6F0
+        public void OnHandFocusLost(){} // RVA: 0x7A82BAD10
+        public void OnHandFocusAcquired(){} // RVA: 0x7A82BE250
+        public void FindBow(){} // RVA: 0x7AE35B790
+        public void .ctor(){} // RVA: 0x7AE35B830
     }
 
-    public class ArrowheadRotation
+    public class ArrowheadRotation : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x656D7F0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7AE35BAE0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Balloon
+    public class Balloon : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x656D8E0
-        public void Update(){} // RVA: 0x656DAA0
-        public void SpawnParticles(){} // RVA: 0x656DBB0
-        public void FixedUpdate(){} // RVA: 0x656E060
-        public void ApplyDamage(){} // RVA: 0x656E1F0
-        public void OnCollisionEnter(){} // RVA: 0x656E2A0
-        public void SetColor(){} // RVA: 0x656E8F0
-        public void BalloonColorToRGB(){} // RVA: 0x656E9D0
-        public void .ctor(){} // RVA: 0x656EBE0
+        public void Start(){} // RVA: 0x7AE35BBD0
+        public void Update(){} // RVA: 0x7AE35BD90
+        public void SpawnParticles(){} // RVA: 0x7AE35BEA0
+        public void FixedUpdate(){} // RVA: 0x7AE35C350
+        public void ApplyDamage(){} // RVA: 0x7AE35C4E0
+        public void OnCollisionEnter(){} // RVA: 0x7AE35C590
+        public void SetColor(){} // RVA: 0x7AE35CBE0
+        public void BalloonColorToRGB(){} // RVA: 0x7AE35CCC0
+        public void .ctor(){} // RVA: 0x7AE35CED0
     }
 
-    public class BalloonColliders
+    public class BalloonColliders : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x656EC40
-        public void OnEnable(){} // RVA: 0x656F1F0
-        public void OnDisable(){} // RVA: 0x656F840
-        public void OnDestroy(){} // RVA: 0x656FA00
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE35CF30
+        public void OnEnable(){} // RVA: 0x7AE35D500
+        public void OnDisable(){} // RVA: 0x7AE35DB70
+        public void OnDestroy(){} // RVA: 0x7AE35DD30
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class BalloonHapticBump
+    public class BalloonHapticBump : MonoBehaviour
     {
         // ── Methods ──
-        public void OnCollisionEnter(){} // RVA: 0x656FB30
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void OnCollisionEnter(){} // RVA: 0x7AE35DE70
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class BalloonSpawner
+    public class BalloonSpawner : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x656FD70
-        public void Update(){} // RVA: 0x656FE90
-        public void SpawnBalloon(){} // RVA: 0x656FFF0
-        public void SpawnBalloonFromEvent(){} // RVA: 0x6570950
-        public void .ctor(){} // RVA: 0x6570960
-    }
-
-    public class BodyCollider
-    {
-        // ── Methods ──
-        public void Awake(){} // RVA: 0x6524500
-        public void FixedUpdate(){} // RVA: 0x6524590
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class ChaperoneInfo
-    {
-        public bool <initialized>k__BackingField; // 0x20
-        public float <playAreaSizeX>k__BackingField; // 0x24
-        public float <playAreaSizeZ>k__BackingField; // 0x28
-        public bool <roomscale>k__BackingField; // 0x2C
-        public Event Initialized;
-
-        // ── Methods ──
-        public void get_initialized(){} // RVA: 0x3CB9D0
-        public void set_initialized(){} // RVA: 0x3CB9E0
-        public void get_playAreaSizeX(){} // RVA: 0x44AF50
-        public void set_playAreaSizeX(){} // RVA: 0x44AF60
-        public void get_playAreaSizeZ(){} // RVA: 0x3BC210
-        public void set_playAreaSizeZ(){} // RVA: 0x3BC220
-        public void get_roomscale(){} // RVA: 0x3BC230
-        public void set_roomscale(){} // RVA: 0x3BC240
-        public void InitializedAction(){} // RVA: 0x6575950
-        public void get_instance(){} // RVA: 0x65759F0
-        public void Start(){} // RVA: 0x6575D40
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void .cctor(){} // RVA: 0x6575DE0
-    }
-
-    public class CircularDrive
-    {
-        // ── Methods ──
-        public void Freeze(){} // RVA: 0x65248C0
-        public void UnFreeze(){} // RVA: 0x6524990
-        public void Awake(){} // RVA: 0x65249B0
-        public void Start(){} // RVA: 0x6524A50
-        public void OnDisable(){} // RVA: 0x6525670
-        public void HapticPulses(){} // RVA: 0x65257E0
-        public void OnHandHoverBegin(){} // RVA: 0x65258A0
-        public void OnHandHoverEnd(){} // RVA: 0x65258C0
-        public void HandHoverUpdate(){} // RVA: 0x6525A40
-        public void ComputeToTransformProjected(){} // RVA: 0x6525D10
-        public void DrawDebugPath(){} // RVA: 0x6526180
-        public void UpdateLinearMapping(){} // RVA: 0x65270C0
-        public void UpdateGameObject(){} // RVA: 0x6527150
-        public void UpdateDebugText(){} // RVA: 0x6527410
-        public void UpdateAll(){} // RVA: 0x6527610
-        public void ComputeAngle(){} // RVA: 0x65276B0
-        public void .ctor(){} // RVA: 0x6527BA0
+        public void Start(){} // RVA: 0x7AE35E0B0
+        public void Update(){} // RVA: 0x7AE35E1D0
+        public void SpawnBalloon(){} // RVA: 0x7AE35E330
+        public void SpawnBalloonFromEvent(){} // RVA: 0x7AE35EC90
+        public void .ctor(){} // RVA: 0x7AE35ECA0
+    }
+
+    public class BodyCollider : MonoBehaviour
+    {
+        // ── Methods ──
+        public void Awake(){} // RVA: 0x7AE3122D0
+        public void FixedUpdate(){} // RVA: 0x7AE312360
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class ChaperoneInfo : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_initialized(){} // RVA: 0x7A81C68D0
+        public void set_initialized(){} // RVA: 0x7A81C68E0
+        public void get_playAreaSizeX(){} // RVA: 0x7A82461C0
+        public void set_playAreaSizeX(){} // RVA: 0x7A82461D0
+        public void get_playAreaSizeZ(){} // RVA: 0x7A81B7060
+        public void set_playAreaSizeZ(){} // RVA: 0x7A81B7070
+        public void get_roomscale(){} // RVA: 0x7A81B7080
+        public void set_roomscale(){} // RVA: 0x7A81B7090
+        public void InitializedAction(){} // RVA: 0x7AE363C90
+        public void get_instance(){} // RVA: 0x7AE363D30
+        public void Start(){} // RVA: 0x7AE364080
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void .cctor(){} // RVA: 0x7AE364120
+    }
+
+    public class CircularDrive : MonoBehaviour
+    {
+        // ── Methods ──
+        public void Freeze(){} // RVA: 0x7AE312690
+        public void UnFreeze(){} // RVA: 0x7AE312760
+        public void Awake(){} // RVA: 0x7AE312780
+        public void Start(){} // RVA: 0x7AE312820
+        public void OnDisable(){} // RVA: 0x7AE313440
+        public void HapticPulses(){} // RVA: 0x7AE3135B0
+        public void OnHandHoverBegin(){} // RVA: 0x7AE313670
+        public void OnHandHoverEnd(){} // RVA: 0x7AE313690
+        public void HandHoverUpdate(){} // RVA: 0x7AE313810
+        public void ComputeToTransformProjected(){} // RVA: 0x7AE313AE0
+        public void DrawDebugPath(){} // RVA: 0x7AE313F50
+        public void UpdateLinearMapping(){} // RVA: 0x7AE314E90
+        public void UpdateGameObject(){} // RVA: 0x7AE314F20
+        public void UpdateDebugText(){} // RVA: 0x7AE3151C0
+        public void UpdateAll(){} // RVA: 0x7AE3153C0
+        public void ComputeAngle(){} // RVA: 0x7AE315460
+        public void .ctor(){} // RVA: 0x7AE315950
     }
 
-    public class ComplexThrowable
+    public class ComplexThrowable : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6527F40
-        public void Update(){} // RVA: 0x6527FC0
-        public void OnHandHoverBegin(){} // RVA: 0x6528100
-        public void OnHandHoverEnd(){} // RVA: 0x65281E0
-        public void HandHoverUpdate(){} // RVA: 0x65282C0
-        public void PhysicsAttach(){} // RVA: 0x6528310
-        public void PhysicsDetach(){} // RVA: 0x6528DF0
-        public void FixedUpdate(){} // RVA: 0x6529100
-        public void .ctor(){} // RVA: 0x6529680
+        public void Awake(){} // RVA: 0x7AE315CF0
+        public void Update(){} // RVA: 0x7AE315D70
+        public void OnHandHoverBegin(){} // RVA: 0x7AE315EC0
+        public void OnHandHoverEnd(){} // RVA: 0x7AE315FA0
+        public void HandHoverUpdate(){} // RVA: 0x7AE316080
+        public void PhysicsAttach(){} // RVA: 0x7AE3160D0
+        public void PhysicsDetach(){} // RVA: 0x7AE316BB0
+        public void FixedUpdate(){} // RVA: 0x7AE316EC0
+        public void .ctor(){} // RVA: 0x7AE317490
     }
 
-    public class ControllerButtonHints
+    public class ControllerButtonHints : MonoBehaviour
     {
-        public UnityEngine.Material controllerMaterial; // 0x20
-        public UnityEngine.Material urpControllerMaterial; // 0x28
-
         // ── Methods ──
-        public void get_usingMaterial(){} // RVA: 0x30B0C0
-        public void get_initialized(){} // RVA: 0x632C3D0
-        public void set_initialized(){} // RVA: 0x632C3E0
-        public void Awake(){} // RVA: 0x655EE60
-        public void Start(){} // RVA: 0x655EFB0
-        public void HintDebugLog(){} // RVA: 0x655F020
-        public void OnEnable(){} // RVA: 0x655F0B0
-        public void OnDisable(){} // RVA: 0x655F0E0
-        public void OnParentHandInputFocusLost(){} // RVA: 0x655F120
-        public void SetInputSource(){} // RVA: 0x655F140
-        public void OnHandInitialized(){} // RVA: 0x655F230
-        public void OnRenderModelLoaded(){} // RVA: 0x655F770
-        public void DoInitialize(){} // RVA: 0x655FA90
-        public void CreateAndAddButtonInfo(){} // RVA: 0x655FB90
-        public void ComputeTextEndTransforms(){} // RVA: 0x6561D30
-        public void ShowButtonHint(){} // RVA: 0x6565170 | overloaded x2
-        public void HideAllButtonHints(){} // RVA: 0x6565350 | overloaded x2
-        public void HideButtonHint(){} // RVA: 0x6565260 | overloaded x2
-        public void IsButtonHintActive(){} // RVA: 0x6565430 | overloaded x2
-        public void TestButtonHints(){} // RVA: 0x65637F0
-        public void TestTextHints(){} // RVA: 0x6563890
-        public void Update(){} // RVA: 0x6563930
-        public void UpdateTextHint(){} // RVA: 0x6563FE0
-        public void Clear(){} // RVA: 0x65646D0
-        public void ShowText(){} // RVA: 0x6564760
-        public void HideText(){} // RVA: 0x6564B20
-        public void HideAllText(){} // RVA: 0x6564CB0
-        public void GetActiveHintText(){} // RVA: 0x6565AE0 | overloaded x2
-        public void GetControllerButtonHints(){} // RVA: 0x6564FE0
-        public void ShowTextHint(){} // RVA: 0x6565520
-        public void HideTextHint(){} // RVA: 0x65656F0
-        public void HideAllTextHints(){} // RVA: 0x6565A00
-        public void .ctor(){} // RVA: 0x6565CD0
+        public void get_usingMaterial(){} // RVA: 0x7A81052C0
+        public void get_initialized(){} // RVA: 0x7AE117EA0
+        public void set_initialized(){} // RVA: 0x7AE117EB0
+        public void Awake(){} // RVA: 0x7AE34D070
+        public void Start(){} // RVA: 0x7AE34D1C0
+        public void HintDebugLog(){} // RVA: 0x7AE34D230
+        public void OnEnable(){} // RVA: 0x7AE34D2C0
+        public void OnDisable(){} // RVA: 0x7AE34D2F0
+        public void OnParentHandInputFocusLost(){} // RVA: 0x7AE34D330
+        public void SetInputSource(){} // RVA: 0x7AE34D350
+        public void OnHandInitialized(){} // RVA: 0x7AE34D440
+        public void OnRenderModelLoaded(){} // RVA: 0x7AE34D980
+        public void DoInitialize(){} // RVA: 0x7AE34DCA0
+        public void CreateAndAddButtonInfo(){} // RVA: 0x7AE34DDA0
+        public void ComputeTextEndTransforms(){} // RVA: 0x7AE34FF60
+        public void ShowButtonHint(){} // RVA: 0x7AE353400
+        public void HideAllButtonHints(){} // RVA: 0x7AE3535E0
+        public void HideButtonHint(){} // RVA: 0x7AE3534F0
+        public void IsButtonHintActive(){} // RVA: 0x7AE3536C0
+        public void TestButtonHints(){} // RVA: 0x7AE351A60
+        public void TestTextHints(){} // RVA: 0x7AE351B00
+        public void Update(){} // RVA: 0x7AE351BA0
+        public void UpdateTextHint(){} // RVA: 0x7AE352250
+        public void Clear(){} // RVA: 0x7AE352940
+        public void ShowText(){} // RVA: 0x7AE3529D0
+        public void HideText(){} // RVA: 0x7AE352D90
+        public void HideAllText(){} // RVA: 0x7AE352F20
+        public void GetActiveHintText(){} // RVA: 0x7AE353D70
+        public void GetControllerButtonHints(){} // RVA: 0x7AE353270
+        public void ShowTextHint(){} // RVA: 0x7AE3537B0
+        public void HideTextHint(){} // RVA: 0x7AE353980
+        public void HideAllTextHints(){} // RVA: 0x7AE353C90
+        public void .ctor(){} // RVA: 0x7AE353F60
     }
 
-    public class ControllerHoverHighlight
+    public class ControllerHoverHighlight : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6529930
-        public void OnHandInitialized(){} // RVA: 0x65299C0
-        public void RenderModel_onControllerLoaded(){} // RVA: 0x652A130
-        public void OnParentHandHoverBegin(){} // RVA: 0x652A170
-        public void OnParentHandHoverEnd(){} // RVA: 0x652A420
-        public void OnParentHandInputFocusAcquired(){} // RVA: 0x652A430
-        public void OnParentHandInputFocusLost(){} // RVA: 0x652A420
-        public void ShowHighlight(){} // RVA: 0x652A7A0
-        public void HideHighlight(){} // RVA: 0x652A910
-        public void .ctor(){} // RVA: 0x314BB0
+        public void Awake(){} // RVA: 0x7AE317740
+        public void OnHandInitialized(){} // RVA: 0x7AE3177D0
+        public void RenderModel_onControllerLoaded(){} // RVA: 0x7AE317F40
+        public void OnParentHandHoverBegin(){} // RVA: 0x7AE317F80
+        public void OnParentHandHoverEnd(){} // RVA: 0x7AE318230
+        public void OnParentHandInputFocusAcquired(){} // RVA: 0x7AE318240
+        public void OnParentHandInputFocusLost(){} // RVA: 0x7AE318230
+        public void ShowHighlight(){} // RVA: 0x7AE3185B0
+        public void HideHighlight(){} // RVA: 0x7AE318720
+        public void .ctor(){} // RVA: 0x7A810ED60
     }
 
-    public class CustomEvents
+    public class DebugUI : MonoBehaviour
     {
+        // ── Methods ──
+        public void get_instance(){} // RVA: 0x7AE318940
+        public void Start(){} // RVA: 0x7AE318AD0
+        public void OnGUI(){} // RVA: 0x7AE318B40
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class DebugUI
+    public class DestroyOnDetachedFromHand : MonoBehaviour
     {
-        public Valve.VR.InteractionSystem.Player responseCode; // 0x20
-
         // ── Methods ──
-        public void get_instance(){} // RVA: 0x652AB30
-        public void Start(){} // RVA: 0x652ACC0
-        public void OnGUI(){} // RVA: 0x652AD30
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void OnDetachedFromHand(){} // RVA: 0x7AE318BF0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class DestroyOnDetachedFromHand
+    public class DestroyOnParticleSystemDeath : MonoBehaviour
     {
         // ── Methods ──
-        public void OnDetachedFromHand(){} // RVA: 0x652ADE0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE318C90
+        public void CheckParticleSystem(){} // RVA: 0x7AE318D50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class DestroyOnParticleSystemDeath
+    public class DestroyOnTriggerEnter : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x652AE80
-        public void CheckParticleSystem(){} // RVA: 0x652AF40
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7AE318E50
+        public void OnTriggerEnter(){} // RVA: 0x7AE318E70
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class DestroyOnTriggerEnter
+    public class DistanceHaptics : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x652B040
-        public void OnTriggerEnter(){} // RVA: 0x652B060
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7AE319110
+        public void .ctor(){} // RVA: 0x7AE3191B0
     }
 
-    public class DistanceHaptics
+    public class DontDestroyOnLoad : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x652B300
-        public void .ctor(){} // RVA: 0x652B3A0
+        public void Awake(){} // RVA: 0x7AE3196E0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class DontDestroyOnLoad
+    public class EnumFlags : PropertyAttribute
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x652B8D0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class EnumFlags
+    public class Equippable : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_attachedHandType(){} // RVA: 0x7AE319770
+        public void Start(){} // RVA: 0x7AE319880
+        public void Update(){} // RVA: 0x7AE3199D0
+        public void .ctor(){} // RVA: 0x7AE319DA0
     }
 
-    public class Equippable
+    public class ExplosionWobble : MonoBehaviour
     {
-        public UnityEngine.Transform[] antiFlip; // 0x20
-
         // ── Methods ──
-        public void get_attachedHandType(){} // RVA: 0x652B960
-        public void Start(){} // RVA: 0x652BA70
-        public void Update(){} // RVA: 0x652BBC0
-        public void .ctor(){} // RVA: 0x652BF80
+        public void ExplosionEvent(){} // RVA: 0x7AE35ED10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ExplosionWobble
+    public class FallbackCameraController : MonoBehaviour
     {
         // ── Methods ──
-        public void ExplosionEvent(){} // RVA: 0x65709D0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void OnEnable(){} // RVA: 0x7AE319DF0
+        public void Update(){} // RVA: 0x7AE319E50
+        public void OnGUI(){} // RVA: 0x7AE31A810
+        public void .ctor(){} // RVA: 0x7AE31A890
     }
 
-    public class FallbackCameraController
+    public class FireSource : MonoBehaviour
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x652BFD0
-        public void Update(){} // RVA: 0x652C030
-        public void OnGUI(){} // RVA: 0x652CA00
-        public void .ctor(){} // RVA: 0x652CA80
+        public void Start(){} // RVA: 0x7AE35EE80
+        public void Update(){} // RVA: 0x7AE35EE90
+        public void OnTriggerEnter(){} // RVA: 0x7AE35F020
+        public void FireExposure(){} // RVA: 0x7AE35F0D0
+        public void StartBurning(){} // RVA: 0x7AE35F320
+        public void .ctor(){} // RVA: 0x7A9303490
     }
 
-    public class FireSource
+    public class Hand : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x6570B40
-        public void Update(){} // RVA: 0x6570B50
-        public void OnTriggerEnter(){} // RVA: 0x6570CE0
-        public void FireExposure(){} // RVA: 0x6570D90
-        public void StartBurning(){} // RVA: 0x6570FE0
-        public void .ctor(){} // RVA: 0x14F24E0
+        public void get_AttachedObjects(){} // RVA: 0x7AE31A8F0
+        public void get_hoverLocked(){} // RVA: 0x7A8203E30
+        public void set_hoverLocked(){} // RVA: 0x7A8203E40
+        public void get_isActive(){} // RVA: 0x7AE31A9C0
+        public void get_isPoseValid(){} // RVA: 0x7AE31AB80
+        public void get_hoveringInteractable(){} // RVA: 0x7A8158FC0
+        public void set_hoveringInteractable(){} // RVA: 0x7AE31ABD0
+        public void get_currentAttachedObject(){} // RVA: 0x7AE31B180
+        public void get_currentAttachedObjectInfo(){} // RVA: 0x7AE31B240
+        public void get_currentAttachedTeleportManager(){} // RVA: 0x7AE31B4A0
+        public void get_skeleton(){} // RVA: 0x7AE31B540
+        public void ShowController(){} // RVA: 0x7AE31B630
+        public void HideController(){} // RVA: 0x7AE31B7E0
+        public void ShowSkeleton(){} // RVA: 0x7AE31B990
+        public void HideSkeleton(){} // RVA: 0x7AE31BB40
+        public void HasSkeleton(){} // RVA: 0x7AE31BCF0
+        public void Show(){} // RVA: 0x7AE31BE90
+        public void Hide(){} // RVA: 0x7AE31BEA0
+        public void SetVisibility(){} // RVA: 0x7AE31BEB0
+        public void SetSkeletonRangeOfMotion(){} // RVA: 0x7AE31BFB0
+        public void SetTemporarySkeletonRangeOfMotion(){} // RVA: 0x7AE31C0A0
+        public void ResetTemporarySkeletonRangeOfMotion(){} // RVA: 0x7AE31C2D0
+        public void SetAnimationState(){} // RVA: 0x7AE31C4A0
+        public void StopAnimation(){} // RVA: 0x7AE31C6B0
+        public void AttachObject(){} // RVA: 0x7AE31C8B0
+        public void ObjectIsAttached(){} // RVA: 0x7AE31FA80
+        public void ForceHoverUnlock(){} // RVA: 0x7A8627600
+        public void DetachObject(){} // RVA: 0x7AE31FC80
+        public void GetTrackedObjectVelocity(){} // RVA: 0x7AE3213F0
+        public void GetTrackedObjectAngularVelocity(){} // RVA: 0x7AE321830
+        public void GetEstimatedPeakVelocities(){} // RVA: 0x7AE321C70
+        public void CleanUpAttachedObjectStack(){} // RVA: 0x7AE321DE0
+        public void Awake(){} // RVA: 0x7AE321F60
+        public void OnDestroy(){} // RVA: 0x7AE3227F0
+        public void OnTransformUpdated(){} // RVA: 0x7A95EA850
+        public void Start(){} // RVA: 0x7AE3229D0
+        public void UpdateHovering(){} // RVA: 0x7AE322A70
+        public void CheckHoveringForTransform(){} // RVA: 0x7AE323040
+        public void UpdateNoSteamVRFallback(){} // RVA: 0x7AE323CC0
+        public void UpdateDebugText(){} // RVA: 0x7AE324440
+        public void OnEnable(){} // RVA: 0x7AE325040
+        public void OnDisable(){} // RVA: 0x7AE3251D0
+        public void Update(){} // RVA: 0x7AE325250
+        public void IsStillHovering(){} // RVA: 0x7AE325440
+        public void HandFollowUpdate(){} // RVA: 0x7AE325580
+        public void FixedUpdate(){} // RVA: 0x7AE326C80
+        public void UpdateAttachedVelocity(){} // RVA: 0x7AE3275D0
+        public void ResetAttachedTransform(){} // RVA: 0x7AE327990
+        public void TargetItemPosition(){} // RVA: 0x7AE327C00
+        public void TargetItemRotation(){} // RVA: 0x7AE3281A0
+        public void GetUpdatedAttachedVelocities(){} // RVA: 0x7AE328B70
+        public void OnInputFocus(){} // RVA: 0x7AE329340
+        public void OnDrawGizmos(){} // RVA: 0x7AE3294E0
+        public void HandDebugLog(){} // RVA: 0x7AE329BC0
+        public void HoverLock(){} // RVA: 0x7AE329C80
+        public void HoverUnlock(){} // RVA: 0x7AE329D30
+        public void TriggerHapticPulse(){} // RVA: 0x7AE329F20
+        public void ShowGrabHint(){} // RVA: 0x7AE32A070
+        public void HideGrabHint(){} // RVA: 0x7AE32A060
+        public void GetGrabStarting(){} // RVA: 0x7AE32A0A0
+        public void GetGrabEnding(){} // RVA: 0x7AE32A4A0
+        public void IsGrabEnding(){} // RVA: 0x7AE32A770
+        public void IsGrabbingWithType(){} // RVA: 0x7AE32AA10
+        public void IsGrabbingWithOppositeType(){} // RVA: 0x7AE32ABA0
+        public void GetBestGrabbingType(){} // RVA: 0x7AE32AD40
+        public void InitController(){} // RVA: 0x7AE32AF10
+        public void SetRenderModel(){} // RVA: 0x7AE32BC10
+        public void SetHoverRenderModel(){} // RVA: 0x7AE32BD80
+        public void GetDeviceIndex(){} // RVA: 0x7AE32BE30
+        public void .ctor(){} // RVA: 0x7AE32BE80
     }
 
-    public class Hand
+    public class HandCollider : MonoBehaviour
     {
-        public 0x65927DE0 defaultAttachmentFlags;
-        public Valve.VR.InteractionSystem.Hand otherHand; // 0x20
-        public 0x65925E40 handType; // 0x28
-        public Valve.VR.SteamVR_Behaviour_Pose trackedObject; // 0x30
-        public Valve.VR.SteamVR_Action_Boolean grabPinchAction; // 0x38
-        public Valve.VR.SteamVR_Action_Boolean grabGripAction; // 0x40
-        public Valve.VR.SteamVR_Action_Vibration hapticAction; // 0x48
-        public Valve.VR.SteamVR_Action_Boolean uiInteractAction; // 0x50
-        public bool useHoverSphere; // 0x58
-
         // ── Methods ──
-        public void get_AttachedObjects(){} // RVA: 0x652CAE0
-        public void get_hoverLocked(){} // RVA: 0x408F80
-        public void set_hoverLocked(){} // RVA: 0x408F90
-        public void get_isActive(){} // RVA: 0x652CBB0
-        public void get_isPoseValid(){} // RVA: 0x652CD70
-        public void get_hoveringInteractable(){} // RVA: 0x35E970
-        public void set_hoveringInteractable(){} // RVA: 0x652CDC0
-        public void get_currentAttachedObject(){} // RVA: 0x652D360
-        public void get_currentAttachedObjectInfo(){} // RVA: 0x652D410
-        public void get_currentAttachedTeleportManager(){} // RVA: 0x652D660
-        public void get_skeleton(){} // RVA: 0x652D700
-        public void ShowController(){} // RVA: 0x652D7F0
-        public void HideController(){} // RVA: 0x652D9A0
-        public void ShowSkeleton(){} // RVA: 0x652DB50
-        public void HideSkeleton(){} // RVA: 0x652DD00
-        public void HasSkeleton(){} // RVA: 0x652DEB0
-        public void Show(){} // RVA: 0x652E040
-        public void Hide(){} // RVA: 0x652E050
-        public void SetVisibility(){} // RVA: 0x652E060
-        public void SetSkeletonRangeOfMotion(){} // RVA: 0x652E160
-        public void SetTemporarySkeletonRangeOfMotion(){} // RVA: 0x652E240
-        public void ResetTemporarySkeletonRangeOfMotion(){} // RVA: 0x652E470
-        public void SetAnimationState(){} // RVA: 0x652E630
-        public void StopAnimation(){} // RVA: 0x652E830
-        public void AttachObject(){} // RVA: 0x652EA30
-        public void ObjectIsAttached(){} // RVA: 0x6531C20
-        public void ForceHoverUnlock(){} // RVA: 0x86A5B0
-        public void DetachObject(){} // RVA: 0x6531E10
-        public void GetTrackedObjectVelocity(){} // RVA: 0x6533570
-        public void GetTrackedObjectAngularVelocity(){} // RVA: 0x65339B0
-        public void GetEstimatedPeakVelocities(){} // RVA: 0x6533DF0
-        public void CleanUpAttachedObjectStack(){} // RVA: 0x6533F60
-        public void Awake(){} // RVA: 0x65340E0
-        public void OnDestroy(){} // RVA: 0x6534960
-        public void OnTransformUpdated(){} // RVA: 0x1854D10
-        public void Start(){} // RVA: 0x6534B40
-        public void UpdateHovering(){} // RVA: 0x6534BE0
-        public void CheckHoveringForTransform(){} // RVA: 0x65351A0
-        public void UpdateNoSteamVRFallback(){} // RVA: 0x6535E00
-        public void UpdateDebugText(){} // RVA: 0x6536590
-        public void OnEnable(){} // RVA: 0x6537190
-        public void OnDisable(){} // RVA: 0x6537320
-        public void Update(){} // RVA: 0x65373A0
-        public void IsStillHovering(){} // RVA: 0x6537590
-        public void HandFollowUpdate(){} // RVA: 0x65376D0
-        public void FixedUpdate(){} // RVA: 0x6538DE0
-        public void UpdateAttachedVelocity(){} // RVA: 0x6539730
-        public void ResetAttachedTransform(){} // RVA: 0x6539AF0
-        public void TargetItemPosition(){} // RVA: 0x6539D60
-        public void TargetItemRotation(){} // RVA: 0x653A200
-        public void GetUpdatedAttachedVelocities(){} // RVA: 0x653AAB0
-        public void OnInputFocus(){} // RVA: 0x653B280
-        public void OnDrawGizmos(){} // RVA: 0x653B420
-        public void HandDebugLog(){} // RVA: 0x653BB00
-        public void HoverLock(){} // RVA: 0x653BBC0
-        public void HoverUnlock(){} // RVA: 0x653BC70
-        public void TriggerHapticPulse(){} // RVA: 0x653BE60 | overloaded x2
-        public void ShowGrabHint(){} // RVA: 0x653BFB0 | overloaded x2
-        public void HideGrabHint(){} // RVA: 0x653BFA0
-        public void GetGrabStarting(){} // RVA: 0x653BFE0
-        public void GetGrabEnding(){} // RVA: 0x653C3E0
-        public void IsGrabEnding(){} // RVA: 0x653C6B0
-        public void IsGrabbingWithType(){} // RVA: 0x653C930
-        public void IsGrabbingWithOppositeType(){} // RVA: 0x653CAC0
-        public void GetBestGrabbingType(){} // RVA: 0x653CC60 | overloaded x2
-        public void InitController(){} // RVA: 0x653CE30
-        public void SetRenderModel(){} // RVA: 0x653DB10
-        public void SetHoverRenderModel(){} // RVA: 0x653DC80
-        public void GetDeviceIndex(){} // RVA: 0x653DD30
-        public void .ctor(){} // RVA: 0x653DD80
+        public void Awake(){} // RVA: 0x7AE32CB70
+        public void Start(){} // RVA: 0x7AE32CC50
+        public void SetPhysicMaterial(){} // RVA: 0x7AE32D480
+        public void SetCollisionDetectionEnabled(){} // RVA: 0x7AE32D5F0
+        public void MoveTo(){} // RVA: 0x7AE32D660
+        public void TeleportTo(){} // RVA: 0x7AE32D680
+        public void Reset(){} // RVA: 0x7AE32D930
+        public void SetCenterPoint(){} // RVA: 0x7AE32D970
+        public void ExecuteFixedUpdate(){} // RVA: 0x7AE32D980
+        public void GetTargetVelocities(){} // RVA: 0x7AE32DE90
+        public void OnCollisionEnter(){} // RVA: 0x7AE32E3C0
+        public void .ctor(){} // RVA: 0x7AE32E6F0
     }
 
-    public class HandCollider
+    public class HandEvent : UnityEvent`1
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x653EA50
-        public void Start(){} // RVA: 0x653EB30
-        public void SetPhysicMaterial(){} // RVA: 0x653F360
-        public void SetCollisionDetectionEnabled(){} // RVA: 0x653F4C0
-        public void MoveTo(){} // RVA: 0x653F530
-        public void TeleportTo(){} // RVA: 0x653F550
-        public void Reset(){} // RVA: 0x653F800
-        public void SetCenterPoint(){} // RVA: 0x653F840
-        public void ExecuteFixedUpdate(){} // RVA: 0x653F850
-        public void GetTargetVelocities(){} // RVA: 0x653FD60
-        public void OnCollisionEnter(){} // RVA: 0x6540290
-        public void .ctor(){} // RVA: 0x65405C0
+        public void .ctor(){} // RVA: 0x7AE32CB30
     }
 
-    public class HandEvent
+    public class HandPhysics : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x653EA10
+        public void Start(){} // RVA: 0x7AE32EA80
+        public void FixedUpdate(){} // RVA: 0x7AE32F150
+        public void UpdateCenterPoint(){} // RVA: 0x7AE32F3D0
+        public void UpdatePositions(){} // RVA: 0x7AE32F690
+        public void UpdateFingertips(){} // RVA: 0x7AE3307C0
+        public void UpdateHand(){} // RVA: 0x7AE330CA0
+        public void ProcessPos(){} // RVA: 0x7AE3312B0
+        public void ProcessRot(){} // RVA: 0x7AE331430
+        public void .ctor(){} // RVA: 0x7AE3314F0
     }
 
-    public class HandPhysics
+    public class Hand[] : Array
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x6540950
-        public void FixedUpdate(){} // RVA: 0x6541020
-        public void UpdateCenterPoint(){} // RVA: 0x65412A0
-        public void UpdatePositions(){} // RVA: 0x6541560
-        public void UpdateFingertips(){} // RVA: 0x6542690
-        public void UpdateHand(){} // RVA: 0x6542B60
-        public void ProcessPos(){} // RVA: 0x6543170
-        public void ProcessRot(){} // RVA: 0x65432F0
-        public void .ctor(){} // RVA: 0x65433B0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class HapticRack
+    public class HapticRack : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6543510
-        public void OnHandHoverBegin(){} // RVA: 0x305200
-        public void OnHandHoverEnd(){} // RVA: 0x5A5F950
-        public void Update(){} // RVA: 0x6543650
-        public void Pulse(){} // RVA: 0x65437D0
-        public void .ctor(){} // RVA: 0x6543910
+        public void Awake(){} // RVA: 0x7AE331650
+        public void OnHandHoverBegin(){} // RVA: 0x7A80FF440
+        public void OnHandHoverEnd(){} // RVA: 0x7AD84C2E0
+        public void Update(){} // RVA: 0x7AE331790
+        public void Pulse(){} // RVA: 0x7AE331910
+        public void .ctor(){} // RVA: 0x7AE331A50
     }
 
-    public class HideOnHandFocusLost
+    public class HideOnHandFocusLost : MonoBehaviour
     {
         // ── Methods ──
-        public void OnHandFocusLost(){} // RVA: 0x4BEC00
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void OnHandFocusLost(){} // RVA: 0x7A82BAD10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class HoverButton
+    public class HoverButton : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x6543970
-        public void HandHoverUpdate(){} // RVA: 0x6543C40
-        public void LateUpdate(){} // RVA: 0x6544340
-        public void InvokeEvents(){} // RVA: 0x6544470
-        public void .ctor(){} // RVA: 0x6544550
+        public void Start(){} // RVA: 0x7AE331AB0
+        public void HandHoverUpdate(){} // RVA: 0x7AE331D80
+        public void LateUpdate(){} // RVA: 0x7AE332480
+        public void InvokeEvents(){} // RVA: 0x7AE3325B0
+        public void .ctor(){} // RVA: 0x7AE332690
     }
 
-    public class IgnoreHovering
+    public class IgnoreHovering : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class IgnoreTeleportTrace
+    public class IgnoreTeleportTrace : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class InputModule
+    public class InputModule : BaseInputModule
     {
-        public UnityEngine.GameObject submitObject; // 0x58
-
         // ── Methods ──
-        public void get_instance(){} // RVA: 0x65445C0
-        public void ShouldActivateModule(){} // RVA: 0x6544750
-        public void HoverBegin(){} // RVA: 0x6544830
-        public void HoverEnd(){} // RVA: 0x6544930
-        public void Submit(){} // RVA: 0x3A5510
-        public void Process(){} // RVA: 0x6544A50
-        public void .ctor(){} // RVA: 0x6544C20
+        public void get_instance(){} // RVA: 0x7AE332700
+        public void ShouldActivateModule(){} // RVA: 0x7AE332890
+        public void HoverBegin(){} // RVA: 0x7AE332980
+        public void HoverEnd(){} // RVA: 0x7AE332A80
+        public void Submit(){} // RVA: 0x7A81A0060
+        public void Process(){} // RVA: 0x7AE332BA0
+        public void .ctor(){} // RVA: 0x7AE332D70
     }
 
-    public class Interactable
+    public class Interactable : MonoBehaviour
     {
-        public Valve.VR.SteamVR_ActionSet activateActionSetOnAttach; // 0x20
-        public bool hideHandOnAttach; // 0x28
-        public bool hideSkeletonOnAttach; // 0x29
-        public bool hideControllerOnAttach; // 0x2A
-
         // ── Methods ──
-        public void add_onAttachedToHand(){} // RVA: 0x6544C30
-        public void remove_onAttachedToHand(){} // RVA: 0x6544D20
-        public void add_onDetachedFromHand(){} // RVA: 0x6544E10
-        public void remove_onDetachedFromHand(){} // RVA: 0x6544F00
-        public void get_hoveringHand(){} // RVA: 0x6544FF0
-        public void get_isDestroying(){} // RVA: 0x173F990
-        public void set_isDestroying(){} // RVA: 0x173EC00
-        public void get_isHovering(){} // RVA: 0x38EED40
-        public void set_isHovering(){} // RVA: 0x38EED50
-        public void get_wasHovering(){} // RVA: 0x6545080
-        public void set_wasHovering(){} // RVA: 0x6545090
-        public void Awake(){} // RVA: 0x65450A0
-        public void Start(){} // RVA: 0x6545130
-        public void ShouldIgnoreHighlight(){} // RVA: 0x6545510
-        public void ShouldIgnore(){} // RVA: 0x6545590
-        public void CreateHighlightRenderers(){} // RVA: 0x6545720
-        public void UpdateHighlightRenderers(){} // RVA: 0x6546070
-        public void OnHandHoverBegin(){} // RVA: 0x6546D20
-        public void OnHandHoverEnd(){} // RVA: 0x6546DD0
-        public void Update(){} // RVA: 0x6546F50
-        public void OnAttachedToHand(){} // RVA: 0x6547080
-        public void OnDetachedFromHand(){} // RVA: 0x6547440
-        public void OnDestroy(){} // RVA: 0x6547960
-        public void OnDisable(){} // RVA: 0x6547BA0
-        public void .ctor(){} // RVA: 0x6547D50
+        public void add_onAttachedToHand(){} // RVA: 0x7AE332D80
+        public void remove_onAttachedToHand(){} // RVA: 0x7AE332E70
+        public void add_onDetachedFromHand(){} // RVA: 0x7AE332F60
+        public void remove_onDetachedFromHand(){} // RVA: 0x7AE333050
+        public void get_hoveringHand(){} // RVA: 0x7AE333140
+        public void get_isDestroying(){} // RVA: 0x7A94FA690
+        public void set_isDestroying(){} // RVA: 0x7A94F9900
+        public void get_isHovering(){} // RVA: 0x7AB6D7240
+        public void set_isHovering(){} // RVA: 0x7AB6D7250
+        public void get_wasHovering(){} // RVA: 0x7AE3331D0
+        public void set_wasHovering(){} // RVA: 0x7AE3331E0
+        public void Awake(){} // RVA: 0x7AE3331F0
+        public void Start(){} // RVA: 0x7AE333280
+        public void ShouldIgnoreHighlight(){} // RVA: 0x7AE333660
+        public void ShouldIgnore(){} // RVA: 0x7AE3336E0
+        public void CreateHighlightRenderers(){} // RVA: 0x7AE333880
+        public void UpdateHighlightRenderers(){} // RVA: 0x7AE3341C0
+        public void OnHandHoverBegin(){} // RVA: 0x7AE334E90
+        public void OnHandHoverEnd(){} // RVA: 0x7AE334F40
+        public void Update(){} // RVA: 0x7AE3350C0
+        public void OnAttachedToHand(){} // RVA: 0x7AE3351F0
+        public void OnDetachedFromHand(){} // RVA: 0x7AE3355B0
+        public void OnDestroy(){} // RVA: 0x7AE335AE0
+        public void OnDisable(){} // RVA: 0x7AE335D20
+        public void .ctor(){} // RVA: 0x7AE335ED0
     }
 
-    public class InteractableDebug
+    public class InteractableDebug : MonoBehaviour
     {
-        public Valve.VR.InteractionSystem.Hand attachedToHand; // 0x20
-
         // ── Methods ──
-        public void get_isThrowable(){} // RVA: 0x6547F70
-        public void Awake(){} // RVA: 0x6548040
-        public void OnAttachedToHand(){} // RVA: 0x6548270
-        public void HandAttachedUpdate(){} // RVA: 0x65482F0
-        public void OnDetachedFromHand(){} // RVA: 0x6548450
-        public void GetColliders(){} // RVA: 0x35A740
-        public void IgnoreObject(){} // RVA: 0x6548A20
-        public void SetIsSimulation(){} // RVA: 0x4EFF5C0
-        public void CreateSimulation(){} // RVA: 0x6548B30
-        public void CreateMarker(){} // RVA: 0x6548F20 | overloaded x2
-        public void ColorSelf(){} // RVA: 0x65496D0
-        public void ColorThing(){} // RVA: 0x65497A0
-        public void .ctor(){} // RVA: 0x6549870
+        public void get_isThrowable(){} // RVA: 0x7AE3360F0
+        public void Awake(){} // RVA: 0x7AE3361C0
+        public void OnAttachedToHand(){} // RVA: 0x7AE3363F0
+        public void HandAttachedUpdate(){} // RVA: 0x7AE336470
+        public void OnDetachedFromHand(){} // RVA: 0x7AE3365E0
+        public void GetColliders(){} // RVA: 0x7A8154D80
+        public void IgnoreObject(){} // RVA: 0x7AE336BA0
+        public void SetIsSimulation(){} // RVA: 0x7ACCF17C0
+        public void CreateSimulation(){} // RVA: 0x7AE336CC0
+        public void CreateMarker(){} // RVA: 0x7AE3370A0
+        public void ColorSelf(){} // RVA: 0x7AE3377C0
+        public void ColorThing(){} // RVA: 0x7AE3377F0
+        public void .ctor(){} // RVA: 0x7AE3378D0
     }
 
-    public class InteractableHoverEvents
+    public class InteractableHoverEvents : MonoBehaviour
     {
         // ── Methods ──
-        public void OnHandHoverBegin(){} // RVA: 0x65498C0
-        public void OnHandHoverEnd(){} // RVA: 0x65498E0
-        public void OnAttachedToHand(){} // RVA: 0x6549900
-        public void OnDetachedFromHand(){} // RVA: 0x6549920
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void OnHandHoverBegin(){} // RVA: 0x7AE337920
+        public void OnHandHoverEnd(){} // RVA: 0x7AE337940
+        public void OnAttachedToHand(){} // RVA: 0x7AE337960
+        public void OnDetachedFromHand(){} // RVA: 0x7AE337980
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ItemPackage
+    public class ItemPackage : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ItemPackageReference
+    public class ItemPackageReference : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ItemPackageSpawner
+    public class ItemPackageSpawner : MonoBehaviour
     {
-        public Valve.VR.InteractionSystem.ItemPackage _itemPackage; // 0x20
-
         // ── Methods ──
-        public void get_itemPackage(){} // RVA: 0x30B0C0
-        public void set_itemPackage(){} // RVA: 0x6549940
-        public void CreatePreviewObject(){} // RVA: 0x6549950
-        public void Start(){} // RVA: 0x6549F60
-        public void VerifyItemPackage(){} // RVA: 0x6549F60
-        public void ItemPackageNotValid(){} // RVA: 0x654A0F0
-        public void ClearPreview(){} // RVA: 0x654A260
-        public void Update(){} // RVA: 0x654A5B0
-        public void OnHandHoverBegin(){} // RVA: 0x654A6B0
-        public void TakeBackItem(){} // RVA: 0x654A890
-        public void GetAttachedItemPackage(){} // RVA: 0x654A8F0
-        public void HandHoverUpdate(){} // RVA: 0x654AAB0
-        public void OnHandHoverEnd(){} // RVA: 0x654ACB0
-        public void RemoveMatchingItemsFromHandStack(){} // RVA: 0x654AD00
-        public void RemoveMatchingItemTypesFromHand(){} // RVA: 0x654B130
-        public void SpawnAndAttachObject(){} // RVA: 0x654B3A0
-        public void .ctor(){} // RVA: 0x654B9D0
+        public void get_itemPackage(){} // RVA: 0x7A81052C0
+        public void set_itemPackage(){} // RVA: 0x7AE3379A0
+        public void CreatePreviewObject(){} // RVA: 0x7AE3379B0
+        public void Start(){} // RVA: 0x7AE337FB0
+        public void VerifyItemPackage(){} // RVA: 0x7AE337FB0
+        public void ItemPackageNotValid(){} // RVA: 0x7AE338140
+        public void ClearPreview(){} // RVA: 0x7AE3382B0
+        public void Update(){} // RVA: 0x7AE3385D0
+        public void OnHandHoverBegin(){} // RVA: 0x7AE3386D0
+        public void TakeBackItem(){} // RVA: 0x7AE3388B0
+        public void GetAttachedItemPackage(){} // RVA: 0x7AE338910
+        public void HandHoverUpdate(){} // RVA: 0x7AE338AD0
+        public void OnHandHoverEnd(){} // RVA: 0x7AE338CD0
+        public void RemoveMatchingItemsFromHandStack(){} // RVA: 0x7AE338D20
+        public void RemoveMatchingItemTypesFromHand(){} // RVA: 0x7AE339150
+        public void SpawnAndAttachObject(){} // RVA: 0x7AE3393C0
+        public void .ctor(){} // RVA: 0x7AE339A00
     }
 
-    public class LinearAnimation
+    public class LinearAnimation : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x654BA20
-        public void Update(){} // RVA: 0x654BED0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE339A50
+        public void Update(){} // RVA: 0x7AE339F00
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class LinearAnimator
+    public class LinearAnimator : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x654BF30
-        public void Update(){} // RVA: 0x654C1E0
-        public void .ctor(){} // RVA: 0x654C2C0
+        public void Awake(){} // RVA: 0x7AE339F60
+        public void Update(){} // RVA: 0x7AE33A210
+        public void .ctor(){} // RVA: 0x7AE33A2F0
     }
 
-    public class LinearAudioPitch
+    public class LinearAudioPitch : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x654C310
-        public void Update(){} // RVA: 0x654C560
-        public void Apply(){} // RVA: 0x654C680
-        public void .ctor(){} // RVA: 0x17E65B0
+        public void Awake(){} // RVA: 0x7AE33A340
+        public void Update(){} // RVA: 0x7AE33A590
+        public void Apply(){} // RVA: 0x7AE33A6B0
+        public void .ctor(){} // RVA: 0x7A95A1100
     }
 
-    public class LinearBlendshape
+    public class LinearBlendshape : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x654C790
-        public void Update(){} // RVA: 0x654C9E0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE33A7C0
+        public void Update(){} // RVA: 0x7AE33AA10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class LinearDisplacement
+    public class LinearDisplacement : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x654CAC0
-        public void Update(){} // RVA: 0x654CCB0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7AE33AAF0
+        public void Update(){} // RVA: 0x7AE33ACE0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class LinearDrive
+    public class LinearDrive : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x654CE90
-        public void Start(){} // RVA: 0x654CFB0
-        public void HandHoverUpdate(){} // RVA: 0x654D2C0
-        public void HandAttachedUpdate(){} // RVA: 0x654D4C0
-        public void OnDetachedFromHand(){} // RVA: 0x654D5F0
-        public void CalculateMappingChangeRate(){} // RVA: 0x654D5F0
-        public void UpdateLinearMapping(){} // RVA: 0x654D670
-        public void CalculateLinearMapping(){} // RVA: 0x654D980
-        public void Update(){} // RVA: 0x654DC80
-        public void .ctor(){} // RVA: 0x654DFA0
+        public void Awake(){} // RVA: 0x7AE33AEC0
+        public void Start(){} // RVA: 0x7AE33AFE0
+        public void HandHoverUpdate(){} // RVA: 0x7AE33B2F0
+        public void HandAttachedUpdate(){} // RVA: 0x7AE33B4F0
+        public void OnDetachedFromHand(){} // RVA: 0x7AE33B620
+        public void CalculateMappingChangeRate(){} // RVA: 0x7AE33B620
+        public void UpdateLinearMapping(){} // RVA: 0x7AE33B6A0
+        public void CalculateLinearMapping(){} // RVA: 0x7AE33B9B0
+        public void Update(){} // RVA: 0x7AE33BCB0
+        public void .ctor(){} // RVA: 0x7AE33BFD0
     }
 
-    public class LinearMapping
+    public class LinearMapping : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Longbow
+    public class Longbow : MonoBehaviour
     {
         // ── Methods ──
-        public void OnAttachedToHand(){} // RVA: 0x305200
-        public void HandAttachedUpdate(){} // RVA: 0x6571580
-        public void ArrowReleased(){} // RVA: 0x6572650
-        public void ResetDrawAnim(){} // RVA: 0x65727D0
-        public void GetArrowVelocity(){} // RVA: 0x59D580
-        public void StartRotationLerp(){} // RVA: 0x6572870
-        public void StartNock(){} // RVA: 0x6572950
-        public void EvaluateHandedness(){} // RVA: 0x6572AD0
-        public void DoHandednessCheck(){} // RVA: 0x6572C20
-        public void ArrowInPosition(){} // RVA: 0x6572D00
-        public void ReleaseNock(){} // RVA: 0x6572DF0
-        public void ShutDown(){} // RVA: 0x6572E70
-        public void OnHandFocusLost(){} // RVA: 0x4BEC00
-        public void OnHandFocusAcquired(){} // RVA: 0x6573240
-        public void OnDetachedFromHand(){} // RVA: 0x6573360
-        public void OnDestroy(){} // RVA: 0x6573400
-        public void .ctor(){} // RVA: 0x6573410
+        public void OnAttachedToHand(){} // RVA: 0x7A80FF440
+        public void HandAttachedUpdate(){} // RVA: 0x7AE35F8C0
+        public void ArrowReleased(){} // RVA: 0x7AE3609A0
+        public void ResetDrawAnim(){} // RVA: 0x7AE360B20
+        public void GetArrowVelocity(){} // RVA: 0x7A83569A0
+        public void StartRotationLerp(){} // RVA: 0x7AE360BC0
+        public void StartNock(){} // RVA: 0x7AE360CA0
+        public void EvaluateHandedness(){} // RVA: 0x7AE360E20
+        public void DoHandednessCheck(){} // RVA: 0x7AE360F70
+        public void ArrowInPosition(){} // RVA: 0x7AE361050
+        public void ReleaseNock(){} // RVA: 0x7AE361140
+        public void ShutDown(){} // RVA: 0x7AE3611C0
+        public void OnHandFocusLost(){} // RVA: 0x7A82BAD10
+        public void OnHandFocusAcquired(){} // RVA: 0x7AE361590
+        public void OnDetachedFromHand(){} // RVA: 0x7AE3616B0
+        public void OnDestroy(){} // RVA: 0x7AE361750
+        public void .ctor(){} // RVA: 0x7AE361760
     }
 
-    public class ModalThrowable
+    public class ModalThrowable : Throwable
     {
         // ── Methods ──
-        public void HandHoverUpdate(){} // RVA: 0x654E000
-        public void HandAttachedUpdate(){} // RVA: 0x654E0F0
-        public void .ctor(){} // RVA: 0x654E390
+        public void HandHoverUpdate(){} // RVA: 0x7AE33C030
+        public void HandAttachedUpdate(){} // RVA: 0x7AE33C130
+        public void .ctor(){} // RVA: 0x7AE33C3D0
     }
 
-    public class PlaySound
+    public class PlaySound : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6551160
-        public void Play(){} // RVA: 0x6551440
-        public void PlayWithDelay(){} // RVA: 0x65515F0
-        public void PlayOneShotSound(){} // RVA: 0x6551670
-        public void PlayLooping(){} // RVA: 0x6551810
-        public void Disable(){} // RVA: 0x4BEC00
-        public void Stop(){} // RVA: 0x6551A20
-        public void SetAudioSource(){} // RVA: 0x6551A80
-        public void .ctor(){} // RVA: 0x6551D00
+        public void Awake(){} // RVA: 0x7AE33F1E0
+        public void Play(){} // RVA: 0x7AE33F4C0
+        public void PlayWithDelay(){} // RVA: 0x7AE33F670
+        public void PlayOneShotSound(){} // RVA: 0x7AE33F6F0
+        public void PlayLooping(){} // RVA: 0x7AE33F890
+        public void Disable(){} // RVA: 0x7A82BAD10
+        public void Stop(){} // RVA: 0x7AE33FAA0
+        public void SetAudioSource(){} // RVA: 0x7AE33FB00
+        public void .ctor(){} // RVA: 0x7AE33FD80
     }
 
-    public class Player
+    public class Player : MonoBehaviour
     {
-        public UnityEngine.Transform trackingOriginTransform; // 0x20
-        public UnityEngine.Transform[] hmdTransforms; // 0x28
-        public Valve.VR.InteractionSystem.Hand[] hands; // 0x30
-        public UnityEngine.Collider headCollider; // 0x38
-        public UnityEngine.GameObject rigSteamVR; // 0x40
-        public UnityEngine.GameObject rig2DFallback; // 0x48
-        public UnityEngine.Transform audioListener; // 0x50
-        public Valve.VR.SteamVR_Action_Boolean headsetOnHead; // 0x58
-        public bool allowToggleTo2D; // 0x60
-
         // ── Methods ──
-        public void get_instance(){} // RVA: 0x654E480
-        public void get_handCount(){} // RVA: 0x654E610
-        public void GetHand(){} // RVA: 0x654E750
-        public void get_leftHand(){} // RVA: 0x654E8A0
-        public void get_rightHand(){} // RVA: 0x654EA10
-        public void get_scale(){} // RVA: 0x654EB80
-        public void get_hmdTransform(){} // RVA: 0x654EC40
-        public void get_eyeHeight(){} // RVA: 0x654ED80
-        public void get_feetPositionGuess(){} // RVA: 0x654F030
-        public void get_bodyDirectionGuess(){} // RVA: 0x654F390
-        public void Awake(){} // RVA: 0x654F5D0
-        public void Start(){} // RVA: 0x654F870
-        public void Update(){} // RVA: 0x654F910
-        public void OnDrawGizmos(){} // RVA: 0x654FAE0
-        public void Draw2DDebug(){} // RVA: 0x65506A0
-        public void ActivateRig(){} // RVA: 0x65508E0
-        public void PlayerShotSelf(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x6550E30
+        public void get_instance(){} // RVA: 0x7AE33C4C0
+        public void get_handCount(){} // RVA: 0x7AE33C650
+        public void GetHand(){} // RVA: 0x7AE33C790
+        public void get_leftHand(){} // RVA: 0x7AE33C8F0
+        public void get_rightHand(){} // RVA: 0x7AE33CA60
+        public void get_scale(){} // RVA: 0x7AE33CBD0
+        public void get_hmdTransform(){} // RVA: 0x7AE33CC90
+        public void get_eyeHeight(){} // RVA: 0x7AE33CDD0
+        public void get_feetPositionGuess(){} // RVA: 0x7AE33D080
+        public void get_bodyDirectionGuess(){} // RVA: 0x7AE33D3E0
+        public void Awake(){} // RVA: 0x7AE33D620
+        public void Start(){} // RVA: 0x7AE33D8E0
+        public void Update(){} // RVA: 0x7AE33D980
+        public void OnDrawGizmos(){} // RVA: 0x7AE33DB50
+        public void Draw2DDebug(){} // RVA: 0x7AE33E720
+        public void ActivateRig(){} // RVA: 0x7AE33E960
+        public void PlayerShotSelf(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7AE33EEB0
     }
 
-    public class RenderModel
+    public class RenderModel : MonoBehaviour
     {
-        public UnityEngine.GameObject handPrefab; // 0x20
-
         // ── Methods ──
-        public void add_onControllerLoaded(){} // RVA: 0x6551D70
-        public void remove_onControllerLoaded(){} // RVA: 0x6551E60
-        public void Awake(){} // RVA: 0x6551F50
-        public void InitializeHand(){} // RVA: 0x6552050
-        public void InitializeController(){} // RVA: 0x6552A40
-        public void DestroyHand(){} // RVA: 0x6553040
-        public void OnSkeletonActiveChange(){} // RVA: 0x65533D0
-        public void OnEnable(){} // RVA: 0x65533F0
-        public void OnDisable(){} // RVA: 0x6553420
-        public void OnDestroy(){} // RVA: 0x391BC0
-        public void GetSkeleton(){} // RVA: 0x35A740
-        public void SetInputSource(){} // RVA: 0x6553450
-        public void OnHandInitialized(){} // RVA: 0x6553540
-        public void MatchHandToTransform(){} // RVA: 0x6553580
-        public void SetHandPosition(){} // RVA: 0x6553940
-        public void SetHandRotation(){} // RVA: 0x6553AD0
-        public void GetHandPosition(){} // RVA: 0x6553C50
-        public void GetHandRotation(){} // RVA: 0x6553E40
-        public void OnRenderModelLoaded(){} // RVA: 0x6554010
-        public void SetVisibility(){} // RVA: 0x65542B0
-        public void Show(){} // RVA: 0x6554330
-        public void Hide(){} // RVA: 0x6554380
-        public void SetMaterial(){} // RVA: 0x65543B0
-        public void SetControllerMaterial(){} // RVA: 0x6554480
-        public void SetHandMaterial(){} // RVA: 0x65545C0
-        public void SetControllerVisibility(){} // RVA: 0x6554680
-        public void SetHandVisibility(){} // RVA: 0x6554750
-        public void IsHandVisibile(){} // RVA: 0x6554820
-        public void IsControllerVisibile(){} // RVA: 0x65548F0
-        public void GetBone(){} // RVA: 0x65549C0
-        public void GetBonePosition(){} // RVA: 0x6554AD0
-        public void GetControllerPosition(){} // RVA: 0x6554C30
-        public void GetBoneRotation(){} // RVA: 0x6554EB0
-        public void SetSkeletonRangeOfMotion(){} // RVA: 0x6555100
-        public void get_GetSkeletonRangeOfMotion(){} // RVA: 0x6555350
-        public void SetTemporarySkeletonRangeOfMotion(){} // RVA: 0x6555440
-        public void ResetTemporarySkeletonRangeOfMotion(){} // RVA: 0x65555A0
-        public void SetAnimationState(){} // RVA: 0x65556A0
-        public void StopAnimation(){} // RVA: 0x65557D0
-        public void CheckAnimatorInit(){} // RVA: 0x65558F0
-        public void .ctor(){} // RVA: 0x6555CE0
+        public void add_onControllerLoaded(){} // RVA: 0x7AE33FDF0
+        public void remove_onControllerLoaded(){} // RVA: 0x7AE33FEF0
+        public void Awake(){} // RVA: 0x7AE33FFF0
+        public void InitializeHand(){} // RVA: 0x7AE3400F0
+        public void InitializeController(){} // RVA: 0x7AE340AE0
+        public void DestroyHand(){} // RVA: 0x7AE3410E0
+        public void OnSkeletonActiveChange(){} // RVA: 0x7AE341470
+        public void OnEnable(){} // RVA: 0x7AE341490
+        public void OnDisable(){} // RVA: 0x7AE3414C0
+        public void OnDestroy(){} // RVA: 0x7A818C700
+        public void GetSkeleton(){} // RVA: 0x7A8154D80
+        public void SetInputSource(){} // RVA: 0x7AE3414F0
+        public void OnHandInitialized(){} // RVA: 0x7AE3415E0
+        public void MatchHandToTransform(){} // RVA: 0x7AE341620
+        public void SetHandPosition(){} // RVA: 0x7AE3419E0
+        public void SetHandRotation(){} // RVA: 0x7AE341B70
+        public void GetHandPosition(){} // RVA: 0x7AE341CF0
+        public void GetHandRotation(){} // RVA: 0x7AE341EE0
+        public void OnRenderModelLoaded(){} // RVA: 0x7AE3420B0
+        public void SetVisibility(){} // RVA: 0x7AE342350
+        public void Show(){} // RVA: 0x7AE3423D0
+        public void Hide(){} // RVA: 0x7AE342420
+        public void SetMaterial(){} // RVA: 0x7AE342450
+        public void SetControllerMaterial(){} // RVA: 0x7AE342530
+        public void SetHandMaterial(){} // RVA: 0x7AE342680
+        public void SetControllerVisibility(){} // RVA: 0x7AE342760
+        public void SetHandVisibility(){} // RVA: 0x7AE342840
+        public void IsHandVisibile(){} // RVA: 0x7AE342920
+        public void IsControllerVisibile(){} // RVA: 0x7AE3429F0
+        public void GetBone(){} // RVA: 0x7AE342AC0
+        public void GetBonePosition(){} // RVA: 0x7AE342BD0
+        public void GetControllerPosition(){} // RVA: 0x7AE342D30
+        public void GetBoneRotation(){} // RVA: 0x7AE342FB0
+        public void SetSkeletonRangeOfMotion(){} // RVA: 0x7AE343200
+        public void get_GetSkeletonRangeOfMotion(){} // RVA: 0x7AE343450
+        public void SetTemporarySkeletonRangeOfMotion(){} // RVA: 0x7AE343540
+        public void ResetTemporarySkeletonRangeOfMotion(){} // RVA: 0x7AE3436A0
+        public void SetAnimationState(){} // RVA: 0x7AE3437A0
+        public void StopAnimation(){} // RVA: 0x7AE3438D0
+        public void CheckAnimatorInit(){} // RVA: 0x7AE3439F0
+        public void .ctor(){} // RVA: 0x7AE343DE0
     }
 
-    public class SeeThru
+    public class RenderModel[] : Array
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6555DB0
-        public void OnEnable(){} // RVA: 0x6556FB0
-        public void OnDisable(){} // RVA: 0x6557240
-        public void AttachedToHand(){} // RVA: 0x65574D0
-        public void DetachedFromHand(){} // RVA: 0xAB8C30
-        public void Update(){} // RVA: 0x6557530
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class SleepOnAwake
+    public class SeeThru : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x65579A0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE343EB0
+        public void OnEnable(){} // RVA: 0x7AE345100
+        public void OnDisable(){} // RVA: 0x7AE345390
+        public void AttachedToHand(){} // RVA: 0x7AE345620
+        public void DetachedFromHand(){} // RVA: 0x7A8876AB0
+        public void Update(){} // RVA: 0x7AE345680
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class SnapTurn
+    public class SleepOnAwake : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x65738B0
-        public void AllOff(){} // RVA: 0x65738C0
-        public void Update(){} // RVA: 0x6573AC0
-        public void RotatePlayer(){} // RVA: 0x6574260
-        public void DoRotatePlayer(){} // RVA: 0x65743B0
-        public void ShowRotateFX(){} // RVA: 0x6574470
-        public void UpdateOrientation(){} // RVA: 0x65745E0
-        public void .ctor(){} // RVA: 0x6574D50
+        public void Awake(){} // RVA: 0x7AE345AF0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class SoundBowClick
+    public class SnapTurn : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6573720
-        public void PlayBowTensionClicks(){} // RVA: 0x65737B0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7AE361C00
+        public void AllOff(){} // RVA: 0x7AE361C10
+        public void Update(){} // RVA: 0x7AE361E10
+        public void RotatePlayer(){} // RVA: 0x7AE3625B0
+        public void DoRotatePlayer(){} // RVA: 0x7AE362700
+        public void ShowRotateFX(){} // RVA: 0x7AE3627C0
+        public void UpdateOrientation(){} // RVA: 0x7AE362930
+        public void .ctor(){} // RVA: 0x7AE363090
     }
 
-    public class SoundDeparent
+    public class SoundBowClick : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6557AD0
-        public void Start(){} // RVA: 0x6557B60
-        public void .ctor(){} // RVA: 0x337060
+        public void Awake(){} // RVA: 0x7AE361A70
+        public void PlayBowTensionClicks(){} // RVA: 0x7AE361B00
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class SoundPlayOneshot
+    public class SoundDeparent : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6557D70
-        public void Play(){} // RVA: 0x6557E10
-        public void Pause(){} // RVA: 0x6558010
-        public void UnPause(){} // RVA: 0x6558130
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE345C20
+        public void Start(){} // RVA: 0x7AE345CB0
+        public void .ctor(){} // RVA: 0x7A8131470
     }
 
-    public class SpawnAndAttachAfterControllerIsTracking
+    public class SoundPlayOneshot : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x6558250
-        public void Update(){} // RVA: 0x65582E0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE345EC0
+        public void Play(){} // RVA: 0x7AE345F60
+        public void Pause(){} // RVA: 0x7AE346160
+        public void UnPause(){} // RVA: 0x7AE346280
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class SpawnAndAttachToHand
+    public class SpawnAndAttachAfterControllerIsTracking : MonoBehaviour
     {
         // ── Methods ──
-        public void SpawnAndAttach(){} // RVA: 0x65585C0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7AE3463A0
+        public void Update(){} // RVA: 0x7AE346430
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Teleport
+    public class SpawnAndAttachToHand : MonoBehaviour
     {
-        public Valve.VR.SteamVR_Action_Boolean teleportAction; // 0x20
-
         // ── Methods ──
-        public void ChangeSceneAction(){} // RVA: 0x6576350
-        public void PlayerAction(){} // RVA: 0x6576400
-        public void PlayerPreAction(){} // RVA: 0x65764C0
-        public void get_instance(){} // RVA: 0x6576580
-        public void Awake(){} // RVA: 0x6576750
-        public void Start(){} // RVA: 0x6576D70
-        public void OnEnable(){} // RVA: 0x6577190
-        public void OnDisable(){} // RVA: 0x65771D0
-        public void CheckForSpawnPoint(){} // RVA: 0x6577210
-        public void HideTeleportPointer(){} // RVA: 0x65773B0
-        public void Update(){} // RVA: 0x6577490
-        public void UpdatePointer(){} // RVA: 0x6577EA0
-        public void FixedUpdate(){} // RVA: 0x6579B00
-        public void OnChaperoneInfoInitialized(){} // RVA: 0x657A410
-        public void HidePointer(){} // RVA: 0x657BBD0
-        public void ShowPointer(){} // RVA: 0x657C570
-        public void UpdateTeleportColors(){} // RVA: 0x657D720
-        public void PlayAudioClip(){} // RVA: 0x657D840
-        public void PlayPointerHaptic(){} // RVA: 0x657D8F0
-        public void TryTeleportPlayer(){} // RVA: 0x657DAB0
-        public void InitiateTeleportFade(){} // RVA: 0x657DBE0
-        public void TeleportPlayer(){} // RVA: 0x657E030
-        public void HighlightSelected(){} // RVA: 0x657EDD0
-        public void ShowTeleportHint(){} // RVA: 0x657F380
-        public void CancelTeleportHint(){} // RVA: 0x657F4A0
-        public void TeleportHintCoroutine(){} // RVA: 0x657F600
-        public void IsEligibleForTeleport(){} // RVA: 0x657F6A0
-        public void ShouldOverrideHoverLock(){} // RVA: 0x657FAD0
-        public void WasTeleportButtonReleased(){} // RVA: 0x657FBD0
-        public void IsTeleportButtonDown(){} // RVA: 0x657FD40
-        public void WasTeleportButtonPressed(){} // RVA: 0x657FEB0
-        public void GetPointerStartTransform(){} // RVA: 0x6580020
-        public void .ctor(){} // RVA: 0x6580180
-        public void .cctor(){} // RVA: 0x65803C0
+        public void SpawnAndAttach(){} // RVA: 0x7AE346710
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class TeleportArc
+    public class Teleport : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x6580970
-        public void Update(){} // RVA: 0x65809D0
-        public void CreateLineRendererObjects(){} // RVA: 0x6580AE0
-        public void SetArcData(){} // RVA: 0x65813E0
-        public void Show(){} // RVA: 0x6581480
-        public void Hide(){} // RVA: 0x65814A0
-        public void DrawArc(){} // RVA: 0x65814E0
-        public void DrawArcSegment(){} // RVA: 0x65818C0
-        public void SetColor(){} // RVA: 0x6581AB0
-        public void FindProjectileCollision(){} // RVA: 0x6581C00
-        public void GetArcPositionAtTime(){} // RVA: 0x6581F50
-        public void HideLineSegments(){} // RVA: 0x6582120
-        public void .ctor(){} // RVA: 0x65821E0
+        public void ChangeSceneAction(){} // RVA: 0x7AE3646A0
+        public void PlayerAction(){} // RVA: 0x7AE364750
+        public void PlayerPreAction(){} // RVA: 0x7AE364810
+        public void get_instance(){} // RVA: 0x7AE3648D0
+        public void Awake(){} // RVA: 0x7AE364AA0
+        public void Start(){} // RVA: 0x7AE3650D0
+        public void OnEnable(){} // RVA: 0x7AE365500
+        public void OnDisable(){} // RVA: 0x7AE365540
+        public void CheckForSpawnPoint(){} // RVA: 0x7AE365580
+        public void HideTeleportPointer(){} // RVA: 0x7AE365720
+        public void Update(){} // RVA: 0x7AE365800
+        public void UpdatePointer(){} // RVA: 0x7AE366250
+        public void FixedUpdate(){} // RVA: 0x7AE367EB0
+        public void OnChaperoneInfoInitialized(){} // RVA: 0x7AE3687A0
+        public void HidePointer(){} // RVA: 0x7AE369F60
+        public void ShowPointer(){} // RVA: 0x7AE36A910
+        public void UpdateTeleportColors(){} // RVA: 0x7AE36BAC0
+        public void PlayAudioClip(){} // RVA: 0x7AE36BBF0
+        public void PlayPointerHaptic(){} // RVA: 0x7AE36BCA0
+        public void TryTeleportPlayer(){} // RVA: 0x7AE36BE60
+        public void InitiateTeleportFade(){} // RVA: 0x7AE36BF90
+        public void TeleportPlayer(){} // RVA: 0x7AE36C3F0
+        public void HighlightSelected(){} // RVA: 0x7AE36D1A0
+        public void ShowTeleportHint(){} // RVA: 0x7AE36D750
+        public void CancelTeleportHint(){} // RVA: 0x7AE36D870
+        public void TeleportHintCoroutine(){} // RVA: 0x7AE36D9D0
+        public void IsEligibleForTeleport(){} // RVA: 0x7AE36DA70
+        public void ShouldOverrideHoverLock(){} // RVA: 0x7AE36DEA0
+        public void WasTeleportButtonReleased(){} // RVA: 0x7AE36DFA0
+        public void IsTeleportButtonDown(){} // RVA: 0x7AE36E110
+        public void WasTeleportButtonPressed(){} // RVA: 0x7AE36E280
+        public void GetPointerStartTransform(){} // RVA: 0x7AE36E3F0
+        public void .ctor(){} // RVA: 0x7AE36E550
+        public void .cctor(){} // RVA: 0x7AE36E790
     }
 
-    public class TeleportArea
+    public class TeleportArc : MonoBehaviour
     {
-        public UnityEngine.Bounds <meshBounds>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void get_meshBounds(){} // RVA: 0x204E840
-        public void set_meshBounds(){} // RVA: 0x204E820
-        public void Awake(){} // RVA: 0x6582260
-        public void Start(){} // RVA: 0x6582360
-        public void ShouldActivate(){} // RVA: 0x3C2850
-        public void ShouldMovePlayer(){} // RVA: 0x3C2850
-        public void Highlight(){} // RVA: 0x6582530
-        public void SetAlpha(){} // RVA: 0x6582600
-        public void UpdateVisuals(){} // RVA: 0x6582730
-        public void UpdateVisualsInEditor(){} // RVA: 0x6582850
-        public void CalculateBounds(){} // RVA: 0x6582A40
-        public void GetTintColor(){} // RVA: 0x6582C80
-        public void .ctor(){} // RVA: 0x6582CB0
+        public void Start(){} // RVA: 0x7AE36ED50
+        public void Update(){} // RVA: 0x7AE36EDB0
+        public void CreateLineRendererObjects(){} // RVA: 0x7AE36EEC0
+        public void SetArcData(){} // RVA: 0x7AE36F7D0
+        public void Show(){} // RVA: 0x7AE36F870
+        public void Hide(){} // RVA: 0x7AE36F890
+        public void DrawArc(){} // RVA: 0x7AE36F8D0
+        public void DrawArcSegment(){} // RVA: 0x7AE36FCB0
+        public void SetColor(){} // RVA: 0x7AE36FEA0
+        public void FindProjectileCollision(){} // RVA: 0x7AE36FFF0
+        public void GetArcPositionAtTime(){} // RVA: 0x7AE370340
+        public void HideLineSegments(){} // RVA: 0x7AE370510
+        public void .ctor(){} // RVA: 0x7AE3705F0
     }
 
-    public class TeleportMarkerBase
+    public class TeleportArea : TeleportMarkerBase
     {
-        public bool locked; // 0x20
+        // ── Methods ──
+        public void get_meshBounds(){} // RVA: 0x7A9E5FAC0
+        public void set_meshBounds(){} // RVA: 0x7A9E5FAA0
+        public void Awake(){} // RVA: 0x7AE370670
+        public void Start(){} // RVA: 0x7AE370770
+        public void ShouldActivate(){} // RVA: 0x7A81BD750
+        public void ShouldMovePlayer(){} // RVA: 0x7A81BD750
+        public void Highlight(){} // RVA: 0x7AE370940
+        public void SetAlpha(){} // RVA: 0x7AE370A10
+        public void UpdateVisuals(){} // RVA: 0x7AE370B10
+        public void UpdateVisualsInEditor(){} // RVA: 0x7AE370C30
+        public void CalculateBounds(){} // RVA: 0x7AE370E20
+        public void GetTintColor(){} // RVA: 0x7AE371060
+        public void .ctor(){} // RVA: 0x7AE371090
+    }
 
+    public class TeleportMarkerBase : MonoBehaviour
+    {
         // ── Methods ──
-        public void get_showReticle(){} // RVA: 0x3C2850
-        public void SetLocked(){} // RVA: 0x6582D10
-        public void TeleportPlayer(){} // RVA: 0x2DD310
-        public void UpdateVisuals(){} // RVA: 0x24A50
-        public void Highlight(){} // RVA: 0x25130
-        public void SetAlpha(){}
-        public void ShouldActivate(){} // RVA: 0xDE40
-        public void ShouldMovePlayer(){} // RVA: 0xDBE0
-        public void .ctor(){} // RVA: 0x6582D30
+        public void get_showReticle(){} // RVA: 0x7A81BD750
+        public void SetLocked(){} // RVA: 0x7AE3710F0
+        public void TeleportPlayer(){} // RVA: 0x7A80D7310
+        public void UpdateVisuals(){} // RVA: 0x7A7E18770
+        public void Highlight(){} // RVA: 0x7A7E18C30
+        public void SetAlpha(){} // RVA: 0x7A7E26740
+        public void ShouldActivate(){} // RVA: 0x7A7E019D0
+        public void ShouldMovePlayer(){} // RVA: 0x7A7E01900
+        public void .ctor(){} // RVA: 0x7AE371110
     }
 
-    public class TeleportPoint
+    public class TeleportMarkerBase[] : Array
     {
-        public 0x65929C20 teleportType; // 0x28
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
 
+    public class TeleportPoint : TeleportMarkerBase
+    {
         // ── Methods ──
-        public void get_showReticle(){} // RVA: 0x2DD320
-        public void Awake(){} // RVA: 0x6582D80
-        public void Start(){} // RVA: 0x65830A0
-        public void Update(){} // RVA: 0x6583110
-        public void ShouldActivate(){} // RVA: 0x6583360
-        public void ShouldMovePlayer(){} // RVA: 0x3C2850
-        public void Highlight(){} // RVA: 0x65834F0
-        public void UpdateVisuals(){} // RVA: 0x65837D0
-        public void SetAlpha(){} // RVA: 0x6583A10
-        public void SetMeshMaterials(){} // RVA: 0x6583E50
-        public void TeleportToScene(){} // RVA: 0x6584020
-        public void GetRelevantComponents(){} // RVA: 0x6584110
-        public void ReleaseRelevantComponents(){} // RVA: 0x6584A50
-        public void UpdateVisualsInEditor(){} // RVA: 0x6584C60
-        public void .ctor(){} // RVA: 0x6585130
+        public void get_showReticle(){} // RVA: 0x7A80D7320
+        public void Awake(){} // RVA: 0x7AE371160
+        public void Start(){} // RVA: 0x7AE371480
+        public void Update(){} // RVA: 0x7AE3714F0
+        public void ShouldActivate(){} // RVA: 0x7AE371740
+        public void ShouldMovePlayer(){} // RVA: 0x7A81BD750
+        public void Highlight(){} // RVA: 0x7AE3718D0
+        public void UpdateVisuals(){} // RVA: 0x7AE371BC0
+        public void SetAlpha(){} // RVA: 0x7AE371E00
+        public void SetMeshMaterials(){} // RVA: 0x7AE372240
+        public void TeleportToScene(){} // RVA: 0x7AE372410
+        public void GetRelevantComponents(){} // RVA: 0x7AE372500
+        public void ReleaseRelevantComponents(){} // RVA: 0x7AE372E40
+        public void UpdateVisualsInEditor(){} // RVA: 0x7AE373050
+        public void .ctor(){} // RVA: 0x7AE373520
     }
 
-    public class TeleportURPHelper
+    public class TeleportURPHelper : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Throwable
+    public class Throwable : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x6558780
-        public void OnHandHoverBegin(){} // RVA: 0x6558A10
-        public void OnHandHoverEnd(){} // RVA: 0x6558BE0
-        public void HandHoverUpdate(){} // RVA: 0x6558C10
-        public void OnAttachedToHand(){} // RVA: 0x6558CD0
-        public void OnDetachedFromHand(){} // RVA: 0x65590A0
-        public void GetReleaseVelocities(){} // RVA: 0x6559280
-        public void HandAttachedUpdate(){} // RVA: 0x6559A90
-        public void LateDetach(){} // RVA: 0x6559BA0
-        public void OnHandFocusAcquired(){} // RVA: 0x6559CA0
-        public void OnHandFocusLost(){} // RVA: 0x6559E20
-        public void .ctor(){} // RVA: 0x654E390
+        public void Awake(){} // RVA: 0x7AE3468D0
+        public void OnHandHoverBegin(){} // RVA: 0x7AE346B60
+        public void OnHandHoverEnd(){} // RVA: 0x7AE346D30
+        public void HandHoverUpdate(){} // RVA: 0x7AE346D60
+        public void OnAttachedToHand(){} // RVA: 0x7AE346E20
+        public void OnDetachedFromHand(){} // RVA: 0x7AE3471F0
+        public void GetReleaseVelocities(){} // RVA: 0x7AE3473D0
+        public void HandAttachedUpdate(){} // RVA: 0x7AE347BF0
+        public void LateDetach(){} // RVA: 0x7AE347D00
+        public void OnHandFocusAcquired(){} // RVA: 0x7AE347E00
+        public void OnHandFocusLost(){} // RVA: 0x7AE347F80
+        public void .ctor(){} // RVA: 0x7AE33C3D0
     }
 
-    public class UIElement
+    public class UIElement : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x655A110
-        public void OnHandHoverBegin(){} // RVA: 0x655A260
-        public void OnHandHoverEnd(){} // RVA: 0x655A500
-        public void HandHoverUpdate(){} // RVA: 0x655A7C0
-        public void OnButtonClick(){} // RVA: 0x655A9E0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7AE348270
+        public void OnHandHoverBegin(){} // RVA: 0x7AE3483C0
+        public void OnHandHoverEnd(){} // RVA: 0x7AE348680
+        public void HandHoverUpdate(){} // RVA: 0x7AE348960
+        public void OnButtonClick(){} // RVA: 0x7AE348B80
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Unparent
+    public class Unparent : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x655AA30
-        public void Update(){} // RVA: 0x655ACE0
-        public void GetOldParent(){} // RVA: 0x30B0C0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7AE348BD0
+        public void Update(){} // RVA: 0x7AE348E80
+        public void GetOldParent(){} // RVA: 0x7A81052C0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Util
+    public class Util : Object
     {
         // ── Methods ──
-        public void RemapNumber(){} // RVA: 0x655AE10
-        public void RemapNumberClamped(){} // RVA: 0x655AE30
-        public void Approach(){} // RVA: 0x655AEA0
-        public void BezierInterpolate3(){} // RVA: 0x655AED0
-        public void BezierInterpolate4(){} // RVA: 0x655B060
-        public void Vector3FromString(){} // RVA: 0x655B310
-        public void Vector2FromString(){} // RVA: 0x655B430
-        public void Normalize(){} // RVA: 0x655B520
-        public void Vector2AsVector3(){} // RVA: 0x3453F0
-        public void Vector3AsVector2(){} // RVA: 0x3453D0
-        public void AngleOf(){} // RVA: 0x655B530
-        public void YawOf(){} // RVA: 0x655B590
-        public void Swap(){} // RVA: 0x24D50
-        public void Shuffle(){} // RVA: 0x24AE0 | overloaded x2
-        public void RandomWithLookback(){} // RVA: 0x655B5E0
-        public void FindChild(){} // RVA: 0x655B7C0
-        public void IsNullOrEmpty(){} // RVA: 0xDCC0
-        public void IsValidIndex(){} // RVA: 0xFCD0 | overloaded x2
-        public void FindOrAdd(){} // RVA: 0x283FA0
-        public void FindAndRemove(){} // RVA: 0xCEC0
-        public void FindOrAddComponent(){} // RVA: 0x283FA0
-        public void FastRemove(){} // RVA: 0x2A490
-        public void ReplaceGameObject(){} // RVA: 0x283FA0
-        public void SwitchLayerRecursively(){} // RVA: 0x655BA70
-        public void DrawCross(){} // RVA: 0x655BCA0
-        public void ResetTransform(){} // RVA: 0x655C2F0
-        public void ClosestPointOnLine(){} // RVA: 0x655C490
-        public void AfterTimer(){} // RVA: 0x655C750
-        public void SendPhysicsMessage(){} // RVA: 0x655CB20 | overloaded x2
-        public void IgnoreCollisions(){} // RVA: 0x655CE10
-        public void WrapCoroutine(){} // RVA: 0x655CFB0
-        public void ColorWithAlpha(){} // RVA: 0xA38E70
-        public void Quit(){} // RVA: 0x655D0B0
-        public void FloatToDecimal(){} // RVA: 0x655D0E0
-        public void Median(){} // RVA: 0x283FA0
-        public void ForEach(){} // RVA: 0x24D50
-        public void FixupNewlines(){} // RVA: 0x655D200
-        public void PathLength(){} // RVA: 0x655D2C0
-        public void HasCommandLineArgument(){} // RVA: 0x655D4A0
-        public void GetCommandLineArgValue(){} // RVA: 0x655D620 | overloaded x2
-        public void SetActive(){} // RVA: 0x655D700
-        public void CombinePaths(){} // RVA: 0x655D810
+        public void RemapNumber(){} // RVA: 0x7AE348FB0
+        public void RemapNumberClamped(){} // RVA: 0x7AE348FD0
+        public void Approach(){} // RVA: 0x7AE349040
+        public void BezierInterpolate3(){} // RVA: 0x7AE349070
+        public void BezierInterpolate4(){} // RVA: 0x7AE349200
+        public void Vector3FromString(){} // RVA: 0x7AE3494B0
+        public void Vector2FromString(){} // RVA: 0x7AE3495D0
+        public void Normalize(){} // RVA: 0x7AE3496C0
+        public void Vector2AsVector3(){} // RVA: 0x7A813F990
+        public void Vector3AsVector2(){} // RVA: 0x7A813F970
+        public void AngleOf(){} // RVA: 0x7AE3496D0
+        public void YawOf(){} // RVA: 0x7AE349730
+        public void Swap(){} // RVA: 0x7A7E18AA0
+        public void Shuffle(){} // RVA: 0x7A7E18830
+        public void RandomWithLookback(){} // RVA: 0x7AE349780
+        public void FindChild(){} // RVA: 0x7AE349970
+        public void IsNullOrEmpty(){} // RVA: 0x7A7E01A10
+        public void IsValidIndex(){} // RVA: 0x7A7E03A20
+        public void FindOrAdd(){} // RVA: 0x7A8051B10
+        public void FindAndRemove(){} // RVA: 0x7A7E00C10
+        public void FindOrAddComponent(){} // RVA: 0x7A8051B10
+        public void FastRemove(){} // RVA: 0x7A7E1E1E0
+        public void ReplaceGameObject(){} // RVA: 0x7A8051B10
+        public void SwitchLayerRecursively(){} // RVA: 0x7AE349C30
+        public void DrawCross(){} // RVA: 0x7AE349E60
+        public void ResetTransform(){} // RVA: 0x7AE34A4B0
+        public void ClosestPointOnLine(){} // RVA: 0x7AE34A650
+        public void AfterTimer(){} // RVA: 0x7AE34A910
+        public void SendPhysicsMessage(){} // RVA: 0x7AE34ACE0
+        public void IgnoreCollisions(){} // RVA: 0x7AE34AFD0
+        public void WrapCoroutine(){} // RVA: 0x7AE34B190
+        public void ColorWithAlpha(){} // RVA: 0x7A87F6AA0
+        public void Quit(){} // RVA: 0x7AE34B290
+        public void FloatToDecimal(){} // RVA: 0x7AE34B2C0
+        public void Median(){} // RVA: 0x7A8051B10
+        public void ForEach(){} // RVA: 0x7A7E18AA0
+        public void FixupNewlines(){} // RVA: 0x7AE34B3E0
+        public void PathLength(){} // RVA: 0x7AE34B4A0
+        public void HasCommandLineArgument(){} // RVA: 0x7AE34B680
+        public void GetCommandLineArgValue(){} // RVA: 0x7AE34B810
+        public void SetActive(){} // RVA: 0x7AE34B900
+        public void CombinePaths(){} // RVA: 0x7AE34BA10
     }
 
-    public class VelocityEstimator
+    public class VelocityEstimator : MonoBehaviour
     {
         // ── Methods ──
-        public void BeginEstimatingVelocity(){} // RVA: 0x655DD30
-        public void FinishEstimatingVelocity(){} // RVA: 0x655DE50
-        public void GetVelocityEstimate(){} // RVA: 0x655DED0
-        public void GetAngularVelocityEstimate(){} // RVA: 0x655E000
-        public void GetAccelerationEstimate(){} // RVA: 0x655E130
-        public void Awake(){} // RVA: 0x655E310
-        public void EstimateVelocityCoroutine(){} // RVA: 0x655E430
-        public void .ctor(){} // RVA: 0x655E4D0
+        public void BeginEstimatingVelocity(){} // RVA: 0x7AE34BF50
+        public void FinishEstimatingVelocity(){} // RVA: 0x7AE34C070
+        public void GetVelocityEstimate(){} // RVA: 0x7AE34C0F0
+        public void GetAngularVelocityEstimate(){} // RVA: 0x7AE34C220
+        public void GetAccelerationEstimate(){} // RVA: 0x7AE34C350
+        public void Awake(){} // RVA: 0x7AE34C520
+        public void EstimateVelocityCoroutine(){} // RVA: 0x7AE34C640
+        public void .ctor(){} // RVA: 0x7AE34C6E0
     }
 
 }

@@ -1,22 +1,20 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
 // Classes: 1
-// Methods: 9
+// Methods: 7
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class WheelEvent
+    public class WheelEvent : MouseEventBase`1
     {
-        public UnityEngine.Vector3 <delta>k__BackingField; // 0xC0
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F0340
-        public void get_delta(){} // RVA: 0x1D00320
-        public void set_delta(){} // RVA: 0x1D00340
-        public void GetPooled(){} // RVA: 0x73F05B0 | overloaded x3
-        public void Init(){} // RVA: 0x73F0620
-        public void LocalInit(){} // RVA: 0x73F0730
-        public void .ctor(){} // RVA: 0x73F0790
+        public void .cctor(){} // RVA: 0x7AF1CF580
+        public void get_delta(){} // RVA: 0x7A9B02840
+        public void set_delta(){} // RVA: 0x7A9B02860
+        public void GetPooled(){} // RVA: 0x7AF1CF7F0
+        public void Init(){} // RVA: 0x7AF1CF860
+        public void LocalInit(){} // RVA: 0x7AF1CF970
+        public void .ctor(){} // RVA: 0x7AF1CF9D0
     }
 
 }

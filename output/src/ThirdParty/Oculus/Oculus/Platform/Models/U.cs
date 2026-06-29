@@ -5,58 +5,58 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class User
+    public class User : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F3600
+        public void .ctor(){} // RVA: 0x7ADEDF8D0
     }
 
-    public class UserAndRoom
+    public class UserAndRoom : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F4460
+        public void .ctor(){} // RVA: 0x7ADEE0730
     }
 
-    public class UserAndRoomList
+    public class UserAndRoomList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F4770
+        public void .ctor(){} // RVA: 0x7ADEE0A40
     }
 
-    public class UserCapability
+    public class UserCapability : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F4B60
+        public void .ctor(){} // RVA: 0x7ADEE0E20
     }
 
-    public class UserCapabilityList
+    public class UserCapabilityList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F4F00
+        public void .ctor(){} // RVA: 0x7ADEE11D0
     }
 
-    public class UserDataStoreUpdateResponse
+    public class UserDataStoreUpdateResponse : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F52F0
+        public void .ctor(){} // RVA: 0x7ADEE15B0
     }
 
-    public class UserList
+    public class UserList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F4070
+        public void .ctor(){} // RVA: 0x7ADEE0350
     }
 
-    public class UserProof
+    public class UserProof : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F53C0
+        public void .ctor(){} // RVA: 0x7ADEE1680
     }
 
-    public class UserReportID
+    public class UserReportID : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F5510
+        public void .ctor(){} // RVA: 0x7ADEE17D0
     }
 
 }

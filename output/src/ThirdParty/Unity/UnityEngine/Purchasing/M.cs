@@ -5,50 +5,50 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class MetricizedAppleStoreImpl
+    public class MetricizedAppleStoreImpl : AppleStoreImpl
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x723C8C0
-        public void RetrieveProducts(){} // RVA: 0x723C930
-        public void Purchase(){} // RVA: 0x723CB60
-        public void <>n__6(){} // RVA: 0x723CE00
-        public void <>n__7(){} // RVA: 0x723CE10
+        public void .ctor(){} // RVA: 0x7AF01BD90
+        public void RetrieveProducts(){} // RVA: 0x7AF01BFE0
+        public void Purchase(){} // RVA: 0x7AF01C210
+        public void <>n__6(){} // RVA: 0x7AF01C4B0
+        public void <>n__7(){} // RVA: 0x7AF01C4C0
     }
 
-    public class MetricizedGooglePlayStoreExtensions
+    public class MetricizedGooglePlayStoreExtensions : GooglePlayStoreExtensions
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x722D180
+        public void .ctor(){} // RVA: 0x7AF00C530
     }
 
-    public class MetricizedGooglePlayStoreService
+    public class MetricizedGooglePlayStoreService : GooglePlayStoreService
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7227C80
-        public void DequeueQueryProducts(){} // RVA: 0x7227DD0
-        public void DequeueFetchPurchases(){} // RVA: 0x7227FB0
-        public void RetrieveProducts(){} // RVA: 0x7228110
-        public void Purchase(){} // RVA: 0x7228400
-        public void <>n__0(){} // RVA: 0x72286A0
-        public void <>n__1(){} // RVA: 0x7221390
-        public void <>n__2(){} // RVA: 0x72286B0
+        public void .ctor(){} // RVA: 0x7AF007010
+        public void DequeueQueryProducts(){} // RVA: 0x7AF007160
+        public void DequeueFetchPurchases(){} // RVA: 0x7AF007340
+        public void RetrieveProducts(){} // RVA: 0x7AF0074A0
+        public void Purchase(){} // RVA: 0x7AF007790
+        public void <>n__0(){} // RVA: 0x7AF007A30
+        public void <>n__1(){} // RVA: 0x7AF000820
+        public void <>n__2(){} // RVA: 0x7AF007A40
     }
 
-    public class MetricizedJsonStore
+    public class MetricizedJsonStore : JSONStore
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x723D9D0
-        public void RetrieveProducts(){} // RVA: 0x723DA40
-        public void Purchase(){} // RVA: 0x723DC70
-        public void <>n__0(){} // RVA: 0x723CE00
-        public void <>n__1(){} // RVA: 0x723CE10
+        public void .ctor(){} // RVA: 0x7AF01D070
+        public void RetrieveProducts(){} // RVA: 0x7AF01D0E0
+        public void Purchase(){} // RVA: 0x7AF01D310
+        public void <>n__0(){} // RVA: 0x7AF01C4B0
+        public void <>n__1(){} // RVA: 0x7AF01C4C0
     }
 
-    public class MiniJson
+    public class MiniJson : Object
     {
         // ── Methods ──
-        public void JsonEncode(){} // RVA: 0x6251320
-        public void JsonDecode(){} // RVA: 0x6251330
+        public void JsonEncode(){} // RVA: 0x7AE03D260
+        public void JsonDecode(){} // RVA: 0x7AE03D270
     }
 
 }

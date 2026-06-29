@@ -5,57 +5,47 @@
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.FaceLandmarker
 {
-    public class FaceLandmarker
+    public class FaceLandmarker : BaseVisionTaskApi
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B68EA0
-        public void CreateFromOptions(){} // RVA: 0x5B69030
-        public void DetectAsync(){} // RVA: 0x5B69A40
-        public void BuildPacketsCallback(){} // RVA: 0x5B69BC0
-        public void GetFaceGeometryList(){} // RVA: 0x5B69DD0
-        public void TryBuildFaceLandmarkerResult(){} // RVA: 0x5B6A140
+        public void .ctor(){} // RVA: 0x7AD956B40
+        public void CreateFromOptions(){} // RVA: 0x7AD956CD0
+        public void DetectAsync(){} // RVA: 0x7AD9576E0
+        public void BuildPacketsCallback(){} // RVA: 0x7AD957860
+        public void GetFaceGeometryList(){} // RVA: 0x7AD957A70
+        public void TryBuildFaceLandmarkerResult(){} // RVA: 0x7AD957DE0
     }
 
-    public class FaceLandmarkerOptions
+    public class FaceLandmarkerOptions : Object
     {
-        public Mediapipe.Tasks.Core.BaseOptions <baseOptions>k__BackingField; // 0x10
-        public 0x65932078 <runningMode>k__BackingField; // 0x18
-        public int <numFaces>k__BackingField; // 0x1C
-        public float <minFaceDetectionConfidence>k__BackingField; // 0x20
-        public float <minFacePresenceConfidence>k__BackingField; // 0x24
-        public float <minTrackingConfidence>k__BackingField; // 0x28
-        public bool <outputFaceBlendshapes>k__BackingField; // 0x2C
-        public bool <outputFaceTransformationMatrixes>k__BackingField; // 0x2D
-        public ResultCallback <resultCallback>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void get_baseOptions(){} // RVA: 0x2F8380
-        public void get_runningMode(){} // RVA: 0x5BED50
-        public void get_numFaces(){} // RVA: 0x197C3B0
-        public void get_minFaceDetectionConfidence(){} // RVA: 0x306080
-        public void get_minFacePresenceConfidence(){} // RVA: 0x44AF50
-        public void get_minTrackingConfidence(){} // RVA: 0x3BC210
-        public void get_outputFaceBlendshapes(){} // RVA: 0x3BC230
-        public void get_outputFaceTransformationMatrixes(){} // RVA: 0x4FDE20
-        public void get_resultCallback(){} // RVA: 0x6374D0
-        public void .ctor(){} // RVA: 0x5B6AAB0
-        public void ToProto(){} // RVA: 0x5B6ABC0
-        public void Mediapipe.Tasks.Core.ITaskOptions.ToCalculatorOptions(){} // RVA: 0x5B6ADE0
+        public void get_baseOptions(){} // RVA: 0x7A80F2570
+        public void get_runningMode(){} // RVA: 0x7A83782A0
+        public void get_numFaces(){} // RVA: 0x7A9739200
+        public void get_minFaceDetectionConfidence(){} // RVA: 0x7A81002C0
+        public void get_minFacePresenceConfidence(){} // RVA: 0x7A82461C0
+        public void get_minTrackingConfidence(){} // RVA: 0x7A81B7060
+        public void get_outputFaceBlendshapes(){} // RVA: 0x7A81B7080
+        public void get_outputFaceTransformationMatrixes(){} // RVA: 0x7A8ABD450
+        public void get_resultCallback(){} // RVA: 0x7A83F69F0
+        public void .ctor(){} // RVA: 0x7AD958760
+        public void ToProto(){} // RVA: 0x7AD958870
+        public void Mediapipe.Tasks.Core.ITaskOptions.ToCalculatorOptions(){} // RVA: 0x7AD958A90
     }
 
-    public class FaceLandmarkerResult
+    public class FaceLandmarkerResult : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19D8110
-        public void Alloc(){} // RVA: 0x5B6AED0
-        public void CloneTo(){} // RVA: 0x5B6B020
-        public void ToString(){} // RVA: 0x5B6B3A0
+        public void .ctor(){} // RVA: 0x7A7660880
+        public void Alloc(){} // RVA: 0x7AD958B80
+        public void CloneTo(){} // RVA: 0x7A7E2B240
+        public void ToString(){} // RVA: 0x7A7E2B250
     }
 
-    public class MatrixDataExtension
+    public class MatrixDataExtension : Object
     {
         // ── Methods ──
-        public void ToMatrix4x4(){} // RVA: 0x5B6B530
+        public void ToMatrix4x4(){} // RVA: 0x7AD9591E0
     }
 
 }

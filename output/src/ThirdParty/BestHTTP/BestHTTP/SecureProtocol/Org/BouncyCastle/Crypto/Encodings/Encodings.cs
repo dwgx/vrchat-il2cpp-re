@@ -1,68 +1,61 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Encodings
 // Classes: 3
-// Methods: 43
+// Methods: 38
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Encodings
 {
-    public class ISO9796d1Encoding
+    public class ISO9796d1Encoding : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Sixteen;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_AlgorithmName(){} // RVA: 0x9640970
-        public void GetUnderlyingCipher(){} // RVA: 0x2F8380
-        public void Init(){} // RVA: 0x96409E0
-        public void GetInputBlockSize(){} // RVA: 0x9640BE0
-        public void GetOutputBlockSize(){} // RVA: 0x9640C40
-        public void SetPadBits(){} // RVA: 0x9640CA0
-        public void GetPadBits(){} // RVA: 0x760030
-        public void ProcessBlock(){} // RVA: 0x9640D10
-        public void EncodeBlock(){} // RVA: 0x9640D40
-        public void DecodeBlock(){} // RVA: 0x9641040
-        public void .cctor(){} // RVA: 0x9641640
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_AlgorithmName(){} // RVA: 0x7B14794B0
+        public void GetUnderlyingCipher(){} // RVA: 0x7A80F2570
+        public void Init(){} // RVA: 0x7B1479520
+        public void GetInputBlockSize(){} // RVA: 0x7B1479720
+        public void GetOutputBlockSize(){} // RVA: 0x7B1479780
+        public void SetPadBits(){} // RVA: 0x7B14797E0
+        public void GetPadBits(){} // RVA: 0x7A851DB90
+        public void ProcessBlock(){} // RVA: 0x7B1479850
+        public void EncodeBlock(){} // RVA: 0x7B1479880
+        public void DecodeBlock(){} // RVA: 0x7B1479B90
+        public void .cctor(){} // RVA: 0x7B147A1D0
     }
 
-    public class OaepEncoding
+    public class OaepEncoding : Object
     {
-        public byte[] defHash; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x96419B0 | overloaded x4
-        public void GetUnderlyingCipher(){} // RVA: 0x30B0C0
-        public void get_AlgorithmName(){} // RVA: 0x9641BA0
-        public void Init(){} // RVA: 0x9641C10
-        public void GetInputBlockSize(){} // RVA: 0x9641DF0
-        public void GetOutputBlockSize(){} // RVA: 0x9641E60
-        public void ProcessBlock(){} // RVA: 0x9641ED0
-        public void EncodeBlock(){} // RVA: 0x9641F00
-        public void DecodeBlock(){} // RVA: 0x9642340
-        public void ItoOSP(){} // RVA: 0x95717E0
-        public void maskGeneratorFunction1(){} // RVA: 0x9642710
+        public void .ctor(){} // RVA: 0x7B147A540
+        public void GetUnderlyingCipher(){} // RVA: 0x7A81052C0
+        public void get_AlgorithmName(){} // RVA: 0x7B147A730
+        public void Init(){} // RVA: 0x7B147A7A0
+        public void GetInputBlockSize(){} // RVA: 0x7B147A980
+        public void GetOutputBlockSize(){} // RVA: 0x7B147A9F0
+        public void ProcessBlock(){} // RVA: 0x7B147AA60
+        public void EncodeBlock(){} // RVA: 0x7B147AA90
+        public void DecodeBlock(){} // RVA: 0x7B147AEC0
+        public void ItoOSP(){} // RVA: 0x7B13A8260
+        public void maskGeneratorFunction1(){} // RVA: 0x7B147B2B0
     }
 
-    public class Pkcs1Encoding
+    public class Pkcs1Encoding : Object
     {
-        public string StrictLengthEnabledProperty;
-        public int HeaderLength;
-
         // ── Methods ──
-        public void get_StrictLengthEnabled(){} // RVA: 0x9642BC0
-        public void set_StrictLengthEnabled(){} // RVA: 0x9642C40
-        public void .cctor(){} // RVA: 0x9642CC0
-        public void .ctor(){} // RVA: 0x9642FB0 | overloaded x3
-        public void GetUnderlyingCipher(){} // RVA: 0x2E07C0
-        public void get_AlgorithmName(){} // RVA: 0x96430E0
-        public void Init(){} // RVA: 0x9643150
-        public void GetInputBlockSize(){} // RVA: 0x96434F0
-        public void GetOutputBlockSize(){} // RVA: 0x9643550
-        public void ProcessBlock(){} // RVA: 0x96435B0
-        public void EncodeBlock(){} // RVA: 0x96435E0
-        public void CheckPkcs1Encoding(){} // RVA: 0x9643880
-        public void DecodeBlockOrRandom(){} // RVA: 0x9643940
-        public void DecodeBlock(){} // RVA: 0x9643C60
-        public void FindStart(){} // RVA: 0x9643F90
+        public void get_StrictLengthEnabled(){} // RVA: 0x7B147B760
+        public void set_StrictLengthEnabled(){} // RVA: 0x7B147B7E0
+        public void .cctor(){} // RVA: 0x7B147B860
+        public void .ctor(){} // RVA: 0x7B147BB50
+        public void GetUnderlyingCipher(){} // RVA: 0x7A80DA7B0
+        public void get_AlgorithmName(){} // RVA: 0x7B147BC80
+        public void Init(){} // RVA: 0x7B147BCF0
+        public void GetInputBlockSize(){} // RVA: 0x7B147C0A0
+        public void GetOutputBlockSize(){} // RVA: 0x7B147C100
+        public void ProcessBlock(){} // RVA: 0x7B147C160
+        public void EncodeBlock(){} // RVA: 0x7B147C190
+        public void CheckPkcs1Encoding(){} // RVA: 0x7B147C440
+        public void DecodeBlockOrRandom(){} // RVA: 0x7B147C510
+        public void DecodeBlock(){} // RVA: 0x7B147C830
+        public void FindStart(){} // RVA: 0x7B147CB60
     }
 
 }

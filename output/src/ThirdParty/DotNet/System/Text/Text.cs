@@ -1,763 +1,691 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Text
-// Classes: 43
-// Methods: 679
+// Classes: 44
+// Methods: 463
 
 namespace ThirdParty.DotNet.System.Text
 {
-    public class ASCIIEncoding
+    public class ASCIIEncoding : Encoding
     {
-        public ASCIIEncodingSealed s_default;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C35570
-        public void SetDefaultFallbacks(){} // RVA: 0x5C35590
-        public void GetByteCount(){} // RVA: 0x5C36900 | overloaded x4
-        public void GetBytes(){} // RVA: 0x5C36CA0 | overloaded x4
-        public void GetCharCount(){} // RVA: 0x5C37240 | overloaded x3
-        public void GetChars(){} // RVA: 0x5C373E0 | overloaded x3
-        public void GetString(){} // RVA: 0x5C36720
-        public void GetMaxByteCount(){} // RVA: 0x5C37770
-        public void GetMaxCharCount(){} // RVA: 0x5C378B0
-        public void get_IsSingleByte(){} // RVA: 0x3C2850
-        public void GetDecoder(){} // RVA: 0x5C379F0
-        public void GetEncoder(){} // RVA: 0x5C37A50
-        public void .cctor(){} // RVA: 0x5C37AB0
+        public void .ctor(){} // RVA: 0x7ADA23590
+        public void SetDefaultFallbacks(){} // RVA: 0x7ADA235B0
+        public void GetByteCount(){} // RVA: 0x7ADA24920
+        public void GetBytes(){} // RVA: 0x7ADA24CC0
+        public void GetCharCount(){} // RVA: 0x7ADA25280
+        public void GetChars(){} // RVA: 0x7ADA25420
+        public void GetString(){} // RVA: 0x7ADA24740
+        public void GetMaxByteCount(){} // RVA: 0x7ADA257B0
+        public void GetMaxCharCount(){} // RVA: 0x7ADA258F0
+        public void get_IsSingleByte(){} // RVA: 0x7A81BD750
+        public void GetDecoder(){} // RVA: 0x7ADA25A30
+        public void GetEncoder(){} // RVA: 0x7ADA25A90
+        public void .cctor(){} // RVA: 0x7ADA25AF0
     }
 
-    public class Decoder
+    public class Decoder : Object
     {
-        public System.Text.DecoderFallback _fallback; // 0x10
-        public System.Text.DecoderFallbackBuffer _fallbackBuffer; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_Fallback(){} // RVA: 0x2F8380
-        public void get_FallbackBuffer(){} // RVA: 0x5C37C30
-        public void get_InternalHasFallbackBuffer(){} // RVA: 0x1D3B060
-        public void Reset(){} // RVA: 0x5C37D60
-        public void GetCharCount(){} // RVA: 0x5C37E70 | overloaded x3
-        public void GetChars(){} // RVA: 0x5C38280 | overloaded x4
-        public void Convert(){} // RVA: 0x5C387B0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Fallback(){} // RVA: 0x7A80F2570
+        public void get_FallbackBuffer(){} // RVA: 0x7ADA25C70
+        public void get_InternalHasFallbackBuffer(){} // RVA: 0x7A9B3D890
+        public void Reset(){} // RVA: 0x7ADA25DA0
+        public void GetCharCount(){} // RVA: 0x7ADA25EB0
+        public void GetChars(){} // RVA: 0x7ADA262E0
+        public void Convert(){} // RVA: 0x7ADA26810
     }
 
-    public class DecoderExceptionFallback
+    public class DecoderExceptionFallback : DecoderFallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void CreateFallbackBuffer(){} // RVA: 0x5C39210
-        public void get_MaxCharCount(){} // RVA: 0x519240
-        public void Equals(){} // RVA: 0x5C39250
-        public void GetHashCode(){} // RVA: 0x5C392B0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateFallbackBuffer(){} // RVA: 0x7ADA27250
+        public void get_MaxCharCount(){} // RVA: 0x7A82D1450
+        public void Equals(){} // RVA: 0x7ADA27290
+        public void GetHashCode(){} // RVA: 0x7ADA272F0
     }
 
-    public class DecoderExceptionFallbackBuffer
+    public class DecoderExceptionFallbackBuffer : DecoderFallbackBuffer
     {
         // ── Methods ──
-        public void Fallback(){} // RVA: 0x5C392C0
-        public void GetNextChar(){} // RVA: 0x519240
-        public void get_Remaining(){} // RVA: 0x519240
-        public void Throw(){} // RVA: 0x5C392D0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Fallback(){} // RVA: 0x7ADA27300
+        public void GetNextChar(){} // RVA: 0x7A82D1450
+        public void get_Remaining(){} // RVA: 0x7A82D1450
+        public void Throw(){} // RVA: 0x7ADA27310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DecoderFallback
+    public class DecoderFallback : Object
     {
-        public System.Text.DecoderFallback s_replacementFallback;
-        public System.Text.DecoderFallback s_exceptionFallback; // 0x8
-
         // ── Methods ──
-        public void get_ReplacementFallback(){} // RVA: 0x5C395F0
-        public void get_ExceptionFallback(){} // RVA: 0x5C396C0
-        public void CreateFallbackBuffer(){} // RVA: 0xCD60
-        public void get_MaxCharCount(){} // RVA: 0xD840
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_ReplacementFallback(){} // RVA: 0x7ADA27630
+        public void get_ExceptionFallback(){} // RVA: 0x7ADA27700
+        public void CreateFallbackBuffer(){} // RVA: 0x7A7E00680
+        public void get_MaxCharCount(){} // RVA: 0x7A7E00710
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DecoderFallbackBuffer
+    public class DecoderFallbackBuffer : Object
     {
-        public byte* byteStart; // 0x10
-
         // ── Methods ──
-        public void Fallback(){} // RVA: 0x10840
-        public void GetNextChar(){} // RVA: 0xCC90
-        public void get_Remaining(){} // RVA: 0xD840
-        public void Reset(){} // RVA: 0x5C39750
-        public void InternalReset(){} // RVA: 0x5C39790
-        public void InternalInitialize(){} // RVA: 0x5C397B0
-        public void InternalFallback(){} // RVA: 0x5C39A10 | overloaded x2
-        public void ThrowLastBytesRecursive(){} // RVA: 0x5C39C50
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Fallback(){} // RVA: 0x7A7E039E0
+        public void GetNextChar(){} // RVA: 0x7A7E006E0
+        public void get_Remaining(){} // RVA: 0x7A7E00710
+        public void Reset(){} // RVA: 0x7ADA27790
+        public void InternalReset(){} // RVA: 0x7ADA277D0
+        public void InternalInitialize(){} // RVA: 0x7ADA277F0
+        public void InternalFallback(){} // RVA: 0x7ADA27A50
+        public void ThrowLastBytesRecursive(){} // RVA: 0x7ADA27C90
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DecoderFallbackException
+    public class DecoderFallbackException : ArgumentException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C395D0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7ADA27610
     }
 
-    public class DecoderNLS
+    public class DecoderNLS : Decoder
     {
-        public System.Text.Encoding _encoding; // 0x20
-        public bool _mustFlush; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C39E60
-        public void Reset(){} // RVA: 0x5C39F40
-        public void GetCharCount(){} // RVA: 0x5C3A180 | overloaded x3
-        public void GetChars(){} // RVA: 0x5C3A5D0 | overloaded x3
-        public void Convert(){} // RVA: 0x5C3AAB0 | overloaded x2
-        public void get_MustFlush(){} // RVA: 0x6E8A80
-        public void get_HasState(){} // RVA: 0x2DD320
-        public void ClearMustFlush(){} // RVA: 0x1E32400
+        public void .ctor(){} // RVA: 0x7ADA27EA0
+        public void Reset(){} // RVA: 0x7ADA27F80
+        public void GetCharCount(){} // RVA: 0x7ADA281C0
+        public void GetChars(){} // RVA: 0x7ADA28610
+        public void Convert(){} // RVA: 0x7ADA28AF0
+        public void get_MustFlush(){} // RVA: 0x7A84A5BD0
+        public void get_HasState(){} // RVA: 0x7A80D7320
+        public void ClearMustFlush(){} // RVA: 0x7A9C36C50
     }
 
-    public class DecoderReplacementFallback
+    public class DecoderReplacementFallback : DecoderFallback
     {
-        public string _strDefault; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C3B020 | overloaded x3
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x5C3ADE0
-        public void get_DefaultString(){} // RVA: 0x2F8380
-        public void CreateFallbackBuffer(){} // RVA: 0x5C3B1C0
-        public void get_MaxCharCount(){} // RVA: 0x5C3B260
-        public void Equals(){} // RVA: 0x5C3B280
-        public void GetHashCode(){} // RVA: 0x99E0E0
+        public void .ctor(){} // RVA: 0x7ADA29060
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7ADA28E20
+        public void get_DefaultString(){} // RVA: 0x7A80F2570
+        public void CreateFallbackBuffer(){} // RVA: 0x7ADA29200
+        public void get_MaxCharCount(){} // RVA: 0x7ADA292A0
+        public void Equals(){} // RVA: 0x7ADA292C0
+        public void GetHashCode(){} // RVA: 0x7A8738190
     }
 
-    public class DecoderReplacementFallbackBuffer
+    public class DecoderReplacementFallbackBuffer : DecoderFallbackBuffer
     {
-        public string _strDefault; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C3B330
-        public void Fallback(){} // RVA: 0x5C3B3A0
-        public void GetNextChar(){} // RVA: 0x5C3B3F0
-        public void get_Remaining(){} // RVA: 0x5C3B450
-        public void Reset(){} // RVA: 0x5C3B460
-        public void InternalFallback(){} // RVA: 0x5C3B480
+        public void .ctor(){} // RVA: 0x7ADA29370
+        public void Fallback(){} // RVA: 0x7ADA293E0
+        public void GetNextChar(){} // RVA: 0x7ADA29430
+        public void get_Remaining(){} // RVA: 0x7ADA29490
+        public void Reset(){} // RVA: 0x7ADA294A0
+        public void InternalFallback(){} // RVA: 0x7ADA294C0
     }
 
-    public class Encoder
+    public class Encoder : Object
     {
-        public System.Text.EncoderFallback _fallback; // 0x10
-        public System.Text.EncoderFallbackBuffer _fallbackBuffer; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_Fallback(){} // RVA: 0x2F8380
-        public void get_FallbackBuffer(){} // RVA: 0x5C3B4A0
-        public void get_InternalHasFallbackBuffer(){} // RVA: 0x1D3B060
-        public void Reset(){} // RVA: 0x5C3B5D0
-        public void GetByteCount(){} // RVA: 0x5C3B6C0 | overloaded x2
-        public void GetBytes(){} // RVA: 0x5C3B870 | overloaded x2
-        public void Convert(){} // RVA: 0x5C3BEB0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Fallback(){} // RVA: 0x7A80F2570
+        public void get_FallbackBuffer(){} // RVA: 0x7ADA294E0
+        public void get_InternalHasFallbackBuffer(){} // RVA: 0x7A9B3D890
+        public void Reset(){} // RVA: 0x7ADA29610
+        public void GetByteCount(){} // RVA: 0x7ADA29700
+        public void GetBytes(){} // RVA: 0x7ADA298A0
+        public void Convert(){} // RVA: 0x7ADA29EF0
     }
 
-    public class EncoderExceptionFallback
+    public class EncoderExceptionFallback : EncoderFallback
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void CreateFallbackBuffer(){} // RVA: 0x5C3CB20
-        public void get_MaxCharCount(){} // RVA: 0x519240
-        public void Equals(){} // RVA: 0x5C3CB60
-        public void GetHashCode(){} // RVA: 0x5C3CBC0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void CreateFallbackBuffer(){} // RVA: 0x7ADA2AB30
+        public void get_MaxCharCount(){} // RVA: 0x7A82D1450
+        public void Equals(){} // RVA: 0x7ADA2AB70
+        public void GetHashCode(){} // RVA: 0x7ADA2ABD0
     }
 
-    public class EncoderExceptionFallbackBuffer
+    public class EncoderExceptionFallbackBuffer : EncoderFallbackBuffer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Fallback(){} // RVA: 0x5C3CCA0 | overloaded x2
-        public void GetNextChar(){} // RVA: 0x519240
-        public void MovePrevious(){} // RVA: 0x2DD320
-        public void get_Remaining(){} // RVA: 0x519240
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Fallback(){} // RVA: 0x7ADA2ACB0
+        public void GetNextChar(){} // RVA: 0x7A82D1450
+        public void MovePrevious(){} // RVA: 0x7A80D7320
+        public void get_Remaining(){} // RVA: 0x7A82D1450
     }
 
-    public class EncoderFallback
+    public class EncoderFallback : Object
     {
-        public System.Text.EncoderFallback s_replacementFallback;
-        public System.Text.EncoderFallback s_exceptionFallback; // 0x8
-
         // ── Methods ──
-        public void get_ReplacementFallback(){} // RVA: 0x5C3D240
-        public void get_ExceptionFallback(){} // RVA: 0x5C3D310
-        public void CreateFallbackBuffer(){} // RVA: 0xCD60
-        public void get_MaxCharCount(){} // RVA: 0xD840
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_ReplacementFallback(){} // RVA: 0x7ADA2B250
+        public void get_ExceptionFallback(){} // RVA: 0x7ADA2B320
+        public void CreateFallbackBuffer(){} // RVA: 0x7A7E00680
+        public void get_MaxCharCount(){} // RVA: 0x7A7E00710
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class EncoderFallbackBuffer
+    public class EncoderFallbackBuffer : Object
     {
-        public char* charStart; // 0x10
-
         // ── Methods ──
-        public void Fallback(){} // overloaded x2
-        public void GetNextChar(){} // RVA: 0xCC90
-        public void MovePrevious(){} // RVA: 0xDBE0
-        public void get_Remaining(){} // RVA: 0xD840
-        public void Reset(){} // RVA: 0x5C3D3A0
-        public void InternalReset(){} // RVA: 0x5C3D3E0
-        public void InternalInitialize(){} // RVA: 0x5C3D400
-        public void InternalGetNextChar(){} // RVA: 0x5C3D470
-        public void InternalFallback(){} // RVA: 0x5C3D4B0
-        public void ThrowLastCharRecursive(){} // RVA: 0x5C3D680
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Fallback(){} // RVA: 0x7A7E05E70
+        public void GetNextChar(){} // RVA: 0x7A7E006E0
+        public void MovePrevious(){} // RVA: 0x7A7E01900
+        public void get_Remaining(){} // RVA: 0x7A7E00710
+        public void Reset(){} // RVA: 0x7ADA2B3B0
+        public void InternalReset(){} // RVA: 0x7ADA2B3F0
+        public void InternalInitialize(){} // RVA: 0x7ADA2B410
+        public void InternalGetNextChar(){} // RVA: 0x7ADA2B480
+        public void InternalFallback(){} // RVA: 0x7ADA2B4C0
+        public void ThrowLastCharRecursive(){} // RVA: 0x7ADA2B690
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class EncoderFallbackException
+    public class EncoderFallbackException : ArgumentException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C395D0 | overloaded x4
+        public void .ctor(){} // RVA: 0x7ADA27610
     }
 
-    public class EncoderNLS
+    public class EncoderNLS : Encoder
     {
-        public char _charLeftOver; // 0x20
-        public System.Text.Encoding _encoding; // 0x28
-        public bool _mustFlush; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C3D720
-        public void Reset(){} // RVA: 0x5C3D800
-        public void GetByteCount(){} // RVA: 0x5C3DA20 | overloaded x2
-        public void GetBytes(){} // RVA: 0x5C3DE30 | overloaded x2
-        public void Convert(){} // RVA: 0x5C3E310 | overloaded x2
-        public void get_Encoding(){} // RVA: 0x30B130
-        public void get_MustFlush(){} // RVA: 0x303450
-        public void get_HasState(){} // RVA: 0x5C3E4F0
-        public void ClearMustFlush(){} // RVA: 0x6205A0
+        public void .ctor(){} // RVA: 0x7ADA2B730
+        public void Reset(){} // RVA: 0x7ADA2B810
+        public void GetByteCount(){} // RVA: 0x7ADA2BA30
+        public void GetBytes(){} // RVA: 0x7ADA2BE40
+        public void Convert(){} // RVA: 0x7ADA2C320
+        public void get_Encoding(){} // RVA: 0x7A8105330
+        public void get_MustFlush(){} // RVA: 0x7A80FD690
+        public void get_HasState(){} // RVA: 0x7ADA2C500
+        public void ClearMustFlush(){} // RVA: 0x7A84236E0
     }
 
-    public class EncoderReplacementFallback
+    public class EncoderReplacementFallback : EncoderFallback
     {
-        public string _strDefault; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C3E890 | overloaded x3
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x5C3E650
-        public void get_DefaultString(){} // RVA: 0x2F8380
-        public void CreateFallbackBuffer(){} // RVA: 0x5C3EA30
-        public void get_MaxCharCount(){} // RVA: 0x5C3B260
-        public void Equals(){} // RVA: 0x5C3EAF0
-        public void GetHashCode(){} // RVA: 0x99E0E0
+        public void .ctor(){} // RVA: 0x7ADA2C8A0
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7ADA2C660
+        public void get_DefaultString(){} // RVA: 0x7A80F2570
+        public void CreateFallbackBuffer(){} // RVA: 0x7ADA2CA40
+        public void get_MaxCharCount(){} // RVA: 0x7ADA292A0
+        public void Equals(){} // RVA: 0x7ADA2CB00
+        public void GetHashCode(){} // RVA: 0x7A8738190
     }
 
-    public class EncoderReplacementFallbackBuffer
+    public class EncoderReplacementFallbackBuffer : EncoderFallbackBuffer
     {
-        public string _strDefault; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C3EBA0
-        public void Fallback(){} // RVA: 0x5C3ED90 | overloaded x2
-        public void GetNextChar(){} // RVA: 0x5C3EFF0
-        public void MovePrevious(){} // RVA: 0x5C3F050
-        public void get_Remaining(){} // RVA: 0x5C3F070
-        public void Reset(){} // RVA: 0x5C3F080
+        public void .ctor(){} // RVA: 0x7ADA2CBB0
+        public void Fallback(){} // RVA: 0x7ADA2CDA0
+        public void GetNextChar(){} // RVA: 0x7ADA2D000
+        public void MovePrevious(){} // RVA: 0x7ADA2D060
+        public void get_Remaining(){} // RVA: 0x7ADA2D080
+        public void Reset(){} // RVA: 0x7ADA2D090
     }
 
-    public class Encoding
+    public class Encoding : Object
     {
-        public System.Text.Encoding defaultEncoding;
-        public System.Text.Encoding unicodeEncoding; // 0x8
-        public System.Text.Encoding bigEndianUnicode; // 0x10
-        public System.Text.Encoding utf7Encoding; // 0x18
-        public System.Text.Encoding utf8Encoding; // 0x20
-        public System.Text.Encoding utf32Encoding; // 0x28
-        public System.Text.Encoding asciiEncoding; // 0x30
-        public System.Text.Encoding latin1Encoding; // 0x38
-        public System.Collections.Generic.Dictionary`2<int,System.Text.Encoding> encodings; // 0x40
-        public int MIMECONTF_MAILNEWS;
-        public int MIMECONTF_BROWSER;
-        public int MIMECONTF_SAVABLE_MAILNEWS;
-        public int MIMECONTF_SAVABLE_BROWSER;
-        public int CodePageDefault;
-        public int CodePageNoOEM;
-        public int CodePageNoMac;
-        public int CodePageNoThread;
-        public int CodePageNoSymbol;
-        public int CodePageUnicode;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C58B60 | overloaded x2
-        public void SetDefaultFallbacks(){} // RVA: 0x5C58BE0
-        public void OnDeserializing(){} // RVA: 0x5C58DA0 | overloaded x2
-        public void OnDeserialized(){} // RVA: 0x5C58E50 | overloaded x2
-        public void OnSerializing(){} // RVA: 0x26AD280
-        public void DeserializeEncoding(){} // RVA: 0x5C58EE0
-        public void SerializeEncoding(){} // RVA: 0x5C593A0
-        public void Convert(){} // RVA: 0x5C59670 | overloaded x2
-        public void get_InternalSyncObject(){} // RVA: 0x5C597D0
-        public void GetEncoding(){} // RVA: 0x5C5A700 | overloaded x3
-        public void GetPreamble(){} // RVA: 0x5C5A860
-        public void get_Preamble(){} // RVA: 0x5C5A8C0
-        public void GetDataItem(){} // RVA: 0x5C5A970
-        public void get_BodyName(){} // RVA: 0x5C5AAE0
-        public void get_EncodingName(){} // RVA: 0x5C5AC20
-        public void get_HeaderName(){} // RVA: 0x5C5ADA0
-        public void get_WebName(){} // RVA: 0x5C5AEE0
-        public void get_IsSingleByte(){} // RVA: 0x2DD320
-        public void get_EncoderFallback(){} // RVA: 0x30B130
-        public void set_EncoderFallback(){} // RVA: 0x5C5B020
-        public void get_DecoderFallback(){} // RVA: 0x6374D0
-        public void set_DecoderFallback(){} // RVA: 0x5C5B140
-        public void Clone(){} // RVA: 0x5C5B260
-        public void get_IsReadOnly(){} // RVA: 0x6BB3A0
-        public void get_ASCII(){} // RVA: 0x5C5B2F0
-        public void get_Latin1(){} // RVA: 0x5C5B410
-        public void GetByteCount(){} // RVA: 0x5C5D700 | overloaded x7
-        public void GetBytes(){} // RVA: 0x5C5D8F0 | overloaded x9
-        public void GetCharCount(){} // RVA: 0x5C5D650 | overloaded x5
-        public void GetChars(){} // RVA: 0x5C5C4E0 | overloaded x5
-        public void GetString(){} // RVA: 0x5C5CB10 | overloaded x4
-        public void get_CodePage(){} // RVA: 0x32A5C0
-        public void IsAlwaysNormalized(){} // RVA: 0x2DD320 | overloaded x2
-        public void GetDecoder(){} // RVA: 0x5C5C7A0
-        public void CreateDefaultEncoding(){} // RVA: 0x5C5C840
-        public void setReadOnly(){} // RVA: 0xB265D0
-        public void get_Default(){} // RVA: 0x5C5C8A0
-        public void GetEncoder(){} // RVA: 0x5C5C9C0
-        public void GetMaxByteCount(){} // RVA: 0x13FB0
-        public void GetMaxCharCount(){} // RVA: 0x13FB0
-        public void get_Unicode(){} // RVA: 0x5C5CB40
-        public void get_BigEndianUnicode(){} // RVA: 0x5C5CC60
-        public void get_UTF7(){} // RVA: 0x5C5CD80
-        public void get_UTF8(){} // RVA: 0x5C5CEB0
-        public void get_UTF32(){} // RVA: 0x5C5CFD0
-        public void Equals(){} // RVA: 0x5C5D0E0
-        public void GetHashCode(){} // RVA: 0x5C5D1E0
-        public void GetBestFitUnicodeToBytesData(){} // RVA: 0x5C5D250
-        public void GetBestFitBytesToUnicodeData(){} // RVA: 0x5C5D2B0
-        public void ThrowBytesOverflow(){} // RVA: 0x5C5D420 | overloaded x2
-        public void ThrowCharsOverflow(){} // RVA: 0x5C5D5C0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7ADA46C40
+        public void SetDefaultFallbacks(){} // RVA: 0x7ADA46CC0
+        public void OnDeserializing(){} // RVA: 0x7ADA46E80
+        public void OnDeserialized(){} // RVA: 0x7ADA46F30
+        public void OnSerializing(){} // RVA: 0x7AA4BE520
+        public void DeserializeEncoding(){} // RVA: 0x7ADA46FC0
+        public void SerializeEncoding(){} // RVA: 0x7ADA47490
+        public void Convert(){} // RVA: 0x7ADA47760
+        public void get_InternalSyncObject(){} // RVA: 0x7ADA478C0
+        public void GetEncoding(){} // RVA: 0x7ADA487D0
+        public void GetPreamble(){} // RVA: 0x7ADA48950
+        public void get_Preamble(){} // RVA: 0x7ADA489B0
+        public void GetDataItem(){} // RVA: 0x7ADA48A60
+        public void get_BodyName(){} // RVA: 0x7ADA48BD0
+        public void get_EncodingName(){} // RVA: 0x7ADA48D10
+        public void get_HeaderName(){} // RVA: 0x7ADA48E90
+        public void get_WebName(){} // RVA: 0x7ADA48FD0
+        public void get_IsSingleByte(){} // RVA: 0x7A80D7320
+        public void get_EncoderFallback(){} // RVA: 0x7A8105330
+        public void set_EncoderFallback(){} // RVA: 0x7ADA49110
+        public void get_DecoderFallback(){} // RVA: 0x7A83F69F0
+        public void set_DecoderFallback(){} // RVA: 0x7ADA49230
+        public void Clone(){} // RVA: 0x7ADA49350
+        public void get_IsReadOnly(){} // RVA: 0x7A8477E00
+        public void get_ASCII(){} // RVA: 0x7ADA493D0
+        public void get_Latin1(){} // RVA: 0x7ADA494F0
+        public void GetByteCount(){} // RVA: 0x7ADA4B7F0
+        public void GetBytes(){} // RVA: 0x7ADA4B9E0
+        public void GetCharCount(){} // RVA: 0x7ADA4B740
+        public void GetChars(){} // RVA: 0x7ADA4A600
+        public void GetString(){} // RVA: 0x7ADA4AC30
+        public void get_CodePage(){} // RVA: 0x7A8124910
+        public void IsAlwaysNormalized(){} // RVA: 0x7A80D7320
+        public void GetDecoder(){} // RVA: 0x7ADA4A8C0
+        public void CreateDefaultEncoding(){} // RVA: 0x7ADA4A960
+        public void setReadOnly(){} // RVA: 0x7A88C2D40
+        public void get_Default(){} // RVA: 0x7ADA4A9C0
+        public void GetEncoder(){} // RVA: 0x7ADA4AAE0
+        public void GetMaxByteCount(){} // RVA: 0x7A7E062A0
+        public void GetMaxCharCount(){} // RVA: 0x7A7E062A0
+        public void get_Unicode(){} // RVA: 0x7ADA4AC60
+        public void get_BigEndianUnicode(){} // RVA: 0x7ADA4AD80
+        public void get_UTF7(){} // RVA: 0x7ADA4AEA0
+        public void get_UTF8(){} // RVA: 0x7ADA4AFD0
+        public void get_UTF32(){} // RVA: 0x7ADA4B0F0
+        public void Equals(){} // RVA: 0x7ADA4B200
+        public void GetHashCode(){} // RVA: 0x7ADA4B2D0
+        public void GetBestFitUnicodeToBytesData(){} // RVA: 0x7ADA4B340
+        public void GetBestFitBytesToUnicodeData(){} // RVA: 0x7ADA4B3A0
+        public void ThrowBytesOverflow(){} // RVA: 0x7ADA4B510
+        public void ThrowCharsOverflow(){} // RVA: 0x7ADA4B6B0
     }
 
-    public class EncodingHelper
+    public class EncodingHelper : Object
     {
-        public System.Text.Encoding utf8EncodingWithoutMarkers;
-
         // ── Methods ──
-        public void get_UTF8Unmarked(){} // RVA: 0x5C61F80
-        public void InternalCodePage(){} // RVA: 0x5C62280
-        public void GetDefaultEncoding(){} // RVA: 0x5C62290
-        public void InvokeI18N(){} // RVA: 0x5C623A0
-        public void .cctor(){} // RVA: 0x5C62A00
+        public void get_UTF8Unmarked(){} // RVA: 0x7ADA4FF30
+        public void InternalCodePage(){} // RVA: 0x7ADA50200
+        public void GetDefaultEncoding(){} // RVA: 0x7ADA50210
+        public void InvokeI18N(){} // RVA: 0x7ADA50320
+        public void .cctor(){} // RVA: 0x7ADA50960
     }
 
-    public class EncodingNLS
+    public class EncodingNLS : Encoding
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C3F0A0
-        public void GetByteCount(){} // RVA: 0x5C3F300 | overloaded x3
-        public void GetBytes(){} // RVA: 0x5C3F980 | overloaded x3
-        public void GetCharCount(){} // RVA: 0x5C3FC70 | overloaded x2
-        public void GetChars(){} // RVA: 0x5C40040 | overloaded x2
-        public void GetString(){} // RVA: 0x5C40170
-        public void GetDecoder(){} // RVA: 0x5C40350
-        public void GetEncoder(){} // RVA: 0x5C403B0
+        public void .ctor(){} // RVA: 0x7ADA2D0B0
+        public void GetByteCount(){} // RVA: 0x7ADA2D310
+        public void GetBytes(){} // RVA: 0x7ADA2D990
+        public void GetCharCount(){} // RVA: 0x7ADA2DC80
+        public void GetChars(){} // RVA: 0x7ADA2E050
+        public void GetString(){} // RVA: 0x7ADA2E180
+        public void GetDecoder(){} // RVA: 0x7ADA2E360
+        public void GetEncoder(){} // RVA: 0x7ADA2E3C0
     }
 
-    public class EncodingProvider
+    public class EncodingProvider : Object
     {
         // ── Methods ──
-        public void GetEncoding(){} // RVA: 0x5C40410 | overloaded x3
-        public void GetEncodingFromProvider(){} // RVA: 0x5C40730 | overloaded x3
-        public void .cctor(){} // RVA: 0x5C40850
+        public void GetEncoding(){} // RVA: 0x7ADA2E420
+        public void GetEncodingFromProvider(){} // RVA: 0x7ADA2E760
+        public void .cctor(){} // RVA: 0x7ADA2E880
     }
 
-    public class InternalDecoderBestFitFallback
+    public class InternalDecoderBestFitFallback : DecoderFallback
     {
-        public System.Text.Encoding _encoding; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C38A20
-        public void CreateFallbackBuffer(){} // RVA: 0x5C38A80
-        public void get_MaxCharCount(){} // RVA: 0x3CFAF0
-        public void Equals(){} // RVA: 0x5C38AE0
-        public void GetHashCode(){} // RVA: 0x5C38BA0
+        public void .ctor(){} // RVA: 0x7ADA26A70
+        public void CreateFallbackBuffer(){} // RVA: 0x7ADA26AD0
+        public void get_MaxCharCount(){} // RVA: 0x7A81CA9D0
+        public void Equals(){} // RVA: 0x7ADA26B30
+        public void GetHashCode(){} // RVA: 0x7ADA26BF0
     }
 
-    public class InternalDecoderBestFitFallbackBuffer
+    public class InternalDecoderBestFitFallbackBuffer : DecoderFallbackBuffer
     {
-        public char _cBestFit; // 0x20
-        public int _iCount; // 0x24
-
         // ── Methods ──
-        public void get_InternalSyncObject(){} // RVA: 0x5C38BD0
-        public void .ctor(){} // RVA: 0x5C38CA0
-        public void Fallback(){} // RVA: 0x5C38FC0
-        public void GetNextChar(){} // RVA: 0x5C39010
-        public void get_Remaining(){} // RVA: 0x5C39040
-        public void Reset(){} // RVA: 0x5C39050
-        public void InternalFallback(){} // RVA: 0x3CFAF0
-        public void TryBestFit(){} // RVA: 0x5C39060
+        public void get_InternalSyncObject(){} // RVA: 0x7ADA26C20
+        public void .ctor(){} // RVA: 0x7ADA26CF0
+        public void Fallback(){} // RVA: 0x7ADA27000
+        public void GetNextChar(){} // RVA: 0x7ADA27050
+        public void get_Remaining(){} // RVA: 0x7ADA27080
+        public void Reset(){} // RVA: 0x7ADA27090
+        public void InternalFallback(){} // RVA: 0x7A81CA9D0
+        public void TryBestFit(){} // RVA: 0x7ADA270A0
     }
 
-    public class InternalEncoderBestFitFallback
+    public class InternalEncoderBestFitFallback : EncoderFallback
     {
-        public System.Text.Encoding _encoding; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void CreateFallbackBuffer(){} // RVA: 0x5C3C120
-        public void get_MaxCharCount(){} // RVA: 0x3CFAF0
-        public void Equals(){} // RVA: 0x5C3C180
-        public void GetHashCode(){} // RVA: 0x5C38BA0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void CreateFallbackBuffer(){} // RVA: 0x7ADA2A150
+        public void get_MaxCharCount(){} // RVA: 0x7A81CA9D0
+        public void Equals(){} // RVA: 0x7ADA2A1B0
+        public void GetHashCode(){} // RVA: 0x7ADA26BF0
     }
 
-    public class InternalEncoderBestFitFallbackBuffer
+    public class InternalEncoderBestFitFallbackBuffer : EncoderFallbackBuffer
     {
-        public char _cBestFit; // 0x30
-        public System.Text.InternalEncoderBestFitFallback _oFallback; // 0x38
-
         // ── Methods ──
-        public void get_InternalSyncObject(){} // RVA: 0x5C3C270
-        public void .ctor(){} // RVA: 0x5C3C340
-        public void Fallback(){} // RVA: 0x5C3C770 | overloaded x2
-        public void GetNextChar(){} // RVA: 0x5C3C990
-        public void MovePrevious(){} // RVA: 0x5C3C9C0
-        public void get_Remaining(){} // RVA: 0x5C3C9E0
-        public void Reset(){} // RVA: 0x5C3C9F0
-        public void TryBestFit(){} // RVA: 0x5C3CA10
+        public void get_InternalSyncObject(){} // RVA: 0x7ADA2A270
+        public void .ctor(){} // RVA: 0x7ADA2A340
+        public void Fallback(){} // RVA: 0x7ADA2A780
+        public void GetNextChar(){} // RVA: 0x7ADA2A9A0
+        public void MovePrevious(){} // RVA: 0x7ADA2A9D0
+        public void get_Remaining(){} // RVA: 0x7ADA2A9F0
+        public void Reset(){} // RVA: 0x7ADA2AA00
+        public void TryBestFit(){} // RVA: 0x7ADA2AA20
     }
 
-    public class Latin1Encoding
+    public class Latin1Encoding : EncodingNLS
     {
-        public System.Text.Latin1Encoding s_default;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C40920 | overloaded x2
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x5C40990
-        public void GetByteCount(){} // RVA: 0x5C40BC0
-        public void GetBytes(){} // RVA: 0x5C40E70
-        public void GetCharCount(){} // RVA: 0x1E96C40
-        public void GetChars(){} // RVA: 0x5C41380
-        public void GetMaxByteCount(){} // RVA: 0x5C41460
-        public void GetMaxCharCount(){} // RVA: 0x5C415A0
-        public void get_IsSingleByte(){} // RVA: 0x3C2850
-        public void IsAlwaysNormalized(){} // RVA: 0x5C416E0
-        public void GetBestFitUnicodeToBytesData(){} // RVA: 0x5C416F0
-        public void .cctor(){} // RVA: 0x5C41750
+        public void .ctor(){} // RVA: 0x7ADA2E950
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7ADA2E9C0
+        public void GetByteCount(){} // RVA: 0x7ADA2EBF0
+        public void GetBytes(){} // RVA: 0x7ADA2EEA0
+        public void GetCharCount(){} // RVA: 0x7A9C9B620
+        public void GetChars(){} // RVA: 0x7ADA2F3D0
+        public void GetMaxByteCount(){} // RVA: 0x7ADA2F4B0
+        public void GetMaxCharCount(){} // RVA: 0x7ADA2F5F0
+        public void get_IsSingleByte(){} // RVA: 0x7A81BD750
+        public void IsAlwaysNormalized(){} // RVA: 0x7ADA2F730
+        public void GetBestFitUnicodeToBytesData(){} // RVA: 0x7ADA2F740
+        public void .cctor(){} // RVA: 0x7ADA2F7A0
     }
 
-    public class Normalization
+    public class Normalization : Object
     {
         // ── Methods ──
-        public void PropValue(){} // RVA: 0x5C5F540
-        public void CharMapIdx(){} // RVA: 0x5C5F630
-        public void GetCombiningClass(){} // RVA: 0x5C5F720
-        public void GetPrimaryCompositeFromMapIndex(){} // RVA: 0x5C5F7E0
-        public void GetPrimaryCompositeHelperIndex(){} // RVA: 0x5C5F8A0
-        public void Compose(){} // RVA: 0x5C5F960
-        public void Combine(){} // RVA: 0x5C5FCD0 | overloaded x2
-        public void CombineHangul(){} // RVA: 0x5C5FF00
-        public void Fetch(){} // RVA: 0x5C60140
-        public void TryComposeWithPreviousStarter(){} // RVA: 0x5C60190
-        public void TryCompose(){} // RVA: 0x5C60580
-        public void Decompose(){} // RVA: 0x5C60790 | overloaded x2
-        public void ReorderCanonical(){} // RVA: 0x5C60910
-        public void DecomposeChar(){} // RVA: 0x5C60BD0
-        public void QuickCheck(){} // RVA: 0x5C60EF0
-        public void GetCanonicalHangul(){} // RVA: 0x5C61030
-        public void GetCanonical(){} // RVA: 0x5C61160
-        public void IsNormalized(){} // RVA: 0x5C615D0 | overloaded x2
-        public void Normalize(){} // RVA: 0x5C61B90 | overloaded x2
-        public void load_normalization_resource(){} // RVA: 0x5C61CA0
-        public void .cctor(){} // RVA: 0x5C61CF0
+        public void PropValue(){} // RVA: 0x7ADA4D630
+        public void CharMapIdx(){} // RVA: 0x7ADA4D720
+        public void GetCombiningClass(){} // RVA: 0x7ADA4D810
+        public void GetPrimaryCompositeFromMapIndex(){} // RVA: 0x7ADA4D8D0
+        public void GetPrimaryCompositeHelperIndex(){} // RVA: 0x7ADA4D990
+        public void Compose(){} // RVA: 0x7ADA4DA50
+        public void Combine(){} // RVA: 0x7ADA4DDC0
+        public void CombineHangul(){} // RVA: 0x7ADA4DFF0
+        public void Fetch(){} // RVA: 0x7ADA4E230
+        public void TryComposeWithPreviousStarter(){} // RVA: 0x7ADA4E280
+        public void TryCompose(){} // RVA: 0x7ADA4E670
+        public void Decompose(){} // RVA: 0x7ADA4E880
+        public void ReorderCanonical(){} // RVA: 0x7ADA4EA00
+        public void DecomposeChar(){} // RVA: 0x7ADA4ECC0
+        public void QuickCheck(){} // RVA: 0x7ADA4EFE0
+        public void GetCanonicalHangul(){} // RVA: 0x7ADA4F120
+        public void GetCanonical(){} // RVA: 0x7ADA4F240
+        public void IsNormalized(){} // RVA: 0x7ADA4F6B0
+        public void Normalize(){} // RVA: 0x7ADA4FB70
+        public void load_normalization_resource(){} // RVA: 0x7ADA4FC80
+        public void .cctor(){} // RVA: 0x7ADA4FCD0
     }
 
-    public class Rune
+    public class Rune : ValueType
     {
-        public uint _value; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x833580 | overloaded x3
-        public void get_IsAscii(){} // RVA: 0x62EC2F0
-        public void get_IsBmp(){} // RVA: 0x62EC300
-        public void op_Equality(){} // RVA: 0x2110AC0
-        public void IsControl(){} // RVA: 0x62EC310
-        public void get_ReplacementChar(){} // RVA: 0x62EC320
-        public void get_Utf16SequenceLength(){} // RVA: 0x62EC330
-        public void get_Value(){} // RVA: 0x19689B0
-        public void DecodeFromUtf16(){} // RVA: 0x6835020
-        public void DecodeFromUtf8(){} // RVA: 0x6835150
-        public void Equals(){} // RVA: 0x20D6490 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x19689B0
-        public void TryCreate(){} // RVA: 0x62EC6E0 | overloaded x2
-        public void TryEncodeToUtf16(){} // RVA: 0x6835330
-        public void TryEncodeToUtf8(){} // RVA: 0x6835420
-        public void UnsafeCreate(){} // RVA: 0x20C5210
+        public void .ctor(){} // RVA: 0x7A76134D0
+        public void get_IsAscii(){} // RVA: 0x7A7E6DCF0
+        public void get_IsBmp(){} // RVA: 0x7A7E6DD00
+        public void op_Equality(){} // RVA: 0x7A9F252F0
+        public void IsControl(){} // RVA: 0x7AE0D80C0
+        public void get_ReplacementChar(){} // RVA: 0x7AE0D80D0
+        public void get_Utf16SequenceLength(){} // RVA: 0x7A7E6DD10
+        public void get_Value(){} // RVA: 0x7A765F070
+        public void DecodeFromUtf16(){} // RVA: 0x7AE0D80F0
+        public void DecodeFromUtf8(){} // RVA: 0x7AE0D8270
+        public void Equals(){} // RVA: 0x7A7729660
+        public void GetHashCode(){} // RVA: 0x7A765F070
+        public void TryCreate(){} // RVA: 0x7AE0D84A0
+        public void TryEncodeToUtf16(){} // RVA: 0x7A7E6DDB0
+        public void TryEncodeToUtf8(){} // RVA: 0x7A7E6DDE0
+        public void UnsafeCreate(){} // RVA: 0x7A9ED9B50
     }
 
-    public class Rune
+    public class Rune : ValueType
     {
-        public uint DefinedCharsBitmapSpan; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x833580 | overloaded x3
-        public void get_IsAscii(){} // RVA: 0x62EC2F0
-        public void get_IsBmp(){} // RVA: 0x62EC300
-        public void op_Equality(){} // RVA: 0x2110AC0
-        public void IsControl(){} // RVA: 0x62EC310
-        public void get_ReplacementChar(){} // RVA: 0x62EC320
-        public void get_Utf16SequenceLength(){} // RVA: 0x62EC330
-        public void get_Value(){} // RVA: 0x19689B0
-        public void DecodeFromUtf16(){} // RVA: 0x62EC340
-        public void DecodeFromUtf8(){} // RVA: 0x62EC4B0
-        public void Equals(){} // RVA: 0x20D6490 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x19689B0
-        public void TryCreate(){} // RVA: 0x62EC6E0 | overloaded x2
-        public void TryEncodeToUtf16(){} // RVA: 0x62EC720
-        public void TryEncodeToUtf8(){} // RVA: 0x62EC880
-        public void UnsafeCreate(){} // RVA: 0x20C5210
+        public void .ctor(){} // RVA: 0x7A76134D0
+        public void get_IsAscii(){} // RVA: 0x7A7E6DCF0
+        public void get_IsBmp(){} // RVA: 0x7A7E6DD00
+        public void op_Equality(){} // RVA: 0x7A9F252F0
+        public void IsControl(){} // RVA: 0x7AE0D80C0
+        public void get_ReplacementChar(){} // RVA: 0x7AE0D80D0
+        public void get_Utf16SequenceLength(){} // RVA: 0x7A7E6DD10
+        public void get_Value(){} // RVA: 0x7A765F070
+        public void DecodeFromUtf16(){} // RVA: 0x7AE623D80
+        public void DecodeFromUtf8(){} // RVA: 0x7AE623EC0
+        public void Equals(){} // RVA: 0x7A7729660
+        public void GetHashCode(){} // RVA: 0x7A765F070
+        public void TryCreate(){} // RVA: 0x7AE0D84A0
+        public void TryEncodeToUtf16(){} // RVA: 0x7A7E8CA40
+        public void TryEncodeToUtf8(){} // RVA: 0x7A7E8CA60
+        public void UnsafeCreate(){} // RVA: 0x7A9ED9B50
     }
 
-    public class StringBuilder
+    public class StringBuilder : Object
     {
-        public char[] m_ChunkChars; // 0x10
-        public System.Text.StringBuilder m_ChunkPrevious; // 0x18
-        public int m_ChunkLength; // 0x20
-        public int m_ChunkOffset; // 0x24
-        public int m_MaxCapacity; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C49920 | overloaded x9
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x5C42350
-        public void get_Capacity(){} // RVA: 0x5C424A0
-        public void set_Capacity(){} // RVA: 0x5C424C0
-        public void get_MaxCapacity(){} // RVA: 0x791DC0
-        public void EnsureCapacity(){} // RVA: 0x5C42690
-        public void ToString(){} // RVA: 0x5C428D0 | overloaded x2
-        public void Clear(){} // RVA: 0x5C42B00
-        public void get_Length(){} // RVA: 0x5C42B20
-        public void set_Length(){} // RVA: 0x5C42B30
-        public void get_Chars(){} // RVA: 0x5C42DE0
-        public void set_Chars(){} // RVA: 0x5C42EB0
-        public void Append(){} // RVA: 0x5C47FE0 | overloaded x23
-        public void AppendHelper(){} // RVA: 0x5C43450
-        public void AppendCore(){} // RVA: 0x5C43860
-        public void AppendLine(){} // RVA: 0x5C43AD0 | overloaded x2
-        public void CopyTo(){} // RVA: 0x5C43D10 | overloaded x2
-        public void Insert(){} // RVA: 0x5C48190 | overloaded x19
-        public void Remove(){} // RVA: 0x5C49A40 | overloaded x2
-        public void AppendSpanFormattable(){} // RVA: 0x283FA0
-        public void AppendJoin(){} // RVA: 0x5C45E20 | overloaded x5
-        public void AppendJoinCore(){} // RVA: 0x283FA0 | overloaded x2
-        public void AppendFormat(){} // RVA: 0x5C46BC0 | overloaded x8
-        public void FormatError(){} // RVA: 0x5C46CA0
-        public void AppendFormatHelper(){} // RVA: 0x5C46CF0
-        public void Replace(){} // RVA: 0x5C47DE0 | overloaded x4
-        public void Equals(){} // RVA: 0x5C477D0
-        public void ReplaceAllInChunk(){} // RVA: 0x5C48820
-        public void StartsWith(){} // RVA: 0x5C48A10
-        public void ReplaceInPlaceAtChunk(){} // RVA: 0x5C48B00
-        public void ThreadSafeCopy(){} // RVA: 0x5C48D70 | overloaded x2
-        public void FindChunkForIndex(){} // RVA: 0x5C48F20
-        public void get_RemainingCurrentChunk(){} // RVA: 0x5C48F60
-        public void Next(){} // RVA: 0x5C48FF0
-        public void ExpandByABlock(){} // RVA: 0x5C49040
-        public void MakeRoom(){} // RVA: 0x5C493E0
+        public void .ctor(){} // RVA: 0x7ADA37A70
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7ADA30410
+        public void get_Capacity(){} // RVA: 0x7ADA30560
+        public void set_Capacity(){} // RVA: 0x7ADA30580
+        public void get_MaxCapacity(){} // RVA: 0x7A854FDE0
+        public void EnsureCapacity(){} // RVA: 0x7ADA30750
+        public void ToString(){} // RVA: 0x7ADA30990
+        public void Clear(){} // RVA: 0x7ADA30BD0
+        public void get_Length(){} // RVA: 0x7ADA30BF0
+        public void set_Length(){} // RVA: 0x7ADA30C00
+        public void get_Chars(){} // RVA: 0x7ADA30EB0
+        public void set_Chars(){} // RVA: 0x7ADA30F80
+        public void Append(){} // RVA: 0x7ADA360D0
+        public void AppendHelper(){} // RVA: 0x7ADA31530
+        public void AppendCore(){} // RVA: 0x7ADA31940
+        public void AppendLine(){} // RVA: 0x7ADA31BB0
+        public void CopyTo(){} // RVA: 0x7ADA31DF0
+        public void Insert(){} // RVA: 0x7ADA36280
+        public void Remove(){} // RVA: 0x7ADA37B90
+        public void AppendSpanFormattable(){} // RVA: 0x7AA5A3370
+        public void AppendJoin(){} // RVA: 0x7ADA33EE0
+        public void AppendJoinCore(){} // RVA: 0x7A8051B10
+        public void AppendFormat(){} // RVA: 0x7ADA34C80
+        public void FormatError(){} // RVA: 0x7ADA34D60
+        public void AppendFormatHelper(){} // RVA: 0x7ADA34DB0
+        public void Replace(){} // RVA: 0x7ADA35ED0
+        public void Equals(){} // RVA: 0x7ADA358A0
+        public void ReplaceAllInChunk(){} // RVA: 0x7ADA36940
+        public void StartsWith(){} // RVA: 0x7ADA36B40
+        public void ReplaceInPlaceAtChunk(){} // RVA: 0x7ADA36C30
+        public void ThreadSafeCopy(){} // RVA: 0x7ADA36EA0
+        public void FindChunkForIndex(){} // RVA: 0x7ADA37050
+        public void get_RemainingCurrentChunk(){} // RVA: 0x7ADA37090
+        public void Next(){} // RVA: 0x7ADA37120
+        public void ExpandByABlock(){} // RVA: 0x7ADA37170
+        public void MakeRoom(){} // RVA: 0x7ADA37510
     }
 
-    public class StringBuilderCache
+    public class StringBuilderCache : Object
     {
         // ── Methods ──
-        public void Acquire(){} // RVA: 0x5C49DA0
-        public void Release(){} // RVA: 0x5C49E90
-        public void GetStringAndRelease(){} // RVA: 0x5C49F40
+        public void Acquire(){} // RVA: 0x7ADA37F00
+        public void Release(){} // RVA: 0x7ADA37FF0
+        public void GetStringAndRelease(){} // RVA: 0x7ADA380A0
     }
 
-    public class StringBuilderCache
+    public class StringBuilderCache : Object
     {
         // ── Methods ──
-        public void Acquire(){} // RVA: 0x6911720
-        public void Release(){} // RVA: 0x6911810
-        public void GetStringAndRelease(){} // RVA: 0x69118C0
+        public void Acquire(){} // RVA: 0x7AE700A30
+        public void Release(){} // RVA: 0x7AE700B20
+        public void GetStringAndRelease(){} // RVA: 0x7AE700BD0
     }
 
-    public class UTF32Encoding
+    public class StringBuilder[] : Array
     {
-        public System.Text.UTF32Encoding s_default;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C4A010 | overloaded x3
-        public void SetDefaultFallbacks(){} // RVA: 0x5C4A080
-        public void GetByteCount(){} // RVA: 0x5C4B550 | overloaded x4
-        public void GetBytes(){} // RVA: 0x5C4B910 | overloaded x4
-        public void GetCharCount(){} // RVA: 0x5C4BED0 | overloaded x3
-        public void GetChars(){} // RVA: 0x5C4C220 | overloaded x3
-        public void GetString(){} // RVA: 0x5C4B370
-        public void GetSurrogate(){} // RVA: 0x5C4C7C0
-        public void GetHighSurrogate(){} // RVA: 0x5C4C7E0
-        public void GetLowSurrogate(){} // RVA: 0x5C4C800
-        public void GetDecoder(){} // RVA: 0x5C4C820
-        public void GetEncoder(){} // RVA: 0x5C4C880
-        public void GetMaxByteCount(){} // RVA: 0x5C4C8E0
-        public void GetMaxCharCount(){} // RVA: 0x5C4CA20
-        public void GetPreamble(){} // RVA: 0x5C4CB00
-        public void get_Preamble(){} // RVA: 0x5C4CBC0
-        public void Equals(){} // RVA: 0x5C4CDB0
-        public void GetHashCode(){} // RVA: 0x5C4CE80
-        public void .cctor(){} // RVA: 0x5C4CF30
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class UTF7Encoding
+    public class UTF32Encoding : Encoding
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C4D310 | overloaded x2
-        public void MakeTables(){} // RVA: 0x5C4D360
-        public void SetDefaultFallbacks(){} // RVA: 0x5C4D710
-        public void Equals(){} // RVA: 0x5C4D860
-        public void GetHashCode(){} // RVA: 0x5C4D960
-        public void GetByteCount(){} // RVA: 0x5C4EC80 | overloaded x4
-        public void GetBytes(){} // RVA: 0x5C4ECC0 | overloaded x4
-        public void GetCharCount(){} // RVA: 0x5C4F180 | overloaded x3
-        public void GetChars(){} // RVA: 0x5C4F1C0 | overloaded x3
-        public void GetString(){} // RVA: 0x5C4EAA0
-        public void GetDecoder(){} // RVA: 0x5C4F440
-        public void GetEncoder(){} // RVA: 0x5C4F4A0
-        public void GetMaxByteCount(){} // RVA: 0x5C4F500
-        public void GetMaxCharCount(){} // RVA: 0x5C4F5F0
-        public void .cctor(){} // RVA: 0x5C4F680
+        public void .ctor(){} // RVA: 0x7ADA38170
+        public void SetDefaultFallbacks(){} // RVA: 0x7ADA381E0
+        public void GetByteCount(){} // RVA: 0x7ADA396B0
+        public void GetBytes(){} // RVA: 0x7ADA39A80
+        public void GetCharCount(){} // RVA: 0x7ADA3A060
+        public void GetChars(){} // RVA: 0x7ADA3A3B0
+        public void GetString(){} // RVA: 0x7ADA394D0
+        public void GetSurrogate(){} // RVA: 0x7ADA3A8C0
+        public void GetHighSurrogate(){} // RVA: 0x7ADA3A8E0
+        public void GetLowSurrogate(){} // RVA: 0x7ADA3A900
+        public void GetDecoder(){} // RVA: 0x7ADA3A920
+        public void GetEncoder(){} // RVA: 0x7ADA3A980
+        public void GetMaxByteCount(){} // RVA: 0x7ADA3A9E0
+        public void GetMaxCharCount(){} // RVA: 0x7ADA3AB20
+        public void GetPreamble(){} // RVA: 0x7ADA3AC00
+        public void get_Preamble(){} // RVA: 0x7ADA3ACC0
+        public void Equals(){} // RVA: 0x7ADA3AEB0
+        public void GetHashCode(){} // RVA: 0x7ADA3AF80
+        public void .cctor(){} // RVA: 0x7ADA3B030
     }
 
-    public class UTF8Encoding
+    public class UTF7Encoding : Encoding
     {
-        public UTF8EncodingSealed s_default;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C4FA40 | overloaded x3
-        public void SetDefaultFallbacks(){} // RVA: 0x5C4FAB0
-        public void GetByteCount(){} // RVA: 0x5C50F80 | overloaded x4
-        public void GetBytes(){} // RVA: 0x5C516B0 | overloaded x4
-        public void GetCharCount(){} // RVA: 0x5C51F40 | overloaded x3
-        public void GetChars(){} // RVA: 0x5C52420 | overloaded x3
-        public void GetString(){} // RVA: 0x5C50DA0
-        public void PtrDiff(){} // RVA: 0x5C51690 | overloaded x2
-        public void InRange(){} // RVA: 0x5C516A0
-        public void FallbackInvalidByteSequence(){} // RVA: 0x5C52D60 | overloaded x2
-        public void GetBytesUnknown(){} // RVA: 0x5C52DB0
-        public void GetDecoder(){} // RVA: 0x5C53020
-        public void GetEncoder(){} // RVA: 0x5C53080
-        public void GetMaxByteCount(){} // RVA: 0x5C530E0
-        public void GetMaxCharCount(){} // RVA: 0x5C53220
-        public void GetPreamble(){} // RVA: 0x5C53360
-        public void get_Preamble(){} // RVA: 0x5C53400
-        public void Equals(){} // RVA: 0x5C535C0
-        public void GetHashCode(){} // RVA: 0x5C536C0
-        public void .cctor(){} // RVA: 0x5C53730
+        public void .ctor(){} // RVA: 0x7ADA3B420
+        public void MakeTables(){} // RVA: 0x7ADA3B470
+        public void SetDefaultFallbacks(){} // RVA: 0x7ADA3B820
+        public void Equals(){} // RVA: 0x7ADA3B970
+        public void GetHashCode(){} // RVA: 0x7ADA3BA40
+        public void GetByteCount(){} // RVA: 0x7ADA3CD60
+        public void GetBytes(){} // RVA: 0x7ADA3CDA0
+        public void GetCharCount(){} // RVA: 0x7ADA3D260
+        public void GetChars(){} // RVA: 0x7ADA3D2A0
+        public void GetString(){} // RVA: 0x7ADA3CB80
+        public void GetDecoder(){} // RVA: 0x7ADA3D530
+        public void GetEncoder(){} // RVA: 0x7ADA3D590
+        public void GetMaxByteCount(){} // RVA: 0x7ADA3D5F0
+        public void GetMaxCharCount(){} // RVA: 0x7ADA3D6E0
+        public void .cctor(){} // RVA: 0x7ADA3D770
     }
 
-    public class UnicodeEncoding
+    public class UTF8Encoding : Encoding
     {
-        public System.Text.UnicodeEncoding s_bigEndianDefault;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C53B80 | overloaded x3
-        public void SetDefaultFallbacks(){} // RVA: 0x5C53C00
-        public void GetByteCount(){} // RVA: 0x5C550D0 | overloaded x4
-        public void GetBytes(){} // RVA: 0x5C55870 | overloaded x4
-        public void GetCharCount(){} // RVA: 0x5C56200 | overloaded x3
-        public void GetChars(){} // RVA: 0x5C56AA0 | overloaded x3
-        public void GetString(){} // RVA: 0x5C54EF0
-        public void GetEncoder(){} // RVA: 0x5C57590
-        public void GetDecoder(){} // RVA: 0x5C575F0
-        public void GetPreamble(){} // RVA: 0x5C57650
-        public void get_Preamble(){} // RVA: 0x5C57710
-        public void GetMaxByteCount(){} // RVA: 0x5C57900
-        public void GetMaxCharCount(){} // RVA: 0x5C57A40
-        public void Equals(){} // RVA: 0x5C57B90
-        public void GetHashCode(){} // RVA: 0x5C57CD0
-        public void .cctor(){} // RVA: 0x5C57D70
+        public void .ctor(){} // RVA: 0x7ADA3DB30
+        public void SetDefaultFallbacks(){} // RVA: 0x7ADA3DBA0
+        public void GetByteCount(){} // RVA: 0x7ADA3F070
+        public void GetBytes(){} // RVA: 0x7ADA3F7A0
+        public void GetCharCount(){} // RVA: 0x7ADA40040
+        public void GetChars(){} // RVA: 0x7ADA40510
+        public void GetString(){} // RVA: 0x7ADA3EE90
+        public void PtrDiff(){} // RVA: 0x7ADA3F780
+        public void InRange(){} // RVA: 0x7ADA3F790
+        public void FallbackInvalidByteSequence(){} // RVA: 0x7ADA40E50
+        public void GetBytesUnknown(){} // RVA: 0x7ADA40EA0
+        public void GetDecoder(){} // RVA: 0x7ADA41110
+        public void GetEncoder(){} // RVA: 0x7ADA41170
+        public void GetMaxByteCount(){} // RVA: 0x7ADA411D0
+        public void GetMaxCharCount(){} // RVA: 0x7ADA41310
+        public void GetPreamble(){} // RVA: 0x7ADA41450
+        public void get_Preamble(){} // RVA: 0x7ADA414F0
+        public void Equals(){} // RVA: 0x7ADA416B0
+        public void GetHashCode(){} // RVA: 0x7ADA41780
+        public void .cctor(){} // RVA: 0x7ADA417F0
     }
 
-    public class UnicodeUtility
+    public class UnicodeEncoding : Encoding
     {
         // ── Methods ──
-        public void GetUtf16SequenceLength(){} // RVA: 0x62EC230
-        public void GetUtf16SurrogatesFromSupplementaryPlaneScalar(){} // RVA: 0x62EC240
-        public void IsAsciiCodePoint(){} // RVA: 0x62EC270
-        public void IsBmpCodePoint(){} // RVA: 0x62EC280
-        public void IsInRangeInclusive(){} // RVA: 0x5C516A0
-        public void IsSurrogateCodePoint(){} // RVA: 0x62EC290
-        public void IsValidUnicodeScalar(){} // RVA: 0x62EC2A0
+        public void .ctor(){} // RVA: 0x7ADA41C40
+        public void SetDefaultFallbacks(){} // RVA: 0x7ADA41CC0
+        public void GetByteCount(){} // RVA: 0x7ADA43190
+        public void GetBytes(){} // RVA: 0x7ADA43930
+        public void GetCharCount(){} // RVA: 0x7ADA442D0
+        public void GetChars(){} // RVA: 0x7ADA44B60
+        public void GetString(){} // RVA: 0x7ADA42FB0
+        public void GetEncoder(){} // RVA: 0x7ADA45690
+        public void GetDecoder(){} // RVA: 0x7ADA456F0
+        public void GetPreamble(){} // RVA: 0x7ADA45750
+        public void get_Preamble(){} // RVA: 0x7ADA45810
+        public void GetMaxByteCount(){} // RVA: 0x7ADA45A00
+        public void GetMaxCharCount(){} // RVA: 0x7ADA45B40
+        public void Equals(){} // RVA: 0x7ADA45C90
+        public void GetHashCode(){} // RVA: 0x7ADA45DB0
+        public void .cctor(){} // RVA: 0x7ADA45E50
     }
 
-    public class UnicodeUtility
+    public class UnicodeUtility : Object
     {
         // ── Methods ──
-        public void GetUtf16SequenceLength(){} // RVA: 0x62EC230
-        public void GetUtf16SurrogatesFromSupplementaryPlaneScalar(){} // RVA: 0x62EC240
-        public void IsAsciiCodePoint(){} // RVA: 0x62EC270
-        public void IsBmpCodePoint(){} // RVA: 0x62EC280
-        public void IsInRangeInclusive(){} // RVA: 0x5C516A0
-        public void IsSurrogateCodePoint(){} // RVA: 0x62EC290
-        public void IsValidUnicodeScalar(){} // RVA: 0x62EC2A0
+        public void GetUtf16SequenceLength(){} // RVA: 0x7AE0D7FE0
+        public void GetUtf16SurrogatesFromSupplementaryPlaneScalar(){} // RVA: 0x7AE0D7FF0
+        public void IsAsciiCodePoint(){} // RVA: 0x7AE0D8020
+        public void IsBmpCodePoint(){} // RVA: 0x7AE0D8030
+        public void IsInRangeInclusive(){} // RVA: 0x7ADA3F790
+        public void IsSurrogateCodePoint(){} // RVA: 0x7AE0D8040
+        public void IsValidUnicodeScalar(){} // RVA: 0x7AE0D8050
     }
 
-    public class ValueStringBuilder
+    public class UnicodeUtility : Object
     {
-        public char[] FullName; // 0x10
-        public System.Span`1<char> IncludeGenericParameters; // 0x18
-        public int IncludeGenericParameterNames; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BA5860 | overloaded x2
-        public void get_Length(){} // RVA: 0x5BED50
-        public void set_Length(){} // RVA: 0x6374E0
-        public void get_Capacity(){} // RVA: 0x5BA59A0
-        public void EnsureCapacity(){} // RVA: 0x5BA59E0
-        public void GetPinnableReference(){} // RVA: 0x5BA5A70 | overloaded x2
-        public void get_Item(){} // RVA: 0x5BA5B10
-        public void ToString(){} // RVA: 0x5BA5B30
-        public void get_RawChars(){} // RVA: 0x1F6F090
-        public void AsSpan(){} // RVA: 0x5BA5EB0 | overloaded x4
-        public void TryCopyTo(){} // RVA: 0x5BA5F90
-        public void Insert(){} // RVA: 0x5BA6320 | overloaded x2
-        public void Append(){} // RVA: 0x5BA6A50 | overloaded x5
-        public void AppendSlow(){} // RVA: 0x5BA66F0
-        public void AppendSpan(){} // RVA: 0x5BA6B70
-        public void GrowAndAppend(){} // RVA: 0x5BA6C50
-        public void Grow(){} // RVA: 0x5BA6C90
-        public void Dispose(){} // RVA: 0x5BA6F80
+        public void GetUtf16SequenceLength(){} // RVA: 0x7AE0D7FE0
+        public void GetUtf16SurrogatesFromSupplementaryPlaneScalar(){} // RVA: 0x7AE0D7FF0
+        public void IsAsciiCodePoint(){} // RVA: 0x7AE0D8020
+        public void IsBmpCodePoint(){} // RVA: 0x7AE0D8030
+        public void IsInRangeInclusive(){} // RVA: 0x7ADA3F790
+        public void IsSurrogateCodePoint(){} // RVA: 0x7AE0D8040
+        public void IsValidUnicodeScalar(){} // RVA: 0x7AE0D8050
     }
 
-    public class ValueStringBuilder
+    public class ValueStringBuilder : ValueType
     {
-        public char[] _arrayToReturnToPool; // 0x10
-        public System.Span`1<char> _chars; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C580C0
-        public void get_Length(){} // RVA: 0x5BED50
-        public void get_Item(){} // RVA: 0x5BA5B10
-        public void ToString(){} // RVA: 0x5C580D0
-        public void TryCopyTo(){} // RVA: 0x5C581B0
-        public void Append(){} // RVA: 0x5C586A0 | overloaded x4
-        public void AppendSlow(){} // RVA: 0x5C58420
-        public void AppendSpan(){} // RVA: 0x5C58780
-        public void GrowAndAppend(){} // RVA: 0x5C58860
-        public void Grow(){} // RVA: 0x5C588A0
-        public void Dispose(){} // RVA: 0x5C58AA0
+        public void .ctor(){} // RVA: 0x7A7E2CC90
+        public void get_Length(){} // RVA: 0x7A768A430
+        public void set_Length(){} // RVA: 0x7A768A440
+        public void get_Capacity(){} // RVA: 0x7A7E2CDE0
+        public void EnsureCapacity(){} // RVA: 0x7A7E2CE20
+        public void GetPinnableReference(){} // RVA: 0x7A7E2CEC0
+        public void get_Item(){} // RVA: 0x7A7E2CF60
+        public void ToString(){} // RVA: 0x7A7E2CF80
+        public void get_RawChars(){} // RVA: 0x7A76B2030
+        public void AsSpan(){} // RVA: 0x7A7E2D250
+        public void TryCopyTo(){} // RVA: 0x7A7E2D330
+        public void Insert(){} // RVA: 0x7A7E2D490
+        public void Append(){} // RVA: 0x7A7E2D710
+        public void AppendSlow(){} // RVA: 0x7A7E2D540
+        public void AppendSpan(){} // RVA: 0x7A7E2D730
+        public void GrowAndAppend(){} // RVA: 0x7A7E2D810
+        public void Grow(){} // RVA: 0x7A7E2D820
+        public void Dispose(){} // RVA: 0x7A7E2D830
     }
 
-    public class ValueStringBuilder
+    public class ValueStringBuilder : ValueType
     {
-        public char[] _arrayToReturnToPool; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C580C0
-        public void get_Length(){} // RVA: 0x5BED50
-        public void ToString(){} // RVA: 0x6833AE0
-        public void TryCopyTo(){} // RVA: 0x6833BC0
-        public void Insert(){} // RVA: 0x6833D10
-        public void Append(){} // RVA: 0x68342F0 | overloaded x4
-        public void AppendSlow(){} // RVA: 0x6834070
-        public void AppendSpan(){} // RVA: 0x68343D0
-        public void GrowAndAppend(){} // RVA: 0x68344B0
-        public void Grow(){} // RVA: 0x68344F0
-        public void Dispose(){} // RVA: 0x68346F0
+        public void .ctor(){} // RVA: 0x7ADA461A0
+        public void get_Length(){} // RVA: 0x7A83782A0
+        public void get_Item(){} // RVA: 0x7AD9935B0
+        public void ToString(){} // RVA: 0x7ADA461B0
+        public void TryCopyTo(){} // RVA: 0x7ADA46290
+        public void Append(){} // RVA: 0x7ADA46780
+        public void AppendSlow(){} // RVA: 0x7ADA46500
+        public void AppendSpan(){} // RVA: 0x7ADA46860
+        public void GrowAndAppend(){} // RVA: 0x7ADA46940
+        public void Grow(){} // RVA: 0x7ADA46980
+        public void Dispose(){} // RVA: 0x7ADA46B80
+    }
+
+    public class ValueStringBuilder : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADA461A0
+        public void get_Length(){} // RVA: 0x7A83782A0
+        public void ToString(){} // RVA: 0x7AE622840
+        public void TryCopyTo(){} // RVA: 0x7AE622920
+        public void Insert(){} // RVA: 0x7AE622A70
+        public void Append(){} // RVA: 0x7AE623050
+        public void AppendSlow(){} // RVA: 0x7AE622DD0
+        public void AppendSpan(){} // RVA: 0x7AE623130
+        public void GrowAndAppend(){} // RVA: 0x7AE623210
+        public void Grow(){} // RVA: 0x7AE623250
+        public void Dispose(){} // RVA: 0x7AE623450
     }
 
 }

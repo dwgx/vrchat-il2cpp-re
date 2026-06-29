@@ -1,1358 +1,1243 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.CompilerServices
 // Classes: 98
-// Methods: 767
+// Methods: 745
 
 namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
-    public class AsyncIteratorMethodBuilder
+    public class AsyncIteratorMethodBuilder : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x62BBFB0
-        public void MoveNext(){} // RVA: 0x24B10
-        public void Complete(){} // RVA: 0x62BC060
+        public void Create(){} // RVA: 0x7AE0A7F00
+        public void MoveNext(){} // RVA: 0x7A7E18800
+        public void Complete(){} // RVA: 0x7A7E69110
     }
 
-    public class AsyncIteratorMethodBuilder
+    public class AsyncIteratorMethodBuilder : ValueType
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void MoveNext(){} // RVA: 0x24B10
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void Complete(){} // RVA: 0x5D44240
+        public void Create(){} // RVA: 0x7ABD32370
+        public void MoveNext(){} // RVA: 0x7A7E18800
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void Complete(){} // RVA: 0x7A7E31E60
     }
 
-    public class AsyncIteratorStateMachineAttribute
+    public class AsyncIteratorStateMachineAttribute : StateMachineAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class AsyncIteratorStateMachineAttribute
+    public class AsyncIteratorStateMachineAttribute : StateMachineAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class AsyncMethodBuilderAttribute
+    public class AsyncMethodBuilderAttribute : Attribute
     {
-        public System.Type <BuilderType>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_BuilderType(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void get_BuilderType(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class AsyncMethodBuilderAttribute
+    public class AsyncMethodBuilderAttribute : Attribute
     {
-        public System.Type <BuilderType>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class AsyncMethodBuilderAttribute
+    public class AsyncMethodBuilderAttribute : Attribute
     {
-        public System.Type <BuilderType>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class AsyncMethodBuilderCore
+    public class AsyncMethodBuilderCore : ValueType
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x24AE0
-        public void SetStateMachine(){} // RVA: 0x5D46E60
-        public void GetCompletionAction(){} // RVA: 0x5D46F70
-        public void OutputAsyncCausalityEvents(){} // RVA: 0x5D47190
-        public void PostBoxInitialization(){} // RVA: 0x5D47300
-        public void ThrowAsync(){} // RVA: 0x5D47490
-        public void CreateContinuationWrapper(){} // RVA: 0x5D47950
-        public void TryGetContinuationTask(){} // RVA: 0x5D47B70
+        public void Start(){} // RVA: 0x7A7E18830
+        public void SetStateMachine(){} // RVA: 0x7A7E322D0
+        public void GetCompletionAction(){} // RVA: 0x7A7E322E0
+        public void OutputAsyncCausalityEvents(){} // RVA: 0x7A7E322F0
+        public void PostBoxInitialization(){} // RVA: 0x7A7E32300
+        public void ThrowAsync(){} // RVA: 0x7ADB35740
+        public void CreateContinuationWrapper(){} // RVA: 0x7ADB35C00
+        public void TryGetContinuationTask(){} // RVA: 0x7ADB35E10
     }
 
-    public class AsyncStateMachineAttribute
+    public class AsyncStateMachineAttribute : StateMachineAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class AsyncTaskCache
+    public class AsyncStateMachineAttribute[] : Array
     {
         // ── Methods ──
-        public void CreateInt32Tasks(){} // RVA: 0x5D46AD0
-        public void CreateCacheableTask(){} // RVA: 0x283FA0
-        public void .cctor(){} // RVA: 0x5D46CB0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class AsyncTaskMethodBuilder
+    public class AsyncTaskCache : Object
     {
-        public System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> s_cachedCompleted;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x5D467F0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x5D46860
-        public void SetResult(){} // RVA: 0x5D468D0
-        public void SetException(){} // RVA: 0x5D46980
-        public void .cctor(){} // RVA: 0x5D46A00
+        public void CreateInt32Tasks(){} // RVA: 0x7ADB34D60
+        public void CreateCacheableTask(){} // RVA: 0x7AA3A6A60
+        public void .cctor(){} // RVA: 0x7ADB34F60
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder : ValueType
     {
-        public System.Threading.Tasks.Task`1<T> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x283FA0
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x24B10
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0xCD60
-        public void SetResult(){} // RVA: 0x24B10 | overloaded x2
-        public void SetException(){} // RVA: 0x24B10
-        public void GetTaskForResult(){} // RVA: 0x283FA0
-        public void .cctor(){} // RVA: 0x24A80
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7790960
+        public void SetStateMachine(){} // RVA: 0x7A7E32270
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7789600
+        public void get_Task(){} // RVA: 0x7A7E32280
+        public void SetResult(){} // RVA: 0x7A7E32290
+        public void SetException(){} // RVA: 0x7A7E322A0
+        public void .cctor(){} // RVA: 0x7ADB34C90
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<int> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52BA4F0
-        public void SetResult(){} // RVA: 0x52BA7F0 | overloaded x2
-        public void SetException(){} // RVA: 0x52BA8E0
-        public void GetTaskForResult(){} // RVA: 0x52BAAA0
-        public void .cctor(){} // RVA: 0x52BB7A0
+        public void Create(){} // RVA: 0x7A8051B10
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7E18800
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void GetTaskForResult(){} // RVA: 0x7A8051B10
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52D4DF0
-        public void SetResult(){} // RVA: 0x52D50F0 | overloaded x2
-        public void SetException(){} // RVA: 0x52D51E0
-        public void GetTaskForResult(){} // RVA: 0x52D53A0
-        public void .cctor(){} // RVA: 0x52D6110
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772D3C0
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A772D290
+        public void get_Task(){} // RVA: 0x7A7CCD2F0
+        public void SetResult(){} // RVA: 0x7A7CCD310
+        public void SetException(){} // RVA: 0x7A7CCD400
+        public void GetTaskForResult(){} // RVA: 0x7AD093440
+        public void .cctor(){} // RVA: 0x7AD094140
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Mediapipe.ImageFrame> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A772EDD0
+        public void get_Task(){} // RVA: 0x7A7CCEC70
+        public void SetResult(){} // RVA: 0x7A7CCEC90
+        public void SetException(){} // RVA: 0x7A7CCECA0
+        public void GetTaskForResult(){} // RVA: 0x7AD0ADD50
+        public void .cctor(){} // RVA: 0x7AD0AEAB0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<ÍÎÎÎÍÎÍÍÌÌÌÌÍÌÌÎÎÏÎÍÌÌÏ> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52DEF50
-        public void SetResult(){} // RVA: 0x52DF290 | overloaded x2
-        public void SetException(){} // RVA: 0x52DF3C0
-        public void GetTaskForResult(){} // RVA: 0x52DF580
-        public void .cctor(){} // RVA: 0x52E0450
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Mediapipe.Detection>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCF250
+        public void SetResult(){} // RVA: 0x7A7CCF2A0
+        public void SetException(){} // RVA: 0x7A7CCF3D0
+        public void GetTaskForResult(){} // RVA: 0x7AD0B5370
+        public void .cctor(){} // RVA: 0x7AD0B6240
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<ÍÍÎÎÎÎÌÍÎÏÍÍÎÏÍÍÌÎÎÍÍÌÏ> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52DC250
-        public void SetResult(){} // RVA: 0x52DC580 | overloaded x2
-        public void SetException(){} // RVA: 0x52DC690
-        public void GetTaskForResult(){} // RVA: 0x52DC850
-        public void .cctor(){} // RVA: 0x52DD6B0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<ÌÏÍÌÍÎÎÏÏÎÍÌÍÌÍÏÍÍÏÌÎÏÍ> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52DAAD0
-        public void SetResult(){} // RVA: 0x52DAE30 | overloaded x2
-        public void SetException(){} // RVA: 0x52DAF30
-        public void GetTaskForResult(){} // RVA: 0x52DB0F0
-        public void .cctor(){} // RVA: 0x52DC010
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CD1120
+        public void SetResult(){} // RVA: 0x7A7CD1160
+        public void SetException(){} // RVA: 0x7A7CD1270
+        public void GetTaskForResult(){} // RVA: 0x7AD0B6A80
+        public void .cctor(){} // RVA: 0x7AD0B78E0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<ÏÏÍÏÍÌÍÌÏÍÌÎÍÌÍÍÍÍÍÍÌÎÏ> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52E33C0
-        public void SetResult(){} // RVA: 0x52E3700 | overloaded x2
-        public void SetException(){} // RVA: 0x52E3800
-        public void GetTaskForResult(){} // RVA: 0x52E39C0
-        public void .cctor(){} // RVA: 0x52E4880
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCEE00
+        public void SetResult(){} // RVA: 0x7A7CCEE50
+        public void SetException(){} // RVA: 0x7A7CCEF60
+        public void GetTaskForResult(){} // RVA: 0x7AD0B0F00
+        public void .cctor(){} // RVA: 0x7AD0B1E20
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<ÍÍÏÎÎÌÍÌÍÌÌÎÎÎÎÌÏÏÎÍÎÌÌ> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52DD8F0
-        public void SetResult(){} // RVA: 0x52DDC10 | overloaded x2
-        public void SetException(){} // RVA: 0x52DDD10
-        public void GetTaskForResult(){} // RVA: 0x52DDED0
-        public void .cctor(){} // RVA: 0x52DED20
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CD1520
+        public void SetResult(){} // RVA: 0x7A7CD1570
+        public void SetException(){} // RVA: 0x7A7CD1670
+        public void GetTaskForResult(){} // RVA: 0x7AD0BAD30
+        public void .cctor(){} // RVA: 0x7AD0BBBF0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<ÎÎÌÏÎÏÏÎÍÎÏÍÎÎÎÍÎÏÏÌÎÎÍ> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CD1280
+        public void SetResult(){} // RVA: 0x7A7CD12C0
+        public void SetException(){} // RVA: 0x7A7CD13C0
+        public void GetTaskForResult(){} // RVA: 0x7AD0B8100
+        public void .cctor(){} // RVA: 0x7AD0B8F50
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.ValueTuple`2<bool,UnityEngine.Purchasing.Extension.PurchaseFailureDescription>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x5260F40
-        public void SetResult(){} // RVA: 0x5261250 | overloaded x2
-        public void SetException(){} // RVA: 0x5261350
-        public void GetTaskForResult(){} // RVA: 0x5261510
-        public void .cctor(){} // RVA: 0x5262250
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<VRC.Core.ApiPendingTransaction>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CC4650
+        public void SetResult(){} // RVA: 0x7A7CC4680
+        public void SetException(){} // RVA: 0x7A7CC4780
+        public void GetTaskForResult(){} // RVA: 0x7AD039ED0
+        public void .cctor(){} // RVA: 0x7AD03AC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiVRChatProductDetails>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<bool> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52AA960
-        public void SetResult(){} // RVA: 0x52AAC60 | overloaded x2
-        public void SetException(){} // RVA: 0x52AAD50
-        public void GetTaskForResult(){} // RVA: 0x52AAF10
-        public void .cctor(){} // RVA: 0x52ABC20
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.ValueTuple`3<bool,string,UnityEngine.Texture2D>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x528A790
-        public void SetResult(){} // RVA: 0x528AAC0 | overloaded x2
-        public void SetException(){} // RVA: 0x528ABD0
-        public void GetTaskForResult(){} // RVA: 0x528AD90
-        public void .cctor(){} // RVA: 0x528BBF0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772D020
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A772CED0
+        public void get_Task(){} // RVA: 0x7A7CCBD70
+        public void SetResult(){} // RVA: 0x7A7CCBD90
+        public void SetException(){} // RVA: 0x7A7CCBE80
+        public void GetTaskForResult(){} // RVA: 0x7AD0838B0
+        public void .cctor(){} // RVA: 0x7AD0845C0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<VRC.Economy.IProduct[]> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void GetTaskForResult(){} // RVA: 0x7AD063760
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CC8CC0
+        public void SetResult(){} // RVA: 0x7A7CC8D00
+        public void SetException(){} // RVA: 0x7A7CC8E10
+        public void .cctor(){} // RVA: 0x7AD0645C0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<Mediapipe.NormalizedLandmarkList>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<Mediapipe.LandmarkList>> s_defaultResultTask;
+        // ── Methods ──
+        public void Start(){} // RVA: 0x7A7E18800
+        public void Create(){} // RVA: 0x7ABD32370
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A772D570
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<Mediapipe.Detection>>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void get_Task(){} // RVA: 0x7A7CC8390
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A772CD50
+        public void SetResult(){} // RVA: 0x7A7CC83C0
+        public void SetException(){} // RVA: 0x7A7CC84C0
+        public void GetTaskForResult(){} // RVA: 0x7AD059DB0
+        public void .cctor(){} // RVA: 0x7AD05ABA0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Net.Sockets.Socket> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7C8C120
+        public void SetResult(){} // RVA: 0x7A7C8C160
+        public void SetException(){} // RVA: 0x7A7C8C270
+        public void GetTaskForResult(){} // RVA: 0x7ACAB7F10
+        public void .cctor(){} // RVA: 0x7ACAB8C50
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<Mediapipe.ImageFrame>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7C8C280
+        public void SetResult(){} // RVA: 0x7A7C8C2B0
+        public void SetException(){} // RVA: 0x7A7C8C3B0
+        public void GetTaskForResult(){} // RVA: 0x7ACAB93F0
+        public void .cctor(){} // RVA: 0x7ACABA0F0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<Mediapipe.Detection>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CC10
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A772CBF0
+        public void get_Task(){} // RVA: 0x7A7C8C3C0
+        public void SetResult(){} // RVA: 0x7A7C8C3E0
+        public void SetException(){} // RVA: 0x7A7C8C4D0
+        public void GetTaskForResult(){} // RVA: 0x7ACABA860
+        public void .cctor(){} // RVA: 0x7ACABAB40
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<...>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772E740
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<...>>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCC0D0
+        public void SetResult(){} // RVA: 0x7A7CCC0F0
+        public void SetException(){} // RVA: 0x7A7CCC1E0
+        public void GetTaskForResult(){} // RVA: 0x7AD087660
+        public void .cctor(){} // RVA: 0x7AD0883D0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<...>>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<...>>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<NextResult<System.Collections.Generic.List`1<...>>> s_defaultResultTask;
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<byte[]> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.IO.Stream> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<string> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Sentry.GraphQLRequestContent> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Nullable`1<System.Text.Json.JsonElement>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x4CD4FB0
-        public void SetResult(){} // RVA: 0x4CD52E0 | overloaded x2
-        public void SetException(){} // RVA: 0x4CD53F0
-        public void GetTaskForResult(){} // RVA: 0x4CD55B0
-        public void .cctor(){} // RVA: 0x4CD6390
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Sentry.Protocol.Envelopes.Envelope> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyDictionary`2<string,object>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A772CB40
+        public void get_Task(){} // RVA: 0x7A7C8BC10
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.IO.MemoryStream> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Sentry.Protocol.Envelopes.EnvelopeItem> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Collections.Generic.Dictionary`2<string,object>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Sentry.Protocol.Envelopes.ISerializable> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.IDisposable> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7C8C740
+        public void SetResult(){} // RVA: 0x7A7C8C780
+        public void SetException(){} // RVA: 0x7A7C8C890
+        public void GetTaskForResult(){} // RVA: 0x7ACABD240
+        public void .cctor(){} // RVA: 0x7ACABE010
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Text.Json.JsonElement> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52BE280
-        public void SetResult(){} // RVA: 0x52BE590 | overloaded x2
-        public void SetException(){} // RVA: 0x52BE690
-        public void GetTaskForResult(){} // RVA: 0x52BE850
-        public void .cctor(){} // RVA: 0x52BF640
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Nullable`1<bool>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x4CCC850
-        public void SetResult(){} // RVA: 0x4CCCB50 | overloaded x2
-        public void SetException(){} // RVA: 0x4CCCC50
-        public void GetTaskForResult(){} // RVA: 0x4CCCE10
-        public void .cctor(){} // RVA: 0x4CCD0F0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Nullable`1<System.DateTime>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x4CCD2B0
-        public void SetResult(){} // RVA: 0x4CCD5C0 | overloaded x2
-        public void SetException(){} // RVA: 0x4CCD6C0
-        public void GetTaskForResult(){} // RVA: 0x4CCD880
-        public void .cctor(){} // RVA: 0x4CCE590
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Nullable`1<System.DateTimeOffset>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x4CCE750
-        public void SetResult(){} // RVA: 0x4CCEA80 | overloaded x2
-        public void SetException(){} // RVA: 0x4CCEB90
-        public void GetTaskForResult(){} // RVA: 0x4CCED50
-        public void .cctor(){} // RVA: 0x4CCFA90
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Nullable`1<System.Decimal>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x4CCFC60
-        public void SetResult(){} // RVA: 0x4CCFF90 | overloaded x2
-        public void SetException(){} // RVA: 0x4CD00A0
-        public void GetTaskForResult(){} // RVA: 0x4CD0260
-        public void .cctor(){} // RVA: 0x4CD0FA0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Nullable`1<double>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x4CD1170
-        public void SetResult(){} // RVA: 0x4CD1480 | overloaded x2
-        public void SetException(){} // RVA: 0x4CD1580
-        public void GetTaskForResult(){} // RVA: 0x4CD1740
-        public void .cctor(){} // RVA: 0x4CD2450
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Nullable`1<int>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x4CD2610
-        public void SetResult(){} // RVA: 0x4CD2910 | overloaded x2
-        public void SetException(){} // RVA: 0x4CD2A00
-        public void GetTaskForResult(){} // RVA: 0x4CD2BC0
-        public void .cctor(){} // RVA: 0x4CD2EA0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<object> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<char> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52AE710
-        public void SetResult(){} // RVA: 0x52AEA10 | overloaded x2
-        public void SetException(){} // RVA: 0x52AEB00
-        public void GetTaskForResult(){} // RVA: 0x52AECC0
-        public void .cctor(){} // RVA: 0x52AFA30
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCD650
+        public void SetResult(){} // RVA: 0x7A7CCD680
+        public void SetException(){} // RVA: 0x7A7CCD780
+        public void GetTaskForResult(){} // RVA: 0x7AD0971F0
+        public void .cctor(){} // RVA: 0x7AD097FE0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JArray> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7C8BD50
+        public void SetResult(){} // RVA: 0x7A7C8BD70
+        public void SetException(){} // RVA: 0x7A7C8BE70
+        public void GetTaskForResult(){} // RVA: 0x7ACAB4AD0
+        public void .cctor(){} // RVA: 0x7ACAB4DB0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JConstructor> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7C8BE80
+        public void SetResult(){} // RVA: 0x7A7C8BEB0
+        public void SetException(){} // RVA: 0x7A7C8BFB0
+        public void GetTaskForResult(){} // RVA: 0x7ACAB5540
+        public void .cctor(){} // RVA: 0x7ACAB6240
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JObject> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7C8BFC0
+        public void SetResult(){} // RVA: 0x7A7C8C000
+        public void SetException(){} // RVA: 0x7A7C8C110
+        public void GetTaskForResult(){} // RVA: 0x7ACAB6A00
+        public void .cctor(){} // RVA: 0x7ACAB7740
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JProperty> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JRaw> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Newtonsoft.Json.Linq.JToken> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Text.Json.JsonDocument> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.ArraySegment`1<byte>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x4CC8680
-        public void SetResult(){} // RVA: 0x4CC8990 | overloaded x2
-        public void SetException(){} // RVA: 0x4CC8A90
-        public void GetTaskForResult(){} // RVA: 0x4CC8C50
-        public void .cctor(){} // RVA: 0x4CC9A40
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<UnityEngine.Purchasing.Interfaces.IGooglePurchase> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<UnityEngine.Purchasing.Interfaces.IGooglePurchase>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<MeaMod.DNS.Model.Message> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7C8B990
+        public void SetResult(){} // RVA: 0x7A7C8B9C0
+        public void SetException(){} // RVA: 0x7A7C8BAC0
+        public void GetTaskForResult(){} // RVA: 0x7ACAB0910
+        public void .cctor(){} // RVA: 0x7ACAB1700
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<VRC.OSCQuery.HostInfo> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<VRC.OSCQuery.OSCQueryRootNode> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<Unity.Services.Core.Internal.PackageInitializationInfo>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Unity.Services.Core.Configuration.ProjectConfiguration> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Unity.Services.Core.Configuration.SerializableProjectConfiguration> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C79E0
-        public void SetResult(){} // RVA: 0x52C7CF0 | overloaded x2
-        public void SetException(){} // RVA: 0x52C7DF0
-        public void GetTaskForResult(){} // RVA: 0x52C7FB0
-        public void .cctor(){} // RVA: 0x52C8DA0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<Mono.Net.Security.AsyncProtocolResult> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Net.HttpWebResponse> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.ValueTuple`5<System.Net.HttpWebResponse,bool,bool,System.Net.BufferOffsetSize,System.Net.WebOperation>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x5299DD0
-        public void SetResult(){} // RVA: 0x529A0F0 | overloaded x2
-        public void SetException(){} // RVA: 0x529A1F0
-        public void GetTaskForResult(){} // RVA: 0x529A3B0
-        public void .cctor(){} // RVA: 0x529B200
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCE0C0
+        public void SetResult(){} // RVA: 0x7A7CCE0F0
+        public void SetException(){} // RVA: 0x7A7CCE1F0
+        public void GetTaskForResult(){} // RVA: 0x7AD0A0970
+        public void .cctor(){} // RVA: 0x7AD0A1760
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Net.BufferOffsetSize> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Net.WebRequestStream> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCAD70
+        public void SetResult(){} // RVA: 0x7A7CCADB0
+        public void SetException(){} // RVA: 0x7A7CCAEB0
+        public void GetTaskForResult(){} // RVA: 0x7AD072D70
+        public void .cctor(){} // RVA: 0x7AD073BC0
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.ValueTuple`3<System.Net.WebHeaderCollection,byte[],int>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x5292A20
-        public void SetResult(){} // RVA: 0x5292D50 | overloaded x2
-        public void SetException(){} // RVA: 0x5292E60
-        public void GetTaskForResult(){} // RVA: 0x5293020
-        public void .cctor(){} // RVA: 0x5293E80
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Text.Json.JsonDocument> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Exception> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCA620
+        public void SetResult(){} // RVA: 0x7A7CCA660
+        public void SetException(){} // RVA: 0x7A7CCA770
+        public void GetTaskForResult(){} // RVA: 0x7AD06B9E0
+        public void .cctor(){} // RVA: 0x7AD06C840
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Text.Json.Nodes.JsonNode> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C2510
-        public void SetResult(){} // RVA: 0x52C2820 | overloaded x2
-        public void SetException(){} // RVA: 0x52C2910
-        public void GetTaskForResult(){} // RVA: 0x52C2AD0
-        public void .cctor(){} // RVA: 0x52C2DB0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.Text.Json.Serialization.ReadBufferState> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x52C4F10
-        public void SetResult(){} // RVA: 0x52C5240 | overloaded x2
-        public void SetException(){} // RVA: 0x52C5350
-        public void GetTaskForResult(){} // RVA: 0x52C5510
-        public void .cctor(){} // RVA: 0x52C6370
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncTaskMethodBuilder`1
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Threading.Tasks.Task`1<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>> s_defaultResultTask;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x3F3ED10
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x4CC8670
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Task(){} // RVA: 0x5280E10
-        public void SetResult(){} // RVA: 0x5281120 | overloaded x2
-        public void SetException(){} // RVA: 0x5281220
-        public void GetTaskForResult(){} // RVA: 0x52813E0
-        public void .cctor(){} // RVA: 0x52821D0
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDA60
+        public void SetResult(){} // RVA: 0x7A7CCDA80
+        public void SetException(){} // RVA: 0x7A7CCDB70
+        public void GetTaskForResult(){} // RVA: 0x7AD09B470
+        public void .cctor(){} // RVA: 0x7AD09B750
     }
 
-    public class AsyncValueTaskMethodBuilder
+    public class AsyncTaskMethodBuilder`1 : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Task; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x4F85940
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x636A1B0
-        public void SetResult(){} // RVA: 0x636A210
-        public void SetException(){} // RVA: 0x636A270
-        public void get_Task(){} // RVA: 0x636A2D0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void Create(){} // RVA: 0x7ABD32370
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7C8B980
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
+        public void get_Task(){} // RVA: 0x7A7CCDE40
+        public void SetResult(){} // RVA: 0x7A7CCDE80
+        public void SetException(){} // RVA: 0x7A7CCDF90
+        public void GetTaskForResult(){} // RVA: 0x7AD09DED0
+        public void .cctor(){} // RVA: 0x7AD09ED30
     }
 
-    public class AsyncValueTaskMethodBuilder
+    public class AsyncValueTaskMethodBuilder : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Task; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x4F85940
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x5D44290
-        public void SetResult(){} // RVA: 0x5D442F0
-        public void SetException(){} // RVA: 0x5D44350
-        public void get_Task(){} // RVA: 0x5D443B0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void Create(){} // RVA: 0x7ACE64410
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7E73420
+        public void SetResult(){} // RVA: 0x7A7E73430
+        public void SetException(){} // RVA: 0x7A7E73440
+        public void get_Task(){} // RVA: 0x7A7E73450
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
     }
 
-    public class AsyncValueTaskMethodBuilder`1
+    public class AsyncValueTaskMethodBuilder : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<T> _methodBuilder;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x283FA0
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x24B10
-        public void SetResult(){} // RVA: 0x283FA0
-        public void SetException(){} // RVA: 0x24B10
-        public void get_Task(){} // RVA: 0x283FA0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void Create(){} // RVA: 0x7ACE64410
+        public void Start(){} // RVA: 0x7A77A5B70
+        public void SetStateMachine(){} // RVA: 0x7A7E31EB0
+        public void SetResult(){} // RVA: 0x7A7E31EC0
+        public void SetException(){} // RVA: 0x7A7E31ED0
+        public void get_Task(){} // RVA: 0x7A7E31EE0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A77A5A30
     }
 
-    public class AsyncValueTaskMethodBuilder`1
+    public class AsyncValueTaskMethodBuilder`1 : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ValueTuple`3<bool,string,UnityEngine.Texture2D>> _methodBuilder; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x4F4D310
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x55718A0
-        public void SetResult(){} // RVA: 0x55722C0
-        public void SetException(){} // RVA: 0x55723E0
-        public void get_Task(){} // RVA: 0x5572480
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void Create(){} // RVA: 0x7A8051B10
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7E18800
+        public void SetResult(){} // RVA: 0x7A8051B10
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_Task(){} // RVA: 0x7A8051B10
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
     }
 
-    public class AsyncValueTaskMethodBuilder`1
+    public class AsyncValueTaskMethodBuilder`1 : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool> _methodBuilder; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x4F85940
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x55718A0
-        public void SetResult(){} // RVA: 0x55728D0
-        public void SetException(){} // RVA: 0x5572990
-        public void get_Task(){} // RVA: 0x5572A30
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void Create(){} // RVA: 0x7ACE61980
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7CD43E0
+        public void SetResult(){} // RVA: 0x7A7CD43F0
+        public void SetException(){} // RVA: 0x7A7CD4420
+        public void get_Task(){} // RVA: 0x7A7CD4430
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
     }
 
-    public class AsyncValueTaskMethodBuilder`1
+    public class AsyncValueTaskMethodBuilder`1 : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Text.Json.Serialization.ReadBufferState> _methodBuilder; // 0x10
+        // ── Methods ──
+        public void Create(){} // RVA: 0x7ACE64410
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7CD4280
+        public void SetResult(){} // RVA: 0x7A7CD44C0
+        public void SetException(){} // RVA: 0x7A7CD44D0
+        public void get_Task(){} // RVA: 0x7A7CD44E0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
     }
 
-    public class AsyncValueTaskMethodBuilder`1
+    public class AsyncValueTaskMethodBuilder`1 : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int> _methodBuilder; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x4F85940
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x55718A0
-        public void SetResult(){} // RVA: 0x5574CA0
-        public void SetException(){} // RVA: 0x5574D50
-        public void get_Task(){} // RVA: 0x5574DF0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void Create(){} // RVA: 0x7ACE64410
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7CD4280
+        public void SetResult(){} // RVA: 0x7A7CD4950
+        public void SetException(){} // RVA: 0x7A7CD4960
+        public void get_Task(){} // RVA: 0x7A7CD4970
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
     }
 
-    public class AsyncValueTaskMethodBuilder`1
+    public class AsyncValueTaskMethodBuilder`1 : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Exception> _methodBuilder; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x14E9030
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x55718A0
-        public void SetResult(){} // RVA: 0x5575BA0
-        public void SetException(){} // RVA: 0x5575CB0
-        public void get_Task(){} // RVA: 0x5575D50
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void Create(){} // RVA: 0x7A92FA0D0
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7CD43E0
+        public void SetResult(){} // RVA: 0x7A7CD4B60
+        public void SetException(){} // RVA: 0x7A7CD4B70
+        public void get_Task(){} // RVA: 0x7A7CD4B80
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
     }
 
-    public class AsyncValueTaskMethodBuilder`1
+    public class AsyncValueTaskMethodBuilder`1 : ValueType
     {
-        public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Text.Json.Serialization.ReadBufferState> _methodBuilder; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x4F4D310
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x55718A0
-        public void SetResult(){} // RVA: 0x5575EC0
-        public void SetException(){} // RVA: 0x5575FE0
-        public void get_Task(){} // RVA: 0x5576080
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
+        public void Create(){} // RVA: 0x7ACE61980
+        public void Start(){} // RVA: 0x7A7E18800
+        public void SetStateMachine(){} // RVA: 0x7A7CD4280
+        public void SetResult(){} // RVA: 0x7A7CD4BC0
+        public void SetException(){} // RVA: 0x7A7CD4BF0
+        public void get_Task(){} // RVA: 0x7A7CD4C00
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A7E18890
     }
 
-    public class AsyncVoidMethodBuilder
+    public class AsyncVoidMethodBuilder : ValueType
     {
-        public System.Threading.SynchronizationContext m_synchronizationContext; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x5D46570
-        public void Start(){} // RVA: 0x24B10
-        public void SetStateMachine(){} // RVA: 0x5D46610
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void SetResult(){} // RVA: 0x5D46620
-        public void SetException(){} // RVA: 0x5D46630
-        public void NotifySynchronizationContextOfCompletion(){} // RVA: 0x5D46700
-        public void get_Task(){} // RVA: 0x5D46750
+        public void Create(){} // RVA: 0x7ADB34800
+        public void Start(){} // RVA: 0x7A77A6000
+        public void SetStateMachine(){} // RVA: 0x7A7E321F0
+        public void AwaitUnsafeOnCompleted(){} // RVA: 0x7A77A5D80
+        public void SetResult(){} // RVA: 0x7A7E32200
+        public void SetException(){} // RVA: 0x7A7E32220
+        public void NotifySynchronizationContextOfCompletion(){} // RVA: 0x7A7E32230
+        public void get_Task(){} // RVA: 0x7A7E32240
     }
 
 }

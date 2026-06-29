@@ -1,91 +1,68 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Burst.Intrinsics
-// Classes: 13
+// Classes: 7
 // Methods: 25
 
 namespace ThirdParty.Other.Unity.Burst.Intrinsics
 {
-    public class BurstTargetCpuAttribute
-    {
-    }
-
-    public class Common
+    public class Common : Object
     {
         // ── Methods ──
-        public void umul128(){} // RVA: 0x6D74490
+        public void umul128(){} // RVA: 0x7AEB62270
     }
 
-    public class DoGetCSRTrampoline_0000012A$BurstDirectCall
+    public class DoGetCSRTrampoline_0000012A$BurstDirectCall : Object
     {
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x6D75610
-        public void GetFunctionPointer(){} // RVA: 0x6D75750
-        public void Constructor(){} // RVA: 0x6D758C0
-        public void Initialize(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x6D758C0
-        public void Invoke(){} // RVA: 0x6D75980
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7AEB63380
+        public void GetFunctionPointer(){} // RVA: 0x7AEB634C0
+        public void Constructor(){} // RVA: 0x7AEB63640
+        public void Initialize(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AEB63640
+        public void Invoke(){} // RVA: 0x7AEB63700
     }
 
-    public class DoGetCSRTrampoline_0000012A$PostfixBurstDelegate
+    public class DoGetCSRTrampoline_0000012A$PostfixBurstDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2BB9710
-        public void Invoke(){} // RVA: 0x33BA50
+        public void .ctor(){} // RVA: 0x7AA987EB0
+        public void Invoke(){} // RVA: 0x7A8135ED0
     }
 
-    public class DoSetCSRTrampoline_00000129$BurstDirectCall
+    public class DoSetCSRTrampoline_00000129$BurstDirectCall : Object
     {
         // ── Methods ──
-        public void GetFunctionPointerDiscard(){} // RVA: 0x6D750B0
-        public void GetFunctionPointer(){} // RVA: 0x6D751F0
-        public void Constructor(){} // RVA: 0x6D75360
-        public void Initialize(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x6D75360
-        public void Invoke(){} // RVA: 0x6D75420
+        public void GetFunctionPointerDiscard(){} // RVA: 0x7AEB62E10
+        public void GetFunctionPointer(){} // RVA: 0x7AEB62F50
+        public void Constructor(){} // RVA: 0x7AEB630D0
+        public void Initialize(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AEB630D0
+        public void Invoke(){} // RVA: 0x7AEB63190
     }
 
-    public class DoSetCSRTrampoline_00000129$PostfixBurstDelegate
+    public class DoSetCSRTrampoline_00000129$PostfixBurstDelegate : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3CE370
-        public void Invoke(){} // RVA: 0x338C60
+        public void .ctor(){} // RVA: 0x7A81C9250
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class V128DebugView
-    {
-    }
-
-    public class V256DebugView
-    {
-    }
-
-    public class V64DebugView
-    {
-    }
-
-    public class X86
+    public class X86 : Object
     {
         // ── Methods ──
-        public void BurstIntrinsicSetCSRFromManaged(){} // RVA: 0x2DD310
-        public void BurstIntrinsicGetCSRFromManaged(){} // RVA: 0x519240
-        public void DoSetCSRTrampoline(){} // RVA: 0x6D74520
-        public void DoGetCSRTrampoline(){} // RVA: 0x6D74740
-        public void DoSetCSRTrampoline$BurstManaged(){} // RVA: 0x1020CE0
-        public void DoGetCSRTrampoline$BurstManaged(){} // RVA: 0x3E0F620
+        public void BurstIntrinsicSetCSRFromManaged(){} // RVA: 0x7A80D7310
+        public void BurstIntrinsicGetCSRFromManaged(){} // RVA: 0x7A82D1450
+        public void DoSetCSRTrampoline(){} // RVA: 0x7AEB622F0
+        public void DoGetCSRTrampoline(){} // RVA: 0x7AEB62510
+        public void DoSetCSRTrampoline$BurstManaged(){} // RVA: 0x7A8DD7270
+        public void DoGetCSRTrampoline$BurstManaged(){} // RVA: 0x7ABC0A600
     }
 
-    public class v128
-    {
-    }
-
-    public class v256
+    public class v256 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1E607B0 | overloaded x2
-    }
-
-    public class v64
-    {
+        public void .ctor(){} // RVA: 0x7A767EFE0
+        public void Byte0(){} // RVA: 0x7B416F7E8
     }
 
 }

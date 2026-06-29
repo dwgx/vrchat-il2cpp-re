@@ -5,29 +5,30 @@
 
 namespace VRC.PlayerDrone
 {
-    public class PIDController
+    public class PIDController : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xA38E90
-        public void InternalEquals(){} // RVA: 0xA38EA0
-        public void DefaultEquals(){} // RVA: 0xA38F60
-        public void GetHashCode(){} // RVA: 0xA39020
-        public void InternalGetHashCode(){} // RVA: 0xA39040
-        public void ToString(){} // RVA: 0xA39100
-        public void GetHashCodeOfPtr(){} // RVA: 0xA391C0
+        public void Equals(){} // RVA: 0x7A761BBF0
+        public void InternalEquals(){} // RVA: 0x7A761BC00
+        public void DefaultEquals(){} // RVA: 0x7A761BC10
+        public void GetHashCode(){} // RVA: 0x7A761BC20
+        public void InternalGetHashCode(){} // RVA: 0x7A761BC40
+        public void ToString(){} // RVA: 0x7A761BC50
+        public void GetHashCodeOfPtr(){} // RVA: 0x7A761BD10
     }
 
-    public class PIDControllerQuaternion
+    public class PIDControllerQuaternion : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xA39280
-        public void InternalEquals(){} // RVA: 0xA396A0
-        public void DefaultEquals(){} // RVA: 0xA396A0
-        public void GetHashCode(){} // RVA: 0xA396A0
-        public void InternalGetHashCode(){} // RVA: 0xA396A0
-        public void ToString(){} // RVA: 0xA39730
-        public void GetHashCodeOfPtr(){} // RVA: 0xA396A0
-        public void ComputeQuaternionControlOutput(){} // RVA: 0xA39B50
+        public void Equals(){} // RVA: 0x7A761BD20
+        public void InternalEquals(){} // RVA: 0x7A761BDB0
+        public void DefaultEquals(){} // RVA: 0x7A761BDB0
+        public void GetHashCode(){} // RVA: 0x7A761BDB0
+        public void InternalGetHashCode(){} // RVA: 0x7A761BE40
+        public void ToString(){} // RVA: 0x7A761BE50
+        public void GetHashCodeOfPtr(){} // RVA: 0x7A761BE40
+        // ── Unresolved (hash) ──
+        public void m_97C(){} // RVA: 0x7A761BEE0
     }
 
 }

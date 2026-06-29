@@ -5,26 +5,24 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Nist
 {
-    public class NistNamedCurves
+    public class NistNamedCurves : Object
     {
-        public System.Collections.IDictionary objIds;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void DefineCurveAlias(){} // RVA: 0x978DB20
-        public void .cctor(){} // RVA: 0x978DC30
-        public void GetByName(){} // RVA: 0x978E130
-        public void GetByOid(){} // RVA: 0x978E1F0
-        public void GetOid(){} // RVA: 0x978E240
-        public void GetName(){} // RVA: 0x978E360
-        public void get_Names(){} // RVA: 0x978E420
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void DefineCurveAlias(){} // RVA: 0x7B15C82A0
+        public void .cctor(){} // RVA: 0x7B15C83B0
+        public void GetByName(){} // RVA: 0x7B15C88B0
+        public void GetByOid(){} // RVA: 0x7B15C8970
+        public void GetOid(){} // RVA: 0x7B15C89C0
+        public void GetName(){} // RVA: 0x7B15C8AE0
+        public void get_Names(){} // RVA: 0x7B15C8BA0
     }
 
-    public class NistObjectIdentifiers
+    public class NistObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x978E570
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B15C8CF0
     }
 
 }

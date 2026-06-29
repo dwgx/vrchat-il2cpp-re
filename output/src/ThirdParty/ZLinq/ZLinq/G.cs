@@ -5,10 +5,10 @@
 
 namespace ThirdParty.ZLinq.ZLinq
 {
-    public class GC
+    public class GC : Object
     {
         // ── Methods ──
-        public void AllocateUninitializedArray(){} // RVA: 0x127A0
+        public void AllocateUninitializedArray(){} // RVA: 0x7AA4B04D0
     }
 
 }

@@ -1,288 +1,257 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.FlatBuffers.FlatBuffers8
 // Classes: 20
-// Methods: 159
+// Methods: 149
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
-    public class DataStorage
+    public class DataStorage : ValueType
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsDataStorage(){} // RVA: 0x75E0C40 | overloaded x2
-        public void VerifyDataStorage(){} // RVA: 0x75E1B70
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void EntriesType(){} // RVA: 0x75E11F0
-        public void get_EntriesTypeLength(){} // RVA: 0x75E1270
-        public void GetEntriesTypeBytes(){} // RVA: 0x75E1C60
-        public void GetEntriesTypeArray(){} // RVA: 0x75E1CD0
-        public void Entries(){} // RVA: 0x283FA0
-        public void get_EntriesLength(){} // RVA: 0x75E1E80
-        public void CreateDataStorage(){} // RVA: 0x75E1EF0
-        public void StartDataStorage(){} // RVA: 0x75E1FE0
-        public void AddEntriesType(){} // RVA: 0x75E0ED0
-        public void CreateEntriesTypeVector(){} // RVA: 0x75E1460
-        public void CreateEntriesTypeVectorBlock(){} // RVA: 0x75E2160 | overloaded x3
-        public void StartEntriesTypeVector(){} // RVA: 0x75E1700
-        public void AddEntries(){} // RVA: 0x75E21F0
-        public void CreateEntriesVector(){} // RVA: 0x75E2230
-        public void CreateEntriesVectorBlock(){} // RVA: 0x75E2410 | overloaded x3
-        public void StartEntriesVector(){} // RVA: 0x75E1700
-        public void EndDataStorage(){} // RVA: 0x75E24A0
-        public void FinishDataStorageBuffer(){} // RVA: 0x75E2530
-        public void FinishSizePrefixedDataStorageBuffer(){} // RVA: 0x75E2590
-        public void UnPack(){} // RVA: 0x75E2610
-        public void UnPackTo(){} // RVA: 0x75E26C0
-        public void Pack(){} // RVA: 0x75E2DF0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsDataStorage(){} // RVA: 0x7AF3BF190
+        public void VerifyDataStorage(){} // RVA: 0x7AF3C00D0
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void EntriesType(){} // RVA: 0x7A7F12810
+        public void get_EntriesTypeLength(){} // RVA: 0x7A7F12930
+        public void GetEntriesTypeBytes(){} // RVA: 0x7A7F129A0
+        public void GetEntriesTypeArray(){} // RVA: 0x7A7F12A10
+        public void Entries(){} // RVA: 0x7A8051B10
+        public void get_EntriesLength(){} // RVA: 0x7A7F12A20
+        public void CreateDataStorage(){} // RVA: 0x7AF3C0450
+        public void StartDataStorage(){} // RVA: 0x7AF3C0540
+        public void AddEntriesType(){} // RVA: 0x7AF3BF420
+        public void CreateEntriesTypeVector(){} // RVA: 0x7AF3BF9B0
+        public void CreateEntriesTypeVectorBlock(){} // RVA: 0x7AF3C06C0
+        public void StartEntriesTypeVector(){} // RVA: 0x7AF3BFC60
+        public void AddEntries(){} // RVA: 0x7AF3C0750
+        public void CreateEntriesVector(){} // RVA: 0x7AF3C0790
+        public void CreateEntriesVectorBlock(){} // RVA: 0x7AF3C0980
+        public void StartEntriesVector(){} // RVA: 0x7AF3BFC60
+        public void EndDataStorage(){} // RVA: 0x7AF3C0A10
+        public void FinishDataStorageBuffer(){} // RVA: 0x7AF3C0AA0
+        public void FinishSizePrefixedDataStorageBuffer(){} // RVA: 0x7AF3C0B00
+        public void UnPack(){} // RVA: 0x7A7F12A30
+        public void UnPackTo(){} // RVA: 0x7A7F12A40
+        public void Pack(){} // RVA: 0x7AF3C1360
     }
 
-    public class DataStorageBool
+    public class DataStorageBool : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_Value(){} // RVA: 0x75E0670
-        public void CreateDataStorageBool(){} // RVA: 0x75E06A0
-        public void UnPack(){} // RVA: 0x75E0770
-        public void UnPackTo(){} // RVA: 0x75E07E0
-        public void Pack(){} // RVA: 0x75E0820
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_Value(){} // RVA: 0x7A7F124C0
+        public void CreateDataStorageBool(){} // RVA: 0x7AF3BEBF0
+        public void UnPack(){} // RVA: 0x7A7F124F0
+        public void UnPackTo(){} // RVA: 0x7A7F12500
+        public void Pack(){} // RVA: 0x7AF3BED70
     }
 
-    public class DataStorageBoolT
+    public class DataStorageBoolT : Object
     {
-        public bool ByteBuffer; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x3A75E0
-        public void set_Value(){} // RVA: 0x3A75F0
-        public void .ctor(){} // RVA: 0x6BDA00
+        public void get_Value(){} // RVA: 0x7A81A2200
+        public void set_Value(){} // RVA: 0x7A81A2210
+        public void .ctor(){} // RVA: 0x7A847A460
     }
 
-    public class DataStorageBytes
+    public class DataStorageBytes : ValueType
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsDataStorageBytes(){} // RVA: 0x75E0C40 | overloaded x2
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Value(){} // RVA: 0x75E11F0
-        public void get_ValueLength(){} // RVA: 0x75E1270
-        public void GetValueBytes(){} // RVA: 0x75E12E0
-        public void GetValueArray(){} // RVA: 0x75E1350
-        public void CreateDataStorageBytes(){} // RVA: 0x75E13A0
-        public void StartDataStorageBytes(){} // RVA: 0x75E0EB0
-        public void AddValue(){} // RVA: 0x75E0ED0
-        public void CreateValueVector(){} // RVA: 0x75E1460
-        public void CreateValueVectorBlock(){} // RVA: 0x75E1670 | overloaded x3
-        public void StartValueVector(){} // RVA: 0x75E1700
-        public void EndDataStorageBytes(){} // RVA: 0x75E1730
-        public void UnPack(){} // RVA: 0x75E17C0
-        public void UnPackTo(){} // RVA: 0x75E1870
-        public void Pack(){} // RVA: 0x75E1A80
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsDataStorageBytes(){} // RVA: 0x7AF3BF190
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Value(){} // RVA: 0x7A7F12810
+        public void get_ValueLength(){} // RVA: 0x7A7F12820
+        public void GetValueBytes(){} // RVA: 0x7A7F12830
+        public void GetValueArray(){} // RVA: 0x7A7F128A0
+        public void CreateDataStorageBytes(){} // RVA: 0x7AF3BF8F0
+        public void StartDataStorageBytes(){} // RVA: 0x7AF3BF400
+        public void AddValue(){} // RVA: 0x7AF3BF420
+        public void CreateValueVector(){} // RVA: 0x7AF3BF9B0
+        public void CreateValueVectorBlock(){} // RVA: 0x7AF3BFBD0
+        public void StartValueVector(){} // RVA: 0x7AF3BFC60
+        public void EndDataStorageBytes(){} // RVA: 0x7AF3BFC90
+        public void UnPack(){} // RVA: 0x7A7F128F0
+        public void UnPackTo(){} // RVA: 0x7A7F12900
+        public void Pack(){} // RVA: 0x7AF3BFFE0
     }
 
-    public class DataStorageBytesT
+    public class DataStorageBytesT : Object
     {
-        public System.Collections.Generic.List`1<byte> <Value>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x2F8380
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x574FB20
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void set_Value(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AD51EC30
     }
 
-    public class DataStorageBytesVerify
+    public class DataStorageBytesVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E1B00
+        public void Verify(){} // RVA: 0x7AF3C0060
     }
 
-    public class DataStorageEntryUnion
+    public class DataStorageEntryUnion : Object
     {
-        public 0x659177F0 Base; // 0x10
-        public object Delta; // 0x18
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x3A75E0
-        public void set_Type(){} // RVA: 0x3A75F0
-        public void get_Value(){} // RVA: 0x2E07C0
-        public void set_Value(){} // RVA: 0x343E80
-        public void .ctor(){} // RVA: 0x75DFAD0
-        public void As(){} // RVA: 0x283FA0
-        public void AsDataStorageBool(){} // RVA: 0x75DFB30
-        public void FromDataStorageBool(){} // RVA: 0x75DFB70
-        public void AsDataStorageInt(){} // RVA: 0x75DFC70
-        public void FromDataStorageInt(){} // RVA: 0x75DFCB0
-        public void AsDataStorageFloat(){} // RVA: 0x75DFDB0
-        public void FromDataStorageFloat(){} // RVA: 0x75DFDF0
-        public void AsDataStorageString(){} // RVA: 0x75DFEF0
-        public void FromDataStorageString(){} // RVA: 0x75DFF30
-        public void AsDataStorageBytes(){} // RVA: 0x75E0030
-        public void FromDataStorageBytes(){} // RVA: 0x75E0070
-        public void Pack(){} // RVA: 0x75E0170
+        public void get_Type(){} // RVA: 0x7A81A2200
+        public void set_Type(){} // RVA: 0x7A81A2210
+        public void get_Value(){} // RVA: 0x7A80DA7B0
+        public void set_Value(){} // RVA: 0x7A813E420
+        public void .ctor(){} // RVA: 0x7AF3BE020
+        public void As(){} // RVA: 0x7A8051B10
+        public void AsDataStorageBool(){} // RVA: 0x7AF3BE080
+        public void FromDataStorageBool(){} // RVA: 0x7AF3BE0C0
+        public void AsDataStorageInt(){} // RVA: 0x7AF3BE1C0
+        public void FromDataStorageInt(){} // RVA: 0x7AF3BE200
+        public void AsDataStorageFloat(){} // RVA: 0x7AF3BE300
+        public void FromDataStorageFloat(){} // RVA: 0x7AF3BE340
+        public void AsDataStorageString(){} // RVA: 0x7AF3BE440
+        public void FromDataStorageString(){} // RVA: 0x7AF3BE480
+        public void AsDataStorageBytes(){} // RVA: 0x7AF3BE580
+        public void FromDataStorageBytes(){} // RVA: 0x7AF3BE5C0
+        public void Pack(){} // RVA: 0x7AF3BE6C0
     }
 
-    public class DataStorageEntryVerify
+    public class DataStorageEntryVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E03F0
+        public void Verify(){} // RVA: 0x7AF3BE940
     }
 
-    public class DataStorageFloat
+    public class DataStorageFloat : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_Value(){} // RVA: 0x75E0A10
-        public void CreateDataStorageFloat(){} // RVA: 0x75E0A40
-        public void UnPack(){} // RVA: 0x75E0B10
-        public void UnPackTo(){} // RVA: 0x75E0B80
-        public void Pack(){} // RVA: 0x75E0BC0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_Value(){} // RVA: 0x7A7F12600
+        public void CreateDataStorageFloat(){} // RVA: 0x7AF3BEF90
+        public void UnPack(){} // RVA: 0x7A7F12630
+        public void UnPackTo(){} // RVA: 0x7A7F12640
+        public void Pack(){} // RVA: 0x7AF3BF110
     }
 
-    public class DataStorageFloatT
+    public class DataStorageFloatT : Object
     {
-        public float ByteBuffer; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x407320
-        public void set_Value(){} // RVA: 0x407330
-        public void .ctor(){} // RVA: 0xA5D070
+        public void get_Value(){} // RVA: 0x7A82023C0
+        public void set_Value(){} // RVA: 0x7A82023D0
+        public void .ctor(){} // RVA: 0x7A881ACE0
     }
 
-    public class DataStorageInt
+    public class DataStorageInt : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_Value(){} // RVA: 0x75E0840
-        public void CreateDataStorageInt(){} // RVA: 0x75E0870
-        public void UnPack(){} // RVA: 0x75E0940
-        public void UnPackTo(){} // RVA: 0x75E09B0
-        public void Pack(){} // RVA: 0x75E09F0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_Value(){} // RVA: 0x7A7F12560
+        public void CreateDataStorageInt(){} // RVA: 0x7AF3BEDC0
+        public void UnPack(){} // RVA: 0x7A7F12590
+        public void UnPackTo(){} // RVA: 0x7A7F125A0
+        public void Pack(){} // RVA: 0x7AF3BEF40
     }
 
-    public class DataStorageIntT
+    public class DataStorageIntT : Object
     {
-        public int ByteBuffer; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x32A5C0
-        public void set_Value(){} // RVA: 0x2E00C0
-        public void .ctor(){} // RVA: 0xA5D070
+        public void get_Value(){} // RVA: 0x7A8124910
+        public void set_Value(){} // RVA: 0x7A80DA0C0
+        public void .ctor(){} // RVA: 0x7A881ACE0
     }
 
-    public class DataStorageString
+    public class DataStorageString : ValueType
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsDataStorageString(){} // RVA: 0x75E0C40 | overloaded x2
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_Value(){} // RVA: 0x75E0CA0
-        public void GetValueBytes(){} // RVA: 0x75E0D30
-        public void GetValueArray(){} // RVA: 0x75E0DA0
-        public void CreateDataStorageString(){} // RVA: 0x75E0DF0
-        public void StartDataStorageString(){} // RVA: 0x75E0EB0
-        public void AddValue(){} // RVA: 0x75E0ED0
-        public void EndDataStorageString(){} // RVA: 0x75E0F10
-        public void UnPack(){} // RVA: 0x75E0FA0
-        public void UnPackTo(){} // RVA: 0x75E10B0
-        public void Pack(){} // RVA: 0x75E1120
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsDataStorageString(){} // RVA: 0x7AF3BF190
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_Value(){} // RVA: 0x7A7F126A0
+        public void GetValueBytes(){} // RVA: 0x7A7F126B0
+        public void GetValueArray(){} // RVA: 0x7A7F12720
+        public void CreateDataStorageString(){} // RVA: 0x7AF3BF340
+        public void StartDataStorageString(){} // RVA: 0x7AF3BF400
+        public void AddValue(){} // RVA: 0x7AF3BF420
+        public void EndDataStorageString(){} // RVA: 0x7AF3BF460
+        public void UnPack(){} // RVA: 0x7A7F12770
+        public void UnPackTo(){} // RVA: 0x7A7F12780
+        public void Pack(){} // RVA: 0x7AF3BF670
     }
 
-    public class DataStorageStringT
+    public class DataStorageStringT : Object
     {
-        public string <Value>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x2F8380
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x574FB20
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void set_Value(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AD51EC30
     }
 
-    public class DataStorageStringVerify
+    public class DataStorageStringVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E1180
+        public void Verify(){} // RVA: 0x7AF3BF6D0
     }
 
-    public class DataStorageT
+    public class DataStorageT : Object
     {
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.DataStorageEntryUnion> <Entries>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Entries(){} // RVA: 0x2F8380
-        public void set_Entries(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x574FB20
-        public void DeserializeFromBinary(){} // RVA: 0x75E3180
-        public void SerializeToBinary(){} // RVA: 0x75E3230
+        public void get_Entries(){} // RVA: 0x7A80F2570
+        public void set_Entries(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AD51EC30
+        public void DeserializeFromBinary(){} // RVA: 0x7AF3C1710
+        public void SerializeToBinary(){} // RVA: 0x7AF3C17C0
     }
 
-    public class DataStorageVerify
+    public class DataStorageVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E1B00
+        public void Verify(){} // RVA: 0x7AF3C0060
     }
 
-    public class DestructiblePlayer
+    public class DestructiblePlayer : ValueType
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsDestructiblePlayer(){} // RVA: 0x75E0C40 | overloaded x2
-        public void VerifyDestructiblePlayer(){} // RVA: 0x75E3330
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_Health(){} // RVA: 0x75E3420
-        public void CreateDestructiblePlayer(){} // RVA: 0x75E3470
-        public void StartDestructiblePlayer(){} // RVA: 0x75E0EB0
-        public void AddHealth(){} // RVA: 0x75E3560
-        public void EndDestructiblePlayer(){} // RVA: 0x75E35D0
-        public void FinishDestructiblePlayerBuffer(){} // RVA: 0x75E2530
-        public void FinishSizePrefixedDestructiblePlayerBuffer(){} // RVA: 0x75E2590
-        public void UnPack(){} // RVA: 0x75E3660
-        public void UnPackTo(){} // RVA: 0x75E3700
-        public void Pack(){} // RVA: 0x75E3760
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsDestructiblePlayer(){} // RVA: 0x7AF3BF190
+        public void VerifyDestructiblePlayer(){} // RVA: 0x7AF3C18C0
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_Health(){} // RVA: 0x7A7F12A70
+        public void CreateDestructiblePlayer(){} // RVA: 0x7AF3C1A00
+        public void StartDestructiblePlayer(){} // RVA: 0x7AF3BF400
+        public void AddHealth(){} // RVA: 0x7AF3C1AF0
+        public void EndDestructiblePlayer(){} // RVA: 0x7AF3C1B60
+        public void FinishDestructiblePlayerBuffer(){} // RVA: 0x7AF3C0AA0
+        public void FinishSizePrefixedDestructiblePlayerBuffer(){} // RVA: 0x7AF3C0B00
+        public void UnPack(){} // RVA: 0x7A7F12AC0
+        public void UnPackTo(){} // RVA: 0x7A7F12AD0
+        public void Pack(){} // RVA: 0x7AF3C1CF0
     }
 
-    public class DestructiblePlayerT
+    public class DestructiblePlayerT : Object
     {
-        public float <Health>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Health(){} // RVA: 0x407320
-        public void set_Health(){} // RVA: 0x407330
-        public void .ctor(){} // RVA: 0xA5D070
-        public void DeserializeFromBinary(){} // RVA: 0x75E3780
-        public void SerializeToBinary(){} // RVA: 0x75E38B0
+        public void get_Health(){} // RVA: 0x7A82023C0
+        public void set_Health(){} // RVA: 0x7A82023D0
+        public void .ctor(){} // RVA: 0x7A881ACE0
+        public void DeserializeFromBinary(){} // RVA: 0x7AF3C1D10
+        public void SerializeToBinary(){} // RVA: 0x7AF3C1E40
     }
 
-    public class DestructiblePlayerVerify
+    public class DestructiblePlayerVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E39B0
+        public void Verify(){} // RVA: 0x7AF3C1F40
     }
 
 }

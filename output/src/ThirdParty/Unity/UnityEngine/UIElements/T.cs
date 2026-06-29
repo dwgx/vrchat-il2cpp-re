@@ -1,1562 +1,1282 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 82
-// Methods: 852
+// Classes: 81
+// Methods: 869
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class TemplateAsset
-    {
-        public string m_TemplateAlias; // 0x70
-        public System.Collections.Generic.List`1<AttributeOverride> m_AttributeOverrides; // 0x78
-
-        // ── Methods ──
-        public void get_attributeOverrides(){} // RVA: 0x748F530
-        public void get_slotUsages(){} // RVA: 0x71882E0
-    }
-
-    public class TemplateContainer
-    {
-        public string <templateId>k__BackingField; // 0x3D8
-        public UnityEngine.UIElements.VisualElement m_ContentContainer; // 0x3E0
-        public UnityEngine.UIElements.VisualTreeAsset m_TemplateSource; // 0x3E8
-
-        // ── Methods ──
-        public void get_templateId(){} // RVA: 0xDA0010
-        public void set_templateId(){} // RVA: 0xD9ACB0
-        public void set_templateSource(){} // RVA: 0xD8AC30
-        public void .ctor(){} // RVA: 0x7477150 | overloaded x2
-        public void get_contentContainer(){} // RVA: 0x7477260
-        public void SetContentContainer(){} // RVA: 0xD9D360
-    }
-
-    public class TextEditingManipulator
-    {
-        public UnityEngine.UIElements.TextElement isClicking; // 0x10
-
-        // ── Methods ──
-        public void get_touchScreenTextFieldChanged(){} // RVA: 0x74785B0
-        public void .ctor(){} // RVA: 0x7478640
-        public void InitTextEditorEventHandler(){} // RVA: 0x74788F0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7478BE0
-        public void OnFocusInEvent(){} // RVA: 0x7478DE0
-        public void OnFocusOutEvent(){} // RVA: 0x7478FB0
-        public void <OnFocusInEvent>b__10_0(){} // RVA: 0x7479080
-    }
-
-    public class TextEditorEventHandler
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x2DD310
-    }
-
-    public class TextElement
-    {
-        public string ussClassName;
-        public UnityEngine.UIElements.UITKTextHandle <uitkTextHandle>k__BackingField; // 0x3D8
-        public string m_Text; // 0x3E0
-        public bool m_EnableRichText; // 0x3E8
-        public bool m_ParseEscapeSequences; // 0x3E9
-        public bool m_DisplayTooltipWhenElided; // 0x3EA
-        public bool <isElided>k__BackingField; // 0x3EB
-        public string k_EllipsisText; // 0x8
-        public string elidedText; // 0x3F0
-        public bool m_WasElided; // 0x3F8
-        public UnityEngine.UIElements.TextEditingManipulator editingManipulator; // 0x400
-        public bool m_Multiline; // 0x408
-        public UnityEngine.TouchScreenKeyboard m_TouchScreenKeyboard; // 0x410
-        public 0x6589C430 m_KeyboardType; // 0x418
-        public bool m_HideMobileInput; // 0x41C
-        public bool m_IsReadOnly; // 0x41D
-        public int m_MaxLength; // 0x420
-        public bool <UnityEngine.UIElements.ITextEdition.isDelayed>k__BackingField; // 0x424
-        public System.Func`2<char,bool> <UnityEngine.UIElements.ITextEdition.AcceptCharacter>k__BackingField; // 0x428
-        public System.Action`1<bool> <UnityEngine.UIElements.ITextEdition.UpdateScrollOffset>k__BackingField; // 0x430
-        public System.Action <UnityEngine.UIElements.ITextEdition.UpdateValueFromText>k__BackingField; // 0x438
-        public System.Action <UnityEngine.UIElements.ITextEdition.UpdateTextFromValue>k__BackingField; // 0x440
-        public System.Action <UnityEngine.UIElements.ITextEdition.MoveFocusToCompositeRoot>k__BackingField; // 0x448
-        public string m_RenderedText; // 0x450
-        public string m_OriginalText; // 0x458
-        public char m_MaskChar; // 0x460
-        public bool m_IsPassword; // 0x462
-        public bool m_AutoCorrection; // 0x463
-        public UnityEngine.UIElements.TextSelectingManipulator m_SelectingManipulator; // 0x468
-        public bool m_IsSelectable; // 0x470
-        public bool <UnityEngine.UIElements.ITextSelection.doubleClickSelectsWord>k__BackingField; // 0x471
-        public bool <UnityEngine.UIElements.ITextSelection.tripleClickSelectsLine>k__BackingField; // 0x472
-        public bool <UnityEngine.UIElements.ITextSelection.selectAllOnFocus>k__BackingField; // 0x473
-        public bool <UnityEngine.UIElements.ITextSelection.selectAllOnMouseUp>k__BackingField; // 0x474
-        public UnityEngine.Color m_SelectionColor; // 0x478
-        public UnityEngine.Color m_CursorColor; // 0x488
-        public float m_CursorWidth; // 0x498
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x747EEE0
-        public void get_uitkTextHandle(){} // RVA: 0xDA0010
-        public void set_uitkTextHandle(){} // RVA: 0xD9ACB0
-        public void OnGeometryChanged(){} // RVA: 0x747F290
-        public void get_text(){} // RVA: 0x747F2A0
-        public void set_text(){} // RVA: 0x747F2E0
-        public void get_enableRichText(){} // RVA: 0x73192B0
-        public void set_enableRichText(){} // RVA: 0x747F340
-        public void get_parseEscapeSequences(){} // RVA: 0x747F390
-        public void set_parseEscapeSequences(){} // RVA: 0x747F3A0
-        public void get_displayTooltipWhenElided(){} // RVA: 0x747F3F0
-        public void set_displayTooltipWhenElided(){} // RVA: 0x747F400
-        public void get_isElided(){} // RVA: 0x747F450
-        public void set_isElided(){} // RVA: 0x747F460
-        public void OnGenerateVisualContent(){} // RVA: 0x747F470
-        public void ElideText(){} // RVA: 0x747F790
-        public void UpdateTooltip(){} // RVA: 0x747FC10
-        public void UpdateVisibleText(){} // RVA: 0x747FC80
-        public void ShouldElide(){} // RVA: 0x747FEB0
-        public void get_hasFocus(){} // RVA: 0x747FF40
-        public void MeasureTextSize(){} // RVA: 0x747FFC0
-        public void DoMeasure(){} // RVA: 0x747FFF0
-        public void UnityEngine.UIElements.INotifyValueChanged<System.String>.get_value(){} // RVA: 0x7480060
-        public void UnityEngine.UIElements.INotifyValueChanged<System.String>.set_value(){} // RVA: 0x74800B0
-        public void UnityEngine.UIElements.INotifyValueChanged<System.String>.SetValueWithoutNotify(){} // RVA: 0x7480280
-        public void get_edition(){} // RVA: 0x1A3F520
-        public void UnityEngine.UIElements.ITextEdition.get_multiline(){} // RVA: 0x55BEC10
-        public void UnityEngine.UIElements.ITextEdition.set_multiline(){} // RVA: 0x7480470
-        public void UnityEngine.UIElements.ITextEdition.get_keyboardType(){} // RVA: 0x7480500
-        public void UnityEngine.UIElements.ITextEdition.set_keyboardType(){} // RVA: 0x7480510
-        public void UnityEngine.UIElements.ITextEdition.get_hideMobileInput(){} // RVA: 0x7480520
-        public void UnityEngine.UIElements.ITextEdition.set_hideMobileInput(){} // RVA: 0x74805C0
-        public void UnityEngine.UIElements.ITextEdition.get_isReadOnly(){} // RVA: 0x7480680
-        public void UnityEngine.UIElements.ITextEdition.set_isReadOnly(){} // RVA: 0x74806A0
-        public void ProcessMenuCommand(){} // RVA: 0x7480780
-        public void Cut(){} // RVA: 0x7480950
-        public void Copy(){} // RVA: 0x74809A0
-        public void Paste(){} // RVA: 0x74809F0
-        public void BuildContextualMenu(){} // RVA: 0x7480A40
-        public void CutActionStatus(){} // RVA: 0x7480DB0
-        public void CopyActionStatus(){} // RVA: 0x7480E40
-        public void PasteActionStatus(){} // RVA: 0x7480ED0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7480F30
-        public void UnityEngine.UIElements.ITextEdition.get_maxLength(){} // RVA: 0x7481200
-        public void UnityEngine.UIElements.ITextEdition.set_maxLength(){} // RVA: 0x7481210
-        public void UnityEngine.UIElements.ITextEdition.get_isDelayed(){} // RVA: 0x74812A0
-        public void UnityEngine.UIElements.ITextEdition.set_isDelayed(){} // RVA: 0x74812B0
-        public void UnityEngine.UIElements.ITextEdition.SaveValueAndText(){} // RVA: 0x74812C0
-        public void UnityEngine.UIElements.ITextEdition.RestoreValueAndText(){} // RVA: 0x7481340
-        public void UnityEngine.UIElements.ITextEdition.get_AcceptCharacter(){} // RVA: 0xDA2770
-        public void UnityEngine.UIElements.ITextEdition.set_AcceptCharacter(){} // RVA: 0xD9C990
-        public void UnityEngine.UIElements.ITextEdition.get_UpdateScrollOffset(){} // RVA: 0xD96F70
-        public void UnityEngine.UIElements.ITextEdition.set_UpdateScrollOffset(){} // RVA: 0xD8B1F0
-        public void UnityEngine.UIElements.ITextEdition.get_UpdateValueFromText(){} // RVA: 0xD95A10
-        public void UnityEngine.UIElements.ITextEdition.set_UpdateValueFromText(){} // RVA: 0xD9E3B0
-        public void UnityEngine.UIElements.ITextEdition.get_UpdateTextFromValue(){} // RVA: 0xD8EF30
-        public void UnityEngine.UIElements.ITextEdition.set_UpdateTextFromValue(){} // RVA: 0xD95C40
-        public void UnityEngine.UIElements.ITextEdition.get_MoveFocusToCompositeRoot(){} // RVA: 0xD9A100
-        public void UnityEngine.UIElements.ITextEdition.set_MoveFocusToCompositeRoot(){} // RVA: 0xDA31D0
-        public void UnityEngine.UIElements.ITextEdition.UpdateText(){} // RVA: 0x7481360
-        public void UnityEngine.UIElements.ITextEdition.CullString(){} // RVA: 0x7481710
-        public void UnityEngine.UIElements.ITextEdition.set_maskChar(){} // RVA: 0x7481790
-        public void get_effectiveMaskChar(){} // RVA: 0x7481820
-        public void UnityEngine.UIElements.ITextEdition.get_isPassword(){} // RVA: 0x7481890
-        public void UnityEngine.UIElements.ITextEdition.set_isPassword(){} // RVA: 0x74818A0
-        public void UnityEngine.UIElements.ITextEdition.get_autoCorrection(){} // RVA: 0x74818F0
-        public void UnityEngine.UIElements.ITextEdition.set_autoCorrection(){} // RVA: 0x7481900
-        public void get_renderedText(){} // RVA: 0x7481910
-        public void set_renderedText(){} // RVA: 0x7481A70
-        public void get_originalText(){} // RVA: 0xDA8310
-        public void get_selection(){} // RVA: 0x1A3F520
-        public void UnityEngine.UIElements.ITextSelection.get_isSelectable(){} // RVA: 0x7481B10
-        public void UnityEngine.UIElements.ITextSelection.set_isSelectable(){} // RVA: 0x7481B30
-        public void UnityEngine.UIElements.ITextSelection.get_cursorIndex(){} // RVA: 0x7481B50
-        public void UnityEngine.UIElements.ITextSelection.set_cursorIndex(){} // RVA: 0x7481BD0
-        public void UnityEngine.UIElements.ITextSelection.get_selectIndex(){} // RVA: 0x7481C70
-        public void UnityEngine.UIElements.ITextSelection.set_selectIndex(){} // RVA: 0x7481CF0
-        public void UnityEngine.UIElements.ITextSelection.SelectAll(){} // RVA: 0x7481D90
-        public void UnityEngine.UIElements.ITextSelection.SelectNone(){} // RVA: 0x7481E10
-        public void UnityEngine.UIElements.ITextSelection.HasSelection(){} // RVA: 0x7481EB0
-        public void UnityEngine.UIElements.ITextSelection.get_doubleClickSelectsWord(){} // RVA: 0x7481F60
-        public void UnityEngine.UIElements.ITextSelection.get_tripleClickSelectsLine(){} // RVA: 0x7481F70
-        public void UnityEngine.UIElements.ITextSelection.get_selectAllOnFocus(){} // RVA: 0x7481F80
-        public void UnityEngine.UIElements.ITextSelection.set_selectAllOnFocus(){} // RVA: 0x7481F90
-        public void UnityEngine.UIElements.ITextSelection.get_selectAllOnMouseUp(){} // RVA: 0x7481FA0
-        public void UnityEngine.UIElements.ITextSelection.set_selectAllOnMouseUp(){} // RVA: 0x7481FB0
-        public void UnityEngine.UIElements.ITextSelection.get_cursorPosition(){} // RVA: 0x7481FC0
-        public void UnityEngine.UIElements.ITextSelection.get_lineHeightAtCursorPosition(){} // RVA: 0x7482070
-        public void UnityEngine.UIElements.ITextSelection.get_selectionColor(){} // RVA: 0x7482150
-        public void UnityEngine.UIElements.ITextSelection.set_selectionColor(){} // RVA: 0x7482160
-        public void UnityEngine.UIElements.ITextSelection.get_cursorColor(){} // RVA: 0x7482210
-        public void UnityEngine.UIElements.ITextSelection.set_cursorColor(){} // RVA: 0x7482220
-        public void UnityEngine.UIElements.ITextSelection.get_cursorWidth(){} // RVA: 0x74822D0
-        public void get_selectingManipulator(){} // RVA: 0x74822E0
-        public void DrawHighlighting(){} // RVA: 0x74823A0
-        public void DrawCaret(){} // RVA: 0x7482C50
-        public void GetLastCharacterAt(){} // RVA: 0x74830E0
-        public void .cctor(){} // RVA: 0x7483340
-    }
-
-    public class TextField
-    {
-        public string ussClassName;
-        public string labelUssClassName; // 0x8
-        public string inputUssClassName; // 0x10
-
-        // ── Methods ──
-        public void get_textInput(){} // RVA: 0x73A31C0
-        public void set_multiline(){} // RVA: 0x73A3250
-        public void .ctor(){} // RVA: 0x73A32E0 | overloaded x3
-        public void get_value(){} // RVA: 0x73A3580
-        public void set_value(){} // RVA: 0x73A35D0
-        public void SetValueWithoutNotify(){} // RVA: 0x73A3690
-        public void UpdateTextFromValue(){} // RVA: 0x73A3750
-        public void ExecuteDefaultAction(){} // RVA: 0x73A37A0
-        public void OnViewDataReady(){} // RVA: 0x73A3980
-        public void ValueToString(){} // RVA: 0x13DCE00
-        public void StringToValue(){} // RVA: 0x13DCE00
-        public void .cctor(){} // RVA: 0x73A3A30
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<T> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0x43D9040
-        public void get_text(){} // RVA: 0x43D9070
-        public void set_text(){} // RVA: 0x43D90E0
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43D9140
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43D92B0
-        public void get_isReadOnly(){} // RVA: 0x43D9420
-        public void set_isReadOnly(){} // RVA: 0x43D94B0
-        public void set_isPasswordField(){} // RVA: 0x43D9590
-        public void set_autoCorrection(){} // RVA: 0x43D96C0
-        public void set_hideMobileInput(){} // RVA: 0x43D9760
-        public void set_keyboardType(){} // RVA: 0x43D9800
-        public void get_textEdition(){} // RVA: 0x43D9890
-        public void set_maxLength(){} // RVA: 0x43D9900
-        public void get_isDelayed(){} // RVA: 0x43D9990
-        public void set_isDelayed(){} // RVA: 0x43D9A20
-        public void set_maskChar(){} // RVA: 0x43D9AC0
-        public void ValueToString(){} // RVA: 0x283FA0
-        public void StringToValue(){} // RVA: 0x263BC0
-        public void .ctor(){} // RVA: 0x43D9B60
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43D9F70
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43D9FD0
-        public void UpdateMixedValueContent(){} // RVA: 0x43DA620
-        public void UpdateValueFromText(){} // RVA: 0x43DA980
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43DAA90
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty;
-        public int m_VisualInputTabIndex;
-        public TextInputBase<T> m_TextInputBase;
-        public string ussClassName;
-        public string labelUssClassName;
-        public string inputUssClassName;
-        public string multilineContainerClassName;
-        public string singleLineInputUssClassName;
-        public string multilineInputUssClassName;
-        public string multilineInputWithScrollViewUssClassName;
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xCD60
-        public void get_text(){} // RVA: 0xCD60
-        public void set_text(){} // RVA: 0x24B10
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x24B10
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x24B10
-        public void get_isReadOnly(){} // RVA: 0xDBE0
-        public void set_isReadOnly(){} // RVA: 0x25130
-        public void set_isPasswordField(){} // RVA: 0x25130
-        public void set_autoCorrection(){} // RVA: 0x25130
-        public void set_hideMobileInput(){} // RVA: 0x25130
-        public void set_keyboardType(){} // RVA: 0x24FA0
-        public void get_textEdition(){} // RVA: 0xCD60
-        public void set_maxLength(){} // RVA: 0x24FA0
-        public void get_isDelayed(){} // RVA: 0xDBE0
-        public void set_isDelayed(){} // RVA: 0x25130
-        public void set_maskChar(){} // RVA: 0x24C40
-        public void ValueToString(){} // RVA: 0x283FA0
-        public void StringToValue(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x283FA0
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x24B10
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x24B10
-        public void UpdateMixedValueContent(){} // RVA: 0x24A50
-        public void UpdateValueFromText(){} // RVA: 0x24A50
-        public void UpdateTextFromValue(){} // RVA: 0x24A50
-        public void .cctor(){} // RVA: 0x24A80
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<double> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xD9A100
-        public void get_text(){} // RVA: 0x43CB320
-        public void set_text(){} // RVA: 0x43CB360
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43CB380
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43CB480
-        public void get_isReadOnly(){} // RVA: 0x43CB580
-        public void set_isReadOnly(){} // RVA: 0x43CB5E0
-        public void set_isPasswordField(){} // RVA: 0x43CB670
-        public void set_autoCorrection(){} // RVA: 0x43CB710
-        public void set_hideMobileInput(){} // RVA: 0x43CB780
-        public void set_keyboardType(){} // RVA: 0x43CB7F0
-        public void get_textEdition(){} // RVA: 0x43CB860
-        public void set_maxLength(){} // RVA: 0x43CB890
-        public void get_isDelayed(){} // RVA: 0x43CB900
-        public void set_isDelayed(){} // RVA: 0x43CB960
-        public void set_maskChar(){} // RVA: 0x43CB9D0
-        public void ValueToString(){}
-        public void StringToValue(){} // RVA: 0x12DE0
-        public void .ctor(){} // RVA: 0x43CBA40
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43CBDE0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43CBE20
-        public void UpdateMixedValueContent(){} // RVA: 0x43CC1E0
-        public void UpdateValueFromText(){} // RVA: 0x43CC480
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43CC500
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<float> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xD9A100
-        public void get_text(){} // RVA: 0x43CB320
-        public void set_text(){} // RVA: 0x43CB360
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43D3F40
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43D4040
-        public void get_isReadOnly(){} // RVA: 0x43D4140
-        public void set_isReadOnly(){} // RVA: 0x43D41A0
-        public void set_isPasswordField(){} // RVA: 0x43CB670
-        public void set_autoCorrection(){} // RVA: 0x43D4230
-        public void set_hideMobileInput(){} // RVA: 0x43D42A0
-        public void set_keyboardType(){} // RVA: 0x43D4310
-        public void get_textEdition(){} // RVA: 0x43CB860
-        public void set_maxLength(){} // RVA: 0x43D4380
-        public void get_isDelayed(){} // RVA: 0x43D43F0
-        public void set_isDelayed(){} // RVA: 0x43D4450
-        public void set_maskChar(){} // RVA: 0x43D44C0
-        public void ValueToString(){}
-        public void StringToValue(){} // RVA: 0x21FA0
-        public void .ctor(){} // RVA: 0x43D4530
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43D48D0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43D4910
-        public void UpdateMixedValueContent(){} // RVA: 0x43D4CD0
-        public void UpdateValueFromText(){} // RVA: 0x43CC480
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43D4F70
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x448
-        public TextInputBase<UnityEngine.Hash128> m_TextInputBase; // 0x450
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xD961C0
-        public void get_text(){} // RVA: 0x43CCFD0
-        public void set_text(){} // RVA: 0x43CD010
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43CD0B0
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43CD1B0
-        public void get_isReadOnly(){} // RVA: 0x43CD2B0
-        public void set_isReadOnly(){} // RVA: 0x43CD310
-        public void set_isPasswordField(){} // RVA: 0x43CD3A0
-        public void set_autoCorrection(){} // RVA: 0x43CD440
-        public void set_hideMobileInput(){} // RVA: 0x43CD4B0
-        public void set_keyboardType(){} // RVA: 0x43CD520
-        public void get_textEdition(){} // RVA: 0x43CD590
-        public void set_maxLength(){} // RVA: 0x43CD5C0
-        public void get_isDelayed(){} // RVA: 0x43CD630
-        public void set_isDelayed(){} // RVA: 0x43CD690
-        public void set_maskChar(){} // RVA: 0x43CD700
-        public void ValueToString(){}
-        public void StringToValue(){}
-        public void .ctor(){} // RVA: 0x43CD770
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43CDB10
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43CDB50
-        public void UpdateMixedValueContent(){} // RVA: 0x43CDF10
-        public void UpdateValueFromText(){} // RVA: 0x43CE1B0
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43CE240
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<string> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xD9A100
-        public void get_text(){} // RVA: 0x43CB320
-        public void set_text(){} // RVA: 0x43D2410
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43D2440
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43D2540
-        public void get_isReadOnly(){} // RVA: 0x43D2640
-        public void set_isReadOnly(){} // RVA: 0x43D26A0
-        public void set_isPasswordField(){} // RVA: 0x43CB670
-        public void set_autoCorrection(){} // RVA: 0x43D2730
-        public void set_hideMobileInput(){} // RVA: 0x43D27A0
-        public void set_keyboardType(){} // RVA: 0x43D2810
-        public void get_textEdition(){} // RVA: 0x43CB860
-        public void set_maxLength(){} // RVA: 0x43D2880
-        public void get_isDelayed(){} // RVA: 0x43D28F0
-        public void set_isDelayed(){} // RVA: 0x43D2950
-        public void set_maskChar(){} // RVA: 0x43D29C0
-        public void ValueToString(){} // RVA: 0xCE10
-        public void StringToValue(){} // RVA: 0xCE10
-        public void .ctor(){} // RVA: 0x43D2A30
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43D2DD0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43D2E10
-        public void UpdateMixedValueContent(){} // RVA: 0x43D31D0
-        public void UpdateValueFromText(){} // RVA: 0x43D18C0
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43D3470
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<int> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xD9A100
-        public void get_text(){} // RVA: 0x43CB320
-        public void set_text(){} // RVA: 0x43CB360
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43CED10
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43CEE10
-        public void get_isReadOnly(){} // RVA: 0x43CEF10
-        public void set_isReadOnly(){} // RVA: 0x43CEF70
-        public void set_isPasswordField(){} // RVA: 0x43CB670
-        public void set_autoCorrection(){} // RVA: 0x43CF000
-        public void set_hideMobileInput(){} // RVA: 0x43CF070
-        public void set_keyboardType(){} // RVA: 0x43CF0E0
-        public void get_textEdition(){} // RVA: 0x43CB860
-        public void set_maxLength(){} // RVA: 0x43CF150
-        public void get_isDelayed(){} // RVA: 0x43CF1C0
-        public void set_isDelayed(){} // RVA: 0x43CF220
-        public void set_maskChar(){} // RVA: 0x43CF290
-        public void ValueToString(){} // RVA: 0x1BCC0
-        public void StringToValue(){} // RVA: 0x12590
-        public void .ctor(){} // RVA: 0x43CF300
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43CF6A0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43CF6E0
-        public void UpdateMixedValueContent(){} // RVA: 0x43CFAA0
-        public void UpdateValueFromText(){} // RVA: 0x43CFD40
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43CFDC0
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<long> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xD9A100
-        public void get_text(){} // RVA: 0x43CB320
-        public void set_text(){} // RVA: 0x43CB360
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43D0890
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43D0990
-        public void get_isReadOnly(){} // RVA: 0x43D0A90
-        public void set_isReadOnly(){} // RVA: 0x43D0AF0
-        public void set_isPasswordField(){} // RVA: 0x43CB670
-        public void set_autoCorrection(){} // RVA: 0x43D0B80
-        public void set_hideMobileInput(){} // RVA: 0x43D0BF0
-        public void set_keyboardType(){} // RVA: 0x43D0C60
-        public void get_textEdition(){} // RVA: 0x43CB860
-        public void set_maxLength(){} // RVA: 0x43D0CD0
-        public void get_isDelayed(){} // RVA: 0x43D0D40
-        public void set_isDelayed(){} // RVA: 0x43D0DA0
-        public void set_maskChar(){} // RVA: 0x43D0E10
-        public void ValueToString(){}
-        public void StringToValue(){} // RVA: 0xCE10
-        public void .ctor(){} // RVA: 0x43D0E80
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43D1220
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43D1260
-        public void UpdateMixedValueContent(){} // RVA: 0x43D1620
-        public void UpdateValueFromText(){} // RVA: 0x43D18C0
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43D1940
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<uint> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xD9A100
-        public void get_text(){} // RVA: 0x43CB320
-        public void set_text(){} // RVA: 0x43CB360
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43D5A40
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43D5B40
-        public void get_isReadOnly(){} // RVA: 0x43D5C40
-        public void set_isReadOnly(){} // RVA: 0x43D5CA0
-        public void set_isPasswordField(){} // RVA: 0x43CB670
-        public void set_autoCorrection(){} // RVA: 0x43D5D30
-        public void set_hideMobileInput(){} // RVA: 0x43D5DA0
-        public void set_keyboardType(){} // RVA: 0x43D5E10
-        public void get_textEdition(){} // RVA: 0x43CB860
-        public void set_maxLength(){} // RVA: 0x43D5E80
-        public void get_isDelayed(){} // RVA: 0x43D5EF0
-        public void set_isDelayed(){} // RVA: 0x43D5F50
-        public void set_maskChar(){} // RVA: 0x43D5FC0
-        public void ValueToString(){}
-        public void StringToValue(){} // RVA: 0x12590
-        public void .ctor(){} // RVA: 0x43D6030
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43D63D0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43D6410
-        public void UpdateMixedValueContent(){} // RVA: 0x43D67D0
-        public void UpdateValueFromText(){} // RVA: 0x43CFD40
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43D6A70
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<ulong> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-
-        // ── Methods ──
-        public void get_textInputBase(){} // RVA: 0xD9A100
-        public void get_text(){} // RVA: 0x43CB320
-        public void set_text(){} // RVA: 0x43CB360
-        public void add_onIsReadOnlyChanged(){} // RVA: 0x43D7540
-        public void remove_onIsReadOnlyChanged(){} // RVA: 0x43D7640
-        public void get_isReadOnly(){} // RVA: 0x43D7740
-        public void set_isReadOnly(){} // RVA: 0x43D77A0
-        public void set_isPasswordField(){} // RVA: 0x43CB670
-        public void set_autoCorrection(){} // RVA: 0x43D7830
-        public void set_hideMobileInput(){} // RVA: 0x43D78A0
-        public void set_keyboardType(){} // RVA: 0x43D7910
-        public void get_textEdition(){} // RVA: 0x43CB860
-        public void set_maxLength(){} // RVA: 0x43D7980
-        public void get_isDelayed(){} // RVA: 0x43D79F0
-        public void set_isDelayed(){} // RVA: 0x43D7A50
-        public void set_maskChar(){} // RVA: 0x43D7AC0
-        public void ValueToString(){}
-        public void StringToValue(){} // RVA: 0xCE10
-        public void .ctor(){} // RVA: 0x43D7B30
-        public void OnFieldCustomStyleResolved(){} // RVA: 0x43D7ED0
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x43D7F10
-        public void UpdateMixedValueContent(){} // RVA: 0x43D82D0
-        public void UpdateValueFromText(){} // RVA: 0x43D18C0
-        public void UpdateTextFromValue(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x43D8570
-    }
-
-    public class TextInputBaseField`1
-    {
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_SelectionColorProperty;
-        public UnityEngine.UIElements.CustomStyleProperty`1<UnityEngine.Color> s_CursorColorProperty; // 0x8
-        public int m_VisualInputTabIndex; // 0x440
-        public TextInputBase<ulong> m_TextInputBase; // 0x448
-        public string ussClassName; // 0x10
-        public string labelUssClassName; // 0x18
-        public string inputUssClassName; // 0x20
-        public string multilineContainerClassName; // 0x28
-        public string singleLineInputUssClassName; // 0x30
-        public string multilineInputUssClassName; // 0x38
-        public string multilineInputWithScrollViewUssClassName; // 0x40
-    }
-
-    public class TextSelectingManipulator
-    {
-        public UnityEngine.TextSelectingUtilities MeasuredSizes; // 0x10
-        public bool RoundedSizes; // 0x18
-        public UnityEngine.UIElements.TextElement m_TextElement; // 0x20
-
-        // ── Methods ──
-        public void get_isClicking(){} // RVA: 0x303470
-        public void set_isClicking(){} // RVA: 0x74790D0
-        public void .ctor(){} // RVA: 0x74790E0
-        public void get_cursorIndex(){} // RVA: 0x7479610
-        public void set_cursorIndex(){} // RVA: 0x7199070
-        public void get_selectIndex(){} // RVA: 0x7479630
-        public void set_selectIndex(){} // RVA: 0x71990E0
-        public void OnRevealCursor(){} // RVA: 0x7479650
-        public void OnSelectIndexChange(){} // RVA: 0x74796A0
-        public void OnCursorIndexChange(){} // RVA: 0x74797E0
-        public void RevealCursor(){} // RVA: 0x7479920
-        public void HasSelection(){} // RVA: 0x7479940
-        public void HasFocus(){} // RVA: 0x7479990
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x74799B0
-        public void OnFocusEvent(){} // RVA: 0x7479DE0
-        public void OnBlurEvent(){} // RVA: 0x7479F90
-        public void OnKeyDown(){} // RVA: 0x7479FF0
-        public void OnPointerDownEvent(){} // RVA: 0x747A060
-        public void OnPointerMoveEvent(){} // RVA: 0x747A430
-        public void OnPointerUpEvent(){} // RVA: 0x747A5F0
-        public void OnValidateCommandEvent(){} // RVA: 0x747A6E0
-        public void OnExecuteCommandEvent(){} // RVA: 0x747A920
-        public void MoveDistanceQualifiesForDrag(){} // RVA: 0x747AAD0
-    }
-
-    public class TextShadow
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x74840B0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7484180
-        public void op_Equality(){} // RVA: 0x7484200
-        public void op_Inequality(){} // RVA: 0x7484230
-        public void ToString(){} // RVA: 0x74842F0
-        public void LerpUnclamped(){} // RVA: 0x7484430
-    }
-
-    public class TextUtilities
-    {
-        // ── Methods ──
-        public void MeasureVisualElementTextSize(){} // RVA: 0x747DE90
-        public void GetFontAsset(){} // RVA: 0x747E290
-        public void IsFontAssigned(){} // RVA: 0x747E640
-        public void GetTextSettingsFrom(){} // RVA: 0x747E7A0
-        public void ConvertPixelUnitsToTextCoreRelativeUnits(){} // RVA: 0x747E870
-        public void GetTextCoreSettingsForElement(){} // RVA: 0x747E930
-    }
-
-    public class TextValueFieldTraits`2
-    {
-        // ── Methods ──
-        public void Init(){}
-        public void .ctor(){} // RVA: 0x24A50
-    }
-
-    public class TextValueFieldTraits`2
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x43DF390
-        public void .ctor(){} // RVA: 0x43DF5D0
-    }
-
-    public class TextValueFieldTraits`2
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x43E0610
-        public void .ctor(){} // RVA: 0x43E0960
-    }
-
-    public class TextValueFieldTraits`2
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x43DF830
-        public void .ctor(){} // RVA: 0x43DFA70
-    }
-
-    public class TextValueFieldTraits`2
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x43DFCD0
-        public void .ctor(){} // RVA: 0x43DFF10
-    }
-
-    public class TextValueFieldTraits`2
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x43E0170
-        public void .ctor(){} // RVA: 0x43E03B0
-    }
-
-    public class TextValueFieldTraits`2
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x43E0CC0
-        public void .ctor(){} // RVA: 0x43E0F00
-    }
-
-    public class TextValueFieldTraits`2
-    {
-        // ── Methods ──
-        public void Init(){} // RVA: 0x43E1160
-        public void .ctor(){} // RVA: 0x43E13A0
-    }
-
-    public class TextValueField`1
-    {
-        public UnityEngine.UIElements.BaseFieldMouseDragger m_Dragger;
-        public bool m_UpdateTextFromValue;
-        public bool m_ForceUpdateDisplay;
-
-        // ── Methods ──
-        public void get_textValueInput(){} // RVA: 0xCD60
-        public void get_formatString(){} // RVA: 0xCD60
-        public void .ctor(){} // RVA: 0x2C800
-        public void ApplyInputDeviceDelta(){} // RVA: 0x283FA0
-        public void StartDragging(){} // RVA: 0x24A50
-        public void StopDragging(){} // RVA: 0x24A50
-        public void get_value(){} // RVA: 0x283FA0
-        public void set_value(){} // RVA: 0x283FA0
-        public void UpdateValueFromText(){} // RVA: 0x24A50
-        public void UpdateTextFromValue(){} // RVA: 0x24A50
-        public void OnIsReadOnlyChanged(){} // RVA: 0x25130
-        public void CanTryParse(){} // RVA: 0xDE40
-        public void AddLabelDragger(){} // RVA: 0x24A50
-        public void EnableLabelDragger(){} // RVA: 0x25130
-        public void SetValueWithoutNotify(){} // RVA: 0x283FA0
-        public void ExecuteDefaultAction(){} // RVA: 0x24B10
-        public void OnViewDataReady(){} // RVA: 0x24A50
-        public void RegisterEditingCallbacks(){} // RVA: 0x24A50
-        public void UnregisterEditingCallbacks(){} // RVA: 0x24A50
-    }
-
-    public class TextValueField`1
-    {
-        public UnityEngine.UIElements.BaseFieldMouseDragger m_Dragger; // 0x458
-        public bool m_UpdateTextFromValue; // 0x460
-        public bool m_ForceUpdateDisplay; // 0x461
-
-        // ── Methods ──
-        public void get_textValueInput(){} // RVA: 0x43E1A00
-        public void get_formatString(){} // RVA: 0x43E1A90
-        public void .ctor(){} // RVA: 0x43E1B20
-        public void ApplyInputDeviceDelta(){}
-        public void StartDragging(){} // RVA: 0x43E1D60
-        public void StopDragging(){} // RVA: 0x43E1E90
-        public void get_value(){} // RVA: 0x43E2050
-        public void set_value(){} // RVA: 0x43E2070
-        public void UpdateValueFromText(){} // RVA: 0x43E20A0
-        public void UpdateTextFromValue(){} // RVA: 0x43E2190
-        public void OnIsReadOnlyChanged(){} // RVA: 0x43E21E0
-        public void CanTryParse(){} // RVA: 0x2DD320
-        public void AddLabelDragger(){} // RVA: 0x24A50
-        public void EnableLabelDragger(){} // RVA: 0x43E2200
-        public void SetValueWithoutNotify(){} // RVA: 0x43E2310
-        public void ExecuteDefaultAction(){} // RVA: 0x43E24C0
-        public void OnViewDataReady(){} // RVA: 0x43E26F0
-        public void RegisterEditingCallbacks(){} // RVA: 0x43E2710
-        public void UnregisterEditingCallbacks(){} // RVA: 0x43E2940
-    }
-
-    public class TextValueField`1
-    {
-        public UnityEngine.UIElements.BaseFieldMouseDragger m_Dragger; // 0x458
-        public bool m_UpdateTextFromValue; // 0x460
-        public bool m_ForceUpdateDisplay; // 0x461
-
-        // ── Methods ──
-        public void get_textValueInput(){} // RVA: 0x43E1A00
-        public void get_formatString(){} // RVA: 0x43E1A90
-        public void .ctor(){} // RVA: 0x43E4970
-        public void ApplyInputDeviceDelta(){}
-        public void StartDragging(){} // RVA: 0x43E4BB0
-        public void StopDragging(){} // RVA: 0x43E4CE0
-        public void get_value(){} // RVA: 0x43E4EA0
-        public void set_value(){} // RVA: 0x43E4EC0
-        public void UpdateValueFromText(){} // RVA: 0x43E20A0
-        public void UpdateTextFromValue(){} // RVA: 0x43E4EF0
-        public void OnIsReadOnlyChanged(){} // RVA: 0x43E21E0
-        public void CanTryParse(){} // RVA: 0x2DD320
-        public void AddLabelDragger(){} // RVA: 0x24A50
-        public void EnableLabelDragger(){} // RVA: 0x43E2200
-        public void SetValueWithoutNotify(){} // RVA: 0x43E4F40
-        public void ExecuteDefaultAction(){} // RVA: 0x43E5060
-        public void OnViewDataReady(){} // RVA: 0x43E5290
-        public void RegisterEditingCallbacks(){} // RVA: 0x43E52B0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x43E54E0
-    }
-
-    public class TextValueField`1
-    {
-        public UnityEngine.UIElements.BaseFieldMouseDragger m_Dragger; // 0x458
-        public bool m_UpdateTextFromValue; // 0x460
-        public bool m_ForceUpdateDisplay; // 0x461
-
-        // ── Methods ──
-        public void get_textValueInput(){} // RVA: 0x43E1A00
-        public void get_formatString(){} // RVA: 0x43E1A90
-        public void .ctor(){} // RVA: 0x43E2BA0
-        public void ApplyInputDeviceDelta(){}
-        public void StartDragging(){} // RVA: 0x43E2DD0
-        public void StopDragging(){} // RVA: 0x43E2F00
-        public void get_value(){} // RVA: 0x43E30C0
-        public void set_value(){} // RVA: 0x43E30E0
-        public void UpdateValueFromText(){} // RVA: 0x43E3110
-        public void UpdateTextFromValue(){} // RVA: 0x43E3200
-        public void OnIsReadOnlyChanged(){} // RVA: 0x43E21E0
-        public void CanTryParse(){} // RVA: 0x2DD320
-        public void AddLabelDragger(){} // RVA: 0x24A50
-        public void EnableLabelDragger(){} // RVA: 0x43E2200
-        public void SetValueWithoutNotify(){} // RVA: 0x43E3250
-        public void ExecuteDefaultAction(){} // RVA: 0x43E3370
-        public void OnViewDataReady(){} // RVA: 0x43E35A0
-        public void RegisterEditingCallbacks(){} // RVA: 0x43E35C0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x43E37F0
-    }
-
-    public class TextValueField`1
-    {
-        public UnityEngine.UIElements.BaseFieldMouseDragger m_Dragger; // 0x458
-        public bool m_UpdateTextFromValue; // 0x460
-        public bool m_ForceUpdateDisplay; // 0x461
-
-        // ── Methods ──
-        public void get_textValueInput(){} // RVA: 0x43E1A00
-        public void get_formatString(){} // RVA: 0x43E1A90
-        public void .ctor(){} // RVA: 0x43E3A50
-        public void ApplyInputDeviceDelta(){}
-        public void StartDragging(){} // RVA: 0x43E3C80
-        public void StopDragging(){} // RVA: 0x43E3DB0
-        public void get_value(){} // RVA: 0x3E01490
-        public void set_value(){} // RVA: 0x43E3F70
-        public void UpdateValueFromText(){} // RVA: 0x43E3FA0
-        public void UpdateTextFromValue(){} // RVA: 0x43E40A0
-        public void OnIsReadOnlyChanged(){} // RVA: 0x43E21E0
-        public void CanTryParse(){} // RVA: 0x2DD320
-        public void AddLabelDragger(){} // RVA: 0x24A50
-        public void EnableLabelDragger(){} // RVA: 0x43E2200
-        public void SetValueWithoutNotify(){} // RVA: 0x43E40F0
-        public void ExecuteDefaultAction(){} // RVA: 0x43E4290
-        public void OnViewDataReady(){} // RVA: 0x43E44C0
-        public void RegisterEditingCallbacks(){} // RVA: 0x43E44E0
-        public void UnregisterEditingCallbacks(){} // RVA: 0x43E4710
-    }
-
-    public class TextValueField`1
-    {
-        public UnityEngine.UIElements.BaseFieldMouseDragger m_Dragger; // 0x458
-        public bool m_UpdateTextFromValue; // 0x460
-        public bool m_ForceUpdateDisplay; // 0x461
-
-        // ── Methods ──
-        public void get_textValueInput(){} // RVA: 0x43E1A00
-        public void get_formatString(){} // RVA: 0x43E1A90
-        public void .ctor(){} // RVA: 0x43E5740
-        public void ApplyInputDeviceDelta(){}
-        public void StartDragging(){} // RVA: 0x43E5970
-        public void StopDragging(){} // RVA: 0x43E5AA0
-        public void get_value(){} // RVA: 0x43E30C0
-        public void set_value(){} // RVA: 0x43E5C60
-        public void UpdateValueFromText(){} // RVA: 0x43E3110
-        public void UpdateTextFromValue(){} // RVA: 0x43E3200
-        public void OnIsReadOnlyChanged(){} // RVA: 0x43E21E0
-        public void CanTryParse(){} // RVA: 0x2DD320
-        public void AddLabelDragger(){} // RVA: 0x24A50
-        public void EnableLabelDragger(){} // RVA: 0x43E2200
-        public void SetValueWithoutNotify(){} // RVA: 0x43E5C90
-        public void ExecuteDefaultAction(){} // RVA: 0x43E5E30
-        public void OnViewDataReady(){} // RVA: 0x43E6060
-        public void RegisterEditingCallbacks(){} // RVA: 0x43E6080
-        public void UnregisterEditingCallbacks(){} // RVA: 0x43E62B0
-    }
-
-    public class TextValueField`1
-    {
-        public UnityEngine.UIElements.BaseFieldMouseDragger m_Dragger; // 0x458
-        public bool m_UpdateTextFromValue; // 0x460
-        public bool m_ForceUpdateDisplay; // 0x461
-
-        // ── Methods ──
-        public void get_textValueInput(){} // RVA: 0x43E1A00
-        public void get_formatString(){} // RVA: 0x43E1A90
-        public void .ctor(){} // RVA: 0x43E6510
-        public void ApplyInputDeviceDelta(){}
-        public void StartDragging(){} // RVA: 0x43E6740
-        public void StopDragging(){} // RVA: 0x43E6870
-        public void get_value(){} // RVA: 0x3E01490
-        public void set_value(){} // RVA: 0x43E6A30
-        public void UpdateValueFromText(){} // RVA: 0x43E3FA0
-        public void UpdateTextFromValue(){} // RVA: 0x43E40A0
-        public void OnIsReadOnlyChanged(){} // RVA: 0x43E21E0
-        public void CanTryParse(){} // RVA: 0x2DD320
-        public void AddLabelDragger(){} // RVA: 0x24A50
-        public void EnableLabelDragger(){} // RVA: 0x43E2200
-        public void SetValueWithoutNotify(){} // RVA: 0x43E6A60
-        public void ExecuteDefaultAction(){} // RVA: 0x43E6C00
-        public void OnViewDataReady(){} // RVA: 0x43E6E30
-        public void RegisterEditingCallbacks(){} // RVA: 0x43E6E50
-        public void UnregisterEditingCallbacks(){} // RVA: 0x43E7080
-    }
-
-    public class TextValueField`1
-    {
-        public UnityEngine.UIElements.BaseFieldMouseDragger m_Dragger; // 0x458
-        public bool m_UpdateTextFromValue; // 0x460
-        public bool m_ForceUpdateDisplay; // 0x461
-    }
-
-    public class TextureId
-    {
-        public int m_Index; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7438A60
-        public void get_index(){} // RVA: 0x7438A70
-        public void ConvertToGpu(){} // RVA: 0x7438A80
-        public void Equals(){} // RVA: 0x7438AD0
-        public void GetHashCode(){} // RVA: 0x67FD0D0
-        public void op_Equality(){} // RVA: 0x711FA10
-        public void op_Inequality(){} // RVA: 0x7438B70
-        public void .cctor(){} // RVA: 0x7438BD0
-    }
-
-    public class TextureRegistry
-    {
-        public System.Collections.Generic.List`1<TextureInfo> m_Textures; // 0x10
-
-        // ── Methods ──
-        public void get_instance(){} // RVA: 0x7438C10
-        public void GetTexture(){} // RVA: 0x7438C70
-        public void AllocAndAcquireDynamic(){} // RVA: 0x7438EB0
-        public void UpdateDynamic(){} // RVA: 0x7438EC0
-        public void AllocAndAcquire(){} // RVA: 0x7439200
-        public void Acquire(){} // RVA: 0x7439610
-        public void Release(){} // RVA: 0x74397E0
-        public void .ctor(){} // RVA: 0x7439B80
-        public void .cctor(){} // RVA: 0x7439F60
-    }
-
-    public class ThemeStyleSheet
-    {
-        // ── Methods ──
-        public void OnEnable(){} // RVA: 0x74770C0
-        public void .ctor(){} // RVA: 0x74770F0
-    }
-
-    public class TimeMsFunction
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1B072F0
-        public void Invoke(){} // RVA: 0x33BA50
-    }
-
-    public class TimeValue
-    {
-        public float m_Value; // 0x10
-        public 0x6583D478 m_Unit; // 0x14
-
-        // ── Methods ──
-        public void get_value(){} // RVA: 0x1D26670
-        public void get_unit(){} // RVA: 0x19689E0
-        public void .ctor(){} // RVA: 0x2B60610 | overloaded x2
-        public void op_Implicit(){} // RVA: 0x743BEF0
-        public void op_Equality(){} // RVA: 0x743BF10
-        public void op_Inequality(){} // RVA: 0x74651E0
-        public void Equals(){} // RVA: 0x7469460 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x743C020
-        public void ToString(){} // RVA: 0x7469510
-    }
-
-    public class TimerEventScheduler : Schedule
-    {
-        // ── Methods ──
-        public void Schedule(){} // RVA: 0x743AB20
-        public void RemovedScheduledItemAt(){} // RVA: 0x743ACE0
-        public void Unschedule(){} // RVA: 0x743AD60
-        public void PrivateUnSchedule(){} // RVA: 0x743AFF0
-        public void UpdateScheduledEvents(){} // RVA: 0x743B100
-        public void .ctor(){} // RVA: 0x743BC20
-    }
-
-    public class TimerState
-    {
-        public long <start>k__BackingField; // 0x10
-        public long <now>k__BackingField; // 0x18
-
-        // ── Methods ──
-        public void get_start(){} // RVA: 0x1AD4690
-        public void set_start(){} // RVA: 0x1B12320
-        public void get_now(){} // RVA: 0x19689C0
-        public void set_now(){} // RVA: 0x1EE8D20
-        public void get_deltaTime(){} // RVA: 0x743A610
-        public void Equals(){} // RVA: 0x743A6C0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x743A6F0
-    }
-
-    public class Toggle
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x73CB210 | overloaded x2
-        public void InitLabel(){} // RVA: 0x73CB330
-        public void UpdateMixedValueContent(){} // RVA: 0x73CB3B0
-        public void .cctor(){} // RVA: 0x73CB560
-    }
-
-    public class TooltipEvent
-    {
-        public string <tooltip>k__BackingField; // 0x88
-        public UnityEngine.Rect <rect>k__BackingField; // 0x90
-
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x73FA260
-        public void set_tooltip(){} // RVA: 0x463060
-        public void set_rect(){} // RVA: 0x20365D0
-        public void Init(){} // RVA: 0x73FA350
-        public void LocalInit(){} // RVA: 0x73FA410
-        public void .ctor(){} // RVA: 0x73FA4C0
-    }
-
-    public class TouchScreenTextEditorEventHandler
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x73A4420
-        public void PollTouchScreenKeyboard(){} // RVA: 0x73A4490
-        public void DoPollTouchScreenKeyboard(){} // RVA: 0x73A4620
-        public void UpdateStringPositionFromKeyboard(){} // RVA: 0x73A4BB0
-        public void CloseTouchScreenKeyboard(){} // RVA: 0x73A4CF0
-        public void OpenTouchScreenKeyboard(){} // RVA: 0x73A4E60
-        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x73A5170
-        public void OnPointerDownEvent(){} // RVA: 0x73A5450
-        public void OnPointerUpEvent(){} // RVA: 0x73A55B0
-        public void OnFocusInEvent(){} // RVA: 0x73A55D0
-        public void OnFocusOutEvent(){} // RVA: 0x73A57F0
-    }
-
-    public class TransformData
-    {
-        // ── Methods ──
-        public void Copy(){} // RVA: 0x7462170
-        public void CopyFrom(){} // RVA: 0x74621A0
-        public void op_Equality(){} // RVA: 0x74621D0
-        public void Equals(){} // RVA: 0x7462690 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7462760
-    }
-
-    public class TransformOrigin
-    {
-        public UnityEngine.UIElements.Length m_X; // 0x10
-        public UnityEngine.UIElements.Length m_Y; // 0x18
-        public float m_Z; // 0x20
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x74696A0
-        public void Initial(){} // RVA: 0x74696B0
-        public void get_x(){} // RVA: 0x1AD4690
-        public void set_x(){} // RVA: 0x1B12320
-        public void get_y(){} // RVA: 0x19689C0
-        public void set_y(){} // RVA: 0x1EE8D20
-        public void get_z(){} // RVA: 0x407320
-        public void op_Equality(){} // RVA: 0x7469730
-        public void op_Inequality(){} // RVA: 0x74697D0
-        public void Equals(){} // RVA: 0x7469910 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x74699B0
-        public void ToString(){} // RVA: 0x7469A30
-    }
-
-    public class TransitionCancelEvent
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x73FB0C0
-        public void .ctor(){} // RVA: 0x73FB1B0
-    }
-
-    public class TransitionData
-    {
-        // ── Methods ──
-        public void Copy(){} // RVA: 0x74628E0
-        public void CopyFrom(){} // RVA: 0x7462BB0
-        public void op_Equality(){} // RVA: 0x7462DA0
-        public void Equals(){} // RVA: 0x7462E30 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7462EE0
-    }
-
-    public class TransitionEndEvent
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x73FAE80
-        public void .ctor(){} // RVA: 0x73FAF70
-    }
-
-    public class TransitionEventBase`1
-    {
-        public UnityEngine.UIElements.StylePropertyNameCollection <stylePropertyNames>k__BackingField;
-        public double <elapsedTime>k__BackingField;
-
-        // ── Methods ──
-        public void get_stylePropertyNames(){} // RVA: 0x283FA0
-        public void set_elapsedTime(){} // RVA: 0x26100
-        public void .ctor(){} // RVA: 0x24A50
-        public void Init(){} // RVA: 0x24A50
-        public void LocalInit(){} // RVA: 0x24A50
-        public void GetPooled(){} // RVA: 0x283FA0
-    }
-
-    public class TransitionEventBase`1
-    {
-        public UnityEngine.UIElements.StylePropertyNameCollection <stylePropertyNames>k__BackingField; // 0x88
-        public double <elapsedTime>k__BackingField; // 0x90
-
-        // ── Methods ──
-        public void get_stylePropertyNames(){} // RVA: 0x31C010
-        public void set_elapsedTime(){} // RVA: 0x4420B20
-        public void .ctor(){} // RVA: 0x4420B30
-        public void Init(){} // RVA: 0x4420D10
-        public void LocalInit(){} // RVA: 0x4420E10
-        public void GetPooled(){} // RVA: 0x4420EA0
-    }
-
-    public class TransitionEventBase`1
-    {
-        public UnityEngine.UIElements.StylePropertyNameCollection <stylePropertyNames>k__BackingField; // 0x88
-        public double <elapsedTime>k__BackingField; // 0x90
-
-        // ── Methods ──
-        public void get_stylePropertyNames(){} // RVA: 0x31C010
-        public void set_elapsedTime(){} // RVA: 0x4420B20
-        public void .ctor(){} // RVA: 0x4420B30
-        public void Init(){} // RVA: 0x4420D10
-        public void LocalInit(){} // RVA: 0x4420E10
-        public void GetPooled(){} // RVA: 0x4420EA0
-    }
-
-    public class TransitionEventBase`1
-    {
-        public UnityEngine.UIElements.StylePropertyNameCollection <stylePropertyNames>k__BackingField; // 0x88
-        public double <elapsedTime>k__BackingField; // 0x90
-
-        // ── Methods ──
-        public void get_stylePropertyNames(){} // RVA: 0x31C010
-        public void set_elapsedTime(){} // RVA: 0x4420B20
-        public void .ctor(){} // RVA: 0x4420B30
-        public void Init(){} // RVA: 0x4420D10
-        public void LocalInit(){} // RVA: 0x4420E10
-        public void GetPooled(){} // RVA: 0x4420EA0
-    }
-
-    public class TransitionEventBase`1
-    {
-        public UnityEngine.UIElements.StylePropertyNameCollection <stylePropertyNames>k__BackingField; // 0x88
-        public double <elapsedTime>k__BackingField; // 0x90
-
-        // ── Methods ──
-        public void get_stylePropertyNames(){} // RVA: 0x31C010
-        public void set_elapsedTime(){} // RVA: 0x4420B20
-        public void .ctor(){} // RVA: 0x4420B30
-        public void Init(){} // RVA: 0x4420D10
-        public void LocalInit(){} // RVA: 0x4420E10
-        public void GetPooled(){} // RVA: 0x4420EA0
-    }
-
-    public class TransitionRunEvent
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x73FAA00
-        public void .ctor(){} // RVA: 0x73FAAF0
-    }
-
-    public class TransitionStartEvent
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x73FAC40
-        public void .ctor(){} // RVA: 0x73FAD30
-    }
-
-    public class Translate
-    {
-        public UnityEngine.UIElements.Length m_X; // 0x10
-        public UnityEngine.UIElements.Length m_Y; // 0x18
-        public float m_Z; // 0x20
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x7469BC0
-        public void None(){} // RVA: 0x7469BE0
-        public void get_x(){} // RVA: 0x1AD4690
-        public void set_x(){} // RVA: 0x1B12320
-        public void get_y(){} // RVA: 0x19689C0
-        public void set_y(){} // RVA: 0x1EE8D20
-        public void get_z(){} // RVA: 0x407320
-        public void op_Equality(){} // RVA: 0x7469C10
-        public void op_Inequality(){} // RVA: 0x7469D20
-        public void Equals(){} // RVA: 0x7469DC0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x74699B0
-        public void ToString(){} // RVA: 0x7469E80
-    }
-
-    public class TreeDataController`1
-    {
-        // ── Methods ──
-        public void SetRootItems(){} // RVA: 0x24B10
-        public void GetDataForId(){} // RVA: 0x283FA0
-        public void GetParentId(){} // RVA: 0x13FB0
-        public void HasChildren(){} // RVA: 0xE1F0
-        public void GetItemIds(){} // RVA: 0xCE50
-        public void GetChildrenIds(){} // RVA: 0x1BCC0
-        public void Move(){}
-        public void IsChildOf(){}
-        public void GetAllItemIds(){} // RVA: 0xCE10
-        public void .ctor(){} // RVA: 0x24A50
-    }
-
-    public class TreeData`1
-    {
-        public System.Collections.Generic.IList`1<int> id;
-
-        // ── Methods ──
-        public void get_rootItemIds(){} // RVA: 0xCD60
-        public void .ctor(){} // RVA: 0x24B10
-        public void GetDataForId(){} // RVA: 0x283FA0
-        public void GetParentId(){} // RVA: 0x13FB0
-        public void Move(){}
-        public void HasAncestor(){}
-        public void AddItemToParent(){} // RVA: 0x283FA0
-        public void RemoveFromParent(){} // RVA: 0x26EE0
-        public void UpdateParentTree(){} // RVA: 0x283FA0
-        public void RefreshTree(){} // RVA: 0x24B10
-        public void BuildTree(){} // RVA: 0x2A620
-    }
-
-    public class TreeItem
-    {
-        public int <id>k__BackingField; // 0x10
-        public int <parentId>k__BackingField; // 0x14
-        public System.Collections.Generic.IEnumerable`1<int> <childrenIds>k__BackingField; // 0x18
-
-        // ── Methods ──
-        public void get_id(){} // RVA: 0x19689B0
-        public void get_parentId(){} // RVA: 0x19689E0
-        public void get_childrenIds(){} // RVA: 0x19689C0
-        public void get_hasChildren(){} // RVA: 0x73CC120
-        public void .ctor(){} // RVA: 0x49DB570
-    }
-
-    public class TreeView
-    {
-        public System.Func`1<UnityEngine.UIElements.VisualElement> m_MakeItem; // 0x4C0
-        public System.Action`2<UnityEngine.UIElements.VisualElement,int> m_BindItem; // 0x4C8
-        public System.Action`2<UnityEngine.UIElements.VisualElement,int> <unbindItem>k__BackingField; // 0x4D0
-        public System.Action`1<UnityEngine.UIElements.VisualElement> <destroyItem>k__BackingField; // 0x4D8
-
-        // ── Methods ──
-        public void get_makeItem(){} // RVA: 0xD95090
-        public void set_makeItem(){} // RVA: 0x73CBCA0
-        public void get_bindItem(){} // RVA: 0xD95D00
-        public void set_bindItem(){} // RVA: 0x73CBD50
-        public void get_unbindItem(){} // RVA: 0xD99BE0
-        public void get_destroyItem(){} // RVA: 0xD87580
-        public void HasValidDataAndBindings(){} // RVA: 0x73CBE00
-        public void CreateViewController(){} // RVA: 0x73CBE60
-        public void .ctor(){} // RVA: 0x73CBF00 | overloaded x2
-    }
-
-    public class TreeViewController
-    {
-        // ── Methods ──
-        public void get_treeView(){} // RVA: 0x72F3D00
-        public void MakeItem(){} // RVA: 0x72F3D90
-        public void BindItem(){} // RVA: 0x72F3ED0
-        public void UnbindItem(){} // RVA: 0x72F40A0
-        public void DestroyItem(){} // RVA: 0x72F40F0
-        public void .ctor(){} // RVA: 0x2BC2970
-    }
-
-    public class TreeViewItemData`1
-    {
-        public int <id>k__BackingField;
-        public T m_Data;
-        public System.Collections.Generic.IList`1<UnityEngine.UIElements.TreeViewItemData`1<T>> m_Children;
-
-        // ── Methods ──
-        public void get_id(){} // RVA: 0xD840
-        public void get_data(){} // RVA: 0x283FA0
-        public void get_children(){} // RVA: 0xCD60
-        public void get_hasChildren(){} // RVA: 0xDBE0
-        public void InsertChild(){} // RVA: 0x283FA0
-        public void RemoveChild(){} // RVA: 0x24FA0
-        public void GetChildIndex(){} // RVA: 0x13FB0
-        public void ReplaceChild(){} // RVA: 0x283FA0
-    }
-
-    public class TreeViewItemWrapper
-    {
-        public UnityEngine.UIElements.TreeItem item; // 0x10
-        public int depth; // 0x20
-
-        // ── Methods ──
-        public void get_id(){} // RVA: 0x19689B0
-        public void get_childrenIds(){} // RVA: 0x19689C0
-        public void get_hasChildren(){} // RVA: 0x73CC120
-        public void .ctor(){} // RVA: 0x73CC170
-    }
-
-    public class TreeViewReorderableDragAndDropController
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x73E0B20
-        public void CompareId(){} // RVA: 0x73E0CD0
-        public void SetupDragAndDrop(){} // RVA: 0x73E1390
-        public void HandleDragAndDrop(){} // RVA: 0x73E1520
-        public void OnDrop(){} // RVA: 0x73E15E0
-        public void DragCleanup(){} // RVA: 0x73E1D10
-        public void RestoreExpanded(){} // RVA: 0x73E1E60
-        public void HandleAutoExpand(){} // RVA: 0x73E2100
-        public void DelayExpandDropItem(){} // RVA: 0x73E2360
-        public void ExpandDropItem(){} // RVA: 0x73E2460
-    }
-
-    public class TwoPaneSplitView
-    {
-        public string s_UssClassName;
-        public string s_ContentContainerClassName; // 0x8
-        public string s_HandleDragLineClassName; // 0x10
-        public string s_HandleDragLineVerticalClassName; // 0x18
-        public string s_HandleDragLineHorizontalClassName; // 0x20
-        public string s_HandleDragLineAnchorClassName; // 0x28
-
-        // ── Methods ──
-        public void get_fixedPane(){} // RVA: 0xDA0010
-        public void get_flexedPane(){} // RVA: 0xD98840
-        public void get_fixedPaneIndex(){} // RVA: 0x73CC1D0
-        public void get_orientation(){} // RVA: 0x73CC1E0
-        public void get_fixedPaneDimension(){} // RVA: 0x73CC1F0
-        public void set_fixedPaneDimension(){} // RVA: 0x73CC220
-        public void .ctor(){} // RVA: 0x73CC240
-        public void Init(){} // RVA: 0x73CC6E0
-        public void OnPostDisplaySetup(){} // RVA: 0x73CCB40
-        public void PostDisplaySetup(){} // RVA: 0x73CCC40
-        public void OnSizeChange(){} // RVA: 0x73CDCC0
-        public void UpdateLayout(){} // RVA: 0x73CDCD0
-        public void get_contentContainer(){} // RVA: 0x73CE160
-        public void OnViewDataReady(){} // RVA: 0x73CE170
-        public void SetDragLineOffset(){} // RVA: 0x73CE1A0
-        public void SetFixedPaneDimension(){} // RVA: 0x73CE370
-        public void .cctor(){} // RVA: 0x73CE540
-    }
-
-    public class TwoPaneSplitViewResizer
-    {
-        public UnityEngine.Vector3 m_Start; // 0x38
-        public bool m_Active; // 0x44
-        public UnityEngine.UIElements.TwoPaneSplitView m_SplitView; // 0x48
-        public int m_Direction; // 0x50
-
-        // ── Methods ──
-        public void get_orientation(){} // RVA: 0x73CF050
-        public void get_fixedPane(){} // RVA: 0x73CF070
-        public void get_flexedPane(){} // RVA: 0x73CF090
-        public void get_fixedPaneMinDimension(){} // RVA: 0x73CF0B0
-        public void get_fixedPaneMargins(){} // RVA: 0x73CF140
-        public void get_flexedPaneMinDimension(){} // RVA: 0x73CF220
-        public void get_flexedPaneMargin(){} // RVA: 0x73CF2B0
-        public void .ctor(){} // RVA: 0x73CF390
-        public void RegisterCallbacksOnTarget(){} // RVA: 0x73CF4F0
-        public void UnregisterCallbacksFromTarget(){} // RVA: 0x73CF690
-        public void ApplyDelta(){} // RVA: 0x73CF820
-        public void OnPointerDown(){} // RVA: 0x73CFF30
-        public void OnPointerMove(){} // RVA: 0x73CFFF0
-        public void OnPointerUp(){} // RVA: 0x73D0110
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public T <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){} // RVA: 0x263BC0
-        public void get_defaultValue(){} // RVA: 0x263BC0
-        public void set_defaultValue(){} // RVA: 0x36AEE20
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public T <defaultValue>k__BackingField;
-
-        // ── Methods ──
-        public void GetValueFromBag(){} // RVA: 0x283FA0
-        public void get_defaultValue(){} // RVA: 0x283FA0
-        public void set_defaultValue(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x24A50
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public System.Type <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x35A740
-        public void set_defaultValue(){} // RVA: 0x305200
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public string <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x35A740
-        public void set_defaultValue(){} // RVA: 0x305200
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public float <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x7D0490
-        public void set_defaultValue(){} // RVA: 0x7D04A0
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public double <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x1F65E70
-        public void set_defaultValue(){} // RVA: 0x1F65E80
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public int <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x37E080
-        public void set_defaultValue(){} // RVA: 0x37E090
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public uint <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x37E080
-        public void set_defaultValue(){} // RVA: 0x37E090
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public ulong <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x35A740
-        public void set_defaultValue(){} // RVA: 0x36B37A0
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public long <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x35A740
-        public void set_defaultValue(){} // RVA: 0x36B37A0
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public bool <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x398C00
-        public void set_defaultValue(){} // RVA: 0x398C10
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public UnityEngine.Hash128 <defaultValue>k__BackingField; // 0x40
-
-        // ── Methods ──
-        public void GetValueFromBag(){}
-        public void get_defaultValue(){} // RVA: 0x1FA6340
-        public void set_defaultValue(){} // RVA: 0x4469B20
-        public void .ctor(){} // RVA: 0x4469AC0
-    }
-
-    public class TypedUxmlAttributeDescription`1
-    {
-        public UnityEngine.Hash128 <defaultValue>k__BackingField; // 0x40
+    public class TemplateAsset : VisualElementAsset
+    {
+        // ── Methods ──
+        public void get_attributeOverrides(){} // RVA: 0x7AF26EF80
+        public void get_slotUsages(){} // RVA: 0x7AEF674A0
+    }
+
+    public class TemplateAsset[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class TemplateContainer : BindableElement
+    {
+        // ── Methods ──
+        public void get_templateId(){} // RVA: 0x7A8B64520
+        public void set_templateId(){} // RVA: 0x7A8B5EE20
+        public void set_templateSource(){} // RVA: 0x7A8B4DDD0
+        public void .ctor(){} // RVA: 0x7AF256AA0
+        public void get_contentContainer(){} // RVA: 0x7AF256BB0
+        public void SetContentContainer(){} // RVA: 0x7A8B61600
+    }
+
+    public class TextEditingManipulator : Object
+    {
+        // ── Methods ──
+        public void get_touchScreenTextFieldChanged(){} // RVA: 0x7AF257F00
+        public void .ctor(){} // RVA: 0x7AF257F90
+        public void InitTextEditorEventHandler(){} // RVA: 0x7AF258250
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AF258560
+        public void OnFocusInEvent(){} // RVA: 0x7AF258750
+        public void OnFocusOutEvent(){} // RVA: 0x7AF258920
+        public void <OnFocusInEvent>b__10_0(){} // RVA: 0x7AF2589F0
+    }
+
+    public class TextEditorEventHandler : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7A80D7310
+    }
+
+    public class TextElement : BindableElement
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AF25E770
+        public void get_uitkTextHandle(){} // RVA: 0x7A8B64520
+        public void set_uitkTextHandle(){} // RVA: 0x7A8B5EE20
+        public void OnGeometryChanged(){} // RVA: 0x7AF25ECE0
+        public void get_text(){} // RVA: 0x7AF25ECF0
+        public void set_text(){} // RVA: 0x7AF25ED30
+        public void get_enableRichText(){} // RVA: 0x7AF0F94B0
+        public void set_enableRichText(){} // RVA: 0x7AF25ED90
+        public void get_parseEscapeSequences(){} // RVA: 0x7AF25EDE0
+        public void set_parseEscapeSequences(){} // RVA: 0x7AF25EDF0
+        public void get_displayTooltipWhenElided(){} // RVA: 0x7AF25EE40
+        public void set_displayTooltipWhenElided(){} // RVA: 0x7AF25EE50
+        public void get_isElided(){} // RVA: 0x7AF25EEA0
+        public void set_isElided(){} // RVA: 0x7AF25EEB0
+        public void OnGenerateVisualContent(){} // RVA: 0x7AF25EEC0
+        public void ElideText(){} // RVA: 0x7AF25F1E0
+        public void UpdateTooltip(){} // RVA: 0x7AF25F660
+        public void UpdateVisibleText(){} // RVA: 0x7AF25F6E0
+        public void ShouldElide(){} // RVA: 0x7AF25F910
+        public void get_hasFocus(){} // RVA: 0x7AF25F9A0
+        public void MeasureTextSize(){} // RVA: 0x7AF25FA20
+        public void DoMeasure(){} // RVA: 0x7AF25FA50
+        public void UnityEngine.UIElements.INotifyValueChanged<System.String>.get_value(){} // RVA: 0x7AF25FAC0
+        public void UnityEngine.UIElements.INotifyValueChanged<System.String>.set_value(){} // RVA: 0x7AF25FB10
+        public void UnityEngine.UIElements.INotifyValueChanged<System.String>.SetValueWithoutNotify(){} // RVA: 0x7AF25FCE0
+        public void get_edition(){} // RVA: 0x7A97F8BA0
+        public void UnityEngine.UIElements.ITextEdition.get_multiline(){} // RVA: 0x7AD394030
+        public void UnityEngine.UIElements.ITextEdition.set_multiline(){} // RVA: 0x7AF25FED0
+        public void UnityEngine.UIElements.ITextEdition.get_keyboardType(){} // RVA: 0x7AF25FF60
+        public void UnityEngine.UIElements.ITextEdition.set_keyboardType(){} // RVA: 0x7AF25FF70
+        public void UnityEngine.UIElements.ITextEdition.get_hideMobileInput(){} // RVA: 0x7AF25FF80
+        public void UnityEngine.UIElements.ITextEdition.set_hideMobileInput(){} // RVA: 0x7AF260020
+        public void UnityEngine.UIElements.ITextEdition.get_isReadOnly(){} // RVA: 0x7AF2600E0
+        public void UnityEngine.UIElements.ITextEdition.set_isReadOnly(){} // RVA: 0x7AF260100
+        public void ProcessMenuCommand(){} // RVA: 0x7AF2601E0
+        public void Cut(){} // RVA: 0x7AF2603C0
+        public void Copy(){} // RVA: 0x7AF260410
+        public void Paste(){} // RVA: 0x7AF260460
+        public void BuildContextualMenu(){} // RVA: 0x7AF2604B0
+        public void CutActionStatus(){} // RVA: 0x7AF260820
+        public void CopyActionStatus(){} // RVA: 0x7AF2608B0
+        public void PasteActionStatus(){} // RVA: 0x7AF260940
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AF260990
+        public void UnityEngine.UIElements.ITextEdition.get_maxLength(){} // RVA: 0x7AF260C50
+        public void UnityEngine.UIElements.ITextEdition.set_maxLength(){} // RVA: 0x7AF260C60
+        public void UnityEngine.UIElements.ITextEdition.get_isDelayed(){} // RVA: 0x7AF260CF0
+        public void UnityEngine.UIElements.ITextEdition.set_isDelayed(){} // RVA: 0x7AF260D00
+        public void UnityEngine.UIElements.ITextEdition.SaveValueAndText(){} // RVA: 0x7AF260D10
+        public void UnityEngine.UIElements.ITextEdition.RestoreValueAndText(){} // RVA: 0x7AF260D90
+        public void UnityEngine.UIElements.ITextEdition.get_AcceptCharacter(){} // RVA: 0x7A8B67010
+        public void UnityEngine.UIElements.ITextEdition.set_AcceptCharacter(){} // RVA: 0x7A8B60A90
+        public void UnityEngine.UIElements.ITextEdition.get_UpdateScrollOffset(){} // RVA: 0x7A8B5AF80
+        public void UnityEngine.UIElements.ITextEdition.set_UpdateScrollOffset(){} // RVA: 0x7A8B4E3C0
+        public void UnityEngine.UIElements.ITextEdition.get_UpdateValueFromText(){} // RVA: 0x7A8B597A0
+        public void UnityEngine.UIElements.ITextEdition.set_UpdateValueFromText(){} // RVA: 0x7A8B62750
+        public void UnityEngine.UIElements.ITextEdition.get_UpdateTextFromValue(){} // RVA: 0x7A8B526C0
+        public void UnityEngine.UIElements.ITextEdition.set_UpdateTextFromValue(){} // RVA: 0x7A8B59A70
+        public void UnityEngine.UIElements.ITextEdition.get_MoveFocusToCompositeRoot(){} // RVA: 0x7A8B5E0F0
+        public void UnityEngine.UIElements.ITextEdition.set_MoveFocusToCompositeRoot(){} // RVA: 0x7A8B67A70
+        public void UnityEngine.UIElements.ITextEdition.UpdateText(){} // RVA: 0x7AF260DB0
+        public void UnityEngine.UIElements.ITextEdition.CullString(){} // RVA: 0x7AF261160
+        public void UnityEngine.UIElements.ITextEdition.set_maskChar(){} // RVA: 0x7AF2611E0
+        public void get_effectiveMaskChar(){} // RVA: 0x7AF261270
+        public void UnityEngine.UIElements.ITextEdition.get_isPassword(){} // RVA: 0x7AF2612E0
+        public void UnityEngine.UIElements.ITextEdition.set_isPassword(){} // RVA: 0x7AF2612F0
+        public void UnityEngine.UIElements.ITextEdition.get_autoCorrection(){} // RVA: 0x7AF261340
+        public void UnityEngine.UIElements.ITextEdition.set_autoCorrection(){} // RVA: 0x7AF261350
+        public void get_renderedText(){} // RVA: 0x7AF261360
+        public void set_renderedText(){} // RVA: 0x7AF2614C0
+        public void get_originalText(){} // RVA: 0x7A8B6D320
+        public void get_selection(){} // RVA: 0x7A97F8BA0
+        public void UnityEngine.UIElements.ITextSelection.get_isSelectable(){} // RVA: 0x7AF261560
+        public void UnityEngine.UIElements.ITextSelection.set_isSelectable(){} // RVA: 0x7AF261580
+        public void UnityEngine.UIElements.ITextSelection.get_cursorIndex(){} // RVA: 0x7AF2615A0
+        public void UnityEngine.UIElements.ITextSelection.set_cursorIndex(){} // RVA: 0x7AF261620
+        public void UnityEngine.UIElements.ITextSelection.get_selectIndex(){} // RVA: 0x7AF2616C0
+        public void UnityEngine.UIElements.ITextSelection.set_selectIndex(){} // RVA: 0x7AF261740
+        public void UnityEngine.UIElements.ITextSelection.SelectAll(){} // RVA: 0x7AF2617E0
+        public void UnityEngine.UIElements.ITextSelection.SelectNone(){} // RVA: 0x7AF261860
+        public void UnityEngine.UIElements.ITextSelection.HasSelection(){} // RVA: 0x7AF261900
+        public void UnityEngine.UIElements.ITextSelection.get_doubleClickSelectsWord(){} // RVA: 0x7AF2619B0
+        public void UnityEngine.UIElements.ITextSelection.get_tripleClickSelectsLine(){} // RVA: 0x7AF2619C0
+        public void UnityEngine.UIElements.ITextSelection.get_selectAllOnFocus(){} // RVA: 0x7AF2619D0
+        public void UnityEngine.UIElements.ITextSelection.set_selectAllOnFocus(){} // RVA: 0x7AF2619E0
+        public void UnityEngine.UIElements.ITextSelection.get_selectAllOnMouseUp(){} // RVA: 0x7AF2619F0
+        public void UnityEngine.UIElements.ITextSelection.set_selectAllOnMouseUp(){} // RVA: 0x7AF261A00
+        public void UnityEngine.UIElements.ITextSelection.get_cursorPosition(){} // RVA: 0x7AF261A10
+        public void UnityEngine.UIElements.ITextSelection.get_lineHeightAtCursorPosition(){} // RVA: 0x7AF261AC0
+        public void UnityEngine.UIElements.ITextSelection.get_selectionColor(){} // RVA: 0x7AF261BA0
+        public void UnityEngine.UIElements.ITextSelection.set_selectionColor(){} // RVA: 0x7AF261BB0
+        public void UnityEngine.UIElements.ITextSelection.get_cursorColor(){} // RVA: 0x7AF261C60
+        public void UnityEngine.UIElements.ITextSelection.set_cursorColor(){} // RVA: 0x7AF261C70
+        public void UnityEngine.UIElements.ITextSelection.get_cursorWidth(){} // RVA: 0x7AF261D20
+        public void get_selectingManipulator(){} // RVA: 0x7AF261D30
+        public void DrawHighlighting(){} // RVA: 0x7AF261DF0
+        public void DrawCaret(){} // RVA: 0x7AF2626C0
+        public void GetLastCharacterAt(){} // RVA: 0x7AF262B50
+        public void .cctor(){} // RVA: 0x7AF262DA0
+    }
+
+    public class TextField : TextInputBaseField`1
+    {
+        // ── Methods ──
+        public void get_textInput(){} // RVA: 0x7AF182540
+        public void set_multiline(){} // RVA: 0x7AF1825D0
+        public void .ctor(){} // RVA: 0x7AF182660
+        public void get_value(){} // RVA: 0x7AF182900
+        public void set_value(){} // RVA: 0x7AF182950
+        public void SetValueWithoutNotify(){} // RVA: 0x7AF182A10
+        public void UpdateTextFromValue(){} // RVA: 0x7AF182AD0
+        public void ExecuteDefaultAction(){} // RVA: 0x7AF182B20
+        public void OnViewDataReady(){} // RVA: 0x7AF182D00
+        public void ValueToString(){} // RVA: 0x7A9194610
+        public void StringToValue(){} // RVA: 0x7A9194610
+        public void .cctor(){} // RVA: 0x7AF182DB0
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void get_textInputBase(){} // RVA: 0x7A7E00680
+        public void get_text(){} // RVA: 0x7A7E00680
+        public void set_text(){} // RVA: 0x7A7E18800
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7A7E18800
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7A7E18800
+        public void get_isReadOnly(){} // RVA: 0x7A7E01900
+        public void set_isReadOnly(){} // RVA: 0x7A7E18C30
+        public void set_isPasswordField(){} // RVA: 0x7A7E18C30
+        public void set_autoCorrection(){} // RVA: 0x7A7E18C30
+        public void set_hideMobileInput(){} // RVA: 0x7A7E18C30
+        public void set_keyboardType(){} // RVA: 0x7A7E189D0
+        public void get_textEdition(){} // RVA: 0x7A7E00680
+        public void set_maxLength(){} // RVA: 0x7A7E189D0
+        public void get_isDelayed(){} // RVA: 0x7A7E01900
+        public void set_isDelayed(){} // RVA: 0x7A7E18C30
+        public void set_maskChar(){} // RVA: 0x7A7E18950
+        public void ValueToString(){} // RVA: 0x7A8051B10
+        public void StringToValue(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7A7E18800
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7A7E18800
+        public void UpdateMixedValueContent(){} // RVA: 0x7A7E18770
+        public void UpdateValueFromText(){} // RVA: 0x7A7E18770
+        public void UpdateTextFromValue(){} // RVA: 0x7A7E18770
+        public void .cctor(){} // RVA: 0x7A7E187D0
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void set_isReadOnly(){} // RVA: 0x7AC1BA1C0
+        public void set_isDelayed(){} // RVA: 0x7AC1BA540
+        public void UpdateValueFromText(){} // RVA: 0x7AC1BB060
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void get_isDelayed(){} // RVA: 0x7AC1BA4E0
+        public void get_textInputBase(){} // RVA: 0x7A8B5E0F0
+        public void get_text(){} // RVA: 0x7AC1B9EC0
+        public void set_text(){} // RVA: 0x7AC1B9F00
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1B9F20
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1BA040
+        public void get_isReadOnly(){} // RVA: 0x7AC1BA160
+        public void set_isPasswordField(){} // RVA: 0x7AC1BA250
+        public void set_autoCorrection(){} // RVA: 0x7AC1BA2F0
+        public void set_hideMobileInput(){} // RVA: 0x7AC1BA360
+        public void set_keyboardType(){} // RVA: 0x7AC1BA3D0
+        public void get_textEdition(){} // RVA: 0x7AC1BA440
+        public void set_maxLength(){} // RVA: 0x7AC1BA470
+        public void set_maskChar(){} // RVA: 0x7AC1BA5B0
+        public void ValueToString(){} // RVA: 0x7A7E064B0
+        public void StringToValue(){} // RVA: 0x7A7E06AF0
+        public void .ctor(){} // RVA: 0x7AC1BA620
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1BA9C0
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1BAA00
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1BADC0
+        public void .cctor(){} // RVA: 0x7AC1BB0E0
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void get_textInputBase(){} // RVA: 0x7AC1C7DE0
+        public void get_text(){} // RVA: 0x7AC1C7E10
+        public void set_text(){} // RVA: 0x7AC1C7E70
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1C7ED0
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1C8040
+        public void get_isReadOnly(){} // RVA: 0x7AC1C81B0
+        public void set_isReadOnly(){} // RVA: 0x7AC1C8230
+        public void set_isPasswordField(){} // RVA: 0x7AC1C8310
+        public void set_autoCorrection(){} // RVA: 0x7AC1C8440
+        public void set_hideMobileInput(){} // RVA: 0x7AC1C84D0
+        public void set_keyboardType(){} // RVA: 0x7AC1C8560
+        public void get_textEdition(){} // RVA: 0x7AC1C85F0
+        public void set_maxLength(){} // RVA: 0x7AC1C8650
+        public void get_isDelayed(){} // RVA: 0x7AC1C86E0
+        public void set_isDelayed(){} // RVA: 0x7AC1C8760
+        public void set_maskChar(){} // RVA: 0x7AC1C87F0
+        public void ValueToString(){} // RVA: 0x7A8051B10
+        public void StringToValue(){} // RVA: 0x7A80804D0
+        public void .ctor(){} // RVA: 0x7AC1C8880
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1C8C60
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1C8CC0
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1C9230
+        public void UpdateValueFromText(){} // RVA: 0x7AC1C9540
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AC1C9640
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void set_isReadOnly(){} // RVA: 0x7AC1C2EC0
+        public void set_isDelayed(){} // RVA: 0x7AC1C3170
+        public void UpdateValueFromText(){} // RVA: 0x7AC1BB060
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void get_isDelayed(){} // RVA: 0x7AC1C3110
+        public void get_textInputBase(){} // RVA: 0x7A8B5E0F0
+        public void get_text(){} // RVA: 0x7AC1B9EC0
+        public void set_text(){} // RVA: 0x7AC1B9F00
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1C2C20
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1C2D40
+        public void get_isReadOnly(){} // RVA: 0x7AC1C2E60
+        public void set_isPasswordField(){} // RVA: 0x7AC1BA250
+        public void set_autoCorrection(){} // RVA: 0x7AC1C2F50
+        public void set_hideMobileInput(){} // RVA: 0x7AC1C2FC0
+        public void set_keyboardType(){} // RVA: 0x7AC1C3030
+        public void get_textEdition(){} // RVA: 0x7AC1BA440
+        public void set_maxLength(){} // RVA: 0x7AC1C30A0
+        public void set_maskChar(){} // RVA: 0x7AC1C31E0
+        public void ValueToString(){} // RVA: 0x7A7E14E80
+        public void StringToValue(){} // RVA: 0x7A7E15640
+        public void .ctor(){} // RVA: 0x7AC1C3250
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1C35F0
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1C3630
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1C39F0
+        public void .cctor(){} // RVA: 0x7AC1C3C90
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void set_isReadOnly(){} // RVA: 0x7AC1BBF30
+        public void set_isDelayed(){} // RVA: 0x7AC1BC2B0
+        public void UpdateValueFromText(){} // RVA: 0x7AC1BCDD0
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void get_textInputBase(){} // RVA: 0x7A8B5A090
+        public void get_text(){} // RVA: 0x7AC1BBBB0
+        public void set_text(){} // RVA: 0x7AC1BBBF0
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1BBC90
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1BBDB0
+        public void get_isReadOnly(){} // RVA: 0x7AC1BBED0
+        public void set_isPasswordField(){} // RVA: 0x7AC1BBFC0
+        public void set_autoCorrection(){} // RVA: 0x7AC1BC060
+        public void set_hideMobileInput(){} // RVA: 0x7AC1BC0D0
+        public void set_keyboardType(){} // RVA: 0x7AC1BC140
+        public void get_textEdition(){} // RVA: 0x7AC1BC1B0
+        public void set_maxLength(){} // RVA: 0x7AC1BC1E0
+        public void get_isDelayed(){} // RVA: 0x7AC1BC250
+        public void set_maskChar(){} // RVA: 0x7AC1BC320
+        public void ValueToString(){} // RVA: 0x7A7E00B20
+        public void StringToValue(){} // RVA: 0x7A7E00560
+        public void .ctor(){} // RVA: 0x7AC1BC390
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1BC730
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1BC770
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1BCB30
+        public void .cctor(){} // RVA: 0x7AC1BCE60
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void set_maxLength(){} // RVA: 0x7AC1C1560
+        public void set_isPasswordField(){} // RVA: 0x7AC1BA250
+        public void set_isReadOnly(){} // RVA: 0x7AC1C1380
+        public void set_isDelayed(){} // RVA: 0x7AC1C1630
+        public void set_hideMobileInput(){} // RVA: 0x7AC1C1480
+        public void set_keyboardType(){} // RVA: 0x7AC1C14F0
+        public void set_autoCorrection(){} // RVA: 0x7AC1C1410
+        public void set_maskChar(){} // RVA: 0x7AC1C16A0
+        public void UpdateValueFromText(){} // RVA: 0x7AC1C0560
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void get_textInputBase(){} // RVA: 0x7A8B5E0F0
+        public void get_text(){} // RVA: 0x7AC1B9EC0
+        public void set_text(){} // RVA: 0x7AC1C10B0
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1C10E0
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1C1200
+        public void get_isReadOnly(){} // RVA: 0x7AC1C1320
+        public void get_textEdition(){} // RVA: 0x7AC1BA440
+        public void get_isDelayed(){} // RVA: 0x7AC1C15D0
+        public void ValueToString(){} // RVA: 0x7A7E00B20
+        public void StringToValue(){} // RVA: 0x7A7E00B20
+        public void .ctor(){} // RVA: 0x7AC1C1710
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1C1AB0
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1C1AF0
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1C1EB0
+        public void .cctor(){} // RVA: 0x7AC1C2150
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void set_isReadOnly(){} // RVA: 0x7AC1BDBD0
+        public void set_isDelayed(){} // RVA: 0x7AC1BDE80
+        public void UpdateValueFromText(){} // RVA: 0x7AC1BE9A0
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void get_isDelayed(){} // RVA: 0x7AC1BDE20
+        public void get_textInputBase(){} // RVA: 0x7A8B5E0F0
+        public void get_text(){} // RVA: 0x7AC1B9EC0
+        public void set_text(){} // RVA: 0x7AC1B9F00
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1BD930
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1BDA50
+        public void get_isReadOnly(){} // RVA: 0x7AC1BDB70
+        public void set_isPasswordField(){} // RVA: 0x7AC1BA250
+        public void set_autoCorrection(){} // RVA: 0x7AC1BDC60
+        public void set_hideMobileInput(){} // RVA: 0x7AC1BDCD0
+        public void set_keyboardType(){} // RVA: 0x7AC1BDD40
+        public void get_textEdition(){} // RVA: 0x7AC1BA440
+        public void set_maxLength(){} // RVA: 0x7AC1BDDB0
+        public void set_maskChar(){} // RVA: 0x7AC1BDEF0
+        public void ValueToString(){} // RVA: 0x7A7E00740
+        public void StringToValue(){} // RVA: 0x7A7E01630
+        public void .ctor(){} // RVA: 0x7AC1BDF60
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1BE300
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1BE340
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1BE700
+        public void .cctor(){} // RVA: 0x7AC1BEA20
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void set_isReadOnly(){} // RVA: 0x7AC1BF790
+        public void set_isDelayed(){} // RVA: 0x7AC1BFA40
+        public void UpdateValueFromText(){} // RVA: 0x7AC1C0560
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void get_isDelayed(){} // RVA: 0x7AC1BF9E0
+        public void get_textInputBase(){} // RVA: 0x7A8B5E0F0
+        public void get_text(){} // RVA: 0x7AC1B9EC0
+        public void set_text(){} // RVA: 0x7AC1B9F00
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1BF4F0
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1BF610
+        public void get_isReadOnly(){} // RVA: 0x7AC1BF730
+        public void set_isPasswordField(){} // RVA: 0x7AC1BA250
+        public void set_autoCorrection(){} // RVA: 0x7AC1BF820
+        public void set_hideMobileInput(){} // RVA: 0x7AC1BF890
+        public void set_keyboardType(){} // RVA: 0x7AC1BF900
+        public void get_textEdition(){} // RVA: 0x7AC1BA440
+        public void set_maxLength(){} // RVA: 0x7AC1BF970
+        public void set_maskChar(){} // RVA: 0x7AC1BFAB0
+        public void ValueToString(){} // RVA: 0x7A7E063E0
+        public void StringToValue(){} // RVA: 0x7A7E00B20
+        public void .ctor(){} // RVA: 0x7AC1BFB20
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1BFEC0
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1BFF00
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1C02C0
+        public void .cctor(){} // RVA: 0x7AC1C05E0
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void set_isReadOnly(){} // RVA: 0x7AC1C4A00
+        public void set_isDelayed(){} // RVA: 0x7AC1C4CB0
+        public void UpdateValueFromText(){} // RVA: 0x7AC1BE9A0
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void get_isDelayed(){} // RVA: 0x7AC1C4C50
+        public void get_textInputBase(){} // RVA: 0x7A8B5E0F0
+        public void get_text(){} // RVA: 0x7AC1B9EC0
+        public void set_text(){} // RVA: 0x7AC1B9F00
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1C4760
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1C4880
+        public void get_isReadOnly(){} // RVA: 0x7AC1C49A0
+        public void set_isPasswordField(){} // RVA: 0x7AC1BA250
+        public void set_autoCorrection(){} // RVA: 0x7AC1C4A90
+        public void set_hideMobileInput(){} // RVA: 0x7AC1C4B00
+        public void set_keyboardType(){} // RVA: 0x7AC1C4B70
+        public void get_textEdition(){} // RVA: 0x7AC1BA440
+        public void set_maxLength(){} // RVA: 0x7AC1C4BE0
+        public void set_maskChar(){} // RVA: 0x7AC1C4D20
+        public void ValueToString(){} // RVA: 0x7A7E00740
+        public void StringToValue(){} // RVA: 0x7A7E01630
+        public void .ctor(){} // RVA: 0x7AC1C4D90
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1C5130
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1C5170
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1C5530
+        public void .cctor(){} // RVA: 0x7AC1C57D0
+    }
+
+    public class TextInputBaseField`1 : BaseField`1
+    {
+        // ── Methods ──
+        public void set_isReadOnly(){} // RVA: 0x7AC1C6540
+        public void set_isDelayed(){} // RVA: 0x7AC1C67F0
+        public void UpdateValueFromText(){} // RVA: 0x7AC1C0560
+        public void UpdateTextFromValue(){} // RVA: 0x7A80D7310
+        public void get_isDelayed(){} // RVA: 0x7AC1C6790
+        public void get_textInputBase(){} // RVA: 0x7A8B5E0F0
+        public void get_text(){} // RVA: 0x7AC1B9EC0
+        public void set_text(){} // RVA: 0x7AC1B9F00
+        public void add_onIsReadOnlyChanged(){} // RVA: 0x7AC1C62A0
+        public void remove_onIsReadOnlyChanged(){} // RVA: 0x7AC1C63C0
+        public void get_isReadOnly(){} // RVA: 0x7AC1C64E0
+        public void set_isPasswordField(){} // RVA: 0x7AC1BA250
+        public void set_autoCorrection(){} // RVA: 0x7AC1C65D0
+        public void set_hideMobileInput(){} // RVA: 0x7AC1C6640
+        public void set_keyboardType(){} // RVA: 0x7AC1C66B0
+        public void get_textEdition(){} // RVA: 0x7AC1BA440
+        public void set_maxLength(){} // RVA: 0x7AC1C6720
+        public void set_maskChar(){} // RVA: 0x7AC1C6860
+        public void ValueToString(){} // RVA: 0x7A7E063E0
+        public void StringToValue(){} // RVA: 0x7A7E00B20
+        public void .ctor(){} // RVA: 0x7AC1C68D0
+        public void OnFieldCustomStyleResolved(){} // RVA: 0x7AC1C6C70
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AC1C6CB0
+        public void UpdateMixedValueContent(){} // RVA: 0x7AC1C7070
+        public void .cctor(){} // RVA: 0x7AC1C7310
+    }
+
+    public class TextSelectingManipulator : Object
+    {
+        // ── Methods ──
+        public void get_isClicking(){} // RVA: 0x7A80FD6B0
+        public void set_isClicking(){} // RVA: 0x7AF258A40
+        public void .ctor(){} // RVA: 0x7AF258A50
+        public void get_cursorIndex(){} // RVA: 0x7AF258F80
+        public void set_cursorIndex(){} // RVA: 0x7AEF782C0
+        public void get_selectIndex(){} // RVA: 0x7AF258FA0
+        public void set_selectIndex(){} // RVA: 0x7AEF78330
+        public void OnRevealCursor(){} // RVA: 0x7AF258FC0
+        public void OnSelectIndexChange(){} // RVA: 0x7AF259010
+        public void OnCursorIndexChange(){} // RVA: 0x7AF259150
+        public void RevealCursor(){} // RVA: 0x7AF259290
+        public void HasSelection(){} // RVA: 0x7AF2592B0
+        public void HasFocus(){} // RVA: 0x7AF259300
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AF259320
+        public void OnFocusEvent(){} // RVA: 0x7AF2596C0
+        public void OnBlurEvent(){} // RVA: 0x7AF259860
+        public void OnKeyDown(){} // RVA: 0x7AF2598C0
+        public void OnPointerDownEvent(){} // RVA: 0x7AF259930
+        public void OnPointerMoveEvent(){} // RVA: 0x7AF259D10
+        public void OnPointerUpEvent(){} // RVA: 0x7AF259ED0
+        public void OnValidateCommandEvent(){} // RVA: 0x7AF259F80
+        public void OnExecuteCommandEvent(){} // RVA: 0x7AF25A1C0
+        public void MoveDistanceQualifiesForDrag(){} // RVA: 0x7AF25A360
+    }
+
+    public class TextShadow : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7A7F0B040
+        public void GetHashCode(){} // RVA: 0x7A7F0B080
+        public void op_Equality(){} // RVA: 0x7AF263C50
+        public void op_Inequality(){} // RVA: 0x7AF263C80
+        public void ToString(){} // RVA: 0x7A7F0B090
+        public void LerpUnclamped(){} // RVA: 0x7AF263E80
+    }
+
+    public class TextUtilities : Object
+    {
+        // ── Methods ──
+        public void MeasureVisualElementTextSize(){} // RVA: 0x7AF25D710
+        public void GetFontAsset(){} // RVA: 0x7AF25DB30
+        public void IsFontAssigned(){} // RVA: 0x7AF25DEE0
+        public void GetTextSettingsFrom(){} // RVA: 0x7AF25E040
+        public void ConvertPixelUnitsToTextCoreRelativeUnits(){} // RVA: 0x7AF25E100
+        public void GetTextCoreSettingsForElement(){} // RVA: 0x7AF25E1C0
+    }
+
+    public class TextValueFieldTraits`2 : BaseFieldTraits`2
+    {
+        // ── Methods ──
+        public void Init(){} // RVA: 0x7A7E1DDC0
+        public void .ctor(){} // RVA: 0x7A7E18770
+    }
+
+    public class TextValueFieldTraits`2 : BaseFieldTraits`2
+    {
+        // ── Methods ──
+        public void Init(){} // RVA: 0x7AC1CDFD0
+        public void .ctor(){} // RVA: 0x7AC1CE200
+    }
+
+    public class TextValueFieldTraits`2 : BaseFieldTraits`2
+    {
+        // ── Methods ──
+        public void Init(){} // RVA: 0x7AC1CF210
+        public void .ctor(){} // RVA: 0x7AC1CF560
+    }
+
+    public class TextValueFieldTraits`2 : BaseFieldTraits`2
+    {
+        // ── Methods ──
+        public void Init(){} // RVA: 0x7AC1CE460
+        public void .ctor(){} // RVA: 0x7AC1CE690
+    }
+
+    public class TextValueFieldTraits`2 : BaseFieldTraits`2
+    {
+        // ── Methods ──
+        public void Init(){} // RVA: 0x7AC1CE8F0
+        public void .ctor(){} // RVA: 0x7AC1CEB20
+    }
+
+    public class TextValueFieldTraits`2 : BaseFieldTraits`2
+    {
+        // ── Methods ──
+        public void Init(){} // RVA: 0x7AC1CED80
+        public void .ctor(){} // RVA: 0x7AC1CEFB0
+    }
+
+    public class TextValueFieldTraits`2 : BaseFieldTraits`2
+    {
+        // ── Methods ──
+        public void Init(){} // RVA: 0x7AC1CF8C0
+        public void .ctor(){} // RVA: 0x7AC1CFAF0
+    }
+
+    public class TextValueFieldTraits`2 : BaseFieldTraits`2
+    {
+        // ── Methods ──
+        public void Init(){} // RVA: 0x7AC1CFD50
+        public void .ctor(){} // RVA: 0x7AC1CFF80
+    }
+
+    public class TextValueField`1 : TextInputBaseField`1
+    {
+        // ── Methods ──
+        public void get_textValueInput(){} // RVA: 0x7A7E00680
+        public void get_formatString(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x7A7E18AE0
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7A8051B10
+        public void StartDragging(){} // RVA: 0x7A7E18770
+        public void StopDragging(){} // RVA: 0x7A7E18770
+        public void get_value(){} // RVA: 0x7A8051B10
+        public void set_value(){} // RVA: 0x7A8051B10
+        public void UpdateValueFromText(){} // RVA: 0x7A7E18770
+        public void UpdateTextFromValue(){} // RVA: 0x7A7E18770
+        public void OnIsReadOnlyChanged(){} // RVA: 0x7A7E18C30
+        public void CanTryParse(){} // RVA: 0x7A7E019D0
+        public void AddLabelDragger(){} // RVA: 0x7A7E18770
+        public void EnableLabelDragger(){} // RVA: 0x7A7E18C30
+        public void SetValueWithoutNotify(){} // RVA: 0x7A8051B10
+        public void ExecuteDefaultAction(){} // RVA: 0x7A7E18800
+        public void OnViewDataReady(){} // RVA: 0x7A7E18770
+        public void RegisterEditingCallbacks(){} // RVA: 0x7A7E18770
+        public void UnregisterEditingCallbacks(){} // RVA: 0x7A7E18770
+    }
+
+    public class TextValueField`1 : TextInputBaseField`1
+    {
+        // ── Methods ──
+        public void get_textValueInput(){} // RVA: 0x7AC1D05E0
+        public void get_formatString(){} // RVA: 0x7AC1D0670
+        public void .ctor(){} // RVA: 0x7AC1D0700
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7A7E1FC00
+        public void StartDragging(){} // RVA: 0x7AC1D0940
+        public void StopDragging(){} // RVA: 0x7AC1D0A70
+        public void get_value(){} // RVA: 0x7AC1D0C30
+        public void set_value(){} // RVA: 0x7AC1D0C50
+        public void UpdateValueFromText(){} // RVA: 0x7AC1D0C80
+        public void UpdateTextFromValue(){} // RVA: 0x7AC1D0D70
+        public void OnIsReadOnlyChanged(){} // RVA: 0x7AC1D0DC0
+        public void CanTryParse(){} // RVA: 0x7A80D7320
+        public void AddLabelDragger(){} // RVA: 0x7A7E18770
+        public void EnableLabelDragger(){} // RVA: 0x7AC1D0DE0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AC1D0EF0
+        public void ExecuteDefaultAction(){} // RVA: 0x7AC1D10A0
+        public void OnViewDataReady(){} // RVA: 0x7AC1D12D0
+        public void RegisterEditingCallbacks(){} // RVA: 0x7AC1D12F0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x7AC1D1520
+    }
+
+    public class TextValueField`1 : TextInputBaseField`1
+    {
+        // ── Methods ──
+        public void get_textValueInput(){} // RVA: 0x7AC1D05E0
+        public void get_formatString(){} // RVA: 0x7AC1D0670
+        public void .ctor(){} // RVA: 0x7AC1D3550
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7A7E20AA0
+        public void StartDragging(){} // RVA: 0x7AC1D3790
+        public void StopDragging(){} // RVA: 0x7AC1D38C0
+        public void get_value(){} // RVA: 0x7AC1D3A80
+        public void set_value(){} // RVA: 0x7AC1D3AA0
+        public void UpdateValueFromText(){} // RVA: 0x7AC1D0C80
+        public void UpdateTextFromValue(){} // RVA: 0x7AC1D3AD0
+        public void OnIsReadOnlyChanged(){} // RVA: 0x7AC1D0DC0
+        public void CanTryParse(){} // RVA: 0x7A80D7320
+        public void AddLabelDragger(){} // RVA: 0x7A7E18770
+        public void EnableLabelDragger(){} // RVA: 0x7AC1D0DE0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AC1D3B20
+        public void ExecuteDefaultAction(){} // RVA: 0x7AC1D3C40
+        public void OnViewDataReady(){} // RVA: 0x7AC1D3E70
+        public void RegisterEditingCallbacks(){} // RVA: 0x7AC1D3E90
+        public void UnregisterEditingCallbacks(){} // RVA: 0x7AC1D40C0
+    }
+
+    public class TextValueField`1 : TextInputBaseField`1
+    {
+        // ── Methods ──
+        public void get_textValueInput(){} // RVA: 0x7AC1D05E0
+        public void get_formatString(){} // RVA: 0x7AC1D0670
+        public void .ctor(){} // RVA: 0x7AC1D1780
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7A7E1E220
+        public void StartDragging(){} // RVA: 0x7AC1D19B0
+        public void StopDragging(){} // RVA: 0x7AC1D1AE0
+        public void get_value(){} // RVA: 0x7AC1D1CA0
+        public void set_value(){} // RVA: 0x7AC1D1CC0
+        public void UpdateValueFromText(){} // RVA: 0x7AC1D1CF0
+        public void UpdateTextFromValue(){} // RVA: 0x7AC1D1DE0
+        public void OnIsReadOnlyChanged(){} // RVA: 0x7AC1D0DC0
+        public void CanTryParse(){} // RVA: 0x7A80D7320
+        public void AddLabelDragger(){} // RVA: 0x7A7E18770
+        public void EnableLabelDragger(){} // RVA: 0x7AC1D0DE0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AC1D1E30
+        public void ExecuteDefaultAction(){} // RVA: 0x7AC1D1F50
+        public void OnViewDataReady(){} // RVA: 0x7AC1D2180
+        public void RegisterEditingCallbacks(){} // RVA: 0x7AC1D21A0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x7AC1D23D0
+    }
+
+    public class TextValueField`1 : TextInputBaseField`1
+    {
+        // ── Methods ──
+        public void get_textValueInput(){} // RVA: 0x7AC1D05E0
+        public void get_formatString(){} // RVA: 0x7AC1D0670
+        public void .ctor(){} // RVA: 0x7AC1D2630
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7A7E1FBB0
+        public void StartDragging(){} // RVA: 0x7AC1D2860
+        public void StopDragging(){} // RVA: 0x7AC1D2990
+        public void get_value(){} // RVA: 0x7ABBFC8C0
+        public void set_value(){} // RVA: 0x7AC1D2B50
+        public void UpdateValueFromText(){} // RVA: 0x7AC1D2B80
+        public void UpdateTextFromValue(){} // RVA: 0x7AC1D2C80
+        public void OnIsReadOnlyChanged(){} // RVA: 0x7AC1D0DC0
+        public void CanTryParse(){} // RVA: 0x7A80D7320
+        public void AddLabelDragger(){} // RVA: 0x7A7E18770
+        public void EnableLabelDragger(){} // RVA: 0x7AC1D0DE0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AC1D2CD0
+        public void ExecuteDefaultAction(){} // RVA: 0x7AC1D2E70
+        public void OnViewDataReady(){} // RVA: 0x7AC1D30A0
+        public void RegisterEditingCallbacks(){} // RVA: 0x7AC1D30C0
+        public void UnregisterEditingCallbacks(){} // RVA: 0x7AC1D32F0
+    }
+
+    public class TextValueField`1 : TextInputBaseField`1
+    {
+        // ── Methods ──
+        public void get_textValueInput(){} // RVA: 0x7AC1D05E0
+        public void get_formatString(){} // RVA: 0x7AC1D0670
+        public void .ctor(){} // RVA: 0x7AC1D4320
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7A7E1E220
+        public void StartDragging(){} // RVA: 0x7AC1D4550
+        public void StopDragging(){} // RVA: 0x7AC1D4680
+        public void get_value(){} // RVA: 0x7AC1D1CA0
+        public void set_value(){} // RVA: 0x7AC1D4840
+        public void UpdateValueFromText(){} // RVA: 0x7AC1D1CF0
+        public void UpdateTextFromValue(){} // RVA: 0x7AC1D1DE0
+        public void OnIsReadOnlyChanged(){} // RVA: 0x7AC1D0DC0
+        public void CanTryParse(){} // RVA: 0x7A80D7320
+        public void AddLabelDragger(){} // RVA: 0x7A7E18770
+        public void EnableLabelDragger(){} // RVA: 0x7AC1D0DE0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AC1D4870
+        public void ExecuteDefaultAction(){} // RVA: 0x7AC1D4A10
+        public void OnViewDataReady(){} // RVA: 0x7AC1D4C40
+        public void RegisterEditingCallbacks(){} // RVA: 0x7AC1D4C60
+        public void UnregisterEditingCallbacks(){} // RVA: 0x7AC1D4E90
+    }
+
+    public class TextValueField`1 : TextInputBaseField`1
+    {
+        // ── Methods ──
+        public void get_textValueInput(){} // RVA: 0x7AC1D05E0
+        public void get_formatString(){} // RVA: 0x7AC1D0670
+        public void .ctor(){} // RVA: 0x7AC1D50F0
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7A7E1FBB0
+        public void StartDragging(){} // RVA: 0x7AC1D5320
+        public void StopDragging(){} // RVA: 0x7AC1D5450
+        public void get_value(){} // RVA: 0x7ABBFC8C0
+        public void set_value(){} // RVA: 0x7AC1D5610
+        public void UpdateValueFromText(){} // RVA: 0x7AC1D2B80
+        public void UpdateTextFromValue(){} // RVA: 0x7AC1D2C80
+        public void OnIsReadOnlyChanged(){} // RVA: 0x7AC1D0DC0
+        public void CanTryParse(){} // RVA: 0x7A80D7320
+        public void AddLabelDragger(){} // RVA: 0x7A7E18770
+        public void EnableLabelDragger(){} // RVA: 0x7AC1D0DE0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AC1D5640
+        public void ExecuteDefaultAction(){} // RVA: 0x7AC1D57E0
+        public void OnViewDataReady(){} // RVA: 0x7AC1D5A10
+        public void RegisterEditingCallbacks(){} // RVA: 0x7AC1D5A30
+        public void UnregisterEditingCallbacks(){} // RVA: 0x7AC1D5C60
+    }
+
+    public class TextureId : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7F06340
+        public void get_index(){} // RVA: 0x7A7F06350
+        public void ConvertToGpu(){} // RVA: 0x7A7F06360
+        public void Equals(){} // RVA: 0x7A7F063C0
+        public void GetHashCode(){} // RVA: 0x7A79EAED0
+        public void op_Equality(){} // RVA: 0x7AEEFE800
+        public void op_Inequality(){} // RVA: 0x7AF217F70
+        public void .cctor(){} // RVA: 0x7AF217FD0
+    }
+
+    public class TextureRegistry : Object
+    {
+        // ── Methods ──
+        public void get_instance(){} // RVA: 0x7AF218010
+        public void GetTexture(){} // RVA: 0x7AF218070
+        public void AllocAndAcquireDynamic(){} // RVA: 0x7AF2182B0
+        public void UpdateDynamic(){} // RVA: 0x7AF2182C0
+        public void AllocAndAcquire(){} // RVA: 0x7AF218600
+        public void Acquire(){} // RVA: 0x7AF218A20
+        public void Release(){} // RVA: 0x7AF218BF0
+        public void .ctor(){} // RVA: 0x7AF218F90
+        public void .cctor(){} // RVA: 0x7AF219370
+    }
+
+    public class ThemeStyleSheet : StyleSheet
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7AF256A10
+        public void .ctor(){} // RVA: 0x7AF256A40
+    }
+
+    public class TimeMsFunction : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A98C14D0
+        public void Invoke(){} // RVA: 0x7A8135ED0
+    }
+
+    public class TimeValue : ValueType
+    {
+        // ── Methods ──
+        public void get_value(){} // RVA: 0x7A7673D20
+        public void get_unit(){} // RVA: 0x7A765F0A0
+        public void .ctor(){} // RVA: 0x7A77E7A70
+        public void op_Implicit(){} // RVA: 0x7AF21B320
+        public void op_Equality(){} // RVA: 0x7AF21B340
+        public void op_Inequality(){} // RVA: 0x7AF244800
+        public void Equals(){} // RVA: 0x7A7F0A320
+        public void GetHashCode(){} // RVA: 0x7A7F06660
+        public void ToString(){} // RVA: 0x7A7F0A330
+    }
+
+    public class TimeValue[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2DB7A0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2A50
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA298650
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class TimerEventScheduler : Object
+    {
+        // ── Methods ──
+        public void Schedule(){} // RVA: 0x7AF219F30
+        public void RemovedScheduledItemAt(){} // RVA: 0x7AF21A0F0
+        public void Unschedule(){} // RVA: 0x7AF21A170
+        public void PrivateUnSchedule(){} // RVA: 0x7AF21A400
+        public void UpdateScheduledEvents(){} // RVA: 0x7AF21A510
+        public void .ctor(){} // RVA: 0x7AF21B050
+    }
+
+    public class TimerState : ValueType
+    {
+        // ── Methods ──
+        public void get_start(){} // RVA: 0x7A765F710
+        public void set_start(){} // RVA: 0x7A767FEF0
+        public void get_now(){} // RVA: 0x7A765F080
+        public void set_now(){} // RVA: 0x7A76850C0
+        public void get_deltaTime(){} // RVA: 0x7A7F063F0
+        public void Equals(){} // RVA: 0x7A7F064A0
+        public void GetHashCode(){} // RVA: 0x7A7F064D0
+    }
+
+    public class Toggle : BaseBoolField
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AF1AA670
+        public void InitLabel(){} // RVA: 0x7AF1AA790
+        public void UpdateMixedValueContent(){} // RVA: 0x7AF1AA810
+        public void .cctor(){} // RVA: 0x7AF1AA9C0
+    }
+
+    public class TooltipEvent : EventBase`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7AF1D9440
+        public void set_tooltip(){} // RVA: 0x7A825E460
+        public void set_rect(){} // RVA: 0x7A9E479F0
+        public void Init(){} // RVA: 0x7AF1D9530
+        public void LocalInit(){} // RVA: 0x7AF1D95F0
+        public void .ctor(){} // RVA: 0x7AF1D96A0
+    }
+
+    public class TouchScreenTextEditorEventHandler : TextEditorEventHandler
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AF1837B0
+        public void PollTouchScreenKeyboard(){} // RVA: 0x7AF183820
+        public void DoPollTouchScreenKeyboard(){} // RVA: 0x7AF1839B0
+        public void UpdateStringPositionFromKeyboard(){} // RVA: 0x7AF183F30
+        public void CloseTouchScreenKeyboard(){} // RVA: 0x7AF184070
+        public void OpenTouchScreenKeyboard(){} // RVA: 0x7AF1841E0
+        public void ExecuteDefaultActionAtTarget(){} // RVA: 0x7AF1844F0
+        public void OnPointerDownEvent(){} // RVA: 0x7AF1847C0
+        public void OnPointerUpEvent(){} // RVA: 0x7AF184920
+        public void OnFocusInEvent(){} // RVA: 0x7AF184940
+        public void OnFocusOutEvent(){} // RVA: 0x7AF184B60
+    }
+
+    public class TransformData : ValueType
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x7A7F07B90
+        public void CopyFrom(){} // RVA: 0x7A7F07BD0
+        public void op_Equality(){} // RVA: 0x7AF2417D0
+        public void Equals(){} // RVA: 0x7A7F07C50
+        public void GetHashCode(){} // RVA: 0x7A7F07D20
+    }
+
+    public class TransformOrigin : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7F0A4C0
+        public void Initial(){} // RVA: 0x7AF248CA0
+        public void get_x(){} // RVA: 0x7A765F710
+        public void set_x(){} // RVA: 0x7A767FEF0
+        public void get_y(){} // RVA: 0x7A765F080
+        public void set_y(){} // RVA: 0x7A76850C0
+        public void get_z(){} // RVA: 0x7A76E1B90
+        public void op_Equality(){} // RVA: 0x7AF248D20
+        public void op_Inequality(){} // RVA: 0x7AF248DC0
+        public void Equals(){} // RVA: 0x7A7F0A500
+        public void GetHashCode(){} // RVA: 0x7A7F0A510
+        public void ToString(){} // RVA: 0x7A7F0A520
+    }
+
+    public class TransitionCancelEvent : TransitionEventBase`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7AF1DA260
+        public void .ctor(){} // RVA: 0x7AF1DA350
+    }
+
+    public class TransitionData : ValueType
+    {
+        // ── Methods ──
+        public void Copy(){} // RVA: 0x7A7F07D50
+        public void CopyFrom(){} // RVA: 0x7A7F07D80
+        public void op_Equality(){} // RVA: 0x7AF2423B0
+        public void Equals(){} // RVA: 0x7A7F07DD0
+        public void GetHashCode(){} // RVA: 0x7A7F07E80
+    }
+
+    public class TransitionEndEvent : TransitionEventBase`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7AF1DA020
+        public void .ctor(){} // RVA: 0x7AF1DA110
+    }
+
+    public class TransitionEventBase`1 : EventBase`1
+    {
+        // ── Methods ──
+        public void get_stylePropertyNames(){} // RVA: 0x7A8051B10
+        public void set_elapsedTime(){} // RVA: 0x7A7E19E10
+        public void .ctor(){} // RVA: 0x7A7E18770
+        public void Init(){} // RVA: 0x7A7E18770
+        public void LocalInit(){} // RVA: 0x7A7E18770
+        public void GetPooled(){} // RVA: 0x7A8051B10
+    }
+
+    public class TransitionEventBase`1 : EventBase`1
+    {
+        // ── Methods ──
+        public void get_stylePropertyNames(){} // RVA: 0x7A81163D0
+        public void set_elapsedTime(){} // RVA: 0x7AC20F7D0
+        public void .ctor(){} // RVA: 0x7AC20F7E0
+        public void Init(){} // RVA: 0x7AC20F9C0
+        public void LocalInit(){} // RVA: 0x7AC20FAC0
+        public void GetPooled(){} // RVA: 0x7AC20FB50
+    }
+
+    public class TransitionEventBase`1 : EventBase`1
+    {
+        // ── Methods ──
+        public void get_stylePropertyNames(){} // RVA: 0x7A81163D0
+        public void set_elapsedTime(){} // RVA: 0x7AC20F7D0
+        public void .ctor(){} // RVA: 0x7AC20F7E0
+        public void Init(){} // RVA: 0x7AC20F9C0
+        public void LocalInit(){} // RVA: 0x7AC20FAC0
+        public void GetPooled(){} // RVA: 0x7AC20FB50
+    }
+
+    public class TransitionEventBase`1 : EventBase`1
+    {
+        // ── Methods ──
+        public void get_stylePropertyNames(){} // RVA: 0x7A81163D0
+        public void set_elapsedTime(){} // RVA: 0x7AC20F7D0
+        public void .ctor(){} // RVA: 0x7AC20F7E0
+        public void Init(){} // RVA: 0x7AC20F9C0
+        public void LocalInit(){} // RVA: 0x7AC20FAC0
+        public void GetPooled(){} // RVA: 0x7AC20FB50
+    }
+
+    public class TransitionEventBase`1 : EventBase`1
+    {
+        // ── Methods ──
+        public void get_stylePropertyNames(){} // RVA: 0x7A81163D0
+        public void set_elapsedTime(){} // RVA: 0x7AC20F7D0
+        public void .ctor(){} // RVA: 0x7AC20F7E0
+        public void Init(){} // RVA: 0x7AC20F9C0
+        public void LocalInit(){} // RVA: 0x7AC20FAC0
+        public void GetPooled(){} // RVA: 0x7AC20FB50
+    }
+
+    public class TransitionRunEvent : TransitionEventBase`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7AF1D9BA0
+        public void .ctor(){} // RVA: 0x7AF1D9C90
+    }
+
+    public class TransitionStartEvent : TransitionEventBase`1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7AF1D9DE0
+        public void .ctor(){} // RVA: 0x7AF1D9ED0
+    }
+
+    public class Translate : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7F0A6F0
+        public void None(){} // RVA: 0x7AF2491E0
+        public void get_x(){} // RVA: 0x7A765F710
+        public void set_x(){} // RVA: 0x7A767FEF0
+        public void get_y(){} // RVA: 0x7A765F080
+        public void set_y(){} // RVA: 0x7A76850C0
+        public void get_z(){} // RVA: 0x7A76E1B90
+        public void op_Equality(){} // RVA: 0x7AF249210
+        public void op_Inequality(){} // RVA: 0x7AF249320
+        public void Equals(){} // RVA: 0x7A7F0A760
+        public void GetHashCode(){} // RVA: 0x7A7F0A510
+        public void ToString(){} // RVA: 0x7A7F0A770
+    }
+
+    public class TreeDataController`1 : Object
+    {
+        // ── Methods ──
+        public void SetRootItems(){} // RVA: 0x7A7E18800
+        public void GetDataForId(){} // RVA: 0x7A8051B10
+        public void GetParentId(){} // RVA: 0x7A7E062A0
+        public void HasChildren(){} // RVA: 0x7A7E01F00
+        public void GetItemIds(){} // RVA: 0x7A7E00BA0
+        public void GetChildrenIds(){} // RVA: 0x7A7E00740
+        public void Move(){} // RVA: 0x7A7E1AD90
+        public void IsChildOf(){} // RVA: 0x7A7E01C20
+        public void GetAllItemIds(){} // RVA: 0x7A7E00B20
+        public void .ctor(){} // RVA: 0x7A7E18770
+    }
+
+    public class TreeData`1 : ValueType
+    {
+        // ── Methods ──
+        public void get_rootItemIds(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void GetDataForId(){} // RVA: 0x7A8051B10
+        public void GetParentId(){} // RVA: 0x7A7E062A0
+        public void Move(){} // RVA: 0x7A7E1AD90
+        public void HasAncestor(){} // RVA: 0x7A7E01C20
+        public void AddItemToParent(){} // RVA: 0x7A8051B10
+        public void RemoveFromParent(){} // RVA: 0x7A7E1ABE0
+        public void UpdateParentTree(){} // RVA: 0x7A8051B10
+        public void RefreshTree(){} // RVA: 0x7A7E18800
+        public void BuildTree(){} // RVA: 0x7A7E1D550
+    }
+
+    public class TreeItem : ValueType
+    {
+        // ── Methods ──
+        public void get_id(){} // RVA: 0x7A765F070
+        public void get_parentId(){} // RVA: 0x7A765F0A0
+        public void get_childrenIds(){} // RVA: 0x7A765F080
+        public void get_hasChildren(){} // RVA: 0x7A7F01860
+        public void .ctor(){} // RVA: 0x7A7C72520
+    }
+
+    public class TreeView : BaseTreeView
+    {
+        // ── Methods ──
+        public void get_makeItem(){} // RVA: 0x7A8B58DC0
+        public void set_makeItem(){} // RVA: 0x7AF1AB100
+        public void get_bindItem(){} // RVA: 0x7A8B59B30
+        public void set_bindItem(){} // RVA: 0x7AF1AB1B0
+        public void get_unbindItem(){} // RVA: 0x7A8B5DB90
+        public void get_destroyItem(){} // RVA: 0x7A8B4A570
+        public void HasValidDataAndBindings(){} // RVA: 0x7AF1AB260
+        public void CreateViewController(){} // RVA: 0x7AF1AB2C0
+        public void .ctor(){} // RVA: 0x7AF1AB490
+    }
+
+    public class TreeViewController : BaseTreeViewController
+    {
+        // ── Methods ──
+        public void get_treeView(){} // RVA: 0x7AF0D3E70
+        public void MakeItem(){} // RVA: 0x7AF0D3EF0
+        public void BindItem(){} // RVA: 0x7AF0D4030
+        public void UnbindItem(){} // RVA: 0x7AF0D4200
+        public void DestroyItem(){} // RVA: 0x7AF0D4250
+        public void .ctor(){} // RVA: 0x7AA9B68B0
+    }
+
+    public class TreeViewItemData`1 : ValueType
+    {
+        // ── Methods ──
+        public void get_id(){} // RVA: 0x7A7E00710
+        public void get_data(){} // RVA: 0x7A8051B10
+        public void get_children(){} // RVA: 0x7A7E00680
+        public void get_hasChildren(){} // RVA: 0x7A7E01900
+        public void InsertChild(){} // RVA: 0x7A8051B10
+        public void RemoveChild(){} // RVA: 0x7A7E189D0
+        public void GetChildIndex(){} // RVA: 0x7A7E062A0
+        public void ReplaceChild(){} // RVA: 0x7A8051B10
+    }
+
+    public class TreeViewItemWrapper : ValueType
+    {
+        // ── Methods ──
+        public void get_id(){} // RVA: 0x7A765F070
+        public void get_childrenIds(){} // RVA: 0x7A765F080
+        public void get_hasChildren(){} // RVA: 0x7A7F01860
+        public void .ctor(){} // RVA: 0x7A7F018D0
+    }
+
+    public class TreeViewReorderableDragAndDropController : BaseReorderableDragAndDropController
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AF1BFCF0
+        public void CompareId(){} // RVA: 0x7AF1BFEA0
+        public void SetupDragAndDrop(){} // RVA: 0x7AF1C05B0
+        public void HandleDragAndDrop(){} // RVA: 0x7AF1C0740
+        public void OnDrop(){} // RVA: 0x7AF1C0800
+        public void DragCleanup(){} // RVA: 0x7AF1C1070
+        public void RestoreExpanded(){} // RVA: 0x7AF1C11C0
+        public void HandleAutoExpand(){} // RVA: 0x7AF1C1460
+        public void DelayExpandDropItem(){} // RVA: 0x7AF1C16C0
+        public void ExpandDropItem(){} // RVA: 0x7AF1C17C0
+    }
+
+    public class TwoPaneSplitView : VisualElement
+    {
+        // ── Methods ──
+        public void get_fixedPane(){} // RVA: 0x7A8B64520
+        public void get_flexedPane(){} // RVA: 0x7A8B5C760
+        public void get_fixedPaneIndex(){} // RVA: 0x7AF1AB760
+        public void get_orientation(){} // RVA: 0x7AF1AB770
+        public void get_fixedPaneDimension(){} // RVA: 0x7AF1AB780
+        public void set_fixedPaneDimension(){} // RVA: 0x7AF1AB7B0
+        public void .ctor(){} // RVA: 0x7AF1AB7D0
+        public void Init(){} // RVA: 0x7AF1ABC70
+        public void OnPostDisplaySetup(){} // RVA: 0x7AF1AC0D0
+        public void PostDisplaySetup(){} // RVA: 0x7AF1AC1D0
+        public void OnSizeChange(){} // RVA: 0x7AF1AD1A0
+        public void UpdateLayout(){} // RVA: 0x7AF1AD1B0
+        public void get_contentContainer(){} // RVA: 0x7AF1AD650
+        public void OnViewDataReady(){} // RVA: 0x7AF1AD660
+        public void SetDragLineOffset(){} // RVA: 0x7AF1AD690
+        public void SetFixedPaneDimension(){} // RVA: 0x7AF1AD850
+        public void .cctor(){} // RVA: 0x7AF1ADA10
+    }
+
+    public class TwoPaneSplitViewResizer : PointerManipulator
+    {
+        // ── Methods ──
+        public void get_orientation(){} // RVA: 0x7AF1AE520
+        public void get_fixedPane(){} // RVA: 0x7AF1AE540
+        public void get_flexedPane(){} // RVA: 0x7AF1AE560
+        public void get_fixedPaneMinDimension(){} // RVA: 0x7AF1AE580
+        public void get_fixedPaneMargins(){} // RVA: 0x7AF1AE610
+        public void get_flexedPaneMinDimension(){} // RVA: 0x7AF1AE6F0
+        public void get_flexedPaneMargin(){} // RVA: 0x7AF1AE780
+        public void .ctor(){} // RVA: 0x7AF1AE860
+        public void RegisterCallbacksOnTarget(){} // RVA: 0x7AF1AE9D0
+        public void UnregisterCallbacksFromTarget(){} // RVA: 0x7AF1AEB70
+        public void ApplyDelta(){} // RVA: 0x7AF1AED00
+        public void OnPointerDown(){} // RVA: 0x7AF1AF400
+        public void OnPointerMove(){} // RVA: 0x7AF1AF4C0
+        public void OnPointerUp(){} // RVA: 0x7AF1AF590
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A8051B10
+        public void get_defaultValue(){} // RVA: 0x7A8051B10
+        public void set_defaultValue(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E18770
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E06BA0
+        public void get_defaultValue(){} // RVA: 0x7A9D70440
+        public void set_defaultValue(){} // RVA: 0x7A9D70450
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E15D80
+        public void get_defaultValue(){} // RVA: 0x7A85D5650
+        public void set_defaultValue(){} // RVA: 0x7A85D4FE0
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E00C90
+        public void get_defaultValue(){} // RVA: 0x7A9DB2460
+        public void set_defaultValue(){} // RVA: 0x7AC257C80
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E00BD0
+        public void get_defaultValue(){} // RVA: 0x7A8154D80
+        public void set_defaultValue(){} // RVA: 0x7A80FF440
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E06320
+        public void get_defaultValue(){} // RVA: 0x7A8178B30
+        public void set_defaultValue(){} // RVA: 0x7A8178B40
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E00BD0
+        public void get_defaultValue(){} // RVA: 0x7A8154D80
+        public void set_defaultValue(){} // RVA: 0x7A82C0820
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E01A40
+        public void get_defaultValue(){} // RVA: 0x7A8193790
+        public void set_defaultValue(){} // RVA: 0x7A81937A0
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E06320
+        public void get_defaultValue(){} // RVA: 0x7A8178B30
+        public void set_defaultValue(){} // RVA: 0x7A8178B40
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E00BD0
+        public void get_defaultValue(){} // RVA: 0x7A8154D80
+        public void set_defaultValue(){} // RVA: 0x7A82C0820
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A7E00BD0
+        public void get_defaultValue(){} // RVA: 0x7A8154D80
+        public void set_defaultValue(){} // RVA: 0x7A80FF440
+        public void .ctor(){} // RVA: 0x7AC257C20
+    }
+
+    public class TypedUxmlAttributeDescription`1 : UxmlAttributeDescription
+    {
+        // ── Methods ──
+        public void GetValueFromBag(){} // RVA: 0x7A80804D0
+        public void get_defaultValue(){} // RVA: 0x7A80804D0
+        public void set_defaultValue(){} // RVA: 0x7AB494220
+        public void .ctor(){} // RVA: 0x7AC257C20
     }
 
 }

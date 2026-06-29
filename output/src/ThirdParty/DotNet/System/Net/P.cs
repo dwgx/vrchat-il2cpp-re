@@ -1,31 +1,29 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Net
 // Classes: 2
-// Methods: 13
+// Methods: 11
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class PathList
+    public class PathList : Object
     {
-        public System.Collections.SortedList m_list; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6B3C990
-        public void get_Count(){} // RVA: 0x5DFC2A0
-        public void GetCookiesCount(){} // RVA: 0x6B3CC50
-        public void get_Values(){} // RVA: 0x797560
-        public void get_Item(){} // RVA: 0x6B3D050
-        public void set_Item(){} // RVA: 0x6B3D080
-        public void GetEnumerator(){} // RVA: 0x5BCD010
-        public void get_SyncRoot(){} // RVA: 0x5E01EF0
+        public void .ctor(){} // RVA: 0x7AE92CF90
+        public void get_Count(){} // RVA: 0x7ADBEADD0
+        public void GetCookiesCount(){} // RVA: 0x7AE92D250
+        public void get_Values(){} // RVA: 0x7ADBEAE00
+        public void get_Item(){} // RVA: 0x7AE92D600
+        public void set_Item(){} // RVA: 0x7AE92D630
+        public void GetEnumerator(){} // RVA: 0x7AD9BABB0
+        public void get_SyncRoot(){} // RVA: 0x7A8555880
     }
 
-    public class ProtocolViolationException
+    public class ProtocolViolationException : InvalidOperationException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1A3E1C0 | overloaded x3
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6B21340
-        public void GetObjectData(){} // RVA: 0x6B21340
+        public void .ctor(){} // RVA: 0x7A97F7860
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7AE912010
+        public void GetObjectData(){} // RVA: 0x7AE912010
     }
 
 }

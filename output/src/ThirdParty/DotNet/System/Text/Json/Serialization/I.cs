@@ -5,130 +5,130 @@
 
 namespace ThirdParty.DotNet.System.Text.Json.Serialization
 {
-    public class IAsyncEnumerableConverterFactory
+    public class IAsyncEnumerableConverterFactory : JsonConverterFactory
     {
         // ── Methods ──
-        public void CanConvert(){} // RVA: 0x63547F0
-        public void CreateConverter(){} // RVA: 0x6354810
-        public void GetAsyncEnumerableInterface(){} // RVA: 0x6354A60
-        public void .ctor(){} // RVA: 0x2DD310
+        public void CanConvert(){} // RVA: 0x7AE140E40
+        public void CreateConverter(){} // RVA: 0x7AE140E60
+        public void GetAsyncEnumerableInterface(){} // RVA: 0x7AE1410B0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class IAsyncEnumerableConverterFactory
+    public class IAsyncEnumerableConverterFactory : JsonConverterFactory
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x36ABC40
-        public void CanConvert(){} // RVA: 0x68C5720
-        public void CreateConverter(){} // RVA: 0x68C5740
-        public void GetAsyncEnumerableInterface(){} // RVA: 0x68C5990
+        public void .ctor(){} // RVA: 0x7AB490F90
+        public void CanConvert(){} // RVA: 0x7AE6B4200
+        public void CreateConverter(){} // RVA: 0x7AE6B4220
+        public void GetAsyncEnumerableInterface(){} // RVA: 0x7AE6B4470
     }
 
-    public class IEnumerableConverterFactoryHelpers
+    public class IEnumerableConverterFactoryHelpers : Object
     {
         // ── Methods ──
-        public void GetImmutableEnumerableCreateRangeMethod(){} // RVA: 0x6354B50
-        public void GetImmutableDictionaryCreateRangeMethod(){} // RVA: 0x6354E20
-        public void GetImmutableEnumerableConstructingType(){} // RVA: 0x6355120
-        public void GetImmutableDictionaryConstructingType(){} // RVA: 0x63551D0
-        public void IsNonGenericStackOrQueue(){} // RVA: 0x6355280
-        public void GetTypeIfExists(){} // RVA: 0x6355330
+        public void GetImmutableEnumerableCreateRangeMethod(){} // RVA: 0x7AE1411A0
+        public void GetImmutableDictionaryCreateRangeMethod(){} // RVA: 0x7AE141460
+        public void GetImmutableEnumerableConstructingType(){} // RVA: 0x7AE141780
+        public void GetImmutableDictionaryConstructingType(){} // RVA: 0x7AE141830
+        public void IsNonGenericStackOrQueue(){} // RVA: 0x7AE1418E0
+        public void GetTypeIfExists(){} // RVA: 0x7AE141990
     }
 
-    public class IEnumerableConverterFactoryHelpers
+    public class IEnumerableConverterFactoryHelpers : Object
     {
         // ── Methods ──
-        public void GetImmutableEnumerableCreateRangeMethod(){} // RVA: 0x68C5A80
-        public void GetImmutableDictionaryCreateRangeMethod(){} // RVA: 0x68C5D50
-        public void GetImmutableEnumerableConstructingType(){} // RVA: 0x68C6050
-        public void GetImmutableDictionaryConstructingType(){} // RVA: 0x68C6100
-        public void IsNonGenericStackOrQueue(){} // RVA: 0x68C61B0
-        public void GetTypeIfExists(){} // RVA: 0x68C6260
-    }
-
-    public class IJsonOnDeserialized
-    {
-        // ── Methods ──
-        public void OnDeserialized(){} // RVA: 0x24A50
+        public void GetImmutableEnumerableCreateRangeMethod(){} // RVA: 0x7AE6B4560
+        public void GetImmutableDictionaryCreateRangeMethod(){} // RVA: 0x7AE6B4820
+        public void GetImmutableEnumerableConstructingType(){} // RVA: 0x7AE6B4B30
+        public void GetImmutableDictionaryConstructingType(){} // RVA: 0x7AE6B4BE0
+        public void IsNonGenericStackOrQueue(){} // RVA: 0x7AE6B4C90
+        public void GetTypeIfExists(){} // RVA: 0x7AE6B4D40
     }
 
     public class IJsonOnDeserialized
     {
         // ── Methods ──
-        public void OnDeserialized(){} // RVA: 0x24A50
+        public void OnDeserialized(){} // RVA: 0x7A7E18770
+    }
+
+    public class IJsonOnDeserialized
+    {
+        // ── Methods ──
+        public void OnDeserialized(){} // RVA: 0x7A7E18770
     }
 
     public class IJsonOnDeserializing
     {
         // ── Methods ──
-        public void OnDeserializing(){} // RVA: 0x24A50
+        public void OnDeserializing(){} // RVA: 0x7A7E18770
     }
 
     public class IJsonOnDeserializing
     {
         // ── Methods ──
-        public void OnDeserializing(){} // RVA: 0x24A50
+        public void OnDeserializing(){} // RVA: 0x7A7E18770
     }
 
     public class IJsonOnSerialized
     {
         // ── Methods ──
-        public void OnSerialized(){} // RVA: 0x24A50
+        public void OnSerialized(){} // RVA: 0x7A7E18770
     }
 
     public class IJsonOnSerialized
     {
         // ── Methods ──
-        public void OnSerialized(){} // RVA: 0x24A50
+        public void OnSerialized(){} // RVA: 0x7A7E18770
     }
 
     public class IJsonOnSerializing
     {
         // ── Methods ──
-        public void OnSerializing(){} // RVA: 0x24A50
+        public void OnSerializing(){} // RVA: 0x7A7E18770
     }
 
     public class IJsonOnSerializing
     {
         // ── Methods ──
-        public void OnSerializing(){} // RVA: 0x24A50
+        public void OnSerializing(){} // RVA: 0x7A7E18770
     }
 
-    public class IgnoreReferenceHandler
+    public class IgnoreReferenceHandler : ReferenceHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63553B0
-        public void CreateResolver(){} // RVA: 0x6355400
+        public void .ctor(){} // RVA: 0x7AE141A10
+        public void CreateResolver(){} // RVA: 0x7AE141A60
     }
 
-    public class IgnoreReferenceHandler
+    public class IgnoreReferenceHandler : ReferenceHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68C62E0
-        public void CreateResolver(){} // RVA: 0x68C6330
+        public void .ctor(){} // RVA: 0x7AE6B4DC0
+        public void CreateResolver(){} // RVA: 0x7AE6B4E10
     }
 
-    public class IgnoreReferenceResolver
+    public class IgnoreReferenceResolver : ReferenceResolver
     {
         // ── Methods ──
-        public void PopReferenceForCycleDetection(){} // RVA: 0x6353170
-        public void ContainsReferenceForCycleDetection(){} // RVA: 0x6353210
-        public void PushReferenceForCycleDetection(){} // RVA: 0x6353380
-        public void AddReference(){} // RVA: 0x6353600
-        public void GetReference(){} // RVA: 0x6353640
-        public void ResolveReference(){} // RVA: 0x6353680
-        public void .ctor(){} // RVA: 0x2DD310
+        public void PopReferenceForCycleDetection(){} // RVA: 0x7AE13F7C0
+        public void ContainsReferenceForCycleDetection(){} // RVA: 0x7AE13F860
+        public void PushReferenceForCycleDetection(){} // RVA: 0x7AE13F9D0
+        public void AddReference(){} // RVA: 0x7AE13FC50
+        public void GetReference(){} // RVA: 0x7AE13FC90
+        public void ResolveReference(){} // RVA: 0x7AE13FCD0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class IgnoreReferenceResolver
+    public class IgnoreReferenceResolver : ReferenceResolver
     {
         // ── Methods ──
-        public void PopReferenceForCycleDetection(){} // RVA: 0x68C4D20
-        public void ContainsReferenceForCycleDetection(){} // RVA: 0x68C4DC0
-        public void PushReferenceForCycleDetection(){} // RVA: 0x68C4F30
-        public void AddReference(){} // RVA: 0x68C51B0
-        public void GetReference(){} // RVA: 0x68C51F0
-        public void ResolveReference(){} // RVA: 0x68C5230
-        public void .ctor(){} // RVA: 0x2DD310
+        public void PopReferenceForCycleDetection(){} // RVA: 0x7AE6B3800
+        public void ContainsReferenceForCycleDetection(){} // RVA: 0x7AE6B38A0
+        public void PushReferenceForCycleDetection(){} // RVA: 0x7AE6B3A10
+        public void AddReference(){} // RVA: 0x7AE6B3C90
+        public void GetReference(){} // RVA: 0x7AE6B3CD0
+        public void ResolveReference(){} // RVA: 0x7AE6B3D10
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

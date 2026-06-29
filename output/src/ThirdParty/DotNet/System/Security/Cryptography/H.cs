@@ -1,127 +1,112 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Security.Cryptography
 // Classes: 9
-// Methods: 73
+// Methods: 59
 
 namespace ThirdParty.DotNet.System.Security.Cryptography
 {
-    public class HMAC
+    public class HMAC : KeyedHashAlgorithm
     {
-        public int blockSizeValue; // 0x30
-        public string m_hashName; // 0x38
-        public System.Security.Cryptography.HashAlgorithm m_hash1; // 0x40
-
         // ── Methods ──
-        public void get_BlockSizeValue(){} // RVA: 0x338CD0
-        public void set_BlockSizeValue(){} // RVA: 0x338CE0
-        public void UpdateIOPadBuffers(){} // RVA: 0x5C7DDD0
-        public void InitializeKey(){} // RVA: 0x5C7DFB0
-        public void get_Key(){} // RVA: 0x5C7E270
-        public void set_Key(){} // RVA: 0x5C7E2F0
-        public void get_HashName(){} // RVA: 0x4976A0
-        public void set_HashName(){} // RVA: 0x5C7E370
-        public void Create(){} // RVA: 0x5C7E590 | overloaded x2
-        public void Initialize(){} // RVA: 0x5C7E670
-        public void HashCore(){} // RVA: 0x5C7E6D0
-        public void HashFinal(){} // RVA: 0x5C7E7E0
-        public void Dispose(){} // RVA: 0x5C7EA10
-        public void GetHashAlgorithmWithFipsFallback(){} // RVA: 0x5C7EAD0
-        public void .ctor(){} // RVA: 0x5C7EB30
+        public void get_BlockSizeValue(){} // RVA: 0x7A8133100
+        public void set_BlockSizeValue(){} // RVA: 0x7A8133110
+        public void UpdateIOPadBuffers(){} // RVA: 0x7ADA6BDC0
+        public void InitializeKey(){} // RVA: 0x7ADA6BFB0
+        public void get_Key(){} // RVA: 0x7ADA6C270
+        public void set_Key(){} // RVA: 0x7ADA6C2F0
+        public void get_HashName(){} // RVA: 0x7A8292C30
+        public void set_HashName(){} // RVA: 0x7ADA6C370
+        public void Create(){} // RVA: 0x7ADA6C590
+        public void Initialize(){} // RVA: 0x7ADA6C670
+        public void HashCore(){} // RVA: 0x7ADA6C6D0
+        public void HashFinal(){} // RVA: 0x7ADA6C7E0
+        public void Dispose(){} // RVA: 0x7ADA6CA10
+        public void GetHashAlgorithmWithFipsFallback(){} // RVA: 0x7ADA6CAD0
+        public void .ctor(){} // RVA: 0x7ADA6CB30
     }
 
-    public class HMACMD5
+    public class HMACMD5 : HMAC
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C7EBA0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7ADA6CBA0
     }
 
-    public class HMACRIPEMD160
+    public class HMACRIPEMD160 : HMAC
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C7EF80 | overloaded x2
+        public void .ctor(){} // RVA: 0x7ADA6CF80
     }
 
-    public class HMACSHA1
+    public class HMACSHA1 : HMAC
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C7F1B0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7ADA6D1B0
     }
 
-    public class HMACSHA256
+    public class HMACSHA256 : HMAC
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C7F3E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7ADA6D3E0
     }
 
-    public class HMACSHA384
+    public class HMACSHA384 : HMAC
     {
-        public bool m_useLegacyBlockSize; // 0x68
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C7F610 | overloaded x2
-        public void get_BlockSize(){} // RVA: 0x5C7F800
-        public void get_ProduceLegacyHmacValues(){} // RVA: 0x3A5570
-        public void set_ProduceLegacyHmacValues(){} // RVA: 0x5C7F820
+        public void .ctor(){} // RVA: 0x7ADA6D610
+        public void get_BlockSize(){} // RVA: 0x7ADA6D820
+        public void get_ProduceLegacyHmacValues(){} // RVA: 0x7A81A00C0
+        public void set_ProduceLegacyHmacValues(){} // RVA: 0x7ADA6D840
     }
 
-    public class HMACSHA512
+    public class HMACSHA512 : HMAC
     {
-        public bool m_useLegacyBlockSize; // 0x68
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C7F8A0 | overloaded x2
-        public void get_BlockSize(){} // RVA: 0x5C7F800
-        public void get_ProduceLegacyHmacValues(){} // RVA: 0x3A5570
-        public void set_ProduceLegacyHmacValues(){} // RVA: 0x5C7F820
+        public void .ctor(){} // RVA: 0x7ADA6D8C0
+        public void get_BlockSize(){} // RVA: 0x7ADA6D820
+        public void get_ProduceLegacyHmacValues(){} // RVA: 0x7A81A00C0
+        public void set_ProduceLegacyHmacValues(){} // RVA: 0x7ADA6D840
     }
 
-    public class HashAlgorithm
+    public class HashAlgorithm : Object
     {
-        public bool _disposed; // 0x10
-        public int HashSizeValue; // 0x14
-        public byte[] HashValue; // 0x18
-        public int State; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x5C73600 | overloaded x2
-        public void get_HashSize(){} // RVA: 0x8ABED0
-        public void get_Hash(){} // RVA: 0x5C736F0
-        public void ComputeHash(){} // RVA: 0x5C73C40 | overloaded x3
-        public void TryComputeHash(){} // RVA: 0x5C738D0
-        public void CaptureHashCodeAndReinitialize(){} // RVA: 0x5C73ED0
-        public void Dispose(){} // RVA: 0x5C74080 | overloaded x2
-        public void Clear(){} // RVA: 0x5C74040
-        public void get_InputBlockSize(){} // RVA: 0x3CFAF0
-        public void get_OutputBlockSize(){} // RVA: 0x3CFAF0
-        public void get_CanTransformMultipleBlocks(){} // RVA: 0x3C2850
-        public void get_CanReuseTransform(){} // RVA: 0x3C2850
-        public void TransformBlock(){} // RVA: 0x5C74090
-        public void TransformFinalBlock(){} // RVA: 0x5C74140
-        public void ValidateTransformBlock(){} // RVA: 0x5C74290
-        public void HashCore(){} // RVA: 0x5C74450 | overloaded x2
-        public void HashFinal(){} // RVA: 0xCD60
-        public void Initialize(){} // RVA: 0x24A50
-        public void TryHashFinal(){} // RVA: 0x5C74690
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7ADA615F0
+        public void get_HashSize(){} // RVA: 0x7A8668BC0
+        public void get_Hash(){} // RVA: 0x7ADA616E0
+        public void ComputeHash(){} // RVA: 0x7ADA61C30
+        public void TryComputeHash(){} // RVA: 0x7ADA618C0
+        public void CaptureHashCodeAndReinitialize(){} // RVA: 0x7ADA61EC0
+        public void Dispose(){} // RVA: 0x7ADA62070
+        public void Clear(){} // RVA: 0x7ADA62030
+        public void get_InputBlockSize(){} // RVA: 0x7A81CA9D0
+        public void get_OutputBlockSize(){} // RVA: 0x7A81CA9D0
+        public void get_CanTransformMultipleBlocks(){} // RVA: 0x7A81BD750
+        public void get_CanReuseTransform(){} // RVA: 0x7A81BD750
+        public void TransformBlock(){} // RVA: 0x7ADA62080
+        public void TransformFinalBlock(){} // RVA: 0x7ADA62130
+        public void ValidateTransformBlock(){} // RVA: 0x7ADA62280
+        public void HashCore(){} // RVA: 0x7ADA62440
+        public void HashFinal(){} // RVA: 0x7A7E00680
+        public void Initialize(){} // RVA: 0x7A7E18770
+        public void TryHashFinal(){} // RVA: 0x7ADA62680
     }
 
-    public class HashAlgorithmName
+    public class HashAlgorithmName : ValueType
     {
-        public string _name; // 0x10
-
         // ── Methods ──
-        public void get_MD5(){} // RVA: 0x5C74850
-        public void get_SHA1(){} // RVA: 0x5C748E0
-        public void get_SHA256(){} // RVA: 0x5C74970
-        public void get_SHA384(){} // RVA: 0x5C74A00
-        public void get_SHA512(){} // RVA: 0x5C74A90
-        public void .ctor(){} // RVA: 0x100A2F0
-        public void get_Name(){} // RVA: 0x1AD4690
-        public void ToString(){} // RVA: 0x5C74B20
-        public void Equals(){} // RVA: 0x5C74C30 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x5C74C70
-        public void op_Equality(){} // RVA: 0x5C25A10
-        public void op_Inequality(){} // RVA: 0x5C25D60
+        public void get_MD5(){} // RVA: 0x7ADA62840
+        public void get_SHA1(){} // RVA: 0x7ADA628D0
+        public void get_SHA256(){} // RVA: 0x7ADA62960
+        public void get_SHA384(){} // RVA: 0x7ADA629F0
+        public void get_SHA512(){} // RVA: 0x7ADA62A80
+        public void .ctor(){} // RVA: 0x7A7637E60
+        public void get_Name(){} // RVA: 0x7A765F710
+        public void ToString(){} // RVA: 0x7A7E2F910
+        public void Equals(){} // RVA: 0x7A7E2FA20
+        public void GetHashCode(){} // RVA: 0x7A7E2FA60
+        public void op_Equality(){} // RVA: 0x7ADA13920
+        public void op_Inequality(){} // RVA: 0x7ADA13C70
     }
 
 }

@@ -1,49 +1,46 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 // Classes: 3
-// Methods: 21
+// Methods: 23
 
 namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
-    public class HableCurve
+    public class HableCurve : Object
     {
-        public float <whitePoint>k__BackingField; // 0x10
-        public float <inverseWhitePoint>k__BackingField; // 0x14
-        public float <x0>k__BackingField; // 0x18
-        public float <x1>k__BackingField; // 0x1C
-
         // ── Methods ──
-        public void get_whitePoint(){} // RVA: 0x407320
-        public void set_whitePoint(){} // RVA: 0x407330
-        public void get_inverseWhitePoint(){} // RVA: 0x407340
-        public void set_inverseWhitePoint(){} // RVA: 0x407350
-        public void get_x0(){} // RVA: 0x2E1CF0
-        public void set_x0(){} // RVA: 0x2F84D0
-        public void get_x1(){} // RVA: 0x3AA570
-        public void set_x1(){} // RVA: 0x3AA580
-        public void .ctor(){} // RVA: 0x6F45890
-        public void Eval(){} // RVA: 0x6F45AE0
-        public void Init(){} // RVA: 0x6F45B80
-        public void InitSegments(){} // RVA: 0x6F45DC0
-        public void SolveAB(){} // RVA: 0x6F46300
-        public void AsSlopeIntercept(){} // RVA: 0x6F46370
-        public void EvalDerivativeLinearGamma(){} // RVA: 0x6F463D0
+        public void get_whitePoint(){} // RVA: 0x7A82023C0
+        public void set_whitePoint(){} // RVA: 0x7A82023D0
+        public void get_inverseWhitePoint(){} // RVA: 0x7A82023E0
+        public void set_inverseWhitePoint(){} // RVA: 0x7A82023F0
+        public void get_x0(){} // RVA: 0x7A80DBCE0
+        public void set_x0(){} // RVA: 0x7A80F26C0
+        public void get_x1(){} // RVA: 0x7A81A5180
+        public void set_x1(){} // RVA: 0x7A81A5190
+        public void .ctor(){} // RVA: 0x7AED23FE0
+        public void Eval(){} // RVA: 0x7AED24250
+        public void Init(){} // RVA: 0x7AED242F0
+        public void InitSegments(){} // RVA: 0x7AED24540
+        public void SolveAB(){} // RVA: 0x7AED24A80
+        public void AsSlopeIntercept(){} // RVA: 0x7AED24AF0
+        public void EvalDerivativeLinearGamma(){} // RVA: 0x7AED24B50
+        public void <whitePoint>k__BackingField(){} // RVA: 0x7B3FAD6B8
     }
 
-    public class HaltonSeq
+    public class HaltonSeq : Object
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x6F466C0
+        public void Get(){} // RVA: 0x7AED24E40
     }
 
-    public class HistogramMonitor
+    public class HistogramMonitor : Monitor
     {
         // ── Methods ──
-        public void OnDisable(){} // RVA: 0x6F2CF00
-        public void NeedsHalfRes(){} // RVA: 0x3C2850
-        public void ShaderResourcesAvailable(){} // RVA: 0x6F2CFC0
-        public void Render(){} // RVA: 0x6F2D0C0
-        public void .ctor(){} // RVA: 0x6F2D970
+        public void OnDisable(){} // RVA: 0x7AED0B4D0
+        public void NeedsHalfRes(){} // RVA: 0x7A81BD750
+        public void ShaderResourcesAvailable(){} // RVA: 0x7AED0B590
+        public void Render(){} // RVA: 0x7AED0B690
+        public void .ctor(){} // RVA: 0x7AED0BF40
+        public void width(){} // RVA: 0x7B4192828
     }
 
 }

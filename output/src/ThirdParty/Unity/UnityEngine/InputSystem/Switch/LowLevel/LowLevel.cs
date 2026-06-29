@@ -5,17 +5,15 @@
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.Switch.LowLevel
 {
-    public class SwitchProControllerHIDInputState : get_format
+    public class SwitchProControllerHIDInputState : ValueType
     {
-        public UnityEngine.InputSystem.Utilities.FourCC Format;
-
         // ── Methods ──
-        public void get_format(){} // RVA: 0x6EC04C0
-        public void WithButton(){} // RVA: 0x6EC0520
-        public void Set(){} // RVA: 0x6EC0600
-        public void Press(){} // RVA: 0x6EC0670
-        public void Release(){} // RVA: 0x6EC0700
-        public void .cctor(){} // RVA: 0x6EC0790
+        public void get_format(){} // RVA: 0x7A7EB5DD0
+        public void WithButton(){} // RVA: 0x7A7EB5E30
+        public void Set(){} // RVA: 0x7A7EB5F10
+        public void Press(){} // RVA: 0x7A7EB5F80
+        public void Release(){} // RVA: 0x7A7EB6010
+        public void .cctor(){} // RVA: 0x7AEC9ED70
     }
 
 }

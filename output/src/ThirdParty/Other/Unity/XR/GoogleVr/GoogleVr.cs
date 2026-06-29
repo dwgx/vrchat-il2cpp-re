@@ -5,51 +5,39 @@
 
 namespace ThirdParty.Other.Unity.XR.GoogleVr
 {
-    public class DaydreamController
+    public class DaydreamController : XRController
     {
-        public UnityEngine.InputSystem.Controls.Vector2Control <touchpad>k__BackingField; // 0x1B0
-        public UnityEngine.InputSystem.Controls.ButtonControl <volumeUp>k__BackingField; // 0x1B8
-        public UnityEngine.InputSystem.Controls.ButtonControl <recentered>k__BackingField; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl <volumeDown>k__BackingField; // 0x1C8
-        public UnityEngine.InputSystem.Controls.ButtonControl <recentering>k__BackingField; // 0x1D0
-        public UnityEngine.InputSystem.Controls.ButtonControl <app>k__BackingField; // 0x1D8
-        public UnityEngine.InputSystem.Controls.ButtonControl <home>k__BackingField; // 0x1E0
-        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadClicked>k__BackingField; // 0x1E8
-        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadTouched>k__BackingField; // 0x1F0
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1F8
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAcceleration>k__BackingField; // 0x200
-
         // ── Methods ──
-        public void get_touchpad(){} // RVA: 0xDA5040
-        public void set_touchpad(){} // RVA: 0xD8AAB0
-        public void get_volumeUp(){} // RVA: 0xDB2150
-        public void set_volumeUp(){} // RVA: 0xD94B20
-        public void get_recentered(){} // RVA: 0xA57F60
-        public void set_recentered(){} // RVA: 0xD94790
-        public void get_volumeDown(){} // RVA: 0xDA62D0
-        public void set_volumeDown(){} // RVA: 0xD94E00
-        public void get_recentering(){} // RVA: 0xDB3D70
-        public void set_recentering(){} // RVA: 0xD86540
-        public void get_app(){} // RVA: 0xD9ABC0
-        public void set_app(){} // RVA: 0xD9A380
-        public void get_home(){} // RVA: 0x8CBA20
-        public void set_home(){} // RVA: 0xDB44F0
-        public void get_touchpadClicked(){} // RVA: 0xDB4D60
-        public void set_touchpadClicked(){} // RVA: 0xD85A20
-        public void get_touchpadTouched(){} // RVA: 0xD92860
-        public void set_touchpadTouched(){} // RVA: 0xD87940
-        public void get_deviceVelocity(){} // RVA: 0xD8D540
-        public void set_deviceVelocity(){} // RVA: 0xD9D6A0
-        public void get_deviceAcceleration(){} // RVA: 0xD9E9A0
-        public void set_deviceAcceleration(){} // RVA: 0xD9F490
-        public void FinishSetup(){} // RVA: 0x6D80DC0
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void get_touchpad(){} // RVA: 0x7A8B69B70
+        public void set_touchpad(){} // RVA: 0x7A8B4DC50
+        public void get_volumeUp(){} // RVA: 0x7A8B772D0
+        public void set_volumeUp(){} // RVA: 0x7A8B58850
+        public void get_recentered(){} // RVA: 0x7A8815B70
+        public void set_recentered(){} // RVA: 0x7A8B58420
+        public void get_volumeDown(){} // RVA: 0x7A8B6AFA0
+        public void set_volumeDown(){} // RVA: 0x7A8B58B30
+        public void get_recentering(){} // RVA: 0x7A8B79060
+        public void set_recentering(){} // RVA: 0x7A8B49820
+        public void get_app(){} // RVA: 0x7A8B5ED30
+        public void set_app(){} // RVA: 0x7A8B5E380
+        public void get_home(){} // RVA: 0x7A8688280
+        public void set_home(){} // RVA: 0x7A8B797E0
+        public void get_touchpadClicked(){} // RVA: 0x7A8B7A210
+        public void set_touchpadClicked(){} // RVA: 0x7A8B48CD0
+        public void get_touchpadTouched(){} // RVA: 0x7A8B562C0
+        public void set_touchpadTouched(){} // RVA: 0x7A8B4A930
+        public void get_deviceVelocity(){} // RVA: 0x7A8B50AF0
+        public void set_deviceVelocity(){} // RVA: 0x7A8B61940
+        public void get_deviceAcceleration(){} // RVA: 0x7A8B62DA0
+        public void set_deviceAcceleration(){} // RVA: 0x7A8B63900
+        public void FinishSetup(){} // RVA: 0x7AEB6EC70
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
-    public class DaydreamHMD
+    public class DaydreamHMD : XRHMD
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
 }

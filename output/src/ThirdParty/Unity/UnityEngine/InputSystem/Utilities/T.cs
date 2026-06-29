@@ -5,34 +5,32 @@
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
-    public class TakeNObservable`1
+    public class TakeNObservable`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2BAA0
-        public void Subscribe(){} // RVA: 0xCE10
+        public void .ctor(){} // RVA: 0x7A7E1D590
+        public void Subscribe(){} // RVA: 0x7A7E00B20
     }
 
-    public class TypeHelpers
+    public class TypeHelpers : Object
     {
         // ── Methods ──
-        public void As(){} // RVA: 0x283FA0
-        public void IsInt(){} // RVA: 0x6DDA540
-        public void GetValueType(){} // RVA: 0x6DDA590
-        public void GetNiceTypeName(){} // RVA: 0x6DDA700
-        public void GetGenericTypeArgumentFromHierarchy(){} // RVA: 0x6DDABC0
+        public void As(){} // RVA: 0x7A8051B10
+        public void IsInt(){} // RVA: 0x7AEBC8E40
+        public void GetValueType(){} // RVA: 0x7AEBC8E90
+        public void GetNiceTypeName(){} // RVA: 0x7AEBC8FC0
+        public void GetGenericTypeArgumentFromHierarchy(){} // RVA: 0x7AEBC9480
     }
 
-    public class TypeTable
+    public class TypeTable : ValueType
     {
-        public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,System.Type> table; // 0x10
-
         // ── Methods ──
-        public void get_names(){} // RVA: 0x6DDB030
-        public void get_internedNames(){} // RVA: 0x6DDB1D0
-        public void Initialize(){} // RVA: 0x6DDB220
-        public void FindNameForType(){} // RVA: 0x6DDB2D0
-        public void AddTypeRegistration(){} // RVA: 0x6DDB530
-        public void LookupTypeRegistration(){} // RVA: 0x6DDB6D0
+        public void get_names(){} // RVA: 0x7A7EAEC80
+        public void get_internedNames(){} // RVA: 0x7A7EAEC90
+        public void Initialize(){} // RVA: 0x7A7EAECE0
+        public void FindNameForType(){} // RVA: 0x7A7EAECF0
+        public void AddTypeRegistration(){} // RVA: 0x7A7EAED20
+        public void LookupTypeRegistration(){} // RVA: 0x7A7EAED30
     }
 
 }

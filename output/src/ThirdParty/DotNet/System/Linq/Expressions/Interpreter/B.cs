@@ -1,93 +1,77 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 // Classes: 7
-// Methods: 35
+// Methods: 34
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class BranchFalseInstruction
+    public class BranchFalseInstruction : OffsetInstruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction[] s_cache;
-
         // ── Methods ──
-        public void get_Cache(){} // RVA: 0x6610740
-        public void get_InstructionName(){} // RVA: 0x6610820
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void Run(){} // RVA: 0x6610860
-        public void .ctor(){} // RVA: 0x6610730
+        public void get_Cache(){} // RVA: 0x7AE3FF200
+        public void get_InstructionName(){} // RVA: 0x7AE3FF2E0
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void Run(){} // RVA: 0x7AE3FF320
+        public void .ctor(){} // RVA: 0x7AE3FF1F0
     }
 
-    public class BranchInstruction
+    public class BranchInstruction : OffsetInstruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction[][][] s_caches;
-        public bool _hasResult; // 0x18
-        public bool _hasValue; // 0x19
-
         // ── Methods ──
-        public void get_Cache(){} // RVA: 0x6610C50
-        public void .ctor(){} // RVA: 0x6610FC0 | overloaded x2
-        public void get_InstructionName(){} // RVA: 0x6610FD0
-        public void get_ConsumedStack(){} // RVA: 0x6611010
-        public void get_ProducedStack(){} // RVA: 0x6611020
-        public void Run(){} // RVA: 0x32A5C0
+        public void get_Cache(){} // RVA: 0x7AE3FF710
+        public void .ctor(){} // RVA: 0x7AE3FFA80
+        public void get_InstructionName(){} // RVA: 0x7AE3FFA90
+        public void get_ConsumedStack(){} // RVA: 0x7AE3FFAD0
+        public void get_ProducedStack(){} // RVA: 0x7AE3FFAE0
+        public void Run(){} // RVA: 0x7A8124910
     }
 
-    public class BranchLabel
+    public class BranchLabel : Object
     {
-        public int ArgumentCount;
-        public int InstructionName;
-        public int ConsumedStack; // 0x10
-
         // ── Methods ──
-        public void get_LabelIndex(){} // RVA: 0x791DC0
-        public void set_LabelIndex(){} // RVA: 0xA53440
-        public void get_HasRuntimeLabel(){} // RVA: 0x660E4C0
-        public void get_TargetIndex(){} // RVA: 0x32A5C0
-        public void ToRuntimeLabel(){} // RVA: 0x660E4D0
-        public void Mark(){} // RVA: 0x660E4F0
-        public void AddBranch(){} // RVA: 0x660E7B0
-        public void FixupBranch(){} // RVA: 0x660E930
-        public void .ctor(){} // RVA: 0x660E960
+        public void get_LabelIndex(){} // RVA: 0x7A854FDE0
+        public void set_LabelIndex(){} // RVA: 0x7A8810F60
+        public void get_HasRuntimeLabel(){} // RVA: 0x7AE3FCF50
+        public void get_TargetIndex(){} // RVA: 0x7A8124910
+        public void ToRuntimeLabel(){} // RVA: 0x7AE3FCF60
+        public void Mark(){} // RVA: 0x7AE3FCF80
+        public void AddBranch(){} // RVA: 0x7AE3FD250
+        public void FixupBranch(){} // RVA: 0x7AE3FD3D0
+        public void .ctor(){} // RVA: 0x7AE3FD400
     }
 
-    public class BranchTrueInstruction
+    public class BranchTrueInstruction : OffsetInstruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction[] s_cache;
-
         // ── Methods ──
-        public void get_Cache(){} // RVA: 0x6610910
-        public void get_InstructionName(){} // RVA: 0x66109F0
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void Run(){} // RVA: 0x6610A30
-        public void .ctor(){} // RVA: 0x6610730
+        public void get_Cache(){} // RVA: 0x7AE3FF3D0
+        public void get_InstructionName(){} // RVA: 0x7AE3FF4B0
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void Run(){} // RVA: 0x7AE3FF4F0
+        public void .ctor(){} // RVA: 0x7AE3FF1F0
     }
 
-    public class ByRefMethodInfoCallInstruction
+    public class ByRefMethodInfoCallInstruction : MethodInfoCallInstruction
     {
-        public System.Linq.Expressions.Interpreter.ByRefUpdater[] _byrefArgs; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F528E0
-        public void get_ProducedStack(){} // RVA: 0x660FC40
-        public void Run(){} // RVA: 0x660FD40
+        public void .ctor(){} // RVA: 0x7ADD41100
+        public void get_ProducedStack(){} // RVA: 0x7AE3FE700
+        public void Run(){} // RVA: 0x7AE3FE800
     }
 
-    public class ByRefNewInstruction
+    public class ByRefNewInstruction : NewInstruction
     {
-        public System.Linq.Expressions.Interpreter.ByRefUpdater[] _byrefArgs; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F528E0
-        public void get_InstructionName(){} // RVA: 0x664BFF0
-        public void Run(){} // RVA: 0x664C030
+        public void .ctor(){} // RVA: 0x7ADD41100
+        public void get_InstructionName(){} // RVA: 0x7AE43AA20
+        public void Run(){} // RVA: 0x7AE43AA60
     }
 
-    public class ByRefUpdater
+    public class ByRefUpdater : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void Update(){} // RVA: 0x2DC60
-        public void UndefineTemps(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void Update(){} // RVA: 0x7A7E18890
+        public void UndefineTemps(){} // RVA: 0x7A80D7310
     }
 
 }

@@ -1,780 +1,808 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.RootMotion.Dynamics
-// Classes: 31
-// Methods: 572
+// Classes: 36
+// Methods: 620
 
 namespace ThirdParty.Other.RootMotion.Dynamics
 {
-    public class AnimationBlocker
+    public class AnimationBlocker : MonoBehaviour
     {
         // ── Methods ──
-        public void LateUpdate(){} // RVA: 0x339D90
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void LateUpdate(){} // RVA: 0x7A81341D0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class BehaviourBase
+    public class BehaviourBase : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMaster puppetMaster; // 0x20
-
         // ── Methods ──
-        public void OnReactivate(){} // RVA: 0x24A50
-        public void Resurrect(){} // RVA: 0x2DD310
-        public void Freeze(){} // RVA: 0x2DD310
-        public void Unfreeze(){} // RVA: 0x2DD310
-        public void KillStart(){} // RVA: 0x2DD310
-        public void KillEnd(){} // RVA: 0x2DD310
-        public void OnTeleport(){} // RVA: 0x2DD310
-        public void OnMuscleDisconnected(){} // RVA: 0x2DD310
-        public void OnMuscleReconnected(){} // RVA: 0x2DD310
-        public void OnMuscleAdded(){} // RVA: 0x339F60
-        public void OnMuscleRemoved(){} // RVA: 0x339F60
-        public void OnActivate(){} // RVA: 0x2DD310
-        public void OnDeactivate(){} // RVA: 0x2DD310
-        public void OnInitiate(){} // RVA: 0x2DD310
-        public void OnFixedUpdate(){} // RVA: 0x2DD310
-        public void OnUpdate(){} // RVA: 0x2DD310
-        public void OnLateUpdate(){} // RVA: 0x2DD310
-        public void OnDrawGizmosBehaviour(){} // RVA: 0x2DD310
-        public void OnFixTransformsBehaviour(){} // RVA: 0x2DD310
-        public void OnReadBehaviour(){} // RVA: 0x2DD310
-        public void OnWriteBehaviour(){} // RVA: 0x2DD310
-        public void OnMuscleHitBehaviour(){} // RVA: 0x2DD310
-        public void OnMuscleCollisionBehaviour(){} // RVA: 0x2DD310
-        public void OnMuscleCollisionExitBehaviour(){} // RVA: 0x2DD310
-        public void get_forceActive(){} // RVA: 0x339F90
-        public void set_forceActive(){} // RVA: 0x339FA0
-        public void Initiate(){} // RVA: 0x339FB0
-        public void OnFixTransforms(){} // RVA: 0x33A020
-        public void OnRead(){} // RVA: 0x33A0E0
-        public void OnWrite(){} // RVA: 0x33A1A0
-        public void OnMuscleHit(){} // RVA: 0x33A260
-        public void OnMuscleCollision(){} // RVA: 0x33A320
-        public void OnMuscleCollisionExit(){} // RVA: 0x33A3E0
-        public void OnEnable(){} // RVA: 0x33A4B0
-        public void Activate(){} // RVA: 0x33A4D0
-        public void OnDisable(){} // RVA: 0x33A6D0
-        public void FixedUpdateB(){} // RVA: 0x33A740
-        public void UpdateB(){} // RVA: 0x33A850
-        public void LateUpdateB(){} // RVA: 0x33A960
-        public void OnDrawGizmos(){} // RVA: 0x33AA70
-        public void RotateTargetToRootMuscle(){} // RVA: 0x33AAC0
-        public void TranslateTargetToRootMuscle(){} // RVA: 0x33B030
-        public void RemovePropMuscles(){} // RVA: 0x33B390
-        public void GroundTarget(){} // RVA: 0x33B4D0
-        public void ContainsRemovablePropMuscle(){} // RVA: 0x33B910
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void OnReactivate(){} // RVA: 0x7A7E18770
+        public void Resurrect(){} // RVA: 0x7A80D7310
+        public void Freeze(){} // RVA: 0x7A80D7310
+        public void Unfreeze(){} // RVA: 0x7A80D7310
+        public void KillStart(){} // RVA: 0x7A80D7310
+        public void KillEnd(){} // RVA: 0x7A80D7310
+        public void OnTeleport(){} // RVA: 0x7A80D7310
+        public void OnMuscleDisconnected(){} // RVA: 0x7A80D7310
+        public void OnMuscleReconnected(){} // RVA: 0x7A80D7310
+        public void OnMuscleAdded(){} // RVA: 0x7A81343A0
+        public void OnMuscleRemoved(){} // RVA: 0x7A81343A0
+        public void OnActivate(){} // RVA: 0x7A80D7310
+        public void OnDeactivate(){} // RVA: 0x7A80D7310
+        public void OnInitiate(){} // RVA: 0x7A80D7310
+        public void OnFixedUpdate(){} // RVA: 0x7A80D7310
+        public void OnUpdate(){} // RVA: 0x7A80D7310
+        public void OnLateUpdate(){} // RVA: 0x7A80D7310
+        public void OnDrawGizmosBehaviour(){} // RVA: 0x7A80D7310
+        public void OnFixTransformsBehaviour(){} // RVA: 0x7A80D7310
+        public void OnReadBehaviour(){} // RVA: 0x7A80D7310
+        public void OnWriteBehaviour(){} // RVA: 0x7A80D7310
+        public void OnMuscleHitBehaviour(){} // RVA: 0x7A80D7310
+        public void OnMuscleCollisionBehaviour(){} // RVA: 0x7A80D7310
+        public void OnMuscleCollisionExitBehaviour(){} // RVA: 0x7A80D7310
+        public void get_forceActive(){} // RVA: 0x7A81343D0
+        public void set_forceActive(){} // RVA: 0x7A81343E0
+        public void Initiate(){} // RVA: 0x7A81343F0
+        public void OnFixTransforms(){} // RVA: 0x7A8134460
+        public void OnRead(){} // RVA: 0x7A8134520
+        public void OnWrite(){} // RVA: 0x7A81345E0
+        public void OnMuscleHit(){} // RVA: 0x7A81346A0
+        public void OnMuscleCollision(){} // RVA: 0x7A8134760
+        public void OnMuscleCollisionExit(){} // RVA: 0x7A8134820
+        public void OnEnable(){} // RVA: 0x7A81348F0
+        public void Activate(){} // RVA: 0x7A8134910
+        public void OnDisable(){} // RVA: 0x7A8134B20
+        public void FixedUpdateB(){} // RVA: 0x7A8134B90
+        public void UpdateB(){} // RVA: 0x7A8134CA0
+        public void LateUpdateB(){} // RVA: 0x7A8134DB0
+        public void OnDrawGizmos(){} // RVA: 0x7A8134EC0
+        public void RotateTargetToRootMuscle(){} // RVA: 0x7A8134F10
+        public void TranslateTargetToRootMuscle(){} // RVA: 0x7A8135470
+        public void RemovePropMuscles(){} // RVA: 0x7A81357D0
+        public void GroundTarget(){} // RVA: 0x7A8135940
+        public void ContainsRemovablePropMuscle(){} // RVA: 0x7A8135D80
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class BehaviourFall
+    public class BehaviourBase[] : Array
     {
         // ── Methods ──
-        public void OpenUserManual(){} // RVA: 0x2DD310
-        public void OpenScriptReference(){} // RVA: 0x2DD310
-        public void OnActivate(){} // RVA: 0x33C7C0
-        public void OnDeactivate(){} // RVA: 0x33C8B0
-        public void OnReactivate(){} // RVA: 0x33C8C0
-        public void SmoothActivate(){} // RVA: 0x33C8E0
-        public void OnFixedUpdate(){} // RVA: 0x33C980
-        public void OnLateUpdate(){} // RVA: 0x33CD30
-        public void Resurrect(){} // RVA: 0x33CFB0
-        public void GetBlendTarget(){} // RVA: 0x33D010
-        public void GetGroundHeight(){} // RVA: 0x33D1F0
-        public void OnMuscleReconnected(){} // RVA: 0x33D470
-        public void .ctor(){} // RVA: 0x33D4B0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class BehaviourPuppet
+    public class BehaviourFall : BehaviourBase
     {
-        public MasterProps masterProps; // 0x100
-
         // ── Methods ──
-        public void OpenUserManual(){} // RVA: 0x2DD310
-        public void OpenScriptReference(){} // RVA: 0x2DD310
-        public void get_state(){} // RVA: 0x33D9C0
-        public void set_state(){} // RVA: 0x33D9D0
-        public void OnReactivate(){} // RVA: 0x33D9E0
-        public void Reset(){} // RVA: 0x33DB00
-        public void OnTeleport(){} // RVA: 0x33DB60
-        public void OnInitiate(){} // RVA: 0x33DDA0
-        public void OnActivate(){} // RVA: 0x33E7D0
-        public void KillStart(){} // RVA: 0x33E880
-        public void KillEnd(){} // RVA: 0x33E930
-        public void Resurrect(){} // RVA: 0x33E940
-        public void OnDeactivate(){} // RVA: 0x33E9D0
-        public void OnFixedUpdate(){} // RVA: 0x33E9E0
-        public void OnLateUpdate(){} // RVA: 0x33F3F0
-        public void SetKinematic(){} // RVA: 0x33F650
-        public void OnReadBehaviour(){} // RVA: 0x33F720
-        public void BlendMuscleMapping(){} // RVA: 0x33FD80
-        public void OnMuscleAdded(){} // RVA: 0x33FF80
-        public void OnMuscleRemoved(){} // RVA: 0x33FFE0
-        public void MoveTarget(){} // RVA: 0x340030
-        public void RotateTarget(){} // RVA: 0x3400C0
-        public void GroundTarget(){} // RVA: 0x340150
-        public void OnDrawGizmosSelected(){} // RVA: 0x340170
-        public void Boost(){} // RVA: 0x3405B0 | overloaded x3
-        public void BoostImmunity(){} // RVA: 0x3408B0 | overloaded x3
-        public void BoostImpulseMlp(){} // RVA: 0x340B20 | overloaded x3
-        public void Unpin(){} // RVA: 0x340C60
-        public void OnMuscleHitBehaviour(){} // RVA: 0x340CE0
-        public void OnMuscleCollisionBehaviour(){} // RVA: 0x340E80
-        public void GetImpulse(){} // RVA: 0x341550
-        public void UnPin(){} // RVA: 0x3417C0
-        public void UnPinMuscle(){} // RVA: 0x341930
-        public void Activate(){} // RVA: 0x341C10
-        public void IsProne(){} // RVA: 0x341CA0
-        public void GetFalloff(){} // RVA: 0x342060 | overloaded x2
-        public void InGroup(){} // RVA: 0x3421F0
-        public void GetProps(){} // RVA: 0x3422B0
-        public void SetState(){} // RVA: 0x3423B0
-        public void SetColliders(){} // RVA: 0x343510 | overloaded x2
-        public void OnMuscleDisconnected(){} // RVA: 0x3437E0
-        public void OnMuscleReconnected(){} // RVA: 0x3437F0
-        public void .ctor(){} // RVA: 0x3438A0
+        public void OpenUserManual(){} // RVA: 0x7A80D7310
+        public void OpenScriptReference(){} // RVA: 0x7A80D7310
+        public void OnActivate(){} // RVA: 0x7A8136C50
+        public void OnDeactivate(){} // RVA: 0x7A8136D40
+        public void OnReactivate(){} // RVA: 0x7A8136D50
+        public void SmoothActivate(){} // RVA: 0x7A8136D70
+        public void OnFixedUpdate(){} // RVA: 0x7A8136E10
+        public void OnLateUpdate(){} // RVA: 0x7A81371C0
+        public void Resurrect(){} // RVA: 0x7A8137440
+        public void GetBlendTarget(){} // RVA: 0x7A81374A0
+        public void GetGroundHeight(){} // RVA: 0x7A8137680
+        public void OnMuscleReconnected(){} // RVA: 0x7A8137900
+        public void .ctor(){} // RVA: 0x7A8137940
     }
 
-    public class BehaviourTemplate
+    public class BehaviourPuppet : BehaviourBase
     {
         // ── Methods ──
-        public void OnInitiate(){} // RVA: 0x343D60
-        public void OnActivate(){} // RVA: 0x2DD310
-        public void OnReactivate(){} // RVA: 0x2DD310
-        public void OnDeactivate(){} // RVA: 0x2DD310
-        public void OnFixedUpdate(){} // RVA: 0x343D90
-        public void OnLateUpdate(){} // RVA: 0x2DD310
-        public void OnMuscleHitBehaviour(){} // RVA: 0x343DE0
-        public void OnMuscleCollisionBehaviour(){} // RVA: 0x343DE0
-        public void .ctor(){} // RVA: 0x343E30
+        public void OpenUserManual(){} // RVA: 0x7A80D7310
+        public void OpenScriptReference(){} // RVA: 0x7A80D7310
+        public void get_state(){} // RVA: 0x7A8137E50
+        public void set_state(){} // RVA: 0x7A8137E60
+        public void OnReactivate(){} // RVA: 0x7A8137E70
+        public void Reset(){} // RVA: 0x7A8137FA0
+        public void OnTeleport(){} // RVA: 0x7A8138000
+        public void OnInitiate(){} // RVA: 0x7A8138260
+        public void OnActivate(){} // RVA: 0x7A8138C90
+        public void KillStart(){} // RVA: 0x7A8138D60
+        public void KillEnd(){} // RVA: 0x7A8138E10
+        public void Resurrect(){} // RVA: 0x7A8138E20
+        public void OnDeactivate(){} // RVA: 0x7A8138EB0
+        public void OnFixedUpdate(){} // RVA: 0x7A8138EC0
+        public void OnLateUpdate(){} // RVA: 0x7A8139910
+        public void SetKinematic(){} // RVA: 0x7A8139B80
+        public void OnReadBehaviour(){} // RVA: 0x7A8139C60
+        public void BlendMuscleMapping(){} // RVA: 0x7A813A2C0
+        public void OnMuscleAdded(){} // RVA: 0x7A813A4C0
+        public void OnMuscleRemoved(){} // RVA: 0x7A813A520
+        public void MoveTarget(){} // RVA: 0x7A813A570
+        public void RotateTarget(){} // RVA: 0x7A813A600
+        public void GroundTarget(){} // RVA: 0x7A813A690
+        public void OnDrawGizmosSelected(){} // RVA: 0x7A813A6B0
+        public void Boost(){} // RVA: 0x7A813AAE0
+        public void BoostImmunity(){} // RVA: 0x7A813AE00
+        public void BoostImpulseMlp(){} // RVA: 0x7A813B080
+        public void Unpin(){} // RVA: 0x7A813B1C0
+        public void OnMuscleHitBehaviour(){} // RVA: 0x7A813B240
+        public void OnMuscleCollisionBehaviour(){} // RVA: 0x7A813B3E0
+        public void GetImpulse(){} // RVA: 0x7A813BAB0
+        public void UnPin(){} // RVA: 0x7A813BD30
+        public void UnPinMuscle(){} // RVA: 0x7A813BEA0
+        public void Activate(){} // RVA: 0x7A813C160
+        public void IsProne(){} // RVA: 0x7A813C1F0
+        public void GetFalloff(){} // RVA: 0x7A813C5A0
+        public void InGroup(){} // RVA: 0x7A813C750
+        public void GetProps(){} // RVA: 0x7A813C820
+        public void SetState(){} // RVA: 0x7A813C920
+        public void SetColliders(){} // RVA: 0x7A813DA90
+        public void OnMuscleDisconnected(){} // RVA: 0x7A813DD80
+        public void OnMuscleReconnected(){} // RVA: 0x7A813DD90
+        public void .ctor(){} // RVA: 0x7A813DE40
     }
 
-    public class BipedRagdollCreator
+    public class BehaviourTemplate : BehaviourBase
     {
         // ── Methods ──
-        public void OpenUserManual(){} // RVA: 0x2DD310
-        public void OpenScriptReference(){} // RVA: 0x2DD310
-        public void OpenTutorial(){} // RVA: 0x2DD310
-        public void AutodetectOptions(){} // RVA: 0x3812F0
-        public void Create(){} // RVA: 0x381810
-        public void CreateColliders(){} // RVA: 0x381A90
-        public void CreateHandCollider(){} // RVA: 0x383EB0
-        public void CreateFootCollider(){} // RVA: 0x3845D0
-        public void GetChildCentroid(){} // RVA: 0x385100
-        public void MassDistribution(){} // RVA: 0x3853A0
-        public void CreateJoints(){} // RVA: 0x385EA0
-        public void CreateLimbJoints(){} // RVA: 0x387100
-        public void ClearBipedRagdoll(){} // RVA: 0x388200
-        public void IsClear(){} // RVA: 0x388260
-        public void GetUpperArmToHeadCentroid(){} // RVA: 0x3883C0
-        public void GetUpperArmCentroid(){} // RVA: 0x388520
-        public void .ctor(){} // RVA: 0x388660
+        public void OnInitiate(){} // RVA: 0x7A813E300
+        public void OnActivate(){} // RVA: 0x7A80D7310
+        public void OnReactivate(){} // RVA: 0x7A80D7310
+        public void OnDeactivate(){} // RVA: 0x7A80D7310
+        public void OnFixedUpdate(){} // RVA: 0x7A813E330
+        public void OnLateUpdate(){} // RVA: 0x7A80D7310
+        public void OnMuscleHitBehaviour(){} // RVA: 0x7A813E380
+        public void OnMuscleCollisionBehaviour(){} // RVA: 0x7A813E380
+        public void .ctor(){} // RVA: 0x7A813E3D0
     }
 
-    public class BipedRagdollReferences
+    public class BipedRagdollCreator : RagdollCreator
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x388760
-        public void IsChildRecursive(){} // RVA: 0x389540
-        public void IsEmpty(){} // RVA: 0x3897F0
-        public void Contains(){} // RVA: 0x38A090
-        public void GetRagdollTransforms(){} // RVA: 0x38ACF0
-        public void FromAvatar(){} // RVA: 0x38B170
-        public void FromBipedReferences(){} // RVA: 0x38B8C0
+        public void OpenUserManual(){} // RVA: 0x7A80D7310
+        public void OpenScriptReference(){} // RVA: 0x7A80D7310
+        public void OpenTutorial(){} // RVA: 0x7A80D7310
+        public void AutodetectOptions(){} // RVA: 0x7A817BDD0
+        public void Create(){} // RVA: 0x7A817C2E0
+        public void CreateColliders(){} // RVA: 0x7A817C560
+        public void CreateHandCollider(){} // RVA: 0x7A817E990
+        public void CreateFootCollider(){} // RVA: 0x7A817F0A0
+        public void GetChildCentroid(){} // RVA: 0x7A817FBD0
+        public void MassDistribution(){} // RVA: 0x7A817FE70
+        public void CreateJoints(){} // RVA: 0x7A8180970
+        public void CreateLimbJoints(){} // RVA: 0x7A8181BD0
+        public void ClearBipedRagdoll(){} // RVA: 0x7A8182CD0
+        public void IsClear(){} // RVA: 0x7A8182D30
+        public void GetUpperArmToHeadCentroid(){} // RVA: 0x7A8182E90
+        public void GetUpperArmCentroid(){} // RVA: 0x7A8182FF0
+        public void .ctor(){} // RVA: 0x7A8183130
     }
 
-    public class Booster
+    public class BipedRagdollReferences : ValueType
     {
         // ── Methods ──
-        public void Boost(){} // RVA: 0x347A70
-        public void .ctor(){} // RVA: 0x347E70
+        public void IsValid(){} // RVA: 0x7A75F5570
+        public void IsChildRecursive(){} // RVA: 0x7A75F5580
+        public void IsEmpty(){} // RVA: 0x7A75F5590
+        public void Contains(){} // RVA: 0x7A75F55A0
+        public void GetRagdollTransforms(){} // RVA: 0x7A75F55B0
+        public void FromAvatar(){} // RVA: 0x7A8185C90
+        public void FromBipedReferences(){} // RVA: 0x7A81863E0
     }
 
-    public class JointBreakBroadcaster
+    public class Booster : Object
     {
         // ── Methods ──
-        public void OnJointBreak(){} // RVA: 0x347F90
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Boost(){} // RVA: 0x7A8142000
+        public void .ctor(){} // RVA: 0x7A8142440
     }
 
-    public class JointConverter
+    public class JointBreakBroadcaster : MonoBehaviour
     {
         // ── Methods ──
-        public void ToConfigurable(){} // RVA: 0x38BEA0
-        public void HingeToConfigurable(){} // RVA: 0x38C270
-        public void FixedToConfigurable(){} // RVA: 0x38CAA0
-        public void SpringToConfigurable(){} // RVA: 0x38CDD0
-        public void CharacterToConfigurable(){} // RVA: 0x38D220
-        public void ConvertJoint(){} // RVA: 0x38DBF0
-        public void ConvertToHighSoftJointLimit(){} // RVA: 0x38E180
-        public void ConvertToLowSoftJointLimit(){} // RVA: 0x38E1B0
-        public void ConvertToSoftJointLimitSpring(){} // RVA: 0x38E1D0
-        public void CopyLimit(){} // RVA: 0x38E200
-        public void CopyLimitSpring(){} // RVA: 0x38E220
+        public void OnJointBreak(){} // RVA: 0x7A8142560
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class Muscle
+    public class JointConverter : Object
     {
-        public string name; // 0x10
-        public UnityEngine.ConfigurableJoint joint; // 0x18
-        public UnityEngine.Transform target; // 0x20
-        public Props props; // 0x28
-        public State state; // 0x30
-        public int[] parentIndexes; // 0x70
-        public int[] childIndexes; // 0x78
-        public bool[] childFlags; // 0x80
-        public int[] kinshipDegrees; // 0x88
-        public RootMotion.Dynamics.MuscleCollisionBroadcaster broadcaster; // 0x90
-        public RootMotion.Dynamics.JointBreakBroadcaster jointBreakBroadcaster; // 0x98
-        public UnityEngine.Vector3 positionOffset; // 0xA0
-        public UnityEngine.Transform <transform>k__BackingField; // 0xB0
-        public UnityEngine.Rigidbody <rigidbody>k__BackingField; // 0xB8
-        public UnityEngine.Transform <connectedBodyTarget>k__BackingField; // 0xC0
-        public UnityEngine.Vector3 <targetAnimatedPosition>k__BackingField; // 0xC8
-        public UnityEngine.Quaternion <targetAnimatedWorldRotation>k__BackingField; // 0xD4
-        public UnityEngine.Vector3 <targetVelocity>k__BackingField; // 0xE4
-
         // ── Methods ──
-        public void get_transform(){} // RVA: 0x348040
-        public void set_transform(){} // RVA: 0x348050
-        public void get_rigidbody(){} // RVA: 0x3480B0
-        public void set_rigidbody(){} // RVA: 0x3480C0
-        public void get_connectedBodyTarget(){} // RVA: 0x348120
-        public void set_connectedBodyTarget(){} // RVA: 0x348130
-        public void get_targetAnimatedPosition(){} // RVA: 0x348190
-        public void set_targetAnimatedPosition(){} // RVA: 0x3481B0
-        public void get_targetAnimatedWorldRotation(){} // RVA: 0x3481D0
-        public void set_targetAnimatedWorldRotation(){} // RVA: 0x3481E0
-        public void get_colliders(){} // RVA: 0x3481F0
-        public void set_colliders(){} // RVA: 0x348200
-        public void get_targetVelocity(){} // RVA: 0x348260
-        public void set_targetVelocity(){} // RVA: 0x348280
-        public void get_additionalRigidbody(){} // RVA: 0x3482A0
-        public void set_additionalRigidbody(){} // RVA: 0x3482B0
-        public void get_targetRotationRelative(){} // RVA: 0x348310
-        public void set_targetRotationRelative(){} // RVA: 0x348320
-        public void IsValid(){} // RVA: 0x348330
-        public void get_rebuildConnectedBody(){} // RVA: 0x3485F0
-        public void set_rebuildConnectedBody(){} // RVA: 0x348600
-        public void get_rebuildTargetParent(){} // RVA: 0x348660
-        public void set_rebuildTargetParent(){} // RVA: 0x348670
-        public void get_defaultTargetPosRelToMuscle(){} // RVA: 0x3486D0
-        public void set_defaultTargetPosRelToMuscle(){} // RVA: 0x3486F0
-        public void get_defaultTargetRotRelToMuscle(){} // RVA: 0x348710
-        public void set_defaultTargetRotRelToMuscle(){} // RVA: 0x348720
-        public void get_defaultMuscleRotRelToTarget(){} // RVA: 0x348730
-        public void set_defaultMuscleRotRelToTarget(){} // RVA: 0x348740
-        public void Rebuild(){} // RVA: 0x348750
-        public void Initiate(){} // RVA: 0x348BC0
-        public void InitiateAdditionalPin(){} // RVA: 0x34B810
-        public void UpdateColliders(){} // RVA: 0x34BB50
-        public void DisableColliders(){} // RVA: 0x34BE80
-        public void EnableColliders(){} // RVA: 0x34C030
-        public void AddColliders(){} // RVA: 0x34C0E0
-        public void AddCompoundColliders(){} // RVA: 0x34C3C0
-        public void IgnoreInternalCollisions(){} // RVA: 0x34C5B0
-        public void ResetInternalCollisions(){} // RVA: 0x34C880
-        public void ForceIgnore(){} // RVA: 0x34CB90
-        public void IgnoreAngularLimits(){} // RVA: 0x34CF60
-        public void FixTargetTransforms(){} // RVA: 0x34D0D0
-        public void Reset(){} // RVA: 0x34D1C0
-        public void MoveToTarget(){} // RVA: 0x34D7D0
-        public void SetKinematic(){} // RVA: 0x34DEA0
-        public void Read(){} // RVA: 0x34E090
-        public void ClearVelocities(){} // RVA: 0x34E8F0
-        public void UpdateAnchor(){} // RVA: 0x34EDF0
-        public void Update(){} // RVA: 0x34F440
-        public void StoreTargetMappedPosition(){} // RVA: 0x34F710
-        public void StoreTargetMappedRotation(){} // RVA: 0x34F7A0
-        public void Map(){} // RVA: 0x34F820
-        public void ResetTargetLocalPosition(){} // RVA: 0x350440
-        public void CalculateMappedVelocity(){} // RVA: 0x3504C0
-        public void MapDisconnected(){} // RVA: 0x3508D0
-        public void Pin(){} // RVA: 0x3514E0 | overloaded x2
-        public void MuscleRotation(){} // RVA: 0x3516F0
-        public void SetMuscleRotation(){} // RVA: 0x3519D0
-        public void get_localRotation(){} // RVA: 0x351C70
-        public void get_parentRotation(){} // RVA: 0x351EE0
-        public void get_targetParentRotation(){} // RVA: 0x3522A0
-        public void get_targetLocalRotation(){} // RVA: 0x352420
-        public void LocalToJointSpace(){} // RVA: 0x352770
-        public void InverseTransformPointUnscaled(){} // RVA: 0x352A30
-        public void .ctor(){} // RVA: 0x352CB0
+        public void ToConfigurable(){} // RVA: 0x7A81869C0
+        public void HingeToConfigurable(){} // RVA: 0x7A8186D80
+        public void FixedToConfigurable(){} // RVA: 0x7A81875B0
+        public void SpringToConfigurable(){} // RVA: 0x7A81878E0
+        public void CharacterToConfigurable(){} // RVA: 0x7A8187D30
+        public void ConvertJoint(){} // RVA: 0x7A8188700
+        public void ConvertToHighSoftJointLimit(){} // RVA: 0x7A8188C90
+        public void ConvertToLowSoftJointLimit(){} // RVA: 0x7A8188CC0
+        public void ConvertToSoftJointLimitSpring(){} // RVA: 0x7A8188CE0
+        public void CopyLimit(){} // RVA: 0x7A8188D10
+        public void CopyLimitSpring(){} // RVA: 0x7A8188D30
     }
 
-    public class MuscleCollision
+    public class Muscle : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x353EF0
+        public void get_transform(){} // RVA: 0x7A8142610
+        public void set_transform(){} // RVA: 0x7A8142620
+        public void get_rigidbody(){} // RVA: 0x7A8142680
+        public void set_rigidbody(){} // RVA: 0x7A8142690
+        public void get_connectedBodyTarget(){} // RVA: 0x7A81426F0
+        public void set_connectedBodyTarget(){} // RVA: 0x7A8142700
+        public void get_targetAnimatedPosition(){} // RVA: 0x7A8142760
+        public void set_targetAnimatedPosition(){} // RVA: 0x7A8142780
+        public void get_targetAnimatedWorldRotation(){} // RVA: 0x7A81427A0
+        public void set_targetAnimatedWorldRotation(){} // RVA: 0x7A81427B0
+        public void get_colliders(){} // RVA: 0x7A81427C0
+        public void set_colliders(){} // RVA: 0x7A81427D0
+        public void get_targetVelocity(){} // RVA: 0x7A8142830
+        public void set_targetVelocity(){} // RVA: 0x7A8142850
+        public void get_additionalRigidbody(){} // RVA: 0x7A8142870
+        public void set_additionalRigidbody(){} // RVA: 0x7A8142880
+        public void get_targetRotationRelative(){} // RVA: 0x7A81428E0
+        public void set_targetRotationRelative(){} // RVA: 0x7A81428F0
+        public void IsValid(){} // RVA: 0x7A8142900
+        public void get_rebuildConnectedBody(){} // RVA: 0x7A8142BC0
+        public void set_rebuildConnectedBody(){} // RVA: 0x7A8142BD0
+        public void get_rebuildTargetParent(){} // RVA: 0x7A8142C30
+        public void set_rebuildTargetParent(){} // RVA: 0x7A8142C40
+        public void get_defaultTargetPosRelToMuscle(){} // RVA: 0x7A8142CA0
+        public void set_defaultTargetPosRelToMuscle(){} // RVA: 0x7A8142CC0
+        public void get_defaultTargetRotRelToMuscle(){} // RVA: 0x7A8142CE0
+        public void set_defaultTargetRotRelToMuscle(){} // RVA: 0x7A8142CF0
+        public void get_defaultMuscleRotRelToTarget(){} // RVA: 0x7A8142D00
+        public void set_defaultMuscleRotRelToTarget(){} // RVA: 0x7A8142D10
+        public void Rebuild(){} // RVA: 0x7A8142D20
+        public void Initiate(){} // RVA: 0x7A8143190
+        public void InitiateAdditionalPin(){} // RVA: 0x7A8145E50
+        public void UpdateColliders(){} // RVA: 0x7A8146190
+        public void DisableColliders(){} // RVA: 0x7A81464C0
+        public void EnableColliders(){} // RVA: 0x7A8146680
+        public void AddColliders(){} // RVA: 0x7A8146750
+        public void AddCompoundColliders(){} // RVA: 0x7A8146A30
+        public void IgnoreInternalCollisions(){} // RVA: 0x7A8146C20
+        public void ResetInternalCollisions(){} // RVA: 0x7A8146F00
+        public void ForceIgnore(){} // RVA: 0x7A8147220
+        public void IgnoreAngularLimits(){} // RVA: 0x7A8147620
+        public void FixTargetTransforms(){} // RVA: 0x7A8147790
+        public void Reset(){} // RVA: 0x7A8147880
+        public void MoveToTarget(){} // RVA: 0x7A8147E70
+        public void SetKinematic(){} // RVA: 0x7A8148530
+        public void Read(){} // RVA: 0x7A8148720
+        public void ClearVelocities(){} // RVA: 0x7A8148F80
+        public void UpdateAnchor(){} // RVA: 0x7A8149480
+        public void Update(){} // RVA: 0x7A8149AB0
+        public void StoreTargetMappedPosition(){} // RVA: 0x7A8149D80
+        public void StoreTargetMappedRotation(){} // RVA: 0x7A8149E10
+        public void Map(){} // RVA: 0x7A8149E90
+        public void ResetTargetLocalPosition(){} // RVA: 0x7A814AAA0
+        public void CalculateMappedVelocity(){} // RVA: 0x7A814AB20
+        public void MapDisconnected(){} // RVA: 0x7A814AF30
+        public void Pin(){} // RVA: 0x7A814BB30
+        public void MuscleRotation(){} // RVA: 0x7A814BD50
+        public void SetMuscleRotation(){} // RVA: 0x7A814C030
+        public void get_localRotation(){} // RVA: 0x7A814C2D0
+        public void get_parentRotation(){} // RVA: 0x7A814C540
+        public void get_targetParentRotation(){} // RVA: 0x7A814C900
+        public void get_targetLocalRotation(){} // RVA: 0x7A814CA80
+        public void LocalToJointSpace(){} // RVA: 0x7A814CDD0
+        public void InverseTransformPointUnscaled(){} // RVA: 0x7A814D090
+        public void .ctor(){} // RVA: 0x7A814D300
     }
 
-    public class MuscleCollisionBroadcaster
+    public class MuscleCollision : ValueType
     {
         // ── Methods ──
-        public void Hit(){} // RVA: 0x353F80
-        public void OnCollisionEnter(){} // RVA: 0x354210
-        public void OnCollisionStay(){} // RVA: 0x354840
-        public void OnCollisionExit(){} // RVA: 0x354CD0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A75F5250
     }
 
-    public class MuscleHit
+    public class MuscleCollisionBroadcaster : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x353F50
+        public void Hit(){} // RVA: 0x7A814E5D0
+        public void OnCollisionEnter(){} // RVA: 0x7A814E870
+        public void OnCollisionStay(){} // RVA: 0x7A814EEA0
+        public void OnCollisionExit(){} // RVA: 0x7A814F340
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class PhysXTools
+    public class MuscleDisconnectMode[] : Array
     {
         // ── Methods ──
-        public void Predict(){} // RVA: 0x355720 | overloaded x3
-        public void GetCenterOfMass(){} // RVA: 0x355F50 | overloaded x2
-        public void GetCenterOfMassVelocity(){} // RVA: 0x3561F0
-        public void DivByInertia(){} // RVA: 0x356490
-        public void ScaleByInertia(){} // RVA: 0x356850
-        public void GetFromToAcceleration(){} // RVA: 0x356C10
-        public void GetAngularAcceleration(){} // RVA: 0x356E20
-        public void AddFromToTorque(){} // RVA: 0x357BA0 | overloaded x2
-        public void AddFromToForce(){} // RVA: 0x358030
-        public void GetLinearAcceleration(){} // RVA: 0x358350
-        public void ToJointSpace(){} // RVA: 0x358410
-        public void CalculateInertiaTensorCuboid(){} // RVA: 0x358670
-        public void Div(){} // RVA: 0x3586C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D3F10
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EBF0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6990
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA281BF0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EBF0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class PressureSensor
+    public class MuscleHit : ValueType
     {
-        public bool visualize; // 0x20
-        public UnityEngine.LayerMask layers; // 0x24
-        public UnityEngine.Vector3 <center>k__BackingField; // 0x28
-        public bool <inContact>k__BackingField; // 0x34
-
         // ── Methods ──
-        public void get_center(){} // RVA: 0x358700
-        public void set_center(){} // RVA: 0x358720
-        public void get_inContact(){} // RVA: 0x313C20
-        public void set_inContact(){} // RVA: 0x317AC0
-        public void get_bottom(){} // RVA: 0x343F40
-        public void set_bottom(){} // RVA: 0x343F60
-        public void get_r(){} // RVA: 0x358730
-        public void set_r(){} // RVA: 0x358740
-        public void Awake(){} // RVA: 0x3587A0
-        public void OnCollisionEnter(){} // RVA: 0x3588F0
-        public void OnCollisionStay(){} // RVA: 0x3588F0
-        public void OnCollisionExit(){} // RVA: 0x358900
-        public void FixedUpdate(){} // RVA: 0x358910
-        public void LateUpdate(){} // RVA: 0x3589D0
-        public void ProcessCollision(){} // RVA: 0x358A20
-        public void OnDrawGizmos(){} // RVA: 0x358C10
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A75F52B0
     }
 
-    public class Prop
+    public class Muscle[] : Array
     {
-        public int propType; // 0x20
-        public UnityEngine.ConfigurableJoint muscle; // 0x28
-        public Props muscleProps; // 0x30
-
         // ── Methods ──
-        public void get_isPickedUp(){} // RVA: 0x358C80
-        public void get_propRoot(){} // RVA: 0x358D50
-        public void set_propRoot(){} // RVA: 0x358D60
-        public void PickUp(){} // RVA: 0x358DC0
-        public void Drop(){} // RVA: 0x359290
-        public void StartPickedUp(){} // RVA: 0x358D60
-        public void get_initiated(){} // RVA: 0x359320
-        public void set_initiated(){} // RVA: 0x359330
-        public void OnPickUp(){} // RVA: 0x2DD310
-        public void OnDrop(){} // RVA: 0x2DD310
-        public void OnStart(){} // RVA: 0x2DD310
-        public void Start(){} // RVA: 0x359340
-        public void ReleaseJoint(){} // RVA: 0x3599A0
-        public void SetMaterial(){} // RVA: 0x359D40
-        public void OnDrawGizmos(){} // RVA: 0x359EB0
-        public void .ctor(){} // RVA: 0x35A4F0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class PropMuscle
+    public class PhysXTools : Object
     {
-        public RootMotion.Dynamics.PuppetMaster puppetMaster; // 0x20
-        public RootMotion.Dynamics.PuppetMasterProp currentProp; // 0x28
-
         // ── Methods ──
-        public void get_muscle(){} // RVA: 0x35A650
-        public void get_activeProp(){} // RVA: 0x35A740
-        public void set_activeProp(){} // RVA: 0x305200
-        public void AddAdditionalPin(){} // RVA: 0x35A750
-        public void RemoveAdditionalPin(){} // RVA: 0x35B310
-        public void OnInitiate(){} // RVA: 0x35B6A0
-        public void TakeOver(){} // RVA: 0x35B860
-        public void OnUpdate(){} // RVA: 0x35B9B0
-        public void OnDrawGizmosSelected(){} // RVA: 0x35C8A0
-        public void .ctor(){} // RVA: 0x35D100
+        public void Predict(){} // RVA: 0x7A814FD90
+        public void GetCenterOfMass(){} // RVA: 0x7A81505B0
+        public void GetCenterOfMassVelocity(){} // RVA: 0x7A8150840
+        public void DivByInertia(){} // RVA: 0x7A8150AD0
+        public void ScaleByInertia(){} // RVA: 0x7A8150E70
+        public void GetFromToAcceleration(){} // RVA: 0x7A8151210
+        public void GetAngularAcceleration(){} // RVA: 0x7A8151420
+        public void AddFromToTorque(){} // RVA: 0x7A8152190
+        public void AddFromToForce(){} // RVA: 0x7A8152640
+        public void GetLinearAcceleration(){} // RVA: 0x7A81529A0
+        public void ToJointSpace(){} // RVA: 0x7A8152A60
+        public void CalculateInertiaTensorCuboid(){} // RVA: 0x7A8152CC0
+        public void Div(){} // RVA: 0x7A8152D10
     }
 
-    public class PropRoot
+    public class PressureSensor : MonoBehaviour
     {
         // ── Methods ──
-        public void OpenUserManual(){} // RVA: 0x2DD310
-        public void OpenScriptReference(){} // RVA: 0x2DD310
-        public void DropImmediate(){} // RVA: 0x35D310
-        public void Awake(){} // RVA: 0x35D4E0
-        public void Update(){} // RVA: 0x35D6A0
-        public void FixedUpdate(){} // RVA: 0x35D950
-        public void AttachProp(){} // RVA: 0x35DE50
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_center(){} // RVA: 0x7A8152D50
+        public void set_center(){} // RVA: 0x7A8152D70
+        public void get_inContact(){} // RVA: 0x7A810DDD0
+        public void set_inContact(){} // RVA: 0x7A8111C50
+        public void get_bottom(){} // RVA: 0x7A813E4E0
+        public void set_bottom(){} // RVA: 0x7A813E500
+        public void get_r(){} // RVA: 0x7A8152D80
+        public void set_r(){} // RVA: 0x7A8152D90
+        public void Awake(){} // RVA: 0x7A8152DF0
+        public void OnCollisionEnter(){} // RVA: 0x7A8152F40
+        public void OnCollisionStay(){} // RVA: 0x7A8152F40
+        public void OnCollisionExit(){} // RVA: 0x7A8152F50
+        public void FixedUpdate(){} // RVA: 0x7A8152F60
+        public void LateUpdate(){} // RVA: 0x7A8153020
+        public void ProcessCollision(){} // RVA: 0x7A8153070
+        public void OnDrawGizmos(){} // RVA: 0x7A8153250
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class PropTemplate
+    public class Prop : MonoBehaviour
     {
         // ── Methods ──
-        public void OnStart(){} // RVA: 0x2DD310
-        public void OnPickUp(){} // RVA: 0x2DD310
-        public void OnDrop(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x35A4F0
+        public void get_isPickedUp(){} // RVA: 0x7A81532C0
+        public void get_propRoot(){} // RVA: 0x7A8153390
+        public void set_propRoot(){} // RVA: 0x7A81533A0
+        public void PickUp(){} // RVA: 0x7A8153400
+        public void Drop(){} // RVA: 0x7A81538F0
+        public void StartPickedUp(){} // RVA: 0x7A81533A0
+        public void get_initiated(){} // RVA: 0x7A8153980
+        public void set_initiated(){} // RVA: 0x7A8153990
+        public void OnPickUp(){} // RVA: 0x7A80D7310
+        public void OnDrop(){} // RVA: 0x7A80D7310
+        public void OnStart(){} // RVA: 0x7A80D7310
+        public void Start(){} // RVA: 0x7A81539A0
+        public void ReleaseJoint(){} // RVA: 0x7A8154000
+        public void SetMaterial(){} // RVA: 0x7A8154370
+        public void OnDrawGizmos(){} // RVA: 0x7A81544F0
+        public void .ctor(){} // RVA: 0x7A8154B30
     }
 
-    public class PuppetMaster
+    public class PropMuscle : MonoBehaviour
     {
-        public RootMotion.Dynamics.PuppetMasterHumanoidConfig humanoidConfig; // 0x20
-        public UnityEngine.Transform targetRoot; // 0x28
-        public 0x658DA440 state; // 0x30
-        public StateSettings stateSettings; // 0x34
-        public 0x658DA2E0 mode; // 0x48
-        public float blendTime; // 0x4C
-        public bool fixTargetTransforms; // 0x50
-        public int solverIterationCount; // 0x54
-        public bool visualizeTargetPose; // 0x58
-        public float mappingWeight; // 0x5C
-        public float pinWeight; // 0x60
-        public float muscleWeight; // 0x64
-        public float muscleSpring; // 0x68
-        public float muscleDamper; // 0x6C
-        public float pinPow; // 0x70
-
         // ── Methods ──
-        public void OpenUserManualSetup(){} // RVA: 0x2DD310
-        public void OpenUserManualComponent(){} // RVA: 0x2DD310
-        public void OpenUserManualPerformance(){} // RVA: 0x2DD310
-        public void OpenScriptReference(){} // RVA: 0x2DD310
-        public void OpenSetupTutorial(){} // RVA: 0x2DD310
-        public void OpenComponentTutorial(){} // RVA: 0x2DD310
-        public void ResetStateSettings(){} // RVA: 0x35E4C0
-        public void get_targetAnimator(){} // RVA: 0x35E4F0
-        public void set_targetAnimator(){} // RVA: 0x35E8A0
-        public void get_targetAnimation(){} // RVA: 0x35E900
-        public void set_targetAnimation(){} // RVA: 0x35E910
-        public void get_behaviours(){} // RVA: 0x35E970
-        public void set_behaviours(){} // RVA: 0x35E980
-        public void get_isActive(){} // RVA: 0x35E9E0
-        public void get_initiated(){} // RVA: 0x35EAD0
-        public void set_initiated(){} // RVA: 0x35EAE0
-        public void get_updateMode(){} // RVA: 0x35EAF0
-        public void get_controlsAnimator(){} // RVA: 0x35EB30
-        public void get_isBlending(){} // RVA: 0x35EBE0
-        public void Teleport(){} // RVA: 0x35EC00
-        public void SetInternalCollisionsManual(){} // RVA: 0x35EC40
-        public void SetAngularLimitsManual(){} // RVA: 0x35ED60
-        public void get_autoSimulate(){} // RVA: 0x35EE00
-        public void OnDisable(){} // RVA: 0x35EE90
-        public void OnEnable(){} // RVA: 0x35F020
-        public void Awake(){} // RVA: 0x35F9E0
-        public void Start(){} // RVA: 0x35FA20
-        public void FindTargetRootRecursive(){} // RVA: 0x35FB00
-        public void Initiate(){} // RVA: 0x35FFB0
-        public void ActivateBehaviour(){} // RVA: 0x360F70
-        public void OnDestroy(){} // RVA: 0x361190
-        public void IsInterpolated(){} // RVA: 0x3612C0
-        public void OnRebuild(){} // RVA: 0x3613A0
-        public void OnPreSimulate(){} // RVA: 0x3616E0
-        public void OnPostSimulate(){} // RVA: 0x361EB0
-        public void FixedUpdate(){} // RVA: 0x362330
-        public void Update(){} // RVA: 0x362C60
-        public void LateUpdate(){} // RVA: 0x362DF0
-        public void OnLateUpdate(){} // RVA: 0x3630C0
-        public void MoveToTarget(){} // RVA: 0x363460
-        public void Read(){} // RVA: 0x363650
-        public void FixTargetTransforms(){} // RVA: 0x364EE0
-        public void get_targetUpdateMode(){} // RVA: 0x365120
-        public void VisualizeTargetPose(){} // RVA: 0x365360
-        public void VisualizeHierarchy(){} // RVA: 0x3653D0
-        public void FlagInternalCollisionsForUpdate(){} // RVA: 0x365710
-        public void UpdateInternalCollisions(){} // RVA: 0x3658A0 | overloaded x2
-        public void IgnoreInternalCollisions(){} // RVA: 0x365A00 | overloaded x2
-        public void ResetInternalCollisions(){} // RVA: 0x365B40 | overloaded x2
-        public void FlagAngularLimitsForUpdate(){} // RVA: 0x365BD0
-        public void UpdateAngularLimits(){} // RVA: 0x365BF0
-        public void AddPropMuscle(){} // RVA: 0x365CA0
-        public void IsDisconnecting(){} // RVA: 0x366810
-        public void IsReconnecting(){} // RVA: 0x366850
-        public void DisconnectMuscleRecursive(){} // RVA: 0x366890
-        public void ReconnectMuscleRecursive(){} // RVA: 0x366A10
-        public void AddMuscle(){} // RVA: 0x366D40
-        public void Rebuild(){} // RVA: 0x3681B0
-        public void RemoveMuscleRecursive(){} // RVA: 0x3681C0
-        public void ReplaceMuscle(){} // RVA: 0x369B70
-        public void SetMuscles(){} // RVA: 0x369C30
-        public void DisableMuscleRecursive(){} // RVA: 0x369CF0
-        public void EnableMuscleRecursive(){} // RVA: 0x369DB0
-        public void FlattenHierarchy(){} // RVA: 0x369E70
-        public void TreeHierarchy(){} // RVA: 0x369FE0
-        public void FixMusclePositions(){} // RVA: 0x36A220
-        public void FixMusclePositionsAndRotations(){} // RVA: 0x36A4D0
-        public void HierarchyIsFlat(){} // RVA: 0x36A870
-        public void GetHighestDisconnectedParentIndex(){} // RVA: 0x36AAE0
-        public void ProcessDisconnects(){} // RVA: 0x36AB70
-        public void ProcessReconnects(){} // RVA: 0x36ACB0
-        public void OnDisconnectMuscleRecursive(){} // RVA: 0x36AD80
-        public void DisconnectMuscle(){} // RVA: 0x36B2A0
-        public void OnReconnectMuscleRecursive(){} // RVA: 0x36C350
-        public void ReconnectMuscle(){} // RVA: 0x36C510
-        public void AddIndexesRecursive(){} // RVA: 0x36CF40
-        public void DisconnectJoint(){} // RVA: 0x36D0E0
-        public void KillJoint(){} // RVA: 0x36D3C0
-        public void SwitchToActiveMode(){} // RVA: 0x36D4E0
-        public void SwitchToKinematicMode(){} // RVA: 0x36D4F0
-        public void SwitchToDisabledMode(){} // RVA: 0x36D500
-        public void get_isSwitchingMode(){} // RVA: 0x36D510
-        public void set_isSwitchingMode(){} // RVA: 0x36D520
-        public void DisableImmediately(){} // RVA: 0x36D530
-        public void SwitchModes(){} // RVA: 0x36D660
-        public void DisabledToKinematic(){} // RVA: 0x36DBD0
-        public void DisabledToActive(){} // RVA: 0x36DD40
-        public void KinematicToDisabled(){} // RVA: 0x36DDE0
-        public void KinematicToActive(){} // RVA: 0x36DE80
-        public void ActiveToDisabled(){} // RVA: 0x36DF20
-        public void ActiveToKinematic(){} // RVA: 0x36DFC0
-        public void SetMuscleWeights(){} // RVA: 0x36E650 | overloaded x4
-        public void SetMuscleWeightsRecursive(){} // RVA: 0x36E5C0 | overloaded x3
-        public void GetMuscle(){} // RVA: 0x36E930 | overloaded x3
-        public void ContainsJoint(){} // RVA: 0x36E980
-        public void GetMuscleIndex(){} // RVA: 0x36F530 | overloaded x4
-        public void SetUp(){} // RVA: 0x36FA70 | overloaded x2
-        public void SetUpTo(){} // RVA: 0x36FD10
-        public void RemoveRagdollComponents(){} // RVA: 0x371580
-        public void SetUpMuscles(){} // RVA: 0x371DD0
-        public void FindGroup(){} // RVA: 0x372A60
-        public void RemoveUnnecessaryBones(){} // RVA: 0x3737F0
-        public void IsClothCollider(){} // RVA: 0x373E00
-        public void get_isSwitchingState(){} // RVA: 0x3744A0
-        public void get_isKilling(){} // RVA: 0x3744B0
-        public void set_isKilling(){} // RVA: 0x3744C0
-        public void get_isAlive(){} // RVA: 0x3744D0
-        public void get_isFrozen(){} // RVA: 0x3744E0
-        public void Kill(){} // RVA: 0x374500 | overloaded x2
-        public void Freeze(){} // RVA: 0x374530 | overloaded x2
-        public void Resurrect(){} // RVA: 0x374550
-        public void SwitchStates(){} // RVA: 0x374560
-        public void AliveToDead(){} // RVA: 0x374860
-        public void OnFreezeFlag(){} // RVA: 0x374910
-        public void DeadToAlive(){} // RVA: 0x374FD0
-        public void SetAnimationEnabled(){} // RVA: 0x375100
-        public void DeadToFrozen(){} // RVA: 0x375330
-        public void FrozenToAlive(){} // RVA: 0x375340
-        public void FrozenToDead(){} // RVA: 0x3756F0
-        public void ActivateRagdoll(){} // RVA: 0x3757E0
-        public void CanFreeze(){} // RVA: 0x375B30
-        public void SampleTargetMappedState(){} // RVA: 0x375C40
-        public void FixTargetToSampledState(){} // RVA: 0x375D40
-        public void StoreTargetMappedState(){} // RVA: 0x376270
-        public void UpdateHierarchies(){} // RVA: 0x376350
-        public void HasProp(){} // RVA: 0x376970
-        public void UpdateBroadcasterMuscleIndexes(){} // RVA: 0x3769D0
-        public void AssignParentAndChildIndexes(){} // RVA: 0x376C40
-        public void AddToParentsRecursive(){} // RVA: 0x3771B0
-        public void AddToChildrenRecursive(){} // RVA: 0x377420
-        public void AssignKinshipDegrees(){} // RVA: 0x377760
-        public void AssignKinshipsDownRecursive(){} // RVA: 0x377900
-        public void AssignKinshipsUpRecursive(){} // RVA: 0x377B20
-        public void GetMuscleIndexLowLevel(){} // RVA: 0x377F00
-        public void IsValid(){} // RVA: 0x3780A0
-        public void CheckMassVariation(){} // RVA: 0x378EE0
-        public void CheckIfInitiated(){} // RVA: 0x3792B0
-        public void .ctor(){} // RVA: 0x379330
+        public void get_muscle(){} // RVA: 0x7A8154C90
+        public void get_activeProp(){} // RVA: 0x7A8154D80
+        public void set_activeProp(){} // RVA: 0x7A80FF440
+        public void AddAdditionalPin(){} // RVA: 0x7A8154D90
+        public void RemoveAdditionalPin(){} // RVA: 0x7A8155950
+        public void OnInitiate(){} // RVA: 0x7A8155CE0
+        public void TakeOver(){} // RVA: 0x7A8155EA0
+        public void OnUpdate(){} // RVA: 0x7A8155FF0
+        public void OnDrawGizmosSelected(){} // RVA: 0x7A8156F00
+        public void .ctor(){} // RVA: 0x7A8157760
     }
 
-    public class PuppetMasterHumanoidConfig
+    public class PropMuscle[] : Array
     {
         // ── Methods ──
-        public void ApplyTo(){} // RVA: 0x37AA00
-        public void GetMuscle(){} // RVA: 0x37AF30
-        public void .ctor(){} // RVA: 0x37B140
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class PuppetMasterProp
+    public class PropRoot : MonoBehaviour
     {
-        public UnityEngine.Transform meshRoot; // 0x20
-        public Props muscleProps; // 0x28
-
         // ── Methods ──
-        public void get_isPickedUp(){} // RVA: 0x37B240
-        public void set_isPickedUp(){} // RVA: 0x37B250
-        public void GetRigidbody(){} // RVA: 0x37B260
-        public void OnPickUp(){} // RVA: 0x2DD310
-        public void OnDrop(){} // RVA: 0x2DD310
-        public void get_propMuscle(){} // RVA: 0x37B370
-        public void set_propMuscle(){} // RVA: 0x37B380
-        public void PickUp(){} // RVA: 0x37B3E0
-        public void Drop(){} // RVA: 0x37BD20
-        public void Awake(){} // RVA: 0x37C810
-        public void Start(){} // RVA: 0x37CC00
-        public void Update(){} // RVA: 0x37D0D0
-        public void RemoveRigidbody(){} // RVA: 0x37D2B0
-        public void ReattachRigidbody(){} // RVA: 0x37D690
-        public void OnDrawGizmosSelected(){} // RVA: 0x37DA60
-        public void .ctor(){} // RVA: 0x37DEC0
+        public void OpenUserManual(){} // RVA: 0x7A80D7310
+        public void OpenScriptReference(){} // RVA: 0x7A80D7310
+        public void DropImmediate(){} // RVA: 0x7A8157960
+        public void Awake(){} // RVA: 0x7A8157B30
+        public void Update(){} // RVA: 0x7A8157CF0
+        public void FixedUpdate(){} // RVA: 0x7A8157FA0
+        public void AttachProp(){} // RVA: 0x7A81584A0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class PuppetMasterSettings
+    public class PropTemplate : Prop
     {
-        public PuppetUpdateLimit kinematicCollidersUpdateLimit; // 0x20
-        public PuppetUpdateLimit freeUpdateLimit; // 0x28
-        public PuppetUpdateLimit fixedUpdateLimit; // 0x30
-        public bool collisionStayMessages; // 0x38
-
         // ── Methods ──
-        public void get_currentlyActivePuppets(){} // RVA: 0x37E080
-        public void set_currentlyActivePuppets(){} // RVA: 0x37E090
-        public void get_currentlyKinematicPuppets(){} // RVA: 0x37E0A0
-        public void set_currentlyKinematicPuppets(){} // RVA: 0x37E0B0
-        public void get_currentlyDisabledPuppets(){} // RVA: 0x37E0C0
-        public void set_currentlyDisabledPuppets(){} // RVA: 0x37E0D0
-        public void get_puppets(){} // RVA: 0x37E0E0
-        public void Register(){} // RVA: 0x37E0F0
-        public void Unregister(){} // RVA: 0x37E200
-        public void UpdateMoveToTarget(){} // RVA: 0x37E260
-        public void UpdateFree(){} // RVA: 0x37E290
-        public void UpdateFixed(){} // RVA: 0x37E2C0
-        public void Update(){} // RVA: 0x37E2F0
-        public void FixedUpdate(){} // RVA: 0x37E530
-        public void .ctor(){} // RVA: 0x37E590
+        public void OnStart(){} // RVA: 0x7A80D7310
+        public void OnPickUp(){} // RVA: 0x7A80D7310
+        public void OnDrop(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7A8154B30
     }
 
-    public class PuppetMasterTools
+    public class PuppetMaster : MonoBehaviour
     {
         // ── Methods ──
-        public void PositionRagdoll(){} // RVA: 0x37E9C0
-        public void RealignRagdoll(){} // RVA: 0x37F8B0
-        public void DirectionIntToVector3(){} // RVA: 0x324B70
-        public void DirectionVector3ToInt(){} // RVA: 0x380FA0
+        public void OpenUserManualSetup(){} // RVA: 0x7A80D7310
+        public void OpenUserManualComponent(){} // RVA: 0x7A80D7310
+        public void OpenUserManualPerformance(){} // RVA: 0x7A80D7310
+        public void OpenScriptReference(){} // RVA: 0x7A80D7310
+        public void OpenSetupTutorial(){} // RVA: 0x7A80D7310
+        public void OpenComponentTutorial(){} // RVA: 0x7A80D7310
+        public void ResetStateSettings(){} // RVA: 0x7A8158B10
+        public void get_targetAnimator(){} // RVA: 0x7A8158B40
+        public void set_targetAnimator(){} // RVA: 0x7A8158EF0
+        public void get_targetAnimation(){} // RVA: 0x7A8158F50
+        public void set_targetAnimation(){} // RVA: 0x7A8158F60
+        public void get_behaviours(){} // RVA: 0x7A8158FC0
+        public void set_behaviours(){} // RVA: 0x7A8158FD0
+        public void get_isActive(){} // RVA: 0x7A8159030
+        public void get_initiated(){} // RVA: 0x7A8159120
+        public void set_initiated(){} // RVA: 0x7A8159130
+        public void get_updateMode(){} // RVA: 0x7A8159140
+        public void get_controlsAnimator(){} // RVA: 0x7A8159180
+        public void get_isBlending(){} // RVA: 0x7A8159230
+        public void Teleport(){} // RVA: 0x7A8159250
+        public void SetInternalCollisionsManual(){} // RVA: 0x7A8159290
+        public void SetAngularLimitsManual(){} // RVA: 0x7A81593E0
+        public void get_autoSimulate(){} // RVA: 0x7A8159480
+        public void OnDisable(){} // RVA: 0x7A8159510
+        public void OnEnable(){} // RVA: 0x7A81596B0
+        public void Awake(){} // RVA: 0x7A815A070
+        public void Start(){} // RVA: 0x7A815A0B0
+        public void FindTargetRootRecursive(){} // RVA: 0x7A815A190
+        public void Initiate(){} // RVA: 0x7A815A620
+        public void ActivateBehaviour(){} // RVA: 0x7A815B5C0
+        public void OnDestroy(){} // RVA: 0x7A815B7E0
+        public void IsInterpolated(){} // RVA: 0x7A815B910
+        public void OnRebuild(){} // RVA: 0x7A815B9E0
+        public void OnPreSimulate(){} // RVA: 0x7A815BD40
+        public void OnPostSimulate(){} // RVA: 0x7A815C510
+        public void FixedUpdate(){} // RVA: 0x7A815C9B0
+        public void Update(){} // RVA: 0x7A815D2D0
+        public void LateUpdate(){} // RVA: 0x7A815D470
+        public void OnLateUpdate(){} // RVA: 0x7A815D750
+        public void MoveToTarget(){} // RVA: 0x7A815DAE0
+        public void Read(){} // RVA: 0x7A815DCD0
+        public void FixTargetTransforms(){} // RVA: 0x7A815F550
+        public void get_targetUpdateMode(){} // RVA: 0x7A815F7A0
+        public void VisualizeTargetPose(){} // RVA: 0x7A815F9E0
+        public void VisualizeHierarchy(){} // RVA: 0x7A815FA50
+        public void FlagInternalCollisionsForUpdate(){} // RVA: 0x7A815FD90
+        public void UpdateInternalCollisions(){} // RVA: 0x7A815FF60
+        public void IgnoreInternalCollisions(){} // RVA: 0x7A8160100
+        public void ResetInternalCollisions(){} // RVA: 0x7A8160280
+        public void FlagAngularLimitsForUpdate(){} // RVA: 0x7A8160320
+        public void UpdateAngularLimits(){} // RVA: 0x7A8160340
+        public void AddPropMuscle(){} // RVA: 0x7A8160400
+        public void IsDisconnecting(){} // RVA: 0x7A8160F90
+        public void IsReconnecting(){} // RVA: 0x7A8160FD0
+        public void DisconnectMuscleRecursive(){} // RVA: 0x7A8161010
+        public void ReconnectMuscleRecursive(){} // RVA: 0x7A8161190
+        public void AddMuscle(){} // RVA: 0x7A81614D0
+        public void Rebuild(){} // RVA: 0x7A8162950
+        public void RemoveMuscleRecursive(){} // RVA: 0x7A8162960
+        public void ReplaceMuscle(){} // RVA: 0x7A8164380
+        public void SetMuscles(){} // RVA: 0x7A8164440
+        public void DisableMuscleRecursive(){} // RVA: 0x7A8164500
+        public void EnableMuscleRecursive(){} // RVA: 0x7A81645C0
+        public void FlattenHierarchy(){} // RVA: 0x7A8164680
+        public void TreeHierarchy(){} // RVA: 0x7A81647F0
+        public void FixMusclePositions(){} // RVA: 0x7A8164A40
+        public void FixMusclePositionsAndRotations(){} // RVA: 0x7A8164D00
+        public void HierarchyIsFlat(){} // RVA: 0x7A81650B0
+        public void GetHighestDisconnectedParentIndex(){} // RVA: 0x7A8165320
+        public void ProcessDisconnects(){} // RVA: 0x7A81653F0
+        public void ProcessReconnects(){} // RVA: 0x7A8165540
+        public void OnDisconnectMuscleRecursive(){} // RVA: 0x7A8165620
+        public void DisconnectMuscle(){} // RVA: 0x7A8165B60
+        public void OnReconnectMuscleRecursive(){} // RVA: 0x7A8166C00
+        public void ReconnectMuscle(){} // RVA: 0x7A8166DF0
+        public void AddIndexesRecursive(){} // RVA: 0x7A8167830
+        public void DisconnectJoint(){} // RVA: 0x7A81679E0
+        public void KillJoint(){} // RVA: 0x7A8167CC0
+        public void SwitchToActiveMode(){} // RVA: 0x7A8167DB0
+        public void SwitchToKinematicMode(){} // RVA: 0x7A8167DC0
+        public void SwitchToDisabledMode(){} // RVA: 0x7A8167DD0
+        public void get_isSwitchingMode(){} // RVA: 0x7A8167DE0
+        public void set_isSwitchingMode(){} // RVA: 0x7A8167DF0
+        public void DisableImmediately(){} // RVA: 0x7A8167E00
+        public void SwitchModes(){} // RVA: 0x7A8167F40
+        public void DisabledToKinematic(){} // RVA: 0x7A8168390
+        public void DisabledToActive(){} // RVA: 0x7A8168510
+        public void KinematicToDisabled(){} // RVA: 0x7A81685B0
+        public void KinematicToActive(){} // RVA: 0x7A8168660
+        public void ActiveToDisabled(){} // RVA: 0x7A8168700
+        public void ActiveToKinematic(){} // RVA: 0x7A81687A0
+        public void SetMuscleWeights(){} // RVA: 0x7A8168E80
+        public void SetMuscleWeightsRecursive(){} // RVA: 0x7A8168DF0
+        public void GetMuscle(){} // RVA: 0x7A8169160
+        public void ContainsJoint(){} // RVA: 0x7A81691B0
+        public void GetMuscleIndex(){} // RVA: 0x7A8169D90
+        public void SetUp(){} // RVA: 0x7A816A2D0
+        public void SetUpTo(){} // RVA: 0x7A816A570
+        public void RemoveRagdollComponents(){} // RVA: 0x7A816BDE0
+        public void SetUpMuscles(){} // RVA: 0x7A816C620
+        public void FindGroup(){} // RVA: 0x7A816D2B0
+        public void RemoveUnnecessaryBones(){} // RVA: 0x7A816E040
+        public void IsClothCollider(){} // RVA: 0x7A816E650
+        public void get_isSwitchingState(){} // RVA: 0x7A816ED10
+        public void get_isKilling(){} // RVA: 0x7A816ED20
+        public void set_isKilling(){} // RVA: 0x7A816ED30
+        public void get_isAlive(){} // RVA: 0x7A816ED40
+        public void get_isFrozen(){} // RVA: 0x7A816ED50
+        public void Kill(){} // RVA: 0x7A816ED70
+        public void Freeze(){} // RVA: 0x7A816EDA0
+        public void Resurrect(){} // RVA: 0x7A816EDC0
+        public void SwitchStates(){} // RVA: 0x7A816EDD0
+        public void AliveToDead(){} // RVA: 0x7A816F0E0
+        public void OnFreezeFlag(){} // RVA: 0x7A816F190
+        public void DeadToAlive(){} // RVA: 0x7A816F850
+        public void SetAnimationEnabled(){} // RVA: 0x7A816F990
+        public void DeadToFrozen(){} // RVA: 0x7A816FBC0
+        public void FrozenToAlive(){} // RVA: 0x7A816FBD0
+        public void FrozenToDead(){} // RVA: 0x7A816FF90
+        public void ActivateRagdoll(){} // RVA: 0x7A8170090
+        public void CanFreeze(){} // RVA: 0x7A81703E0
+        public void SampleTargetMappedState(){} // RVA: 0x7A8170500
+        public void FixTargetToSampledState(){} // RVA: 0x7A8170600
+        public void StoreTargetMappedState(){} // RVA: 0x7A8170B40
+        public void UpdateHierarchies(){} // RVA: 0x7A8170C30
+        public void HasProp(){} // RVA: 0x7A8171270
+        public void UpdateBroadcasterMuscleIndexes(){} // RVA: 0x7A81712E0
+        public void AssignParentAndChildIndexes(){} // RVA: 0x7A8171550
+        public void AddToParentsRecursive(){} // RVA: 0x7A8171AC0
+        public void AddToChildrenRecursive(){} // RVA: 0x7A8171D30
+        public void AssignKinshipDegrees(){} // RVA: 0x7A8172090
+        public void AssignKinshipsDownRecursive(){} // RVA: 0x7A8172230
+        public void AssignKinshipsUpRecursive(){} // RVA: 0x7A8172470
+        public void GetMuscleIndexLowLevel(){} // RVA: 0x7A81728F0
+        public void IsValid(){} // RVA: 0x7A8172AA0
+        public void CheckMassVariation(){} // RVA: 0x7A8173900
+        public void CheckIfInitiated(){} // RVA: 0x7A8173CE0
+        public void .ctor(){} // RVA: 0x7A8173D60
     }
 
-    public class RagdollCreator
+    public class PuppetMasterHumanoidConfig : ScriptableObject
     {
         // ── Methods ──
-        public void ClearAll(){} // RVA: 0x38E240
-        public void ClearTransform(){} // RVA: 0x38E5F0
-        public void CreateCollider(){} // RVA: 0x38F280 | overloaded x2
-        public void GetScaleF(){} // RVA: 0x38F940
-        public void Abs(){} // RVA: 0x38F9D0
-        public void Vector3Abs(){} // RVA: 0x38FA20
-        public void DirectionIntToVector3(){} // RVA: 0x324B70
-        public void DirectionToVector3(){} // RVA: 0x324B70
-        public void DirectionVector3ToInt(){} // RVA: 0x380FA0
-        public void GetLocalOrthoDirection(){} // RVA: 0x38FA50
-        public void GetConnectedBody(){} // RVA: 0x38FF30
-        public void CreateJoint(){} // RVA: 0x3902F0
-        public void ToSoftJointLimit(){} // RVA: 0x3915D0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void ApplyTo(){} // RVA: 0x7A8175480
+        public void GetMuscle(){} // RVA: 0x7A81759C0
+        public void .ctor(){} // RVA: 0x7A8175BC0
     }
 
-    public class RagdollEditor
+    public class PuppetMasterProp : MonoBehaviour
     {
         // ── Methods ──
-        public void OpenUserManual(){} // RVA: 0x2DD310
-        public void OpenScriptReference(){} // RVA: 0x2DD310
-        public void OpenTutorial(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x391710
+        public void get_isPickedUp(){} // RVA: 0x7A8175CC0
+        public void set_isPickedUp(){} // RVA: 0x7A8175CD0
+        public void GetRigidbody(){} // RVA: 0x7A8175CE0
+        public void OnPickUp(){} // RVA: 0x7A80D7310
+        public void OnDrop(){} // RVA: 0x7A80D7310
+        public void get_propMuscle(){} // RVA: 0x7A8175DF0
+        public void set_propMuscle(){} // RVA: 0x7A8175E00
+        public void PickUp(){} // RVA: 0x7A8175E60
+        public void Drop(){} // RVA: 0x7A8176790
+        public void Awake(){} // RVA: 0x7A8177290
+        public void Start(){} // RVA: 0x7A8177690
+        public void Update(){} // RVA: 0x7A8177B80
+        public void RemoveRigidbody(){} // RVA: 0x7A8177D60
+        public void ReattachRigidbody(){} // RVA: 0x7A8178140
+        public void OnDrawGizmosSelected(){} // RVA: 0x7A8178510
+        public void .ctor(){} // RVA: 0x7A8178970
     }
 
-    public class SubBehaviourBalancer
+    public class PuppetMasterSettings : Singleton`1
     {
-        public UnityEngine.ConfigurableJoint baseOptions; // 0x18
-        public UnityEngine.Vector3 runningMode; // 0x20
-        public UnityEngine.Vector3 numPoses; // 0x2C
-        public UnityEngine.Vector3 minPoseDetectionConfidence; // 0x38
-        public UnityEngine.Vector3 minPosePresenceConfidence; // 0x44
-        public UnityEngine.Vector3 minTrackingConfidence; // 0x50
-
         // ── Methods ──
-        public void get_joint(){} // RVA: 0x2E07C0
-        public void set_joint(){} // RVA: 0x343E80
-        public void get_dir(){} // RVA: 0x343EE0
-        public void set_dir(){} // RVA: 0x343F00
-        public void get_dirVel(){} // RVA: 0x343F10
-        public void set_dirVel(){} // RVA: 0x343F30
-        public void get_cop(){} // RVA: 0x343F40
-        public void set_cop(){} // RVA: 0x343F60
-        public void get_com(){} // RVA: 0x343F70
-        public void set_com(){} // RVA: 0x343F90
-        public void get_comV(){} // RVA: 0x343FA0
-        public void set_comV(){} // RVA: 0x343FC0
-        public void Initiate(){} // RVA: 0x343FD0
-        public void Solve(){} // RVA: 0x3443A0
-        public void .ctor(){} // RVA: 0x345250
+        public void get_currentlyActivePuppets(){} // RVA: 0x7A8178B30
+        public void set_currentlyActivePuppets(){} // RVA: 0x7A8178B40
+        public void get_currentlyKinematicPuppets(){} // RVA: 0x7A8178B50
+        public void set_currentlyKinematicPuppets(){} // RVA: 0x7A8178B60
+        public void get_currentlyDisabledPuppets(){} // RVA: 0x7A8178B70
+        public void set_currentlyDisabledPuppets(){} // RVA: 0x7A8178B80
+        public void get_puppets(){} // RVA: 0x7A8178B90
+        public void Register(){} // RVA: 0x7A8178BA0
+        public void Unregister(){} // RVA: 0x7A8178CB0
+        public void UpdateMoveToTarget(){} // RVA: 0x7A8178D10
+        public void UpdateFree(){} // RVA: 0x7A8178D40
+        public void UpdateFixed(){} // RVA: 0x7A8178D70
+        public void Update(){} // RVA: 0x7A8178DA0
+        public void FixedUpdate(){} // RVA: 0x7A8178FD0
+        public void .ctor(){} // RVA: 0x7A8179040
     }
 
-    public class SubBehaviourBase
+    public class PuppetMasterTools : Object
     {
         // ── Methods ──
-        public void XZ(){} // RVA: 0x3453D0
-        public void XYZ(){} // RVA: 0x3453F0
-        public void Flatten(){} // RVA: 0x345420
-        public void SetY(){} // RVA: 0x345440
-        public void .ctor(){} // RVA: 0x2DD310
+        public void PositionRagdoll(){} // RVA: 0x7A8179470
+        public void RealignRagdoll(){} // RVA: 0x7A817A350
+        public void DirectionIntToVector3(){} // RVA: 0x7A811EF60
+        public void DirectionVector3ToInt(){} // RVA: 0x7A817BA80
     }
 
-    public class SubBehaviourCOM
+    public class PuppetMaster[] : Array
     {
-        public 0x658D9C00 mode; // 0x18
-        public float velocityDamper; // 0x1C
-        public float velocityLerpSpeed; // 0x20
-        public float velocityMax; // 0x24
-        public float centerOfPressureSpeed; // 0x28
-        public UnityEngine.Vector3 offset; // 0x2C
-        public UnityEngine.Vector3 <position>k__BackingField; // 0x38
-        public UnityEngine.Vector3 <direction>k__BackingField; // 0x44
-        public float <angle>k__BackingField; // 0x50
-
         // ── Methods ──
-        public void get_position(){} // RVA: 0x343F40
-        public void set_position(){} // RVA: 0x343F60
-        public void get_direction(){} // RVA: 0x343F70
-        public void set_direction(){} // RVA: 0x343F90
-        public void get_angle(){} // RVA: 0x345460
-        public void set_angle(){} // RVA: 0x345470
-        public void get_velocity(){} // RVA: 0x345480
-        public void set_velocity(){} // RVA: 0x3454A0
-        public void get_centerOfPressure(){} // RVA: 0x3454B0
-        public void set_centerOfPressure(){} // RVA: 0x3454D0
-        public void get_rotation(){} // RVA: 0x3454E0
-        public void set_rotation(){} // RVA: 0x3454F0
-        public void get_inverseRotation(){} // RVA: 0x345500
-        public void set_inverseRotation(){} // RVA: 0x345510
-        public void get_isGrounded(){} // RVA: 0x345520
-        public void set_isGrounded(){} // RVA: 0x345530
-        public void get_lastGroundedTime(){} // RVA: 0x345540
-        public void set_lastGroundedTime(){} // RVA: 0x345550
-        public void Initiate(){} // RVA: 0x345560
-        public void OnHierarchyChanged(){} // RVA: 0x345D20
-        public void OnPreMuscleCollision(){} // RVA: 0x345DD0
-        public void OnPreMuscleCollisionExit(){} // RVA: 0x346090
-        public void OnPreActivate(){} // RVA: 0x3461E0
-        public void OnPreLateUpdate(){} // RVA: 0x346320
-        public void OnPreDeactivate(){} // RVA: 0x346BE0
-        public void GetCollisionCOP(){} // RVA: 0x346C30
-        public void IsGrounded(){} // RVA: 0x346D90
-        public void GetCenterOfMass(){} // RVA: 0x346DF0
-        public void GetCenterOfMassVelocity(){} // RVA: 0x347080
-        public void GetMomentum(){} // RVA: 0x347420
-        public void GetCenterOfPressure(){} // RVA: 0x3476A0
-        public void GetFeetCentroid(){} // RVA: 0x347800
-        public void .ctor(){} // RVA: 0x347A50
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class Weight
+    public class RagdollCreator : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3811C0 | overloaded x2
-        public void GetValue(){} // RVA: 0x3812C0
+        public void ClearAll(){} // RVA: 0x7A8188D50
+        public void ClearTransform(){} // RVA: 0x7A8189110
+        public void CreateCollider(){} // RVA: 0x7A8189DB0
+        public void GetScaleF(){} // RVA: 0x7A818A470
+        public void Abs(){} // RVA: 0x7A818A500
+        public void Vector3Abs(){} // RVA: 0x7A818A550
+        public void DirectionIntToVector3(){} // RVA: 0x7A811EF60
+        public void DirectionToVector3(){} // RVA: 0x7A811EF60
+        public void DirectionVector3ToInt(){} // RVA: 0x7A817BA80
+        public void GetLocalOrthoDirection(){} // RVA: 0x7A818A580
+        public void GetConnectedBody(){} // RVA: 0x7A818AA60
+        public void CreateJoint(){} // RVA: 0x7A818AE30
+        public void ToSoftJointLimit(){} // RVA: 0x7A818C110
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class RagdollEditor : MonoBehaviour
+    {
+        // ── Methods ──
+        public void OpenUserManual(){} // RVA: 0x7A80D7310
+        public void OpenScriptReference(){} // RVA: 0x7A80D7310
+        public void OpenTutorial(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7A818C250
+    }
+
+    public class SubBehaviourBalancer : SubBehaviourBase
+    {
+        // ── Methods ──
+        public void get_joint(){} // RVA: 0x7A80DA7B0
+        public void set_joint(){} // RVA: 0x7A813E420
+        public void get_dir(){} // RVA: 0x7A813E480
+        public void set_dir(){} // RVA: 0x7A813E4A0
+        public void get_dirVel(){} // RVA: 0x7A813E4B0
+        public void set_dirVel(){} // RVA: 0x7A813E4D0
+        public void get_cop(){} // RVA: 0x7A813E4E0
+        public void set_cop(){} // RVA: 0x7A813E500
+        public void get_com(){} // RVA: 0x7A813E510
+        public void set_com(){} // RVA: 0x7A813E530
+        public void get_comV(){} // RVA: 0x7A813E540
+        public void set_comV(){} // RVA: 0x7A813E560
+        public void Initiate(){} // RVA: 0x7A813E570
+        public void Solve(){} // RVA: 0x7A813E930
+        public void .ctor(){} // RVA: 0x7A813F7F0
+        public void <joint>k__BackingField(){} // RVA: 0x7B2E4C360
+    }
+
+    public class SubBehaviourBase : Object
+    {
+        // ── Methods ──
+        public void XZ(){} // RVA: 0x7A813F970
+        public void XYZ(){} // RVA: 0x7A813F990
+        public void Flatten(){} // RVA: 0x7A813F9C0
+        public void SetY(){} // RVA: 0x7A813F9E0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void behaviour(){} // RVA: 0x7B3FA7CD8
+    }
+
+    public class SubBehaviourCOM : SubBehaviourBase
+    {
+        // ── Methods ──
+        public void get_position(){} // RVA: 0x7A813E4E0
+        public void set_position(){} // RVA: 0x7A813E500
+        public void get_direction(){} // RVA: 0x7A813E510
+        public void set_direction(){} // RVA: 0x7A813E530
+        public void get_angle(){} // RVA: 0x7A813FA00
+        public void set_angle(){} // RVA: 0x7A813FA10
+        public void get_velocity(){} // RVA: 0x7A813FA20
+        public void set_velocity(){} // RVA: 0x7A813FA40
+        public void get_centerOfPressure(){} // RVA: 0x7A813FA50
+        public void set_centerOfPressure(){} // RVA: 0x7A813FA70
+        public void get_rotation(){} // RVA: 0x7A813FA80
+        public void set_rotation(){} // RVA: 0x7A813FA90
+        public void get_inverseRotation(){} // RVA: 0x7A813FAA0
+        public void set_inverseRotation(){} // RVA: 0x7A813FAB0
+        public void get_isGrounded(){} // RVA: 0x7A813FAC0
+        public void set_isGrounded(){} // RVA: 0x7A813FAD0
+        public void get_lastGroundedTime(){} // RVA: 0x7A813FAE0
+        public void set_lastGroundedTime(){} // RVA: 0x7A813FAF0
+        public void Initiate(){} // RVA: 0x7A813FB00
+        public void OnHierarchyChanged(){} // RVA: 0x7A81402C0
+        public void OnPreMuscleCollision(){} // RVA: 0x7A8140370
+        public void OnPreMuscleCollisionExit(){} // RVA: 0x7A8140630
+        public void OnPreActivate(){} // RVA: 0x7A8140780
+        public void OnPreLateUpdate(){} // RVA: 0x7A81408C0
+        public void OnPreDeactivate(){} // RVA: 0x7A8141170
+        public void GetCollisionCOP(){} // RVA: 0x7A81411C0
+        public void IsGrounded(){} // RVA: 0x7A8141320
+        public void GetCenterOfMass(){} // RVA: 0x7A8141380
+        public void GetCenterOfMassVelocity(){} // RVA: 0x7A8141600
+        public void GetMomentum(){} // RVA: 0x7A81419B0
+        public void GetCenterOfPressure(){} // RVA: 0x7A8141C20
+        public void GetFeetCentroid(){} // RVA: 0x7A8141D80
+        public void .ctor(){} // RVA: 0x7A8141FE0
+        public void mode(){} // RVA: 0x7B3F505D8
+    }
+
+    public class Weight : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A817BCA0
+        public void GetValue(){} // RVA: 0x7A817BDA0
+        public void mode(){} // RVA: 0x7B3FB4428
     }
 
 }

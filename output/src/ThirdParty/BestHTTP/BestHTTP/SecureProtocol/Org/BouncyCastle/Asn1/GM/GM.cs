@@ -5,29 +5,27 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.GM
 {
-    public class GMNamedCurves
+    public class GMNamedCurves : Object
     {
-        public System.Collections.IDictionary objIds;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void ConfigureBasepoint(){} // RVA: 0x97A1840
-        public void ConfigureCurve(){} // RVA: 0x1A3F520
-        public void FromHex(){} // RVA: 0x97A1930
-        public void DefineCurve(){} // RVA: 0x97A19E0
-        public void .cctor(){} // RVA: 0x97A1B30
-        public void GetByName(){} // RVA: 0x97A1EB0
-        public void GetByOid(){} // RVA: 0x97A1F30
-        public void GetOid(){} // RVA: 0x97A2020
-        public void GetName(){} // RVA: 0x97A2140
-        public void get_Names(){} // RVA: 0x97A2200
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void ConfigureBasepoint(){} // RVA: 0x7B15DC200
+        public void ConfigureCurve(){} // RVA: 0x7A97F8BA0
+        public void FromHex(){} // RVA: 0x7B15DC2F0
+        public void DefineCurve(){} // RVA: 0x7B15DC3A0
+        public void .cctor(){} // RVA: 0x7B15DC4F0
+        public void GetByName(){} // RVA: 0x7B15DC870
+        public void GetByOid(){} // RVA: 0x7B15DC8F0
+        public void GetOid(){} // RVA: 0x7B15DC9E0
+        public void GetName(){} // RVA: 0x7B15DCB00
+        public void get_Names(){} // RVA: 0x7B15DCBC0
     }
 
-    public class GMObjectIdentifiers
+    public class GMObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x97A2850
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B15DD210
     }
 
 }

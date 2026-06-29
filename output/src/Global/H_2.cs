@@ -1,121 +1,64 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
-// Classes: 10
-// Methods: 59
+// Classes: 4
+// Methods: 40
 
-public class Hierarchy
+public class HashBucket : ValueType
 {
-    public string k_InvalidHierarchyChangeMsg;
-    public UnityEngine.UIElements.VisualElement m_Owner; // 0x10
-
     // ── Methods ──
-    public void get_parent(){} // RVA: 0x745A9A0
-    public void get_children(){} // RVA: 0x745A9C0
-    public void .ctor(){} // RVA: 0x100A2F0
-    public void Add(){} // RVA: 0x745A9E0
-    public void Insert(){} // RVA: 0x745AAA0
-    public void Remove(){} // RVA: 0x745AEC0
-    public void RemoveAt(){} // RVA: 0x745B020
-    public void Clear(){} // RVA: 0x745B350
-    public void BringToFront(){} // RVA: 0x745B8A0
-    public void SendToBack(){} // RVA: 0x745BA00
-    public void PlaceBehind(){} // RVA: 0x745BAD0
-    public void MoveChildElement(){} // RVA: 0x745BC20
-    public void get_childCount(){} // RVA: 0x745BD90
-    public void get_Item(){} // RVA: 0x745BDE0
-    public void IndexOf(){} // RVA: 0x745BE60
-    public void ElementAt(){} // RVA: 0x745BEF0
-    public void Children(){} // RVA: 0x745A9C0
-    public void SetParent(){} // RVA: 0x745BF00
-    public void PutChildAtIndex(){} // RVA: 0x745C0A0
-    public void RemoveChildAtIndex(){} // RVA: 0x745C200
-    public void ReleaseChildList(){} // RVA: 0x745C280
-    public void Equals(){} // RVA: 0x745C3D0 | overloaded x2
-    public void GetHashCode(){} // RVA: 0x732A800
-    public void op_Equality(){} // RVA: 0x715F300
+    public void .ctor(){} // RVA: 0x7A78CE970
+    public void get_IsEmpty(){} // RVA: 0x7A78CE750
+    public void get_FirstValue(){} // RVA: 0x7A78CE760
+    public void get_AdditionalElements(){} // RVA: 0x7A7664CF0
+    public void GetEnumerator(){} // RVA: 0x7A78CE7E0
+    public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A78CEAC0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A78CEAC0
+    public void Equals(){} // RVA: 0x7A78CE470
+    public void GetHashCode(){} // RVA: 0x7A77F3D30
+    public void Add(){} // RVA: 0x7A78CEB80
+    public void TryGetValue(){} // RVA: 0x7A78CEC00
+    public void Freeze(){} // RVA: 0x7A78CEC10
 }
 
-public class HitDelegate
+public class HashBucket : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x33BA90
-    public void Invoke(){} // RVA: 0x33BB60
-    public void BeginInvoke(){} // RVA: 0x33BB90
-    public void EndInvoke(){} // RVA: 0x2DECB0
+    public void .ctor(){} // RVA: 0x7A78CEC60
+    public void get_IsEmpty(){} // RVA: 0x7A78CE750
+    public void get_FirstValue(){} // RVA: 0x7A78CE760
+    public void get_AdditionalElements(){} // RVA: 0x7A7664CF0
+    public void GetEnumerator(){} // RVA: 0x7A78CEDC0
+    public void System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator(){} // RVA: 0x7A78CEE20
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A78CEE20
+    public void Equals(){} // RVA: 0x7A78CE470
+    public void GetHashCode(){} // RVA: 0x7A77F3D30
+    public void Add(){} // RVA: 0x7A78CEEE0
+    public void TryGetValue(){} // RVA: 0x7A78CEF60
+    public void Freeze(){} // RVA: 0x7A78CEC10
 }
 
-public class HitInfo
+public class HitInfo[] : Array
 {
     // ── Methods ──
-    public void SendMessage(){} // RVA: 0x71AACB0
-    public void op_Implicit(){} // RVA: 0x71AACE0
-    public void Compare(){} // RVA: 0x71AAE50
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class HitPoint
-{
-    public string name; // 0x10
-    public UnityEngine.Collider collider; // 0x18
-    public float crossFadeTime; // 0x20
-    public float <crossFader>k__BackingField; // 0x24
-    public float <timer>k__BackingField; // 0x28
-
-    // ── Methods ──
-    public void get_inProgress(){} // RVA: 0x44AF40
-    public void get_crossFader(){} // RVA: 0x44AF50
-    public void set_crossFader(){} // RVA: 0x44AF60
-    public void get_timer(){} // RVA: 0x3BC210
-    public void set_timer(){} // RVA: 0x3BC220
-    public void get_force(){} // RVA: 0x343F10
-    public void set_force(){} // RVA: 0x343F30
-    public void get_point(){} // RVA: 0x343F40
-    public void set_point(){} // RVA: 0x343F60
-    public void Hit(){} // RVA: 0x44AF70
-    public void Apply(){} // RVA: 0x44B0A0
-    public void GetLength(){} // RVA: 0x21890
-    public void CrossFadeStart(){} // RVA: 0x24A50
-    public void OnApply(){} // RVA: 0x318E0
-    public void .ctor(){} // RVA: 0x44B1F0
-}
-
-public class HitPointBone
+public class Host : Object
 {
     // ── Methods ──
-    public void GetLength(){} // RVA: 0x44BA20
-    public void CrossFadeStart(){} // RVA: 0x44BB70
-    public void OnApply(){} // RVA: 0x44BBC0
-    public void .ctor(){} // RVA: 0x44B1F0
-}
-
-public class HitPointEffector
-{
-    // ── Methods ──
-    public void GetLength(){} // RVA: 0x44B2C0
-    public void CrossFadeStart(){} // RVA: 0x44B570
-    public void OnApply(){} // RVA: 0x44B5D0
-    public void .ctor(){} // RVA: 0x44B1F0
-}
-
-public class Host
-{
-    // ── Methods ──
-    public void TryParse(){} // RVA: 0x6819D20
-}
-
-public class HttpApi
-{
-    // ── Methods ──
-    public void .cctor(){} // RVA: 0x6B44040
-}
-
-public class HudLayout
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-}
-
-public class HumanoidMuscle
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void TryParse(){} // RVA: 0x7AE608900
 }

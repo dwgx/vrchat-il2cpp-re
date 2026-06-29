@@ -1,490 +1,469 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Net.Configuration
 // Classes: 35
-// Methods: 303
+// Methods: 286
 
 namespace ThirdParty.DotNet.System.Net.Configuration
 {
-    public class AuthenticationModuleElement
+    public class AuthenticationModuleElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD0850 | overloaded x2
-        public void get_Properties(){} // RVA: 0x6BD0880
-        public void get_Type(){} // RVA: 0x6BD08B0
-        public void set_Type(){} // RVA: 0x6BD08E0
+        public void .ctor(){} // RVA: 0x7AE9BF750
+        public void get_Properties(){} // RVA: 0x7AE9BF780
+        public void get_Type(){} // RVA: 0x7AE9BF7B0
+        public void set_Type(){} // RVA: 0x7AE9BF7E0
     }
 
-    public class AuthenticationModuleElementCollection
+    public class AuthenticationModuleElementCollection : ConfigurationElementCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD0910
-        public void get_Item(){} // RVA: 0x6BD09A0 | overloaded x2
-        public void set_Item(){} // RVA: 0x6BD09D0 | overloaded x2
-        public void Add(){} // RVA: 0x6BD0A00
-        public void Clear(){} // RVA: 0x6BD0A30
-        public void CreateNewElement(){} // RVA: 0x6BD0A60
-        public void GetElementKey(){} // RVA: 0x6BD0A90
-        public void IndexOf(){} // RVA: 0x6BD0AC0
-        public void Remove(){} // RVA: 0x6BD0B20 | overloaded x2
-        public void RemoveAt(){} // RVA: 0x6BD0B50
+        public void .ctor(){} // RVA: 0x7AE9BF810
+        public void get_Item(){} // RVA: 0x7AE9BF8A0
+        public void set_Item(){} // RVA: 0x7AE9BF8D0
+        public void Add(){} // RVA: 0x7AE9BF900
+        public void Clear(){} // RVA: 0x7AE9BF930
+        public void CreateNewElement(){} // RVA: 0x7AE9BF960
+        public void GetElementKey(){} // RVA: 0x7AE9BF990
+        public void IndexOf(){} // RVA: 0x7AE9BF9C0
+        public void Remove(){} // RVA: 0x7AE9BFA20
+        public void RemoveAt(){} // RVA: 0x7AE9BFA50
     }
 
-    public class AuthenticationModulesSection
+    public class AuthenticationModulesSection : ConfigurationSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD0B80
-        public void get_AuthenticationModules(){} // RVA: 0x6BD0BB0
-        public void get_Properties(){} // RVA: 0x6BD0BE0
-        public void InitializeDefault(){} // RVA: 0x6BD0C10
-        public void PostDeserialize(){} // RVA: 0x6BD0C40
+        public void .ctor(){} // RVA: 0x7AE9BFA80
+        public void get_AuthenticationModules(){} // RVA: 0x7AE9BFAB0
+        public void get_Properties(){} // RVA: 0x7AE9BFAE0
+        public void InitializeDefault(){} // RVA: 0x7AE9BFB10
+        public void PostDeserialize(){} // RVA: 0x7AE9BFB40
     }
 
-    public class BypassElement
+    public class BypassElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD0CA0 | overloaded x2
-        public void get_Address(){} // RVA: 0x6BD0CD0
-        public void set_Address(){} // RVA: 0x6BD0D00
-        public void get_Properties(){} // RVA: 0x6BD0D30
+        public void .ctor(){} // RVA: 0x7AE9BFBA0
+        public void get_Address(){} // RVA: 0x7AE9BFBD0
+        public void set_Address(){} // RVA: 0x7AE9BFC00
+        public void get_Properties(){} // RVA: 0x7AE9BFC30
     }
 
-    public class BypassElementCollection
+    public class BypassElementCollection : ConfigurationElementCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD0D60
-        public void get_Item(){} // RVA: 0x6BD0DF0 | overloaded x2
-        public void set_Item(){} // RVA: 0x6BD0E20 | overloaded x2
-        public void get_ThrowOnDuplicate(){} // RVA: 0x6BD0E50
-        public void Add(){} // RVA: 0x6BD0E80
-        public void Clear(){} // RVA: 0x6BD0EB0
-        public void CreateNewElement(){} // RVA: 0x6BD0EE0
-        public void GetElementKey(){} // RVA: 0x6BD0F10
-        public void IndexOf(){} // RVA: 0x6BD0F40
-        public void Remove(){} // RVA: 0x6BD0FA0 | overloaded x2
-        public void RemoveAt(){} // RVA: 0x6BD0FD0
+        public void .ctor(){} // RVA: 0x7AE9BFC60
+        public void get_Item(){} // RVA: 0x7AE9BFCF0
+        public void set_Item(){} // RVA: 0x7AE9BFD20
+        public void get_ThrowOnDuplicate(){} // RVA: 0x7AE9BFD50
+        public void Add(){} // RVA: 0x7AE9BFD80
+        public void Clear(){} // RVA: 0x7AE9BFDB0
+        public void CreateNewElement(){} // RVA: 0x7AE9BFDE0
+        public void GetElementKey(){} // RVA: 0x7AE9BFE10
+        public void IndexOf(){} // RVA: 0x7AE9BFE40
+        public void Remove(){} // RVA: 0x7AE9BFEA0
+        public void RemoveAt(){} // RVA: 0x7AE9BFED0
     }
 
-    public class ConnectionManagementElement
+    public class ConnectionManagementElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1030 | overloaded x2
-        public void get_Address(){} // RVA: 0x6BD1060
-        public void set_Address(){} // RVA: 0x6BD1090
-        public void get_MaxConnection(){} // RVA: 0x6BD10C0
-        public void set_MaxConnection(){} // RVA: 0x6BD10F0
-        public void get_Properties(){} // RVA: 0x6BD1120
+        public void .ctor(){} // RVA: 0x7AE9BFF30
+        public void get_Address(){} // RVA: 0x7AE9BFF60
+        public void set_Address(){} // RVA: 0x7AE9BFF90
+        public void get_MaxConnection(){} // RVA: 0x7AE9BFFC0
+        public void set_MaxConnection(){} // RVA: 0x7AE9BFFF0
+        public void get_Properties(){} // RVA: 0x7AE9C0020
     }
 
-    public class ConnectionManagementElementCollection
+    public class ConnectionManagementElementCollection : ConfigurationElementCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1150
-        public void get_Item(){} // RVA: 0x6BD11E0 | overloaded x2
-        public void set_Item(){} // RVA: 0x6BD1210 | overloaded x2
-        public void Add(){} // RVA: 0x6BD1240
-        public void Clear(){} // RVA: 0x6BD1270
-        public void CreateNewElement(){} // RVA: 0x6BD12A0
-        public void GetElementKey(){} // RVA: 0x6BD12D0
-        public void IndexOf(){} // RVA: 0x6BD1300
-        public void Remove(){} // RVA: 0x6BD1360 | overloaded x2
-        public void RemoveAt(){} // RVA: 0x6BD1390
+        public void .ctor(){} // RVA: 0x7AE9C0050
+        public void get_Item(){} // RVA: 0x7AE9C00E0
+        public void set_Item(){} // RVA: 0x7AE9C0110
+        public void Add(){} // RVA: 0x7AE9C0140
+        public void Clear(){} // RVA: 0x7AE9C0170
+        public void CreateNewElement(){} // RVA: 0x7AE9C01A0
+        public void GetElementKey(){} // RVA: 0x7AE9C01D0
+        public void IndexOf(){} // RVA: 0x7AE9C0200
+        public void Remove(){} // RVA: 0x7AE9C0260
+        public void RemoveAt(){} // RVA: 0x7AE9C0290
     }
 
-    public class ConnectionManagementSection
+    public class ConnectionManagementSection : ConfigurationSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD13C0
-        public void get_ConnectionManagement(){} // RVA: 0x6BD13F0
-        public void get_Properties(){} // RVA: 0x6BD1420
+        public void .ctor(){} // RVA: 0x7AE9C02C0
+        public void get_ConnectionManagement(){} // RVA: 0x7AE9C02F0
+        public void get_Properties(){} // RVA: 0x7AE9C0320
     }
 
-    public class DefaultProxySection
+    public class DefaultProxySection : ConfigurationSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1450
-        public void get_BypassList(){} // RVA: 0x6BD1480
-        public void get_Enabled(){} // RVA: 0x6BD14B0
-        public void set_Enabled(){} // RVA: 0x6BD14E0
-        public void get_Module(){} // RVA: 0x6BD1510
-        public void get_Properties(){} // RVA: 0x6BD1540
-        public void get_Proxy(){} // RVA: 0x6BD1570
-        public void get_UseDefaultCredentials(){} // RVA: 0x6BD15A0
-        public void set_UseDefaultCredentials(){} // RVA: 0x6BD15D0
-        public void PostDeserialize(){} // RVA: 0x6BD1600
-        public void Reset(){} // RVA: 0x6BD1630
+        public void .ctor(){} // RVA: 0x7AE9C0350
+        public void get_BypassList(){} // RVA: 0x7AE9C0380
+        public void get_Enabled(){} // RVA: 0x7AE9C03B0
+        public void set_Enabled(){} // RVA: 0x7AE9C03E0
+        public void get_Module(){} // RVA: 0x7AE9C0410
+        public void get_Properties(){} // RVA: 0x7AE9C0440
+        public void get_Proxy(){} // RVA: 0x7AE9C0470
+        public void get_UseDefaultCredentials(){} // RVA: 0x7AE9C04A0
+        public void set_UseDefaultCredentials(){} // RVA: 0x7AE9C04D0
+        public void PostDeserialize(){} // RVA: 0x7AE9C0500
+        public void Reset(){} // RVA: 0x7AE9C0530
     }
 
-    public class DefaultProxySectionInternal
+    public class DefaultProxySectionInternal : Object
     {
-        public System.Net.IWebProxy webProxy; // 0x10
-        public object classSyncObject;
-
         // ── Methods ──
-        public void GetDefaultProxy_UsingOldMonoCode(){} // RVA: 0x6B43BB0
-        public void GetSystemWebProxy(){} // RVA: 0x6B43BB0
-        public void get_ClassSyncObject(){} // RVA: 0x6B96070
-        public void GetSection(){} // RVA: 0x6B96140
-        public void get_WebProxy(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0x2DD310
+        public void GetDefaultProxy_UsingOldMonoCode(){} // RVA: 0x7AE933DC0
+        public void GetSystemWebProxy(){} // RVA: 0x7AE933DC0
+        public void get_ClassSyncObject(){} // RVA: 0x7AE985190
+        public void GetSection(){} // RVA: 0x7AE985260
+        public void get_WebProxy(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FtpCachePolicyElement
+    public class FtpCachePolicyElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1960
-        public void get_PolicyLevel(){} // RVA: 0x6BD1990
-        public void set_PolicyLevel(){} // RVA: 0x6BD19C0
-        public void get_Properties(){} // RVA: 0x6BD19F0
-        public void DeserializeElement(){} // RVA: 0x6BD1A20
-        public void Reset(){} // RVA: 0x6BD1A50
+        public void .ctor(){} // RVA: 0x7AE9C0860
+        public void get_PolicyLevel(){} // RVA: 0x7AE9C0890
+        public void set_PolicyLevel(){} // RVA: 0x7AE9C08C0
+        public void get_Properties(){} // RVA: 0x7AE9C08F0
+        public void DeserializeElement(){} // RVA: 0x7AE9C0920
+        public void Reset(){} // RVA: 0x7AE9C0950
     }
 
-    public class HttpCachePolicyElement
+    public class HttpCachePolicyElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1A80
-        public void get_MaximumAge(){} // RVA: 0x6BD1AB0
-        public void set_MaximumAge(){} // RVA: 0x6BD1AE0
-        public void get_MaximumStale(){} // RVA: 0x6BD1B10
-        public void set_MaximumStale(){} // RVA: 0x6BD1B40
-        public void get_MinimumFresh(){} // RVA: 0x6BD1B70
-        public void set_MinimumFresh(){} // RVA: 0x6BD1BA0
-        public void get_PolicyLevel(){} // RVA: 0x6BD1BD0
-        public void set_PolicyLevel(){} // RVA: 0x6BD1C00
-        public void get_Properties(){} // RVA: 0x6BD1C30
-        public void DeserializeElement(){} // RVA: 0x6BD1C60
-        public void Reset(){} // RVA: 0x6BD1C90
+        public void .ctor(){} // RVA: 0x7AE9C0980
+        public void get_MaximumAge(){} // RVA: 0x7AE9C09B0
+        public void set_MaximumAge(){} // RVA: 0x7AE9C09E0
+        public void get_MaximumStale(){} // RVA: 0x7AE9C0A10
+        public void set_MaximumStale(){} // RVA: 0x7AE9C0A40
+        public void get_MinimumFresh(){} // RVA: 0x7AE9C0A70
+        public void set_MinimumFresh(){} // RVA: 0x7AE9C0AA0
+        public void get_PolicyLevel(){} // RVA: 0x7AE9C0AD0
+        public void set_PolicyLevel(){} // RVA: 0x7AE9C0B00
+        public void get_Properties(){} // RVA: 0x7AE9C0B30
+        public void DeserializeElement(){} // RVA: 0x7AE9C0B60
+        public void Reset(){} // RVA: 0x7AE9C0B90
     }
 
-    public class HttpListenerElement
+    public class HttpListenerElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1CC0
-        public void get_Properties(){} // RVA: 0x6BD1CF0
-        public void get_Timeouts(){} // RVA: 0x6BD1D20
-        public void get_UnescapeRequestUrl(){} // RVA: 0x6BD1D50
+        public void .ctor(){} // RVA: 0x7AE9C0BC0
+        public void get_Properties(){} // RVA: 0x7AE9C0BF0
+        public void get_Timeouts(){} // RVA: 0x7AE9C0C20
+        public void get_UnescapeRequestUrl(){} // RVA: 0x7AE9C0C50
     }
 
-    public class HttpListenerTimeoutsElement
+    public class HttpListenerTimeoutsElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1D80
-        public void get_DrainEntityBody(){} // RVA: 0x6BD1DB0
-        public void get_EntityBody(){} // RVA: 0x6BD1DE0
-        public void get_HeaderWait(){} // RVA: 0x6BD1E10
-        public void get_IdleConnection(){} // RVA: 0x6BD1E40
-        public void get_MinSendBytesPerSecond(){} // RVA: 0x6BD1E70
-        public void get_Properties(){} // RVA: 0x6BD1EA0
-        public void get_RequestQueue(){} // RVA: 0x6BD1ED0
+        public void .ctor(){} // RVA: 0x7AE9C0C80
+        public void get_DrainEntityBody(){} // RVA: 0x7AE9C0CB0
+        public void get_EntityBody(){} // RVA: 0x7AE9C0CE0
+        public void get_HeaderWait(){} // RVA: 0x7AE9C0D10
+        public void get_IdleConnection(){} // RVA: 0x7AE9C0D40
+        public void get_MinSendBytesPerSecond(){} // RVA: 0x7AE9C0D70
+        public void get_Properties(){} // RVA: 0x7AE9C0DA0
+        public void get_RequestQueue(){} // RVA: 0x7AE9C0DD0
     }
 
-    public class HttpWebRequestElement
+    public class HttpWebRequestElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1F00
-        public void get_MaximumErrorResponseLength(){} // RVA: 0x6BD1F30
-        public void set_MaximumErrorResponseLength(){} // RVA: 0x6BD1F60
-        public void get_MaximumResponseHeadersLength(){} // RVA: 0x6BD1F90
-        public void set_MaximumResponseHeadersLength(){} // RVA: 0x6BD1FC0
-        public void get_MaximumUnauthorizedUploadLength(){} // RVA: 0x6BD1FF0
-        public void set_MaximumUnauthorizedUploadLength(){} // RVA: 0x6BD2020
-        public void get_Properties(){} // RVA: 0x6BD2050
-        public void get_UseUnsafeHeaderParsing(){} // RVA: 0x6BD2080
-        public void set_UseUnsafeHeaderParsing(){} // RVA: 0x6BD20B0
-        public void PostDeserialize(){} // RVA: 0x6BD20E0
+        public void .ctor(){} // RVA: 0x7AE9C0E00
+        public void get_MaximumErrorResponseLength(){} // RVA: 0x7AE9C0E30
+        public void set_MaximumErrorResponseLength(){} // RVA: 0x7AE9C0E60
+        public void get_MaximumResponseHeadersLength(){} // RVA: 0x7AE9C0E90
+        public void set_MaximumResponseHeadersLength(){} // RVA: 0x7AE9C0EC0
+        public void get_MaximumUnauthorizedUploadLength(){} // RVA: 0x7AE9C0EF0
+        public void set_MaximumUnauthorizedUploadLength(){} // RVA: 0x7AE9C0F20
+        public void get_Properties(){} // RVA: 0x7AE9C0F50
+        public void get_UseUnsafeHeaderParsing(){} // RVA: 0x7AE9C0F80
+        public void set_UseUnsafeHeaderParsing(){} // RVA: 0x7AE9C0FB0
+        public void PostDeserialize(){} // RVA: 0x7AE9C0FE0
     }
 
-    public class Ipv6Element
+    public class Ipv6Element : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD2110
-        public void get_Enabled(){} // RVA: 0x6BD2140
-        public void set_Enabled(){} // RVA: 0x6BD2170
-        public void get_Properties(){} // RVA: 0x6BD21A0
+        public void .ctor(){} // RVA: 0x7AE9C1010
+        public void get_Enabled(){} // RVA: 0x7AE9C1040
+        public void set_Enabled(){} // RVA: 0x7AE9C1070
+        public void get_Properties(){} // RVA: 0x7AE9C10A0
     }
 
-    public class MailSettingsSectionGroup
+    public class MailSettingsSectionGroup : ConfigurationSectionGroup
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD21D0
-        public void get_Smtp(){} // RVA: 0x6BD2200
+        public void .ctor(){} // RVA: 0x7AE9C10D0
+        public void get_Smtp(){} // RVA: 0x7AE9C1100
     }
 
-    public class ModuleElement
+    public class ModuleElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1660
-        public void get_Properties(){} // RVA: 0x6BD1690
-        public void get_Type(){} // RVA: 0x6BD16C0
-        public void set_Type(){} // RVA: 0x6BD16F0
+        public void .ctor(){} // RVA: 0x7AE9C0560
+        public void get_Properties(){} // RVA: 0x7AE9C0590
+        public void get_Type(){} // RVA: 0x7AE9C05C0
+        public void set_Type(){} // RVA: 0x7AE9C05F0
     }
 
-    public class NetSectionGroup
+    public class NetSectionGroup : ConfigurationSectionGroup
     {
-        public object DefaultFtpCachePolicy;
-        public object DefaultHttpCachePolicy;
-        public object DefaultPolicyLevel;
-        public object DisableAllCaching;
-        public object IsPrivateCache;
-        public object Properties;
-        public object UnspecifiedMaximumAge;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD2860
-        public void get_AuthenticationModules(){} // RVA: 0x6BD2890
-        public void get_ConnectionManagement(){} // RVA: 0x6BD28C0
-        public void get_DefaultProxy(){} // RVA: 0x6BD28F0
-        public void get_MailSettings(){} // RVA: 0x6BD2920
-        public void get_RequestCaching(){} // RVA: 0x6BD2950
-        public void get_Settings(){} // RVA: 0x6BD2980
-        public void get_WebRequestModules(){} // RVA: 0x6BD29B0
-        public void GetSectionGroup(){} // RVA: 0x6BD29E0
+        public void .ctor(){} // RVA: 0x7AE9C1760
+        public void get_AuthenticationModules(){} // RVA: 0x7AE9C1790
+        public void get_ConnectionManagement(){} // RVA: 0x7AE9C17C0
+        public void get_DefaultProxy(){} // RVA: 0x7AE9C17F0
+        public void get_MailSettings(){} // RVA: 0x7AE9C1820
+        public void get_RequestCaching(){} // RVA: 0x7AE9C1850
+        public void get_Settings(){} // RVA: 0x7AE9C1880
+        public void get_WebRequestModules(){} // RVA: 0x7AE9C18B0
+        public void GetSectionGroup(){} // RVA: 0x7AE9C18E0
     }
 
-    public class PerformanceCountersElement
+    public class PerformanceCountersElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD2EC0
-        public void get_Enabled(){} // RVA: 0x6BD2EF0
-        public void set_Enabled(){} // RVA: 0x6BD2F20
-        public void get_Properties(){} // RVA: 0x6BD2F50
+        public void .ctor(){} // RVA: 0x7AE9C1DC0
+        public void get_Enabled(){} // RVA: 0x7AE9C1DF0
+        public void set_Enabled(){} // RVA: 0x7AE9C1E20
+        public void get_Properties(){} // RVA: 0x7AE9C1E50
     }
 
-    public class ProxyElement
+    public class ProxyElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD1720
-        public void get_AutoDetect(){} // RVA: 0x6BD1750
-        public void set_AutoDetect(){} // RVA: 0x6BD1780
-        public void get_BypassOnLocal(){} // RVA: 0x6BD17B0
-        public void set_BypassOnLocal(){} // RVA: 0x6BD17E0
-        public void get_Properties(){} // RVA: 0x6BD1810
-        public void get_ProxyAddress(){} // RVA: 0x6BD1840
-        public void set_ProxyAddress(){} // RVA: 0x6BD1870
-        public void get_ScriptLocation(){} // RVA: 0x6BD18A0
-        public void set_ScriptLocation(){} // RVA: 0x6BD18D0
-        public void get_UseSystemDefault(){} // RVA: 0x6BD1900
-        public void set_UseSystemDefault(){} // RVA: 0x6BD1930
+        public void .ctor(){} // RVA: 0x7AE9C0620
+        public void get_AutoDetect(){} // RVA: 0x7AE9C0650
+        public void set_AutoDetect(){} // RVA: 0x7AE9C0680
+        public void get_BypassOnLocal(){} // RVA: 0x7AE9C06B0
+        public void set_BypassOnLocal(){} // RVA: 0x7AE9C06E0
+        public void get_Properties(){} // RVA: 0x7AE9C0710
+        public void get_ProxyAddress(){} // RVA: 0x7AE9C0740
+        public void set_ProxyAddress(){} // RVA: 0x7AE9C0770
+        public void get_ScriptLocation(){} // RVA: 0x7AE9C07A0
+        public void set_ScriptLocation(){} // RVA: 0x7AE9C07D0
+        public void get_UseSystemDefault(){} // RVA: 0x7AE9C0800
+        public void set_UseSystemDefault(){} // RVA: 0x7AE9C0830
     }
 
-    public class RequestCachingSection
+    public class RequestCachingSection : ConfigurationSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD2A10
-        public void get_DefaultFtpCachePolicy(){} // RVA: 0x6BD2A40
-        public void get_DefaultHttpCachePolicy(){} // RVA: 0x6BD2A70
-        public void get_DefaultPolicyLevel(){} // RVA: 0x6BD2AA0
-        public void set_DefaultPolicyLevel(){} // RVA: 0x6BD2AD0
-        public void get_DisableAllCaching(){} // RVA: 0x6BD2B00
-        public void set_DisableAllCaching(){} // RVA: 0x6BD2B30
-        public void get_IsPrivateCache(){} // RVA: 0x6BD2B60
-        public void set_IsPrivateCache(){} // RVA: 0x6BD2B90
-        public void get_Properties(){} // RVA: 0x6BD2BC0
-        public void get_UnspecifiedMaximumAge(){} // RVA: 0x6BD2BF0
-        public void set_UnspecifiedMaximumAge(){} // RVA: 0x6BD2C20
-        public void DeserializeElement(){} // RVA: 0x6BD2C50
-        public void PostDeserialize(){} // RVA: 0x6BD2C80
+        public void .ctor(){} // RVA: 0x7AE9C1910
+        public void get_DefaultFtpCachePolicy(){} // RVA: 0x7AE9C1940
+        public void get_DefaultHttpCachePolicy(){} // RVA: 0x7AE9C1970
+        public void get_DefaultPolicyLevel(){} // RVA: 0x7AE9C19A0
+        public void set_DefaultPolicyLevel(){} // RVA: 0x7AE9C19D0
+        public void get_DisableAllCaching(){} // RVA: 0x7AE9C1A00
+        public void set_DisableAllCaching(){} // RVA: 0x7AE9C1A30
+        public void get_IsPrivateCache(){} // RVA: 0x7AE9C1A60
+        public void set_IsPrivateCache(){} // RVA: 0x7AE9C1A90
+        public void get_Properties(){} // RVA: 0x7AE9C1AC0
+        public void get_UnspecifiedMaximumAge(){} // RVA: 0x7AE9C1AF0
+        public void set_UnspecifiedMaximumAge(){} // RVA: 0x7AE9C1B20
+        public void DeserializeElement(){} // RVA: 0x7AE9C1B50
+        public void PostDeserialize(){} // RVA: 0x7AE9C1B80
     }
 
-    public class ServicePointManagerElement
+    public class ServicePointManagerElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD2F80
-        public void get_CheckCertificateName(){} // RVA: 0x6BD2FB0
-        public void set_CheckCertificateName(){} // RVA: 0x6BD2FE0
-        public void get_CheckCertificateRevocationList(){} // RVA: 0x6BD3010
-        public void set_CheckCertificateRevocationList(){} // RVA: 0x6BD3040
-        public void get_DnsRefreshTimeout(){} // RVA: 0x6BD3070
-        public void set_DnsRefreshTimeout(){} // RVA: 0x6BD30A0
-        public void get_EnableDnsRoundRobin(){} // RVA: 0x6BD30D0
-        public void set_EnableDnsRoundRobin(){} // RVA: 0x6BD3100
-        public void get_EncryptionPolicy(){} // RVA: 0x6BD3130
-        public void set_EncryptionPolicy(){} // RVA: 0x6BD3160
-        public void get_Expect100Continue(){} // RVA: 0x6BD3190
-        public void set_Expect100Continue(){} // RVA: 0x6BD31C0
-        public void get_Properties(){} // RVA: 0x6BD31F0
-        public void get_UseNagleAlgorithm(){} // RVA: 0x6BD3220
-        public void set_UseNagleAlgorithm(){} // RVA: 0x6BD3250
-        public void PostDeserialize(){} // RVA: 0x6BD3280
+        public void .ctor(){} // RVA: 0x7AE9C1E80
+        public void get_CheckCertificateName(){} // RVA: 0x7AE9C1EB0
+        public void set_CheckCertificateName(){} // RVA: 0x7AE9C1EE0
+        public void get_CheckCertificateRevocationList(){} // RVA: 0x7AE9C1F10
+        public void set_CheckCertificateRevocationList(){} // RVA: 0x7AE9C1F40
+        public void get_DnsRefreshTimeout(){} // RVA: 0x7AE9C1F70
+        public void set_DnsRefreshTimeout(){} // RVA: 0x7AE9C1FA0
+        public void get_EnableDnsRoundRobin(){} // RVA: 0x7AE9C1FD0
+        public void set_EnableDnsRoundRobin(){} // RVA: 0x7AE9C2000
+        public void get_EncryptionPolicy(){} // RVA: 0x7AE9C2030
+        public void set_EncryptionPolicy(){} // RVA: 0x7AE9C2060
+        public void get_Expect100Continue(){} // RVA: 0x7AE9C2090
+        public void set_Expect100Continue(){} // RVA: 0x7AE9C20C0
+        public void get_Properties(){} // RVA: 0x7AE9C20F0
+        public void get_UseNagleAlgorithm(){} // RVA: 0x7AE9C2120
+        public void set_UseNagleAlgorithm(){} // RVA: 0x7AE9C2150
+        public void PostDeserialize(){} // RVA: 0x7AE9C2180
     }
 
-    public class SettingsSection
+    public class SettingsSection : ConfigurationSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD2CB0
-        public void get_HttpListener(){} // RVA: 0x6BD2CE0
-        public void get_HttpWebRequest(){} // RVA: 0x6BD2D10
-        public void get_Ipv6(){} // RVA: 0x6BD2D40
-        public void get_PerformanceCounters(){} // RVA: 0x6BD2D70
-        public void get_Properties(){} // RVA: 0x6BD2DA0
-        public void get_ServicePointManager(){} // RVA: 0x6BD2DD0
-        public void get_Socket(){} // RVA: 0x6BD2E00
-        public void get_WebProxyScript(){} // RVA: 0x6BD2E30
-        public void get_WebUtility(){} // RVA: 0x6BD2E60
-        public void get_WindowsAuthentication(){} // RVA: 0x6BD2E90
+        public void .ctor(){} // RVA: 0x7AE9C1BB0
+        public void get_HttpListener(){} // RVA: 0x7AE9C1BE0
+        public void get_HttpWebRequest(){} // RVA: 0x7AE9C1C10
+        public void get_Ipv6(){} // RVA: 0x7AE9C1C40
+        public void get_PerformanceCounters(){} // RVA: 0x7AE9C1C70
+        public void get_Properties(){} // RVA: 0x7AE9C1CA0
+        public void get_ServicePointManager(){} // RVA: 0x7AE9C1CD0
+        public void get_Socket(){} // RVA: 0x7AE9C1D00
+        public void get_WebProxyScript(){} // RVA: 0x7AE9C1D30
+        public void get_WebUtility(){} // RVA: 0x7AE9C1D60
+        public void get_WindowsAuthentication(){} // RVA: 0x7AE9C1D90
     }
 
-    public class SettingsSectionInternal
+    public class SettingsSectionInternal : Object
     {
-        public System.Net.Configuration.SettingsSectionInternal instance;
-        public bool HttpListenerUnescapeRequestUrl; // 0x10
-        public 0x6585B770 IPProtectionLevel; // 0x14
-        public bool <UseNagleAlgorithm>k__BackingField; // 0x18
-        public bool <Expect100Continue>k__BackingField; // 0x19
-        public bool <CheckCertificateName>k__BackingField; // 0x1A
-        public int <DnsRefreshTimeout>k__BackingField; // 0x1C
-        public bool <EnableDnsRoundRobin>k__BackingField; // 0x20
-        public bool <CheckCertificateRevocationList>k__BackingField; // 0x21
-
         // ── Methods ──
-        public void get_Section(){} // RVA: 0x6B96420
-        public void get_UseNagleAlgorithm(){} // RVA: 0x2F84E0
-        public void set_UseNagleAlgorithm(){} // RVA: 0x2F84F0
-        public void get_Expect100Continue(){} // RVA: 0x6B93D0
-        public void set_Expect100Continue(){} // RVA: 0xF43D70
-        public void get_CheckCertificateName(){} // RVA: 0x1B98340
-        public void set_CheckCertificateName(){} // RVA: 0x1B98210
-        public void get_DnsRefreshTimeout(){} // RVA: 0x197C3B0
-        public void set_DnsRefreshTimeout(){} // RVA: 0x1989FD0
-        public void get_EnableDnsRoundRobin(){} // RVA: 0x3CB9D0
-        public void set_EnableDnsRoundRobin(){} // RVA: 0x3CB9E0
-        public void get_CheckCertificateRevocationList(){} // RVA: 0x6BB3A0
-        public void set_CheckCertificateRevocationList(){} // RVA: 0xB265D0
-        public void get_EncryptionPolicy(){} // RVA: 0xCEF5B0
-        public void set_EncryptionPolicy(){} // RVA: 0x16E1F00
-        public void get_Ipv6Enabled(){} // RVA: 0x3C2850
-        public void .ctor(){} // RVA: 0x6B96480
-        public void .cctor(){} // RVA: 0x6B96490
+        public void get_Section(){} // RVA: 0x7AE985510
+        public void get_UseNagleAlgorithm(){} // RVA: 0x7A80F26D0
+        public void set_UseNagleAlgorithm(){} // RVA: 0x7A80F26E0
+        public void get_Expect100Continue(){} // RVA: 0x7A8475E20
+        public void set_Expect100Continue(){} // RVA: 0x7A8D0E640
+        public void get_CheckCertificateName(){} // RVA: 0x7A9956320
+        public void set_CheckCertificateName(){} // RVA: 0x7A99561F0
+        public void get_DnsRefreshTimeout(){} // RVA: 0x7A9739200
+        public void set_DnsRefreshTimeout(){} // RVA: 0x7A9746990
+        public void get_EnableDnsRoundRobin(){} // RVA: 0x7A81C68D0
+        public void set_EnableDnsRoundRobin(){} // RVA: 0x7A81C68E0
+        public void get_CheckCertificateRevocationList(){} // RVA: 0x7A8477E00
+        public void set_CheckCertificateRevocationList(){} // RVA: 0x7A88C2D40
+        public void get_EncryptionPolicy(){} // RVA: 0x7A8AB15F0
+        public void set_EncryptionPolicy(){} // RVA: 0x7A94794D0
+        public void get_Ipv6Enabled(){} // RVA: 0x7A81BD750
+        public void .ctor(){} // RVA: 0x7AE985570
+        public void .cctor(){} // RVA: 0x7AE985580
     }
 
-    public class SmtpNetworkElement
+    public class SmtpNetworkElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD2410
-        public void get_ClientDomain(){} // RVA: 0x6BD2440
-        public void set_ClientDomain(){} // RVA: 0x6BD2470
-        public void get_DefaultCredentials(){} // RVA: 0x6BD24A0
-        public void set_DefaultCredentials(){} // RVA: 0x6BD24D0
-        public void get_EnableSsl(){} // RVA: 0x6BD2500
-        public void set_EnableSsl(){} // RVA: 0x6BD2530
-        public void get_Host(){} // RVA: 0x6BD2560
-        public void set_Host(){} // RVA: 0x6BD2590
-        public void get_Password(){} // RVA: 0x6BD25C0
-        public void set_Password(){} // RVA: 0x6BD25F0
-        public void get_Port(){} // RVA: 0x6BD2620
-        public void set_Port(){} // RVA: 0x6BD2650
-        public void get_Properties(){} // RVA: 0x6BD2680
-        public void get_TargetName(){} // RVA: 0x6BD26B0
-        public void set_TargetName(){} // RVA: 0x6BD26E0
-        public void get_UserName(){} // RVA: 0x6BD2710
-        public void set_UserName(){} // RVA: 0x6BD2740
-        public void PostDeserialize(){} // RVA: 0x6BD2770
+        public void .ctor(){} // RVA: 0x7AE9C1310
+        public void get_ClientDomain(){} // RVA: 0x7AE9C1340
+        public void set_ClientDomain(){} // RVA: 0x7AE9C1370
+        public void get_DefaultCredentials(){} // RVA: 0x7AE9C13A0
+        public void set_DefaultCredentials(){} // RVA: 0x7AE9C13D0
+        public void get_EnableSsl(){} // RVA: 0x7AE9C1400
+        public void set_EnableSsl(){} // RVA: 0x7AE9C1430
+        public void get_Host(){} // RVA: 0x7AE9C1460
+        public void set_Host(){} // RVA: 0x7AE9C1490
+        public void get_Password(){} // RVA: 0x7AE9C14C0
+        public void set_Password(){} // RVA: 0x7AE9C14F0
+        public void get_Port(){} // RVA: 0x7AE9C1520
+        public void set_Port(){} // RVA: 0x7AE9C1550
+        public void get_Properties(){} // RVA: 0x7AE9C1580
+        public void get_TargetName(){} // RVA: 0x7AE9C15B0
+        public void set_TargetName(){} // RVA: 0x7AE9C15E0
+        public void get_UserName(){} // RVA: 0x7AE9C1610
+        public void set_UserName(){} // RVA: 0x7AE9C1640
+        public void PostDeserialize(){} // RVA: 0x7AE9C1670
     }
 
-    public class SmtpSection
+    public class SmtpSection : ConfigurationSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD2230
-        public void get_DeliveryFormat(){} // RVA: 0x6BD2260
-        public void set_DeliveryFormat(){} // RVA: 0x6BD2290
-        public void get_DeliveryMethod(){} // RVA: 0x6BD22C0
-        public void set_DeliveryMethod(){} // RVA: 0x6BD22F0
-        public void get_From(){} // RVA: 0x6BD2320
-        public void set_From(){} // RVA: 0x6BD2350
-        public void get_Network(){} // RVA: 0x6BD2380
-        public void get_Properties(){} // RVA: 0x6BD23B0
-        public void get_SpecifiedPickupDirectory(){} // RVA: 0x6BD23E0
+        public void .ctor(){} // RVA: 0x7AE9C1130
+        public void get_DeliveryFormat(){} // RVA: 0x7AE9C1160
+        public void set_DeliveryFormat(){} // RVA: 0x7AE9C1190
+        public void get_DeliveryMethod(){} // RVA: 0x7AE9C11C0
+        public void set_DeliveryMethod(){} // RVA: 0x7AE9C11F0
+        public void get_From(){} // RVA: 0x7AE9C1220
+        public void set_From(){} // RVA: 0x7AE9C1250
+        public void get_Network(){} // RVA: 0x7AE9C1280
+        public void get_Properties(){} // RVA: 0x7AE9C12B0
+        public void get_SpecifiedPickupDirectory(){} // RVA: 0x7AE9C12E0
     }
 
-    public class SmtpSpecifiedPickupDirectoryElement
+    public class SmtpSpecifiedPickupDirectoryElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD27A0
-        public void get_PickupDirectoryLocation(){} // RVA: 0x6BD27D0
-        public void set_PickupDirectoryLocation(){} // RVA: 0x6BD2800
-        public void get_Properties(){} // RVA: 0x6BD2830
+        public void .ctor(){} // RVA: 0x7AE9C16A0
+        public void get_PickupDirectoryLocation(){} // RVA: 0x7AE9C16D0
+        public void set_PickupDirectoryLocation(){} // RVA: 0x7AE9C1700
+        public void get_Properties(){} // RVA: 0x7AE9C1730
     }
 
-    public class SocketElement
+    public class SocketElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD32B0
-        public void get_AlwaysUseCompletionPortsForAccept(){} // RVA: 0x6BD32E0
-        public void set_AlwaysUseCompletionPortsForAccept(){} // RVA: 0x6BD3310
-        public void get_AlwaysUseCompletionPortsForConnect(){} // RVA: 0x6BD3340
-        public void set_AlwaysUseCompletionPortsForConnect(){} // RVA: 0x6BD3370
-        public void get_IPProtectionLevel(){} // RVA: 0x6BD33A0
-        public void set_IPProtectionLevel(){} // RVA: 0x6BD33D0
-        public void get_Properties(){} // RVA: 0x6BD3400
-        public void PostDeserialize(){} // RVA: 0x6BD3430
+        public void .ctor(){} // RVA: 0x7AE9C21B0
+        public void get_AlwaysUseCompletionPortsForAccept(){} // RVA: 0x7AE9C21E0
+        public void set_AlwaysUseCompletionPortsForAccept(){} // RVA: 0x7AE9C2210
+        public void get_AlwaysUseCompletionPortsForConnect(){} // RVA: 0x7AE9C2240
+        public void set_AlwaysUseCompletionPortsForConnect(){} // RVA: 0x7AE9C2270
+        public void get_IPProtectionLevel(){} // RVA: 0x7AE9C22A0
+        public void set_IPProtectionLevel(){} // RVA: 0x7AE9C22D0
+        public void get_Properties(){} // RVA: 0x7AE9C2300
+        public void PostDeserialize(){} // RVA: 0x7AE9C2330
     }
 
-    public class WebProxyScriptElement
+    public class WebProxyScriptElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD3460
-        public void get_AutoConfigUrlRetryInterval(){} // RVA: 0x6BD3490
-        public void set_AutoConfigUrlRetryInterval(){} // RVA: 0x6BD34C0
-        public void get_DownloadTimeout(){} // RVA: 0x6BD34F0
-        public void set_DownloadTimeout(){} // RVA: 0x6BD3520
-        public void get_Properties(){} // RVA: 0x6BD3550
-        public void PostDeserialize(){} // RVA: 0x6BD3580
+        public void .ctor(){} // RVA: 0x7AE9C2360
+        public void get_AutoConfigUrlRetryInterval(){} // RVA: 0x7AE9C2390
+        public void set_AutoConfigUrlRetryInterval(){} // RVA: 0x7AE9C23C0
+        public void get_DownloadTimeout(){} // RVA: 0x7AE9C23F0
+        public void set_DownloadTimeout(){} // RVA: 0x7AE9C2420
+        public void get_Properties(){} // RVA: 0x7AE9C2450
+        public void PostDeserialize(){} // RVA: 0x7AE9C2480
     }
 
-    public class WebRequestModuleElement
+    public class WebRequestModuleElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD3B50 | overloaded x3
-        public void get_Prefix(){} // RVA: 0x6BD3B80
-        public void set_Prefix(){} // RVA: 0x6BD3BB0
-        public void get_Properties(){} // RVA: 0x6BD3BE0
-        public void get_Type(){} // RVA: 0x6BD3C10
-        public void set_Type(){} // RVA: 0x6BD3C40
+        public void .ctor(){} // RVA: 0x7AE9C2A50
+        public void get_Prefix(){} // RVA: 0x7AE9C2A80
+        public void set_Prefix(){} // RVA: 0x7AE9C2AB0
+        public void get_Properties(){} // RVA: 0x7AE9C2AE0
+        public void get_Type(){} // RVA: 0x7AE9C2B10
+        public void set_Type(){} // RVA: 0x7AE9C2B40
     }
 
-    public class WebRequestModuleElementCollection
+    public class WebRequestModuleElementCollection : ConfigurationElementCollection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD3880
-        public void get_Item(){} // RVA: 0x6BD3910 | overloaded x2
-        public void set_Item(){} // RVA: 0x6BD3940 | overloaded x2
-        public void Add(){} // RVA: 0x6BD3970
-        public void Clear(){} // RVA: 0x6BD39A0
-        public void CreateNewElement(){} // RVA: 0x6BD39D0
-        public void GetElementKey(){} // RVA: 0x6BD3A00
-        public void IndexOf(){} // RVA: 0x6BD3A30
-        public void Remove(){} // RVA: 0x6BD3A90 | overloaded x2
-        public void RemoveAt(){} // RVA: 0x6BD3AC0
+        public void .ctor(){} // RVA: 0x7AE9C2780
+        public void get_Item(){} // RVA: 0x7AE9C2810
+        public void set_Item(){} // RVA: 0x7AE9C2840
+        public void Add(){} // RVA: 0x7AE9C2870
+        public void Clear(){} // RVA: 0x7AE9C28A0
+        public void CreateNewElement(){} // RVA: 0x7AE9C28D0
+        public void GetElementKey(){} // RVA: 0x7AE9C2900
+        public void IndexOf(){} // RVA: 0x7AE9C2930
+        public void Remove(){} // RVA: 0x7AE9C2990
+        public void RemoveAt(){} // RVA: 0x7AE9C29C0
     }
 
-    public class WebRequestModulesSection
+    public class WebRequestModulesSection : ConfigurationSection
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD3790
-        public void get_Properties(){} // RVA: 0x6BD37C0
-        public void get_WebRequestModules(){} // RVA: 0x6BD37F0
-        public void InitializeDefault(){} // RVA: 0x6BD3820
-        public void PostDeserialize(){} // RVA: 0x6BD3850
+        public void .ctor(){} // RVA: 0x7AE9C2690
+        public void get_Properties(){} // RVA: 0x7AE9C26C0
+        public void get_WebRequestModules(){} // RVA: 0x7AE9C26F0
+        public void InitializeDefault(){} // RVA: 0x7AE9C2720
+        public void PostDeserialize(){} // RVA: 0x7AE9C2750
     }
 
-    public class WebUtilityElement
+    public class WebUtilityElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD35B0
-        public void get_Properties(){} // RVA: 0x6BD35E0
-        public void get_UnicodeDecodingConformance(){} // RVA: 0x6BD3610
-        public void set_UnicodeDecodingConformance(){} // RVA: 0x6BD3640
-        public void get_UnicodeEncodingConformance(){} // RVA: 0x6BD3670
-        public void set_UnicodeEncodingConformance(){} // RVA: 0x6BD36A0
+        public void .ctor(){} // RVA: 0x7AE9C24B0
+        public void get_Properties(){} // RVA: 0x7AE9C24E0
+        public void get_UnicodeDecodingConformance(){} // RVA: 0x7AE9C2510
+        public void set_UnicodeDecodingConformance(){} // RVA: 0x7AE9C2540
+        public void get_UnicodeEncodingConformance(){} // RVA: 0x7AE9C2570
+        public void set_UnicodeEncodingConformance(){} // RVA: 0x7AE9C25A0
     }
 
-    public class WindowsAuthenticationElement
+    public class WindowsAuthenticationElement : ConfigurationElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD36D0
-        public void get_DefaultCredentialsHandleCacheSize(){} // RVA: 0x6BD3700
-        public void set_DefaultCredentialsHandleCacheSize(){} // RVA: 0x6BD3730
-        public void get_Properties(){} // RVA: 0x6BD3760
+        public void .ctor(){} // RVA: 0x7AE9C25D0
+        public void get_DefaultCredentialsHandleCacheSize(){} // RVA: 0x7AE9C2600
+        public void set_DefaultCredentialsHandleCacheSize(){} // RVA: 0x7AE9C2630
+        public void get_Properties(){} // RVA: 0x7AE9C2660
     }
 
 }

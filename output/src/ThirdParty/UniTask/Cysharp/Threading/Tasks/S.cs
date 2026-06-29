@@ -1,64 +1,64 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
 // Classes: 9
-// Methods: 12
+// Methods: 11
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
-    public class SingleConsumerUnboundedChannel`1
+    public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class SingleConsumerUnboundedChannel`1
+    public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4026DE0
+        public void .ctor(){} // RVA: 0x7ABE1C7E0
     }
 
-    public class SingleConsumerUnboundedChannel`1
+    public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x40276F0
+        public void .ctor(){} // RVA: 0x7ABE1CD50
     }
 
-    public class SingleConsumerUnboundedChannel`1
+    public class SingleConsumerUnboundedChannel`1 : Channel`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4026680
+        public void .ctor(){} // RVA: 0x7ABE1C040
     }
 
-    public class StateExtensions
+    public class StateExtensions : Object
     {
         // ── Methods ──
-        public void ToReadOnlyAsyncReactiveProperty(){} // RVA: 0x283FA0 | overloaded x2
+        public void ToReadOnlyAsyncReactiveProperty(){} // RVA: 0x7A8051B10
     }
 
-    public class SwitchToMainThreadAwaitable
+    public class SwitchToMainThreadAwaitable : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x37C6C70
-        public void GetAwaiter(){} // RVA: 0x6CFE090
+        public void .ctor(){} // RVA: 0x7A790A7A0
+        public void GetAwaiter(){} // RVA: 0x7A7E9FC60
     }
 
-    public class SwitchToSynchronizationContextAwaitable
+    public class SwitchToSynchronizationContextAwaitable : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x37C8AF0
-        public void GetAwaiter(){} // RVA: 0x6CFEC60
+        public void .ctor(){} // RVA: 0x7A7C66120
+        public void GetAwaiter(){} // RVA: 0x7A7EA03D0
     }
 
-    public class SwitchToTaskPoolAwaitable
+    public class SwitchToTaskPoolAwaitable : ValueType
     {
         // ── Methods ──
-        public void GetAwaiter(){} // RVA: 0x2DD320
+        public void GetAwaiter(){} // RVA: 0x7A77CFDD0
     }
 
-    public class SwitchToThreadPoolAwaitable
+    public class SwitchToThreadPoolAwaitable : ValueType
     {
         // ── Methods ──
-        public void GetAwaiter(){} // RVA: 0x2DD320
+        public void GetAwaiter(){} // RVA: 0x7A77CFDD0
     }
 
 }

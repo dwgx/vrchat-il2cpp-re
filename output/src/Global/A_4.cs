@@ -1,1296 +1,966 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 594
+// Methods: 462
 
-public class Awaiter
+public class AOTEmittedFormatter`1 : EasyBaseFormatter`1
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiCampaign> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AAC6CC10
 }
 
-public class Awaiter
+public class ActionEvent : UnityEvent`1
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Nullable`1<0x65800EE0>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x557F490
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x557F790
-    public void UnsafeOnCompleted(){} // RVA: 0x557F890
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void get_actionId(){} // RVA: 0x7A83F69F0
+    public void get_actionName(){} // RVA: 0x7A8292C30
+    public void .ctor(){} // RVA: 0x7AEC75310
 }
 
-public class Awaiter
+public class ActionEvent[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÏÍÍÌÍÏÏÌÌÏÏÏÎÎÏÍÎÍÌÍÌÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557ED60
-    public void get_IsCompleted(){} // RVA: 0x557EDD0
-    public void GetResult(){} // RVA: 0x73C730
-    public void OnCompleted(){} // RVA: 0x55ABEF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55ABFF0
-    public void SourceOnCompleted(){} // RVA: 0x557F010
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class ActionHintInfo : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÌÍÍÌÏÎÎÌÎÌÏÏÍÎÎÍÍÎÎÌÏÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557FF90
-    public void get_IsCompleted(){} // RVA: 0x557FFF0
-    public void GetResult(){} // RVA: 0x180B940
-    public void OnCompleted(){} // RVA: 0x55AB8F0
-    public void UnsafeOnCompleted(){} // RVA: 0x55AB9F0
-    public void SourceOnCompleted(){} // RVA: 0x5580230
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A2F90
-    public void UnsafeOnCompleted(){} // RVA: 0x55A3090
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE296770
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.Dictionary`2<string,string>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE299ED0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,int>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x557F490
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A2790
-    public void UnsafeOnCompleted(){} // RVA: 0x55A2890
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE29E420
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<int> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F7E940
-    public void get_IsCompleted(){} // RVA: 0x5593BC0
-    public void GetResult(){} // RVA: 0x11872D0
-    public void OnCompleted(){} // RVA: 0x55A95B0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A96B0
-    public void SourceOnCompleted(){} // RVA: 0x5593E00
+    public void .ctor(){} // RVA: 0x7AB4C8720
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AE2A3770
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÌÎÍÏÌÌÍÎÏÍÍÍÏÎÍÏÍÏÌÍÍÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55AC4F0
-    public void UnsafeOnCompleted(){} // RVA: 0x55AC5F0
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE2BF180
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÎÍÍÌÍÌÌÎÏÌÌÎÌÏÎÎÎÌÎÎÌÏ<ÏÎÌÌÍÍÎÏÍÏÌÎÌÎÏÌÍÎÎÌÌÏÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557ED60
-    public void get_IsCompleted(){} // RVA: 0x557EDD0
-    public void GetResult(){} // RVA: 0x73C730
-    public void OnCompleted(){} // RVA: 0x55A8540
-    public void UnsafeOnCompleted(){} // RVA: 0x55A8640
-    public void SourceOnCompleted(){} // RVA: 0x557F010
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE2C1CF0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<int,ÏÎÌÌÍÍÎÏÍÏÌÎÌÎÏÌÍÎÎÌÌÏÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A5740
-    public void UnsafeOnCompleted(){} // RVA: 0x55A5840
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE2C41E0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,System.ValueTuple`2<bool,ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ>>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x55816D0
-    public void get_IsCompleted(){} // RVA: 0x5581740
-    public void GetResult(){} // RVA: 0x5581780
-    public void OnCompleted(){} // RVA: 0x559D5B0
-    public void UnsafeOnCompleted(){} // RVA: 0x559D6B0
-    public void SourceOnCompleted(){} // RVA: 0x5581A40
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE2C6BE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÏÏÌÌÏÏÎÍÍÎÍÍÎÏÏÍÎÏÏÏÏÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x55816D0
-    public void get_IsCompleted(){} // RVA: 0x5581740
-    public void GetResult(){} // RVA: 0x5581780
-    public void OnCompleted(){} // RVA: 0x55AC2F0
-    public void UnsafeOnCompleted(){} // RVA: 0x55AC3F0
-    public void SourceOnCompleted(){} // RVA: 0x5581A40
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE2C8D90
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class AnimatorEvent : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557FF90
-    public void get_IsCompleted(){} // RVA: 0x557FFF0
-    public void GetResult(){} // RVA: 0x180B940
-    public void OnCompleted(){} // RVA: 0x55A4740
-    public void UnsafeOnCompleted(){} // RVA: 0x55A4840
-    public void SourceOnCompleted(){} // RVA: 0x5580230
+    public void Activate(){} // RVA: 0x7A8136AC0
+    public void .ctor(){} // RVA: 0x7A8136C40
 }
 
-public class Awaiter
+public class AnimatorEvent : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<string,UnityEngine.Texture2D>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A6140
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6240
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void Activate(){} // RVA: 0x7A822E160
+    public void .ctor(){} // RVA: 0x7A822E2E0
 }
 
-public class Awaiter
+public class AnimatorEvent[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÎÍÍÌÍÌÌÎÏÌÌÎÌÏÎÎÎÌÎÎÌÏ<ÏÌÌÎÎÏÌÍÌÍÍÌÌÍÍÌÌÌÌÌÍÍÏ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557ED60
-    public void get_IsCompleted(){} // RVA: 0x557EDD0
-    public void GetResult(){} // RVA: 0x73C730
-    public void OnCompleted(){} // RVA: 0x55A8540
-    public void UnsafeOnCompleted(){} // RVA: 0x55A8640
-    public void SourceOnCompleted(){} // RVA: 0x557F010
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class Annotation : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<0x6571ACF8> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F7E940
-    public void get_IsCompleted(){} // RVA: 0x5593BC0
-    public void GetResult(){} // RVA: 0x11872D0
-    public void OnCompleted(){} // RVA: 0x55A97B0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A98B0
-    public void SourceOnCompleted(){} // RVA: 0x5593E00
+    public void get_Parser(){} // RVA: 0x7AD868DC0
+    public void get_Descriptor(){} // RVA: 0x7AD868E20
+    public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD868EA0
+    public void .ctor(){} // RVA: 0x7AD869010
+    public void Clone(){} // RVA: 0x7AD869220
+    public void get_Path(){} // RVA: 0x7A81052C0
+    public void get_SourceFile(){} // RVA: 0x7AD869280
+    public void set_SourceFile(){} // RVA: 0x7AD8692F0
+    public void get_HasSourceFile(){} // RVA: 0x7AD854AF0
+    public void ClearSourceFile(){} // RVA: 0x7AA7FD9C0
+    public void get_Begin(){} // RVA: 0x7AD8693F0
+    public void set_Begin(){} // RVA: 0x7AD869460
+    public void get_HasBegin(){} // RVA: 0x7AD848D40
+    public void ClearBegin(){} // RVA: 0x7AD848D50
+    public void get_End(){} // RVA: 0x7AD869470
+    public void set_End(){} // RVA: 0x7AD8694E0
+    public void get_HasEnd(){} // RVA: 0x7AD848DE0
+    public void ClearEnd(){} // RVA: 0x7AD848DF0
+    public void Equals(){} // RVA: 0x7AD869690
+    public void GetHashCode(){} // RVA: 0x7AD8697F0
+    public void ToString(){} // RVA: 0x7AD8698B0
+    public void WriteTo(){} // RVA: 0x7AD825C30
+    public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD869900
+    public void CalculateSize(){} // RVA: 0x7AD869A40
+    public void MergeFrom(){} // RVA: 0x7AD825F70
+    public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD869D30
+    public void .cctor(){} // RVA: 0x7AD869EB0
 }
 
-public class Awaiter
+public class AotTester : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<int,ÏÌÌÎÎÏÌÍÌÍÍÌÌÍÍÌÌÌÌÌÍÍÏ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A5740
-    public void UnsafeOnCompleted(){} // RVA: 0x55A5840
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void Test(){} // RVA: 0x7A80D7310
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class Awaiter
+public class ArrayEnumerator : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÎÎÎÎÎÏÏÍÎÎÌÍÌÎÏÏÏÌÌÏÏÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5581B00
-    public void get_IsCompleted(){} // RVA: 0x5581B80
-    public void GetResult(){} // RVA: 0x194F740
-    public void OnCompleted(){} // RVA: 0x55ABCF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55ABDF0
-    public void SourceOnCompleted(){} // RVA: 0x5581DC0
+    public void .ctor(){} // RVA: 0x7A7E6F460
+    public void get_Current(){} // RVA: 0x7A7E6F480
+    public void GetEnumerator(){} // RVA: 0x7A7E6F520
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E6F560
+    public void System.Collections.Generic.IEnumerable<System.Text.Json.JsonElement>.GetEnumerator(){} // RVA: 0x7A7E6F5D0
+    public void Dispose(){} // RVA: 0x7A7E6F640
+    public void Reset(){} // RVA: 0x7A7827330
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A7E6F650
+    public void MoveNext(){} // RVA: 0x7A7E6F710
 }
 
-public class Awaiter
+public class AssetBundleCreateRequestAwaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÎÏÍÍÎÍÎÎÎÎÏÎÌÏÌÎÌÍÍÏÍÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557FF90
-    public void get_IsCompleted(){} // RVA: 0x557FFF0
-    public void GetResult(){} // RVA: 0x180B940
-    public void OnCompleted(){} // RVA: 0x55ACAF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55ACBF0
-    public void SourceOnCompleted(){} // RVA: 0x5580230
+    public void .ctor(){} // RVA: 0x7A763CB60
+    public void get_IsCompleted(){} // RVA: 0x7A7779510
+    public void GetResult(){} // RVA: 0x7A7EA2A30
+    public void OnCompleted(){} // RVA: 0x7A7EA2A40
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7EA2A50
 }
 
-public class Awaiter
+public class AssetBundleCreateRequestConfiguredSource : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,bool>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F7E940
-    public void get_IsCompleted(){} // RVA: 0x6D2410
-    public void GetResult(){} // RVA: 0x55A1E60
-    public void OnCompleted(){} // RVA: 0x55A2190
-    public void UnsafeOnCompleted(){} // RVA: 0x55A2290
-    public void SourceOnCompleted(){} // RVA: 0x55A20D0
+    public void get_NextNode(){} // RVA: 0x7ABBF1F90
+    public void .cctor(){} // RVA: 0x7AEB2B7B0
+    public void .ctor(){} // RVA: 0x7AEB2B930
+    public void Create(){} // RVA: 0x7AEB2B9F0
+    public void GetResult(){} // RVA: 0x7AEB2BF60
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AEB2C1E0
+    public void GetStatus(){} // RVA: 0x7AEB2C1F0
+    public void UnsafeGetStatus(){} // RVA: 0x7AEB2C240
+    public void OnCompleted(){} // RVA: 0x7AEB2C280
+    public void MoveNext(){} // RVA: 0x7AEB2C300
+    public void TryReturn(){} // RVA: 0x7AEB2C440
+    public void Continuation(){} // RVA: 0x7AEB2C5B0
 }
 
-public class Awaiter
+public class AssetBundleRequestAllAssetsAwaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÏÏÍÌÏÏÎÍÎÌÎÎÌÏÍÏÍÎÏÌÎÍÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A763CB60
+    public void GetAwaiter(){} // RVA: 0x7A7662BE0
+    public void get_IsCompleted(){} // RVA: 0x7A7779510
+    public void GetResult(){} // RVA: 0x7A7EA2510
+    public void OnCompleted(){} // RVA: 0x7A7EA2520
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7EA2530
 }
 
-public class Awaiter
+public class AssetBundleRequestAllAssetsConfiguredSource : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<0x65716AA0,UnityEngine.GameObject>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A5940
-    public void UnsafeOnCompleted(){} // RVA: 0x55A5A40
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void get_NextNode(){} // RVA: 0x7ABBF1F90
+    public void .cctor(){} // RVA: 0x7AEB25ED0
+    public void .ctor(){} // RVA: 0x7AEB26050
+    public void Create(){} // RVA: 0x7AEB26110
+    public void GetResult(){} // RVA: 0x7AEB26680
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AEB268E0
+    public void GetStatus(){} // RVA: 0x7AEB268F0
+    public void UnsafeGetStatus(){} // RVA: 0x7AEB26940
+    public void OnCompleted(){} // RVA: 0x7AEB26980
+    public void MoveNext(){} // RVA: 0x7AEB26A00
+    public void TryReturn(){} // RVA: 0x7AEB26B40
+    public void Continuation(){} // RVA: 0x7AEB26CA0
 }
 
-public class Awaiter
+public class AssetBundleRequestConfiguredSource : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.Object> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void get_NextNode(){} // RVA: 0x7ABBF1F90
+    public void .cctor(){} // RVA: 0x7AEB2A3E0
+    public void .ctor(){} // RVA: 0x7AEB2A560
+    public void Create(){} // RVA: 0x7AEB2A620
+    public void GetResult(){} // RVA: 0x7AEB2AB90
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AEB2AE10
+    public void GetStatus(){} // RVA: 0x7AEB2AE20
+    public void UnsafeGetStatus(){} // RVA: 0x7AEB2AE70
+    public void OnCompleted(){} // RVA: 0x7AEB2AEB0
+    public void MoveNext(){} // RVA: 0x7AEB2AF30
+    public void TryReturn(){} // RVA: 0x7AEB2B080
+    public void Continuation(){} // RVA: 0x7AEB2B1F0
 }
 
-public class Awaiter
+public class AsyncGPUReadbackRequestAwaiterConfiguredSource : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<bool,bool,UnityEngine.GameObject>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A6740
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6840
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void get_NextNode(){} // RVA: 0x7ABBF1F90
+    public void .cctor(){} // RVA: 0x7AEB26F50
+    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Create(){} // RVA: 0x7AEB270D0
+    public void GetResult(){} // RVA: 0x7AEB27540
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AEB27710
+    public void GetStatus(){} // RVA: 0x7AEB27730
+    public void UnsafeGetStatus(){} // RVA: 0x7AEB27780
+    public void OnCompleted(){} // RVA: 0x7AEB277C0
+    public void MoveNext(){} // RVA: 0x7AEB27840
+    public void TryReturn(){} // RVA: 0x7AEB27A00
 }
 
-public class Awaiter
+public class AsyncInstantiateOperationConfiguredSource : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÌÏÎÌÌÍÎÎÎÍÏÍÌÎÏÎÏÏÏÏÌÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557FF90
-    public void get_IsCompleted(){} // RVA: 0x557FFF0
-    public void GetResult(){} // RVA: 0x180B940
-    public void OnCompleted(){} // RVA: 0x55ABAF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55ABBF0
-    public void SourceOnCompleted(){} // RVA: 0x5580230
+    public void get_NextNode(){} // RVA: 0x7ABBF1F90
+    public void .cctor(){} // RVA: 0x7AEB2E620
+    public void .ctor(){} // RVA: 0x7AEB2E7A0
+    public void Create(){} // RVA: 0x7AEB2E860
+    public void GetResult(){} // RVA: 0x7AEB2EDD0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AEB2F050
+    public void GetStatus(){} // RVA: 0x7AEB2F060
+    public void UnsafeGetStatus(){} // RVA: 0x7AEB2F0B0
+    public void OnCompleted(){} // RVA: 0x7AEB2F0F0
+    public void MoveNext(){} // RVA: 0x7AEB2F170
+    public void TryReturn(){} // RVA: 0x7AEB2F2B0
+    public void Continuation(){} // RVA: 0x7AEB2F420
 }
 
-public class Awaiter
+public class AsyncOperationConfiguredSource : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,UnityEngine.GameObject>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A2F90
-    public void UnsafeOnCompleted(){} // RVA: 0x55A3090
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void get_NextNode(){} // RVA: 0x7ABBF1F90
+    public void .cctor(){} // RVA: 0x7AEB27ED0
+    public void .ctor(){} // RVA: 0x7AEB28050
+    public void Create(){} // RVA: 0x7AEB28110
+    public void GetResult(){} // RVA: 0x7AEB28670
+    public void GetStatus(){} // RVA: 0x7AEB288E0
+    public void UnsafeGetStatus(){} // RVA: 0x7AEB28930
+    public void OnCompleted(){} // RVA: 0x7AEB28970
+    public void MoveNext(){} // RVA: 0x7AEB289F0
+    public void TryReturn(){} // RVA: 0x7AEB28B50
+    public void Continuation(){} // RVA: 0x7AEB28CC0
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<0x65716A48,ÎÍÏÌÍÎÍÏÎÌÏÏÍÏÏÎÏÎÏÌÎÏÌ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A5940
-    public void UnsafeOnCompleted(){} // RVA: 0x55A5A40
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<string,bool>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A5D40
-    public void UnsafeOnCompleted(){} // RVA: 0x55A5E40
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<string,string>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A6140
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6240
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.Texture> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<System.ValueTuple`2<VRC.Core.ApiWorld,VRC.Core.ApiContainer>,System.ValueTuple`2<VRC.Core.APIUser,VRC.Core.ApiContainer>>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557FF90
-    public void get_IsCompleted(){} // RVA: 0x557FFF0
-    public void GetResult(){} // RVA: 0x180B940
-    public void OnCompleted(){} // RVA: 0x5580030
-    public void UnsafeOnCompleted(){} // RVA: 0x5580130
-    public void SourceOnCompleted(){} // RVA: 0x5580230
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<string,byte[]>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A6140
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6240
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IList`1<ÏÎÌÎÏÍÎÎÍÌÌÎÌÌÌÌÏÎÏÍÌÎÌ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<object> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÌÏÍÍÏÌÌÏÎÏÌÍÏÌÌÍÍÌÍÏÏÍÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<string,bool,VRC.Localization.LocalizableString>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5581B00
-    public void get_IsCompleted(){} // RVA: 0x5581B80
-    public void GetResult(){} // RVA: 0x194F740
-    public void OnCompleted(){} // RVA: 0x55A7540
-    public void UnsafeOnCompleted(){} // RVA: 0x55A7640
-    public void SourceOnCompleted(){} // RVA: 0x5581DC0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.IList> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÍÌÌÎÎÌÏÌÍÎÎÎÏÏÏÌÎÏÌÍÌÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiContainer> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÏÏÍÏÌÎÏÎÏÍÌÌÍÍÌÎÌÌÌÏÎÌÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncTriggerEnumerator : MoveNextSource
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÏÏÎÍÏÎÎÌÌÎÌÏÍÍÎÏÏÏÎÌÏÌÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD0CB330
 }
 
-public class Awaiter
+public class AsyncUnitSource : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.Texture2D[]> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
+    public void GetResult(){} // RVA: 0x7AEAE1DC0
+    public void GetStatus(){} // RVA: 0x7AEAE1E60
+    public void OnCompleted(){} // RVA: 0x7AEAE1EC0
+    public void UnsafeGetStatus(){} // RVA: 0x7AEAE1F50
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AEAE1FA0
 }
 
-public class Awaiter
+public class AttachExternalCancellationSource : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Net.HttpListenerContext> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AEAF80F0
+    public void RunTask(){} // RVA: 0x7AEAF83D0
+    public void CancellationCallback(){} // RVA: 0x7AEAF8560
+    public void GetResult(){} // RVA: 0x7AEAF85E0
+    public void GetStatus(){} // RVA: 0x7AEAF8630
+    public void OnCompleted(){} // RVA: 0x7AEAF8680
+    public void UnsafeGetStatus(){} // RVA: 0x7AEAF8700
+    public void .cctor(){} // RVA: 0x7AEAF8740
 }
 
-public class Awaiter
+public class AttachedObject : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`4<int,string,int,bool>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557ED60
-    public void get_IsCompleted(){} // RVA: 0x557EDD0
-    public void GetResult(){} // RVA: 0x73C730
-    public void OnCompleted(){} // RVA: 0x55A7D40
-    public void UnsafeOnCompleted(){} // RVA: 0x55A7E40
-    public void SourceOnCompleted(){} // RVA: 0x557F010
+    public void HasAttachFlag(){} // RVA: 0x7A7E7E540
 }
 
-public class Awaiter
+public class AttachedObject[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÌÎÎÌÎÎÎÍÌÏÎÌÍÏÌÎÍÍÎÎÍÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2DF750
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA2A06B0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E8200
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA29B370
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA2A06B0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class AutoDetectParams : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A75F4920
+    public void get_Default(){} // RVA: 0x7A812B650
 }
 
-public class Awaiter
+public class Avoider : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÎÍÎÍÍÏÍÎÏÍÌÎÏÌÏÍÎÎÌÌÍÎ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void Solve(){} // RVA: 0x7A824D510
+    public void GetOffsetTarget(){} // RVA: 0x7A824D780
+    public void Raycast(){} // RVA: 0x7A824D9E0
+    public void .ctor(){} // RVA: 0x7A824DE80
 }
 
-public class Awaiter
+public class Avoider[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÏÏÍÏÏÍÎÌÎÎÎÍÌÏÌÍÌÎÎÎÏÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÍÍÍÏÍÏÎÏÎÌÌÌÏÍÌÏÍÌÌÎÎÌÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÍÌÏÌÌÌÌÍÎÎÍÍÎÎÍÎÌÌÍÎÏÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5460
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
+    public void GetResult(){} // RVA: 0x7A7CFCBF0
+    public void OnCompleted(){} // RVA: 0x7A7CFCE50
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFCF50
+    public void SourceOnCompleted(){} // RVA: 0x7A7CD56E0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<UnityEngine.GameObject,VRC.SDK3.Props.Components.VRCPropDescriptor>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A6140
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6240
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7A7CD5460
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
+    public void GetResult(){} // RVA: 0x7A7CFCBF0
+    public void OnCompleted(){} // RVA: 0x7A7CFCD40
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFCE40
+    public void SourceOnCompleted(){} // RVA: 0x7A7CD56E0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.Rendering.AsyncGPUReadbackRequest> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A8B40
-    public void UnsafeOnCompleted(){} // RVA: 0x55A8C40
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A2F90
-    public void UnsafeOnCompleted(){} // RVA: 0x55A3090
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÌÎÏÌÎÍÎÍÎÏÍÏÎÏÏÍÏÏÎÌÍÍ> task; // 0x10
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD57A0
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
+    public void GetResult(){} // RVA: 0x7A7CD5840
+    public void OnCompleted(){} // RVA: 0x7A7CF9BD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF9CD0
+    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÍÌÌÏÎÎÍÎÌÏÌÎÏÍÏÎÌÌÌÌÌÏ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7637E60
+    public void get_IsCompleted(){} // RVA: 0x7A7E9F6A0
+    public void GetResult(){} // RVA: 0x7A75F4910
+    public void OnCompleted(){} // RVA: 0x7A7E9F730
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7E9F740
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÎÍÎÌÌÏÎÎÎÎÏÍÍÌÎÏÌÍÏÎÌÌ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A790A7A0
+    public void GetAwaiter(){} // RVA: 0x7A7662BE0
+    public void get_IsCompleted(){} // RVA: 0x7A7E9FD90
+    public void GetResult(){} // RVA: 0x7A7E9FE90
+    public void OnCompleted(){} // RVA: 0x7A7E9FF40
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7E9FFA0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiLeaderboardAnonymizationStatus> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void get_IsCompleted(){} // RVA: 0x7A77CFDD0
+    public void GetResult(){} // RVA: 0x7A75F4910
+    public void OnCompleted(){} // RVA: 0x7A7EA0070
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7EA0210
+    public void Callback(){} // RVA: 0x7AEAEDA50
+    public void .cctor(){} // RVA: 0x7AEAEDAC0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiLeaderboard> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7C66120
+    public void get_IsCompleted(){} // RVA: 0x7A77CFDD0
+    public void GetResult(){} // RVA: 0x7A7EA04C0
+    public void OnCompleted(){} // RVA: 0x7A7EA0570
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7EA0600
+    public void Callback(){} // RVA: 0x7AEAEDDA0
+    public void .cctor(){} // RVA: 0x7AEAEDE10
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IReadOnlyList`1<ÌÎÌÏÎÌÌÌÌÏÍÌÏÏÏÎÍÍÌÎÎÏÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7EA06B0
+    public void GetAwaiter(){} // RVA: 0x7A76A6DB0
+    public void get_IsCompleted(){} // RVA: 0x7A7EA0710
+    public void GetResult(){} // RVA: 0x7A7EA0740
+    public void OnCompleted(){} // RVA: 0x7A7EA07F0
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7EA0880
+    public void Callback(){} // RVA: 0x7AEAEE1F0
+    public void .cctor(){} // RVA: 0x7AEAEE260
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiStoreShelf>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5C00
+    public void GetResult(){} // RVA: 0x7A7CD5C40
+    public void OnCompleted(){} // RVA: 0x7A7CFD180
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFD280
+    public void SourceOnCompleted(){} // RVA: 0x7A7CD5E50
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<long> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x557F490
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A99B0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9AB0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD57A0
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
+    public void GetResult(){} // RVA: 0x7A7CD5840
+    public void OnCompleted(){} // RVA: 0x7A7CFF8C0
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF9C0
+    public void SourceOnCompleted(){} // RVA: 0x7A7CD5AE0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÌÎÌÎÌÍÌÎÍÏÏÍÎÍÏÍÎÌÏÎÍÏÎ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÎÏÍÌÏÍÏÌÏÍÏÍÌÏÌÍÎÎÌÌÎÎ[]> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5460
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
+    public void GetResult(){} // RVA: 0x7A7CFCBF0
+    public void OnCompleted(){} // RVA: 0x7A7CFE290
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFE390
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFE3A0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,string>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A2F90
-    public void UnsafeOnCompleted(){} // RVA: 0x55A3090
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7A7CD5460
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
+    public void GetResult(){} // RVA: 0x7A7CFCBF0
+    public void OnCompleted(){} // RVA: 0x7A7CFE290
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFE390
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFE3A0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÌÌÌÏÌÍÎÎÌÌÏÌÌÏÎÌÍÌÌÍÎÎ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5460
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
+    public void GetResult(){} // RVA: 0x7A7CFCBF0
+    public void OnCompleted(){} // RVA: 0x7A7CFE290
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFE390
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFE3A0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÌÏÌÍÏÌÌÍÌÌÍÌÎÍÌÍÎÏÌÌÌÎÏ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5460
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5470
+    public void GetResult(){} // RVA: 0x7A7CFCBF0
+    public void OnCompleted(){} // RVA: 0x7A7CFE290
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFE390
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFE3A0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<UnityEngine.GameObject,UnityEngine.GameObject>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A6140
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6240
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiLedgerTransactions> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CDE1C0
+    public void get_IsCompleted(){} // RVA: 0x7A7CDE1D0
+    public void GetResult(){} // RVA: 0x7A7CFD700
+    public void OnCompleted(){} // RVA: 0x7A7CFD760
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFD860
+    public void SourceOnCompleted(){} // RVA: 0x7A7CDE4F0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<PagedGroupResult> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD6990
+    public void get_IsCompleted(){} // RVA: 0x7A7CD69A0
+    public void GetResult(){} // RVA: 0x7A7CD69E0
+    public void OnCompleted(){} // RVA: 0x7A7CD6A20
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CD6B20
+    public void SourceOnCompleted(){} // RVA: 0x7A7CD6B30
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÍÎÌÏÌÍÍÌÎÎÍÏÍÏÏÌÍÍÌÍÍÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÎÏÍÏÍÎÌÏÎÏÍÍÎÏÏÎÌÎÍÌÎÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
+    public void MoveNext(){} // RVA: 0x7AEB3B400
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<GetAvatarsResult> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IReadOnlyList`1<VRC.Core.ApiAvatarStyle>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiAvatarPart> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÏÎÍÏÍÏÍÎÎÍÎÎÏÍÎÍÍÍÌÌÍÏÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÌÍÎÎÍÏÎÏÌÎÌÌÎÏÍÍÏÎÏÏÍÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<bool,bool,bool>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F7E940
-    public void get_IsCompleted(){} // RVA: 0x5593BC0
-    public void GetResult(){} // RVA: 0x559AD30
-    public void OnCompleted(){} // RVA: 0x55A6540
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6640
-    public void SourceOnCompleted(){} // RVA: 0x5593E00
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÏÎÎÌÌÌÍÍÌÌÍÏÏÍÎÎÏÍÌÌÏÍ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IEnumerable`1<VRC.Core.ApiFile>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<VRC.Core.ApiMutualFriend>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<VRC.Core.ApiMutualGroup>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`3<bool,string,bool>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557ED60
-    public void get_IsCompleted(){} // RVA: 0x557EDD0
-    public void GetResult(){} // RVA: 0x73C730
-    public void OnCompleted(){} // RVA: 0x55A6940
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6A40
-    public void SourceOnCompleted(){} // RVA: 0x557F010
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiSharedConnectionCounts> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÏÌÌÍÌÏÏÎÏÏÏÏÍÍÌÌÍÎÍÎÍÌÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÎÌÏÎÏÏÍÎÎÌÍÏÍÌÍÌÍÌÏÍÍÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÏÎÏÌÎÎÌÌÍÌÎÌÎÌÎÍÎÏÏÍÍÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AwakeMonitor : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.GameObject[]> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
 }
 
-public class Awaiter
+public class AxisDirection : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Localization.LocalizableString> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x55816D0
-    public void get_IsCompleted(){} // RVA: 0x5581740
-    public void GetResult(){} // RVA: 0x5581780
-    public void OnCompleted(){} // RVA: 0x55A9BB0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9CB0
-    public void SourceOnCompleted(){} // RVA: 0x5581A40
+    public void .ctor(){} // RVA: 0x7A75F5730
 }
 
-public class Awaiter
+public class AxisDirection[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÏÍÏÍÎÌÏÍÎÍÌÏÎÎÌÎÍÌÍÎÌÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A21C0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E3D0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E3460
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250FD0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E3D0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class AxisHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AC386470
+    public void Invoke(){} // RVA: 0x7AB4CD710
+    public void BeginInvoke(){} // RVA: 0x7AE29E350
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class AxisHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.IList`1<ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AC3865E0
+    public void Invoke(){} // RVA: 0x7AC386750
+    public void BeginInvoke(){} // RVA: 0x7AE2BF0B0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class AxisHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AC386770
+    public void Invoke(){} // RVA: 0x7AC3868E0
+    public void BeginInvoke(){} // RVA: 0x7AE2C1C20
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class AxisMapping : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D7310
 }

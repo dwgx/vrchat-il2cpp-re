@@ -5,36 +5,36 @@
 
 namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
-    public class DepthOfField
+    public class DepthOfField : PostProcessEffectSettings
     {
         // ── Methods ──
-        public void IsEnabledAndSupported(){} // RVA: 0x6F1A140
-        public void .ctor(){} // RVA: 0x6F1A1B0
+        public void IsEnabledAndSupported(){} // RVA: 0x7AECF85F0
+        public void .ctor(){} // RVA: 0x7AECF8660
     }
 
-    public class DepthOfFieldRenderer
+    public class DepthOfFieldRenderer : PostProcessEffectRenderer`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F1A460
-        public void GetCameraFlags(){} // RVA: 0x3CFAF0
-        public void SelectFormat(){} // RVA: 0x6F1A6A0
-        public void CalculateMaxCoCRadius(){} // RVA: 0x6F1A740
-        public void CheckHistory(){} // RVA: 0x6F1A7D0
-        public void Render(){} // RVA: 0x6F1ABB0
-        public void Release(){} // RVA: 0x6F1BF10
+        public void .ctor(){} // RVA: 0x7AECF8910
+        public void GetCameraFlags(){} // RVA: 0x7A81CA9D0
+        public void SelectFormat(){} // RVA: 0x7AECF8B90
+        public void CalculateMaxCoCRadius(){} // RVA: 0x7AECF8C30
+        public void CheckHistory(){} // RVA: 0x7AECF8CC0
+        public void Render(){} // RVA: 0x7AECF90A0
+        public void Release(){} // RVA: 0x7AECFA420
     }
 
-    public class DisplayNameAttribute
+    public class DisplayNameAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class Dithering
+    public class Dithering : Object
     {
         // ── Methods ──
-        public void Render(){} // RVA: 0x6F1C000
-        public void .ctor(){} // RVA: 0x6F1C2D0
+        public void Render(){} // RVA: 0x7AECFA530
+        public void .ctor(){} // RVA: 0x7AECFA800
     }
 
 }

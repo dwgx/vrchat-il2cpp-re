@@ -5,83 +5,83 @@
 
 namespace ThirdParty.Other.UnityStandardAssets.Effects
 {
-    public class AfterburnerPhysicsForce
+    public class AfterburnerPhysicsForce : MonoBehaviour
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x2E8440
-        public void FixedUpdate(){} // RVA: 0x2E8520
-        public void OnDrawGizmosSelected(){} // RVA: 0x2E8F20
-        public void .ctor(){} // RVA: 0x2E9C60
+        public void OnEnable(){} // RVA: 0x7A80E2460
+        public void FixedUpdate(){} // RVA: 0x7A80E2550
+        public void OnDrawGizmosSelected(){} // RVA: 0x7A80E2F60
+        public void .ctor(){} // RVA: 0x7A80E3CF0
     }
 
-    public class ExplosionFireAndDebris
+    public class ExplosionFireAndDebris : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x2E9CC0
-        public void AddFire(){} // RVA: 0x2E9D60
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7A80E3D50
+        public void AddFire(){} // RVA: 0x7A80E3DF0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ExplosionPhysicsForce
+    public class ExplosionPhysicsForce : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x2EAE40
-        public void .ctor(){} // RVA: 0x2EAEE0
+        public void Start(){} // RVA: 0x7A80E4EC0
+        public void .ctor(){} // RVA: 0x7A80E4F60
     }
 
-    public class Explosive
+    public class Explosive : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x2EB630
-        public void OnCollisionEnter(){} // RVA: 0x2EB6C0
-        public void Reset(){} // RVA: 0x2EB7C0
-        public void .ctor(){} // RVA: 0x2EB7D0
+        public void Start(){} // RVA: 0x7A80E56C0
+        public void OnCollisionEnter(){} // RVA: 0x7A80E5750
+        public void Reset(){} // RVA: 0x7A80E5850
+        public void .ctor(){} // RVA: 0x7A80E5860
     }
 
-    public class ExtinguishableParticleSystem
+    public class ExtinguishableParticleSystem : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x2EBE10
-        public void Extinguish(){} // RVA: 0x2EBEC0
-        public void .ctor(){} // RVA: 0x2E5920
+        public void Start(){} // RVA: 0x7A80E5EA0
+        public void Extinguish(){} // RVA: 0x7A80E5F50
+        public void .ctor(){} // RVA: 0x7A80DF8B0
     }
 
-    public class FireLight
+    public class FireLight : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x2EBFC0
-        public void Update(){} // RVA: 0x2EC090
-        public void Extinguish(){} // RVA: 0x2EC540
-        public void .ctor(){} // RVA: 0x2EC5B0
+        public void Start(){} // RVA: 0x7A80E6060
+        public void Update(){} // RVA: 0x7A80E6130
+        public void Extinguish(){} // RVA: 0x7A80E65E0
+        public void .ctor(){} // RVA: 0x7A80E6650
     }
 
-    public class Hose
+    public class Hose : MonoBehaviour
     {
         // ── Methods ──
-        public void Update(){} // RVA: 0x2EC600
-        public void .ctor(){} // RVA: 0x2ECA30
+        public void Update(){} // RVA: 0x7A80E66A0
+        public void .ctor(){} // RVA: 0x7A80E6AF0
     }
 
-    public class ParticleSystemMultiplier
+    public class ParticleSystemMultiplier : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x2ECA90
-        public void .ctor(){} // RVA: 0x2E5920
+        public void Start(){} // RVA: 0x7A80E6B50
+        public void .ctor(){} // RVA: 0x7A80DF8B0
     }
 
-    public class SmokeParticles
+    public class SmokeParticles : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x2ECE70
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7A80E6F30
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class WaterHoseParticles
+    public class WaterHoseParticles : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x2ED000
-        public void OnParticleCollision(){} // RVA: 0x2ED090
-        public void .ctor(){} // RVA: 0x2ED420
+        public void Start(){} // RVA: 0x7A80E70C0
+        public void OnParticleCollision(){} // RVA: 0x7A80E7150
+        public void .ctor(){} // RVA: 0x7A80E7510
     }
 
 }

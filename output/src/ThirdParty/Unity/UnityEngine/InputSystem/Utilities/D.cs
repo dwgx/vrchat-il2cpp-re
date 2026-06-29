@@ -1,27 +1,26 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 // Classes: 2
-// Methods: 9
+// Methods: 8
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
-    public class DelegateHelpers
+    public class DelegateHelpers : Object
     {
         // ── Methods ──
-        public void InvokeCallbacksSafe(){} // RVA: 0x283FA0 | overloaded x3
-        public void InvokeCallbacksSafe_AnyCallbackReturnsTrue(){} // RVA: 0x283FA0
-        public void InvokeCallbacksSafe_AndInvokeReturnedActions(){} // RVA: 0x283FA0
-        public void InvokeCallbacksSafe_AnyCallbackReturnsObject(){} // RVA: 0x283FA0
+        public void InvokeCallbacksSafe(){} // RVA: 0x7AA42AB00
+        public void InvokeCallbacksSafe_AnyCallbackReturnsTrue(){} // RVA: 0x7A8051B10
+        public void InvokeCallbacksSafe_AndInvokeReturnedActions(){} // RVA: 0x7A8051B10
+        public void InvokeCallbacksSafe_AnyCallbackReturnsObject(){} // RVA: 0x7A8051B10
     }
 
-    public class DisplayStringFormatAttribute
+    public class DisplayStringFormatAttribute : Attribute
     {
-        public string <formatString>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_formatString(){} // RVA: 0x2F8380
-        public void set_formatString(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void get_formatString(){} // RVA: 0x7A80F2570
+        public void set_formatString(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void <formatString>k__BackingField(){} // RVA: 0x7B3FB4428
     }
 
 }

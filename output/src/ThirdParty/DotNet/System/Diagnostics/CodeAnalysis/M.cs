@@ -1,217 +1,174 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
 // Classes: 25
-// Methods: 49
+// Methods: 41
 
 namespace ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
 {
-    public class MaybeNullAttribute
+    public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MaybeNullAttribute
+    public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MaybeNullAttribute
+    public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MaybeNullAttribute
+    public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MaybeNullAttribute
+    public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MaybeNullAttribute
+    public class MaybeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MaybeNullWhenAttribute
+    public class MaybeNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_ReturnValue(){} // RVA: 0x3A75E0
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void get_ReturnValue(){} // RVA: 0x7A81A2200
+        public void .ctor(){} // RVA: 0x7A81A2210
     }
 
-    public class MaybeNullWhenAttribute
+    public class MaybeNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void .ctor(){} // RVA: 0x7A81A2210
     }
 
-    public class MaybeNullWhenAttribute
+    public class MaybeNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_ReturnValue(){} // RVA: 0x3A75E0
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void get_ReturnValue(){} // RVA: 0x7A81A2200
+        public void .ctor(){} // RVA: 0x7A81A2210
     }
 
-    public class MaybeNullWhenAttribute
+    public class MaybeNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void .ctor(){} // RVA: 0x7A81A2210
     }
 
-    public class MaybeNullWhenAttribute
+    public class MaybeNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
-        public void get_ReturnValue(){} // RVA: 0x3A75E0
+        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_ReturnValue(){} // RVA: 0x7A81A2200
     }
 
-    public class MaybeNullWhenAttribute
+    public class MaybeNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void .ctor(){} // RVA: 0x7A81A2210
     }
 
-    public class MaybeNullWhenAttribute
+    public class MaybeNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
-        public void get_ReturnValue(){} // RVA: 0x3A75E0
+        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_ReturnValue(){} // RVA: 0x7A81A2200
     }
 
-    public class MaybeNullWhenAttribute
+    public class MaybeNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void .ctor(){} // RVA: 0x7A81A2210
     }
 
-    public class MemberNotNullAttribute
+    public class MemberNotNullAttribute : Attribute
     {
-        public string[] <Members>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Members(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
+        public void get_Members(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class MemberNotNullAttribute
+    public class MemberNotNullAttribute : Attribute
     {
-        public string[] <Members>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9B07600
+        public void .ctor(){} // RVA: 0x7B1949390
     }
 
-    public class MemberNotNullAttribute
+    public class MemberNotNullAttribute : Attribute
     {
-        public string[] <Members>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Members(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
+        public void get_Members(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class MemberNotNullAttribute
+    public class MemberNotNullAttribute : Attribute
     {
-        public string[] <Members>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void get_Members(){} // RVA: 0x2F8380
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Members(){} // RVA: 0x7A80F2570
     }
 
-    public class MemberNotNullAttribute
+    public class MemberNotNullAttribute : Attribute
     {
-        public string[] <Members>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BAED60
+        public void .ctor(){} // RVA: 0x7AD99CA40
     }
 
-    public class MemberNotNullAttribute
+    public class MemberNotNullAttribute : Attribute
     {
-        public string[] <Members>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void get_Members(){} // RVA: 0x2F8380
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Members(){} // RVA: 0x7A80F2570
     }
 
-    public class MemberNotNullWhenAttribute
+    public class MemberNotNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-        public string[] <Members>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_ReturnValue(){} // RVA: 0x3A75E0
-        public void get_Members(){} // RVA: 0x2E07C0
-        public void .ctor(){} // RVA: 0x5BA57A0 | overloaded x2
+        public void get_ReturnValue(){} // RVA: 0x7A81A2200
+        public void get_Members(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x7AD993240
     }
 
-    public class MemberNotNullWhenAttribute
+    public class MemberNotNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-        public string[] <Members>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_ReturnValue(){} // RVA: 0x3A75E0
-        public void get_Members(){} // RVA: 0x2E07C0
-        public void .ctor(){} // RVA: 0x5BA57A0 | overloaded x2
+        public void get_ReturnValue(){} // RVA: 0x7A81A2200
+        public void get_Members(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x7AD993240
     }
 
-    public class MemberNotNullWhenAttribute
+    public class MemberNotNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-        public string[] <Members>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BA57A0 | overloaded x2
-        public void get_ReturnValue(){} // RVA: 0x3A75E0
-        public void get_Members(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7AD993240
+        public void get_ReturnValue(){} // RVA: 0x7A81A2200
+        public void get_Members(){} // RVA: 0x7A80DA7B0
     }
 
-    public class MemberNotNullWhenAttribute
+    public class MemberNotNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-        public string[] <Members>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BB5C40
+        public void .ctor(){} // RVA: 0x7AD9A38B0
     }
 
-    public class MemberNotNullWhenAttribute
+    public class MemberNotNullWhenAttribute : Attribute
     {
-        public bool <ReturnValue>k__BackingField; // 0x10
-        public string[] <Members>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BA57A0 | overloaded x2
-        public void get_ReturnValue(){} // RVA: 0x3A75E0
-        public void get_Members(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7AD993240
+        public void get_ReturnValue(){} // RVA: 0x7A81A2200
+        public void get_Members(){} // RVA: 0x7A80DA7B0
     }
 
 }

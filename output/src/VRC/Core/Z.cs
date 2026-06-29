@@ -5,18 +5,16 @@
 
 namespace VRC.Core
 {
-    public class ZLoggerHandlerLogger
+    public class ZLoggerHandlerLogger : Object
     {
-        public System.Action`3<string,object[],0x65895580> _onMessageLogged; // 0x10
-
         // ── Methods ──
-        public void get_UnityHandler(){} // RVA: 0x76E0600
-        public void EnsureCapturedUnityHandler(){} // RVA: 0x76E0660
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void SetUnityInterceptActive(){} // RVA: 0x76E07A0
-        public void LogFormat(){} // RVA: 0x76E08A0
-        public void LogException(){} // RVA: 0x76E0F40
-        public void .cctor(){} // RVA: 0x76E1140
+        public void get_UnityHandler(){} // RVA: 0x7AF4BF4A0
+        public void EnsureCapturedUnityHandler(){} // RVA: 0x7AF4BF500
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void SetUnityInterceptActive(){} // RVA: 0x7AF4BF640
+        public void LogFormat(){} // RVA: 0x7AF4BF740
+        public void LogException(){} // RVA: 0x7AF4BFDF0
+        public void .cctor(){} // RVA: 0x7AF4C0000
     }
 
 }

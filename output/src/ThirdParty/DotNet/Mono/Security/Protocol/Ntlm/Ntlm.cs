@@ -1,117 +1,96 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.Mono.Security.Protocol.Ntlm
 // Classes: 7
-// Methods: 55
+// Methods: 53
 
 namespace ThirdParty.DotNet.Mono.Security.Protocol.Ntlm
 {
-    public class ChallengeResponse
+    public class ChallengeResponse : Object
     {
-        public byte[] magic;
-        public byte[] nullEncMagic; // 0x8
-        public bool _disposed; // 0x10
-        public byte[] _challenge; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BD2A60 | overloaded x2
-        public void Finalize(){} // RVA: 0x5BD2D30
-        public void set_Password(){} // RVA: 0x5BD2E30
-        public void set_Challenge(){} // RVA: 0x5BD36D0
-        public void get_LM(){} // RVA: 0x5BD3870
-        public void get_NT(){} // RVA: 0x5BD38E0
-        public void Dispose(){} // RVA: 0x5BD3A10 | overloaded x2
-        public void GetResponse(){} // RVA: 0x5BD3A90
-        public void PrepareDESKey(){} // RVA: 0x5BD3D20
-        public void PasswordToKey(){} // RVA: 0x5BD3F20
-        public void .cctor(){} // RVA: 0x5BD4140
+        public void .ctor(){} // RVA: 0x7AD9C05E0
+        public void Finalize(){} // RVA: 0x7AD9C08B0
+        public void set_Password(){} // RVA: 0x7AD9C09B0
+        public void set_Challenge(){} // RVA: 0x7AD9C1250
+        public void get_LM(){} // RVA: 0x7AD9C13F0
+        public void get_NT(){} // RVA: 0x7AD9C1460
+        public void Dispose(){} // RVA: 0x7AD9C1590
+        public void GetResponse(){} // RVA: 0x7AD9C1610
+        public void PrepareDESKey(){} // RVA: 0x7AD9C18A0
+        public void PasswordToKey(){} // RVA: 0x7AD9C1A80
+        public void .cctor(){} // RVA: 0x7AD9C1CA0
     }
 
-    public class ChallengeResponse2
+    public class ChallengeResponse2 : Object
     {
         // ── Methods ──
-        public void Compute_LM(){} // RVA: 0x5BD42E0
-        public void Compute_NTLM_Password(){} // RVA: 0x5BD4880
-        public void Compute_NTLM(){} // RVA: 0x5BD4BA0
-        public void Compute_NTLMv2_Session(){} // RVA: 0x5BD4C10
-        public void Compute_NTLMv2(){} // RVA: 0x5BD5090
-        public void Compute(){} // RVA: 0x5BD5910
-        public void GetResponse(){} // RVA: 0x5BD5C60
-        public void PrepareDESKey(){} // RVA: 0x5BD5F00
-        public void PasswordToKey(){} // RVA: 0x5BD6100
-        public void .cctor(){} // RVA: 0x5BD6330
+        public void Compute_LM(){} // RVA: 0x7AD9C1E40
+        public void Compute_NTLM_Password(){} // RVA: 0x7AD9C23E0
+        public void Compute_NTLM(){} // RVA: 0x7AD9C2700
+        public void Compute_NTLMv2_Session(){} // RVA: 0x7AD9C2770
+        public void Compute_NTLMv2(){} // RVA: 0x7AD9C2BF0
+        public void Compute(){} // RVA: 0x7AD9C3470
+        public void GetResponse(){} // RVA: 0x7AD9C37C0
+        public void PrepareDESKey(){} // RVA: 0x7AD9C3A60
+        public void PasswordToKey(){} // RVA: 0x7AD9C3C40
+        public void .cctor(){} // RVA: 0x7AD9C3E70
     }
 
-    public class MessageBase
+    public class MessageBase : Object
     {
-        public byte[] header;
-        public int _type; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void get_Flags(){} // RVA: 0x8ABED0
-        public void set_Flags(){} // RVA: 0x8AC660
-        public void get_Type(){} // RVA: 0x32A5C0
-        public void PrepareMessage(){} // RVA: 0x5BD6590
-        public void Decode(){} // RVA: 0x5BD67A0
-        public void CheckHeader(){} // RVA: 0x5BD6A70
-        public void GetBytes(){} // RVA: 0xCD60
-        public void .cctor(){} // RVA: 0x5BD6BA0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void get_Flags(){} // RVA: 0x7A8668BC0
+        public void set_Flags(){} // RVA: 0x7A8669360
+        public void get_Type(){} // RVA: 0x7A8124910
+        public void PrepareMessage(){} // RVA: 0x7AD9C40D0
+        public void Decode(){} // RVA: 0x7AD9C42E0
+        public void CheckHeader(){} // RVA: 0x7AD9C45B0
+        public void GetBytes(){} // RVA: 0x7A7E00680
+        public void .cctor(){} // RVA: 0x7AD9C46E0
     }
 
-    public class NtlmSettings
+    public class NtlmSettings : Object
     {
-        public 0x659A5D48 Domain;
-
         // ── Methods ──
-        public void get_DefaultAuthLevel(){} // RVA: 0x5BD6C80
-        public void .cctor(){} // RVA: 0x5BD6CE0
+        public void get_DefaultAuthLevel(){} // RVA: 0x7AD9C47C0
+        public void .cctor(){} // RVA: 0x7AD9C4820
     }
 
-    public class Type1Message
+    public class Type1Message : MessageBase
     {
-        public string _host; // 0x18
-        public string _domain; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BD6D20
-        public void set_Domain(){} // RVA: 0x5BD6E30
-        public void set_Host(){} // RVA: 0x5BD6F30
-        public void Decode(){} // RVA: 0x5BD7030
-        public void GetBytes(){} // RVA: 0x5BD7260
+        public void .ctor(){} // RVA: 0x7AD9C4860
+        public void set_Domain(){} // RVA: 0x7AD9C4970
+        public void set_Host(){} // RVA: 0x7AD9C4A70
+        public void Decode(){} // RVA: 0x7AD9C4B70
+        public void GetBytes(){} // RVA: 0x7AD9C4DA0
     }
 
-    public class Type2Message
+    public class Type2Message : MessageBase
     {
-        public byte[] _nonce; // 0x18
-        public string _targetName; // 0x20
-        public byte[] _targetInfo; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BD76B0
-        public void Finalize(){} // RVA: 0x5BD77A0
-        public void get_Nonce(){} // RVA: 0x5BD7800
-        public void get_TargetName(){} // RVA: 0x30B0C0
-        public void get_TargetInfo(){} // RVA: 0x5BD7880
-        public void Decode(){} // RVA: 0x5BD7900
-        public void GetBytes(){} // RVA: 0x5BD7D20
+        public void .ctor(){} // RVA: 0x7AD9C51F0
+        public void Finalize(){} // RVA: 0x7AD9C52E0
+        public void get_Nonce(){} // RVA: 0x7AD9C5340
+        public void get_TargetName(){} // RVA: 0x7A81052C0
+        public void get_TargetInfo(){} // RVA: 0x7AD9C53C0
+        public void Decode(){} // RVA: 0x7AD9C5440
+        public void GetBytes(){} // RVA: 0x7AD9C5860
     }
 
-    public class Type3Message
+    public class Type3Message : MessageBase
     {
-        public 0x659A5D48 _level; // 0x18
-        public byte[] _challenge; // 0x20
-        public string _host; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BD7DF0
-        public void Finalize(){} // RVA: 0x5BD8180
-        public void set_Domain(){} // RVA: 0x5BD8220
-        public void set_Password(){} // RVA: 0x305200
-        public void set_Username(){} // RVA: 0x49B830
-        public void Decode(){} // RVA: 0x5BD8320
-        public void DecodeString(){} // RVA: 0x5BD8890
-        public void EncodeString(){} // RVA: 0x5BD8900
-        public void GetBytes(){} // RVA: 0x5BD89A0
+        public void .ctor(){} // RVA: 0x7AD9C5930
+        public void Finalize(){} // RVA: 0x7AD9C5CD0
+        public void set_Domain(){} // RVA: 0x7AD9C5D70
+        public void set_Password(){} // RVA: 0x7A80FF440
+        public void set_Username(){} // RVA: 0x7A8296DE0
+        public void Decode(){} // RVA: 0x7AD9C5E70
+        public void DecodeString(){} // RVA: 0x7AD9C63E0
+        public void EncodeString(){} // RVA: 0x7AD9C6450
+        public void GetBytes(){} // RVA: 0x7AD9C64F0
     }
 
 }

@@ -1,42 +1,39 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Net
 // Classes: 4
-// Methods: 13
+// Methods: 11
 
 namespace ThirdParty.DotNet.System.Net
 {
-    public class AuthenticationManager
+    public class AuthenticationManager : Object
     {
         // ── Methods ──
-        public void EnsureModules(){} // RVA: 0x6B45660
-        public void Authenticate(){} // RVA: 0x6B45A90
-        public void DoAuthenticate(){} // RVA: 0x6B45BF0
-        public void PreAuthenticate(){} // RVA: 0x6B45FB0
-        public void .cctor(){} // RVA: 0x6B46450
+        public void EnsureModules(){} // RVA: 0x7AE935870
+        public void Authenticate(){} // RVA: 0x7AE935C70
+        public void DoAuthenticate(){} // RVA: 0x7AE935DD0
+        public void PreAuthenticate(){} // RVA: 0x7AE936140
+        public void .cctor(){} // RVA: 0x7AE9365A0
     }
 
-    public class AuthenticationSchemeSelector
+    public class AuthenticationSchemeSelector : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x61DB4E0
-        public void Invoke(){} // RVA: 0x338C60
+        public void .ctor(){} // RVA: 0x7ADFC8120
+        public void Invoke(){} // RVA: 0x7A8133090
     }
 
-    public class Authorization
+    public class Authorization : Object
     {
-        public string DefaultCredentials; // 0x10
-        public bool DefaultNetworkCredentials; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6B1C5B0 | overloaded x2
-        public void get_Message(){} // RVA: 0x2F8380
-        public void get_Complete(){} // RVA: 0x2F84E0
+        public void .ctor(){} // RVA: 0x7AE90D010
+        public void get_Message(){} // RVA: 0x7A80F2570
+        public void get_Complete(){} // RVA: 0x7A80F26D0
     }
 
-    public class AutoWebProxyScriptEngine
+    public class AutoWebProxyScriptEngine : Object
     {
         // ── Methods ──
-        public void GetProxies(){} // RVA: 0x6663400 | overloaded x2
+        public void GetProxies(){} // RVA: 0x7AE451E00
     }
 
 }

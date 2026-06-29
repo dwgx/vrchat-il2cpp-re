@@ -1,810 +1,1274 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 258
+// Methods: 769
 
-public class SCNetworkReachabilityCallback
+public class SPKey : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1AF99C0
-    public void Invoke(){} // RVA: 0x4394E0
+    public void .ctor(){} // RVA: 0x7ADB17AA0
+    public void get_UsesProxy(){} // RVA: 0x7AE961FD0
+    public void GetHashCode(){} // RVA: 0x7AE962020
+    public void Equals(){} // RVA: 0x7AE9620F0
 }
 
-public class SCNetworkReachabilityContext
+public class SavedSearches : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class SECURITY_ATTRIBUTES
+public class Scanbeam : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class SECURITY_ATTRIBUTES
+public class ScheduledFrameEventComparer : Object
 {
+    // ── Methods ──
+    public void Compare(){} // RVA: 0x7AF4D45D0
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class SM2P256V1Holder
+public class ScheduledTimeEventComparer : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x964B1E0
-    public void .cctor(){} // RVA: 0x964B330
+    public void Compare(){} // RVA: 0x7AF4D4550
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class SM2P256V1Holder
+public class Scheduler : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x97A2350
-    public void .cctor(){} // RVA: 0x97A2530
+    public void InitScheduler(){} // RVA: 0x7ADD2F340
+    public void WakeupScheduler(){} // RVA: 0x7ADD2F4F0
+    public void SchedulerThread(){} // RVA: 0x7ADD2F560
+    public void get_Instance(){} // RVA: 0x7ADD2F800
+    public void .ctor(){} // RVA: 0x7ADD2F860
+    public void Remove(){} // RVA: 0x7ADD2FB40
+    public void Change(){} // RVA: 0x7ADD2FC60
+    public void Add(){} // RVA: 0x7ADD2FF40
+    public void InternalRemove(){} // RVA: 0x7ADD30020
+    public void TimerCB(){} // RVA: 0x7ADD30050
+    public void FireTimer(){} // RVA: 0x7ADD300D0
+    public void RunSchedulerLoop(){} // RVA: 0x7ADD301A0
+    public void .cctor(){} // RVA: 0x7ADD305C0
 }
 
-public class SM2P256V1LookupTable
+public class SchemeJson : ValueType
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94F9FC0
+    public void ToScheme(){} // RVA: 0x7A7EB0560
+    public void ToJson(){} // RVA: 0x7AEBD0CA0
+    public void ToSchemes(){} // RVA: 0x7AEBD0E50
 }
 
-public class SMAALuts
+public class SchemeJson[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SPKey
+public class ScopeSnapshot : Object
 {
-    public System.Uri Key; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5D298A0
-    public void get_UsesProxy(){} // RVA: 0x6B72BB0
-    public void GetHashCode(){} // RVA: 0x6B72C00
-    public void Equals(){} // RVA: 0x6B72CD0
+    public void .ctor(){} // RVA: 0x7A81B7C50
+    public void Dispose(){} // RVA: 0x7AE209740
 }
 
-public class SR
+public class Segment : Object
 {
     // ── Methods ──
-    public void GetString(){} // RVA: 0x1A3F520 | overloaded x3
-    public void Format(){} // RVA: 0x5BF4DF0 | overloaded x4
-    public void GetResourceString(){} // RVA: 0x1A3F520
+    public void .ctor(){} // RVA: 0x7A7E189D0
+    public void get_Capacity(){} // RVA: 0x7A7E00710
+    public void get_FreezeOffset(){} // RVA: 0x7A7E00710
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7A7E18770
+    public void TryDequeue(){} // RVA: 0x7A7E019D0
+    public void TryPeek(){} // RVA: 0x7A7E03AD0
+    public void TryEnqueue(){} // RVA: 0x7A8051B10
 }
 
-public class SR
+public class Segment : Object
 {
     // ── Methods ──
-    public void GetString(){} // RVA: 0x5BF4A70 | overloaded x2
+    public void .ctor(){} // RVA: 0x7A7E189D0
 }
 
-public class SR
+public class Segment : Object
 {
     // ── Methods ──
-    public void GetString(){} // RVA: 0x1A3F520
-    public void Format(){} // RVA: 0x66C2BE0 | overloaded x3
+    public void .ctor(){} // RVA: 0x7ABDC0550
 }
 
-public class SR
+public class Segment : Object
 {
     // ── Methods ──
-    public void GetString(){} // RVA: 0x1A3F520
-    public void Format(){} // RVA: 0x659F1A0 | overloaded x4
+    public void .ctor(){} // RVA: 0x7ABDBF730
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDBFE30
+    public void TryEnqueue(){} // RVA: 0x7ABDC0370
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDBFF30
+    public void TryPeek(){} // RVA: 0x7ABDC0180
 }
 
-public class SR
+public class Segment : Object
 {
     // ── Methods ──
-    public void Format(){} // RVA: 0x67E3950
+    public void .ctor(){} // RVA: 0x7ABDBEED0
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDBEFE0
+    public void TryEnqueue(){} // RVA: 0x7ABDBF530
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDBF0E0
+    public void TryPeek(){} // RVA: 0x7ABDBF330
 }
 
-public class SR
+public class Segment : Object
 {
     // ── Methods ──
-    public void Format(){} // RVA: 0x6821110
+    public void .ctor(){} // RVA: 0x7ABDBF730
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDBFE30
+    public void TryEnqueue(){} // RVA: 0x7ABDC0370
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDBFF30
+    public void TryPeek(){} // RVA: 0x7ABDC0180
 }
 
-public class SR
+public class Segment : Object
 {
     // ── Methods ──
-    public void Format(){} // RVA: 0x6902BE0 | overloaded x2
+    public void .ctor(){} // RVA: 0x7ABDBF730
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDBFE30
+    public void TryEnqueue(){} // RVA: 0x7ABDC0370
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDBFF30
+    public void TryPeek(){} // RVA: 0x7ABDC0180
 }
 
-public class STOutput
+public class Segment : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger mPrime; // 0x10
-    public byte[] mPrimeSeed; // 0x18
-    public int mPrimeGenCounter; // 0x20
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Prime(){} // RVA: 0x2F8380
-    public void get_PrimeSeed(){} // RVA: 0x2E07C0
-    public void get_PrimeGenCounter(){} // RVA: 0x760030
+    public void .ctor(){} // RVA: 0x7ABDBF730
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDBFE30
+    public void TryEnqueue(){} // RVA: 0x7ABDC0370
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDBFF30
+    public void TryPeek(){} // RVA: 0x7ABDC0180
 }
 
-public class SYSTEMTIME
+public class Segment : Object
 {
     // ── Methods ──
-    public void Equals(){} // RVA: 0x5BF2C30
+    public void .ctor(){} // RVA: 0x7ABDBEED0
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDC2BC0
+    public void TryEnqueue(){} // RVA: 0x7ABDC3130
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDC2CC0
+    public void TryPeek(){} // RVA: 0x7ABDC2F20
 }
 
-public class SafeDeflateStreamHandle
+public class Segment : Object
 {
     // ── Methods ──
-    public void get_IsInvalid(){} // RVA: 0xF70920
-    public void .ctor(){} // RVA: 0x5C229A0
-    public void ReleaseHandle(){} // RVA: 0x6CC90C0
+    public void .ctor(){} // RVA: 0x7ABDBF730
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDBFE30
+    public void TryEnqueue(){} // RVA: 0x7ABDC0370
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDBFF30
+    public void TryPeek(){} // RVA: 0x7ABDC0180
 }
 
-public class SafeModeOptions
+public class Segment : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7ABDBF730
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDBFE30
+    public void TryEnqueue(){} // RVA: 0x7ABDC0370
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDBFF30
+    public void TryPeek(){} // RVA: 0x7ABDC0180
 }
 
-public class Sample
+public class Segment : Object
 {
     // ── Methods ──
-    public void WriteTo(){} // RVA: 0x63DD4A0
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7ABDC2250
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDC2330
+    public void TryEnqueue(){} // RVA: 0x7ABDC2990
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDC2430
+    public void TryPeek(){} // RVA: 0x7ABDC2700
 }
 
-public class SampleFramesHandler
+public class Segment : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x166C910
-    public void Invoke(){} // RVA: 0x439370
+    public void .ctor(){} // RVA: 0x7ABDBF730
+    public void get_FreezeOffset(){} // RVA: 0x7ABDBEFC0
+    public void EnsureFrozenForEnqueues(){} // RVA: 0x7ABDBF810
+    public void TryEnqueue(){} // RVA: 0x7ABDBFCB0
+    public void get_Capacity(){} // RVA: 0x7A8D0A110
+    public void TryDequeue(){} // RVA: 0x7ABDBF910
+    public void TryPeek(){} // RVA: 0x7ABDBFB10
 }
 
-public class SaveableInventoryGroupData
+public class Select : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18890
+    public void OnCompleted(){} // RVA: 0x7A7E18770
+    public void OnError(){} // RVA: 0x7A7E18800
+    public void OnNext(){} // RVA: 0x7A8051B10
 }
 
-public class SaveableInventoryGroupData
+public class Select : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18890
+    public void OnCompleted(){} // RVA: 0x7A7E18770
+    public void OnError(){} // RVA: 0x7A7E18800
+    public void OnNext(){} // RVA: 0x7A8051B10
 }
 
-public class SaveableInventoryGroupData
+public class SendNetworkEventDelegate : MulticastDelegate
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7B183D060
+    public void Invoke(){} // RVA: 0x7AB4CE9E0
+    public void BeginInvoke(){} // RVA: 0x7B183D1D0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class SaveableInventoryGroupData
+public class SerializableContainer : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class SaveableInventoryGroupData
+public class SerializableVector3 : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8DA3540
+    public void Initialize(){} // RVA: 0x7A8DA3560
+    public void Equals(){} // RVA: 0x7A8DA3560
+    public void op_Implicit(){} // RVA: 0x7A8DA3560
+    public void CompareBaseObjects(){} // RVA: 0x7A8DA3560
+    public void IsNativeObjectAlive(){} // RVA: 0x7A8DA3560
+    public void GetCachedPtr(){} // RVA: 0x7A8DA3560
+    public void set_Value(){} // RVA: 0x7A8DA3560
+    public void get_Value(){} // RVA: 0x7A8DA3560
 }
 
-public class SavedSearches
+public class SerializationCallback : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7A7E1DFE0
+    public void Invoke(){} // RVA: 0x7A7E18890
+    public void BeginInvoke(){} // RVA: 0x7A8051B10
+    public void EndInvoke(){} // RVA: 0x7A7E18890
 }
 
-public class Scanbeam
+public class SerializationCallback : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7ABDFF240
+    public void Invoke(){} // RVA: 0x7AB0FFA80
 }
 
-public class SceneCaptureCompleteData
+public class SerializationDelegate : MulticastDelegate
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB1A5170
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7A98B8490
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class SceneCaptureRequestInternal
+public class ServiceAccessor : Object
 {
+    // ── Methods ──
+    public void get_CallSite(){} // RVA: 0x7A80F2570
+    public void set_CallSite(){} // RVA: 0x7A80D8E20
+    public void get_RealizedService(){} // RVA: 0x7A80DA7B0
+    public void set_RealizedService(){} // RVA: 0x7A813E420
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class ScheduledFrameEvent
+public class ServiceDescriptorCacheItem : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x76F5410
+    public void get_Last(){} // RVA: 0x7A7E2C2B0
+    public void get_Count(){} // RVA: 0x7A7E2C2C0
+    public void get_Item(){} // RVA: 0x7A7E2C320
+    public void GetSlot(){} // RVA: 0x7A7E2C330
+    public void Add(){} // RVA: 0x7A7E2C340
 }
 
-public class ScheduledFrameEventComparer
+public class SetClassValueAction : MulticastDelegate
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x76F5550
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7A7E1DFE0
+    public void Invoke(){} // RVA: 0x7A8051B10
 }
 
-public class ScheduledTimeEvent
+public class SetElementProperty : Property`2
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x76F5350
+    public void get_Name(){} // RVA: 0x7A7E00680
+    public void .ctor(){} // RVA: 0x7A7E18770
 }
 
-public class ScheduledTimeEventComparer
+public class SetStructValueAction : MulticastDelegate
 {
     // ── Methods ──
-    public void Compare(){} // RVA: 0x76F54D0
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7A7E1DFE0
+    public void Invoke(){} // RVA: 0x7A8051B10
 }
 
-public class Scheduler
+public class Settings : Object
 {
-    public Scheduler instance;
-
     // ── Methods ──
-    public void InitScheduler(){} // RVA: 0x5F408E0
-    public void WakeupScheduler(){} // RVA: 0x5F40A90
-    public void SchedulerThread(){} // RVA: 0x5F40B00
-    public void get_Instance(){} // RVA: 0x5F40D80
-    public void .ctor(){} // RVA: 0x5F40DE0
-    public void Remove(){} // RVA: 0x5F410C0
-    public void Change(){} // RVA: 0x5F41210
-    public void Add(){} // RVA: 0x5F41540
-    public void InternalRemove(){} // RVA: 0x5F41620
-    public void TimerCB(){} // RVA: 0x5F41650
-    public void FireTimer(){} // RVA: 0x5F416D0
-    public void RunSchedulerLoop(){} // RVA: 0x5F417A0
-    public void .cctor(){} // RVA: 0x5F41BA0
+    public void .ctor(){} // RVA: 0x7B167C4C0
+    public void Get(){} // RVA: 0x7AA0A4F10
+    public void Save(){} // RVA: 0x7AA0A62B0
+    public void LoadFromStorage(){} // RVA: 0x7B167C7A0
+    public void GetSettingsFilePath(){} // RVA: 0x7B167CCF0
+    public void WriteToStorage(){} // RVA: 0x7B167CD80
+    public void <Save>b__9_0(){} // RVA: 0x7AA0A4F00
 }
 
-public class SchemaDatatypeMap : .ctor
+public class ShaderAssetList : ScriptableObject
 {
-    public string name; // 0x10
-    public System.Xml.Schema.DatatypeImplementation type; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0 | overloaded x2
-    public void op_Explicit(){} // RVA: 0x100A1F0
-    public void get_Name(){} // RVA: 0x2F8380
-    public void get_ParentIndex(){} // RVA: 0x760030
-    public void CompareTo(){} // RVA: 0x6AECB20
+    public void .ctor(){} // RVA: 0x7A82F4A40
 }
 
-public class SchemaScope
+public class ShapeCache : ValueType
 {
-    public 0x658E7490 Value; // 0x10
-    public System.Collections.Generic.IList`1<Newtonsoft.Json.Schema.JsonSchemaModel> Depth; // 0x18
-    public System.Collections.Generic.Dictionary`2<string,bool> Path; // 0x20
-    public string QuoteChar; // 0x28
-    public int TokenType; // 0x30
-    public bool ValueType; // 0x34
-    public System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> CurrentSchemas; // 0x38
-    public Newtonsoft.Json.Linq.JTokenWriter CurrentMemberSchemas; // 0x40
-
     // ── Methods ──
-    public void get_CurrentPropertyName(){} // RVA: 0x30B130
-    public void set_CurrentPropertyName(){} // RVA: 0x2DEE90
-    public void get_ArrayItemCount(){} // RVA: 0x338CD0
-    public void set_ArrayItemCount(){} // RVA: 0x338CE0
-    public void get_IsUniqueArray(){} // RVA: 0x313C20
-    public void get_UniqueArrayItems(){} // RVA: 0x4976A0
-    public void get_CurrentItemWriter(){} // RVA: 0x35A740
-    public void set_CurrentItemWriter(){} // RVA: 0x305200
-    public void get_Schemas(){} // RVA: 0x2E07C0
-    public void get_RequiredProperties(){} // RVA: 0x30B0C0
-    public void get_TokenType(){} // RVA: 0x32A5C0
-    public void .ctor(){} // RVA: 0x5FAA1C0
-    public void GetRequiredProperties(){} // RVA: 0x5FAA7E0
+    public void Invalidate(){} // RVA: 0x7A7671700
+    public void ValidateCache(){} // RVA: 0x7A7671710
+    public void IsValid(){} // RVA: 0x7A7671720
+    public void CalculateDeltaTransformationMatrix(){} // RVA: 0x7A7671730
 }
 
-public class SchemeJson
+public class ShapeData : ValueType
 {
     // ── Methods ──
-    public void ToScheme(){} // RVA: 0x6DE1D90
-    public void ToJson(){} // RVA: 0x6DE23A0 | overloaded x2
-    public void ToSchemes(){} // RVA: 0x6DE2510
+    public void ToCollisionShape(){} // RVA: 0x7A7F1CD50
+    public void GetMidpoint(){} // RVA: 0x7A7F1CDE0
+    public void GetClosestPoint(){} // RVA: 0x7A7F1CE80
+    public void CalcVelocityAtPoint(){} // RVA: 0x7A7F1CEE0
+    public void UpdateShape(){} // RVA: 0x7A7F1CF30
+    public void GetTransformLossyScale(){} // RVA: 0x7A7F1CF60
+    public void UpdateVelocity(){} // RVA: 0x7A7F1CF70
 }
 
-public class Scope
+public class SharedBool : Object
 {
-    public Microsoft.Extensions.Logging.LoggerFactoryScopeProvider _provider; // 0x10
-    public bool _isDisposed; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5BAAEA0
-    public void get_Parent(){} // RVA: 0x30B0C0
-    public void get_State(){} // RVA: 0x30B130
-    public void ToString(){} // RVA: 0x5BAAFA0
-    public void Dispose(){} // RVA: 0x5BB2C50
+    public void .ctor(){} // RVA: 0x7ADBFCEF0
 }
 
-public class Scope
+public class SharedInt : Object
 {
-    public Microsoft.Extensions.Logging.LoggerExternalScopeProvider _provider; // 0x10
-    public bool _isDisposed; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5BAF9F0
-    public void SetDisposable(){} // RVA: 0x5BAFA90
-    public void Dispose(){} // RVA: 0x5BAFC40
+    public void .ctor(){} // RVA: 0x7ADBFCEE0
 }
 
-public class Scope
+public class SharedLong : Object
 {
-    public Microsoft.Extensions.Logging.LoggerExternalScopeProvider _provider; // 0x10
-    public bool _isDisposed; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5BAAEA0
-    public void get_Parent(){} // RVA: 0x30B0C0
-    public void get_State(){} // RVA: 0x30B130
-    public void ToString(){} // RVA: 0x5BAAFA0
-    public void Dispose(){} // RVA: 0x5BAAFC0
+    public void .ctor(){} // RVA: 0x7A97242F0
 }
 
-public class Scope
+public class SharedStatic`1 : ValueType
 {
-    public Microsoft.Extensions.Logging.LoggerExternalScopeProvider _provider; // 0x10
-    public bool _isDisposed; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x66E8CA0
-    public void Dispose(){} // RVA: 0x66E8F30
-    public void IsAllowedType(){} // RVA: 0x66E9080
-    public void IsTypeUnconditionallyAllowed(){} // RVA: 0x66E9230
-    public void .cctor(){} // RVA: 0x66E9470
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void get_Data(){} // RVA: 0x7A7E00680
+    public void GetOrCreate(){} // RVA: 0x7A8051B10
 }
 
-public class ScopeSnapshot : `
+public class SharedStatic`1 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3BCE00
-    public void Dispose(){} // RVA: 0x641B9C0
+    public void GetOrCreate(){} // RVA: 0x7AA137FF0
+    public void .ctor(){} // RVA: 0x7A767FEF0
+    public void get_Data(){} // RVA: 0x7A7A31080
 }
 
-public class ScopedProfile : `
+public class SignalSource : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void System.IDisposable.Dispose(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7A9B34670
+    public void get_SignalDuration(){} // RVA: 0x7A9B346E0
+    public void GetSignal(){} // RVA: 0x7A9B34700
 }
 
-public class ScriptRunBehaviourFixedUpdate
+public class SingleConsumerUnboundedChannelReader : ChannelReader`1
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void get_Completion(){} // RVA: 0x7A7E00490
+    public void TryRead(){} // RVA: 0x7A7E019D0
+    public void WaitToReadAsync(){} // RVA: 0x7A7E00820
+    public void SingalContinuation(){} // RVA: 0x7A7E18770
+    public void SingalCancellation(){} // RVA: 0x7A7E188D0
+    public void SingalCompleted(){} // RVA: 0x7A7E18800
+    public void ReadAllAsync(){} // RVA: 0x7A7E063E0
+    public void Cysharp.Threading.Tasks.IUniTaskSource<System.Boolean>.GetResult(){} // RVA: 0x7A7E01990
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetStatus(){} // RVA: 0x7A7E015F0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.OnCompleted(){} // RVA: 0x7A7E22030
+    public void Cysharp.Threading.Tasks.IUniTaskSource.UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void CancellationCallback(){} // RVA: 0x7A7E18830
 }
 
-public class ScriptRunBehaviourLateUpdate
+public class SingleConsumerUnboundedChannelWriter : ChannelWriter`1
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void TryWrite(){} // RVA: 0x7A8051B10
+    public void TryComplete(){} // RVA: 0x7A7E019D0
 }
 
-public class ScriptRunBehaviourUpdate
+public class SingleRange : ValueType
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7908E50
 }
 
-public class ScriptRunDelayedDynamicFrameRate
+public class SingleRangeComparer : Object
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Compare(){} // RVA: 0x7AE9FF3D0
+    public void .cctor(){} // RVA: 0x7AE9FF430
 }
 
-public class ScriptRunDelayedDynamicFrameRate
+public class SingleRange[] : Array
 {
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A3CC0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EBF0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E4410
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA25D800
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EBF0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class ScriptRunDelayedFixedFrameRate
+public class SizeGroup : Object
 {
+    // ── Methods ──
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void TryGetArray(){} // RVA: 0x7A7E00680
+    public void ReturnArray(){} // RVA: 0x7A7E18800
+    public void Cleanup(){} // RVA: 0x7A7E00710
+    public void Contains(){} // RVA: 0x7A7E019D0
+    public void .ctor(){} // RVA: 0x7A7E18770
 }
 
-public class ScriptRunDelayedStartupFrame
+public class SizeGroup : Object
 {
+    // ── Methods ──
+    public void get_Count(){} // RVA: 0x7A8D0A110
+    public void TryGetArray(){} // RVA: 0x7ABE1FE30
+    public void Contains(){} // RVA: 0x7ABE1FA40
+    public void ReturnArray(){} // RVA: 0x7ABE1F990
+    public void .ctor(){} // RVA: 0x7ABE1FA70
+    public void Cleanup(){} // RVA: 0x7ABE1F9C0
 }
 
-public class ScriptRunDelayedTasks
+public class SizeGroup : Object
 {
+    // ── Methods ──
+    public void get_Count(){} // RVA: 0x7A8D0A110
+    public void TryGetArray(){} // RVA: 0x7ABE1FE30
+    public void Contains(){} // RVA: 0x7ABE1FA40
+    public void ReturnArray(){} // RVA: 0x7ABE1F990
+    public void .ctor(){} // RVA: 0x7ABE1FA70
+    public void Cleanup(){} // RVA: 0x7ABE1F9C0
 }
 
-public class ScrollEvent
+public class SizeGroup : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x74C5330
+    public void get_Count(){} // RVA: 0x7A8D0A110
+    public void TryGetArray(){} // RVA: 0x7ABE1FD70
+    public void Contains(){} // RVA: 0x7ABE1FA40
+    public void ReturnArray(){} // RVA: 0x7ABE1F990
+    public void .ctor(){} // RVA: 0x7ABE1FA70
+    public void Cleanup(){} // RVA: 0x7ABE1F9C0
 }
 
-public class ScrollRectEvent
+public class SkeletonsUpdatedHandler : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x74CBE30
+    public void .ctor(){} // RVA: 0x7A93C45D0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AE2DAA20
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class ScrollerSlider
+public class SlabAllocator : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x73BEB90
-    public void SliderNormalizeValue(){} // RVA: 0x73BEC30
+    public void get_Handle(){} // RVA: 0x7A765F070
+    public void get_SlabSizeInBytes(){} // RVA: 0x7A7EA3980
+    public void Try(){} // RVA: 0x7AEB65440
+    public void Dispose(){} // RVA: 0x7A75F4910
+    public void Try$BurstManaged(){} // RVA: 0x7AEB654A0
 }
 
-public class SealedPrefab
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DDD50
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SealedPrefabAllowSerializeAttribute
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SearchParams
+public class Slot[] : Array
 {
-    public string <searchQuery>k__BackingField; // 0x68
-    public string <searchTags>k__BackingField; // 0x70
-    public string <searchContent>k__BackingField; // 0x78
-    public string <searchInFields>k__BackingField; // 0x80
-    public string <sortBy>k__BackingField; // 0x88
-
     // ── Methods ──
-    public void get_searchQuery(){} // RVA: 0x358D50
-    public void set_searchQuery(){} // RVA: 0x358D60
-    public void get_searchTags(){} // RVA: 0x3A5590
-    public void set_searchTags(){} // RVA: 0x3A55A0
-    public void get_searchContent(){} // RVA: 0x4C7C50
-    public void set_searchContent(){} // RVA: 0x4C34F0
-    public void get_searchInFields(){} // RVA: 0x462D00
-    public void set_searchInFields(){} // RVA: 0x464450
-    public void get_sortBy(){} // RVA: 0x31C010
-    public void set_sortBy(){} // RVA: 0x463060
-    public void .ctor(){} // RVA: 0x9875F30
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP128R1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9646480
-    public void .cctor(){} // RVA: 0x9646610
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1700
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E030
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2DD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250770
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E030
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP128R1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP128R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x947AFC0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP160K1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x96466B0
-    public void .cctor(){} // RVA: 0x9646B90
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP160K1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94803A0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP160R1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9646C30
-    public void .cctor(){} // RVA: 0x9646DC0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP160R1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x9482730
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP160R2Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9646E60
-    public void .cctor(){} // RVA: 0x9646FF0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP160R2LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP160R2Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94876D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP192K1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9647090
-    public void .cctor(){} // RVA: 0x9647570
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP192K1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x948C4B0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1700
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E030
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2DD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250770
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E030
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP192R1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9647610
-    public void .cctor(){} // RVA: 0x96477A0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP192R1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP192R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x9491450
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP224K1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9647840
-    public void .cctor(){} // RVA: 0x9647D20
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP224K1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x9496190
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP224R1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9647DC0
-    public void .cctor(){} // RVA: 0x9647F50
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP224R1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x949B310
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP256K1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9647FF0
-    public void .cctor(){} // RVA: 0x96484D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP256K1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94A0E90
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP256R1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9648570
-    public void .cctor(){} // RVA: 0x9648700
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP256R1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP256R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94A5ED0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP384R1Holder
+public class Slot[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x96487A0
-    public void .cctor(){} // RVA: 0x9648930
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A36D0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EA80
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E4160
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA25D370
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EA80
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP384R1LookupTable
+public class Slot[] : Array
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP384R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94AAD40
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecP521R1Holder
+public class SortedListKeyEnumerator : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x96489D0
-    public void .cctor(){} // RVA: 0x9648B60
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void Dispose(){} // RVA: 0x7A7E18770
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void get_Current(){} // RVA: 0x7A8051B10
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7A7E18770
 }
 
-public class SecP521R1LookupTable
+public class SortedListValueEnumerator : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecP521R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94B02B0
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void Dispose(){} // RVA: 0x7A7E18770
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void get_Current(){} // RVA: 0x7A8051B10
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerator.Reset(){} // RVA: 0x7A7E18770
 }
 
-public class SecT113R1Holder
+public class SpaceComponentType[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9648C00
-    public void .cctor(){} // RVA: 0x9648D90
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D3F10
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EBF0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6990
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA281BF0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EBF0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecT113R1LookupTable
+public class SparseArray`1 : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94B7CD0
+    public void .ctor(){} // RVA: 0x7A7E189D0
+    public void get_Current(){} // RVA: 0x7A7E00680
+    public void Add(){} // RVA: 0x7A8051B10
+    public void Remove(){} // RVA: 0x7A8051B10
 }
 
-public class SecT113R2Holder
+public class SparseArray`1 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9648E30
-    public void .cctor(){} // RVA: 0x9648FC0
+    public void .ctor(){} // RVA: 0x7ABE74A90
+    public void get_Current(){} // RVA: 0x7ABE74B30
+    public void Add(){} // RVA: 0x7ABE74B40
+    public void Remove(){} // RVA: 0x7ABE74DB0
 }
 
-public class SecT113R2LookupTable
+public class SpecialCharacter : ValueType
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R2Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94BA4B0
+    public void .ctor(){} // RVA: 0x7A7EC12E0
 }
 
-public class SecT131R1Holder
+public class Spectrum : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9649060
-    public void .cctor(){} // RVA: 0x96491F0
+    public void GetInstanceID(){} // RVA: 0x7A8E598E0
+    public void Equals(){} // RVA: 0x7A8E59F50
+    public void .ctor(){} // RVA: 0x7A8E5A5C0
+    public void Initialize(){} // RVA: 0x7A8E5A680
+    public void CompareBaseObjects(){} // RVA: 0x7A8E5ACF0
+    public void set_Item(){} // RVA: 0x7A8E5B360
+    public void get_Item(){} // RVA: 0x7A8E5B9D0
+    public void get_name(){} // RVA: 0x7A8E5C010
+    public void set_name(){} // RVA: 0x7A8E5C680
+    public void Instantiate(){} // RVA: 0x7A8E5CCF0
 }
 
-public class SecT131R1LookupTable
+public class StackAllocator : ValueType
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94BFCA0
+    public void get_Handle(){} // RVA: 0x7A765F070
+    public void Try(){} // RVA: 0x7AEB64B80
+    public void Dispose(){} // RVA: 0x7A75F4910
+    public void Try$BurstManaged(){} // RVA: 0x7AEB64BE0
 }
 
-public class SecT131R2Holder
+public class StateChangeMonitorListener[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9649290
-    public void .cctor(){} // RVA: 0x9649420
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A18F0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E0E0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2F10
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2508F0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E0E0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecT131R2LookupTable
+public class StateChangeMonitorsForDevice : ValueType
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT131R2Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94C2350
+    public void get_count(){} // RVA: 0x7A765EE70
+    public void Add(){} // RVA: 0x7A7EB3850
+    public void Remove(){} // RVA: 0x7A7EB3860
+    public void Clear(){} // RVA: 0x7A7EB3870
+    public void CompactArrays(){} // RVA: 0x7A7EB3880
+    public void RemoveAt(){} // RVA: 0x7A7EB3890
+    public void SortMonitorsByIndex(){} // RVA: 0x7A7EB38A0
 }
 
-public class SecT163K1Holder
+public class StateChangeMonitorsForDevice[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x96494C0
-    public void .cctor(){} // RVA: 0x9649610
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1F70
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E310
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E3310
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250E00
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E310
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class SecT163K1LookupTable
+public class StaticGetter`1 : MulticastDelegate
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163K1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94C76A0
+    public void .ctor(){} // RVA: 0x7A7E1DFE0
+    public void Invoke(){} // RVA: 0x7A8051B10
 }
 
-public class SecT163R1Holder
+public class StationOccupantDelegate : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x96496B0
-    public void .cctor(){} // RVA: 0x9649840
+    public void .ctor(){} // RVA: 0x7AB1646D0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7A81330A0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class SecT163R1LookupTable
+public class StationOccupiedDelegate : MulticastDelegate
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94C9C30
+    public void .ctor(){} // RVA: 0x7A98D5420
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7A81330A0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class SecT163R2Holder
+public class StringCache : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x96498E0
-    public void .cctor(){} // RVA: 0x9649A70
+    public void .ctor(){} // RVA: 0x7A76BA6C0
+    public void Create(){} // RVA: 0x7B163C610
+    public void Dispose(){} // RVA: 0x7A7FC33C0
+    public void Get(){} // RVA: 0x7A7FC3400
+    public void .cctor(){} // RVA: 0x7B163CAA0
 }
 
-public class SecT163R2LookupTable
+public class StructGetter`2 : MulticastDelegate
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT163R2Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94CC290
+    public void .ctor(){} // RVA: 0x7A7E1DFE0
+    public void Invoke(){} // RVA: 0x7A8051B10
 }
 
-public class SecT193R1Holder
+public class StructGetter`2 : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9649B10
-    public void .cctor(){} // RVA: 0x9649CA0
+    public void .ctor(){} // RVA: 0x7A7E1DFE0
+    public void Invoke(){} // RVA: 0x7A8051B10
+    public void BeginInvoke(){} // RVA: 0x7A7E06710
+    public void EndInvoke(){} // RVA: 0x7A8051B10
 }
 
-public class SecT193R1LookupTable
+public class Subscription : Object
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.Sec.SecT193R1Curve m_outer; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x28914C0
-    public void get_Size(){} // RVA: 0x760030
-    public void Lookup(){} // RVA: 0x94D16B0
+    public void .ctor(){} // RVA: 0x7A7E18890
+    public void Dispose(){} // RVA: 0x7A7E18770
 }
 
-public class SecT193R2Holder
+public class SystemController : ScriptableObject
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x9649D40
-    public void .cctor(){} // RVA: 0x9649ED0
+    public void Equals(){} // RVA: 0x7A9573A70
+    public void CreateInstance(){} // RVA: 0x7A9573CA0
+    public void CreateScriptableObject(){} // RVA: 0x7A8B5B160
+    public void CreateScriptableObjectInstanceFromType(){} // RVA: 0x7A9573ED0
+    public void GetHashCode(){} // RVA: 0x7A9573ED0
+    public void ToString(){} // RVA: 0x7A9573F00
+    public void .ctor(){} // RVA: 0x7A82F4A40
+    public void Initialize(){} // RVA: 0x7A8B5B160
+    // ── Unresolved (hash) ──
+    public void m_778(){} // RVA: 0x7A9573F50
+    public void m_919(){} // RVA: 0x7A9573FE0
+    public void m_70D(){} // RVA: 0x7A9574070
+    public void m_D31(){} // RVA: 0x7A95740C0
+    public void m_F47(){} // RVA: 0x7A8B5B160
+    public void m_03D(){} // RVA: 0x7A9574150
 }

@@ -1,3512 +1,2076 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
 // Classes: 100
-// Methods: 4261
+// Methods: 2786
 
 namespace VRC.UI
 {
-    /// <summary>Originally: ÌÌÎÎÎÌÏÌÌÌÍÎÍÎÎÌÎÏÌÌÎÍÍ</summary>
-    public class UICompareDispose_241DSibling_8D48
+    /// <summary>Originally: ÌÏÎÏÏÌÎÏÎÌÏÍÏÍÍÌÎÏÏÏÏÎÏ</summary>
+    public class UIBeginScopeIsEnabled_F329 : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void Clear(){} // RVA: 0x24A50
-        public void get_Count(){} // RVA: 0xD840
+        public void GetInstanceID(){} // RVA: 0x7A80D7320
+        public void Equals(){} // RVA: 0x7A80D7320
+        public void GetHashCode(){} // RVA: 0x7A80D7320
+        public void op_Implicit(){} // RVA: 0x7A80D7320
+        public void BeginScope(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Initialize(){} // RVA: 0x7A80D7320
+        public void Log(){} // RVA: 0x7A8051B10
+        public void set_name(){} // RVA: 0x7A81BD750
+        public void IsEnabled(){} // RVA: 0x7A81BD750
+        public void Destroy(){} // RVA: 0x7A81BD750
+    }
+
+    /// <summary>Originally: ÌÌÏÌÌÎÌÎÎÌÏÍÍÏÍÌÍÍÏÏÍÍÎ</summary>
+    public class UICanvasHierarchyChanged_3447 : UIBehaviour
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void Initialize(){} // RVA: 0x7B0D36D40
+        public void OnDisable(){} // RVA: 0x7B0D378F0
+        public void Awake(){} // RVA: 0x7B0D37EC0
+        public void IsActive(){} // RVA: 0x7B0D384A0
+        public void Start(){} // RVA: 0x7B0D38A80
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7B0D39150
+        public void OnTransformParentChanged(){} // RVA: 0x7B0D39720
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7B0D39D00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7B0D3A2D0
+        public void OnDestroy(){} // RVA: 0x7B0D3A400
         // ── Unresolved (hash) ──
-        public void m_ED0(){} // RVA: 0xCD60
+        public void m_222(){} // RVA: 0x7B0D37320
     }
 
-    /// <summary>Originally: ÌÏÎÌÍÏÌÎÌÏÍÎÌÍÌÌÍÏÏÏÎÎÏ</summary>
-    public class UICompareDispose_241DSibling_AD04
+    /// <summary>Originally: ÏÎÎÌÏÏÏÍÍÎÏÏÍÌÌÏÍÌÏÌÍÎÏ</summary>
+    public class UIDestroyDropdownListCreateDropdownList_04EA : TMP_Dropdown
     {
-        public 0x657C6C58 <ÏÍÎÌÏÎÎÎÏÌÎÍÏÍÍÎÍÌÌÎÌÏÏ>k__BackingField; // 0x28
-        public System.Nullable`1<System.ValueTuple`2<string,0x6571ACF8>> ÍÍÍÏÌÎÌÍÍÌÍÌÌÏÎÍÍÍÎÌÍÎÎ; // 0x30
-
         // ── Methods ──
-        public void CompareTo(){} // RVA: 0x1BBF9C0
-        public void CompareTo_E40ADDE2FB63(){} // RVA: 0x1BBFB00
-        public void CompareTo_A1C13650D32F(){} // RVA: 0x1BBFB10
-        public void get_Count(){} // RVA: 0x791DC0
-        public void CompareTo_A8CFC110BA9B(){} // RVA: 0x1BBFEA0
-        public void get_Count_3711A2A941B2(){} // RVA: 0x791DC0
-        public void .ctor(){} // RVA: 0x1BC0130
-        public void Initialize(){} // RVA: 0x1BC0170
-        public void CompareTo_1AD75AFF89D2(){} // RVA: 0x1BC0610
-        public void CompareTo_74A3D6847B71(){} // RVA: 0x1BC09A0
-        public void CompareTo_241A4993482B(){} // RVA: 0x1BC09E0
-        public void CompareTo_E40ADDE2FB63_ED0EA487FEBF(){} // RVA: 0x1BBFB00
+        public void CreateDropdownList(){} // RVA: 0x7B0958E10
+        public void .ctor(){} // RVA: 0x7B0959080
+        public void DestroyDropdownList(){} // RVA: 0x7B09590D0
+    }
+
+    /// <summary>Originally: ÍÏÏÏÌÏÌÌÍÌÍÎÎÌÍÍÏÍÎÎÌÏÌ</summary>
+    public class UIDirectToUpdate_834D : UpdateComponent_CFCF
+    {
+        // ── Methods ──
+        public void OnDirectToUpdate(){} // RVA: 0x7A96A5A60
+        public void OnEnable(){} // RVA: 0x7A96A5E10
+        public void OnDisable(){} // RVA: 0x7A96A5EC0
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void Initialize(){} // RVA: 0x7A96A5F60
         // ── Unresolved (hash) ──
-        public void m_C7D(){} // RVA: 0x1BBF840
-        public void m_5FF(){} // RVA: 0x1BBFCA0
-        public void m_85C(){} // RVA: 0x1BBFD20
-        public void m_D1D(){} // RVA: 0x1BBFF20
-        public void m_9FC(){} // RVA: 0x1BBFFD0
-        public void m_86C(){} // RVA: 0x1BC0320
-        public void m_5DF(){} // RVA: 0x1BC04D0
-        public void m_32C(){} // RVA: 0x1BC0570
-        public void m_531(){} // RVA: 0x1BC0770
-        public void m_CC5(){} // RVA: 0x1BC0920
+        public void m_E95(){} // RVA: 0x7A96A59C0
+        public void m_D95(){} // RVA: 0x7A96A5B00
+        public void m_8E2(){} // RVA: 0x7A96A5C30
+        public void m_43E(){} // RVA: 0x7A96A5CD0
+        public void m_06B(){} // RVA: 0x7A96A5D70
     }
 
-    /// <summary>Originally: ÌÌÌÏÍÎÍÍÍÌÍÌÍÌÍÌÏÏÎÏÏÍÍ</summary>
-    public class UIHeightDownHeightUp_E6DE
+    /// <summary>Originally: ÏÍÏÌÏÌÎÍÎÌÌÏÎÍÌÎÍÍÎÏÍÌÌ</summary>
+    public class UIHeightDownHeightUpComponent_1CDD : MonoBehaviour
     {
         // ── Methods ──
-        public void InvokeHeightDownHeightUp(){} // RVA: 0x186D960
-        public void HeightDown(){} // RVA: 0x186DE60
-        public void HeightUp(){} // RVA: 0x186DF90
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x186E060
-        public void OnEnable(){} // RVA: 0x186E340
-        public void OnDisable(){} // RVA: 0x186E3A0
-        public void NotifyHeightDownHeightUpHandlers(){} // RVA: 0x186E410
-        // ── Unresolved (hash) ──
-        public void m_07F(){} // RVA: 0x186DC40
-        public void m_D66(){} // RVA: 0x186DCB0
-        public void m_E1D(){} // RVA: 0x186DEC0
-        public void m_F7A(){} // RVA: 0x186DF20
-        public void m_88B(){} // RVA: 0x186DFF0
-        public void m_8F3(){} // RVA: 0x186E2D0
+        public void get_destroyCancellationToken(){} // RVA: 0x7A9603500
+        public void RaiseCancellation(){} // RVA: 0x7A9603560
+        public void IsInvoking(){} // RVA: 0x7A96035D0
+        public void HeightDown(){} // RVA: 0x7A9603780
+        public void Invoke(){} // RVA: 0x7A96037E0
+        public void InvokeRepeating(){} // RVA: 0x7A9603840
+        public void HeightUp(){} // RVA: 0x7A96038B0
+        public void StartCoroutine_Auto(){} // RVA: 0x7A9603910
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void Initialize(){} // RVA: 0x7A9603980
+        public void get_useGUILayout(){} // RVA: 0x7A9603BF0
+        public void OnEnable(){} // RVA: 0x7A9603C60
+        public void OnDisable(){} // RVA: 0x7A9603CC0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7A9603D30
     }
 
-    /// <summary>Originally: ÌÍÎÏÍÍÏÌÌÏÍÏÎÍÌÌÍÎÍÎÍÏÌ</summary>
-    public class UIMaxContentCountObservabRelated_C351
+    /// <summary>Originally: ÍÌÏÍÍÏÏÎÌÍÎÍÌÎÍÍÎÌÍÏÏÏÏ</summary>
+    public class UIMaxContentCountObservableList_59B2 : HeaderElementContentView`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x8B4FBB0
-        // ── Unresolved (hash) ──
-        public void m_54C(){} // RVA: 0x8B4FAB0
-        public void m_2FF(){} // RVA: 0x8B4FE70
-        public void m_336(){} // RVA: 0x8B4FF70
-        public void m_E01(){} // RVA: 0x8B50230
-        public void m_387(){} // RVA: 0x8B504F0
-        public void m_C47(){} // RVA: 0x8B505F0
-        public void m_C34(){} // RVA: 0x8B508B0
+        public void IndexOf(){} // RVA: 0x7A87D9C10
+        public void set_ObservableList(){} // RVA: 0x7B0EC02F0
+        public void Start(){} // RVA: 0x7B0EC07D0
+        public void .ctor(){} // RVA: 0x7B0EC0A40
+        public void get_ObservableList(){} // RVA: 0x7B0EC0C60
+        public void OnEnable(){} // RVA: 0x7B0EC0CE0
+        public void OnDestroy(){} // RVA: 0x7B0EC0F10
+        public void get_MaxContentCount(){} // RVA: 0x7B0EC1080
+        public void set_MaxContentCount(){} // RVA: 0x7B0EC1110
+        public void OnDisable(){} // RVA: 0x7B0EC2370
+        // ── 12 unresolved (hash) ──
+        public void m_5C2(){} // RVA: 0x7B0EBFEA0
+        public void m_BBC(){} // RVA: 0x7B0EC0740
+        public void m_386(){} // RVA: 0x7B0EC12D0
+        public void m_1EE(){} // RVA: 0x7B0EC1490
+        public void m_051(){} // RVA: 0x7B0EC17A0
+        // ... 7 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÎÏÎÍÎÎÌÌÎÏÌÌÎÌÍÍÍÎÍÎÌÌ</summary>
-    public class UIMaxContentCountObservableList_D870
-    {
-        public ÍÏÏÏÍÏÍÏÍÌÌÌÏÍÌÍÌÏÌÏÏÌÌ ÎÏÎÌÌÎÎÌÏÍÌÏÌÍÏÍÌÏÌÏÎÍÍ; // 0x68
-        public UnityEngine.GameObject increaseYourLimitText; // 0x70
-
-        // ── Methods ──
-        public void IndexOf(){} // RVA: 0x9091330
-        public void OnDestroy(){} // RVA: 0x9091780
-        public void get_ObservableList_BD5BFFFAC0A0(){} // RVA: 0xA1C8C0
-        public void get_MaxContentCount_DCF30A976221(){} // RVA: 0x90918F0
-        public void set_ObservableList(){} // RVA: 0x9091AB0
-        public void OnEnable(){} // RVA: 0x9091F00
-        public void .ctor(){} // RVA: 0x9092130
-        public void Initialize(){} // RVA: 0x9092350
-        public void get_ObservableList(){} // RVA: 0x9092610
-        public void set_MaxContentCount(){} // RVA: 0x9092690
-        public void GetPivot(){} // RVA: 0x9092BE0
-        public void get_MaxContentCount(){} // RVA: 0x9092DA0
-        public void GetRect(){} // RVA: 0x9092E30
-        public void GetTexture(){} // RVA: 0x9093260
-        public void OnDisable(){} // RVA: 0x90939D0
-        public void Start(){} // RVA: 0x9093CC0
-        // ── Unresolved (hash) ──
-        public void m_C47(){} // RVA: 0x9092720
-        public void m_B3A(){} // RVA: 0x90928E0
-        public void m_CD5(){} // RVA: 0x90936D0
-        public void m_E6A(){} // RVA: 0x9093C30
-        public void m_11E(){} // RVA: 0x9093F30
-        public void m_7C3(){} // RVA: 0x90942F0
-    }
-
-    /// <summary>Originally: ÌÌÌÍÍÏÏÍÌÎÍÌÍÌÍÍÏÍÍÍÎÌÌ</summary>
-    public class UIObservableList_5B1E_1CDF
-    {
-        public UnityEngine.GameObject noGalleryPanel; // 0x70
-
-        // ── Methods ──
-        public void IndexOf(){} // RVA: 0x8D969B0
-        public void set_ObservableList(){} // RVA: 0x8D96B30
-        public void CreateObservableListEvent(){} // RVA: 0x8D96CB0
-        public void Start_5CB1EC5FABE4(){} // RVA: 0x8D96DA0
-        public void get_ObservableList(){} // RVA: 0x31C010
-        public void .ctor_56B286629F10(){} // RVA: 0x8D96F20
-        public void Initialize(){} // RVA: 0x8D97320
-        public void Start(){} // RVA: 0x8D97490
-        public void get_ObservableList_194E4592E953(){} // RVA: 0x8D97590
-        public void .ctor(){} // RVA: 0x8D97C20
-        public void Remove(){} // RVA: 0x8D98130
-        public void Clear(){} // RVA: 0x8D981C0
-        public void Contains(){} // RVA: 0x8D98340
-        // ── Unresolved (hash) ──
-        public void m_BC0(){} // RVA: 0x8D97D50
-        public void m_24A(){} // RVA: 0x8D98740
-    }
-
-    /// <summary>Originally: ÌÍÌÎÎÍÌÌÎÎÍÌÍÏÍÌÏÎÎÏÏÍÍ</summary>
-    public class UIQuaternionHandler_9EA8
-    {
-        public VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStats ÌÌÏÌÏÏÎÌÌÏÌÎÌÌÍÌÌÌÌÍÌÎÍ; // 0x10
-
-        // ── Methods ──
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void get_Expression(){} // RVA: 0xB2EEA0
-        public void get_Stats(){} // RVA: 0x9B8470
-        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Initialize(){} // RVA: 0xB2ECF0
-        public void SetAlpha(){} // RVA: 0xD09F30
-        public void SetAlpha_A8CFC110BA9B(){} // RVA: 0xD09F50
-        public void VisitGCHandles(){} // RVA: 0xD0A030
-        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
-        public void get_Expression_3EDC56FDC4A8(){} // RVA: 0xB2EEA0
-        public void get_MaskTag(){} // RVA: 0x9E8D70
-        public void GetConnectedBody_1C68158D047E_5318130B51BF(){} // RVA: 0x99E580
-        public void SwapIfGreater(){} // RVA: 0x9B85D0
-        public void SetAlpha_D430F711CFA7(){} // RVA: 0xD09F30
-        public void CompleteWithCallback(){} // RVA: 0x9E92F0
-        // ── 22 unresolved (hash) ──
-        public void m_2B2(){} // RVA: 0xD09E70
-        public void m_D6D(){} // RVA: 0xD09E90
-        public void m_C1B(){} // RVA: 0xD09EB0
-        public void m_9D9(){} // RVA: 0xD09EF0
-        public void m_E93(){} // RVA: 0xD09E70
-        // ... 17 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ;
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField;
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField;
-        public T <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField;
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField;
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ;
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField;
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField;
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ;
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField;
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ;
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x25130
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x24B10
-        public void OnTransformParentChanged(){} // RVA: 0xCD60
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xCD60
-        public void OnCanvasGroupChanged(){} // RVA: 0xCD60
-        public void OnTransformChildrenChanged(){} // RVA: 0xCD60
-        public void GetTransformChildCount(){} // RVA: 0xDBE0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x2DC60 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0xCD60
-        public void MemSet(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x24A50
-        public void Initialize(){} // RVA: 0x24B10
-        public void Constructor(){} // RVA: 0x24B10
-        public void CompareTo(){} // RVA: 0x283FA0
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0xCD60
-        public void m_175(){} // RVA: 0xDE40
-        public void m_321(){} // RVA: 0x24B10
-        public void m_104(){} // RVA: 0x283FA0
-        public void m_3F2(){} // RVA: 0x24B10
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÍÏÌÍÎÌÎÌÌÎÎÏÌÍÍÎÍÌÎÎÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x4976A0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xCCB910
-        public void OnCanvasGroupChanged(){} // RVA: 0x358730
-        public void OnTransformChildrenChanged(){} // RVA: 0x358D50
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F03860 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F038E0
-        public void .ctor(){} // RVA: 0x4F03DE0
-        public void Initialize(){} // RVA: 0x4F01F70
-        public void Constructor(){} // RVA: 0x37B380
-        public void CompareTo(){} // RVA: 0x37E5910
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F03010
-        public void m_175(){} // RVA: 0x4F04760
-        public void m_321(){} // RVA: 0x37B380
-        public void m_104(){} // RVA: 0x111F520
-        public void m_3F2(){} // RVA: 0x4F031B0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public string <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÌÍÌÍÌÍÏÏÏÍÏÍÏÍÌÍÎÌÏÏÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F31E60 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F31EE0
-        public void .ctor(){} // RVA: 0x4F323E0
-        public void Initialize(){} // RVA: 0x4EEF790
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x6E8B80
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F31670
-        public void m_175(){} // RVA: 0x4F32D50
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x6E8A80
-        public void m_3F2(){} // RVA: 0x4F31800
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public bool <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EEEDC0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EEEE40
-        public void .ctor(){} // RVA: 0x4EEF380
-        public void Initialize(){} // RVA: 0x4EEF790
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x6E8B80
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EEE5A0
-        public void m_175(){} // RVA: 0x4EEFD60
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x6E8A80
-        public void m_3F2(){} // RVA: 0x4EEE730
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÍÏÏÎÏÌÌÎÎÎÍÎÏÎÌÌÍÌÌÏÎÍÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÎÏÎÎÏÎÍÍÍÌÌÌÍÍÎÎÎÌÎÌÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÏÍÎÎÎÏÌÍÌÎÏÎÎÌÌÏÍÏÎÌÍÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÍÌÎÌÍÍÍÎÏÎÍÌÌÎÎÍÎÎÌÏÌÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x40
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x50
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x58
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x60
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x68
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x70
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x35A740
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EF8380
-        public void OnCanvasGroupChanged(){} // RVA: 0x37E0E0
-        public void OnTransformChildrenChanged(){} // RVA: 0x3A5590
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F23110 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F23190
-        public void .ctor(){} // RVA: 0x4F23690
-        public void Initialize(){} // RVA: 0x4F23AB0
-        public void Constructor(){} // RVA: 0x358D60
-        public void CompareTo(){} // RVA: 0x4F24B20
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F228A0
-        public void m_175(){} // RVA: 0x4F240E0
-        public void m_321(){} // RVA: 0x358D60
-        public void m_104(){} // RVA: 0x204E840
-        public void m_3F2(){} // RVA: 0x4F22A40
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÍÏÌÌÎÌÏÍÍÎÌÌÍÍÌÎÎÎÍÌÌÌÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x4976A0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xCCB910
-        public void OnCanvasGroupChanged(){} // RVA: 0x358730
-        public void OnTransformChildrenChanged(){} // RVA: 0x358D50
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F2FD30 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F2FDB0
-        public void .ctor(){} // RVA: 0x4F302B0
-        public void Initialize(){} // RVA: 0x4F01F70
-        public void Constructor(){} // RVA: 0x37B380
-        public void CompareTo(){} // RVA: 0x37E5910
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F2F4E0
-        public void m_175(){} // RVA: 0x4F30C30
-        public void m_321(){} // RVA: 0x37B380
-        public void m_104(){} // RVA: 0x111F520
-        public void m_3F2(){} // RVA: 0x4F2F680
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÌÍÌÏÍÍÎÍÌÍÏÏÍÍÏÍÎÌÎÎÌÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F147A0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F14820
-        public void .ctor(){} // RVA: 0x4F14D20
-        public void Initialize(){} // RVA: 0x4EEF790
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x6E8B80
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F13FB0
-        public void m_175(){} // RVA: 0x4F15690
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x6E8A80
-        public void m_3F2(){} // RVA: 0x4F14140
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÍÎÍÎÏÎÌÍÎÍÏÎÌÍÍÏÍÌÏÎÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F2BA40 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F2BAC0
-        public void .ctor(){} // RVA: 0x4F2BFC0
-        public void Initialize(){} // RVA: 0x4EEF790
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x6E8B80
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F2B250
-        public void m_175(){} // RVA: 0x4F2C930
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x6E8A80
-        public void m_3F2(){} // RVA: 0x4F2B3E0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÍÌÎÎÍÎÏÍÎÍÌÎÏÎÎÌÎÏÌÌÎÍÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F09D30 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F09DB0
-        public void .ctor(){} // RVA: 0x4F0A2B0
-        public void Initialize(){} // RVA: 0x4EEF790
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x6E8B80
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F09540
-        public void m_175(){} // RVA: 0x4F0AC20
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x6E8A80
-        public void m_3F2(){} // RVA: 0x4F096D0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÍÎÏÍÍÍÌÍÍÎÍÏÏÌÎÏÌÎÌÏÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F12680 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F12700
-        public void .ctor(){} // RVA: 0x4F12C00
-        public void Initialize(){} // RVA: 0x4F06370
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F11E40
-        public void m_175(){} // RVA: 0x4F13570
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4F11FD0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÌÌÎÎÍÎÎÎÍÏÏÏÌÏÍÍÍÌÍÍÌÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F059E0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F05A60
-        public void .ctor(){} // RVA: 0x4F05F60
-        public void Initialize(){} // RVA: 0x4F06370
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F051A0
-        public void m_175(){} // RVA: 0x4F06990
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4F05330
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÏÏÌÎÍÏÌÏÍÏÌÎÎÌÌÏÌÎÏÌÎÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F189E0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F18A60
-        public void .ctor(){} // RVA: 0x4F18F60
-        public void Initialize(){} // RVA: 0x4EEF790
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x6E8B80
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F181F0
-        public void m_175(){} // RVA: 0x4F198D0
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x6E8A80
-        public void m_3F2(){} // RVA: 0x4F18380
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÍÏÌÌÍÍÍÍÏÍÌÌÎÍÎÏÌÏÍÎÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x48
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x50
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x58
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x60
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x68
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x70
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x78
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x358730
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EFECE0
-        public void OnCanvasGroupChanged(){} // RVA: 0x3A5500
-        public void OnTransformChildrenChanged(){} // RVA: 0x4C7C50
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EFF250 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EFF2D0
-        public void .ctor(){} // RVA: 0x4EFF820
-        public void Initialize(){} // RVA: 0x4EFFC40
-        public void Constructor(){} // RVA: 0x3A55A0
-        public void CompareTo(){} // RVA: 0x4F00CE0
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EFE9B0
-        public void m_175(){} // RVA: 0x4F00260
-        public void m_321(){} // RVA: 0x3A55A0
-        public void m_104(){} // RVA: 0x4634830
-        public void m_3F2(){} // RVA: 0x4EFEB50
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÎÍÏÌÎÎÎÏÍÌÌÌÍÌÎÍÍÍÏÌÍÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F07C10 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F07C90
-        public void .ctor(){} // RVA: 0x4F08190
-        public void Initialize(){} // RVA: 0x4F06370
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F073D0
-        public void m_175(){} // RVA: 0x4F08B00
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4F07560
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÍÎÏÌÍÎÌÏÎÏÎÏÏÌÎÏÍÎÌÏÌÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EFD080 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EFD100
-        public void .ctor(){} // RVA: 0x4EFD600
-        public void Initialize(){} // RVA: 0x4EEF790
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x6E8B80
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EFC890
-        public void m_175(){} // RVA: 0x4EFDF70
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x6E8A80
-        public void m_3F2(){} // RVA: 0x4EFCA20
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÏÌÎÌÎÍÏÌÌÌÌÍÍÍÍÍÍÌÌÎÏÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x58
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x60
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x68
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x70
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x78
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x80
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x88
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x3A5500
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F291C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x358D50
-        public void OnTransformChildrenChanged(){} // RVA: 0x31C010
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F29740 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F297C0
-        public void .ctor(){} // RVA: 0x4F29D10
-        public void Initialize(){} // RVA: 0x4F2A130
-        public void Constructor(){} // RVA: 0x464450
-        public void CompareTo(){} // RVA: 0x4F2B1E0
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F28E90
-        public void m_175(){} // RVA: 0x4F2A760
-        public void m_321(){} // RVA: 0x464450
-        public void m_104(){} // RVA: 0x1C9F3A0
-        public void m_3F2(){} // RVA: 0x4F29030
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÌÌÎÍÍÎÎÌÍÎÌÏÏÌÌÏÎÎÌÍÌÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x4976A0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xCCB910
-        public void OnCanvasGroupChanged(){} // RVA: 0x358730
-        public void OnTransformChildrenChanged(){} // RVA: 0x358D50
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F27550 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F275D0
-        public void .ctor(){} // RVA: 0x4F27AD0
-        public void Initialize(){} // RVA: 0x4F01F70
-        public void Constructor(){} // RVA: 0x37B380
-        public void CompareTo(){} // RVA: 0x37E5910
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F26D00
-        public void m_175(){} // RVA: 0x4F28450
-        public void m_321(){} // RVA: 0x37B380
-        public void m_104(){} // RVA: 0x111F520
-        public void m_3F2(){} // RVA: 0x4F26EA0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÎÎÏÎÏÌÌÎÌÏÎÎÌÏÌÍÍÍÏÏÏÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F253D0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F25450
-        public void .ctor(){} // RVA: 0x4F25950
-        public void Initialize(){} // RVA: 0x4F06370
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F24B90
-        public void m_175(){} // RVA: 0x4F262C0
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4F24D20
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÎÍÎÌÍÏÍÏÍÏÌÏÌÍÎÏÌÏÏÌÎÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F1CCE0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F1CD60
-        public void .ctor(){} // RVA: 0x4F1D260
-        public void Initialize(){} // RVA: 0x4F06370
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F1C4A0
-        public void m_175(){} // RVA: 0x4F1DBD0
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4F1C630
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÌÌÌÏÍÍÍÎÌÌÍÌÎÎÍÏÌÏÎÍÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x78
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x80
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x88
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x90
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x98
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0xA0
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0xA8
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x4C7C50
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F33AF0
-        public void OnCanvasGroupChanged(){} // RVA: 0x31C010
-        public void OnTransformChildrenChanged(){} // RVA: 0xA1C130
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F340B0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F34130
-        public void .ctor(){} // RVA: 0x4F34690
-        public void Initialize(){} // RVA: 0x4F34AC0
-        public void Constructor(){} // RVA: 0x9AA5F0
-        public void CompareTo(){} // RVA: 0x4F35BA0
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F33790
-        public void m_175(){} // RVA: 0x4F35110
-        public void m_321(){} // RVA: 0x9AA5F0
-        public void m_104(){} // RVA: 0x4F33930
-        public void m_3F2(){} // RVA: 0x4F33960
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÏÍÍÏÍÌÍÌÏÌÎÍÍÎÎÌÌÎÌÎÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x50
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x58
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x60
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x68
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x70
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x78
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x80
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x37E0E0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xE2D170
-        public void OnCanvasGroupChanged(){} // RVA: 0x37B370
-        public void OnTransformChildrenChanged(){} // RVA: 0x462D00
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F10330 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F103B0
-        public void .ctor(){} // RVA: 0x4F108F0
-        public void Initialize(){} // RVA: 0x4F10D10
-        public void Constructor(){} // RVA: 0x4C34F0
-        public void CompareTo(){} // RVA: 0x4F11DD0
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F0FA70
-        public void m_175(){} // RVA: 0x4F11350
-        public void m_321(){} // RVA: 0x4C34F0
-        public void m_104(){} // RVA: 0x4F0FC10
-        public void m_3F2(){} // RVA: 0x4F0FC30
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÌÌÎÍÌÎÌÎÏÍÎÏÍÏÏÌÍÌÏÏÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F20F70 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F20FF0
-        public void .ctor(){} // RVA: 0x4F214F0
-        public void Initialize(){} // RVA: 0x4EF1960
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0xA53440
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F20780
-        public void m_175(){} // RVA: 0x4F21E60
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x791DC0
-        public void m_3F2(){} // RVA: 0x4F20910
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÌÎÎÍÍÏÍÌÌÏÎÏÍÎÏÏÎÏÏÏÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x4976A0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xCCB910
-        public void OnCanvasGroupChanged(){} // RVA: 0x358730
-        public void OnTransformChildrenChanged(){} // RVA: 0x358D50
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F1AB60 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F1ABE0
-        public void .ctor(){} // RVA: 0x4F1B0E0
-        public void Initialize(){} // RVA: 0x4F01F70
-        public void Constructor(){} // RVA: 0x37B380
-        public void CompareTo(){} // RVA: 0x37E5910
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F1A310
-        public void m_175(){} // RVA: 0x4F1BA60
-        public void m_321(){} // RVA: 0x37B380
-        public void m_104(){} // RVA: 0x111F520
-        public void m_3F2(){} // RVA: 0x4F1A4B0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÍÏÎÎÌÍÍÍÏÍÎÌÌÎÌÌÏÍÎÏÌÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x4976A0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xCCB910
-        public void OnCanvasGroupChanged(){} // RVA: 0x358730
-        public void OnTransformChildrenChanged(){} // RVA: 0x358D50
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F01590 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F01610
-        public void .ctor(){} // RVA: 0x4F01B50
-        public void Initialize(){} // RVA: 0x4F01F70
-        public void Constructor(){} // RVA: 0x37B380
-        public void CompareTo(){} // RVA: 0x37E5910
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F00D40
-        public void m_175(){} // RVA: 0x4F02590
-        public void m_321(){} // RVA: 0x37B380
-        public void m_104(){} // RVA: 0x111F520
-        public void m_3F2(){} // RVA: 0x4F00EE0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÏÏÎÍÌÍÎÌÌÏÌÍÏÍÍÍÏÍÏÍÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F2DBB0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F2DC30
-        public void .ctor(){} // RVA: 0x4F2E130
-        public void Initialize(){} // RVA: 0x4F06370
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F2D370
-        public void m_175(){} // RVA: 0x4F2EAA0
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4F2D500
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÏÏÏÏÏÌÎÍÌÍÌÎÌÎÏÎÍÎÏÎÎÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F1EE50 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F1EED0
-        public void .ctor(){} // RVA: 0x4F1F3D0
-        public void Initialize(){} // RVA: 0x4F06370
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F1E610
-        public void m_175(){} // RVA: 0x4F1FD40
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4F1E7A0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÏÍÌÌÌÍÍÍÏÌÍÏÍÏÍÌÌÎÍÏÎÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÏÎÍÏÎÎÌÌÎÌÏÍÍÎÏÏÏÎÌÏÌÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÍÏÌÎÌÏÌÎÌÌÍÎÍÌÌÎÎÌÏÍÎÍÏ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F168C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F16940
-        public void .ctor(){} // RVA: 0x4F16E40
-        public void Initialize(){} // RVA: 0x4EEF790
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x6E8B80
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F160D0
-        public void m_175(){} // RVA: 0x4F177B0
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x6E8A80
-        public void m_3F2(){} // RVA: 0x4F16260
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÎÌÏÎÎÍÍÍÏÌÌÌÌÍÎÍÌÍÏÏÍÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public 0x65963458 <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF0FD0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF1050
-        public void .ctor(){} // RVA: 0x4EF1550
-        public void Initialize(){} // RVA: 0x4EF1960
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0xA53440
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF07E0
-        public void m_175(){} // RVA: 0x4EF1F30
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x791DC0
-        public void m_3F2(){} // RVA: 0x4EF0970
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÌÌÍÍÎÌÍÌÍÏÏÍÌÎÏÍÏÍÍÎÌÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x50
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x58
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x60
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x68
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x4976A0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xCCB910
-        public void OnCanvasGroupChanged(){} // RVA: 0x358730
-        public void OnTransformChildrenChanged(){} // RVA: 0x358D50
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F0E130 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F0E1B0
-        public void .ctor(){} // RVA: 0x4F0E6B0
-        public void Initialize(){} // RVA: 0x4F01F70
-        public void Constructor(){} // RVA: 0x37B380
-        public void CompareTo(){} // RVA: 0x37E5910
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F0D8E0
-        public void m_175(){} // RVA: 0x4F0F030
-        public void m_321(){} // RVA: 0x37B380
-        public void m_104(){} // RVA: 0x111F520
-        public void m_3F2(){} // RVA: 0x4F0DA80
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public System.Collections.Generic.IEnumerable`1<ÎÌÎÎÌÎÏÌÌÎÏÎÌÏÌÌÏÍÌÎÍÏÎ> <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÏÌÌÍÌÏÏÎÏÏÏÏÍÍÌÌÍÎÍÎÍÌÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF31C0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF3240
-        public void .ctor(){} // RVA: 0x4EF3740
-        public void Initialize(){} // RVA: 0x4EF3B50
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x2DEE90
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF2970
-        public void m_175(){} // RVA: 0x4EF4180
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4EF2B00
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÌÏÌÏÏÎÍÍÌÏÏÎÏÎÍÍÍÌÎÏÍÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x38
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x40
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x48
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x50
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x58
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x60
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x6374D0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EEE8C0
-        public void OnCanvasGroupChanged(){} // RVA: 0x35A740
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F36410 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F36490
-        public void .ctor(){} // RVA: 0x4F36990
-        public void Initialize(){} // RVA: 0x4F36DA0
-        public void Constructor(){} // RVA: 0x3A5510
-        public void CompareTo(){} // RVA: 0x8AC650
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F35C20
-        public void m_175(){} // RVA: 0x4F37370
-        public void m_321(){} // RVA: 0x3A5510
-        public void m_104(){} // RVA: 0x30B130
-        public void m_3F2(){} // RVA: 0x4F35DB0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÍÌÌÍÌÌÏÌÎÏÌÏÏÌÎÍÏÍÍÌÏÌ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x40
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x50
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x58
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x60
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x68
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x70
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x35A740
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EF8380
-        public void OnCanvasGroupChanged(){} // RVA: 0x37E0E0
-        public void OnTransformChildrenChanged(){} // RVA: 0x3A5590
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4F0BED0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4F0BF50
-        public void .ctor(){} // RVA: 0x4F0C450
-        public void Initialize(){} // RVA: 0x4F0C870
-        public void Constructor(){} // RVA: 0x358D60
-        public void CompareTo(){} // RVA: 0x37E5B30
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4F0B660
-        public void m_175(){} // RVA: 0x4F0CEA0
-        public void m_321(){} // RVA: 0x358D60
-        public void m_104(){} // RVA: 0x204E840
-        public void m_3F2(){} // RVA: 0x4F0B800
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÌÍÏÍÎÏÌÍÍÌÍÍÌÏÏÎÌÎÌÏÏÎ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x88
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x90
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x98
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0xA0
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0xA8
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0xB0
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0xB8
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x31C010
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EFA770
-        public void OnCanvasGroupChanged(){} // RVA: 0xA1C8C0
-        public void OnTransformChildrenChanged(){} // RVA: 0x3480B0
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EFAD20 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EFADA0
-        public void .ctor(){} // RVA: 0x4EFB2F0
-        public void Initialize(){} // RVA: 0x4EFB720
-        public void Constructor(){} // RVA: 0x348050
-        public void CompareTo(){} // RVA: 0x4EFC810
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EFA400
-        public void m_175(){} // RVA: 0x4EFBD70
-        public void m_321(){} // RVA: 0x348050
-        public void m_104(){} // RVA: 0x4EFA5A0
-        public void m_3F2(){} // RVA: 0x4EFA5E0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÍÌÎÏÎÌÎÏÍÍÏÍÎÎÌÍÌÌÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_1299
-    {
-        public System.Action`1<ÍÎÍÍÏÌÍÍÌÎÍÍÎÎÌÏÍÎÏÎÌÍÍ> ÍÎÌÍÎÏÌÌÎÍÌÎÌÌÎÎÌÏÌÍÏÎÍ; // 0x10
-        public bool <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x18
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÍÏÌÍÎÍÌÍÏÍÌÍÍÏÏÏÏÌÍÍÍÍÍ <ÏÍÍÏÌÌÍÎÎÏÎÏÌÍÎÍÎÏÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÍÏÏÏÏÍÍÌÏÎÏÍÏÏÌÏÌÌÍÌÎÎ <ÎÎÍÏÌÏÍÎÎÍÏÎÍÍÍÍÏÏÏÎÌÎÍ>k__BackingField; // 0x40
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÎÍÏÍÌÏÏÌÍÎÌÏÏÎÍÍÍÏÏÎÎÎÎ> ÍÎÏÍÍÎÌÎÎÏÏÍÍÌÎÏÌÏÍÍÌÎÌ; // 0x48
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÎÏÏÎÌÍÍÍÏÎÎÌÎÎÌÍÎÏÎÎÎÏÏ>k__BackingField; // 0x50
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÍÍÎÍÌÎÌÏÍÎÌÌÎÌÌÌÏÎÍÍÏÍÌ>k__BackingField; // 0x58
-        public bool ÍÏÌÍÏÍÎÌÏÍÌÎÏÌÌÎÎÎÌÌÍÎÎ; // 0x60
-        public ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ <ÏÌÏÌÏÌÌÍÌÎÎÌÎÎÌÏÎÌÍÍÍÏÎ>k__BackingField; // 0x68
-        public System.Collections.Generic.List`1<ÍÎÍÏÍÌÏÎÎÏÏÌÌÏÍÍÎÌÍÌÌÌÍ> ÌÍÍÎÎÌÍÍÍÎÎÎÎÎÍÌÍÍÌÏÎÍÏ; // 0x70
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x2F84F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x2DD310
-        public void OnTransformParentChanged(){} // RVA: 0x35A740
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4EF8380
-        public void OnCanvasGroupChanged(){} // RVA: 0x37E0E0
-        public void OnTransformChildrenChanged(){} // RVA: 0x3A5590
-        public void GetTransformChildCount(){} // RVA: 0x2F84E0
-        public void GetBehaviourActiveEnabled_4A74031FC095(){} // RVA: 0x4EF88F0 | overloaded x2
-        public void OnBeforeTransformParentChanged_53773F778605(){} // RVA: 0x30B0C0
-        public void MemSet(){} // RVA: 0x4EF8970
-        public void .ctor(){} // RVA: 0x4EF8EC0
-        public void Initialize(){} // RVA: 0x4EF92E0
-        public void Constructor(){} // RVA: 0x358D60
-        public void CompareTo(){} // RVA: 0x4EFA390
-        // ── 33 unresolved (hash) ──
-        public void m_A1F(){} // RVA: 0x4EF8050
-        public void m_175(){} // RVA: 0x4EF9910
-        public void m_321(){} // RVA: 0x358D60
-        public void m_104(){} // RVA: 0x204E840
-        public void m_3F2(){} // RVA: 0x4EF81F0
-        // ... 28 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÎÎÎÍÍÎÎÌÏÎÏÍÎÏÏÌÎÎÌÍÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_57E2
+    /// <summary>Originally: ÌÌÍÍÎÌÏÍÏÌÏÍÌÍÌÎÌÌÏÌÎÍÍ</summary>
+    public class UIMiddleButtonRightBImpl_9EBD : UIMiddleButtonRightButton_24E6
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x9344C10
-        // ── Unresolved (hash) ──
-        public void m_65A(){} // RVA: 0x93449C0
-        public void m_BFE(){} // RVA: 0x9344A90
-    }
-
-    /// <summary>Originally: ÌÎÎÏÎÎÎÌÏÌÎÌÎÏÍÍÍÍÎÍÎÏÎ</summary>
-    public class UIRectTransformDimensionsChBefSibling_714A
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x9336F90
-        public void Initialize(){} // RVA: 0x9336FD0
-        public void set_element(){} // RVA: 0xD18B70
-        public void OnTriggerEnter(){} // RVA: 0x93372E0
-        public void OnTriggerEnter_2331DE28E75D(){} // RVA: 0x93373D0
-        public void OnTriggerEnter_0FE132EB825A(){} // RVA: 0x93374C0
-        public void OnTriggerEnter_7E2F941DFFF0(){} // RVA: 0x93375B0
-        public void OnTriggerEnter_F6AED78EA3A9(){} // RVA: 0x93376A0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x9331050
-        // ── Unresolved (hash) ──
-        public void m_7E3(){} // RVA: 0x9337790
-        public void m_65A(){} // RVA: 0x9337880
-        public void m_F0F(){} // RVA: 0x9337A50
-        public void m_E6D(){} // RVA: 0x9331050
-    }
-
-    /// <summary>Originally: ÌÏÎÌÎÎÎÌÏÏÍÌÌÎÏÏÎÌÎÎÎÌÌ</summary>
-    public class UIRectTransformDimensionsChBefSibling_85AF
-    {
-        // ── Methods ──
-        public void .cctor(){} // RVA: 0x93CDA10
-        public void OnCanvasGroupChanged(){} // RVA: 0x93CDAE0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x93CE9B0
-        public void Rebuild(){} // RVA: 0x93CEA80
-        public void LayoutComplete(){} // RVA: 0x93CF670
-        public void .ctor(){} // RVA: 0x93CFAB0
-        public void Initialize(){} // RVA: 0x93CFAF0
-        public void GraphicUpdateComplete(){} // RVA: 0x93CFC80
-        // ── Unresolved (hash) ──
-        public void m_C0C(){} // RVA: 0x93CFE10
-        public void m_A57(){} // RVA: 0x93CFF70
-        public void m_5A4(){} // RVA: 0x93CFFE0
-        public void m_9B8(){} // RVA: 0x93D0140
-        public void m_AE6(){} // RVA: 0x93CE9B0
-        public void m_437(){} // RVA: 0x93D02D0
-        public void m_A70(){} // RVA: 0x93D0460
-    }
-
-    /// <summary>Originally: ÌÌÎÏÏÎÎÏÌÎÏÏÏÌÌÍÌÏÌÏÍÍÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_AF5E
-    {
-        // ── Methods ──
-        public void Dispose(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x9332310
-        // ── Unresolved (hash) ──
-        public void m_BFE(){} // RVA: 0x9332130
-        public void m_65A(){} // RVA: 0x9332200
-    }
-
-    /// <summary>Originally: ÌÌÏÎÌÎÌÌÍÌÏÌÎÎÏÎÏÍÏÏÍÍÍ</summary>
-    public class UIRectTransformDimensionsChBefSibling_B8D6
-    {
-        // ── Methods ──
-        public void RemoveRectTransformDimensionsChangedHandler(){} // RVA: 0x9339480
-        public void StaticConstructor(){} // RVA: 0x934AB00
-        public void .ctor(){} // RVA: 0x934B810
-        public void Initialize(){} // RVA: 0x934B850
-        // ── 17 unresolved (hash) ──
-        public void m_3EB(){} // RVA: 0x934A960
-        public void m_4F1(){} // RVA: 0x934AAA0
-        public void m_174(){} // RVA: 0x934AAC0
-        public void m_C47(){} // RVA: 0x934AB20
-        public void m_54E(){} // RVA: 0x934AB60
-        // ... 12 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÎÏÏÏÏÏÍÌÎÌÌÏÎÏÍÍÏÏÌÎÍÌ</summary>
-    public class UIRectTransformDimensionsChBefSibling_D11D
-    {
-        // ── Methods ──
-        public void GetResult(){} // RVA: 0x934D9A0
-        public void GetResult_53202E8158C0(){} // RVA: 0x934DA90
-        public void .ctor(){} // RVA: 0x934E850
-        public void Initialize(){} // RVA: 0x934E890
-        public void GetResult_58B3A9995279(){} // RVA: 0x934E980
-        public void GetResult_9CFE7ECBD106(){} // RVA: 0x934ECD0
-        public void GetResult_91B9A66E178B(){} // RVA: 0x934EF70
-        public void GetResult_B58127864C10(){} // RVA: 0x934EE50
-        public void GetResult_79EBC1CAF595(){} // RVA: 0x934F260
-        public void GetResult_6D8D61ECCF9B(){} // RVA: 0x934F380
+        public void OnPointerEnter(){} // RVA: 0x7A968FBB0
+        public void OnDisable(){} // RVA: 0x7A968FCD0
+        public void OnPointerExit(){} // RVA: 0x7A968FD70
+        public void OnPointerDown(){} // RVA: 0x7A968FF80
+        public void OnPointerUp(){} // RVA: 0x7A9690080
+        public void OnPointerClick(){} // RVA: 0x7A96900F0
+        public void OnSelect(){} // RVA: 0x7A9690140
+        public void OnDeselect(){} // RVA: 0x7A96901D0
+        public void OnSubmit(){} // RVA: 0x7A9690240
+        public void OnCancel(){} // RVA: 0x7A9690340
+        public void OnMove(){} // RVA: 0x7A96903F0
+        public void OnScroll(){} // RVA: 0x7A96904C0
+        public void OnValueChanged(){} // RVA: 0x7A96905C0
+        public void OnEndEdit(){} // RVA: 0x7A96906B0
+        public void Start(){} // RVA: 0x7A9691A20
+        public void .ctor(){} // RVA: 0x7A9692910
+        public void Initialize(){} // RVA: 0x7A9693330
         // ── 14 unresolved (hash) ──
-        public void m_25E(){} // RVA: 0x9331050
-        public void m_C1E(){} // RVA: 0x934DB80
-        public void m_CBE(){} // RVA: 0x9339940
-        public void m_1F1(){} // RVA: 0x934DC70
-        public void m_65A(){} // RVA: 0x934DD60
+        public void m_517(){} // RVA: 0x7A9690E60
+        public void m_077(){} // RVA: 0x7A9690EB0
+        public void m_643(){} // RVA: 0x7A9690F90
+        public void m_852(){} // RVA: 0x7A9691080
+        public void m_3AF(){} // RVA: 0x7A96911B0
         // ... 9 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÎÍÍÏÏÏÍÏÎÌÎÌÏÍÌÏÎÍÎÌÎÎ</summary>
-    public class UIRectTransformDimensionsChBefSibling_D651
+    /// <summary>Originally: ÍÎÌÍÏÏÏÏÎÏÌÌÌÎÌÌÍÏÎÌÎÏÎ</summary>
+    public class UIMiddleButtonRightButton_24E6 : Close_9C7F
     {
         // ── Methods ──
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x9354C70
-        public void .ctor(){} // RVA: 0x9354F80
-        public void Initialize(){} // RVA: 0x9354FC0
-        public void Awake(){} // RVA: 0x93550C0
-        public void OnDestroy(){} // RVA: 0x9355170
-        public void StringToHash(){} // RVA: 0x9355270
-        public void set_element(){} // RVA: 0xD18B70
+        public void OnPointerEnter(){} // RVA: 0x7A969D7D0
+        public void OnMiddleButton(){} // RVA: 0x7A969D800
+        public void OnPointerExit(){} // RVA: 0x7A969D800
+        public void OnLeftButton(){} // RVA: 0x7A969D7D0
+        public void OnPointerDown(){} // RVA: 0x7A969D7D0
+        public void OnPointerUp(){} // RVA: 0x7A969D830
+        public void OnPointerClick(){} // RVA: 0x7A969DA70
+        public void OnRightButton(){} // RVA: 0x7A969DCB0
+        public void OnSelect(){} // RVA: 0x7A969DCB0
+        public void OnDeselect(){} // RVA: 0x7A969DCE0
+        public void OnSubmit(){} // RVA: 0x7A969E5B0
+        public void OnCancel(){} // RVA: 0x7A969E730
+        public void OnMove(){} // RVA: 0x7A969E8B0
+        public void OnScroll(){} // RVA: 0x7A969D7D0
+        public void .ctor(){} // RVA: 0x7A88817F0
+    }
+
+    /// <summary>Originally: ÏÎÍÍÏÍÎÎÎÍÍÎÍÏÌÎÌÎÌÍÏÌÌ</summary>
+    public class UIObservableList_2699 : ListContentView1Derived_35E6
+    {
+        // ── Methods ──
+        public void IndexOf(){} // RVA: 0x7B0BB4E10
+        public void set_ObservableList(){} // RVA: 0x7B0BB4F90
+        public void get_ObservableList(){} // RVA: 0x7A81163D0
+        public void Start(){} // RVA: 0x7B0BB58F0
+        public void .ctor(){} // RVA: 0x7B0BB6090
+        public void Initialize(){} // RVA: 0x7B0BB61C0
         // ── Unresolved (hash) ──
-        public void m_740(){} // RVA: 0x9354D30
-        public void m_C9D(){} // RVA: 0x9354E30
-        public void m_D47(){} // RVA: 0x9354EC0
-        public void m_E6D(){} // RVA: 0x9355370
-        public void m_65A(){} // RVA: 0x9355400
-        public void m_268(){} // RVA: 0x93555F0
+        public void m_C21(){} // RVA: 0x7B0BB5110
+        public void m_A26(){} // RVA: 0x7B0BB5200
+        public void m_AFA(){} // RVA: 0x7B0BB5370
+        public void m_36C(){} // RVA: 0x7B0BB5780
+        public void m_00A(){} // RVA: 0x7B0BB59F0
+        public void m_809(){} // RVA: 0x7B0BB65C0
+        public void m_733(){} // RVA: 0x7B0BB6650
+        public void m_288(){} // RVA: 0x7B0BB67D0
+        public void m_DE7(){} // RVA: 0x7B0BB6BE0
     }
 
-    /// <summary>Originally: ÌÎÍÍÎÌÏÏÍÎÌÎÏÏÌÏÏÍÎÍÎÌÌ</summary>
-    public class UIRectTransformDimensionsChBefSibling_E582
+    /// <summary>Originally: ÌÍÌÎÏÍÌÎÌÌÏÎÎÎÌÏÍÍÍÌÍÍÌ</summary>
+    public class UIObservableList_5D2E : ListContentView`1
     {
         // ── Methods ──
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x9331050
-        public void .ctor(){} // RVA: 0x9344670
-        public void Initialize(){} // RVA: 0x93446B0
-        public void set_element(){} // RVA: 0xD18B70
+        public void get_ObservableList(){} // RVA: 0x7A87D9480
+        public void set_ObservableList(){} // RVA: 0x7B0E93930
+        public void IndexOf(){} // RVA: 0x7B0E93A50
+        public void Start(){} // RVA: 0x7B0E940C0
+        public void .ctor(){} // RVA: 0x7B0E941E0
+        public void Initialize(){} // RVA: 0x7B0E944E0
+        // ── 12 unresolved (hash) ──
+        public void m_2D2(){} // RVA: 0x7B0E94630
+        public void m_65A(){} // RVA: 0x7B0E94AA0
+        public void m_060(){} // RVA: 0x7B0E94EB0
+        public void m_120(){} // RVA: 0x7B0E94D40
+        public void m_E0F(){} // RVA: 0x7B0E94E60
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÌÎÍÍÌÍÌÌÏÏÏÍÌÏÎÍÍÎÏÏÌÎ</summary>
+    public class UIObservableList_5DAB : ListContentView1Derived_35E6
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B102DFB0
+        public void Initialize(){} // RVA: 0x7B102E020
+        public void set_ObservableList(){} // RVA: 0x7B102E080
+        public void get_ObservableList(){} // RVA: 0x7B102E170
+        public void IndexOf(){} // RVA: 0x7A80D7310
+    }
+
+    /// <summary>Originally: ÎÍÎÎÍÍÎÌÌÎÌÎÎÎÎÏÍÍÏÏÌÌÍ</summary>
+    public class UIReceiveAnalyticsSessionIdLaunchClientToTComponent_2468 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void OnDestroy(){} // RVA: 0x7A96EC670
+        public void Awake(){} // RVA: 0x7A96EC7E0
+        public void IsInvoking(){} // RVA: 0x7A96EC830
+        public void RequestIntegrityToken(){} // RVA: 0x7A96EC890
+        public void SetWatchWorldsBool(){} // RVA: 0x7A96EC9B0
+        public void InvokeRepeating(){} // RVA: 0x7A96ECBE0
+        public void StartCoroutine(){} // RVA: 0x7A96ECDE0
+        public void StartCoroutine_Auto(){} // RVA: 0x7A96ECFE0
+        public void SetClientLanguage(){} // RVA: 0x7A96ED040
+        public void StopAllCoroutines(){} // RVA: 0x7A96ED1F0
+        public void ReceiveAnalyticsSessionId(){} // RVA: 0x7A96ED3F0
+        public void Logout(){} // RVA: 0x7A8B5B160
+        public void print(){} // RVA: 0x7A96ED5F0
+        public void .cctor(){} // RVA: 0x7A96ED7F0
+        public void LaunchClientToLocation(){} // RVA: 0x7A96ED970
+        public void InvokeDelayed(){} // RVA: 0x7A96EDBC0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x7A96EDDF0
+        public void StartCoroutineManaged(){} // RVA: 0x7A96EDFF0
+        public void StartCoroutineManaged2(){} // RVA: 0x7A96EE2D0
+        public void StopCoroutineManaged(){} // RVA: 0x7A96EE3F0
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A96EE750
+        public void GetScriptClassName(){} // RVA: 0x7A96EE7E0
+        public void OnCancellationTokenCreated(){} // RVA: 0x7A96EE930
+        public void OnEnable(){} // RVA: 0x7A96F0420
+        public void Start(){} // RVA: 0x7A96F0620
+        public void Update(){} // RVA: 0x7A96F07C0
+        public void SetClientFocus(){} // RVA: 0x7A96F0B80
+        public void PassLoginInfo(){} // RVA: 0x7A96F0CB0
+        public void OnDisable(){} // RVA: 0x7A9574650
+        public void ReceiveIntegrityToken(){} // RVA: 0x7A96F0D80
+        public void OnApplicationPause(){} // RVA: 0x7A96F12E0
+        public void OnApplicationQuit(){} // RVA: 0x7A96F1510
+        public void OnBecameVisible(){} // RVA: 0x7A96F1710
+        public void OnBecameInvisible(){} // RVA: 0x7A96F1930
+        public void LaunchClientIntoHome(){} // RVA: 0x7A96F1AA0
+        public void OnCollisionStay(){} // RVA: 0x7A96F1BC0
+        public void OnCollisionExit(){} // RVA: 0x7A96F1DC0
+        public void LaunchClientToTestWorld(){} // RVA: 0x7A96F1FC0
+        public void OnTriggerStay(){} // RVA: 0x7A96F2050
+        public void .ctor(){} // RVA: 0x7A80D7D60
         // ── Unresolved (hash) ──
-        public void m_305(){} // RVA: 0x9344190
-        public void m_EBF(){} // RVA: 0x9344280
-        public void m_618(){} // RVA: 0x9344370
-        public void m_363(){} // RVA: 0x9344460
-        public void m_65A(){} // RVA: 0x9344550
-        public void m_0EA(){} // RVA: 0x9344580
-        public void m_940(){} // RVA: 0x93447A0
-        public void m_BFE(){} // RVA: 0x9344890
+        public void m_4D9(){} // RVA: 0x7A96EEB50
+        public void m_800(){} // RVA: 0x7A96EED70
+        public void m_B43(){} // RVA: 0x7A96EF450
+        public void m_56D(){} // RVA: 0x7A96EF650
+        public void m_10D(){} // RVA: 0x7A96EFA30
+        public void m_BAC(){} // RVA: 0x7A96EFAC0
+        public void m_13C(){} // RVA: 0x7A96EFE20
+        public void m_B29(){} // RVA: 0x7A96F0000
+        public void m_827(){} // RVA: 0x7A96F0200
     }
 
-    /// <summary>Originally: ÌÏÌÍÍÏÌÌÏÌÎÍÍÌÎÌÏÏÎÏÍÍÎ</summary>
-    public class UIRectTransformDimensionsChBefSibling_FD4B
+    /// <summary>Originally: ÏÎÎÎÏÌÌÍÍÏÌÌÍÎÌÏÌÏÌÎÍÎÌ</summary>
+    public class UIRectTransformDimensionsChBefSibling_000F
     {
-        public ÍÎÌÎÏÎÌÍÏÍÍÍÌÎÌÎÎÏÍÏÎÎÍ ÎÍÌÏÍÎÎÌÎÌÎÎÍÍÏÌÍÌÍÌÎÌÎ; // 0x128
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x93556F0
-        public void Initialize(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
-        public void m_00A(){} // RVA: 0x9355730
-        public void m_E0B(){} // RVA: 0x9355810
-        public void m_8D9(){} // RVA: 0x93558F0
-        public void m_BFE(){} // RVA: 0x93559D0
-        public void m_65A(){} // RVA: 0x9355F60
-        public void m_93B(){} // RVA: 0x93560C0
-        public void m_070(){} // RVA: 0x93562E0
-        public void m_7B5(){} // RVA: 0x93563C0
-        public void m_373(){} // RVA: 0x93564A0
-        public void m_759(){} // RVA: 0x9356580
+        public void m_2D5(){} // RVA: 0x7A8051B10
+        public void m_B47(){} // RVA: 0x7A8051B10
+        public void m_B13(){} // RVA: 0x7A8051B10
     }
 
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
+    /// <summary>Originally: ÍÏÏÍÌÌÌÏÏÍÌÌÍÎÎÎÍÏÌÎÎÌÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_0742 : UIRectTransformDimensionsChBeforeTransform_9980
     {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<T> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ;
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ;
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ;
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField;
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ;
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ;
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ;
-
         // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void MemSet(){} // RVA: 0x24A50
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x2DC60 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x2DC60 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x2DC60 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x24A50
-        public void OnDisable(){} // RVA: 0x24A50
-        public void OnDestroy(){} // RVA: 0x24A50
-        public void set_Item(){} // RVA: 0x24B10
-        public void Add(){} // RVA: 0x24B10
-        public void Start(){} // RVA: 0x24A50
-        public void IsActive(){} // RVA: 0xDBE0
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x24A50
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x24A50
-        public void OnTransformParentChanged(){} // RVA: 0x24A50
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x24A50
-        public void OnCanvasGroupChanged(){} // RVA: 0x24A50
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x24A50
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0xCD60
-        public void m_193(){} // RVA: 0xCD60
-        public void m_104(){} // RVA: 0x283FA0
-        public void m_305(){} // RVA: 0xCD60
-        public void m_93B(){} // RVA: 0x283FA0
-        // ... 22 more unresolved methods
+        public void .ctor(){} // RVA: 0x7B11774C0
+        public void Initialize(){} // RVA: 0x7B1177500
+        // ── 13 unresolved (hash) ──
+        public void m_0EE(){} // RVA: 0x7B1176A10
+        public void m_645(){} // RVA: 0x7B1176B10
+        public void m_52D(){} // RVA: 0x7B115DE30
+        public void m_023(){} // RVA: 0x7B1176C10
+        public void m_9DD(){} // RVA: 0x7B1176D10
+        // ... 8 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F55590
-        public void MemSet(){} // RVA: 0x4F56040
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F56120 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F56880 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F56F80
-        public void set_Item(){} // RVA: 0x4F57170
-        public void Add(){} // RVA: 0x4F57560
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F57690
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F553D0
-        public void m_104(){} // RVA: 0x4F55530
-        public void m_305(){} // RVA: 0x4F555F0
-        public void m_93B(){} // RVA: 0x1529E90
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F8AF20
-        public void MemSet(){} // RVA: 0x4F8BD70
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F8BEA0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F8C600 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F8CD20
-        public void set_Item(){} // RVA: 0x4F8CF10
-        public void Add(){} // RVA: 0x4F8D300
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F8D430
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F8AC80
-        public void m_104(){} // RVA: 0x4F8AE80
-        public void m_305(){} // RVA: 0x4F8AFC0
-        public void m_93B(){} // RVA: 0x4F8B090
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FD1A30
-        public void MemSet(){} // RVA: 0x4FD2490
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FD2570 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FD2CD0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FD33D0
-        public void set_Item(){} // RVA: 0x4FD35C0
-        public void Add(){} // RVA: 0x4FD39B0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FD3AE0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FD1870
-        public void m_104(){} // RVA: 0x4FD19D0
-        public void m_305(){} // RVA: 0x4FD1A90
-        public void m_93B(){} // RVA: 0x1529E90
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F4D200
-        public void MemSet(){} // RVA: 0x4F4DE50
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F4DF60 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F4E6C0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F4EDF0
-        public void set_Item(){} // RVA: 0x4F4EFE0
-        public void Add(){} // RVA: 0x4F4F3D0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F4F500
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F4CFD0
-        public void m_104(){} // RVA: 0x4F4D180
-        public void m_305(){} // RVA: 0x4F4D270
-        public void m_93B(){} // RVA: 0x4F4D310
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FBF580
-        public void MemSet(){} // RVA: 0x4FC0110
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FC0210 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FC0970 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FC1090
-        public void set_Item(){} // RVA: 0x4FC1280
-        public void Add(){} // RVA: 0x4FC1670
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FC17A0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FBF380
-        public void m_104(){} // RVA: 0x4FBF510
-        public void m_305(){} // RVA: 0x4FBF5F0
-        public void m_93B(){} // RVA: 0x14E9030
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FBCCF0
-        public void MemSet(){} // RVA: 0x4FBD7D0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FBD8A0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FBE000 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FBE6F0
-        public void set_Item(){} // RVA: 0x4FBE8E0
-        public void Add(){} // RVA: 0x4FBECD0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FBEE00
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FBCB60
-        public void m_104(){} // RVA: 0x4FBCCB0
-        public void m_305(){} // RVA: 0x4FBCD40
-        public void m_93B(){} // RVA: 0x2DD320
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FC9F40
-        public void MemSet(){} // RVA: 0x4FCAA40
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FCAB30 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FCB290 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FCB9A0
-        public void set_Item(){} // RVA: 0x4FCBB90
-        public void Add(){} // RVA: 0x4FCBF80
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FCC0B0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FC9D60
-        public void m_104(){} // RVA: 0x4FC9ED0
-        public void m_305(){} // RVA: 0x4FC9FA0
-        public void m_93B(){} // RVA: 0x3F3ED10
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F44EF0
-        public void MemSet(){} // RVA: 0x4F45B00
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F45C00 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F46360 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F46B30
-        public void set_Item(){} // RVA: 0x4F46D20
-        public void Add(){} // RVA: 0x4F47110
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F47240
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F44CF0
-        public void m_104(){} // RVA: 0x4F44E80
-        public void m_305(){} // RVA: 0x4F44F60
-        public void m_93B(){} // RVA: 0x4F45000
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FBA530
-        public void MemSet(){} // RVA: 0x4FBAF90
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FBB070 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FBB7D0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FBBED0
-        public void set_Item(){} // RVA: 0x4FBC0C0
-        public void Add(){} // RVA: 0x4FBC4B0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FBC5E0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FBA370
-        public void m_104(){} // RVA: 0x4FBA4D0
-        public void m_305(){} // RVA: 0x4FBA590
-        public void m_93B(){} // RVA: 0x1529E90
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FCC7C0
-        public void MemSet(){} // RVA: 0x4FCD2A0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FCD370 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FCDAD0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FCE1C0
-        public void set_Item(){} // RVA: 0x4FCE3B0
-        public void Add(){} // RVA: 0x4FCE7A0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FCE8D0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FCC630
-        public void m_104(){} // RVA: 0x4FCC780
-        public void m_305(){} // RVA: 0x4FCC810
-        public void m_93B(){} // RVA: 0x2DD320
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FA0960
-        public void MemSet(){} // RVA: 0x4FA16F0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FA1820 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FA1F80 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FA26A0
-        public void set_Item(){} // RVA: 0x4FA2890
-        public void Add(){} // RVA: 0x4FA2C80
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FA2DB0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FA06C0
-        public void m_104(){} // RVA: 0x4FA08C0
-        public void m_305(){} // RVA: 0x4FA0A00
-        public void m_93B(){} // RVA: 0x4F8B090
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FB5700
-        public void MemSet(){} // RVA: 0x4FB60C0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FB6190 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FB68F0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FB6FE0
-        public void set_Item(){} // RVA: 0x4FB71D0
-        public void Add(){} // RVA: 0x4FB75C0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FB76F0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FB5570
-        public void m_104(){} // RVA: 0x4FB56C0
-        public void m_305(){} // RVA: 0x4FB5750
-        public void m_93B(){} // RVA: 0x519240
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F47AD0
-        public void MemSet(){} // RVA: 0x4F48C10
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F48D60 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F494C0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F49C00
-        public void set_Item(){} // RVA: 0x4F49DF0
-        public void Add(){} // RVA: 0x4F4A1E0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F4A310
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F477C0
-        public void m_104(){} // RVA: 0x4F47A00
-        public void m_305(){} // RVA: 0x4F47B90
-        public void m_93B(){} // RVA: 0x4F47C50
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F85850
-        public void MemSet(){} // RVA: 0x4F863B0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F864A0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F86C00 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F87310
-        public void set_Item(){} // RVA: 0x4F87500
-        public void Add(){} // RVA: 0x4F878F0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F87A20
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F85670
-        public void m_104(){} // RVA: 0x4F857E0
-        public void m_305(){} // RVA: 0x4F858B0
-        public void m_93B(){} // RVA: 0x4F85940
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FB2E90
-        public void MemSet(){} // RVA: 0x4FB3980
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FB3A70 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FB41D0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FB48E0
-        public void set_Item(){} // RVA: 0x4FB4AD0
-        public void Add(){} // RVA: 0x4FB4EC0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FB4FF0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FB2CB0
-        public void m_104(){} // RVA: 0x4FB2E20
-        public void m_305(){} // RVA: 0x4FB2EF0
-        public void m_93B(){} // RVA: 0x4F85940
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F88230
-        public void MemSet(){} // RVA: 0x4F89040
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F89170 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F898D0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F89FF0
-        public void set_Item(){} // RVA: 0x4F8A1E0
-        public void Add(){} // RVA: 0x4F8A5D0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F8A700
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F87FA0
-        public void m_104(){} // RVA: 0x4F881A0
-        public void m_305(){} // RVA: 0x4F882C0
-        public void m_93B(){} // RVA: 0x4F88380
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FC1F90
-        public void MemSet(){} // RVA: 0x4FC2D60
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FC2E80 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FC35E0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FC3D30
-        public void set_Item(){} // RVA: 0x4FC3F20
-        public void Add(){} // RVA: 0x4FC4310
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FC4440
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FC1D20
-        public void m_104(){} // RVA: 0x4FC1F00
-        public void m_305(){} // RVA: 0x4FC2020
-        public void m_93B(){} // RVA: 0x4FC20E0
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FD74D0
-        public void MemSet(){} // RVA: 0x4FD7E90
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FD7F60 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FD86C0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FD8DB0
-        public void set_Item(){} // RVA: 0x4FD8FA0
-        public void Add(){} // RVA: 0x4FD9390
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FD94C0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FD7340
-        public void m_104(){} // RVA: 0x4FD7490
-        public void m_305(){} // RVA: 0x4FD7520
-        public void m_93B(){} // RVA: 0x519240
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F957E0
-        public void MemSet(){} // RVA: 0x4F96A50
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F96BA0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F97300 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F97A50
-        public void set_Item(){} // RVA: 0x4F97C40
-        public void Add(){} // RVA: 0x4F98030
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F98160
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F954C0
-        public void m_104(){} // RVA: 0x4F95710
-        public void m_305(){} // RVA: 0x4F958B0
-        public void m_93B(){} // RVA: 0x4F95980
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F988A0
-        public void MemSet(){} // RVA: 0x4F99300
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F993E0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F99B40 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F9A240
-        public void set_Item(){} // RVA: 0x4F9A430
-        public void Add(){} // RVA: 0x4F9A820
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F9A950
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F986E0
-        public void m_104(){} // RVA: 0x4F98840
-        public void m_305(){} // RVA: 0x4F98900
-        public void m_93B(){} // RVA: 0x1529E90
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F90540
-        public void MemSet(){} // RVA: 0x4F910C0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F911C0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F91920 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F92040
-        public void set_Item(){} // RVA: 0x4F92230
-        public void Add(){} // RVA: 0x4F92620
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F92750
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F90340
-        public void m_104(){} // RVA: 0x4F904D0
-        public void m_305(){} // RVA: 0x4F905B0
-        public void m_93B(){} // RVA: 0x4F45000
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FAB420
-        public void MemSet(){} // RVA: 0x4FAC010
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FAC110 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FAC870 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FACF90
-        public void set_Item(){} // RVA: 0x4FAD180
-        public void Add(){} // RVA: 0x4FAD570
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FAD6A0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FAB220
-        public void m_104(){} // RVA: 0x4FAB3B0
-        public void m_305(){} // RVA: 0x4FAB490
-        public void m_93B(){} // RVA: 0x14E9030
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FB7E00
-        public void MemSet(){} // RVA: 0x4FB87C0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FB8890 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FB8FF0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FB96E0
-        public void set_Item(){} // RVA: 0x4FB98D0
-        public void Add(){} // RVA: 0x4FB9CC0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FB9DF0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FB7C70
-        public void m_104(){} // RVA: 0x4FB7DC0
-        public void m_305(){} // RVA: 0x4FB7E50
-        public void m_93B(){} // RVA: 0x519240
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FADDB0
-        public void MemSet(){} // RVA: 0x4FAE770
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FAE840 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FAEFA0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FAF690
-        public void set_Item(){} // RVA: 0x4FAF880
-        public void Add(){} // RVA: 0x4FAFC70
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FAFDA0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FADC20
-        public void m_104(){} // RVA: 0x4FADD70
-        public void m_305(){} // RVA: 0x4FADE00
-        public void m_93B(){} // RVA: 0x519240
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FA5D90
-        public void MemSet(){} // RVA: 0x4FA6910
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FA6A10 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FA7170 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FA7890
-        public void set_Item(){} // RVA: 0x4FA7A80
-        public void Add(){} // RVA: 0x4FA7E70
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FA7FA0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FA5B90
-        public void m_104(){} // RVA: 0x4FA5D20
-        public void m_305(){} // RVA: 0x4FA5E00
-        public void m_93B(){} // RVA: 0x4F45000
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<ÍÌÎÍÏÌÍÌÎÍÏÎÌÍÍÎÏÍÎÍÌÍÏ> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F9B100
-        public void MemSet(){} // RVA: 0x4F9BCC0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F9BDD0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F9C530 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F9CC60
-        public void set_Item(){} // RVA: 0x4F9CE50
-        public void Add(){} // RVA: 0x4F9D240
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F9D370
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F9AED0
-        public void m_104(){} // RVA: 0x4F9B080
-        public void m_305(){} // RVA: 0x4F9B170
-        public void m_93B(){} // RVA: 0x4F4D310
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FA34C0
-        public void MemSet(){} // RVA: 0x4FA3FE0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FA40B0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FA4810 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FA4F00
-        public void set_Item(){} // RVA: 0x4FA50F0
-        public void Add(){} // RVA: 0x4FA54E0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FA5610
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FA3330
-        public void m_104(){} // RVA: 0x4FA3480
-        public void m_305(){} // RVA: 0x4FA3510
-        public void m_93B(){} // RVA: 0x2DD320
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FB0520
-        public void MemSet(){} // RVA: 0x4FB10A0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FB11A0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FB1900 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FB2020
-        public void set_Item(){} // RVA: 0x4FB2210
-        public void Add(){} // RVA: 0x4FB2600
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FB2730
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FB0320
-        public void m_104(){} // RVA: 0x4FB04B0
-        public void m_305(){} // RVA: 0x4FB0590
-        public void m_93B(){} // RVA: 0x4F45000
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FA87D0
-        public void MemSet(){} // RVA: 0x4FA95D0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FA9700 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FA9E60 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FAA590
-        public void set_Item(){} // RVA: 0x4FAA780
-        public void Add(){} // RVA: 0x4FAAB70
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FAACA0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FA8520
-        public void m_104(){} // RVA: 0x4FA8730
-        public void m_305(){} // RVA: 0x4FA8870
-        public void m_93B(){} // RVA: 0x4F9DD10
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4FDC4D0
-        public void MemSet(){} // RVA: 0x4FDD080
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4FDD160 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4FDD8C0 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4FDDFC0
-        public void set_Item(){} // RVA: 0x4FDE1B0
-        public void Add(){} // RVA: 0x4FDE5A0
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4FDE6D0
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4FDC310
-        public void m_104(){} // RVA: 0x4FDC470
-        public void m_305(){} // RVA: 0x4FDC530
-        public void m_93B(){} // RVA: 0x1529E90
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÌÎÍÏÍÏÏÏÎÏÍÏÌÍÏÎÌÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_B70F
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<Content> ÍÍÍÍÍÍÏÏÏÎÏÏÏÌÏÍÍÏÍÌÌÌÌ; // 0xB8
-        public Cysharp.Threading.Tasks.UniTask ÍÏÌÏÌÎÎÏÎÏÍÌÏÎÏÏÍÍÎÏÎÌÍ; // 0xC0
-        public System.Threading.CancellationTokenSource ÌÌÌÌÏÌÍÎÍÍÎÎÌÍÍÎÏÏÎÏÎÏÏ; // 0xD0
-        public ÏÌÍÌÌÏÎÎÍÌÍÎÏÏÏÎÌÍÏÌÎÎÍ <ÌÌÍÎÌÏÍÌÏÏÎÍÌÎÌÌÍÌÌÏÎÏÎ>k__BackingField; // 0xD8
-        public bool ÎÌÎÎÏÍÍÌÎÌÏÍÏÍÏÏÌÍÎÍÎÏÏ; // 0xE0
-        public System.Collections.Generic.HashSet`1<System.ValueTuple`2<int,int>> ÏÏÏÎÌÌÏÎÏÏÎÍÍÌÌÏÌÍÎÎÌÍÏ; // 0xE8
-        public System.Collections.Generic.List`1<System.Action> ÏÎÎÏÌÍÌÍÍÏÌÌÏÏÏÎÎÍÌÎÌÎÎ; // 0xF0
-
-        // ── Methods ──
-        public void TryCopyTo(){} // RVA: 0x4F92E90
-        public void MemSet(){} // RVA: 0x4F938F0
-        public void get_transform_E6C87AAEDBF4(){} // RVA: 0x4F939D0 | overloaded x2
-        public void StartCoroutine(){} // RVA: 0x4F94130 | overloaded x3
-        public void StopCoroutine(){} // RVA: 0x4F43A90 | overloaded x3
-        public void StopAllCoroutines(){} // RVA: 0x283FA0
-        public void OnEnable(){} // RVA: 0x4F46A80
-        public void OnDisable(){} // RVA: 0x4F46AD0
-        public void OnDestroy(){} // RVA: 0x4F94830
-        public void set_Item(){} // RVA: 0x4F94A20
-        public void Add(){} // RVA: 0x4F94E10
-        public void Start(){} // RVA: 0x4F446F0
-        public void IsActive(){} // RVA: 0x4F44710
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x4F446F0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnTransformParentChanged(){} // RVA: 0x4F446F0
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x4F446F0
-        public void OnCanvasGroupChanged(){} // RVA: 0x4F446F0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x4F446F0
-        public void .ctor(){} // RVA: 0x4F94F40
-        // ── 27 unresolved (hash) ──
-        public void m_080(){} // RVA: 0x4F41B50
-        public void m_193(){} // RVA: 0x4F92CD0
-        public void m_104(){} // RVA: 0x4F92E30
-        public void m_305(){} // RVA: 0x4F92EF0
-        public void m_93B(){} // RVA: 0x1529E90
-        // ... 22 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÌÏÎÏÏÌÏÏÍÎÌÏÌÌÎÍÎÎÌÎÎÎ</summary>
-    public class UIRectTransformDimensionsRelated_005D
+    /// <summary>Originally: ÎÌÌÌÌÍÌÏÏÌÍÌÍÏÏÌÏÍÏÏÌÎÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_08A5 : UIRectTransformDimensionsChBeforeTransform_9980
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x938F5B0
-        public void Initialize(){} // RVA: 0x938F8D0
+        public void .ctor(){} // RVA: 0x7B1170D40
+        public void Initialize(){} // RVA: 0x7A80D7310
         // ── Unresolved (hash) ──
-        public void m_9D8(){} // RVA: 0x938EE30
-        public void m_8C4(){} // RVA: 0x938F470
-        public void m_7E0(){} // RVA: 0x938FA30
-        public void m_BB3(){} // RVA: 0x93903B0
-        public void m_31E(){} // RVA: 0x9390A00
-        public void m_19E(){} // RVA: 0x9390B40
-        public void m_02A(){} // RVA: 0x9390C80
-        public void m_ECF(){} // RVA: 0x9390DC0
-        public void m_989(){} // RVA: 0x9391410
+        public void m_37E(){} // RVA: 0x7B1170D80
+        public void m_C3D(){} // RVA: 0x7B1170E50
     }
 
-    /// <summary>Originally: ÌÎÌÍÏÍÏÏÏÏÎÎÏÌÏÏÍÎÏÏÌÎÎ</summary>
-    public class UIRectTransformDimensionsRelated_8C0A
+    /// <summary>Originally: ÏÎÍÌÌÎÍÎÏÍÏÏÌÏÏÎÎÎÌÎÌÍÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_0E95 : UIRectTransformDimensionsChBeforeTransform_9980
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x93B2880
-        public void Initialize(){} // RVA: 0x93B2960
+        public void .ctor(){} // RVA: 0x7B11897A0
+        public void Awake(){} // RVA: 0x7B1189960
+        public void OnDestroy(){} // RVA: 0x7B118A8E0
+        // ── 16 unresolved (hash) ──
+        public void m_743(){} // RVA: 0x7B11893C0
+        public void m_BF9(){} // RVA: 0x7B11893F0
+        public void m_056(){} // RVA: 0x7B1189420
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_9AA(){} // RVA: 0x7B11894B0
+        // ... 11 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÍÍÍÎÌÌÎÌÏÌÏÍÌÎÏÏÎÌÏÎÍÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_1124 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B11871F0
+        public void Initialize(){} // RVA: 0x7B11873D0
+        // ── 17 unresolved (hash) ──
+        public void m_A9C(){} // RVA: 0x7B1185580
+        public void m_37E(){} // RVA: 0x7B1185610
+        public void m_CF2(){} // RVA: 0x7B1186010
+        public void m_B47(){} // RVA: 0x7B1186140
+        public void m_938(){} // RVA: 0x7B11865A0
+        // ... 12 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÎÏÏÎÍÍÍÏÏÍÏÌÎÌÍÏÍÍÏÍÍÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_143D : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B11721B0
+        public void Initialize(){} // RVA: 0x7B11721F0
         // ── 15 unresolved (hash) ──
-        public void m_9CA(){} // RVA: 0x93B2200
-        public void m_7E0(){} // RVA: 0x93B26A0
-        public void m_C75(){} // RVA: 0x93B2710
-        public void m_8E0(){} // RVA: 0x93B27B0
-        public void m_674(){} // RVA: 0x93B2A30
+        public void m_140(){} // RVA: 0x7B1172510
+        public void m_37E(){} // RVA: 0x7B1172640
+        public void m_9FE(){} // RVA: 0x7B11728C0
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_C3D(){} // RVA: 0x7B11729F0
         // ... 10 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÌÌÌÎÏÎÍÌÌÍÌÎÎÎÌÏÎÍÌÌÎÍ</summary>
-    public class UIRectTransformDimensionsRelated_8C6E
+    /// <summary>Originally: ÌÏÌÏÎÏÎÍÏÍÎÌÍÍÎÌÌÌÌÏÌÏÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_25B6 : UIRectTransformDimensionsChBeforeTransform_9980
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x93C3180
-        // ── Unresolved (hash) ──
-        public void m_860(){} // RVA: 0x93C2F80
-        public void m_7E0(){} // RVA: 0x93C2FE0
-        public void m_A57(){} // RVA: 0x93C3110
-    }
-
-    /// <summary>Originally: ÌÌÌÎÏÎÌÍÎÌÍÏÎÍÎÍÌÍÎÌÍÏÍ</summary>
-    public class UIRectTransformDimensionsRelated_D498
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x93EB2E0
-        public void Initialize(){} // RVA: 0x93EB320
-        // ── Unresolved (hash) ──
-        public void m_860(){} // RVA: 0x93EB480
-    }
-
-    /// <summary>Originally: ÌÌÎÌÍÎÎÏÌÌÏÎÏÌÎÌÎÏÌÏÎÎÏ</summary>
-    public class UIRectTransformDimensionsRelated_D813
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x93EA900
-        // ── Unresolved (hash) ──
-        public void m_860(){} // RVA: 0x93EA6C0
-        public void m_7E0(){} // RVA: 0x93EA790
-    }
-
-    /// <summary>Originally: ÌÍÍÏÎÏÌÎÌÎÌÏÏÎÏÌÍÏÌÍÍÍÎ</summary>
-    public class UIScroll_337B
-    {
-        // ── Methods ──
-        public void OnScroll(){}
+        public void .ctor(){} // RVA: 0x7B115D530
+        public void Initialize(){} // RVA: 0x7B115D570
         // ── 15 unresolved (hash) ──
-        public void m_F50(){}
-        public void m_64A(){}
-        public void m_ADB(){}
-        public void m_405(){}
-        public void m_263(){}
+        public void m_378(){} // RVA: 0x7B115D300
+        public void m_201(){} // RVA: 0x7B115D480
+        public void m_D21(){} // RVA: 0x7B115D500
+        public void m_CC6(){} // RVA: 0x7B115D500
+        public void m_209(){} // RVA: 0x7A8ADAEF0
         // ... 10 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÏÍÎÎÎÎÏÌÍÎÌÍÌÎÌÏÍÏÍÏÍÍ</summary>
-    public class UIShowTabContentSibling_4F2E
+    /// <summary>Originally: ÏÏÎÍÌÎÏÏÎÎÌÍÌÏÍÎÎÎÌÍÌÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_2BD9 : UIRectTransformDimensionsChBeforeTransform_9980
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void Remove(){} // RVA: 0xDE40
-        public void ConvertAll(){} // RVA: 0xCE10
-        public void Clear(){} // RVA: 0x24A50
-        public void Add_08F6DD6A6155(){} // RVA: 0x24B10 | overloaded x2
-        public void Return(){} // RVA: 0x2A620
-        // ── Unresolved (hash) ──
-        public void m_C3B(){} // RVA: 0x24B10
-        public void m_615(){} // RVA: 0x24B10
-        public void m_A0E(){} // RVA: 0xCD60
-        public void m_9E7(){} // RVA: 0xCD60
-        public void m_5CC(){} // RVA: 0x24B10
-        public void m_EB2(){} // RVA: 0xCD60
-        public void m_F1D(){} // RVA: 0x24A50
-        public void m_7E5(){}
+        public void .ctor(){} // RVA: 0x7B1178420
+        public void Initialize(){} // RVA: 0x7B1178460
+        // ── 17 unresolved (hash) ──
+        public void m_E70(){} // RVA: 0x7B11776B0
+        public void m_12A(){} // RVA: 0x7B11777B0
+        public void m_740(){} // RVA: 0x7B11778B0
+        public void m_3EB(){} // RVA: 0x7B11778F0
+        public void m_2C1(){} // RVA: 0x7B11779F0
+        // ... 12 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÏÍÌÌÌÎÍÌÍÎÍÍÎÍÍÌÌÌÍÌÏÎ</summary>
-    public class UIShowTabContentSibling_A53B
+    /// <summary>Originally: ÌÌÏÎÍÎÏÏÍÎÏÎÎÎÌÌÎÌÍÌÎÍÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_30E0 : UIRectTransformDimensionsChBeforeTransform_9980
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0xD840
-        public void CopyTo_90D68B6D56BC(){} // RVA: 0x2BAA0 | overloaded x2
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void InitializeCollection(){} // RVA: 0x24A50
-        public void Add(){} // RVA: 0x24B10
-        public void Clear(){} // RVA: 0x24A50
-        public void Remove(){} // RVA: 0xDE40
-        public void ConvertAll(){} // RVA: 0xCE10
-        public void MemSet(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7B115F2F0
+        public void Initialize(){} // RVA: 0x7B115F330
         // ── Unresolved (hash) ──
-        public void m_7B0(){} // RVA: 0x24B10
-        public void m_AE4(){} // RVA: 0x24B10
-        public void m_5CC(){} // RVA: 0x24B10
-        public void m_3FB(){}
-        public void m_F1D(){} // RVA: 0xCD60
-        public void m_BC9(){} // RVA: 0xCD60
-        public void m_F89(){} // RVA: 0xCD60
-        public void m_4B4(){} // RVA: 0x24A50
-        public void m_71A(){} // RVA: 0x24B10
-        public void m_CAD(){} // RVA: 0x24B10
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_37E(){} // RVA: 0x7B115F3E0
     }
 
-    /// <summary>Originally: ÌÏÏÌÏÍÍÍÎÏÏÎÍÏÎÎÍÌÌÎÍÌÍ</summary>
-    public class UITransformTransformHandler_B715
+    /// <summary>Originally: ÌÏÏÌÏÌÎÌÌÌÏÍÏÌÎÎÎÌÏÏÌÏÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_352A : UIRectTransformDimensionsChBeforeTransform_9980
     {
         // ── Methods ──
-        public void SetAnchoredPosition(){} // RVA: 0x130E300
+        public void .ctor(){} // RVA: 0x7B117A280
+        public void Initialize(){} // RVA: 0x7B117A2C0
+        // ── 13 unresolved (hash) ──
+        public void m_CAB(){} // RVA: 0x7B1179A60
+        public void m_E13(){} // RVA: 0x7B1179AE0
+        public void m_209(){} // RVA: 0x7A8ADAEF0
+        public void m_2CE(){} // RVA: 0x7B1179B60
+        public void m_869(){} // RVA: 0x7B1179C60
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÌÎÎÍÌÌÌÌÏÏÎÎÏÌÎÎÎÍÌÌÎÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_363B : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B118D080
+        public void Initialize(){} // RVA: 0x7B118D0C0
         // ── Unresolved (hash) ──
-        public void m_124(){} // RVA: 0x130E3C0
-        public void m_94F(){} // RVA: 0x130E430
-        public void m_DCC(){} // RVA: 0x130E490
-        public void m_C09(){} // RVA: 0x130E660
-        public void m_4A6(){} // RVA: 0x130E690
-        public void m_9BF(){} // RVA: 0x130E6C0
-        public void m_F00(){} // RVA: 0x130E6F0
+        public void m_B47(){} // RVA: 0x7ACE66E80
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_C3D(){} // RVA: 0x7B118CAF0
+    }
+
+    /// <summary>Originally: ÍÍÌÍÍÍÌÎÌÌÎÍÌÎÎÌÎÏÌÏÌÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_37A9 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B11706D0
+        public void Initialize(){} // RVA: 0x7B1170710
+        // ── 12 unresolved (hash) ──
+        public void m_4B0(){} // RVA: 0x7B11703A0
+        public void m_C3D(){} // RVA: 0x7B11704A0
+        public void m_7A1(){} // RVA: 0x7B11705D0
+        public void m_209(){} // RVA: 0x7A8ADAEF0
+        public void m_FA0(){} // RVA: 0x7B1170810
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÍÌÌÍÌÏÍÌÍÍÏÌÍÏÌÍÌÏÍÏÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_490E : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1160380
+        public void Initialize(){} // RVA: 0x7B1160490
+        // ── 15 unresolved (hash) ──
+        public void m_427(){} // RVA: 0x7B115F460
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_6C2(){} // RVA: 0x7B115F4D0
+        public void m_01E(){} // RVA: 0x7B115F6A0
+        public void m_872(){} // RVA: 0x7B115FCB0
+        // ... 10 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÎÏÌÏÌÌÏÌÌÍÍÌÍÌÍÏÍÎÏÏÏÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_4A2E : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1164FF0
+        // ── Unresolved (hash) ──
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_37E(){} // RVA: 0x7B11646E0
+        public void m_C3D(){} // RVA: 0x7B1164B00
+    }
+
+    /// <summary>Originally: ÍÍÎÎÌÌÌÌÌÏÌÎÏÌÏÏÌÏÍÎÏÍÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_4D73 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1164600
+        public void Initialize(){} // RVA: 0x7B1164640
+        // ── Unresolved (hash) ──
+        public void m_C3D(){} // RVA: 0x7B1164550
+        public void m_209(){} // RVA: 0x7A80D7310
+    }
+
+    /// <summary>Originally: ÌÌÎÏÏÌÍÍÏÍÌÍÍÏÏÍÏÎÎÍÎÌÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_598C : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B117B8C0
+        public void Initialize(){} // RVA: 0x7B117B900
+        // ── 20 unresolved (hash) ──
+        public void m_209(){} // RVA: 0x7B117A750
+        public void m_541(){} // RVA: 0x7B117A870
+        public void m_84B(){} // RVA: 0x7B117A970
+        public void m_37E(){} // RVA: 0x7B117AA70
+        public void m_4AD(){} // RVA: 0x7B115DE30
+        // ... 15 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÏÌÌÌÍÍÌÏÍÏÍÎÏÌÏÍÏÍÎÍÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_60D6 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B118F060
+        // ── Unresolved (hash) ──
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_C3D(){} // RVA: 0x7B118EB90
+        public void m_B47(){} // RVA: 0x7ACE56FB0
+        public void m_37E(){} // RVA: 0x7B118EDF0
+    }
+
+    /// <summary>Originally: ÍÌÎÏÏÌÍÏÍÍÏÍÌÍÎÌÏÍÏÍÎÎÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_69A4 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B11715D0
+        public void Initialize(){} // RVA: 0x7B1171610
+        // ── 13 unresolved (hash) ──
+        public void m_209(){} // RVA: 0x7A8ADAEF0
+        public void m_60E(){} // RVA: 0x7B1171270
+        public void m_449(){} // RVA: 0x7B1171390
+        public void m_7E3(){} // RVA: 0x7B11714B0
+        public void m_B47(){} // RVA: 0x7B1171730
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÍÏÌÏÍÏÍÎÌÎÍÏÏÎÏÍÌÌÎÌÌÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_7AC1 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1163F40
+        public void Initialize(){} // RVA: 0x7B1164020
+        // ── Unresolved (hash) ──
+        public void m_C3D(){} // RVA: 0x7B1164370
+        public void m_209(){} // RVA: 0x7A80D7310
+    }
+
+    /// <summary>Originally: ÎÎÎÏÎÍÌÍÏÌÏÏÏÎÎÍÌÌÌÍÌÌÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_7E5C : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B11702B0
+        public void Initialize(){} // RVA: 0x7B1170070
+        // ── 11 unresolved (hash) ──
+        public void m_C95(){} // RVA: 0x7B1170070
+        public void m_829(){} // RVA: 0x7B1170070
+        public void m_B47(){} // RVA: 0x7B11700F0
+        public void m_227(){} // RVA: 0x7B1170070
+        public void m_37E(){} // RVA: 0x7B11701D0
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÌÎÌÎÌÌÎÏÎÏÎÎÎÍÏÍÌÎÍÎÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_7E67 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B116F5E0
+        public void Initialize(){} // RVA: 0x7B116F620
+        // ── 13 unresolved (hash) ──
+        public void m_37E(){} // RVA: 0x7B116F720
+        public void m_F94(){} // RVA: 0x7B115DE30
+        public void m_F4F(){} // RVA: 0x7B116F940
+        public void m_FA6(){} // RVA: 0x7B116FA40
+        public void m_29B(){} // RVA: 0x7B115DE30
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÏÎÌÌÌÏÌÏÎÏÏÌÍÍÎÎÍÏÎÌÌÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_8604 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B117EDF0
+        public void Initialize(){} // RVA: 0x7B117EC30
+        // ── 14 unresolved (hash) ──
+        public void m_37E(){} // RVA: 0x7B117EC30
+        public void m_981(){} // RVA: 0x7B117EC40
+        public void m_2FF(){} // RVA: 0x7B117F010
+        public void m_77D(){} // RVA: 0x7B117F190
+        public void m_F10(){} // RVA: 0x7B117FB00
+        // ... 9 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÌÎÌÌÎÎÌÎÏÌÍÎÏÍÏÍÏÍÏÌÎÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_8FBA : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B11883A0
+        public void Initialize(){} // RVA: 0x7B11883E0
+        // ── Unresolved (hash) ──
+        public void m_B47(){} // RVA: 0x7B1188E90
+        public void m_C3D(){} // RVA: 0x7A80D7310
+        public void m_209(){} // RVA: 0x7A80D7310
+    }
+
+    /// <summary>Originally: ÏÏÏÎÍÎÎÏÎÌÏÏÏÌÎÌÏÎÍÍÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_919A : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B115F2B0
+        // ── Unresolved (hash) ──
+        public void m_37E(){} // RVA: 0x7B115F110
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_C3D(){} // RVA: 0x7B115F1E0
+    }
+
+    /// <summary>Originally: ÌÏÍÍÌÌÍÏÍÏÍÎÎÍÎÏÌÍÎÎÏÌÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_9329 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B11837C0
+        public void Initialize(){} // RVA: 0x7B1183800
+        public void Awake(){} // RVA: 0x7B1183B30
+        public void OnDestroy(){} // RVA: 0x7B1183BE0
+        // ── 12 unresolved (hash) ──
+        public void m_355(){} // RVA: 0x7B1183040
+        public void m_A21(){} // RVA: 0x7B1183160
+        public void m_7E2(){} // RVA: 0x7B1183280
+        public void m_BD4(){} // RVA: 0x7B1183340
+        public void m_532(){} // RVA: 0x7B1183460
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÏÍÍÎÏÍÍÌÍÏÎÍÏÎÍÏÌÏÏÍÍÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_9A1D : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B117CA10
+        public void Initialize(){} // RVA: 0x7B117CAF0
+        // ── 17 unresolved (hash) ──
+        public void m_9E7(){} // RVA: 0x7B117C5B0
+        public void m_BDF(){} // RVA: 0x7B117C6D0
+        public void m_125(){} // RVA: 0x7B117C730
+        public void m_C0D(){} // RVA: 0x7B1174840
+        public void m_86C(){} // RVA: 0x7B117C750
+        // ... 12 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÏÏÎÏÍÏÏÍÍÌÍÌÍÌÍÏÌÌÏÏÌÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_9F21 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1165760
+        public void Initialize(){} // RVA: 0x7B11657A0
+        // ── 16 unresolved (hash) ──
+        public void m_4B0(){} // RVA: 0x7B11655C0
+        public void m_CA6(){} // RVA: 0x7B11656C0
+        public void m_C3D(){} // RVA: 0x7B1165B60
+        public void m_209(){} // RVA: 0x7B1165D90
+        public void m_381(){} // RVA: 0x7B0F87980
+        // ... 11 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÍÌÏÎÎÎÏÌÏÏÍÌÍÌÎÏÎÍÍÌÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_A21F : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1165040
+        public void Initialize(){} // RVA: 0x7A80D7310
+        // ── Unresolved (hash) ──
+        public void m_37E(){} // RVA: 0x7B1165080
+        public void m_B47(){} // RVA: 0x7B1165360
+        public void m_C3D(){} // RVA: 0x7B1165460
+    }
+
+    /// <summary>Originally: ÌÏÏÌÏÌÍÌÏÎÌÎÎÏÏÍÎÌÌÍÏÎÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_B0EA : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B115E3C0
+        public void Initialize(){} // RVA: 0x7B115E400
+        // ── 14 unresolved (hash) ──
+        public void m_6D1(){} // RVA: 0x7B115DD60
+        public void m_810(){} // RVA: 0x7B115DE30
+        public void m_37E(){} // RVA: 0x7B115DE50
+        public void m_C3D(){} // RVA: 0x7B115E000
+        public void m_209(){} // RVA: 0x7A8ADAEF0
+        // ... 9 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÍÎÏÍÍÎÌÍÌÏÏÍÍÎÎÌÌÍÌÎÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_BA42 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1184E40
+        // ── 11 unresolved (hash) ──
+        public void m_334(){} // RVA: 0x7B1183EF0
+        public void m_B63(){} // RVA: 0x7B1183FD0
+        public void m_CA7(){} // RVA: 0x7B11840B0
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_F6C(){} // RVA: 0x7B1184190
+        // ... 6 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÍÌÍÍÎÎÏÌÎÌÍÏÍÏÍÏÍÌÍÌÍÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_D0A2 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B11828D0
+        public void Initialize(){} // RVA: 0x7B1182910
+        public void .cctor(){} // RVA: 0x7B1182F60
+        // ── 13 unresolved (hash) ──
+        public void m_29B(){} // RVA: 0x7B11820A0
+        public void m_31C(){} // RVA: 0x7B1182200
+        public void m_37E(){} // RVA: 0x7B11822D0
+        public void m_835(){} // RVA: 0x7B11823E0
+        public void m_CA6(){} // RVA: 0x7B11824B0
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÏÏÎÎÏÏÌÌÏÎÎÏÎÍÎÎÌÎÍÏÍÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_D10A : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B124F410
+        public void Initialize(){} // RVA: 0x7A80D7320
+        // ── Unresolved (hash) ──
+        public void m_37E(){} // RVA: 0x7A80D7310
+        public void m_209(){} // RVA: 0x7A80D7310
+    }
+
+    /// <summary>Originally: ÌÏÌÎÏÎÍÎÏÍÌÍÍÌÏÌÎÎÏÌÎÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_D5F7 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1162FF0
+        public void Initialize(){} // RVA: 0x7B1163030
+        // ── Unresolved (hash) ──
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_37E(){} // RVA: 0x7B1163100
+    }
+
+    /// <summary>Originally: ÍÎÎÌÎÎÌÏÌÍÎÎÏÎÏÌÌÎÌÎÏÍÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_E3E8 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B115E8A0
+        public void Initialize(){} // RVA: 0x7B115E8E0
+        // ── 13 unresolved (hash) ──
+        public void m_F94(){} // RVA: 0x7B115DE30
+        public void m_3F1(){} // RVA: 0x7B115EAC0
+        public void m_826(){} // RVA: 0x7B115DE30
+        public void m_B59(){} // RVA: 0x7B115EBC0
+        public void m_2E7(){} // RVA: 0x7B115ECC0
+        // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÎÎÌÍÌÏÍÏÏÍÏÌÍÌÏÍÏÎÏÏÌ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_EA3F : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1178E80
+        public void Initialize(){} // RVA: 0x7B1178EC0
+        // ── 14 unresolved (hash) ──
+        public void m_DC6(){} // RVA: 0x7B1178AA0
+        public void m_852(){} // RVA: 0x7B1178BC0
+        public void m_BBE(){} // RVA: 0x7B1178CE0
+        public void m_CFD(){} // RVA: 0x7AE066460
+        public void m_142(){} // RVA: 0x7B1178FE0
+        // ... 9 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÏÎÍÏÎÏÍÌÌÎÏÍÌÎÏÌÌÎÍÍÍÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_F2CF : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1163F00
+        // ── Unresolved (hash) ──
+        public void m_37E(){} // RVA: 0x7B1163E00
+        public void m_C3D(){} // RVA: 0x7B1163E30
+        public void m_209(){} // RVA: 0x7A80D7310
+    }
+
+    /// <summary>Originally: ÌÏÌÎÎÍÌÏÍÏÍÎÌÍÍÍÍÍÌÏÌÍÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_F2D4 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1176120
+        public void Initialize(){} // RVA: 0x7A80D7310
+        // ── 12 unresolved (hash) ──
+        public void m_CA4(){} // RVA: 0x7B11749C0
+        public void m_305(){} // RVA: 0x7B1174C70
+        public void m_EB1(){} // RVA: 0x7B1174E90
+        public void m_804(){} // RVA: 0x7B1175140
+        public void m_574(){} // RVA: 0x7B1175350
+        // ... 7 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÍÎÍÌÏÎÌÍÎÏÏÏÌÍÎÍÌÎÍÏÎÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_F43A : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B115F420
+        public void Initialize(){} // RVA: 0x7A80D7310
+        // ── Unresolved (hash) ──
+        public void m_C3D(){} // RVA: 0x7A80D7310
+        public void m_209(){} // RVA: 0x7A80D7310
+    }
+
+    /// <summary>Originally: ÍÏÎÏÎÏÎÌÌÏÍÏÍÍÌÏÌÏÌÌÌÏÎ</summary>
+    public class UIRectTransformDimensionsChBeforeTransformImpl_F7B6 : UIRectTransformDimensionsChBeforeTransform_9980
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7B1170FD0
+        public void Initialize(){} // RVA: 0x7B1171010
+        // ── Unresolved (hash) ──
+        public void m_209(){} // RVA: 0x7A80D7310
+        public void m_C3D(){} // RVA: 0x7B1171060
+        public void m_B47(){} // RVA: 0x7B1171110
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7A7E18770
+        public void OnDisable(){} // RVA: 0x7A7E18770
+        public void OnDestroy(){} // RVA: 0x7A7E18770
+        public void Start(){} // RVA: 0x7A7E18770
+        public void IsActive(){} // RVA: 0x7A7E01900
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7A7E18770
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7A7E18770
+        public void OnTransformParentChanged(){} // RVA: 0x7A7E18770
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7A7E18770
+        public void OnCanvasGroupChanged(){} // RVA: 0x7A7E18770
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A7E18770
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7A7E00680
+        public void m_FEC(){} // RVA: 0x7A7E00680
+        public void m_2D5(){} // RVA: 0x7A8051B10
+        public void m_420(){} // RVA: 0x7A8051B10
+        public void m_D22(){} // RVA: 0x7A7E00680
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE4E2B0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE4E9C0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE4C720
+        public void m_2D5(){} // RVA: 0x7ACE4C880
+        public void m_420(){} // RVA: 0x7ACE4C8E0
+        public void m_D22(){} // RVA: 0x7ACE4C940
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE68B50
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE69260
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE66AB0
+        public void m_2D5(){} // RVA: 0x7ACE66CB0
+        public void m_420(){} // RVA: 0x7ACE66D50
+        public void m_D22(){} // RVA: 0x7ACE66DF0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE75710
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE75E20
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE73B80
+        public void m_2D5(){} // RVA: 0x7ACE73CE0
+        public void m_420(){} // RVA: 0x7ACE73D40
+        public void m_D22(){} // RVA: 0x7ACE73DA0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE634B0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE63BC0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE61640
+        public void m_2D5(){} // RVA: 0x7ACE617F0
+        public void m_420(){} // RVA: 0x7ACE61870
+        public void m_D22(){} // RVA: 0x7ACE618E0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE84C00
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE85310
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE82EB0
+        public void m_2D5(){} // RVA: 0x7ACE83040
+        public void m_420(){} // RVA: 0x7ACE830B0
+        public void m_D22(){} // RVA: 0x7ACE83120
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE77F50
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE78660
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE763A0
+        public void m_2D5(){} // RVA: 0x7ACE764F0
+        public void m_420(){} // RVA: 0x7ACE76530
+        public void m_D22(){} // RVA: 0x7ACE76580
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE7FAF0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE80200
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE7DE60
+        public void m_2D5(){} // RVA: 0x7ACE7DFD0
+        public void m_420(){} // RVA: 0x7ACE7E040
+        public void m_D22(){} // RVA: 0x7ACE7E0A0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACEACD80
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACEAD490
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACEAB050
+        public void m_2D5(){} // RVA: 0x7ACEAB1E0
+        public void m_420(){} // RVA: 0x7ACEAB250
+        public void m_D22(){} // RVA: 0x7ACEAB2C0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE55F60
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE56670
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE543D0
+        public void m_2D5(){} // RVA: 0x7ACE54530
+        public void m_420(){} // RVA: 0x7ACE54590
+        public void m_D22(){} // RVA: 0x7ACE545F0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE6B3D0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE6BAE0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE697E0
+        public void m_2D5(){} // RVA: 0x7ACE69930
+        public void m_420(){} // RVA: 0x7ACE69970
+        public void m_D22(){} // RVA: 0x7ACE699C0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE9CCD0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE9D3E0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE9ACF0
+        public void m_2D5(){} // RVA: 0x7ACE9AEF0
+        public void m_420(){} // RVA: 0x7ACE9AF90
+        public void m_D22(){} // RVA: 0x7ACE9B030
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE82220
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE82930
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE80780
+        public void m_2D5(){} // RVA: 0x7ACE808D0
+        public void m_420(){} // RVA: 0x7ACE80910
+        public void m_D22(){} // RVA: 0x7ACE80960
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACEAA3C0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACEAAAD0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACEA7F70
+        public void m_2D5(){} // RVA: 0x7ACEA81B0
+        public void m_420(){} // RVA: 0x7ACEA8280
+        public void m_D22(){} // RVA: 0x7ACEA8340
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE65E20
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE66530
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE64140
+        public void m_2D5(){} // RVA: 0x7ACE642B0
+        public void m_420(){} // RVA: 0x7ACE64320
+        public void m_D22(){} // RVA: 0x7ACE64380
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE9A060
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE9A770
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE983F0
+        public void m_2D5(){} // RVA: 0x7ACE98560
+        public void m_420(){} // RVA: 0x7ACE985D0
+        public void m_D22(){} // RVA: 0x7ACE98630
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE5B920
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE5C030
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE598C0
+        public void m_2D5(){} // RVA: 0x7ACE59AC0
+        public void m_420(){} // RVA: 0x7ACE59B50
+        public void m_D22(){} // RVA: 0x7ACE59BE0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE58C30
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE59340
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE56BF0
+        public void m_2D5(){} // RVA: 0x7ACE56DD0
+        public void m_420(){} // RVA: 0x7ACE56E60
+        public void m_D22(){} // RVA: 0x7ACE56EF0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE5E050
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE5E760
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE5C5B0
+        public void m_2D5(){} // RVA: 0x7ACE5C700
+        public void m_420(){} // RVA: 0x7ACE5C740
+        public void m_D22(){} // RVA: 0x7ACE5C790
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE43560
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE43C70
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE40F90
+        public void m_2D5(){} // RVA: 0x7ACE411E0
+        public void m_420(){} // RVA: 0x7ACE412B0
+        public void m_D22(){} // RVA: 0x7ACE41380
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE9F4F0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE9FC00
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE9D960
+        public void m_2D5(){} // RVA: 0x7ACE9DAC0
+        public void m_420(){} // RVA: 0x7ACE9DB20
+        public void m_D22(){} // RVA: 0x7ACE9DB80
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACEA4870
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACEA4F80
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACEA2B40
+        public void m_2D5(){} // RVA: 0x7ACEA2CD0
+        public void m_420(){} // RVA: 0x7ACEA2D40
+        public void m_D22(){} // RVA: 0x7ACEA2DB0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE7A990
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE7B0A0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE78BE0
+        public void m_2D5(){} // RVA: 0x7ACE78D70
+        public void m_420(){} // RVA: 0x7ACE78DE0
+        public void m_D22(){} // RVA: 0x7ACE78E50
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE50A20
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE51130
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE4EF40
+        public void m_2D5(){} // RVA: 0x7ACE4F090
+        public void m_420(){} // RVA: 0x7ACE4F0D0
+        public void m_D22(){} // RVA: 0x7ACE4F120
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE94470
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE94B80
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE929D0
+        public void m_2D5(){} // RVA: 0x7ACE92B20
+        public void m_420(){} // RVA: 0x7ACE92B60
+        public void m_D22(){} // RVA: 0x7ACE92BB0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE8F2F0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE8FA00
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE8D5C0
+        public void m_2D5(){} // RVA: 0x7ACE8D750
+        public void m_420(){} // RVA: 0x7ACE8D7C0
+        public void m_D22(){} // RVA: 0x7ACE8D830
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACEA72E0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACEA79F0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACEA5500
+        public void m_2D5(){} // RVA: 0x7ACEA56B0
+        public void m_420(){} // RVA: 0x7ACEA5730
+        public void m_D22(){} // RVA: 0x7ACEA57A0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE7D1D0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE7D8E0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE7B620
+        public void m_2D5(){} // RVA: 0x7ACE7B770
+        public void m_420(){} // RVA: 0x7ACE7B7B0
+        public void m_D22(){} // RVA: 0x7ACE7B800
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE87650
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE87D60
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE85890
+        public void m_2D5(){} // RVA: 0x7ACE85A20
+        public void m_420(){} // RVA: 0x7ACE85A90
+        public void m_D22(){} // RVA: 0x7ACE85B00
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE4BA90
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE4C1A0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE49930
+        public void m_2D5(){} // RVA: 0x7ACE49B40
+        public void m_420(){} // RVA: 0x7ACE49BE0
+        public void m_D22(){} // RVA: 0x7ACE49C80
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE609B0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE610C0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE5ECE0
+        public void m_2D5(){} // RVA: 0x7ACE5EE40
+        public void m_420(){} // RVA: 0x7ACE5EEA0
+        public void m_D22(){} // RVA: 0x7ACE5EF00
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE48CA0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE493B0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE470C0
+        public void m_2D5(){} // RVA: 0x7ACE47220
+        public void m_420(){} // RVA: 0x7ACE47280
+        public void m_D22(){} // RVA: 0x7ACE472E0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACEA1EB0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACEA25C0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACEA0180
+        public void m_2D5(){} // RVA: 0x7ACEA0310
+        public void m_420(){} // RVA: 0x7ACEA0380
+        public void m_D22(){} // RVA: 0x7ACEA03F0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE8C930
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE8D040
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE8AC00
+        public void m_2D5(){} // RVA: 0x7ACE8AD90
+        public void m_420(){} // RVA: 0x7ACE8AE00
+        public void m_D22(){} // RVA: 0x7ACE8AE70
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE46430
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE46B40
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE441F0
+        public void m_2D5(){} // RVA: 0x7ACE44420
+        public void m_420(){} // RVA: 0x7ACE444D0
+        public void m_D22(){} // RVA: 0x7ACE44580
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE6DD50
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE6E460
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE6C060
+        public void m_2D5(){} // RVA: 0x7ACE6C1D0
+        public void m_420(){} // RVA: 0x7ACE6C240
+        public void m_D22(){} // RVA: 0x7ACE6C2A0
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE707C0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE70ED0
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE6E9E0
+        public void m_2D5(){} // RVA: 0x7ACE6EB90
+        public void m_420(){} // RVA: 0x7ACE6EC10
+        public void m_D22(){} // RVA: 0x7ACE6EC80
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE89F70
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE8A680
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE882E0
+        public void m_2D5(){} // RVA: 0x7ACE88450
+        public void m_420(){} // RVA: 0x7ACE884C0
+        public void m_D22(){} // RVA: 0x7ACE88520
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÍÏÏÏÏÍÍÌÏÍÏÏÎÎÌÍÏÍÏÍ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_9980 : PointerClickPointerEnter_2C32
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7ACE40250
+        public void OnDisable(){} // RVA: 0x7ACE402A0
+        public void OnDestroy(){} // RVA: 0x7ACE72EF0
+        public void Start(){} // RVA: 0x7ACE3DE00
+        public void IsActive(){} // RVA: 0x7ACE3DE20
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x7ACE3DE00
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnTransformParentChanged(){} // RVA: 0x7ACE3DE00
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasGroupChanged(){} // RVA: 0x7ACE3DE00
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x7ACE3DE00
+        public void .ctor(){} // RVA: 0x7ACE73600
+        // ── 35 unresolved (hash) ──
+        public void m_0F6(){} // RVA: 0x7ACE3B2B0
+        public void m_FEC(){} // RVA: 0x7ACE71450
+        public void m_2D5(){} // RVA: 0x7ACE715A0
+        public void m_420(){} // RVA: 0x7ACE715E0
+        public void m_D22(){} // RVA: 0x7ACE71630
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÌÏÍÏÌÍÌÎÌÌÏÌÏÎÍÏÏÏÎÍ</summary>
+    public class UIScrollHandler_FF63 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7B0DFABF0
+        public void RaiseCancellation(){} // RVA: 0x7B0DFB270
+        public void IsInvoking(){} // RVA: 0x7B0DFB3C0
+        public void CancelInvoke(){} // RVA: 0x7B0DFB780
+        public void Invoke(){} // RVA: 0x7B0DFB8B0
+        public void InvokeRepeating(){} // RVA: 0x7B0DFBD70
+        public void StartCoroutine(){} // RVA: 0x7B0DFBEA0
+        public void StartCoroutine_Auto(){} // RVA: 0x7B0DFBEF0
+        public void StopCoroutine(){} // RVA: 0x7B0DFBFA0
+        public void StopAllCoroutines(){} // RVA: 0x7B0DFC000
+        public void OnScroll(){} // RVA: 0x7B0DFC120
+        public void set_useGUILayout(){} // RVA: 0x7B0DFC210
+        public void print(){} // RVA: 0x7AED9C8A0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7B0E04B10
+        public void Internal_IsInvokingAll(){} // RVA: 0x7B0DFC4F0
+        public void InvokeDelayed(){} // RVA: 0x7B0DFCD50
+        public void IsObjectMonoBehaviour(){} // RVA: 0x7B0DFD340
+        public void StartCoroutineManaged(){} // RVA: 0x7B0DFD6D0
+        public void StartCoroutineManaged2(){} // RVA: 0x7B0DFD6F0
+        public void StopCoroutineManaged(){} // RVA: 0x7B0DFD760
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7B0DFDD10
+        public void GetScriptClassName(){} // RVA: 0x7B0DFDE00
+        public void OnCancellationTokenCreated(){} // RVA: 0x7B0DFE020
+        public void .cctor(){} // RVA: 0x7B0DFEEF0
+        public void Awake(){} // RVA: 0x7B0E00580
+        public void OnDestroy(){} // RVA: 0x7B0E00B80
+        public void Start(){} // RVA: 0x7B0E00EA0
+        public void FixedUpdate(){} // RVA: 0x7B0E00EB0
+        public void Update(){} // RVA: 0x7B0E01120
+        public void OnDisable(){} // RVA: 0x7B0E01400
+        public void OnApplicationPause(){} // RVA: 0x7B0E01700
+        public void OnApplicationQuit(){} // RVA: 0x7B0E01800
+        public void OnBecameVisible(){} // RVA: 0x7B0E01D40
+        public void OnBecameInvisible(){} // RVA: 0x7B0E01EA0
+        public void OnCollisionEnter(){} // RVA: 0x7B0E01FD0
+        public void OnCollisionStay(){} // RVA: 0x7B0E026F0
+        public void OnCollisionExit(){} // RVA: 0x7A81F6590
+        public void OnTriggerEnter(){} // RVA: 0x7B0E027E0
+        public void OnTriggerStay(){} // RVA: 0x7B0E027F0
+        public void OnTriggerExit(){} // RVA: 0x7B0E02800
+        public void OnEnable(){} // RVA: 0x7B0E06240
+        public void LateUpdate(){} // RVA: 0x7B0E06630
+        public void .ctor(){} // RVA: 0x7B0E09370
+        public void Initialize(){} // RVA: 0x7B0E096C0
+        // ── 53 unresolved (hash) ──
+        public void m_A13(){} // RVA: 0x7B0DFE050
+        public void m_421(){} // RVA: 0x7B0DFE680
+        public void m_A96(){} // RVA: 0x7B0DFE780
+        public void m_DD2(){} // RVA: 0x7B0DFE890
+        public void m_05C(){} // RVA: 0x7B0DFED20
+        // ... 48 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÎÍÍÍÏÌÌÌÎÍÍÏÎÍÏÌÍÏÌÎÍÌ</summary>
+    public class UISensitivitySliderChangeComponent_3045 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7A9600CA0
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void SensitivitySliderChange(){} // RVA: 0x7A9600D60
+        public void CancelInvoke(){} // RVA: 0x7A9600E20
+        public void Invoke(){} // RVA: 0x7A9600EE0
+        public void InvokeRepeating(){} // RVA: 0x7A9600FA0
+        public void StartCoroutine(){} // RVA: 0x7A9601060
+        public void StartCoroutine_Auto(){} // RVA: 0x7A9601120
+    }
+
+    /// <summary>Originally: ÍÌÍÎÏÌÏÌÎÌÎÌÍÏÎÎÎÍÎÏÏÎÏ</summary>
+    public class UIShowScreenButtonHiImpl_DD4D : UIShowScreenButtonHideScreenComponent_4509
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9619CA0
+    }
+
+    /// <summary>Originally: ÏÏÎÏÎÎÎÎÏÏÎÎÌÏÍÌÎÏÎÏÎÍÌ</summary>
+    public class UIShowScreenButtonHideScreenComponent_4509 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7A9665B90
+        public void Start(){} // RVA: 0x7A965D690
+        public void IsInvoking(){} // RVA: 0x7A965D730
+        public void LateUpdate(){} // RVA: 0x7A965D840
+        public void Invoke(){} // RVA: 0x7A965DD60
+        public void InvokeRepeating(){} // RVA: 0x7A965DE80
+        public void StartCoroutine(){} // RVA: 0x7A965DEE0
+        public void StartCoroutine_Auto(){} // RVA: 0x7A81A0050
+        public void StopCoroutine(){} // RVA: 0x7A965E000
+        public void HideScreen(){} // RVA: 0x7A965E080
+        public void Update(){} // RVA: 0x7A965E1F0
+        public void set_useGUILayout(){} // RVA: 0x7A90226D0
+        public void print(){} // RVA: 0x7A87C5850
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7A965F0D0
+        public void Internal_IsInvokingAll(){} // RVA: 0x7A965F170
+        public void InvokeDelayed(){} // RVA: 0x7A87446C0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x7A965F1B0
+        public void StartCoroutineManaged(){} // RVA: 0x7A965F220
+        public void StartCoroutineManaged2(){} // RVA: 0x7A965F5E0
+        public void StopCoroutineManaged(){} // RVA: 0x7A965F620
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A9660F40
+        public void GetScriptClassName(){} // RVA: 0x7A96611A0
+        public void OnCancellationTokenCreated(){} // RVA: 0x7A96611E0
+        public void OnTriggerExit(){} // RVA: 0x7A96611F0
+        public void OnPointerEnter(){} // RVA: 0x7A9661310
+        public void OnPointerExit(){} // RVA: 0x7A9661650
+        public void OnPointerDown(){} // RVA: 0x7A9661690
+        public void OnPointerUp(){} // RVA: 0x7A96617D0
+        public void OnPointerClick(){} // RVA: 0x7A9661810
+        public void OnSelect(){} // RVA: 0x7A9661880
+        public void OnEnable(){} // RVA: 0x7A9661940
+        public void OnDeselect(){} // RVA: 0x7A90226D0
+        public void FixedUpdate(){} // RVA: 0x7A96619A0
+        public void Awake(){} // RVA: 0x7A9661EA0
+        public void OnSubmit(){} // RVA: 0x7A9662110
+        public void OnDisable(){} // RVA: 0x7A9663A40
+        public void OnDestroy(){} // RVA: 0x7A9663AC0
+        public void OnApplicationPause(){} // RVA: 0x7A9663E10
+        public void OnApplicationQuit(){} // RVA: 0x7A9664D00
+        public void OnBecameVisible(){} // RVA: 0x7A9021760
+        public void OnBecameInvisible(){} // RVA: 0x7A9664F10
+        public void OnCollisionEnter(){} // RVA: 0x7A81A0060
+        public void OnCollisionStay(){} // RVA: 0x7A9665030
+        public void OnCollisionExit(){} // RVA: 0x7A9665450
+        public void OnTriggerEnter(){} // RVA: 0x7A96654D0
+        public void ShowScreenButton(){} // RVA: 0x7A9665580
+        public void OnCancel(){} // RVA: 0x7A96655B0
+        public void OnMove(){} // RVA: 0x7A96655C0
+        public void OnScroll(){} // RVA: 0x7A9665860
+        public void .ctor(){} // RVA: 0x7A9665870
+        public void Initialize(){} // RVA: 0x7A9665D80
+        public void OnValueChanged(){} // RVA: 0x7A9021760
+        public void OnEndEdit(){} // RVA: 0x7A9665DA0
+        // ── Unresolved (hash) ──
+        public void m_E44(){} // RVA: 0x7A96655B0
+        public void m_99F(){} // RVA: 0x7A9665DF0
+        public void m_063(){} // RVA: 0x7A9665F00
+        public void m_4F5(){} // RVA: 0x7A9666020
+        public void m_59F(){} // RVA: 0x7A96660E0
+        public void m_FFF(){} // RVA: 0x7A841D680
+    }
+
+    /// <summary>Originally: ÎÍÎÎÍÍÏÍÏÍÎÍÌÌÏÎÏÎÎÎÎÍÏ</summary>
+    public class UIShowTabContentComponent_D317 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7B0A013F0
+        public void RaiseCancellation(){} // RVA: 0x7B0A06DC0
+        public void IsInvoking(){} // RVA: 0x7B0A01970
+        public void CancelInvoke(){} // RVA: 0x7B0A022C0
+        public void Invoke(){} // RVA: 0x7B0A05E80
+        public void InvokeRepeating(){} // RVA: 0x7B0A062C0
+        public void StartCoroutine(){} // RVA: 0x7B0A026F0
+        public void StartCoroutine_Auto(){} // RVA: 0x7B0A02E90
+        public void StopCoroutine(){} // RVA: 0x7B0A04BC0
+        public void StopAllCoroutines(){} // RVA: 0x7B0A02CE0
+        public void get_useGUILayout(){} // RVA: 0x7B0A02DE0
+        public void set_useGUILayout(){} // RVA: 0x7B0A02F90
+        public void print(){} // RVA: 0x7A8D333A0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7A81A0050
+        public void Internal_IsInvokingAll(){} // RVA: 0x7B0A026F0
+        public void InvokeDelayed(){} // RVA: 0x7B0A05CA0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x7B0A02FF0
+        public void .ctor(){} // RVA: 0x7B0A032C0
+        public void Initialize(){} // RVA: 0x7B0A03B10
+        public void StopCoroutineManaged(){} // RVA: 0x7B0A03BC0
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7B0A03CD0
+        public void GetScriptClassName(){} // RVA: 0x7B0A03DE0
+        public void OnCancellationTokenCreated(){} // RVA: 0x7B0A04010
+        public void ShowTabContent(){} // RVA: 0x7B0A05C70
+        public void OnEnable(){} // RVA: 0x7B0A063E0
+        public void Start(){} // RVA: 0x7B0A06470
+        public void FixedUpdate(){} // RVA: 0x7B0A064D0
+        public void Update(){} // RVA: 0x7B0A06540
+        public void LateUpdate(){} // RVA: 0x7B0A067E0
+        public void OnDisable(){} // RVA: 0x7B0A068B0
+        public void OnDestroy(){} // RVA: 0x7B0A06970
+        public void OnApplicationPause(){} // RVA: 0x7B0A06B80
+        public void OnApplicationQuit(){} // RVA: 0x7B0A06C00
+        public void OnBecameVisible(){} // RVA: 0x7B0A04B50
+        public void Awake(){} // RVA: 0x7B0A06C10
+        public void OnCollisionEnter(){} // RVA: 0x7B0A06F10
+        public void OnCollisionStay(){} // RVA: 0x7B0A07020
+        public void OnCollisionExit(){} // RVA: 0x7B0A070D0
+        // ── 23 unresolved (hash) ──
+        public void m_6C0(){} // RVA: 0x7A8178B90
+        public void m_D0F(){} // RVA: 0x7A8153390
+        public void m_E2D(){} // RVA: 0x7B0A040B0
+        public void m_F74(){} // RVA: 0x7A843D4E0
+        public void m_665(){} // RVA: 0x7B0A041F0
+        // ... 18 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÌÏÌÎÎÌÏÏÌÍÎÏÌÌÍÍÏÍÏÌÏÎ</summary>
+    public class UISubscribeToVariableTryGetVariable_2B8A : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7AA0C4F80
+        public void SubscribeToVariable(){} // RVA: 0x7AA0C2FE0
+        public void TryGetVariable(){} // RVA: 0x7AA0C3BA0
+        public void .ctor(){} // RVA: 0x7A8CE4080
+    }
+
+    /// <summary>Originally: ÍÍÏÌÍÌÏÏÎÍÎÏÏÎÌÌÎÍÎÍÍÍÎ</summary>
+    public class UISubscribeToVariableTryGetVariable_83B5 : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void TryGetVariable(){} // RVA: 0x7A7E01A40
+        public void SubscribeToVariable(){} // RVA: 0x7A7E12480
+    }
+
+    /// <summary>Originally: ÏÌÍÍÏÌÌÎÏÍÌÎÌÎÎÎÌÏÌÏÏÍÏ</summary>
+    public class UIToggleExtendComponentSibling_DC02 : UIToggleExtendComponent_3FB7
+    {
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x7A95F3240
+        public void OnDisable(){} // RVA: 0x7A95F3370
+        public void Start(){} // RVA: 0x7A95F35F0
+        public void Update(){} // RVA: 0x7A95F37B0
+        public void LateUpdate(){} // RVA: 0x7A8142C40
+        public void OnPointerEnter(){} // RVA: 0x7A95F3C70
+        public void OnDestroy(){} // RVA: 0x7A8142C40
+        public void OnApplicationPause(){} // RVA: 0x7A95F44E0
+        public void OnApplicationQuit(){} // RVA: 0x7A95F4660
+        public void OnBecameVisible(){} // RVA: 0x7A95F47F0
+        public void .ctor(){} // RVA: 0x7A95F4830
+        public void Initialize(){} // RVA: 0x7A95F4920
+        public void OnCollisionStay(){} // RVA: 0x7A95F4C70
+        public void OnCollisionExit(){} // RVA: 0x7A95F4CE0
+        public void OnTriggerEnter(){} // RVA: 0x7A8142C40
+        public void OnTriggerStay(){} // RVA: 0x7A95F4DF0
+        public void OnTriggerExit(){} // RVA: 0x7A95F4F80
+        public void Awake(){} // RVA: 0x7A95F4FC0
+        public void OnPointerExit(){} // RVA: 0x7A95F4FD0
+        public void OnPointerDown(){} // RVA: 0x7A95F50B0
+        public void FixedUpdate(){} // RVA: 0x7A95F5320
+        public void OnPointerUp(){} // RVA: 0x7A95F55A0
+        public void OnPointerClick(){} // RVA: 0x7A95F5730
+        public void OnSelect(){} // RVA: 0x7A8B52120
+    }
+
+    /// <summary>Originally: ÎÎÎÏÎÌÎÎÍÎÌÍÏÏÌÎÍÌÎÎÍÍÎ</summary>
+    public class UIToggleExtendComponent_3FB7 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7A8EA8210
+        public void RaiseCancellation(){} // RVA: 0x7A960C1C0
+        public void Awake(){} // RVA: 0x7A960C1F0
+        public void OnEnable(){} // RVA: 0x7A960C820
+        public void Invoke(){} // RVA: 0x7A960C930
+        public void InvokeRepeating(){} // RVA: 0x7A960CA60
+        public void StartCoroutine(){} // RVA: 0x7A960CB00
+        public void StartCoroutine_Auto(){} // RVA: 0x7A960CE90
+        public void OnDisable(){} // RVA: 0x7A960CEB0
+        public void StopAllCoroutines(){} // RVA: 0x7A960CF30
+        public void get_useGUILayout(){} // RVA: 0x7A960CFF0
+        public void set_useGUILayout(){} // RVA: 0x7A960D0B0
+        public void print(){} // RVA: 0x7A960D4B0
+        public void Internal_CancelInvokeAll(){} // RVA: 0x7A960D6D0
+        public void Internal_IsInvokingAll(){} // RVA: 0x7A960DE00
+        public void InvokeDelayed(){} // RVA: 0x7A960DEA0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x7A960DED0
+        public void StartCoroutineManaged(){} // RVA: 0x7A7E189D0
+        public void StartCoroutineManaged2(){} // RVA: 0x7A8051B10
+        public void StopCoroutineManaged(){} // RVA: 0x7A960DF00
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x7A960E120
+        public void GetScriptClassName(){} // RVA: 0x7A960E6E0
+        public void OnCancellationTokenCreated(){} // RVA: 0x7A7E019D0
+        public void OnPointerEnter(){} // RVA: 0x7A7E18890
+        public void OnPointerExit(){} // RVA: 0x7A960E700
+        public void OnPointerDown(){} // RVA: 0x7A960E930
+        public void OnPointerUp(){} // RVA: 0x7A960E9A0
+        public void OnPointerClick(){} // RVA: 0x7A960EB60
+        public void ToggleExtend(){} // RVA: 0x7A960ED30
+        public void OnSelect(){} // RVA: 0x7A960EDB0
+        public void OnDeselect(){} // RVA: 0x7A960F080
+        public void OnSubmit(){} // RVA: 0x7A960F3E0
+        public void OnCancel(){} // RVA: 0x7A960F600
+        public void OnMove(){} // RVA: 0x7A960F790
+        public void OnScroll(){} // RVA: 0x7A960F8E0
+        public void .ctor(){} // RVA: 0x7A960FC70
+        public void .cctor(){} // RVA: 0x7A960FEA0
+    }
+
+    /// <summary>Originally: ÏÎÌÏÏÎÍÌÏÌÏÌÌÏÍÏÌÌÎÏÍÎÍ</summary>
+    public class UIUpdateEnumLabelUpdateLabel_6A3D : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x7A95E0300
+        public void RaiseCancellation(){} // RVA: 0x7A95E0460
+        public void IsInvoking(){} // RVA: 0x7A95E05C0
+        public void UpdateLabel(){} // RVA: 0x7A95E07E0
+        public void Invoke(){} // RVA: 0x7A95E0A00
+        public void InvokeRepeating(){} // RVA: 0x7A95E0C20
+        public void StartCoroutine(){} // RVA: 0x7A95E0E40
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void UpdateEnumLabel(){} // RVA: 0x7A95E1060
     }
 
 }

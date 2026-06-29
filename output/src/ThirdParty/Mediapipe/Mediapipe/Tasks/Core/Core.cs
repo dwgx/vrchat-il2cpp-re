@@ -1,67 +1,60 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe.Tasks.Core
 // Classes: 5
-// Methods: 25
+// Methods: 27
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Core
 {
-    public class BaseOptions
+    public class BaseOptions : Object
     {
-        public 0x65933B48 <delegateCase>k__BackingField; // 0x10
-        public string <modelAssetPath>k__BackingField; // 0x18
-        public byte[] <modelAssetBuffer>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void get_delegateCase(){} // RVA: 0x32A5C0
-        public void get_modelAssetPath(){} // RVA: 0x2E07C0
-        public void get_modelAssetBuffer(){} // RVA: 0x30B0C0
-        public void .ctor(){} // RVA: 0x5B7B220
-        public void get_acceleration(){} // RVA: 0x5B7B380
-        public void get_modelAsset(){} // RVA: 0x5B7B510
-        public void ToProto(){} // RVA: 0x5B7B5D0
+        public void get_delegateCase(){} // RVA: 0x7A8124910
+        public void get_modelAssetPath(){} // RVA: 0x7A80DA7B0
+        public void get_modelAssetBuffer(){} // RVA: 0x7A81052C0
+        public void .ctor(){} // RVA: 0x7AD968FD0
+        public void get_acceleration(){} // RVA: 0x7AD969130
+        public void get_modelAsset(){} // RVA: 0x7AD9692C0
+        public void ToProto(){} // RVA: 0x7AD969380
+        public void <delegateCase>k__BackingField(){} // RVA: 0x7B3F86E88
     }
 
     public class ITaskOptions
     {
         // ── Methods ──
-        public void ToCalculatorOptions(){} // RVA: 0xCD60
+        public void ToCalculatorOptions(){} // RVA: 0x7A7E00680
     }
 
-    public class PacketsCallbackTable
+    public class PacketsCallbackTable : Object
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x5B7B910
-        public void TryGetValue(){} // RVA: 0x5B7BBB0
-        public void InvokeCallbackIfFound(){} // RVA: 0x5B7BC50
-        public void .cctor(){} // RVA: 0x5B7BE40
+        public void Add(){} // RVA: 0x7AD9696C0
+        public void TryGetValue(){} // RVA: 0x7AD969950
+        public void InvokeCallbackIfFound(){} // RVA: 0x7AD9699F0
+        public void .cctor(){} // RVA: 0x7AD969BE0
+        public void _Counter(){} // RVA: 0x7B41F3B08
     }
 
-    public class TaskInfo`1
+    public class TaskInfo`1 : Object
     {
-        public string Size;
-        public System.Collections.Generic.List`1<string> <inputStreams>k__BackingField;
-        public System.Collections.Generic.List`1<string> <outputStreams>k__BackingField;
-        public T <taskOptions>k__BackingField;
-
         // ── Methods ──
-        public void get_taskGraph(){} // RVA: 0xCD60
-        public void get_inputStreams(){} // RVA: 0xCD60
-        public void get_outputStreams(){} // RVA: 0xCD60
-        public void get_taskOptions(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x283FA0
-        public void GenerateGraphConfig(){}
-        public void AddStreamNamePrefix(){} // RVA: 0xCE50
+        public void get_taskGraph(){} // RVA: 0x7A7E00680
+        public void get_inputStreams(){} // RVA: 0x7A7E00680
+        public void get_outputStreams(){} // RVA: 0x7A7E00680
+        public void get_taskOptions(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void GenerateGraphConfig(){} // RVA: 0x7A7E063A0
+        public void AddStreamNamePrefix(){} // RVA: 0x7A7E00BA0
     }
 
-    public class TaskRunner
+    public class TaskRunner : MpResourceHandle
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x5B7BF30
-        public void .ctor(){} // RVA: 0x3DD6EA0
-        public void DeleteMpPtr(){} // RVA: 0x5B7C0B0
-        public void Process(){} // RVA: 0x5B7C170
-        public void Send(){} // RVA: 0x5B7C2F0
-        public void Close(){} // RVA: 0x5B7C440
+        public void Create(){} // RVA: 0x7AD969CD0
+        public void .ctor(){} // RVA: 0x7ABBD1620
+        public void DeleteMpPtr(){} // RVA: 0x7AD969E50
+        public void Process(){} // RVA: 0x7AD969F10
+        public void Send(){} // RVA: 0x7AD96A090
+        public void Close(){} // RVA: 0x7AD96A1E0
     }
 
 }

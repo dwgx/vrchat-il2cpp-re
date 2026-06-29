@@ -5,13 +5,11 @@
 
 namespace ThirdParty.Other.Unity.Collections
 {
-    public class GenerateTestsForBurstCompatibilityAttribute
+    public class GenerateTestsForBurstCompatibilityAttribute : Attribute
     {
-        public System.Type[] <GenericTypeArguments>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void set_GenericTypeArguments(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x2DD310
+        public void set_GenericTypeArguments(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

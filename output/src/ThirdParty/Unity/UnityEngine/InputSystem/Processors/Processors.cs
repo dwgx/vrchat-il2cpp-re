@@ -1,135 +1,136 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.InputSystem.Processors
 // Classes: 14
-// Methods: 51
+// Methods: 58
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.Processors
 {
-    public class AxisDeadzoneProcessor
+    public class AxisDeadzoneProcessor : InputProcessor`1
     {
-        public float min; // 0x10
-        public float max; // 0x14
-
         // ── Methods ──
-        public void get_minOrDefault(){} // RVA: 0x6EEE6F0
-        public void get_maxOrDefault(){} // RVA: 0x6EEE770
-        public void Process(){} // RVA: 0x6EEE7F0
-        public void ToString(){} // RVA: 0x6EEE8C0
-        public void .ctor(){} // RVA: 0x6EEE9B0
+        public void get_minOrDefault(){} // RVA: 0x7AECCD0B0
+        public void get_maxOrDefault(){} // RVA: 0x7AECCD130
+        public void Process(){} // RVA: 0x7AECCD1B0
+        public void ToString(){} // RVA: 0x7AECCD280
+        public void .ctor(){} // RVA: 0x7AECCD370
     }
 
-    public class ClampProcessor
+    public class ClampProcessor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEE9E0
-        public void ToString(){} // RVA: 0x6EEEA00
-        public void .ctor(){} // RVA: 0x6EEEAE0
+        public void Process(){} // RVA: 0x7AECCD3A0
+        public void ToString(){} // RVA: 0x7AECCD3C0
+        public void .ctor(){} // RVA: 0x7AECCD4A0
+        public void min(){} // RVA: 0x7B3FAD6B8
     }
 
-    public class CompensateDirectionProcessor
+    public class CompensateDirectionProcessor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEEB10
-        public void ToString(){} // RVA: 0x6EEEF50
-        public void get_cachingPolicy(){} // RVA: 0x3CFAF0
-        public void .ctor(){} // RVA: 0x6EEEF90
+        public void Process(){} // RVA: 0x7AECCD4D0
+        public void ToString(){} // RVA: 0x7AECCD900
+        public void get_cachingPolicy(){} // RVA: 0x7A81CA9D0
+        public void .ctor(){} // RVA: 0x7AECCD940
     }
 
-    public class CompensateRotationProcessor
+    public class CompensateRotationProcessor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEEFC0
-        public void ToString(){} // RVA: 0x6EEF280
-        public void get_cachingPolicy(){} // RVA: 0x3CFAF0
-        public void .ctor(){} // RVA: 0x6EEF2C0
+        public void Process(){} // RVA: 0x7AECCD970
+        public void ToString(){} // RVA: 0x7AECCDC30
+        public void get_cachingPolicy(){} // RVA: 0x7A81CA9D0
+        public void .ctor(){} // RVA: 0x7AECCDC70
     }
 
-    public class InvertProcessor
+    public class InvertProcessor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEF2F0
-        public void ToString(){} // RVA: 0x6EEF300
-        public void .ctor(){} // RVA: 0x6EEF340
+        public void Process(){} // RVA: 0x7AECCDCA0
+        public void ToString(){} // RVA: 0x7AECCDCB0
+        public void .ctor(){} // RVA: 0x7AECCDCF0
     }
 
-    public class InvertVector2Processor
+    public class InvertVector2Processor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEF370
-        public void ToString(){} // RVA: 0x6EEF3D0
-        public void .ctor(){} // RVA: 0x6EEF4A0
+        public void Process(){} // RVA: 0x7AECCDD20
+        public void ToString(){} // RVA: 0x7AECCDD80
+        public void .ctor(){} // RVA: 0x7AECCDE50
+        public void invertX(){} // RVA: 0x7B3FA7C58
     }
 
-    public class InvertVector3Processor
+    public class InvertVector3Processor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEF4F0
-        public void ToString(){} // RVA: 0x6EEF550
-        public void .ctor(){} // RVA: 0x6EEF660
+        public void Process(){} // RVA: 0x7AECCDEA0
+        public void ToString(){} // RVA: 0x7AECCDF00
+        public void .ctor(){} // RVA: 0x7AECCE010
+        public void invertX(){} // RVA: 0x7B3FA7CD8
     }
 
-    public class NormalizeProcessor
+    public class NormalizeProcessor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEF6A0
-        public void Normalize(){} // RVA: 0x6EEF6D0
-        public void Denormalize(){} // RVA: 0x6EEF760
-        public void ToString(){} // RVA: 0x6EEF7B0
-        public void .ctor(){} // RVA: 0x6EEF8D0
+        public void Process(){} // RVA: 0x7AECCE050
+        public void Normalize(){} // RVA: 0x7AECCE080
+        public void Denormalize(){} // RVA: 0x7AECCE110
+        public void ToString(){} // RVA: 0x7AECCE160
+        public void .ctor(){} // RVA: 0x7AECCE280
+        public void min(){} // RVA: 0x7B3FAD6B8
     }
 
-    public class NormalizeVector2Processor
+    public class NormalizeVector2Processor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEF900
-        public void ToString(){} // RVA: 0x6EEF920
-        public void .ctor(){} // RVA: 0x6EEF960
+        public void Process(){} // RVA: 0x7AECCE2B0
+        public void ToString(){} // RVA: 0x7AECCE2D0
+        public void .ctor(){} // RVA: 0x7AECCE310
     }
 
-    public class NormalizeVector3Processor
+    public class NormalizeVector3Processor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEF990
-        public void ToString(){} // RVA: 0x6EEF9C0
-        public void .ctor(){} // RVA: 0x6EEFA00
+        public void Process(){} // RVA: 0x7AECCE340
+        public void ToString(){} // RVA: 0x7AECCE370
+        public void .ctor(){} // RVA: 0x7AECCE3B0
     }
 
-    public class ScaleProcessor
+    public class ScaleProcessor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEFA30
-        public void ToString(){} // RVA: 0x6EEFA40
-        public void .ctor(){} // RVA: 0x6EEFAF0
+        public void Process(){} // RVA: 0x7AECCE3E0
+        public void ToString(){} // RVA: 0x7AECCE3F0
+        public void .ctor(){} // RVA: 0x7AECCE4A0
+        public void factor(){} // RVA: 0x7B3FAD6B8
     }
 
-    public class ScaleVector2Processor
+    public class ScaleVector2Processor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEFB40
-        public void ToString(){} // RVA: 0x6EEFB70
-        public void .ctor(){} // RVA: 0x6EEFC50
+        public void Process(){} // RVA: 0x7AECCE4F0
+        public void ToString(){} // RVA: 0x7AECCE520
+        public void .ctor(){} // RVA: 0x7AECCE600
+        public void x(){} // RVA: 0x7B3FA7C58
     }
 
-    public class ScaleVector3Processor
+    public class ScaleVector3Processor : InputProcessor`1
     {
         // ── Methods ──
-        public void Process(){} // RVA: 0x6EEFCB0
-        public void ToString(){} // RVA: 0x6EEFCF0
-        public void .ctor(){} // RVA: 0x6EEFE10
+        public void Process(){} // RVA: 0x7AECCE660
+        public void ToString(){} // RVA: 0x7AECCE6A0
+        public void .ctor(){} // RVA: 0x7AECCE7C0
+        public void x(){} // RVA: 0x7B3FA7CD8
     }
 
-    public class StickDeadzoneProcessor
+    public class StickDeadzoneProcessor : InputProcessor`1
     {
-        public float min; // 0x10
-        public float max; // 0x14
-
         // ── Methods ──
-        public void get_minOrDefault(){} // RVA: 0x6EEFE60
-        public void get_maxOrDefault(){} // RVA: 0x6EEFEE0
-        public void Process(){} // RVA: 0x6EEFF60
-        public void GetDeadZoneAdjustedValue(){} // RVA: 0x6EF0070
-        public void ToString(){} // RVA: 0x6EF0140
-        public void .ctor(){} // RVA: 0x6EF0230
+        public void get_minOrDefault(){} // RVA: 0x7AECCE810
+        public void get_maxOrDefault(){} // RVA: 0x7AECCE890
+        public void Process(){} // RVA: 0x7AECCE910
+        public void GetDeadZoneAdjustedValue(){} // RVA: 0x7AECCEA20
+        public void ToString(){} // RVA: 0x7AECCEAF0
+        public void .ctor(){} // RVA: 0x7AECCEBE0
     }
 
 }

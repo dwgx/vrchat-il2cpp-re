@@ -1,197 +1,157 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.ComponentModel
 // Classes: 5
-// Methods: 162
+// Methods: 124
 
 namespace ThirdParty.DotNet.System.ComponentModel
 {
-    public class MarshalByValueComponent
+    public class MarshalByValueComponent : Object
     {
-        public object s_eventDisposed;
-        public System.ComponentModel.ISite _site; // 0x10
-        public System.ComponentModel.EventHandlerList _events; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Finalize(){} // RVA: 0x5C76FE0
-        public void add_Disposed(){} // RVA: 0x6C6A3C0
-        public void remove_Disposed(){} // RVA: 0x6C6A450
-        public void get_Events(){} // RVA: 0x6C6A4E0
-        public void get_Site(){} // RVA: 0x2F8380
-        public void set_Site(){} // RVA: 0x2DEE30
-        public void Dispose(){} // RVA: 0x6C6A5F0 | overloaded x2
-        public void get_Container(){} // RVA: 0x6C6A8B0
-        public void GetService(){} // RVA: 0x6C6A910
-        public void get_DesignMode(){} // RVA: 0x6C6A980
-        public void ToString(){} // RVA: 0x6C6A9E0
-        public void .cctor(){} // RVA: 0x6C6AAE0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Finalize(){} // RVA: 0x7ADA64F90
+        public void add_Disposed(){} // RVA: 0x7AEA595E0
+        public void remove_Disposed(){} // RVA: 0x7AEA59670
+        public void get_Events(){} // RVA: 0x7AEA59700
+        public void get_Site(){} // RVA: 0x7A80F2570
+        public void set_Site(){} // RVA: 0x7A80D8E20
+        public void Dispose(){} // RVA: 0x7AEA59810
+        public void get_Container(){} // RVA: 0x7AEA59AA0
+        public void GetService(){} // RVA: 0x7AEA59B00
+        public void get_DesignMode(){} // RVA: 0x7AEA59B70
+        public void ToString(){} // RVA: 0x7AEA59BD0
+        public void .cctor(){} // RVA: 0x7AEA59CD0
     }
 
-    public class MaskedTextProvider
+    public class MaskedTextProvider : Object
     {
-        public char SPACE_CHAR;
-        public char DEFAULT_PROMPT_CHAR;
-        public char NULL_PASSWORD_CHAR;
-        public bool DEFAULT_ALLOW_PROMPT;
-        public int INVALID_INDEX;
-        public byte EDIT_ANY;
-        public byte EDIT_UNASSIGNED;
-        public byte EDIT_ASSIGNED;
-        public bool FORWARD;
-        public bool BACKWARD;
-        public int s_ASCII_ONLY;
-        public int s_ALLOW_PROMPT_AS_INPUT; // 0x4
-        public int s_INCLUDE_PROMPT; // 0x8
-        public int s_INCLUDE_LITERALS; // 0xC
-        public int s_RESET_ON_PROMPT; // 0x10
-        public int s_RESET_ON_LITERALS; // 0x14
-        public int s_SKIP_SPACE; // 0x18
-        public System.Type s_maskTextProviderType; // 0x20
-        public System.Collections.Specialized.BitVector32 _flagState; // 0x10
-        public System.Text.StringBuilder _testString; // 0x18
-        public int _requiredCharCount; // 0x20
-        public int _requiredEditChars; // 0x24
-        public int _optionalEditChars; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6C6ACB0 | overloaded x7
-        public void Initialize(){} // RVA: 0x6C6B110
-        public void get_AllowPromptAsInput(){} // RVA: 0x6C6B6E0
-        public void get_AssignedEditPositionCount(){} // RVA: 0xFDC9F0
-        public void set_AssignedEditPositionCount(){} // RVA: 0xFDD6E0
-        public void get_AvailableEditPositionCount(){} // RVA: 0x6C6B750
-        public void Clone(){} // RVA: 0x6C6B760
-        public void get_Culture(){} // RVA: 0x35A740
-        public void get_DefaultPasswordChar(){} // RVA: 0x6AF5C30
-        public void get_EditPositionCount(){} // RVA: 0x6C6C170
-        public void get_EditPositions(){} // RVA: 0x6C6C180
-        public void get_IncludeLiterals(){} // RVA: 0x6C6C3B0
-        public void set_IncludeLiterals(){} // RVA: 0x6C6C420
-        public void get_IncludePrompt(){} // RVA: 0x6C6C4B0
-        public void set_IncludePrompt(){} // RVA: 0x6C6C520
-        public void get_AsciiOnly(){} // RVA: 0x6C6C5B0
-        public void get_IsPassword(){} // RVA: 0x6C6C620
-        public void set_IsPassword(){} // RVA: 0x6C6C630
-        public void get_InvalidIndex(){} // RVA: 0x75BB20
-        public void get_LastAssignedPosition(){} // RVA: 0x6C6C6B0
-        public void get_Length(){} // RVA: 0x6C6C700
-        public void get_Mask(){} // RVA: 0x358730
-        public void get_MaskCompleted(){} // RVA: 0x6C6C720
-        public void get_MaskFull(){} // RVA: 0x6C6C730
-        public void get_PasswordChar(){} // RVA: 0x63BB790
-        public void set_PasswordChar(){} // RVA: 0x6C6C740
-        public void get_PromptChar(){} // RVA: 0x6C6C880
-        public void set_PromptChar(){} // RVA: 0x6C6C890
-        public void get_ResetOnPrompt(){} // RVA: 0x6C6CA60
-        public void set_ResetOnPrompt(){} // RVA: 0x6C6CAD0
-        public void get_ResetOnSpace(){} // RVA: 0x6C6CB60
-        public void set_ResetOnSpace(){} // RVA: 0x6C6CBD0
-        public void get_SkipLiterals(){} // RVA: 0x6C6CC60
-        public void set_SkipLiterals(){} // RVA: 0x6C6CCD0
-        public void get_Item(){} // RVA: 0x6C6CD60
-        public void Add(){} // RVA: 0x6C6D190 | overloaded x4
-        public void Clear(){} // RVA: 0x6C6D2B0 | overloaded x2
-        public void FindAssignedEditPositionFrom(){} // RVA: 0x6C6D3E0
-        public void FindAssignedEditPositionInRange(){} // RVA: 0x6C6D440
-        public void FindEditPositionFrom(){} // RVA: 0x6C6D580
-        public void FindEditPositionInRange(){} // RVA: 0x6C6D5F0 | overloaded x2
-        public void FindNonEditPositionFrom(){} // RVA: 0x6C6D740
-        public void FindNonEditPositionInRange(){} // RVA: 0x6C6D790
-        public void FindPositionInRange(){} // RVA: 0x6C6D7B0
-        public void FindUnassignedEditPositionFrom(){} // RVA: 0x6C6D890
-        public void FindUnassignedEditPositionInRange(){} // RVA: 0x6C6D8E0
-        public void GetOperationResultFromHint(){} // RVA: 0x6C6D9F0
-        public void InsertAt(){} // RVA: 0x6C6DD00 | overloaded x4
-        public void InsertAtInt(){} // RVA: 0x6C6DDC0
-        public void IsAscii(){} // RVA: 0x6C6E1E0
-        public void IsAciiAlphanumeric(){} // RVA: 0x6C6E200
-        public void IsAlphanumeric(){} // RVA: 0x6C6E230
-        public void IsAsciiLetter(){} // RVA: 0x5E28750
-        public void IsAvailablePosition(){} // RVA: 0x6C6E2B0
-        public void IsEditPosition(){} // RVA: 0x6C6E470 | overloaded x2
-        public void IsLiteralPosition(){} // RVA: 0x6C6E4A0
-        public void IsPrintableChar(){} // RVA: 0x6C6E4D0
-        public void IsValidInputChar(){} // RVA: 0x6C6E580
-        public void IsValidMaskChar(){} // RVA: 0x6C6E5D0
-        public void IsValidPasswordChar(){} // RVA: 0x6C6E620
-        public void Remove(){} // RVA: 0x6C6E6F0 | overloaded x2
-        public void RemoveAt(){} // RVA: 0x6C6E850 | overloaded x3
-        public void RemoveAtInt(){} // RVA: 0x6C6E8D0
-        public void Replace(){} // RVA: 0x6C6F1F0 | overloaded x6
-        public void ResetChar(){} // RVA: 0x6C6F580
-        public void ResetString(){} // RVA: 0x6C6F640
-        public void Set(){} // RVA: 0x6C6F910 | overloaded x2
-        public void SetChar(){} // RVA: 0x6C6FAF0 | overloaded x2
-        public void SetString(){} // RVA: 0x6C6FCE0
-        public void TestChar(){} // RVA: 0x6C6FE40
-        public void TestEscapeChar(){} // RVA: 0x6C70420 | overloaded x2
-        public void TestSetChar(){} // RVA: 0x6C70500
-        public void TestSetString(){} // RVA: 0x6C70570
-        public void TestString(){} // RVA: 0x6C705E0
-        public void ToDisplayString(){} // RVA: 0x6C70750
-        public void ToString(){} // RVA: 0x6C70B70 | overloaded x7
-        public void VerifyChar(){} // RVA: 0x6C70F10
-        public void VerifyEscapeChar(){} // RVA: 0x6C70F60
-        public void VerifyString(){} // RVA: 0x6C70FE0 | overloaded x2
-        public void .cctor(){} // RVA: 0x6C71020
+        public void .ctor(){} // RVA: 0x7AEA59EA0
+        public void Initialize(){} // RVA: 0x7AEA5A310
+        public void get_AllowPromptAsInput(){} // RVA: 0x7AEA5A8D0
+        public void get_AssignedEditPositionCount(){} // RVA: 0x7A8D863F0
+        public void set_AssignedEditPositionCount(){} // RVA: 0x7A8D870E0
+        public void get_AvailableEditPositionCount(){} // RVA: 0x7AEA5A940
+        public void Clone(){} // RVA: 0x7AEA5A950
+        public void get_Culture(){} // RVA: 0x7A8154D80
+        public void get_DefaultPasswordChar(){} // RVA: 0x7AE8E6430
+        public void get_EditPositionCount(){} // RVA: 0x7AEA5B380
+        public void get_EditPositions(){} // RVA: 0x7AEA5B390
+        public void get_IncludeLiterals(){} // RVA: 0x7AEA5B5D0
+        public void set_IncludeLiterals(){} // RVA: 0x7AEA5B640
+        public void get_IncludePrompt(){} // RVA: 0x7AEA5B6D0
+        public void set_IncludePrompt(){} // RVA: 0x7AEA5B740
+        public void get_AsciiOnly(){} // RVA: 0x7AEA5B7D0
+        public void get_IsPassword(){} // RVA: 0x7AEA5B840
+        public void set_IsPassword(){} // RVA: 0x7AEA5B850
+        public void get_InvalidIndex(){} // RVA: 0x7A85193D0
+        public void get_LastAssignedPosition(){} // RVA: 0x7AEA5B8D0
+        public void get_Length(){} // RVA: 0x7AEA5B920
+        public void get_Mask(){} // RVA: 0x7A8152D80
+        public void get_MaskCompleted(){} // RVA: 0x7AEA5B940
+        public void get_MaskFull(){} // RVA: 0x7AEA5B950
+        public void get_PasswordChar(){} // RVA: 0x7AE1A86C0
+        public void set_PasswordChar(){} // RVA: 0x7AEA5B960
+        public void get_PromptChar(){} // RVA: 0x7AEA5BAA0
+        public void set_PromptChar(){} // RVA: 0x7AEA5BAB0
+        public void get_ResetOnPrompt(){} // RVA: 0x7AEA5BC80
+        public void set_ResetOnPrompt(){} // RVA: 0x7AEA5BCF0
+        public void get_ResetOnSpace(){} // RVA: 0x7AEA5BD80
+        public void set_ResetOnSpace(){} // RVA: 0x7AEA5BDF0
+        public void get_SkipLiterals(){} // RVA: 0x7AEA5BE80
+        public void set_SkipLiterals(){} // RVA: 0x7AEA5BEF0
+        public void get_Item(){} // RVA: 0x7AEA5BF80
+        public void Add(){} // RVA: 0x7AEA5C340
+        public void Clear(){} // RVA: 0x7AEA5C460
+        public void FindAssignedEditPositionFrom(){} // RVA: 0x7AEA5C590
+        public void FindAssignedEditPositionInRange(){} // RVA: 0x7AEA5C5F0
+        public void FindEditPositionFrom(){} // RVA: 0x7AEA5C730
+        public void FindEditPositionInRange(){} // RVA: 0x7AEA5C7A0
+        public void FindNonEditPositionFrom(){} // RVA: 0x7AEA5C8F0
+        public void FindNonEditPositionInRange(){} // RVA: 0x7AEA5C940
+        public void FindPositionInRange(){} // RVA: 0x7AEA5C960
+        public void FindUnassignedEditPositionFrom(){} // RVA: 0x7AEA5CA30
+        public void FindUnassignedEditPositionInRange(){} // RVA: 0x7AEA5CA80
+        public void GetOperationResultFromHint(){} // RVA: 0x7AEA5CBA0
+        public void InsertAt(){} // RVA: 0x7AEA5CF50
+        public void InsertAtInt(){} // RVA: 0x7AEA5D010
+        public void IsAscii(){} // RVA: 0x7AEA5D6C0
+        public void IsAciiAlphanumeric(){} // RVA: 0x7AEA5D6E0
+        public void IsAlphanumeric(){} // RVA: 0x7AEA5D710
+        public void IsAsciiLetter(){} // RVA: 0x7ADC16EC0
+        public void IsAvailablePosition(){} // RVA: 0x7AEA5D790
+        public void IsEditPosition(){} // RVA: 0x7AEA5D950
+        public void IsLiteralPosition(){} // RVA: 0x7AEA5D980
+        public void IsPrintableChar(){} // RVA: 0x7AEA5D9B0
+        public void IsValidInputChar(){} // RVA: 0x7AEA5DA60
+        public void IsValidMaskChar(){} // RVA: 0x7AEA5DAB0
+        public void IsValidPasswordChar(){} // RVA: 0x7AEA5DB00
+        public void Remove(){} // RVA: 0x7AEA5DBD0
+        public void RemoveAt(){} // RVA: 0x7AEA5DD30
+        public void RemoveAtInt(){} // RVA: 0x7AEA5DDB0
+        public void Replace(){} // RVA: 0x7AEA5E950
+        public void ResetChar(){} // RVA: 0x7AEA5EEA0
+        public void ResetString(){} // RVA: 0x7AEA5EF60
+        public void Set(){} // RVA: 0x7AEA5F230
+        public void SetChar(){} // RVA: 0x7AEA5F410
+        public void SetString(){} // RVA: 0x7AEA5F600
+        public void TestChar(){} // RVA: 0x7AEA5F760
+        public void TestEscapeChar(){} // RVA: 0x7AEA5FD40
+        public void TestSetChar(){} // RVA: 0x7AEA5FE20
+        public void TestSetString(){} // RVA: 0x7AEA5FE90
+        public void TestString(){} // RVA: 0x7AEA5FF00
+        public void ToDisplayString(){} // RVA: 0x7AEA60070
+        public void ToString(){} // RVA: 0x7AEA604A0
+        public void VerifyChar(){} // RVA: 0x7AEA608C0
+        public void VerifyEscapeChar(){} // RVA: 0x7AEA60910
+        public void VerifyString(){} // RVA: 0x7AEA60990
+        public void .cctor(){} // RVA: 0x7AEA609D0
     }
 
-    public class MemberDescriptor
+    public class MemberDescriptor : Object
     {
-        public string name; // 0x10
-        public string displayName; // 0x18
-        public int nameHash; // 0x20
-        public System.ComponentModel.AttributeCollection attributeCollection; // 0x28
-        public System.Attribute[] attributes; // 0x30
-        public System.Attribute[] originalAttributes; // 0x38
-        public bool attributesFiltered; // 0x40
-        public bool attributesFilled; // 0x41
-        public int metadataVersion; // 0x44
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6C885C0 | overloaded x4
-        public void get_AttributeArray(){} // RVA: 0x6C88B80
-        public void set_AttributeArray(){} // RVA: 0x6C88BB0
-        public void get_Attributes(){} // RVA: 0x6C88DF0
-        public void get_Category(){} // RVA: 0x6C88FB0
-        public void get_Description(){} // RVA: 0x6C89120
-        public void get_IsBrowsable(){} // RVA: 0x6C892A0
-        public void get_Name(){} // RVA: 0x6C893F0
-        public void get_NameHashCode(){} // RVA: 0x760030
-        public void get_DesignTimeOnly(){} // RVA: 0x6C89440
-        public void get_DisplayName(){} // RVA: 0x6C895A0
-        public void CheckAttributesValid(){} // RVA: 0x6C89750
-        public void CreateAttributeCollection(){} // RVA: 0x6C89810
-        public void Equals(){} // RVA: 0x6C89890
-        public void FillAttributes(){} // RVA: 0x6C89BA0
-        public void FilterAttributesIfNeeded(){} // RVA: 0x6C89CE0
-        public void FindMethod(){} // RVA: 0x6C8A340 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x760030
-        public void GetInvocationTarget(){} // RVA: 0x6C8A3F0
-        public void GetSite(){} // RVA: 0x6C8A510
-        public void GetInvokee(){} // RVA: 0x6C8A5D0
+        public void .ctor(){} // RVA: 0x7AEA77EC0
+        public void get_AttributeArray(){} // RVA: 0x7AEA78490
+        public void set_AttributeArray(){} // RVA: 0x7AEA784C0
+        public void get_Attributes(){} // RVA: 0x7AEA786D0
+        public void get_Category(){} // RVA: 0x7AEA78870
+        public void get_Description(){} // RVA: 0x7AEA789F0
+        public void get_IsBrowsable(){} // RVA: 0x7AEA78B70
+        public void get_Name(){} // RVA: 0x7AEA78CC0
+        public void get_NameHashCode(){} // RVA: 0x7A851DB90
+        public void get_DesignTimeOnly(){} // RVA: 0x7AEA78D10
+        public void get_DisplayName(){} // RVA: 0x7AEA78E70
+        public void CheckAttributesValid(){} // RVA: 0x7AEA79000
+        public void CreateAttributeCollection(){} // RVA: 0x7AEA790C0
+        public void Equals(){} // RVA: 0x7AEA79140
+        public void FillAttributes(){} // RVA: 0x7AEA79460
+        public void FilterAttributesIfNeeded(){} // RVA: 0x7AEA79590
+        public void FindMethod(){} // RVA: 0x7AEA79BA0
+        public void GetHashCode(){} // RVA: 0x7A851DB90
+        public void GetInvocationTarget(){} // RVA: 0x7AEA79C60
+        public void GetSite(){} // RVA: 0x7AEA79D80
+        public void GetInvokee(){} // RVA: 0x7AEA79E40
     }
 
-    public class MergablePropertyAttribute
+    public class MergablePropertyAttribute : Attribute
     {
-        public System.ComponentModel.MergablePropertyAttribute Yes;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
-        public void get_AllowMerge(){} // RVA: 0x3A75E0
-        public void Equals(){} // RVA: 0x6C4F840
-        public void GetHashCode(){} // RVA: 0x6C4B080
-        public void IsDefaultAttribute(){} // RVA: 0x6C4F900
-        public void .cctor(){} // RVA: 0x6C4F970
+        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_AllowMerge(){} // RVA: 0x7A81A2200
+        public void Equals(){} // RVA: 0x7AEA3EA50
+        public void GetHashCode(){} // RVA: 0x7AEA3A270
+        public void IsDefaultAttribute(){} // RVA: 0x7AEA3EB10
+        public void .cctor(){} // RVA: 0x7AEA3EB80
     }
 
-    public class MultilineStringConverter
+    public class MultilineStringConverter : TypeConverter
     {
         // ── Methods ──
-        public void ConvertTo(){} // RVA: 0x6C71550
-        public void GetProperties(){} // RVA: 0x519240
-        public void GetPropertiesSupported(){} // RVA: 0x2DD320
-        public void .ctor(){} // RVA: 0x2DD310
+        public void ConvertTo(){} // RVA: 0x7AEA60F00
+        public void GetProperties(){} // RVA: 0x7A82D1450
+        public void GetPropertiesSupported(){} // RVA: 0x7A80D7320
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

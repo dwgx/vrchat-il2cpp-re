@@ -5,24 +5,22 @@
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.Date
 {
-    public class DateTimeObject
+    public class DateTimeObject : Object
     {
-        public System.DateTime dt; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1967700
-        public void get_Value(){} // RVA: 0x2F8380
-        public void ToString(){} // RVA: 0x96E7230
+        public void .ctor(){} // RVA: 0x7A97242F0
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void ToString(){} // RVA: 0x7B1520F30
     }
 
-    public class DateTimeUtilities
+    public class DateTimeUtilities : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void DateTimeToUnixMs(){} // RVA: 0x96E72C0
-        public void UnixMsToDateTime(){} // RVA: 0x96E74E0
-        public void CurrentUnixMs(){} // RVA: 0x96E7620
-        public void .cctor(){} // RVA: 0x96E76A0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void DateTimeToUnixMs(){} // RVA: 0x7B1520FC0
+        public void UnixMsToDateTime(){} // RVA: 0x7B15211E0
+        public void CurrentUnixMs(){} // RVA: 0x7B1521320
+        public void .cctor(){} // RVA: 0x7B15213A0
     }
 
 }

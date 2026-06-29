@@ -5,22 +5,22 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class InstalledApplication
+    public class InstalledApplication : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60E8560
+        public void .ctor(){} // RVA: 0x7ADED4850
     }
 
-    public class InstalledApplicationList
+    public class InstalledApplicationList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60E89E0
+        public void .ctor(){} // RVA: 0x7ADED4CE0
     }
 
-    public class InvitePanelResultInfo
+    public class InvitePanelResultInfo : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60E8CC0
+        public void .ctor(){} // RVA: 0x7ADED4FB0
     }
 
 }

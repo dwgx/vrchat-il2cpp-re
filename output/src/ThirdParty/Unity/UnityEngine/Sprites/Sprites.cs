@@ -5,13 +5,13 @@
 
 namespace ThirdParty.Unity.UnityEngine.Sprites
 {
-    public class DataUtility
+    public class DataUtility : Object
     {
         // ── Methods ──
-        public void GetInnerUV(){} // RVA: 0x7142550
-        public void GetOuterUV(){} // RVA: 0x71425E0
-        public void GetPadding(){} // RVA: 0x7142670
-        public void GetMinSize(){} // RVA: 0x7142700
+        public void GetInnerUV(){} // RVA: 0x7AEF21450
+        public void GetOuterUV(){} // RVA: 0x7AEF214E0
+        public void GetPadding(){} // RVA: 0x7AEF21570
+        public void GetMinSize(){} // RVA: 0x7AEF21600
     }
 
 }

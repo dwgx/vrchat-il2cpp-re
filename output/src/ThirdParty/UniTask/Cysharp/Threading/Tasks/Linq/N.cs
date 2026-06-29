@@ -5,12 +5,12 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class Never`1
+    public class Never`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24A50
-        public void GetAsyncEnumerator(){}
-        public void .cctor(){} // RVA: 0x24A80
+        public void .ctor(){} // RVA: 0x7A7E18770
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
 }

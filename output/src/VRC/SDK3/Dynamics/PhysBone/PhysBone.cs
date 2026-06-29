@@ -5,26 +5,26 @@
 
 namespace VRC.SDK3.Dynamics.PhysBone
 {
-    public class PhysBoneMigration
+    public class PhysBoneMigration : Object
     {
         // ── Methods ──
-        public void Convert(){} // RVA: 0x76ECBF0
-        public void InitConversionTables(){} // RVA: 0x76ED390
-        public void AverageWorldBoneLength(){} // RVA: 0x76ED720
-        public void IsPartOfHand(){} // RVA: 0x76EDBA0
-        public void GetAllHumanoidTransforms(){} // RVA: 0x76EDF20
-        public void FindValidTransforms(){} // RVA: 0x76EE160
-        public void SmoothCurve(){} // RVA: 0x76EE460
-        public void .cctor(){} // RVA: 0x76EE530
-        public void <Convert>g__CreatePBChain|3_0(){} // RVA: 0x76EE620
-        public void <IsPartOfHand>g__IsChildOf|8_0(){} // RVA: 0x76F0720
+        public void Convert(){} // RVA: 0x7AF4CBBE0
+        public void InitConversionTables(){} // RVA: 0x7AF4CC390
+        public void AverageWorldBoneLength(){} // RVA: 0x7AF4CC720
+        public void IsPartOfHand(){} // RVA: 0x7AF4CCBA0
+        public void GetAllHumanoidTransforms(){} // RVA: 0x7AF4CCF20
+        public void FindValidTransforms(){} // RVA: 0x7AF4CD160
+        public void SmoothCurve(){} // RVA: 0x7AF4CD450
+        public void .cctor(){} // RVA: 0x7AF4CD520
+        public void <Convert>g__CreatePBChain|3_0(){} // RVA: 0x7AF4CD610
+        public void <IsPartOfHand>g__IsChildOf|8_0(){} // RVA: 0x7AF4CF750
     }
 
-    public class PhysBonePerformanceScanner
+    public class PhysBonePerformanceScanner : AbstractPerformanceScanner
     {
         // ── Methods ──
-        public void RunPerformanceScanEnumerator(){} // RVA: 0x76F0D40
-        public void .ctor(){} // RVA: 0x76EBE10
+        public void RunPerformanceScanEnumerator(){} // RVA: 0x7AF4CFD70
+        public void .ctor(){} // RVA: 0x7AF4CADC0
     }
 
 }

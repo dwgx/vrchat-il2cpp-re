@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Unity.UnityEngine.Device
 {
-    public class Application
+    public class Application : Object
     {
         // ── Methods ──
-        public void get_dataPath(){} // RVA: 0x7165040
+        public void get_dataPath(){} // RVA: 0x7AEF44120
     }
 
 }

@@ -1,105 +1,88 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq.Expressions
 // Classes: 6
-// Methods: 58
+// Methods: 50
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class LabelExpression
+    public class LabelExpression : Expression
     {
-        public System.Linq.Expressions.LabelTarget <Target>k__BackingField; // 0x10
-        public System.Linq.Expressions.Expression <DefaultValue>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FB990 | overloaded x2
-        public void get_Type(){} // RVA: 0xB2EEA0
-        public void get_NodeType(){} // RVA: 0x2111880
-        public void get_Target(){} // RVA: 0x2F8380
-        public void get_DefaultValue(){} // RVA: 0x2E07C0
-        public void Accept(){} // RVA: 0x65FB8D0
-        public void Update(){} // RVA: 0x65FB900
+        public void .ctor(){} // RVA: 0x7AE3EA1A0
+        public void get_Type(){} // RVA: 0x7A88F4330
+        public void get_NodeType(){} // RVA: 0x7A9F26090
+        public void get_Target(){} // RVA: 0x7A80F2570
+        public void get_DefaultValue(){} // RVA: 0x7A80DA7B0
+        public void Accept(){} // RVA: 0x7AE3EA0E0
+        public void Update(){} // RVA: 0x7AE3EA110
     }
 
-    public class LabelTarget
+    public class LabelTarget : Object
     {
-        public string NodeType; // 0x10
-        public System.Type Type; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FBA10 | overloaded x2
-        public void get_Name(){} // RVA: 0x2F8380
-        public void get_Type(){} // RVA: 0x2E07C0
-        public void ToString(){} // RVA: 0x65FB9C0
+        public void .ctor(){} // RVA: 0x7AE3EA220
+        public void get_Name(){} // RVA: 0x7A80F2570
+        public void get_Type(){} // RVA: 0x7A80DA7B0
+        public void ToString(){} // RVA: 0x7AE3EA1D0
     }
 
-    public class LambdaExpression
+    public class LambdaExpression : Expression
     {
-        public System.Linq.Expressions.Expression _body; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FBC90 | overloaded x2
-        public void get_Type(){} // RVA: 0xBEE7B0
-        public void get_TypeCore(){} // RVA: 0xCD60
-        public void get_PublicType(){} // RVA: 0xCD60
-        public void get_NodeType(){} // RVA: 0x16803D0
-        public void get_Parameters(){} // RVA: 0x14AEF80
-        public void get_Name(){} // RVA: 0x1854D10
-        public void get_NameCore(){} // RVA: 0x519240
-        public void get_Body(){} // RVA: 0x2F8380
-        public void get_ReturnType(){} // RVA: 0x65FBAE0
-        public void get_TailCall(){} // RVA: 0xAE50F0
-        public void get_TailCallCore(){} // RVA: 0x2DD320
-        public void GetOrMakeParameters(){} // RVA: 0x65FBB70
-        public void System.Linq.Expressions.IParameterProvider.GetParameter(){} // RVA: 0x6045A70
-        public void GetParameter(){} // RVA: 0x65FBBA0
-        public void System.Linq.Expressions.IParameterProvider.get_ParameterCount(){} // RVA: 0x1854290
-        public void get_ParameterCount(){} // RVA: 0x65FBBD0
-        public void Compile(){} // RVA: 0x65FBC80 | overloaded x3
-        public void CompileToMethod(){} // RVA: 0x65FBCF0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AE3EA4A0
+        public void get_Type(){} // RVA: 0x7A89B55B0
+        public void get_TypeCore(){} // RVA: 0x7A7E00680
+        public void get_PublicType(){} // RVA: 0x7A7E00680
+        public void get_NodeType(){} // RVA: 0x7A943A740
+        public void get_Parameters(){} // RVA: 0x7A9267340
+        public void get_Name(){} // RVA: 0x7A95EA850
+        public void get_NameCore(){} // RVA: 0x7A82D1450
+        public void get_Body(){} // RVA: 0x7A80F2570
+        public void get_ReturnType(){} // RVA: 0x7AE3EA2F0
+        public void get_TailCall(){} // RVA: 0x7A8881850
+        public void get_TailCallCore(){} // RVA: 0x7A80D7320
+        public void GetOrMakeParameters(){} // RVA: 0x7AE3EA380
+        public void System.Linq.Expressions.IParameterProvider.GetParameter(){} // RVA: 0x7ADE322D0
+        public void GetParameter(){} // RVA: 0x7AE3EA3B0
+        public void System.Linq.Expressions.IParameterProvider.get_ParameterCount(){} // RVA: 0x7A95E9DD0
+        public void get_ParameterCount(){} // RVA: 0x7AE3EA3E0
+        public void Compile(){} // RVA: 0x7AE3EA490
+        public void CompileToMethod(){} // RVA: 0x7AE3EA500
     }
 
-    public class ListInitExpression
+    public class ListInitExpression : Expression
     {
-        public System.Linq.Expressions.NewExpression <NewExpression>k__BackingField; // 0x10
-        public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> <Initializers>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FBF50 | overloaded x2
-        public void get_NodeType(){} // RVA: 0x5D5200
-        public void get_Type(){} // RVA: 0x7F0250
-        public void get_CanReduce(){} // RVA: 0x3C2850
-        public void get_NewExpression(){} // RVA: 0x2F8380
-        public void get_Initializers(){} // RVA: 0x2E07C0
-        public void Accept(){} // RVA: 0x65FBE30
-        public void Reduce(){} // RVA: 0x65FBE60
-        public void Update(){} // RVA: 0x65FBE80
+        public void .ctor(){} // RVA: 0x7AE3EA760
+        public void get_NodeType(){} // RVA: 0x7A838E9A0
+        public void get_Type(){} // RVA: 0x7A858AB20
+        public void get_CanReduce(){} // RVA: 0x7A81BD750
+        public void get_NewExpression(){} // RVA: 0x7A80F2570
+        public void get_Initializers(){} // RVA: 0x7A80DA7B0
+        public void Accept(){} // RVA: 0x7AE3EA640
+        public void Reduce(){} // RVA: 0x7AE3EA670
+        public void Update(){} // RVA: 0x7AE3EA690
     }
 
-    public class LogicalBinaryExpression
+    public class LogicalBinaryExpression : BinaryExpression
     {
-        public 0x65908648 <NodeType>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65B0E30
-        public void get_Type(){} // RVA: 0x65B0E70
-        public void get_NodeType(){} // RVA: 0x760030
+        public void .ctor(){} // RVA: 0x7AE39F340
+        public void get_Type(){} // RVA: 0x7AE39F380
+        public void get_NodeType(){} // RVA: 0x7A851DB90
     }
 
-    public class LoopExpression
+    public class LoopExpression : Expression
     {
-        public System.Linq.Expressions.Expression <Body>k__BackingField; // 0x10
-        public System.Linq.Expressions.LabelTarget <BreakLabel>k__BackingField; // 0x18
-        public System.Linq.Expressions.LabelTarget <ContinueLabel>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FC240 | overloaded x2
-        public void get_Type(){} // RVA: 0x65FC0E0
-        public void get_NodeType(){} // RVA: 0x5E615F0
-        public void get_Body(){} // RVA: 0x2F8380
-        public void get_BreakLabel(){} // RVA: 0x2E07C0
-        public void get_ContinueLabel(){} // RVA: 0x30B0C0
-        public void Accept(){} // RVA: 0x65FC170
-        public void Update(){} // RVA: 0x65FC1A0
+        public void .ctor(){} // RVA: 0x7AE3EAA50
+        public void get_Type(){} // RVA: 0x7AE3EA8F0
+        public void get_NodeType(){} // RVA: 0x7ADC500B0
+        public void get_Body(){} // RVA: 0x7A80F2570
+        public void get_BreakLabel(){} // RVA: 0x7A80DA7B0
+        public void get_ContinueLabel(){} // RVA: 0x7A81052C0
+        public void Accept(){} // RVA: 0x7AE3EA980
+        public void Update(){} // RVA: 0x7AE3EA9B0
     }
 
 }

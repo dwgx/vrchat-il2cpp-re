@@ -1,143 +1,125 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.FlatBuffers.FlatBuffers8
 // Classes: 9
-// Methods: 74
+// Methods: 72
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
-    public class Quaternion
+    public class Quaternion : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_X(){} // RVA: 0x75E0A10
-        public void get_Y(){} // RVA: 0x75EB910
-        public void get_Z(){} // RVA: 0x75EBF80
-        public void get_W(){} // RVA: 0x75EC230
-        public void CreateQuaternion(){} // RVA: 0x75EC520
-        public void UnPack(){} // RVA: 0x75EC640
-        public void UnPackTo(){} // RVA: 0x75EC450
-        public void Pack(){} // RVA: 0x75EC710
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_X(){} // RVA: 0x7A7F12600
+        public void get_Y(){} // RVA: 0x7A7F13420
+        public void get_Z(){} // RVA: 0x7A7F13520
+        public void get_W(){} // RVA: 0x7A7F13600
+        public void CreateQuaternion(){} // RVA: 0x7AF3CAA50
+        public void UnPack(){} // RVA: 0x7A7F13670
+        public void UnPackTo(){} // RVA: 0x7A7F13640
+        public void Pack(){} // RVA: 0x7AF3CAC40
     }
 
-    public class QuaternionArray
+    public class QuaternionArray : ValueType
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsQuaternionArray(){} // RVA: 0x75E0C40 | overloaded x2
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Value(){} // RVA: 0x76025E0
-        public void get_ValueLength(){} // RVA: 0x75E1270
-        public void CreateQuaternionArray(){} // RVA: 0x7602730
-        public void StartQuaternionArray(){} // RVA: 0x75E0EB0
-        public void AddValue(){} // RVA: 0x75E0ED0
-        public void StartValueVector(){} // RVA: 0x7602000
-        public void EndQuaternionArray(){} // RVA: 0x76027F0
-        public void UnPack(){} // RVA: 0x7602880
-        public void UnPackTo(){} // RVA: 0x7602930
-        public void Pack(){} // RVA: 0x7602B40
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsQuaternionArray(){} // RVA: 0x7AF3BF190
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Value(){} // RVA: 0x7A7F15780
+        public void get_ValueLength(){} // RVA: 0x7A7F12820
+        public void CreateQuaternionArray(){} // RVA: 0x7AF3E0E10
+        public void StartQuaternionArray(){} // RVA: 0x7AF3BF400
+        public void AddValue(){} // RVA: 0x7AF3BF420
+        public void StartValueVector(){} // RVA: 0x7AF3E06A0
+        public void EndQuaternionArray(){} // RVA: 0x7AF3E0ED0
+        public void UnPack(){} // RVA: 0x7A7F157B0
+        public void UnPackTo(){} // RVA: 0x7A7F157C0
+        public void Pack(){} // RVA: 0x7AF3E1220
     }
 
-    public class QuaternionArrayT
+    public class QuaternionArrayT : Object
     {
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT> <Value>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x2F8380
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x574FB20
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void set_Value(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AD51EC30
     }
 
-    public class QuaternionArrayVerify
+    public class QuaternionArrayVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7602570
+        public void Verify(){} // RVA: 0x7AF3E0C40
     }
 
-    public class QuaternionHalf
+    public class QuaternionHalf : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Data(){} // RVA: 0x75E5870
-        public void CreateQuaternionHalf(){} // RVA: 0x75ED300
-        public void UnPack(){} // RVA: 0x75ED410
-        public void UnPackTo(){} // RVA: 0x75ED4F0
-        public void Pack(){} // RVA: 0x75ED5F0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Data(){} // RVA: 0x7A7F12D70
+        public void CreateQuaternionHalf(){} // RVA: 0x7AF3CB8B0
+        public void UnPack(){} // RVA: 0x7A7F13760
+        public void UnPackTo(){} // RVA: 0x7A7F13840
+        public void Pack(){} // RVA: 0x7AF3CBBC0
     }
 
-    public class QuaternionHalfT
+    public class QuaternionHalfT : Object
     {
-        public byte[] ByteBuffer; // 0x10
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x2F8380
-        public void set_Data(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x75ED720
+        public void get_Data(){} // RVA: 0x7A80F2570
+        public void set_Data(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AF3CBD00
     }
 
-    public class QuaternionT
+    public class QuaternionT : Object
     {
-        public float <X>k__BackingField; // 0x10
-        public float <Y>k__BackingField; // 0x14
-        public float <Z>k__BackingField; // 0x18
-        public float <W>k__BackingField; // 0x1C
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x75DF4A0 | overloaded x2
-        public void CopyFrom(){} // RVA: 0x75DEEC0 | overloaded x2
-        public void ToNumerics(){} // RVA: 0x75DEEE0
-        public void op_Implicit(){} // RVA: 0x75DEF00
-        public void op_Explicit(){} // RVA: 0x75DEF30
-        public void get_identity(){} // RVA: 0x75DEF90
-        public void get_magnitude(){} // RVA: 0x75DEFE0
-        public void get_sqrMagnitude(){} // RVA: 0x75DF090
-        public void IsBad(){} // RVA: 0x75DF0D0
-        public void Normalize(){} // RVA: 0x75DF150
-        public void ToString(){} // RVA: 0x75DF250
-        public void get_X(){} // RVA: 0x407320
-        public void set_X(){} // RVA: 0x407330
-        public void get_Y(){} // RVA: 0x407340
-        public void set_Y(){} // RVA: 0x407350
-        public void get_Z(){} // RVA: 0x2E1CF0
-        public void set_Z(){} // RVA: 0x2F84D0
-        public void get_W(){} // RVA: 0x3AA570
-        public void set_W(){} // RVA: 0x3AA580
+        public void .ctor(){} // RVA: 0x7AF3BDA20
+        public void CopyFrom(){} // RVA: 0x7AF3BD440
+        public void ToNumerics(){} // RVA: 0x7AF3BD460
+        public void op_Implicit(){} // RVA: 0x7AF3BD480
+        public void op_Explicit(){} // RVA: 0x7AF3BD4B0
+        public void get_identity(){} // RVA: 0x7AF3BD510
+        public void get_magnitude(){} // RVA: 0x7AF3BD560
+        public void get_sqrMagnitude(){} // RVA: 0x7AF3BD610
+        public void IsBad(){} // RVA: 0x7AF3BD650
+        public void Normalize(){} // RVA: 0x7AF3BD6D0
+        public void ToString(){} // RVA: 0x7AF3BD7D0
+        public void get_X(){} // RVA: 0x7A82023C0
+        public void set_X(){} // RVA: 0x7A82023D0
+        public void get_Y(){} // RVA: 0x7A82023E0
+        public void set_Y(){} // RVA: 0x7A82023F0
+        public void get_Z(){} // RVA: 0x7A80DBCE0
+        public void set_Z(){} // RVA: 0x7A80F26C0
+        public void get_W(){} // RVA: 0x7A81A5180
+        public void set_W(){} // RVA: 0x7A81A5190
+        public void <X>k__BackingField(){} // RVA: 0x7B3FAD6B8
     }
 
-    public class QuaternionTenBit
+    public class QuaternionTenBit : ValueType
     {
-        public Google.FlatBuffers8.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Data(){} // RVA: 0x75E5870
-        public void CreateQuaternionTenBit(){} // RVA: 0x75ECA80
-        public void UnPack(){} // RVA: 0x75ECB90
-        public void UnPackTo(){} // RVA: 0x75ECC00
-        public void Pack(){} // RVA: 0x75ECD00
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Data(){} // RVA: 0x7A7F12D70
+        public void CreateQuaternionTenBit(){} // RVA: 0x7AF3CAFD0
+        public void UnPack(){} // RVA: 0x7A7F136E0
+        public void UnPackTo(){} // RVA: 0x7A7F136F0
+        public void Pack(){} // RVA: 0x7AF3CB270
     }
 
-    public class QuaternionTenBitT
+    public class QuaternionTenBitT : Object
     {
-        public byte[] ByteBuffer; // 0x10
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x2F8380
-        public void set_Data(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x75ECE30
+        public void get_Data(){} // RVA: 0x7A80F2570
+        public void set_Data(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AF3CB3B0
     }
 
 }

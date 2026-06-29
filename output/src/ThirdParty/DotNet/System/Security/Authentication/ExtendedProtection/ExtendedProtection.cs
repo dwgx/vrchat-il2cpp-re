@@ -1,28 +1,24 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Security.Authentication.ExtendedProtection
-// Classes: 3
-// Methods: 7
+// Classes: 2
+// Methods: 6
 
 namespace ThirdParty.DotNet.System.Security.Authentication.ExtendedProtection
 {
-    public class ExtendedProtectionPolicy
+    public class ExtendedProtectionPolicy : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6C2FA60 | overloaded x2
-        public void ToString(){} // RVA: 0x5D93620
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6C2FAA0
+        public void .ctor(){} // RVA: 0x7AEA1E950
+        public void ToString(){} // RVA: 0x7ADB81790
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7AEA1E990
     }
 
-    public class ExtendedProtectionPolicyTypeConverter
+    public class ExtendedProtectionPolicyTypeConverter : TypeConverter
     {
         // ── Methods ──
-        public void CanConvertTo(){} // RVA: 0x6C2FAE0
-        public void ConvertTo(){} // RVA: 0x6C2FB20
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class ServiceNameCollection
-    {
+        public void CanConvertTo(){} // RVA: 0x7AEA1E9D0
+        public void ConvertTo(){} // RVA: 0x7AEA1EA10
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

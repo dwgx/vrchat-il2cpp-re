@@ -1,143 +1,133 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.Mono.Security.Interface
 // Classes: 10
-// Methods: 64
+// Methods: 75
 
 namespace ThirdParty.DotNet.Mono.Security.Interface
 {
-    public class Alert
-    {
-        public 0x659A5F58 Trusted; // 0x10
-        public 0x659A5FB0 UserDenied; // 0x11
-
-        // ── Methods ──
-        public void get_Level(){} // RVA: 0x3A75E0
-        public void get_Description(){} // RVA: 0x543460
-        public void .ctor(){} // RVA: 0x5BD9220
-        public void inferAlertLevel(){} // RVA: 0x5BD92A0
-        public void ToString(){} // RVA: 0x5BD9320
-    }
-
-    public class ICertificateValidator
-    {
-    }
-
-    public class MonoLocalCertificateSelectionCallback
+    public class Alert : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BD95E0
-        public void Invoke(){} // RVA: 0xC09580
+        public void get_Level(){} // RVA: 0x7A81A2200
+        public void get_Description(){} // RVA: 0x7A82FBFB0
+        public void .ctor(){} // RVA: 0x7AD9C6D80
+        public void inferAlertLevel(){} // RVA: 0x7AD9C6E00
+        public void ToString(){} // RVA: 0x7AD9C6E80
     }
 
-    public class MonoRemoteCertificateValidationCallback
+    public class CipherSuiteCode[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BD9500
-        public void Invoke(){} // RVA: 0xC09580
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2DC5C0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EB50
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6000
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA299010
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EB50
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class MonoTlsConnectionInfo
+    public class MonoLocalCertificateSelectionCallback : MulticastDelegate
     {
-        public 0x659A6110 <CipherSuiteCode>k__BackingField; // 0x10
-        public 0x659A6480 <ProtocolVersion>k__BackingField; // 0x14
-        public string <PeerDomainName>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_CipherSuiteCode(){} // RVA: 0x1C0F720
-        public void set_CipherSuiteCode(){} // RVA: 0x1C0FA70
-        public void get_ProtocolVersion(){} // RVA: 0x8ABED0
-        public void set_ProtocolVersion(){} // RVA: 0x8AC660
-        public void set_PeerDomainName(){} // RVA: 0x343E80
-        public void ToString(){} // RVA: 0x5BD9420
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7AD9C7150
+        public void Invoke(){} // RVA: 0x7A89D0820
     }
 
-    public class MonoTlsProvider
+    public class MonoRemoteCertificateValidationCallback : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_ID(){} // RVA: 0xC770
-        public void get_Name(){} // RVA: 0xCD60
-        public void get_SupportsSslStream(){} // RVA: 0xDBE0
-        public void get_SupportsConnectionInfo(){} // RVA: 0xDBE0
-        public void get_SupportsMonoExtensions(){} // RVA: 0xDBE0
-        public void get_SupportedProtocols(){} // RVA: 0xD840
-        public void get_SupportsCleanShutdown(){} // RVA: 0xDBE0
+        public void .ctor(){} // RVA: 0x7AD9C7060
+        public void Invoke(){} // RVA: 0x7A89D0820
     }
 
-    public class MonoTlsProviderFactory
+    public class MonoTlsConnectionInfo : Object
     {
         // ── Methods ──
-        public void GetProvider(){} // RVA: 0x5BD96C0
+        public void get_CipherSuiteCode(){} // RVA: 0x7A99CD750
+        public void set_CipherSuiteCode(){} // RVA: 0x7A99CDAA0
+        public void get_ProtocolVersion(){} // RVA: 0x7A8668BC0
+        public void set_ProtocolVersion(){} // RVA: 0x7A8669360
+        public void set_PeerDomainName(){} // RVA: 0x7A813E420
+        public void ToString(){} // RVA: 0x7AD9C6F80
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MonoTlsSettings
+    public class MonoTlsProvider : Object
     {
-        public Mono.Security.Interface.MonoRemoteCertificateValidationCallback <RemoteCertificateValidationCallback>k__BackingField; // 0x10
-        public Mono.Security.Interface.MonoLocalCertificateSelectionCallback <ClientCertificateSelectionCallback>k__BackingField; // 0x18
-        public System.Nullable`1<System.DateTime> <CertificateValidationTime>k__BackingField; // 0x20
-        public System.Security.Cryptography.X509Certificates.X509CertificateCollection <TrustAnchors>k__BackingField; // 0x30
-        public object <UserSettings>k__BackingField; // 0x38
-        public string[] <CertificateSearchPaths>k__BackingField; // 0x40
-        public bool <SendCloseNotify>k__BackingField; // 0x48
-        public string[] <ClientCertificateIssuers>k__BackingField; // 0x50
-        public bool <DisallowUnauthenticatedCertificateRequest>k__BackingField; // 0x58
-        public System.Nullable`1<0x659A6480> <EnabledProtocols>k__BackingField; // 0x5C
-        public 0x659A6110[] <EnabledCiphers>k__BackingField; // 0x68
-        public bool cloned; // 0x70
-        public bool checkCertName; // 0x71
-        public bool checkCertRevocationStatus; // 0x72
-        public System.Nullable`1<bool> useServicePointManagerCallback; // 0x73
-
         // ── Methods ──
-        public void get_RemoteCertificateValidationCallback(){} // RVA: 0x2F8380
-        public void set_RemoteCertificateValidationCallback(){} // RVA: 0x2DEE30
-        public void get_ClientCertificateSelectionCallback(){} // RVA: 0x2E07C0
-        public void set_ClientCertificateSelectionCallback(){} // RVA: 0x343E80
-        public void get_UseServicePointManagerCallback(){} // RVA: 0x5BD97A0
-        public void set_UseServicePointManagerCallback(){} // RVA: 0x5BD97B0
-        public void get_CallbackNeedsCertificateChain(){} // RVA: 0x1160850
-        public void get_CertificateValidationTime(){} // RVA: 0x1EFB630
-        public void set_CertificateValidationTime(){} // RVA: 0x5BD97C0
-        public void get_TrustAnchors(){} // RVA: 0x6374D0
-        public void set_TrustAnchors(){} // RVA: 0x30B890
-        public void get_UserSettings(){} // RVA: 0x4976A0
-        public void set_UserSettings(){} // RVA: 0x49B830
-        public void get_CertificateSearchPaths(){} // RVA: 0x35A740
-        public void set_CertificateSearchPaths(){} // RVA: 0x305200
-        public void get_SendCloseNotify(){} // RVA: 0x394D30
-        public void set_SendCloseNotify(){} // RVA: 0x394D40
-        public void get_ClientCertificateIssuers(){} // RVA: 0x37E0E0
-        public void set_ClientCertificateIssuers(){} // RVA: 0x4354D0
-        public void get_DisallowUnauthenticatedCertificateRequest(){} // RVA: 0x59FF30
-        public void set_DisallowUnauthenticatedCertificateRequest(){} // RVA: 0xC5F680
-        public void get_EnabledProtocols(){} // RVA: 0x5BD97D0
-        public void set_EnabledProtocols(){} // RVA: 0x5BD97E0
-        public void get_EnabledCiphers(){} // RVA: 0x358D50
-        public void set_EnabledCiphers(){} // RVA: 0x358D60
-        public void .ctor(){} // RVA: 0x5BD9AD0 | overloaded x2
-        public void get_DefaultSettings(){} // RVA: 0x5BD9800
-        public void CopyDefaultSettings(){} // RVA: 0x5BD98C0
-        public void get_CertificateValidator(){} // RVA: 0x4C7C50
-        public void CloneWithValidator(){} // RVA: 0x5BD9930
-        public void Clone(){} // RVA: 0x5BD9A70
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_ID(){} // RVA: 0x7A7E00490
+        public void get_Name(){} // RVA: 0x7A7E00680
+        public void get_SupportsSslStream(){} // RVA: 0x7A7E01900
+        public void get_SupportsConnectionInfo(){} // RVA: 0x7A7E01900
+        public void get_SupportsMonoExtensions(){} // RVA: 0x7A7E01900
+        public void get_SupportedProtocols(){} // RVA: 0x7A7E00710
+        public void get_SupportsCleanShutdown(){} // RVA: 0x7A7E01900
     }
 
-    public class TlsException
+    public class MonoTlsProviderFactory : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BDA080 | overloaded x4
+        public void GetProvider(){} // RVA: 0x7AD9C7240
     }
 
-    public class ValidationResult
+    public class MonoTlsSettings : Object
     {
-        public bool CipherSuiteCode; // 0x10
-        public bool ProtocolVersion; // 0x11
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5BD9400
-        public void get_Trusted(){} // RVA: 0x3A75E0
-        public void get_UserDenied(){} // RVA: 0x543460
+        public void get_RemoteCertificateValidationCallback(){} // RVA: 0x7A80F2570
+        public void set_RemoteCertificateValidationCallback(){} // RVA: 0x7A80D8E20
+        public void get_ClientCertificateSelectionCallback(){} // RVA: 0x7A80DA7B0
+        public void set_ClientCertificateSelectionCallback(){} // RVA: 0x7A813E420
+        public void get_UseServicePointManagerCallback(){} // RVA: 0x7AD9C7320
+        public void set_UseServicePointManagerCallback(){} // RVA: 0x7AD9C7330
+        public void get_CallbackNeedsCertificateChain(){} // RVA: 0x7A8F12DA0
+        public void get_CertificateValidationTime(){} // RVA: 0x7A9D01C90
+        public void set_CertificateValidationTime(){} // RVA: 0x7AD9C7340
+        public void get_TrustAnchors(){} // RVA: 0x7A83F69F0
+        public void set_TrustAnchors(){} // RVA: 0x7A8105A90
+        public void get_UserSettings(){} // RVA: 0x7A8292C30
+        public void set_UserSettings(){} // RVA: 0x7A8296DE0
+        public void get_CertificateSearchPaths(){} // RVA: 0x7A8154D80
+        public void set_CertificateSearchPaths(){} // RVA: 0x7A80FF440
+        public void get_SendCloseNotify(){} // RVA: 0x7A818F850
+        public void set_SendCloseNotify(){} // RVA: 0x7A818F860
+        public void get_ClientCertificateIssuers(){} // RVA: 0x7A8178B90
+        public void set_ClientCertificateIssuers(){} // RVA: 0x7A8230620
+        public void get_DisallowUnauthenticatedCertificateRequest(){} // RVA: 0x7A8359360
+        public void set_DisallowUnauthenticatedCertificateRequest(){} // RVA: 0x7A8A21900
+        public void get_EnabledProtocols(){} // RVA: 0x7AD9C7350
+        public void set_EnabledProtocols(){} // RVA: 0x7AD9C7360
+        public void get_EnabledCiphers(){} // RVA: 0x7A8153390
+        public void set_EnabledCiphers(){} // RVA: 0x7A81533A0
+        public void .ctor(){} // RVA: 0x7AD9C7650
+        public void get_DefaultSettings(){} // RVA: 0x7AD9C7380
+        public void CopyDefaultSettings(){} // RVA: 0x7AD9C7440
+        public void get_CertificateValidator(){} // RVA: 0x7A82C2060
+        public void CloneWithValidator(){} // RVA: 0x7AD9C74B0
+        public void Clone(){} // RVA: 0x7AD9C75F0
+    }
+
+    public class TlsException : Exception
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AD9C7C00
+    }
+
+    public class ValidationResult : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AD9C6F60
+        public void get_Trusted(){} // RVA: 0x7A81A2200
+        public void get_UserDenied(){} // RVA: 0x7A82FBFB0
     }
 
 }

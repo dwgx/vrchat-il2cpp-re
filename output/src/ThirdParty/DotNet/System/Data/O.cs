@@ -5,21 +5,21 @@
 
 namespace ThirdParty.DotNet.System.Data
 {
-    public class OperatorInfo
+    public class OperatorInfo : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D897D0
+        public void .ctor(){} // RVA: 0x7A9B8CFF0
     }
 
-    public class Operators
+    public class Operators : Object
     {
         // ── Methods ──
-        public void IsArithmetical(){} // RVA: 0x6723F70
-        public void IsLogical(){} // RVA: 0x6723F90
-        public void IsRelational(){} // RVA: 0x6723FB0
-        public void Priority(){} // RVA: 0x6723FC0
-        public void ToString(){} // RVA: 0x6724070
-        public void .cctor(){} // RVA: 0x6724130
+        public void IsArithmetical(){} // RVA: 0x7AE512430
+        public void IsLogical(){} // RVA: 0x7AE512450
+        public void IsRelational(){} // RVA: 0x7AE512470
+        public void Priority(){} // RVA: 0x7AE512480
+        public void ToString(){} // RVA: 0x7AE512530
+        public void .cctor(){} // RVA: 0x7AE5125F0
     }
 
 }

@@ -5,136 +5,113 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class EnterExceptionFilterInstruction
+    public class EnterExceptionFilterInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.EnterExceptionFilterInstruction Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_InstructionName(){} // RVA: 0x6612A30
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void Run(){} // RVA: 0x3CFAF0
-        public void .cctor(){} // RVA: 0x6612A70
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_InstructionName(){} // RVA: 0x7AE4014E0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void Run(){} // RVA: 0x7A81CA9D0
+        public void .cctor(){} // RVA: 0x7AE401520
     }
 
-    public class EnterExceptionHandlerInstruction
+    public class EnterExceptionHandlerInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.EnterExceptionHandlerInstruction Void;
-        public System.Linq.Expressions.Interpreter.EnterExceptionHandlerInstruction NonVoid; // 0x8
-        public bool _hasValue; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
-        public void get_InstructionName(){} // RVA: 0x6612BF0
-        public void get_ConsumedStack(){} // RVA: 0x6522960
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void Run(){} // RVA: 0x3CFAF0
-        public void .cctor(){} // RVA: 0x6612C30
+        public void .ctor(){} // RVA: 0x7A81A2210
+        public void get_InstructionName(){} // RVA: 0x7AE4016A0
+        public void get_ConsumedStack(){} // RVA: 0x7AE310770
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void Run(){} // RVA: 0x7A81CA9D0
+        public void .cctor(){} // RVA: 0x7AE4016E0
     }
 
-    public class EnterFaultInstruction
+    public class EnterFaultInstruction : IndexedBranchInstruction
     {
-        public System.Linq.Expressions.Interpreter.EnterFaultInstruction[] s_cache;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void get_InstructionName(){} // RVA: 0x6612670
-        public void get_ProducedStack(){} // RVA: 0x3E2CB0
-        public void Create(){} // RVA: 0x66126B0
-        public void Run(){} // RVA: 0x66127E0
-        public void .cctor(){} // RVA: 0x6612860
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void get_InstructionName(){} // RVA: 0x7AE401120
+        public void get_ProducedStack(){} // RVA: 0x7A81DDCC0
+        public void Create(){} // RVA: 0x7AE401160
+        public void Run(){} // RVA: 0x7AE401290
+        public void .cctor(){} // RVA: 0x7AE401310
     }
 
-    public class EnterFinallyInstruction
+    public class EnterFinallyInstruction : IndexedBranchInstruction
     {
-        public System.Linq.Expressions.Interpreter.EnterFinallyInstruction[] s_cache;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void get_InstructionName(){} // RVA: 0x66122A0
-        public void get_ProducedStack(){} // RVA: 0x3E2CB0
-        public void get_ConsumedContinuations(){} // RVA: 0x3CFAF0
-        public void Create(){} // RVA: 0x66122E0
-        public void Run(){} // RVA: 0x6612410
-        public void .cctor(){} // RVA: 0x6612490
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void get_InstructionName(){} // RVA: 0x7AE400D50
+        public void get_ProducedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ConsumedContinuations(){} // RVA: 0x7A81CA9D0
+        public void Create(){} // RVA: 0x7AE400D90
+        public void Run(){} // RVA: 0x7AE400EC0
+        public void .cctor(){} // RVA: 0x7AE400F40
     }
 
-    public class EnterTryCatchFinallyInstruction
+    public class EnterTryCatchFinallyInstruction : IndexedBranchInstruction
     {
-        public bool _hasFinally; // 0x18
-        public System.Linq.Expressions.Interpreter.TryCatchFinallyHandler _tryHandler; // 0x20
-
         // ── Methods ──
-        public void SetTryHandler(){} // RVA: 0x30B0D0
-        public void get_Handler(){} // RVA: 0x30B0C0
-        public void get_ProducedContinuations(){} // RVA: 0x6611020
-        public void .ctor(){} // RVA: 0x6611640
-        public void CreateTryFinally(){} // RVA: 0x6611650
-        public void CreateTryCatch(){} // RVA: 0x66116A0
-        public void Run(){} // RVA: 0x66116F0
-        public void get_InstructionName(){} // RVA: 0x6611D70
-        public void ToString(){} // RVA: 0x6611DD0
+        public void SetTryHandler(){} // RVA: 0x7A81052D0
+        public void get_Handler(){} // RVA: 0x7A81052C0
+        public void get_ProducedContinuations(){} // RVA: 0x7AE3FFAE0
+        public void .ctor(){} // RVA: 0x7AE400100
+        public void CreateTryFinally(){} // RVA: 0x7AE400110
+        public void CreateTryCatch(){} // RVA: 0x7AE400160
+        public void Run(){} // RVA: 0x7AE4001B0
+        public void get_InstructionName(){} // RVA: 0x7AE400820
+        public void ToString(){} // RVA: 0x7AE400880
     }
 
-    public class EnterTryFaultInstruction
+    public class EnterTryFaultInstruction : IndexedBranchInstruction
     {
-        public System.Linq.Expressions.Interpreter.TryFaultHandler _tryHandler; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void get_InstructionName(){} // RVA: 0x6611E60
-        public void get_ProducedContinuations(){} // RVA: 0x3CFAF0
-        public void get_Handler(){} // RVA: 0x2E07C0
-        public void SetTryHandler(){} // RVA: 0x343E80
-        public void Run(){} // RVA: 0x6611EA0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void get_InstructionName(){} // RVA: 0x7AE400910
+        public void get_ProducedContinuations(){} // RVA: 0x7A81CA9D0
+        public void get_Handler(){} // RVA: 0x7A80DA7B0
+        public void SetTryHandler(){} // RVA: 0x7A813E420
+        public void Run(){} // RVA: 0x7AE400950
     }
 
-    public class EqualInstruction
+    public class EqualInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_reference;
-        public System.Linq.Expressions.Interpreter.Instruction s_Boolean; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_SByte; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6615610
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x6615650
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE4040F0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE404130
     }
 
-    public class ExceptionFilter
+    public class ExceptionFilter : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D897D0
+        public void .ctor(){} // RVA: 0x7A9B8CFF0
     }
 
-    public class ExceptionHandler
+    public class ExceptionHandler : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x662C530
-        public void Matches(){} // RVA: 0x662C600
-        public void ToString(){} // RVA: 0x662C630
+        public void .ctor(){} // RVA: 0x7AE41AF00
+        public void Matches(){} // RVA: 0x7AE41AFD0
+        public void ToString(){} // RVA: 0x7AE41B000
     }
 
-    public class ExceptionHelpers
+    public class ExceptionHelpers : Object
     {
         // ── Methods ──
-        public void UnwrapAndRethrow(){} // RVA: 0x665B400
+        public void UnwrapAndRethrow(){} // RVA: 0x7AE449EC0
     }
 
-    public class ExclusiveOrInstruction
+    public class ExclusiveOrInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6617A70
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x6617AB0
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE406580
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE4065C0
     }
 
 }

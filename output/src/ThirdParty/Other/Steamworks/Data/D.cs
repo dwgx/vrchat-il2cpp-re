@@ -1,57 +1,43 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Steamworks.Data
-// Classes: 6
+// Classes: 5
 // Methods: 10
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class DeleteItemResult_t
+    public class DeleteItemResult_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D1860
-        public void .cctor(){} // RVA: 0x20D1870
+        public void get_CallbackType(){} // RVA: 0x7A7726700
+        public void .cctor(){} // RVA: 0x7A9EE6110
     }
 
-    public class DlcInstalled_t
+    public class DlcInstalled_t : ValueType
     {
-        public Steamworks.AppId AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CE560
-        public void .cctor(){} // RVA: 0x20CE570
+        public void get_CallbackType(){} // RVA: 0x7A7725840
+        public void .cctor(){} // RVA: 0x7A9EE2E10
     }
 
-    public class DownloadClanActivityCountsResult_t
+    public class DownloadClanActivityCountsResult_t : ValueType
     {
-        public bool Success; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C8E50
-        public void .cctor(){} // RVA: 0x20C8E60
+        public void get_CallbackType(){} // RVA: 0x7A7720000
+        public void .cctor(){} // RVA: 0x7A9EDD700
     }
 
-    public class DownloadItemResult_t
+    public class DownloadItemResult_t : ValueType
     {
-        public Steamworks.AppId AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D0CB0
-        public void .cctor(){} // RVA: 0x20D0CC0
+        public void get_CallbackType(){} // RVA: 0x7A7726250
+        public void .cctor(){} // RVA: 0x7A9EE5560
     }
 
-    public class DurationControl
+    public class DurationControl_t : ValueType
     {
-    }
-
-    public class DurationControl_t
-    {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C7E60
-        public void .cctor(){} // RVA: 0x20C7E70
+        public void get_CallbackType(){} // RVA: 0x7A771F150
+        public void .cctor(){} // RVA: 0x7A9EDC710
     }
 
 }

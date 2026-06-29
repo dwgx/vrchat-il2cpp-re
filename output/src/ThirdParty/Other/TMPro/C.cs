@@ -1,50 +1,40 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.TMPro
-// Classes: 4
-// Methods: 18
+// Classes: 3
+// Methods: 17
 
 namespace ThirdParty.Other.TMPro
 {
-    public class CaretInfo
+    public class CaretInfo : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x8AE010
+        public void .ctor(){} // RVA: 0x7A7615330
     }
 
-    public class CodePoint
-    {
-    }
-
-    public class ColorTween
-    {
-        public ColorTweenCallback m_Target; // 0x10
-        public UnityEngine.Color m_StartColor; // 0x18
-        public UnityEngine.Color m_TargetColor; // 0x28
-        public 0x65935828 m_TweenMode; // 0x38
-        public float m_Duration; // 0x3C
-
-        // ── Methods ──
-        public void get_startColor(){} // RVA: 0x1F6F090
-        public void set_startColor(){} // RVA: 0x1F74E00
-        public void get_targetColor(){} // RVA: 0x994EE0
-        public void set_targetColor(){} // RVA: 0x9949A0
-        public void get_tweenMode(){} // RVA: 0x791DC0
-        public void set_tweenMode(){} // RVA: 0xA53440
-        public void get_duration(){} // RVA: 0x4652A0
-        public void set_duration(){} // RVA: 0x8CF4F0
-        public void get_ignoreTimeScale(){} // RVA: 0x303450
-        public void set_ignoreTimeScale(){} // RVA: 0x303460
-        public void TweenValue(){} // RVA: 0x6FA1E50
-        public void AddOnChangedCallback(){} // RVA: 0x6FA1F80
-        public void GetIgnoreTimescale(){} // RVA: 0x303450
-        public void GetDuration(){} // RVA: 0x4652A0
-        public void ValidTarget(){} // RVA: 0x1102770
-    }
-
-    public class Compute_DT_EventArgs
+    public class ColorTween : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CC5AF0 | overloaded x2
+        public void get_startColor(){} // RVA: 0x7A76B2030
+        public void set_startColor(){} // RVA: 0x7A76B6E30
+        public void get_targetColor(){} // RVA: 0x7A76D9A20
+        public void set_targetColor(){} // RVA: 0x7A7EC0480
+        public void get_tweenMode(){} // RVA: 0x7A765EE70
+        public void set_tweenMode(){} // RVA: 0x7A765EDE0
+        public void get_duration(){} // RVA: 0x7A7EC0490
+        public void set_duration(){} // RVA: 0x7A7EC04A0
+        public void get_ignoreTimeScale(){} // RVA: 0x7A7690A60
+        public void set_ignoreTimeScale(){} // RVA: 0x7A7690A80
+        public void TweenValue(){} // RVA: 0x7A7EC04B0
+        public void AddOnChangedCallback(){} // RVA: 0x7A7EC05E0
+        public void GetIgnoreTimescale(){} // RVA: 0x7A7690A60
+        public void GetDuration(){} // RVA: 0x7A7EC0490
+        public void ValidTarget(){} // RVA: 0x7A763CB50
+    }
+
+    public class Compute_DT_EventArgs : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9AC8120
     }
 
 }

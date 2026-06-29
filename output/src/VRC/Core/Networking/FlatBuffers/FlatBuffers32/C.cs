@@ -1,220 +1,210 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.FlatBuffers.FlatBuffers32
-// Classes: 13
-// Methods: 122
+// Classes: 14
+// Methods: 132
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers32
 {
-    public class Color
+    public class Color : ValueType
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_R(){} // RVA: 0x760EF40
-        public void get_G(){} // RVA: 0x76246A0
-        public void get_B(){} // RVA: 0x7624880
-        public void get_A(){} // RVA: 0x7624AE0
-        public void CreateColor(){} // RVA: 0x7625FC0
-        public void UnPack(){} // RVA: 0x76260A0
-        public void UnPackTo(){} // RVA: 0x7624CC0
-        public void Pack(){} // RVA: 0x7626170
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_R(){} // RVA: 0x7A7F16510
+        public void get_G(){} // RVA: 0x7A7F189C0
+        public void get_B(){} // RVA: 0x7A7F18A60
+        public void get_A(){} // RVA: 0x7A7F18B20
+        public void CreateColor(){} // RVA: 0x7AF404C20
+        public void UnPack(){} // RVA: 0x7A7F18EA0
+        public void UnPackTo(){} // RVA: 0x7A7F18B60
+        public void Pack(){} // RVA: 0x7AF404DD0
     }
 
-    public class Color32
+    public class Color32 : ValueType
     {
-        public Google.FlatBuffers32.Struct __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_R(){} // RVA: 0x76180E0
-        public void get_G(){} // RVA: 0x76261B0
-        public void get_B(){} // RVA: 0x76261E0
-        public void get_A(){} // RVA: 0x7626210
-        public void CreateColor32(){} // RVA: 0x7626240
-        public void UnPack(){} // RVA: 0x7626350
-        public void UnPackTo(){} // RVA: 0x7626410
-        public void Pack(){} // RVA: 0x76264A0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_R(){} // RVA: 0x7A7F17200
+        public void get_G(){} // RVA: 0x7A7F18FF0
+        public void get_B(){} // RVA: 0x7A7F19020
+        public void get_A(){} // RVA: 0x7A7F19050
+        public void CreateColor32(){} // RVA: 0x7AF404EA0
+        public void UnPack(){} // RVA: 0x7A7F19080
+        public void UnPackTo(){} // RVA: 0x7A7F19090
+        public void Pack(){} // RVA: 0x7AF405100
     }
 
-    public class Color32Array
+    public class Color32Array : ValueType
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsColor32Array(){} // RVA: 0x7607450 | overloaded x2
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Value(){} // RVA: 0x7637AA0
-        public void get_ValueLength(){} // RVA: 0x760F6F0
-        public void CreateColor32Array(){} // RVA: 0x7637BF0
-        public void StartColor32Array(){} // RVA: 0x760F310
-        public void AddValue(){} // RVA: 0x760F330
-        public void StartValueVector(){} // RVA: 0x7637C70
-        public void EndColor32Array(){} // RVA: 0x7637CA0
-        public void UnPack(){} // RVA: 0x7637CF0
-        public void UnPackTo(){} // RVA: 0x7637DA0
-        public void Pack(){} // RVA: 0x7637FB0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsColor32Array(){} // RVA: 0x7AF3E5C00
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Value(){} // RVA: 0x7A7F1A2D0
+        public void get_ValueLength(){} // RVA: 0x7A7F166F0
+        public void CreateColor32Array(){} // RVA: 0x7AF416AC0
+        public void StartColor32Array(){} // RVA: 0x7AF3EDBF0
+        public void AddValue(){} // RVA: 0x7AF3EDC10
+        public void StartValueVector(){} // RVA: 0x7AF416B40
+        public void EndColor32Array(){} // RVA: 0x7AF416B70
+        public void UnPack(){} // RVA: 0x7A7F1A300
+        public void UnPackTo(){} // RVA: 0x7A7F1A310
+        public void Pack(){} // RVA: 0x7AF416E80
     }
 
-    public class Color32ArrayT
+    public class Color32ArrayT : Object
     {
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.Color32T> <Value>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x2F8380
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x574FB20
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void set_Value(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AD51EC30
     }
 
-    public class Color32ArrayVerify
+    public class Color32ArrayVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x761FDD0
+        public void Verify(){} // RVA: 0x7AF3FE930
     }
 
-    public class Color32T
+    public class Color32T : Object
     {
-        public byte ByteBuffer; // 0x10
-        public byte <G>k__BackingField; // 0x11
-        public byte <B>k__BackingField; // 0x12
-        public byte <A>k__BackingField; // 0x13
-
         // ── Methods ──
-        public void get_R(){} // RVA: 0x3A75E0
-        public void set_R(){} // RVA: 0x3A75F0
-        public void get_G(){} // RVA: 0x543460
-        public void set_G(){} // RVA: 0x543470
-        public void get_B(){} // RVA: 0x195A940
-        public void set_B(){} // RVA: 0x195A9A0
-        public void get_A(){} // RVA: 0x195A9E0
-        public void set_A(){} // RVA: 0x195A9B0
-        public void .ctor(){} // RVA: 0xA5D070
+        public void get_R(){} // RVA: 0x7A81A2200
+        public void set_R(){} // RVA: 0x7A81A2210
+        public void get_G(){} // RVA: 0x7A82FBFB0
+        public void set_G(){} // RVA: 0x7A82FBFC0
+        public void get_B(){} // RVA: 0x7A9716B70
+        public void set_B(){} // RVA: 0x7A9716BD0
+        public void get_A(){} // RVA: 0x7A9716C10
+        public void set_A(){} // RVA: 0x7A9716BE0
+        public void .ctor(){} // RVA: 0x7A881ACE0
     }
 
-    public class ColorArray
+    public class ColorArray : ValueType
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsColorArray(){} // RVA: 0x7607450 | overloaded x2
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Value(){} // RVA: 0x76373D0
-        public void get_ValueLength(){} // RVA: 0x760F6F0
-        public void CreateColorArray(){} // RVA: 0x7637520
-        public void StartColorArray(){} // RVA: 0x760F310
-        public void AddValue(){} // RVA: 0x760F330
-        public void StartValueVector(){} // RVA: 0x7636760
-        public void EndColorArray(){} // RVA: 0x76375A0
-        public void UnPack(){} // RVA: 0x76375F0
-        public void UnPackTo(){} // RVA: 0x76376A0
-        public void Pack(){} // RVA: 0x76378B0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsColorArray(){} // RVA: 0x7AF3E5C00
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Value(){} // RVA: 0x7A7F1A280
+        public void get_ValueLength(){} // RVA: 0x7A7F166F0
+        public void CreateColorArray(){} // RVA: 0x7AF4163C0
+        public void StartColorArray(){} // RVA: 0x7AF3EDBF0
+        public void AddValue(){} // RVA: 0x7AF3EDC10
+        public void StartValueVector(){} // RVA: 0x7AF4155A0
+        public void EndColorArray(){} // RVA: 0x7AF416440
+        public void UnPack(){} // RVA: 0x7A7F1A2B0
+        public void UnPackTo(){} // RVA: 0x7A7F1A2C0
+        public void Pack(){} // RVA: 0x7AF416750
     }
 
-    public class ColorArrayT
+    public class ColorArrayT : Object
     {
-        public System.Collections.Generic.List`1<VRC.Core.Networking.FlatBuffers.FlatBuffers32.ColorT> <Value>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Value(){} // RVA: 0x2F8380
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x574FB20
+        public void get_Value(){} // RVA: 0x7A80F2570
+        public void set_Value(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AD51EC30
     }
 
-    public class ColorArrayVerify
+    public class ColorArrayVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7636C90
+        public void Verify(){} // RVA: 0x7AF415AF0
     }
 
-    public class ColorT
+    public class ColorT : Object
     {
-        public float ByteBuffer; // 0x10
-        public float R; // 0x14
-        public float G; // 0x18
-        public float B; // 0x1C
-
         // ── Methods ──
-        public void get_R(){} // RVA: 0x407320
-        public void set_R(){} // RVA: 0x407330
-        public void get_G(){} // RVA: 0x407340
-        public void set_G(){} // RVA: 0x407350
-        public void get_B(){} // RVA: 0x2E1CF0
-        public void set_B(){} // RVA: 0x2F84D0
-        public void get_A(){} // RVA: 0x3AA570
-        public void set_A(){} // RVA: 0x3AA580
-        public void .ctor(){} // RVA: 0x75DF4A0
+        public void get_R(){} // RVA: 0x7A82023C0
+        public void set_R(){} // RVA: 0x7A82023D0
+        public void get_G(){} // RVA: 0x7A82023E0
+        public void set_G(){} // RVA: 0x7A82023F0
+        public void get_B(){} // RVA: 0x7A80DBCE0
+        public void set_B(){} // RVA: 0x7A80F26C0
+        public void get_A(){} // RVA: 0x7A81A5180
+        public void set_A(){} // RVA: 0x7A81A5190
+        public void .ctor(){} // RVA: 0x7AF3BDA20
     }
 
-    public class ComponentInfo
+    public class ComponentInfo : ValueType
     {
-        public Google.FlatBuffers32.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsComponentInfo(){} // RVA: 0x7607450 | overloaded x2
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void get_TypeId(){} // RVA: 0x7613160
-        public void get_UniqueHash(){} // RVA: 0x76131B0
-        public void Hashes(){} // RVA: 0x7613200
-        public void get_HashesLength(){} // RVA: 0x760AFB0
-        public void GetHashesBytes(){} // RVA: 0x7613280
-        public void GetHashesArray(){} // RVA: 0x76132F0
-        public void get_GameObjectHash(){} // RVA: 0x7613340
-        public void get_UdonInfo(){} // RVA: 0x7613390
-        public void CreateComponentInfo(){} // RVA: 0x76134C0
-        public void StartComponentInfo(){} // RVA: 0x7613670
-        public void AddTypeId(){} // RVA: 0x7613690
-        public void AddUniqueHash(){} // RVA: 0x7613700
-        public void AddHashes(){} // RVA: 0x760B900
-        public void CreateHashesVector(){} // RVA: 0x7613770
-        public void CreateHashesVectorBlock(){} // RVA: 0x7613A00 | overloaded x3
-        public void StartHashesVector(){} // RVA: 0x76081F0
-        public void AddGameObjectHash(){} // RVA: 0x7613AC0
-        public void AddUdonInfo(){} // RVA: 0x7608220
-        public void EndComponentInfo(){} // RVA: 0x7613B30
-        public void UnPack(){} // RVA: 0x7613B80
-        public void UnPackTo(){} // RVA: 0x7613BF0
-        public void Pack(){} // RVA: 0x7614000
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsComponentInfo(){} // RVA: 0x7AF3E5C00
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void get_TypeId(){} // RVA: 0x7A7F16B80
+        public void get_UniqueHash(){} // RVA: 0x7A7F16BD0
+        public void Hashes(){} // RVA: 0x7A7F16C20
+        public void get_HashesLength(){} // RVA: 0x7A7F15EB0
+        public void GetHashesBytes(){} // RVA: 0x7A7F16C30
+        public void GetHashesArray(){} // RVA: 0x7A7F16CA0
+        public void get_GameObjectHash(){} // RVA: 0x7A7F16CF0
+        public void get_UdonInfo(){} // RVA: 0x7A7F16D40
+        public void CreateComponentInfo(){} // RVA: 0x7AF3F1E90
+        public void StartComponentInfo(){} // RVA: 0x7AF3F2040
+        public void AddTypeId(){} // RVA: 0x7AF3F2060
+        public void AddUniqueHash(){} // RVA: 0x7AF3F20D0
+        public void AddHashes(){} // RVA: 0x7AF3EA160
+        public void CreateHashesVector(){} // RVA: 0x7AF3F2140
+        public void CreateHashesVectorBlock(){} // RVA: 0x7AF3F23F0
+        public void StartHashesVector(){} // RVA: 0x7AF3E69C0
+        public void AddGameObjectHash(){} // RVA: 0x7AF3F24B0
+        public void AddUdonInfo(){} // RVA: 0x7AF3E69F0
+        public void EndComponentInfo(){} // RVA: 0x7AF3F2520
+        public void UnPack(){} // RVA: 0x7A7F16D70
+        public void UnPackTo(){} // RVA: 0x7A7F16D80
+        public void Pack(){} // RVA: 0x7AF3F29F0
     }
 
-    public class ComponentInfoT
+    public class ComponentInfoT : Object
     {
-        public int <TypeId>k__BackingField; // 0x10
-        public int <UniqueHash>k__BackingField; // 0x14
-        public System.Collections.Generic.List`1<int> <Hashes>k__BackingField; // 0x18
-        public int <GameObjectHash>k__BackingField; // 0x20
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.UdonInfoT <UdonInfo>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void get_TypeId(){} // RVA: 0x32A5C0
-        public void set_TypeId(){} // RVA: 0x2E00C0
-        public void get_UniqueHash(){} // RVA: 0x8ABED0
-        public void set_UniqueHash(){} // RVA: 0x8AC660
-        public void get_Hashes(){} // RVA: 0x2E07C0
-        public void set_Hashes(){} // RVA: 0x343E80
-        public void get_GameObjectHash(){} // RVA: 0x760030
-        public void set_GameObjectHash(){} // RVA: 0x99E0D0
-        public void get_UdonInfo(){} // RVA: 0x30B130
-        public void set_UdonInfo(){} // RVA: 0x2DEE90
-        public void .ctor(){} // RVA: 0x76141A0
+        public void get_TypeId(){} // RVA: 0x7A8124910
+        public void set_TypeId(){} // RVA: 0x7A80DA0C0
+        public void get_UniqueHash(){} // RVA: 0x7A8668BC0
+        public void set_UniqueHash(){} // RVA: 0x7A8669360
+        public void get_Hashes(){} // RVA: 0x7A80DA7B0
+        public void set_Hashes(){} // RVA: 0x7A813E420
+        public void get_GameObjectHash(){} // RVA: 0x7A851DB90
+        public void set_GameObjectHash(){} // RVA: 0x7A8738180
+        public void get_UdonInfo(){} // RVA: 0x7A8105330
+        public void set_UdonInfo(){} // RVA: 0x7A80D8E80
+        public void .ctor(){} // RVA: 0x7AF3F2BA0
     }
 
-    public class ComponentInfoVerify
+    public class ComponentInfoT[] : Array
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x7614260
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class ComponentInfoVerify : Object
+    {
+        // ── Methods ──
+        public void Verify(){} // RVA: 0x7AF3F2C60
     }
 
 }

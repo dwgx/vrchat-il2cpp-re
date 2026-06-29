@@ -5,16 +5,16 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class Team
+    public class Team : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F3020
+        public void .ctor(){} // RVA: 0x7ADEDF300
     }
 
-    public class TeamList
+    public class TeamList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F3320
+        public void .ctor(){} // RVA: 0x7ADEDF600
     }
 
 }

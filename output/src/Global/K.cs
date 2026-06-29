@@ -1,857 +1,931 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 323
+// Methods: 427
 
-public class Kernel
+public class KeyCollection : Object
 {
     // ── Methods ──
-    public void AddSameSign(){} // RVA: 0x5BECEB0
-    public void Subtract(){} // RVA: 0x5BED0D0
-    public void MinusEq(){} // RVA: 0x5BED2C0
-    public void PlusEq(){} // RVA: 0x5BED3E0
-    public void Compare(){} // RVA: 0x5BED5B0
-    public void SingleByteDivideInPlace(){} // RVA: 0x5BED700
-    public void DwordMod(){} // RVA: 0x5BEA7C0
-    public void DwordDivMod(){} // RVA: 0x5BED7B0
-    public void multiByteDivide(){} // RVA: 0x5BED9E0
-    public void LeftShift(){} // RVA: 0x5BEE170
-    public void RightShift(){} // RVA: 0x5BEE470
-    public void Multiply(){} // RVA: 0x5BEE690
-    public void MultiplyMod2p32pmod(){} // RVA: 0x5BEE7B0
-    public void modInverse(){} // RVA: 0x5BEEA20 | overloaded x2
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class Kernel
+public class KeyCollection : Object
 {
     // ── Methods ──
-    public void AddSameSign(){} // RVA: 0x5C1B8F0
-    public void Subtract(){} // RVA: 0x5C1BB10
-    public void MinusEq(){} // RVA: 0x5BED2C0
-    public void PlusEq(){} // RVA: 0x5BED3E0
-    public void Compare(){} // RVA: 0x5BED5B0
-    public void SingleByteDivideInPlace(){} // RVA: 0x5BED700
-    public void DwordMod(){} // RVA: 0x5BEA7C0
-    public void DwordDivMod(){} // RVA: 0x5C1BD00
-    public void multiByteDivide(){} // RVA: 0x5C1BF30
-    public void LeftShift(){} // RVA: 0x5C1C6C0
-    public void RightShift(){} // RVA: 0x5C1C9C0
-    public void MultiplyByDword(){} // RVA: 0x5C1CBE0
-    public void Multiply(){} // RVA: 0x5BEE690
-    public void MultiplyMod2p32pmod(){} // RVA: 0x5BEE7B0
-    public void modInverse(){} // RVA: 0x5C1CE60 | overloaded x2
+    public void .ctor(){} // RVA: 0x7AB58AC20
 }
 
-public class Kernel32
+public class KeyCollection : Object
 {
     // ── Methods ──
-    public void CopyFileUWP(){} // RVA: 0x5BF0280
-    public void CopyFile(){} // RVA: 0x5BF04A0
-    public void DeleteVolumeMountPointPrivate(){} // RVA: 0x5BF0690
-    public void DeleteVolumeMountPoint(){} // RVA: 0x5BF0730
-    public void FreeLibrary(){} // RVA: 0x5BF0850
-    public void LoadLibraryEx(){} // RVA: 0x5BF08E0
-    public void GetFileMUIPath(){} // RVA: 0x5BF0A00
-    public void GetDynamicTimeZoneInformation(){} // RVA: 0x5BF0BA0
-    public void GetTimeZoneInformation(){} // RVA: 0x5BF0C30
-    public void CloseHandle(){} // RVA: 0x5BF0CC0
-    public void CopyFile2(){} // RVA: 0x5BF0D50
-    public void CopyFileExPrivate(){} // RVA: 0x5BF0E00
-    public void CopyFileEx(){} // RVA: 0x5BF0EF0
-    public void CreateDirectoryPrivate(){} // RVA: 0x5BF1040
-    public void CreateDirectory(){} // RVA: 0x5BF10F0
-    public void CreateFilePrivate(){} // RVA: 0x5BF11E0
-    public void CreateFile(){} // RVA: 0x5BF12D0
-    public void CreateFile_IntPtr(){} // RVA: 0x5BF13C0
-    public void DeleteFilePrivate(){} // RVA: 0x5BF14F0
-    public void DeleteFile(){} // RVA: 0x5BF1590
-    public void FindFirstFileExPrivate(){} // RVA: 0x5BF1670
-    public void FindFirstFile(){} // RVA: 0x5BF17C0
-    public void FindNextFile(){} // RVA: 0x5BF1920
-    public void FormatMessage(){} // RVA: 0x5BF1A10
-    public void GetMessage(){} // RVA: 0x5BF1B10 | overloaded x2
-    public void TryGetErrorMessage(){} // RVA: 0x5BF1D10
-    public void GetFileAttributesExPrivate(){} // RVA: 0x5BF20B0
-    public void GetFileAttributesEx(){} // RVA: 0x5BF2170
-    public void GetFileInformationByHandleEx(){} // RVA: 0x5BF2270
-    public void MoveFileExPrivate(){} // RVA: 0x5BF2330
-    public void MoveFile(){} // RVA: 0x5BF23F0
-    public void RemoveDirectoryPrivate(){} // RVA: 0x5BF2500
-    public void RemoveDirectory(){} // RVA: 0x5BF25A0
-    public void SetFileAttributesPrivate(){} // RVA: 0x5BF2680
-    public void SetFileAttributes(){} // RVA: 0x5BF2730
-    public void SetFileInformationByHandle(){} // RVA: 0x5BF2820
-    public void SetFileTime(){} // RVA: 0x5BF2920
-    public void SetThreadErrorMode(){} // RVA: 0x5BF2A50
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class Kernel32
+public class KeyCollection : Object
 {
     // ── Methods ──
-    public void ReadFile(){} // RVA: 0x62D2BE0
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_IsReadOnly(){} // RVA: 0x7A7E01900
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void Add(){} // RVA: 0x7A7E18800
+    public void Clear(){} // RVA: 0x7A7E18770
+    public void Contains(){} // RVA: 0x7A7E019D0
+    public void CopyTo(){} // RVA: 0x7A7E1D590
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.Generic.ICollection<System.String>.Remove(){} // RVA: 0x7A7E019D0
 }
 
-public class Kernel32
+public class KeyCollection : Object
 {
     // ── Methods ──
-    public void CancelIoEx(){} // RVA: 0x659E330
-    public void CloseHandle(){} // RVA: 0x659E420
-    public void ConnectNamedPipe(){} // RVA: 0x659E5A0 | overloaded x2
-    public void CreateNamedPipe(){} // RVA: 0x659E690
-    public void CreateNamedPipeClient(){} // RVA: 0x659E7F0
-    public void DisconnectNamedPipe(){} // RVA: 0x659E950
-    public void ReadFile(){} // RVA: 0x659EB10 | overloaded x2
-    public void WaitNamedPipe(){} // RVA: 0x659EC20
-    public void WriteFile(){} // RVA: 0x659EDE0 | overloaded x2
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_IsReadOnly(){} // RVA: 0x7A7E01900
+    public void get_Item(){} // RVA: 0x7A7E00740
+    public void set_Item(){} // RVA: 0x7A7E19BE0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void Add(){} // RVA: 0x7A7E18800
+    public void Clear(){} // RVA: 0x7A7E18770
+    public void Contains(){} // RVA: 0x7A7E019D0
+    public void CopyTo(){} // RVA: 0x7A7E1D590
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.Generic.ICollection<System.String>.Remove(){} // RVA: 0x7A7E019D0
+    public void IndexOf(){} // RVA: 0x7A7E01630
+    public void Insert(){} // RVA: 0x7A7E19BE0
+    public void RemoveAt(){} // RVA: 0x7A7E189D0
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<ÎÌÍÎÌÌÏÏÏÏÌÏÌÍÍÍÎÌÍÌÌÎÎ,ÌÎÏÎÍÌÌÌÎÏÎÌÏÎÍÎÌÏÍÏÏÍÍ> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Action`2<object,TMPro.Compute_DT_EventArgs>,System.Collections.Generic.LinkedListNode`1<System.Action`2<object,TMPro.Compute_DT_EventArgs>>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Action`2<bool,UnityEngine.Material>,System.Collections.Generic.LinkedListNode`1<System.Action`2<bool,UnityEngine.Material>>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Action`2<bool,UnityEngine.Object>,System.Collections.Generic.LinkedListNode`1<System.Action`2<bool,UnityEngine.Object>>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Action`3<UnityEngine.GameObject,UnityEngine.Material,UnityEngine.Material>,System.Collections.Generic.LinkedListNode`1<System.Action`3<UnityEngine.GameObject,UnityEngine.Material,UnityEngine.Material>>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Action`1<bool>,System.Collections.Generic.LinkedListNode`1<System.Action`1<bool>>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Action`1<UnityEngine.Object>,System.Collections.Generic.LinkedListNode`1<System.Action`1<UnityEngine.Object>>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.SortedDictionary`2<U,T> _dictionary;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0xCD60
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
-    public void CopyTo(){} // RVA: 0x2BAA0
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x2BAA0
-    public void get_Count(){} // RVA: 0xD840
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xDBE0
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x283FA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x24A50
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x283FA0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x283FA0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xDBE0
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0xCD60
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void GetEnumerator(){} // RVA: 0x7A8051B10
+    public void CopyTo(){} // RVA: 0x7A7E1D590
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A7E01900
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7A8051B10
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7A7E18770
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7A8051B10
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7A8051B10
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7A7E1D590
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A7E01900
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7A7E00680
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Text.Json.JsonPropertyDictionary`1<T> _parent;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void get_Count(){} // RVA: 0xD840
-    public void get_IsReadOnly(){} // RVA: 0xDBE0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
-    public void Add(){} // RVA: 0x24B10
-    public void Clear(){} // RVA: 0x24A50
-    public void Contains(){} // RVA: 0xDE40
-    public void CopyTo(){} // RVA: 0x2BAA0
-    public void GetEnumerator(){} // RVA: 0xCD60
-    public void System.Collections.Generic.ICollection<System.String>.Remove(){} // RVA: 0xDE40
+    public void .ctor(){} // RVA: 0x7A7E18770
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7A8051B10
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7A7E18770
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7A8051B10
+    public void CopyTo(){} // RVA: 0x7A7E1D590
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A7E01900
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7A8051B10
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7A7E1D590
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A7E01900
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7A7E00680
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Text.Json.JsonPropertyDictionary`1<T> _parent;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void get_Count(){} // RVA: 0xD840
-    public void get_IsReadOnly(){} // RVA: 0xDBE0
-    public void get_Item(){} // RVA: 0x1BCC0
-    public void set_Item(){} // RVA: 0x26C40
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
-    public void Add(){} // RVA: 0x24B10
-    public void Clear(){} // RVA: 0x24A50
-    public void Contains(){} // RVA: 0xDE40
-    public void CopyTo(){} // RVA: 0x2BAA0
-    public void GetEnumerator(){} // RVA: 0xCD60
-    public void System.Collections.Generic.ICollection<System.String>.Remove(){} // RVA: 0xDE40
-    public void IndexOf(){} // RVA: 0x12590
-    public void Insert(){} // RVA: 0x26C40
-    public void RemoveAt(){} // RVA: 0x24FA0
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void CopyTo(){} // RVA: 0x7A7E1D590
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7A7E1D590
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A7E01900
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7A8051B10
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7A7E18770
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7A8051B10
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7A8051B10
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A7E01900
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7A7E00680
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<U,T> _dictionary;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void GetEnumerator(){} // RVA: 0x283FA0
-    public void CopyTo(){} // RVA: 0x2BAA0
-    public void get_Count(){} // RVA: 0xD840
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xDBE0
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x283FA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x24A50
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x283FA0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x283FA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0xCD60
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x2BAA0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xDBE0
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0xCD60
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.ICollection`1<U> _collection;
-    public object _syncRoot;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24A50 | overloaded x2
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x283FA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x24A50
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x283FA0
-    public void CopyTo(){} // RVA: 0x2BAA0
-    public void get_Count(){} // RVA: 0xD840
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0xDBE0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x283FA0
-    public void GetEnumerator(){} // RVA: 0xCD60
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x2BAA0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xDBE0
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0xCD60
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<string,System.LocalDataStoreSlot> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.IDictionary`2<int,int>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,UnityEngine.InputSystem.InputDevice> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.ISubsystem> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,System.Type> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString[]> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,PrecompiledLayout> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x3794BE0
-    public void CopyTo(){} // RVA: 0x37A5130
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A5240
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x3794E10
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3794E10
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37A59A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37A5CB0
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,string> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.Utilities.InternedString,System.Func`1<UnityEngine.InputSystem.Layouts.InputControlLayout>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<object,object> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x37966C0
-    public void CopyTo(){} // RVA: 0x37A71E0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A72E0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37AC2A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37AC4E0
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<CachedCodeEntryKey,CachedCodeEntry> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Hashtable _hashtable; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void CopyTo(){} // RVA: 0x5E0CC90
-    public void GetEnumerator(){} // RVA: 0x5E0CEC0
-    public void get_IsSynchronized(){} // RVA: 0x5C38BA0
-    public void get_SyncRoot(){} // RVA: 0x5E0CF90
-    public void get_Count(){} // RVA: 0xF3F910
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<string,int> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x37966C0
-    public void CopyTo(){} // RVA: 0x37A71E0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A72E0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37AB4D0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37AB780
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<string,string> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x37966C0
-    public void CopyTo(){} // RVA: 0x37A71E0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A72E0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37AC2A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37AC4E0
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB580CF0
+    public void CopyTo(){} // RVA: 0x7AB591820
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB591960
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB580F50
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB580F50
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB5920E0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB592400
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<ulong,SingleAnchorDelegatePair> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<ulong,System.Action`2<UnboundAnchor,bool>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Guid,OVRSpatialAnchor> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<ulong,OVRSpatialAnchor> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<ulong,System.Action`1<...[]>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<0x65895580,0x65895268> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<0x65895580,bool> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Type,AttributeInfo> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,System.Globalization.ISimpleCollator> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,System.Globalization.CultureInfo> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,System.Globalization.CultureInfo> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,Unity.Services.Core.Internal.IServiceComponent> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<int>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,int> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x379B270
-    public void CopyTo(){} // RVA: 0x379BFE0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x379C0C0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x379B430
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x379B430
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x379D820
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x379DB10
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<int,Unity.Services.Core.Internal.IInitializablePackage> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,object> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Type,Unity.Services.Core.Telemetry.Internal.IMetrics> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,System.Threading.Tasks.Task> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,System.TimeZoneInfo> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,0x657DD8B8> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceCacheKey,object> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ServiceDescriptorCacheItem> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceIdentifier,ChainItemInfo> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,float> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,CategoryPrefix> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,EndpointAccessEntry> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,BestHTTP.HTTPRequest> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<0x657CFBB0,string> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<0x657CFBB0,int> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,System.Action`1<UnityEngine.Texture>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,ÎÌÌÌÌÏÌÍÎÏÎÌÎÎÍÎÍÏÌÎÏÌÌ> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,object> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x37966C0
-    public void CopyTo(){} // RVA: 0x37A71E0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A72E0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37AC2A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37AC4E0
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<int,0x65885B98> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.SortedDictionary`2<0x65885B98,ÎÌÎÏÌÎÎÎÌÍÏÎÎÌÍÍÎÌÎÏÍÎÍ> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<ÏÍÏÎÎÎÏÍÌÍÎÎÌÎÏÌÏÌÌÎÎÏÎ,UnityEngine.Sprite> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Type,0x658E2370> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Type,System.AttributeUsageAttribute> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,Newtonsoft.Json.Serialization.JsonProperty> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Type,0x658E0CC0> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ,System.Collections.Generic.List`1<ÌÏÏÏÎÎÍÌÍÏÏÌÏÍÎÏÍÌÌÌÌÎÎ>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<UnityEngine.Material,bool> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,Token> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,System.Collections.Generic.List`1<BestHTTP.ConnectionBase>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<ulong,BestHTTP.Caching.HTTPCacheFileInfo> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Uri,BestHTTP.Caching.HTTPCacheFileInfo> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,UnityEngine.Touch> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x379B270
-    public void CopyTo(){} // RVA: 0x379F950
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x379FA40
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x379B430
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x379B430
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x379FA90
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x379FD90
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598BC0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598E00
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<string,CacheEntry> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,ÎÍÏÎÏÎÎÏÍÎÏÏÎÌÎÎÌÍÏÌÎÏÍ> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x37966C0
-    public void CopyTo(){} // RVA: 0x37A71E0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A72E0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37AC2A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37AC4E0
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<int,System.Text.Encoding> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,System.Collections.Generic.List`1<VRC.Dynamics.VRCConstraintBase>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.SortedDictionary`2<int,VRC.Dynamics.VRCConstraintGroup> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,byte[]> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<ulong,ResultCallback> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<0x659B0DA0,System.Collections.Generic.List`1<Callback>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,Steamworks.Data.InputDigitalActionHandle_t> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,Steamworks.Data.InputAnalogActionHandle_t> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<string,Steamworks.Data.InputActionSetHandle_t> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<uint,Steamworks.SocketManager> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<uint,Steamworks.ConnectionManager> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<0x6588F750,ÌÌÌÏÌÍÍÎÎÍÏÌÍÏÏÍÍÌÌÍÎÎÍ> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x379B270
-    public void CopyTo(){} // RVA: 0x379DEA0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A1E00
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x379B430
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x379B430
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37A1E50
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37A2140
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB597DB0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598070
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<string,0x6588F750> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x37966C0
-    public void CopyTo(){} // RVA: 0x37A71E0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A72E0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37AB9A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37ABC50
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598BC0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598E00
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<0x6588E360,System.Collections.Generic.Dictionary`2<0x6588F750,ÌÌÌÏÌÍÍÎÎÍÏÌÍÏÏÍÍÌÌÍÎÎÍ>> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<int,Unity.Profiling.ProfilerMarker> _dictionary; // 0x10
-}
-
-public class KeyCollection
-{
-    public System.Collections.Generic.Dictionary`2<System.Type,Photon.Client.StructWrapping.StructWrapperPool> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x37966C0
-    public void CopyTo(){} // RVA: 0x37A71E0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x37A72E0
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x3796880
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37AC2A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x37AC4E0
+    public void .ctor(){} // RVA: 0x7AB580C80
 }
 
-public class KeyCollection
+public class KeyCollection : Object
 {
-    public System.Collections.Generic.Dictionary`2<byte,int> _dictionary; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3794B70
-    public void GetEnumerator(){} // RVA: 0x3797120
-    public void CopyTo(){} // RVA: 0x37971B0
-    public void get_Count(){} // RVA: 0x3794D80
-    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x3C2850
-    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x3797290
-    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x3794DA0
-    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x37972E0
-    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x37972E0
-    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x37973A0
-    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x3797690
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5876A0
+    public void CopyTo(){} // RVA: 0x7AB588470
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB588580
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB589DA0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB58A0A0
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598BC0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598E00
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598BC0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598E00
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB58AC20
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void GetEnumerator(){} // RVA: 0x7AB5876A0
+    public void CopyTo(){} // RVA: 0x7AB58A440
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB5A4750
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB5A47A0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB5A4A90
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB59AA70
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB59AD30
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598BC0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598E00
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598BC0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598E00
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5876A0
+    public void CopyTo(){} // RVA: 0x7AB58A440
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB58A550
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB58A8E0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB58ABD0
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598BC0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598E00
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5876A0
+    public void CopyTo(){} // RVA: 0x7AB58A440
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB5A0FE0
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB5A1030
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB5A1320
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598BC0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598E00
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void GetEnumerator(){} // RVA: 0x7AB5876A0
+    public void CopyTo(){} // RVA: 0x7AB58A440
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB5A4750
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB5A47A0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB5A4A90
+    public void .ctor(){} // RVA: 0x7AB580C80
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5876A0
+    public void CopyTo(){} // RVA: 0x7AB58A440
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB5A4750
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB587890
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB5A47A0
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB5A4A90
+}
+
+public class KeyCollection : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB580C80
+    public void GetEnumerator(){} // RVA: 0x7AB5828C0
+    public void CopyTo(){} // RVA: 0x7AB593980
+    public void get_Count(){} // RVA: 0x7AB580EC0
+    public void System.Collections.Generic.ICollection<TKey>.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection<TKey>.Add(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Clear(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.ICollection<TKey>.Contains(){} // RVA: 0x7AB593A90
+    public void System.Collections.Generic.ICollection<TKey>.Remove(){} // RVA: 0x7AB580EE0
+    public void System.Collections.Generic.IEnumerable<TKey>.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7AB582AB0
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7AB598290
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7AB598550
+}
+
+public class KeyComparer`1 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18770
+    public void Compare(){} // RVA: 0x7A8051B10
+    public void .cctor(){} // RVA: 0x7A7E187D0
+}
+
+public class KeyEnumerator : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void get_Current(){} // RVA: 0x7A8051B10
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Reset(){} // RVA: 0x7A7E18770
+}
+
+public class KeyIterator : ValueType
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void GetEnumerator(){} // RVA: 0x7A8051B10
+    public void Reset(){} // RVA: 0x7A7E18770
+    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x7A7E00680
+    public void get_Current(){} // RVA: 0x7A8051B10
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Dispose(){} // RVA: 0x7A7E18770
+}
+
+public class KeyList : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void get_Count(){} // RVA: 0x7A7E00710
+    public void get_IsReadOnly(){} // RVA: 0x7A7E01900
+    public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A7E01900
+    public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7A7E00680
+    public void Add(){} // RVA: 0x7A8051B10
+    public void Clear(){} // RVA: 0x7A7E18770
+    public void Contains(){} // RVA: 0x7A8051B10
+    public void CopyTo(){} // RVA: 0x7A7E1D590
+    public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7A7E1D590
+    public void Insert(){} // RVA: 0x7A8051B10
+    public void get_Item(){} // RVA: 0x7A8051B10
+    public void set_Item(){} // RVA: 0x7A8051B10
+    public void GetEnumerator(){} // RVA: 0x7A7E00680
+    public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+    public void IndexOf(){} // RVA: 0x7A8051B10
+    public void Remove(){} // RVA: 0x7A8051B10
+    public void RemoveAt(){} // RVA: 0x7A7E189D0
+}
+
+public class KeyValuePairComparer : Comparer`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB5AE6A0
+    public void Compare(){} // RVA: 0x7AB5AE630
+}
+
+public class KeyValuePairComparer : Comparer`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void Compare(){} // RVA: 0x7A8051B10
+}
+
+public class KeyValuePairComparer : Comparer`1
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB5AE550
+    public void Compare(){} // RVA: 0x7AB5AE630
+}
+
+public class KeyValuePairProperty : Property`2
+{
+    // ── Methods ──
+    public void get_Name(){} // RVA: 0x7A7E00680
+    public void get_Key(){} // RVA: 0x7A8051B10
+    public void .ctor(){} // RVA: 0x7A7E18770
 }

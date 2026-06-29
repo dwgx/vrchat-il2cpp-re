@@ -1,21 +1,18 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cms.Ecc
 // Classes: 1
-// Methods: 7
+// Methods: 5
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cms.Ecc
 {
-    public class MQVuserKeyingMaterial
+    public class MQVuserKeyingMaterial : Asn1Encodable
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Cms.OriginatorPublicKey ephemeralPublicKey; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Asn1OctetString addedukm; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x97E3C00 | overloaded x2
-        public void GetInstance(){} // RVA: 0x97E3E30 | overloaded x2
-        public void get_EphemeralPublicKey(){} // RVA: 0x2F8380
-        public void get_AddedUkm(){} // RVA: 0x2E07C0
-        public void ToAsn1Object(){} // RVA: 0x97E3FF0
+        public void .ctor(){} // RVA: 0x7B161DFA0
+        public void GetInstance(){} // RVA: 0x7B161E1D0
+        public void get_EphemeralPublicKey(){} // RVA: 0x7A80F2570
+        public void get_AddedUkm(){} // RVA: 0x7A80DA7B0
+        public void ToAsn1Object(){} // RVA: 0x7B161E390
     }
 
 }

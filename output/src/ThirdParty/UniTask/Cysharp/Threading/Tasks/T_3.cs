@@ -1,860 +1,887 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks
-// Classes: 87
-// Methods: 347
+// Classes: 100
+// Methods: 379
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
-
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskPool`1
+    public class TaskPool`1 : ValueType
     {
-        public int gate; // 0x10
+        // ── Methods ──
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
+    }
 
+    public class TaskPool`1 : ValueType
+    {
         // ── Methods ──
-        public void get_Size(){} // RVA: 0x19689E0
-        public void TryPop(){} // RVA: 0x3E04090
-        public void TryPush(){} // RVA: 0x41DEC80
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TaskTracker
+    public class TaskPool`1 : ValueType
     {
         // ── Methods ──
-        public void TrackActiveTask(){} // RVA: 0x2DD310
-        public void RemoveTracking(){} // RVA: 0x2DD310
-        public void CheckAndResetDirty(){} // RVA: 0x6CE70D0
-        public void ForEachActiveTask(){} // RVA: 0x6CE7130
-        public void TypeBeautify(){} // RVA: 0x6CE7790
-        public void .cctor(){} // RVA: 0x6CE7AA0
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TextMeshProAsyncExtensions
+    public class TaskPool`1 : ValueType
     {
         // ── Methods ──
-        public void BindTo(){} // RVA: 0x2DDE0 | overloaded x5
-        public void BindToCore(){} // RVA: 0x283FA0 | overloaded x2
-        public void GetAsyncValueChangedEventHandler(){} // RVA: 0x6D2C9C0 | overloaded x2
-        public void OnValueChangedAsync(){} // RVA: 0x6D2CB50 | overloaded x2
-        public void OnValueChangedAsAsyncEnumerable(){} // RVA: 0x6D2CCE0 | overloaded x2
-        public void GetAsyncEndEditEventHandler(){} // RVA: 0x6D2CE20 | overloaded x2
-        public void OnEndEditAsync(){} // RVA: 0x6D2CFB0 | overloaded x2
-        public void OnEndEditAsAsyncEnumerable(){} // RVA: 0x6D2D140 | overloaded x2
-        public void GetAsyncEndTextSelectionEventHandler(){} // RVA: 0x6D2D2B0 | overloaded x2
-        public void OnEndTextSelectionAsync(){} // RVA: 0x6D2D4A0 | overloaded x2
-        public void OnEndTextSelectionAsAsyncEnumerable(){} // RVA: 0x6D2D690 | overloaded x2
-        public void GetAsyncTextSelectionEventHandler(){} // RVA: 0x6D2D830 | overloaded x2
-        public void OnTextSelectionAsync(){} // RVA: 0x6D2DA20 | overloaded x2
-        public void OnTextSelectionAsAsyncEnumerable(){} // RVA: 0x6D2DC10 | overloaded x2
-        public void GetAsyncDeselectEventHandler(){} // RVA: 0x6D2DD80 | overloaded x2
-        public void OnDeselectAsync(){} // RVA: 0x6D2DF10 | overloaded x2
-        public void OnDeselectAsAsyncEnumerable(){} // RVA: 0x6D2E0A0 | overloaded x2
-        public void GetAsyncSelectEventHandler(){} // RVA: 0x6D2E1E0 | overloaded x2
-        public void OnSelectAsync(){} // RVA: 0x6D2E370 | overloaded x2
-        public void OnSelectAsAsyncEnumerable(){} // RVA: 0x6D2E500 | overloaded x2
-        public void GetAsyncSubmitEventHandler(){} // RVA: 0x6D2E640 | overloaded x2
-        public void OnSubmitAsync(){} // RVA: 0x6D2E7D0 | overloaded x2
-        public void OnSubmitAsAsyncEnumerable(){} // RVA: 0x6D2E960 | overloaded x2
+        public void TryPop(){} // RVA: 0x7A7A6CC70
+        public void TryPush(){} // RVA: 0x7A7A6CC80
+        public void get_Size(){} // RVA: 0x7A765F0A0
     }
 
-    public class TextSelectionEventConverter
+    public class TaskTracker : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6D40110
-        public void InvokeCore(){} // RVA: 0x6D40330
-        public void Dispose(){} // RVA: 0x6D40420
+        public void TrackActiveTask(){} // RVA: 0x7A80D7310
+        public void RemoveTracking(){} // RVA: 0x7A80D7310
+        public void CheckAndResetDirty(){} // RVA: 0x7AEAD6010
+        public void ForEachActiveTask(){} // RVA: 0x7AEAD6070
+        public void TypeBeautify(){} // RVA: 0x7AEAD66A0
+        public void .cctor(){} // RVA: 0x7AEAD69B0
     }
 
-    public class TimeoutController
+    public class TextSelectionEventConverter : UnityEvent`1
     {
         // ── Methods ──
-        public void CancelCancellationTokenSourceState(){} // RVA: 0x6CEDE80
-        public void .ctor(){} // RVA: 0x6CEE0B0 | overloaded x2
-        public void Timeout(){} // RVA: 0x6CEE340 | overloaded x2
-        public void IsTimeout(){} // RVA: 0x6CEE7B0
-        public void Reset(){} // RVA: 0x6CEE7E0
-        public void Dispose(){} // RVA: 0x6CEE7F0
-        public void .cctor(){} // RVA: 0x6CEE900
+        public void .ctor(){} // RVA: 0x7AEB2F680
+        public void InvokeCore(){} // RVA: 0x7AEB2F8A0
+        public void Dispose(){} // RVA: 0x7AEB2F990
     }
 
-    public class TriggerEvent`1
+    public class TimeoutController : Object
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x24B10
-        public void SetResult(){} // RVA: 0x283FA0
-        public void SetCanceled(){} // RVA: 0x24CC0
-        public void SetCompleted(){} // RVA: 0x24A50
-        public void SetError(){} // RVA: 0x24B10
-        public void Add(){} // RVA: 0x24B10
-        public void Remove(){} // RVA: 0x24B10
+        public void CancelCancellationTokenSourceState(){} // RVA: 0x7AEADCDA0
+        public void .ctor(){} // RVA: 0x7AEADCFD0
+        public void Timeout(){} // RVA: 0x7AEADD260
+        public void IsTimeout(){} // RVA: 0x7AEADD6C0
+        public void Reset(){} // RVA: 0x7AEADD6F0
+        public void Dispose(){} // RVA: 0x7AEADD700
+        public void .cctor(){} // RVA: 0x7AEADD810
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4432370
-        public void SetResult(){} // RVA: 0x44323C0
-        public void SetCanceled(){} // RVA: 0x4432680
-        public void SetCompleted(){} // RVA: 0x4432940
-        public void SetError(){} // RVA: 0x4432C10
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD36F0
+        public void SetResult(){} // RVA: 0x7A7AD3E40
+        public void SetCanceled(){} // RVA: 0x7A7AD3E50
+        public void SetCompleted(){} // RVA: 0x7A7AD3E60
+        public void SetError(){} // RVA: 0x7A7AD3E70
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4436850
-        public void SetResult(){} // RVA: 0x44368A0
-        public void SetCanceled(){} // RVA: 0x4436CA0
-        public void SetCompleted(){} // RVA: 0x4436FE0
-        public void SetError(){} // RVA: 0x4437310
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD5B80
+        public void SetResult(){} // RVA: 0x7A7AD5BD0
+        public void SetCanceled(){} // RVA: 0x7A7AD5BE0
+        public void SetCompleted(){} // RVA: 0x7A7AD5BF0
+        public void SetError(){} // RVA: 0x7A7AD5C00
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4433A30
-        public void SetResult(){} // RVA: 0x4433A80
-        public void SetCanceled(){} // RVA: 0x4433D40
-        public void SetCompleted(){} // RVA: 0x4434000
-        public void SetError(){} // RVA: 0x44342D0
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FA0
+        public void SetResult(){} // RVA: 0x7A7AD59C0
+        public void SetCanceled(){} // RVA: 0x7A7AD59D0
+        public void SetCompleted(){} // RVA: 0x7A7AD59E0
+        public void SetError(){} // RVA: 0x7A7AD59F0
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4432ED0
-        public void SetResult(){} // RVA: 0x4432F20
-        public void SetCanceled(){} // RVA: 0x44331E0
-        public void SetCompleted(){} // RVA: 0x44334A0
-        public void SetError(){} // RVA: 0x4433770
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3740
+        public void SetResult(){} // RVA: 0x7A7AD3E80
+        public void SetCanceled(){} // RVA: 0x7A7AD3E90
+        public void SetCompleted(){} // RVA: 0x7A7AD3EA0
+        public void SetError(){} // RVA: 0x7A7AD3EB0
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4430350
-        public void SetResult(){} // RVA: 0x44303A0
-        public void SetCanceled(){} // RVA: 0x4430660
-        public void SetCompleted(){} // RVA: 0x4430920
-        public void SetError(){} // RVA: 0x4430BF0
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3650
+        public void SetResult(){} // RVA: 0x7A7AD3D80
+        public void SetCanceled(){} // RVA: 0x7A7AD3DA0
+        public void SetCompleted(){} // RVA: 0x7A7AD3DB0
+        public void SetError(){} // RVA: 0x7A7AD3DC0
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4435CF0
-        public void SetResult(){} // RVA: 0x4435D40
-        public void SetCanceled(){} // RVA: 0x4436000
-        public void SetCompleted(){} // RVA: 0x44362C0
-        public void SetError(){} // RVA: 0x4436590
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD4090
+        public void SetResult(){} // RVA: 0x7A7AD5B40
+        public void SetCanceled(){} // RVA: 0x7A7AD5B50
+        public void SetCompleted(){} // RVA: 0x7A7AD5B60
+        public void SetError(){} // RVA: 0x7A7AD5B70
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x44350F0
-        public void SetResult(){} // RVA: 0x4435140
-        public void SetCanceled(){} // RVA: 0x44354A0
-        public void SetCompleted(){} // RVA: 0x4435760
-        public void SetError(){} // RVA: 0x4435A30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD4040
+        public void SetResult(){} // RVA: 0x7A7AD5A40
+        public void SetCanceled(){} // RVA: 0x7A7AD5B10
+        public void SetCompleted(){} // RVA: 0x7A7AD5B20
+        public void SetError(){} // RVA: 0x7A7AD5B30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4431810
-        public void SetResult(){} // RVA: 0x4431860
-        public void SetCanceled(){} // RVA: 0x4431B20
-        public void SetCompleted(){} // RVA: 0x4431DE0
-        public void SetError(){} // RVA: 0x44320B0
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD36A0
+        public void SetResult(){} // RVA: 0x7A7AD3DF0
+        public void SetCanceled(){} // RVA: 0x7A7AD3E10
+        public void SetCompleted(){} // RVA: 0x7A7AD3E20
+        public void SetError(){} // RVA: 0x7A7AD3E30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
-    public class TriggerEvent`1
+    public class TriggerEvent`1 : ValueType
     {
         // ── Methods ──
-        public void LogError(){} // RVA: 0x4434590
-        public void SetResult(){} // RVA: 0x44345E0
-        public void SetCanceled(){} // RVA: 0x44348A0
-        public void SetCompleted(){} // RVA: 0x4434B60
-        public void SetError(){} // RVA: 0x4434E30
-        public void Add(){} // RVA: 0x4430EB0
-        public void Remove(){} // RVA: 0x44312B0
+        public void LogError(){} // RVA: 0x7A7AD3FF0
+        public void SetResult(){} // RVA: 0x7A7AD5A00
+        public void SetCanceled(){} // RVA: 0x7A7AD5A10
+        public void SetCompleted(){} // RVA: 0x7A7AD5A20
+        public void SetError(){} // RVA: 0x7A7AD5A30
+        public void Add(){} // RVA: 0x7A7AD3DD0
+        public void Remove(){} // RVA: 0x7A7AD3DE0
     }
 
 }

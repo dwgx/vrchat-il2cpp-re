@@ -5,10 +5,10 @@
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class MiscFacetsChecker
+    public class MiscFacetsChecker : FacetsChecker
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

@@ -1,56 +1,47 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 5
-// Methods: 21
+// Classes: 4
+// Methods: 19
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class HandleDragAndDropArgs
+    public class HandleDragAndDropArgs : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x73DA4C0
+        public void .ctor(){} // RVA: 0x7A7F01F20
     }
 
-    public class Hash128Field
-    {
-        public bool m_UpdateTextFromValue; // 0x460
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x731F020 | overloaded x2
-        public void get_value(){} // RVA: 0x731F2A0
-        public void set_value(){} // RVA: 0x731F2F0
-        public void UpdateValueFromText(){} // RVA: 0x731F3D0
-        public void UpdateTextFromValue(){} // RVA: 0x731F4E0
-        public void SetValueWithoutNotify(){} // RVA: 0x731F560
-        public void ValueToString(){} // RVA: 0x731F6D0
-        public void StringToValue(){} // RVA: 0x731F730
-        public void ExecuteDefaultAction(){} // RVA: 0x731F760
-        public void .cctor(){} // RVA: 0x731FA40
-    }
-
-    public class Hashes
-    {
-    }
-
-    public class HelpBox
-    {
-        public string ussClassName;
-        public string labelUssClassName; // 0x8
-
-        // ── Methods ──
-        public void set_text(){} // RVA: 0x7320060
-        public void set_messageType(){} // RVA: 0x7320090
-        public void .ctor(){} // RVA: 0x7320100 | overloaded x2
-        public void GetIconClass(){} // RVA: 0x7320340
-        public void UpdateIcon(){} // RVA: 0x7320420
-        public void .cctor(){} // RVA: 0x73205F0
-    }
-
-    public class HierarchyEvent
+    public class Hash128Field : TextInputBaseField`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x166C910
-        public void Invoke(){} // RVA: 0x439370
+        public void .ctor(){} // RVA: 0x7AF0FF210
+        public void get_value(){} // RVA: 0x7AF0FF490
+        public void set_value(){} // RVA: 0x7AF0FF4E0
+        public void UpdateValueFromText(){} // RVA: 0x7AF0FF5C0
+        public void UpdateTextFromValue(){} // RVA: 0x7AF0FF6D0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AF0FF750
+        public void ValueToString(){} // RVA: 0x7AF0FF8C0
+        public void StringToValue(){} // RVA: 0x7AF0FF920
+        public void ExecuteDefaultAction(){} // RVA: 0x7AF0FF950
+        public void .cctor(){} // RVA: 0x7AF0FFC30
+    }
+
+    public class HelpBox : VisualElement
+    {
+        // ── Methods ──
+        public void set_text(){} // RVA: 0x7AF100250
+        public void set_messageType(){} // RVA: 0x7AF100280
+        public void .ctor(){} // RVA: 0x7AF1002F0
+        public void GetIconClass(){} // RVA: 0x7AF100530
+        public void UpdateIcon(){} // RVA: 0x7AF100610
+        public void .cctor(){} // RVA: 0x7AF1007D0
+    }
+
+    public class HierarchyEvent : MulticastDelegate
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9426AB0
+        public void Invoke(){} // RVA: 0x7A82344F0
     }
 
 }

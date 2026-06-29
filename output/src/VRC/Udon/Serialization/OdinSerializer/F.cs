@@ -1,54 +1,54 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer
 // Classes: 4
-// Methods: 27
+// Methods: 26
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
-    public class FileReadType
+    public class FileReadType : EasyBaseFormatter`1
     {
         // ── Methods ──
-        public void ReadDataEntry(){}
-        public void WriteDataEntries(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x24A50
+        public void ReadDataEntry(){} // RVA: 0x7A7E21DC0
+        public void WriteDataEntries(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class FormatterEmitter
+    public class FormatterEmitter : Object
     {
         // ── Methods ──
-        public void GetEmittedFormatter(){} // RVA: 0x785EB50
+        public void GetEmittedFormatter(){} // RVA: 0x7AF63E190
     }
 
-    public class FormatterLocator
+    public class FormatterLocator : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7858540
-        public void add_FormatterResolve(){} // RVA: 0x7859A20
-        public void remove_FormatterResolve(){} // RVA: 0x7859A60
-        public void GetFormatter(){} // RVA: 0x7859AA0 | overloaded x2
-        public void LogAOTError(){} // RVA: 0x7859FB0
-        public void GetAllPossibleMissingAOTTypes(){} // RVA: 0x785A210
-        public void GetAllCompatiblePredefinedFormatters(){} // RVA: 0x785A2C0
-        public void CreateFormatter(){} // RVA: 0x785B0D0
-        public void GetFormatterInstance(){} // RVA: 0x785BF10
+        public void .cctor(){} // RVA: 0x7AF637CF0
+        public void add_FormatterResolve(){} // RVA: 0x7AF6391C0
+        public void remove_FormatterResolve(){} // RVA: 0x7AF639200
+        public void GetFormatter(){} // RVA: 0x7AA4B0380
+        public void LogAOTError(){} // RVA: 0x7AF639720
+        public void GetAllPossibleMissingAOTTypes(){} // RVA: 0x7AF639980
+        public void GetAllCompatiblePredefinedFormatters(){} // RVA: 0x7AF639A30
+        public void CreateFormatter(){} // RVA: 0x7AF63A860
+        public void GetFormatterInstance(){} // RVA: 0x7AF63B6C0
     }
 
-    public class FormatterUtilities
+    public class FormatterUtilities : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7865F80
-        public void GetSerializableMembersMap(){} // RVA: 0x7866B20
-        public void GetSerializableMembers(){} // RVA: 0x7866E40
-        public void CreateUnityNull(){} // RVA: 0x78671D0
-        public void IsPrimitiveType(){} // RVA: 0x7867610
-        public void IsPrimitiveArrayType(){} // RVA: 0x7867760
-        public void GetContainedType(){} // RVA: 0x78677F0
-        public void GetMemberValue(){} // RVA: 0x78679D0
-        public void SetMemberValue(){} // RVA: 0x7867C10
-        public void FindSerializableMembersMap(){} // RVA: 0x7867F50
-        public void FindSerializableMembers(){} // RVA: 0x7868620
-        public void GetPrivateMemberAlias(){} // RVA: 0x7868D10
-        public void MemberIsPrivate(){} // RVA: 0x7869870
+        public void .cctor(){} // RVA: 0x7AF6452B0
+        public void GetSerializableMembersMap(){} // RVA: 0x7AF645E50
+        public void GetSerializableMembers(){} // RVA: 0x7AF646140
+        public void CreateUnityNull(){} // RVA: 0x7AF6464A0
+        public void IsPrimitiveType(){} // RVA: 0x7AF6468E0
+        public void IsPrimitiveArrayType(){} // RVA: 0x7AF646A30
+        public void GetContainedType(){} // RVA: 0x7AF646AC0
+        public void GetMemberValue(){} // RVA: 0x7AF646CC0
+        public void SetMemberValue(){} // RVA: 0x7AF646F20
+        public void FindSerializableMembersMap(){} // RVA: 0x7AF647270
+        public void FindSerializableMembers(){} // RVA: 0x7AF647950
+        public void GetPrivateMemberAlias(){} // RVA: 0x7AF648070
+        public void MemberIsPrivate(){} // RVA: 0x7AF648BA0
     }
 
 }

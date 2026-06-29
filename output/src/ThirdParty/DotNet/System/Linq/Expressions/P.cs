@@ -1,40 +1,36 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Linq.Expressions
 // Classes: 3
-// Methods: 14
+// Methods: 13
 
 namespace ThirdParty.DotNet.System.Linq.Expressions
 {
-    public class ParameterExpression
+    public class ParameterExpression : Expression
     {
-        public string <Name>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6601C60 | overloaded x2
-        public void Make(){} // RVA: 0x6601610
-        public void get_Type(){} // RVA: 0x6601B70
-        public void get_NodeType(){} // RVA: 0x6601C20
-        public void get_Name(){} // RVA: 0x2F8380
-        public void get_IsByRef(){} // RVA: 0x37EF790
-        public void GetIsByRef(){} // RVA: 0x2DD320
-        public void Accept(){} // RVA: 0x6601C30
+        public void .ctor(){} // RVA: 0x7AE3F0450
+        public void Make(){} // RVA: 0x7AE3EFE00
+        public void get_Type(){} // RVA: 0x7AE3F0360
+        public void get_NodeType(){} // RVA: 0x7AE3F0410
+        public void get_Name(){} // RVA: 0x7A80F2570
+        public void get_IsByRef(){} // RVA: 0x7AB5DC320
+        public void GetIsByRef(){} // RVA: 0x7A80D7320
+        public void Accept(){} // RVA: 0x7AE3F0420
     }
 
-    public class PrimitiveParameterExpression`1
+    public class PrimitiveParameterExpression`1 : ParameterExpression
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void get_Type(){} // RVA: 0xCD60
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void get_Type(){} // RVA: 0x7A7E00680
     }
 
-    public class PropertyExpression
+    public class PropertyExpression : MemberExpression
     {
-        public System.Reflection.PropertyInfo _property; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x65FC840
-        public void GetMember(){} // RVA: 0x2E07C0
-        public void get_Type(){} // RVA: 0x65FC8E0
+        public void .ctor(){} // RVA: 0x7AE3EB040
+        public void GetMember(){} // RVA: 0x7A80DA7B0
+        public void get_Type(){} // RVA: 0x7AE3EB0E0
     }
 
 }

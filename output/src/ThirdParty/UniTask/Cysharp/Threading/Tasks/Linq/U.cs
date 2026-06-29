@@ -1,162 +1,162 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 // Classes: 1
-// Methods: 475
+// Methods: 149
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class UniTaskAsyncEnumerable
+    public class UniTaskAsyncEnumerable : Object
     {
         // ── Methods ──
-        public void AggregateAsync(){} // RVA: 0x283FA0 | overloaded x3
-        public void AggregateAwaitAsync(){} // RVA: 0x283FA0 | overloaded x3
-        public void AggregateAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x3
-        public void AllAsync(){} // RVA: 0x283FA0
-        public void AllAwaitAsync(){} // RVA: 0x283FA0
-        public void AllAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void AnyAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void AnyAwaitAsync(){} // RVA: 0x283FA0
-        public void AnyAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void Append(){} // RVA: 0x283FA0
-        public void Prepend(){} // RVA: 0x283FA0
-        public void AsUniTaskAsyncEnumerable(){} // RVA: 0xCE50
-        public void AverageAsync(){} // RVA: 0x283FA0 | overloaded x20
-        public void AverageAwaitAsync(){} // RVA: 0x283FA0 | overloaded x10
-        public void AverageAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x10
-        public void Buffer(){} // RVA: 0x1DEC0 | overloaded x2
-        public void Cast(){} // RVA: 0xCE50
-        public void CombineLatest(){} // RVA: 0x20860 | overloaded x14
-        public void Concat(){} // RVA: 0xCEC0
-        public void ContainsAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void CountAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void CountAwaitAsync(){} // RVA: 0x283FA0
-        public void CountAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void Create(){} // RVA: 0xCE50
-        public void DefaultIfEmpty(){} // RVA: 0x283FA0 | overloaded x2
-        public void Distinct(){} // RVA: 0x1D550 | overloaded x4
-        public void DistinctAwait(){} // RVA: 0x1D550 | overloaded x2
-        public void DistinctAwaitWithCancellation(){} // RVA: 0x1D550 | overloaded x2
-        public void DistinctUntilChanged(){} // RVA: 0x1D550 | overloaded x4
-        public void DistinctUntilChangedAwait(){} // RVA: 0x1D550 | overloaded x2
-        public void DistinctUntilChangedAwaitWithCancellation(){} // RVA: 0x1D550 | overloaded x2
-        public void Do(){} // RVA: 0xCEC0 | overloaded x5
-        public void ElementAtAsync(){} // RVA: 0x283FA0
-        public void ElementAtOrDefaultAsync(){} // RVA: 0x283FA0
-        public void Empty(){} // RVA: 0xC960
-        public void Except(){} // RVA: 0x1D550 | overloaded x2
-        public void FirstAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void FirstAwaitAsync(){} // RVA: 0x283FA0
-        public void FirstAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void FirstOrDefaultAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void FirstOrDefaultAwaitAsync(){} // RVA: 0x283FA0
-        public void FirstOrDefaultAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void ForEachAsync(){} // RVA: 0x283FA0 | overloaded x4
-        public void ForEachAwaitAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void ForEachAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void GroupBy(){} // RVA: 0x1F2C0 | overloaded x8
-        public void GroupByAwait(){} // RVA: 0x1F2C0 | overloaded x8
-        public void GroupByAwaitWithCancellation(){} // RVA: 0x1F2C0 | overloaded x8
-        public void GroupJoin(){} // RVA: 0x1F470 | overloaded x2
-        public void GroupJoinAwait(){} // RVA: 0x1F470 | overloaded x2
-        public void GroupJoinAwaitWithCancellation(){} // RVA: 0x1F470 | overloaded x2
-        public void Intersect(){} // RVA: 0x1D550 | overloaded x2
-        public void Join(){} // RVA: 0x1F470 | overloaded x2
-        public void JoinAwait(){} // RVA: 0x1F470 | overloaded x2
-        public void JoinAwaitWithCancellation(){} // RVA: 0x1F470 | overloaded x2
-        public void LastAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void LastAwaitAsync(){} // RVA: 0x283FA0
-        public void LastAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void LastOrDefaultAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void LastOrDefaultAwaitAsync(){} // RVA: 0x283FA0
-        public void LastOrDefaultAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void LongCountAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void LongCountAwaitAsync(){} // RVA: 0x283FA0
-        public void LongCountAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void MaxAsync(){} // RVA: 0x283FA0 | overloaded x22
-        public void MaxAwaitAsync(){} // RVA: 0x283FA0 | overloaded x11
-        public void MaxAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x11
-        public void Merge(){} // RVA: 0xCE50 | overloaded x4
-        public void MinAsync(){} // RVA: 0x283FA0 | overloaded x22
-        public void MinAwaitAsync(){} // RVA: 0x283FA0 | overloaded x11
-        public void MinAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x11
-        public void Never(){} // RVA: 0xC960
-        public void OfType(){} // RVA: 0xCE50
-        public void OrderBy(){} // RVA: 0x1D550 | overloaded x2
-        public void OrderByAwait(){} // RVA: 0x1D550 | overloaded x2
-        public void OrderByAwaitWithCancellation(){} // RVA: 0x1D550 | overloaded x2
-        public void OrderByDescending(){} // RVA: 0x1D550 | overloaded x2
-        public void OrderByDescendingAwait(){} // RVA: 0x1D550 | overloaded x2
-        public void OrderByDescendingAwaitWithCancellation(){} // RVA: 0x1D550 | overloaded x2
-        public void ThenBy(){} // RVA: 0x1D550 | overloaded x2
-        public void ThenByAwait(){} // RVA: 0x1D550 | overloaded x2
-        public void ThenByAwaitWithCancellation(){} // RVA: 0x1D550 | overloaded x2
-        public void ThenByDescending(){} // RVA: 0x1D550 | overloaded x2
-        public void ThenByDescendingAwait(){} // RVA: 0x1D550 | overloaded x2
-        public void ThenByDescendingAwaitWithCancellation(){} // RVA: 0x1D550 | overloaded x2
-        public void Pairwise(){} // RVA: 0xCE50
-        public void Publish(){} // RVA: 0xCE50
-        public void Queue(){} // RVA: 0xCE50
-        public void Range(){} // RVA: 0x6D0E550
-        public void Repeat(){} // RVA: 0x283FA0
-        public void Return(){} // RVA: 0x283FA0
-        public void Reverse(){} // RVA: 0xCE50
-        public void Select(){} // RVA: 0xCEC0 | overloaded x2
-        public void SelectAwait(){} // RVA: 0xCEC0 | overloaded x2
-        public void SelectAwaitWithCancellation(){} // RVA: 0xCEC0 | overloaded x2
-        public void SelectMany(){} // RVA: 0x1D550 | overloaded x4
-        public void SelectManyAwait(){} // RVA: 0x1D550 | overloaded x4
-        public void SelectManyAwaitWithCancellation(){} // RVA: 0x1D550 | overloaded x4
-        public void SequenceEqualAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void SingleAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void SingleAwaitAsync(){} // RVA: 0x283FA0
-        public void SingleAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void SingleOrDefaultAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void SingleOrDefaultAwaitAsync(){} // RVA: 0x283FA0
-        public void SingleOrDefaultAwaitWithCancellationAsync(){} // RVA: 0x283FA0
-        public void Skip(){} // RVA: 0x1BF70
-        public void SkipLast(){} // RVA: 0x1BF70
-        public void SkipUntil(){} // RVA: 0xCEC0 | overloaded x2
-        public void SkipUntilCanceled(){} // RVA: 0x12930
-        public void SkipWhile(){} // RVA: 0xCEC0 | overloaded x2
-        public void SkipWhileAwait(){} // RVA: 0xCEC0 | overloaded x2
-        public void SkipWhileAwaitWithCancellation(){} // RVA: 0xCEC0 | overloaded x2
-        public void Subscribe(){} // RVA: 0x263E0 | overloaded x16
-        public void SubscribeAwait(){} // RVA: 0x1D550 | overloaded x12
-        public void SumAsync(){} // RVA: 0x283FA0 | overloaded x20
-        public void SumAwaitAsync(){} // RVA: 0x283FA0 | overloaded x10
-        public void SumAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x10
-        public void Take(){} // RVA: 0x1BF70
-        public void TakeLast(){} // RVA: 0x1BF70
-        public void TakeUntil(){} // RVA: 0xCEC0 | overloaded x2
-        public void TakeUntilCanceled(){} // RVA: 0x12930
-        public void TakeWhile(){} // RVA: 0xCEC0 | overloaded x2
-        public void TakeWhileAwait(){} // RVA: 0xCEC0 | overloaded x2
-        public void TakeWhileAwaitWithCancellation(){} // RVA: 0xCEC0 | overloaded x2
-        public void Throw(){} // RVA: 0xCE50
-        public void ToArrayAsync(){} // RVA: 0x283FA0
-        public void ToDictionaryAsync(){} // RVA: 0x283FA0 | overloaded x4
-        public void ToDictionaryAwaitAsync(){} // RVA: 0x283FA0 | overloaded x4
-        public void ToDictionaryAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x4
-        public void ToHashSetAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void ToListAsync(){} // RVA: 0x283FA0
-        public void ToLookupAsync(){} // RVA: 0x283FA0 | overloaded x4
-        public void ToLookupAwaitAsync(){} // RVA: 0x283FA0 | overloaded x4
-        public void ToLookupAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x4
-        public void ToObservable(){} // RVA: 0xCE50
-        public void ToUniTaskAsyncEnumerable(){} // RVA: 0xCE50 | overloaded x4
-        public void Union(){} // RVA: 0x1D550 | overloaded x2
-        public void EveryUpdate(){} // RVA: 0x6D0ECB0
-        public void EveryValueChanged(){} // RVA: 0x283FA0
-        public void Timer(){} // RVA: 0x6D0ED80 | overloaded x2
-        public void Interval(){} // RVA: 0x6D0EE30
-        public void TimerFrame(){} // RVA: 0x6D0EFB0 | overloaded x2
-        public void IntervalFrame(){} // RVA: 0x6D0F130
-        public void Where(){} // RVA: 0xCEC0 | overloaded x2
-        public void WhereAwait(){} // RVA: 0xCEC0 | overloaded x2
-        public void WhereAwaitWithCancellation(){} // RVA: 0xCEC0 | overloaded x2
-        public void Zip(){} // RVA: 0x1D550 | overloaded x2
-        public void ZipAwait(){} // RVA: 0x1D550
-        public void ZipAwaitWithCancellation(){} // RVA: 0x1D550
+        public void AggregateAsync(){} // RVA: 0x7A8051B10
+        public void AggregateAwaitAsync(){} // RVA: 0x7A8051B10
+        public void AggregateAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void AllAsync(){} // RVA: 0x7A8051B10
+        public void AllAwaitAsync(){} // RVA: 0x7A8051B10
+        public void AllAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void AnyAsync(){} // RVA: 0x7A8051B10
+        public void AnyAwaitAsync(){} // RVA: 0x7A8051B10
+        public void AnyAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void Append(){} // RVA: 0x7A8051B10
+        public void Prepend(){} // RVA: 0x7A8051B10
+        public void AsUniTaskAsyncEnumerable(){} // RVA: 0x7A7E00BA0
+        public void AverageAsync(){} // RVA: 0x7A8051B10
+        public void AverageAwaitAsync(){} // RVA: 0x7A8051B10
+        public void AverageAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void Buffer(){} // RVA: 0x7A7E11C10
+        public void Cast(){} // RVA: 0x7A7E00BA0
+        public void CombineLatest(){} // RVA: 0x7A7E145B0
+        public void Concat(){} // RVA: 0x7A7E00C10
+        public void ContainsAsync(){} // RVA: 0x7A8051B10
+        public void CountAsync(){} // RVA: 0x7A8051B10
+        public void CountAwaitAsync(){} // RVA: 0x7A8051B10
+        public void CountAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void Create(){} // RVA: 0x7A7E00BA0
+        public void DefaultIfEmpty(){} // RVA: 0x7A8051B10
+        public void Distinct(){} // RVA: 0x7A7E112A0
+        public void DistinctAwait(){} // RVA: 0x7A7E112A0
+        public void DistinctAwaitWithCancellation(){} // RVA: 0x7A7E112A0
+        public void DistinctUntilChanged(){} // RVA: 0x7A7E112A0
+        public void DistinctUntilChangedAwait(){} // RVA: 0x7A7E112A0
+        public void DistinctUntilChangedAwaitWithCancellation(){} // RVA: 0x7A7E112A0
+        public void Do(){} // RVA: 0x7A7E00C10
+        public void ElementAtAsync(){} // RVA: 0x7A8051B10
+        public void ElementAtOrDefaultAsync(){} // RVA: 0x7A8051B10
+        public void Empty(){} // RVA: 0x7A7E006B0
+        public void Except(){} // RVA: 0x7A7E112A0
+        public void FirstAsync(){} // RVA: 0x7A8051B10
+        public void FirstAwaitAsync(){} // RVA: 0x7A8051B10
+        public void FirstAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void FirstOrDefaultAsync(){} // RVA: 0x7A8051B10
+        public void FirstOrDefaultAwaitAsync(){} // RVA: 0x7A8051B10
+        public void FirstOrDefaultAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void ForEachAsync(){} // RVA: 0x7A8051B10
+        public void ForEachAwaitAsync(){} // RVA: 0x7A8051B10
+        public void ForEachAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void GroupBy(){} // RVA: 0x7A7E13010
+        public void GroupByAwait(){} // RVA: 0x7A7E13010
+        public void GroupByAwaitWithCancellation(){} // RVA: 0x7A7E13010
+        public void GroupJoin(){} // RVA: 0x7A7E131C0
+        public void GroupJoinAwait(){} // RVA: 0x7A7E131C0
+        public void GroupJoinAwaitWithCancellation(){} // RVA: 0x7A7E131C0
+        public void Intersect(){} // RVA: 0x7A7E112A0
+        public void Join(){} // RVA: 0x7A7E131C0
+        public void JoinAwait(){} // RVA: 0x7A7E131C0
+        public void JoinAwaitWithCancellation(){} // RVA: 0x7A7E131C0
+        public void LastAsync(){} // RVA: 0x7A8051B10
+        public void LastAwaitAsync(){} // RVA: 0x7A8051B10
+        public void LastAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void LastOrDefaultAsync(){} // RVA: 0x7A8051B10
+        public void LastOrDefaultAwaitAsync(){} // RVA: 0x7A8051B10
+        public void LastOrDefaultAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void LongCountAsync(){} // RVA: 0x7A8051B10
+        public void LongCountAwaitAsync(){} // RVA: 0x7A8051B10
+        public void LongCountAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void MaxAsync(){} // RVA: 0x7A8051B10
+        public void MaxAwaitAsync(){} // RVA: 0x7A8051B10
+        public void MaxAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void Merge(){} // RVA: 0x7A7E00BA0
+        public void MinAsync(){} // RVA: 0x7A8051B10
+        public void MinAwaitAsync(){} // RVA: 0x7A8051B10
+        public void MinAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void Never(){} // RVA: 0x7A7E006B0
+        public void OfType(){} // RVA: 0x7A7E00BA0
+        public void OrderBy(){} // RVA: 0x7A7E112A0
+        public void OrderByAwait(){} // RVA: 0x7A7E112A0
+        public void OrderByAwaitWithCancellation(){} // RVA: 0x7A7E112A0
+        public void OrderByDescending(){} // RVA: 0x7A7E112A0
+        public void OrderByDescendingAwait(){} // RVA: 0x7A7E112A0
+        public void OrderByDescendingAwaitWithCancellation(){} // RVA: 0x7A7E112A0
+        public void ThenBy(){} // RVA: 0x7A7E112A0
+        public void ThenByAwait(){} // RVA: 0x7A7E112A0
+        public void ThenByAwaitWithCancellation(){} // RVA: 0x7A7E112A0
+        public void ThenByDescending(){} // RVA: 0x7A7E112A0
+        public void ThenByDescendingAwait(){} // RVA: 0x7A7E112A0
+        public void ThenByDescendingAwaitWithCancellation(){} // RVA: 0x7A7E112A0
+        public void Pairwise(){} // RVA: 0x7A7E00BA0
+        public void Publish(){} // RVA: 0x7A7E00BA0
+        public void Queue(){} // RVA: 0x7A7E00BA0
+        public void Range(){} // RVA: 0x7AEAFD490
+        public void Repeat(){} // RVA: 0x7A8051B10
+        public void Return(){} // RVA: 0x7A8051B10
+        public void Reverse(){} // RVA: 0x7A7E00BA0
+        public void Select(){} // RVA: 0x7A7E00C10
+        public void SelectAwait(){} // RVA: 0x7A7E00C10
+        public void SelectAwaitWithCancellation(){} // RVA: 0x7A7E00C10
+        public void SelectMany(){} // RVA: 0x7A7E112A0
+        public void SelectManyAwait(){} // RVA: 0x7A7E112A0
+        public void SelectManyAwaitWithCancellation(){} // RVA: 0x7A7E112A0
+        public void SequenceEqualAsync(){} // RVA: 0x7A8051B10
+        public void SingleAsync(){} // RVA: 0x7A8051B10
+        public void SingleAwaitAsync(){} // RVA: 0x7A8051B10
+        public void SingleAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void SingleOrDefaultAsync(){} // RVA: 0x7A8051B10
+        public void SingleOrDefaultAwaitAsync(){} // RVA: 0x7A8051B10
+        public void SingleOrDefaultAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void Skip(){} // RVA: 0x7A7E0FCC0
+        public void SkipLast(){} // RVA: 0x7A7E0FCC0
+        public void SkipUntil(){} // RVA: 0x7A7E00C10
+        public void SkipUntilCanceled(){} // RVA: 0x7A7E06680
+        public void SkipWhile(){} // RVA: 0x7A7E00C10
+        public void SkipWhileAwait(){} // RVA: 0x7A7E00C10
+        public void SkipWhileAwaitWithCancellation(){} // RVA: 0x7A7E00C10
+        public void Subscribe(){} // RVA: 0x7A7E1A130
+        public void SubscribeAwait(){} // RVA: 0x7A7E112A0
+        public void SumAsync(){} // RVA: 0x7A8051B10
+        public void SumAwaitAsync(){} // RVA: 0x7A8051B10
+        public void SumAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void Take(){} // RVA: 0x7A7E0FCC0
+        public void TakeLast(){} // RVA: 0x7A7E0FCC0
+        public void TakeUntil(){} // RVA: 0x7A7E00C10
+        public void TakeUntilCanceled(){} // RVA: 0x7A7E06680
+        public void TakeWhile(){} // RVA: 0x7A7E00C10
+        public void TakeWhileAwait(){} // RVA: 0x7A7E00C10
+        public void TakeWhileAwaitWithCancellation(){} // RVA: 0x7A7E00C10
+        public void Throw(){} // RVA: 0x7A7E00BA0
+        public void ToArrayAsync(){} // RVA: 0x7A8051B10
+        public void ToDictionaryAsync(){} // RVA: 0x7A8051B10
+        public void ToDictionaryAwaitAsync(){} // RVA: 0x7A8051B10
+        public void ToDictionaryAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void ToHashSetAsync(){} // RVA: 0x7A8051B10
+        public void ToListAsync(){} // RVA: 0x7A8051B10
+        public void ToLookupAsync(){} // RVA: 0x7A8051B10
+        public void ToLookupAwaitAsync(){} // RVA: 0x7A8051B10
+        public void ToLookupAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
+        public void ToObservable(){} // RVA: 0x7A7E00BA0
+        public void ToUniTaskAsyncEnumerable(){} // RVA: 0x7A7E00BA0
+        public void Union(){} // RVA: 0x7A7E112A0
+        public void EveryUpdate(){} // RVA: 0x7AEAFDBF0
+        public void EveryValueChanged(){} // RVA: 0x7A8051B10
+        public void Timer(){} // RVA: 0x7AEAFDCC0
+        public void Interval(){} // RVA: 0x7AEAFDD70
+        public void TimerFrame(){} // RVA: 0x7AEAFDEF0
+        public void IntervalFrame(){} // RVA: 0x7AEAFE070
+        public void Where(){} // RVA: 0x7A7E00C10
+        public void WhereAwait(){} // RVA: 0x7A7E00C10
+        public void WhereAwaitWithCancellation(){} // RVA: 0x7A7E00C10
+        public void Zip(){} // RVA: 0x7A7E112A0
+        public void ZipAwait(){} // RVA: 0x7A7E112A0
+        public void ZipAwaitWithCancellation(){} // RVA: 0x7A7E112A0
     }
 
 }

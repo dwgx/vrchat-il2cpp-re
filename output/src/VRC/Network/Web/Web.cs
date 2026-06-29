@@ -8,35 +8,6 @@ namespace VRC.Network.Web
     /// <summary>Originally: ÏÏÌÏÎÏÌÍÌÍÌÍÏÎÌÌÏÎÎÍÍÏÌ</summary>
     public class ApiModelWebRequestTaskContext
     {
-        public int ÎÏÏÎÌÎÎÌÍÏÌÍÌÍÌÏÌÌÍÎÎÌÎ;
-        public int ÌÏÌÍÎÏÏÌÏÌÏÌÍÍÍÌÍÍÎÌÏÍÏ;
-        public int ÍÍÌÎÎÏÏÎÌÎÏÌÎÏÎÏÎÌÌÌÎÎÏ;
-        public int ÍÌÎÍÏÎÌÍÎÌÎÌÏÍÌÌÎÍÏÌÏÏÍ;
-        public float ÏÏÎÏÏÌÎÎÎÌÌÏÌÏÌÏÌÏÌÏÌÌÍ;
-        public int ÌÎÍÏÎÎÎÍÎÏÌÏÏÌÎÌÎÎÌÎÌÎÎ;
-        public float ÌÍÎÌÍÍÎÏÎÌÍÏÏÌÍÌÏÍÍÏÌÎÏ;
-        public ÌÍÎÏÍÏÏÍÏÎÌÏÍÌÎÍÌÍÌÏÌÍÌ ÎÍÎÍÍÍÌÍÍÏÌÌÏÏÌÏÏÍÍÍÎÎÎ; // 0x10
-        public int ÏÏÌÌÏÏÎÌÎÌÌÎÎÍÎÌÎÎÎÍÌÏÏ; // 0x18
-        public VRC.Core.ApiModel ÎÏÏÎÍÎÏÎÎÌÎÏÍÏÎÎÌÍÎÌÏÏÌ; // 0x20
-        public int ÍÏÎÌÏÌÌÌÏÎÌÍÌÏÎÌÌÍÎÌÏÌÌ; // 0x28
-        public int ÍÌÎÌÍÍÍÌÏÏÏÏÌÏÍÍÏÎÏÌÍÌÎ; // 0x2C
-        public int ÎÌÏÎÌÏÏÌÏÎÏÍÏÍÏÏÌÍÌÎÎÏÍ;
-        public bool ÌÌÍÏÍÍÎÏÏÍÎÎÎÎÎÍÎÏÎÏÏÍÎ; // 0x30
-        public bool ÌÍÏÌÍÎÌÌÌÍÍÍÍÎÌÎÌÌÏÍÌÎÎ; // 0x31
-        public string ÍÌÌÌÌÏÌÏÎÏÏÎÏÍÏÍÍÍÌÎÏÏÎ; // 0x38
-        public UnityEngine.Networking.UnityWebRequest ÌÎÏÏÌÎÏÏÎÌÍÌÌÍÌÎÍÎÎÍÍÎÎ; // 0x40
-        public ÎÌÌÎÎÎÏÌÍÌÎÎÍÎÍÏÎÏÏÏÍÍÌ ÎÏÍÏÌÌÎÎÏÎÍÌÏÎÏÍÎÍÏÍÍÏÏ; // 0x48
-        public System.Nullable`1<VRC.Localization.LocalizableString> ÏÎÏÍÌÎÍÏÌÌÎÌÍÍÎÎÍÏÍÍÌÌÌ; // 0x50
-        public System.Nullable`1<System.ValueTuple`2<Cysharp.Threading.Tasks.UniTask,System.Threading.CancellationTokenSource>> ÎÏÏÌÏÍÎÏÏÍÌÎÌÌÎÍÌÍÎÎÌÎÌ; // 0x80
-        public int ÎÏÌÍÌÍÍÏÏÍÍÏÍÎÎÎÏÎÌÌÍÏÍ; // 0xA0
-        public int ÌÍÍÏÎÌÌÌÎÏÏÌÌÍÏÎÎÍÏÌÌÍÍ; // 0xA4
-        public bool ÍÏÏÎÍÍÏÏÌÍÏÎÍÎÏÏÌÍÏÎÏÏÌ; // 0xA8
-        public ulong ÎÌÌÏÍÏÏÍÏÎÎÌÎÍÍÏÎÍÍÍÎÎÍ; // 0xB0
-        public System.Nullable`1<UnityEngine.Networking.EncryptionKey> ÌÍÏÌÌÏÍÏÍÏÍÌÍÎÏÍÍÌÏÌÍÌÎ; // 0xB8
-        public bool <ÏÎÌÎÎÌÌÌÌÌÏÏÏÏÎÎÍÍÌÌÌÌÎ>k__BackingField; // 0xE0
-        public bool ÏÏÎÎÏÏÎÏÍÍÍÎÍÏÍÍÏÎÏÎÎÎÍ; // 0xE1
-        public int ÏÍÏÎÌÎÍÌÌÎÍÏÎÏÎÍÌÍÎÎÎÏÎ; // 0xE4
-
         // ── Methods ──
         public void SetupParticles(){} // RVA: 0x1209120
         public void .cctor(){} // RVA: 0x12091C0
@@ -139,28 +110,6 @@ namespace VRC.Network.Web
     /// <summary>Originally: ÎÏÍÌÏÎÏÏÎÌÏÌÌÏÌÏÎÌÍÍÌÍÍ</summary>
     public class LocalizedHttpStatusErrorInfo
     {
-        public ÎÏÍÌÏÎÏÏÎÌÏÌÌÏÌÏÎÌÍÍÌÍÍ <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField;
-        public System.Action <ÎÌÌÏÍÏÏÏÏÌÎÍÍÎÌÏÏÍÎÎÎÍÌ>k__BackingField; // 0x10
-        public ÏÎÍÏÍÎÎÌÏÍÌÎÌÌÍÏÌÍÏÎÌÏÎ <ÏÌÌÍÏÍÏÍÍÍÏÌÎÏÎÍÏÍÍÎÌÌÏ>k__BackingField; // 0x18
-        public ÏÎÍÏÍÎÎÌÏÍÌÎÌÌÍÏÌÍÏÎÌÏÎ <ÎÌÍÎÏÏÌÎÏÌÏÌÌÌÎÏÌÏÏÎÌÌÍ>k__BackingField; // 0x20
-        public ÏÎÍÏÍÎÎÌÏÍÌÎÌÌÍÏÌÍÏÎÌÏÎ <ÎÍÍÎÌÌÎÎÏÎÎÌÍÎÎÌÍÎÏÍÌÍÎ>k__BackingField; // 0x28
-        public int <ÏÎÏÎÍÍÍÎÍÏÍÏÏÍÏÏÍÏÏÌÍÍÍ>k__BackingField; // 0x30
-        public int <ÍÏÍÏÍÎÎÍÏÍÏÎÎÏÌÍÏÏÏÌÏÎÎ>k__BackingField; // 0x34
-        public System.TimeSpan <ÍÎÏÎÎÍÎÍÍÎÎÍÍÎÍÏÎÎÍÍÍÎÍ>k__BackingField; // 0x38
-        public System.TimeSpan <ÏÎÌÏÎÏÎÏÏÌÌÍÍÌÎÍÏÎÏÎÎÎÏ>k__BackingField; // 0x40
-        public int <ÍÎÍÏÍÍÎÍÏÍÏÍÍÎÌÌÎÎÌÏÏÎÎ>k__BackingField; // 0x48
-        public System.TimeSpan <ÎÏÏÍÌÌÎÍÏÍÏÎÌÍÎÎÍÏÎÏÍÏÏ>k__BackingField; // 0x50
-        public System.TimeSpan <ÏÌÏÌÌÏÏÌÎÍÎÏÍÏÏÍÎÎÍÌÍÎÎ>k__BackingField; // 0x58
-        public bool <ÍÍÏÍÎÎÍÏÏÏÌÌÎÏÍÏÍÌÍÍÎÌÍ>k__BackingField; // 0x60
-        public string <ÌÌÎÍÍÍÎÎÍÌÏÏÎÌÎÎÌÍÍÏÏÌÍ>k__BackingField; // 0x68
-        public string <ÏÍÍÌÎÍÏÍÏÌÎÍÏÏÍÌÍÏÎÎÍÌÏ>k__BackingField; // 0x70
-        public string <ÏÌÎÍÍÍÌÏÍÎÌÎÏÍÎÌÍÏÏÎÌÏÌ>k__BackingField; // 0x78
-        public VRC.Localization.LocalizableString <ÎÎÎÏÏÌÎÌÎÍÏÏÍÏÌÎÏÎÎÏÏÌÌ>k__BackingField; // 0x80
-        public VRC.Localization.LocalizableString <ÌÎÌÌÍÏÎÍÍÏÎÎÏÌÍÌÍÎÎÌÎÎÎ>k__BackingField; // 0xA8
-        public VRC.Localization.LocalizableString <ÍÍÌÍÏÍÏÌÍÍÎÏÍÍÎÌÌÌÎÎÎÌÏ>k__BackingField; // 0xD0
-        public VRC.Localization.LocalizableString <ÏÍÌÎÌÍÍÌÎÍÍÍÎÍÏÎÏÌÏÎÏÎÍ>k__BackingField; // 0xF8
-        public System.Threading.CancellationTokenSource ÍÎÍÌÎÎÌÍÏÏÌÏÌÏÍÏÌÏÏÎÌÍÍ; // 0x120
-
         // ── Methods ──
         public void .ctor(){} // RVA: 0x4C28F0
         public void Initialize(){} // RVA: 0x4C2FA0
@@ -224,15 +173,6 @@ namespace VRC.Network.Web
     /// <summary>Originally: ÌÏÌÍÎÍÍÏÌÎÎÌÎÎÍÌÏÍÍÍÍÏÏ</summary>
     public class WebCamDeviceSelection
     {
-        public int ÎÏÌÎÎÌÏÍÌÍÏÎÏÎÏÍÏÎÍÏÍÌÎ; // 0x30
-        public string ÏÎÎÏÏÏÍÏÎÏÏÍÌÎÍÏÏÌÌÎÌÍÌ;
-        public ResolutionStruct[] ÍÏÏÏÍÎÎÏÏÏÌÏÍÏÍÎÎÏÌÍÍÍÍ; // 0x38
-        public object ÏÌÎÌÌÌÏÎÎÎÎÏÎÌÍÍÎÌÍÌÎÍÍ;
-        public bool ÏÍÎÎÍÌÌÌÎÎÍÏÍÎÌÏÌÌÏÎÏÎÍ; // 0x8
-        public UnityEngine.WebCamTexture ÎÍÌÍÍÌÏÍÏÏÍÍÍÌÏÏÎÍÍÌÌÏÌ; // 0x40
-        public System.Nullable`1<UnityEngine.WebCamDevice> ÏÎÍÌÌÍÍÌÍÎÍÏÍÍÎÏÎÏÎÎÎÍÏ; // 0x48
-        public UnityEngine.WebCamDevice[] ÏÌÍÍÏÍÍÍÏÌÎÌÏÍÎÎÌÍÌÏÏÎÏ; // 0x70
-
         // ── Methods ──
         public void ComputeHashCode(){} // RVA: 0x1973DE0
         public void .ctor(){} // RVA: 0x19744A0

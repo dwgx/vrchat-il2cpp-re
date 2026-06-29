@@ -1,125 +1,208 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
-// Classes: 15
-// Methods: 53
+// Classes: 19
+// Methods: 105
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Components.Containers
 {
-    public class Category
+    public class Category : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B84350 | overloaded x2
-        public void ToString(){} // RVA: 0x5B843B0
+        public void .ctor(){} // RVA: 0x7A7E2B7B0
+        public void ToString(){} // RVA: 0x7A7E2B8F0
+        public void index(){} // RVA: 0x7B3FB4428
     }
 
-    public class ClassificationResult
+    public class ClassificationResult : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x37C9BD0
-        public void Copy(){} // RVA: 0x5B84C30
-        public void ToString(){} // RVA: 0x5B85010
+        public void .ctor(){} // RVA: 0x7A790D390
+        public void Copy(){} // RVA: 0x7AD9729E0
+        public void ToString(){} // RVA: 0x7A7E2B960
+        public void classifications(){} // RVA: 0x7B3F50768
     }
 
-    public class Classifications
+    public class Classifications : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3FB0F00
-        public void Copy(){} // RVA: 0x5B845D0
-        public void ToString(){} // RVA: 0x5B84AE0
+        public void .ctor(){} // RVA: 0x7A7E2B920
+        public void Copy(){} // RVA: 0x7AD972380
+        public void ToString(){} // RVA: 0x7A7E2B930
     }
 
-    public class Detection
+    public class Classifications[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B85210
-        public void Copy(){} // RVA: 0x5B852E0
-        public void ToString(){} // RVA: 0x5B85B10
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class DetectionResult
+    public class Detection : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x100A2F0
-        public void Alloc(){} // RVA: 0x5B85C20
-        public void Copy(){} // RVA: 0x5B85CF0
-        public void ToString(){} // RVA: 0x5B86050
+        public void .ctor(){} // RVA: 0x7A7E2B990
+        public void Copy(){} // RVA: 0x7AD9730C0
+        public void ToString(){} // RVA: 0x7A7E2B9C0
     }
 
-    public class Landmark
+    public class DetectionResult : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B864F0 | overloaded x2
-        public void Equals(){} // RVA: 0x5B86650
-        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.Landmark>.Equals(){} // RVA: 0x5B86700
-        public void GetHashCode(){} // RVA: 0x5B86760
-        public void ToString(){} // RVA: 0x5B867D0
+        public void .ctor(){} // RVA: 0x7A7637E60
+        public void Alloc(){} // RVA: 0x7AD973A00
+        public void Copy(){} // RVA: 0x7AD973AD0
+        public void ToString(){} // RVA: 0x7A7E2B9F0
     }
 
-    public class Landmarks
+    public class Detection[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x100A2F0
-        public void Copy(){} // RVA: 0x5B86FF0
-        public void ToString(){} // RVA: 0x5B87350
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A18F0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E0E0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2F10
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2508F0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E0E0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class NativeLandmarksArrayExtension
+    public class Landmark : ValueType
     {
         // ── Methods ──
-        public void FillWith(){} // RVA: 0x5B879E0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A7E2BBE0
+        public void Equals(){} // RVA: 0x7A7E2BC20
+        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.Landmark>.Equals(){} // RVA: 0x7A7E2BC30
+        public void GetHashCode(){} // RVA: 0x7A7E2BC90
+        public void ToString(){} // RVA: 0x7A7E2BCA0
     }
 
-    public class NormalizedKeypoint
+    public class Landmarks : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B86140 | overloaded x2
-        public void ToString(){} // RVA: 0x5B86240
+        public void .ctor(){} // RVA: 0x7A7637E60
+        public void Copy(){} // RVA: 0x7AD974DE0
+        public void ToString(){} // RVA: 0x7A7E2BD60
     }
 
-    public class NormalizedLandmark
+    public class Landmarks[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B86AA0 | overloaded x2
-        public void Equals(){} // RVA: 0x5B86C00
-        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.NormalizedLandmark>.Equals(){} // RVA: 0x5B86700
-        public void GetHashCode(){} // RVA: 0x5B86CB0
-        public void ToString(){} // RVA: 0x5B86D20
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A0FB0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2A50
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2501E0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class NormalizedLandmarks
+    public class NativeLandmarksArrayExtension : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x100A2F0
-        public void Copy(){} // RVA: 0x5B873D0
-        public void ToString(){} // RVA: 0x5B87730
+        public void FillWith(){} // RVA: 0x7AD9757E0
     }
 
-    public class PacketExtension
+    public class NormalizedKeypoint : ValueType
     {
         // ── Methods ──
-        public void Get(){} // RVA: 0x5B88030 | overloaded x4
+        public void .ctor(){} // RVA: 0x7A7E2BB00
+        public void ToString(){} // RVA: 0x7A7E2BB30
+        public void x(){} // RVA: 0x7B2E35EB0
     }
 
-    public class Rect
+    public class NormalizedLandmark : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5B88170 | overloaded x2
-        public void ToString(){} // RVA: 0x5B88190
+        public void .ctor(){} // RVA: 0x7A7E2BCD0
+        public void Equals(){} // RVA: 0x7A7E2BD10
+        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.NormalizedLandmark>.Equals(){} // RVA: 0x7A7E2BC30
+        public void GetHashCode(){} // RVA: 0x7A7E2BD20
+        public void ToString(){} // RVA: 0x7A7E2BD30
     }
 
-    public class RectF
+    public class NormalizedLandmarks : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x5B883D0
-        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.RectF>.Equals(){} // RVA: 0x5B88470
-        public void GetHashCode(){} // RVA: 0x5B884D0
-        public void ToString(){} // RVA: 0x5B885B0
+        public void .ctor(){} // RVA: 0x7A7637E60
+        public void Copy(){} // RVA: 0x7AD9751C0
+        public void ToString(){} // RVA: 0x7A7E2BD90
     }
 
-    public class Util
+    public class NormalizedLandmarks[] : Array
     {
         // ── Methods ──
-        public void Format(){} // RVA: 0xCE50 | overloaded x3
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A0FB0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2A50
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2501E0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class PacketExtension : Object
+    {
+        // ── Methods ──
+        public void Get(){} // RVA: 0x7AD975E20
+    }
+
+    public class Rect : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7E2BDC0
+        public void ToString(){} // RVA: 0x7A7E2BDF0
+    }
+
+    public class RectF : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7A7E2BE00
+        public void System.IEquatable<Mediapipe.Tasks.Components.Containers.RectF>.Equals(){} // RVA: 0x7A7E2BE10
+        public void GetHashCode(){} // RVA: 0x7A7E2BE80
+        public void ToString(){} // RVA: 0x7A7E2BE90
+    }
+
+    public class Util : Object
+    {
+        // ── Methods ──
+        public void Format(){} // RVA: 0x7A7E00BA0
     }
 
 }

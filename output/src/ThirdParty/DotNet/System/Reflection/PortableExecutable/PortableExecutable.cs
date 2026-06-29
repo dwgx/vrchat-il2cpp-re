@@ -1,182 +1,140 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Reflection.PortableExecutable
 // Classes: 12
-// Methods: 78
+// Methods: 72
 
 namespace ThirdParty.DotNet.System.Reflection.PortableExecutable
 {
-    public class CodeViewDebugDirectoryData
+    public class CodeViewDebugDirectoryData : ValueType
     {
-        public System.Guid Stamp; // 0x10
-        public int MinorVersion; // 0x20
-        public string Type; // 0x28
-
         // ── Methods ──
-        public void get_Guid(){} // RVA: 0x75E7E0
-        public void get_Age(){} // RVA: 0x32A5C0
-        public void get_Path(){} // RVA: 0x2E07C0
-        public void .ctor(){} // RVA: 0x62D4F00
+        public void get_Guid(){} // RVA: 0x7A7662BE0
+        public void get_Age(){} // RVA: 0x7A7677B20
+        public void get_Path(){} // RVA: 0x7A767FF40
+        public void .ctor(){} // RVA: 0x7A7E69C70
     }
 
-    public class CoffHeader
+    public class CoffHeader : Object
     {
-        public 0x659B8960 <Machine>k__BackingField; // 0x10
-        public short <NumberOfSections>k__BackingField; // 0x12
-
         // ── Methods ──
-        public void get_NumberOfSections(){} // RVA: 0x629CA20
-        public void get_TimeDateStamp(){} // RVA: 0x8ABED0
-        public void .ctor(){} // RVA: 0x62D4D20
+        public void get_NumberOfSections(){} // RVA: 0x7AE0888F0
+        public void get_TimeDateStamp(){} // RVA: 0x7A8668BC0
+        public void .ctor(){} // RVA: 0x7AE0C0940
     }
 
-    public class CorHeader
+    public class CorHeader : Object
     {
-        public ushort Guid; // 0x10
-
         // ── Methods ──
-        public void get_MetadataDirectory(){} // RVA: 0x544FD0
-        public void .ctor(){} // RVA: 0x62D4DA0
+        public void get_MetadataDirectory(){} // RVA: 0x7A82FDB20
+        public void .ctor(){} // RVA: 0x7AE0C09C0
     }
 
-    public class DebugDirectoryEntry
+    public class DebugDirectoryEntry : ValueType
     {
-        public uint <Stamp>k__BackingField; // 0x10
-        public ushort <MajorVersion>k__BackingField; // 0x14
-        public ushort <MinorVersion>k__BackingField; // 0x16
-        public 0x659B88B0 <Type>k__BackingField; // 0x18
-        public int <DataSize>k__BackingField; // 0x1C
-        public int <DataRelativeVirtualAddress>k__BackingField; // 0x20
-        public int <DataPointer>k__BackingField; // 0x24
-
         // ── Methods ──
-        public void get_Stamp(){} // RVA: 0x19689B0
-        public void get_MinorVersion(){} // RVA: 0x62D4F60
-        public void get_Type(){} // RVA: 0x1EA9890
-        public void get_DataSize(){} // RVA: 0x1EA98B0
-        public void get_DataRelativeVirtualAddress(){} // RVA: 0x32A5C0
-        public void get_DataPointer(){} // RVA: 0x8ABED0
-        public void get_IsPortableCodeView(){} // RVA: 0x62D4F70
-        public void .ctor(){} // RVA: 0x62D4F80
+        public void get_Stamp(){} // RVA: 0x7A765F070
+        public void get_MinorVersion(){} // RVA: 0x7A7E69CD0
+        public void get_Type(){} // RVA: 0x7A75FEFA0
+        public void get_DataSize(){} // RVA: 0x7A767FBD0
+        public void get_DataRelativeVirtualAddress(){} // RVA: 0x7A7677B20
+        public void get_DataPointer(){} // RVA: 0x7A7699630
+        public void get_IsPortableCodeView(){} // RVA: 0x7A7E69CE0
+        public void .ctor(){} // RVA: 0x7A7E69CF0
     }
 
-    public class DirectoryEntry
+    public class DirectoryEntry : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x62D4FB0
+        public void .ctor(){} // RVA: 0x7A7E69D20
     }
 
-    public class PEBinaryReader
+    public class PEBinaryReader : ValueType
     {
-        public long _startOffset; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x62D4FF0
-        public void get_CurrentOffset(){} // RVA: 0x62D50F0
-        public void Seek(){} // RVA: 0x62D5140
-        public void ReadBytes(){} // RVA: 0x62D51B0
-        public void ReadByte(){} // RVA: 0x62D5240
-        public void ReadInt16(){} // RVA: 0x62D52C0
-        public void ReadUInt16(){} // RVA: 0x62D5340
-        public void ReadInt32(){} // RVA: 0x62D53C0
-        public void ReadUInt32(){} // RVA: 0x62D5440
-        public void ReadUInt64(){} // RVA: 0x62D54C0
-        public void ReadNullPaddedUTF8(){} // RVA: 0x62D5540
-        public void CheckBounds(){} // RVA: 0x62D5640 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A7E69D80
+        public void get_CurrentOffset(){} // RVA: 0x7A7E69D90
+        public void Seek(){} // RVA: 0x7A7E69DE0
+        public void ReadBytes(){} // RVA: 0x7A7E69DF0
+        public void ReadByte(){} // RVA: 0x7A7E69E00
+        public void ReadInt16(){} // RVA: 0x7A7E69E10
+        public void ReadUInt16(){} // RVA: 0x7A7E69E20
+        public void ReadInt32(){} // RVA: 0x7A7E69E30
+        public void ReadUInt32(){} // RVA: 0x7A7E69E40
+        public void ReadUInt64(){} // RVA: 0x7A7E69E50
+        public void ReadNullPaddedUTF8(){} // RVA: 0x7A7E69E60
+        public void CheckBounds(){} // RVA: 0x7A7E69E80
     }
 
-    public class PEHeader
+    public class PEHeader : Object
     {
-        public 0x659B8A68 MetadataStartOffset; // 0x10
-        public byte MetadataSize; // 0x12
-        public byte CoffHeader; // 0x13
-
         // ── Methods ──
-        public void get_SizeOfImage(){} // RVA: 0x1479960
-        public void get_DebugTableDirectory(){} // RVA: 0x5FF04C0
-        public void get_CorHeaderTableDirectory(){} // RVA: 0x62D5660
-        public void .ctor(){} // RVA: 0x62D5670
+        public void get_SizeOfImage(){} // RVA: 0x7A9231EA0
+        public void get_DebugTableDirectory(){} // RVA: 0x7ADDDCEB0
+        public void get_CorHeaderTableDirectory(){} // RVA: 0x7AE0C1290
+        public void .ctor(){} // RVA: 0x7AE0C12A0
     }
 
-    public class PEHeaders
+    public class PEHeaders : Object
     {
-        public System.Reflection.PortableExecutable.CoffHeader IsLoadedImage; // 0x10
-        public System.Reflection.PortableExecutable.PEHeader PEHeaders; // 0x18
-        public System.Collections.Immutable.ImmutableArray`1<System.Reflection.PortableExecutable.SectionHeader> _sectionHeaders; // 0x20
-        public System.Reflection.PortableExecutable.CorHeader _corHeader; // 0x28
-        public bool _isLoadedImage; // 0x30
-        public int _metadataStartOffset; // 0x34
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x62D5BB0 | overloaded x3
-        public void get_MetadataStartOffset(){} // RVA: 0x4C6670
-        public void get_MetadataSize(){} // RVA: 0xFDC9F0
-        public void get_CoffHeader(){} // RVA: 0x2F8380
-        public void get_IsCoffOnly(){} // RVA: 0x2ED2970
-        public void get_PEHeader(){} // RVA: 0x2E07C0
-        public void get_SectionHeaders(){} // RVA: 0x30B0C0
-        public void TryCalculateCorHeaderOffset(){} // RVA: 0x62D62C0
-        public void SkipDosHeader(){} // RVA: 0x62D6390
-        public void ReadSectionHeaders(){} // RVA: 0x62D64E0
-        public void TryGetDirectoryOffset(){} // RVA: 0x62D6860 | overloaded x2
-        public void GetContainingSectionIndex(){} // RVA: 0x62D6B60
-        public void IndexOfSection(){} // RVA: 0x62D6CB0
-        public void CalculateMetadataLocation(){} // RVA: 0x62D6E10
+        public void .ctor(){} // RVA: 0x7AE0C17E0
+        public void get_MetadataStartOffset(){} // RVA: 0x7A82C2070
+        public void get_MetadataSize(){} // RVA: 0x7A8D863F0
+        public void get_CoffHeader(){} // RVA: 0x7A80F2570
+        public void get_IsCoffOnly(){} // RVA: 0x7AACC9BD0
+        public void get_PEHeader(){} // RVA: 0x7A80DA7B0
+        public void get_SectionHeaders(){} // RVA: 0x7A81052C0
+        public void TryCalculateCorHeaderOffset(){} // RVA: 0x7AE0C1EF0
+        public void SkipDosHeader(){} // RVA: 0x7AE0C1FC0
+        public void ReadSectionHeaders(){} // RVA: 0x7AE0C2110
+        public void TryGetDirectoryOffset(){} // RVA: 0x7AE0C24A0
+        public void GetContainingSectionIndex(){} // RVA: 0x7AE0C2780
+        public void IndexOfSection(){} // RVA: 0x7AE0C28E0
+        public void CalculateMetadataLocation(){} // RVA: 0x7AE0C2A50
     }
 
-    public class PEReader
+    public class PEReader : Object
     {
-        public bool <IsLoadedImage>k__BackingField; // 0x10
-        public System.Reflection.Internal.MemoryBlockProvider _peImage; // 0x18
-
         // ── Methods ──
-        public void get_IsLoadedImage(){} // RVA: 0x3A75E0
-        public void .ctor(){} // RVA: 0x62D7250 | overloaded x3
-        public void Dispose(){} // RVA: 0x62D77B0
-        public void GetPEImage(){} // RVA: 0x62D7A10
-        public void get_PEHeaders(){} // RVA: 0x62D7A40
-        public void InitializePEHeaders(){} // RVA: 0x62D7A70
-        public void ReadPEHeadersNoLock(){} // RVA: 0x62D7D00
-        public void ReadDebugDirectory(){} // RVA: 0x62D7DB0
-        public void ReadDebugDirectoryEntries(){} // RVA: 0x62D81D0
-        public void GetDebugDirectoryEntryDataBlock(){} // RVA: 0x62D8540
-        public void ReadCodeViewDebugDirectoryData(){} // RVA: 0x62D85E0
-        public void DecodeCodeViewDebugDirectoryData(){} // RVA: 0x62D87E0
-        public void ReadPdbChecksumDebugDirectoryData(){} // RVA: 0x62D8C70
-        public void DecodePdbChecksumDebugDirectoryData(){} // RVA: 0x62D8E70
+        public void get_IsLoadedImage(){} // RVA: 0x7A81A2200
+        public void .ctor(){} // RVA: 0x7AE0C2E90
+        public void Dispose(){} // RVA: 0x7AE0C33D0
+        public void GetPEImage(){} // RVA: 0x7AE0C3640
+        public void get_PEHeaders(){} // RVA: 0x7AE0C3670
+        public void InitializePEHeaders(){} // RVA: 0x7AE0C36A0
+        public void ReadPEHeadersNoLock(){} // RVA: 0x7AE0C3910
+        public void ReadDebugDirectory(){} // RVA: 0x7AE0C39C0
+        public void ReadDebugDirectoryEntries(){} // RVA: 0x7AE0C3DF0
+        public void GetDebugDirectoryEntryDataBlock(){} // RVA: 0x7AE0C4160
+        public void ReadCodeViewDebugDirectoryData(){} // RVA: 0x7AE0C4200
+        public void DecodeCodeViewDebugDirectoryData(){} // RVA: 0x7AE0C4410
+        public void ReadPdbChecksumDebugDirectoryData(){} // RVA: 0x7AE0C48A0
+        public void DecodePdbChecksumDebugDirectoryData(){} // RVA: 0x7AE0C4AA0
     }
 
-    public class PEStreamOptionsExtensions
+    public class PEStreamOptionsExtensions : Object
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x62D9150
+        public void IsValid(){} // RVA: 0x7AE0C4D80
     }
 
-    public class PdbChecksumDebugDirectoryData
+    public class PdbChecksumDebugDirectoryData : ValueType
     {
-        public string NumberOfSections; // 0x10
-        public System.Collections.Immutable.ImmutableArray`1<byte> TimeDateStamp; // 0x18
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x1AD4690
-        public void get_Checksum(){} // RVA: 0x19689C0
-        public void .ctor(){} // RVA: 0x37C8AF0
+        public void get_AlgorithmName(){} // RVA: 0x7A765F710
+        public void get_Checksum(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7C66120
     }
 
-    public class SectionHeader
+    public class SectionHeader : ValueType
     {
-        public string <Name>k__BackingField; // 0x10
-        public int <VirtualSize>k__BackingField; // 0x18
-        public int <VirtualAddress>k__BackingField; // 0x1C
-        public int <SizeOfRawData>k__BackingField; // 0x20
-        public int <PointerToRawData>k__BackingField; // 0x24
-
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x1AD4690
-        public void get_VirtualSize(){} // RVA: 0x1EA9890
-        public void get_VirtualAddress(){} // RVA: 0x1EA98B0
-        public void get_SizeOfRawData(){} // RVA: 0x32A5C0
-        public void get_PointerToRawData(){} // RVA: 0x8ABED0
-        public void .ctor(){} // RVA: 0x62D9160
+        public void get_Name(){} // RVA: 0x7A765F710
+        public void get_VirtualSize(){} // RVA: 0x7A75FEFA0
+        public void get_VirtualAddress(){} // RVA: 0x7A767FBD0
+        public void get_SizeOfRawData(){} // RVA: 0x7A7677B20
+        public void get_PointerToRawData(){} // RVA: 0x7A7699630
+        public void .ctor(){} // RVA: 0x7A7E69FF0
     }
 
 }

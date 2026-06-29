@@ -5,45 +5,45 @@
 
 namespace ThirdParty.Sentry.Sentry.Internal.JsonConverters
 {
-    public class IntPtrJsonConverter
+    public class IntPtrJsonConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x63664F0
-        public void Write(){} // RVA: 0x6366550
-        public void .ctor(){} // RVA: 0x641F280
+        public void Read(){} // RVA: 0x7AE152E30
+        public void Write(){} // RVA: 0x7AE152E90
+        public void .ctor(){} // RVA: 0x7AE20D060
     }
 
-    public class IntPtrNullableJsonConverter
+    public class IntPtrNullableJsonConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x641F2C0
-        public void Write(){} // RVA: 0x641F380
-        public void .ctor(){} // RVA: 0x641F430
+        public void Read(){} // RVA: 0x7AE20D0A0
+        public void Write(){} // RVA: 0x7AE20D160
+        public void .ctor(){} // RVA: 0x7AE20D1F0
     }
 
-    public class SentryJsonConverter
+    public class SentryJsonConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void CanConvert(){} // RVA: 0x641F470
-        public void Read(){} // RVA: 0x519240
-        public void Write(){} // RVA: 0x641F5B0
-        public void .ctor(){} // RVA: 0x641F6B0
+        public void CanConvert(){} // RVA: 0x7AE20D230
+        public void Read(){} // RVA: 0x7A82D1450
+        public void Write(){} // RVA: 0x7AE20D370
+        public void .ctor(){} // RVA: 0x7AE20D440
     }
 
-    public class UIntPtrJsonConverter
+    public class UIntPtrJsonConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x63687D0
-        public void Write(){} // RVA: 0x6368830
-        public void .ctor(){} // RVA: 0x641F6F0
+        public void Read(){} // RVA: 0x7AE154FB0
+        public void Write(){} // RVA: 0x7AE155010
+        public void .ctor(){} // RVA: 0x7AE20D480
     }
 
-    public class UIntPtrNullableJsonConverter
+    public class UIntPtrNullableJsonConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x641F730
-        public void Write(){} // RVA: 0x641F7F0
-        public void .ctor(){} // RVA: 0x641F870
+        public void Read(){} // RVA: 0x7AE20D4C0
+        public void Write(){} // RVA: 0x7AE20D580
+        public void .ctor(){} // RVA: 0x7AE20D600
     }
 
 }

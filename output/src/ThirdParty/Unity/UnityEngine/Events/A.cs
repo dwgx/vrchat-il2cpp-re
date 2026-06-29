@@ -5,25 +5,18 @@
 
 namespace ThirdParty.Unity.UnityEngine.Events
 {
-    public class ArgumentCache
+    public class ArgumentCache : Object
     {
-        public UnityEngine.Object m_ObjectArgument; // 0x10
-        public string m_ObjectArgumentAssemblyTypeName; // 0x18
-        public int m_IntArgument; // 0x20
-        public float m_FloatArgument; // 0x24
-        public string m_StringArgument; // 0x28
-        public bool m_BoolArgument; // 0x30
-
         // ── Methods ──
-        public void get_unityObjectArgument(){} // RVA: 0x33B6D40
-        public void get_unityObjectArgumentAssemblyTypeName(){} // RVA: 0x2F0F420
-        public void get_intArgument(){} // RVA: 0x43DC7A0
-        public void get_floatArgument(){} // RVA: 0x707C4C0
-        public void get_stringArgument(){} // RVA: 0x7145590
-        public void get_boolArgument(){} // RVA: 0x71455A0
-        public void OnBeforeSerialize(){} // RVA: 0x71455B0
-        public void OnAfterDeserialize(){} // RVA: 0x71455B0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_unityObjectArgument(){} // RVA: 0x7AB1AC740
+        public void get_unityObjectArgumentAssemblyTypeName(){} // RVA: 0x7AACE3A80
+        public void get_intArgument(){} // RVA: 0x7AC1CB330
+        public void get_floatArgument(){} // RVA: 0x7AEE5B530
+        public void get_stringArgument(){} // RVA: 0x7AEF244A0
+        public void get_boolArgument(){} // RVA: 0x7AEF244B0
+        public void OnBeforeSerialize(){} // RVA: 0x7AEF244C0
+        public void OnAfterDeserialize(){} // RVA: 0x7AEF244C0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

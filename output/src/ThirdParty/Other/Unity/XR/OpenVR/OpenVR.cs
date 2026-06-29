@@ -1,292 +1,238 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.XR.OpenVR
 // Classes: 13
-// Methods: 164
+// Methods: 165
 
 namespace ThirdParty.Other.Unity.XR.OpenVR
 {
-    public class HandedViveTracker
+    public class HandedViveTracker : ViveTracker
     {
-        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1C8
-        public UnityEngine.InputSystem.Controls.ButtonControl <primary>k__BackingField; // 0x1D0
-        public UnityEngine.InputSystem.Controls.ButtonControl <trackpadPressed>k__BackingField; // 0x1D8
-        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1E0
-
         // ── Methods ──
-        public void get_grip(){} // RVA: 0xA57F60
-        public void set_grip(){} // RVA: 0xD94790
-        public void get_gripPressed(){} // RVA: 0xDA62D0
-        public void set_gripPressed(){} // RVA: 0xD94E00
-        public void get_primary(){} // RVA: 0xDB3D70
-        public void set_primary(){} // RVA: 0xD86540
-        public void get_trackpadPressed(){} // RVA: 0xD9ABC0
-        public void set_trackpadPressed(){} // RVA: 0xD9A380
-        public void get_triggerPressed(){} // RVA: 0x8CBA20
-        public void set_triggerPressed(){} // RVA: 0xDB44F0
-        public void FinishSetup(){} // RVA: 0x6D7E9E0
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void get_grip(){} // RVA: 0x7A8815B70
+        public void set_grip(){} // RVA: 0x7A8B58420
+        public void get_gripPressed(){} // RVA: 0x7A8B6AFA0
+        public void set_gripPressed(){} // RVA: 0x7A8B58B30
+        public void get_primary(){} // RVA: 0x7A8B79060
+        public void set_primary(){} // RVA: 0x7A8B49820
+        public void get_trackpadPressed(){} // RVA: 0x7A8B5ED30
+        public void set_trackpadPressed(){} // RVA: 0x7A8B5E380
+        public void get_triggerPressed(){} // RVA: 0x7A8688280
+        public void set_triggerPressed(){} // RVA: 0x7A8B797E0
+        public void FinishSetup(){} // RVA: 0x7AEB6C890
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
-    public class InputLayoutLoader
+    public class InputLayoutLoader : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7071690
-        public void RegisterInputLayouts(){} // RVA: 0x70716A0
+        public void .cctor(){} // RVA: 0x7AEE506F0
+        public void RegisterInputLayouts(){} // RVA: 0x7AEE50700
     }
 
-    public class OpenVRControllerWMR
+    public class OpenVRControllerWMR : XRController
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1B0
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1B8
-        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadClick>k__BackingField; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl <touchpadTouch>k__BackingField; // 0x1C8
-        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1D0
-        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1D8
-        public UnityEngine.InputSystem.Controls.ButtonControl <menu>k__BackingField; // 0x1E0
-        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1E8
-        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1F0
-        public UnityEngine.InputSystem.Controls.Vector2Control <touchpad>k__BackingField; // 0x1F8
-        public UnityEngine.InputSystem.Controls.Vector2Control <joystick>k__BackingField; // 0x200
-
         // ── Methods ──
-        public void get_deviceVelocity(){} // RVA: 0xDA5040
-        public void set_deviceVelocity(){} // RVA: 0xD8AAB0
-        public void get_deviceAngularVelocity(){} // RVA: 0xDB2150
-        public void set_deviceAngularVelocity(){} // RVA: 0xD94B20
-        public void get_touchpadClick(){} // RVA: 0xA57F60
-        public void set_touchpadClick(){} // RVA: 0xD94790
-        public void get_touchpadTouch(){} // RVA: 0xDA62D0
-        public void set_touchpadTouch(){} // RVA: 0xD94E00
-        public void get_gripPressed(){} // RVA: 0xDB3D70
-        public void set_gripPressed(){} // RVA: 0xD86540
-        public void get_triggerPressed(){} // RVA: 0xD9ABC0
-        public void set_triggerPressed(){} // RVA: 0xD9A380
-        public void get_menu(){} // RVA: 0x8CBA20
-        public void set_menu(){} // RVA: 0xDB44F0
-        public void get_trigger(){} // RVA: 0xDB4D60
-        public void set_trigger(){} // RVA: 0xD85A20
-        public void get_grip(){} // RVA: 0xD92860
-        public void set_grip(){} // RVA: 0xD87940
-        public void get_touchpad(){} // RVA: 0xD8D540
-        public void set_touchpad(){} // RVA: 0xD9D6A0
-        public void get_joystick(){} // RVA: 0xD9E9A0
-        public void set_joystick(){} // RVA: 0xD9F490
-        public void FinishSetup(){} // RVA: 0x6D7DCF0
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void get_deviceVelocity(){} // RVA: 0x7A8B69B70
+        public void set_deviceVelocity(){} // RVA: 0x7A8B4DC50
+        public void get_deviceAngularVelocity(){} // RVA: 0x7A8B772D0
+        public void set_deviceAngularVelocity(){} // RVA: 0x7A8B58850
+        public void get_touchpadClick(){} // RVA: 0x7A8815B70
+        public void set_touchpadClick(){} // RVA: 0x7A8B58420
+        public void get_touchpadTouch(){} // RVA: 0x7A8B6AFA0
+        public void set_touchpadTouch(){} // RVA: 0x7A8B58B30
+        public void get_gripPressed(){} // RVA: 0x7A8B79060
+        public void set_gripPressed(){} // RVA: 0x7A8B49820
+        public void get_triggerPressed(){} // RVA: 0x7A8B5ED30
+        public void set_triggerPressed(){} // RVA: 0x7A8B5E380
+        public void get_menu(){} // RVA: 0x7A8688280
+        public void set_menu(){} // RVA: 0x7A8B797E0
+        public void get_trigger(){} // RVA: 0x7A8B7A210
+        public void set_trigger(){} // RVA: 0x7A8B48CD0
+        public void get_grip(){} // RVA: 0x7A8B562C0
+        public void set_grip(){} // RVA: 0x7A8B4A930
+        public void get_touchpad(){} // RVA: 0x7A8B50AF0
+        public void set_touchpad(){} // RVA: 0x7A8B61940
+        public void get_joystick(){} // RVA: 0x7A8B62DA0
+        public void set_joystick(){} // RVA: 0x7A8B63900
+        public void FinishSetup(){} // RVA: 0x7AEB6BBA0
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
-    public class OpenVREvent
+    public class OpenVREvent : UnityEvent`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x706F470
+        public void .ctor(){} // RVA: 0x7AEE4E4C0
     }
 
-    public class OpenVREvents
+    public class OpenVREvents : Object
     {
         // ── Methods ──
-        public void Initialize(){} // RVA: 0x706F500
-        public void IsInitialized(){} // RVA: 0x706F5D0
-        public void .ctor(){} // RVA: 0x706F630
-        public void RegisterDefaultEvents(){} // RVA: 0x706FA60
-        public void AddListener(){} // RVA: 0x706FB60
-        public void Add(){} // RVA: 0x706FC00
-        public void RemoveListener(){} // RVA: 0x706FDE0
-        public void Remove(){} // RVA: 0x706FEF0
-        public void Update(){} // RVA: 0x706FFB0
-        public void PollEvents(){} // RVA: 0x7070020
-        public void On_VREvent_Quit(){} // RVA: 0x70702B0
-        public void .cctor(){} // RVA: 0x70703B0
+        public void Initialize(){} // RVA: 0x7AEE4E550
+        public void IsInitialized(){} // RVA: 0x7AEE4E620
+        public void .ctor(){} // RVA: 0x7AEE4E680
+        public void RegisterDefaultEvents(){} // RVA: 0x7AEE4EAB0
+        public void AddListener(){} // RVA: 0x7AEE4EBB0
+        public void Add(){} // RVA: 0x7AEE4EC50
+        public void RemoveListener(){} // RVA: 0x7AEE4EE30
+        public void Remove(){} // RVA: 0x7AEE4EF40
+        public void Update(){} // RVA: 0x7AEE4F000
+        public void PollEvents(){} // RVA: 0x7AEE4F070
+        public void On_VREvent_Quit(){} // RVA: 0x7AEE4F300
+        public void .cctor(){} // RVA: 0x7AEE4F400
+        public void instance(){} // RVA: 0x7B2E804B0
     }
 
-    public class OpenVRHMD
+    public class OpenVRHMD : XRHMD
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1E0
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1E8
-        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyeVelocity>k__BackingField; // 0x1F0
-        public UnityEngine.InputSystem.Controls.Vector3Control <leftEyeAngularVelocity>k__BackingField; // 0x1F8
-        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyeVelocity>k__BackingField; // 0x200
-        public UnityEngine.InputSystem.Controls.Vector3Control <rightEyeAngularVelocity>k__BackingField; // 0x208
-        public UnityEngine.InputSystem.Controls.Vector3Control <centerEyeVelocity>k__BackingField; // 0x210
-        public UnityEngine.InputSystem.Controls.Vector3Control <centerEyeAngularVelocity>k__BackingField; // 0x218
-
         // ── Methods ──
-        public void get_deviceVelocity(){} // RVA: 0x8CBA20
-        public void set_deviceVelocity(){} // RVA: 0xDB44F0
-        public void get_deviceAngularVelocity(){} // RVA: 0xDB4D60
-        public void set_deviceAngularVelocity(){} // RVA: 0xD85A20
-        public void get_leftEyeVelocity(){} // RVA: 0xD92860
-        public void set_leftEyeVelocity(){} // RVA: 0xD87940
-        public void get_leftEyeAngularVelocity(){} // RVA: 0xD8D540
-        public void set_leftEyeAngularVelocity(){} // RVA: 0xD9D6A0
-        public void get_rightEyeVelocity(){} // RVA: 0xD9E9A0
-        public void set_rightEyeVelocity(){} // RVA: 0xD9F490
-        public void get_rightEyeAngularVelocity(){} // RVA: 0xD971B0
-        public void set_rightEyeAngularVelocity(){} // RVA: 0xD85210
-        public void get_centerEyeVelocity(){} // RVA: 0xD9F7C0
-        public void set_centerEyeVelocity(){} // RVA: 0xD9BA80
-        public void get_centerEyeAngularVelocity(){} // RVA: 0xD88BD0
-        public void set_centerEyeAngularVelocity(){} // RVA: 0xD9AC30
-        public void FinishSetup(){} // RVA: 0x6D7D880
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void get_deviceVelocity(){} // RVA: 0x7A8688280
+        public void set_deviceVelocity(){} // RVA: 0x7A8B797E0
+        public void get_deviceAngularVelocity(){} // RVA: 0x7A8B7A210
+        public void set_deviceAngularVelocity(){} // RVA: 0x7A8B48CD0
+        public void get_leftEyeVelocity(){} // RVA: 0x7A8B562C0
+        public void set_leftEyeVelocity(){} // RVA: 0x7A8B4A930
+        public void get_leftEyeAngularVelocity(){} // RVA: 0x7A8B50AF0
+        public void set_leftEyeAngularVelocity(){} // RVA: 0x7A8B61940
+        public void get_rightEyeVelocity(){} // RVA: 0x7A8B62DA0
+        public void set_rightEyeVelocity(){} // RVA: 0x7A8B63900
+        public void get_rightEyeAngularVelocity(){} // RVA: 0x7A8B5B150
+        public void set_rightEyeAngularVelocity(){} // RVA: 0x7A8B48310
+        public void get_centerEyeVelocity(){} // RVA: 0x7A8B63C30
+        public void set_centerEyeVelocity(){} // RVA: 0x7A8B5FB80
+        public void get_centerEyeAngularVelocity(){} // RVA: 0x7A8B4BD50
+        public void set_centerEyeAngularVelocity(){} // RVA: 0x7A8B5EDA0
+        public void FinishSetup(){} // RVA: 0x7AEB6B730
+        public void .ctor(){} // RVA: 0x7AEB6BB90
+        public void <deviceVelocity>k__BackingField(){} // RVA: 0x7B4177678
     }
 
-    public class OpenVRHelpers
+    public class OpenVRHelpers : Object
     {
         // ── Methods ──
-        public void IsUsingSteamVRInput(){} // RVA: 0x7070400
-        public void DoesTypeExist(){} // RVA: 0x7070480
-        public void GetType(){} // RVA: 0x70704F0
-        public void GetActionManifestPathFromPlugin(){} // RVA: 0x7070D80
-        public void GetActionManifestNameFromPlugin(){} // RVA: 0x7071020
-        public void GetEditorAppKeyFromPlugin(){} // RVA: 0x7071180
-        public void .ctor(){} // RVA: 0x2DD310
+        public void IsUsingSteamVRInput(){} // RVA: 0x7AEE4F450
+        public void DoesTypeExist(){} // RVA: 0x7AEE4F4D0
+        public void GetType(){} // RVA: 0x7AEE4F540
+        public void GetActionManifestPathFromPlugin(){} // RVA: 0x7AEE4FDE0
+        public void GetActionManifestNameFromPlugin(){} // RVA: 0x7AEE50080
+        public void GetEditorAppKeyFromPlugin(){} // RVA: 0x7AEE501E0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class OpenVRLoader
+    public class OpenVRLoader : XRLoaderHelper
     {
-        public System.Collections.Generic.List`1<UnityEngine.XR.XRDisplaySubsystemDescriptor> s_DisplaySubsystemDescriptors;
-        public System.Collections.Generic.List`1<UnityEngine.XR.XRInputSubsystemDescriptor> s_InputSubsystemDescriptors; // 0x8
-
         // ── Methods ──
-        public void get_displaySubsystem(){} // RVA: 0x7072A20
-        public void get_inputSubsystem(){} // RVA: 0x7072AB0
-        public void Initialize(){} // RVA: 0x7072B40
-        public void GetEscapedApplicationName(){} // RVA: 0x70730A0
-        public void WatchForReload(){} // RVA: 0x2DD310
-        public void CleanupReloadWatcher(){} // RVA: 0x2DD310
-        public void Start(){} // RVA: 0x7073230
-        public void SetupFileSystemWatchers(){} // RVA: 0x70733F0
-        public void SetupFileSystemWatcher(){} // RVA: 0x70733F0
-        public void ManualFileWatcherLoop(){} // RVA: 0x7073550
-        public void DestroyMirrorModeWatcher(){} // RVA: 0x70736A0
-        public void OnChanged(){} // RVA: 0x7073760
-        public void ReadMirrorModeConfig(){} // RVA: 0x7073770
-        public void Stop(){} // RVA: 0x7073E00
-        public void Deinitialize(){} // RVA: 0x7073EE0
-        public void CleanupTick(){} // RVA: 0x7073FB0
-        public void SetUserDefinedSettings(){} // RVA: 0x7074000
-        public void GetInitializationResult(){} // RVA: 0x7074130
-        public void RegisterTickCallback(){} // RVA: 0x70741A0
-        public void TickCallback(){} // RVA: 0x7074230
-        public void .ctor(){} // RVA: 0x704BD10
-        public void .cctor(){} // RVA: 0x70742D0
+        public void get_displaySubsystem(){} // RVA: 0x7AEE51A80
+        public void get_inputSubsystem(){} // RVA: 0x7AEE51B10
+        public void Initialize(){} // RVA: 0x7AEE51BA0
+        public void GetEscapedApplicationName(){} // RVA: 0x7AEE52100
+        public void WatchForReload(){} // RVA: 0x7A80D7310
+        public void CleanupReloadWatcher(){} // RVA: 0x7A80D7310
+        public void Start(){} // RVA: 0x7AEE52290
+        public void SetupFileSystemWatchers(){} // RVA: 0x7AEE52450
+        public void SetupFileSystemWatcher(){} // RVA: 0x7AEE52450
+        public void ManualFileWatcherLoop(){} // RVA: 0x7AEE525B0
+        public void DestroyMirrorModeWatcher(){} // RVA: 0x7AEE52700
+        public void OnChanged(){} // RVA: 0x7AEE527C0
+        public void ReadMirrorModeConfig(){} // RVA: 0x7AEE527D0
+        public void Stop(){} // RVA: 0x7AEE52E60
+        public void Deinitialize(){} // RVA: 0x7AEE52F40
+        public void CleanupTick(){} // RVA: 0x7AEE53010
+        public void SetUserDefinedSettings(){} // RVA: 0x7AEE53060
+        public void GetInitializationResult(){} // RVA: 0x7AEE53190
+        public void RegisterTickCallback(){} // RVA: 0x7AEE53200
+        public void TickCallback(){} // RVA: 0x7AEE53290
+        public void .ctor(){} // RVA: 0x7AEE2AD00
+        public void .cctor(){} // RVA: 0x7AEE53330
     }
 
-    public class OpenVROculusTouchController
+    public class OpenVROculusTouchController : XRControllerWithRumble
     {
-        public UnityEngine.InputSystem.Controls.Vector2Control <thumbstick>k__BackingField; // 0x1B0
-        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1B8
-        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl <primaryButton>k__BackingField; // 0x1C8
-        public UnityEngine.InputSystem.Controls.ButtonControl <secondaryButton>k__BackingField; // 0x1D0
-        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1D8
-        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1E0
-        public UnityEngine.InputSystem.Controls.ButtonControl <thumbstickClicked>k__BackingField; // 0x1E8
-        public UnityEngine.InputSystem.Controls.ButtonControl <thumbstickTouched>k__BackingField; // 0x1F0
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1F8
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x200
-
         // ── Methods ──
-        public void get_thumbstick(){} // RVA: 0xDA5040
-        public void set_thumbstick(){} // RVA: 0xD8AAB0
-        public void get_trigger(){} // RVA: 0xDB2150
-        public void set_trigger(){} // RVA: 0xD94B20
-        public void get_grip(){} // RVA: 0xA57F60
-        public void set_grip(){} // RVA: 0xD94790
-        public void get_primaryButton(){} // RVA: 0xDA62D0
-        public void set_primaryButton(){} // RVA: 0xD94E00
-        public void get_secondaryButton(){} // RVA: 0xDB3D70
-        public void set_secondaryButton(){} // RVA: 0xD86540
-        public void get_gripPressed(){} // RVA: 0xD9ABC0
-        public void set_gripPressed(){} // RVA: 0xD9A380
-        public void get_triggerPressed(){} // RVA: 0x8CBA20
-        public void set_triggerPressed(){} // RVA: 0xDB44F0
-        public void get_thumbstickClicked(){} // RVA: 0xDB4D60
-        public void set_thumbstickClicked(){} // RVA: 0xD85A20
-        public void get_thumbstickTouched(){} // RVA: 0xD92860
-        public void set_thumbstickTouched(){} // RVA: 0xD87940
-        public void get_deviceVelocity(){} // RVA: 0xD8D540
-        public void set_deviceVelocity(){} // RVA: 0xD9D6A0
-        public void get_deviceAngularVelocity(){} // RVA: 0xD9E9A0
-        public void set_deviceAngularVelocity(){} // RVA: 0xD9F490
-        public void FinishSetup(){} // RVA: 0x6D7EDF0
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void get_thumbstick(){} // RVA: 0x7A8B69B70
+        public void set_thumbstick(){} // RVA: 0x7A8B4DC50
+        public void get_trigger(){} // RVA: 0x7A8B772D0
+        public void set_trigger(){} // RVA: 0x7A8B58850
+        public void get_grip(){} // RVA: 0x7A8815B70
+        public void set_grip(){} // RVA: 0x7A8B58420
+        public void get_primaryButton(){} // RVA: 0x7A8B6AFA0
+        public void set_primaryButton(){} // RVA: 0x7A8B58B30
+        public void get_secondaryButton(){} // RVA: 0x7A8B79060
+        public void set_secondaryButton(){} // RVA: 0x7A8B49820
+        public void get_gripPressed(){} // RVA: 0x7A8B5ED30
+        public void set_gripPressed(){} // RVA: 0x7A8B5E380
+        public void get_triggerPressed(){} // RVA: 0x7A8688280
+        public void set_triggerPressed(){} // RVA: 0x7A8B797E0
+        public void get_thumbstickClicked(){} // RVA: 0x7A8B7A210
+        public void set_thumbstickClicked(){} // RVA: 0x7A8B48CD0
+        public void get_thumbstickTouched(){} // RVA: 0x7A8B562C0
+        public void set_thumbstickTouched(){} // RVA: 0x7A8B4A930
+        public void get_deviceVelocity(){} // RVA: 0x7A8B50AF0
+        public void set_deviceVelocity(){} // RVA: 0x7A8B61940
+        public void get_deviceAngularVelocity(){} // RVA: 0x7A8B62DA0
+        public void set_deviceAngularVelocity(){} // RVA: 0x7A8B63900
+        public void FinishSetup(){} // RVA: 0x7AEB6CCA0
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
-    public class OpenVRSettings
+    public class OpenVRSettings : ScriptableObject
     {
         // ── Methods ──
-        public void GetStreamingSteamVRPath(){} // RVA: 0x70744F0
-        public void CreateDirectory(){} // RVA: 0x7074690
-        public void GetStereoRenderingMode(){} // RVA: 0x44B97F0
-        public void GetInitializationType(){} // RVA: 0x63BB790
-        public void GetMirrorViewMode(){} // RVA: 0x37E080
-        public void SetMirrorViewMode(){} // RVA: 0x7074DC0 | overloaded x2
-        public void GenerateEditorAppKey(){} // RVA: 0x7074730
-        public void CleanProductName(){} // RVA: 0x70748A0
-        public void GetSettings(){} // RVA: 0x7074CA0
-        public void InitializeActionManifestFileRelativeFilePath(){} // RVA: 0x7074E40
-        public void Awake(){} // RVA: 0x70751C0
-        public void .ctor(){} // RVA: 0x7075260
+        public void GetStreamingSteamVRPath(){} // RVA: 0x7AEE53550
+        public void CreateDirectory(){} // RVA: 0x7AEE536F0
+        public void GetStereoRenderingMode(){} // RVA: 0x7AC2A83C0
+        public void GetInitializationType(){} // RVA: 0x7AE1A86C0
+        public void GetMirrorViewMode(){} // RVA: 0x7A8178B30
+        public void SetMirrorViewMode(){} // RVA: 0x7AEE53E20
+        public void GenerateEditorAppKey(){} // RVA: 0x7AEE53790
+        public void CleanProductName(){} // RVA: 0x7AEE53900
+        public void GetSettings(){} // RVA: 0x7AEE53D00
+        public void InitializeActionManifestFileRelativeFilePath(){} // RVA: 0x7AEE53EA0
+        public void Awake(){} // RVA: 0x7AEE54220
+        public void .ctor(){} // RVA: 0x7AEE542C0
     }
 
-    public class ViveLighthouse
+    public class ViveLighthouse : TrackedDevice
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
-    public class ViveTracker
+    public class ViveTracker : TrackedDevice
     {
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1B0
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1B8
-
         // ── Methods ──
-        public void get_deviceVelocity(){} // RVA: 0xDA5040
-        public void set_deviceVelocity(){} // RVA: 0xD8AAB0
-        public void get_deviceAngularVelocity(){} // RVA: 0xDB2150
-        public void set_deviceAngularVelocity(){} // RVA: 0xD94B20
-        public void FinishSetup(){} // RVA: 0x6D7E890
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void get_deviceVelocity(){} // RVA: 0x7A8B69B70
+        public void set_deviceVelocity(){} // RVA: 0x7A8B4DC50
+        public void get_deviceAngularVelocity(){} // RVA: 0x7A8B772D0
+        public void set_deviceAngularVelocity(){} // RVA: 0x7A8B58850
+        public void FinishSetup(){} // RVA: 0x7AEB6C740
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
-    public class ViveWand
+    public class ViveWand : XRControllerWithRumble
     {
-        public UnityEngine.InputSystem.Controls.AxisControl <grip>k__BackingField; // 0x1B0
-        public UnityEngine.InputSystem.Controls.ButtonControl <gripPressed>k__BackingField; // 0x1B8
-        public UnityEngine.InputSystem.Controls.ButtonControl <primary>k__BackingField; // 0x1C0
-        public UnityEngine.InputSystem.Controls.ButtonControl <trackpadPressed>k__BackingField; // 0x1C8
-        public UnityEngine.InputSystem.Controls.ButtonControl <trackpadTouched>k__BackingField; // 0x1D0
-        public UnityEngine.InputSystem.Controls.Vector2Control <trackpad>k__BackingField; // 0x1D8
-        public UnityEngine.InputSystem.Controls.AxisControl <trigger>k__BackingField; // 0x1E0
-        public UnityEngine.InputSystem.Controls.ButtonControl <triggerPressed>k__BackingField; // 0x1E8
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceVelocity>k__BackingField; // 0x1F0
-        public UnityEngine.InputSystem.Controls.Vector3Control <deviceAngularVelocity>k__BackingField; // 0x1F8
-
         // ── Methods ──
-        public void get_grip(){} // RVA: 0xDA5040
-        public void set_grip(){} // RVA: 0xD8AAB0
-        public void get_gripPressed(){} // RVA: 0xDB2150
-        public void set_gripPressed(){} // RVA: 0xD94B20
-        public void get_primary(){} // RVA: 0xA57F60
-        public void set_primary(){} // RVA: 0xD94790
-        public void get_trackpadPressed(){} // RVA: 0xDA62D0
-        public void set_trackpadPressed(){} // RVA: 0xD94E00
-        public void get_trackpadTouched(){} // RVA: 0xDB3D70
-        public void set_trackpadTouched(){} // RVA: 0xD86540
-        public void get_trackpad(){} // RVA: 0xD9ABC0
-        public void set_trackpad(){} // RVA: 0xD9A380
-        public void get_trigger(){} // RVA: 0x8CBA20
-        public void set_trigger(){} // RVA: 0xDB44F0
-        public void get_triggerPressed(){} // RVA: 0xDB4D60
-        public void set_triggerPressed(){} // RVA: 0xD85A20
-        public void get_deviceVelocity(){} // RVA: 0xD92860
-        public void set_deviceVelocity(){} // RVA: 0xD87940
-        public void get_deviceAngularVelocity(){} // RVA: 0xD8D540
-        public void set_deviceAngularVelocity(){} // RVA: 0xD9D6A0
-        public void FinishSetup(){} // RVA: 0x6D7E300
-        public void .ctor(){} // RVA: 0x6D7DCE0
+        public void get_grip(){} // RVA: 0x7A8B69B70
+        public void set_grip(){} // RVA: 0x7A8B4DC50
+        public void get_gripPressed(){} // RVA: 0x7A8B772D0
+        public void set_gripPressed(){} // RVA: 0x7A8B58850
+        public void get_primary(){} // RVA: 0x7A8815B70
+        public void set_primary(){} // RVA: 0x7A8B58420
+        public void get_trackpadPressed(){} // RVA: 0x7A8B6AFA0
+        public void set_trackpadPressed(){} // RVA: 0x7A8B58B30
+        public void get_trackpadTouched(){} // RVA: 0x7A8B79060
+        public void set_trackpadTouched(){} // RVA: 0x7A8B49820
+        public void get_trackpad(){} // RVA: 0x7A8B5ED30
+        public void set_trackpad(){} // RVA: 0x7A8B5E380
+        public void get_trigger(){} // RVA: 0x7A8688280
+        public void set_trigger(){} // RVA: 0x7A8B797E0
+        public void get_triggerPressed(){} // RVA: 0x7A8B7A210
+        public void set_triggerPressed(){} // RVA: 0x7A8B48CD0
+        public void get_deviceVelocity(){} // RVA: 0x7A8B562C0
+        public void set_deviceVelocity(){} // RVA: 0x7A8B4A930
+        public void get_deviceAngularVelocity(){} // RVA: 0x7A8B50AF0
+        public void set_deviceAngularVelocity(){} // RVA: 0x7A8B61940
+        public void FinishSetup(){} // RVA: 0x7AEB6C1B0
+        public void .ctor(){} // RVA: 0x7AEB6BB90
     }
 
 }

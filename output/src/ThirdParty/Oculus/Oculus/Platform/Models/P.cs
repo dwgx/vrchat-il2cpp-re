@@ -5,77 +5,74 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class Party
+    public class Party : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EE8E0
+        public void .ctor(){} // RVA: 0x7ADEDABD0
     }
 
-    public class PartyID
+    public class PartyID : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EF030
+        public void .ctor(){} // RVA: 0x7ADEDB320
     }
 
-    public class PartyUpdateNotification
+    public class PartyUpdateNotification : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EF0F0
+        public void .ctor(){} // RVA: 0x7ADEDB3E0
     }
 
-    public class Pid
+    public class Pid : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EF590
+        public void .ctor(){} // RVA: 0x7ADEDB8A0
     }
 
-    public class PidList
+    public class PidList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EF6E0
+        public void .ctor(){} // RVA: 0x7ADEDB9F0
     }
 
-    public class PingResult
+    public class PingResult : Object
     {
-        public ulong <ID>k__BackingField; // 0x10
-        public System.Nullable`1<ulong> pingTimeUsec; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EFAE0
-        public void get_ID(){} // RVA: 0x2F8380
-        public void set_ID(){} // RVA: 0x1967700
-        public void get_PingTimeUsec(){} // RVA: 0x60EFAF0
-        public void get_IsTimeout(){} // RVA: 0x60EFB50
+        public void .ctor(){} // RVA: 0x7ADEDBDE0
+        public void get_ID(){} // RVA: 0x7A80F2570
+        public void set_ID(){} // RVA: 0x7A97242F0
+        public void get_PingTimeUsec(){} // RVA: 0x7ADEDBDF0
+        public void get_IsTimeout(){} // RVA: 0x7ADEDBE50
     }
 
-    public class PlatformInitialize
+    public class PlatformInitialize : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EFB90
+        public void .ctor(){} // RVA: 0x7ADEDBE90
     }
 
-    public class Product
+    public class Product : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EFC50
+        public void .ctor(){} // RVA: 0x7ADEDBF50
     }
 
-    public class ProductList
+    public class ProductList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F0080
+        public void .ctor(){} // RVA: 0x7ADEDC390
     }
 
-    public class Purchase
+    public class Purchase : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F0470
+        public void .ctor(){} // RVA: 0x7ADEDC770
     }
 
-    public class PurchaseList
+    public class PurchaseList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60F09D0
+        public void .ctor(){} // RVA: 0x7ADEDCCE0
     }
 
 }

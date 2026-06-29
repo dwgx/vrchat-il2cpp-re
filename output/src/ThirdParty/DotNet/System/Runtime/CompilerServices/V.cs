@@ -1,96 +1,83 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Runtime.CompilerServices
 // Classes: 8
-// Methods: 34
+// Methods: 35
 
 namespace ThirdParty.DotNet.System.Runtime.CompilerServices
 {
-    public class ValueTaskAwaiter
+    public class ValueTaskAwaiter : ValueType
     {
-        public System.Action`1<object> s_invokeActionDelegate;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1F7E940
-        public void get_IsCompleted(){} // RVA: 0x5D45430
-        public void GetResult(){} // RVA: 0x5D45480
-        public void OnCompleted(){} // RVA: 0x5D454D0
-        public void UnsafeOnCompleted(){} // RVA: 0x5D45760
-        public void .cctor(){} // RVA: 0x5D459F0
+        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void get_IsCompleted(){} // RVA: 0x7A7E32060
+        public void GetResult(){} // RVA: 0x7A7E320B0
+        public void OnCompleted(){} // RVA: 0x7A7E32100
+        public void UnsafeOnCompleted(){} // RVA: 0x7A7E32110
+        public void .cctor(){} // RVA: 0x7ADB33C80
     }
 
-    public class ValueTaskAwaiter
+    public class ValueTaskAwaiter : ValueType
     {
-        public System.Action`1<object> s_invokeActionDelegate;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1F7E940
-        public void get_IsCompleted(){} // RVA: 0x636A9B0
-        public void GetResult(){} // RVA: 0x636AA00
-        public void OnCompleted(){} // RVA: 0x636AA50
-        public void UnsafeOnCompleted(){} // RVA: 0x636ACE0
-        public void .cctor(){} // RVA: 0x636AF70
+        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void get_IsCompleted(){} // RVA: 0x7A7E73540
+        public void GetResult(){} // RVA: 0x7A7E73590
+        public void OnCompleted(){} // RVA: 0x7A7E735E0
+        public void UnsafeOnCompleted(){} // RVA: 0x7A7E735F0
+        public void .cctor(){} // RVA: 0x7AE1576E0
     }
 
-    public class ValueTaskAwaiter`1 : IsCompleted
+    public class ValueTaskAwaiter`1 : ValueType
     {
-        public System.Threading.Tasks.ValueTask`1<T> _value;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void get_IsCompleted(){} // RVA: 0xDBE0
-        public void GetResult(){} // RVA: 0x283FA0
-        public void OnCompleted(){} // RVA: 0x24B10
-        public void UnsafeOnCompleted(){} // RVA: 0x24B10
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void get_IsCompleted(){} // RVA: 0x7A7E01900
+        public void GetResult(){} // RVA: 0x7A8051B10
+        public void OnCompleted(){} // RVA: 0x7A7E18800
+        public void UnsafeOnCompleted(){} // RVA: 0x7A7E18800
     }
 
-    public class ValueTaskAwaiter`1
+    public class ValueTaskAwaiter`1 : ValueType
     {
-        public System.Threading.Tasks.ValueTask`1<System.Exception> _value; // 0x10
-
         // ── Methods ──
-        public void OnCompleted(){} // RVA: 0x24B10
-        public void UnsafeOnCompleted(){} // RVA: 0x24B10
+        public void OnCompleted(){} // RVA: 0x7A7E18800
+        public void UnsafeOnCompleted(){} // RVA: 0x7A7E18800
     }
 
-    public class ValueTaskAwaiter`1
+    public class ValueTaskAwaiter`1 : ValueType
     {
-        public System.Threading.Tasks.ValueTask`1<System.ValueTuple`3<bool,string,UnityEngine.Texture2D>> _value; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2878D50
-        public void get_IsCompleted(){} // RVA: 0x2AC9EF0
-        public void GetResult(){} // RVA: 0x2AC9F30
-        public void OnCompleted(){} // RVA: 0x469B250
-        public void UnsafeOnCompleted(){} // RVA: 0x469B500
+        public void .ctor(){} // RVA: 0x7A77DC300
+        public void get_IsCompleted(){} // RVA: 0x7A77DEDB0
+        public void GetResult(){} // RVA: 0x7A77DEDF0
+        public void OnCompleted(){} // RVA: 0x7A7B49740
+        public void UnsafeOnCompleted(){} // RVA: 0x7A7B49750
     }
 
-    public class ValueTaskAwaiter`1
+    public class ValueTaskAwaiter`1 : ValueType
     {
-        public System.Threading.Tasks.ValueTask`1<bool> _value; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1F7E940
-        public void get_IsCompleted(){} // RVA: 0x2B33E80
-        public void GetResult(){} // RVA: 0x2B4A620
-        public void OnCompleted(){} // RVA: 0x46A1310
-        public void UnsafeOnCompleted(){} // RVA: 0x46A15C0
+        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void get_IsCompleted(){} // RVA: 0x7A77E53B0
+        public void GetResult(){} // RVA: 0x7A77E6B50
+        public void OnCompleted(){} // RVA: 0x7A7B49980
+        public void UnsafeOnCompleted(){} // RVA: 0x7A7B49990
     }
 
-    public class ValueTaskAwaiter`1
+    public class ValueTaskAwaiter`1 : ValueType
     {
-        public System.Threading.Tasks.ValueTask`1<int> _value; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1F7E940
-        public void get_IsCompleted(){} // RVA: 0x2B07B80
-        public void GetResult(){} // RVA: 0x2B07BC0
-        public void OnCompleted(){} // RVA: 0x46A5390
-        public void UnsafeOnCompleted(){} // RVA: 0x46A5640
+        public void .ctor(){} // RVA: 0x7A76BA6C0
+        public void get_IsCompleted(){} // RVA: 0x7A77E35C0
+        public void GetResult(){} // RVA: 0x7A77E3600
+        public void OnCompleted(){} // RVA: 0x7A7B49B00
+        public void UnsafeOnCompleted(){} // RVA: 0x7A7B49B10
     }
 
-    public class ValueTaskAwaiter`1
+    public class ValueTaskAwaiter`1 : ValueType
     {
-        public System.Threading.Tasks.ValueTask`1<System.Exception> _value; // 0x10
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76FC390
     }
 
 }

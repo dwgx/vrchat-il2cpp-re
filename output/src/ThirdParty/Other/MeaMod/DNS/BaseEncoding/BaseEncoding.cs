@@ -5,71 +5,62 @@
 
 namespace ThirdParty.Other.MeaMod.DNS.BaseEncoding
 {
-    public class Base16
+    public class Base16 : Object
     {
         // ── Methods ──
-        public void EncodeUpper(){} // RVA: 0x5AD0F40
-        public void EncodeLower(){} // RVA: 0x5AD0F90
-        public void encode(){} // RVA: 0x5AD0FE0
-        public void Decode(){} // RVA: 0x5AD11D0
-        public void getHexByte(){} // RVA: 0x5AD14A0
+        public void EncodeUpper(){} // RVA: 0x7AD8BE5E0
+        public void EncodeLower(){} // RVA: 0x7AD8BE630
+        public void encode(){} // RVA: 0x7AD8BE680
+        public void Decode(){} // RVA: 0x7AD8BE870
+        public void getHexByte(){} // RVA: 0x7AD8BEB40
     }
 
-    public class Base32
+    public class Base32 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Encode(){} // RVA: 0x5AD1550
-        public void Decode(){} // RVA: 0x5AD1810
-        public void .cctor(){} // RVA: 0x5AD1AA0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Encode(){} // RVA: 0x7AD8BEC00
+        public void Decode(){} // RVA: 0x7AD8BEEB0
+        public void .cctor(){} // RVA: 0x7AD8BF140
     }
 
-    public class Base32Alphabet
+    public class Base32Alphabet : EncodingAlphabet
     {
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.CrockfordBase32Alphabet> Length;
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> Value; // 0x8
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> extendedHexAlphabet; // 0x10
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> zBase32Alphabet; // 0x18
-        public System.Lazy`1<MeaMod.DNS.BaseEncoding.Base32Alphabet> geohashAlphabet; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AD1EC0
-        public void get_Crockford(){} // RVA: 0x5AD2030
-        public void get_Rfc4648(){} // RVA: 0x5AD20B0
-        public void get_ExtendedHex(){} // RVA: 0x5AD2130
-        public void get_ZBase32(){} // RVA: 0x5AD21B0
-        public void get_Geohash(){} // RVA: 0x5AD2230
-        public void mapLowerCaseCounterparts(){} // RVA: 0x5AD22B0
-        public void .cctor(){} // RVA: 0x5AD23C0
+        public void .ctor(){} // RVA: 0x7AD8BF560
+        public void get_Crockford(){} // RVA: 0x7AD8BF6D0
+        public void get_Rfc4648(){} // RVA: 0x7AD8BF750
+        public void get_ExtendedHex(){} // RVA: 0x7AD8BF7D0
+        public void get_ZBase32(){} // RVA: 0x7AD8BF850
+        public void get_Geohash(){} // RVA: 0x7AD8BF8D0
+        public void mapLowerCaseCounterparts(){} // RVA: 0x7AD8BF950
+        public void .cctor(){} // RVA: 0x7AD8BFA60
     }
 
-    public class CrockfordBase32Alphabet
+    public class CrockfordBase32Alphabet : Base32Alphabet
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5AD2C90
-        public void mapAlternate(){} // RVA: 0x5AD2D40
+        public void .ctor(){} // RVA: 0x7AD8C0330
+        public void mapAlternate(){} // RVA: 0x7AD8C03E0
     }
 
-    public class EncodingAlphabet
+    public class EncodingAlphabet : Object
     {
-        public int <Length>k__BackingField; // 0x10
-        public string <Value>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_Length(){} // RVA: 0x32A5C0
-        public void set_Length(){} // RVA: 0x2E00C0
-        public void get_Value(){} // RVA: 0x2E07C0
-        public void set_Value(){} // RVA: 0x343E80
-        public void InvalidCharacter(){} // RVA: 0x5AD2DF0
-        public void .ctor(){} // RVA: 0x5AD2EE0
-        public void Map(){} // RVA: 0x5AD3190
-        public void ToString(){} // RVA: 0x2E07C0
+        public void get_Length(){} // RVA: 0x7A8124910
+        public void set_Length(){} // RVA: 0x7A80DA0C0
+        public void get_Value(){} // RVA: 0x7A80DA7B0
+        public void set_Value(){} // RVA: 0x7A813E420
+        public void InvalidCharacter(){} // RVA: 0x7AD8C0490
+        public void .ctor(){} // RVA: 0x7AD8C0580
+        public void Map(){} // RVA: 0x7AD8C0830
+        public void ToString(){} // RVA: 0x7A80DA7B0
     }
 
-    public class Require
+    public class Require : Object
     {
         // ── Methods ──
-        public void NotNull(){} // RVA: 0x283FA0
+        public void NotNull(){} // RVA: 0x7A8051B10
     }
 
 }

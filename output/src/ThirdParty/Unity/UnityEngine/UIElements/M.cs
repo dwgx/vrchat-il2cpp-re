@@ -1,1054 +1,866 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
-// Classes: 45
-// Methods: 688
+// Classes: 44
+// Methods: 638
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class Manipulator
-    {
-        public UnityEngine.UIElements.VisualElement m_Target; // 0x10
-
-        // ── Methods ──
-        public void RegisterCallbacksOnTarget(){} // RVA: 0x24A50
-        public void UnregisterCallbacksFromTarget(){} // RVA: 0x24A50
-        public void get_target(){} // RVA: 0x33B6D40
-        public void set_target(){} // RVA: 0x740DDF0
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class ManipulatorActivationFilter
-    {
-        public 0x6583AA30 <button>k__BackingField; // 0x10
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x14
-        public int <clickCount>k__BackingField; // 0x18
-
-        // ── Methods ──
-        public void get_button(){} // RVA: 0x19689B0
-        public void set_button(){} // RVA: 0x833580
-        public void get_modifiers(){} // RVA: 0x19689E0
-        public void set_modifiers(){} // RVA: 0x19689D0
-        public void get_clickCount(){} // RVA: 0x1EA9890
-        public void Equals(){} // RVA: 0x7158AE0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x740D9C0
-        public void Matches(){} // RVA: 0x740DBA0 | overloaded x2
-        public void HasModifiers(){} // RVA: 0x740DC70 | overloaded x2
-        public void MatchModifiers(){} // RVA: 0x740DD60
-    }
-
-    public class MeshBuilderNative
+    public class Manipulator : Object
     {
         // ── Methods ──
-        public void MakeBorder(){} // RVA: 0x740E680
-        public void MakeSolidRect(){} // RVA: 0x740E700
-        public void MakeTexturedRect(){} // RVA: 0x740E780
-        public void MakeVectorGraphicsStretchBackground(){} // RVA: 0x740E800
-        public void MakeVectorGraphics9SliceBackground(){} // RVA: 0x740E910
-        public void MakeBorder_Injected(){} // RVA: 0x740E9F0
-        public void MakeSolidRect_Injected(){} // RVA: 0x740EA60
-        public void MakeTexturedRect_Injected(){} // RVA: 0x740EAD0
-        public void MakeVectorGraphicsStretchBackground_Injected(){} // RVA: 0x740EB40
-        public void MakeVectorGraphics9SliceBackground_Injected(){} // RVA: 0x740EBD0
+        public void RegisterCallbacksOnTarget(){} // RVA: 0x7A7E18770
+        public void UnregisterCallbacksFromTarget(){} // RVA: 0x7A7E18770
+        public void get_target(){} // RVA: 0x7AB1AC740
+        public void set_target(){} // RVA: 0x7AF1ECED0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MeshGenerationContext
-    {
-        public UnityEngine.UIElements.Painter2D isPainterActive; // 0x10
-        public Unity.Profiling.ProfilerMarker maxArcRadius;
-
-        // ── Methods ──
-        public void get_painter2D(){} // RVA: 0x7435E10
-        public void get_hasPainter2D(){} // RVA: 0xF01170
-        public void .ctor(){} // RVA: 0x343E80
-        public void .cctor(){} // RVA: 0x7435EC0
-    }
-
-    public class MeshGenerationContextUtils
+    public class ManipulatorActivationFilter : ValueType
     {
         // ── Methods ──
-        public void Rectangle(){} // RVA: 0x7432DC0
-        public void Text(){} // RVA: 0x7432F20
-        public void ConvertBorderRadiusPercentToPoints(){} // RVA: 0x7432FF0
-        public void GetVisualElementRadii(){} // RVA: 0x7433050
-        public void AdjustBackgroundSizeForBorders(){} // RVA: 0x7433300
+        public void get_button(){} // RVA: 0x7A765F070
+        public void set_button(){} // RVA: 0x7A76134D0
+        public void get_modifiers(){} // RVA: 0x7A765F0A0
+        public void set_modifiers(){} // RVA: 0x7A765F090
+        public void get_clickCount(){} // RVA: 0x7A75FEFA0
+        public void Equals(){} // RVA: 0x7A7F02CC0
+        public void GetHashCode(){} // RVA: 0x7A7F02D00
+        public void Matches(){} // RVA: 0x7A7F02D40
+        public void HasModifiers(){} // RVA: 0x7A7F02D50
+        public void MatchModifiers(){} // RVA: 0x7A7F02D60
     }
 
-    public class MeshWriteData
-    {
-        public Unity.Collections.NativeSlice`1<UnityEngine.UIElements.Vertex> m_Vertices; // 0x10
-        public Unity.Collections.NativeSlice`1<ushort> m_Indices; // 0x20
-        public UnityEngine.Rect m_UVRegion; // 0x30
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_vertexCount(){} // RVA: 0x7432960
-        public void get_indexCount(){} // RVA: 0x74329A0
-        public void get_uvRegion(){} // RVA: 0x715F860
-        public void SetNextVertex(){} // RVA: 0x74329E0
-        public void SetNextIndex(){} // RVA: 0x7432A90
-        public void SetAllVertices(){} // RVA: 0x7432B20
-        public void SetAllIndices(){} // RVA: 0x7432BE0
-        public void Reset(){} // RVA: 0x7432CD0 | overloaded x2
-    }
-
-    public class MeshWriteDataInterface
-    {
-    }
-
-    public class MinMaxSlider
-    {
-        public UnityEngine.UIElements.VisualElement <dragElement>k__BackingField; // 0x440
-        public UnityEngine.UIElements.VisualElement <dragMinThumb>k__BackingField; // 0x448
-        public UnityEngine.UIElements.VisualElement <dragMaxThumb>k__BackingField; // 0x450
-        public UnityEngine.UIElements.ClampedDragger`1<float> <clampedDragger>k__BackingField; // 0x458
-        public UnityEngine.Vector2 m_DragElementStartPos; // 0x460
-        public UnityEngine.Vector2 m_ValueStartPos; // 0x468
-        public UnityEngine.Rect m_DragMinThumbRect; // 0x470
-        public UnityEngine.Rect m_DragMaxThumbRect; // 0x480
-        public 0x65832EC8 m_DragState; // 0x490
-
-        // ── Methods ──
-        public void get_dragElement(){} // RVA: 0xD8EF30
-        public void set_dragElement(){} // RVA: 0xD95C40
-        public void get_dragMinThumb(){} // RVA: 0xD9A100
-        public void set_dragMinThumb(){} // RVA: 0xDA31D0
-        public void get_dragMaxThumb(){} // RVA: 0xD961C0
-        public void set_dragMaxThumb(){} // RVA: 0xD8C530
-        public void get_clampedDragger(){} // RVA: 0xDA8310
-        public void set_clampedDragger(){} // RVA: 0xD973F0
-        public void get_minValue(){} // RVA: 0x73A83B0
-        public void set_minValue(){} // RVA: 0x73A83E0
-        public void get_maxValue(){} // RVA: 0x73A8460
-        public void set_maxValue(){} // RVA: 0x73A8490
-        public void get_value(){} // RVA: 0x73A8510
-        public void set_value(){} // RVA: 0x73A8560
-        public void SetValueWithoutNotify(){} // RVA: 0x73A85C0
-        public void get_lowLimit(){} // RVA: 0x73A8630
-        public void set_lowLimit(){} // RVA: 0x73A8640
-        public void get_highLimit(){} // RVA: 0x73A8740
-        public void set_highLimit(){} // RVA: 0x73A8750
-        public void .ctor(){} // RVA: 0x73A8890 | overloaded x2
-        public void ClampValues(){} // RVA: 0x73A9190
-        public void UpdateDragElementPosition(){} // RVA: 0x73A9290 | overloaded x2
-        public void SliderLerpUnclamped(){} // RVA: 0x73A9FC0
-        public void SliderNormalizeValue(){} // RVA: 0x73A9FE0
-        public void ComputeValueFromPosition(){} // RVA: 0x73AA000
-        public void ExecuteDefaultAction(){} // RVA: 0x73AA120
-        public void SetSliderValueFromDrag(){} // RVA: 0x73AA270
-        public void SetSliderValueFromClick(){} // RVA: 0x73AA300
-        public void ComputeValueDragStateNoThumb(){} // RVA: 0x73AA770
-        public void ComputeValueFromDraggingThumb(){} // RVA: 0x73AA840
-        public void UpdateMixedValueContent(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x73AAA60
-    }
-
-    public class MouseCaptureController
+    public class MeshBuilderNative : Object
     {
         // ── Methods ──
-        public void HasMouseCapture(){} // RVA: 0x740DE90
-        public void CaptureMouse(){} // RVA: 0x740DF90
-        public void ReleaseMouse(){} // RVA: 0x740E0C0
+        public void MakeBorder(){} // RVA: 0x7AF1ED6D0
+        public void MakeSolidRect(){} // RVA: 0x7AF1ED750
+        public void MakeTexturedRect(){} // RVA: 0x7AF1ED7D0
+        public void MakeVectorGraphicsStretchBackground(){} // RVA: 0x7AF1ED850
+        public void MakeVectorGraphics9SliceBackground(){} // RVA: 0x7AF1ED960
+        public void MakeBorder_Injected(){} // RVA: 0x7AF1EDA40
+        public void MakeSolidRect_Injected(){} // RVA: 0x7AF1EDAB0
+        public void MakeTexturedRect_Injected(){} // RVA: 0x7AF1EDB20
+        public void MakeVectorGraphicsStretchBackground_Injected(){} // RVA: 0x7AF1EDB90
+        public void MakeVectorGraphics9SliceBackground_Injected(){} // RVA: 0x7AF1EDC20
     }
 
-    public class MouseCaptureDispatchingStrategy
+    public class MeshGenerationContext : Object
     {
         // ── Methods ──
-        public void CanDispatchEvent(){} // RVA: 0x73EE020
-        public void DispatchEvent(){} // RVA: 0x73EE0A0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_painter2D(){} // RVA: 0x7AF215200
+        public void get_hasPainter2D(){} // RVA: 0x7A8CCB4F0
+        public void .ctor(){} // RVA: 0x7A813E420
+        public void .cctor(){} // RVA: 0x7AF2152B0
     }
 
-    public class MouseCaptureEvent
+    public class MeshGenerationContextUtils : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73E5C80
-        public void .ctor(){} // RVA: 0x73E5D70
+        public void Rectangle(){} // RVA: 0x7AF2121C0
+        public void Text(){} // RVA: 0x7AF212320
+        public void ConvertBorderRadiusPercentToPoints(){} // RVA: 0x7AF2123F0
+        public void GetVisualElementRadii(){} // RVA: 0x7AF212450
+        public void AdjustBackgroundSizeForBorders(){} // RVA: 0x7AF212700
     }
 
-    public class MouseCaptureEventBase`1
+    public class MeshWriteData : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_vertexCount(){} // RVA: 0x7AF211D60
+        public void get_indexCount(){} // RVA: 0x7AF211DA0
+        public void get_uvRegion(){} // RVA: 0x7AEF3E930
+        public void SetNextVertex(){} // RVA: 0x7AF211DE0
+        public void SetNextIndex(){} // RVA: 0x7AF211E90
+        public void SetAllVertices(){} // RVA: 0x7AF211F20
+        public void SetAllIndices(){} // RVA: 0x7AF211FE0
+        public void Reset(){} // RVA: 0x7AF2120D0
     }
 
-    public class MouseCaptureEventBase`1
+    public class MinMaxSlider : BaseField`1
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x3C49AB0
-        public void .ctor(){} // RVA: 0x3C49B50
+        public void get_dragElement(){} // RVA: 0x7A8B526C0
+        public void set_dragElement(){} // RVA: 0x7A8B59A70
+        public void get_dragMinThumb(){} // RVA: 0x7A8B5E0F0
+        public void set_dragMinThumb(){} // RVA: 0x7A8B67A70
+        public void get_dragMaxThumb(){} // RVA: 0x7A8B5A090
+        public void set_dragMaxThumb(){} // RVA: 0x7A8B4F9E0
+        public void get_clampedDragger(){} // RVA: 0x7A8B6D320
+        public void set_clampedDragger(){} // RVA: 0x7A8B5B280
+        public void get_minValue(){} // RVA: 0x7AF1875F0
+        public void set_minValue(){} // RVA: 0x7AF187620
+        public void get_maxValue(){} // RVA: 0x7AF1876A0
+        public void set_maxValue(){} // RVA: 0x7AF1876D0
+        public void get_value(){} // RVA: 0x7AF187750
+        public void set_value(){} // RVA: 0x7AF1877A0
+        public void SetValueWithoutNotify(){} // RVA: 0x7AF187800
+        public void get_lowLimit(){} // RVA: 0x7AF187870
+        public void set_lowLimit(){} // RVA: 0x7AF187880
+        public void get_highLimit(){} // RVA: 0x7AF187980
+        public void set_highLimit(){} // RVA: 0x7AF187990
+        public void .ctor(){} // RVA: 0x7AF187AD0
+        public void ClampValues(){} // RVA: 0x7AF1883D0
+        public void UpdateDragElementPosition(){} // RVA: 0x7AF1884D0
+        public void SliderLerpUnclamped(){} // RVA: 0x7AF189200
+        public void SliderNormalizeValue(){} // RVA: 0x7AF189220
+        public void ComputeValueFromPosition(){} // RVA: 0x7AF189240
+        public void ExecuteDefaultAction(){} // RVA: 0x7AF189360
+        public void SetSliderValueFromDrag(){} // RVA: 0x7AF1894B0
+        public void SetSliderValueFromClick(){} // RVA: 0x7AF189540
+        public void ComputeValueDragStateNoThumb(){} // RVA: 0x7AF1899B0
+        public void ComputeValueFromDraggingThumb(){} // RVA: 0x7AF189A80
+        public void UpdateMixedValueContent(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AF189CA0
     }
 
-    public class MouseCaptureEventBase`1
+    public class MouseCaptureController : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x3C49AB0
-        public void .ctor(){} // RVA: 0x3C49B50
+        public void HasMouseCapture(){} // RVA: 0x7AF1ECF70
+        public void CaptureMouse(){} // RVA: 0x7AF1ED030
+        public void ReleaseMouse(){} // RVA: 0x7AF1ED150
     }
 
-    public class MouseCaptureOutEvent
+    public class MouseCaptureDispatchingStrategy : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73E5A20
-        public void .ctor(){} // RVA: 0x73E5B10
+        public void CanDispatchEvent(){} // RVA: 0x7AF1CD2F0
+        public void DispatchEvent(){} // RVA: 0x7AF1CD370
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MouseDownEvent
+    public class MouseCaptureEvent : MouseCaptureEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73EF370
-        public void Init(){} // RVA: 0x73EF460
-        public void LocalInit(){} // RVA: 0x73EF520
-        public void .ctor(){} // RVA: 0x73EF530
-        public void MakeFromPointerEvent(){} // RVA: 0x73EF580
-        public void GetPooled(){} // RVA: 0x73EF6F0 | overloaded x2
+        public void .cctor(){} // RVA: 0x7AF1C4FD0
+        public void .ctor(){} // RVA: 0x7AF1C50C0
     }
 
-    public class MouseEnterEvent
+    public class MouseCaptureEventBase`1 : PointerCaptureEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F0980
-        public void Init(){} // RVA: 0x73F0A70
-        public void LocalInit(){} // RVA: 0x73F0B30
-        public void .ctor(){} // RVA: 0x73F0B40
+        public void Init(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class MouseEnterWindowEvent
+    public class MouseCaptureEventBase`1 : PointerCaptureEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F0FD0
-        public void Init(){} // RVA: 0x73F10C0
-        public void LocalInit(){} // RVA: 0x73F1180
-        public void .ctor(){} // RVA: 0x73F1190
-        public void PostDispatch(){} // RVA: 0x73F11E0
+        public void Init(){} // RVA: 0x7ABA38F90
+        public void .ctor(){} // RVA: 0x7ABA39030
     }
 
-    public class MouseEventBase`1
+    public class MouseCaptureEventBase`1 : PointerCaptureEventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField;
-        public UnityEngine.Vector2 <mousePosition>k__BackingField;
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField;
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField;
-        public int <clickCount>k__BackingField;
-        public int <button>k__BackingField;
-        public int <pressedButtons>k__BackingField;
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField;
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField;
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField;
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xD840
-        public void set_modifiers(){} // RVA: 0x24FA0
-        public void get_mousePosition(){} // RVA: 0xCD60
-        public void set_mousePosition(){} // RVA: 0x33510
-        public void get_localMousePosition(){} // RVA: 0xCD60
-        public void set_localMousePosition(){} // RVA: 0x33510
-        public void get_mouseDelta(){} // RVA: 0xCD60
-        public void set_mouseDelta(){} // RVA: 0x33510
-        public void get_clickCount(){} // RVA: 0xD840
-        public void set_clickCount(){} // RVA: 0x24FA0
-        public void get_button(){} // RVA: 0xD840
-        public void set_button(){} // RVA: 0x24FA0
-        public void get_pressedButtons(){} // RVA: 0xD840
-        public void set_pressedButtons(){} // RVA: 0x24FA0
-        public void get_shiftKey(){} // RVA: 0xDBE0
-        public void get_ctrlKey(){} // RVA: 0xDBE0
-        public void get_commandKey(){} // RVA: 0xDBE0
-        public void get_altKey(){} // RVA: 0xDBE0
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0xDBE0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x25130
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0xDBE0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x25130
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0xCD60
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x24B10
-        public void Init(){} // RVA: 0x24A50
-        public void LocalInit(){} // RVA: 0x24A50
-        public void get_currentTarget(){} // RVA: 0xCD60
-        public void set_currentTarget(){} // RVA: 0x24B10
-        public void PreDispatch(){} // RVA: 0x24B10
-        public void PostDispatch(){} // RVA: 0x24B10
-        public void GetPooled(){} // RVA: 0x283FA0 | overloaded x4
-        public void .ctor(){} // RVA: 0x24A50
+        public void Init(){} // RVA: 0x7ABA38F90
+        public void .ctor(){} // RVA: 0x7ABA39030
     }
 
-    public class MouseEventBase`1
+    public class MouseCaptureOutEvent : MouseCaptureEventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void .cctor(){} // RVA: 0x7AF1C4D70
+        public void .ctor(){} // RVA: 0x7AF1C4E60
     }
 
-    public class MouseEventBase`1
+    public class MouseDownEvent : MouseEventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void .cctor(){} // RVA: 0x7AF1CE5D0
+        public void Init(){} // RVA: 0x7AF1CE6C0
+        public void LocalInit(){} // RVA: 0x7AF1CE780
+        public void .ctor(){} // RVA: 0x7AF1CE790
+        public void MakeFromPointerEvent(){} // RVA: 0x7AF1CE7E0
+        public void GetPooled(){} // RVA: 0x7AF1CE940
     }
 
-    public class MouseEventBase`1
+    public class MouseEnterEvent : MouseEventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void .cctor(){} // RVA: 0x7AF1CFBC0
+        public void Init(){} // RVA: 0x7AF1CFCB0
+        public void LocalInit(){} // RVA: 0x7AF1CFD70
+        public void .ctor(){} // RVA: 0x7AF1CFD80
     }
 
-    public class MouseEventBase`1
+    public class MouseEnterWindowEvent : MouseEventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void .cctor(){} // RVA: 0x7AF1D0210
+        public void Init(){} // RVA: 0x7AF1D0300
+        public void LocalInit(){} // RVA: 0x7AF1D03C0
+        public void .ctor(){} // RVA: 0x7AF1D03D0
+        public void PostDispatch(){} // RVA: 0x7AF1D0420
     }
 
-    public class MouseEventBase`1
+    public class MouseEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void get_modifiers(){} // RVA: 0x7A7E00710
+        public void set_modifiers(){} // RVA: 0x7A7E189D0
+        public void get_mousePosition(){} // RVA: 0x7A7E00680
+        public void set_mousePosition(){} // RVA: 0x7A7E1A3B0
+        public void get_localMousePosition(){} // RVA: 0x7A7E00680
+        public void set_localMousePosition(){} // RVA: 0x7A7E1A3B0
+        public void get_mouseDelta(){} // RVA: 0x7A7E00680
+        public void set_mouseDelta(){} // RVA: 0x7A7E1A3B0
+        public void get_clickCount(){} // RVA: 0x7A7E00710
+        public void set_clickCount(){} // RVA: 0x7A7E189D0
+        public void get_button(){} // RVA: 0x7A7E00710
+        public void set_button(){} // RVA: 0x7A7E189D0
+        public void get_pressedButtons(){} // RVA: 0x7A7E00710
+        public void set_pressedButtons(){} // RVA: 0x7A7E189D0
+        public void get_shiftKey(){} // RVA: 0x7A7E01900
+        public void get_ctrlKey(){} // RVA: 0x7A7E01900
+        public void get_commandKey(){} // RVA: 0x7A7E01900
+        public void get_altKey(){} // RVA: 0x7A7E01900
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A7E01900
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A7E18C30
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7A7E01900
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7A7E18C30
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A7E00680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A7E18800
+        public void Init(){} // RVA: 0x7A7E18770
+        public void LocalInit(){} // RVA: 0x7A7E18770
+        public void get_currentTarget(){} // RVA: 0x7A7E00680
+        public void set_currentTarget(){} // RVA: 0x7A7E18800
+        public void PreDispatch(){} // RVA: 0x7A7E18800
+        public void PostDispatch(){} // RVA: 0x7A7E18800
+        public void GetPooled(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class MouseEventBase`1
+    public class MouseEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseEventBase`1
+    public class MouseEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseEventBase`1
+    public class MouseEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseEventBase`1
+    public class MouseEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseEventBase`1
+    public class MouseEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseEventBase`1
+    public class MouseEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseEventBase`1
+    public class MouseEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public UnityEngine.Vector2 <mousePosition>k__BackingField; // 0x8C
-        public UnityEngine.Vector2 <localMousePosition>k__BackingField; // 0x94
-        public UnityEngine.Vector2 <mouseDelta>k__BackingField; // 0x9C
-        public int <clickCount>k__BackingField; // 0xA4
-        public int <button>k__BackingField; // 0xA8
-        public int <pressedButtons>k__BackingField; // 0xAC
-        public bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0xB0
-        public bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0xB1
-        public UnityEngine.UIElements.IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0xB8
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_mousePosition(){} // RVA: 0x3C49B70
-        public void set_mousePosition(){} // RVA: 0x3C49B90
-        public void get_localMousePosition(){} // RVA: 0x3C49BA0
-        public void set_localMousePosition(){} // RVA: 0x3C49BC0
-        public void get_mouseDelta(){} // RVA: 0x3C49BD0
-        public void set_mouseDelta(){} // RVA: 0x3C49BF0
-        public void get_clickCount(){} // RVA: 0x3C49C00
-        public void set_clickCount(){} // RVA: 0x3C49C10
-        public void get_button(){} // RVA: 0xCC3CB0
-        public void set_button(){} // RVA: 0xCC9310
-        public void get_pressedButtons(){} // RVA: 0x3C49C20
-        public void set_pressedButtons(){} // RVA: 0x3C49C30
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_ctrlKey(){} // RVA: 0x37CDA20
-        public void get_commandKey(){} // RVA: 0x37CDA30
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x17323D0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x1735610
-        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C40
-        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x3C49C50
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x3480C0
-        public void Init(){} // RVA: 0x3C49C60
-        public void LocalInit(){} // RVA: 0x3C49D00
-        public void get_currentTarget(){} // RVA: 0x3C49E80
-        public void set_currentTarget(){} // RVA: 0x3C49EA0
-        public void PreDispatch(){} // RVA: 0x3C49FD0
-        public void PostDispatch(){} // RVA: 0x3C4A130
-        public void GetPooled(){} // RVA: 0x3C4ABC0 | overloaded x4
-        public void .ctor(){} // RVA: 0x3C4AFE0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseEventDispatchingStrategy
+    public class MouseEventBase`1 : EventBase`1
     {
         // ── Methods ──
-        public void CanDispatchEvent(){} // RVA: 0x73EE7D0
-        public void DispatchEvent(){} // RVA: 0x73EE820
-        public void SendEventToTarget(){} // RVA: 0x73EEA90
-        public void SendEventToRegularTarget(){} // RVA: 0x73EEBD0
-        public void SendEventToIMGUIContainer(){} // RVA: 0x73EECF0
-        public void SetBestTargetForEvent(){} // RVA: 0x73EEF00
-        public void UpdateElementUnderMouse(){} // RVA: 0x73EEFB0
-        public void IsDone(){} // RVA: 0x73EF2E0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseEventsHelper
+    public class MouseEventBase`1 : EventBase`1
     {
         // ── Methods ──
-        public void SendEnterLeave(){} // RVA: 0x283FA0
-        public void SendMouseOverMouseOut(){} // RVA: 0x73F29A0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseLeaveEvent
+    public class MouseEventBase`1 : EventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F0CB0
-        public void Init(){} // RVA: 0x73F0DA0
-        public void LocalInit(){} // RVA: 0x73F0B30
-        public void .ctor(){} // RVA: 0x73F0E60
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseLeaveWindowEvent
+    public class MouseEventBase`1 : EventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F1410
-        public void Init(){} // RVA: 0x73F1500
-        public void LocalInit(){} // RVA: 0x73F1600
-        public void .ctor(){} // RVA: 0x73F1650
-        public void GetPooled(){} // RVA: 0x73F16D0
-        public void PostDispatch(){} // RVA: 0x73F17F0
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseManipulator
+    public class MouseEventBase`1 : EventBase`1
     {
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.ManipulatorActivationFilter> <activators>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_activators(){} // RVA: 0x2E07C0
-        public void set_activators(){} // RVA: 0x343E80
-        public void .ctor(){} // RVA: 0x740E230
-        public void CanStartManipulation(){} // RVA: 0x740E2F0
-        public void CanStopManipulation(){} // RVA: 0x740E510
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_mousePosition(){} // RVA: 0x7ABA39050
+        public void set_mousePosition(){} // RVA: 0x7ABA39070
+        public void get_localMousePosition(){} // RVA: 0x7ABA39080
+        public void set_localMousePosition(){} // RVA: 0x7ABA390A0
+        public void get_mouseDelta(){} // RVA: 0x7ABA390B0
+        public void set_mouseDelta(){} // RVA: 0x7ABA390D0
+        public void get_clickCount(){} // RVA: 0x7ABA390E0
+        public void set_clickCount(){} // RVA: 0x7ABA390F0
+        public void get_button(){} // RVA: 0x7A8A69800
+        public void set_button(){} // RVA: 0x7A8A67200
+        public void get_pressedButtons(){} // RVA: 0x7ABA39100
+        public void set_pressedButtons(){} // RVA: 0x7ABA39110
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_ctrlKey(){} // RVA: 0x7AB5BA7E0
+        public void get_commandKey(){} // RVA: 0x7AB5BA7F0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS(){} // RVA: 0x7A94ED040
+        public void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(){} // RVA: 0x7A94F0290
+        public void UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39120
+        public void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(){} // RVA: 0x7ABA39130
+        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x7A8142680
+        public void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(){} // RVA: 0x7A8142690
+        public void Init(){} // RVA: 0x7ABA39140
+        public void LocalInit(){} // RVA: 0x7ABA391E0
+        public void get_currentTarget(){} // RVA: 0x7ABA39360
+        public void set_currentTarget(){} // RVA: 0x7ABA39380
+        public void PreDispatch(){} // RVA: 0x7ABA394A0
+        public void PostDispatch(){} // RVA: 0x7ABA39600
+        public void GetPooled(){} // RVA: 0x7ABA3A060
+        public void .ctor(){} // RVA: 0x7ABA3A450
     }
 
-    public class MouseMoveEvent
+    public class MouseEventDispatchingStrategy : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73EFD90
-        public void Init(){} // RVA: 0x73EFE80
-        public void LocalInit(){} // RVA: 0x73EFF40
-        public void .ctor(){} // RVA: 0x73EFF50
-        public void GetPooled(){} // RVA: 0x73EFFA0
+        public void CanDispatchEvent(){} // RVA: 0x7AF1CDA30
+        public void DispatchEvent(){} // RVA: 0x7AF1CDA80
+        public void SendEventToTarget(){} // RVA: 0x7AF1CDCF0
+        public void SendEventToRegularTarget(){} // RVA: 0x7AF1CDE10
+        public void SendEventToIMGUIContainer(){} // RVA: 0x7AF1CDF20
+        public void SetBestTargetForEvent(){} // RVA: 0x7AF1CE130
+        public void UpdateElementUnderMouse(){} // RVA: 0x7AF1CE1E0
+        public void IsDone(){} // RVA: 0x7AF1CE540
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MouseOutEvent
+    public class MouseEventsHelper : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F1C90
-        public void .ctor(){} // RVA: 0x73F1D80
+        public void SendEnterLeave(){} // RVA: 0x7A8051B10
+        public void SendMouseOverMouseOut(){} // RVA: 0x7AF1D1BD0
     }
 
-    public class MouseOverEvent
+    public class MouseLeaveEvent : MouseEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F1A50
-        public void .ctor(){} // RVA: 0x73F1B40
+        public void .cctor(){} // RVA: 0x7AF1CFEF0
+        public void Init(){} // RVA: 0x7AF1CFFE0
+        public void LocalInit(){} // RVA: 0x7AF1CFD70
+        public void .ctor(){} // RVA: 0x7AF1D00A0
     }
 
-    public class MouseUpEvent
+    public class MouseLeaveWindowEvent : MouseEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73EF860
-        public void Init(){} // RVA: 0x73EF950
-        public void LocalInit(){} // RVA: 0x73EF520
-        public void .ctor(){} // RVA: 0x73EFA10
-        public void MakeFromPointerEvent(){} // RVA: 0x73EFA60
-        public void GetPooled(){} // RVA: 0x73EFC20 | overloaded x3
+        public void .cctor(){} // RVA: 0x7AF1D0640
+        public void Init(){} // RVA: 0x7AF1D0730
+        public void LocalInit(){} // RVA: 0x7AF1D0830
+        public void .ctor(){} // RVA: 0x7AF1D0880
+        public void GetPooled(){} // RVA: 0x7AF1D0900
+        public void PostDispatch(){} // RVA: 0x7AF1D0A20
     }
 
-    public class MultiColumnController
+    public class MouseManipulator : Manipulator
     {
-        public UnityEngine.PropertyName k_BoundColumnVePropertyName;
-
         // ── Methods ──
-        public void add_columnSortingChanged(){} // RVA: 0x73B2530
-        public void remove_columnSortingChanged(){} // RVA: 0x73B2620
-        public void add_headerContextMenuPopulateEvent(){} // RVA: 0x73B2710
-        public void remove_headerContextMenuPopulateEvent(){} // RVA: 0x73B2810
-        public void get_header(){} // RVA: 0x6374D0
-        public void .ctor(){} // RVA: 0x73B2910
-        public void BindCellItem(){} // RVA: 0x283FA0
-        public void UnbindCellItem(){} // RVA: 0x73B31C0
-        public void DefaultMakeCellItem(){} // RVA: 0x73B3200
-        public void DefaultBindCellItem(){} // RVA: 0x283FA0
-        public void MakeItem(){} // RVA: 0x73B32D0
-        public void BindItem(){} // RVA: 0x283FA0
-        public void UnbindItem(){} // RVA: 0x73B3660
-        public void DestroyItem(){} // RVA: 0x73B39F0
-        public void PrepareView(){} // RVA: 0x73B3DA0
-        public void Dispose(){} // RVA: 0x73B41A0
-        public void OnHorizontalScrollerValueChanged(){} // RVA: 0x73B4D50
-        public void OnViewportGeometryChanged(){} // RVA: 0x73B4E90
-        public void OnColumnContainerGeometryChanged(){} // RVA: 0x73B5120
-        public void UpdateContentContainer(){} // RVA: 0x73B5130
-        public void OnColumnSortingChanged(){} // RVA: 0x6242C0
-        public void OnContextMenuPopulateEvent(){} // RVA: 0x4EC5180
-        public void OnColumnResized(){} // RVA: 0x73B52E0
-        public void OnColumnAdded(){} // RVA: 0x73B5680
-        public void OnColumnRemoved(){} // RVA: 0x73B5680
-        public void OnColumnReordered(){} // RVA: 0x73B56A0
-        public void OnColumnsChanged(){} // RVA: 0x73B56E0
-        public void OnColumnChanged(){} // RVA: 0x73B5720
-        public void OnViewDataRestored(){} // RVA: 0x73B5680
-        public void .cctor(){} // RVA: 0x73B5760
+        public void get_activators(){} // RVA: 0x7A80DA7B0
+        public void set_activators(){} // RVA: 0x7A813E420
+        public void .ctor(){} // RVA: 0x7AF1ED270
+        public void CanStartManipulation(){} // RVA: 0x7AF1ED330
+        public void CanStopManipulation(){} // RVA: 0x7AF1ED560
     }
 
-    public class MultiColumnListView
+    public class MouseMoveEvent : MouseEventBase`1
     {
-        public UnityEngine.UIElements.Columns m_Columns; // 0x540
-        public bool m_SortingEnabled; // 0x548
-        public UnityEngine.UIElements.SortColumnDescriptions m_SortColumnDescriptions; // 0x550
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.SortColumnDescription> m_SortedColumns; // 0x558
-
         // ── Methods ──
-        public void get_viewController(){} // RVA: 0x73B5CA0
-        public void get_columns(){} // RVA: 0xDA11E0
-        public void set_columns(){} // RVA: 0x73B5D30
-        public void get_sortColumnDescriptions(){} // RVA: 0xDB1280
-        public void set_sortColumnDescriptions(){} // RVA: 0x73B5E20
-        public void set_sortingEnabled(){} // RVA: 0x73B5F20
-        public void .ctor(){} // RVA: 0x73B6000 | overloaded x2
-        public void CreateViewController(){} // RVA: 0x73B6210
-        public void SetViewController(){} // RVA: 0x73B6320
-        public void CreateVirtualizationController(){} // RVA: 0x73B6570
-        public void RaiseColumnSortingChanged(){} // RVA: 0x73B65B0
-        public void RaiseHeaderContextMenuPopulate(){} // RVA: 0x73B65D0
+        public void .cctor(){} // RVA: 0x7AF1CEFD0
+        public void Init(){} // RVA: 0x7AF1CF0C0
+        public void LocalInit(){} // RVA: 0x7AF1CF180
+        public void .ctor(){} // RVA: 0x7AF1CF190
+        public void GetPooled(){} // RVA: 0x7AF1CF1E0
     }
 
-    public class MultiColumnListViewController
+    public class MouseOutEvent : MouseEventBase`1
     {
-        public UnityEngine.UIElements.MultiColumnController m_ColumnController; // 0x48
-
         // ── Methods ──
-        public void get_columnController(){} // RVA: 0x358730
-        public void get_header(){} // RVA: 0x72F3110
-        public void .ctor(){} // RVA: 0x72F3120
-        public void InvokeMakeItem(){} // RVA: 0x72F31F0
-        public void MakeItem(){} // RVA: 0x72F3330
-        public void BindItem(){} // RVA: 0x72F3350
-        public void UnbindItem(){} // RVA: 0x72F33F0
-        public void DestroyItem(){} // RVA: 0x72F3410
-        public void PrepareView(){} // RVA: 0x72F3430
-        public void Dispose(){} // RVA: 0x72F35C0
-        public void UpdateReorderClassList(){} // RVA: 0x72F37B0
+        public void .cctor(){} // RVA: 0x7AF1D0EB0
+        public void .ctor(){} // RVA: 0x7AF1D0FA0
     }
 
-    public class MultiColumnTreeView
+    public class MouseOverEvent : MouseEventBase`1
     {
-        public UnityEngine.UIElements.Columns m_Columns; // 0x4C0
-        public bool m_SortingEnabled; // 0x4C8
-        public UnityEngine.UIElements.SortColumnDescriptions m_SortColumnDescriptions; // 0x4D0
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.SortColumnDescription> m_SortedColumns; // 0x4D8
-
         // ── Methods ──
-        public void get_viewController(){} // RVA: 0x73B6B70
-        public void get_columns(){} // RVA: 0xD95090
-        public void set_columns(){} // RVA: 0x73B6C00
-        public void get_sortColumnDescriptions(){} // RVA: 0xD99BE0
-        public void set_sortColumnDescriptions(){} // RVA: 0x73B6CF0
-        public void set_sortingEnabled(){} // RVA: 0x73B6DF0
-        public void .ctor(){} // RVA: 0x73B6ED0 | overloaded x2
-        public void CreateViewController(){} // RVA: 0x73B70E0
-        public void SetViewController(){} // RVA: 0x73B7180
-        public void CreateVirtualizationController(){} // RVA: 0x73B74B0
-        public void RaiseColumnSortingChanged(){} // RVA: 0x73B74F0
-        public void RaiseHeaderContextMenuPopulate(){} // RVA: 0x73B7510
+        public void .cctor(){} // RVA: 0x7AF1D0C70
+        public void .ctor(){} // RVA: 0x7AF1D0D60
     }
 
-    public class MultiColumnTreeViewController
+    public class MouseUpEvent : MouseEventBase`1
     {
-        public UnityEngine.UIElements.MultiColumnController m_ColumnController; // 0x58
-
         // ── Methods ──
-        public void get_columnController(){} // RVA: 0x3A5500
-        public void get_header(){} // RVA: 0x72F38A0
-        public void .ctor(){} // RVA: 0x72F38B0
-        public void InvokeMakeItem(){} // RVA: 0x72F39B0
-        public void MakeItem(){} // RVA: 0x72F3B40
-        public void BindItem(){} // RVA: 0x72F3B60
-        public void UnbindItem(){} // RVA: 0x72F3C00
-        public void DestroyItem(){} // RVA: 0x72F3C20
-        public void PrepareView(){} // RVA: 0x72F3C40
-        public void Dispose(){} // RVA: 0x72F3C70
+        public void .cctor(){} // RVA: 0x7AF1CEAB0
+        public void Init(){} // RVA: 0x7AF1CEBA0
+        public void LocalInit(){} // RVA: 0x7AF1CE780
+        public void .ctor(){} // RVA: 0x7AF1CEC60
+        public void MakeFromPointerEvent(){} // RVA: 0x7AF1CECB0
+        public void GetPooled(){} // RVA: 0x7AF1CEE60
+    }
+
+    public class MultiColumnController : Object
+    {
+        // ── Methods ──
+        public void add_columnSortingChanged(){} // RVA: 0x7AF1918E0
+        public void remove_columnSortingChanged(){} // RVA: 0x7AF1919D0
+        public void add_headerContextMenuPopulateEvent(){} // RVA: 0x7AF191AC0
+        public void remove_headerContextMenuPopulateEvent(){} // RVA: 0x7AF191BD0
+        public void get_header(){} // RVA: 0x7A83F69F0
+        public void .ctor(){} // RVA: 0x7AF191CE0
+        public void BindCellItem(){} // RVA: 0x7A8051B10
+        public void UnbindCellItem(){} // RVA: 0x7AF192590
+        public void DefaultMakeCellItem(){} // RVA: 0x7AF1925D0
+        public void DefaultBindCellItem(){} // RVA: 0x7A8051B10
+        public void MakeItem(){} // RVA: 0x7AF1926A0
+        public void BindItem(){} // RVA: 0x7A8051B10
+        public void UnbindItem(){} // RVA: 0x7AF192A40
+        public void DestroyItem(){} // RVA: 0x7AF192DD0
+        public void PrepareView(){} // RVA: 0x7AF193180
+        public void Dispose(){} // RVA: 0x7AF193580
+        public void OnHorizontalScrollerValueChanged(){} // RVA: 0x7AF194130
+        public void OnViewportGeometryChanged(){} // RVA: 0x7AF194270
+        public void OnColumnContainerGeometryChanged(){} // RVA: 0x7AF194500
+        public void UpdateContentContainer(){} // RVA: 0x7AF194510
+        public void OnColumnSortingChanged(){} // RVA: 0x7A8429A00
+        public void OnContextMenuPopulateEvent(){} // RVA: 0x7ACD587F0
+        public void OnColumnResized(){} // RVA: 0x7AF1946C0
+        public void OnColumnAdded(){} // RVA: 0x7AF194A60
+        public void OnColumnRemoved(){} // RVA: 0x7AF194A60
+        public void OnColumnReordered(){} // RVA: 0x7AF194A80
+        public void OnColumnsChanged(){} // RVA: 0x7AF194AC0
+        public void OnColumnChanged(){} // RVA: 0x7AF194B00
+        public void OnViewDataRestored(){} // RVA: 0x7AF194A60
+        public void .cctor(){} // RVA: 0x7AF194B40
+    }
+
+    public class MultiColumnListView : BaseListView
+    {
+        // ── Methods ──
+        public void get_viewController(){} // RVA: 0x7AF195080
+        public void get_columns(){} // RVA: 0x7A8B65870
+        public void set_columns(){} // RVA: 0x7AF195100
+        public void get_sortColumnDescriptions(){} // RVA: 0x7A8B76290
+        public void set_sortColumnDescriptions(){} // RVA: 0x7AF1951F0
+        public void set_sortingEnabled(){} // RVA: 0x7AF1952F0
+        public void .ctor(){} // RVA: 0x7AF1953D0
+        public void CreateViewController(){} // RVA: 0x7AF1955E0
+        public void SetViewController(){} // RVA: 0x7AF1956F0
+        public void CreateVirtualizationController(){} // RVA: 0x7AF195940
+        public void RaiseColumnSortingChanged(){} // RVA: 0x7AF195980
+        public void RaiseHeaderContextMenuPopulate(){} // RVA: 0x7AF1959A0
+    }
+
+    public class MultiColumnListViewController : BaseListViewController
+    {
+        // ── Methods ──
+        public void get_columnController(){} // RVA: 0x7A8152D80
+        public void get_header(){} // RVA: 0x7AF0D32C0
+        public void .ctor(){} // RVA: 0x7AF0D32D0
+        public void InvokeMakeItem(){} // RVA: 0x7AF0D33B0
+        public void MakeItem(){} // RVA: 0x7AF0D34D0
+        public void BindItem(){} // RVA: 0x7AF0D34F0
+        public void UnbindItem(){} // RVA: 0x7AF0D3590
+        public void DestroyItem(){} // RVA: 0x7AF0D35B0
+        public void PrepareView(){} // RVA: 0x7AF0D35D0
+        public void Dispose(){} // RVA: 0x7AF0D3760
+        public void UpdateReorderClassList(){} // RVA: 0x7AF0D3950
+    }
+
+    public class MultiColumnTreeView : BaseTreeView
+    {
+        // ── Methods ──
+        public void get_viewController(){} // RVA: 0x7AF195F40
+        public void get_columns(){} // RVA: 0x7A8B58DC0
+        public void set_columns(){} // RVA: 0x7AF195FC0
+        public void get_sortColumnDescriptions(){} // RVA: 0x7A8B5DB90
+        public void set_sortColumnDescriptions(){} // RVA: 0x7AF1960B0
+        public void set_sortingEnabled(){} // RVA: 0x7AF1961B0
+        public void .ctor(){} // RVA: 0x7AF196290
+        public void CreateViewController(){} // RVA: 0x7AF1964A0
+        public void SetViewController(){} // RVA: 0x7AF196540
+        public void CreateVirtualizationController(){} // RVA: 0x7AF196870
+        public void RaiseColumnSortingChanged(){} // RVA: 0x7AF1968B0
+        public void RaiseHeaderContextMenuPopulate(){} // RVA: 0x7AF1968D0
+    }
+
+    public class MultiColumnTreeViewController : BaseTreeViewController
+    {
+        // ── Methods ──
+        public void get_columnController(){} // RVA: 0x7A81A0050
+        public void get_header(){} // RVA: 0x7AF0D3A40
+        public void .ctor(){} // RVA: 0x7AF0D3A50
+        public void InvokeMakeItem(){} // RVA: 0x7AF0D3B60
+        public void MakeItem(){} // RVA: 0x7AF0D3CB0
+        public void BindItem(){} // RVA: 0x7AF0D3CD0
+        public void UnbindItem(){} // RVA: 0x7AF0D3D70
+        public void DestroyItem(){} // RVA: 0x7AF0D3D90
+        public void PrepareView(){} // RVA: 0x7AF0D3DB0
+        public void Dispose(){} // RVA: 0x7AF0D3DE0
     }
 
 }

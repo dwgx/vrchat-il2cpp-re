@@ -1,48 +1,46 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.VM
 // Classes: 4
-// Methods: 21
+// Methods: 18
 
 namespace VRC.Udon.VM
 {
     public class IUdonVMTimeSource
     {
         // ── Methods ──
-        public void get_CurrentTime(){} // RVA: 0xCD60
+        public void get_CurrentTime(){} // RVA: 0x7A7E00680
     }
 
-    public class UdonVM
+    public class UdonVM : Object
     {
-        public int ALIGNMENT_BYTES;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x78B34F0
-        public void get_DebugLogging(){} // RVA: 0x3978E0
-        public void set_DebugLogging(){} // RVA: 0x3978F0
-        public void LoadProgram(){} // RVA: 0x78B38A0
-        public void ProcessByteCode(){} // RVA: 0x78B39D0
-        public void RetrieveProgram(){} // RVA: 0x2E07C0
-        public void Interpret(){} // RVA: 0x78B3C30
-        public void CheckExecutionTimeLimit(){} // RVA: 0x78B47F0
-        public void CheckJumpTarget(){} // RVA: 0x78B4920
-        public void UIntFromBytes(){} // RVA: 0x78B49F0
-        public void SetProgramCounter(){} // RVA: 0x78B4A70
-        public void GetProgramCounter(){} // RVA: 0x338CD0
-        public void InspectHeap(){} // RVA: 0x30B0C0
+        public void .ctor(){} // RVA: 0x7AF6922D0
+        public void get_DebugLogging(){} // RVA: 0x7A8192400
+        public void set_DebugLogging(){} // RVA: 0x7A8192410
+        public void LoadProgram(){} // RVA: 0x7AF692680
+        public void ProcessByteCode(){} // RVA: 0x7AF6927B0
+        public void RetrieveProgram(){} // RVA: 0x7A80DA7B0
+        public void Interpret(){} // RVA: 0x7AF692A10
+        public void CheckExecutionTimeLimit(){} // RVA: 0x7AF6935D0
+        public void CheckJumpTarget(){} // RVA: 0x7AF693700
+        public void UIntFromBytes(){} // RVA: 0x7AF6937D0
+        public void SetProgramCounter(){} // RVA: 0x7AF693850
+        public void GetProgramCounter(){} // RVA: 0x7A8133100
+        public void InspectHeap(){} // RVA: 0x7A81052C0
     }
 
-    public class UdonVMException
+    public class UdonVMException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x78B29C0 | overloaded x4
-        public void GenerateMessage(){} // RVA: 0x78B2A60
+        public void .ctor(){} // RVA: 0x7AF691790
+        public void GenerateMessage(){} // RVA: 0x7AF691830
     }
 
-    public class UdonVMFactory : `
+    public class UdonVMFactory : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x78B32D0
-        public void ConstructUdonVM(){} // RVA: 0x78B3450
+        public void .ctor(){} // RVA: 0x7AF6920B0
+        public void ConstructUdonVM(){} // RVA: 0x7AF692230
     }
 
 }

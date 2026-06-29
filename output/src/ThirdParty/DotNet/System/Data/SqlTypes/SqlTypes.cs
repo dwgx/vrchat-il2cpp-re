@@ -1,632 +1,562 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Data.SqlTypes
 // Classes: 23
-// Methods: 520
+// Methods: 439
 
 namespace ThirdParty.DotNet.System.Data.SqlTypes
 {
     public class INullable
     {
         // ── Methods ──
-        public void get_IsNull(){} // RVA: 0xDBE0
+        public void get_IsNull(){} // RVA: 0x7A7E01900
     }
 
-    public class SQLResource
+    public class SQLResource : Object
     {
-        public object IsNull;
-        public object Value;
-        public object .ctor;
-
         // ── Methods ──
-        public void get_NullString(){} // RVA: 0x6774350
-        public void get_ArithOverflowMessage(){} // RVA: 0x6774390
-        public void get_DivideByZeroMessage(){} // RVA: 0x67743D0
-        public void get_NullValueMessage(){} // RVA: 0x6774410
-        public void get_TruncationMessage(){} // RVA: 0x6774450
-        public void get_DateTimeOverflowMessage(){} // RVA: 0x6774490
-        public void get_ConcatDiffCollationMessage(){} // RVA: 0x67744D0
-        public void get_CompareDiffCollationMessage(){} // RVA: 0x6774510
-        public void get_ConversionOverflowMessage(){} // RVA: 0x6774550
-        public void get_TimeZoneSpecifiedMessage(){} // RVA: 0x6774590
-        public void get_InvalidPrecScaleMessage(){} // RVA: 0x67745D0
-        public void get_FormatMessage(){} // RVA: 0x6774610
-        public void InvalidOpStreamClosed(){} // RVA: 0x6774650
-        public void InvalidOpStreamNonWritable(){} // RVA: 0x67746A0
-        public void InvalidOpStreamNonReadable(){} // RVA: 0x67746F0
-        public void InvalidOpStreamNonSeekable(){} // RVA: 0x6774740
+        public void get_NullString(){} // RVA: 0x7AE5622E0
+        public void get_ArithOverflowMessage(){} // RVA: 0x7AE562320
+        public void get_DivideByZeroMessage(){} // RVA: 0x7AE562360
+        public void get_NullValueMessage(){} // RVA: 0x7AE5623A0
+        public void get_TruncationMessage(){} // RVA: 0x7AE5623E0
+        public void get_DateTimeOverflowMessage(){} // RVA: 0x7AE562420
+        public void get_ConcatDiffCollationMessage(){} // RVA: 0x7AE562460
+        public void get_CompareDiffCollationMessage(){} // RVA: 0x7AE5624A0
+        public void get_ConversionOverflowMessage(){} // RVA: 0x7AE5624E0
+        public void get_TimeZoneSpecifiedMessage(){} // RVA: 0x7AE562520
+        public void get_InvalidPrecScaleMessage(){} // RVA: 0x7AE562560
+        public void get_FormatMessage(){} // RVA: 0x7AE5625A0
+        public void InvalidOpStreamClosed(){} // RVA: 0x7AE5625E0
+        public void InvalidOpStreamNonWritable(){} // RVA: 0x7AE562630
+        public void InvalidOpStreamNonReadable(){} // RVA: 0x7AE562680
+        public void InvalidOpStreamNonSeekable(){} // RVA: 0x7AE5626D0
     }
 
-    public class SqlBinary
+    public class SqlBinary : ValueType
     {
-        public byte[] _value; // 0x10
-        public System.Data.SqlTypes.SqlBinary Null;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x67747F0 | overloaded x2
-        public void get_IsNull(){} // RVA: 0x1D26810
-        public void get_Value(){} // RVA: 0x67749C0
-        public void op_Implicit(){} // RVA: 0x6774AA0
-        public void ToString(){} // RVA: 0x6774AD0
-        public void PerformCompareByte(){} // RVA: 0x6774BE0
-        public void op_Equality(){} // RVA: 0x6774D00
-        public void op_LessThan(){} // RVA: 0x6774E10
-        public void op_GreaterThan(){} // RVA: 0x6774F20
-        public void CompareTo(){} // RVA: 0x6775150 | overloaded x2
-        public void Equals(){} // RVA: 0x6775490
-        public void HashByteArray(){} // RVA: 0x67756E0
-        public void GetHashCode(){} // RVA: 0x6775750
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6775830
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6775B70
-        public void GetXsdType(){} // RVA: 0x6775D50
-        public void .cctor(){} // RVA: 0x6775DD0
+        public void .ctor(){} // RVA: 0x7A7E84090
+        public void get_IsNull(){} // RVA: 0x7A7673DE0
+        public void get_Value(){} // RVA: 0x7A7E840A0
+        public void op_Implicit(){} // RVA: 0x7AE562A30
+        public void ToString(){} // RVA: 0x7A7E840B0
+        public void PerformCompareByte(){} // RVA: 0x7AE562B70
+        public void op_Equality(){} // RVA: 0x7AE562CA0
+        public void op_LessThan(){} // RVA: 0x7AE562DB0
+        public void op_GreaterThan(){} // RVA: 0x7AE562EC0
+        public void CompareTo(){} // RVA: 0x7A7E841E0
+        public void Equals(){} // RVA: 0x7A7E841F0
+        public void HashByteArray(){} // RVA: 0x7AE563680
+        public void GetHashCode(){} // RVA: 0x7A7E84200
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E84210
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E84220
+        public void GetXsdType(){} // RVA: 0x7AE563D00
+        public void .cctor(){} // RVA: 0x7AE563D80
     }
 
-    public class SqlBoolean
+    public class SqlBoolean : ValueType
     {
-        public byte m_value; // 0x10
-        public System.Data.SqlTypes.SqlBoolean True;
-        public System.Data.SqlTypes.SqlBoolean False; // 0x1
-        public System.Data.SqlTypes.SqlBoolean Null; // 0x2
-        public System.Data.SqlTypes.SqlBoolean Zero; // 0x3
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6775F30 | overloaded x3
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void get_Value(){} // RVA: 0x6775F50
-        public void get_IsTrue(){} // RVA: 0x6775FB0
-        public void get_IsFalse(){} // RVA: 0x6775FC0
-        public void op_Implicit(){} // RVA: 0x6775FD0
-        public void op_True(){} // RVA: 0x6775FE0
-        public void op_BitwiseAnd(){} // RVA: 0x6776030
-        public void op_BitwiseOr(){} // RVA: 0x6776120
-        public void get_ByteValue(){} // RVA: 0x6776210
-        public void ToString(){} // RVA: 0x67762A0
-        public void op_Equality(){} // RVA: 0x67763B0
-        public void And(){} // RVA: 0x6776470
-        public void Or(){} // RVA: 0x6776590
-        public void CompareTo(){} // RVA: 0x6776710 | overloaded x2
-        public void Equals(){} // RVA: 0x6776830
-        public void GetHashCode(){} // RVA: 0x67769F0
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6776A90
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6776BC0
-        public void GetXsdType(){} // RVA: 0x6776D20
-        public void .cctor(){} // RVA: 0x6776DA0
+        public void .ctor(){} // RVA: 0x7A7E842A0
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void get_Value(){} // RVA: 0x7A7E842D0
+        public void get_IsTrue(){} // RVA: 0x7A7E842E0
+        public void get_IsFalse(){} // RVA: 0x7A7E842F0
+        public void op_Implicit(){} // RVA: 0x7AE563F80
+        public void op_True(){} // RVA: 0x7AE563F90
+        public void op_BitwiseAnd(){} // RVA: 0x7AE563FE0
+        public void op_BitwiseOr(){} // RVA: 0x7AE5640D0
+        public void get_ByteValue(){} // RVA: 0x7A7E84300
+        public void ToString(){} // RVA: 0x7A7E84310
+        public void op_Equality(){} // RVA: 0x7AE564360
+        public void And(){} // RVA: 0x7AE564420
+        public void Or(){} // RVA: 0x7AE564540
+        public void CompareTo(){} // RVA: 0x7A7E84540
+        public void Equals(){} // RVA: 0x7A7E84550
+        public void GetHashCode(){} // RVA: 0x7A7E84560
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E84600
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E84730
+        public void GetXsdType(){} // RVA: 0x7AE564CD0
+        public void .cctor(){} // RVA: 0x7AE564D50
     }
 
-    public class SqlByte
+    public class SqlByte : ValueType
     {
-        public bool m_fNotNull; // 0x10
-        public byte m_value; // 0x11
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3CA5E30 | overloaded x2
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void get_Value(){} // RVA: 0x6776EB0
-        public void op_Implicit(){} // RVA: 0x6776F10
-        public void ToString(){} // RVA: 0x6776F20
-        public void op_Addition(){} // RVA: 0x6776FB0
-        public void op_Subtraction(){} // RVA: 0x67770E0
-        public void op_Multiply(){} // RVA: 0x6777210
-        public void op_Division(){} // RVA: 0x6777340
-        public void op_Explicit(){} // RVA: 0x6777460
-        public void op_Equality(){} // RVA: 0x6777620
-        public void op_LessThan(){} // RVA: 0x67776F0
-        public void op_GreaterThan(){} // RVA: 0x67777C0
-        public void LessThan(){} // RVA: 0x6777890
-        public void GreaterThan(){} // RVA: 0x67778F0
-        public void ToSqlDouble(){} // RVA: 0x6777950
-        public void ToSqlInt64(){} // RVA: 0x67779C0
-        public void CompareTo(){} // RVA: 0x6777B50 | overloaded x2
-        public void Equals(){} // RVA: 0x6777D00
-        public void GetHashCode(){} // RVA: 0x6777F40
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6777FF0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x67781A0
-        public void GetXsdType(){} // RVA: 0x6778310
-        public void .cctor(){} // RVA: 0x6778390
+        public void .ctor(){} // RVA: 0x7A7E84910
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void get_Value(){} // RVA: 0x7A7E84920
+        public void op_Implicit(){} // RVA: 0x7AE564EC0
+        public void ToString(){} // RVA: 0x7A7E84980
+        public void op_Addition(){} // RVA: 0x7AE564F60
+        public void op_Subtraction(){} // RVA: 0x7AE565090
+        public void op_Multiply(){} // RVA: 0x7AE5651C0
+        public void op_Division(){} // RVA: 0x7AE5652F0
+        public void op_Explicit(){} // RVA: 0x7AE565410
+        public void op_Equality(){} // RVA: 0x7AE5655D0
+        public void op_LessThan(){} // RVA: 0x7AE5656A0
+        public void op_GreaterThan(){} // RVA: 0x7AE565770
+        public void LessThan(){} // RVA: 0x7AE565840
+        public void GreaterThan(){} // RVA: 0x7AE5658A0
+        public void ToSqlDouble(){} // RVA: 0x7A7E84A10
+        public void ToSqlInt64(){} // RVA: 0x7A7E84A80
+        public void CompareTo(){} // RVA: 0x7A7E84C10
+        public void Equals(){} // RVA: 0x7A7E84C20
+        public void GetHashCode(){} // RVA: 0x7A7E84C30
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E84CE0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E84E90
+        public void GetXsdType(){} // RVA: 0x7AE5662C0
+        public void .cctor(){} // RVA: 0x7AE566340
     }
 
-    public class SqlBytes
+    public class SqlBytes : Object
     {
-        public byte[] _rgbBuf; // 0x10
-        public long _lCurLen; // 0x18
-        public System.IO.Stream _stream; // 0x20
-        public 0x658ED2C0 _state; // 0x28
-        public byte[] _rgbWorkBuf; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x67785A0 | overloaded x3
-        public void get_IsNull(){} // RVA: 0x104D6D0
-        public void get_Buffer(){} // RVA: 0x6778630
-        public void get_Length(){} // RVA: 0x6778660
-        public void get_Value(){} // RVA: 0x67786F0
-        public void SetNull(){} // RVA: 0x6778930
-        public void CopyStreamToBuffer(){} // RVA: 0x67789A0
-        public void FStream(){} // RVA: 0x6778BD0
-        public void SetBuffer(){} // RVA: 0x6778BE0
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6778CC0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6778F50
-        public void GetXsdType(){} // RVA: 0x6779140
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x67791C0
-        public void get_Null(){} // RVA: 0x6779200
+        public void .ctor(){} // RVA: 0x7AE566550
+        public void get_IsNull(){} // RVA: 0x7A8E20EE0
+        public void get_Buffer(){} // RVA: 0x7AE5665E0
+        public void get_Length(){} // RVA: 0x7AE566610
+        public void get_Value(){} // RVA: 0x7AE5666A0
+        public void SetNull(){} // RVA: 0x7AE5668E0
+        public void CopyStreamToBuffer(){} // RVA: 0x7AE566950
+        public void FStream(){} // RVA: 0x7AE566B80
+        public void SetBuffer(){} // RVA: 0x7AE566B90
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A82D1450
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7AE566C70
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7AE566F20
+        public void GetXsdType(){} // RVA: 0x7AE567110
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7AE567190
+        public void get_Null(){} // RVA: 0x7AE5671D0
     }
 
-    public class SqlChars
+    public class SqlChars : Object
     {
-        public char[] _rgchBuf; // 0x10
-        public long _lCurLen; // 0x18
-        public System.Data.SqlTypes.SqlStreamChars _stream; // 0x20
-        public 0x658ED2C0 _state; // 0x28
-        public char[] _rgchWorkBuf; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6779250 | overloaded x3
-        public void get_IsNull(){} // RVA: 0x104D6D0
-        public void get_Buffer(){} // RVA: 0x67792F0
-        public void get_Length(){} // RVA: 0x6779320
-        public void get_Value(){} // RVA: 0x67793B0
-        public void SetNull(){} // RVA: 0x6778930
-        public void FStream(){} // RVA: 0x6778BD0
-        public void CopyStreamToBuffer(){} // RVA: 0x67795F0
-        public void SetBuffer(){} // RVA: 0x6778BE0
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6779820
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6779A10
-        public void GetXsdType(){} // RVA: 0x6779BD0
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6779C50
-        public void get_Null(){} // RVA: 0x6779C90
+        public void .ctor(){} // RVA: 0x7AE567220
+        public void get_IsNull(){} // RVA: 0x7A8E20EE0
+        public void get_Buffer(){} // RVA: 0x7AE5672C0
+        public void get_Length(){} // RVA: 0x7AE5672F0
+        public void get_Value(){} // RVA: 0x7AE567380
+        public void SetNull(){} // RVA: 0x7AE5668E0
+        public void FStream(){} // RVA: 0x7AE566B80
+        public void CopyStreamToBuffer(){} // RVA: 0x7AE5675C0
+        public void SetBuffer(){} // RVA: 0x7AE566B90
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A82D1450
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7AE5677F0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7AE5679E0
+        public void GetXsdType(){} // RVA: 0x7AE567BA0
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7AE567C20
+        public void get_Null(){} // RVA: 0x7AE567C60
     }
 
-    public class SqlDateTime
+    public class SqlDateTime : ValueType
     {
-        public bool m_fNotNull; // 0x10
-        public int m_day; // 0x14
-        public int m_time; // 0x18
-        public double s_SQLTicksPerMillisecond;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6779D60 | overloaded x3
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void ToTimeSpan(){} // RVA: 0x6779E90
-        public void ToDateTime(){} // RVA: 0x6779F20
-        public void FromTimeSpan(){} // RVA: 0x677A080
-        public void FromDateTime(){} // RVA: 0x677A280
-        public void get_Value(){} // RVA: 0x677A430
-        public void get_DayTicks(){} // RVA: 0x677A4E0
-        public void get_TimeTicks(){} // RVA: 0x677A540
-        public void op_Implicit(){} // RVA: 0x677A5A0
-        public void ToString(){} // RVA: 0x677A5D0
-        public void op_Equality(){} // RVA: 0x677A700
-        public void op_LessThan(){} // RVA: 0x677A7E0
-        public void op_GreaterThan(){} // RVA: 0x677A8D0
-        public void LessThan(){} // RVA: 0x677A9C0
-        public void GreaterThan(){} // RVA: 0x677AA50
-        public void CompareTo(){} // RVA: 0x677AC20 | overloaded x2
-        public void Equals(){} // RVA: 0x677AE30
-        public void GetHashCode(){} // RVA: 0x677B090
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x677B180
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x677B480
-        public void GetXsdType(){} // RVA: 0x677B6E0
-        public void .cctor(){} // RVA: 0x677B760
+        public void .ctor(){} // RVA: 0x7A7E85060
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void ToTimeSpan(){} // RVA: 0x7AE567E60
+        public void ToDateTime(){} // RVA: 0x7AE567EF0
+        public void FromTimeSpan(){} // RVA: 0x7AE568050
+        public void FromDateTime(){} // RVA: 0x7AE568250
+        public void get_Value(){} // RVA: 0x7A7E85070
+        public void get_DayTicks(){} // RVA: 0x7A7E85080
+        public void get_TimeTicks(){} // RVA: 0x7A7E850E0
+        public void op_Implicit(){} // RVA: 0x7AE568570
+        public void ToString(){} // RVA: 0x7A7E85140
+        public void op_Equality(){} // RVA: 0x7AE5686D0
+        public void op_LessThan(){} // RVA: 0x7AE5687B0
+        public void op_GreaterThan(){} // RVA: 0x7AE5688A0
+        public void LessThan(){} // RVA: 0x7AE568990
+        public void GreaterThan(){} // RVA: 0x7AE568A20
+        public void CompareTo(){} // RVA: 0x7A7E853B0
+        public void Equals(){} // RVA: 0x7A7E853E0
+        public void GetHashCode(){} // RVA: 0x7A7E853F0
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E854E0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E854F0
+        public void GetXsdType(){} // RVA: 0x7AE5696B0
+        public void .cctor(){} // RVA: 0x7AE569730
     }
 
-    public class SqlDecimal
+    public class SqlDecimal : ValueType
     {
-        public byte _bStatus; // 0x10
-        public byte _bLen; // 0x11
-        public byte _bPrec; // 0x12
-        public byte _bScale; // 0x13
-        public uint _data1; // 0x14
-
         // ── Methods ──
-        public void CalculatePrecision(){} // RVA: 0x677BF00
-        public void VerifyPrecision(){} // RVA: 0x677C140
-        public void .ctor(){} // RVA: 0x677C980 | overloaded x5
-        public void get_IsNull(){} // RVA: 0x677CBB0
-        public void get_Value(){} // RVA: 0x677CC20
-        public void get_IsPositive(){} // RVA: 0x677CC90
-        public void SetPositive(){} // RVA: 0x677CDB0
-        public void SetSignBit(){} // RVA: 0x677CE20
-        public void get_Scale(){} // RVA: 0x677CED0
-        public void get_Data(){} // RVA: 0x677CFC0
-        public void ToString(){} // RVA: 0x677D110
-        public void Parse(){} // RVA: 0x677D550
-        public void ToDouble(){} // RVA: 0x677DCD0
-        public void ToDecimal(){} // RVA: 0x677DEB0
-        public void op_Implicit(){} // RVA: 0x6780250 | overloaded x7
-        public void op_UnaryNegation(){} // RVA: 0x677E120
-        public void op_Addition(){} // RVA: 0x677E330
-        public void op_Subtraction(){} // RVA: 0x677EAF0
-        public void op_Multiply(){} // RVA: 0x677EBC0
-        public void op_Division(){} // RVA: 0x677F840
-        public void ZeroToMaxLen(){} // RVA: 0x6780350
-        public void FZero(){} // RVA: 0x67803D0
-        public void FGt10_38(){} // RVA: 0x6780430 | overloaded x2
-        public void BGetPrecUI4(){} // RVA: 0x6780480
-        public void BGetPrecUI8(){} // RVA: 0x6780630
-        public void AddULong(){} // RVA: 0x67809C0
-        public void MultByULong(){} // RVA: 0x6780C50
-        public void DivByULong(){} // RVA: 0x6780F10
-        public void AdjustScale(){} // RVA: 0x6781100
-        public void LAbsCmp(){} // RVA: 0x67814F0
-        public void MpMove(){} // RVA: 0x67816A0
-        public void MpSet(){} // RVA: 0x6781700
-        public void MpNormalize(){} // RVA: 0x6781730
-        public void MpMul1(){} // RVA: 0x6781770
-        public void MpDiv1(){} // RVA: 0x6781850
-        public void DWL(){} // RVA: 0x6781950
-        public void HI(){} // RVA: 0x5EA67B0
-        public void LO(){} // RVA: 0x20C5210
-        public void MpDiv(){} // RVA: 0x6781960
-        public void CompareNm(){} // RVA: 0x6782560
-        public void CheckValidPrecScale(){} // RVA: 0x6782750
-        public void op_Equality(){} // RVA: 0x6782830
-        public void op_LessThan(){} // RVA: 0x6782980
-        public void op_GreaterThan(){} // RVA: 0x6782AD0
-        public void LessThan(){} // RVA: 0x6782C20
-        public void GreaterThan(){} // RVA: 0x6782CB0
-        public void ToSqlDouble(){} // RVA: 0x6782D40
-        public void ToSqlInt64(){} // RVA: 0x6782DD0
-        public void ToSqlMoney(){} // RVA: 0x6782E60
-        public void ChFromDigit(){} // RVA: 0x6783040
-        public void StoreFromWorkingArray(){} // RVA: 0x6783050
-        public void SetToZero(){} // RVA: 0x67830A0
-        public void CompareTo(){} // RVA: 0x6783240 | overloaded x2
-        public void Equals(){} // RVA: 0x67834B0
-        public void GetHashCode(){} // RVA: 0x67838E0
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6783A60
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6783C20
-        public void GetXsdType(){} // RVA: 0x6783DE0
-        public void .cctor(){} // RVA: 0x6783E60
+        public void CalculatePrecision(){} // RVA: 0x7A7E85500
+        public void VerifyPrecision(){} // RVA: 0x7A7E85510
+        public void .ctor(){} // RVA: 0x7A7E85570
+        public void get_IsNull(){} // RVA: 0x7A7E85590
+        public void get_Value(){} // RVA: 0x7A7E855A0
+        public void get_IsPositive(){} // RVA: 0x7A7E85610
+        public void SetPositive(){} // RVA: 0x7A7E85620
+        public void SetSignBit(){} // RVA: 0x7A7E85630
+        public void get_Scale(){} // RVA: 0x7A7E85640
+        public void get_Data(){} // RVA: 0x7A7E85650
+        public void ToString(){} // RVA: 0x7A7E85660
+        public void Parse(){} // RVA: 0x7AE56B570
+        public void ToDouble(){} // RVA: 0x7A7E85670
+        public void ToDecimal(){} // RVA: 0x7A7E85680
+        public void op_Implicit(){} // RVA: 0x7AE56E3A0
+        public void op_UnaryNegation(){} // RVA: 0x7AE56C160
+        public void op_Addition(){} // RVA: 0x7AE56C370
+        public void op_Subtraction(){} // RVA: 0x7AE56CB80
+        public void op_Multiply(){} // RVA: 0x7AE56CC50
+        public void op_Division(){} // RVA: 0x7AE56D990
+        public void ZeroToMaxLen(){} // RVA: 0x7AE56E4A0
+        public void FZero(){} // RVA: 0x7A7E856B0
+        public void FGt10_38(){} // RVA: 0x7A7E85710
+        public void BGetPrecUI4(){} // RVA: 0x7AE56E5D0
+        public void BGetPrecUI8(){} // RVA: 0x7AE56E780
+        public void AddULong(){} // RVA: 0x7A7E85760
+        public void MultByULong(){} // RVA: 0x7A7E85770
+        public void DivByULong(){} // RVA: 0x7A7E85780
+        public void AdjustScale(){} // RVA: 0x7A7E85790
+        public void LAbsCmp(){} // RVA: 0x7A7E857A0
+        public void MpMove(){} // RVA: 0x7AE56F830
+        public void MpSet(){} // RVA: 0x7AE56F8A0
+        public void MpNormalize(){} // RVA: 0x7AE56F8D0
+        public void MpMul1(){} // RVA: 0x7AE56F910
+        public void MpDiv1(){} // RVA: 0x7AE56F9F0
+        public void DWL(){} // RVA: 0x7AE56FAF0
+        public void HI(){} // RVA: 0x7ADC953C0
+        public void LO(){} // RVA: 0x7A9ED9B50
+        public void MpDiv(){} // RVA: 0x7AE56FB00
+        public void CompareNm(){} // RVA: 0x7A7E857D0
+        public void CheckValidPrecScale(){} // RVA: 0x7AE570960
+        public void op_Equality(){} // RVA: 0x7AE570A40
+        public void op_LessThan(){} // RVA: 0x7AE570B90
+        public void op_GreaterThan(){} // RVA: 0x7AE570CE0
+        public void LessThan(){} // RVA: 0x7AE570E30
+        public void GreaterThan(){} // RVA: 0x7AE570EC0
+        public void ToSqlDouble(){} // RVA: 0x7A7E85800
+        public void ToSqlInt64(){} // RVA: 0x7A7E85890
+        public void ToSqlMoney(){} // RVA: 0x7A7E85920
+        public void ChFromDigit(){} // RVA: 0x7AE571250
+        public void StoreFromWorkingArray(){} // RVA: 0x7A7E85950
+        public void SetToZero(){} // RVA: 0x7A7E859A0
+        public void CompareTo(){} // RVA: 0x7A7E85AE0
+        public void Equals(){} // RVA: 0x7A7E85B10
+        public void GetHashCode(){} // RVA: 0x7A7E85B20
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E85CB0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E85E80
+        public void GetXsdType(){} // RVA: 0x7AE571FF0
+        public void .cctor(){} // RVA: 0x7AE572070
     }
 
-    public class SqlDouble
+    public class SqlDouble : ValueType
     {
-        public bool m_fNotNull; // 0x10
-        public double m_value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x67847D0 | overloaded x2
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void get_Value(){} // RVA: 0x6784860
-        public void op_Implicit(){} // RVA: 0x6785560 | overloaded x8
-        public void ToString(){} // RVA: 0x67848E0
-        public void op_UnaryNegation(){} // RVA: 0x6784970
-        public void op_Addition(){} // RVA: 0x6784A30
-        public void op_Subtraction(){} // RVA: 0x6784B80
-        public void op_Multiply(){} // RVA: 0x6784CD0
-        public void op_Division(){} // RVA: 0x6784E20
-        public void op_Equality(){} // RVA: 0x6785690
-        public void op_LessThan(){} // RVA: 0x6785760
-        public void op_GreaterThan(){} // RVA: 0x6785830
-        public void LessThan(){} // RVA: 0x6785900
-        public void GreaterThan(){} // RVA: 0x6785A20
-        public void ToSqlSingle(){} // RVA: 0x6785B40
-        public void CompareTo(){} // RVA: 0x6785E10 | overloaded x2
-        public void Equals(){} // RVA: 0x6786060
-        public void GetHashCode(){} // RVA: 0x67862D0
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x67863B0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x67864E0
-        public void GetXsdType(){} // RVA: 0x6786660
-        public void .cctor(){} // RVA: 0x67866E0
+        public void .ctor(){} // RVA: 0x7A7E86080
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void get_Value(){} // RVA: 0x7A7E86090
+        public void op_Implicit(){} // RVA: 0x7AE573770
+        public void ToString(){} // RVA: 0x7A7E860F0
+        public void op_UnaryNegation(){} // RVA: 0x7AE572B80
+        public void op_Addition(){} // RVA: 0x7AE572C40
+        public void op_Subtraction(){} // RVA: 0x7AE572D90
+        public void op_Multiply(){} // RVA: 0x7AE572EE0
+        public void op_Division(){} // RVA: 0x7AE573030
+        public void op_Equality(){} // RVA: 0x7AE5738A0
+        public void op_LessThan(){} // RVA: 0x7AE573970
+        public void op_GreaterThan(){} // RVA: 0x7AE573A40
+        public void LessThan(){} // RVA: 0x7AE573B10
+        public void GreaterThan(){} // RVA: 0x7AE573C30
+        public void ToSqlSingle(){} // RVA: 0x7A7E86180
+        public void CompareTo(){} // RVA: 0x7A7E862C0
+        public void Equals(){} // RVA: 0x7A7E862E0
+        public void GetHashCode(){} // RVA: 0x7A7E862F0
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E863D0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E86510
+        public void GetXsdType(){} // RVA: 0x7AE574870
+        public void .cctor(){} // RVA: 0x7AE5748F0
     }
 
-    public class SqlGuid
+    public class SqlGuid : ValueType
     {
-        public int s_sizeOfGuid;
-        public int[] s_rgiGuidOrder; // 0x8
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x67868F0 | overloaded x2
-        public void get_IsNull(){} // RVA: 0x1D26810
-        public void get_Value(){} // RVA: 0x6786960
-        public void op_Implicit(){} // RVA: 0x6786A50
-        public void ToString(){} // RVA: 0x6786AC0
-        public void Compare(){} // RVA: 0x6786BE0
-        public void op_Equality(){} // RVA: 0x6786CF0
-        public void op_LessThan(){} // RVA: 0x6786DE0
-        public void op_GreaterThan(){} // RVA: 0x6786EC0
-        public void CompareTo(){} // RVA: 0x67870D0 | overloaded x2
-        public void Equals(){} // RVA: 0x67873D0
-        public void GetHashCode(){} // RVA: 0x6787600
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x67876A0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6787970
-        public void GetXsdType(){} // RVA: 0x6787B80
-        public void .cctor(){} // RVA: 0x6787C00
+        public void .ctor(){} // RVA: 0x7A7E86740
+        public void get_IsNull(){} // RVA: 0x7A7673DE0
+        public void get_Value(){} // RVA: 0x7A7E867B0
+        public void op_Implicit(){} // RVA: 0x7AE574C60
+        public void ToString(){} // RVA: 0x7A7E867E0
+        public void Compare(){} // RVA: 0x7AE574E00
+        public void op_Equality(){} // RVA: 0x7AE574F10
+        public void op_LessThan(){} // RVA: 0x7AE575000
+        public void op_GreaterThan(){} // RVA: 0x7AE5750E0
+        public void CompareTo(){} // RVA: 0x7A7E86910
+        public void Equals(){} // RVA: 0x7A7E86920
+        public void GetHashCode(){} // RVA: 0x7A7E86930
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E869D0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E869E0
+        public void GetXsdType(){} // RVA: 0x7AE575DA0
+        public void .cctor(){} // RVA: 0x7AE575E20
     }
 
-    public class SqlInt16
+    public class SqlInt16 : ValueType
     {
-        public bool m_fNotNull; // 0x10
-        public short m_value; // 0x12
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3CAB320 | overloaded x2
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void get_Value(){} // RVA: 0x6787DD0
-        public void op_Implicit(){} // RVA: 0x67884D0 | overloaded x2
-        public void ToString(){} // RVA: 0x6787E50
-        public void op_UnaryNegation(){} // RVA: 0x6787EE0
-        public void op_Addition(){} // RVA: 0x6787F80
-        public void op_Subtraction(){} // RVA: 0x67880B0
-        public void op_Multiply(){} // RVA: 0x67881E0
-        public void op_Division(){} // RVA: 0x6788340
-        public void op_Explicit(){} // RVA: 0x6788590
-        public void op_Equality(){} // RVA: 0x67886F0
-        public void op_LessThan(){} // RVA: 0x67887C0
-        public void op_GreaterThan(){} // RVA: 0x6788890
-        public void LessThan(){} // RVA: 0x6788960
-        public void GreaterThan(){} // RVA: 0x67889C0
-        public void ToSqlDouble(){} // RVA: 0x6788A20
-        public void ToSqlInt64(){} // RVA: 0x6788A90
-        public void CompareTo(){} // RVA: 0x6788C20 | overloaded x2
-        public void Equals(){} // RVA: 0x6788DC0
-        public void GetHashCode(){} // RVA: 0x6789000
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x67890C0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6789270
-        public void GetXsdType(){} // RVA: 0x67893E0
-        public void .cctor(){} // RVA: 0x6789460
+        public void .ctor(){} // RVA: 0x7A7E86A30
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void get_Value(){} // RVA: 0x7A7E86A40
+        public void op_Implicit(){} // RVA: 0x7AE5766F0
+        public void ToString(){} // RVA: 0x7A7E86AA0
+        public void op_UnaryNegation(){} // RVA: 0x7AE576100
+        public void op_Addition(){} // RVA: 0x7AE5761A0
+        public void op_Subtraction(){} // RVA: 0x7AE5762D0
+        public void op_Multiply(){} // RVA: 0x7AE576400
+        public void op_Division(){} // RVA: 0x7AE576560
+        public void op_Explicit(){} // RVA: 0x7AE5767B0
+        public void op_Equality(){} // RVA: 0x7AE576910
+        public void op_LessThan(){} // RVA: 0x7AE5769E0
+        public void op_GreaterThan(){} // RVA: 0x7AE576AB0
+        public void LessThan(){} // RVA: 0x7AE576B80
+        public void GreaterThan(){} // RVA: 0x7AE576BE0
+        public void ToSqlDouble(){} // RVA: 0x7A7E86B30
+        public void ToSqlInt64(){} // RVA: 0x7A7E86BA0
+        public void CompareTo(){} // RVA: 0x7A7E86D30
+        public void Equals(){} // RVA: 0x7A7E86D40
+        public void GetHashCode(){} // RVA: 0x7A7E86D50
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E86E10
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E86FC0
+        public void GetXsdType(){} // RVA: 0x7AE577600
+        public void .cctor(){} // RVA: 0x7AE577680
     }
 
-    public class SqlInt32
+    public class SqlInt32 : ValueType
     {
-        public bool m_fNotNull; // 0x10
-        public int m_value; // 0x14
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3CB3350 | overloaded x2
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void get_Value(){} // RVA: 0x6789530
-        public void op_Implicit(){} // RVA: 0x6789DF0 | overloaded x3
-        public void ToString(){} // RVA: 0x67895E0
-        public void op_UnaryNegation(){} // RVA: 0x6789670
-        public void op_Addition(){} // RVA: 0x6789710
-        public void op_Subtraction(){} // RVA: 0x67898A0
-        public void op_Multiply(){} // RVA: 0x6789A20
-        public void op_Division(){} // RVA: 0x6789B90
-        public void op_Explicit(){} // RVA: 0x6789EB0
-        public void SameSignInt(){} // RVA: 0x678A010
-        public void op_Equality(){} // RVA: 0x678A030
-        public void op_LessThan(){} // RVA: 0x678A100
-        public void op_GreaterThan(){} // RVA: 0x678A1D0
-        public void LessThan(){} // RVA: 0x678A2A0
-        public void GreaterThan(){} // RVA: 0x678A300
-        public void ToSqlDouble(){} // RVA: 0x678A360
-        public void ToSqlInt64(){} // RVA: 0x678A3D0
-        public void CompareTo(){} // RVA: 0x678A560 | overloaded x2
-        public void Equals(){} // RVA: 0x678A710
-        public void GetHashCode(){} // RVA: 0x678A950
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x678A9C0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x678AB00
-        public void GetXsdType(){} // RVA: 0x678AC70
-        public void .cctor(){} // RVA: 0x678ACF0
+        public void .ctor(){} // RVA: 0x7A7E87140
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void get_Value(){} // RVA: 0x7A7E87150
+        public void op_Implicit(){} // RVA: 0x7AE577FB0
+        public void ToString(){} // RVA: 0x7A7E87160
+        public void op_UnaryNegation(){} // RVA: 0x7AE577890
+        public void op_Addition(){} // RVA: 0x7AE577930
+        public void op_Subtraction(){} // RVA: 0x7AE577A90
+        public void op_Multiply(){} // RVA: 0x7AE577BE0
+        public void op_Division(){} // RVA: 0x7AE577D50
+        public void op_Explicit(){} // RVA: 0x7AE578070
+        public void SameSignInt(){} // RVA: 0x7AE5781D0
+        public void op_Equality(){} // RVA: 0x7AE5781E0
+        public void op_LessThan(){} // RVA: 0x7AE5782B0
+        public void op_GreaterThan(){} // RVA: 0x7AE578380
+        public void LessThan(){} // RVA: 0x7AE578450
+        public void GreaterThan(){} // RVA: 0x7AE5784B0
+        public void ToSqlDouble(){} // RVA: 0x7A7E871F0
+        public void ToSqlInt64(){} // RVA: 0x7A7E87260
+        public void CompareTo(){} // RVA: 0x7A7E873F0
+        public void Equals(){} // RVA: 0x7A7E87400
+        public void GetHashCode(){} // RVA: 0x7A7E87410
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E87490
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E875D0
+        public void GetXsdType(){} // RVA: 0x7AE578E20
+        public void .cctor(){} // RVA: 0x7AE578EA0
     }
 
-    public class SqlInt64
+    public class SqlInt64 : ValueType
     {
-        public bool m_fNotNull; // 0x10
-        public long m_value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3CAF760 | overloaded x2
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void get_Value(){} // RVA: 0x678ADD0
-        public void op_Implicit(){} // RVA: 0x678BA80 | overloaded x4
-        public void ToString(){} // RVA: 0x678AE50
-        public void op_UnaryNegation(){} // RVA: 0x678AEE0
-        public void op_Addition(){} // RVA: 0x678AF90
-        public void op_Subtraction(){} // RVA: 0x678B100
-        public void op_Multiply(){} // RVA: 0x678B280
-        public void op_Division(){} // RVA: 0x678B5C0
-        public void op_Modulus(){} // RVA: 0x678B750
-        public void op_Explicit(){} // RVA: 0x678BB60
-        public void SameSignLong(){} // RVA: 0x678BE20
-        public void op_Equality(){} // RVA: 0x678BE40
-        public void op_LessThan(){} // RVA: 0x678BF10
-        public void op_GreaterThan(){} // RVA: 0x678BFE0
-        public void LessThan(){} // RVA: 0x678C0B0
-        public void GreaterThan(){} // RVA: 0x678C1B0
-        public void ToSqlByte(){} // RVA: 0x678C2B0
-        public void ToSqlDouble(){} // RVA: 0x678C320
-        public void ToSqlInt16(){} // RVA: 0x678C3A0
-        public void ToSqlInt32(){} // RVA: 0x678C510
-        public void ToSqlDecimal(){} // RVA: 0x678C680
-        public void CompareTo(){} // RVA: 0x678C840 | overloaded x2
-        public void Equals(){} // RVA: 0x678CA90
-        public void GetHashCode(){} // RVA: 0x678CCF0
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x678CDB0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x678CEF0
-        public void GetXsdType(){} // RVA: 0x678D060
-        public void .cctor(){} // RVA: 0x678D0E0
+        public void .ctor(){} // RVA: 0x7A7E87740
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void get_Value(){} // RVA: 0x7A7E87750
+        public void op_Implicit(){} // RVA: 0x7AE579C30
+        public void ToString(){} // RVA: 0x7A7E877B0
+        public void op_UnaryNegation(){} // RVA: 0x7AE579090
+        public void op_Addition(){} // RVA: 0x7AE579140
+        public void op_Subtraction(){} // RVA: 0x7AE5792B0
+        public void op_Multiply(){} // RVA: 0x7AE579430
+        public void op_Division(){} // RVA: 0x7AE579770
+        public void op_Modulus(){} // RVA: 0x7AE579900
+        public void op_Explicit(){} // RVA: 0x7AE579D10
+        public void SameSignLong(){} // RVA: 0x7AE579FC0
+        public void op_Equality(){} // RVA: 0x7AE579FE0
+        public void op_LessThan(){} // RVA: 0x7AE57A0B0
+        public void op_GreaterThan(){} // RVA: 0x7AE57A180
+        public void LessThan(){} // RVA: 0x7AE57A250
+        public void GreaterThan(){} // RVA: 0x7AE57A350
+        public void ToSqlByte(){} // RVA: 0x7A7E87840
+        public void ToSqlDouble(){} // RVA: 0x7A7E87850
+        public void ToSqlInt16(){} // RVA: 0x7A7E878D0
+        public void ToSqlInt32(){} // RVA: 0x7A7E878E0
+        public void ToSqlDecimal(){} // RVA: 0x7A7E878F0
+        public void CompareTo(){} // RVA: 0x7A7E87AB0
+        public void Equals(){} // RVA: 0x7A7E87AD0
+        public void GetHashCode(){} // RVA: 0x7A7E87AE0
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E87BA0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E87CE0
+        public void GetXsdType(){} // RVA: 0x7AE57B200
+        public void .cctor(){} // RVA: 0x7AE57B280
     }
 
-    public class SqlMoney
+    public class SqlMoney : ValueType
     {
-        public bool _fNotNull; // 0x10
-        public long _value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x678D350 | overloaded x5
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void get_Value(){} // RVA: 0x678D540
-        public void ToDecimal(){} // RVA: 0x678D5F0
-        public void ToDouble(){} // RVA: 0x678D710
-        public void op_Implicit(){} // RVA: 0x678E560 | overloaded x6
-        public void ToString(){} // RVA: 0x678D880
-        public void op_UnaryNegation(){} // RVA: 0x678DA90
-        public void op_Addition(){} // RVA: 0x678DBC0
-        public void op_Subtraction(){} // RVA: 0x678DD60
-        public void op_Multiply(){} // RVA: 0x678DF00
-        public void op_Division(){} // RVA: 0x678E0E0
-        public void op_Explicit(){} // RVA: 0x678E670
-        public void op_Equality(){} // RVA: 0x678E7F0
-        public void op_LessThan(){} // RVA: 0x678E8C0
-        public void op_GreaterThan(){} // RVA: 0x678E990
-        public void LessThan(){} // RVA: 0x678EA60
-        public void GreaterThan(){} // RVA: 0x678EB60
-        public void ToSqlDouble(){} // RVA: 0x678EC60
-        public void ToSqlDecimal(){} // RVA: 0x678EDF0
-        public void CompareTo(){} // RVA: 0x678EFB0 | overloaded x2
-        public void Equals(){} // RVA: 0x678F200
-        public void GetHashCode(){} // RVA: 0x678F460
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x678F4C0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x678F6A0
-        public void GetXsdType(){} // RVA: 0x678F910
-        public void .cctor(){} // RVA: 0x678F990
+        public void .ctor(){} // RVA: 0x7A7E87E70
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void get_Value(){} // RVA: 0x7A7E87E90
+        public void ToDecimal(){} // RVA: 0x7A7E87EC0
+        public void ToDouble(){} // RVA: 0x7A7E87EF0
+        public void op_Implicit(){} // RVA: 0x7AE57C700
+        public void ToString(){} // RVA: 0x7A7E87F00
+        public void op_UnaryNegation(){} // RVA: 0x7AE57BC30
+        public void op_Addition(){} // RVA: 0x7AE57BD60
+        public void op_Subtraction(){} // RVA: 0x7AE57BF00
+        public void op_Multiply(){} // RVA: 0x7AE57C0A0
+        public void op_Division(){} // RVA: 0x7AE57C280
+        public void op_Explicit(){} // RVA: 0x7AE57C810
+        public void op_Equality(){} // RVA: 0x7AE57C990
+        public void op_LessThan(){} // RVA: 0x7AE57CA60
+        public void op_GreaterThan(){} // RVA: 0x7AE57CB30
+        public void LessThan(){} // RVA: 0x7AE57CC00
+        public void GreaterThan(){} // RVA: 0x7AE57CD00
+        public void ToSqlDouble(){} // RVA: 0x7A7E87F10
+        public void ToSqlDecimal(){} // RVA: 0x7A7E87F40
+        public void CompareTo(){} // RVA: 0x7A7E88100
+        public void Equals(){} // RVA: 0x7A7E88120
+        public void GetHashCode(){} // RVA: 0x7A7E88130
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E88190
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E881A0
+        public void GetXsdType(){} // RVA: 0x7AE57DAB0
+        public void .cctor(){} // RVA: 0x7AE57DB30
     }
 
-    public class SqlNullValueException
+    public class SqlNullValueException : SqlTypeException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6794310 | overloaded x4
-        public void SqlNullValueExceptionSerialization(){} // RVA: 0x6794410
+        public void .ctor(){} // RVA: 0x7AE5824E0
+        public void SqlNullValueExceptionSerialization(){} // RVA: 0x7AE5825F0
     }
 
-    public class SqlSingle
+    public class SqlSingle : ValueType
     {
-        public bool _fNotNull; // 0x10
-        public float _value; // 0x14
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x678FBA0 | overloaded x3
-        public void get_IsNull(){} // RVA: 0x362AF20
-        public void get_Value(){} // RVA: 0x678FC10
-        public void op_Implicit(){} // RVA: 0x6790B50 | overloaded x7
-        public void ToString(){} // RVA: 0x678FD00
-        public void op_UnaryNegation(){} // RVA: 0x678FD90
-        public void op_Addition(){} // RVA: 0x678FEA0
-        public void op_Subtraction(){} // RVA: 0x6790030
-        public void op_Multiply(){} // RVA: 0x67901C0
-        public void op_Division(){} // RVA: 0x6790350
-        public void op_Explicit(){} // RVA: 0x6790D10
-        public void op_Equality(){} // RVA: 0x6790EB0
-        public void op_LessThan(){} // RVA: 0x6790F90
-        public void op_GreaterThan(){} // RVA: 0x6791060
-        public void LessThan(){} // RVA: 0x6791130
-        public void GreaterThan(){} // RVA: 0x6791190
-        public void ToSqlDouble(){} // RVA: 0x67911F0
-        public void CompareTo(){} // RVA: 0x6791380 | overloaded x2
-        public void Equals(){} // RVA: 0x6791530
-        public void GetHashCode(){} // RVA: 0x6791770
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6791830
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6791960
-        public void GetXsdType(){} // RVA: 0x6791AE0
-        public void .cctor(){} // RVA: 0x6791B60
+        public void .ctor(){} // RVA: 0x7A7E881C0
+        public void get_IsNull(){} // RVA: 0x7A7E842C0
+        public void get_Value(){} // RVA: 0x7A7E881D0
+        public void op_Implicit(){} // RVA: 0x7AE57ECF0
+        public void ToString(){} // RVA: 0x7A7E88230
+        public void op_UnaryNegation(){} // RVA: 0x7AE57DF30
+        public void op_Addition(){} // RVA: 0x7AE57E040
+        public void op_Subtraction(){} // RVA: 0x7AE57E1D0
+        public void op_Multiply(){} // RVA: 0x7AE57E360
+        public void op_Division(){} // RVA: 0x7AE57E4F0
+        public void op_Explicit(){} // RVA: 0x7AE57EEB0
+        public void op_Equality(){} // RVA: 0x7AE57F050
+        public void op_LessThan(){} // RVA: 0x7AE57F130
+        public void op_GreaterThan(){} // RVA: 0x7AE57F200
+        public void LessThan(){} // RVA: 0x7AE57F2D0
+        public void GreaterThan(){} // RVA: 0x7AE57F330
+        public void ToSqlDouble(){} // RVA: 0x7A7E882C0
+        public void CompareTo(){} // RVA: 0x7A7E88450
+        public void Equals(){} // RVA: 0x7A7E88460
+        public void GetHashCode(){} // RVA: 0x7A7E88470
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E88530
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E88670
+        public void GetXsdType(){} // RVA: 0x7AE57FC80
+        public void .cctor(){} // RVA: 0x7AE57FD00
     }
 
-    public class SqlStreamChars
+    public class SqlStreamChars : Object
     {
         // ── Methods ──
-        public void get_Length(){} // RVA: 0xCD60
-        public void get_Position(){} // RVA: 0xCD60
-        public void Read(){}
-        public void Seek(){}
+        public void get_Length(){} // RVA: 0x7A7E00680
+        public void get_Position(){} // RVA: 0x7A7E00680
+        public void Read(){} // RVA: 0x7A7E0A0A0
+        public void Seek(){} // RVA: 0x7A7E06460
     }
 
-    public class SqlString
+    public class SqlString : ValueType
     {
-        public string m_value; // 0x10
-        public System.Globalization.CompareInfo m_cmpInfo; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x67920A0 | overloaded x4
-        public void get_IsNull(){} // RVA: 0xF44720
-        public void get_Value(){} // RVA: 0x6792280
-        public void SetCompareInfo(){} // RVA: 0x6792310
-        public void op_Implicit(){} // RVA: 0x67923E0
-        public void ToString(){} // RVA: 0x6792410
-        public void op_Addition(){} // RVA: 0x6792490
-        public void StringCompare(){} // RVA: 0x6792640
-        public void Compare(){} // RVA: 0x6792980
-        public void op_Equality(){} // RVA: 0x6792B20
-        public void ValidateSqlCompareOptions(){} // RVA: 0x6792C70
-        public void CompareOptionsFromSqlCompareOptions(){} // RVA: 0x6792D20
-        public void FBinarySort(){} // RVA: 0x6792DE0
-        public void CompareBinary(){} // RVA: 0x6792E40
-        public void CompareBinary2(){} // RVA: 0x6793050
-        public void CompareTo(){} // RVA: 0x6793300 | overloaded x2
-        public void Equals(){} // RVA: 0x6793440
-        public void GetHashCode(){} // RVA: 0x6793790
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6793A20
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6793B80
-        public void GetXsdType(){} // RVA: 0x6793CC0
-        public void .cctor(){} // RVA: 0x6793D40
+        public void .ctor(){} // RVA: 0x7A7E88840
+        public void get_IsNull(){} // RVA: 0x7A7E88850
+        public void get_Value(){} // RVA: 0x7A7E88860
+        public void SetCompareInfo(){} // RVA: 0x7A7E88870
+        public void op_Implicit(){} // RVA: 0x7AE580580
+        public void ToString(){} // RVA: 0x7A7E88880
+        public void op_Addition(){} // RVA: 0x7AE580630
+        public void StringCompare(){} // RVA: 0x7AE5807E0
+        public void Compare(){} // RVA: 0x7AE580B20
+        public void op_Equality(){} // RVA: 0x7AE580CC0
+        public void ValidateSqlCompareOptions(){} // RVA: 0x7AE580E10
+        public void CompareOptionsFromSqlCompareOptions(){} // RVA: 0x7AE580EC0
+        public void FBinarySort(){} // RVA: 0x7A7E88900
+        public void CompareBinary(){} // RVA: 0x7AE580FE0
+        public void CompareBinary2(){} // RVA: 0x7AE581210
+        public void CompareTo(){} // RVA: 0x7A7E88AA0
+        public void Equals(){} // RVA: 0x7A7E88AD0
+        public void GetHashCode(){} // RVA: 0x7A7E88AE0
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A76850B0
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7A7E88AF0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7A7E88C50
+        public void GetXsdType(){} // RVA: 0x7AE581E90
+        public void .cctor(){} // RVA: 0x7AE581F10
     }
 
-    public class SqlTruncateException
+    public class SqlTruncateException : SqlTypeException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6794590 | overloaded x4
-        public void SqlTruncateExceptionSerialization(){} // RVA: 0x6794690
+        public void .ctor(){} // RVA: 0x7AE582770
+        public void SqlTruncateExceptionSerialization(){} // RVA: 0x7AE582880
     }
 
-    public class SqlTypeException
+    public class SqlTypeException : SystemException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6794050 | overloaded x4
-        public void SqlTypeExceptionSerialization(){} // RVA: 0x6794190
+        public void .ctor(){} // RVA: 0x7AE582220
+        public void SqlTypeExceptionSerialization(){} // RVA: 0x7AE582360
     }
 
-    public class SqlXml
+    public class SqlXml : Object
     {
-        public System.Func`4<System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext,System.Xml.XmlReader> s_sqlReaderDelegate;
-        public System.Xml.XmlReaderSettings s_defaultXmlReaderSettings; // 0x8
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6794770
-        public void CreateReader(){} // RVA: 0x67947D0
-        public void CreateSqlXmlReader(){} // RVA: 0x6794A00
-        public void CreateSqlReaderDelegate(){} // RVA: 0x6794B80
-        public void get_CreateSqlReaderMethodInfo(){} // RVA: 0x6794CE0
-        public void get_IsNull(){} // RVA: 0xF44720
-        public void SetNull(){} // RVA: 0x6794770
-        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x519240
-        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x6794EF0
-        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x6795130
-        public void GetXsdType(){} // RVA: 0x67952E0
-        public void .cctor(){} // RVA: 0x6795360
+        public void .ctor(){} // RVA: 0x7AE582960
+        public void CreateReader(){} // RVA: 0x7AE5829C0
+        public void CreateSqlXmlReader(){} // RVA: 0x7AE582BF0
+        public void CreateSqlReaderDelegate(){} // RVA: 0x7AE582D70
+        public void get_CreateSqlReaderMethodInfo(){} // RVA: 0x7AE582ED0
+        public void get_IsNull(){} // RVA: 0x7A8D0F030
+        public void SetNull(){} // RVA: 0x7AE582960
+        public void System.Xml.Serialization.IXmlSerializable.GetSchema(){} // RVA: 0x7A82D1450
+        public void System.Xml.Serialization.IXmlSerializable.ReadXml(){} // RVA: 0x7AE5830E0
+        public void System.Xml.Serialization.IXmlSerializable.WriteXml(){} // RVA: 0x7AE583320
+        public void GetXsdType(){} // RVA: 0x7AE5834D0
+        public void .cctor(){} // RVA: 0x7AE583550
     }
 
-    public class SqlXmlStreamWrapper
+    public class SqlXmlStreamWrapper : Stream
     {
-        public System.IO.Stream _stream; // 0x28
-        public long _lPosition; // 0x30
-        public bool _isClosed; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6795730
-        public void get_CanRead(){} // RVA: 0x67957E0
-        public void get_CanSeek(){} // RVA: 0x6795830
-        public void get_CanWrite(){} // RVA: 0x6795880
-        public void get_Length(){} // RVA: 0x67958D0
-        public void get_Position(){} // RVA: 0x6795950
-        public void set_Position(){} // RVA: 0x67959B0
-        public void Seek(){} // RVA: 0x6795A90
-        public void Read(){} // RVA: 0x6795D00
-        public void Write(){} // RVA: 0x6795F20
-        public void ReadByte(){} // RVA: 0x6796140
-        public void WriteByte(){} // RVA: 0x6796290
-        public void SetLength(){} // RVA: 0x6796390
-        public void Flush(){} // RVA: 0x6796420
-        public void Dispose(){} // RVA: 0x6796440
-        public void ThrowIfStreamCannotSeek(){} // RVA: 0x6796460
-        public void ThrowIfStreamCannotRead(){} // RVA: 0x67964F0
-        public void ThrowIfStreamCannotWrite(){} // RVA: 0x6796580
-        public void ThrowIfStreamClosed(){} // RVA: 0x6796610
-        public void IsStreamClosed(){} // RVA: 0x6796680
+        public void .ctor(){} // RVA: 0x7AE583920
+        public void get_CanRead(){} // RVA: 0x7AE5839D0
+        public void get_CanSeek(){} // RVA: 0x7AE583A20
+        public void get_CanWrite(){} // RVA: 0x7AE583A70
+        public void get_Length(){} // RVA: 0x7AE583AC0
+        public void get_Position(){} // RVA: 0x7AE583B40
+        public void set_Position(){} // RVA: 0x7AE583BA0
+        public void Seek(){} // RVA: 0x7AE583C80
+        public void Read(){} // RVA: 0x7AE583EF0
+        public void Write(){} // RVA: 0x7AE584110
+        public void ReadByte(){} // RVA: 0x7AE584330
+        public void WriteByte(){} // RVA: 0x7AE584480
+        public void SetLength(){} // RVA: 0x7AE584580
+        public void Flush(){} // RVA: 0x7AE584610
+        public void Dispose(){} // RVA: 0x7AE584630
+        public void ThrowIfStreamCannotSeek(){} // RVA: 0x7AE584650
+        public void ThrowIfStreamCannotRead(){} // RVA: 0x7AE5846E0
+        public void ThrowIfStreamCannotWrite(){} // RVA: 0x7AE584770
+        public void ThrowIfStreamClosed(){} // RVA: 0x7AE584800
+        public void IsStreamClosed(){} // RVA: 0x7AE584870
     }
 
 }

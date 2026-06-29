@@ -5,22 +5,22 @@
 
 namespace VRC.UI.Element
 {
-    public class BoolEvent
+    public class BoolEvent : UnityEvent`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x924BED0
+        public void .ctor(){} // RVA: 0x7B10770E0
     }
 
-    public class FloatEvent
+    public class FloatEvent : UnityEvent`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9248350
+        public void .ctor(){} // RVA: 0x7B10737C0
     }
 
-    public class ObjectEvent
+    public class ObjectEvent : UnityEvent`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9240040
+        public void .ctor(){} // RVA: 0x7B106B500
     }
 
 }

@@ -5,64 +5,64 @@
 
 namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
-    public class BooleanConverter
+    public class BooleanConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x6364750
-        public void Write(){} // RVA: 0x6364760
-        public void ReadAsPropertyNameCore(){} // RVA: 0x6364790
-        public void WriteAsPropertyNameCore(){} // RVA: 0x63648C0
-        public void .ctor(){} // RVA: 0x63648F0
+        public void Read(){} // RVA: 0x7AE151190
+        public void Write(){} // RVA: 0x7AE1511A0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE1511D0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE151300
+        public void .ctor(){} // RVA: 0x7AE151330
     }
 
-    public class BooleanConverter
+    public class BooleanConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x68E27C0
-        public void Write(){} // RVA: 0x68E2800
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E2830
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E2910
-        public void .ctor(){} // RVA: 0x68E2940
+        public void Read(){} // RVA: 0x7AE6D1230
+        public void Write(){} // RVA: 0x7AE6D1270
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D12A0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D1380
+        public void .ctor(){} // RVA: 0x7AE6D13B0
     }
 
-    public class ByteArrayConverter
+    public class ByteArrayConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x6364930
-        public void Write(){} // RVA: 0x63649A0
-        public void .ctor(){} // RVA: 0x6364B30
+        public void Read(){} // RVA: 0x7AE151370
+        public void Write(){} // RVA: 0x7AE1513E0
+        public void .ctor(){} // RVA: 0x7AE151570
     }
 
-    public class ByteArrayConverter
+    public class ByteArrayConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x68E2990
-        public void Write(){} // RVA: 0x68E29E0
-        public void .ctor(){} // RVA: 0x68E2AD0
+        public void Read(){} // RVA: 0x7AE6D1400
+        public void Write(){} // RVA: 0x7AE6D1450
+        public void .ctor(){} // RVA: 0x7AE6D1540
     }
 
-    public class ByteConverter
+    public class ByteConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6364B70
-        public void Read(){} // RVA: 0x6364BC0
-        public void Write(){} // RVA: 0x6364C20
-        public void ReadAsPropertyNameCore(){} // RVA: 0x6364C80
-        public void WriteAsPropertyNameCore(){} // RVA: 0x6364C90
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x6364CC0
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x6364D40
+        public void .ctor(){} // RVA: 0x7AE1515B0
+        public void Read(){} // RVA: 0x7AE151600
+        public void Write(){} // RVA: 0x7AE151660
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE151690
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE1516A0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE1516D0
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE151750
     }
 
-    public class ByteConverter
+    public class ByteConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68E2B10
-        public void Read(){} // RVA: 0x68E2B70
-        public void Write(){} // RVA: 0x68E2BB0
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E2C10
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E2C60
-        public void ReadNumberWithCustomHandling(){} // RVA: 0x68E2C90
-        public void WriteNumberWithCustomHandling(){} // RVA: 0x68E2D00
+        public void .ctor(){} // RVA: 0x7AE6D1580
+        public void Read(){} // RVA: 0x7AE6D15E0
+        public void Write(){} // RVA: 0x7AE6D1620
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D1680
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D16D0
+        public void ReadNumberWithCustomHandling(){} // RVA: 0x7AE6D1700
+        public void WriteNumberWithCustomHandling(){} // RVA: 0x7AE6D1770
     }
 
 }

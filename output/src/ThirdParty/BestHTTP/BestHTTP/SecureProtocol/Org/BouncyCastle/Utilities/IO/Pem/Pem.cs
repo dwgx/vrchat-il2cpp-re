@@ -1,78 +1,67 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.IO.Pem
 // Classes: 7
-// Methods: 28
+// Methods: 24
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.IO.Pem
 {
-    public class PemGenerationException
+    public class PemGenerationException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x96E1D20 | overloaded x3
+        public void .ctor(){} // RVA: 0x7B151B7B0
     }
 
-    public class PemHeader
+    public class PemHeader : Object
     {
-        public string name; // 0x10
-        public string val; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
-        public void get_Name(){} // RVA: 0x2F8380
-        public void get_Value(){} // RVA: 0x2E07C0
-        public void GetHashCode(){} // RVA: 0x96E1F30 | overloaded x2
-        public void Equals(){} // RVA: 0x96E1E00
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void get_Name(){} // RVA: 0x7A80F2570
+        public void get_Value(){} // RVA: 0x7A80DA7B0
+        public void GetHashCode(){} // RVA: 0x7B151B9C0
+        public void Equals(){} // RVA: 0x7B151B890
     }
 
-    public class PemObject : .ctor
+    public class PemObject : Object
     {
-        public string type; // 0x10
-        public System.Collections.IList headers; // 0x18
-        public byte[] content; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x96E2020 | overloaded x2
-        public void get_Type(){} // RVA: 0x2F8380
-        public void get_Headers(){} // RVA: 0x2E07C0
-        public void get_Content(){} // RVA: 0x30B0C0
-        public void Generate(){} // RVA: 0x1A3F520
+        public void .ctor(){} // RVA: 0x7B151BAB0
+        public void get_Type(){} // RVA: 0x7A80F2570
+        public void get_Headers(){} // RVA: 0x7A80DA7B0
+        public void get_Content(){} // RVA: 0x7A81052C0
+        public void Generate(){} // RVA: 0x7A97F8BA0
     }
 
     public class PemObjectGenerator
     {
         // ── Methods ──
-        public void Generate(){} // RVA: 0xCD60
+        public void Generate(){} // RVA: 0x7A7E00680
     }
 
     public class PemObjectParser
     {
         // ── Methods ──
-        public void ParseObject(){} // RVA: 0xCE10
+        public void ParseObject(){} // RVA: 0x7A7E00B20
     }
 
-    public class PemReader
+    public class PemReader : Object
     {
-        public string Writer;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x96E21C0
-        public void get_Reader(){} // RVA: 0x2F8380
-        public void ReadPemObject(){} // RVA: 0x96E2270
-        public void LoadObject(){} // RVA: 0x96E23A0
+        public void .ctor(){} // RVA: 0x7B151BC60
+        public void get_Reader(){} // RVA: 0x7A80F2570
+        public void ReadPemObject(){} // RVA: 0x7B151BD10
+        public void LoadObject(){} // RVA: 0x7B151BE40
     }
 
-    public class PemWriter
+    public class PemWriter : Object
     {
-        public int LineLength;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x96E2870
-        public void get_Writer(){} // RVA: 0x2F8380
-        public void GetOutputSize(){} // RVA: 0x96E2A10
-        public void WriteObject(){} // RVA: 0x96E2DA0
-        public void WriteEncoded(){} // RVA: 0x96E3300
-        public void WritePreEncapsulationBoundary(){} // RVA: 0x96E33E0
-        public void WritePostEncapsulationBoundary(){} // RVA: 0x96E3470
+        public void .ctor(){} // RVA: 0x7B151C310
+        public void get_Writer(){} // RVA: 0x7A80F2570
+        public void GetOutputSize(){} // RVA: 0x7B151C4B0
+        public void WriteObject(){} // RVA: 0x7B151C830
+        public void WriteEncoded(){} // RVA: 0x7B151CD90
+        public void WritePreEncapsulationBoundary(){} // RVA: 0x7B151CE70
+        public void WritePostEncapsulationBoundary(){} // RVA: 0x7B151CF00
     }
 
 }

@@ -1,909 +1,882 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.TextCore.Text
-// Classes: 54
-// Methods: 577
+// Classes: 52
+// Methods: 614
 
 namespace ThirdParty.Unity.UnityEngine.TextCore.Text
 {
-    public class Character
+    public class Character : TextElement
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6FA1350 | overloaded x3
+        public void .ctor(){} // RVA: 0x7AED804C0
     }
 
-    public class CharacterSubstitution
+    public class CharacterSubstitution : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x8AE010
+        public void .ctor(){} // RVA: 0x7A7615330
     }
 
-    public class ColorUtilities
+    public class Character[] : Array
     {
         // ── Methods ──
-        public void CompareColors(){} // RVA: 0x7265E00
-        public void MultiplyColors(){} // RVA: 0x7265E40
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class Extents
+    public class ColorUtilities : Object
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x72741B0
+        public void CompareColors(){} // RVA: 0x7AF045A00
+        public void MultiplyColors(){} // RVA: 0x7AF045A40
     }
 
-    public class FontAsset
-    {
-        public string version; // 0x38
-        public UnityEngine.TextCore.Text.FontAssetCreationEditorSettings instanceID; // 0x40
-        public UnityEngine.Font hashCode; // 0x98
-        public string material; // 0xA0
-        public 0x6597FD30 materialHashCode; // 0xA8
-        public bool InternalDynamicOS; // 0xAC
-        public UnityEngine.TextCore.FaceInfo m_FaceInfo; // 0xB0
-        public int m_FamilyNameHashCode; // 0x110
-        public int m_StyleNameHashCode; // 0x114
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphTable; // 0x118
-        public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Glyph> m_GlyphLookupDictionary; // 0x120
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.Character> m_CharacterTable; // 0x128
-        public System.Collections.Generic.Dictionary`2<uint,UnityEngine.TextCore.Text.Character> m_CharacterLookupDictionary; // 0x130
-        public UnityEngine.Texture2D m_AtlasTexture; // 0x138
-        public UnityEngine.Texture2D[] m_AtlasTextures; // 0x140
-        public int m_AtlasTextureIndex; // 0x148
-        public bool m_IsMultiAtlasTexturesEnabled; // 0x14C
-        public bool m_ClearDynamicDataOnBuild; // 0x14D
-        public int m_AtlasWidth; // 0x150
-        public int m_AtlasHeight; // 0x154
-        public int m_AtlasPadding; // 0x158
-        public 0x659F5478 m_AtlasRenderMode; // 0x15C
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_UsedGlyphRects; // 0x160
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_FreeGlyphRects; // 0x168
-        public UnityEngine.TextCore.Text.FontFeatureTable m_FontFeatureTable; // 0x170
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> m_FallbackFontAssetTable; // 0x178
-        public UnityEngine.TextCore.Text.FontWeightPair[] m_FontWeightTable; // 0x180
-        public float m_RegularStyleWeight; // 0x188
-        public float m_RegularStyleSpacing; // 0x18C
-        public float m_BoldStyleWeight; // 0x190
-
-        // ── Methods ──
-        public void get_fontAssetCreationEditorSettings(){} // RVA: 0x7265F20
-        public void set_fontAssetCreationEditorSettings(){} // RVA: 0x7265F60
-        public void get_sourceFontFile(){} // RVA: 0x71883C0
-        public void set_sourceFontFile(){} // RVA: 0x9AA650
-        public void get_atlasPopulationMode(){} // RVA: 0x7265FF0
-        public void set_atlasPopulationMode(){} // RVA: 0xCC9310
-        public void get_faceInfo(){} // RVA: 0x7266000
-        public void set_faceInfo(){} // RVA: 0x7266050
-        public void get_familyNameHashCode(){} // RVA: 0x72660E0
-        public void set_familyNameHashCode(){} // RVA: 0x1AE8670
-        public void get_styleNameHashCode(){} // RVA: 0x7266120
-        public void set_styleNameHashCode(){} // RVA: 0x6FACBF0
-        public void get_glyphTable(){} // RVA: 0x7266160
-        public void set_glyphTable(){} // RVA: 0x50A8C0
-        public void get_glyphLookupTable(){} // RVA: 0x7266170
-        public void get_characterTable(){} // RVA: 0x72661B0
-        public void set_characterTable(){} // RVA: 0xD182E0
-        public void get_characterLookupTable(){} // RVA: 0x72661C0
-        public void get_atlasTexture(){} // RVA: 0x7266200
-        public void get_atlasTextures(){} // RVA: 0x7266350
-        public void set_atlasTextures(){} // RVA: 0x348600
-        public void get_atlasTextureCount(){} // RVA: 0x7266360
-        public void get_isMultiAtlasTexturesEnabled(){} // RVA: 0x7266370
-        public void set_isMultiAtlasTexturesEnabled(){} // RVA: 0x7266380
-        public void get_clearDynamicDataOnBuild(){} // RVA: 0x7266390
-        public void set_clearDynamicDataOnBuild(){} // RVA: 0x72663A0
-        public void get_atlasWidth(){} // RVA: 0x72663B0
-        public void set_atlasWidth(){} // RVA: 0x120B830
-        public void get_atlasHeight(){} // RVA: 0x72663C0
-        public void set_atlasHeight(){} // RVA: 0x63A7640
-        public void get_atlasPadding(){} // RVA: 0x72663D0
-        public void set_atlasPadding(){} // RVA: 0x72663E0
-        public void get_atlasRenderMode(){} // RVA: 0x72663F0
-        public void set_atlasRenderMode(){} // RVA: 0x7266400
-        public void get_usedGlyphRects(){} // RVA: 0x7266410
-        public void set_usedGlyphRects(){} // RVA: 0x8787E0
-        public void get_freeGlyphRects(){} // RVA: 0x7266420
-        public void set_freeGlyphRects(){} // RVA: 0xD93D70
-        public void get_fontFeatureTable(){} // RVA: 0x7266430
-        public void set_fontFeatureTable(){} // RVA: 0xD8E320
-        public void get_fallbackFontAssetTable(){} // RVA: 0x7266440
-        public void set_fallbackFontAssetTable(){} // RVA: 0xD870D0
-        public void get_fontWeightTable(){} // RVA: 0x7266450
-        public void set_fontWeightTable(){} // RVA: 0xD87C10
-        public void get_regularStyleWeight(){} // RVA: 0x7266460
-        public void set_regularStyleWeight(){} // RVA: 0x7266470
-        public void get_regularStyleSpacing(){} // RVA: 0x7266480
-        public void set_regularStyleSpacing(){} // RVA: 0x7266490
-        public void get_boldStyleWeight(){} // RVA: 0x72664A0
-        public void set_boldStyleWeight(){} // RVA: 0x72664B0
-        public void get_boldStyleSpacing(){} // RVA: 0x72664C0
-        public void set_boldStyleSpacing(){} // RVA: 0x72664D0
-        public void get_italicStyleSlant(){} // RVA: 0x72664E0
-        public void set_italicStyleSlant(){} // RVA: 0x63A7840
-        public void get_tabMultiple(){} // RVA: 0x72664F0
-        public void set_tabMultiple(){} // RVA: 0x64ADD80
-        public void CreateFontAsset(){} // RVA: 0x7266B80 | overloaded x6
-        public void CreateFontAssetInstance(){} // RVA: 0x7266DB0
-        public void Awake(){} // RVA: 0x2DD310
-        public void OnDestroy(){} // RVA: 0x7267710
-        public void ReadFontAssetDefinition(){} // RVA: 0x72678B0
-        public void InitializeDictionaryLookupTables(){} // RVA: 0x7267CD0
-        public void InitializeGlyphLookupDictionary(){} // RVA: 0x7267D20
-        public void InitializeCharacterLookupDictionary(){} // RVA: 0x72680C0
-        public void InitializeLigatureSubstitutionLookupDictionary(){} // RVA: 0x7268330
-        public void InitializeGlyphPaidAdjustmentRecordsLookupDictionary(){} // RVA: 0x72686B0
-        public void InitializeMarkToBaseAdjustmentRecordsLookupDictionary(){} // RVA: 0x72689B0
-        public void InitializeMarkToMarkAdjustmentRecordsLookupDictionary(){} // RVA: 0x7268CD0
-        public void AddSynthesizedCharactersAndFaceMetrics(){} // RVA: 0x7268FF0
-        public void AddSynthesizedCharacter(){} // RVA: 0x7269200
-        public void AddCharacterToLookupCache(){} // RVA: 0x72694E0
-        public void LoadFontFace(){} // RVA: 0x7269570
-        public void SortCharacterTable(){} // RVA: 0x7269730
-        public void SortGlyphTable(){} // RVA: 0x72699D0
-        public void SortFontFeatureTable(){} // RVA: 0x7269C70
-        public void SortAllTables(){} // RVA: 0x7269CC0
-        public void HasCharacter(){} // RVA: 0x7269DC0 | overloaded x3
-        public void HasCharacter_Internal(){} // RVA: 0x726A250
-        public void HasCharacters(){} // RVA: 0x726ADF0 | overloaded x3
-        public void GetCharacters(){} // RVA: 0x726AEC0
-        public void GetCharactersArray(){} // RVA: 0x726B050
-        public void GetGlyphIndex(){} // RVA: 0x726B130
-        public void RegisterFontAssetForFontFeatureUpdate(){} // RVA: 0x726B270
-        public void UpdateFontFeaturesForFontAssetsInQueue(){} // RVA: 0x726B3D0
-        public void RegisterAtlasTextureForApply(){} // RVA: 0x726B610
-        public void UpdateAtlasTexturesInQueue(){} // RVA: 0x726B710
-        public void UpdateFontAssetsInUpdateQueue(){} // RVA: 0x726B910
-        public void TryAddCharacters(){} // RVA: 0x726C870 | overloaded x4
-        public void TryAddGlyphInternal(){} // RVA: 0x726D7B0
-        public void TryAddCharacterInternal(){} // RVA: 0x726E090
-        public void TryGetCharacter_and_QueueRenderToTexture(){} // RVA: 0x726EB40
-        public void TryAddGlyphsToAtlasTextures(){} // RVA: 0x2DD310
-        public void TryAddGlyphsToNewAtlasTexture(){} // RVA: 0x726F020
-        public void SetupNewAtlasTexture(){} // RVA: 0x726F4F0
-        public void UpdateAllFontFeatures(){} // RVA: 0x726F800
-        public void UpdateGlyphAdjustmentRecords(){} // RVA: 0x2DD310 | overloaded x4
-        public void CopyListDataToArray(){} // RVA: 0x2DC60
-        public void ClearFontAssetData(){} // RVA: 0x72700E0
-        public void ClearFontAssetDataInternal(){} // RVA: 0x7270200
-        public void UpdateFontAssetData(){} // RVA: 0x7270230
-        public void ClearFontAssetTables(){} // RVA: 0x7270470
-        public void ClearAtlasTextures(){} // RVA: 0x7270780
-        public void DestroyAtlasTextures(){} // RVA: 0x7270B20
-        public void .ctor(){} // RVA: 0x7270C80
-        public void .cctor(){} // RVA: 0x72713C0
-    }
-
-    public class FontAssetCreationEditorSettings
-    {
-    }
-
-    public class FontAssetUtilities
+    public class Extents : ValueType
     {
         // ── Methods ──
-        public void GetCharacterFromFontAsset(){} // RVA: 0x7271C20
-        public void GetCharacterFromFontAsset_Internal(){} // RVA: 0x7271D90
-        public void GetCharacterFromFontAssets(){} // RVA: 0x7272470
-        public void GetSpriteCharacterFromSpriteAsset(){} // RVA: 0x72726F0
-        public void GetSpriteCharacterFromSpriteAsset_Internal(){} // RVA: 0x7272AD0
+        public void ToString(){} // RVA: 0x7A7EF9F80
     }
 
-    public class FontFeatureTable
+    public class FontAsset : TextAsset
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7272D40
-        public void SortGlyphPairAdjustmentRecords(){} // RVA: 0x72731E0
-        public void SortMarkToBaseAdjustmentRecords(){} // RVA: 0x72736E0
-        public void SortMarkToMarkAdjustmentRecords(){} // RVA: 0x7273BE0
+        public void get_fontAssetCreationEditorSettings(){} // RVA: 0x7AF045B20
+        public void set_fontAssetCreationEditorSettings(){} // RVA: 0x7AF045B60
+        public void get_sourceFontFile(){} // RVA: 0x7AEF67580
+        public void set_sourceFontFile(){} // RVA: 0x7A8744720
+        public void get_atlasPopulationMode(){} // RVA: 0x7AF045BF0
+        public void set_atlasPopulationMode(){} // RVA: 0x7A8A67200
+        public void get_faceInfo(){} // RVA: 0x7AF045C00
+        public void set_faceInfo(){} // RVA: 0x7AF045C50
+        public void get_familyNameHashCode(){} // RVA: 0x7AF045CE0
+        public void set_familyNameHashCode(){} // RVA: 0x7A98A24D0
+        public void get_styleNameHashCode(){} // RVA: 0x7AF045D20
+        public void set_styleNameHashCode(){} // RVA: 0x7AED8BDC0
+        public void get_glyphTable(){} // RVA: 0x7AF045D60
+        public void set_glyphTable(){} // RVA: 0x7A864C880
+        public void get_glyphLookupTable(){} // RVA: 0x7AF045D70
+        public void get_characterTable(){} // RVA: 0x7AF045DB0
+        public void set_characterTable(){} // RVA: 0x7A8ADA650
+        public void get_characterLookupTable(){} // RVA: 0x7AF045DC0
+        public void get_atlasTexture(){} // RVA: 0x7AF045E00
+        public void get_atlasTextures(){} // RVA: 0x7AF045F50
+        public void set_atlasTextures(){} // RVA: 0x7A8142BD0
+        public void get_atlasTextureCount(){} // RVA: 0x7AF045F60
+        public void get_isMultiAtlasTexturesEnabled(){} // RVA: 0x7AF045F70
+        public void set_isMultiAtlasTexturesEnabled(){} // RVA: 0x7AF045F80
+        public void get_clearDynamicDataOnBuild(){} // RVA: 0x7AF045F90
+        public void set_clearDynamicDataOnBuild(){} // RVA: 0x7AF045FA0
+        public void get_atlasWidth(){} // RVA: 0x7AF045FB0
+        public void set_atlasWidth(){} // RVA: 0x7A8F9B560
+        public void get_atlasHeight(){} // RVA: 0x7AF045FC0
+        public void set_atlasHeight(){} // RVA: 0x7AE194230
+        public void get_atlasPadding(){} // RVA: 0x7AF045FD0
+        public void set_atlasPadding(){} // RVA: 0x7AF045FE0
+        public void get_atlasRenderMode(){} // RVA: 0x7AF045FF0
+        public void set_atlasRenderMode(){} // RVA: 0x7AF046000
+        public void get_usedGlyphRects(){} // RVA: 0x7AF046010
+        public void set_usedGlyphRects(){} // RVA: 0x7A86357B0
+        public void get_freeGlyphRects(){} // RVA: 0x7AF046020
+        public void set_freeGlyphRects(){} // RVA: 0x7A8B578B0
+        public void get_fontFeatureTable(){} // RVA: 0x7AF046030
+        public void set_fontFeatureTable(){} // RVA: 0x7A8B51A20
+        public void get_fallbackFontAssetTable(){} // RVA: 0x7AF046040
+        public void set_fallbackFontAssetTable(){} // RVA: 0x7A8B4A0C0
+        public void get_fontWeightTable(){} // RVA: 0x7AF046050
+        public void set_fontWeightTable(){} // RVA: 0x7A8B4AC60
+        public void get_regularStyleWeight(){} // RVA: 0x7AF046060
+        public void set_regularStyleWeight(){} // RVA: 0x7AF046070
+        public void get_regularStyleSpacing(){} // RVA: 0x7AF046080
+        public void set_regularStyleSpacing(){} // RVA: 0x7AF046090
+        public void get_boldStyleWeight(){} // RVA: 0x7AF0460A0
+        public void set_boldStyleWeight(){} // RVA: 0x7AF0460B0
+        public void get_boldStyleSpacing(){} // RVA: 0x7AF0460C0
+        public void set_boldStyleSpacing(){} // RVA: 0x7AF0460D0
+        public void get_italicStyleSlant(){} // RVA: 0x7AF0460E0
+        public void set_italicStyleSlant(){} // RVA: 0x7AE194420
+        public void get_tabMultiple(){} // RVA: 0x7AF0460F0
+        public void set_tabMultiple(){} // RVA: 0x7AE29B0C0
+        public void CreateFontAsset(){} // RVA: 0x7AF046780
+        public void CreateFontAssetInstance(){} // RVA: 0x7AF0469B0
+        public void Awake(){} // RVA: 0x7A80D7310
+        public void OnDestroy(){} // RVA: 0x7AF047300
+        public void ReadFontAssetDefinition(){} // RVA: 0x7AF0474B0
+        public void InitializeDictionaryLookupTables(){} // RVA: 0x7AF0478D0
+        public void InitializeGlyphLookupDictionary(){} // RVA: 0x7AF047920
+        public void InitializeCharacterLookupDictionary(){} // RVA: 0x7AF047CE0
+        public void InitializeLigatureSubstitutionLookupDictionary(){} // RVA: 0x7AF047F60
+        public void InitializeGlyphPaidAdjustmentRecordsLookupDictionary(){} // RVA: 0x7AF0482D0
+        public void InitializeMarkToBaseAdjustmentRecordsLookupDictionary(){} // RVA: 0x7AF0485E0
+        public void InitializeMarkToMarkAdjustmentRecordsLookupDictionary(){} // RVA: 0x7AF048910
+        public void AddSynthesizedCharactersAndFaceMetrics(){} // RVA: 0x7AF048C40
+        public void AddSynthesizedCharacter(){} // RVA: 0x7AF048E50
+        public void AddCharacterToLookupCache(){} // RVA: 0x7AF049130
+        public void LoadFontFace(){} // RVA: 0x7AF0491C0
+        public void SortCharacterTable(){} // RVA: 0x7AF049380
+        public void SortGlyphTable(){} // RVA: 0x7AF049620
+        public void SortFontFeatureTable(){} // RVA: 0x7AF0498C0
+        public void SortAllTables(){} // RVA: 0x7AF049910
+        public void HasCharacter(){} // RVA: 0x7AF049A10
+        public void HasCharacter_Internal(){} // RVA: 0x7AF049EA0
+        public void HasCharacters(){} // RVA: 0x7AF04AA30
+        public void GetCharacters(){} // RVA: 0x7AF04AB00
+        public void GetCharactersArray(){} // RVA: 0x7AF04AC90
+        public void GetGlyphIndex(){} // RVA: 0x7AF04AD80
+        public void RegisterFontAssetForFontFeatureUpdate(){} // RVA: 0x7AF04AEC0
+        public void UpdateFontFeaturesForFontAssetsInQueue(){} // RVA: 0x7AF04B020
+        public void RegisterAtlasTextureForApply(){} // RVA: 0x7AF04B290
+        public void UpdateAtlasTexturesInQueue(){} // RVA: 0x7AF04B390
+        public void UpdateFontAssetsInUpdateQueue(){} // RVA: 0x7AF04B5C0
+        public void TryAddCharacters(){} // RVA: 0x7AF04C550
+        public void TryAddGlyphInternal(){} // RVA: 0x7AF04D4B0
+        public void TryAddCharacterInternal(){} // RVA: 0x7AF04DD90
+        public void TryGetCharacter_and_QueueRenderToTexture(){} // RVA: 0x7AF04E860
+        public void TryAddGlyphsToAtlasTextures(){} // RVA: 0x7A80D7310
+        public void TryAddGlyphsToNewAtlasTexture(){} // RVA: 0x7AF04ED50
+        public void SetupNewAtlasTexture(){} // RVA: 0x7AF04F220
+        public void UpdateAllFontFeatures(){} // RVA: 0x7AF04F540
+        public void UpdateGlyphAdjustmentRecords(){} // RVA: 0x7A80D7310
+        public void CopyListDataToArray(){} // RVA: 0x7A7E18890
+        public void ClearFontAssetData(){} // RVA: 0x7AF04FE50
+        public void ClearFontAssetDataInternal(){} // RVA: 0x7AF04FF80
+        public void UpdateFontAssetData(){} // RVA: 0x7AF04FFB0
+        public void ClearFontAssetTables(){} // RVA: 0x7AF050200
+        public void ClearAtlasTextures(){} // RVA: 0x7AF050520
+        public void DestroyAtlasTextures(){} // RVA: 0x7AF0508D0
+        public void .ctor(){} // RVA: 0x7AF050A40
+        public void .cctor(){} // RVA: 0x7AF051180
     }
 
-    public class FontStyleStack
+    public class FontAssetUtilities : Object
     {
         // ── Methods ──
-        public void Clear(){} // RVA: 0x7009C60
-        public void Add(){} // RVA: 0x72AB530
-        public void Remove(){} // RVA: 0x7009D20
+        public void GetCharacterFromFontAsset(){} // RVA: 0x7AF0519E0
+        public void GetCharacterFromFontAsset_Internal(){} // RVA: 0x7AF051B50
+        public void GetCharacterFromFontAssets(){} // RVA: 0x7AF052250
+        public void GetSpriteCharacterFromSpriteAsset(){} // RVA: 0x7AF0524F0
+        public void GetSpriteCharacterFromSpriteAsset_Internal(){} // RVA: 0x7AF0528F0
     }
 
-    public class FontWeightPair
-    {
-    }
-
-    public class HighlightState
+    public class FontAsset[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x37C68B0
-        public void op_Equality(){} // RVA: 0x72A27E0
-        public void op_Inequality(){} // RVA: 0x72A2920
-        public void GetHashCode(){} // RVA: 0x72A2A70
-        public void Equals(){} // RVA: 0x72A2AD0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class LineInfo
-    {
-    }
-
-    public class LinkInfo
-    {
-        // ── Methods ──
-        public void SetLinkId(){} // RVA: 0x7274360
-        public void GetLinkText(){} // RVA: 0x7274530
-        public void GetLinkId(){} // RVA: 0x72746E0
-    }
-
-    public class MaterialManager
+    public class FontFeatureTable : Object
     {
         // ── Methods ──
-        public void GetFallbackMaterial(){} // RVA: 0x7274CC0 | overloaded x2
-        public void CopyMaterialPresetProperties(){} // RVA: 0x7274FF0
-        public void .cctor(){} // RVA: 0x72755F0
+        public void .ctor(){} // RVA: 0x7AF052B80
+        public void SortGlyphPairAdjustmentRecords(){} // RVA: 0x7AF053020
+        public void SortMarkToBaseAdjustmentRecords(){} // RVA: 0x7AF053520
+        public void SortMarkToMarkAdjustmentRecords(){} // RVA: 0x7AF053A20
     }
 
-    public class MaterialReference
+    public class FontStyleStack : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x72756D0
-        public void AddMaterialReference(){} // RVA: 0x7275C50 | overloaded x2
+        public void Clear(){} // RVA: 0x7A7EC1440
+        public void Add(){} // RVA: 0x7A7EC1450
+        public void Remove(){} // RVA: 0x7A7EC1460
     }
 
-    public class MaterialReferenceManager
-    {
-        public UnityEngine.TextCore.Text.MaterialReferenceManager s_Instance;
-
-        // ── Methods ──
-        public void get_instance(){} // RVA: 0x7275FE0
-        public void AddFontAsset(){} // RVA: 0x72760C0
-        public void AddFontAssetInternal(){} // RVA: 0x72760F0
-        public void AddSpriteAsset(){} // RVA: 0x7276330
-        public void AddSpriteAssetInternal(){} // RVA: 0x7276450
-        public void AddFontMaterial(){} // RVA: 0x7276560
-        public void AddFontMaterialInternal(){} // RVA: 0x72765F0
-        public void AddColorGradientPreset(){} // RVA: 0x7276680
-        public void AddColorGradientPreset_Internal(){} // RVA: 0x7276750
-        public void TryGetFontAsset(){} // RVA: 0x7276810
-        public void TryGetFontAssetInternal(){} // RVA: 0x72768D0
-        public void TryGetSpriteAsset(){} // RVA: 0x7276980
-        public void TryGetSpriteAssetInternal(){} // RVA: 0x7276A40
-        public void TryGetColorGradientPreset(){} // RVA: 0x7276AF0
-        public void TryGetColorGradientPresetInternal(){} // RVA: 0x7276BB0
-        public void TryGetMaterial(){} // RVA: 0x7276C60
-        public void TryGetMaterialInternal(){} // RVA: 0x7276D20
-        public void .ctor(){} // RVA: 0x7276DD0
-    }
-
-    public class MeshInfo
+    public class FontWeightPair[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7277060
-        public void ResizeMeshInfo(){} // RVA: 0x7277760
-        public void Clear(){} // RVA: 0x7277980
-        public void ClearUnusedVertices(){} // RVA: 0x72779C0
-        public void SortGeometry(){} // RVA: 0x7277A00
-        public void SwapVertexData(){} // RVA: 0x7277AB0
-        public void .cctor(){} // RVA: 0x7278280
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class Offset
-    {
-        public float m_Left; // 0x10
-        public float m_Right; // 0x14
-        public float m_Top; // 0x18
-        public float m_Bottom; // 0x1C
-        public UnityEngine.TextCore.Text.Offset k_ZeroOffset;
-
-        // ── Methods ──
-        public void get_left(){} // RVA: 0x300D20
-        public void get_right(){} // RVA: 0x300D30
-        public void get_top(){} // RVA: 0x300CF0
-        public void get_bottom(){} // RVA: 0x300D00
-        public void get_zero(){} // RVA: 0x72A2660
-        public void .ctor(){} // RVA: 0x301570
-        public void op_Equality(){} // RVA: 0x67E30F0
-        public void op_Multiply(){} // RVA: 0x71104A0
-        public void GetHashCode(){} // RVA: 0x72A26D0
-        public void Equals(){} // RVA: 0x72A2730
-        public void .cctor(){} // RVA: 0x72A27A0
-    }
-
-    public class PageInfo
-    {
-    }
-
-    public class RichTextTagAttribute
-    {
-    }
-
-    public class SpriteAsset
-    {
-        public System.Collections.Generic.Dictionary`2<int,int> m_NameLookup; // 0x38
-        public System.Collections.Generic.Dictionary`2<uint,int> m_GlyphIndexLookup; // 0x40
-        public UnityEngine.TextCore.FaceInfo m_FaceInfo; // 0x48
-        public UnityEngine.Texture m_SpriteAtlasTexture; // 0xA8
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteCharacter> m_SpriteCharacterTable; // 0xB0
-
-        // ── Methods ──
-        public void get_faceInfo(){} // RVA: 0x7278310
-        public void set_faceInfo(){} // RVA: 0x6FFE680
-        public void get_spriteSheet(){} // RVA: 0x71884A0
-        public void set_spriteSheet(){} // RVA: 0xAE5030
-        public void get_spriteCharacterTable(){} // RVA: 0x7278350
-        public void set_spriteCharacterTable(){} // RVA: 0x348050
-        public void get_spriteCharacterLookupTable(){} // RVA: 0x7278390
-        public void set_spriteCharacterLookupTable(){} // RVA: 0x3480C0
-        public void get_spriteGlyphTable(){} // RVA: 0x71885F0
-        public void set_spriteGlyphTable(){} // RVA: 0x348130
-        public void Awake(){} // RVA: 0x2DD310
-        public void UpdateLookupTables(){} // RVA: 0x72783D0
-        public void GetSpriteIndexFromHashcode(){} // RVA: 0x7278B70
-        public void GetSpriteIndexFromUnicode(){} // RVA: 0x7278C20
-        public void GetSpriteIndexFromName(){} // RVA: 0x7278CC0
-        public void SearchForSpriteByUnicode(){} // RVA: 0x7278D00
-        public void SearchForSpriteByUnicodeInternal(){} // RVA: 0x7279210 | overloaded x2
-        public void SearchForSpriteByHashCode(){} // RVA: 0x72792D0
-        public void SearchForSpriteByHashCodeInternal(){} // RVA: 0x7279AD0 | overloaded x2
-        public void SortGlyphTable(){} // RVA: 0x7279B90
-        public void SortCharacterTable(){} // RVA: 0x7279E30
-        public void SortGlyphAndCharacterTables(){} // RVA: 0x727A0D0
-        public void .ctor(){} // RVA: 0x727A0F0
-    }
-
-    public class SpriteCharacter
-    {
-        public string m_Name; // 0x30
-
-        // ── Methods ──
-        public void get_name(){} // RVA: 0x7145E90
-        public void .ctor(){} // RVA: 0x7001040
-    }
-
-    public class SpriteGlyph
+    public class HighlightState : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7001280
+        public void .ctor(){} // RVA: 0x7A790A3D0
+        public void op_Equality(){} // RVA: 0x7AF0829C0
+        public void op_Inequality(){} // RVA: 0x7AF082B00
+        public void GetHashCode(){} // RVA: 0x7A7EFACF0
+        public void Equals(){} // RVA: 0x7A7EFAD50
     }
 
-    public class TextAsset
-    {
-        public string m_Version; // 0x18
-        public int m_InstanceID; // 0x20
-        public int m_HashCode; // 0x24
-        public UnityEngine.Material m_Material; // 0x28
-        public int m_MaterialHashCode; // 0x30
-
-        // ── Methods ──
-        public void get_version(){} // RVA: 0x2F0F420
-        public void set_version(){} // RVA: 0x343E80
-        public void get_instanceID(){} // RVA: 0x727A310
-        public void get_hashCode(){} // RVA: 0x727A340
-        public void set_hashCode(){} // RVA: 0x16E1F00
-        public void get_material(){} // RVA: 0x30B130
-        public void set_material(){} // RVA: 0x2DEE90
-        public void get_materialHashCode(){} // RVA: 0x727A380
-        public void set_materialHashCode(){} // RVA: 0x338CE0
-        public void .ctor(){} // RVA: 0x53BFB0
-    }
-
-    public class TextBackingContainer
-    {
-        public uint[] m_Array; // 0x10
-        public int m_Count; // 0x18
-
-        // ── Methods ──
-        public void get_Capacity(){} // RVA: 0x35542C0
-        public void get_Count(){} // RVA: 0x3C4E030
-        public void set_Count(){} // RVA: 0x1EA98A0
-        public void get_Item(){} // RVA: 0x34B3BB0
-        public void set_Item(){} // RVA: 0x72A24C0
-        public void .ctor(){} // RVA: 0x72A2520
-        public void Resize(){} // RVA: 0x72A25D0
-    }
-
-    public class TextColorGradient
+    public class LinkInfo : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6FA1C80 | overloaded x3
-        public void .cctor(){} // RVA: 0x727A550
+        public void SetLinkId(){} // RVA: 0x7A7EFA490
+        public void GetLinkText(){} // RVA: 0x7A7EFA4A0
+        public void GetLinkId(){} // RVA: 0x7A7EFA4B0
     }
 
-    public class TextElement
-    {
-        public 0x65980468 m_ElementType; // 0x10
-        public uint m_Unicode; // 0x14
-        public UnityEngine.TextCore.Text.TextAsset m_TextAsset; // 0x18
-        public UnityEngine.TextCore.Glyph m_Glyph; // 0x20
-        public uint m_GlyphIndex; // 0x28
-        public float m_Scale; // 0x2C
-
-        // ── Methods ──
-        public void get_elementType(){} // RVA: 0x7187810
-        public void get_unicode(){} // RVA: 0x2EE0010
-        public void set_unicode(){} // RVA: 0x8AC660
-        public void get_textAsset(){} // RVA: 0x2F0F420
-        public void set_textAsset(){} // RVA: 0x343E80
-        public void get_glyph(){} // RVA: 0x6A24380
-        public void set_glyph(){} // RVA: 0x30B0D0
-        public void get_glyphIndex(){} // RVA: 0x43DB8C0
-        public void set_glyphIndex(){} // RVA: 0xA53440
-        public void get_scale(){} // RVA: 0x71A8210
-        public void set_scale(){} // RVA: 0x8CF4F0
-        public void .ctor(){} // RVA: 0x2DD310
-    }
-
-    public class TextElementInfo
+    public class MaterialManager : Object
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x727A5A0
+        public void GetFallbackMaterial(){} // RVA: 0x7AF054B00
+        public void CopyMaterialPresetProperties(){} // RVA: 0x7AF054E30
+        public void .cctor(){} // RVA: 0x7AF055430
     }
 
-    public class TextGenerationSettings
+    public class MaterialReference : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x727CCC0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x727CDD0
-        public void op_Equality(){} // RVA: 0x727E040
-        public void ToString(){} // RVA: 0x727E080
-        public void .ctor(){} // RVA: 0x7280530
+        public void .ctor(){} // RVA: 0x7A7EFA4C0
+        public void AddMaterialReference(){} // RVA: 0x7AF055A90
     }
 
-    public class TextGenerator
-    {
-        public UnityEngine.TextCore.Text.TextGenerator s_TextGenerator;
-
-        // ── Methods ──
-        public void GetTextGenerator(){} // RVA: 0x728D900
-        public void GenerateText(){} // RVA: 0x728D9E0
-        public void GetPreferredValues(){} // RVA: 0x728DC40
-        public void get_isTextTruncated(){} // RVA: 0x728DFE0
-        public void Prepare(){} // RVA: 0x728E020
-        public void GenerateTextMesh(){} // RVA: 0x72805E0
-        public void SaveWordWrappingState(){} // RVA: 0x728E270
-        public void RestoreWordWrappingState(){} // RVA: 0x728ED30
-        public void ValidateHtmlTag(){} // RVA: 0x728F7D0
-        public void SaveGlyphVertexInfo(){} // RVA: 0x7295660
-        public void SaveSpriteVertexInfo(){} // RVA: 0x7296A10
-        public void DrawUnderlineMesh(){} // RVA: 0x7297570
-        public void DrawTextHighlight(){} // RVA: 0x72987D0
-        public void ClearMesh(){} // RVA: 0x7298ED0
-        public void SetArraySizes(){} // RVA: 0x7298FB0
-        public void GetTextElement(){} // RVA: 0x729AB90
-        public void ComputeMarginSize(){} // RVA: 0x729B0D0
-        public void GetSpecialCharacters(){} // RVA: 0x729B1D0
-        public void GetEllipsisSpecialCharacter(){} // RVA: 0x729B200
-        public void GetUnderlineSpecialCharacter(){} // RVA: 0x729B560
-        public void GetPreferredValuesInternal(){} // RVA: 0x729B6D0
-        public void CalculatePreferredValues(){} // RVA: 0x729B8E0
-        public void PopulateTextBackingArray(){} // RVA: 0x729F160 | overloaded x2
-        public void PopulateTextProcessingArray(){} // RVA: 0x729F2E0
-        public void InsertNewLine(){} // RVA: 0x72A0330
-        public void DoMissingGlyphCallback(){} // RVA: 0x72A0B80
-        public void ClearMarkupTagAttributes(){} // RVA: 0x72A0C10
-        public void .ctor(){} // RVA: 0x72A0C80
-    }
-
-    public class TextGeneratorUtilities
+    public class MaterialReferenceManager : Object
     {
         // ── Methods ──
-        public void Approximately(){} // RVA: 0x72A2B40
-        public void HexCharsToColor(){} // RVA: 0x72A3200 | overloaded x2
-        public void HexToInt(){} // RVA: 0x72A3490
-        public void ConvertToFloat(){} // RVA: 0x72A3620 | overloaded x2
-        public void PackUV(){} // RVA: 0x72A3780
-        public void ResizeInternalArray(){} // RVA: 0x2A490 | overloaded x2
-        public void InsertOpeningTextStyle(){} // RVA: 0x72A37C0
-        public void InsertClosingTextStyle(){} // RVA: 0x72A38C0
-        public void ReplaceOpeningStyleTag(){} // RVA: 0x72A3BC0 | overloaded x2
-        public void ReplaceClosingStyleTag(){} // RVA: 0x72A3DC0
-        public void InsertOpeningStyleTag(){} // RVA: 0x72A3EF0
-        public void InsertClosingStyleTag(){} // RVA: 0x72A3FF0
-        public void InsertTextStyleInTextProcessingArray(){} // RVA: 0x72A40F0
-        public void GetStyle(){} // RVA: 0x72A45A0
-        public void GetStyleHashCode(){} // RVA: 0x72A4850 | overloaded x2
-        public void GetUTF16(){} // RVA: 0x72A4A30 | overloaded x2
-        public void GetUTF32(){} // RVA: 0x72A4C90 | overloaded x2
-        public void FillCharacterVertexBuffers(){} // RVA: 0x72A4E40
-        public void FillSpriteVertexBuffers(){} // RVA: 0x72A5A10
-        public void AdjustLineOffset(){} // RVA: 0x72A64F0
-        public void ResizeLineExtents(){} // RVA: 0x72A68C0
-        public void LegacyStyleToNewStyle(){} // RVA: 0x72A6B70
-        public void LegacyAlignmentToNewAlignment(){} // RVA: 0x72A6BA0
-        public void ConvertToUTF32(){} // RVA: 0x72A6C20
-        public void GetMarkupTagHashCode(){} // RVA: 0x72A6D00 | overloaded x2
-        public void ToUpperASCIIFast(){} // RVA: 0x72A6E30 | overloaded x2
-        public void ToUpperFast(){} // RVA: 0x72A6EA0
-        public void GetAttributeParameters(){} // RVA: 0x72A6F10
-        public void IsBitmapRendering(){} // RVA: 0x72A6FE0
-        public void IsBaseGlyph(){} // RVA: 0x72A7010
-        public void MinAlpha(){} // RVA: 0x72A7120
-        public void GammaToLinear(){} // RVA: 0x72A7200 | overloaded x2
-        public void IsValidUTF16(){} // RVA: 0x72A72B0
-        public void IsValidUTF32(){} // RVA: 0x72A7330
-        public void IsHangul(){} // RVA: 0x72A73B0
-        public void IsCJK(){} // RVA: 0x72A7410
-        public void .cctor(){} // RVA: 0x72A74D0
+        public void get_instance(){} // RVA: 0x7AF055E20
+        public void AddFontAsset(){} // RVA: 0x7AF055F00
+        public void AddFontAssetInternal(){} // RVA: 0x7AF055F30
+        public void AddSpriteAsset(){} // RVA: 0x7AF056170
+        public void AddSpriteAssetInternal(){} // RVA: 0x7AF056290
+        public void AddFontMaterial(){} // RVA: 0x7AF0563A0
+        public void AddFontMaterialInternal(){} // RVA: 0x7AF056430
+        public void AddColorGradientPreset(){} // RVA: 0x7AF0564C0
+        public void AddColorGradientPreset_Internal(){} // RVA: 0x7AF056590
+        public void TryGetFontAsset(){} // RVA: 0x7AF056650
+        public void TryGetFontAssetInternal(){} // RVA: 0x7AF056710
+        public void TryGetSpriteAsset(){} // RVA: 0x7AF0567C0
+        public void TryGetSpriteAssetInternal(){} // RVA: 0x7AF056880
+        public void TryGetColorGradientPreset(){} // RVA: 0x7AF056930
+        public void TryGetColorGradientPresetInternal(){} // RVA: 0x7AF0569F0
+        public void TryGetMaterial(){} // RVA: 0x7AF056AA0
+        public void TryGetMaterialInternal(){} // RVA: 0x7AF056B60
+        public void .ctor(){} // RVA: 0x7AF056C10
     }
 
-    public class TextHandle
-    {
-        public UnityEngine.Vector2 m_PreferredSize; // 0x10
-        public UnityEngine.TextCore.Text.TextInfo m_TextInfo; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x72A7540
-        public void get_textInfo(){} // RVA: 0x72A7670
-        public void get_layoutTextInfo(){} // RVA: 0x72A7720
-        public void IsDirty(){} // RVA: 0x72A7860
-        public void GetCursorPositionFromStringIndexUsingCharacterHeight(){} // RVA: 0x72A78B0
-        public void GetCursorPositionFromStringIndexUsingLineHeight(){} // RVA: 0x72A7B30
-        public void GetCursorIndexFromPosition(){} // RVA: 0x72A7DB0
-        public void LineDownCharacterPosition(){} // RVA: 0x72A8140
-        public void LineUpCharacterPosition(){} // RVA: 0x72A85F0
-        public void FindNearestLine(){} // RVA: 0x72A8A80
-        public void FindNearestCharacterOnLine(){} // RVA: 0x72A8BC0
-        public void FindIntersectingLink(){} // RVA: 0x72A9500
-        public void PointIntersectRectangle(){} // RVA: 0x72A9D00
-        public void DistanceToLine(){} // RVA: 0x72A9E90
-        public void GetLineNumber(){} // RVA: 0x72AA070
-        public void GetLineHeight(){} // RVA: 0x72AA100
-        public void GetLineHeightFromCharacterIndex(){} // RVA: 0x72AA190
-        public void GetCharacterHeightFromIndex(){} // RVA: 0x72AA220
-        public void IsElided(){} // RVA: 0x72AA3B0
-        public void Substring(){} // RVA: 0x72AA430
-        public void IndexOf(){} // RVA: 0x72AA5E0
-        public void LastIndexOf(){} // RVA: 0x72AA6F0
-        public void ComputeTextWidth(){} // RVA: 0x72AA7B0
-        public void ComputeTextHeight(){} // RVA: 0x72AA7D0
-        public void UpdatePreferredValues(){} // RVA: 0x72AA7F0
-        public void Update(){} // RVA: 0x72AA990
-        public void .cctor(){} // RVA: 0x72AAA70
-    }
-
-    public class TextInfo
+    public class MeshInfo : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x72AABD0
-        public void Clear(){} // RVA: 0x72AAEB0
-        public void ClearMeshInfo(){} // RVA: 0x72AAF30
-        public void ClearLineInfo(){} // RVA: 0x72AB000
-        public void ClearPageInfo(){} // RVA: 0x72AB350
-        public void Resize(){} // RVA: 0x2BB30 | overloaded x2
-        public void .cctor(){} // RVA: 0x72AB4C0
+        public void .ctor(){} // RVA: 0x7A7EFA4F0
+        public void ResizeMeshInfo(){} // RVA: 0x7A7EFA500
+        public void Clear(){} // RVA: 0x7A7EFA510
+        public void ClearUnusedVertices(){} // RVA: 0x7A7EFA550
+        public void SortGeometry(){} // RVA: 0x7A7EFA590
+        public void SwapVertexData(){} // RVA: 0x7A7EFA5A0
+        public void .cctor(){} // RVA: 0x7AF058160
     }
 
-    public class TextProcessingElement
-    {
-    }
-
-    public class TextProcessingStack`1
-    {
-        public T[] itemStack;
-        public int index;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x26EE0 | overloaded x3
-        public void get_Count(){} // RVA: 0xD840
-        public void get_current(){} // RVA: 0x283FA0
-        public void SetDefault(){} // RVA: 0x283FA0 | overloaded x2
-        public void Clear(){} // RVA: 0x24A50
-        public void Add(){} // RVA: 0x283FA0
-        public void Remove(){} // RVA: 0x283FA0
-        public void Push(){} // RVA: 0x283FA0
-        public void Pop(){} // RVA: 0x283FA0
-        public void Peek(){} // RVA: 0x283FA0
-        public void CurrentItem(){} // RVA: 0x283FA0
-    }
-
-    public class TextProcessingStack`1
-    {
-        public UnityEngine.TextCore.Text.MaterialReference[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40C98D0 | overloaded x3
-        public void get_Count(){} // RVA: 0x43DC070
-        public void get_current(){} // RVA: 0x43DC080
-        public void SetDefault(){} // RVA: 0x43DC330 | overloaded x2
-        public void Clear(){} // RVA: 0x40C9C40
-        public void Add(){} // RVA: 0x40C9DD0
-        public void Remove(){} // RVA: 0x43DC4C0
-        public void Push(){} // RVA: 0x40C9F50
-        public void Pop(){} // RVA: 0x43DC590
-        public void Peek(){} // RVA: 0x43DC700
-        public void CurrentItem(){} // RVA: 0x43DC080
-    }
-
-    public class TextProcessingStack`1
-    {
-        public float[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
-        public void get_Count(){} // RVA: 0x3D92310
-        public void get_current(){} // RVA: 0x40CA9A0
-        public void SetDefault(){} // RVA: 0x43DCBA0 | overloaded x2
-        public void Clear(){} // RVA: 0x40C87A0
-        public void Add(){} // RVA: 0x40CAC20
-        public void Remove(){} // RVA: 0x43DCC90
-        public void Push(){} // RVA: 0x43DCD00
-        public void Pop(){} // RVA: 0x40CAD90
-        public void Peek(){} // RVA: 0x40CAE20
-        public void CurrentItem(){} // RVA: 0x40CA9A0
-    }
-
-    public class TextProcessingStack`1
-    {
-        public 0x6597FC28[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
-        public void get_Count(){} // RVA: 0x3D92310
-        public void get_current(){} // RVA: 0x40C8600
-        public void SetDefault(){} // RVA: 0x43DBF00 | overloaded x2
-        public void Clear(){} // RVA: 0x40C87A0
-        public void Add(){} // RVA: 0x40C8890
-        public void Remove(){} // RVA: 0x43DB7A0
-        public void Push(){} // RVA: 0x40C95A0
-        public void Pop(){} // RVA: 0x40C9660
-        public void Peek(){} // RVA: 0x40C8A90
-        public void CurrentItem(){} // RVA: 0x40C8600
-    }
-
-    public class TextProcessingStack`1
-    {
-        public 0x65980728[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
-        public void get_Count(){} // RVA: 0x3D92310
-        public void get_current(){} // RVA: 0x40C8600
-        public void SetDefault(){} // RVA: 0x43DBF00 | overloaded x2
-        public void Clear(){} // RVA: 0x40C87A0
-        public void Add(){} // RVA: 0x40C8890
-        public void Remove(){} // RVA: 0x43DB7A0
-        public void Push(){} // RVA: 0x40C95A0
-        public void Pop(){} // RVA: 0x40C9660
-        public void Peek(){} // RVA: 0x40C8A90
-        public void CurrentItem(){} // RVA: 0x40C8600
-    }
-
-    public class TextProcessingStack`1
-    {
-        public UnityEngine.Color32[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
-        public void get_Count(){} // RVA: 0x3D92310
-        public void get_current(){} // RVA: 0x40C8600
-        public void SetDefault(){} // RVA: 0x43DB6C0 | overloaded x2
-        public void Clear(){} // RVA: 0x40C87A0
-        public void Add(){} // RVA: 0x40C8890
-        public void Remove(){} // RVA: 0x43DB7A0
-        public void Push(){} // RVA: 0x43DB800
-        public void Pop(){} // RVA: 0x40C89F0
-        public void Peek(){} // RVA: 0x40C8A90
-        public void CurrentItem(){} // RVA: 0x40C8600
-    }
-
-    public class TextProcessingStack`1
-    {
-        public UnityEngine.TextCore.Text.HighlightState[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40C8C70 | overloaded x3
-        public void get_Count(){} // RVA: 0x43DB8C0
-        public void get_current(){} // RVA: 0x43DB8D0
-        public void SetDefault(){} // RVA: 0x43DBAD0 | overloaded x2
-        public void Clear(){} // RVA: 0x40C8F20
-        public void Add(){} // RVA: 0x40C9030
-        public void Remove(){} // RVA: 0x43DBBD0
-        public void Push(){} // RVA: 0x40C9100
-        public void Pop(){} // RVA: 0x43DBC60
-        public void Peek(){} // RVA: 0x43DBD30
-        public void CurrentItem(){} // RVA: 0x43DB8D0
-    }
-
-    public class TextProcessingStack`1
-    {
-        public int[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40C8540 | overloaded x3
-        public void get_Count(){} // RVA: 0x3D92310
-        public void get_current(){} // RVA: 0x40C8600
-        public void SetDefault(){} // RVA: 0x43DBF00 | overloaded x2
-        public void Clear(){} // RVA: 0x40C87A0
-        public void Add(){} // RVA: 0x40C8890
-        public void Remove(){} // RVA: 0x43DB7A0
-        public void Push(){} // RVA: 0x40C95A0
-        public void Pop(){} // RVA: 0x40C9660
-        public void Peek(){} // RVA: 0x40C8A90
-        public void CurrentItem(){} // RVA: 0x40C8600
-    }
-
-    public class TextProcessingStack`1
-    {
-        public UnityEngine.TextCore.Text.TextColorGradient[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x40CA450 | overloaded x3
-        public void get_Count(){} // RVA: 0x43DC7A0
-        public void get_current(){} // RVA: 0x40CA520
-        public void SetDefault(){} // RVA: 0x43DC840 | overloaded x2
-        public void Clear(){} // RVA: 0x40CA600
-        public void Add(){} // RVA: 0x40CA700
-        public void Remove(){} // RVA: 0x43DC930
-        public void Push(){} // RVA: 0x40CA7A0
-        public void Pop(){} // RVA: 0x43DC990
-        public void Peek(){} // RVA: 0x40CA910
-        public void CurrentItem(){} // RVA: 0x40CA520
-    }
-
-    public class TextProcessingStack`1
-    {
-        public UnityEngine.TextCore.Text.WordWrapState[] itemStack; // 0x10
-        public int index; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x43DCF40 | overloaded x3
-        public void get_Count(){} // RVA: 0x43DD020
-        public void get_current(){} // RVA: 0x43DD030
-        public void SetDefault(){} // RVA: 0x43DD390 | overloaded x2
-        public void Clear(){} // RVA: 0x43DD380
-        public void Add(){} // RVA: 0x43DD510
-        public void Remove(){} // RVA: 0x43DD5D0
-        public void Push(){} // RVA: 0x43DD750
-        public void Pop(){} // RVA: 0x43DD8B0
-        public void Peek(){} // RVA: 0x43DDB80
-        public void CurrentItem(){} // RVA: 0x43DD030
-    }
-
-    public class TextResourceManager
+    public class Offset : ValueType
     {
         // ── Methods ──
-        public void AddFontAsset(){} // RVA: 0x72AB5E0
-        public void .cctor(){} // RVA: 0x72ABF90
+        public void get_left(){} // RVA: 0x7A79EF510
+        public void get_right(){} // RVA: 0x7A7ED4380
+        public void get_top(){} // RVA: 0x7A7ED4390
+        public void get_bottom(){} // RVA: 0x7A7ED43A0
+        public void get_zero(){} // RVA: 0x7AF082840
+        public void .ctor(){} // RVA: 0x7A75F5650
+        public void op_Equality(){} // RVA: 0x7AE5D14C0
+        public void op_Multiply(){} // RVA: 0x7AEEEF2D0
+        public void GetHashCode(){} // RVA: 0x7A7EFAC20
+        public void Equals(){} // RVA: 0x7A7EFAC80
+        public void .cctor(){} // RVA: 0x7AF082980
     }
 
-    public class TextSettings
-    {
-        public string faceInfo; // 0x18
-        public UnityEngine.TextCore.Text.FontAsset spriteSheet; // 0x20
-        public string spriteCharacterTable; // 0x28
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> spriteCharacterLookupTable; // 0x30
-        public bool spriteGlyphTable; // 0x38
-        public int m_MissingCharacterUnicode; // 0x3C
-        public bool m_ClearDynamicDataOnBuild; // 0x40
-        public UnityEngine.TextCore.Text.SpriteAsset m_DefaultSpriteAsset; // 0x48
-        public string m_DefaultSpriteAssetPath; // 0x50
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset> m_FallbackSpriteAssets; // 0x58
-        public uint m_MissingSpriteCharacterUnicode; // 0x60
-        public UnityEngine.TextCore.Text.TextStyleSheet m_DefaultStyleSheet; // 0x68
-        public string m_StyleSheetsResourcePath; // 0x70
-        public string m_DefaultColorGradientPresetsPath; // 0x78
-        public UnityEngine.TextCore.Text.UnicodeLineBreakingRules m_UnicodeLineBreakingRules; // 0x80
-        public bool m_UseModernHangulLineBreakingRules; // 0x88
-        public bool m_DisplayWarnings; // 0x89
-
-        // ── Methods ──
-        public void get_version(){} // RVA: 0x2E07C0
-        public void set_version(){} // RVA: 0x343E80
-        public void get_defaultFontAsset(){} // RVA: 0x30B0C0
-        public void set_defaultFontAsset(){} // RVA: 0x30B0D0
-        public void get_defaultFontAssetPath(){} // RVA: 0x30B130
-        public void set_defaultFontAssetPath(){} // RVA: 0x2DEE90
-        public void get_fallbackFontAssets(){} // RVA: 0x6374D0
-        public void set_fallbackFontAssets(){} // RVA: 0x30B890
-        public void get_matchMaterialPreset(){} // RVA: 0x4A6500
-        public void set_matchMaterialPreset(){} // RVA: 0x4A78C0
-        public void get_missingCharacterUnicode(){} // RVA: 0x891AF0
-        public void set_missingCharacterUnicode(){} // RVA: 0x1CB95F0
-        public void get_clearDynamicDataOnBuild(){} // RVA: 0x398C00
-        public void set_clearDynamicDataOnBuild(){} // RVA: 0x398C10
-        public void get_defaultSpriteAsset(){} // RVA: 0x358730
-        public void set_defaultSpriteAsset(){} // RVA: 0x358740
-        public void get_defaultSpriteAssetPath(){} // RVA: 0x37E0E0
-        public void set_defaultSpriteAssetPath(){} // RVA: 0x4354D0
-        public void get_fallbackSpriteAssets(){} // RVA: 0x3A5500
-        public void set_fallbackSpriteAssets(){} // RVA: 0x3A5510
-        public void get_missingSpriteCharacterUnicode(){} // RVA: 0x59CEC0
-        public void set_missingSpriteCharacterUnicode(){} // RVA: 0x59C530
-        public void get_defaultStyleSheet(){} // RVA: 0x358D50
-        public void set_defaultStyleSheet(){} // RVA: 0x358D60
-        public void get_styleSheetsResourcePath(){} // RVA: 0x3A5590
-        public void set_styleSheetsResourcePath(){} // RVA: 0x3A55A0
-        public void get_defaultColorGradientPresetsPath(){} // RVA: 0x4C7C50
-        public void set_defaultColorGradientPresetsPath(){} // RVA: 0x4C34F0
-        public void get_lineBreakingRules(){} // RVA: 0x72AC430
-        public void set_lineBreakingRules(){} // RVA: 0x464450
-        public void get_useModernHangulLineBreakingRules(){} // RVA: 0x72AC4F0
-        public void set_useModernHangulLineBreakingRules(){} // RVA: 0x10F2C40
-        public void get_displayWarnings(){} // RVA: 0x134A680
-        public void set_displayWarnings(){} // RVA: 0x1343820
-        public void OnEnable(){} // RVA: 0x72AC500
-        public void InitializeFontReferenceLookup(){} // RVA: 0x72AC530
-        public void GetCachedFontAssetInternal(){} // RVA: 0x72AC920
-        public void .ctor(){} // RVA: 0x72ACD90
-    }
-
-    public class TextShaderUtilities
-    {
-        public int ID_MainTex;
-        public int ID_FaceTex; // 0x4
-
-        // ── Methods ──
-        public void get_ShaderRef_MobileSDF(){} // RVA: 0x72AD040
-        public void get_ShaderRef_MobileBitmap(){} // RVA: 0x72AD4E0
-        public void .cctor(){} // RVA: 0x72AD980
-        public void GetShaderPropertyIDs(){} // RVA: 0x72ADFA0
-    }
-
-    public class TextStyle
-    {
-        public UnityEngine.TextCore.Text.TextStyle k_NormalStyle;
-        public string m_Name; // 0x10
-        public int m_HashCode; // 0x18
-
-        // ── Methods ──
-        public void get_hashCode(){} // RVA: 0x3D92310
-        public void get_styleOpeningTagArray(){} // RVA: 0x7145E90
-        public void get_styleClosingTagArray(){} // RVA: 0x7187DC0
-        public void .ctor(){} // RVA: 0x72AFA10
-        public void RefreshStyle(){} // RVA: 0x72AFB70
-    }
-
-    public class TextStyleSheet
-    {
-        public System.Collections.Generic.List`1<UnityEngine.TextCore.Text.TextStyle> width; // 0x18
-
-        // ── Methods ──
-        public void get_styles(){} // RVA: 0x2F0F420
-        public void Reset(){} // RVA: 0x72AFEC0
-        public void GetStyle(){} // RVA: 0x72AFF60 | overloaded x2
-        public void RefreshStyles(){} // RVA: 0x72AFEC0
-        public void LoadStyleDictionaryInternal(){} // RVA: 0x72B0000
-        public void .ctor(){} // RVA: 0x72B0500
-    }
-
-    public class TextUtilities
+    public class SpriteAsset : TextAsset
     {
         // ── Methods ──
-        public void ToUpperFast(){} // RVA: 0x72B0640
-        public void GetHashCodeCaseInSensitive(){} // RVA: 0x72B06B0
-        public void UintToString(){} // RVA: 0x72B0790
+        public void get_faceInfo(){} // RVA: 0x7AF0581F0
+        public void set_faceInfo(){} // RVA: 0x7AEDDD5D0
+        public void get_spriteSheet(){} // RVA: 0x7AEF67660
+        public void set_spriteSheet(){} // RVA: 0x7A8881790
+        public void get_spriteCharacterTable(){} // RVA: 0x7AF058230
+        public void set_spriteCharacterTable(){} // RVA: 0x7A8142620
+        public void get_spriteCharacterLookupTable(){} // RVA: 0x7AF058270
+        public void set_spriteCharacterLookupTable(){} // RVA: 0x7A8142690
+        public void get_spriteGlyphTable(){} // RVA: 0x7AEF677B0
+        public void set_spriteGlyphTable(){} // RVA: 0x7A8142700
+        public void Awake(){} // RVA: 0x7A80D7310
+        public void UpdateLookupTables(){} // RVA: 0x7AF0582B0
+        public void GetSpriteIndexFromHashcode(){} // RVA: 0x7AF058AA0
+        public void GetSpriteIndexFromUnicode(){} // RVA: 0x7AF058B50
+        public void GetSpriteIndexFromName(){} // RVA: 0x7AF058BF0
+        public void SearchForSpriteByUnicode(){} // RVA: 0x7AF058C30
+        public void SearchForSpriteByUnicodeInternal(){} // RVA: 0x7AF059150
+        public void SearchForSpriteByHashCode(){} // RVA: 0x7AF059210
+        public void SearchForSpriteByHashCodeInternal(){} // RVA: 0x7AF0599F0
+        public void SortGlyphTable(){} // RVA: 0x7AF059AB0
+        public void SortCharacterTable(){} // RVA: 0x7AF059D50
+        public void SortGlyphAndCharacterTables(){} // RVA: 0x7AF059FF0
+        public void .ctor(){} // RVA: 0x7AF05A010
     }
 
-    public class TextVertex
+    public class SpriteAsset[] : Array
     {
-    }
-
-    public class UnicodeLineBreakingRules
-    {
-        public UnityEngine.TextAsset IsAlive; // 0x10
-        public UnityEngine.TextAsset Target; // 0x18
-        public UnityEngine.TextAsset TrackResurrection; // 0x20
-        public bool System.Collections.Generic; // 0x28
-        public System.Collections.Generic.HashSet`1<uint> m_LeadingCharactersLookup; // 0x30
-
         // ── Methods ──
-        public void get_leadingCharacters(){} // RVA: 0x2E07C0
-        public void get_followingCharacters(){} // RVA: 0x30B0C0
-        public void get_leadingCharactersLookup(){} // RVA: 0x72B0860
-        public void get_followingCharactersLookup(){} // RVA: 0x72B08A0
-        public void get_useModernHangulLineBreakingRules(){} // RVA: 0x6E8A80
-        public void LoadLineBreakingRules(){} // RVA: 0x72B0D90 | overloaded x2
-        public void GetCharacters(){} // RVA: 0x72B11B0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class WordInfo
+    public class SpriteCharacter : TextElement
     {
+        // ── Methods ──
+        public void get_name(){} // RVA: 0x7AEF24D90
+        public void .ctor(){} // RVA: 0x7AEDDFFE0
     }
 
-    public class WordWrapState
+    public class SpriteCharacter[] : Array
     {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class SpriteGlyph : Glyph
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AEDE0220
+    }
+
+    public class SpriteGlyph[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class TextAsset : ScriptableObject
+    {
+        // ── Methods ──
+        public void get_version(){} // RVA: 0x7AACE3A80
+        public void set_version(){} // RVA: 0x7A813E420
+        public void get_instanceID(){} // RVA: 0x7AF05A230
+        public void get_hashCode(){} // RVA: 0x7AF05A260
+        public void set_hashCode(){} // RVA: 0x7A94794D0
+        public void get_material(){} // RVA: 0x7A8105330
+        public void set_material(){} // RVA: 0x7A80D8E80
+        public void get_materialHashCode(){} // RVA: 0x7AF05A2A0
+        public void set_materialHashCode(){} // RVA: 0x7A8133110
+        public void .ctor(){} // RVA: 0x7A82F4A40
+    }
+
+    public class TextBackingContainer : ValueType
+    {
+        // ── Methods ──
+        public void get_Capacity(){} // RVA: 0x7A78D5A30
+        public void get_Count(){} // RVA: 0x7A79D4850
+        public void set_Count(){} // RVA: 0x7A767FBC0
+        public void get_Item(){} // RVA: 0x7A78CDD60
+        public void set_Item(){} // RVA: 0x7A7EFAB90
+        public void .ctor(){} // RVA: 0x7A7EFAC00
+        public void Resize(){} // RVA: 0x7A7EFAC10
+    }
+
+    public class TextColorGradient : ScriptableObject
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AED80E00
+        public void .cctor(){} // RVA: 0x7AF05A470
+    }
+
+    public class TextElement : Object
+    {
+        // ── Methods ──
+        public void get_elementType(){} // RVA: 0x7AEF669C0
+        public void get_unicode(){} // RVA: 0x7AACD6DF0
+        public void set_unicode(){} // RVA: 0x7A8669360
+        public void get_textAsset(){} // RVA: 0x7AACE3A80
+        public void set_textAsset(){} // RVA: 0x7A813E420
+        public void get_glyph(){} // RVA: 0x7AE8145B0
+        public void set_glyph(){} // RVA: 0x7A81052D0
+        public void get_glyphIndex(){} // RVA: 0x7AC1CA480
+        public void set_glyphIndex(){} // RVA: 0x7A8810F60
+        public void get_scale(){} // RVA: 0x7AEF875C0
+        public void set_scale(){} // RVA: 0x7A868BCB0
+        public void .ctor(){} // RVA: 0x7A80D7310
+    }
+
+    public class TextElementInfo : ValueType
+    {
+        // ── Methods ──
+        public void ToString(){} // RVA: 0x7A7EFA5D0
+    }
+
+    public class TextGenerationSettings : Object
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7AF05CBE0
+        public void GetHashCode(){} // RVA: 0x7AF05CCF0
+        public void op_Equality(){} // RVA: 0x7AF05DF60
+        public void ToString(){} // RVA: 0x7AF05DFA0
+        public void .ctor(){} // RVA: 0x7AF060450
+    }
+
+    public class TextGenerator : Object
+    {
+        // ── Methods ──
+        public void GetTextGenerator(){} // RVA: 0x7AF06DAC0
+        public void GenerateText(){} // RVA: 0x7AF06DBA0
+        public void GetPreferredValues(){} // RVA: 0x7AF06DE00
+        public void get_isTextTruncated(){} // RVA: 0x7AF06E1B0
+        public void Prepare(){} // RVA: 0x7AF06E1F0
+        public void GenerateTextMesh(){} // RVA: 0x7AF060500
+        public void SaveWordWrappingState(){} // RVA: 0x7AF06E440
+        public void RestoreWordWrappingState(){} // RVA: 0x7AF06EF00
+        public void ValidateHtmlTag(){} // RVA: 0x7AF06F9A0
+        public void SaveGlyphVertexInfo(){} // RVA: 0x7AF075810
+        public void SaveSpriteVertexInfo(){} // RVA: 0x7AF076B90
+        public void DrawUnderlineMesh(){} // RVA: 0x7AF0776C0
+        public void DrawTextHighlight(){} // RVA: 0x7AF0788A0
+        public void ClearMesh(){} // RVA: 0x7AF078F80
+        public void SetArraySizes(){} // RVA: 0x7AF079070
+        public void GetTextElement(){} // RVA: 0x7AF07AD00
+        public void ComputeMarginSize(){} // RVA: 0x7AF07B240
+        public void GetSpecialCharacters(){} // RVA: 0x7AF07B340
+        public void GetEllipsisSpecialCharacter(){} // RVA: 0x7AF07B370
+        public void GetUnderlineSpecialCharacter(){} // RVA: 0x7AF07B6D0
+        public void GetPreferredValuesInternal(){} // RVA: 0x7AF07B850
+        public void CalculatePreferredValues(){} // RVA: 0x7AF07BA70
+        public void PopulateTextBackingArray(){} // RVA: 0x7AF07F340
+        public void PopulateTextProcessingArray(){} // RVA: 0x7AF07F4E0
+        public void InsertNewLine(){} // RVA: 0x7AF080510
+        public void DoMissingGlyphCallback(){} // RVA: 0x7AF080D50
+        public void ClearMarkupTagAttributes(){} // RVA: 0x7AF080DE0
+        public void .ctor(){} // RVA: 0x7AF080E40
+    }
+
+    public class TextGeneratorUtilities : Object
+    {
+        // ── Methods ──
+        public void Approximately(){} // RVA: 0x7AF082D20
+        public void HexCharsToColor(){} // RVA: 0x7AF083410
+        public void HexToInt(){} // RVA: 0x7AF0836A0
+        public void ConvertToFloat(){} // RVA: 0x7AF083840
+        public void PackUV(){} // RVA: 0x7AF0839C0
+        public void ResizeInternalArray(){} // RVA: 0x7A7E1E1E0
+        public void InsertOpeningTextStyle(){} // RVA: 0x7AF083A00
+        public void InsertClosingTextStyle(){} // RVA: 0x7AF083B00
+        public void ReplaceOpeningStyleTag(){} // RVA: 0x7AF083E00
+        public void ReplaceClosingStyleTag(){} // RVA: 0x7AF084000
+        public void InsertOpeningStyleTag(){} // RVA: 0x7AF084130
+        public void InsertClosingStyleTag(){} // RVA: 0x7AF084230
+        public void InsertTextStyleInTextProcessingArray(){} // RVA: 0x7AF084330
+        public void GetStyle(){} // RVA: 0x7AF084810
+        public void GetStyleHashCode(){} // RVA: 0x7AF084AC0
+        public void GetUTF16(){} // RVA: 0x7AF084CA0
+        public void GetUTF32(){} // RVA: 0x7AF084F00
+        public void FillCharacterVertexBuffers(){} // RVA: 0x7AF0850B0
+        public void FillSpriteVertexBuffers(){} // RVA: 0x7AF085CA0
+        public void AdjustLineOffset(){} // RVA: 0x7AF0867A0
+        public void ResizeLineExtents(){} // RVA: 0x7AF086B40
+        public void LegacyStyleToNewStyle(){} // RVA: 0x7AF086DD0
+        public void LegacyAlignmentToNewAlignment(){} // RVA: 0x7AF086E00
+        public void ConvertToUTF32(){} // RVA: 0x7AF086E80
+        public void GetMarkupTagHashCode(){} // RVA: 0x7AF086F90
+        public void ToUpperASCIIFast(){} // RVA: 0x7AF087100
+        public void ToUpperFast(){} // RVA: 0x7AF087170
+        public void GetAttributeParameters(){} // RVA: 0x7AF0871E0
+        public void IsBitmapRendering(){} // RVA: 0x7AF0872D0
+        public void IsBaseGlyph(){} // RVA: 0x7AF087300
+        public void MinAlpha(){} // RVA: 0x7AF087410
+        public void GammaToLinear(){} // RVA: 0x7AF087500
+        public void IsValidUTF16(){} // RVA: 0x7AF0875B0
+        public void IsValidUTF32(){} // RVA: 0x7AF087620
+        public void IsHangul(){} // RVA: 0x7AF087690
+        public void IsCJK(){} // RVA: 0x7AF0876F0
+        public void .cctor(){} // RVA: 0x7AF0877B0
+    }
+
+    public class TextHandle : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AF087820
+        public void get_textInfo(){} // RVA: 0x7AF087950
+        public void get_layoutTextInfo(){} // RVA: 0x7AF087A00
+        public void IsDirty(){} // RVA: 0x7AF087B40
+        public void GetCursorPositionFromStringIndexUsingCharacterHeight(){} // RVA: 0x7AF087B90
+        public void GetCursorPositionFromStringIndexUsingLineHeight(){} // RVA: 0x7AF087E10
+        public void GetCursorIndexFromPosition(){} // RVA: 0x7AF088090
+        public void LineDownCharacterPosition(){} // RVA: 0x7AF088430
+        public void LineUpCharacterPosition(){} // RVA: 0x7AF088900
+        public void FindNearestLine(){} // RVA: 0x7AF088DB0
+        public void FindNearestCharacterOnLine(){} // RVA: 0x7AF088EF0
+        public void FindIntersectingLink(){} // RVA: 0x7AF089820
+        public void PointIntersectRectangle(){} // RVA: 0x7AF089DF0
+        public void DistanceToLine(){} // RVA: 0x7AF089F70
+        public void GetLineNumber(){} // RVA: 0x7AF08A160
+        public void GetLineHeight(){} // RVA: 0x7AF08A1F0
+        public void GetLineHeightFromCharacterIndex(){} // RVA: 0x7AF08A280
+        public void GetCharacterHeightFromIndex(){} // RVA: 0x7AF08A310
+        public void IsElided(){} // RVA: 0x7AF08A4A0
+        public void Substring(){} // RVA: 0x7AF08A520
+        public void IndexOf(){} // RVA: 0x7AF08A6E0
+        public void LastIndexOf(){} // RVA: 0x7AF08A800
+        public void ComputeTextWidth(){} // RVA: 0x7AF08A8E0
+        public void ComputeTextHeight(){} // RVA: 0x7AF08A900
+        public void UpdatePreferredValues(){} // RVA: 0x7AF08A920
+        public void Update(){} // RVA: 0x7AF08AAC0
+        public void .cctor(){} // RVA: 0x7AF08ABA0
+    }
+
+    public class TextInfo : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AF08AD00
+        public void Clear(){} // RVA: 0x7AF08AFE0
+        public void ClearMeshInfo(){} // RVA: 0x7AF08B050
+        public void ClearLineInfo(){} // RVA: 0x7AF08B130
+        public void ClearPageInfo(){} // RVA: 0x7AF08B400
+        public void Resize(){} // RVA: 0x7A7E1F880
+        public void .cctor(){} // RVA: 0x7AF08B540
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7E1ABE0
+        public void get_Count(){} // RVA: 0x7A7E00710
+        public void get_current(){} // RVA: 0x7A8051B10
+        public void SetDefault(){} // RVA: 0x7A8051B10
+        public void Clear(){} // RVA: 0x7A7E18770
+        public void Add(){} // RVA: 0x7A8051B10
+        public void Remove(){} // RVA: 0x7A8051B10
+        public void Push(){} // RVA: 0x7A8051B10
+        public void Pop(){} // RVA: 0x7A8051B10
+        public void Peek(){} // RVA: 0x7A8051B10
+        public void CurrentItem(){} // RVA: 0x7A8051B10
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A3B070
+        public void get_Count(){} // RVA: 0x7A7AD2220
+        public void get_current(){} // RVA: 0x7A7A3B160
+        public void SetDefault(){} // RVA: 0x7A7AD2230
+        public void Clear(){} // RVA: 0x7A7A3B210
+        public void Add(){} // RVA: 0x7A7A3B260
+        public void Remove(){} // RVA: 0x7A7AD2270
+        public void Push(){} // RVA: 0x7A7AD22B0
+        public void Pop(){} // RVA: 0x7A7A3B430
+        public void Peek(){} // RVA: 0x7A7A3B590
+        public void CurrentItem(){} // RVA: 0x7A7A3B160
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A3A3E0
+        public void get_Count(){} // RVA: 0x7A7AD1FC0
+        public void get_current(){} // RVA: 0x7A7A3BBE0
+        public void SetDefault(){} // RVA: 0x7A7AD2430
+        public void Clear(){} // RVA: 0x7A7A3A500
+        public void Add(){} // RVA: 0x7A7A3BC40
+        public void Remove(){} // RVA: 0x7A7AD2440
+        public void Push(){} // RVA: 0x7A7AD2450
+        public void Pop(){} // RVA: 0x7A7A3BCF0
+        public void Peek(){} // RVA: 0x7A7A3BD00
+        public void CurrentItem(){} // RVA: 0x7A7A3BBE0
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A3A3E0
+        public void get_Count(){} // RVA: 0x7A7AD1FC0
+        public void get_current(){} // RVA: 0x7A7A3A4B0
+        public void SetDefault(){} // RVA: 0x7A7AD2200
+        public void Clear(){} // RVA: 0x7A7A3A500
+        public void Add(){} // RVA: 0x7A7A3A520
+        public void Remove(){} // RVA: 0x7A7AD2210
+        public void Push(){} // RVA: 0x7A7A3ADB0
+        public void Pop(){} // RVA: 0x7A7A3AE70
+        public void Peek(){} // RVA: 0x7A7A3A720
+        public void CurrentItem(){} // RVA: 0x7A7A3A4B0
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A3A3E0
+        public void get_Count(){} // RVA: 0x7A7AD1FC0
+        public void get_current(){} // RVA: 0x7A7A3A4B0
+        public void SetDefault(){} // RVA: 0x7A7AD2200
+        public void Clear(){} // RVA: 0x7A7A3A500
+        public void Add(){} // RVA: 0x7A7A3A520
+        public void Remove(){} // RVA: 0x7A7AD2210
+        public void Push(){} // RVA: 0x7A7A3ADB0
+        public void Pop(){} // RVA: 0x7A7A3AE70
+        public void Peek(){} // RVA: 0x7A7A3A720
+        public void CurrentItem(){} // RVA: 0x7A7A3A4B0
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A3A3E0
+        public void get_Count(){} // RVA: 0x7A7AD1FC0
+        public void get_current(){} // RVA: 0x7A7A3A4B0
+        public void SetDefault(){} // RVA: 0x7A7AD1FD0
+        public void Clear(){} // RVA: 0x7A7A3A500
+        public void Add(){} // RVA: 0x7A7A3A520
+        public void Remove(){} // RVA: 0x7A7AD1FE0
+        public void Push(){} // RVA: 0x7A7AD1FF0
+        public void Pop(){} // RVA: 0x7A7A3A680
+        public void Peek(){} // RVA: 0x7A7A3A720
+        public void CurrentItem(){} // RVA: 0x7A7A3A4B0
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A3A900
+        public void get_Count(){} // RVA: 0x7A7AD20B0
+        public void get_current(){} // RVA: 0x7A7A3A9D0
+        public void SetDefault(){} // RVA: 0x7A7AD20C0
+        public void Clear(){} // RVA: 0x7A7A3AA50
+        public void Add(){} // RVA: 0x7A7A3AA90
+        public void Remove(){} // RVA: 0x7A7AD20F0
+        public void Push(){} // RVA: 0x7A7A3AB70
+        public void Pop(){} // RVA: 0x7A7A3ABA0
+        public void Peek(){} // RVA: 0x7A7AD2180
+        public void CurrentItem(){} // RVA: 0x7A7A3A9D0
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A3A3E0
+        public void get_Count(){} // RVA: 0x7A7AD1FC0
+        public void get_current(){} // RVA: 0x7A7A3A4B0
+        public void SetDefault(){} // RVA: 0x7A7AD21F0
+        public void Clear(){} // RVA: 0x7A7A3A500
+        public void Add(){} // RVA: 0x7A7A3A520
+        public void Remove(){} // RVA: 0x7A7AD1FE0
+        public void Push(){} // RVA: 0x7A7A3AD70
+        public void Pop(){} // RVA: 0x7A7A3AD80
+        public void Peek(){} // RVA: 0x7A7A3A720
+        public void CurrentItem(){} // RVA: 0x7A7A3A4B0
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A3B7E0
+        public void get_Count(){} // RVA: 0x7A7AD2400
+        public void get_current(){} // RVA: 0x7A7A3B8B0
+        public void SetDefault(){} // RVA: 0x7A7AD2410
+        public void Clear(){} // RVA: 0x7A7A3B900
+        public void Add(){} // RVA: 0x7A7A3B920
+        public void Remove(){} // RVA: 0x7A7AD2420
+        public void Push(){} // RVA: 0x7A7A3B9C0
+        public void Pop(){} // RVA: 0x7A7A3BA80
+        public void Peek(){} // RVA: 0x7A7A3BB40
+        public void CurrentItem(){} // RVA: 0x7A7A3B8B0
+    }
+
+    public class TextProcessingStack`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7AD25D0
+        public void get_Count(){} // RVA: 0x7A7AD25E0
+        public void get_current(){} // RVA: 0x7A7AD25F0
+        public void SetDefault(){} // RVA: 0x7A7AD27C0
+        public void Clear(){} // RVA: 0x7A7AD27B0
+        public void Add(){} // RVA: 0x7A7AD2860
+        public void Remove(){} // RVA: 0x7A7AD2920
+        public void Push(){} // RVA: 0x7A7AD2B00
+        public void Pop(){} // RVA: 0x7A7AD2BA0
+        public void Peek(){} // RVA: 0x7A7AD2C40
+        public void CurrentItem(){} // RVA: 0x7A7AD25F0
+    }
+
+    public class TextResourceManager : Object
+    {
+        // ── Methods ──
+        public void AddFontAsset(){} // RVA: 0x7AF08B5B0
+        public void .cctor(){} // RVA: 0x7AF08BF50
+    }
+
+    public class TextSettings : ScriptableObject
+    {
+        // ── Methods ──
+        public void get_version(){} // RVA: 0x7A80DA7B0
+        public void set_version(){} // RVA: 0x7A813E420
+        public void get_defaultFontAsset(){} // RVA: 0x7A81052C0
+        public void set_defaultFontAsset(){} // RVA: 0x7A81052D0
+        public void get_defaultFontAssetPath(){} // RVA: 0x7A8105330
+        public void set_defaultFontAssetPath(){} // RVA: 0x7A80D8E80
+        public void get_fallbackFontAssets(){} // RVA: 0x7A83F69F0
+        public void set_fallbackFontAssets(){} // RVA: 0x7A8105A90
+        public void get_matchMaterialPreset(){} // RVA: 0x7A82A20A0
+        public void set_matchMaterialPreset(){} // RVA: 0x7A82A2C90
+        public void get_missingCharacterUnicode(){} // RVA: 0x7A864E8D0
+        public void set_missingCharacterUnicode(){} // RVA: 0x7A9ABBD00
+        public void get_clearDynamicDataOnBuild(){} // RVA: 0x7A8193790
+        public void set_clearDynamicDataOnBuild(){} // RVA: 0x7A81937A0
+        public void get_defaultSpriteAsset(){} // RVA: 0x7A8152D80
+        public void set_defaultSpriteAsset(){} // RVA: 0x7A8152D90
+        public void get_defaultSpriteAssetPath(){} // RVA: 0x7A8178B90
+        public void set_defaultSpriteAssetPath(){} // RVA: 0x7A8230620
+        public void get_fallbackSpriteAssets(){} // RVA: 0x7A81A0050
+        public void set_fallbackSpriteAssets(){} // RVA: 0x7A81A0060
+        public void get_missingSpriteCharacterUnicode(){} // RVA: 0x7A83562E0
+        public void set_missingSpriteCharacterUnicode(){} // RVA: 0x7A8355940
+        public void get_defaultStyleSheet(){} // RVA: 0x7A8153390
+        public void set_defaultStyleSheet(){} // RVA: 0x7A81533A0
+        public void get_styleSheetsResourcePath(){} // RVA: 0x7A81A00E0
+        public void set_styleSheetsResourcePath(){} // RVA: 0x7A81A00F0
+        public void get_defaultColorGradientPresetsPath(){} // RVA: 0x7A82C2060
+        public void set_defaultColorGradientPresetsPath(){} // RVA: 0x7A82C0530
+        public void get_lineBreakingRules(){} // RVA: 0x7AF08C3F0
+        public void set_lineBreakingRules(){} // RVA: 0x7A825F860
+        public void get_useModernHangulLineBreakingRules(){} // RVA: 0x7AF08C4B0
+        public void set_useModernHangulLineBreakingRules(){} // RVA: 0x7A90F9520
+        public void get_displayWarnings(){} // RVA: 0x7A9101D50
+        public void set_displayWarnings(){} // RVA: 0x7A90FAED0
+        public void OnEnable(){} // RVA: 0x7AF08C4C0
+        public void InitializeFontReferenceLookup(){} // RVA: 0x7AF08C4F0
+        public void GetCachedFontAssetInternal(){} // RVA: 0x7AF08C8E0
+        public void .ctor(){} // RVA: 0x7AF08CD60
+    }
+
+    public class TextShaderUtilities : Object
+    {
+        // ── Methods ──
+        public void get_ShaderRef_MobileSDF(){} // RVA: 0x7AF08D010
+        public void get_ShaderRef_MobileBitmap(){} // RVA: 0x7AF08D4B0
+        public void .cctor(){} // RVA: 0x7AF08D950
+        public void GetShaderPropertyIDs(){} // RVA: 0x7AF08DF70
+    }
+
+    public class TextStyle : Object
+    {
+        // ── Methods ──
+        public void get_hashCode(){} // RVA: 0x7ABB8C660
+        public void get_styleOpeningTagArray(){} // RVA: 0x7AEF24D90
+        public void get_styleClosingTagArray(){} // RVA: 0x7AEF66F80
+        public void .ctor(){} // RVA: 0x7AF08F9E0
+        public void RefreshStyle(){} // RVA: 0x7AF08FB40
+    }
+
+    public class TextStyleSheet : ScriptableObject
+    {
+        // ── Methods ──
+        public void get_styles(){} // RVA: 0x7AACE3A80
+        public void Reset(){} // RVA: 0x7AF08FE90
+        public void GetStyle(){} // RVA: 0x7AF08FF30
+        public void RefreshStyles(){} // RVA: 0x7AF08FE90
+        public void LoadStyleDictionaryInternal(){} // RVA: 0x7AF08FFD0
+        public void .ctor(){} // RVA: 0x7AF0904D0
+    }
+
+    public class TextStyle[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class TextUtilities : Object
+    {
+        // ── Methods ──
+        public void ToUpperFast(){} // RVA: 0x7AF090610
+        public void GetHashCodeCaseInSensitive(){} // RVA: 0x7AF090680
+        public void UintToString(){} // RVA: 0x7AF090760
+    }
+
+    public class UnicodeLineBreakingRules : Object
+    {
+        // ── Methods ──
+        public void get_leadingCharacters(){} // RVA: 0x7A80DA7B0
+        public void get_followingCharacters(){} // RVA: 0x7A81052C0
+        public void get_leadingCharactersLookup(){} // RVA: 0x7AF090830
+        public void get_followingCharactersLookup(){} // RVA: 0x7AF090870
+        public void get_useModernHangulLineBreakingRules(){} // RVA: 0x7A84A5BD0
+        public void LoadLineBreakingRules(){} // RVA: 0x7AF090D60
+        public void GetCharacters(){} // RVA: 0x7AF091180
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

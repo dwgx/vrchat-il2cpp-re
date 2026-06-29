@@ -5,74 +5,74 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class DefaultIfEmpty`1
+    public class DefaultIfEmpty`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class DistinctAwaitWithCancellation`2
+    public class DistinctAwaitWithCancellation`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class DistinctAwait`2
+    public class DistinctAwait`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class DistinctUntilChangedAwaitWithCancellation`2
+    public class DistinctUntilChangedAwaitWithCancellation`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class DistinctUntilChangedAwait`2
+    public class DistinctUntilChangedAwait`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class DistinctUntilChanged`1
+    public class DistinctUntilChanged`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class DistinctUntilChanged`2
+    public class DistinctUntilChanged`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Distinct`1
+    public class Distinct`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Distinct`2
+    public class Distinct`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Do`1
+    public class Do`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F9F0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DB70
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
 }

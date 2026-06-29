@@ -5,23 +5,23 @@
 
 namespace ThirdParty.DotNet.System.Net.Mime
 {
-    public class EncodedStreamFactory
+    public class EncodedStreamFactory : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MailBnfHelper
+    public class MailBnfHelper : Object
     {
         // ── Methods ──
-        public void CreateCharactersAllowedInAtoms(){} // RVA: 0x6BB5A30
-        public void CreateCharactersAllowedInQuotedStrings(){} // RVA: 0x6BB5BE0
-        public void CreateCharactersAllowedInDomainLiterals(){} // RVA: 0x6BB5CD0
-        public void CreateCharactersAllowedInHeaderNames(){} // RVA: 0x6BB5DC0
-        public void CreateCharactersAllowedInTokens(){} // RVA: 0x6BB5E50
-        public void CreateCharactersAllowedInComments(){} // RVA: 0x6BB5F70
-        public void IsAllowedWhiteSpace(){} // RVA: 0x6BB6080
-        public void .cctor(){} // RVA: 0x6BB6150
+        public void CreateCharactersAllowedInAtoms(){} // RVA: 0x7AE9A4950
+        public void CreateCharactersAllowedInQuotedStrings(){} // RVA: 0x7AE9A4B00
+        public void CreateCharactersAllowedInDomainLiterals(){} // RVA: 0x7AE9A4BF0
+        public void CreateCharactersAllowedInHeaderNames(){} // RVA: 0x7AE9A4CE0
+        public void CreateCharactersAllowedInTokens(){} // RVA: 0x7AE9A4D70
+        public void CreateCharactersAllowedInComments(){} // RVA: 0x7AE9A4E90
+        public void IsAllowedWhiteSpace(){} // RVA: 0x7AE9A4FA0
+        public void .cctor(){} // RVA: 0x7AE9A5070
     }
 
 }

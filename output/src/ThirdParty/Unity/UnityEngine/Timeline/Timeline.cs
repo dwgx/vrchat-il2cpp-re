@@ -1,1307 +1,1163 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Timeline
 // Classes: 78
-// Methods: 793
+// Methods: 765
 
 namespace ThirdParty.Unity.UnityEngine.Timeline
 {
-    public class ActivationControlPlayable
+    public class ActivationControlPlayable : PlayableBehaviour
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x703A180
-        public void OnBehaviourPlay(){} // RVA: 0x703A400
-        public void OnBehaviourPause(){} // RVA: 0x703A520
-        public void ProcessFrame(){} // RVA: 0x703A630
-        public void OnGraphStart(){} // RVA: 0x703A750
-        public void OnPlayableDestroy(){} // RVA: 0x703A880
-        public void .ctor(){} // RVA: 0x6DC7CB0
+        public void Create(){} // RVA: 0x7AEE19040
+        public void OnBehaviourPlay(){} // RVA: 0x7AEE192C0
+        public void OnBehaviourPause(){} // RVA: 0x7AEE193E0
+        public void ProcessFrame(){} // RVA: 0x7AEE194E0
+        public void OnGraphStart(){} // RVA: 0x7AEE19600
+        public void OnPlayableDestroy(){} // RVA: 0x7AEE19730
+        public void .ctor(){} // RVA: 0x7AEBB67C0
     }
 
-    public class ActivationMixerPlayable
+    public class ActivationMixerPlayable : PlayableBehaviour
     {
-        public 0x659A2120 m_PostPlaybackState; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x7013850
-        public void get_postPlaybackState(){} // RVA: 0x32A5C0
-        public void set_postPlaybackState(){} // RVA: 0x2E00C0
-        public void OnPlayableDestroy(){} // RVA: 0x70138F0
-        public void ProcessFrame(){} // RVA: 0x7013A20
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Create(){} // RVA: 0x7AEDF25A0
+        public void get_postPlaybackState(){} // RVA: 0x7A8124910
+        public void set_postPlaybackState(){} // RVA: 0x7A80DA0C0
+        public void OnPlayableDestroy(){} // RVA: 0x7AEDF2640
+        public void ProcessFrame(){} // RVA: 0x7AEDF2770
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ActivationPlayableAsset
+    public class ActivationPlayableAsset : PlayableAsset
     {
         // ── Methods ──
-        public void get_clipCaps(){} // RVA: 0x519240
-        public void CreatePlayable(){} // RVA: 0x7013D80
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void get_clipCaps(){} // RVA: 0x7A82D1450
+        public void CreatePlayable(){} // RVA: 0x7AEDF2AE0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class ActivationTrack
+    public class ActivationTrack : TrackAsset
     {
-        public 0x659A2120 m_PostPlaybackState; // 0xA0
-
         // ── Methods ──
-        public void CanCompileClips(){} // RVA: 0x7013EA0
-        public void get_postPlaybackState(){} // RVA: 0x1D76590
-        public void set_postPlaybackState(){} // RVA: 0x7013F30
-        public void CreateTrackMixer(){} // RVA: 0x7013F50
-        public void UpdateTrackMode(){} // RVA: 0x7014190
-        public void GatherProperties(){} // RVA: 0x70141B0
-        public void OnCreateClip(){} // RVA: 0x70142D0
-        public void .ctor(){} // RVA: 0x7014360
+        public void CanCompileClips(){} // RVA: 0x7AEDF2C00
+        public void get_postPlaybackState(){} // RVA: 0x7A9B79A40
+        public void set_postPlaybackState(){} // RVA: 0x7AEDF2C90
+        public void CreateTrackMixer(){} // RVA: 0x7AEDF2CB0
+        public void UpdateTrackMode(){} // RVA: 0x7AEDF2F00
+        public void GatherProperties(){} // RVA: 0x7AEDF2F20
+        public void OnCreateClip(){} // RVA: 0x7AEDF3040
+        public void .ctor(){} // RVA: 0x7AEDF30D0
     }
 
-    public class AnimationOutputWeightProcessor
+    public class AnimationOutputWeightProcessor : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x70143C0
-        public void FindMixers(){} // RVA: 0x70147A0 | overloaded x2
-        public void Evaluate(){} // RVA: 0x7014BB0
+        public void .ctor(){} // RVA: 0x7AEDF3130
+        public void FindMixers(){} // RVA: 0x7AEDF3520
+        public void Evaluate(){} // RVA: 0x7AEDF3930
     }
 
-    public class AnimationPlayableAsset
+    public class AnimationPlayableAsset : PlayableAsset
     {
-        public UnityEngine.AnimationClip m_Clip; // 0x18
-        public UnityEngine.Vector3 m_Position; // 0x20
-        public UnityEngine.Vector3 m_EulerAngles; // 0x2C
-        public bool m_UseTrackMatchFields; // 0x38
-        public 0x659A2490 m_MatchTargetFields; // 0x3C
-        public bool m_RemoveStartOffset; // 0x40
-        public bool m_ApplyFootIK; // 0x41
-        public 0x659A2280 m_Loop; // 0x44
-        public 0x659A2540 <appliedOffsetMode>k__BackingField; // 0x48
-        public int k_LatestVersion;
-        public int m_Version; // 0x4C
-        public UnityEngine.Quaternion m_Rotation; // 0x50
-
         // ── Methods ──
-        public void get_position(){} // RVA: 0x343EE0
-        public void set_position(){} // RVA: 0x343F00
-        public void get_rotation(){} // RVA: 0x7014E20
-        public void set_rotation(){} // RVA: 0x7014ED0
-        public void get_eulerAngles(){} // RVA: 0x343F10
-        public void set_eulerAngles(){} // RVA: 0x343F30
-        public void get_useTrackMatchFields(){} // RVA: 0x4A6500
-        public void set_useTrackMatchFields(){} // RVA: 0x4A78C0
-        public void get_matchTargetFields(){} // RVA: 0x891AF0
-        public void set_matchTargetFields(){} // RVA: 0x1CB95F0
-        public void get_removeStartOffset(){} // RVA: 0x398C00
-        public void set_removeStartOffset(){} // RVA: 0x398C10
-        public void get_applyFootIK(){} // RVA: 0x65EEC0
-        public void set_applyFootIK(){} // RVA: 0x65EEB0
-        public void get_loop(){} // RVA: 0x37E0A0
-        public void set_loop(){} // RVA: 0x37E0B0
-        public void get_hasRootTransforms(){} // RVA: 0x7014F00
-        public void get_appliedOffsetMode(){} // RVA: 0x37E0C0
-        public void set_appliedOffsetMode(){} // RVA: 0x37E0D0
-        public void get_clip(){} // RVA: 0x2E07C0
-        public void set_clip(){} // RVA: 0x7015010
-        public void get_duration(){} // RVA: 0x7015160
-        public void get_outputs(){} // RVA: 0x7015210
-        public void CreatePlayable(){} // RVA: 0x70153F0 | overloaded x2
-        public void ShouldApplyOffset(){} // RVA: 0x7015CD0
-        public void ShouldApplyScaleRemove(){} // RVA: 0x7015D40
-        public void get_clipCaps(){} // RVA: 0x7015D60
-        public void ResetOffsets(){} // RVA: 0x7015F50
-        public void GatherProperties(){} // RVA: 0x7015FE0
-        public void HasRootTransforms(){} // RVA: 0x70160B0
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7016240
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x70162A0
-        public void OnUpgradeFromVersion(){} // RVA: 0x7016330
-        public void .ctor(){} // RVA: 0x7016370
-        public void .cctor(){} // RVA: 0x7016490
+        public void get_position(){} // RVA: 0x7A813E480
+        public void set_position(){} // RVA: 0x7A813E4A0
+        public void get_rotation(){} // RVA: 0x7AEDF3BB0
+        public void set_rotation(){} // RVA: 0x7AEDF3C60
+        public void get_eulerAngles(){} // RVA: 0x7A813E4B0
+        public void set_eulerAngles(){} // RVA: 0x7A813E4D0
+        public void get_useTrackMatchFields(){} // RVA: 0x7A82A20A0
+        public void set_useTrackMatchFields(){} // RVA: 0x7A82A2C90
+        public void get_matchTargetFields(){} // RVA: 0x7A864E8D0
+        public void set_matchTargetFields(){} // RVA: 0x7A9ABBD00
+        public void get_removeStartOffset(){} // RVA: 0x7A8193790
+        public void set_removeStartOffset(){} // RVA: 0x7A81937A0
+        public void get_applyFootIK(){} // RVA: 0x7A83F3AD0
+        public void set_applyFootIK(){} // RVA: 0x7A83F3AC0
+        public void get_loop(){} // RVA: 0x7A8178B50
+        public void set_loop(){} // RVA: 0x7A8178B60
+        public void get_hasRootTransforms(){} // RVA: 0x7AEDF3C90
+        public void get_appliedOffsetMode(){} // RVA: 0x7A8178B70
+        public void set_appliedOffsetMode(){} // RVA: 0x7A8178B80
+        public void get_clip(){} // RVA: 0x7A80DA7B0
+        public void set_clip(){} // RVA: 0x7AEDF3DA0
+        public void get_duration(){} // RVA: 0x7AEDF3EF0
+        public void get_outputs(){} // RVA: 0x7AEDF3FA0
+        public void CreatePlayable(){} // RVA: 0x7AEDF4180
+        public void ShouldApplyOffset(){} // RVA: 0x7AEDF4A70
+        public void ShouldApplyScaleRemove(){} // RVA: 0x7AEDF4AE0
+        public void get_clipCaps(){} // RVA: 0x7AEDF4B00
+        public void ResetOffsets(){} // RVA: 0x7AEDF4CF0
+        public void GatherProperties(){} // RVA: 0x7AEDF4D80
+        public void HasRootTransforms(){} // RVA: 0x7AEDF4E50
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7AEDF4FE0
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7AEDF5040
+        public void OnUpgradeFromVersion(){} // RVA: 0x7AEDF50D0
+        public void .ctor(){} // RVA: 0x7AEDF5110
+        public void .cctor(){} // RVA: 0x7AEDF5230
     }
 
-    public class AnimationPreviewUpdateCallback
+    public class AnimationPreviewUpdateCallback : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7016780
-        public void Evaluate(){} // RVA: 0x7016840
-        public void FetchPreviewComponents(){} // RVA: 0x7016AB0
+        public void .ctor(){} // RVA: 0x7AEDF5520
+        public void Evaluate(){} // RVA: 0x7AEDF55E0
+        public void FetchPreviewComponents(){} // RVA: 0x7AEDF5860
     }
 
-    public class AnimationTrack
+    public class AnimationTrack : TrackAsset
     {
-        public string k_DefaultInfiniteClipName;
-        public string k_DefaultRecordableClipName;
-        public 0x659A2800 m_InfiniteClipPreExtrapolation; // 0xA0
-        public 0x659A2800 m_InfiniteClipPostExtrapolation; // 0xA4
-        public UnityEngine.Vector3 m_InfiniteClipOffsetPosition; // 0xA8
-        public UnityEngine.Vector3 m_InfiniteClipOffsetEulerAngles; // 0xB4
-        public double m_InfiniteClipTimeOffset; // 0xC0
-        public bool m_InfiniteClipRemoveOffset; // 0xC8
-        public bool m_InfiniteClipApplyFootIK; // 0xC9
-        public 0x659A2280 mInfiniteClipLoop; // 0xCC
-        public 0x659A2490 m_MatchTargetFields; // 0xD0
-        public UnityEngine.Vector3 m_Position; // 0xD4
-        public UnityEngine.Vector3 m_EulerAngles; // 0xE0
-        public UnityEngine.AvatarMask m_AvatarMask; // 0xF0
-        public bool m_ApplyAvatarMask; // 0xF8
-        public 0x659A24E8 m_TrackOffset; // 0xFC
-        public UnityEngine.AnimationClip m_InfiniteClip; // 0x100
-        public System.Collections.Generic.Queue`1<UnityEngine.Transform> s_CachedQueue;
-        public UnityEngine.Quaternion m_OpenClipOffsetRotation; // 0x108
-        public UnityEngine.Quaternion m_Rotation; // 0x118
-        public bool m_ApplyOffsets; // 0x128
-
         // ── Methods ──
-        public void get_position(){} // RVA: 0x3DF13B0
-        public void set_position(){} // RVA: 0x3DF13D0
-        public void get_rotation(){} // RVA: 0x7016E00
-        public void set_rotation(){} // RVA: 0x7016EB0
-        public void get_eulerAngles(){} // RVA: 0x7016EE0
-        public void set_eulerAngles(){} // RVA: 0x7016F00
-        public void get_applyOffsets(){} // RVA: 0x2DD320
-        public void set_applyOffsets(){} // RVA: 0x2DD310
-        public void get_trackOffset(){} // RVA: 0x120BB40
-        public void set_trackOffset(){} // RVA: 0x7016F20
-        public void get_matchTargetFields(){} // RVA: 0xA50BB0
-        public void set_matchTargetFields(){} // RVA: 0x7016F30
-        public void get_infiniteClip(){} // RVA: 0xA94E10
-        public void set_infiniteClip(){} // RVA: 0xCF6DE0
-        public void get_infiniteClipRemoveOffset(){} // RVA: 0x126AF80
-        public void set_infiniteClipRemoveOffset(){} // RVA: 0x126BEE0
-        public void get_avatarMask(){} // RVA: 0x3482A0
-        public void set_avatarMask(){} // RVA: 0x3482B0
-        public void get_applyAvatarMask(){} // RVA: 0x1209D80
-        public void set_applyAvatarMask(){} // RVA: 0x7016FA0
-        public void CanCompileClips(){} // RVA: 0x7016FB0
-        public void get_outputs(){} // RVA: 0x70170F0
-        public void get_inClipMode(){} // RVA: 0x70171A0
-        public void get_infiniteClipOffsetPosition(){} // RVA: 0x70171E0
-        public void set_infiniteClipOffsetPosition(){} // RVA: 0x7017200
-        public void get_infiniteClipOffsetRotation(){} // RVA: 0x7017220
-        public void set_infiniteClipOffsetRotation(){} // RVA: 0x70172D0
-        public void get_infiniteClipOffsetEulerAngles(){} // RVA: 0x7017300
-        public void set_infiniteClipOffsetEulerAngles(){} // RVA: 0x7017320
-        public void get_infiniteClipApplyFootIK(){} // RVA: 0x13428A0
-        public void set_infiniteClipApplyFootIK(){} // RVA: 0x61B8650
-        public void get_infiniteClipTimeOffset(){} // RVA: 0x7017340
-        public void set_infiniteClipTimeOffset(){} // RVA: 0x7017350
-        public void get_infiniteClipPreExtrapolation(){} // RVA: 0x1D76590
-        public void set_infiniteClipPreExtrapolation(){} // RVA: 0x1D76550
-        public void get_infiniteClipPostExtrapolation(){} // RVA: 0x3C49C00
-        public void set_infiniteClipPostExtrapolation(){} // RVA: 0x3C49C10
-        public void get_infiniteClipLoop(){} // RVA: 0x1884A40
-        public void set_infiniteClipLoop(){} // RVA: 0x612FAE0
-        public void ResetOffsets(){} // RVA: 0x7017360
-        public void CreateClip(){} // RVA: 0x7017400
-        public void CreateInfiniteClip(){} // RVA: 0x7017520
-        public void CreateRecordableClip(){} // RVA: 0x7017700
-        public void OnCreateClip(){} // RVA: 0x70179E0
-        public void CalculateItemsHash(){} // RVA: 0x7017A50
-        public void UpdateClipOffsets(){} // RVA: 0x2DD310
-        public void CompileTrackPlayable(){} // RVA: 0x7017B60
-        public void UnityEngine.Timeline.ILayerable.CreateLayerMixer(){} // RVA: 0x7018170
-        public void CreateMixerPlayableGraph(){} // RVA: 0x7018210
-        public void GetDefaultBlendCount(){} // RVA: 0x519240
-        public void AttachDefaultBlend(){} // RVA: 0x2DD310
-        public void AttachOffsetPlayable(){} // RVA: 0x7018DD0
-        public void RequiresMotionXPlayable(){} // RVA: 0x7018FB0
-        public void UsesAbsoluteMotion(){} // RVA: 0x7019190
-        public void HasController(){} // RVA: 0x70191A0
-        public void GetBinding(){} // RVA: 0x7019430
-        public void CreateGroupMixer(){} // RVA: 0x7019810
-        public void CreateInfiniteTrackPlayable(){} // RVA: 0x7019900
-        public void ApplyTrackOffset(){} // RVA: 0x7019E60
-        public void GetEvaluationTime(){} // RVA: 0x701A0F0
-        public void GetSequenceTime(){} // RVA: 0x701A1C0
-        public void AssignAnimationClip(){} // RVA: 0x701A310
-        public void GatherProperties(){} // RVA: 0x2DD310
-        public void GetAnimationClips(){} // RVA: 0x701A790
-        public void GetOffsetMode(){} // RVA: 0x701AD90
-        public void IsRootTransformDisabledByMask(){} // RVA: 0x701AEC0
-        public void GetGenericRootNode(){} // RVA: 0x701B4A0
-        public void AnimatesRootTransform(){} // RVA: 0x701B880
-        public void FindInHierarchyBreadthFirst(){} // RVA: 0x701BB30
-        public void get_openClipOffsetPosition(){} // RVA: 0x70171E0
-        public void set_openClipOffsetPosition(){} // RVA: 0x7017200
-        public void get_openClipOffsetRotation(){} // RVA: 0x7017220
-        public void set_openClipOffsetRotation(){} // RVA: 0x701BD70
-        public void get_openClipOffsetEulerAngles(){} // RVA: 0x7017300
-        public void set_openClipOffsetEulerAngles(){} // RVA: 0x7017320
-        public void get_openClipPreExtrapolation(){} // RVA: 0x1D76590
-        public void set_openClipPreExtrapolation(){} // RVA: 0x1D76550
-        public void get_openClipPostExtrapolation(){} // RVA: 0x3C49C00
-        public void set_openClipPostExtrapolation(){} // RVA: 0x3C49C10
-        public void OnUpgradeFromVersion(){} // RVA: 0x701BDB0
-        public void .ctor(){} // RVA: 0x701BFA0
-        public void .cctor(){} // RVA: 0x701C1D0
+        public void get_position(){} // RVA: 0x7ABBEC980
+        public void set_position(){} // RVA: 0x7ABBEC9A0
+        public void get_rotation(){} // RVA: 0x7AEDF5BB0
+        public void set_rotation(){} // RVA: 0x7AEDF5C60
+        public void get_eulerAngles(){} // RVA: 0x7AEDF5C90
+        public void set_eulerAngles(){} // RVA: 0x7AEDF5CB0
+        public void get_applyOffsets(){} // RVA: 0x7A80D7320
+        public void set_applyOffsets(){} // RVA: 0x7A80D7310
+        public void get_trackOffset(){} // RVA: 0x7A8F96260
+        public void set_trackOffset(){} // RVA: 0x7AEDF5CD0
+        public void get_matchTargetFields(){} // RVA: 0x7A880E690
+        public void set_matchTargetFields(){} // RVA: 0x7AEDF5CE0
+        public void get_infiniteClip(){} // RVA: 0x7A8852A30
+        public void set_infiniteClip(){} // RVA: 0x7A8AB8FD0
+        public void get_infiniteClipRemoveOffset(){} // RVA: 0x7A9021760
+        public void set_infiniteClipRemoveOffset(){} // RVA: 0x7A90226D0
+        public void get_avatarMask(){} // RVA: 0x7A8142870
+        public void set_avatarMask(){} // RVA: 0x7A8142880
+        public void get_applyAvatarMask(){} // RVA: 0x7A8F95560
+        public void set_applyAvatarMask(){} // RVA: 0x7AEDF5D50
+        public void CanCompileClips(){} // RVA: 0x7AEDF5D60
+        public void get_outputs(){} // RVA: 0x7AEDF5EA0
+        public void get_inClipMode(){} // RVA: 0x7AEDF5F50
+        public void get_infiniteClipOffsetPosition(){} // RVA: 0x7AEDF5F90
+        public void set_infiniteClipOffsetPosition(){} // RVA: 0x7AEDF5FB0
+        public void get_infiniteClipOffsetRotation(){} // RVA: 0x7AEDF5FD0
+        public void set_infiniteClipOffsetRotation(){} // RVA: 0x7AEDF6080
+        public void get_infiniteClipOffsetEulerAngles(){} // RVA: 0x7AEDF60B0
+        public void set_infiniteClipOffsetEulerAngles(){} // RVA: 0x7AEDF60D0
+        public void get_infiniteClipApplyFootIK(){} // RVA: 0x7A90F9F50
+        public void set_infiniteClipApplyFootIK(){} // RVA: 0x7ADFA4E10
+        public void get_infiniteClipTimeOffset(){} // RVA: 0x7AEDF60F0
+        public void set_infiniteClipTimeOffset(){} // RVA: 0x7AEDF6100
+        public void get_infiniteClipPreExtrapolation(){} // RVA: 0x7A9B79A40
+        public void set_infiniteClipPreExtrapolation(){} // RVA: 0x7A9B79A00
+        public void get_infiniteClipPostExtrapolation(){} // RVA: 0x7ABA390E0
+        public void set_infiniteClipPostExtrapolation(){} // RVA: 0x7ABA390F0
+        public void get_infiniteClipLoop(){} // RVA: 0x7A961A4D0
+        public void set_infiniteClipLoop(){} // RVA: 0x7ADF1BDC0
+        public void ResetOffsets(){} // RVA: 0x7AEDF6110
+        public void CreateClip(){} // RVA: 0x7AEDF61B0
+        public void CreateInfiniteClip(){} // RVA: 0x7AEDF62D0
+        public void CreateRecordableClip(){} // RVA: 0x7AEDF64B0
+        public void OnCreateClip(){} // RVA: 0x7AEDF6790
+        public void CalculateItemsHash(){} // RVA: 0x7AEDF6800
+        public void UpdateClipOffsets(){} // RVA: 0x7A80D7310
+        public void CompileTrackPlayable(){} // RVA: 0x7AEDF6910
+        public void UnityEngine.Timeline.ILayerable.CreateLayerMixer(){} // RVA: 0x7AEDF6F30
+        public void CreateMixerPlayableGraph(){} // RVA: 0x7AEDF6FD0
+        public void GetDefaultBlendCount(){} // RVA: 0x7A82D1450
+        public void AttachDefaultBlend(){} // RVA: 0x7A80D7310
+        public void AttachOffsetPlayable(){} // RVA: 0x7AEDF7BC0
+        public void RequiresMotionXPlayable(){} // RVA: 0x7AEDF7DA0
+        public void UsesAbsoluteMotion(){} // RVA: 0x7AEDF7F80
+        public void HasController(){} // RVA: 0x7AEDF7F90
+        public void GetBinding(){} // RVA: 0x7AEDF8220
+        public void CreateGroupMixer(){} // RVA: 0x7AEDF8600
+        public void CreateInfiniteTrackPlayable(){} // RVA: 0x7AEDF86F0
+        public void ApplyTrackOffset(){} // RVA: 0x7AEDF8C50
+        public void GetEvaluationTime(){} // RVA: 0x7AEDF8EE0
+        public void GetSequenceTime(){} // RVA: 0x7AEDF8FB0
+        public void AssignAnimationClip(){} // RVA: 0x7AEDF9100
+        public void GatherProperties(){} // RVA: 0x7A80D7310
+        public void GetAnimationClips(){} // RVA: 0x7AEDF9570
+        public void GetOffsetMode(){} // RVA: 0x7AEDF9B90
+        public void IsRootTransformDisabledByMask(){} // RVA: 0x7AEDF9CC0
+        public void GetGenericRootNode(){} // RVA: 0x7AEDFA2A0
+        public void AnimatesRootTransform(){} // RVA: 0x7AEDFA680
+        public void FindInHierarchyBreadthFirst(){} // RVA: 0x7AEDFA960
+        public void get_openClipOffsetPosition(){} // RVA: 0x7AEDF5F90
+        public void set_openClipOffsetPosition(){} // RVA: 0x7AEDF5FB0
+        public void get_openClipOffsetRotation(){} // RVA: 0x7AEDF5FD0
+        public void set_openClipOffsetRotation(){} // RVA: 0x7AEDFABA0
+        public void get_openClipOffsetEulerAngles(){} // RVA: 0x7AEDF60B0
+        public void set_openClipOffsetEulerAngles(){} // RVA: 0x7AEDF60D0
+        public void get_openClipPreExtrapolation(){} // RVA: 0x7A9B79A40
+        public void set_openClipPreExtrapolation(){} // RVA: 0x7A9B79A00
+        public void get_openClipPostExtrapolation(){} // RVA: 0x7ABA390E0
+        public void set_openClipPostExtrapolation(){} // RVA: 0x7ABA390F0
+        public void OnUpgradeFromVersion(){} // RVA: 0x7AEDFABE0
+        public void .ctor(){} // RVA: 0x7AEDFADD0
+        public void .cctor(){} // RVA: 0x7AEDFB000
     }
 
-    public class AudioClipProperties
+    public class AudioClipProperties : PlayableBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x702DDB0
+        public void .ctor(){} // RVA: 0x7AEE0CDD0
     }
 
-    public class AudioMixerProperties
+    public class AudioMixerProperties : PlayableBehaviour
     {
         // ── Methods ──
-        public void PrepareFrame(){} // RVA: 0x702DDC0
-        public void .ctor(){} // RVA: 0x702DDB0
+        public void PrepareFrame(){} // RVA: 0x7AEE0CDE0
+        public void .ctor(){} // RVA: 0x7AEE0CDD0
     }
 
-    public class AudioPlayableAsset
+    public class AudioPlayableAsset : PlayableAsset
     {
-        public UnityEngine.AudioClip m_Clip; // 0x18
-        public bool m_Loop; // 0x20
-        public float m_bufferingTime; // 0x24
-        public UnityEngine.Timeline.AudioClipProperties m_ClipProperties; // 0x28
-
         // ── Methods ──
-        public void get_bufferingTime(){} // RVA: 0x44AF50
-        public void set_bufferingTime(){} // RVA: 0x44AF60
-        public void get_clip(){} // RVA: 0x2E07C0
-        public void set_clip(){} // RVA: 0x343E80
-        public void get_loop(){} // RVA: 0x3CB9D0
-        public void set_loop(){} // RVA: 0x3CB9E0
-        public void get_duration(){} // RVA: 0x702E1B0
-        public void get_outputs(){} // RVA: 0x702E3B0
-        public void CreatePlayable(){} // RVA: 0x702E460
-        public void get_clipCaps(){} // RVA: 0x702E6E0
-        public void .ctor(){} // RVA: 0x702E6F0
+        public void get_bufferingTime(){} // RVA: 0x7A82461C0
+        public void set_bufferingTime(){} // RVA: 0x7A82461D0
+        public void get_clip(){} // RVA: 0x7A80DA7B0
+        public void set_clip(){} // RVA: 0x7A813E420
+        public void get_loop(){} // RVA: 0x7A81C68D0
+        public void set_loop(){} // RVA: 0x7A81C68E0
+        public void get_duration(){} // RVA: 0x7AEE0D1D0
+        public void get_outputs(){} // RVA: 0x7AEE0D3D0
+        public void CreatePlayable(){} // RVA: 0x7AEE0D480
+        public void get_clipCaps(){} // RVA: 0x7AEE0D700
+        public void .ctor(){} // RVA: 0x7AEE0D710
     }
 
-    public class AudioTrack
+    public class AudioTrack : TrackAsset
     {
-        public UnityEngine.Timeline.AudioMixerProperties m_TrackProperties; // 0xA0
-
         // ── Methods ──
-        public void CreateClip(){} // RVA: 0x702E9F0
-        public void CompileClips(){} // RVA: 0x702ECF0
-        public void get_outputs(){} // RVA: 0x702F660
-        public void OnValidate(){} // RVA: 0x702F710
-        public void .ctor(){} // RVA: 0x702F7B0
+        public void CreateClip(){} // RVA: 0x7AEE0DA10
+        public void CompileClips(){} // RVA: 0x7AEE0DD10
+        public void get_outputs(){} // RVA: 0x7AEE0E680
+        public void OnValidate(){} // RVA: 0x7AEE0E730
+        public void .ctor(){} // RVA: 0x7AEE0E7D0
     }
 
-    public class BasicPlayableBehaviour
+    public class BasicPlayableBehaviour : ScriptableObject
     {
         // ── Methods ──
-        public void get_duration(){} // RVA: 0x703A9C0
-        public void get_outputs(){} // RVA: 0x703AA20
-        public void OnGraphStart(){} // RVA: 0x2DD310
-        public void OnGraphStop(){} // RVA: 0x2DD310
-        public void OnPlayableCreate(){} // RVA: 0x2DD310
-        public void OnPlayableDestroy(){} // RVA: 0x2DD310
-        public void OnBehaviourPlay(){} // RVA: 0x2DD310
-        public void OnBehaviourPause(){} // RVA: 0x2DD310
-        public void PrepareFrame(){} // RVA: 0x2DD310
-        public void ProcessFrame(){} // RVA: 0x2DD310
-        public void CreatePlayable(){} // RVA: 0x703AA80
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void get_duration(){} // RVA: 0x7AEE19870
+        public void get_outputs(){} // RVA: 0x7AEE198D0
+        public void OnGraphStart(){} // RVA: 0x7A80D7310
+        public void OnGraphStop(){} // RVA: 0x7A80D7310
+        public void OnPlayableCreate(){} // RVA: 0x7A80D7310
+        public void OnPlayableDestroy(){} // RVA: 0x7A80D7310
+        public void OnBehaviourPlay(){} // RVA: 0x7A80D7310
+        public void OnBehaviourPause(){} // RVA: 0x7A80D7310
+        public void PrepareFrame(){} // RVA: 0x7A80D7310
+        public void ProcessFrame(){} // RVA: 0x7A80D7310
+        public void CreatePlayable(){} // RVA: 0x7AEE19930
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class BlendUtility
+    public class BlendUtility : Object
     {
         // ── Methods ──
-        public void Overlaps(){} // RVA: 0x7044040
-        public void ComputeBlendsFromOverlaps(){} // RVA: 0x7044180
-        public void UpdateClipIntersection(){} // RVA: 0x70445A0
-        public void .cctor(){} // RVA: 0x7044790
+        public void Overlaps(){} // RVA: 0x7AEE22F90
+        public void ComputeBlendsFromOverlaps(){} // RVA: 0x7AEE230D0
+        public void UpdateClipIntersection(){} // RVA: 0x7AEE23540
+        public void .cctor(){} // RVA: 0x7AEE23730
     }
 
-    public class ControlPlayableAsset
+    public class ControlPlayableAsset : PlayableAsset
     {
-        public int k_MaxRandInt;
-        public System.Collections.Generic.List`1<UnityEngine.Playables.PlayableDirector> k_EmptyDirectorsList;
-        public System.Collections.Generic.List`1<UnityEngine.ParticleSystem> k_EmptyParticlesList; // 0x8
-        public System.Collections.Generic.HashSet`1<UnityEngine.ParticleSystem> s_SubEmitterCollector; // 0x10
-
         // ── Methods ──
-        public void get_controllingDirectors(){} // RVA: 0x4FE4B90
-        public void set_controllingDirectors(){} // RVA: 0x601E3A0
-        public void get_controllingParticles(){} // RVA: 0x5A6E50
-        public void set_controllingParticles(){} // RVA: 0x59F960
-        public void OnEnable(){} // RVA: 0x702FAE0
-        public void get_duration(){} // RVA: 0x4363CB0
-        public void get_clipCaps(){} // RVA: 0x702FB40
-        public void CreatePlayable(){} // RVA: 0x702FB50
-        public void ConnectPlayablesToMixer(){} // RVA: 0x7030990
-        public void CreateActivationPlayable(){} // RVA: 0x7030DE0
-        public void SearchHierarchyAndConnectParticleSystem(){} // RVA: 0x7030FA0
-        public void SearchHierarchyAndConnectDirector(){} // RVA: 0x7031380
-        public void SearchHierarchyAndConnectControlableScripts(){} // RVA: 0x70318D0
-        public void ConnectMixerAndPlayable(){} // RVA: 0x7031DC0
-        public void GetComponent(){} // RVA: 0xCE10
-        public void GetControlableScripts(){} // RVA: 0x7031F00
-        public void UpdateDurationAndLoopFlag(){} // RVA: 0x7031FB0
-        public void GetControllableParticleSystems(){} // RVA: 0x7032AA0 | overloaded x2
-        public void CacheSubEmitters(){} // RVA: 0x7032DA0
-        public void GatherProperties(){} // RVA: 0x7033030
-        public void PreviewParticles(){} // RVA: 0x7033440
-        public void PreviewActivation(){} // RVA: 0x7033890
-        public void PreviewTimeControl(){} // RVA: 0x7033B10
-        public void PreviewDirectors(){} // RVA: 0x7033D60
-        public void .ctor(){} // RVA: 0x70340E0
-        public void .cctor(){} // RVA: 0x7034160
+        public void get_controllingDirectors(){} // RVA: 0x7ACDBE8E0
+        public void set_controllingDirectors(){} // RVA: 0x7ADE0AE10
+        public void get_controllingParticles(){} // RVA: 0x7A83601B0
+        public void set_controllingParticles(){} // RVA: 0x7A8358DA0
+        public void OnEnable(){} // RVA: 0x7AEE0EAF0
+        public void get_duration(){} // RVA: 0x7AC154B90
+        public void get_clipCaps(){} // RVA: 0x7AEE0EB50
+        public void CreatePlayable(){} // RVA: 0x7AEE0EB60
+        public void ConnectPlayablesToMixer(){} // RVA: 0x7AEE0F9A0
+        public void CreateActivationPlayable(){} // RVA: 0x7AEE0FDF0
+        public void SearchHierarchyAndConnectParticleSystem(){} // RVA: 0x7AEE0FFB0
+        public void SearchHierarchyAndConnectDirector(){} // RVA: 0x7AEE103B0
+        public void SearchHierarchyAndConnectControlableScripts(){} // RVA: 0x7AEE10920
+        public void ConnectMixerAndPlayable(){} // RVA: 0x7AEE10C90
+        public void GetComponent(){} // RVA: 0x7A7E00B20
+        public void GetControlableScripts(){} // RVA: 0x7AEE10DD0
+        public void UpdateDurationAndLoopFlag(){} // RVA: 0x7AEE10E80
+        public void GetControllableParticleSystems(){} // RVA: 0x7AEE11980
+        public void CacheSubEmitters(){} // RVA: 0x7AEE11C80
+        public void GatherProperties(){} // RVA: 0x7AEE11F10
+        public void PreviewParticles(){} // RVA: 0x7AEE12320
+        public void PreviewActivation(){} // RVA: 0x7AEE12770
+        public void PreviewTimeControl(){} // RVA: 0x7AEE12A00
+        public void PreviewDirectors(){} // RVA: 0x7AEE12C50
+        public void .ctor(){} // RVA: 0x7AEE12FE0
+        public void .cctor(){} // RVA: 0x7AEE13060
     }
 
-    public class ControlTrack
+    public class ControlTrack : TrackAsset
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x70348B0
+        public void .ctor(){} // RVA: 0x7AEE137B0
     }
 
-    public class CurveEditUtility
+    public class CurveEditUtility : Object
     {
         // ── Methods ──
-        public void CreateMatchingCurve(){} // RVA: 0x7034900
+        public void CreateMatchingCurve(){} // RVA: 0x7AEE13800
     }
 
-    public class CustomSignalEventDrawer
+    public class CustomSignalEventDrawer : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class CustomStyleAttribute
+    public class CustomStyleAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class DirectorControlPlayable
+    public class DirectorControlPlayable : PlayableBehaviour
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x703AC40
-        public void OnPlayableDestroy(){} // RVA: 0x703AEA0
-        public void PrepareFrame(){} // RVA: 0x703B070
-        public void OnBehaviourPlay(){} // RVA: 0x703B360
-        public void OnBehaviourPause(){} // RVA: 0x703B520
-        public void ProcessFrame(){} // RVA: 0x703B700
-        public void SyncSpeed(){} // RVA: 0x703BC70
-        public void SyncStart(){} // RVA: 0x703C050
-        public void SyncStop(){} // RVA: 0x703C210
-        public void DetectDiscontinuity(){} // RVA: 0x703C3F0
-        public void DetectOutOfSync(){} // RVA: 0x703C620
-        public void UpdateTime(){} // RVA: 0x703C780
-        public void .ctor(){} // RVA: 0x703C9C0
+        public void Create(){} // RVA: 0x7AEE19AF0
+        public void OnPlayableDestroy(){} // RVA: 0x7AEE19D50
+        public void PrepareFrame(){} // RVA: 0x7AEE19F20
+        public void OnBehaviourPlay(){} // RVA: 0x7AEE1A210
+        public void OnBehaviourPause(){} // RVA: 0x7AEE1A3D0
+        public void ProcessFrame(){} // RVA: 0x7AEE1A5A0
+        public void SyncSpeed(){} // RVA: 0x7AEE1AB10
+        public void SyncStart(){} // RVA: 0x7AEE1AEF0
+        public void SyncStop(){} // RVA: 0x7AEE1B0B0
+        public void DetectDiscontinuity(){} // RVA: 0x7AEE1B290
+        public void DetectOutOfSync(){} // RVA: 0x7AEE1B4C0
+        public void UpdateTime(){} // RVA: 0x7AEE1B620
+        public void .ctor(){} // RVA: 0x7AEE1B860
     }
 
-    public class DiscreteTime
+    public class DiscreteTime : ValueType
     {
-        public double k_Tick;
-
         // ── Methods ──
-        public void get_tickValue(){} // RVA: 0x7034AD0
-        public void .ctor(){} // RVA: 0x7034C40 | overloaded x6
-        public void OneTickBefore(){} // RVA: 0x7034CC0
-        public void OneTickAfter(){} // RVA: 0x7034CD0
-        public void GetTick(){} // RVA: 0x1AD4690
-        public void FromTicks(){} // RVA: 0x1A3F520
-        public void CompareTo(){} // RVA: 0x7034CE0
-        public void Equals(){} // RVA: 0x7034D90 | overloaded x2
-        public void DoubleToDiscreteTime(){} // RVA: 0x7034E30
-        public void FloatToDiscreteTime(){} // RVA: 0x7034EC0
-        public void IntToDiscreteTime(){} // RVA: 0x7034F50
-        public void ToDouble(){} // RVA: 0x7034FB0
-        public void ToFloat(){} // RVA: 0x7034FD0
-        public void op_Explicit(){} // RVA: 0x1A3F520 | overloaded x6
-        public void op_Implicit(){} // RVA: 0x70351E0
-        public void op_Equality(){} // RVA: 0x2878D00
-        public void op_Inequality(){} // RVA: 0x7035270
-        public void op_GreaterThan(){} // RVA: 0x5EB94D0
-        public void op_LessThan(){} // RVA: 0x5EB94B0
-        public void op_LessThanOrEqual(){} // RVA: 0x5EB94C0
-        public void op_GreaterThanOrEqual(){} // RVA: 0x5EB94E0
-        public void op_Addition(){} // RVA: 0x2878BF0
-        public void op_Subtraction(){} // RVA: 0x70352D0
-        public void ToString(){} // RVA: 0x70352E0
-        public void GetHashCode(){} // RVA: 0x7035380
-        public void Min(){} // RVA: 0x7035390
-        public void Max(){} // RVA: 0x70353F0
-        public void SnapToNearestTick(){} // RVA: 0x70354C0 | overloaded x2
-        public void GetNearestTick(){} // RVA: 0x7035570
-        public void .cctor(){} // RVA: 0x70355D0
+        public void get_tickValue(){} // RVA: 0x7AEE13980
+        public void .ctor(){} // RVA: 0x7A7EC2E70
+        public void OneTickBefore(){} // RVA: 0x7A7EC2EF0
+        public void OneTickAfter(){} // RVA: 0x7A7EC2F00
+        public void GetTick(){} // RVA: 0x7A765F710
+        public void FromTicks(){} // RVA: 0x7A97F8BA0
+        public void CompareTo(){} // RVA: 0x7A7EC2F10
+        public void Equals(){} // RVA: 0x7A7EC2FC0
+        public void DoubleToDiscreteTime(){} // RVA: 0x7AEE13CE0
+        public void FloatToDiscreteTime(){} // RVA: 0x7AEE13D70
+        public void IntToDiscreteTime(){} // RVA: 0x7AEE13E00
+        public void ToDouble(){} // RVA: 0x7AEE13E60
+        public void ToFloat(){} // RVA: 0x7AEE13E80
+        public void op_Explicit(){} // RVA: 0x7A97F8BA0
+        public void op_Implicit(){} // RVA: 0x7AEE14090
+        public void op_Equality(){} // RVA: 0x7AA68A530
+        public void op_Inequality(){} // RVA: 0x7AEE14120
+        public void op_GreaterThan(){} // RVA: 0x7ADCA8030
+        public void op_LessThan(){} // RVA: 0x7ADCA8010
+        public void op_LessThanOrEqual(){} // RVA: 0x7ADCA8020
+        public void op_GreaterThanOrEqual(){} // RVA: 0x7ADCA8040
+        public void op_Addition(){} // RVA: 0x7AA68A420
+        public void op_Subtraction(){} // RVA: 0x7AEE14180
+        public void ToString(){} // RVA: 0x7A7EC3060
+        public void GetHashCode(){} // RVA: 0x7A7EC3100
+        public void Min(){} // RVA: 0x7AEE14240
+        public void Max(){} // RVA: 0x7AEE142A0
+        public void SnapToNearestTick(){} // RVA: 0x7AEE14370
+        public void GetNearestTick(){} // RVA: 0x7AEE14420
+        public void .cctor(){} // RVA: 0x7AEE14480
     }
 
-    public class Extrapolation
+    public class Extrapolation : Object
     {
         // ── Methods ──
-        public void CalculateExtrapolationTimes(){} // RVA: 0x7044A30
-        public void SortClipsByStartTime(){} // RVA: 0x7044F00
-        public void .cctor(){} // RVA: 0x7045210
+        public void CalculateExtrapolationTimes(){} // RVA: 0x7AEE239D0
+        public void SortClipsByStartTime(){} // RVA: 0x7AEE23ED0
+        public void .cctor(){} // RVA: 0x7AEE241E0
     }
 
-    public class FrameRateFieldAttribute
+    public class FrameRateFieldAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class GroupTrack
+    public class GroupTrack : TrackAsset
     {
         // ── Methods ──
-        public void CanCompileClips(){} // RVA: 0x2DD320
-        public void get_outputs(){} // RVA: 0x703A0D0
-        public void .ctor(){} // RVA: 0x703A130
+        public void CanCompileClips(){} // RVA: 0x7A80D7320
+        public void get_outputs(){} // RVA: 0x7AEE18F90
+        public void .ctor(){} // RVA: 0x7AEE18FF0
     }
 
-    public class HashUtility
+    public class HashUtility : Object
     {
         // ── Methods ──
-        public void CombineHash(){} // RVA: 0x7045590 | overloaded x7
+        public void CombineHash(){} // RVA: 0x7AEE24560
     }
 
-    public class HideInMenuAttribute
+    public class HideInMenuAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
     public class ICurvesOwner
     {
         // ── Methods ──
-        public void get_curves(){} // RVA: 0xCD60
-        public void get_hasCurves(){} // RVA: 0xDBE0
-        public void get_duration(){} // RVA: 0x12A40
-        public void CreateCurves(){} // RVA: 0x24B10
-        public void get_defaultCurvesName(){} // RVA: 0xCD60
-        public void get_asset(){} // RVA: 0xCD60
-        public void get_assetOwner(){} // RVA: 0xCD60
-        public void get_targetTrack(){} // RVA: 0xCD60
+        public void get_curves(){} // RVA: 0x7A7E00680
+        public void get_hasCurves(){} // RVA: 0x7A7E01900
+        public void get_duration(){} // RVA: 0x7A7E06760
+        public void CreateCurves(){} // RVA: 0x7A7E18800
+        public void get_defaultCurvesName(){} // RVA: 0x7A7E00680
+        public void get_asset(){} // RVA: 0x7A7E00680
+        public void get_assetOwner(){} // RVA: 0x7A7E00680
+        public void get_targetTrack(){} // RVA: 0x7A7E00680
     }
 
     public class IInterval
     {
         // ── Methods ──
-        public void get_intervalStart(){} // RVA: 0xCD60
-        public void get_intervalEnd(){} // RVA: 0xCD60
+        public void get_intervalStart(){} // RVA: 0x7A7E00680
+        public void get_intervalEnd(){} // RVA: 0x7A7E00680
     }
 
     public class ILayerable
     {
         // ── Methods ──
-        public void CreateLayerMixer(){}
+        public void CreateLayerMixer(){} // RVA: 0x7A7E10270
     }
 
     public class IMarker
     {
         // ── Methods ──
-        public void get_time(){} // RVA: 0x12A40
-        public void set_time(){} // RVA: 0x26100
-        public void get_parent(){} // RVA: 0xCD60
-        public void Initialize(){} // RVA: 0x24B10
+        public void get_time(){} // RVA: 0x7A7E06760
+        public void set_time(){} // RVA: 0x7A7E19E10
+        public void get_parent(){} // RVA: 0x7A7E00680
+        public void Initialize(){} // RVA: 0x7A7E18800
     }
 
     public class INotificationOptionProvider
     {
         // ── Methods ──
-        public void get_flags(){} // RVA: 0xCC90
+        public void get_flags(){} // RVA: 0x7A7E006E0
     }
 
     public class IPropertyCollector
     {
         // ── Methods ──
-        public void PushActiveGameObject(){} // RVA: 0x24B10
-        public void PopActiveGameObject(){} // RVA: 0x24A50
-        public void AddFromClip(){} // RVA: 0x2DC60 | overloaded x2
-        public void AddFromClips(){} // RVA: 0x2DC60 | overloaded x2
-        public void AddFromName(){} // RVA: 0x2DC60 | overloaded x5
-        public void AddFromComponent(){} // RVA: 0x2DC60
-        public void AddObjectProperties(){} // RVA: 0x2DC60
+        public void PushActiveGameObject(){} // RVA: 0x7A7E18800
+        public void PopActiveGameObject(){} // RVA: 0x7A7E18770
+        public void AddFromClip(){} // RVA: 0x7A7E18890
+        public void AddFromClips(){} // RVA: 0x7A7E18890
+        public void AddFromName(){} // RVA: 0x7A7E18890
+        public void AddFromComponent(){} // RVA: 0x7A7E18890
+        public void AddObjectProperties(){} // RVA: 0x7A7E18890
     }
 
     public class IPropertyPreview
     {
         // ── Methods ──
-        public void GatherProperties(){} // RVA: 0x2DC60
+        public void GatherProperties(){} // RVA: 0x7A7E18890
     }
 
     public class ITimeControl
     {
         // ── Methods ──
-        public void SetTime(){} // RVA: 0x26100
-        public void OnControlTimeStart(){} // RVA: 0x24A50
-        public void OnControlTimeStop(){} // RVA: 0x24A50
+        public void SetTime(){} // RVA: 0x7A7E19E10
+        public void OnControlTimeStart(){} // RVA: 0x7A7E18770
+        public void OnControlTimeStop(){} // RVA: 0x7A7E18770
     }
 
     public class ITimelineClipAsset
     {
         // ── Methods ──
-        public void get_clipCaps(){} // RVA: 0xD840
+        public void get_clipCaps(){} // RVA: 0x7A7E00710
     }
 
     public class ITimelineEvaluateCallback
     {
         // ── Methods ──
-        public void Evaluate(){} // RVA: 0x24A50
+        public void Evaluate(){} // RVA: 0x7A7E18770
     }
 
-    public class IgnoreOnPlayableTrackAttribute
+    public class IgnoreOnPlayableTrackAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class InfiniteRuntimeClip
-    {
-        public UnityEngine.Playables.Playable m_Playable; // 0x18
-        public long kIntervalEnd;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x9949A0
-        public void get_intervalStart(){} // RVA: 0x519240
-        public void get_intervalEnd(){} // RVA: 0x7035620
-        public void set_enable(){} // RVA: 0x7035680
-        public void EvaluateAt(){} // RVA: 0x7035700
-        public void DisableAt(){} // RVA: 0x7035760
-        public void .cctor(){} // RVA: 0x70357D0
-    }
-
-    public class IntervalTreeNode
-    {
-    }
-
-    public class IntervalTree`1
-    {
-        public int kMinNodeSize;
-
-        // ── Methods ──
-        public void get_dirty(){} // RVA: 0xDBE0
-        public void set_dirty(){} // RVA: 0x25130
-        public void Add(){} // RVA: 0x283FA0
-        public void IntersectsWith(){}
-        public void IntersectsWithRange(){} // RVA: 0x283FA0
-        public void UpdateIntervals(){} // RVA: 0x24A50
-        public void Query(){} // RVA: 0x283FA0
-        public void QueryRange(){} // RVA: 0x283FA0
-        public void Rebuild(){} // RVA: 0x14170 | overloaded x2
-        public void Clear(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x24A50
-    }
-
-    public class Marker
-    {
-        public double m_Time; // 0x18
-        public UnityEngine.Timeline.TrackAsset <parent>k__BackingField; // 0x20
-
-        // ── Methods ──
-        public void get_parent(){} // RVA: 0x30B0C0
-        public void set_parent(){} // RVA: 0x30B0D0
-        public void get_time(){} // RVA: 0x196AD00
-        public void set_time(){} // RVA: 0x70369E0
-        public void UnityEngine.Timeline.IMarker.Initialize(){} // RVA: 0x7036A80
-        public void OnInitialize(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x53BFB0
-    }
-
-    public class MarkerList
-    {
-        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects; // 0x10
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> m_Cache; // 0x18
-        public bool m_CacheDirty; // 0x20
-
-        // ── Methods ──
-        public void get_markers(){} // RVA: 0x7036C20
-        public void .ctor(){} // RVA: 0x7036C40
-        public void Add(){} // RVA: 0x7036DC0
-        public void Remove(){} // RVA: 0x7037040 | overloaded x2
-        public void Clear(){} // RVA: 0x7037100
-        public void Contains(){} // RVA: 0x7037170
-        public void GetMarkers(){} // RVA: 0x7036C20
-        public void get_Count(){} // RVA: 0x70371D0
-        public void get_Item(){} // RVA: 0x7037220
-        public void GetRawMarkerList(){} // RVA: 0x1AD4690
-        public void CreateMarker(){} // RVA: 0x70372A0
-        public void HasNotifications(){} // RVA: 0x70375D0
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x2DD310
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x6BD7E0
-        public void BuildCache(){} // RVA: 0x70375F0
-    }
-
-    public class MarkerTrack
+    public class InfiniteRuntimeClip : RuntimeElement
     {
         // ── Methods ──
-        public void get_outputs(){} // RVA: 0x7037950
-        public void .ctor(){} // RVA: 0x7037C20
+        public void .ctor(){} // RVA: 0x7A872E9B0
+        public void get_intervalStart(){} // RVA: 0x7A82D1450
+        public void get_intervalEnd(){} // RVA: 0x7AEE144D0
+        public void set_enable(){} // RVA: 0x7AEE14530
+        public void EvaluateAt(){} // RVA: 0x7AEE145B0
+        public void DisableAt(){} // RVA: 0x7AEE14610
+        public void .cctor(){} // RVA: 0x7AEE14680
     }
 
-    public class MatchTargetFieldConstants
+    public class IntervalTree`1 : Object
     {
         // ── Methods ──
-        public void HasAny(){} // RVA: 0x7016D00
-        public void Toggle(){} // RVA: 0x7016D70
-        public void .cctor(){} // RVA: 0x7016D80
+        public void get_dirty(){} // RVA: 0x7A7E01900
+        public void set_dirty(){} // RVA: 0x7A7E18C30
+        public void Add(){} // RVA: 0x7A8051B10
+        public void IntersectsWith(){} // RVA: 0x7A7E18CB0
+        public void IntersectsWithRange(){} // RVA: 0x7A8051B10
+        public void UpdateIntervals(){} // RVA: 0x7A7E18770
+        public void Query(){} // RVA: 0x7A8051B10
+        public void QueryRange(){} // RVA: 0x7A8051B10
+        public void Rebuild(){} // RVA: 0x7A7E076F0
+        public void Clear(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class MenuCategoryAttribute
+    public class Marker : ScriptableObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x703FF90
+        public void get_parent(){} // RVA: 0x7A81052C0
+        public void set_parent(){} // RVA: 0x7A81052D0
+        public void get_time(){} // RVA: 0x7A9727910
+        public void set_time(){} // RVA: 0x7AEE15880
+        public void UnityEngine.Timeline.IMarker.Initialize(){} // RVA: 0x7AEE15920
+        public void OnInitialize(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class NotKeyableAttribute
+    public class MarkerList : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_markers(){} // RVA: 0x7A7EC3130
+        public void .ctor(){} // RVA: 0x7A7EC3150
+        public void Add(){} // RVA: 0x7A7EC3160
+        public void Remove(){} // RVA: 0x7A7EC3180
+        public void Clear(){} // RVA: 0x7A7EC3190
+        public void Contains(){} // RVA: 0x7A7EC31A0
+        public void GetMarkers(){} // RVA: 0x7A7EC3130
+        public void get_Count(){} // RVA: 0x7A7EC3200
+        public void get_Item(){} // RVA: 0x7A7EC3250
+        public void GetRawMarkerList(){} // RVA: 0x7A765F710
+        public void CreateMarker(){} // RVA: 0x7A7EC3260
+        public void HasNotifications(){} // RVA: 0x7A7EC3270
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7A75F4910
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7A7EC3290
+        public void BuildCache(){} // RVA: 0x7A7EC32A0
     }
 
-    public class NotificationUtilities
+    public class MarkerTrack : TrackAsset
     {
         // ── Methods ──
-        public void CreateNotificationsPlayable(){} // RVA: 0x7045690 | overloaded x3
-        public void TrackTypeSupportsNotifications(){} // RVA: 0x7045DD0
+        public void get_outputs(){} // RVA: 0x7AEE16820
+        public void .ctor(){} // RVA: 0x7AEE16AF0
     }
 
-    public class ParticleControlPlayable
+    public class MatchTargetFieldConstants : Object
     {
-        public float kUnsetTime;
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x703C9D0
-        public void get_particleSystem(){} // RVA: 0x30B0C0
-        public void set_particleSystem(){} // RVA: 0x30B0D0
-        public void Initialize(){} // RVA: 0x703CCA0
-        public void SetRandomSeed(){} // RVA: 0x703CD60
-        public void PrepareFrame(){} // RVA: 0x703D070
-        public void OnBehaviourPlay(){} // RVA: 0x703D320
-        public void OnBehaviourPause(){} // RVA: 0x703D320
-        public void Simulate(){} // RVA: 0x703D330
-        public void .ctor(){} // RVA: 0x703D500
+        public void HasAny(){} // RVA: 0x7AEDF5AB0
+        public void Toggle(){} // RVA: 0x7AEDF5B20
+        public void .cctor(){} // RVA: 0x7AEDF5B30
     }
 
-    public class PlayableTrack
+    public class MenuCategoryAttribute : Attribute
     {
         // ── Methods ──
-        public void OnCreateClip(){} // RVA: 0x703FD60
-        public void .ctor(){} // RVA: 0x703FED0
+        public void .ctor(){} // RVA: 0x7AEE1EE90
     }
 
-    public class PrefabControlPlayable
+    public class NotKeyableAttribute : Attribute
     {
-        public UnityEngine.GameObject m_Instance; // 0x10
-
         // ── Methods ──
-        public void Create(){} // RVA: 0x703D520
-        public void get_prefabInstance(){} // RVA: 0x2F8380
-        public void Initialize(){} // RVA: 0x703D750
-        public void OnPlayableDestroy(){} // RVA: 0x703DB40
-        public void OnBehaviourPlay(){} // RVA: 0x703DCC0
-        public void OnBehaviourPause(){} // RVA: 0x703DDE0
-        public void SetHideFlagsRecursive(){} // RVA: 0x703DEF0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class RuntimeClip
+    public class NotificationUtilities : Object
     {
-        public UnityEngine.Timeline.TimelineClip m_Clip; // 0x18
-        public UnityEngine.Playables.Playable m_Playable; // 0x20
-        public UnityEngine.Playables.Playable m_ParentMixer; // 0x30
-
         // ── Methods ──
-        public void get_start(){} // RVA: 0x70358C0
-        public void get_duration(){} // RVA: 0x70358F0
-        public void .ctor(){} // RVA: 0x7035910
-        public void Create(){} // RVA: 0x7035910
-        public void get_clip(){} // RVA: 0x2E07C0
-        public void get_mixer(){} // RVA: 0x5CC8940
-        public void get_playable(){} // RVA: 0x1EFB630
-        public void set_enable(){} // RVA: 0x70359E0
-        public void SetTime(){} // RVA: 0x7035B40
-        public void SetDuration(){} // RVA: 0x7035BA0
-        public void EvaluateAt(){} // RVA: 0x7035C00
-        public void DisableAt(){} // RVA: 0x7035F50
+        public void CreateNotificationsPlayable(){} // RVA: 0x7AEE24660
+        public void TrackTypeSupportsNotifications(){} // RVA: 0x7AEE24DE0
     }
 
-    public class RuntimeClipBase
+    public class ParticleControlPlayable : PlayableBehaviour
     {
         // ── Methods ──
-        public void get_start(){} // RVA: 0x12A40
-        public void get_duration(){} // RVA: 0x12A40
-        public void get_intervalStart(){} // RVA: 0x7036160
-        public void get_intervalEnd(){} // RVA: 0x7036210
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Create(){} // RVA: 0x7AEE1B870
+        public void get_particleSystem(){} // RVA: 0x7A81052C0
+        public void set_particleSystem(){} // RVA: 0x7A81052D0
+        public void Initialize(){} // RVA: 0x7AEE1BB40
+        public void SetRandomSeed(){} // RVA: 0x7AEE1BC00
+        public void PrepareFrame(){} // RVA: 0x7AEE1BF10
+        public void OnBehaviourPlay(){} // RVA: 0x7AEE1C1C0
+        public void OnBehaviourPause(){} // RVA: 0x7AEE1C1C0
+        public void Simulate(){} // RVA: 0x7AEE1C1D0
+        public void .ctor(){} // RVA: 0x7AEE1C3A0
     }
 
-    public class RuntimeElement
+    public class PlayableTrack : TrackAsset
     {
-        public int <intervalBit>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_intervalStart(){} // RVA: 0xCD60
-        public void get_intervalEnd(){} // RVA: 0xCD60
-        public void get_intervalBit(){} // RVA: 0x32A5C0
-        public void set_intervalBit(){} // RVA: 0x2E00C0
-        public void set_enable(){} // RVA: 0x25130
-        public void EvaluateAt(){}
-        public void DisableAt(){}
-        public void .ctor(){} // RVA: 0x2DD310
+        public void OnCreateClip(){} // RVA: 0x7AEE1EC60
+        public void .ctor(){} // RVA: 0x7AEE1EDD0
     }
 
-    public class ScheduleRuntimeClip
+    public class PrefabControlPlayable : PlayableBehaviour
     {
-        public UnityEngine.Timeline.TimelineClip m_Clip; // 0x18
-        public UnityEngine.Playables.Playable m_Playable; // 0x20
-        public UnityEngine.Playables.Playable m_ParentMixer; // 0x30
-        public double m_StartDelay; // 0x40
-        public double m_FinishTail; // 0x48
-        public bool m_Started; // 0x50
-
         // ── Methods ──
-        public void get_start(){} // RVA: 0x70362E0
-        public void get_duration(){} // RVA: 0x7036390
-        public void SetTime(){} // RVA: 0x70363E0
-        public void get_clip(){} // RVA: 0x2E07C0
-        public void get_mixer(){} // RVA: 0x5CC8940
-        public void get_playable(){} // RVA: 0x1EFB630
-        public void .ctor(){} // RVA: 0x7036440
-        public void Create(){} // RVA: 0x7036440
-        public void set_enable(){} // RVA: 0x7036520
-        public void EvaluateAt(){} // RVA: 0x7036640
-        public void DisableAt(){} // RVA: 0x70369C0
+        public void Create(){} // RVA: 0x7AEE1C3C0
+        public void get_prefabInstance(){} // RVA: 0x7A80F2570
+        public void Initialize(){} // RVA: 0x7AEE1C600
+        public void OnPlayableDestroy(){} // RVA: 0x7AEE1C9F0
+        public void OnBehaviourPlay(){} // RVA: 0x7AEE1CB70
+        public void OnBehaviourPause(){} // RVA: 0x7AEE1CC90
+        public void SetHideFlagsRecursive(){} // RVA: 0x7AEE1CD90
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SignalAsset
+    public class RuntimeClip : RuntimeClipBase
     {
         // ── Methods ──
-        public void add_OnEnableCallback(){} // RVA: 0x7037C70
-        public void remove_OnEnableCallback(){} // RVA: 0x7037DA0
-        public void OnEnable(){} // RVA: 0x7037ED0
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void get_start(){} // RVA: 0x7AEE14770
+        public void get_duration(){} // RVA: 0x7AEE147A0
+        public void .ctor(){} // RVA: 0x7AEE147C0
+        public void Create(){} // RVA: 0x7AEE147C0
+        public void get_clip(){} // RVA: 0x7A80DA7B0
+        public void get_mixer(){} // RVA: 0x7ADAB6B40
+        public void get_playable(){} // RVA: 0x7A9D01C90
+        public void set_enable(){} // RVA: 0x7AEE14890
+        public void SetTime(){} // RVA: 0x7AEE149F0
+        public void SetDuration(){} // RVA: 0x7AEE14A50
+        public void EvaluateAt(){} // RVA: 0x7AEE14AB0
+        public void DisableAt(){} // RVA: 0x7AEE14E00
     }
 
-    public class SignalEmitter
+    public class RuntimeClipBase : RuntimeElement
     {
-        public bool m_Retroactive; // 0x28
-        public bool m_EmitOnce; // 0x29
-        public UnityEngine.Timeline.SignalAsset m_Asset; // 0x30
-
         // ── Methods ──
-        public void get_retroactive(){} // RVA: 0x6E8A80
-        public void set_retroactive(){} // RVA: 0x6E8B80
-        public void get_emitOnce(){} // RVA: 0xC36000
-        public void set_emitOnce(){} // RVA: 0x190AB20
-        public void get_asset(){} // RVA: 0x6374D0
-        public void set_asset(){} // RVA: 0x30B890
-        public void UnityEngine.Playables.INotification.get_id(){} // RVA: 0x7037F30
-        public void UnityEngine.Timeline.INotificationOptionProvider.get_flags(){} // RVA: 0x70380D0
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void get_start(){} // RVA: 0x7A7E06760
+        public void get_duration(){} // RVA: 0x7A7E06760
+        public void get_intervalStart(){} // RVA: 0x7AEE15000
+        public void get_intervalEnd(){} // RVA: 0x7AEE150B0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SignalReceiver
+    public class RuntimeElement : Object
     {
         // ── Methods ──
-        public void OnNotify(){} // RVA: 0x7038100
-        public void AddReaction(){} // RVA: 0x7038300
-        public void AddEmptyReaction(){} // RVA: 0x70384C0
-        public void Remove(){} // RVA: 0x7038530
-        public void GetRegisteredSignals(){} // RVA: 0xF9D710
-        public void GetReaction(){} // RVA: 0x70386B0
-        public void Count(){} // RVA: 0x70386F0
-        public void ChangeSignalAtIndex(){} // RVA: 0x7038740
-        public void RemoveAtIndex(){} // RVA: 0x7038C00
-        public void ChangeReactionAtIndex(){} // RVA: 0x7038D10
-        public void GetReactionAtIndex(){} // RVA: 0x7038E00
-        public void GetSignalAssetAtIndex(){} // RVA: 0x7038EE0
-        public void OnEnable(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x7038FC0
+        public void get_intervalStart(){} // RVA: 0x7A7E00680
+        public void get_intervalEnd(){} // RVA: 0x7A7E00680
+        public void get_intervalBit(){} // RVA: 0x7A8124910
+        public void set_intervalBit(){} // RVA: 0x7A80DA0C0
+        public void set_enable(){} // RVA: 0x7A7E18C30
+        public void EvaluateAt(){} // RVA: 0x7A7E19F20
+        public void DisableAt(){} // RVA: 0x7A7E19ED0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SignalTrack
+    public class ScheduleRuntimeClip : RuntimeClipBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7037C20
+        public void get_start(){} // RVA: 0x7AEE15180
+        public void get_duration(){} // RVA: 0x7AEE15230
+        public void SetTime(){} // RVA: 0x7AEE15280
+        public void get_clip(){} // RVA: 0x7A80DA7B0
+        public void get_mixer(){} // RVA: 0x7ADAB6B40
+        public void get_playable(){} // RVA: 0x7A9D01C90
+        public void .ctor(){} // RVA: 0x7AEE152E0
+        public void Create(){} // RVA: 0x7AEE152E0
+        public void set_enable(){} // RVA: 0x7AEE153C0
+        public void EvaluateAt(){} // RVA: 0x7AEE154E0
+        public void DisableAt(){} // RVA: 0x7AEE15860
     }
 
-    public class SupportsChildTracksAttribute
+    public class SignalAsset : ScriptableObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D66A50
+        public void add_OnEnableCallback(){} // RVA: 0x7AEE16B40
+        public void remove_OnEnableCallback(){} // RVA: 0x7AEE16C70
+        public void OnEnable(){} // RVA: 0x7AEE16DA0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class TimeControlPlayable
+    public class SignalAsset[] : Array
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x703E330
-        public void Initialize(){} // RVA: 0x2DEE30
-        public void PrepareFrame(){} // RVA: 0x703E4F0
-        public void OnBehaviourPlay(){} // RVA: 0x703E570
-        public void OnBehaviourPause(){} // RVA: 0x703E5D0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class TimeFieldAttribute
+    public class SignalEmitter : Marker
     {
-        public 0x659A4220 <useEditMode>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_useEditMode(){} // RVA: 0x32A5C0
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void get_retroactive(){} // RVA: 0x7A84A5BD0
+        public void set_retroactive(){} // RVA: 0x7A84A5CD0
+        public void get_emitOnce(){} // RVA: 0x7A89FCA90
+        public void set_emitOnce(){} // RVA: 0x7A96C67C0
+        public void get_asset(){} // RVA: 0x7A83F69F0
+        public void set_asset(){} // RVA: 0x7A8105A90
+        public void UnityEngine.Playables.INotification.get_id(){} // RVA: 0x7AEE16E00
+        public void UnityEngine.Timeline.INotificationOptionProvider.get_flags(){} // RVA: 0x7AEE16FA0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class TimeNotificationBehaviour
+    public class SignalReceiver : MonoBehaviour
     {
-        public System.Collections.Generic.List`1<NotificationEntry> m_Notifications; // 0x10
-
         // ── Methods ──
-        public void set_timeSource(){} // RVA: 0x111C380
-        public void Create(){} // RVA: 0x703E630
-        public void AddNotification(){} // RVA: 0x703E830
-        public void OnGraphStart(){} // RVA: 0x703E930
-        public void OnBehaviourPause(){} // RVA: 0x703EB50
-        public void PrepareFrame(){} // RVA: 0x703EE20
-        public void SortNotifications(){} // RVA: 0x703F210
-        public void CanRestoreNotification(){} // RVA: 0x703F430
-        public void TriggerNotificationsInRange(){} // RVA: 0x703F470
-        public void SyncDurationWithExternalSource(){} // RVA: 0x703F720
-        public void Trigger_internal(){} // RVA: 0x703F9E0
-        public void Restore_internal(){} // RVA: 0x6BDA00
-        public void .ctor(){} // RVA: 0x703FB80
+        public void OnNotify(){} // RVA: 0x7AEE16FD0
+        public void AddReaction(){} // RVA: 0x7AEE171D0
+        public void AddEmptyReaction(){} // RVA: 0x7AEE17390
+        public void Remove(){} // RVA: 0x7AEE17400
+        public void GetRegisteredSignals(){} // RVA: 0x7A8D68180
+        public void GetReaction(){} // RVA: 0x7AEE17580
+        public void Count(){} // RVA: 0x7AEE175C0
+        public void ChangeSignalAtIndex(){} // RVA: 0x7AEE17610
+        public void RemoveAtIndex(){} // RVA: 0x7AEE17AD0
+        public void ChangeReactionAtIndex(){} // RVA: 0x7AEE17BE0
+        public void GetReactionAtIndex(){} // RVA: 0x7AEE17CD0
+        public void GetSignalAssetAtIndex(){} // RVA: 0x7AEE17DB0
+        public void OnEnable(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7AEE17E90
     }
 
-    public class TimeUtility
+    public class SignalTrack : MarkerTrack
     {
         // ── Methods ──
-        public void ValidateFrameRate(){} // RVA: 0x7047B80
-        public void ToFrames(){} // RVA: 0x7047C40
-        public void ToExactFrames(){} // RVA: 0x7047DB0
-        public void FromFrames(){} // RVA: 0x7047E90 | overloaded x2
-        public void OnFrameBoundary(){} // RVA: 0x70483A0 | overloaded x2
-        public void GetEpsilon(){} // RVA: 0x7048010
-        public void PreviousFrame(){} // RVA: 0x7048100
-        public void NextFrame(){} // RVA: 0x70481A0
-        public void PreviousFrameTime(){} // RVA: 0x7048210
-        public void NextFrameTime(){} // RVA: 0x70482F0
-        public void RoundToFrame(){} // RVA: 0x7048470
-        public void TimeAsFrames(){} // RVA: 0x7048570
-        public void TimeAsTimeCode(){} // RVA: 0x7048700
-        public void ParseTimeCode(){} // RVA: 0x7048E00
-        public void ParseTimeSeconds(){} // RVA: 0x70494E0
-        public void GetAnimationClipLength(){} // RVA: 0x7049A10
-        public void RemoveChar(){} // RVA: 0x7049C10
-        public void GetClosestFrameRate(){} // RVA: 0x7049CE0
-        public void ToFrameRate(){} // RVA: 0x7049F70
-        public void ToStandardFrameRate(){} // RVA: 0x704A160
-        public void .cctor(){} // RVA: 0x704A5D0
+        public void .ctor(){} // RVA: 0x7AEE16AF0
     }
 
-    public class TimelineAsset
+    public class SupportsChildTracksAttribute : Attribute
     {
-        public int k_LatestVersion;
-        public int m_Version; // 0x18
-        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Tracks; // 0x20
-        public double m_FixedDuration; // 0x28
-        public UnityEngine.Timeline.TrackAsset[] m_CacheOutputTracks; // 0x30
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheRootTracks; // 0x38
-        public UnityEngine.Timeline.TrackAsset[] m_CacheFlattenedTracks; // 0x40
-        public EditorSettings m_EditorSettings; // 0x48
-        public 0x659A2A10 m_DurationMode; // 0x50
-        public UnityEngine.Timeline.MarkerTrack m_MarkerTrack; // 0x58
-
         // ── Methods ──
-        public void UpgradeToLatestVersion(){} // RVA: 0x2DD310
-        public void get_editorSettings(){} // RVA: 0x358730
-        public void get_duration(){} // RVA: 0x701F690
-        public void get_fixedDuration(){} // RVA: 0x701F730
-        public void set_fixedDuration(){} // RVA: 0x701F850
-        public void get_durationMode(){} // RVA: 0x59C540
-        public void set_durationMode(){} // RVA: 0x65F570
-        public void get_outputs(){} // RVA: 0x701F8F0
-        public void get_clipCaps(){} // RVA: 0x701F9A0
-        public void get_outputTrackCount(){} // RVA: 0x701FB60
-        public void get_rootTrackCount(){} // RVA: 0x701FB90
-        public void OnValidate(){} // RVA: 0x701FBE0
-        public void GetRootTrack(){} // RVA: 0x701FC20
-        public void GetRootTracks(){} // RVA: 0x701FCA0
-        public void GetOutputTrack(){} // RVA: 0x701FCC0
-        public void GetOutputTracks(){} // RVA: 0x701FD10
-        public void GetValidFrameRate(){} // RVA: 0x701FD30
-        public void UpdateRootTrackCache(){} // RVA: 0x701FE20
-        public void UpdateOutputTrackCache(){} // RVA: 0x70202A0
-        public void get_flattenedTracks(){} // RVA: 0x7020540
-        public void get_markerTrack(){} // RVA: 0x3A5500
-        public void get_trackObjects(){} // RVA: 0x30B0C0
-        public void AddTrackInternal(){} // RVA: 0x7020750
-        public void RemoveTrack(){} // RVA: 0x7020800
-        public void CreatePlayable(){} // RVA: 0x7020980
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0xA52E70
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7020C50
-        public void __internalAwake(){} // RVA: 0x7020C60
-        public void GatherProperties(){} // RVA: 0x7020EC0
-        public void CreateMarkerTrack(){} // RVA: 0x70210D0
-        public void RemoveMarkerTrack(){} // RVA: 0x70212C0
-        public void Invalidate(){} // RVA: 0x7021400
-        public void UpdateFixedDurationWithItemsDuration(){} // RVA: 0x7021500
-        public void CalculateItemsDuration(){} // RVA: 0x70215B0
-        public void AddSubTracksRecursive(){} // RVA: 0x7021830
-        public void CreateTrack(){} // RVA: 0x283FA0 | overloaded x4
-        public void DeleteClip(){} // RVA: 0x7022030
-        public void DeleteTrack(){} // RVA: 0x7022410
-        public void MoveLastTrackBefore(){} // RVA: 0x70229D0
-        public void AllocateTrack(){} // RVA: 0x7022D60
-        public void DeleteRecordedAnimation(){} // RVA: 0x70234F0 | overloaded x2
-        public void .ctor(){} // RVA: 0x7023790
+        public void .ctor(){} // RVA: 0x7A9B6A000
     }
 
-    public class TimelineClip
+    public class TimeControlPlayable : PlayableBehaviour
     {
-        public int k_LatestVersion;
-        public int m_Version; // 0x10
-        public 0x659A3040 kDefaultClipCaps;
-        public float kDefaultClipDurationInSeconds; // 0x4
-        public double kTimeScaleMin; // 0x8
-        public double kTimeScaleMax; // 0x10
-        public string kDefaultCurvesName; // 0x18
-        public double kMinDuration; // 0x20
-        public double kMaxTimeValue; // 0x28
-        public double m_Start; // 0x18
-        public double m_ClipIn; // 0x20
-        public UnityEngine.Object m_Asset; // 0x28
-        public double m_Duration; // 0x30
-        public double m_TimeScale; // 0x38
-        public UnityEngine.Timeline.TrackAsset m_ParentTrack; // 0x40
-        public double m_EaseInDuration; // 0x48
-        public double m_EaseOutDuration; // 0x50
-        public double m_BlendInDuration; // 0x58
-        public double m_BlendOutDuration; // 0x60
-        public UnityEngine.AnimationCurve m_MixInCurve; // 0x68
-        public UnityEngine.AnimationCurve m_MixOutCurve; // 0x70
-        public 0x659A2858 m_BlendInCurveMode; // 0x78
-        public 0x659A2858 m_BlendOutCurveMode; // 0x7C
-        public System.Collections.Generic.List`1<string> m_ExposedParameterNames; // 0x80
-        public UnityEngine.AnimationClip m_AnimationCurves; // 0x88
-        public bool m_Recordable; // 0x90
-        public 0x659A2800 m_PostExtrapolationMode; // 0x94
-        public 0x659A2800 m_PreExtrapolationMode; // 0x98
-        public double m_PostExtrapolationTime; // 0xA0
-        public double m_PreExtrapolationTime; // 0xA8
-        public string m_DisplayName; // 0xB0
-
         // ── Methods ──
-        public void UpgradeToLatestVersion(){} // RVA: 0x701C630
-        public void .ctor(){} // RVA: 0x701C660
-        public void get_hasPreExtrapolation(){} // RVA: 0x701C690
-        public void get_hasPostExtrapolation(){} // RVA: 0x701C6B0
-        public void get_timeScale(){} // RVA: 0x701C6D0
-        public void set_timeScale(){} // RVA: 0x701C7E0
-        public void get_start(){} // RVA: 0x196AD00
-        public void set_start(){} // RVA: 0x701C900
-        public void get_duration(){} // RVA: 0x6EE5040
-        public void set_duration(){} // RVA: 0x701CB10
-        public void get_end(){} // RVA: 0x701CCD0
-        public void get_clipIn(){} // RVA: 0x701CCE0
-        public void set_clipIn(){} // RVA: 0x701CD10
-        public void get_displayName(){} // RVA: 0x348040
-        public void set_displayName(){} // RVA: 0x348050
-        public void get_clipAssetDuration(){} // RVA: 0x701CE30
-        public void get_curves(){} // RVA: 0x31C010
-        public void set_curves(){} // RVA: 0x463060
-        public void UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName(){} // RVA: 0x701CEA0
-        public void get_hasCurves(){} // RVA: 0x701CF00
-        public void get_asset(){} // RVA: 0x30B130
-        public void set_asset(){} // RVA: 0x2DEE90
-        public void UnityEngine.Timeline.ICurvesOwner.get_assetOwner(){} // RVA: 0x35A740
-        public void UnityEngine.Timeline.ICurvesOwner.get_targetTrack(){} // RVA: 0x35A740
-        public void get_underlyingAsset(){} // RVA: 0x519240
-        public void set_underlyingAsset(){} // RVA: 0x2DD310
-        public void get_parentTrack(){} // RVA: 0x35A740
-        public void set_parentTrack(){} // RVA: 0x701D040
-        public void GetParentTrack(){} // RVA: 0x35A740
-        public void SetParentTrack_Internal(){} // RVA: 0x701D050
-        public void get_easeInDuration(){} // RVA: 0x701D310
-        public void set_easeInDuration(){} // RVA: 0x701D410
-        public void get_easeOutDuration(){} // RVA: 0x701D560
-        public void set_easeOutDuration(){} // RVA: 0x701D660
-        public void get_eastOutTime(){} // RVA: 0x701D7B0
-        public void get_easeOutTime(){} // RVA: 0x701D7B0
-        public void get_blendInDuration(){} // RVA: 0x701D7F0
-        public void set_blendInDuration(){} // RVA: 0x701D820
-        public void get_blendOutDuration(){} // RVA: 0x701D8C0
-        public void set_blendOutDuration(){} // RVA: 0x701D8F0
-        public void get_blendInCurveMode(){} // RVA: 0x1AE3800
-        public void set_blendInCurveMode(){} // RVA: 0x1AE6D80
-        public void get_blendOutCurveMode(){} // RVA: 0x1AE6E60
-        public void set_blendOutCurveMode(){} // RVA: 0x6248F70
-        public void get_hasBlendIn(){} // RVA: 0x701D990
-        public void get_hasBlendOut(){} // RVA: 0x701D9D0
-        public void get_mixInCurve(){} // RVA: 0x701DA10
-        public void set_mixInCurve(){} // RVA: 0x358D60
-        public void get_mixInPercentage(){} // RVA: 0x701DB20
-        public void get_mixInDuration(){} // RVA: 0x701DB40
-        public void get_mixOutCurve(){} // RVA: 0x701DC70
-        public void set_mixOutCurve(){} // RVA: 0x3A55A0
-        public void get_mixOutTime(){} // RVA: 0x701DD80
-        public void get_mixOutDuration(){} // RVA: 0x701DE00
-        public void get_mixOutPercentage(){} // RVA: 0x701DE70
-        public void get_recordable(){} // RVA: 0x134A670
-        public void set_recordable(){} // RVA: 0x1348E00
-        public void get_exposedParameters(){} // RVA: 0x701DEE0
-        public void get_clipCaps(){} // RVA: 0x701DFB0
-        public void Hash(){} // RVA: 0x701E050
-        public void EvaluateMixOut(){} // RVA: 0x701E180
-        public void EvaluateMixIn(){} // RVA: 0x701E2E0
-        public void GetDefaultMixInCurve(){} // RVA: 0x701E3D0
-        public void GetDefaultMixOutCurve(){} // RVA: 0x701E400
-        public void ToLocalTime(){} // RVA: 0x701E430
-        public void ToLocalTimeUnbound(){} // RVA: 0x701E600
-        public void FromLocalTimeUnbound(){} // RVA: 0x701E670
-        public void get_animationClip(){} // RVA: 0x701E6D0
-        public void SanitizeTimeValue(){} // RVA: 0x701E8A0
-        public void get_postExtrapolationMode(){} // RVA: 0x701EA00
-        public void set_postExtrapolationMode(){} // RVA: 0x701EA30
-        public void get_preExtrapolationMode(){} // RVA: 0x701EA70
-        public void set_preExtrapolationMode(){} // RVA: 0x701EAA0
-        public void SetPostExtrapolationTime(){} // RVA: 0x701EAE0
-        public void SetPreExtrapolationTime(){} // RVA: 0x701EAF0
-        public void IsExtrapolatedTime(){} // RVA: 0x701EB00
-        public void IsPreExtrapolatedTime(){} // RVA: 0x701EBB0
-        public void IsPostExtrapolatedTime(){} // RVA: 0x701EC10
-        public void get_extrapolatedStart(){} // RVA: 0x701EC80
-        public void get_extrapolatedDuration(){} // RVA: 0x701ECA0
-        public void GetExtrapolatedTime(){} // RVA: 0x701EDA0
-        public void CreateCurves(){} // RVA: 0x701EEE0
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x1AF9470
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x701C630
-        public void ToString(){} // RVA: 0x701F070
-        public void ConformEaseValues(){} // RVA: 0x701F2C0
-        public void CalculateEasingRatio(){} // RVA: 0x701F420
-        public void UpdateDirty(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x701F510
+        public void Create(){} // RVA: 0x7AEE1D1C0
+        public void Initialize(){} // RVA: 0x7A80D8E20
+        public void PrepareFrame(){} // RVA: 0x7AEE1D390
+        public void OnBehaviourPlay(){} // RVA: 0x7AEE1D410
+        public void OnBehaviourPause(){} // RVA: 0x7AEE1D470
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class TimelineClipCapsExtensions
+    public class TimeFieldAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void SupportsLooping(){} // RVA: 0x702F9F0
-        public void SupportsExtrapolation(){} // RVA: 0x702FA20
-        public void SupportsClipIn(){} // RVA: 0x702FA50
-        public void SupportsSpeedMultiplier(){} // RVA: 0x702FA80
-        public void SupportsBlending(){} // RVA: 0x702FAB0
-        public void HasAll(){} // RVA: 0x188F1C0
-        public void HasAny(){} // RVA: 0x6A02210
+        public void get_useEditMode(){} // RVA: 0x7A8124910
+        public void .ctor(){} // RVA: 0x7A80DA0C0
     }
 
-    public class TimelineClipExtensions
+    public class TimeNotificationBehaviour : PlayableBehaviour
     {
         // ── Methods ──
-        public void MoveToTrack(){} // RVA: 0x7045FD0
-        public void TryMoveToTrack(){} // RVA: 0x7046500
-        public void MoveToTrack_Impl(){} // RVA: 0x7046820
-        public void .cctor(){} // RVA: 0x7046AC0
+        public void set_timeSource(){} // RVA: 0x7A8EDB600
+        public void Create(){} // RVA: 0x7AEE1D4D0
+        public void AddNotification(){} // RVA: 0x7AEE1D6E0
+        public void OnGraphStart(){} // RVA: 0x7AEE1D7E0
+        public void OnBehaviourPause(){} // RVA: 0x7AEE1DA00
+        public void PrepareFrame(){} // RVA: 0x7AEE1DCF0
+        public void SortNotifications(){} // RVA: 0x7AEE1E0F0
+        public void CanRestoreNotification(){} // RVA: 0x7AEE1E310
+        public void TriggerNotificationsInRange(){} // RVA: 0x7AEE1E350
+        public void SyncDurationWithExternalSource(){} // RVA: 0x7AEE1E610
+        public void Trigger_internal(){} // RVA: 0x7AEE1E8E0
+        public void Restore_internal(){} // RVA: 0x7A847A460
+        public void .ctor(){} // RVA: 0x7AEE1EA80
     }
 
-    public class TimelineCreateUtilities
+    public class TimeUtility : Object
     {
         // ── Methods ──
-        public void GenerateUniqueActorName(){} // RVA: 0x7046B70
-        public void SaveAssetIntoObject(){} // RVA: 0x7046EC0
-        public void RemoveAssetFromObject(){} // RVA: 0x7047090
-        public void CreateAnimationClipForTrack(){} // RVA: 0x70471F0
-        public void ValidateParentTrack(){} // RVA: 0x70475D0
+        public void ValidateFrameRate(){} // RVA: 0x7AEE26B90
+        public void ToFrames(){} // RVA: 0x7AEE26C50
+        public void ToExactFrames(){} // RVA: 0x7AEE26DC0
+        public void FromFrames(){} // RVA: 0x7AEE26EA0
+        public void OnFrameBoundary(){} // RVA: 0x7AEE273B0
+        public void GetEpsilon(){} // RVA: 0x7AEE27020
+        public void PreviousFrame(){} // RVA: 0x7AEE27110
+        public void NextFrame(){} // RVA: 0x7AEE271B0
+        public void PreviousFrameTime(){} // RVA: 0x7AEE27220
+        public void NextFrameTime(){} // RVA: 0x7AEE27300
+        public void RoundToFrame(){} // RVA: 0x7AEE27480
+        public void TimeAsFrames(){} // RVA: 0x7AEE27580
+        public void TimeAsTimeCode(){} // RVA: 0x7AEE27710
+        public void ParseTimeCode(){} // RVA: 0x7AEE27E10
+        public void ParseTimeSeconds(){} // RVA: 0x7AEE28470
+        public void GetAnimationClipLength(){} // RVA: 0x7AEE289E0
+        public void RemoveChar(){} // RVA: 0x7AEE28BE0
+        public void GetClosestFrameRate(){} // RVA: 0x7AEE28CD0
+        public void ToFrameRate(){} // RVA: 0x7AEE28F60
+        public void ToStandardFrameRate(){} // RVA: 0x7AEE29150
+        public void .cctor(){} // RVA: 0x7AEE295C0
     }
 
-    public class TimelineHelpURLAttribute
+    public class TimelineAsset : PlayableAsset
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void UpgradeToLatestVersion(){} // RVA: 0x7A80D7310
+        public void get_editorSettings(){} // RVA: 0x7A8152D80
+        public void get_duration(){} // RVA: 0x7AEDFE4A0
+        public void get_fixedDuration(){} // RVA: 0x7AEDFE540
+        public void set_fixedDuration(){} // RVA: 0x7AEDFE660
+        public void get_durationMode(){} // RVA: 0x7A8355950
+        public void set_durationMode(){} // RVA: 0x7A83F4180
+        public void get_outputs(){} // RVA: 0x7AEDFE700
+        public void get_clipCaps(){} // RVA: 0x7AEDFE7B0
+        public void get_outputTrackCount(){} // RVA: 0x7AEDFE980
+        public void get_rootTrackCount(){} // RVA: 0x7AEDFE9B0
+        public void OnValidate(){} // RVA: 0x7AEDFEA00
+        public void GetRootTrack(){} // RVA: 0x7AEDFEA40
+        public void GetRootTracks(){} // RVA: 0x7AEDFEAC0
+        public void GetOutputTrack(){} // RVA: 0x7AEDFEAE0
+        public void GetOutputTracks(){} // RVA: 0x7AEDFEB30
+        public void GetValidFrameRate(){} // RVA: 0x7AEDFEB50
+        public void UpdateRootTrackCache(){} // RVA: 0x7AEDFEC40
+        public void UpdateOutputTrackCache(){} // RVA: 0x7AEDFF0F0
+        public void get_flattenedTracks(){} // RVA: 0x7AEDFF3A0
+        public void get_markerTrack(){} // RVA: 0x7A81A0050
+        public void get_trackObjects(){} // RVA: 0x7A81052C0
+        public void AddTrackInternal(){} // RVA: 0x7AEDFF5C0
+        public void RemoveTrack(){} // RVA: 0x7AEDFF670
+        public void CreatePlayable(){} // RVA: 0x7AEDFF7F0
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7A8810990
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7AEDFFAC0
+        public void __internalAwake(){} // RVA: 0x7AEDFFAD0
+        public void GatherProperties(){} // RVA: 0x7AEDFFD50
+        public void CreateMarkerTrack(){} // RVA: 0x7AEDFFF60
+        public void RemoveMarkerTrack(){} // RVA: 0x7AEE00150
+        public void Invalidate(){} // RVA: 0x7AEE00290
+        public void UpdateFixedDurationWithItemsDuration(){} // RVA: 0x7AEE00390
+        public void CalculateItemsDuration(){} // RVA: 0x7AEE00440
+        public void AddSubTracksRecursive(){} // RVA: 0x7AEE006D0
+        public void CreateTrack(){} // RVA: 0x7A8051B10
+        public void DeleteClip(){} // RVA: 0x7AEE00EE0
+        public void DeleteTrack(){} // RVA: 0x7AEE012C0
+        public void MoveLastTrackBefore(){} // RVA: 0x7AEE01880
+        public void AllocateTrack(){} // RVA: 0x7AEE01C20
+        public void DeleteRecordedAnimation(){} // RVA: 0x7AEE02390
+        public void .ctor(){} // RVA: 0x7AEE02630
     }
 
-    public class TimelinePlayable
+    public class TimelineClip : Object
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x7040040
-        public void Compile(){} // RVA: 0x7040460
-        public void CompileTrackList(){} // RVA: 0x70408D0
-        public void CreateTrackOutput(){} // RVA: 0x7040B90
-        public void CreateTrackPlayable(){} // RVA: 0x7041540
-        public void PrepareFrame(){} // RVA: 0x7041AE0
-        public void Evaluate(){} // RVA: 0x7041B30
-        public void CacheTrack(){} // RVA: 0x70422F0
-        public void ForAOTCompilationOnly(){} // RVA: 0x7042380
-        public void AddPlayableOutputCallbacks(){} // RVA: 0x70423E0
-        public void AddOutputWeightProcessor(){} // RVA: 0x7042480
-        public void AddEvaluateCallback(){} // RVA: 0x7042700
-        public void InvokeOutputCallbacks(){} // RVA: 0x7042890
-        public void TryGetCallbackList(){} // RVA: 0x7043410
-        public void .ctor(){} // RVA: 0x7043600
-        public void .cctor(){} // RVA: 0x7043C80
+        public void UpgradeToLatestVersion(){} // RVA: 0x7AEDFB460
+        public void .ctor(){} // RVA: 0x7AEDFB490
+        public void get_hasPreExtrapolation(){} // RVA: 0x7AEDFB4C0
+        public void get_hasPostExtrapolation(){} // RVA: 0x7AEDFB4E0
+        public void get_timeScale(){} // RVA: 0x7AEDFB500
+        public void set_timeScale(){} // RVA: 0x7AEDFB610
+        public void get_start(){} // RVA: 0x7A9727910
+        public void set_start(){} // RVA: 0x7AEDFB730
+        public void get_duration(){} // RVA: 0x7AECC3980
+        public void set_duration(){} // RVA: 0x7AEDFB940
+        public void get_end(){} // RVA: 0x7AEDFBB00
+        public void get_clipIn(){} // RVA: 0x7AEDFBB10
+        public void set_clipIn(){} // RVA: 0x7AEDFBB40
+        public void get_displayName(){} // RVA: 0x7A8142610
+        public void set_displayName(){} // RVA: 0x7A8142620
+        public void get_clipAssetDuration(){} // RVA: 0x7AEDFBC60
+        public void get_curves(){} // RVA: 0x7A81163D0
+        public void set_curves(){} // RVA: 0x7A825E460
+        public void UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName(){} // RVA: 0x7AEDFBCD0
+        public void get_hasCurves(){} // RVA: 0x7AEDFBD30
+        public void get_asset(){} // RVA: 0x7A8105330
+        public void set_asset(){} // RVA: 0x7A80D8E80
+        public void UnityEngine.Timeline.ICurvesOwner.get_assetOwner(){} // RVA: 0x7A8154D80
+        public void UnityEngine.Timeline.ICurvesOwner.get_targetTrack(){} // RVA: 0x7A8154D80
+        public void get_underlyingAsset(){} // RVA: 0x7A82D1450
+        public void set_underlyingAsset(){} // RVA: 0x7A80D7310
+        public void get_parentTrack(){} // RVA: 0x7A8154D80
+        public void set_parentTrack(){} // RVA: 0x7AEDFBE70
+        public void GetParentTrack(){} // RVA: 0x7A8154D80
+        public void SetParentTrack_Internal(){} // RVA: 0x7AEDFBE80
+        public void get_easeInDuration(){} // RVA: 0x7AEDFC140
+        public void set_easeInDuration(){} // RVA: 0x7AEDFC240
+        public void get_easeOutDuration(){} // RVA: 0x7AEDFC380
+        public void set_easeOutDuration(){} // RVA: 0x7AEDFC480
+        public void get_eastOutTime(){} // RVA: 0x7AEDFC5C0
+        public void get_easeOutTime(){} // RVA: 0x7AEDFC5C0
+        public void get_blendInDuration(){} // RVA: 0x7AEDFC600
+        public void set_blendInDuration(){} // RVA: 0x7AEDFC630
+        public void get_blendOutDuration(){} // RVA: 0x7AEDFC6D0
+        public void set_blendOutDuration(){} // RVA: 0x7AEDFC700
+        public void get_blendInCurveMode(){} // RVA: 0x7A989D5C0
+        public void set_blendInCurveMode(){} // RVA: 0x7A98A0B60
+        public void get_blendOutCurveMode(){} // RVA: 0x7A98A0C40
+        public void set_blendOutCurveMode(){} // RVA: 0x7AE034E90
+        public void get_hasBlendIn(){} // RVA: 0x7AEDFC7A0
+        public void get_hasBlendOut(){} // RVA: 0x7AEDFC7E0
+        public void get_mixInCurve(){} // RVA: 0x7AEDFC820
+        public void set_mixInCurve(){} // RVA: 0x7A81533A0
+        public void get_mixInPercentage(){} // RVA: 0x7AEDFC930
+        public void get_mixInDuration(){} // RVA: 0x7AEDFC950
+        public void get_mixOutCurve(){} // RVA: 0x7AEDFCA70
+        public void set_mixOutCurve(){} // RVA: 0x7A81A00F0
+        public void get_mixOutTime(){} // RVA: 0x7AEDFCB80
+        public void get_mixOutDuration(){} // RVA: 0x7AEDFCBF0
+        public void get_mixOutPercentage(){} // RVA: 0x7AEDFCC50
+        public void get_recordable(){} // RVA: 0x7A9101D40
+        public void set_recordable(){} // RVA: 0x7A91004C0
+        public void get_exposedParameters(){} // RVA: 0x7AEDFCCB0
+        public void get_clipCaps(){} // RVA: 0x7AEDFCD80
+        public void Hash(){} // RVA: 0x7AEDFCE20
+        public void EvaluateMixOut(){} // RVA: 0x7AEDFCF50
+        public void EvaluateMixIn(){} // RVA: 0x7AEDFD100
+        public void GetDefaultMixInCurve(){} // RVA: 0x7AEDFD1F0
+        public void GetDefaultMixOutCurve(){} // RVA: 0x7AEDFD220
+        public void ToLocalTime(){} // RVA: 0x7AEDFD250
+        public void ToLocalTimeUnbound(){} // RVA: 0x7AEDFD410
+        public void FromLocalTimeUnbound(){} // RVA: 0x7AEDFD480
+        public void get_animationClip(){} // RVA: 0x7AEDFD4E0
+        public void SanitizeTimeValue(){} // RVA: 0x7AEDFD6B0
+        public void get_postExtrapolationMode(){} // RVA: 0x7AEDFD810
+        public void set_postExtrapolationMode(){} // RVA: 0x7AEDFD840
+        public void get_preExtrapolationMode(){} // RVA: 0x7AEDFD880
+        public void set_preExtrapolationMode(){} // RVA: 0x7AEDFD8B0
+        public void SetPostExtrapolationTime(){} // RVA: 0x7AEDFD8F0
+        public void SetPreExtrapolationTime(){} // RVA: 0x7AEDFD900
+        public void IsExtrapolatedTime(){} // RVA: 0x7AEDFD910
+        public void IsPreExtrapolatedTime(){} // RVA: 0x7AEDFD9C0
+        public void IsPostExtrapolatedTime(){} // RVA: 0x7AEDFDA20
+        public void get_extrapolatedStart(){} // RVA: 0x7AEDFDA90
+        public void get_extrapolatedDuration(){} // RVA: 0x7AEDFDAB0
+        public void GetExtrapolatedTime(){} // RVA: 0x7AEDFDBB0
+        public void CreateCurves(){} // RVA: 0x7AEDFDCF0
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7A98B32B0
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7AEDFB460
+        public void ToString(){} // RVA: 0x7AEDFDE80
+        public void ConformEaseValues(){} // RVA: 0x7AEDFE0D0
+        public void CalculateEasingRatio(){} // RVA: 0x7AEDFE230
+        public void UpdateDirty(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AEDFE320
     }
 
-    public class TimelineUndo
+    public class TimelineClipCapsExtensions : Object
     {
         // ── Methods ──
-        public void get_undoEnabled(){} // RVA: 0x2DD320
-        public void PushDestroyUndo(){} // RVA: 0x7047A40
-        public void PushUndo(){} // RVA: 0x2DD310 | overloaded x2
-        public void RegisterCreatedObjectUndo(){} // RVA: 0x2DD310
-        public void UndoName(){} // RVA: 0x7047B30
+        public void SupportsLooping(){} // RVA: 0x7AEE0EA10
+        public void SupportsExtrapolation(){} // RVA: 0x7AEE0EA30
+        public void SupportsClipIn(){} // RVA: 0x7AEE0EA60
+        public void SupportsSpeedMultiplier(){} // RVA: 0x7AEE0EA90
+        public void SupportsBlending(){} // RVA: 0x7AEE0EAC0
+        public void HasAll(){} // RVA: 0x7A9624BF0
+        public void HasAny(){} // RVA: 0x7AE7F23D0
     }
 
-    public class TrackAsset
+    public class TimelineClipExtensions : Object
     {
-        public int k_LatestVersion;
-        public int m_Version; // 0x18
-        public UnityEngine.AnimationClip m_AnimClip; // 0x20
-        public TransientBuildData s_BuildData;
-        public string kDefaultCurvesName;
-        public System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate; // 0x18
-        public System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnTrackAnimationPlayableCreate; // 0x20
-        public bool m_Locked; // 0x28
-        public bool m_Muted; // 0x29
-        public string m_CustomPlayableFullTypename; // 0x30
-        public UnityEngine.AnimationClip m_Curves; // 0x38
-        public UnityEngine.Playables.PlayableAsset m_Parent; // 0x40
-        public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Children; // 0x48
-        public int m_ItemsHash; // 0x50
-        public UnityEngine.Timeline.TimelineClip[] m_ClipsCache; // 0x58
-        public UnityEngine.Timeline.DiscreteTime m_Start; // 0x60
-        public UnityEngine.Timeline.DiscreteTime m_End; // 0x68
-        public bool m_CacheSorted; // 0x70
-        public bool m_BlendsValid; // 0x71
-        public System.Nullable`1<bool> m_SupportsNotifications; // 0x72
-        public UnityEngine.Timeline.TrackAsset[] s_EmptyCache; // 0x28
-        public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.TrackAsset> m_ChildTrackCache; // 0x78
-        public System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache; // 0x30
-        public System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> m_Clips; // 0x80
-
         // ── Methods ──
-        public void OnBeforeTrackSerialize(){} // RVA: 0x2DD310
-        public void OnAfterTrackDeserialize(){} // RVA: 0x2DD310
-        public void OnUpgradeFromVersion(){} // RVA: 0x2DD310
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7024620
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7024920
-        public void UpgradeToLatestVersion(){} // RVA: 0x2DD310
-        public void add_OnClipPlayableCreate(){} // RVA: 0x7024C30
-        public void remove_OnClipPlayableCreate(){} // RVA: 0x7024D90
-        public void add_OnTrackAnimationPlayableCreate(){} // RVA: 0x7024EF0
-        public void remove_OnTrackAnimationPlayableCreate(){} // RVA: 0x7025050
-        public void get_start(){} // RVA: 0x70251B0
-        public void get_end(){} // RVA: 0x7025250
-        public void get_duration(){} // RVA: 0x70252F0
-        public void get_muted(){} // RVA: 0xC36000
-        public void set_muted(){} // RVA: 0x190AB20
-        public void get_mutedInHierarchy(){} // RVA: 0x70253A0
-        public void get_timelineAsset(){} // RVA: 0x7025650
-        public void get_parent(){} // RVA: 0x35A740
-        public void set_parent(){} // RVA: 0x305200
-        public void GetClips(){} // RVA: 0x7025930
-        public void get_clips(){} // RVA: 0x7025940
-        public void get_blendsValid(){} // RVA: 0x5AAEFD0
-        public void set_blendsValid(){} // RVA: 0x5AAEFE0
-        public void get_isEmpty(){} // RVA: 0x7025AA0
-        public void get_hasClips(){} // RVA: 0x7025B50
-        public void get_hasCurves(){} // RVA: 0x7025BA0
-        public void get_isSubTrack(){} // RVA: 0x7025CD0
-        public void get_outputs(){} // RVA: 0x7025E50
-        public void GetChildTracks(){} // RVA: 0x7025F00
-        public void get_customPlayableTypename(){} // RVA: 0x6374D0
-        public void set_customPlayableTypename(){} // RVA: 0x30B890
-        public void get_curves(){} // RVA: 0x4976A0
-        public void set_curves(){} // RVA: 0x49B830
-        public void UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName(){} // RVA: 0x7025F20
-        public void UnityEngine.Timeline.ICurvesOwner.get_asset(){} // RVA: 0x1A3F520
-        public void UnityEngine.Timeline.ICurvesOwner.get_assetOwner(){} // RVA: 0x7025F60
-        public void UnityEngine.Timeline.ICurvesOwner.get_targetTrack(){} // RVA: 0x1A3F520
-        public void get_subTracksObjects(){} // RVA: 0x358730
-        public void get_locked(){} // RVA: 0x6E8A80
-        public void set_locked(){} // RVA: 0x6E8B80
-        public void get_lockedInHierarchy(){} // RVA: 0x7025F70
-        public void get_supportsNotifications(){} // RVA: 0x7026220
-        public void __internalAwake(){} // RVA: 0x70262B0
-        public void CreateCurves(){} // RVA: 0x7026470
-        public void CreateTrackMixer(){} // RVA: 0x70265D0
-        public void CreatePlayable(){} // RVA: 0x702BB40 | overloaded x2
-        public void CreateDefaultClip(){} // RVA: 0x70267A0
-        public void CreateClip(){} // RVA: 0x7026D50 | overloaded x2
-        public void DeleteClip(){} // RVA: 0x7026AF0
-        public void CreateMarker(){} // RVA: 0x283FA0 | overloaded x2
-        public void DeleteMarker(){} // RVA: 0x7026CB0
-        public void GetMarkers(){} // RVA: 0x7026CC0
-        public void GetMarkerCount(){} // RVA: 0x7026CF0
-        public void GetMarker(){} // RVA: 0x7026D40
-        public void CreateAndAddNewClipOfType(){} // RVA: 0x7026E90
-        public void CreateClipOfType(){} // RVA: 0x7026ED0
-        public void CreateClipFromPlayableAsset(){} // RVA: 0x70271C0
-        public void CreateClipFromAsset(){} // RVA: 0x70274F0
-        public void GetMarkersRaw(){} // RVA: 0x31C010
-        public void ClearMarkers(){} // RVA: 0x70277B0
-        public void AddMarker(){} // RVA: 0x7027820
-        public void DeleteMarkerRaw(){} // RVA: 0x7027830
-        public void GetTimeRangeHash(){} // RVA: 0x7027870
-        public void AddClip(){} // RVA: 0x7027AD0
-        public void CreateNotificationsPlayable(){} // RVA: 0x7027C10
-        public void CreatePlayableGraph(){} // RVA: 0x7028120
-        public void CompileClips(){} // RVA: 0x70284C0
-        public void GatherCompilableTracks(){} // RVA: 0x70289B0
-        public void GatherNotifications(){} // RVA: 0x7028C90
-        public void CreateMixerPlayableGraph(){} // RVA: 0x7028FA0
-        public void ConfigureTrackAnimation(){} // RVA: 0x7029900
-        public void SortClips(){} // RVA: 0x7029A60
-        public void ClearClipsInternal(){} // RVA: 0x7029CE0
-        public void ClearSubTracksInternal(){} // RVA: 0x7029E00
-        public void OnClipMove(){} // RVA: 0x7029ED0
-        public void CreateNewClipContainerInternal(){} // RVA: 0x7029F30
-        public void AddChild(){} // RVA: 0x702A360
-        public void MoveLastTrackBefore(){} // RVA: 0x702A4B0
-        public void RemoveSubTrack(){} // RVA: 0x702A840
-        public void RemoveClip(){} // RVA: 0x702A920
-        public void GetEvaluationTime(){} // RVA: 0x702A9F0
-        public void GetSequenceTime(){} // RVA: 0x702AC40
-        public void GatherProperties(){} // RVA: 0x702AC60
-        public void GetGameObjectBinding(){} // RVA: 0x702B320
-        public void ValidateClipType(){} // RVA: 0x702B610
-        public void OnCreateClip(){} // RVA: 0x2DD310
-        public void UpdateDuration(){} // RVA: 0x702B920
-        public void CalculateItemsHash(){} // RVA: 0x702BA90
-        public void Invalidate(){} // RVA: 0x702BEE0
-        public void GetNotificationDuration(){} // RVA: 0x702C010
-        public void CanCompileClips(){} // RVA: 0x702C210
-        public void CanCreateTrackMixer(){} // RVA: 0x5EBC7C0
-        public void IsCompilable(){} // RVA: 0x702C270
-        public void UpdateChildTrackCache(){} // RVA: 0x702C570
-        public void Hash(){} // RVA: 0x702C8B0
-        public void GetClipsHash(){} // RVA: 0x702C930
-        public void GetAnimationClipHash(){} // RVA: 0x702CBD0
-        public void HasNotifications(){} // RVA: 0x702CDC0
-        public void CanCompileNotifications(){} // RVA: 0x702CDF0
-        public void CanCreateMixerRecursive(){} // RVA: 0x702CE30
-        public void .ctor(){} // RVA: 0x702CFD0
-        public void .cctor(){} // RVA: 0x702D1B0
+        public void MoveToTrack(){} // RVA: 0x7AEE24FE0
+        public void TryMoveToTrack(){} // RVA: 0x7AEE25510
+        public void MoveToTrack_Impl(){} // RVA: 0x7AEE25830
+        public void .cctor(){} // RVA: 0x7AEE25AD0
     }
 
-    public class TrackAssetExtensions
+    public class TimelineCreateUtilities : Object
     {
         // ── Methods ──
-        public void GetGroup(){} // RVA: 0x7039780
-        public void SetGroup(){} // RVA: 0x70398B0
-        public void ComputeBlendsFromOverlaps(){} // RVA: 0x703A040
+        public void GenerateUniqueActorName(){} // RVA: 0x7AEE25B80
+        public void SaveAssetIntoObject(){} // RVA: 0x7AEE25ED0
+        public void RemoveAssetFromObject(){} // RVA: 0x7AEE260A0
+        public void CreateAnimationClipForTrack(){} // RVA: 0x7AEE26200
+        public void ValidateParentTrack(){} // RVA: 0x7AEE265E0
     }
 
-    public class TrackBindingTypeAttribute
+    public class TimelineHelpURLAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D66A50 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class TrackClipTypeAttribute
+    public class TimelinePlayable : PlayableBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
+        public void Create(){} // RVA: 0x7AEE1EF40
+        public void Compile(){} // RVA: 0x7AEE1F370
+        public void CompileTrackList(){} // RVA: 0x7AEE1F7E0
+        public void CreateTrackOutput(){} // RVA: 0x7AEE1FAB0
+        public void CreateTrackPlayable(){} // RVA: 0x7AEE20460
+        public void PrepareFrame(){} // RVA: 0x7AEE20A00
+        public void Evaluate(){} // RVA: 0x7AEE20A50
+        public void CacheTrack(){} // RVA: 0x7AEE21210
+        public void ForAOTCompilationOnly(){} // RVA: 0x7AEE212A0
+        public void AddPlayableOutputCallbacks(){} // RVA: 0x7AEE21300
+        public void AddOutputWeightProcessor(){} // RVA: 0x7AEE213A0
+        public void AddEvaluateCallback(){} // RVA: 0x7AEE21620
+        public void InvokeOutputCallbacks(){} // RVA: 0x7AEE217B0
+        public void TryGetCallbackList(){} // RVA: 0x7AEE22380
+        public void .ctor(){} // RVA: 0x7AEE22570
+        public void .cctor(){} // RVA: 0x7AEE22BF0
     }
 
-    public class TrackColorAttribute
+    public class TimelineUndo : Object
     {
-        public UnityEngine.Color m_Color; // 0x10
-
         // ── Methods ──
-        public void get_color(){} // RVA: 0x196ABE0
-        public void .ctor(){} // RVA: 0x702DD70
+        public void get_undoEnabled(){} // RVA: 0x7A80D7320
+        public void PushDestroyUndo(){} // RVA: 0x7AEE26A50
+        public void PushUndo(){} // RVA: 0x7A80D7310
+        public void RegisterCreatedObjectUndo(){} // RVA: 0x7A80D7310
+        public void UndoName(){} // RVA: 0x7AEE26B40
     }
 
-    public class TrackMediaType
+    public class TrackAsset : PlayableAsset
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
+        public void OnBeforeTrackSerialize(){} // RVA: 0x7A80D7310
+        public void OnAfterTrackDeserialize(){} // RVA: 0x7A80D7310
+        public void OnUpgradeFromVersion(){} // RVA: 0x7A80D7310
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7AEE034A0
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7AEE037C0
+        public void UpgradeToLatestVersion(){} // RVA: 0x7A80D7310
+        public void add_OnClipPlayableCreate(){} // RVA: 0x7AEE03AE0
+        public void remove_OnClipPlayableCreate(){} // RVA: 0x7AEE03C50
+        public void add_OnTrackAnimationPlayableCreate(){} // RVA: 0x7AEE03DC0
+        public void remove_OnTrackAnimationPlayableCreate(){} // RVA: 0x7AEE03F30
+        public void get_start(){} // RVA: 0x7AEE040A0
+        public void get_end(){} // RVA: 0x7AEE04140
+        public void get_duration(){} // RVA: 0x7AEE041E0
+        public void get_muted(){} // RVA: 0x7A89FCA90
+        public void set_muted(){} // RVA: 0x7A96C67C0
+        public void get_mutedInHierarchy(){} // RVA: 0x7AEE04290
+        public void get_timelineAsset(){} // RVA: 0x7AEE04540
+        public void get_parent(){} // RVA: 0x7A8154D80
+        public void set_parent(){} // RVA: 0x7A80FF440
+        public void GetClips(){} // RVA: 0x7AEE04820
+        public void get_clips(){} // RVA: 0x7AEE04830
+        public void get_blendsValid(){} // RVA: 0x7AD89C540
+        public void set_blendsValid(){} // RVA: 0x7AD89C550
+        public void get_isEmpty(){} // RVA: 0x7AEE04990
+        public void get_hasClips(){} // RVA: 0x7AEE04A40
+        public void get_hasCurves(){} // RVA: 0x7AEE04A90
+        public void get_isSubTrack(){} // RVA: 0x7AEE04BC0
+        public void get_outputs(){} // RVA: 0x7AEE04D40
+        public void GetChildTracks(){} // RVA: 0x7AEE04DF0
+        public void get_customPlayableTypename(){} // RVA: 0x7A83F69F0
+        public void set_customPlayableTypename(){} // RVA: 0x7A8105A90
+        public void get_curves(){} // RVA: 0x7A8292C30
+        public void set_curves(){} // RVA: 0x7A8296DE0
+        public void UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName(){} // RVA: 0x7AEE04E10
+        public void UnityEngine.Timeline.ICurvesOwner.get_asset(){} // RVA: 0x7A97F8BA0
+        public void UnityEngine.Timeline.ICurvesOwner.get_assetOwner(){} // RVA: 0x7AEE04E50
+        public void UnityEngine.Timeline.ICurvesOwner.get_targetTrack(){} // RVA: 0x7A97F8BA0
+        public void get_subTracksObjects(){} // RVA: 0x7A8152D80
+        public void get_locked(){} // RVA: 0x7A84A5BD0
+        public void set_locked(){} // RVA: 0x7A84A5CD0
+        public void get_lockedInHierarchy(){} // RVA: 0x7AEE04E60
+        public void get_supportsNotifications(){} // RVA: 0x7AEE05110
+        public void __internalAwake(){} // RVA: 0x7AEE051A0
+        public void CreateCurves(){} // RVA: 0x7AEE05360
+        public void CreateTrackMixer(){} // RVA: 0x7AEE054C0
+        public void CreatePlayable(){} // RVA: 0x7AEE0AAD0
+        public void CreateDefaultClip(){} // RVA: 0x7AEE05690
+        public void CreateClip(){} // RVA: 0x7AEE05C30
+        public void DeleteClip(){} // RVA: 0x7AEE059D0
+        public void CreateMarker(){} // RVA: 0x7A8051B10
+        public void DeleteMarker(){} // RVA: 0x7AEE05B90
+        public void GetMarkers(){} // RVA: 0x7AEE05BA0
+        public void GetMarkerCount(){} // RVA: 0x7AEE05BD0
+        public void GetMarker(){} // RVA: 0x7AEE05C20
+        public void CreateAndAddNewClipOfType(){} // RVA: 0x7AEE05D70
+        public void CreateClipOfType(){} // RVA: 0x7AEE05DB0
+        public void CreateClipFromPlayableAsset(){} // RVA: 0x7AEE060A0
+        public void CreateClipFromAsset(){} // RVA: 0x7AEE063D0
+        public void GetMarkersRaw(){} // RVA: 0x7A81163D0
+        public void ClearMarkers(){} // RVA: 0x7AEE06690
+        public void AddMarker(){} // RVA: 0x7AEE06700
+        public void DeleteMarkerRaw(){} // RVA: 0x7AEE06710
+        public void GetTimeRangeHash(){} // RVA: 0x7AEE06750
+        public void AddClip(){} // RVA: 0x7AEE069C0
+        public void CreateNotificationsPlayable(){} // RVA: 0x7AEE06B00
+        public void CreatePlayableGraph(){} // RVA: 0x7AEE07020
+        public void CompileClips(){} // RVA: 0x7AEE073C0
+        public void GatherCompilableTracks(){} // RVA: 0x7AEE078B0
+        public void GatherNotifications(){} // RVA: 0x7AEE07BA0
+        public void CreateMixerPlayableGraph(){} // RVA: 0x7AEE07EC0
+        public void ConfigureTrackAnimation(){} // RVA: 0x7AEE08810
+        public void SortClips(){} // RVA: 0x7AEE08970
+        public void ClearClipsInternal(){} // RVA: 0x7AEE08BF0
+        public void ClearSubTracksInternal(){} // RVA: 0x7AEE08D10
+        public void OnClipMove(){} // RVA: 0x7AEE08DE0
+        public void CreateNewClipContainerInternal(){} // RVA: 0x7AEE08E40
+        public void AddChild(){} // RVA: 0x7AEE09290
+        public void MoveLastTrackBefore(){} // RVA: 0x7AEE093E0
+        public void RemoveSubTrack(){} // RVA: 0x7AEE09780
+        public void RemoveClip(){} // RVA: 0x7AEE09860
+        public void GetEvaluationTime(){} // RVA: 0x7AEE09930
+        public void GetSequenceTime(){} // RVA: 0x7AEE09BB0
+        public void GatherProperties(){} // RVA: 0x7AEE09BD0
+        public void GetGameObjectBinding(){} // RVA: 0x7AEE0A2B0
+        public void ValidateClipType(){} // RVA: 0x7AEE0A5A0
+        public void OnCreateClip(){} // RVA: 0x7A80D7310
+        public void UpdateDuration(){} // RVA: 0x7AEE0A8B0
+        public void CalculateItemsHash(){} // RVA: 0x7AEE0AA20
+        public void Invalidate(){} // RVA: 0x7AEE0AE70
+        public void GetNotificationDuration(){} // RVA: 0x7AEE0AFA0
+        public void CanCompileClips(){} // RVA: 0x7AEE0B1D0
+        public void CanCreateTrackMixer(){} // RVA: 0x7ADCAB2E0
+        public void IsCompilable(){} // RVA: 0x7AEE0B230
+        public void UpdateChildTrackCache(){} // RVA: 0x7AEE0B540
+        public void Hash(){} // RVA: 0x7AEE0B8A0
+        public void GetClipsHash(){} // RVA: 0x7AEE0B920
+        public void GetAnimationClipHash(){} // RVA: 0x7AEE0BBD0
+        public void HasNotifications(){} // RVA: 0x7AEE0BDD0
+        public void CanCompileNotifications(){} // RVA: 0x7AEE0BE00
+        public void CanCreateMixerRecursive(){} // RVA: 0x7AEE0BE40
+        public void .ctor(){} // RVA: 0x7AEE0BFE0
+        public void .cctor(){} // RVA: 0x7AEE0C1C0
     }
 
-    public class WeightUtility
+    public class TrackAssetExtensions : Object
     {
         // ── Methods ──
-        public void NormalizeMixer(){} // RVA: 0x704A7D0
+        public void GetGroup(){} // RVA: 0x7AEE18650
+        public void SetGroup(){} // RVA: 0x7AEE18770
+        public void ComputeBlendsFromOverlaps(){} // RVA: 0x7AEE18F00
+    }
+
+    public class TrackBindingTypeAttribute : Attribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9B6A000
+    }
+
+    public class TrackClipTypeAttribute : Attribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D8E20
+    }
+
+    public class TrackColorAttribute : Attribute
+    {
+        // ── Methods ──
+        public void get_color(){} // RVA: 0x7A97277F0
+        public void .ctor(){} // RVA: 0x7AEE0CD90
+    }
+
+    public class TrackMediaType : Attribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+    }
+
+    public class WeightUtility : Object
+    {
+        // ── Methods ──
+        public void NormalizeMixer(){} // RVA: 0x7AEE297C0
     }
 
 }

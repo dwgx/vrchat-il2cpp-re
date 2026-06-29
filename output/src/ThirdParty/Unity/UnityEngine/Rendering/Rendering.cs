@@ -1,603 +1,962 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Rendering
-// Classes: 41
-// Methods: 406
+// Classes: 55
+// Methods: 679
 
 namespace ThirdParty.Unity.UnityEngine.Rendering
 {
-    public class AsyncGPUReadback
+    public class AsyncGPUReadback : Object
     {
         // ── Methods ──
-        public void ValidateFormat(){} // RVA: 0x714E950
-        public void WaitAllRequests(){} // RVA: 0x714EAE0
-        public void Request(){} // RVA: 0x714F170 | overloaded x6
-        public void Request_Internal_Texture_1(){} // RVA: 0x714F2E0
-        public void Request_Internal_Texture_2(){} // RVA: 0x714F370
-        public void Request_Internal_Texture_3(){} // RVA: 0x714F400
-        public void Request_Internal_Texture_4(){} // RVA: 0x714F4D0
-        public void Request_Internal_Texture_1_Injected(){} // RVA: 0x714F5B0
-        public void Request_Internal_Texture_2_Injected(){} // RVA: 0x714F630
-        public void Request_Internal_Texture_3_Injected(){} // RVA: 0x714F6B0
-        public void Request_Internal_Texture_4_Injected(){} // RVA: 0x714F730
+        public void ValidateFormat(){} // RVA: 0x7AEF2D9D0
+        public void WaitAllRequests(){} // RVA: 0x7AEF2DB60
+        public void Request(){} // RVA: 0x7AEF2E1F0
+        public void Request_Internal_Texture_1(){} // RVA: 0x7AEF2E360
+        public void Request_Internal_Texture_2(){} // RVA: 0x7AEF2E3F0
+        public void Request_Internal_Texture_3(){} // RVA: 0x7AEF2E480
+        public void Request_Internal_Texture_4(){} // RVA: 0x7AEF2E550
+        public void Request_Internal_Texture_1_Injected(){} // RVA: 0x7AEF2E630
+        public void Request_Internal_Texture_2_Injected(){} // RVA: 0x7AEF2E6B0
+        public void Request_Internal_Texture_3_Injected(){} // RVA: 0x7AEF2E730
+        public void Request_Internal_Texture_4_Injected(){} // RVA: 0x7AEF2E7B0
     }
 
-    public class AsyncGPUReadbackRequest
-    {
-        public UIntPtr m_Ptr; // 0x10
-        public int m_Version; // 0x18
-
-        // ── Methods ──
-        public void GetData(){} // RVA: 0x283FA0
-        public void get_done(){} // RVA: 0x714E660
-        public void get_hasError(){} // RVA: 0x714E6B0
-        public void get_layerCount(){} // RVA: 0x714E700
-        public void get_layerDataSize(){} // RVA: 0x714E750
-        public void get_width(){} // RVA: 0x714E7A0
-        public void get_height(){} // RVA: 0x714E7F0
-        public void get_depth(){} // RVA: 0x714E840
-        public void IsDone(){} // RVA: 0x714E660
-        public void HasError(){} // RVA: 0x714E6B0
-        public void GetLayerCount(){} // RVA: 0x714E700
-        public void GetLayerDataSize(){} // RVA: 0x714E750
-        public void GetWidth(){} // RVA: 0x714E7A0
-        public void GetHeight(){} // RVA: 0x714E7F0
-        public void GetDepth(){} // RVA: 0x714E840
-        public void SetScriptingCallback(){} // RVA: 0x714E890
-        public void GetDataRaw(){} // RVA: 0x714E8F0
-        public void IsDone_Injected(){} // RVA: 0x714E660
-        public void HasError_Injected(){} // RVA: 0x714E6B0
-        public void GetLayerCount_Injected(){} // RVA: 0x714E700
-        public void GetLayerDataSize_Injected(){} // RVA: 0x714E750
-        public void GetWidth_Injected(){} // RVA: 0x714E7A0
-        public void GetHeight_Injected(){} // RVA: 0x714E7F0
-        public void GetDepth_Injected(){} // RVA: 0x714E840
-        public void SetScriptingCallback_Injected(){} // RVA: 0x714E890
-        public void GetDataRaw_Injected(){} // RVA: 0x714E8F0
-    }
-
-    public class AsyncRequestNativeArrayData
-    {
-    }
-
-    public class BatchCullingContext
+    public class AsyncGPUReadbackRequest : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7158440
+        public void GetData(){} // RVA: 0x7A8051B10
+        public void get_done(){} // RVA: 0x7A7EE09B0
+        public void get_hasError(){} // RVA: 0x7A7EE0A00
+        public void get_layerCount(){} // RVA: 0x7A7EE0A50
+        public void get_layerDataSize(){} // RVA: 0x7A7EE0AA0
+        public void get_width(){} // RVA: 0x7A7EE0AF0
+        public void get_height(){} // RVA: 0x7A7EE0B40
+        public void get_depth(){} // RVA: 0x7A7EE0B90
+        public void IsDone(){} // RVA: 0x7A7EE09B0
+        public void HasError(){} // RVA: 0x7A7EE0A00
+        public void GetLayerCount(){} // RVA: 0x7A7EE0A50
+        public void GetLayerDataSize(){} // RVA: 0x7A7EE0AA0
+        public void GetWidth(){} // RVA: 0x7A7EE0AF0
+        public void GetHeight(){} // RVA: 0x7A7EE0B40
+        public void GetDepth(){} // RVA: 0x7A7EE0B90
+        public void SetScriptingCallback(){} // RVA: 0x7A7EE0BE0
+        public void GetDataRaw(){} // RVA: 0x7A7EE0BF0
+        public void IsDone_Injected(){} // RVA: 0x7AEF2D6E0
+        public void HasError_Injected(){} // RVA: 0x7AEF2D730
+        public void GetLayerCount_Injected(){} // RVA: 0x7AEF2D780
+        public void GetLayerDataSize_Injected(){} // RVA: 0x7AEF2D7D0
+        public void GetWidth_Injected(){} // RVA: 0x7AEF2D820
+        public void GetHeight_Injected(){} // RVA: 0x7AEF2D870
+        public void GetDepth_Injected(){} // RVA: 0x7AEF2D8C0
+        public void SetScriptingCallback_Injected(){} // RVA: 0x7AEF2D910
+        public void GetDataRaw_Injected(){} // RVA: 0x7AEF2D970
     }
 
-    public class BatchCullingOutput
-    {
-    }
-
-    public class BatchCullingOutputDrawCommands
-    {
-    }
-
-    public class BatchDrawCommand
-    {
-    }
-
-    public class BatchDrawRange
-    {
-    }
-
-    public class BatchFilterSettings
-    {
-    }
-
-    public class BatchID
-    {
-        // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x67FD0D0
-        public void Equals(){} // RVA: 0x70BC7E0 | overloaded x2
-        public void .cctor(){} // RVA: 0x71581A0
-    }
-
-    public class BatchMaterialID
+    public class AsyncGPUReadbackRequest[] : Array
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x67FD0D0
-        public void Equals(){} // RVA: 0x70BC7E0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7158280
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class BatchMeshID
+    public class AsyncRequestNativeArrayData[] : Array
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x67FD0D0
-        public void Equals(){} // RVA: 0x70BC7E0 | overloaded x2
-        public void .cctor(){} // RVA: 0x7158360
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class BatchPackedCullingViewID
+    public class BatchCullingContext : ValueType
     {
         // ── Methods ──
-        public void GetHashCode(){} // RVA: 0x71583A0
-        public void Equals(){} // RVA: 0x71583B0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A7EE1450
     }
 
-    public class BatchRendererCullingOutput
-    {
-    }
-
-    public class BatchRendererGroup
+    public class BatchCullingContext[] : Array
     {
         // ── Methods ──
-        public void InvokeOnPerformCulling(){} // RVA: 0x71584F0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class CameraEventUtils
+    public class BatchID : ValueType
     {
         // ── Methods ──
-        public void IsValid(){} // RVA: 0x714F7C0
+        public void GetHashCode(){} // RVA: 0x7A79EAED0
+        public void Equals(){} // RVA: 0x7A7EDA7E0
+        public void .cctor(){} // RVA: 0x7AEF37260
     }
 
-    public class CameraProperties
+    public class BatchID[] : Array
     {
         // ── Methods ──
-        public void GetShadowCullingPlane(){} // RVA: 0x7158BE0
-        public void GetCameraCullingPlane(){} // RVA: 0x7158CF0
-        public void Equals(){} // RVA: 0x715A6B0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x715A7F0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class CommandBuffer
-    {
-        public UIntPtr m_Ptr; // 0x10
-
-        // ── Methods ──
-        public void WaitAllAsyncReadbackRequests(){} // RVA: 0x7150E70
-        public void RequestAsyncReadback(){} // RVA: 0x71511F0 | overloaded x5
-        public void Internal_RequestAsyncReadback_1(){} // RVA: 0x71512D0
-        public void Internal_RequestAsyncReadback_4(){} // RVA: 0x7151350
-        public void Internal_RequestAsyncReadback_5(){} // RVA: 0x71513E0
-        public void Internal_RequestAsyncReadback_6(){} // RVA: 0x7151470
-        public void Internal_RequestAsyncReadback_8(){} // RVA: 0x7151500
-        public void Internal_SetSinglePassStereo(){} // RVA: 0x7151580
-        public void InitBuffer(){} // RVA: 0x71515E0
-        public void WaitOnGPUFence_Internal(){} // RVA: 0x7151630
-        public void ReleaseBuffer(){} // RVA: 0x71516A0
-        public void SetComputeFloatParam(){} // RVA: 0x7154470 | overloaded x2
-        public void SetComputeIntParam(){} // RVA: 0x7154530 | overloaded x2
-        public void SetComputeVectorParam(){} // RVA: 0x71545C0 | overloaded x2
-        public void Internal_SetComputeFloats(){} // RVA: 0x7151870
-        public void Internal_SetComputeTextureParam(){} // RVA: 0x71518F0
-        public void Internal_SetComputeBufferParam(){} // RVA: 0x7151980
-        public void Internal_SetComputeGraphicsBufferParam(){} // RVA: 0x7151A10
-        public void Internal_DispatchCompute(){} // RVA: 0x7151AA0
-        public void set_name(){} // RVA: 0x7151B30
-        public void Clear(){} // RVA: 0x7151B90
-        public void Internal_DrawMesh(){} // RVA: 0x7151BE0
-        public void Internal_DrawRenderer(){} // RVA: 0x7151C80
-        public void Internal_DrawMeshInstancedIndirectGraphicsBuffer(){} // RVA: 0x7151D10
-        public void SetViewport(){} // RVA: 0x7151DA0
-        public void CopyTexture_Internal(){} // RVA: 0x7151E00
-        public void Blit_Texture(){} // RVA: 0x7151E90
-        public void Blit_Identifier(){} // RVA: 0x7151F50
-        public void GetTemporaryRT(){} // RVA: 0x7152770 | overloaded x11
-        public void GetTemporaryRTWithDescriptor(){} // RVA: 0x7152650
-        public void ReleaseTemporaryRT(){} // RVA: 0x7152800
-        public void ClearRenderTarget(){} // RVA: 0x71528F0 | overloaded x2
-        public void SetGlobalFloat(){} // RVA: 0x71529F0
-        public void SetGlobalInteger(){} // RVA: 0x7152A60
-        public void SetGlobalVector(){} // RVA: 0x7152AD0
-        public void SetGlobalColor(){} // RVA: 0x7152B40
-        public void EnableShaderKeyword(){} // RVA: 0x7152BB0
-        public void DisableShaderKeyword(){} // RVA: 0x7152C10
-        public void SetViewProjectionMatrices(){} // RVA: 0x7152C70
-        public void SetExecutionFlags(){} // RVA: 0x7152CE0
-        public void ValidateAgainstExecutionFlags(){} // RVA: 0x7152D40
-        public void SetGlobalTexture_Impl(){} // RVA: 0x7152DB0
-        public void SetGlobalGraphicsBufferInternal(){} // RVA: 0x7152E30
-        public void BeginSample(){} // RVA: 0x7152EA0
-        public void EndSample(){} // RVA: 0x7152F00
-        public void IssuePluginEventAndDataInternal(){} // RVA: 0x7152F60
-        public void SetRenderTarget(){} // RVA: 0x7153A60 | overloaded x7
-        public void SetRenderTargetSingle_Internal(){} // RVA: 0x7153CF0
-        public void SetRenderTargetColorDepth_Internal(){} // RVA: 0x7153D90
-        public void SetRenderTargetMulti_Internal(){} // RVA: 0x7153E40
-        public void Finalize(){} // RVA: 0x7153EF0
-        public void Dispose(){} // RVA: 0x7154020 | overloaded x2
-        public void .ctor(){} // RVA: 0x7154080
-        public void Release(){} // RVA: 0x71540D0
-        public void WaitOnAsyncGraphicsFence(){} // RVA: 0x7154390 | overloaded x3
-        public void SetComputeFloatParams(){} // RVA: 0x7154690
-        public void SetComputeTextureParam(){} // RVA: 0x71548D0 | overloaded x3
-        public void SetComputeBufferParam(){} // RVA: 0x7151A10 | overloaded x3
-        public void DispatchCompute(){} // RVA: 0x7151AA0
-        public void DrawMesh(){} // RVA: 0x7154ED0 | overloaded x2
-        public void DrawRenderer(){} // RVA: 0x71552E0 | overloaded x3
-        public void DrawMeshInstancedIndirect(){} // RVA: 0x7155780 | overloaded x2
-        public void CopyTexture(){} // RVA: 0x7155890 | overloaded x2
-        public void Blit(){} // RVA: 0x7155CF0 | overloaded x4
-        public void SetGlobalTexture(){} // RVA: 0x7155F20 | overloaded x3
-        public void SetGlobalBuffer(){} // RVA: 0x7152E30
-        public void SetSinglePassStereo(){} // RVA: 0x7151580
-        public void IssuePluginEventAndData(){} // RVA: 0x7155F40
-        public void SetComputeVectorParam_Injected(){} // RVA: 0x7156060
-        public void Internal_DrawMesh_Injected(){} // RVA: 0x71560E0
-        public void SetViewport_Injected(){} // RVA: 0x7156170
-        public void Blit_Texture_Injected(){} // RVA: 0x71561D0
-        public void Blit_Identifier_Injected(){} // RVA: 0x7156260
-        public void GetTemporaryRTWithDescriptor_Injected(){} // RVA: 0x71562F0
-        public void ClearRenderTarget_Injected(){} // RVA: 0x7156370
-        public void SetGlobalVector_Injected(){} // RVA: 0x71563F0
-        public void SetGlobalColor_Injected(){} // RVA: 0x7156460
-        public void SetViewProjectionMatrices_Injected(){} // RVA: 0x71564D0
-        public void SetRenderTargetSingle_Internal_Injected(){} // RVA: 0x7156540
-        public void SetRenderTargetColorDepth_Internal_Injected(){} // RVA: 0x71565D0
-        public void SetRenderTargetMulti_Internal_Injected(){} // RVA: 0x7156660
-    }
-
-    public class CoreCameraValues
+    public class BatchMaterialID : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x7158B00 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x7158BC0
+        public void GetHashCode(){} // RVA: 0x7A79EAED0
+        public void Equals(){} // RVA: 0x7A7EDA7E0
+        public void .cctor(){} // RVA: 0x7AEF37340
     }
 
-    public class CullingSplit
-    {
-    }
-
-    public class GraphicsFence
+    public class BatchMaterialID[] : Array
     {
         // ── Methods ──
-        public void TranslateSynchronizationStageToFlags(){} // RVA: 0x7150790
-        public void InitPostAllocation(){} // RVA: 0x71507A0
-        public void IsFencePending(){} // RVA: 0x71508A0
-        public void Validate(){} // RVA: 0x7150920
-        public void GetPlatformNotSupportedVersion(){} // RVA: 0x71509D0
-        public void GetVersionNumber(){} // RVA: 0x71509E0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class GraphicsSettings
-    {
-        public object lightmaps;
-        public object lightmapsMode;
-
-        // ── Methods ──
-        public void get_lightsUseLinearIntensity(){} // RVA: 0x7150A30
-        public void get_defaultRenderingLayerMask(){} // RVA: 0x7150A80
-        public void get_INTERNAL_currentRenderPipeline(){} // RVA: 0x7150AD0
-        public void get_currentRenderPipeline(){} // RVA: 0x7150B20
-        public void get_INTERNAL_defaultRenderPipeline(){} // RVA: 0x7150BE0
-        public void get_defaultRenderPipeline(){} // RVA: 0x7150C30
-        public void GetShaderMode(){} // RVA: 0x7150CF0
-    }
-
-    public class LODParameters
+    public class BatchMeshID : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x715BE10 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x715BEC0
+        public void GetHashCode(){} // RVA: 0x7A79EAED0
+        public void Equals(){} // RVA: 0x7A7EDA7E0
+        public void .cctor(){} // RVA: 0x7AEF37420
     }
 
-    public class LocalKeyword
+    public class BatchMeshID[] : Array
     {
         // ── Methods ──
-        public void ToString(){} // RVA: 0x5F1D510
-        public void Equals(){} // RVA: 0x715F220 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x715F270
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class LocalKeywordSpace
+    public class BatchPackedCullingViewID : ValueType
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x40B42E0 | overloaded x2
-        public void op_Equality(){} // RVA: 0x715F300
-        public void GetHashCode(){} // RVA: 0x67FD0D0
+        public void GetHashCode(){} // RVA: 0x7A7EE13B0
+        public void Equals(){} // RVA: 0x7A7EE13C0
     }
 
-    public class ObjectIdRequest
-    {
-        public UnityEngine.RenderTexture renderingLayerMaskNames; // 0x10
-
-        // ── Methods ──
-        public void get_destination(){} // RVA: 0x2F8380
-    }
-
-    public class OnDemandRendering
-    {
-        public int m_RenderFrameInterval;
-
-        // ── Methods ──
-        public void get_renderFrameInterval(){} // RVA: 0x7150D40
-        public void GetRenderFrameInterval(){} // RVA: 0x7150DA0
-        public void .cctor(){} // RVA: 0x7150E30
-    }
-
-    public class ReflectionProbeBlendInfo
-    {
-    }
-
-    public class RenderPipeline
-    {
-        public bool <disposed>k__BackingField; // 0x10
-
-        // ── Methods ──
-        public void Render(){} // RVA: 0x715BF80 | overloaded x2
-        public void ProcessRenderRequests(){} // RVA: 0x283FA0
-        public void IsRenderRequestSupported(){} // RVA: 0x283FA0
-        public void InternalRender(){} // RVA: 0x715C000
-        public void InternalProcessRenderRequests(){} // RVA: 0x283FA0
-        public void get_disposed(){} // RVA: 0x3A75E0
-        public void set_disposed(){} // RVA: 0x3A75F0
-        public void Dispose(){} // RVA: 0x2DD310 | overloaded x2
-    }
-
-    public class RenderPipelineAsset
+    public class BatchRendererCullingOutput[] : Array
     {
         // ── Methods ──
-        public void InternalCreatePipeline(){} // RVA: 0x715C100
-        public void get_renderingLayerMaskNames(){} // RVA: 0x519240
-        public void get_prefixedRenderingLayerMaskNames(){} // RVA: 0x519240
-        public void get_defaultMaterial(){} // RVA: 0x519240
-        public void get_autodeskInteractiveShader(){} // RVA: 0x519240
-        public void get_autodeskInteractiveTransparentShader(){} // RVA: 0x519240
-        public void get_autodeskInteractiveMaskedShader(){} // RVA: 0x519240
-        public void get_terrainDetailLitShader(){} // RVA: 0x519240
-        public void get_terrainDetailGrassShader(){} // RVA: 0x519240
-        public void get_terrainDetailGrassBillboardShader(){} // RVA: 0x519240
-        public void get_defaultParticleMaterial(){} // RVA: 0x519240
-        public void get_defaultLineMaterial(){} // RVA: 0x519240
-        public void get_defaultTerrainMaterial(){} // RVA: 0x519240
-        public void get_defaultUIMaterial(){} // RVA: 0x519240
-        public void get_defaultUIOverdrawMaterial(){} // RVA: 0x519240
-        public void get_defaultUIETC1SupportedMaterial(){} // RVA: 0x519240
-        public void get_default2DMaterial(){} // RVA: 0x519240
-        public void get_default2DMaskMaterial(){} // RVA: 0x519240
-        public void get_defaultShader(){} // RVA: 0x519240
-        public void get_defaultSpeedTree7Shader(){} // RVA: 0x519240
-        public void get_defaultSpeedTree8Shader(){} // RVA: 0x519240
-        public void get_renderPipelineShaderTag(){} // RVA: 0x715C2E0
-        public void CreatePipeline(){} // RVA: 0xCD60
-        public void OnValidate(){} // RVA: 0x715C320
-        public void OnDisable(){} // RVA: 0x715C490
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class RenderPipelineManager
+    public class BatchRendererGroup : Object
     {
-        public UnityEngine.Rendering.RenderPipelineAsset cullingPlaneCount;
-
         // ── Methods ──
-        public void get_currentPipeline(){} // RVA: 0x715C4E0
-        public void set_currentPipeline(){} // RVA: 0x715C540
-        public void add_beginCameraRendering(){} // RVA: 0x715C6D0
-        public void remove_beginCameraRendering(){} // RVA: 0x715C830
-        public void add_endCameraRendering(){} // RVA: 0x715C990
-        public void remove_endCameraRendering(){} // RVA: 0x715CAF0
-        public void OnActiveRenderPipelineTypeChanged(){} // RVA: 0x715CC50
-        public void OnActiveRenderPipelineAssetChanged(){} // RVA: 0x715CCC0
-        public void HandleRenderPipelineChange(){} // RVA: 0x715CDD0
-        public void CleanupRenderPipeline(){} // RVA: 0x715CEB0
-        public void GetCurrentPipelineAssetType(){} // RVA: 0x715D190
-        public void DoRenderLoop_Internal(){} // RVA: 0x715D1F0
-        public void PrepareRenderPipeline(){} // RVA: 0x715D690
-        public void IsPipelineRequireCreation(){} // RVA: 0x715D950
-        public void .cctor(){} // RVA: 0x715DAB0
+        public void InvokeOnPerformCulling(){} // RVA: 0x7AEF375B0
     }
 
-    public class RenderTargetIdentifier
+    public class BatchRendererGroup[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7150110 | overloaded x5
-        public void op_Implicit(){} // RVA: 0x7150240 | overloaded x4
-        public void ToString(){} // RVA: 0x71502A0
-        public void GetHashCode(){} // RVA: 0x71505E0
-        public void Equals(){} // RVA: 0x7150680 | overloaded x2
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ScriptableCullingParameters
+    public class CameraEventUtils : Object
     {
-        public int m_IsOrthographic; // 0x10
-
         // ── Methods ──
-        public void get_cullingPlaneCount(){} // RVA: 0x715B050
-        public void GetLayerCullingDistance(){} // RVA: 0x715B060
-        public void GetCullingPlane(){} // RVA: 0x715B160
-        public void Equals(){} // RVA: 0x715B9B0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x715BA80
-        public void .cctor(){} // RVA: 0x715BCE0
+        public void IsValid(){} // RVA: 0x7AEF2E840
     }
 
-    public class ScriptableRenderContext
+    public class CameraProperties : ValueType
     {
         // ── Methods ──
-        public void GetCameras_Internal(){} // RVA: 0x715DC80
-        public void .ctor(){} // RVA: 0x1B12320
-        public void GetCameras(){} // RVA: 0x715DD30
-        public void Equals(){} // RVA: 0x715DEF0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x67FD0D0
-        public void .cctor(){} // RVA: 0x715DF90
-        public void GetCameras_Internal_Injected(){} // RVA: 0x715E030
+        public void GetShadowCullingPlane(){} // RVA: 0x7A7EE1F10
+        public void GetCameraCullingPlane(){} // RVA: 0x7A7EE1F40
+        public void Equals(){} // RVA: 0x7A7EE2020
+        public void GetHashCode(){} // RVA: 0x7A7EE2160
     }
 
-    public class ShaderTagId
+    public class CameraProperties[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x715E0A0
-        public void Equals(){} // RVA: 0x70BC7E0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x715E180
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class SortingGroup
+    public class CommandBuffer : Object
     {
-        public object mode;
-        public object radius;
-        public object windMain;
-        public object windTurbulence;
-        public object windPulseMagnitude;
-        public object windPulseFrequency;
-        public object _invalidSortingGroupID;
-
         // ── Methods ──
-        public void get_invalidSortingGroupID(){} // RVA: 0x715F310
-        public void UpdateAllSortingGroups(){} // RVA: 0x715F360
-        public void GetSortingGroupByIndex(){} // RVA: 0x715F3B0
-        public void get_sortingLayerName(){} // RVA: 0x715F400
-        public void set_sortingLayerName(){} // RVA: 0x715F450
-        public void get_sortingLayerID(){} // RVA: 0x715F4B0
-        public void set_sortingLayerID(){} // RVA: 0x715F500
-        public void get_sortingOrder(){} // RVA: 0x715F560
-        public void set_sortingOrder(){} // RVA: 0x715F5B0
-        public void get_sortAtRoot(){} // RVA: 0x715F610
-        public void set_sortAtRoot(){} // RVA: 0x715F660
-        public void get_sortingGroupID(){} // RVA: 0x715F6C0
-        public void get_sortingGroupOrder(){} // RVA: 0x715F710
-        public void get_index(){} // RVA: 0x715F760
-        public void get_sortingKey(){} // RVA: 0x715F7B0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void WaitAllAsyncReadbackRequests(){} // RVA: 0x7AEF2FED0
+        public void RequestAsyncReadback(){} // RVA: 0x7AEF30250
+        public void Internal_RequestAsyncReadback_1(){} // RVA: 0x7AEF30330
+        public void Internal_RequestAsyncReadback_4(){} // RVA: 0x7AEF303B0
+        public void Internal_RequestAsyncReadback_5(){} // RVA: 0x7AEF30440
+        public void Internal_RequestAsyncReadback_6(){} // RVA: 0x7AEF304D0
+        public void Internal_RequestAsyncReadback_8(){} // RVA: 0x7AEF30560
+        public void Internal_SetSinglePassStereo(){} // RVA: 0x7AEF305E0
+        public void InitBuffer(){} // RVA: 0x7AEF30640
+        public void WaitOnGPUFence_Internal(){} // RVA: 0x7AEF30690
+        public void ReleaseBuffer(){} // RVA: 0x7AEF30700
+        public void SetComputeFloatParam(){} // RVA: 0x7AEF334D0
+        public void SetComputeIntParam(){} // RVA: 0x7AEF33590
+        public void SetComputeVectorParam(){} // RVA: 0x7AEF33620
+        public void Internal_SetComputeFloats(){} // RVA: 0x7AEF308D0
+        public void Internal_SetComputeTextureParam(){} // RVA: 0x7AEF30950
+        public void Internal_SetComputeBufferParam(){} // RVA: 0x7AEF309E0
+        public void Internal_SetComputeGraphicsBufferParam(){} // RVA: 0x7AEF30A70
+        public void Internal_DispatchCompute(){} // RVA: 0x7AEF30B00
+        public void set_name(){} // RVA: 0x7AEF30B90
+        public void Clear(){} // RVA: 0x7AEF30BF0
+        public void Internal_DrawMesh(){} // RVA: 0x7AEF30C40
+        public void Internal_DrawRenderer(){} // RVA: 0x7AEF30CE0
+        public void Internal_DrawMeshInstancedIndirectGraphicsBuffer(){} // RVA: 0x7AEF30D70
+        public void SetViewport(){} // RVA: 0x7AEF30E00
+        public void CopyTexture_Internal(){} // RVA: 0x7AEF30E60
+        public void Blit_Texture(){} // RVA: 0x7AEF30EF0
+        public void Blit_Identifier(){} // RVA: 0x7AEF30FB0
+        public void GetTemporaryRT(){} // RVA: 0x7AEF317D0
+        public void GetTemporaryRTWithDescriptor(){} // RVA: 0x7AEF316B0
+        public void ReleaseTemporaryRT(){} // RVA: 0x7AEF31860
+        public void ClearRenderTarget(){} // RVA: 0x7AEF31950
+        public void SetGlobalFloat(){} // RVA: 0x7AEF31A50
+        public void SetGlobalInteger(){} // RVA: 0x7AEF31AC0
+        public void SetGlobalVector(){} // RVA: 0x7AEF31B30
+        public void SetGlobalColor(){} // RVA: 0x7AEF31BA0
+        public void EnableShaderKeyword(){} // RVA: 0x7AEF31C10
+        public void DisableShaderKeyword(){} // RVA: 0x7AEF31C70
+        public void SetViewProjectionMatrices(){} // RVA: 0x7AEF31CD0
+        public void SetExecutionFlags(){} // RVA: 0x7AEF31D40
+        public void ValidateAgainstExecutionFlags(){} // RVA: 0x7AEF31DA0
+        public void SetGlobalTexture_Impl(){} // RVA: 0x7AEF31E10
+        public void SetGlobalGraphicsBufferInternal(){} // RVA: 0x7AEF31E90
+        public void BeginSample(){} // RVA: 0x7AEF31F00
+        public void EndSample(){} // RVA: 0x7AEF31F60
+        public void IssuePluginEventAndDataInternal(){} // RVA: 0x7AEF31FC0
+        public void SetRenderTarget(){} // RVA: 0x7AEF32AC0
+        public void SetRenderTargetSingle_Internal(){} // RVA: 0x7AEF32D50
+        public void SetRenderTargetColorDepth_Internal(){} // RVA: 0x7AEF32DF0
+        public void SetRenderTargetMulti_Internal(){} // RVA: 0x7AEF32EA0
+        public void Finalize(){} // RVA: 0x7AEF32F50
+        public void Dispose(){} // RVA: 0x7AEF33080
+        public void .ctor(){} // RVA: 0x7AEF330E0
+        public void Release(){} // RVA: 0x7AEF33130
+        public void WaitOnAsyncGraphicsFence(){} // RVA: 0x7AEF333F0
+        public void SetComputeFloatParams(){} // RVA: 0x7AEF336F0
+        public void SetComputeTextureParam(){} // RVA: 0x7AEF33930
+        public void SetComputeBufferParam(){} // RVA: 0x7AEF30A70
+        public void DispatchCompute(){} // RVA: 0x7AEF30B00
+        public void DrawMesh(){} // RVA: 0x7AEF33F30
+        public void DrawRenderer(){} // RVA: 0x7AEF34340
+        public void DrawMeshInstancedIndirect(){} // RVA: 0x7AEF347E0
+        public void CopyTexture(){} // RVA: 0x7AEF348F0
+        public void Blit(){} // RVA: 0x7AEF34D50
+        public void SetGlobalTexture(){} // RVA: 0x7AEF34F80
+        public void SetGlobalBuffer(){} // RVA: 0x7AEF31E90
+        public void SetSinglePassStereo(){} // RVA: 0x7AEF305E0
+        public void IssuePluginEventAndData(){} // RVA: 0x7AEF34FA0
+        public void SetComputeVectorParam_Injected(){} // RVA: 0x7AEF350C0
+        public void Internal_DrawMesh_Injected(){} // RVA: 0x7AEF35140
+        public void SetViewport_Injected(){} // RVA: 0x7AEF351D0
+        public void Blit_Texture_Injected(){} // RVA: 0x7AEF35230
+        public void Blit_Identifier_Injected(){} // RVA: 0x7AEF352C0
+        public void GetTemporaryRTWithDescriptor_Injected(){} // RVA: 0x7AEF35350
+        public void ClearRenderTarget_Injected(){} // RVA: 0x7AEF353D0
+        public void SetGlobalVector_Injected(){} // RVA: 0x7AEF35450
+        public void SetGlobalColor_Injected(){} // RVA: 0x7AEF354C0
+        public void SetViewProjectionMatrices_Injected(){} // RVA: 0x7AEF35530
+        public void SetRenderTargetSingle_Internal_Injected(){} // RVA: 0x7AEF355A0
+        public void SetRenderTargetColorDepth_Internal_Injected(){} // RVA: 0x7AEF35630
+        public void SetRenderTargetMulti_Internal_Injected(){} // RVA: 0x7AEF356C0
     }
 
-    public class SphericalHarmonicsL2
+    public class CommandBuffer[] : Array
     {
-        public float shr0; // 0x10
-
         // ── Methods ──
-        public void Clear(){} // RVA: 0x71566F0
-        public void SetZero(){} // RVA: 0x71566F0
-        public void AddAmbientLight(){} // RVA: 0x7156740
-        public void AddDirectionalLight(){} // RVA: 0x71567A0
-        public void AddDirectionalLightInternal(){} // RVA: 0x7156860
-        public void Evaluate(){} // RVA: 0x71568D0
-        public void EvaluateInternal(){} // RVA: 0x7156A40
-        public void get_Item(){} // RVA: 0x7156AB0
-        public void set_Item(){} // RVA: 0x7156CB0
-        public void GetHashCode(){} // RVA: 0x7156EB0
-        public void Equals(){} // RVA: 0x7157340 | overloaded x2
-        public void op_Multiply(){} // RVA: 0x7157700 | overloaded x2
-        public void op_Addition(){} // RVA: 0x7157A10
-        public void op_Equality(){} // RVA: 0x7157D50
-        public void op_Inequality(){} // RVA: 0x7157F70
-        public void SetZero_Injected(){} // RVA: 0x71566F0
-        public void AddAmbientLight_Injected(){} // RVA: 0x7158030
-        public void AddDirectionalLightInternal_Injected(){} // RVA: 0x7158090
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class StencilState
+    public class CoreCameraValues : ValueType
     {
-        public byte m_Enabled; // 0x10
-        public byte m_ReadMask; // 0x11
-        public byte m_WriteMask; // 0x12
-        public byte m_Padding; // 0x13
-        public byte m_CompareFunctionFront; // 0x14
-        public byte m_PassOperationFront; // 0x15
-        public byte m_FailOperationFront; // 0x16
-        public byte m_ZFailOperationFront; // 0x17
-        public byte m_CompareFunctionBack; // 0x18
-        public byte m_PassOperationBack; // 0x19
-        public byte m_FailOperationBack; // 0x1A
-
         // ── Methods ──
-        public void set_enabled(){} // RVA: 0x715E190
-        public void set_readMask(){} // RVA: 0x10EEB00
-        public void set_writeMask(){} // RVA: 0x10EEB20
-        public void set_compareFunctionFront(){} // RVA: 0x10EEB40
-        public void set_passOperationFront(){} // RVA: 0x10EEBB0
-        public void set_failOperationFront(){} // RVA: 0x10EEB70
-        public void set_zFailOperationFront(){} // RVA: 0x715E1F0
-        public void set_compareFunctionBack(){} // RVA: 0x1B06D50
-        public void set_passOperationBack(){} // RVA: 0x1B06C90
-        public void set_failOperationBack(){} // RVA: 0x715E200
-        public void set_zFailOperationBack(){} // RVA: 0x715E210
-        public void Equals(){} // RVA: 0x715E290 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x715E3F0
+        public void Equals(){} // RVA: 0x7A7EE1E30
+        public void GetHashCode(){} // RVA: 0x7A7EE1EF0
     }
 
-    public class SubMeshDescriptor
+    public class CoreCameraValues[] : Array
     {
-        public UnityEngine.Bounds <bounds>k__BackingField; // 0x10
-        public 0x65897DB8 <topology>k__BackingField; // 0x28
-        public int <indexStart>k__BackingField; // 0x2C
-        public int <indexCount>k__BackingField; // 0x30
-        public int <baseVertex>k__BackingField; // 0x34
-        public int <firstVertex>k__BackingField; // 0x38
-        public int <vertexCount>k__BackingField; // 0x3C
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x714F7D0
-        public void get_bounds(){} // RVA: 0x1F4D780
-        public void set_bounds(){} // RVA: 0x2086530
-        public void get_topology(){} // RVA: 0x5BED50
-        public void set_topology(){} // RVA: 0x6374E0
-        public void get_indexStart(){} // RVA: 0x197C3B0
-        public void set_indexStart(){} // RVA: 0x1989FD0
-        public void get_indexCount(){} // RVA: 0x760030
-        public void set_indexCount(){} // RVA: 0x99E0D0
-        public void get_baseVertex(){} // RVA: 0xCEF5B0
-        public void set_baseVertex(){} // RVA: 0x16E1F00
-        public void get_firstVertex(){} // RVA: 0x791DC0
-        public void set_firstVertex(){} // RVA: 0xA53440
-        public void get_vertexCount(){} // RVA: 0x1209F00
-        public void set_vertexCount(){} // RVA: 0x1AFCF60
-        public void ToString(){} // RVA: 0x714F810
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class SupportedRenderingFeatures
+    public class CullingSplit[] : Array
     {
-        public UnityEngine.Rendering.SupportedRenderingFeatures attribute;
-        public 0x658A4150 format; // 0x10
-        public 0x658A41A8 dimension; // 0x14
-        public 0x658A41A8 stream; // 0x18
-        public 0x65897BA8 <lightmapBakeTypes>k__BackingField; // 0x1C
-        public 0x65898338 <lightmapsModes>k__BackingField; // 0x20
-        public bool <enlightenLightmapper>k__BackingField; // 0x24
-        public bool <enlighten>k__BackingField; // 0x25
-        public bool <lightProbeProxyVolumes>k__BackingField; // 0x26
-        public bool <motionVectors>k__BackingField; // 0x27
-        public bool <receiveShadows>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void get_active(){} // RVA: 0x715E480
-        public void set_active(){} // RVA: 0x715E5A0
-        public void get_defaultMixedLightingModes(){} // RVA: 0x8ABED0
-        public void get_mixedLightingModes(){} // RVA: 0x5BED50
-        public void get_lightmapBakeTypes(){} // RVA: 0x197C3B0
-        public void get_lightmapsModes(){} // RVA: 0x760030
-        public void get_enlightenLightmapper(){} // RVA: 0x2F87C0
-        public void get_enlighten(){} // RVA: 0x4D7B80
-        public void get_rendersUIOverlay(){} // RVA: 0x3BC230
-        public void get_autoAmbientProbeBaking(){} // RVA: 0x4FDE80
-        public void get_autoDefaultReflectionProbeBaking(){} // RVA: 0x4A6500
-        public void get_overridesLightProbeSystem(){} // RVA: 0x14CEB40
-        public void FallbackMixedLightingModeByRef(){} // RVA: 0x715E650
-        public void IsMixedLightingModeSupported(){} // RVA: 0x715E880
-        public void IsMixedLightingModeSupportedByRef(){} // RVA: 0x715E9F0
-        public void IsLightmapBakeTypeSupported(){} // RVA: 0x715EB50
-        public void IsLightmapBakeTypeSupportedByRef(){} // RVA: 0x715EC80
-        public void IsLightmapsModeSupportedByRef(){} // RVA: 0x715ED80
-        public void IsLightmapperSupportedByRef(){} // RVA: 0x715EDF0
-        public void IsUIOverlayRenderedBySRP(){} // RVA: 0x715EE70
-        public void IsAutoAmbientProbeBakingSupported(){} // RVA: 0x715EED0
-        public void IsAutoDefaultReflectionProbeBakingSupported(){} // RVA: 0x715EF30
-        public void OverridesLightProbeSystem(){} // RVA: 0x715EF90
-        public void FallbackLightmapperByRef(){} // RVA: 0x1EDD870
-        public void .ctor(){} // RVA: 0x715EFF0
-        public void .cctor(){} // RVA: 0x715F0C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A40C0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29ED50
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E4690
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA25DB30
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29ED50
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class VertexAttributeDescriptor
+    public class GraphicsDeviceType[] : Array
     {
-        public 0x658A24C8 <attribute>k__BackingField; // 0x10
-        public 0x658A2470 <format>k__BackingField; // 0x14
-        public int <dimension>k__BackingField; // 0x18
-        public int <stream>k__BackingField; // 0x1C
-
         // ── Methods ──
-        public void get_attribute(){} // RVA: 0x19689B0
-        public void set_attribute(){} // RVA: 0x833580
-        public void get_format(){} // RVA: 0x19689E0
-        public void set_format(){} // RVA: 0x19689D0
-        public void get_dimension(){} // RVA: 0x1EA9890
-        public void set_dimension(){} // RVA: 0x1EA98A0
-        public void get_stream(){} // RVA: 0x1EA98B0
-        public void set_stream(){} // RVA: 0x1EA98C0
-        public void .ctor(){} // RVA: 0x5B88150
-        public void ToString(){} // RVA: 0x714FB80
-        public void GetHashCode(){} // RVA: 0x714FDE0
-        public void Equals(){} // RVA: 0x70CF000 | overloaded x2
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D3F10
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EBF0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6990
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA281BF0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EBF0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class GraphicsFence : ValueType
+    {
+        // ── Methods ──
+        public void TranslateSynchronizationStageToFlags(){} // RVA: 0x7AEF2F810
+        public void InitPostAllocation(){} // RVA: 0x7A7EE0EF0
+        public void IsFencePending(){} // RVA: 0x7A7EE0F00
+        public void Validate(){} // RVA: 0x7A7EE0F10
+        public void GetPlatformNotSupportedVersion(){} // RVA: 0x7A7EE0F20
+        public void GetVersionNumber(){} // RVA: 0x7AEF2FA60
+    }
+
+    public class GraphicsFence[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class GraphicsSettings : Object
+    {
+        // ── Methods ──
+        public void get_lightsUseLinearIntensity(){} // RVA: 0x7AEF2FAB0
+        public void get_defaultRenderingLayerMask(){} // RVA: 0x7AEF2FB00
+        public void get_INTERNAL_currentRenderPipeline(){} // RVA: 0x7AEF2FB50
+        public void get_currentRenderPipeline(){} // RVA: 0x7AEF2FBA0
+        public void get_INTERNAL_defaultRenderPipeline(){} // RVA: 0x7AEF2FC50
+        public void get_defaultRenderPipeline(){} // RVA: 0x7AEF2FCA0
+        public void GetShaderMode(){} // RVA: 0x7AEF2FD50
+    }
+
+    public class LODParameters : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7A7EE2AB0
+        public void GetHashCode(){} // RVA: 0x7A7EE2B60
+    }
+
+    public class LocalKeyword : ValueType
+    {
+        // ── Methods ──
+        public void ToString(){} // RVA: 0x7A7E42C20
+        public void Equals(){} // RVA: 0x7A7EE31A0
+        public void GetHashCode(){} // RVA: 0x7A7EE31F0
+    }
+
+    public class LocalKeywordSpace : ValueType
+    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7A7A393B0
+        public void op_Equality(){} // RVA: 0x7AEF3E3D0
+        public void GetHashCode(){} // RVA: 0x7A79EAED0
+    }
+
+    public class LocalKeyword[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D51C0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2828C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class ObjectIdRequest : Object
+    {
+        // ── Methods ──
+        public void get_destination(){} // RVA: 0x7A80F2570
+    }
+
+    public class OnDemandRendering : Object
+    {
+        // ── Methods ──
+        public void get_renderFrameInterval(){} // RVA: 0x7AEF2FDA0
+        public void GetRenderFrameInterval(){} // RVA: 0x7AEF2FE00
+        public void .cctor(){} // RVA: 0x7AEF2FE90
+    }
+
+    public class OnDemandRendering[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class ReflectionProbeBlendInfo[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class RenderPipeline : Object
+    {
+        // ── Methods ──
+        public void Render(){} // RVA: 0x7AEF3B010
+        public void ProcessRenderRequests(){} // RVA: 0x7A8051B10
+        public void IsRenderRequestSupported(){} // RVA: 0x7A8051B10
+        public void InternalRender(){} // RVA: 0x7AEF3B090
+        public void InternalProcessRenderRequests(){} // RVA: 0x7A8051B10
+        public void get_disposed(){} // RVA: 0x7A81A2200
+        public void set_disposed(){} // RVA: 0x7A81A2210
+        public void Dispose(){} // RVA: 0x7A80D7310
+    }
+
+    public class RenderPipelineAsset : ScriptableObject
+    {
+        // ── Methods ──
+        public void InternalCreatePipeline(){} // RVA: 0x7AEF3B190
+        public void get_renderingLayerMaskNames(){} // RVA: 0x7A82D1450
+        public void get_prefixedRenderingLayerMaskNames(){} // RVA: 0x7A82D1450
+        public void get_defaultMaterial(){} // RVA: 0x7A82D1450
+        public void get_autodeskInteractiveShader(){} // RVA: 0x7A82D1450
+        public void get_autodeskInteractiveTransparentShader(){} // RVA: 0x7A82D1450
+        public void get_autodeskInteractiveMaskedShader(){} // RVA: 0x7A82D1450
+        public void get_terrainDetailLitShader(){} // RVA: 0x7A82D1450
+        public void get_terrainDetailGrassShader(){} // RVA: 0x7A82D1450
+        public void get_terrainDetailGrassBillboardShader(){} // RVA: 0x7A82D1450
+        public void get_defaultParticleMaterial(){} // RVA: 0x7A82D1450
+        public void get_defaultLineMaterial(){} // RVA: 0x7A82D1450
+        public void get_defaultTerrainMaterial(){} // RVA: 0x7A82D1450
+        public void get_defaultUIMaterial(){} // RVA: 0x7A82D1450
+        public void get_defaultUIOverdrawMaterial(){} // RVA: 0x7A82D1450
+        public void get_defaultUIETC1SupportedMaterial(){} // RVA: 0x7A82D1450
+        public void get_default2DMaterial(){} // RVA: 0x7A82D1450
+        public void get_default2DMaskMaterial(){} // RVA: 0x7A82D1450
+        public void get_defaultShader(){} // RVA: 0x7A82D1450
+        public void get_defaultSpeedTree7Shader(){} // RVA: 0x7A82D1450
+        public void get_defaultSpeedTree8Shader(){} // RVA: 0x7A82D1450
+        public void get_renderPipelineShaderTag(){} // RVA: 0x7AEF3B370
+        public void CreatePipeline(){} // RVA: 0x7A7E00680
+        public void OnValidate(){} // RVA: 0x7AEF3B3B0
+        public void OnDisable(){} // RVA: 0x7AEF3B520
+        public void .ctor(){} // RVA: 0x7A82F4A40
+    }
+
+    public class RenderPipelineManager : Object
+    {
+        // ── Methods ──
+        public void get_currentPipeline(){} // RVA: 0x7AEF3B570
+        public void set_currentPipeline(){} // RVA: 0x7AEF3B5D0
+        public void add_beginCameraRendering(){} // RVA: 0x7AEF3B760
+        public void remove_beginCameraRendering(){} // RVA: 0x7AEF3B8D0
+        public void add_endCameraRendering(){} // RVA: 0x7AEF3BA40
+        public void remove_endCameraRendering(){} // RVA: 0x7AEF3BBB0
+        public void OnActiveRenderPipelineTypeChanged(){} // RVA: 0x7AEF3BD20
+        public void OnActiveRenderPipelineAssetChanged(){} // RVA: 0x7AEF3BD90
+        public void HandleRenderPipelineChange(){} // RVA: 0x7AEF3BEA0
+        public void CleanupRenderPipeline(){} // RVA: 0x7AEF3BF80
+        public void GetCurrentPipelineAssetType(){} // RVA: 0x7AEF3C260
+        public void DoRenderLoop_Internal(){} // RVA: 0x7AEF3C2C0
+        public void PrepareRenderPipeline(){} // RVA: 0x7AEF3C770
+        public void IsPipelineRequireCreation(){} // RVA: 0x7AEF3CA20
+        public void .cctor(){} // RVA: 0x7AEF3CB80
+    }
+
+    public class RenderPipelineManager[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class RenderTargetIdentifier : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7EE0DD0
+        public void op_Implicit(){} // RVA: 0x7AEF2F2C0
+        public void ToString(){} // RVA: 0x7A7EE0E00
+        public void GetHashCode(){} // RVA: 0x7A7EE0E10
+        public void Equals(){} // RVA: 0x7A7EE0EC0
+    }
+
+    public class RenderTargetIdentifier[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D7980
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E250
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E31C0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA284340
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E250
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class ScriptableCullingParameters : ValueType
+    {
+        // ── Methods ──
+        public void get_cullingPlaneCount(){} // RVA: 0x7A7EE28F0
+        public void GetLayerCullingDistance(){} // RVA: 0x7A7EE2900
+        public void GetCullingPlane(){} // RVA: 0x7A7EE2910
+        public void Equals(){} // RVA: 0x7A7EE2990
+        public void GetHashCode(){} // RVA: 0x7A7EE2A60
+        public void .cctor(){} // RVA: 0x7AEF3AD70
+    }
+
+    public class ScriptableCullingParameters[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7A80804D0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class ScriptableRenderContext : ValueType
+    {
+        // ── Methods ──
+        public void GetCameras_Internal(){} // RVA: 0x7A7EE2B70
+        public void .ctor(){} // RVA: 0x7A767FEF0
+        public void GetCameras(){} // RVA: 0x7A7EE2B80
+        public void Equals(){} // RVA: 0x7A7EE2BA0
+        public void GetHashCode(){} // RVA: 0x7A79EAED0
+        public void .cctor(){} // RVA: 0x7AEF3D060
+        public void GetCameras_Internal_Injected(){} // RVA: 0x7AEF3D100
+    }
+
+    public class ShaderTagId : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7EE2C50
+        public void Equals(){} // RVA: 0x7A7EDA7E0
+        public void GetHashCode(){} // RVA: 0x7A7EE2D30
+    }
+
+    public class SortingGroup : Behaviour
+    {
+        // ── Methods ──
+        public void get_invalidSortingGroupID(){} // RVA: 0x7AEF3E3E0
+        public void UpdateAllSortingGroups(){} // RVA: 0x7AEF3E430
+        public void GetSortingGroupByIndex(){} // RVA: 0x7AEF3E480
+        public void get_sortingLayerName(){} // RVA: 0x7AEF3E4D0
+        public void set_sortingLayerName(){} // RVA: 0x7AEF3E520
+        public void get_sortingLayerID(){} // RVA: 0x7AEF3E580
+        public void set_sortingLayerID(){} // RVA: 0x7AEF3E5D0
+        public void get_sortingOrder(){} // RVA: 0x7AEF3E630
+        public void set_sortingOrder(){} // RVA: 0x7AEF3E680
+        public void get_sortAtRoot(){} // RVA: 0x7AEF3E6E0
+        public void set_sortAtRoot(){} // RVA: 0x7AEF3E730
+        public void get_sortingGroupID(){} // RVA: 0x7AEF3E790
+        public void get_sortingGroupOrder(){} // RVA: 0x7AEF3E7E0
+        public void get_index(){} // RVA: 0x7AEF3E830
+        public void get_sortingKey(){} // RVA: 0x7AEF3E880
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class SphericalHarmonicsL2 : ValueType
+    {
+        // ── Methods ──
+        public void Clear(){} // RVA: 0x7A7EE0F30
+        public void SetZero(){} // RVA: 0x7A7EE0F30
+        public void AddAmbientLight(){} // RVA: 0x7A7EE0F80
+        public void AddDirectionalLight(){} // RVA: 0x7A7EE0FE0
+        public void AddDirectionalLightInternal(){} // RVA: 0x7AEF358E0
+        public void Evaluate(){} // RVA: 0x7A7EE10C0
+        public void EvaluateInternal(){} // RVA: 0x7AEF35AC0
+        public void get_Item(){} // RVA: 0x7A7EE10D0
+        public void set_Item(){} // RVA: 0x7A7EE10E0
+        public void GetHashCode(){} // RVA: 0x7A7EE10F0
+        public void Equals(){} // RVA: 0x7A7EE1110
+        public void op_Multiply(){} // RVA: 0x7AEF367C0
+        public void op_Addition(){} // RVA: 0x7AEF36AD0
+        public void op_Equality(){} // RVA: 0x7AEF36E10
+        public void op_Inequality(){} // RVA: 0x7AEF37030
+        public void SetZero_Injected(){} // RVA: 0x7AEF35750
+        public void AddAmbientLight_Injected(){} // RVA: 0x7AEF370F0
+        public void AddDirectionalLightInternal_Injected(){} // RVA: 0x7AEF37150
+    }
+
+    public class SphericalHarmonicsL2[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D9010
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29FE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6FE0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA285280
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29FE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class StencilState : ValueType
+    {
+        // ── Methods ──
+        public void set_enabled(){} // RVA: 0x7A7EE2D40
+        public void set_readMask(){} // RVA: 0x7A763C970
+        public void set_writeMask(){} // RVA: 0x7A763C9C0
+        public void set_compareFunctionFront(){} // RVA: 0x7A763C9A0
+        public void set_passOperationFront(){} // RVA: 0x7A763C9D0
+        public void set_failOperationFront(){} // RVA: 0x7A763C940
+        public void set_zFailOperationFront(){} // RVA: 0x7A7EE2DA0
+        public void set_compareFunctionBack(){} // RVA: 0x7A7664CA0
+        public void set_passOperationBack(){} // RVA: 0x7A7664BE0
+        public void set_failOperationBack(){} // RVA: 0x7A7EE2DB0
+        public void set_zFailOperationBack(){} // RVA: 0x7A7EE2DC0
+        public void Equals(){} // RVA: 0x7A7EE2EA0
+        public void GetHashCode(){} // RVA: 0x7A7EE3000
+    }
+
+    public class SubMeshDescriptor : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7EE0C50
+        public void get_bounds(){} // RVA: 0x7A76A6DB0
+        public void set_bounds(){} // RVA: 0x7A7712B90
+        public void get_topology(){} // RVA: 0x7A768A430
+        public void set_topology(){} // RVA: 0x7A768A440
+        public void get_indexStart(){} // RVA: 0x7A768B130
+        public void set_indexStart(){} // RVA: 0x7A768B140
+        public void get_indexCount(){} // RVA: 0x7A767FF50
+        public void set_indexCount(){} // RVA: 0x7A767FF30
+        public void get_baseVertex(){} // RVA: 0x7A76C73F0
+        public void set_baseVertex(){} // RVA: 0x7A76C73E0
+        public void get_firstVertex(){} // RVA: 0x7A765EE70
+        public void set_firstVertex(){} // RVA: 0x7A765EDE0
+        public void get_vertexCount(){} // RVA: 0x7A77197A0
+        public void set_vertexCount(){} // RVA: 0x7A7719790
+        public void ToString(){} // RVA: 0x7A7EE0C90
+    }
+
+    public class SupportedRenderingFeatures : Object
+    {
+        // ── Methods ──
+        public void get_active(){} // RVA: 0x7AEF3D550
+        public void set_active(){} // RVA: 0x7AEF3D670
+        public void get_defaultMixedLightingModes(){} // RVA: 0x7A8668BC0
+        public void get_mixedLightingModes(){} // RVA: 0x7A83782A0
+        public void get_lightmapBakeTypes(){} // RVA: 0x7A9739200
+        public void get_lightmapsModes(){} // RVA: 0x7A851DB90
+        public void get_enlightenLightmapper(){} // RVA: 0x7A80F29B0
+        public void get_enlighten(){} // RVA: 0x7A92AA5C0
+        public void get_rendersUIOverlay(){} // RVA: 0x7A81B7080
+        public void get_autoAmbientProbeBaking(){} // RVA: 0x7A9A79980
+        public void get_autoDefaultReflectionProbeBaking(){} // RVA: 0x7A82A20A0
+        public void get_overridesLightProbeSystem(){} // RVA: 0x7A9286CF0
+        public void FallbackMixedLightingModeByRef(){} // RVA: 0x7AEF3D720
+        public void IsMixedLightingModeSupported(){} // RVA: 0x7AEF3D950
+        public void IsMixedLightingModeSupportedByRef(){} // RVA: 0x7AEF3DAC0
+        public void IsLightmapBakeTypeSupported(){} // RVA: 0x7AEF3DC20
+        public void IsLightmapBakeTypeSupportedByRef(){} // RVA: 0x7AEF3DD50
+        public void IsLightmapsModeSupportedByRef(){} // RVA: 0x7AEF3DE50
+        public void IsLightmapperSupportedByRef(){} // RVA: 0x7AEF3DEC0
+        public void IsUIOverlayRenderedBySRP(){} // RVA: 0x7AEF3DF40
+        public void IsAutoAmbientProbeBakingSupported(){} // RVA: 0x7AEF3DFA0
+        public void IsAutoDefaultReflectionProbeBakingSupported(){} // RVA: 0x7AEF3E000
+        public void OverridesLightProbeSystem(){} // RVA: 0x7AEF3E060
+        public void FallbackLightmapperByRef(){} // RVA: 0x7A9CE24F0
+        public void .ctor(){} // RVA: 0x7AEF3E0C0
+        public void .cctor(){} // RVA: 0x7AEF3E190
+    }
+
+    public class SupportedRenderingFeatures[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class VertexAttributeDescriptor : ValueType
+    {
+        // ── Methods ──
+        public void get_attribute(){} // RVA: 0x7A765F070
+        public void set_attribute(){} // RVA: 0x7A76134D0
+        public void get_format(){} // RVA: 0x7A765F0A0
+        public void set_format(){} // RVA: 0x7A765F090
+        public void get_dimension(){} // RVA: 0x7A75FEFA0
+        public void set_dimension(){} // RVA: 0x7A767FBC0
+        public void get_stream(){} // RVA: 0x7A767FBD0
+        public void set_stream(){} // RVA: 0x7A767FBE0
+        public void .ctor(){} // RVA: 0x7A7E2BDA0
+        public void ToString(){} // RVA: 0x7A7EE0CA0
+        public void GetHashCode(){} // RVA: 0x7A7EE0CB0
+        public void Equals(){} // RVA: 0x7A7EE0CE0
+    }
+
+    public class VertexAttributeDescriptor[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2DDC90
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA299FA0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
 }

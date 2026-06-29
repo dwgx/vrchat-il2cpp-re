@@ -5,16 +5,16 @@
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
-    public class Vector2MagnitudeComparer
+    public class Vector2MagnitudeComparer : ValueType
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x6DCAF50
+        public void Compare(){} // RVA: 0x7A7EAD350
     }
 
-    public class Vector3MagnitudeComparer
+    public class Vector3MagnitudeComparer : ValueType
     {
         // ── Methods ──
-        public void Compare(){} // RVA: 0x6DCAFB0
+        public void Compare(){} // RVA: 0x7A7EAD3B0
     }
 
 }

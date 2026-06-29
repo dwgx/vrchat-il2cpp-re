@@ -1,1242 +1,1226 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 696
+// Methods: 722
 
-public class WIN32_FILE_ATTRIBUTE_DATA
+public class WIN32_FILE_ATTRIBUTE_DATA : ValueType
 {
     // ── Methods ──
-    public void PopulateFrom(){} // RVA: 0x5BF2ED0
+    public void PopulateFrom(){} // RVA: 0x7A7E2E590
 }
 
-public class WIN32_FIND_DATA
-{
-    public uint dwFileAttributes; // 0x10
-
-    // ── Methods ──
-    public void get_cFileName(){} // RVA: 0x5BF2AF0
-    public void SetFileName(){} // RVA: 0x5BF2B40
-}
-
-public class WSABUF
-{
+public class WaitAsyncSource : Object
+{
+    // ── Methods ──
+    public void Cysharp.Threading.Tasks.ITaskPoolNode<Cysharp.Threading.Tasks.AsyncReactiveProperty<T>.WaitAsyncSource>.get_NextNode(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
+    public void .ctor(){} // RVA: 0x7A7E18770
+    public void TryReturn(){} // RVA: 0x7A7E01900
+    public void CancellationCallback(){} // RVA: 0x7A7E18830
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void OnCompleted(){} // RVA: 0x7A7E18770
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Prev(){} // RVA: 0x7A7E00680
+    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Prev(){} // RVA: 0x7A7E18800
+    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Next(){} // RVA: 0x7A7E00680
+    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Next(){} // RVA: 0x7A7E18800
+    public void OnCanceled(){} // RVA: 0x7A7E188D0
+    public void OnError(){} // RVA: 0x7A7E18800
+    public void OnNext(){} // RVA: 0x7A8051B10
 }
 
-public class WTauNafCallback : `
+public class WaitAsyncSource : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1AB41A0
-    public void Precompute(){} // RVA: 0x9478A40
+    public void Cysharp.Threading.Tasks.ITaskPoolNode<Cysharp.Threading.Tasks.ReadOnlyAsyncReactiveProperty<T>.WaitAsyncSource>.get_NextNode(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
+    public void .ctor(){} // RVA: 0x7A7E18770
+    public void TryReturn(){} // RVA: 0x7A7E01900
+    public void CancellationCallback(){} // RVA: 0x7A7E18830
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void OnCompleted(){} // RVA: 0x7A7E18770
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Prev(){} // RVA: 0x7A7E00680
+    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Prev(){} // RVA: 0x7A7E18800
+    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Next(){} // RVA: 0x7A7E00680
+    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Next(){} // RVA: 0x7A7E18800
+    public void OnCanceled(){} // RVA: 0x7A7E188D0
+    public void OnError(){} // RVA: 0x7A7E18800
+    public void OnNext(){} // RVA: 0x7A8051B10
 }
 
-public class WaitAsyncSource
+public class WaitUntilPromise : Object
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitAsyncSource<T>> pool;
-    public WaitAsyncSource<T> nextNode;
-
     // ── Methods ──
-    public void Cysharp.Threading.Tasks.ITaskPoolNode<Cysharp.Threading.Tasks.AsyncReactiveProperty<T>.WaitAsyncSource>.get_NextNode(){} // RVA: 0xCD60
-    public void .cctor(){} // RVA: 0x24A80
-    public void .ctor(){} // RVA: 0x24A50
-    public void Create(){}
-    public void TryReturn(){} // RVA: 0xDBE0
-    public void CancellationCallback(){} // RVA: 0x24AE0
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void OnCompleted(){} // RVA: 0x24A50 | overloaded x2
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Prev(){} // RVA: 0xCD60
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Prev(){} // RVA: 0x24B10
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Next(){} // RVA: 0xCD60
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Next(){} // RVA: 0x24B10
-    public void OnCanceled(){} // RVA: 0x24CC0
-    public void OnError(){} // RVA: 0x24B10
-    public void OnNext(){} // RVA: 0x283FA0
+    public void get_NextNode(){} // RVA: 0x7ABBF1F90
+    public void .cctor(){} // RVA: 0x7AEAE7FB0
+    public void .ctor(){} // RVA: 0x7A80D7310
+    public void Create(){} // RVA: 0x7AEAE8130
+    public void GetResult(){} // RVA: 0x7AEAE8530
+    public void GetStatus(){} // RVA: 0x7AEAE8720
+    public void UnsafeGetStatus(){} // RVA: 0x7AEAE8770
+    public void OnCompleted(){} // RVA: 0x7AEAE87B0
+    public void MoveNext(){} // RVA: 0x7AEAE8830
+    public void TryReturn(){} // RVA: 0x7AEAE8940
 }
 
-public class WaitAsyncSource
+public class WaitUntilPromise`1 : Object
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitAsyncSource<T>> pool;
-    public WaitAsyncSource<T> nextNode;
-
     // ── Methods ──
-    public void Cysharp.Threading.Tasks.ITaskPoolNode<Cysharp.Threading.Tasks.ReadOnlyAsyncReactiveProperty<T>.WaitAsyncSource>.get_NextNode(){} // RVA: 0xCD60
-    public void .cctor(){} // RVA: 0x24A80
-    public void .ctor(){} // RVA: 0x24A50
-    public void Create(){}
-    public void TryReturn(){} // RVA: 0xDBE0
-    public void CancellationCallback(){} // RVA: 0x24AE0
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void OnCompleted(){} // RVA: 0x24A50 | overloaded x2
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Prev(){} // RVA: 0xCD60
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Prev(){} // RVA: 0x24B10
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Next(){} // RVA: 0xCD60
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Next(){} // RVA: 0x24B10
-    public void OnCanceled(){} // RVA: 0x24CC0
-    public void OnError(){} // RVA: 0x24B10
-    public void OnNext(){} // RVA: 0x283FA0
+    public void get_NextNode(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
+    public void .ctor(){} // RVA: 0x7A7E18770
+    public void Create(){} // RVA: 0x7A8051B10
+    public void GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void TryReturn(){} // RVA: 0x7A7E01900
 }
 
-public class WaitDelegate
+public class WaitUntilValueChangedStandardObjectPromise`2 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5F337A0
-    public void Invoke(){} // RVA: 0x4394E0
+    public void get_NextNode(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
+    public void .ctor(){} // RVA: 0x7A7E18770
+    public void Create(){} // RVA: 0x7A8051B10
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void TryReturn(){} // RVA: 0x7A7E01900
 }
 
-public class WaitForAudioCaptureDeviceAuthorisation
+public class WaitUntilValueChangedUnityObjectPromise`2 : Object
 {
     // ── Methods ──
-    public void get_keepWaiting(){} // RVA: 0x6284E80
-    public void .ctor(){} // RVA: 0x2DD310
+    public void get_NextNode(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
+    public void .ctor(){} // RVA: 0x7A7E18770
+    public void Create(){} // RVA: 0x7A8051B10
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void TryReturn(){} // RVA: 0x7A7E01900
 }
 
-public class WaitForAuthorisationToAccessPhotos
+public class WaitWhilePromise`1 : Object
 {
     // ── Methods ──
-    public void get_keepWaiting(){} // RVA: 0x6284EE0
-    public void .ctor(){} // RVA: 0x2DD310
+    public void get_NextNode(){} // RVA: 0x7A7E00680
+    public void .cctor(){} // RVA: 0x7A7E187D0
+    public void .ctor(){} // RVA: 0x7A7E18770
+    public void Create(){} // RVA: 0x7A8051B10
+    public void GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void TryReturn(){} // RVA: 0x7A7E01900
 }
 
-public class WaitForCompletion
+public class Waypoint : ValueType
 {
-    public DG.Tweening.Tween t; // 0x10
-
     // ── Methods ──
-    public void get_keepWaiting(){} // RVA: 0x1E92BA0
-    public void .ctor(){} // RVA: 0x2DEE30
+    public void get_AsVector4(){} // RVA: 0x7A76720C0
+    public void FromVector4(){} // RVA: 0x7A9AEDBF0
 }
 
-public class WaitForElapsedLoops
+public class WellKnownNoReferenceContainsType`1 : Object
 {
-    public DG.Tweening.Tween t; // 0x10
-
     // ── Methods ──
-    public void get_keepWaiting(){} // RVA: 0x1E92C70
-    public void .ctor(){} // RVA: 0x1D66A50
+    public void .cctor(){} // RVA: 0x7A7E187D0
 }
 
-public class WaitForEndOfFramePromise
+public class WellKnownNoReferenceContainsType`1 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitForEndOfFramePromise> pool;
-    public WaitForEndOfFramePromise nextNode; // 0x10
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x3DF6A30
-    public void .cctor(){} // RVA: 0x6CF4FA0
-    public void .ctor(){} // RVA: 0x6CF51B0
-    public void Create(){} // RVA: 0x6CF51C0
-    public void GetResult(){} // RVA: 0x6CF5520
-    public void GetStatus(){} // RVA: 0x6CF56C0
-    public void UnsafeGetStatus(){} // RVA: 0x6CF5710
-    public void OnCompleted(){} // RVA: 0x6CF5750
-    public void TryReturn(){} // RVA: 0x6CF57D0
-    public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x6CF5880
-    public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x6CF58E0
-    public void Reset(){} // RVA: 0x6CF51B0
+    public void .cctor(){} // RVA: 0x7AC95CED0
 }
 
-public class WaitForKill
+public class WhenAllPromise`1 : Object
 {
-    public DG.Tweening.Tween t; // 0x10
-
     // ── Methods ──
-    public void get_keepWaiting(){} // RVA: 0x1E92C50
-    public void .ctor(){} // RVA: 0x2DEE30
-}
-
-public class WaitForLastPresentationAndUpdateTime
-{
+    public void .ctor(){} // RVA: 0x7A7E1D590
+    public void TryInvokeContinuation(){} // RVA: 0x7A7E21AF0
+    public void GetResult(){} // RVA: 0x7A7E00AE0
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WaitForPosition
+public class WhenAllPromise`1 : Task`1
 {
-    public DG.Tweening.Tween t; // 0x10
-
     // ── Methods ──
-    public void get_keepWaiting(){} // RVA: 0x1E92CB0
-    public void .ctor(){} // RVA: 0x1E92D00
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void Invoke(){} // RVA: 0x7A7E18800
+    public void get_ShouldNotifyDebuggerOfWaitCompletion(){} // RVA: 0x7A7E01900
+    public void get_InvokeMayRunArbitraryCode(){} // RVA: 0x7A7E01900
 }
 
-public class WaitForRewind
+public class WhenAllPromise`1 : Object
 {
-    public DG.Tweening.Tween t; // 0x10
-
     // ── Methods ──
-    public void get_keepWaiting(){} // RVA: 0x1E92BE0
-    public void .ctor(){} // RVA: 0x2DEE30
+    public void .ctor(){} // RVA: 0x7AC95DFC0
+    public void TryInvokeContinuation(){} // RVA: 0x7AC95E450
+    public void GetResult(){} // RVA: 0x7AC95E580
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC95E610
+    public void GetStatus(){} // RVA: 0x7AC95D910
+    public void UnsafeGetStatus(){} // RVA: 0x7AC95D930
+    public void OnCompleted(){} // RVA: 0x7AC95D950
 }
 
-public class WaitForStart
+public class WhenAllPromise`1 : Object
 {
-    public DG.Tweening.Tween t; // 0x10
-
     // ── Methods ──
-    public void get_keepWaiting(){} // RVA: 0x1E92D60
-    public void .ctor(){} // RVA: 0x2DEE30
+    public void .ctor(){} // RVA: 0x7AC95DFC0
+    public void TryInvokeContinuation(){} // RVA: 0x7AC95E450
+    public void GetResult(){} // RVA: 0x7AC95E580
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC95E610
+    public void GetStatus(){} // RVA: 0x7AC95D910
+    public void UnsafeGetStatus(){} // RVA: 0x7AC95D930
+    public void OnCompleted(){} // RVA: 0x7AC95D950
 }
 
-public class WaitUntilCanceledPromise
+public class WhenAllPromise`1 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilCanceledPromise> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x3DF6A30
-    public void .cctor(){} // RVA: 0x6CFA8C0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void Create(){} // RVA: 0x6CFAA40
-    public void GetResult(){} // RVA: 0x6CFADC0
-    public void GetStatus(){} // RVA: 0x6CFAF60
-    public void UnsafeGetStatus(){} // RVA: 0x6CFAFB0
-    public void OnCompleted(){} // RVA: 0x6CFAFF0
-    public void MoveNext(){} // RVA: 0x6CFB070
-    public void TryReturn(){} // RVA: 0x6CFB100
+    public void .ctor(){} // RVA: 0x7AC95DFC0
+    public void TryInvokeContinuation(){} // RVA: 0x7AC95E450
+    public void GetResult(){} // RVA: 0x7AC95E580
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AC95E610
+    public void GetStatus(){} // RVA: 0x7AC95D910
+    public void UnsafeGetStatus(){} // RVA: 0x7AC95D930
+    public void OnCompleted(){} // RVA: 0x7AC95D950
 }
 
-public class WaitUntilPromise
+public class WhenAllPromise`10 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilPromise> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x3DF6A30
-    public void .cctor(){} // RVA: 0x6CF9080
-    public void .ctor(){} // RVA: 0x2DD310
-    public void Create(){} // RVA: 0x6CF9200
-    public void GetResult(){} // RVA: 0x6CF9600
-    public void GetStatus(){} // RVA: 0x6CF97F0
-    public void UnsafeGetStatus(){} // RVA: 0x6CF9840
-    public void OnCompleted(){} // RVA: 0x6CF9880
-    public void MoveNext(){} // RVA: 0x6CF9900
-    public void TryReturn(){} // RVA: 0x6CF9A10
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WaitUntilPromise`1
+public class WhenAllPromise`11 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilPromise`1<T>> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0xCD60
-    public void .cctor(){} // RVA: 0x24A80
-    public void .ctor(){} // RVA: 0x24A50
-    public void Create(){} // RVA: 0x283FA0
-    public void GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
-    public void MoveNext(){} // RVA: 0xDBE0
-    public void TryReturn(){} // RVA: 0xDBE0
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WaitUntilValueChangedStandardObjectPromise`2
+public class WhenAllPromise`12 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilValueChangedStandardObjectPromise`2<U,T>> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0xCD60
-    public void .cctor(){} // RVA: 0x24A80
-    public void .ctor(){} // RVA: 0x24A50
-    public void Create(){} // RVA: 0x283FA0
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
-    public void MoveNext(){} // RVA: 0xDBE0
-    public void TryReturn(){} // RVA: 0xDBE0
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT12(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WaitUntilValueChangedUnityObjectPromise`2
+public class WhenAllPromise`13 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitUntilValueChangedUnityObjectPromise`2<U,U>> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0xCD60
-    public void .cctor(){} // RVA: 0x24A80
-    public void .ctor(){} // RVA: 0x24A50
-    public void Create(){} // RVA: 0x283FA0
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
-    public void MoveNext(){} // RVA: 0xDBE0
-    public void TryReturn(){} // RVA: 0xDBE0
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT12(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT13(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WaitWhilePromise
+public class WhenAllPromise`14 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitWhilePromise> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x3DF6A30
-    public void .cctor(){} // RVA: 0x6CF9CA0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void Create(){} // RVA: 0x6CF9E20
-    public void GetResult(){} // RVA: 0x6CFA220
-    public void GetStatus(){} // RVA: 0x6CFA410
-    public void UnsafeGetStatus(){} // RVA: 0x6CFA460
-    public void OnCompleted(){} // RVA: 0x6CFA4A0
-    public void MoveNext(){} // RVA: 0x6CFA520
-    public void TryReturn(){} // RVA: 0x6CFA630
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT12(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT13(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT14(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WaitWhilePromise`1
+public class WhenAllPromise`15 : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<WaitWhilePromise`1<T>> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0xCD60
-    public void .cctor(){} // RVA: 0x24A80
-    public void .ctor(){} // RVA: 0x24A50
-    public void Create(){} // RVA: 0x283FA0
-    public void GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
-    public void MoveNext(){} // RVA: 0xDBE0
-    public void TryReturn(){} // RVA: 0xDBE0
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT12(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT13(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT14(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT15(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WapiP192V1Holder
+public class WhenAllPromise`2 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
-    public void CreateParameters(){} // RVA: 0x97A25D0
-    public void .cctor(){} // RVA: 0x97A27B0
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class Waypoint
+public class WhenAllPromise`3 : Object
 {
-    public UnityEngine.Vector3 position; // 0x10
-}
-
-public class Waypoint
-{
-    public UnityEngine.Vector3 position; // 0x10
-
     // ── Methods ──
-    public void get_AsVector4(){} // RVA: 0x1A53750
-    public void FromVector4(){} // RVA: 0x1CEB620
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WaypointList
-{
-    // ── Methods ──
-    public void .ctor(){} // RVA: 0x2E6D60
+public class WhenAllPromise`4 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WeakKeyComparer
-{
+public class WhenAllPromise`5 : Object
+{
     // ── Methods ──
-    public void System.Collections.IEqualityComparer.Equals(){} // RVA: 0x6CB1470
-    public void System.Collections.IEqualityComparer.GetHashCode(){} // RVA: 0x604140
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WebFile
+public class WhenAllPromise`6 : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
 }
 
-public class WebSocketReceiveResultGetter
-{
+public class WhenAllPromise`7 : Object
+{
     // ── Methods ──
-    public void GetResult(){} // RVA: 0x6BBE9A0
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+}
+
+public class WhenAllPromise`8 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+}
+
+public class WhenAllPromise`9 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+}
+
+public class WhenAnyLRPromise`1 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryLeftInvokeContinuation(){} // RVA: 0x7A7E18AA0
+    public void TryRightInvokeContinuation(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`1 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E1D590
+    public void TryInvokeContinuation(){} // RVA: 0x7A7E21AF0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`10 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`11 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`12 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT12(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`13 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT12(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT13(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`14 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT12(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT13(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT14(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`15 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT10(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT11(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT12(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT13(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT14(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT15(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`2 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`2 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7ACA62E10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7ACA63490
+    public void TryInvokeContinuationT2(){} // RVA: 0x7ACA63590
+    public void GetResult(){} // RVA: 0x7ACA636A0
+    public void GetStatus(){} // RVA: 0x7ACA63730
+    public void OnCompleted(){} // RVA: 0x7ACA63750
+    public void UnsafeGetStatus(){} // RVA: 0x7ACA63780
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7ACA63790
+}
+
+public class WhenAnyPromise`3 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`4 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`5 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`6 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
+}
+
+public class WhenAnyPromise`7 : Object
+{
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
 }
-
-public class WeightCurve
+
+public class WhenAnyPromise`8 : Object
 {
     // ── Methods ──
-    public void GetValue(){} // RVA: 0x433320
-    public void .ctor(){} // RVA: 0x2DD310
-}
-
-public class WeightInfo
-{
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
 }
 
-public class WellKnownNoReferenceContainsType`1
+public class WhenAnyPromise`9 : Object
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x4B5F290
+    public void .ctor(){} // RVA: 0x7A8051B10
+    public void TryInvokeContinuationT1(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT2(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT3(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT4(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT5(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT6(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT7(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT8(){} // RVA: 0x7A7E18AA0
+    public void TryInvokeContinuationT9(){} // RVA: 0x7A7E18AA0
+    public void GetResult(){} // RVA: 0x7A8051B10
+    public void GetStatus(){} // RVA: 0x7A7E015F0
+    public void OnCompleted(){} // RVA: 0x7A7E22030
+    public void UnsafeGetStatus(){} // RVA: 0x7A7E00710
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7A7E18950
 }
 
-public class WellKnownNoReferenceContainsType`1
+public class Where : Object
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x24A80
+    public void .ctor(){} // RVA: 0x7A7E18890
+    public void OnCompleted(){} // RVA: 0x7A7E18770
+    public void OnError(){} // RVA: 0x7A7E18800
+    public void OnNext(){} // RVA: 0x7A8051B10
 }
 
-public class WellKnownNoReferenceContainsType`1
+public class WhereArrayIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x4B5F3B0
+    public void .ctor(){} // RVA: 0x7A7E18890
+    public void Clone(){} // RVA: 0x7A7E00680
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7A7E00B20
 }
 
-public class WellKnownNoReferenceContainsType`1
+public class WhereArrayIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x4B5F170
+    public void .ctor(){} // RVA: 0x7ACA8E460
+    public void Clone(){} // RVA: 0x7ACA8E540
+    public void MoveNext(){} // RVA: 0x7ACA8E910
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACA8E9B0
 }
 
-public class WhenAllPromise
+public class WhereArrayIterator`1 : Iterator`1
 {
-    public System.Threading.Tasks.Task[] m_tasks; // 0x58
-    public int m_count; // 0x60
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6CFB350
-    public void TryInvokeContinuation(){} // RVA: 0x6CFB620
-    public void GetResult(){} // RVA: 0x6CFB740
-    public void GetStatus(){} // RVA: 0x6CFB7C0
-    public void UnsafeGetStatus(){} // RVA: 0x6CFB810
-    public void OnCompleted(){} // RVA: 0x6CFB850
+    public void .ctor(){} // RVA: 0x7ACA8EA30
+    public void Clone(){} // RVA: 0x7ACA8EB10
+    public void MoveNext(){} // RVA: 0x7ACA8EB80
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACA8EC80
 }
 
-public class WhenAllPromise
+public class WhereArrayIterator`1 : Iterator`1
 {
-    public System.Threading.Tasks.Task[] m_tasks; // 0x58
-    public int m_count; // 0x60
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5F4F6E0
-    public void Invoke(){} // RVA: 0x5F4F900
-    public void get_ShouldNotifyDebuggerOfWaitCompletion(){} // RVA: 0x5F4FC10
-    public void get_InvokeMayRunArbitraryCode(){} // RVA: 0x3C2850
+    public void .ctor(){} // RVA: 0x7ACA8E460
+    public void Clone(){} // RVA: 0x7ACA8E540
+    public void MoveNext(){} // RVA: 0x7ACA8E910
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACA8E9B0
 }
 
-public class WhenAllPromise`1
+public class WhereArrayIterator`1 : Iterator`1
 {
-    public System.Threading.Tasks.Task`1<T>[] m_tasks;
-    public int m_count;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4B603C0
-    public void TryInvokeContinuation(){} // RVA: 0x4B60840
-    public void GetResult(){} // RVA: 0x4B60980
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x4B60A10
-    public void GetStatus(){} // RVA: 0x4B5FCD0
-    public void UnsafeGetStatus(){} // RVA: 0x4B5FCF0
-    public void OnCompleted(){} // RVA: 0x4B5FD10
+    public void .ctor(){} // RVA: 0x7ACA8E460
+    public void Clone(){} // RVA: 0x7ACA8E540
+    public void MoveNext(){} // RVA: 0x7ACA8E910
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACA8E9B0
 }
 
-public class WhenAllPromise`1
+public class WhereArrayIterator`1 : Iterator`1
 {
-    public System.Threading.Tasks.Task`1<T>[] m_tasks;
-    public int m_count;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2BAA0
-    public void TryInvokeContinuation(){} // RVA: 0x2DDA0
-    public void GetResult(){} // RVA: 0x1CCE0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAllPromise`1
+public class WhereArrayIterator`1 : Iterator`1
 {
-    public System.Threading.Tasks.Task`1<T>[] m_tasks;
-    public int m_count;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void Invoke(){} // RVA: 0x24B10
-    public void get_ShouldNotifyDebuggerOfWaitCompletion(){} // RVA: 0xDBE0
-    public void get_InvokeMayRunArbitraryCode(){} // RVA: 0xDBE0
-}
-
-public class WhenAllPromise`1
-{
-    public System.Threading.Tasks.Task`1<T>[] m_tasks;
-    public int m_count;
+    public void .ctor(){} // RVA: 0x7ACA8E460
+    public void Clone(){} // RVA: 0x7ACA8E540
+    public void MoveNext(){} // RVA: 0x7ACA8E910
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACA8E9B0
 }
 
-public class WhenAllPromise`1
+public class WhereArrayIterator`1 : Iterator`1
 {
-    public System.Threading.Tasks.Task`1<T>[] m_tasks;
-    public int m_count;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4B603C0
-    public void TryInvokeContinuation(){} // RVA: 0x4B60840
-    public void GetResult(){} // RVA: 0x4B60980
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x4B60A10
-    public void GetStatus(){} // RVA: 0x4B5FCD0
-    public void UnsafeGetStatus(){} // RVA: 0x4B5FCF0
-    public void OnCompleted(){} // RVA: 0x4B5FD10
+    public void .ctor(){} // RVA: 0x7ACA8E040
 }
 
-public class WhenAllPromise`10
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAllPromise`11
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7A7E18890
+    public void Clone(){} // RVA: 0x7A7E00680
+    public void Dispose(){} // RVA: 0x7A7E18770
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7A7E00B20
 }
 
-public class WhenAllPromise`12
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT12(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAllPromise`13
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT12(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT13(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8EA30
 }
 
-public class WhenAllPromise`14
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT12(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT13(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT14(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8DC50
 }
 
-public class WhenAllPromise`15
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT12(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT13(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT14(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT15(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAllPromise`2
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAllPromise`3
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAllPromise`4
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAllPromise`5
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E040
+    public void Clone(){} // RVA: 0x7ACA8E120
+    public void Dispose(){} // RVA: 0x7ACA909A0
+    public void MoveNext(){} // RVA: 0x7ACA90A50
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACA90360
 }
 
-public class WhenAllPromise`6
+public class WhereEnumerableIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E040
 }
 
-public class WhenAllPromise`7
+public class WhereListIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7A7E18890
+    public void Clone(){} // RVA: 0x7A7E00680
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7A7E00B20
 }
 
-public class WhenAllPromise`8
+public class WhereListIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAllPromise`9
+public class WhereListIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
+    public void .ctor(){} // RVA: 0x7ACA8EA30
 }
 
-public class WhenAnyLRPromise`1
+public class WhereListIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryLeftInvokeContinuation(){} // RVA: 0x24D50
-    public void TryRightInvokeContinuation(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAnyLRPromise`1
+public class WhereListIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4BF7330
-    public void TryLeftInvokeContinuation(){} // RVA: 0x4BF7AC0
-    public void TryRightInvokeContinuation(){} // RVA: 0x4BF7C70
-    public void GetResult(){} // RVA: 0x4BF7E10
-    public void GetStatus(){} // RVA: 0x4BF7ED0
-    public void OnCompleted(){} // RVA: 0x4BF7EF0
-    public void UnsafeGetStatus(){} // RVA: 0x4BF7F20
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x4BF7F30
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAnyLRPromise`1
+public class WhereListIterator`1 : Iterator`1
 {
-}
-
-public class WhenAnyPromise
-{
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6CFBA70
-    public void TryInvokeContinuation(){} // RVA: 0x6CFBD30
-    public void GetResult(){} // RVA: 0x6CFBE20
-    public void GetStatus(){} // RVA: 0x6CFBEA0
-    public void OnCompleted(){} // RVA: 0x6CFBEF0
-    public void UnsafeGetStatus(){} // RVA: 0x6CFBF70
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6CFBE20
+    public void .ctor(){} // RVA: 0x7ACA8E460
+    public void Clone(){} // RVA: 0x7ACA8E540
+    public void MoveNext(){} // RVA: 0x7ACA99600
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACA997C0
 }
 
-public class WhenAnyPromise`1
+public class WhereListIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2BAA0
-    public void TryInvokeContinuation(){} // RVA: 0x2DDA0
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA8E460
 }
 
-public class WhenAnyPromise`10
+public class WhereListIterator`1 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA8E040
 }
 
-public class WhenAnyPromise`11
+public class WhereSelectArrayIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9ABC0
 }
 
-public class WhenAnyPromise`12
+public class WhereSelectArrayIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT12(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7A7E1DDC0
+    public void Clone(){} // RVA: 0x7A7E00680
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7A7E00B20
 }
 
-public class WhenAnyPromise`13
+public class WhereSelectArrayIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT12(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT13(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9A470
 }
 
-public class WhenAnyPromise`14
+public class WhereSelectArrayIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT12(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT13(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT14(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9ABC0
 }
 
-public class WhenAnyPromise`15
+public class WhereSelectArrayIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT10(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT11(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT12(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT13(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT14(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT15(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9A7A0
 }
 
-public class WhenAnyPromise`2
+public class WhereSelectArrayIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9ABC0
 }
 
-public class WhenAnyPromise`2
+public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C65420
-    public void TryInvokeContinuationT1(){} // RVA: 0x4C65AC0
-    public void TryInvokeContinuationT2(){} // RVA: 0x4C65BC0
-    public void GetResult(){} // RVA: 0x4C65CD0
-    public void GetStatus(){} // RVA: 0x4C65D60
-    public void OnCompleted(){} // RVA: 0x4C65D80
-    public void UnsafeGetStatus(){} // RVA: 0x4C65DB0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x4C65DC0
-}
-
-public class WhenAnyPromise`2
-{
+    public void .ctor(){} // RVA: 0x7ACA9ABC0
 }
 
-public class WhenAnyPromise`2
+public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C64870
-    public void TryInvokeContinuationT1(){} // RVA: 0x4C64F10
-    public void TryInvokeContinuationT2(){} // RVA: 0x4C650F0
-    public void GetResult(){} // RVA: 0x4C65270
-    public void GetStatus(){} // RVA: 0x4C65320
-    public void OnCompleted(){} // RVA: 0x4C65340
-    public void UnsafeGetStatus(){} // RVA: 0x4C65370
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x4C65380
+    public void .ctor(){} // RVA: 0x7A7E1DDC0
+    public void Clone(){} // RVA: 0x7A7E00680
+    public void Dispose(){} // RVA: 0x7A7E18770
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7A7E00B20
 }
 
-public class WhenAnyPromise`2
+public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C63E20
-    public void TryInvokeContinuationT1(){} // RVA: 0x4C644C0
-    public void TryInvokeContinuationT2(){} // RVA: 0x4C645C0
-    public void GetResult(){} // RVA: 0x4C646E0
-    public void GetStatus(){} // RVA: 0x4C64770
-    public void OnCompleted(){} // RVA: 0x4C64790
-    public void UnsafeGetStatus(){} // RVA: 0x4C647C0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x4C647D0
+    public void .ctor(){} // RVA: 0x7ACA9A470
+    public void Clone(){} // RVA: 0x7ACA9A5A0
+    public void Dispose(){} // RVA: 0x7ACB0ECA0
+    public void MoveNext(){} // RVA: 0x7ACB0ED50
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACAA64D0
 }
 
-public class WhenAnyPromise`3
+public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9ABC0
 }
 
-public class WhenAnyPromise`4
+public class WhereSelectEnumerableIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9A7A0
 }
 
-public class WhenAnyPromise`5
+public class WhereSelectListIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9ABC0
+    public void Clone(){} // RVA: 0x7ACA9ACF0
+    public void MoveNext(){} // RVA: 0x7ACB54860
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACB479D0
 }
 
-public class WhenAnyPromise`6
+public class WhereSelectListIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7A7E1DDC0
+    public void Clone(){} // RVA: 0x7A7E00680
+    public void MoveNext(){} // RVA: 0x7A7E01900
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7A7E00B20
 }
 
-public class WhenAnyPromise`7
+public class WhereSelectListIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9A470
 }
 
-public class WhenAnyPromise`8
+public class WhereSelectListIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9ABC0
+    public void Clone(){} // RVA: 0x7ACA9ACF0
+    public void MoveNext(){} // RVA: 0x7ACB5D840
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACB479D0
 }
 
-public class WhenAnyPromise`9
+public class WhereSelectListIterator`2 : Iterator`1
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void TryInvokeContinuationT1(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT2(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT3(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT4(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT5(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT6(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT7(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT8(){} // RVA: 0x24D50
-    public void TryInvokeContinuationT9(){} // RVA: 0x24D50
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
+    public void .ctor(){} // RVA: 0x7ACA9A7A0
+    public void Clone(){} // RVA: 0x7ACA9A8D0
+    public void MoveNext(){} // RVA: 0x7ACB5C720
+    public void Select(){} // RVA: 0x7A7E00B20
+    public void Where(){} // RVA: 0x7ACB475B0
 }
 
-public class Where
+public class WillRenderCanvases : MulticastDelegate
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DC60
-    public void OnCompleted(){} // RVA: 0x24A50
-    public void OnError(){} // RVA: 0x24B10
-    public void OnNext(){} // RVA: 0x283FA0
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
 }
 
-public class WhereArrayIterator`1
+public class WithoutCurrentEnumerable : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DC60
-    public void Clone(){} // RVA: 0xCD60
-    public void MoveNext(){} // RVA: 0xDBE0
-    public void Select(){} // RVA: 0xCE10
-    public void Where(){} // RVA: 0xCE10
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
 }
 
-public class WhereArrayIterator`1
+public class WithoutCurrentEnumerable : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C911B0
-    public void Clone(){} // RVA: 0x4C91290
-    public void MoveNext(){} // RVA: 0x4C91300
-    public void Select(){} // RVA: 0xCE10
-    public void Where(){} // RVA: 0x4C91400
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
 }
 
-public class WhereArrayIterator`1
+public class WorkRequest : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C90BE0
-    public void Clone(){} // RVA: 0x4C90CC0
-    public void MoveNext(){} // RVA: 0x4C91090
-    public void Select(){} // RVA: 0xCE10
-    public void Where(){} // RVA: 0x4C91130
-}
-
-public class WhereArrayIterator`1
-{
+    public void .ctor(){} // RVA: 0x7A7660880
+    public void Invoke(){} // RVA: 0x7A7EDF990
 }
 
-public class WhereArrayIterator`1
+public class WorkRequest[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C90BE0
-    public void Clone(){} // RVA: 0x4C90CC0
-    public void MoveNext(){} // RVA: 0x4C91090
-    public void Select(){} // RVA: 0xCE10
-    public void Where(){} // RVA: 0x4C91130
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class WhereArrayIterator`1
+public class WorkStealingQueue : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C90BE0
-    public void Clone(){} // RVA: 0x4C90CC0
-    public void MoveNext(){} // RVA: 0x4C91090
-    public void Select(){} // RVA: 0xCE10
-    public void Where(){} // RVA: 0x4C91130
+    public void .ctor(){} // RVA: 0x7A7E18800
+    public void LocalPush(){} // RVA: 0x7A8051B10
+    public void TryLocalPop(){} // RVA: 0x7A7E019D0
+    public void TrySteal(){} // RVA: 0x7A7E03AD0
+    public void DangerousCopyTo(){} // RVA: 0x7A7E09FB0
+    public void get_DangerousCount(){} // RVA: 0x7A7E00710
 }
 
-public class WhereArrayIterator`1
+public class WorkStealingQueue : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C90BE0
-    public void Clone(){} // RVA: 0x4C90CC0
-    public void MoveNext(){} // RVA: 0x4C91090
-    public void Select(){} // RVA: 0xCE10
-    public void Where(){} // RVA: 0x4C91130
-}
-
-public class WhereArrayIterator`1
-{
-}
-
-public class WhereArrayIterator`1
-{
+    public void LocalPush(){} // RVA: 0x7ADD26EA0
+    public void LocalFindAndPop(){} // RVA: 0x7ADD27580
+    public void LocalPop(){} // RVA: 0x7ADD27850
+    public void TrySteal(){} // RVA: 0x7ADD27D80
+    public void .ctor(){} // RVA: 0x7ADD28150
 }
 
-public class WhereArrayIterator`1
+public class WorkStealingQueue[] : Array
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4C90BE0
-    public void Clone(){} // RVA: 0x4C90CC0
-    public void MoveNext(){} // RVA: 0x4C91090
-    public void Select(){} // RVA: 0xCE10
-    public void Where(){} // RVA: 0x4C91130
-}
-
-public class WhereArrayIterator`1
-{
-}
-
-public class WhereArrayIterator`1
-{
-}
-
-public class WhereArrayIterator`1
-{
-}
-
-public class WhereArrayIterator`1
-{
-}
-
-public class WhereArrayIterator`1
-{
-}
-
-public class WhereArrayIterator`1
-{
-}
-
-public class WhereArrayIterator`1
-{
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class WhereArrayIterator`1
+public class WriteDelegate : MulticastDelegate
 {
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7E1DFE0
+    public void Invoke(){} // RVA: 0x7A8051B10
 }

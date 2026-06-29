@@ -5,19 +5,15 @@
 
 namespace ThirdParty.DotNet.System.Security.Policy
 {
-    public class Evidence
+    public class Evidence : Object
     {
-        public bool _locked; // 0x10
-        public System.Collections.ArrayList hostEvidenceList; // 0x18
-        public System.Collections.ArrayList assemblyEvidenceList; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_Count(){} // RVA: 0x5C6B600
-        public void get_IsSynchronized(){} // RVA: 0x2DD320
-        public void get_SyncRoot(){} // RVA: 0x1A3F520
-        public void CopyTo(){} // RVA: 0x5C6B670
-        public void GetEnumerator(){} // RVA: 0x5C6B740
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Count(){} // RVA: 0x7ADA59620
+        public void get_IsSynchronized(){} // RVA: 0x7A80D7320
+        public void get_SyncRoot(){} // RVA: 0x7A97F8BA0
+        public void CopyTo(){} // RVA: 0x7ADA59690
+        public void GetEnumerator(){} // RVA: 0x7ADA59760
     }
 
 }

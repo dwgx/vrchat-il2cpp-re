@@ -1,1125 +1,1261 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 485
+// Methods: 757
 
-public class AsyncGPUReadbackRequestAwaiterConfiguredSource
+public class Action : Object
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<AsyncGPUReadbackRequestAwaiterConfiguredSource> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x3DF6A30
-    public void .cctor(){} // RVA: 0x6D379D0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void Create(){} // RVA: 0x6D37B50
-    public void GetResult(){} // RVA: 0x6D37FC0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6D38190
-    public void GetStatus(){} // RVA: 0x6D381B0
-    public void UnsafeGetStatus(){} // RVA: 0x6D38200
-    public void OnCompleted(){} // RVA: 0x6D38240
-    public void MoveNext(){} // RVA: 0x6D382C0
-    public void TryReturn(){} // RVA: 0x6D38490
+    public void Enable(){} // RVA: 0x7A7E18C30
+    public void set_enabled(){} // RVA: 0x7ADA9A4D0
+    public void .ctor(){} // RVA: 0x7A80D7310
 }
 
-public class AsyncInstantiateOperationConfiguredSource
+public class ActionNoArgs : Action
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<AsyncInstantiateOperationConfiguredSource> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x3DF6A30
-    public void .cctor(){} // RVA: 0x6D3F0B0
-    public void .ctor(){} // RVA: 0x6D3F230
-    public void Create(){} // RVA: 0x6D3F2F0
-    public void GetResult(){} // RVA: 0x6D3F860
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6D3FAE0
-    public void GetStatus(){} // RVA: 0x6D3FAF0
-    public void UnsafeGetStatus(){} // RVA: 0x6D3FB40
-    public void OnCompleted(){} // RVA: 0x6D3FB80
-    public void MoveNext(){} // RVA: 0x6D3FC00
-    public void TryReturn(){} // RVA: 0x6D3FD40
-    public void Continuation(){} // RVA: 0x6D3FEB0
+    public void .ctor(){} // RVA: 0x7A8CE4080
+    public void Enable(){} // RVA: 0x7AE2F3B70
 }
 
-public class AsyncInstantiateOperationConfiguredSource`1
+public class Action`1 : Action
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<AsyncInstantiateOperationConfiguredSource`1<T>> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0xCD60
-    public void .cctor(){} // RVA: 0x24A80
-    public void .ctor(){} // RVA: 0x24A50
-    public void Create(){} // RVA: 0x283FA0
-    public void GetResult(){} // RVA: 0x1CCE0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
-    public void MoveNext(){} // RVA: 0xDBE0
-    public void TryReturn(){} // RVA: 0xDBE0
-    public void Continuation(){} // RVA: 0x24B10
+    public void .ctor(){} // RVA: 0x7A8CE4080
+    public void Enable(){} // RVA: 0x7AB3C14A0
 }
 
-public class AsyncManualResetEvent
+public class Action`1 : Action
 {
     // ── Methods ──
-    public void WaitAsync(){} // RVA: 0x6B75E10
-    public void Set(){} // RVA: 0x6B75E70
-    public void Reset(){} // RVA: 0x6B761A0
-    public void .ctor(){} // RVA: 0x6B763D0
+    public void .ctor(){} // RVA: 0x7A8CE4080
+    public void Enable(){} // RVA: 0x7AB3C14A0
 }
 
-public class AsyncOperationAwaiter : .ctor
+public class Action`2 : Action
 {
-    public UnityEngine.AsyncOperation asyncOperation; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1102870
-    public void get_IsCompleted(){} // RVA: 0x6D365A0
-    public void GetResult(){} // RVA: 0x6D386D0
-    public void OnCompleted(){} // RVA: 0x6D38820
-    public void UnsafeOnCompleted(){} // RVA: 0x6D38830
+    public void .ctor(){} // RVA: 0x7A8CE4080
+    public void Enable(){} // RVA: 0x7AB4C7480
 }
 
-public class AsyncOperationConfiguredSource
+public class Action`5 : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.TaskPool`1<AsyncOperationConfiguredSource> pool;
-
     // ── Methods ──
-    public void get_NextNode(){} // RVA: 0x3DF6A30
-    public void .cctor(){} // RVA: 0x6D38960
-    public void .ctor(){} // RVA: 0x6D38AE0
-    public void Create(){} // RVA: 0x6D38BA0
-    public void GetResult(){} // RVA: 0x6D39100
-    public void GetStatus(){} // RVA: 0x6D39370
-    public void UnsafeGetStatus(){} // RVA: 0x6D393C0
-    public void OnCompleted(){} // RVA: 0x6D39400
-    public void MoveNext(){} // RVA: 0x6D39480
-    public void TryReturn(){} // RVA: 0x6D395E0
-    public void Continuation(){} // RVA: 0x6D39750
+    public void .ctor(){} // RVA: 0x7AB5EB8F0
+    public void Invoke(){} // RVA: 0x7AB5EBA60
+    public void BeginInvoke(){} // RVA: 0x7AB5EBA80
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class AsyncTriggerEnumerator
+public class Action`5 : MulticastDelegate
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<T> parent;
-    public System.Threading.CancellationToken cancellationToken;
-
     // ── Methods ──
-    public void .ctor(){}
-    public void OnCanceled(){} // RVA: 0x24CC0
-    public void OnNext(){} // RVA: 0x283FA0
-    public void OnCompleted(){} // RVA: 0x24A50
-    public void OnError(){} // RVA: 0x24B10
-    public void CancellationCallback(){} // RVA: 0x24AE0
-    public void get_Current(){} // RVA: 0x283FA0
-    public void set_Current(){} // RVA: 0x283FA0
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Prev(){} // RVA: 0xCD60
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Prev(){} // RVA: 0x24B10
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.get_Next(){} // RVA: 0xCD60
-    public void Cysharp.Threading.Tasks.ITriggerHandler<T>.set_Next(){} // RVA: 0x24B10
-    public void MoveNextAsync(){}
-    public void DisposeAsync(){} // RVA: 0xC770
-    public void .cctor(){} // RVA: 0x24A80
+    public void .ctor(){} // RVA: 0x7AB5EBDD0
+    public void Invoke(){} // RVA: 0x7AB5EBF40
+    public void BeginInvoke(){} // RVA: 0x7AB5EBFA0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class AsyncTriggerEnumerator
+public class Action`5 : MulticastDelegate
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<Cysharp.Threading.Tasks.AsyncUnit> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB5EBB70
+    public void Invoke(){} // RVA: 0x7AB112E00
+    public void BeginInvoke(){} // RVA: 0x7AB5EBCE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class AsyncTriggerEnumerator
+public class ActiveChangeHandler : MulticastDelegate
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<int> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7AB4CA8B0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AE2CFE10
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class AsyncTriggerEnumerator
+public class Activity : ValueType
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<bool> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void Init(){} // RVA: 0x7A9C5C840
+    public void Drop(){} // RVA: 0x7A9C5C8C0
+    public void SetState(){} // RVA: 0x7A9C5C940
+    public void Assets(){} // RVA: 0x7A9C5C9D0
+    public void SetAssets(){} // RVA: 0x7A9C5CA60
+    public void Timestamps(){} // RVA: 0x7A9C5CAF0
+    public void SetTimestamps(){} // RVA: 0x7A9C5CB80
+    public void Party(){} // RVA: 0x7A9C5CC10
+    public void SetParty(){} // RVA: 0x7A9C5CCA0
+    public void Secrets(){} // RVA: 0x7A9C5CD30
+    public void SetSecrets(){} // RVA: 0x7A9C5CDC0
 }
 
-public class AsyncTriggerEnumerator
+public class ActivityAssets : ValueType
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<System.ValueTuple`2<float[],int>> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void Init(){} // RVA: 0x7A9C5BF10
+    public void Drop(){} // RVA: 0x7A9C5BF90
+    public void SetLargeImage(){} // RVA: 0x7A9C5C010
+    public void SetLargeText(){} // RVA: 0x7A9C5C0A0
+    public void SetSmallImage(){} // RVA: 0x7A9C5C130
+    public void SetSmallText(){} // RVA: 0x7A9C5C1C0
 }
 
-public class AsyncTriggerEnumerator
+public class ActivityJoinCallback : MulticastDelegate
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Collision> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A8132FA0
+    public void Invoke(){} // RVA: 0x7A8133090
 }
 
-public class AsyncTriggerEnumerator
+public class ActivityJoinCallback : MulticastDelegate
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Collision2D> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A9C5EEB0
+    public void Invoke(){} // RVA: 0x7A9C5EF80
 }
 
-public class AsyncTriggerEnumerator
+public class ActivityParty : ValueType
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.ControllerColliderHit> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void Init(){} // RVA: 0x7A9C5C3E0
+    public void Drop(){} // RVA: 0x7A9C5C460
+    public void SetId(){} // RVA: 0x7A9C5C4E0
+    public void SetCurrentSize(){} // RVA: 0x7A9C5C580
+    public void SetMaxSize(){} // RVA: 0x7A9C5C610
 }
 
-public class AsyncTriggerEnumerator
+public class ActivitySecrets : ValueType
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<float> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void Init(){} // RVA: 0x7A9C5C6A0
+    public void Drop(){} // RVA: 0x7A9C5C720
+    public void SetJoin(){} // RVA: 0x7A9C5C7A0
 }
 
-public class AsyncTriggerEnumerator
+public class ActivityTimestamps : ValueType
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Joint2D> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void Init(){} // RVA: 0x7A9C5C250
+    public void Drop(){} // RVA: 0x7A9C5C2D0
+    public void SetStart(){} // RVA: 0x7A9C5C350
 }
 
-public class AsyncTriggerEnumerator
+public class AdvancedSettings : Object
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.GameObject> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A810DFB0
 }
 
-public class AsyncTriggerEnumerator
+public class AdvancedSetttings : Object
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.ParticleSystemJobs.ParticleSystemJobData> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A81001E0
 }
 
-public class AsyncTriggerEnumerator
+public class Alloc2D : ValueType
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<System.ValueTuple`2<UnityEngine.RenderTexture,UnityEngine.RenderTexture>> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7A7EFE600
 }
 
-public class AsyncTriggerEnumerator
+public class AllocMeshData : ValueType
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Collider> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void Allocate(){} // RVA: 0x7A7EFF1F0
 }
 
-public class AsyncTriggerEnumerator
+public class Allocator : MulticastDelegate
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.Collider2D> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void .ctor(){} // RVA: 0x7ADFC5700
+    public void Invoke(){} // RVA: 0x7A8234660
 }
 
-public class AsyncTriggerEnumerator
+public class AnalyticsExperiment : ApiModel
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.EventSystems.PointerEventData> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void get_key(){} // RVA: 0x7A8153390
+    public void set_key(){} // RVA: 0x7A81533A0
+    public void get_variant(){} // RVA: 0x7A81A00E0
+    public void set_variant(){} // RVA: 0x7A81A00F0
+    public void .ctor(){} // RVA: 0x7B16B0980
 }
 
-public class AsyncTriggerEnumerator
+public class AnimatedButton[] : Array
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.EventSystems.BaseEventData> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class AsyncTriggerEnumerator
+public class AnimationDataSet`2 : ValueType
 {
-    public System.Action`1<object> cancellationCallback;
-    public Cysharp.Threading.Tasks.Triggers.AsyncTriggerBase`1<UnityEngine.EventSystems.AxisEventData> parent; // 0x38
-    public System.Threading.CancellationToken cancellationToken; // 0x40
+    // ── Methods ──
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A79210B0
+    public void LocalInit(){} // RVA: 0x7A79210C0
+    public void Create(){} // RVA: 0x7AB60C430
+    public void IndexOf(){} // RVA: 0x7A79210D0
+    public void Add(){} // RVA: 0x7A79210E0
+    public void Remove(){} // RVA: 0x7A7921140
+    public void Replace(){} // RVA: 0x7A7920750
+    public void RemoveAll(){} // RVA: 0x7A7921160
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A7921170
 }
 
-public class AsyncUnitSource
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void GetResult(){} // RVA: 0x6CF2E90
-    public void GetStatus(){} // RVA: 0x6CF2F30
-    public void OnCompleted(){} // RVA: 0x6CF2F90
-    public void UnsafeGetStatus(){} // RVA: 0x6CF3020
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x6CF3070
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791F240
+    public void LocalInit(){} // RVA: 0x7A791F250
+    public void Create(){} // RVA: 0x7AB5FD130
+    public void IndexOf(){} // RVA: 0x7A791F260
+    public void Add(){} // RVA: 0x7A791F270
+    public void Remove(){} // RVA: 0x7A791F280
+    public void Replace(){} // RVA: 0x7A791F290
+    public void RemoveAll(){} // RVA: 0x7A791F2F0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791F300
 }
 
-public class AsyncUploadTimeSlicedUpdate
+public class AnimationDataSet`2 : ValueType
 {
+    // ── Methods ──
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A79206B0
+    public void LocalInit(){} // RVA: 0x7A79206C0
+    public void Create(){} // RVA: 0x7AB607130
+    public void IndexOf(){} // RVA: 0x7A79206D0
+    public void Add(){} // RVA: 0x7A79206E0
+    public void Remove(){} // RVA: 0x7A7920740
+    public void Replace(){} // RVA: 0x7A7920750
+    public void RemoveAll(){} // RVA: 0x7A7920840
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A7920850
 }
 
-public class AsyncWriter
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void Dispose(){} // RVA: 0x24A50
-    public void GetResult(){} // RVA: 0x24C40
-    public void GetStatus(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void OnCompleted(){}
-    public void YieldAsync(){} // RVA: 0x283FA0
-    public void SignalWriter(){} // RVA: 0x24A50
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791EAA0
+    public void LocalInit(){} // RVA: 0x7A791EAB0
+    public void Create(){} // RVA: 0x7AB5F8A40
+    public void IndexOf(){} // RVA: 0x7A791EAC0
+    public void Add(){} // RVA: 0x7A791EAD0
+    public void Remove(){} // RVA: 0x7A791EAE0
+    public void Replace(){} // RVA: 0x7A791EAF0
+    public void RemoveAll(){} // RVA: 0x7A791EB50
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791EB60
 }
 
-public class AttachExternalCancellationSource
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6D091C0
-    public void RunTask(){} // RVA: 0x6D094A0
-    public void CancellationCallback(){} // RVA: 0x6D09630
-    public void GetResult(){} // RVA: 0x6D096B0
-    public void GetStatus(){} // RVA: 0x6D09700
-    public void OnCompleted(){} // RVA: 0x6D09750
-    public void UnsafeGetStatus(){} // RVA: 0x6D097D0
-    public void .cctor(){} // RVA: 0x6D09810
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7920920
+    public void LocalInit(){} // RVA: 0x7A7920930
+    public void Create(){} // RVA: 0x7AB6081A0
+    public void IndexOf(){} // RVA: 0x7A7920940
+    public void Add(){} // RVA: 0x7A7920950
+    public void Remove(){} // RVA: 0x7A79209C0
+    public void Replace(){} // RVA: 0x7A791FE70
+    public void RemoveAll(){} // RVA: 0x7A79209E0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A79209F0
 }
 
-public class AttachExternalCancellationSource`1
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x283FA0
-    public void RunTask(){} // RVA: 0x283FA0
-    public void CancellationCallback(){} // RVA: 0x24AE0
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x24C40
-    public void GetResult(){} // RVA: 0x283FA0
-    public void GetStatus(){}
-    public void OnCompleted(){}
-    public void UnsafeGetStatus(){} // RVA: 0xD840
-    public void .cctor(){} // RVA: 0x24A80
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791EC30
+    public void LocalInit(){} // RVA: 0x7A791EC40
+    public void Create(){} // RVA: 0x7AB5F9880
+    public void IndexOf(){} // RVA: 0x7A791EC50
+    public void Add(){} // RVA: 0x7A791EC60
+    public void Remove(){} // RVA: 0x7A791EC70
+    public void Replace(){} // RVA: 0x7A791E3B0
+    public void RemoveAll(){} // RVA: 0x7A791EC90
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791ECA0
 }
 
-public class AttachExternalCancellationSource`1
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557A5B0
-    public void RunTask(){} // RVA: 0x557A8D0
-    public void CancellationCallback(){} // RVA: 0x557AA50
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x557AB00
-    public void GetResult(){} // RVA: 0x557AB00
-    public void GetStatus(){} // RVA: 0x557AB20
-    public void OnCompleted(){} // RVA: 0x557AB40
-    public void UnsafeGetStatus(){} // RVA: 0x557AB70
-    public void .cctor(){} // RVA: 0x557AB90
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7920270
+    public void LocalInit(){} // RVA: 0x7A7920280
+    public void Create(){} // RVA: 0x7AB604E30
+    public void IndexOf(){} // RVA: 0x7A7920290
+    public void Add(){} // RVA: 0x7A79202A0
+    public void Remove(){} // RVA: 0x7A7920320
+    public void Replace(){} // RVA: 0x7A7920330
+    public void RemoveAll(){} // RVA: 0x7A79203B0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A79203C0
 }
 
-public class AttachExternalCancellationSource`1
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557A5B0
-    public void RunTask(){} // RVA: 0x557A8D0
-    public void CancellationCallback(){} // RVA: 0x557AA50
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x557AB00
-    public void GetResult(){} // RVA: 0x557AB00
-    public void GetStatus(){} // RVA: 0x557AB20
-    public void OnCompleted(){} // RVA: 0x557AB40
-    public void UnsafeGetStatus(){} // RVA: 0x557AB70
-    public void .cctor(){} // RVA: 0x557AB90
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791E6C0
+    public void LocalInit(){} // RVA: 0x7A791E6D0
+    public void Create(){} // RVA: 0x7AB5F6C20
+    public void IndexOf(){} // RVA: 0x7A791E6E0
+    public void Add(){} // RVA: 0x7A791E6F0
+    public void Remove(){} // RVA: 0x7A791E730
+    public void Replace(){} // RVA: 0x7A791E740
+    public void RemoveAll(){} // RVA: 0x7A791E7A0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791E7B0
 }
 
-public class AttachExternalCancellationSource`1
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557A5B0
-    public void RunTask(){} // RVA: 0x557A8D0
-    public void CancellationCallback(){} // RVA: 0x557AA50
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x557AB00
-    public void GetResult(){} // RVA: 0x557AB00
-    public void GetStatus(){} // RVA: 0x557AB20
-    public void OnCompleted(){} // RVA: 0x557AB40
-    public void UnsafeGetStatus(){} // RVA: 0x557AB70
-    public void .cctor(){} // RVA: 0x557AB90
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791F8B0
+    public void LocalInit(){} // RVA: 0x7A791F8C0
+    public void Create(){} // RVA: 0x7AB600A80
+    public void IndexOf(){} // RVA: 0x7A791F8D0
+    public void Add(){} // RVA: 0x7A791F8E0
+    public void Remove(){} // RVA: 0x7A791F990
+    public void Replace(){} // RVA: 0x7A791F9A0
+    public void RemoveAll(){} // RVA: 0x7A791FA40
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791FA50
 }
 
-public class AttachExternalCancellationSource`1
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5579EF0
-    public void RunTask(){} // RVA: 0x557A1F0
-    public void CancellationCallback(){} // RVA: 0x557A360
-    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x557A400
-    public void GetResult(){} // RVA: 0x557A400
-    public void GetStatus(){} // RVA: 0x557A420
-    public void OnCompleted(){} // RVA: 0x557A440
-    public void UnsafeGetStatus(){} // RVA: 0x557A470
-    public void .cctor(){} // RVA: 0x557A480
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791DF50
+    public void LocalInit(){} // RVA: 0x7A791DF60
+    public void Create(){} // RVA: 0x7AB5F30E0
+    public void IndexOf(){} // RVA: 0x7A791DF70
+    public void Add(){} // RVA: 0x7A791DF80
+    public void Remove(){} // RVA: 0x7A791DFD0
+    public void Replace(){} // RVA: 0x7A791DFE0
+    public void RemoveAll(){} // RVA: 0x7A791E0B0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791E0C0
 }
 
-public class AttachedObject
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void HasAttachFlag(){} // RVA: 0x6520AC0
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7920490
+    public void LocalInit(){} // RVA: 0x7A79204A0
+    public void Create(){} // RVA: 0x7AB605EF0
+    public void IndexOf(){} // RVA: 0x7A79204B0
+    public void Add(){} // RVA: 0x7A79204C0
+    public void Remove(){} // RVA: 0x7A7920540
+    public void Replace(){} // RVA: 0x7A7920550
+    public void RemoveAll(){} // RVA: 0x7A79205D0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A79205E0
 }
 
-public class Attachment
+public class AnimationDataSet`2 : ValueType
 {
-    public string <partId>k__BackingField; // 0x68
-    public bool <isEnabled>k__BackingField; // 0x70
-    public string <path>k__BackingField; // 0x78
-    public System.Collections.Generic.List`1<float> <position>k__BackingField; // 0x80
-    public System.Collections.Generic.List`1<float> <rotation>k__BackingField; // 0x88
-    public System.Collections.Generic.List`1<float> <scale>k__BackingField; // 0x90
-    public System.Collections.Generic.List`1<Variable> <variables>k__BackingField; // 0x98
-
     // ── Methods ──
-    public void get_partId(){} // RVA: 0x358D50
-    public void set_partId(){} // RVA: 0x358D60
-    public void get_isEnabled(){} // RVA: 0x359320
-    public void set_isEnabled(){} // RVA: 0x359330
-    public void get_path(){} // RVA: 0x4C7C50
-    public void set_path(){} // RVA: 0x4C34F0
-    public void get_position(){} // RVA: 0x462D00
-    public void set_position(){} // RVA: 0x464450
-    public void get_rotation(){} // RVA: 0x31C010
-    public void set_rotation(){} // RVA: 0x463060
-    public void get_scale(){} // RVA: 0x796DE0
-    public void set_scale(){} // RVA: 0xB54600
-    public void get_variables(){} // RVA: 0xA1C8C0
-    public void set_variables(){} // RVA: 0x9AA650
-    public void .ctor(){} // RVA: 0x985EFE0
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791E880
+    public void LocalInit(){} // RVA: 0x7A791E890
+    public void Create(){} // RVA: 0x7AB5F7A70
+    public void IndexOf(){} // RVA: 0x7A791E8A0
+    public void Add(){} // RVA: 0x7A791E8B0
+    public void Remove(){} // RVA: 0x7A791E8F0
+    public void Replace(){} // RVA: 0x7A791E900
+    public void RemoveAll(){} // RVA: 0x7A791E9C0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791E9D0
 }
 
-public class AttrInfo
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void Set(){} // RVA: 0x68FD1C0 | overloaded x2
-    public void GetLocalnameAndNamespaceUri(){} // RVA: 0x68FD290
-    public void GetLocalnameAndNamespaceUriAndHash(){} // RVA: 0x68FD340
-    public void MatchNS(){} // RVA: 0x68FC940
-    public void MatchHashNS(){} // RVA: 0x68FD440
-    public void AdjustPosition(){} // RVA: 0x68FD4F0
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7920AC0
+    public void LocalInit(){} // RVA: 0x7A7920AD0
+    public void Create(){} // RVA: 0x7AB609150
+    public void IndexOf(){} // RVA: 0x7A7920AE0
+    public void Add(){} // RVA: 0x7A7920AF0
+    public void Remove(){} // RVA: 0x7A7920B60
+    public void Replace(){} // RVA: 0x7A7920B70
+    public void RemoveAll(){} // RVA: 0x7A7920BD0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A7920BE0
 }
 
-public class AttrListImpl
+public class AnimationDataSet`2 : ValueType
 {
-    public System.Collections.Generic.List`1<string> attrNames; // 0x10
-    public System.Collections.Generic.List`1<string> attrValues; // 0x18
-
     // ── Methods ──
-    public void get_Length(){} // RVA: 0x5BF98D0
-    public void GetName(){} // RVA: 0x5BF9920
-    public void GetValue(){} // RVA: 0x5BF9A20 | overloaded x2
-    public void get_Names(){} // RVA: 0x5BF9B40
-    public void get_Values(){} // RVA: 0x5BF9B90
-    public void Clear(){} // RVA: 0x5BF9BE0
-    public void Add(){} // RVA: 0x5BF9C70
-    public void .ctor(){} // RVA: 0x5BF9D80
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791ED70
+    public void LocalInit(){} // RVA: 0x7A791ED80
+    public void Create(){} // RVA: 0x7AB5FA670
+    public void IndexOf(){} // RVA: 0x7A791ED90
+    public void Add(){} // RVA: 0x7A791EDA0
+    public void Remove(){} // RVA: 0x7A791EDB0
+    public void Replace(){} // RVA: 0x7A791EDC0
+    public void RemoveAll(){} // RVA: 0x7A791EE10
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791EE20
 }
 
-public class AttrName
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void Set(){} // RVA: 0x6A3FD50
-    public void IsDuplicate(){} // RVA: 0x6A3FE70
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7921240
+    public void LocalInit(){} // RVA: 0x7A7921250
+    public void Create(){} // RVA: 0x7AB60D3C0
+    public void IndexOf(){} // RVA: 0x7A7921260
+    public void Add(){} // RVA: 0x7A7921270
+    public void Remove(){} // RVA: 0x7A7921310
+    public void Replace(){} // RVA: 0x7A7921320
+    public void RemoveAll(){} // RVA: 0x7A79213C0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A79213D0
 }
 
-public class AttributeContent
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DD310
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791F3D0
+    public void LocalInit(){} // RVA: 0x7A791F3E0
+    public void Create(){} // RVA: 0x7AB5FDF60
+    public void IndexOf(){} // RVA: 0x7A791F3F0
+    public void Add(){} // RVA: 0x7A791F400
+    public void Remove(){} // RVA: 0x7A791F450
+    public void Replace(){} // RVA: 0x7A791F460
+    public void RemoveAll(){} // RVA: 0x7A791F4E0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791F4F0
 }
 
-public class AttributeEntry
+public class AnimationDataSet`2 : ValueType
 {
+    // ── Methods ──
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7920F00
+    public void LocalInit(){} // RVA: 0x7A7920F10
+    public void Create(){} // RVA: 0x7AB60B460
+    public void IndexOf(){} // RVA: 0x7A7920F20
+    public void Add(){} // RVA: 0x7A7920F30
+    public void Remove(){} // RVA: 0x7A7920FB0
+    public void Replace(){} // RVA: 0x7A7920330
+    public void RemoveAll(){} // RVA: 0x7A7920FD0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A7920FE0
 }
 
-public class AttributeFilterCacheItem
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0xF19AE0
-    public void IsValid(){} // RVA: 0x6CAAA50
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791F0D0
+    public void LocalInit(){} // RVA: 0x7A791F0E0
+    public void Create(){} // RVA: 0x7AB5FC330
+    public void IndexOf(){} // RVA: 0x7A791F0F0
+    public void Add(){} // RVA: 0x7A791F100
+    public void Remove(){} // RVA: 0x7A791F140
+    public void Replace(){} // RVA: 0x7A791E740
+    public void RemoveAll(){} // RVA: 0x7A791F160
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791F170
 }
 
-public class AttributeInfo
+public class AnimationDataSet`2 : ValueType
 {
-    public System.AttributeUsageAttribute _usage; // 0x10
-    public int _inheritanceLevel; // 0x18
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1D66A50
-    public void get_Usage(){} // RVA: 0x2F8380
-    public void get_InheritanceLevel(){} // RVA: 0x5BED50
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7920CB0
+    public void LocalInit(){} // RVA: 0x7A7920CC0
+    public void Create(){} // RVA: 0x7AB60A340
+    public void IndexOf(){} // RVA: 0x7A7920CD0
+    public void Add(){} // RVA: 0x7A7920CE0
+    public void Remove(){} // RVA: 0x7A7920D80
+    public void Replace(){} // RVA: 0x7A7920D90
+    public void RemoveAll(){} // RVA: 0x7A7920E20
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A7920E30
 }
 
-public class AttributeOverride
+public class AnimationDataSet`2 : ValueType
 {
+    // ── Methods ──
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791EEF0
+    public void LocalInit(){} // RVA: 0x7A791EF00
+    public void Create(){} // RVA: 0x7AB5FB490
+    public void IndexOf(){} // RVA: 0x7A791EF10
+    public void Add(){} // RVA: 0x7A791EF20
+    public void Remove(){} // RVA: 0x7A791EF70
+    public void Replace(){} // RVA: 0x7A791EF80
+    public void RemoveAll(){} // RVA: 0x7A791EFF0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791F000
 }
 
-public class AttributeProvider
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6458F80
-    public void GetTypeDescriptor(){} // RVA: 0x6CA9C90
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7936E40
+    public void LocalInit(){} // RVA: 0x7A7936E50
+    public void Create(){} // RVA: 0x7AB6D42B0
+    public void IndexOf(){} // RVA: 0x7A7936E60
+    public void Add(){} // RVA: 0x7A7936E70
+    public void Remove(){} // RVA: 0x7A7936F10
+    public void Replace(){} // RVA: 0x7A7920D90
+    public void RemoveAll(){} // RVA: 0x7A7936F30
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A7936F40
 }
 
-public class AttributeTypeAndValue
+public class AnimationDataSet`2 : ValueType
 {
-    public string oid; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x5BD0D60 | overloaded x2
-    public void set_Value(){} // RVA: 0x5BD0DD0
-    public void GetASN1(){} // RVA: 0x5BD1290 | overloaded x2
-    public void SelectBestEncoding(){} // RVA: 0x5BD12A0
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791F730
+    public void LocalInit(){} // RVA: 0x7A791F740
+    public void Create(){} // RVA: 0x7AB5FFC40
+    public void IndexOf(){} // RVA: 0x7A791F750
+    public void Add(){} // RVA: 0x7A791F760
+    public void Remove(){} // RVA: 0x7A791F7B0
+    public void Replace(){} // RVA: 0x7A791EF80
+    public void RemoveAll(){} // RVA: 0x7A791F7D0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791F7E0
 }
 
-public class AttributeTypeDescriptor
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x4CF2A0
-    public void GetAttributes(){} // RVA: 0x6CA9E70
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A79214A0
+    public void LocalInit(){} // RVA: 0x7A79214B0
+    public void Create(){} // RVA: 0x7AB60E4F0
+    public void IndexOf(){} // RVA: 0x7A79214C0
+    public void Add(){} // RVA: 0x7A79214D0
+    public void Remove(){} // RVA: 0x7A7921560
+    public void Replace(){} // RVA: 0x7A7920110
+    public void RemoveAll(){} // RVA: 0x7A7921580
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A7921590
 }
 
-public class AttributeValueCache
+public class AnimationDataSet`2 : ValueType
 {
-    public System.Text.StringBuilder stringValue; // 0x10
-
     // ── Methods ──
-    public void get_StringValue(){} // RVA: 0x6A3FF60
-    public void WriteEntityRef(){} // RVA: 0x6A3FFA0
-    public void WriteCharEntity(){} // RVA: 0x6A40220
-    public void WriteSurrogateCharEntity(){} // RVA: 0x6A402B0
-    public void WriteWhitespace(){} // RVA: 0x6A40380
-    public void WriteString(){} // RVA: 0x6A403E0
-    public void WriteChars(){} // RVA: 0x6A40490
-    public void WriteRaw(){} // RVA: 0x6A406B0 | overloaded x2
-    public void WriteValue(){} // RVA: 0x6A40710
-    public void Replay(){} // RVA: 0x6A40770
-    public void Trim(){} // RVA: 0x6A40BC0
-    public void Clear(){} // RVA: 0x6A41180
-    public void StartComplexValue(){} // RVA: 0x6A41200
-    public void AddItem(){} // RVA: 0x6A41290
-    public void .ctor(){} // RVA: 0x6A41690
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791F5C0
+    public void LocalInit(){} // RVA: 0x7A791F5D0
+    public void Create(){} // RVA: 0x7AB5FEE20
+    public void IndexOf(){} // RVA: 0x7A791F5E0
+    public void Add(){} // RVA: 0x7A791F5F0
+    public void Remove(){} // RVA: 0x7A791F630
+    public void Replace(){} // RVA: 0x7A791E570
+    public void RemoveAll(){} // RVA: 0x7A791F650
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791F660
 }
 
-public class AudioConfigurationChangeHandler
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x160B140
-    public void Invoke(){} // RVA: 0x338C60
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791FB20
+    public void LocalInit(){} // RVA: 0x7A791FB30
+    public void Create(){} // RVA: 0x7AB601C00
+    public void IndexOf(){} // RVA: 0x7A791FB40
+    public void Add(){} // RVA: 0x7A791FB50
+    public void Remove(){} // RVA: 0x7A791FBD0
+    public void Replace(){} // RVA: 0x7A791FBE0
+    public void RemoveAll(){} // RVA: 0x7A791FCE0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791FCF0
 }
 
-public class AudioFixedUpdate
+public class AnimationDataSet`2 : ValueType
 {
+    // ── Methods ──
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791E190
+    public void LocalInit(){} // RVA: 0x7A791E1A0
+    public void Create(){} // RVA: 0x7AB5F40D0
+    public void IndexOf(){} // RVA: 0x7A791E1B0
+    public void Add(){} // RVA: 0x7A791E1C0
+    public void Remove(){} // RVA: 0x7A791E200
+    public void Replace(){} // RVA: 0x7A791E210
+    public void RemoveAll(){} // RVA: 0x7A791E280
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791E290
 }
 
-public class AudioTrack
+public class AnimationDataSet`2 : ValueType
 {
+    // ── Methods ──
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791FDC0
+    public void LocalInit(){} // RVA: 0x7A791FDD0
+    public void Create(){} // RVA: 0x7AB602CB0
+    public void IndexOf(){} // RVA: 0x7A791FDE0
+    public void Add(){} // RVA: 0x7A791FDF0
+    public void Remove(){} // RVA: 0x7A791FE60
+    public void Replace(){} // RVA: 0x7A791FE70
+    public void RemoveAll(){} // RVA: 0x7A791FF60
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791FF70
 }
 
-public class AuthData
+public class AnimationDataSet`2 : ValueType
 {
+    // ── Methods ──
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791E360
+    public void LocalInit(){} // RVA: 0x7A791E370
+    public void Create(){} // RVA: 0x7AB5F4F60
+    public void IndexOf(){} // RVA: 0x7A791E380
+    public void Add(){} // RVA: 0x7A791E390
+    public void Remove(){} // RVA: 0x7A791E3A0
+    public void Replace(){} // RVA: 0x7A791E3B0
+    public void RemoveAll(){} // RVA: 0x7A791E410
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791E420
 }
 
-public class AuthEnvelopedSecureReadable
+public class AnimationDataSet`2 : ValueType
 {
-    public BestHTTP.SecureProtocol.Org.BouncyCastle.Cms.CmsAuthEnvelopedData parent; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x2DEE30
-    public void get_Algorithm(){} // RVA: 0xB2E750
-    public void get_CryptoObject(){} // RVA: 0x519240
-    public void GetReadable(){} // RVA: 0x96929F0
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A7920040
+    public void LocalInit(){} // RVA: 0x7A7920050
+    public void Create(){} // RVA: 0x7AB603D40
+    public void IndexOf(){} // RVA: 0x7A7920060
+    public void Add(){} // RVA: 0x7A7920070
+    public void Remove(){} // RVA: 0x7A7920100
+    public void Replace(){} // RVA: 0x7A7920110
+    public void RemoveAll(){} // RVA: 0x7A7920190
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A79201A0
 }
 
-public class AuthorizationArgs
+public class AnimationDataSet`2 : ValueType
 {
     // ── Methods ──
-    public void Init(){} // RVA: 0x1E588E0
-    public void Drop(){} // RVA: 0x1E58960
-    public void SetClientId(){} // RVA: 0x1E589E0
-    public void SetScopes(){} // RVA: 0x1E58A70
+    public void get_capacity(){} // RVA: 0x7A78D5A30
+    public void set_capacity(){} // RVA: 0x7A791E4F0
+    public void LocalInit(){} // RVA: 0x7A791E500
+    public void Create(){} // RVA: 0x7AB5F5DA0
+    public void IndexOf(){} // RVA: 0x7A791E510
+    public void Add(){} // RVA: 0x7A791E520
+    public void Remove(){} // RVA: 0x7A791E560
+    public void Replace(){} // RVA: 0x7A791E570
+    public void RemoveAll(){} // RVA: 0x7A791E5E0
+    public void GetActivePropertiesForElement(){} // RVA: 0x7A791E5F0
 }
 
-public class AuthorizationCallback
+public class ApiBundleDropNotificationDetails : ApiModel
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1E601C0
-    public void Invoke(){} // RVA: 0x4394E0
+    public void get_title(){} // RVA: 0x7A8153390
+    public void set_title(){} // RVA: 0x7A81533A0
+    public void get_body(){} // RVA: 0x7A81A00E0
+    public void set_body(){} // RVA: 0x7A81A00F0
+    public void get_imageUrl(){} // RVA: 0x7A82C2060
+    public void set_imageUrl(){} // RVA: 0x7A82C0530
+    public void .ctor(){} // RVA: 0x7B16B17F0
 }
 
-public class AuthorizationCallback
+public class ApiGalleryImageContainer : ApiModel
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1E5A310
-    public void Invoke(){} // RVA: 0x1E5A3F0
+    public void get_totalCount(){} // RVA: 0x7A9A93870
+    public void set_totalCount(){} // RVA: 0x7A9A93880
+    public void get_results(){} // RVA: 0x7A81A00E0
+    public void set_results(){} // RVA: 0x7A81A00F0
+    public void .ctor(){} // RVA: 0x7B175CF80
 }
 
-public class AuthorizationState
+public class ApiPopupBuilderData : ApiModel
 {
-    public System.Net.HttpWebRequest request; // 0x10
-    public bool isProxy; // 0x18
-    public bool isCompleted; // 0x19
-
     // ── Methods ──
-    public void get_IsCompleted(){} // RVA: 0x1B06E00
-    public void get_NtlmAuthState(){} // RVA: 0x1EA98B0
-    public void get_IsNtlmAuthenticated(){} // RVA: 0x6B640D0
-    public void .ctor(){} // RVA: 0x6B640F0
-    public void CheckAuthorization(){} // RVA: 0x6B64160
-    public void Reset(){} // RVA: 0x6B64570
-    public void ToString(){} // RVA: 0x6B64640
+    public void get_key(){} // RVA: 0x7A8153390
+    public void set_key(){} // RVA: 0x7A81533A0
+    public void get_title(){} // RVA: 0x7A81A00E0
+    public void set_title(){} // RVA: 0x7A81A00F0
+    public void get_spacing(){} // RVA: 0x7A8100320
+    public void set_spacing(){} // RVA: 0x7A8100330
+    public void get_content(){} // RVA: 0x7A825E100
+    public void set_content(){} // RVA: 0x7A825F860
+    public void .ctor(){} // RVA: 0x7B16B0FE0
 }
 
-public class AutoDetectParams
+public class ApiPopupBuilderRecipe : ApiModel
 {
-    public bool legsParentInSpine; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x3312A0
-    public void get_Default(){} // RVA: 0x3312B0
+    public void get_pages(){} // RVA: 0x7A8153390
+    public void set_pages(){} // RVA: 0x7A81533A0
+    public void .ctor(){} // RVA: 0x7B16B0F90
 }
 
-public class AutoDolly
+public class ApiPromotionNotification : ApiModel
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1D0DB20
+    public void get_title(){} // RVA: 0x7A8153390
+    public void set_title(){} // RVA: 0x7A81533A0
+    public void get_body(){} // RVA: 0x7A81A00E0
+    public void set_body(){} // RVA: 0x7A81A00F0
+    public void get_imageUrl(){} // RVA: 0x7A82C2060
+    public void set_imageUrl(){} // RVA: 0x7A82C0530
+    public void get_command(){} // RVA: 0x7A825E100
+    public void set_command(){} // RVA: 0x7A825F860
+    public void get_parameter(){} // RVA: 0x7A81163D0
+    public void set_parameter(){} // RVA: 0x7A825E460
+    public void .ctor(){} // RVA: 0x7B16B0F40
 }
 
-public class AutoScope : `
+public class ApiRequestData : ValueType
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x70B6890
-    public void Dispose(){} // RVA: 0x4A3A00
+    public void .ctor(){} // RVA: 0x7A7FC4CF0
+    public void op_Implicit(){} // RVA: 0x7B1692320
 }
 
-public class AvailableDevice
+public class ApiVRChatProductStore : ApiModel
 {
+    // ── Methods ──
+    public void get_planId(){} // RVA: 0x7A8153390
+    public void set_planId(){} // RVA: 0x7A81533A0
+    public void .ctor(){} // RVA: 0x7B172EBD0
 }
 
-public class AvatarCullingMonitor
+public class Area : Object
 {
-    public float _avatarScreenSizeThresholdLower; // 0x10
-    public float _avatarScreenSizeThresholdUpper; // 0x14
-    public 0x65716998[] _validAvatarKinds; // 0x18
-
     // ── Methods ──
-    public void get_AvatarCullableShouldRun_C3ED81CFFC4B(){} // RVA: 0x10CABE0
-    public void set_AvatarCullableShouldRun(){} // RVA: 0x10CAD20
-    public void .ctor(){} // RVA: 0x10CAFB0
-    public void Initialize(){} // RVA: 0x10CAFC0
-    public void set_AvatarScreenSizeAboveTriggerThreshold(){} // RVA: 0x10CB0E0
-    public void .ctor_AFD8230A6BE3(){} // RVA: 0x10CB0E0
-    public void Dispose(){} // RVA: 0x10CB110
-    public void Cleanup(){} // RVA: 0x10CB190
-    public void get_AvatarScreenSizeAboveTriggerThreshold(){} // RVA: 0x10CB290
-    public void set_AvatarKindValidForExecution(){} // RVA: 0x10CB2A0
-    public void GetAvatarCullableShouldRun(){} // RVA: 0x10CB380
-    public void Dispose_6096FC2D9640(){} // RVA: 0x10CB480
-    public void get_AvatarKindValidForExecution(){} // RVA: 0x10CB600
-    public void get_AvatarCullableShouldRun(){} // RVA: 0x10CB670
-    public void ToString(){} // RVA: 0x10CB6E0
-    public void SteamVR_Behaviour_Boolean_OnState(){} // RVA: 0x10CB6F0
-    public void RefreshAvatarCullingState(){} // RVA: 0x10CB870
+    public void .ctor(){} // RVA: 0x7AF1159C0
 }
 
-public class AvatarOscConfig
+public class AreaNode : Object
 {
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x11113D0 | overloaded x2
-    public void GetByName(){} // RVA: 0x11112B0
+    public void Acquire(){} // RVA: 0x7AF20EBA0
+    public void Release(){} // RVA: 0x7AF20ED40
+    public void RemoveFromChain(){} // RVA: 0x7AF20EDD0
+    public void AddAfter(){} // RVA: 0x7AF20EF40
+    public void .ctor(){} // RVA: 0x7A80D7310
+    public void .cctor(){} // RVA: 0x7AF20F130
 }
 
-public class Avoider
+public class Arm : BodyPart
 {
     // ── Methods ──
-    public void Solve(){} // RVA: 0x452210
-    public void GetOffsetTarget(){} // RVA: 0x452460
-    public void Raycast(){} // RVA: 0x4526B0
-    public void .ctor(){} // RVA: 0x452B50
+    public void get_position(){} // RVA: 0x7A81F6590
+    public void set_position(){} // RVA: 0x7A81F65B0
+    public void get_rotation(){} // RVA: 0x7A81F65D0
+    public void set_rotation(){} // RVA: 0x7A81F65E0
+    public void get_shoulder(){} // RVA: 0x7A81F65F0
+    public void get_upperArm(){} // RVA: 0x7A81F6620
+    public void get_forearm(){} // RVA: 0x7A81F6670
+    public void get_hand(){} // RVA: 0x7A81F66C0
+    public void OnRead(){} // RVA: 0x7A81F6710
+    public void PreSolve(){} // RVA: 0x7A81F7990
+    public void ApplyOffsets(){} // RVA: 0x7A81F7FD0
+    public void Stretching(){} // RVA: 0x7A81F8030
+    public void VrcGetZeroWeightElbowDir(){} // RVA: 0x7A81F8770
+    public void VrcAdjustBendFromTargetRot(){} // RVA: 0x7A81F9780
+    public void VrcAvoidElbowClipping(){} // RVA: 0x7A81FAB90
+    public void Solve(){} // RVA: 0x7A81FC700
+    public void ResetOffsets(){} // RVA: 0x7A82002E0
+    public void Write(){} // RVA: 0x7A8200340
+    public void VrcSetPoseBend(){} // RVA: 0x7A82006D0
+    public void VrcSetPoseWristRot(){} // RVA: 0x7A82006F0
+    public void DamperValue(){} // RVA: 0x7A8200700
+    public void GetBendNormal(){} // RVA: 0x7A82007D0
+    public void Visualize(){} // RVA: 0x7A8201D10
+    public void .ctor(){} // RVA: 0x7A8201FD0
 }
 
-public class Avx
+public class Arm[] : Array
 {
     // ── Methods ──
-    public void mm256_load_ps(){} // RVA: 0x2095F20
-    public void mm256_store_ps(){} // RVA: 0x6D74960
-    public void mm256_loadu_si256(){} // RVA: 0x2095F20
-    public void mm256_storeu_si256(){} // RVA: 0x6D74960
-    public void mm256_set1_epi32(){} // RVA: 0x6D74970
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Avx2
+public class ArrayPoolImpl`1 : Object
 {
-    public object IsSseSupported;
-
     // ── Methods ──
-    public void get_IsAvx2Supported(){} // RVA: 0x2DD320
-    public void mm256_xor_si256(){} // RVA: 0x6D74990
-    public void mm256_add_epi64(){} // RVA: 0x6D749F0
-    public void mm256_mul_epu32(){} // RVA: 0x6D74A60
-    public void mm256_slli_epi64(){} // RVA: 0x6D74AD0
-    public void mm256_srli_epi64(){} // RVA: 0x6D74C00
-    public void mm256_shuffle_epi32(){} // RVA: 0x6D74D60
+    public void Get(){} // RVA: 0x7AB7A5410
+    public void get_ObjectType(){} // RVA: 0x7AB7A0E60
+    public void get_CountInactive(){} // RVA: 0x7AB7A0EA0
+    public void .ctor(){} // RVA: 0x7AB7A5280
+    public void Contains(){} // RVA: 0x7AB7A1670
+    public void Release(){} // RVA: 0x7AB7A1880
+    public void Cleanup(){} // RVA: 0x7AB7A5760
+    public void .cctor(){} // RVA: 0x7AB7A5E80
 }
 
-public class AwaitableSocketAsyncEventArgs
+public class ArrayPoolImpl`1 : Object
 {
-    public AwaitableSocketAsyncEventArgs Reserved;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x6BAA860
-    public void get_WrapExceptionsInIOExceptions(){} // RVA: 0x6BAA920
-    public void set_WrapExceptionsInIOExceptions(){} // RVA: 0x6BAA930
-    public void Reserve(){} // RVA: 0x6BAA940
-    public void Release(){} // RVA: 0x6BAAA10
-    public void OnCompleted(){} // RVA: 0x6BAB310 | overloaded x2
-    public void ReceiveAsync(){} // RVA: 0x6BAAE90
-    public void SendAsyncForNetworkStream(){} // RVA: 0x6BAB0B0
-    public void GetStatus(){} // RVA: 0x6BAB270
-    public void InvokeContinuation(){} // RVA: 0x6BAB660
-    public void GetResult(){} // RVA: 0x6BAB970
-    public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x6BAB9D0
-    public void ThrowIncorrectTokenException(){} // RVA: 0x6BABA20
-    public void ThrowMultipleContinuationsException(){} // RVA: 0x6BABA70
-    public void ThrowException(){} // RVA: 0x6BABAC0
-    public void CreateException(){} // RVA: 0x6BABAF0
-    public void .cctor(){} // RVA: 0x6BABC00
+    public void Get(){} // RVA: 0x7AB7A71B0
+    public void get_ObjectType(){} // RVA: 0x7AB7A0E60
+    public void get_CountInactive(){} // RVA: 0x7AB7A0EA0
+    public void .ctor(){} // RVA: 0x7AB7A7020
+    public void Contains(){} // RVA: 0x7AB7A1670
+    public void Release(){} // RVA: 0x7AB7A1880
+    public void Cleanup(){} // RVA: 0x7AB7A7500
+    public void .cctor(){} // RVA: 0x7AB7A7C20
 }
 
-public class Awaiter : IsCompleted
+public class ArrayPoolImpl`1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<T> task;
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x24B10
-    public void get_IsCompleted(){} // RVA: 0xDBE0
-    public void GetResult(){} // RVA: 0x283FA0
-    public void OnCompleted(){} // RVA: 0x24B10
-    public void UnsafeOnCompleted(){} // RVA: 0x24B10
-    public void SourceOnCompleted(){} // RVA: 0x2DC60
+    public void Get(){} // RVA: 0x7AB7A1320
+    public void get_ObjectType(){} // RVA: 0x7AB7A0E60
+    public void get_CountInactive(){} // RVA: 0x7AB7A0EA0
+    public void .ctor(){} // RVA: 0x7AB7A1190
+    public void Contains(){} // RVA: 0x7AB7A1670
+    public void Release(){} // RVA: 0x7AB7A1880
+    public void Cleanup(){} // RVA: 0x7AB7A1CA0
+    public void .cctor(){} // RVA: 0x7AB7A23C0
 }
 
-public class Awaiter
+public class ArrayPoolImpl`1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<bool> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F7E940
-    public void get_IsCompleted(){} // RVA: 0x6D2410
-    public void GetResult(){} // RVA: 0x6D2450
-    public void OnCompleted(){} // RVA: 0x55A8F40
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9040
-    public void SourceOnCompleted(){} // RVA: 0x55A20D0
+    public void Get(){} // RVA: 0x7AB7A6300
+    public void get_ObjectType(){} // RVA: 0x7AB7A6130
+    public void get_CountInactive(){} // RVA: 0x7AB7A0EA0
+    public void .ctor(){} // RVA: 0x7AB7A6170
+    public void Contains(){} // RVA: 0x7AB7A1670
+    public void Release(){} // RVA: 0x7AB7A1880
+    public void Cleanup(){} // RVA: 0x7AB7A6650
+    public void .cctor(){} // RVA: 0x7AB7A6D70
 }
 
-public class Awaiter
+public class ArrayPoolImpl`1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTask task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F7E940
-    public void get_IsCompleted(){} // RVA: 0x6CF3610
-    public void GetResult(){} // RVA: 0x6CF36B0
-    public void OnCompleted(){} // RVA: 0x6CF3710
-    public void UnsafeOnCompleted(){} // RVA: 0x6CF37E0
-    public void SourceOnCompleted(){} // RVA: 0x6CF38B0
+    public void Get(){} // RVA: 0x7AB7A2800
+    public void get_ObjectType(){} // RVA: 0x7AB7A0E60
+    public void get_CountInactive(){} // RVA: 0x7AB7A0EA0
+    public void .ctor(){} // RVA: 0x7AB7A2670
+    public void Contains(){} // RVA: 0x7AB7A1670
+    public void Release(){} // RVA: 0x7AB7A1880
+    public void Cleanup(){} // RVA: 0x7AB7A2B50
+    public void .cctor(){} // RVA: 0x7AB7A3270
 }
 
-public class Awaiter : .ctor
+public class ArrayPoolImpl`1 : Object
 {
-    public 0x658F9AD0 playerLoopTiming; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x37C6C70
-    public void get_IsCompleted(){} // RVA: 0x6CFE100
-    public void GetResult(){} // RVA: 0x6CFE1F0
-    public void OnCompleted(){} // RVA: 0x6CFE2A0
-    public void UnsafeOnCompleted(){} // RVA: 0x6CFE300
+    public void Get(){} // RVA: 0x7AB7A4560
+    public void get_ObjectType(){} // RVA: 0x7AB7A0E60
+    public void get_CountInactive(){} // RVA: 0x7AB7A0EA0
+    public void .ctor(){} // RVA: 0x7AB7A43D0
+    public void Contains(){} // RVA: 0x7AB7A1670
+    public void Release(){} // RVA: 0x7AB7A1880
+    public void Cleanup(){} // RVA: 0x7AB7A48B0
+    public void .cctor(){} // RVA: 0x7AB7A4FD0
 }
 
-public class Awaiter
+public class ArrayPoolImpl`1 : Object
 {
-    public System.Threading.WaitCallback switchToCallback;
-
     // ── Methods ──
-    public void get_IsCompleted(){} // RVA: 0x2DD320
-    public void GetResult(){} // RVA: 0x2DD310
-    public void OnCompleted(){} // RVA: 0x6CFE5C0
-    public void UnsafeOnCompleted(){} // RVA: 0x6CFE620
-    public void Callback(){} // RVA: 0x6CFE680
-    public void .cctor(){} // RVA: 0x6CFE6F0
+    public void Get(){} // RVA: 0x7AB7A6300
+    public void get_ObjectType(){} // RVA: 0x7AB7A6130
+    public void get_CountInactive(){} // RVA: 0x7AB7A0EA0
+    public void .ctor(){} // RVA: 0x7AB7A6170
+    public void Contains(){} // RVA: 0x7AB7A1670
+    public void Release(){} // RVA: 0x7AB7A1880
+    public void Cleanup(){} // RVA: 0x7AB7A6650
+    public void .cctor(){} // RVA: 0x7AB7A6D70
 }
 
-public class Awaiter
+public class Article : ApiModel
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void get_content(){} // RVA: 0x7A8153390
+    public void set_content(){} // RVA: 0x7A81533A0
+    public void get_sectionLinks(){} // RVA: 0x7A81A00E0
+    public void set_sectionLinks(){} // RVA: 0x7A81A00F0
+    public void get_embeddedLinkData(){} // RVA: 0x7A82C2060
+    public void set_embeddedLinkData(){} // RVA: 0x7A82C0530
+    public void get_moreInfoLinks(){} // RVA: 0x7A825E100
+    public void set_moreInfoLinks(){} // RVA: 0x7A825F860
+    public void .ctor(){} // RVA: 0x7B16B0DE0
 }
 
-public class Awaiter
+public class ArticleContent : ApiModel
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÍÎÌÌÍÍÏÍÌÌÌÍÎÏÌÌÍÎÏÍÍÍ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void get_title(){} // RVA: 0x7A8153390
+    public void set_title(){} // RVA: 0x7A81533A0
+    public void get_text(){} // RVA: 0x7A81A00E0
+    public void set_text(){} // RVA: 0x7A81A00F0
+    public void get_imageUrl(){} // RVA: 0x7A82C2060
+    public void set_imageUrl(){} // RVA: 0x7A82C0530
+    public void get_videoUrl(){} // RVA: 0x7A825E100
+    public void set_videoUrl(){} // RVA: 0x7A825F860
+    public void get_onPressed(){} // RVA: 0x7A81163D0
+    public void set_onPressed(){} // RVA: 0x7A825E460
+    public void .ctor(){} // RVA: 0x7B16B0E30
 }
 
-public class Awaiter
+public class ArticleContent[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.Texture2D> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class Asn1SequenceParserImpl : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<string> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7B1505950
+    public void ReadObject(){} // RVA: 0x7B15059D0
+    public void ToAsn1Object(){} // RVA: 0x7A80F2570
 }
 
-public class Awaiter
+public class Asn1SetParserImpl : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7B1506D70
+    public void ReadObject(){} // RVA: 0x7B1506DF0
+    public void ToAsn1Object(){} // RVA: 0x7A80F2570
 }
 
-public class Awaiter
+public class AssetEntry : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void get_type(){} // RVA: 0x7A7EFE1C0
+    public void .ctor(){} // RVA: 0x7A7EFE1D0
 }
 
-public class Awaiter
+public class AssetEntry[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiInventoryItem> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A18F0
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E0E0
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2F10
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2508F0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E0E0
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter : .ctor
+public class AssociatedDetection : Object
 {
-    public 0x658F9AD0 timing; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x833580
-    public void get_IsCompleted(){} // RVA: 0x2DD320
-    public void GetResult(){} // RVA: 0x2DD310
-    public void OnCompleted(){} // RVA: 0x6CFD9D0
-    public void UnsafeOnCompleted(){} // RVA: 0x6CFDA30
+    public void get_Parser(){} // RVA: 0x7AD8F9EF0
+    public void get_Descriptor(){} // RVA: 0x7AD8F9F50
+    public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD8F9FD0
+    public void .ctor(){} // RVA: 0x7AD8FA080
+    public void Clone(){} // RVA: 0x7AD8FA170
+    public void get_Id(){} // RVA: 0x7AD8FA290
+    public void set_Id(){} // RVA: 0x7AD848D30
+    public void get_HasId(){} // RVA: 0x7AD848D40
+    public void ClearId(){} // RVA: 0x7AD848D50
+    public void get_Confidence(){} // RVA: 0x7AD8FA300
+    public void set_Confidence(){} // RVA: 0x7AD8F4080
+    public void get_HasConfidence(){} // RVA: 0x7AD848DE0
+    public void ClearConfidence(){} // RVA: 0x7AD848DF0
+    public void Equals(){} // RVA: 0x7AD8FA4C0
+    public void GetHashCode(){} // RVA: 0x7AD8FA5E0
+    public void ToString(){} // RVA: 0x7AD8FA6C0
+    public void WriteTo(){} // RVA: 0x7AD825C30
+    public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD8FA710
+    public void CalculateSize(){} // RVA: 0x7AD8FA7A0
+    public void MergeFrom(){} // RVA: 0x7AD825F70
+    public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD8FA950
+    public void .cctor(){} // RVA: 0x7AD8FA9F0
 }
 
-public class Awaiter
+public class AssociatedDetection[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÍÎÌÏÏÌÌÏÍÎÌÎÎÎÌÎÍÏÎÏÏÍÍ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class AttachExternalCancellationSource`1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÎÎÍÌÌÌÍÌÌÏÎÌÌÍÍÎÎÎÍÌÏÏÏ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD338970
 }
 
-public class Awaiter
+public class AttachExternalCancellationSource`1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.Vector3> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x5580B20
-    public void GetResult(){} // RVA: 0x5580B60
-    public void OnCompleted(){} // RVA: 0x55AAD30
-    public void UnsafeOnCompleted(){} // RVA: 0x55AAE30
-    public void SourceOnCompleted(){} // RVA: 0x5580E10
+    public void .ctor(){} // RVA: 0x7AD338970
 }
 
-public class Awaiter
+public class AttachExternalCancellationSource`1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<UnityEngine.Vector3,float>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A6340
-    public void UnsafeOnCompleted(){} // RVA: 0x55A6440
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AD338970
+    public void RunTask(){} // RVA: 0x7AD338CB0
+    public void CancellationCallback(){} // RVA: 0x7AD338E30
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD338EE0
+    public void GetResult(){} // RVA: 0x7AD338EE0
+    public void GetStatus(){} // RVA: 0x7AD338F00
+    public void OnCompleted(){} // RVA: 0x7AD338F20
+    public void UnsafeGetStatus(){} // RVA: 0x7AD338F50
+    public void .cctor(){} // RVA: 0x7AD338F70
 }
 
-public class Awaiter
+public class AttachExternalCancellationSource`1 : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÏÌÍÍÌÌÏÏÌÎÏÎÏÎÍÍÌÌÍÎÌÎ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AD338290
+    public void RunTask(){} // RVA: 0x7AD3385B0
+    public void CancellationCallback(){} // RVA: 0x7AD338720
+    public void Cysharp.Threading.Tasks.IUniTaskSource.GetResult(){} // RVA: 0x7AD3387C0
+    public void GetResult(){} // RVA: 0x7AD3387C0
+    public void GetStatus(){} // RVA: 0x7AD3387E0
+    public void OnCompleted(){} // RVA: 0x7AD338800
+    public void UnsafeGetStatus(){} // RVA: 0x7AD338830
+    public void .cctor(){} // RVA: 0x7AD338840
 }
 
-public class Awaiter
+public class Attachment : ApiModel
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÎÍÏÌÍÎÍÏÎÌÏÏÍÏÏÎÏÎÏÌÎÏÌ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void get_partId(){} // RVA: 0x7A8153390
+    public void set_partId(){} // RVA: 0x7A81533A0
+    public void get_isEnabled(){} // RVA: 0x7A8153980
+    public void set_isEnabled(){} // RVA: 0x7A8153990
+    public void get_path(){} // RVA: 0x7A82C2060
+    public void set_path(){} // RVA: 0x7A82C0530
+    public void get_position(){} // RVA: 0x7A825E100
+    public void set_position(){} // RVA: 0x7A825F860
+    public void get_rotation(){} // RVA: 0x7A81163D0
+    public void set_rotation(){} // RVA: 0x7A825E460
+    public void get_scale(){} // RVA: 0x7A8555100
+    public void set_scale(){} // RVA: 0x7A8919DE0
+    public void get_variables(){} // RVA: 0x7A87D9C10
+    public void set_variables(){} // RVA: 0x7A8744720
+    public void .ctor(){} // RVA: 0x7B1699DC0
 }
 
-public class Awaiter
+public class Attachment[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiHypeTrainInstanceInfo> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class AttributeEntry[] : Array
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+    public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+    public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+    public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+    public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+    public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+    public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+    public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+    public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+    public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+    public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+    public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
 }
 
-public class Awaiter
+public class AudioConfigurationChangeHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÍÍÍÌÎÍÏÍÍÏÌÌÎÍÏÍÎÍÌÍÍÏÎ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A93C45D0
+    public void Invoke(){} // RVA: 0x7A8133090
 }
 
-public class Awaiter
+public class AuthEnvelopedSecureReadable : Object
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiInventoryItem[]> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A80D8E20
+    public void get_Algorithm(){} // RVA: 0x7A88F3AF0
+    public void get_CryptoObject(){} // RVA: 0x7A82D1450
+    public void GetReadable(){} // RVA: 0x7B14CBD00
 }
 
-public class Awaiter
+public class AwaitableSocketAsyncEventArgs : SocketAsyncEventArgs
 {
-    public Cysharp.Threading.Tasks.UniTask`1<UnityEngine.GameObject> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AE999790
+    public void get_WrapExceptionsInIOExceptions(){} // RVA: 0x7AE999850
+    public void set_WrapExceptionsInIOExceptions(){} // RVA: 0x7AE999860
+    public void Reserve(){} // RVA: 0x7AE999870
+    public void Release(){} // RVA: 0x7AE999940
+    public void OnCompleted(){} // RVA: 0x7AE99A240
+    public void ReceiveAsync(){} // RVA: 0x7AE999DC0
+    public void SendAsyncForNetworkStream(){} // RVA: 0x7AE999FE0
+    public void GetStatus(){} // RVA: 0x7AE99A1A0
+    public void InvokeContinuation(){} // RVA: 0x7AE99A590
+    public void GetResult(){} // RVA: 0x7AE99A8A0
+    public void System.Threading.Tasks.Sources.IValueTaskSource.GetResult(){} // RVA: 0x7AE99A900
+    public void ThrowIncorrectTokenException(){} // RVA: 0x7AE99A950
+    public void ThrowMultipleContinuationsException(){} // RVA: 0x7AE99A9A0
+    public void ThrowException(){} // RVA: 0x7AE99A9F0
+    public void CreateException(){} // RVA: 0x7AE99AA20
+    public void .cctor(){} // RVA: 0x7AE99AB40
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,System.Collections.Generic.List`1<ÍÎÍÎÎÍÌÌÏÍÌÏÎÌÎÏÎÍÍÌÍÏÎ>>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A2F90
-    public void UnsafeOnCompleted(){} // RVA: 0x55A3090
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
+    public void get_IsCompleted(){} // RVA: 0x7A7CFF0D0
+    public void GetResult(){} // RVA: 0x7A7CD5F10
+    public void OnCompleted(){} // RVA: 0x7A7CFF110
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFF210
+    public void SourceOnCompleted(){} // RVA: 0x7A7CFF220
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD66D0
+    public void get_IsCompleted(){} // RVA: 0x7A7CD6740
+    public void GetResult(){} // RVA: 0x7A7CFBDF0
+    public void OnCompleted(){} // RVA: 0x7A7CFD070
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFD170
+    public void SourceOnCompleted(){} // RVA: 0x7A7CD68D0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.Collections.Generic.List`1<ÍÎÌÍÏÎÍÏÌÏÍÌÎÏÍÌÎÍÏÌÎÎÌ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
+    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void GetResult(){} // RVA: 0x7A7CD5840
+    public void .ctor(){} // RVA: 0x7A7CD57A0
+    public void OnCompleted(){} // RVA: 0x7A7CF9BD0
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CF9CD0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<0x65705CC8,uint>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x557F490
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A5B40
-    public void UnsafeOnCompleted(){} // RVA: 0x55A5C40
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A7CD5BA0
 }
 
-public class Awaiter
+public class Awaiter : ValueType
 {
-    public Cysharp.Threading.Tasks.UniTask`1<0x657CFEC8> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x1F7E940
-    public void get_IsCompleted(){} // RVA: 0x5593BC0
-    public void GetResult(){} // RVA: 0x11872D0
-    public void OnCompleted(){} // RVA: 0x55A97B0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A98B0
-    public void SourceOnCompleted(){} // RVA: 0x5593E00
+    public void get_IsCompleted(){} // RVA: 0x7A7CD5800
+    public void GetResult(){} // RVA: 0x7A7CD5840
+    public void SourceOnCompleted(){} // RVA: 0x7A7CF9CE0
+    public void .ctor(){} // RVA: 0x7A7CD57A0
+    public void OnCompleted(){} // RVA: 0x7A7CFC780
+    public void UnsafeOnCompleted(){} // RVA: 0x7A7CFC880
 }
 
-public class Awaiter
+public class AwakeDelegate : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiWorldInstance> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7A81577F0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7A81330A0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class AxisHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<VRC.Core.ApiWorld> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AC386470
+    public void Invoke(){} // RVA: 0x7AB4CD710
+    public void BeginInvoke(){} // RVA: 0x7AE2C9B00
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class AxisHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<ÌÌÎÎÎÌÏÌÌÌÍÎÍÎÎÌÎÏÌÌÎÍÍ> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F430
-    public void get_IsCompleted(){} // RVA: 0x55A9DB0
-    public void GetResult(){} // RVA: 0x4EB1F0
-    public void OnCompleted(){} // RVA: 0x55A9DF0
-    public void UnsafeOnCompleted(){} // RVA: 0x55A9EF0
-    public void SourceOnCompleted(){} // RVA: 0x557F6D0
+    public void .ctor(){} // RVA: 0x7AC3865E0
+    public void Invoke(){} // RVA: 0x7AC386750
+    public void BeginInvoke(){} // RVA: 0x7AE2D2300
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class Awaiter
+public class AxisHandler : MulticastDelegate
 {
-    public Cysharp.Threading.Tasks.UniTask`1<System.ValueTuple`2<bool,ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ>> task; // 0x10
-
     // ── Methods ──
-    public void .ctor(){} // RVA: 0x557F0D0
-    public void get_IsCompleted(){} // RVA: 0x557F130
-    public void GetResult(){} // RVA: 0x7D30F0
-    public void OnCompleted(){} // RVA: 0x55A2F90
-    public void UnsafeOnCompleted(){} // RVA: 0x55A3090
-    public void SourceOnCompleted(){} // RVA: 0x557F370
+    public void .ctor(){} // RVA: 0x7AC386770
+    public void Invoke(){} // RVA: 0x7AC3868E0
+    public void BeginInvoke(){} // RVA: 0x7AE2D2F00
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }

@@ -1,250 +1,230 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.WebSocketSharp.Net
-// Classes: 13
+// Classes: 14
 // Methods: 152
 
 namespace ThirdParty.Other.WebSocketSharp.Net
 {
-    public class AuthenticationBase
+    public class AuthenticationBase : Object
     {
-        public 0x659C2BF8 _scheme; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CC5AF0
-        public void get_Scheme(){} // RVA: 0x70B92A0
-        public void CreateNonceValue(){} // RVA: 0x9AE5ED0
-        public void ParseParameters(){} // RVA: 0x9AE6160
-        public void ToBasicString(){} // RVA: 0xCD60
-        public void ToDigestString(){} // RVA: 0xCD60
-        public void ToString(){} // RVA: 0x9AE6660
+        public void .ctor(){} // RVA: 0x7A9AC8120
+        public void get_Scheme(){} // RVA: 0x7AEE980C0
+        public void CreateNonceValue(){} // RVA: 0x7B1927A50
+        public void ParseParameters(){} // RVA: 0x7B1927D00
+        public void ToBasicString(){} // RVA: 0x7A7E00680
+        public void ToDigestString(){} // RVA: 0x7A7E00680
+        public void ToString(){} // RVA: 0x7B19281F0
     }
 
-    public class AuthenticationChallenge
+    public class AuthenticationChallenge : AuthenticationBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CC5AF0
-        public void Parse(){} // RVA: 0x9AE66F0
-        public void ToBasicString(){} // RVA: 0x9AE69B0
-        public void ToDigestString(){} // RVA: 0x9AE6A70
+        public void .ctor(){} // RVA: 0x7A9AC8120
+        public void Parse(){} // RVA: 0x7B1928280
+        public void ToBasicString(){} // RVA: 0x7B1928540
+        public void ToDigestString(){} // RVA: 0x7B1928600
     }
 
-    public class AuthenticationResponse
+    public class AuthenticationResponse : AuthenticationBase
     {
-        public uint _nonceCount; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9AE6F00 | overloaded x3
-        public void get_NonceCount(){} // RVA: 0x9AE70E0
-        public void createA1(){} // RVA: 0x9AE71A0 | overloaded x2
-        public void createA2(){} // RVA: 0x9AE7310 | overloaded x2
-        public void hash(){} // RVA: 0x9AE73C0
-        public void initAsDigest(){} // RVA: 0x9AE76F0
-        public void CreateRequestDigest(){} // RVA: 0x9AE7B90
-        public void ToBasicString(){} // RVA: 0x9AE8350
-        public void ToDigestString(){} // RVA: 0x9AE8590
-        public void <initAsDigest>b__0(){} // RVA: 0x9AE8B10
+        public void .ctor(){} // RVA: 0x7B1928AA0
+        public void get_NonceCount(){} // RVA: 0x7B1928C80
+        public void createA1(){} // RVA: 0x7B1928D40
+        public void createA2(){} // RVA: 0x7B1928EB0
+        public void hash(){} // RVA: 0x7B1928F60
+        public void initAsDigest(){} // RVA: 0x7B19292B0
+        public void CreateRequestDigest(){} // RVA: 0x7B1929750
+        public void ToBasicString(){} // RVA: 0x7B1929F10
+        public void ToDigestString(){} // RVA: 0x7B192A150
+        public void <initAsDigest>b__0(){} // RVA: 0x7B192A6D0
     }
 
-    public class ClientSslConfiguration
+    public class ClientSslConfiguration : SslConfiguration
     {
-        public System.Security.Cryptography.X509Certificates.X509CertificateCollection _certs; // 0x28
-        public string _host; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9AEB6A0 | overloaded x2
-        public void get_ClientCertificates(){} // RVA: 0x7145590
-        public void get_ClientCertificateSelectionCallback(){} // RVA: 0x9AEB2B0
-        public void get_ServerCertificateValidationCallback(){} // RVA: 0x9AEB440
-        public void set_ServerCertificateValidationCallback(){} // RVA: 0x343E80
-        public void get_TargetHost(){} // RVA: 0x7145E90
+        public void .ctor(){} // RVA: 0x7B192D290
+        public void get_ClientCertificates(){} // RVA: 0x7AEF244A0
+        public void get_ClientCertificateSelectionCallback(){} // RVA: 0x7B192CEA0
+        public void get_ServerCertificateValidationCallback(){} // RVA: 0x7B192D030
+        public void set_ServerCertificateValidationCallback(){} // RVA: 0x7A813E420
+        public void get_TargetHost(){} // RVA: 0x7AEF24D90
     }
 
-    public class Cookie
+    public class Cookie : Object
     {
-        public string Sorted; // 0x10
-        public System.Uri Count; // 0x18
-        public bool IsSynchronized; // 0x20
-        public string SyncRoot; // 0x28
-        public System.DateTime .ctor; // 0x30
-        public bool _httpOnly; // 0x38
-        public string _name; // 0x40
-        public string _path; // 0x48
-        public string _port; // 0x50
-        public int[] _ports; // 0x58
-        public char[] _reservedCharsForName;
-        public char[] _reservedCharsForValue; // 0x8
-        public bool _secure; // 0x60
-        public System.DateTime _timestamp; // 0x68
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x9AD5000
-        public void .ctor(){} // RVA: 0x9AD54F0 | overloaded x2
-        public void set_ExactDomain(){} // RVA: 0x8A4A90
-        public void set_Comment(){} // RVA: 0x9AD5730
-        public void set_CommentUri(){} // RVA: 0x343E80
-        public void set_Discard(){} // RVA: 0x3CB9E0
-        public void get_Domain(){} // RVA: 0x7145590
-        public void set_Domain(){} // RVA: 0x9AD57E0
-        public void get_Expired(){} // RVA: 0x9AD5940
-        public void get_Expires(){} // RVA: 0x7145E90
-        public void set_Expires(){} // RVA: 0x1F74DF0
-        public void set_HttpOnly(){} // RVA: 0x4A78C0
-        public void get_Name(){} // RVA: 0x7187E30
-        public void set_Name(){} // RVA: 0x9AD5A40
-        public void get_Path(){} // RVA: 0x7187EA0
-        public void set_Path(){} // RVA: 0x9AD5B40
-        public void set_Port(){} // RVA: 0x9AD5BF0
-        public void set_Secure(){} // RVA: 0x306030
-        public void get_Value(){} // RVA: 0x7188200
-        public void set_Value(){} // RVA: 0x9AD5EB0
-        public void get_Version(){} // RVA: 0x72B4D80
-        public void set_Version(){} // RVA: 0x9AD5FF0
-        public void canSetName(){} // RVA: 0x9AD6080
-        public void canSetValue(){} // RVA: 0x9AD62F0
-        public void hash(){} // RVA: 0x9AD6570
-        public void tryCreatePorts(){} // RVA: 0x9AD65C0
-        public void ToRequestString(){} // RVA: 0x9AD6900
-        public void Equals(){} // RVA: 0x9AD6E50
-        public void GetHashCode(){} // RVA: 0x9AD7160
-        public void ToString(){} // RVA: 0x9AD7350
+        public void .cctor(){} // RVA: 0x7B1916950
+        public void .ctor(){} // RVA: 0x7B1916E40
+        public void set_ExactDomain(){} // RVA: 0x7A86616D0
+        public void set_Comment(){} // RVA: 0x7B1917080
+        public void set_CommentUri(){} // RVA: 0x7A813E420
+        public void set_Discard(){} // RVA: 0x7A81C68E0
+        public void get_Domain(){} // RVA: 0x7AEF244A0
+        public void set_Domain(){} // RVA: 0x7B1917130
+        public void get_Expired(){} // RVA: 0x7B1917290
+        public void get_Expires(){} // RVA: 0x7AEF24D90
+        public void set_Expires(){} // RVA: 0x7A9D7F900
+        public void set_HttpOnly(){} // RVA: 0x7A82A2C90
+        public void get_Name(){} // RVA: 0x7AEF66FF0
+        public void set_Name(){} // RVA: 0x7B1917390
+        public void get_Path(){} // RVA: 0x7AEF67060
+        public void set_Path(){} // RVA: 0x7B1917490
+        public void set_Port(){} // RVA: 0x7B1917540
+        public void set_Secure(){} // RVA: 0x7A8100270
+        public void get_Value(){} // RVA: 0x7AEF673C0
+        public void set_Value(){} // RVA: 0x7B19177F0
+        public void get_Version(){} // RVA: 0x7AF094E10
+        public void set_Version(){} // RVA: 0x7B1917930
+        public void canSetName(){} // RVA: 0x7B19179C0
+        public void canSetValue(){} // RVA: 0x7B1917C50
+        public void hash(){} // RVA: 0x7B1917EF0
+        public void tryCreatePorts(){} // RVA: 0x7B1917F40
+        public void ToRequestString(){} // RVA: 0x7B19182D0
+        public void Equals(){} // RVA: 0x7B1918840
+        public void GetHashCode(){} // RVA: 0x7B1918B50
+        public void ToString(){} // RVA: 0x7B1918D40
     }
 
-    public class CookieCollection
+    public class CookieCollection : Object
     {
-        public System.Collections.Generic.List`1<WebSocketSharp.Net.Cookie> _list; // 0x10
-        public object _sync; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9AD7360
-        public void get_Sorted(){} // RVA: 0x9AD7420
-        public void get_Count(){} // RVA: 0x9AD7520
-        public void get_IsSynchronized(){} // RVA: 0x27694F0
-        public void get_SyncRoot(){} // RVA: 0x9AD7570
-        public void compareCookieWithinSorted(){} // RVA: 0x9AD7620
-        public void parseRequest(){} // RVA: 0x9AD7690
-        public void parseResponse(){} // RVA: 0x9AD8120
-        public void searchCookie(){} // RVA: 0x9AD9370
-        public void splitCookieHeaderValue(){} // RVA: 0x9AD9660
-        public void Parse(){} // RVA: 0x9AD9780
-        public void SetOrRemove(){} // RVA: 0x9AD98C0 | overloaded x2
-        public void Add(){} // RVA: 0x9AD9BF0
-        public void CopyTo(){} // RVA: 0x9AD9D00
-        public void GetEnumerator(){} // RVA: 0x9ADA000
+        public void .ctor(){} // RVA: 0x7B1918D50
+        public void get_Sorted(){} // RVA: 0x7B1918E10
+        public void get_Count(){} // RVA: 0x7B1918F10
+        public void get_IsSynchronized(){} // RVA: 0x7AA57AB40
+        public void get_SyncRoot(){} // RVA: 0x7B1918F60
+        public void compareCookieWithinSorted(){} // RVA: 0x7B1919010
+        public void parseRequest(){} // RVA: 0x7B1919080
+        public void parseResponse(){} // RVA: 0x7B1919B20
+        public void searchCookie(){} // RVA: 0x7B191AD90
+        public void splitCookieHeaderValue(){} // RVA: 0x7B191B0A0
+        public void Parse(){} // RVA: 0x7B191B1C0
+        public void SetOrRemove(){} // RVA: 0x7B191B300
+        public void Add(){} // RVA: 0x7B191B630
+        public void CopyTo(){} // RVA: 0x7B191B740
+        public void GetEnumerator(){} // RVA: 0x7B191BA40
     }
 
-    public class CookieException
+    public class CookieException : FormatException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5E7D530 | overloaded x3
-        public void GetObjectData(){} // RVA: 0x6B21340
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6B21340
+        public void .ctor(){} // RVA: 0x7ADC6BF30
+        public void GetObjectData(){} // RVA: 0x7AE912010
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7AE912010
     }
 
-    public class HttpHeaderInfo
+    public class Cookie[] : Array
     {
-        public string _name; // 0x10
-        public 0x659C31D0 _type; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D66A50
-        public void get_IsMultiValueInRequest(){} // RVA: 0x9AE0430
-        public void get_IsMultiValueInResponse(){} // RVA: 0x9AE0440
-        public void get_IsRequest(){} // RVA: 0x9AE0450
-        public void get_IsResponse(){} // RVA: 0x9AE0460
-        public void get_Name(){} // RVA: 0x33B6D40
-        public void IsMultiValue(){} // RVA: 0x9AE0470
-        public void IsRestricted(){} // RVA: 0x9AE04B0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class HttpUtility
+    public class HttpHeaderInfo : Object
     {
         // ── Methods ──
-        public void getChar(){} // RVA: 0x9ADA0F0
-        public void getInt(){} // RVA: 0x9ADA210
-        public void writeCharBytes(){} // RVA: 0x9ADA240
-        public void GetEncoding(){} // RVA: 0x9ADA420
-        public void UrlDecode(){} // RVA: 0x9ADA750 | overloaded x2
-        public void .cctor(){} // RVA: 0x9ADAB60
+        public void .ctor(){} // RVA: 0x7A9B6A000
+        public void get_IsMultiValueInRequest(){} // RVA: 0x7B1921E30
+        public void get_IsMultiValueInResponse(){} // RVA: 0x7B1921E40
+        public void get_IsRequest(){} // RVA: 0x7B1921E50
+        public void get_IsResponse(){} // RVA: 0x7B1921E60
+        public void get_Name(){} // RVA: 0x7AB1AC740
+        public void IsMultiValue(){} // RVA: 0x7B1921E70
+        public void IsRestricted(){} // RVA: 0x7B1921EA0
     }
 
-    public class HttpVersion
+    public class HttpUtility : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x9ADF9D0
+        public void getChar(){} // RVA: 0x7B191BB30
+        public void getInt(){} // RVA: 0x7B191BC50
+        public void writeCharBytes(){} // RVA: 0x7B191BC80
+        public void GetEncoding(){} // RVA: 0x7B191BE70
+        public void UrlDecode(){} // RVA: 0x7B191C1B0
+        public void .cctor(){} // RVA: 0x7B191C5C0
     }
 
-    public class NetworkCredential
+    public class HttpVersion : Object
     {
-        public string _domain; // 0x10
-        public string _password; // 0x18
-        public string[] _roles; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9AE1D40
-        public void get_Domain(){} // RVA: 0x9AE1F60
-        public void get_Password(){} // RVA: 0x9AE1FB0
-        public void get_UserName(){} // RVA: 0x7145590
+        public void .cctor(){} // RVA: 0x7B19213D0
     }
 
-    public class SslConfiguration
+    public class NetworkCredential : Object
     {
-        public System.Net.Security.LocalCertificateSelectionCallback ClientCertificates; // 0x10
-        public System.Net.Security.RemoteCertificateValidationCallback ClientCertificateSelectionCallback; // 0x18
-        public bool ServerCertificateValidationCallback; // 0x20
-        public 0x6584C200 TargetHost; // 0x24
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9AEB2A0
-        public void get_CertificateSelectionCallback(){} // RVA: 0x9AEB2B0
-        public void get_CertificateValidationCallback(){} // RVA: 0x9AEB440
-        public void set_CertificateValidationCallback(){} // RVA: 0x343E80
-        public void get_CheckCertificateRevocation(){} // RVA: 0x9AEB5D0
-        public void get_EnabledSslProtocols(){} // RVA: 0x7079D00
-        public void set_EnabledSslProtocols(){} // RVA: 0x16E1F00
-        public void <get_CertificateSelectionCallback>b__0(){} // RVA: 0x3E0F620
-        public void <get_CertificateValidationCallback>b__2(){} // RVA: 0x20D68C0
+        public void .ctor(){} // RVA: 0x7B19238A0
+        public void get_Domain(){} // RVA: 0x7B1923AC0
+        public void get_Password(){} // RVA: 0x7B1923B10
+        public void get_UserName(){} // RVA: 0x7AEF244A0
     }
 
-    public class WebHeaderCollection
+    public class SslConfiguration : Object
     {
-        public System.Collections.Generic.Dictionary`2<string,WebSocketSharp.Net.HttpHeaderInfo> _headers;
-        public bool _internallyUsed; // 0x68
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x9ADACD0
-        public void .ctor(){} // RVA: 0x9ADD4A0 | overloaded x2
-        public void get_AllKeys(){} // RVA: 0x6CB7090
-        public void get_Count(){} // RVA: 0x5C64F90
-        public void add(){} // RVA: 0x9ADD4B0
-        public void addWithoutCheckingName(){} // RVA: 0x9ADD5B0
-        public void addWithoutCheckingNameAndRestricted(){} // RVA: 0x9ADD6B0
-        public void checkColonSeparated(){} // RVA: 0x9ADD730
-        public void checkHeaderType(){} // RVA: 0x9ADD7E0
-        public void checkName(){} // RVA: 0x9ADD870
-        public void checkRestricted(){} // RVA: 0x9ADD9E0
-        public void checkState(){} // RVA: 0x9ADDAE0
-        public void checkValue(){} // RVA: 0x9ADDBA0
-        public void doWithCheckingState(){} // RVA: 0x9ADDF80 | overloaded x2
-        public void doWithoutCheckingName(){} // RVA: 0x9ADE090
-        public void getHeaderInfo(){} // RVA: 0x9ADE140
-        public void isRestricted(){} // RVA: 0x9ADE450
-        public void removeWithoutCheckingName(){} // RVA: 0x9ADE4E0
-        public void setWithoutCheckingName(){} // RVA: 0x9ADE520
-        public void InternalSet(){} // RVA: 0x9ADE850 | overloaded x2
-        public void IsHeaderName(){} // RVA: 0x9ADE980
-        public void IsHeaderValue(){} // RVA: 0x9ADE9F0
-        public void IsMultiValue(){} // RVA: 0x9ADEA40
-        public void Add(){} // RVA: 0x9ADEB30
-        public void Get(){} // RVA: 0x6CB6B50 | overloaded x2
-        public void GetEnumerator(){} // RVA: 0x6CBCFF0
-        public void GetKey(){} // RVA: 0x9ADEC20
-        public void GetValues(){} // RVA: 0x9ADECD0 | overloaded x2
-        public void GetObjectData(){} // RVA: 0x9ADED80
-        public void OnDeserialization(){} // RVA: 0x2DD310
-        public void Remove(){} // RVA: 0x9ADF020
-        public void Set(){} // RVA: 0x9ADF0F0
-        public void ToString(){} // RVA: 0x9ADF1D0
-        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x6B25660
+        public void .ctor(){} // RVA: 0x7B192CE90
+        public void get_CertificateSelectionCallback(){} // RVA: 0x7B192CEA0
+        public void get_CertificateValidationCallback(){} // RVA: 0x7B192D030
+        public void set_CertificateValidationCallback(){} // RVA: 0x7A813E420
+        public void get_CheckCertificateRevocation(){} // RVA: 0x7B192D1C0
+        public void get_EnabledSslProtocols(){} // RVA: 0x7AEE58D60
+        public void set_EnabledSslProtocols(){} // RVA: 0x7A94794D0
+        public void <get_CertificateSelectionCallback>b__0(){} // RVA: 0x7ABC0A600
+        public void <get_CertificateValidationCallback>b__2(){} // RVA: 0x7A9EEB150
+    }
+
+    public class WebHeaderCollection : NameValueCollection
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7B191C730
+        public void .ctor(){} // RVA: 0x7B191EF00
+        public void get_AllKeys(){} // RVA: 0x7AEAA6280
+        public void get_Count(){} // RVA: 0x7ADA52F20
+        public void add(){} // RVA: 0x7B191EF10
+        public void addWithoutCheckingName(){} // RVA: 0x7B191F010
+        public void addWithoutCheckingNameAndRestricted(){} // RVA: 0x7B191F110
+        public void checkColonSeparated(){} // RVA: 0x7B191F190
+        public void checkHeaderType(){} // RVA: 0x7B191F240
+        public void checkName(){} // RVA: 0x7B191F2D0
+        public void checkRestricted(){} // RVA: 0x7B191F440
+        public void checkState(){} // RVA: 0x7B191F540
+        public void checkValue(){} // RVA: 0x7B191F600
+        public void doWithCheckingState(){} // RVA: 0x7B191F9D0
+        public void doWithoutCheckingName(){} // RVA: 0x7B191FAE0
+        public void getHeaderInfo(){} // RVA: 0x7B191FB90
+        public void isRestricted(){} // RVA: 0x7B191FEC0
+        public void removeWithoutCheckingName(){} // RVA: 0x7B191FF40
+        public void setWithoutCheckingName(){} // RVA: 0x7B191FF80
+        public void InternalSet(){} // RVA: 0x7B1920290
+        public void IsHeaderName(){} // RVA: 0x7B19203B0
+        public void IsHeaderValue(){} // RVA: 0x7B1920420
+        public void IsMultiValue(){} // RVA: 0x7B1920470
+        public void Add(){} // RVA: 0x7B1920530
+        public void Get(){} // RVA: 0x7AEAA5D30
+        public void GetEnumerator(){} // RVA: 0x7AEAAC270
+        public void GetKey(){} // RVA: 0x7B1920620
+        public void GetValues(){} // RVA: 0x7B19206D0
+        public void GetObjectData(){} // RVA: 0x7B1920780
+        public void OnDeserialization(){} // RVA: 0x7A80D7310
+        public void Remove(){} // RVA: 0x7B1920A20
+        public void Set(){} // RVA: 0x7B1920AF0
+        public void ToString(){} // RVA: 0x7B1920BD0
+        public void System.Runtime.Serialization.ISerializable.GetObjectData(){} // RVA: 0x7AE916330
     }
 
 }

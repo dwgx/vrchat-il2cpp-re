@@ -5,148 +5,116 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class MarketEligibilityResponse_t
+    public class MarketEligibilityResponse_t : ValueType
     {
-        public bool Allowed; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C7D50
-        public void .cctor(){} // RVA: 0x20C7D60
+        public void get_CallbackType(){} // RVA: 0x7A771F140
+        public void .cctor(){} // RVA: 0x7A9EDC600
     }
 
-    public class MicroTxnAuthorizationResponse_t
+    public class MicroTxnAuthorizationResponse_t : ValueType
     {
-        public uint AppID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20C76F0
-        public void .cctor(){} // RVA: 0x20C7700
+        public void get_CallbackType(){} // RVA: 0x7A771EDC0
+        public void .cctor(){} // RVA: 0x7A9EDBFA0
     }
 
-    public class MusicPlayerRemoteToFront_t
+    public class MusicPlayerRemoteToFront_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CF440
-        public void .cctor(){} // RVA: 0x20CF450
+        public void get_CallbackType(){} // RVA: 0x7A7725DD0
+        public void .cctor(){} // RVA: 0x7A9EE3CF0
     }
 
-    public class MusicPlayerRemoteWillActivate_t
+    public class MusicPlayerRemoteWillActivate_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CF220
-        public void .cctor(){} // RVA: 0x20CF230
+        public void get_CallbackType(){} // RVA: 0x7A7725DB0
+        public void .cctor(){} // RVA: 0x7A9EE3AD0
     }
 
-    public class MusicPlayerRemoteWillDeactivate_t
+    public class MusicPlayerRemoteWillDeactivate_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CF330
-        public void .cctor(){} // RVA: 0x20CF340
+        public void get_CallbackType(){} // RVA: 0x7A7725DC0
+        public void .cctor(){} // RVA: 0x7A9EE3BE0
     }
 
-    public class MusicPlayerSelectsPlaylistEntry_t
+    public class MusicPlayerSelectsPlaylistEntry_t : ValueType
     {
-        public int NID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CFEE0
-        public void .cctor(){} // RVA: 0x20CFEF0
+        public void get_CallbackType(){} // RVA: 0x7A7725E70
+        public void .cctor(){} // RVA: 0x7A9EE4790
     }
 
-    public class MusicPlayerSelectsQueueEntry_t
+    public class MusicPlayerSelectsQueueEntry_t : ValueType
     {
-        public int NID; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CFDD0
-        public void .cctor(){} // RVA: 0x20CFDE0
+        public void get_CallbackType(){} // RVA: 0x7A7725E60
+        public void .cctor(){} // RVA: 0x7A9EE4680
     }
 
-    public class MusicPlayerWantsLooped_t
+    public class MusicPlayerWantsLooped_t : ValueType
     {
-        public bool Looped; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CFBB0
-        public void .cctor(){} // RVA: 0x20CFBC0
+        public void get_CallbackType(){} // RVA: 0x7A7725E40
+        public void .cctor(){} // RVA: 0x7A9EE4460
     }
 
-    public class MusicPlayerWantsPause_t
+    public class MusicPlayerWantsPause_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CF770
-        public void .cctor(){} // RVA: 0x20CF780
+        public void get_CallbackType(){} // RVA: 0x7A7725E00
+        public void .cctor(){} // RVA: 0x7A9EE4020
     }
 
-    public class MusicPlayerWantsPlayNext_t
+    public class MusicPlayerWantsPlayNext_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CF990
-        public void .cctor(){} // RVA: 0x20CF9A0
+        public void get_CallbackType(){} // RVA: 0x7A7725E20
+        public void .cctor(){} // RVA: 0x7A9EE4240
     }
 
-    public class MusicPlayerWantsPlayPrevious_t
+    public class MusicPlayerWantsPlayPrevious_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CF880
-        public void .cctor(){} // RVA: 0x20CF890
+        public void get_CallbackType(){} // RVA: 0x7A7725E10
+        public void .cctor(){} // RVA: 0x7A9EE4130
     }
 
-    public class MusicPlayerWantsPlay_t
+    public class MusicPlayerWantsPlay_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CF660
-        public void .cctor(){} // RVA: 0x20CF670
+        public void get_CallbackType(){} // RVA: 0x7A7725DF0
+        public void .cctor(){} // RVA: 0x7A9EE3F10
     }
 
-    public class MusicPlayerWantsPlayingRepeatStatus_t
+    public class MusicPlayerWantsPlayingRepeatStatus_t : ValueType
     {
-        public int PlayingRepeatStatus; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CFFF0
-        public void .cctor(){} // RVA: 0x20D0000
+        public void get_CallbackType(){} // RVA: 0x7A7725E80
+        public void .cctor(){} // RVA: 0x7A9EE48A0
     }
 
-    public class MusicPlayerWantsShuffled_t
+    public class MusicPlayerWantsShuffled_t : ValueType
     {
-        public bool Shuffled; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CFAA0
-        public void .cctor(){} // RVA: 0x20CFAB0
+        public void get_CallbackType(){} // RVA: 0x7A7725E30
+        public void .cctor(){} // RVA: 0x7A9EE4350
     }
 
-    public class MusicPlayerWantsVolume_t
+    public class MusicPlayerWantsVolume_t : ValueType
     {
-        public float NewVolume; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CFCC0
-        public void .cctor(){} // RVA: 0x20CFCD0
+        public void get_CallbackType(){} // RVA: 0x7A7725E50
+        public void .cctor(){} // RVA: 0x7A9EE4570
     }
 
-    public class MusicPlayerWillQuit_t
+    public class MusicPlayerWillQuit_t : ValueType
     {
-        public int _datasize;
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20CF550
-        public void .cctor(){} // RVA: 0x20CF560
+        public void get_CallbackType(){} // RVA: 0x7A7725DE0
+        public void .cctor(){} // RVA: 0x7A9EE3E00
     }
 
 }

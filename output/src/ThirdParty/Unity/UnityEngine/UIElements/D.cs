@@ -1,412 +1,355 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
 // Classes: 25
-// Methods: 228
+// Methods: 222
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class DefaultDispatchingStrategy
+    public class DefaultDispatchingStrategy : Object
     {
         // ── Methods ──
-        public void CanDispatchEvent(){} // RVA: 0x73E6580
-        public void DispatchEvent(){} // RVA: 0x73E6610
-        public void .ctor(){} // RVA: 0x2DD310
+        public void CanDispatchEvent(){} // RVA: 0x7AF1C58C0
+        public void DispatchEvent(){} // RVA: 0x7AF1C5940
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DefaultDragAndDropClient
+    public class DefaultDragAndDropClient : DragAndDropData
     {
-        public System.Collections.Hashtable m_GenericData; // 0x10
-        public UnityEngine.UIElements.Label m_DraggedInfoLabel; // 0x18
-
         // ── Methods ──
-        public void get_source(){} // RVA: 0x73D8100
-        public void GetGenericData(){} // RVA: 0x73D8150
-        public void StartDrag(){} // RVA: 0x73D81C0
-        public void UpdateDrag(){} // RVA: 0x73D89F0
-        public void AcceptDrag(){} // RVA: 0x2DD310
-        public void SetVisualMode(){} // RVA: 0x99E0D0
-        public void DragCleanup(){} // RVA: 0x73D8BD0
-        public void get_data(){} // RVA: 0x1A3F520
-        public void .ctor(){} // RVA: 0x73D8C70
+        public void get_source(){} // RVA: 0x7AF1B72D0
+        public void GetGenericData(){} // RVA: 0x7AF1B7320
+        public void StartDrag(){} // RVA: 0x7AF1B7390
+        public void UpdateDrag(){} // RVA: 0x7AF1B7B90
+        public void AcceptDrag(){} // RVA: 0x7A80D7310
+        public void SetVisualMode(){} // RVA: 0x7A8738180
+        public void DragCleanup(){} // RVA: 0x7AF1B7D70
+        public void get_data(){} // RVA: 0x7A97F8BA0
+        public void .ctor(){} // RVA: 0x7AF1B7E10
     }
 
-    public class DefaultEventSystem
+    public class DefaultEventSystem : Object
     {
-        public System.Func`1<bool> Text;
-        public IInput m_Input; // 0x10
-        public string m_HorizontalAxis; // 0x18
-
         // ── Methods ──
-        public void get_isAppFocused(){} // RVA: 0x73D33C0
-        public void get_input(){} // RVA: 0x73D3440
-        public void GetDefaultInput(){} // RVA: 0x73D34B0
-        public void ShouldIgnoreEventsOnAppNotFocused(){} // RVA: 0x73D3580
-        public void get_focusedPanel(){} // RVA: 0x37E0E0
-        public void set_focusedPanel(){} // RVA: 0x73D35D0
-        public void Update(){} // RVA: 0x73D3660
-        public void FocusBasedEventSequence(){} // RVA: 0x73D3810
-        public void SendIMGUIEvents(){} // RVA: 0x73D3840
-        public void ProcessMouseEvents(){} // RVA: 0x73D40B0
-        public void SendInputEvents(){} // RVA: 0x73D4950
-        public void OnFocusEvent(){} // RVA: 0x73D4D80
-        public void SendFocusBasedEvent(){} // RVA: 0x283FA0
-        public void SendPositionBasedEvent(){} // RVA: 0x283FA0
-        public void UpdateFocusedPanel(){} // RVA: 0x73D4D90
-        public void MakeTouchEvent(){} // RVA: 0x73D4E30
-        public void MakePenEvent(){} // RVA: 0x73D4F50
-        public void ProcessTouchEvents(){} // RVA: 0x73D5040
-        public void ProcessPenEvents(){} // RVA: 0x73D5650
-        public void GetRawMoveVector(){} // RVA: 0x73D5B20
-        public void ShouldSendMoveFromInput(){} // RVA: 0x73D5C80
-        public void ProcessTabEvent(){} // RVA: 0x73D5F10
-        public void .ctor(){} // RVA: 0x73D6250
-        public void .cctor(){} // RVA: 0x73D6560
+        public void get_isAppFocused(){} // RVA: 0x7AF1B27E0
+        public void get_input(){} // RVA: 0x7AF1B2860
+        public void GetDefaultInput(){} // RVA: 0x7AF1B28D0
+        public void ShouldIgnoreEventsOnAppNotFocused(){} // RVA: 0x7AF1B29A0
+        public void get_focusedPanel(){} // RVA: 0x7A8178B90
+        public void set_focusedPanel(){} // RVA: 0x7AF1B29F0
+        public void Update(){} // RVA: 0x7AF1B2A80
+        public void FocusBasedEventSequence(){} // RVA: 0x7AF1B2C30
+        public void SendIMGUIEvents(){} // RVA: 0x7AF1B2C60
+        public void ProcessMouseEvents(){} // RVA: 0x7AF1B34D0
+        public void SendInputEvents(){} // RVA: 0x7AF1B3D70
+        public void OnFocusEvent(){} // RVA: 0x7AF1B41A0
+        public void SendFocusBasedEvent(){} // RVA: 0x7A8051B10
+        public void SendPositionBasedEvent(){} // RVA: 0x7A8051B10
+        public void UpdateFocusedPanel(){} // RVA: 0x7AF1B41B0
+        public void MakeTouchEvent(){} // RVA: 0x7AF1B4250
+        public void MakePenEvent(){} // RVA: 0x7AF1B4370
+        public void ProcessTouchEvents(){} // RVA: 0x7AF1B4460
+        public void ProcessPenEvents(){} // RVA: 0x7AF1B4A70
+        public void GetRawMoveVector(){} // RVA: 0x7AF1B4EF0
+        public void ShouldSendMoveFromInput(){} // RVA: 0x7AF1B5050
+        public void ProcessTabEvent(){} // RVA: 0x7AF1B52E0
+        public void .ctor(){} // RVA: 0x7AF1B5610
+        public void .cctor(){} // RVA: 0x7AF1B5920
     }
 
-    public class DefaultGroupManager
+    public class DefaultGroupManager : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x30B0D0
-        public void OnOptionSelectionChanged(){} // RVA: 0x7406C50
-        public void RegisterOption(){} // RVA: 0x7406ED0
-        public void UnregisterOption(){} // RVA: 0x7407000
-        public void .ctor(){} // RVA: 0x7407090
+        public void Init(){} // RVA: 0x7A81052D0
+        public void OnOptionSelectionChanged(){} // RVA: 0x7AF1E5D90
+        public void RegisterOption(){} // RVA: 0x7AF1E6020
+        public void UnregisterOption(){} // RVA: 0x7AF1E6150
+        public void .ctor(){} // RVA: 0x7AF1E61E0
     }
 
-    public class DefaultMultiColumnTreeViewController`1
+    public class DefaultMultiColumnTreeViewController`1 : MultiColumnTreeViewController
     {
-        public UnityEngine.UIElements.TreeDataController`1<T> m_TreeDataController;
-
         // ── Methods ──
-        public void get_treeDataController(){} // RVA: 0xCD60
-        public void .ctor(){} // RVA: 0x2F090
-        public void get_itemsSource(){} // RVA: 0xCD60
-        public void set_itemsSource(){} // RVA: 0x24B10
-        public void SetRootItems(){} // RVA: 0x24B10
-        public void GetItemForIndex(){} // RVA: 0x1BCC0
-        public void GetParentId(){} // RVA: 0x13FB0
-        public void HasChildren(){} // RVA: 0xE1F0
-        public void GetChildrenIds(){} // RVA: 0x1BCC0
-        public void Move(){}
-        public void IsChildOf(){}
-        public void GetAllItemIds(){} // RVA: 0xCE10
+        public void get_treeDataController(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void get_itemsSource(){} // RVA: 0x7A7E00680
+        public void set_itemsSource(){} // RVA: 0x7A7E18800
+        public void SetRootItems(){} // RVA: 0x7A7E18800
+        public void GetItemForIndex(){} // RVA: 0x7A7E00740
+        public void GetParentId(){} // RVA: 0x7A7E062A0
+        public void HasChildren(){} // RVA: 0x7A7E01F00
+        public void GetChildrenIds(){} // RVA: 0x7A7E00740
+        public void Move(){} // RVA: 0x7A7E1AE40
+        public void IsChildOf(){} // RVA: 0x7A7E01C20
+        public void GetAllItemIds(){} // RVA: 0x7A7E00B20
     }
 
-    public class DefaultTreeViewController`1
+    public class DefaultTreeViewController`1 : TreeViewController
     {
-        public UnityEngine.UIElements.TreeDataController`1<T> m_TreeDataController;
-
         // ── Methods ──
-        public void get_treeDataController(){} // RVA: 0xCD60
-        public void get_itemsSource(){} // RVA: 0xCD60
-        public void set_itemsSource(){} // RVA: 0x24B10
-        public void SetRootItems(){} // RVA: 0x24B10
-        public void GetItemForIndex(){} // RVA: 0x1BCC0
-        public void GetParentId(){} // RVA: 0x13FB0
-        public void HasChildren(){} // RVA: 0xE1F0
-        public void GetChildrenIds(){} // RVA: 0x1BCC0
-        public void Move(){}
-        public void IsChildOf(){}
-        public void GetAllItemIds(){} // RVA: 0xCE10
-        public void .ctor(){} // RVA: 0x24A50
+        public void get_treeDataController(){} // RVA: 0x7A7E00680
+        public void get_itemsSource(){} // RVA: 0x7A7E00680
+        public void set_itemsSource(){} // RVA: 0x7A7E18800
+        public void SetRootItems(){} // RVA: 0x7A7E18800
+        public void GetItemForIndex(){} // RVA: 0x7A7E00740
+        public void GetParentId(){} // RVA: 0x7A7E062A0
+        public void HasChildren(){} // RVA: 0x7A7E01F00
+        public void GetChildrenIds(){} // RVA: 0x7A7E00740
+        public void Move(){} // RVA: 0x7A7E1AE40
+        public void IsChildOf(){} // RVA: 0x7A7E01C20
+        public void GetAllItemIds(){} // RVA: 0x7A7E00B20
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class DetachFromPanelEvent
+    public class DetachFromPanelEvent : PanelChangedEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F48B0
-        public void .ctor(){} // RVA: 0x73F49A0
+        public void .cctor(){} // RVA: 0x7AF1D3AD0
+        public void .ctor(){} // RVA: 0x7AF1D3BC0
     }
 
-    public class DisposeHelper
+    public class DisposeHelper : Object
     {
         // ── Methods ──
-        public void NotifyDisposedUsed(){} // RVA: 0x73D7800
+        public void NotifyDisposedUsed(){} // RVA: 0x7AF1B69D0
     }
 
-    public class DoubleField
+    public class DoubleField : TextValueField`1
     {
-        public string ussClassName;
-
         // ── Methods ──
-        public void get_doubleInput(){} // RVA: 0x7314170
-        public void ValueToString(){} // RVA: 0x7314200
-        public void StringToValue(){} // RVA: 0x73143C0
-        public void .ctor(){} // RVA: 0x73144C0 | overloaded x2
-        public void CanTryParse(){} // RVA: 0x73147C0
-        public void ApplyInputDeviceDelta(){} // RVA: 0x7314850
-        public void .cctor(){} // RVA: 0x7314940
+        public void get_doubleInput(){} // RVA: 0x7AF0F43A0
+        public void ValueToString(){} // RVA: 0x7AF0F4430
+        public void StringToValue(){} // RVA: 0x7AF0F45F0
+        public void .ctor(){} // RVA: 0x7AF0F46F0
+        public void CanTryParse(){} // RVA: 0x7AF0F49F0
+        public void ApplyInputDeviceDelta(){} // RVA: 0x7AF0F4A80
+        public void .cctor(){} // RVA: 0x7AF0F4B70
     }
 
-    public class DragAndDropArgs
+    public class DragAndDropArgs : ValueType
     {
-        public object <target>k__BackingField; // 0x10
-        public int <insertAtIndex>k__BackingField; // 0x18
-        public int <parentId>k__BackingField; // 0x1C
-        public int <childIndex>k__BackingField; // 0x20
-        public 0x658358B8 <dragAndDropPosition>k__BackingField; // 0x24
-        public UnityEngine.UIElements.DragAndDropData <dragAndDropData>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void set_target(){} // RVA: 0x100A2F0
-        public void get_insertAtIndex(){} // RVA: 0x1EA9890
-        public void set_insertAtIndex(){} // RVA: 0x1EA98A0
-        public void get_parentId(){} // RVA: 0x1EA98B0
-        public void set_parentId(){} // RVA: 0x1EA98C0
-        public void get_childIndex(){} // RVA: 0x32A5C0
-        public void set_childIndex(){} // RVA: 0x2E00C0
-        public void get_dragAndDropPosition(){} // RVA: 0x8ABED0
-        public void set_dragAndDropPosition(){} // RVA: 0x8AC660
-        public void get_dragAndDropData(){} // RVA: 0x2E07C0
-        public void set_dragAndDropData(){} // RVA: 0x343E80
+        public void set_target(){} // RVA: 0x7A7637E60
+        public void get_insertAtIndex(){} // RVA: 0x7A75FEFA0
+        public void set_insertAtIndex(){} // RVA: 0x7A767FBC0
+        public void get_parentId(){} // RVA: 0x7A767FBD0
+        public void set_parentId(){} // RVA: 0x7A767FBE0
+        public void get_childIndex(){} // RVA: 0x7A7677B20
+        public void set_childIndex(){} // RVA: 0x7A7677B10
+        public void get_dragAndDropPosition(){} // RVA: 0x7A7699630
+        public void set_dragAndDropPosition(){} // RVA: 0x7A7699640
+        public void get_dragAndDropData(){} // RVA: 0x7A767FF40
+        public void set_dragAndDropData(){} // RVA: 0x7A767FF60
     }
 
-    public class DragAndDropData
+    public class DragAndDropData : Object
     {
         // ── Methods ──
-        public void GetGenericData(){} // RVA: 0xCE10
-        public void get_source(){} // RVA: 0xCD60
-        public void .ctor(){} // RVA: 0x2DD310
+        public void GetGenericData(){} // RVA: 0x7A7E00B20
+        public void get_source(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DragAndDropUtility
+    public class DragAndDropUtility : Object
     {
         // ── Methods ──
-        public void GetDragAndDrop(){} // RVA: 0x73D7F00
+        public void GetDragAndDrop(){} // RVA: 0x7AF1B70D0
     }
 
-    public class DragEventsProcessor
+    public class DragEventsProcessor : Object
     {
-        public bool m_IsRegistered; // 0x10
-        public 0x65835650 m_DragState; // 0x14
-        public UnityEngine.Vector3 m_Start; // 0x18
-        public UnityEngine.UIElements.VisualElement m_Target; // 0x28
-
         // ── Methods ──
-        public void get_supportsDragEvents(){} // RVA: 0x3C2850
-        public void get_useDragEvents(){} // RVA: 0x73D8D20
-        public void get_dragAndDrop(){} // RVA: 0x73D8D80
-        public void get_isEditorContext(){} // RVA: 0x73D8DB0
-        public void .ctor(){} // RVA: 0x73D8E90
-        public void RegisterCallbacksFromTarget(){} // RVA: 0x73D9020 | overloaded x2
-        public void UnregisterCallbacksFromTarget(){} // RVA: 0x73D9350 | overloaded x2
-        public void CanStartDrag(){} // RVA: 0xDE40
-        public void StartDrag(){}
-        public void UpdateDrag(){} // RVA: 0x24B10
-        public void OnDrop(){} // RVA: 0x24B10
-        public void ClearDragAndDropUI(){} // RVA: 0x25130
-        public void OnPointerDownEvent(){} // RVA: 0x73D97B0
-        public void OnPointerUpEvent(){} // RVA: 0x73D98F0
-        public void OnPointerLeaveEvent(){} // RVA: 0x73D9B20
-        public void OnPointerCancelEvent(){} // RVA: 0x73D9B40
-        public void OnPointerCapturedOut(){} // RVA: 0x73D9CA0
-        public void OnPointerMoveEvent(){} // RVA: 0x73D9D80
-        public void GetDropTarget(){} // RVA: 0x73DA1E0
+        public void get_supportsDragEvents(){} // RVA: 0x7A81BD750
+        public void get_useDragEvents(){} // RVA: 0x7AF1B7EC0
+        public void get_dragAndDrop(){} // RVA: 0x7AF1B7F20
+        public void get_isEditorContext(){} // RVA: 0x7AF1B7F50
+        public void .ctor(){} // RVA: 0x7AF1B8030
+        public void RegisterCallbacksFromTarget(){} // RVA: 0x7AF1B81C0
+        public void UnregisterCallbacksFromTarget(){} // RVA: 0x7AF1B84F0
+        public void CanStartDrag(){} // RVA: 0x7A7E019D0
+        public void StartDrag(){} // RVA: 0x7A7E00560
+        public void UpdateDrag(){} // RVA: 0x7A7E18800
+        public void OnDrop(){} // RVA: 0x7A7E18800
+        public void ClearDragAndDropUI(){} // RVA: 0x7A7E18C30
+        public void OnPointerDownEvent(){} // RVA: 0x7AF1B8950
+        public void OnPointerUpEvent(){} // RVA: 0x7AF1B8A70
+        public void OnPointerLeaveEvent(){} // RVA: 0x7AF1B8C60
+        public void OnPointerCancelEvent(){} // RVA: 0x7AF1B8C80
+        public void OnPointerCapturedOut(){} // RVA: 0x7AF1B8D90
+        public void OnPointerMoveEvent(){} // RVA: 0x7AF1B8E70
+        public void GetDropTarget(){} // RVA: 0x7AF1B9290
     }
 
-    public class DropdownField
+    public class DropdownField : PopupField`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7315180 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AF0F5410
     }
 
-    public class DropdownMenu
+    public class DropdownMenu : Object
     {
         // ── Methods ──
-        public void MenuItems(){} // RVA: 0x33B6D40
-        public void AppendAction(){} // RVA: 0x73E2C40 | overloaded x2
-        public void AppendSeparator(){} // RVA: 0x73E2D70
-        public void InsertSeparator(){} // RVA: 0x73E2F20
-        public void PrepareForDisplay(){} // RVA: 0x73E30E0
-        public void .ctor(){} // RVA: 0x73E35B0
+        public void MenuItems(){} // RVA: 0x7AB1AC740
+        public void AppendAction(){} // RVA: 0x7AF1C1FA0
+        public void AppendSeparator(){} // RVA: 0x7AF1C20D0
+        public void InsertSeparator(){} // RVA: 0x7AF1C2280
+        public void PrepareForDisplay(){} // RVA: 0x7AF1C2440
+        public void .ctor(){} // RVA: 0x7AF1C2910
     }
 
-    public class DropdownMenuAction
+    public class DropdownMenuAction : DropdownMenuItem
     {
-        public string <name>k__BackingField; // 0x10
-        public 0x65835EE8 <status>k__BackingField; // 0x18
-        public UnityEngine.UIElements.DropdownMenuEventInfo <eventInfo>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void set_status(){} // RVA: 0x6374E0
-        public void set_eventInfo(){} // RVA: 0x30B0D0
-        public void set_userData(){} // RVA: 0x2DEE90
-        public void AlwaysEnabled(){} // RVA: 0x73E2860
-        public void AlwaysDisabled(){} // RVA: 0x73E2870
-        public void .ctor(){} // RVA: 0x73E2880
-        public void UpdateActionStatus(){} // RVA: 0x73E29D0
+        public void set_status(){} // RVA: 0x7A84385B0
+        public void set_eventInfo(){} // RVA: 0x7A81052D0
+        public void set_userData(){} // RVA: 0x7A80D8E80
+        public void AlwaysEnabled(){} // RVA: 0x7AF1C1BC0
+        public void AlwaysDisabled(){} // RVA: 0x7AF1C1BD0
+        public void .ctor(){} // RVA: 0x7AF1C1BE0
+        public void UpdateActionStatus(){} // RVA: 0x7AF1C1D30
     }
 
-    public class DropdownMenuEventInfo
+    public class DropdownMenuEventInfo : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x73E26C0
+        public void .ctor(){} // RVA: 0x7AF1C1A20
     }
 
-    public class DropdownMenuItem
+    public class DropdownMenuItem : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DropdownMenuSeparator
+    public class DropdownMenuSeparator : DropdownMenuItem
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class DropdownUtility
+    public class DropdownUtility : Object
     {
         // ── Methods ──
-        public void CreateDropdown(){} // RVA: 0x73E3670
+        public void CreateDropdown(){} // RVA: 0x7AF1C29D0
     }
 
-    public class DynamicAtlas
+    public class DynamicAtlas : AtlasBase
     {
-        public System.Collections.Generic.Dictionary`2<UnityEngine.Texture,TextureInfo> m_Database; // 0x18
-        public UnityEngine.UIElements.DynamicAtlasPage m_PointPage; // 0x20
-        public UnityEngine.UIElements.DynamicAtlasPage m_BilinearPage; // 0x28
-        public 0x65897E68 m_ColorSpace; // 0x30
-        public System.Collections.Generic.List`1<UnityEngine.UIElements.IPanel> m_Panels; // 0x38
-        public int m_MinAtlasSize; // 0x40
-        public int m_MaxAtlasSize; // 0x44
-
         // ── Methods ──
-        public void get_isInitialized(){} // RVA: 0x72E3C20
-        public void OnAssignedToPanel(){} // RVA: 0x72E3C40
-        public void OnRemovedFromPanel(){} // RVA: 0x72E3D40
-        public void Reset(){} // RVA: 0x72E3DE0
-        public void InitPages(){} // RVA: 0x72E3EB0
-        public void DestroyPages(){} // RVA: 0x72E4160
-        public void TryGetAtlas(){} // RVA: 0x72E4280
-        public void ReturnAtlas(){} // RVA: 0x72E47A0
-        public void OnUpdateDynamicTextures(){} // RVA: 0x72E4A90
-        public void IsTextureFormatSupported(){} // RVA: 0x72E4B10
-        public void IsTextureValid(){} // RVA: 0x72E4B90
-        public void set_minAtlasSize(){} // RVA: 0x72E4DC0
-        public void set_maxAtlasSize(){} // RVA: 0x72E4DE0
-        public void get_defaultFilters(){} // RVA: 0x6601270
-        public void set_activeFilters(){} // RVA: 0x72E4E00
-        public void get_maxSubTextureSize(){} // RVA: 0x71F0270
-        public void set_maxSubTextureSize(){} // RVA: 0x72E4E20
-        public void set_customFilter(){} // RVA: 0x72E4E40
-        public void .ctor(){} // RVA: 0x72E4EF0
+        public void get_isInitialized(){} // RVA: 0x7AF0C3FC0
+        public void OnAssignedToPanel(){} // RVA: 0x7AF0C3FE0
+        public void OnRemovedFromPanel(){} // RVA: 0x7AF0C40E0
+        public void Reset(){} // RVA: 0x7AF0C4180
+        public void InitPages(){} // RVA: 0x7AF0C4270
+        public void DestroyPages(){} // RVA: 0x7AF0C4520
+        public void TryGetAtlas(){} // RVA: 0x7AF0C4640
+        public void ReturnAtlas(){} // RVA: 0x7AF0C4B50
+        public void OnUpdateDynamicTextures(){} // RVA: 0x7AF0C4E40
+        public void IsTextureFormatSupported(){} // RVA: 0x7AF0C4EC0
+        public void IsTextureValid(){} // RVA: 0x7AF0C4F50
+        public void set_minAtlasSize(){} // RVA: 0x7AF0C5150
+        public void set_maxAtlasSize(){} // RVA: 0x7AF0C5170
+        public void get_defaultFilters(){} // RVA: 0x7AE3EFA60
+        public void set_activeFilters(){} // RVA: 0x7AF0C5190
+        public void get_maxSubTextureSize(){} // RVA: 0x7AEFCF7E0
+        public void set_maxSubTextureSize(){} // RVA: 0x7AF0C51B0
+        public void set_customFilter(){} // RVA: 0x7AF0C51D0
+        public void .ctor(){} // RVA: 0x7AF0C5280
     }
 
-    public class DynamicAtlasCustomFilter
+    public class DynamicAtlasCustomFilter : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4437670
-        public void Invoke(){} // RVA: 0x439370
+        public void .ctor(){} // RVA: 0x7AC226250
+        public void Invoke(){} // RVA: 0x7A82344F0
     }
 
-    public class DynamicAtlasPage
+    public class DynamicAtlasPage : Object
     {
-        public UnityEngine.UIElements.TextureId <textureId>k__BackingField; // 0x10
-        public UnityEngine.RenderTexture <atlas>k__BackingField; // 0x18
-        public 0x65898180 <format>k__BackingField; // 0x20
-        public 0x65897F70 <filterMode>k__BackingField; // 0x24
-        public UnityEngine.Vector2Int <minSize>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void get_textureId(){} // RVA: 0x32A5C0
-        public void set_textureId(){} // RVA: 0x2E00C0
-        public void get_atlas(){} // RVA: 0x2E07C0
-        public void set_atlas(){} // RVA: 0x343E80
-        public void get_format(){} // RVA: 0x760030
-        public void get_filterMode(){} // RVA: 0xCEF5B0
-        public void .ctor(){} // RVA: 0x742FF80
-        public void get_disposed(){} // RVA: 0x59FF30
-        public void set_disposed(){} // RVA: 0xC5F680
-        public void Dispose(){} // RVA: 0x7430370 | overloaded x2
-        public void TryAdd(){} // RVA: 0x74305E0
-        public void Update(){} // RVA: 0x74307E0
-        public void Remove(){} // RVA: 0x7430AE0
-        public void Commit(){} // RVA: 0x7430BB0
-        public void UpdateAtlasTexture(){} // RVA: 0x7430CE0
-        public void CreateAtlasTexture(){} // RVA: 0x7431380
+        public void get_textureId(){} // RVA: 0x7A8124910
+        public void set_textureId(){} // RVA: 0x7A80DA0C0
+        public void get_atlas(){} // RVA: 0x7A80DA7B0
+        public void set_atlas(){} // RVA: 0x7A813E420
+        public void get_format(){} // RVA: 0x7A851DB90
+        public void get_filterMode(){} // RVA: 0x7A8AB15F0
+        public void .ctor(){} // RVA: 0x7AF20F370
+        public void get_disposed(){} // RVA: 0x7A8359360
+        public void set_disposed(){} // RVA: 0x7A8A21900
+        public void Dispose(){} // RVA: 0x7AF20F770
+        public void TryAdd(){} // RVA: 0x7AF20F9E0
+        public void Update(){} // RVA: 0x7AF20FBD0
+        public void Remove(){} // RVA: 0x7AF20FED0
+        public void Commit(){} // RVA: 0x7AF20FFA0
+        public void UpdateAtlasTexture(){} // RVA: 0x7AF2100D0
+        public void CreateAtlasTexture(){} // RVA: 0x7AF210760
     }
 
-    public class DynamicAtlasSettings
+    public class DynamicAtlasSettings : Object
     {
-        public int m_MinAtlasSize; // 0x10
-        public int m_MaxAtlasSize; // 0x14
-        public int m_MaxSubTextureSize; // 0x18
-        public 0x6582EFE0 m_ActiveFilters; // 0x1C
-        public UnityEngine.UIElements.DynamicAtlasCustomFilter m_CustomFilter; // 0x20
-
         // ── Methods ──
-        public void get_minAtlasSize(){} // RVA: 0x32A5C0
-        public void set_minAtlasSize(){} // RVA: 0x2E00C0
-        public void get_maxAtlasSize(){} // RVA: 0x8ABED0
-        public void set_maxAtlasSize(){} // RVA: 0x8AC660
-        public void get_maxSubTextureSize(){} // RVA: 0x5BED50
-        public void set_maxSubTextureSize(){} // RVA: 0x6374E0
-        public void get_activeFilters(){} // RVA: 0x197C3B0
-        public void set_activeFilters(){} // RVA: 0x1989FD0
-        public void get_defaultFilters(){} // RVA: 0x6601270
-        public void get_customFilter(){} // RVA: 0x30B0C0
-        public void set_customFilter(){} // RVA: 0x30B0D0
-        public void get_defaults(){} // RVA: 0x73FDD90
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_minAtlasSize(){} // RVA: 0x7A8124910
+        public void set_minAtlasSize(){} // RVA: 0x7A80DA0C0
+        public void get_maxAtlasSize(){} // RVA: 0x7A8668BC0
+        public void set_maxAtlasSize(){} // RVA: 0x7A8669360
+        public void get_maxSubTextureSize(){} // RVA: 0x7A83782A0
+        public void set_maxSubTextureSize(){} // RVA: 0x7A84385B0
+        public void get_activeFilters(){} // RVA: 0x7A9739200
+        public void set_activeFilters(){} // RVA: 0x7A9746990
+        public void get_defaultFilters(){} // RVA: 0x7AE3EFA60
+        public void get_customFilter(){} // RVA: 0x7A81052C0
+        public void set_customFilter(){} // RVA: 0x7A81052D0
+        public void get_defaults(){} // RVA: 0x7AF1DCF00
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DynamicHeightVirtualizationController`1
+    public class DynamicHeightVirtualizationController`1 : VerticalVirtualizationController`1
     {
-        public int m_HighestCachedIndex;
-        public System.Collections.Generic.Dictionary`2<int,float> m_ItemHeightCache;
-        public System.Collections.Generic.Dictionary`2<int,ContentHeightCacheInfo<T>> m_ContentHeightCache;
-        public System.Collections.Generic.HashSet`1<int> m_WaitingCache;
-        public int m_ForcedFirstVisibleItem;
-        public int m_ForcedLastVisibleItem;
-        public bool m_StickToBottom;
-
         // ── Methods ──
-        public void get_defaultExpectedHeight(){} // RVA: 0x21890
-        public void get_contentPadding(){} // RVA: 0x21890
-        public void set_contentPadding(){} // RVA: 0x325B0
-        public void get_contentHeight(){} // RVA: 0x21890
-        public void set_contentHeight(){} // RVA: 0x325B0
-        public void get_anchoredIndex(){} // RVA: 0xD840
-        public void set_anchoredIndex(){} // RVA: 0x24FA0
-        public void get_anchorOffset(){} // RVA: 0x21890
-        public void set_anchorOffset(){} // RVA: 0x325B0
-        public void get_viewportMaxOffset(){} // RVA: 0x21890
-        public void get_alwaysRebindOnRefresh(){} // RVA: 0xDBE0
-        public void .ctor(){} // RVA: 0x24B10
-        public void Refresh(){} // RVA: 0x25130
-        public void ScrollToItem(){} // RVA: 0x24FA0
-        public void Resize(){} // RVA: 0x33510
-        public void OnScroll(){} // RVA: 0x33510
-        public void OnScrollUpdate(){} // RVA: 0x24A50
-        public void CycleItems(){} // RVA: 0x24FA0
-        public void NeedsFill(){} // RVA: 0xDBE0
-        public void Fill(){} // RVA: 0x24A50
-        public void UpdateScrollViewContainer(){}
-        public void ApplyScrollViewUpdate(){} // RVA: 0x25130
-        public void UpdateAnchor(){} // RVA: 0x24A50
-        public void ScheduleFill(){} // RVA: 0x24A50
-        public void ScheduleScroll(){} // RVA: 0x24A50
-        public void ScheduleScrollDirectionReset(){} // RVA: 0x24A50
-        public void ResetScroll(){} // RVA: 0x24A50
-        public void GetIndexFromPosition(){}
-        public void GetExpectedItemHeight(){} // RVA: 0x21C40
-        public void GetFirstVisibleItem(){}
-        public void GetExpectedContentHeight(){} // RVA: 0x21890
-        public void GetContentHeightForIndex(){} // RVA: 0x21C40
-        public void GetCachedContentHeight(){} // RVA: 0x283FA0
-        public void RegisterItemHeight(){} // RVA: 0x28490
-        public void UnregisterItemHeight(){} // RVA: 0x24FA0
-        public void CleanItemHeightCache(){} // RVA: 0x24A50
-        public void OnRecycledItemGeometryChanged(){} // RVA: 0x24B10
-        public void UpdateRegisteredHeight(){} // RVA: 0xDE40
-        public void GetOrMakeItemAtIndex(){} // RVA: 0x283FA0
-        public void ReleaseItem(){} // RVA: 0x24FA0
-        public void StartDragItem(){} // RVA: 0x24B10
-        public void EndDrag(){} // RVA: 0x24FA0
-        public void HideItem(){} // RVA: 0x24FA0
-        public void MarkWaitingForLayout(){} // RVA: 0x283FA0
-        public void IsIndexOutOfBounds(){} // RVA: 0xE1F0
+        public void get_defaultExpectedHeight(){} // RVA: 0x7A7E155B0
+        public void get_contentPadding(){} // RVA: 0x7A7E155B0
+        public void set_contentPadding(){} // RVA: 0x7A7E262C0
+        public void get_contentHeight(){} // RVA: 0x7A7E155B0
+        public void set_contentHeight(){} // RVA: 0x7A7E262C0
+        public void get_anchoredIndex(){} // RVA: 0x7A7E00710
+        public void set_anchoredIndex(){} // RVA: 0x7A7E189D0
+        public void get_anchorOffset(){} // RVA: 0x7A7E155B0
+        public void set_anchorOffset(){} // RVA: 0x7A7E262C0
+        public void get_viewportMaxOffset(){} // RVA: 0x7A7E155B0
+        public void get_alwaysRebindOnRefresh(){} // RVA: 0x7A7E01900
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void Refresh(){} // RVA: 0x7A7E18C30
+        public void ScrollToItem(){} // RVA: 0x7A7E189D0
+        public void Resize(){} // RVA: 0x7A7E1A3B0
+        public void OnScroll(){} // RVA: 0x7A7E1A3B0
+        public void OnScrollUpdate(){} // RVA: 0x7A7E18770
+        public void CycleItems(){} // RVA: 0x7A7E189D0
+        public void NeedsFill(){} // RVA: 0x7A7E01900
+        public void Fill(){} // RVA: 0x7A7E18770
+        public void UpdateScrollViewContainer(){} // RVA: 0x7A7E26740
+        public void ApplyScrollViewUpdate(){} // RVA: 0x7A7E18C30
+        public void UpdateAnchor(){} // RVA: 0x7A7E18770
+        public void ScheduleFill(){} // RVA: 0x7A7E18770
+        public void ScheduleScroll(){} // RVA: 0x7A7E18770
+        public void ScheduleScrollDirectionReset(){} // RVA: 0x7A7E18770
+        public void ResetScroll(){} // RVA: 0x7A7E18770
+        public void GetIndexFromPosition(){} // RVA: 0x7A7E07BD0
+        public void GetExpectedItemHeight(){} // RVA: 0x7A7E15950
+        public void GetFirstVisibleItem(){} // RVA: 0x7A7E0D3E0
+        public void GetExpectedContentHeight(){} // RVA: 0x7A7E155B0
+        public void GetContentHeightForIndex(){} // RVA: 0x7A7E15950
+        public void GetCachedContentHeight(){} // RVA: 0x7A8051B10
+        public void RegisterItemHeight(){} // RVA: 0x7A7E1C190
+        public void UnregisterItemHeight(){} // RVA: 0x7A7E189D0
+        public void CleanItemHeightCache(){} // RVA: 0x7A7E18770
+        public void OnRecycledItemGeometryChanged(){} // RVA: 0x7A7E18800
+        public void UpdateRegisteredHeight(){} // RVA: 0x7A7E019D0
+        public void GetOrMakeItemAtIndex(){} // RVA: 0x7A8051B10
+        public void ReleaseItem(){} // RVA: 0x7A7E189D0
+        public void StartDragItem(){} // RVA: 0x7A7E18800
+        public void EndDrag(){} // RVA: 0x7A7E189D0
+        public void HideItem(){} // RVA: 0x7A7E189D0
+        public void MarkWaitingForLayout(){} // RVA: 0x7A8051B10
+        public void IsIndexOutOfBounds(){} // RVA: 0x7A7E01F00
     }
 
 }

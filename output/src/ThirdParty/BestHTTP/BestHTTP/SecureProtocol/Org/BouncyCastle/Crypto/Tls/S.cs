@@ -1,222 +1,201 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls
-// Classes: 16
-// Methods: 96
+// Classes: 17
+// Methods: 108
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls
 {
-    public class SecurityParameters
+    public class SecurityParameters : Object
     {
-        public int entity; // 0x10
-        public int cipherSuite; // 0x14
-        public byte compressionAlgorithm; // 0x18
-        public int prfAlgorithm; // 0x1C
-        public int verifyDataLength; // 0x20
-        public byte[] masterSecret; // 0x28
-        public byte[] clientRandom; // 0x30
-        public byte[] serverRandom; // 0x38
-        public byte[] sessionHash; // 0x40
-        public byte[] pskIdentity; // 0x48
-        public byte[] srpIdentity; // 0x50
-        public short maxFragmentLength; // 0x58
-
         // ── Methods ──
-        public void Clear(){} // RVA: 0x95330B0
-        public void get_Entity(){} // RVA: 0x32A5C0
-        public void get_CipherSuite(){} // RVA: 0x8ABED0
-        public void get_CompressionAlgorithm(){} // RVA: 0x2F84E0
-        public void get_PrfAlgorithm(){} // RVA: 0x197C3B0
-        public void get_VerifyDataLength(){} // RVA: 0x760030
-        public void get_MasterSecret(){} // RVA: 0x30B130
-        public void get_ClientRandom(){} // RVA: 0x6374D0
-        public void get_ServerRandom(){} // RVA: 0x4976A0
-        public void get_SessionHash(){} // RVA: 0x35A740
-        public void get_PskIdentity(){} // RVA: 0x358730
-        public void get_SrpIdentity(){} // RVA: 0x37E0E0
-        public void get_IsExtendedMasterSecret(){} // RVA: 0x37B240
-        public void .ctor(){} // RVA: 0x9533190
+        public void Clear(){} // RVA: 0x7B13693E0
+        public void get_Entity(){} // RVA: 0x7A8124910
+        public void get_CipherSuite(){} // RVA: 0x7A8668BC0
+        public void get_CompressionAlgorithm(){} // RVA: 0x7A80F26D0
+        public void get_PrfAlgorithm(){} // RVA: 0x7A9739200
+        public void get_VerifyDataLength(){} // RVA: 0x7A851DB90
+        public void get_MasterSecret(){} // RVA: 0x7A8105330
+        public void get_ClientRandom(){} // RVA: 0x7A83F69F0
+        public void get_ServerRandom(){} // RVA: 0x7A8292C30
+        public void get_SessionHash(){} // RVA: 0x7A8154D80
+        public void get_PskIdentity(){} // RVA: 0x7A8152D80
+        public void get_SrpIdentity(){} // RVA: 0x7A8178B90
+        public void get_IsExtendedMasterSecret(){} // RVA: 0x7A8175CC0
+        public void .ctor(){} // RVA: 0x7B13694C0
     }
 
-    public class ServerName
+    public class ServerName : Object
     {
-        public byte mNameType; // 0x10
-        public object mName; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95331B0
-        public void get_NameType(){} // RVA: 0x3A75E0
-        public void get_Name(){} // RVA: 0x2E07C0
-        public void GetHostName(){} // RVA: 0x9533290
-        public void Encode(){} // RVA: 0x9533380
-        public void Parse(){} // RVA: 0x9533520
-        public void IsCorrectType(){} // RVA: 0x95336F0
+        public void .ctor(){} // RVA: 0x7B13694E0
+        public void get_NameType(){} // RVA: 0x7A81A2200
+        public void get_Name(){} // RVA: 0x7A80DA7B0
+        public void GetHostName(){} // RVA: 0x7B13695C0
+        public void Encode(){} // RVA: 0x7B13696B0
+        public void Parse(){} // RVA: 0x7B1369850
+        public void IsCorrectType(){} // RVA: 0x7B1369A30
     }
 
-    public class ServerNameList
+    public class ServerNameList : Object
     {
-        public System.Collections.IList mServerNameList; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95337B0
-        public void get_ServerNames(){} // RVA: 0x2F8380
-        public void Encode(){} // RVA: 0x9533860
-        public void Parse(){} // RVA: 0x9533C10
-        public void CheckNameType(){} // RVA: 0x9533FC0
+        public void .ctor(){} // RVA: 0x7B1369AF0
+        public void get_ServerNames(){} // RVA: 0x7A80F2570
+        public void Encode(){} // RVA: 0x7B1369BA0
+        public void Parse(){} // RVA: 0x7B1369F50
+        public void CheckNameType(){} // RVA: 0x7B136A300
     }
 
-    public class ServerOnlyTlsAuthentication
+    public class ServerName[] : Array
     {
         // ── Methods ──
-        public void NotifyServerCertificate(){} // RVA: 0x24B10
-        public void GetClientCredentials(){} // RVA: 0x519240
-        public void .ctor(){} // RVA: 0x2DD310
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ServerSrpParams
+    public class ServerOnlyTlsAuthentication : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_N; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_g; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger m_B; // 0x20
-        public byte[] m_s; // 0x28
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9534080
-        public void get_B(){} // RVA: 0x30B0C0
-        public void get_G(){} // RVA: 0x2E07C0
-        public void get_N(){} // RVA: 0x2F8380
-        public void get_S(){} // RVA: 0x30B130
-        public void Encode(){} // RVA: 0x95342A0
-        public void Parse(){} // RVA: 0x95344B0
+        public void NotifyServerCertificate(){} // RVA: 0x7A7E18800
+        public void GetClientCredentials(){} // RVA: 0x7A82D1450
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SessionParameters
+    public class ServerSrpParams : Object
     {
-        public int mCipherSuite; // 0x10
-        public byte mCompressionAlgorithm; // 0x14
-        public byte[] mMasterSecret; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.Certificate mPeerCertificate; // 0x20
-        public byte[] mPskIdentity; // 0x28
-        public byte[] mSrpIdentity; // 0x30
-        public byte[] mEncodedServerExtensions; // 0x38
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95345A0
-        public void Clear(){} // RVA: 0x95348E0
-        public void Copy(){} // RVA: 0x9534960
-        public void get_CipherSuite(){} // RVA: 0x32A5C0
-        public void get_CompressionAlgorithm(){} // RVA: 0x42CBD0
-        public void get_IsExtendedMasterSecret(){} // RVA: 0x398C00
-        public void get_MasterSecret(){} // RVA: 0x2E07C0
-        public void get_PeerCertificate(){} // RVA: 0x30B0C0
-        public void get_PskIdentity(){} // RVA: 0x30B130
-        public void get_SrpIdentity(){} // RVA: 0x6374D0
-        public void ReadServerExtensions(){} // RVA: 0x9534A30
+        public void .ctor(){} // RVA: 0x7B136A3D0
+        public void get_B(){} // RVA: 0x7A81052C0
+        public void get_G(){} // RVA: 0x7A80DA7B0
+        public void get_N(){} // RVA: 0x7A80F2570
+        public void get_S(){} // RVA: 0x7A8105330
+        public void Encode(){} // RVA: 0x7B136A5F0
+        public void Parse(){} // RVA: 0x7B136A800
     }
 
-    public class SignatureAlgorithm
+    public class SessionParameters : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7B136A8F0
+        public void Clear(){} // RVA: 0x7B136AC40
+        public void Copy(){} // RVA: 0x7B136ACC0
+        public void get_CipherSuite(){} // RVA: 0x7A8124910
+        public void get_CompressionAlgorithm(){} // RVA: 0x7A8227C00
+        public void get_IsExtendedMasterSecret(){} // RVA: 0x7A8193790
+        public void get_MasterSecret(){} // RVA: 0x7A80DA7B0
+        public void get_PeerCertificate(){} // RVA: 0x7A81052C0
+        public void get_PskIdentity(){} // RVA: 0x7A8105330
+        public void get_SrpIdentity(){} // RVA: 0x7A83F69F0
+        public void ReadServerExtensions(){} // RVA: 0x7B136AD90
     }
 
-    public class SignatureAndHashAlgorithm
+    public class SignatureAlgorithm : Object
     {
-        public byte mHash; // 0x10
-        public byte mSignature; // 0x11
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9534EC0
-        public void get_Hash(){} // RVA: 0x3A75E0
-        public void get_Signature(){} // RVA: 0x543460
-        public void Equals(){} // RVA: 0x9534FA0
-        public void GetHashCode(){} // RVA: 0x95350E0
-        public void Encode(){} // RVA: 0x9535130
-        public void Parse(){} // RVA: 0x9535200
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SignerInputBuffer
+    public class SignatureAndHashAlgorithm : Object
     {
         // ── Methods ──
-        public void UpdateSigner(){} // RVA: 0x9535350
-        public void .ctor(){} // RVA: 0x9521B80
+        public void .ctor(){} // RVA: 0x7B136B220
+        public void get_Hash(){} // RVA: 0x7A81A2200
+        public void get_Signature(){} // RVA: 0x7A82FBFB0
+        public void Equals(){} // RVA: 0x7B136B300
+        public void GetHashCode(){} // RVA: 0x7B136B440
+        public void Encode(){} // RVA: 0x7B136B490
+        public void Parse(){} // RVA: 0x7B136B560
     }
 
-    public class SimulatedTlsSrpIdentityManager
+    public class SignerInputBuffer : MemoryStream
     {
         // ── Methods ──
-        public void GetRfc5054Default(){} // RVA: 0x9535540
-        public void .ctor(){} // RVA: 0x3BCE00
-        public void GetLoginParameters(){} // RVA: 0x95357B0
-        public void .cctor(){} // RVA: 0x9535B40
+        public void UpdateSigner(){} // RVA: 0x7B136B6B0
+        public void .ctor(){} // RVA: 0x7B1357E90
     }
 
-    public class SrpTlsClient
+    public class SimulatedTlsSrpIdentityManager : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls.TlsSrpGroupVerifier mGroupVerifier; // 0x50
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9535DF0 | overloaded x3
-        public void get_RequireSrpServerExtension(){} // RVA: 0x2DD320
-        public void GetCipherSuites(){} // RVA: 0x9536070
-        public void GetClientExtensions(){} // RVA: 0x95360D0
-        public void ProcessServerExtensions(){} // RVA: 0x95362F0
-        public void GetKeyExchange(){} // RVA: 0x9536510
-        public void GetAuthentication(){} // RVA: 0x95365D0
-        public void CreateSrpKeyExchange(){} // RVA: 0x9536620
+        public void GetRfc5054Default(){} // RVA: 0x7B136B8A0
+        public void .ctor(){} // RVA: 0x7A81B7C50
+        public void GetLoginParameters(){} // RVA: 0x7B136BB10
+        public void .cctor(){} // RVA: 0x7B136BEB0
     }
 
-    public class SrpTlsServer
+    public class SrpTlsClient : AbstractTlsClient
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9530F70 | overloaded x2
-        public void GetDsaSignerCredentials(){} // RVA: 0x95367C0
-        public void GetRsaSignerCredentials(){} // RVA: 0x9536810
-        public void GetCipherSuites(){} // RVA: 0x9536860
-        public void ProcessClientExtensions(){} // RVA: 0x95368D0
-        public void GetSelectedCipherSuite(){} // RVA: 0x9536AB0
-        public void GetCredentials(){} // RVA: 0x9536C60
-        public void GetKeyExchange(){} // RVA: 0x9536D50
-        public void CreateSrpKeyExchange(){} // RVA: 0x9536E10
+        public void .ctor(){} // RVA: 0x7B136C160
+        public void get_RequireSrpServerExtension(){} // RVA: 0x7A80D7320
+        public void GetCipherSuites(){} // RVA: 0x7B136C3E0
+        public void GetClientExtensions(){} // RVA: 0x7B136C440
+        public void ProcessServerExtensions(){} // RVA: 0x7B136C660
+        public void GetKeyExchange(){} // RVA: 0x7B136C880
+        public void GetAuthentication(){} // RVA: 0x7B136C940
+        public void CreateSrpKeyExchange(){} // RVA: 0x7B136C990
     }
 
-    public class SrtpProtectionProfile
+    public class SrpTlsServer : AbstractTlsServer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7B13672A0
+        public void GetDsaSignerCredentials(){} // RVA: 0x7B136CB30
+        public void GetRsaSignerCredentials(){} // RVA: 0x7B136CB80
+        public void GetCipherSuites(){} // RVA: 0x7B136CBD0
+        public void ProcessClientExtensions(){} // RVA: 0x7B136CC40
+        public void GetSelectedCipherSuite(){} // RVA: 0x7B136CE20
+        public void GetCredentials(){} // RVA: 0x7B136CFD0
+        public void GetKeyExchange(){} // RVA: 0x7B136D0C0
+        public void CreateSrpKeyExchange(){} // RVA: 0x7B136D180
     }
 
-    public class Ssl3Mac
+    public class SrtpProtectionProfile : Object
     {
-        public byte IPAD_BYTE;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9536EB0
-        public void get_AlgorithmName(){} // RVA: 0x9536F70
-        public void Init(){} // RVA: 0x9536FE0
-        public void GetMacSize(){} // RVA: 0x9537170
-        public void Update(){} // RVA: 0x95371C0
-        public void BlockUpdate(){} // RVA: 0x9537220
-        public void DoFinal(){} // RVA: 0x95372B0
-        public void Reset(){} // RVA: 0x9537490
-        public void GenPad(){} // RVA: 0x95375A0
-        public void .cctor(){} // RVA: 0x9537650
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SupplementalDataEntry
+    public class Ssl3Mac : Object
     {
-        public int mDataType; // 0x10
-        public byte[] mData; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CC5AF0
-        public void get_DataType(){} // RVA: 0x32A5C0
-        public void get_Data(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7B136D220
+        public void get_AlgorithmName(){} // RVA: 0x7B136D2E0
+        public void Init(){} // RVA: 0x7B136D350
+        public void GetMacSize(){} // RVA: 0x7B136D4E0
+        public void Update(){} // RVA: 0x7B136D530
+        public void BlockUpdate(){} // RVA: 0x7B136D590
+        public void DoFinal(){} // RVA: 0x7B136D620
+        public void Reset(){} // RVA: 0x7B136D800
+        public void GenPad(){} // RVA: 0x7B136D910
+        public void .cctor(){} // RVA: 0x7B136D9C0
     }
 
-    public class SupplementalDataType
+    public class SupplementalDataEntry : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A9AC8120
+        public void get_DataType(){} // RVA: 0x7A8124910
+        public void get_Data(){} // RVA: 0x7A80DA7B0
+    }
+
+    public class SupplementalDataType : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

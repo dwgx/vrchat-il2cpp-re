@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Unity.UnityEngine.InputSystem.Utilities
 {
-    public class ExceptionHelpers
+    public class ExceptionHelpers : Object
     {
         // ── Methods ──
-        public void IsExceptionIndicatingBugInCode(){} // RVA: 0x6DCB8A0
+        public void IsExceptionIndicatingBugInCode(){} // RVA: 0x7AEBBA380
     }
 
 }

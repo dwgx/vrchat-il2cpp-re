@@ -5,61 +5,61 @@
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
-    public class AllowDeserializeInvalidDataAttribute
+    public class AllowDeserializeInvalidDataAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class AlwaysFormatsSelfAttribute
+    public class AlwaysFormatsSelfAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class AnimationCurveFormatter
+    public class AnimationCurveFormatter : MinimalBaseFormatter`1
     {
         // ── Methods ──
-        public void GetUninitializedObject(){} // RVA: 0x519240
-        public void Read(){} // RVA: 0x788D240
-        public void Write(){} // RVA: 0x788D4A0
-        public void .ctor(){} // RVA: 0x788D6D0
-        public void .cctor(){} // RVA: 0x788D730
+        public void GetUninitializedObject(){} // RVA: 0x7A82D1450
+        public void Read(){} // RVA: 0x7AF66C310
+        public void Write(){} // RVA: 0x7AF66C570
+        public void .ctor(){} // RVA: 0x7AF66C7A0
+        public void .cctor(){} // RVA: 0x7AF66C800
     }
 
-    public class ArchitectureInfo
+    public class ArchitectureInfo : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x785F9D0
-        public void SetRuntimePlatform(){} // RVA: 0x785FA70
+        public void .cctor(){} // RVA: 0x7AF63EF10
+        public void SetRuntimePlatform(){} // RVA: 0x7AF63EFB0
     }
 
-    public class ArrayFormatterLocator
+    public class ArrayFormatterLocator : Object
     {
         // ── Methods ──
-        public void TryGetFormatter(){} // RVA: 0x7857B30
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x7858130
+        public void TryGetFormatter(){} // RVA: 0x7AF6372D0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AF6378E0
     }
 
-    public class ArrayFormatter`1
+    public class ArrayFormatter`1 : BaseFormatter`1
     {
         // ── Methods ──
-        public void GetUninitializedObject(){} // RVA: 0xCD60
-        public void DeserializeImplementation(){} // RVA: 0x2DC60
-        public void SerializeImplementation(){} // RVA: 0x2DC60
-        public void .ctor(){} // RVA: 0x24A50
-        public void .cctor(){} // RVA: 0x24A80
+        public void GetUninitializedObject(){} // RVA: 0x7A7E00680
+        public void DeserializeImplementation(){} // RVA: 0x7A7E18890
+        public void SerializeImplementation(){} // RVA: 0x7A7E18890
+        public void .ctor(){} // RVA: 0x7A7E18770
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class ArrayListFormatter
+    public class ArrayListFormatter : BaseFormatter`1
     {
         // ── Methods ──
-        public void GetUninitializedObject(){} // RVA: 0x519240
-        public void DeserializeImplementation(){} // RVA: 0x785D800
-        public void SerializeImplementation(){} // RVA: 0x785DEE0
-        public void .ctor(){} // RVA: 0x785E170
-        public void .cctor(){} // RVA: 0x785E1D0
+        public void GetUninitializedObject(){} // RVA: 0x7A82D1450
+        public void DeserializeImplementation(){} // RVA: 0x7AF63CFB0
+        public void SerializeImplementation(){} // RVA: 0x7AF63D620
+        public void .ctor(){} // RVA: 0x7AF63D8B0
+        public void .cctor(){} // RVA: 0x7AF63D910
     }
 
 }

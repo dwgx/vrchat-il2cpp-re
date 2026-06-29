@@ -5,70 +5,52 @@
 
 namespace ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
 {
-    public class RequiresDynamicCodeAttribute
+    public class RequiresDynamicCodeAttribute : Attribute
     {
-        public string <Message>k__BackingField; // 0x10
-        public string <Url>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Message(){} // RVA: 0x2F8380
-        public void get_Url(){} // RVA: 0x2E07C0
-        public void set_Url(){} // RVA: 0x343E80
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Message(){} // RVA: 0x7A80F2570
+        public void get_Url(){} // RVA: 0x7A80DA7B0
+        public void set_Url(){} // RVA: 0x7A813E420
     }
 
-    public class RequiresDynamicCodeAttribute
+    public class RequiresDynamicCodeAttribute : Attribute
     {
-        public string <Message>k__BackingField; // 0x10
-        public string <Url>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class RequiresDynamicCodeAttribute
+    public class RequiresDynamicCodeAttribute : Attribute
     {
-        public string <Message>k__BackingField; // 0x10
-        public string <Url>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Message(){} // RVA: 0x2F8380
-        public void get_Url(){} // RVA: 0x2E07C0
-        public void set_Url(){} // RVA: 0x343E80
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Message(){} // RVA: 0x7A80F2570
+        public void get_Url(){} // RVA: 0x7A80DA7B0
+        public void set_Url(){} // RVA: 0x7A813E420
     }
 
-    public class RequiresUnreferencedCodeAttribute
+    public class RequiresUnreferencedCodeAttribute : Attribute
     {
-        public string <Message>k__BackingField; // 0x10
-        public string <Url>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Message(){} // RVA: 0x2F8380
-        public void get_Url(){} // RVA: 0x2E07C0
-        public void set_Url(){} // RVA: 0x343E80
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Message(){} // RVA: 0x7A80F2570
+        public void get_Url(){} // RVA: 0x7A80DA7B0
+        public void set_Url(){} // RVA: 0x7A813E420
     }
 
-    public class RequiresUnreferencedCodeAttribute
+    public class RequiresUnreferencedCodeAttribute : Attribute
     {
-        public string <Message>k__BackingField; // 0x10
-        public string <Url>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class RequiresUnreferencedCodeAttribute
+    public class RequiresUnreferencedCodeAttribute : Attribute
     {
-        public string <Message>k__BackingField; // 0x10
-        public string <Url>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Message(){} // RVA: 0x2F8380
-        public void get_Url(){} // RVA: 0x2E07C0
-        public void set_Url(){} // RVA: 0x343E80
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Message(){} // RVA: 0x7A80F2570
+        public void get_Url(){} // RVA: 0x7A80DA7B0
+        public void set_Url(){} // RVA: 0x7A813E420
     }
 
 }

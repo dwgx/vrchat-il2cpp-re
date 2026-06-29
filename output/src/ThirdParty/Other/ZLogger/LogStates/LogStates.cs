@@ -5,59 +5,58 @@
 
 namespace ThirdParty.Other.ZLogger.LogStates
 {
-    public class InterpolatedStringLogState : ZLogger.Internal
-    {
-        public ZLogger.Internal.ObjectPool`1<ZLogger.LogStates.InterpolatedStringLogState> cache;
-        public ZLogger.LogStates.InterpolatedStringLogState next; // 0x10
-        public int <ParameterCount>k__BackingField; // 0x18
-
-        // ── Methods ──
-        public void get_NextNode(){} // RVA: 0x3DF6A30
-        public void get_ParameterCount(){} // RVA: 0x5BED50
-        public void set_ParameterCount(){} // RVA: 0x6374E0
-        public void GetEnumerator(){} // RVA: 0x9B152A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x9B15350
-        public void get_Version(){} // RVA: 0x63B6B50
-        public void .ctor(){} // RVA: 0x9B15360
-        public void Create(){} // RVA: 0x9B15480
-        public void CreateEntry(){} // RVA: 0x9B15810
-        public void Retain(){} // RVA: 0x9B15880
-        public void Release(){} // RVA: 0x9B15890
-        public void DisposeCore(){} // RVA: 0x9B159E0
-        public void ToString(){} // RVA: 0x9B15BD0 | overloaded x2
-        public void GetParameterKeyAsString(){} // RVA: 0x9B15CB0
-        public void GetParameterValue(){} // RVA: 0x9B15CF0
-        public void GetAdditionalInfo(){} // RVA: 0x50D1DB0
-        public void .cctor(){} // RVA: 0x9B15D50
-        public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0x9B15E10
-    }
-
-    public class StringFormatterLogState`1
+    public class InterpolatedStringLogState : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void CreateEntry(){} // RVA: 0xCE10
-        public void ToString(){} // RVA: 0x24B10 | overloaded x2
-        public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0xCE10
+        public void get_NextNode(){} // RVA: 0x7ABBF1F90
+        public void get_ParameterCount(){} // RVA: 0x7A83782A0
+        public void set_ParameterCount(){} // RVA: 0x7A84385B0
+        public void GetEnumerator(){} // RVA: 0x7B1957240
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7B19572F0
+        public void get_Version(){} // RVA: 0x7AE1A39D0
+        public void .ctor(){} // RVA: 0x7B1957300
+        public void Create(){} // RVA: 0x7B1957420
+        public void CreateEntry(){} // RVA: 0x7B19577B0
+        public void Retain(){} // RVA: 0x7B1957820
+        public void Release(){} // RVA: 0x7B1957830
+        public void DisposeCore(){} // RVA: 0x7B1957980
+        public void ToString(){} // RVA: 0x7B1957B70
+        public void GetParameterKeyAsString(){} // RVA: 0x7B1957C50
+        public void GetParameterValue(){} // RVA: 0x7B1957C90
+        public void GetAdditionalInfo(){} // RVA: 0x7ACD3F8E0
+        public void .cctor(){} // RVA: 0x7B1957CF0
+        public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0x7B1957DB0
     }
 
-    public class StringFormatterLogState`1
-    {
-    }
-
-    public class VersionedLogState
+    public class StringFormatterLogState`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9B15F60
-        public void CreateEntry(){} // RVA: 0x9B15FD0
-        public void GetAdditionalInfo(){} // RVA: 0x9B15FF0
-        public void Release(){} // RVA: 0x9B16020
-        public void Retain(){} // RVA: 0x9B16040
-        public void ToString(){} // RVA: 0x9B16060
-        public void GetEnumerator(){} // RVA: 0x9B160A0
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x9B160A0
-        public void ThrowIfVersionUnmatched(){} // RVA: 0x9B160D0
-        public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0x9B15FD0
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void CreateEntry(){} // RVA: 0x7A7E00B20
+        public void ToString(){} // RVA: 0x7A7E18800
+        public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0x7A7E00B20
+    }
+
+    public class StringFormatterLogState`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7A36210
+        public void CreateEntry(){} // RVA: 0x7A7A36240
+    }
+
+    public class VersionedLogState : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7FCC8C0
+        public void CreateEntry(){} // RVA: 0x7A7FCC930
+        public void GetAdditionalInfo(){} // RVA: 0x7A7FCC950
+        public void Release(){} // RVA: 0x7A7FCC980
+        public void Retain(){} // RVA: 0x7A7FCC9A0
+        public void ToString(){} // RVA: 0x7A7FCC9C0
+        public void GetEnumerator(){} // RVA: 0x7A7FCCA00
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7FCCA00
+        public void ThrowIfVersionUnmatched(){} // RVA: 0x7A7FCCA30
+        public void ZLogger.IZLoggerEntryCreatable.CreateEntry(){} // RVA: 0x7A7FCC930
     }
 
 }

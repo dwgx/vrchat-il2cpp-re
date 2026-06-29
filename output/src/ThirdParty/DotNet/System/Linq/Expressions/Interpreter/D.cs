@@ -5,71 +5,59 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class DebugInfo
+    public class DebugInfo : Object
     {
         // ── Methods ──
-        public void GetMatchingDebugInfo(){} // RVA: 0x662CDD0
-        public void ToString(){} // RVA: 0x662CF20
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x662D220
+        public void GetMatchingDebugInfo(){} // RVA: 0x7AE41B7A0
+        public void ToString(){} // RVA: 0x7AE41B8F0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AE41BBF0
     }
 
-    public class DecrementInstruction
+    public class DecrementInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6613740
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x6613780
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE4021F0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE402230
     }
 
-    public class DefaultValueInstruction
+    public class DefaultValueInstruction : Instruction
     {
-        public System.Type _type; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x66144F0
-        public void Run(){} // RVA: 0x6614530
-        public void ToString(){} // RVA: 0x66145D0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE402FA0
+        public void Run(){} // RVA: 0x7AE402FE0
+        public void ToString(){} // RVA: 0x7AE403080
     }
 
-    public class DelegateHelpers
+    public class DelegateHelpers : Object
     {
         // ── Methods ──
-        public void MakeDelegate(){} // RVA: 0x665A630
+        public void MakeDelegate(){} // RVA: 0x7AE4490F0
     }
 
-    public class DivInstruction
+    public class DivInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6614640
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x6614680
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE4030F0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE403130
     }
 
-    public class DupInstruction
+    public class DupInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.DupInstruction Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x66549F0
-        public void Run(){} // RVA: 0x6654A30
-        public void .cctor(){} // RVA: 0x6654AD0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE443450
+        public void Run(){} // RVA: 0x7AE443490
+        public void .cctor(){} // RVA: 0x7AE443530
     }
 
 }

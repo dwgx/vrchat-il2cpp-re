@@ -1,83 +1,83 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.Gcm
 // Classes: 8
-// Methods: 55
+// Methods: 35
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.Gcm
 {
-    public class BasicGcmExponentiator
+    public class BasicGcmExponentiator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95AEF80
-        public void ExponentiateX(){} // RVA: 0x95AF030
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B13E5BC0
+        public void ExponentiateX(){} // RVA: 0x7B13E5C70
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class BasicGcmMultiplier
+    public class BasicGcmMultiplier : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95AF290
-        public void MultiplyH(){} // RVA: 0x95AF340
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B13E5EC0
+        public void MultiplyH(){} // RVA: 0x7B13E5F70
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class GcmUtilities
+    public class GcmUtilities : Object
     {
         // ── Methods ──
-        public void GenerateLookup(){} // RVA: 0x95AF450
-        public void OneAsBytes(){} // RVA: 0x95AF550
-        public void OneAsUints(){} // RVA: 0x95AF5B0
-        public void OneAsUlongs(){} // RVA: 0x95AF610
-        public void AsBytes(){} // RVA: 0x95AF790 | overloaded x4
-        public void AsUints(){} // RVA: 0x95AF890 | overloaded x2
-        public void AsUlongs(){} // RVA: 0x95AF9A0 | overloaded x2
-        public void Multiply(){} // RVA: 0x95AFC20 | overloaded x3
-        public void MultiplyP(){} // RVA: 0x95AFE00 | overloaded x2
-        public void MultiplyP8(){} // RVA: 0x95AFFE0 | overloaded x2
-        public void ShiftRight(){} // RVA: 0x95B0180 | overloaded x2
-        public void ShiftRightN(){} // RVA: 0x95B02D0 | overloaded x2
-        public void Xor(){} // RVA: 0x94B4B80 | overloaded x10
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x95B0A70
+        public void GenerateLookup(){} // RVA: 0x7B13E6080
+        public void OneAsBytes(){} // RVA: 0x7B13E6180
+        public void OneAsUints(){} // RVA: 0x7B13E61E0
+        public void OneAsUlongs(){} // RVA: 0x7B13E6240
+        public void AsBytes(){} // RVA: 0x7B13E63C0
+        public void AsUints(){} // RVA: 0x7B13E64B0
+        public void AsUlongs(){} // RVA: 0x7B13E65C0
+        public void Multiply(){} // RVA: 0x7B13E6840
+        public void MultiplyP(){} // RVA: 0x7B13E6A20
+        public void MultiplyP8(){} // RVA: 0x7B13E6C00
+        public void ShiftRight(){} // RVA: 0x7B13E6DA0
+        public void ShiftRightN(){} // RVA: 0x7B13E6EF0
+        public void Xor(){} // RVA: 0x7B12E9D60
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B13E76C0
     }
 
     public class IGcmExponentiator
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x24B10
-        public void ExponentiateX(){}
+        public void Init(){} // RVA: 0x7A7E18800
+        public void ExponentiateX(){} // RVA: 0x7A7E18CB0
     }
 
     public class IGcmMultiplier
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x24B10
-        public void MultiplyH(){} // RVA: 0x24B10
+        public void Init(){} // RVA: 0x7A7E18800
+        public void MultiplyH(){} // RVA: 0x7A7E18800
     }
 
-    public class Tables1kGcmExponentiator
+    public class Tables1kGcmExponentiator : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95B0BF0
-        public void ExponentiateX(){} // RVA: 0x95B0F00
-        public void EnsureAvailable(){} // RVA: 0x95B1130
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B13E7840
+        public void ExponentiateX(){} // RVA: 0x7B13E7B70
+        public void EnsureAvailable(){} // RVA: 0x7B13E7DA0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class Tables64kGcmMultiplier
+    public class Tables64kGcmMultiplier : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95C1280
-        public void MultiplyH(){} // RVA: 0x95C1C10
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7B13F83A0
+        public void MultiplyH(){} // RVA: 0x7B13F8DB0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class Tables8kGcmMultiplier
+    public class Tables8kGcmMultiplier : Object
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x95C1DD0
-        public void MultiplyH(){} // RVA: 0x95C2B30
-        public void .ctor(){} // RVA: 0x95C2E10
+        public void Init(){} // RVA: 0x7B13F8F70
+        public void MultiplyH(){} // RVA: 0x7B13F9D10
+        public void .ctor(){} // RVA: 0x7B13F9FF0
     }
 
 }

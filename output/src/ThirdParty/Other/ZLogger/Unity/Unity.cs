@@ -5,46 +5,42 @@
 
 namespace ThirdParty.Other.ZLogger.Unity
 {
-    public class UnityDebugLogProcessor
+    public class UnityDebugLogProcessor : Object
     {
-        public System.Buffers.ArrayBufferWriter`1<byte> bufferWriter; // 0xFFFFFFFF
-
         // ── Methods ──
-        public void get_IsPostingToUnity(){} // RVA: 0x76D5C60
-        public void set_IsPostingToUnity(){} // RVA: 0x76D5CC0
-        public void SetupStackTraceLogTypeMappings(){} // RVA: 0x76D5D20
-        public void .ctor(){} // RVA: 0x76D6050
-        public void DisposeAsync(){} // RVA: 0x1529E90
-        public void Post(){} // RVA: 0x76D6140
-        public void FormatToString(){} // RVA: 0x76D69E0
-        public void .cctor(){} // RVA: 0x76D6D10
+        public void get_IsPostingToUnity(){} // RVA: 0x7AF4B49A0
+        public void set_IsPostingToUnity(){} // RVA: 0x7AF4B4A00
+        public void SetupStackTraceLogTypeMappings(){} // RVA: 0x7AF4B4A60
+        public void .ctor(){} // RVA: 0x7AF4B4D90
+        public void DisposeAsync(){} // RVA: 0x7A92BE230
+        public void Post(){} // RVA: 0x7AF4B4E80
+        public void FormatToString(){} // RVA: 0x7AF4B5710
+        public void .cctor(){} // RVA: 0x7AF4B5A60
     }
 
-    public class ZLoggerUnityDebugLoggerProvider
+    public class ZLoggerUnityDebugLoggerProvider : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x76D6E00
-        public void CreateLogger(){} // RVA: 0x76D7000
-        public void Dispose(){} // RVA: 0x76D70B0
-        public void DisposeAsync(){} // RVA: 0x76D7130
-        public void SetScopeProvider(){} // RVA: 0x30B0D0
+        public void .ctor(){} // RVA: 0x7AF4B5B50
+        public void CreateLogger(){} // RVA: 0x7AF4B5D50
+        public void Dispose(){} // RVA: 0x7AF4B5E10
+        public void DisposeAsync(){} // RVA: 0x7AF4B5E90
+        public void SetScopeProvider(){} // RVA: 0x7A81052D0
     }
 
-    public class ZLoggerUnityDebugOptions
+    public class ZLoggerUnityDebugOptions : ZLoggerOptions
     {
-        public bool InternalErrorLogger; // 0x38
-
         // ── Methods ──
-        public void get_PrettyStacktrace(){} // RVA: 0x4A6500
-        public void set_PrettyStacktrace(){} // RVA: 0x4A78C0
-        public void .ctor(){} // RVA: 0x76D59F0
+        public void get_PrettyStacktrace(){} // RVA: 0x7A82A20A0
+        public void set_PrettyStacktrace(){} // RVA: 0x7A82A2C90
+        public void .ctor(){} // RVA: 0x7AF4B4730
     }
 
-    public class ZLoggerUnityExtensions
+    public class ZLoggerUnityExtensions : Object
     {
         // ── Methods ──
-        public void AddZLoggerUnityDebug(){} // RVA: 0x76D5A00
-        public void AsUnityLogType(){} // RVA: 0x76D5B60
+        public void AddZLoggerUnityDebug(){} // RVA: 0x7AF4B4740
+        public void AsUnityLogType(){} // RVA: 0x7AF4B48A0
     }
 
 }

@@ -1,57 +1,51 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Data
 // Classes: 2
-// Methods: 41
+// Methods: 33
 
 namespace ThirdParty.DotNet.System.Data
 {
-    public class UnaryNode
+    public class UnaryNode : ExpressionNode
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F528E0
-        public void Bind(){} // RVA: 0x6724850
-        public void Eval(){} // RVA: 0x6724920 | overloaded x3
-        public void EvalUnaryOp(){} // RVA: 0x6724950
-        public void IsConstant(){} // RVA: 0x6725830
-        public void IsTableConstant(){} // RVA: 0x38EE330
-        public void HasLocalAggregate(){} // RVA: 0x6725860
-        public void HasRemoteAggregate(){} // RVA: 0x6725890
-        public void DependsOn(){} // RVA: 0x67258C0
-        public void Optimize(){} // RVA: 0x67258F0
+        public void .ctor(){} // RVA: 0x7ADD41100
+        public void Bind(){} // RVA: 0x7AE512D10
+        public void Eval(){} // RVA: 0x7AE512DE0
+        public void EvalUnaryOp(){} // RVA: 0x7AE512E10
+        public void IsConstant(){} // RVA: 0x7AE513D20
+        public void IsTableConstant(){} // RVA: 0x7AB6D6840
+        public void HasLocalAggregate(){} // RVA: 0x7AE513D50
+        public void HasRemoteAggregate(){} // RVA: 0x7AE513D80
+        public void DependsOn(){} // RVA: 0x7AE513DB0
+        public void Optimize(){} // RVA: 0x7AE513DE0
     }
 
-    public class UniqueConstraint
+    public class UniqueConstraint : Constraint
     {
-        public System.Data.DataKey _key; // 0x38
-        public System.Data.Index _constraintIndex; // 0x40
-        public bool _bPrimaryKey; // 0x48
-        public string _constraintName; // 0x50
-        public string[] _columnNames; // 0x58
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x67368B0 | overloaded x5
-        public void get_ColumnNames(){} // RVA: 0x6736900
-        public void get_ConstraintIndex(){} // RVA: 0x35A740
-        public void ConstraintIndexClear(){} // RVA: 0x6736910
-        public void ConstraintIndexInitialize(){} // RVA: 0x6736990
-        public void CheckState(){} // RVA: 0x6736A80
-        public void NonVirtualCheckState(){} // RVA: 0x6736A80
-        public void CheckCanAddToCollection(){} // RVA: 0x2DD310
-        public void CanBeRemovedFromCollection(){} // RVA: 0x6736A90
-        public void CanEnableConstraint(){} // RVA: 0x6736C40
-        public void IsConstraintViolated(){} // RVA: 0x6736CE0
-        public void CheckConstraint(){} // RVA: 0x6736FA0
-        public void ContainsColumn(){} // RVA: 0x67371E0
-        public void Clone(){} // RVA: 0x6737730 | overloaded x3
-        public void get_Columns(){} // RVA: 0x6737B60
-        public void get_ColumnsReference(){} // RVA: 0x4976A0
-        public void get_IsPrimaryKey(){} // RVA: 0x6737B70
-        public void Create(){} // RVA: 0x6737BD0
-        public void Equals(){} // RVA: 0x6737D20
-        public void GetHashCode(){} // RVA: 0x5C63910
-        public void set_InCollection(){} // RVA: 0x6737DE0
-        public void get_Key(){} // RVA: 0x4976A0
-        public void get_Table(){} // RVA: 0x6737EA0
+        public void .ctor(){} // RVA: 0x7AE524DA0
+        public void get_ColumnNames(){} // RVA: 0x7AE524DF0
+        public void get_ConstraintIndex(){} // RVA: 0x7A8154D80
+        public void ConstraintIndexClear(){} // RVA: 0x7AE524E00
+        public void ConstraintIndexInitialize(){} // RVA: 0x7AE524E80
+        public void CheckState(){} // RVA: 0x7AE524F70
+        public void NonVirtualCheckState(){} // RVA: 0x7AE524F70
+        public void CheckCanAddToCollection(){} // RVA: 0x7A80D7310
+        public void CanBeRemovedFromCollection(){} // RVA: 0x7AE524F80
+        public void CanEnableConstraint(){} // RVA: 0x7AE525130
+        public void IsConstraintViolated(){} // RVA: 0x7AE5251D0
+        public void CheckConstraint(){} // RVA: 0x7AE5254B0
+        public void ContainsColumn(){} // RVA: 0x7AE5256E0
+        public void Clone(){} // RVA: 0x7AE525C20
+        public void get_Columns(){} // RVA: 0x7AE526040
+        public void get_ColumnsReference(){} // RVA: 0x7A8292C30
+        public void get_IsPrimaryKey(){} // RVA: 0x7AE526050
+        public void Create(){} // RVA: 0x7AE5260B0
+        public void Equals(){} // RVA: 0x7AE526200
+        public void GetHashCode(){} // RVA: 0x7ADA51890
+        public void set_InCollection(){} // RVA: 0x7AE5262C0
+        public void get_Key(){} // RVA: 0x7A8292C30
+        public void get_Table(){} // RVA: 0x7AE526380
     }
 
 }

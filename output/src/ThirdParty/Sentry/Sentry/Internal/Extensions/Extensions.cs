@@ -1,235 +1,215 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Sentry.Sentry.Internal.Extensions
 // Classes: 18
-// Methods: 134
+// Methods: 117
 
 namespace ThirdParty.Sentry.Sentry.Internal.Extensions
 {
-    public class ClientReportExtensions
+    public class ClientReportExtensions : Object
     {
         // ── Methods ──
-        public void RecordDiscardedEvents(){} // RVA: 0x642DF00
+        public void RecordDiscardedEvents(){} // RVA: 0x7AE21BC20
     }
 
-    public class CollectionsExtensions
+    public class CollectionsExtensions : Object
     {
         // ── Methods ──
-        public void GetOrCreate(){} // RVA: 0x283FA0
-        public void TryCopyTo(){} // RVA: 0x24D50
-        public void ToDict(){} // RVA: 0xCE50
-        public void WhereNotNullValue(){} // RVA: 0xCE50
-        public void Append(){} // RVA: 0x283FA0
-        public void AsReadOnly(){} // RVA: 0xCE50 | overloaded x2
-        public void ExceptNulls(){} // RVA: 0xCE50
-        public void TryGetTypedValue(){} // RVA: 0x114C0
+        public void GetOrCreate(){} // RVA: 0x7A8051B10
+        public void TryCopyTo(){} // RVA: 0x7A7E18AA0
+        public void ToDict(){} // RVA: 0x7A7E00BA0
+        public void WhereNotNullValue(){} // RVA: 0x7A7E00BA0
+        public void Append(){} // RVA: 0x7A8051B10
+        public void AsReadOnly(){} // RVA: 0x7A7E00BA0
+        public void ExceptNulls(){} // RVA: 0x7A7E00BA0
+        public void TryGetTypedValue(){} // RVA: 0x7A7E05210
     }
 
-    public class DictionaryExtensions
+    public class DictionaryExtensions : Object
     {
         // ── Methods ──
-        public void AddIfNotNullOrEmpty(){} // RVA: 0x283FA0
+        public void AddIfNotNullOrEmpty(){} // RVA: 0x7A8051B10
     }
 
-    public class DisposableExtensions
+    public class DisposableExtensions : Object
     {
         // ── Methods ──
-        public void DisposeAll(){} // RVA: 0x642E350
+        public void DisposeAll(){} // RVA: 0x7AE21C070
     }
 
-    public class EnumExtensions
+    public class EnumExtensions : Object
     {
         // ── Methods ──
-        public void ParseEnum(){} // RVA: 0x283FA0
+        public void ParseEnum(){} // RVA: 0x7A8051B10
     }
 
-    public class HashExtensions
+    public class HashExtensions : Object
     {
         // ── Methods ──
-        public void GetHashString(){} // RVA: 0x642E5C0
+        public void GetHashString(){} // RVA: 0x7AE21C2E0
     }
 
-    public class HttpClientExtensions
+    public class HttpClientExtensions : Object
     {
         // ── Methods ──
-        public void ReadAsJsonAsync(){} // RVA: 0x642E8A0
-        public void ReadAsJson(){} // RVA: 0x642EAA0
-        public void ReadAsString(){} // RVA: 0x642ECF0
+        public void ReadAsJsonAsync(){} // RVA: 0x7AE21C5D0
+        public void ReadAsJson(){} // RVA: 0x7AE21C7D0
+        public void ReadAsString(){} // RVA: 0x7AE21CA30
     }
 
-    public class HttpStatusExtensions
+    public class HttpStatusExtensions : Object
     {
         // ── Methods ──
-        public void EnsureSuccessStatusCode(){} // RVA: 0x642F840
+        public void EnsureSuccessStatusCode(){} // RVA: 0x7AE21D590
     }
 
-    public class JsonExtensions
+    public class JsonExtensions : Object
     {
-        public System.Text.Json.Serialization.JsonConverter[] TokenType;
-
         // ── Methods ──
-        public void get_JsonPreserveReferences(){} // RVA: 0x642F900
-        public void set_JsonPreserveReferences(){} // RVA: 0x642F960
-        public void .cctor(){} // RVA: 0x642F9C0
-        public void BuildOptions(){} // RVA: 0x64301D0
-        public void AddJsonSerializerContext(){} // RVA: 0x24AE0
-        public void ResetSerializerOptions(){} // RVA: 0x64306B0
-        public void AddJsonConverter(){} // RVA: 0x6430AF0
-        public void Deconstruct(){} // RVA: 0x6430BD0
-        public void GetDictionaryOrNull(){} // RVA: 0x283FA0 | overloaded x2
-        public void GetStringDictionaryOrNull(){} // RVA: 0x6431050
-        public void GetPropertyOrNull(){} // RVA: 0x6431470
-        public void GetDynamicOrNull(){} // RVA: 0x64315B0
-        public void GetNumber(){} // RVA: 0x6431910
-        public void GetHexAsLong(){} // RVA: 0x6431B20
-        public void GetStringOrThrow(){} // RVA: 0x6431CD0
-        public void WriteDictionaryValue(){} // RVA: 0x2F420 | overloaded x2
-        public void WriteStringDictionaryValue(){} // RVA: 0x64323A0
-        public void WriteDictionary(){} // RVA: 0x2FA40 | overloaded x2
-        public void WriteStringDictionary(){} // RVA: 0x6432C60
-        public void WriteArrayValue(){} // RVA: 0x2A310
-        public void WriteArray(){} // RVA: 0x2FA40
-        public void WriteStringArrayValue(){} // RVA: 0x6432D90
-        public void WriteStringArray(){} // RVA: 0x6433020
-        public void WriteSerializableValue(){} // RVA: 0x6433150
-        public void WriteSerializable(){} // RVA: 0x64331C0
-        public void WriteDynamicValue(){} // RVA: 0x6433330
-        public void ToUtf8Json(){} // RVA: 0x6433D10
-        public void GetSerializerContext(){} // RVA: 0x6433F70
-        public void InternalSerializeToUtf8Bytes(){} // RVA: 0x6434140
-        public void InternalSerialize(){} // RVA: 0x64342F0
-        public void WriteDynamic(){} // RVA: 0x64345A0
-        public void WriteBooleanIfNotNull(){} // RVA: 0x64347B0
-        public void WriteBooleanIfTrue(){} // RVA: 0x6434840
-        public void WriteNumberIfNotNull(){} // RVA: 0x6434D00 | overloaded x5
-        public void WriteNumberIfNotZero(){} // RVA: 0x64350A0 | overloaded x5
-        public void WriteStringIfNotWhiteSpace(){} // RVA: 0x64350D0
-        public void WriteStringIfNotNull(){} // RVA: 0x6435130
-        public void WriteSerializableIfNotNull(){} // RVA: 0x64351C0
-        public void WriteDictionaryIfNotEmpty(){} // RVA: 0x2FA40 | overloaded x2
-        public void WriteStringDictionaryIfNotEmpty(){} // RVA: 0x6435470
-        public void WriteArrayIfNotEmpty(){} // RVA: 0x2FA40
-        public void WriteStringArrayIfNotEmpty(){} // RVA: 0x6435670
-        public void WriteDynamicIfNotNull(){} // RVA: 0x64358B0
-        public void WriteString(){} // RVA: 0x6435940
-        public void <InternalSerializeToUtf8Bytes>g__JitSerializeToUtf8Bytes|40_0(){} // RVA: 0x6435A90
-        public void <InternalSerialize>g__JitSerialize|41_0(){} // RVA: 0x6435BC0
+        public void get_JsonPreserveReferences(){} // RVA: 0x7AE21D650
+        public void set_JsonPreserveReferences(){} // RVA: 0x7AE21D6B0
+        public void .cctor(){} // RVA: 0x7AE21D710
+        public void BuildOptions(){} // RVA: 0x7AE21DF20
+        public void AddJsonSerializerContext(){} // RVA: 0x7A7E18830
+        public void ResetSerializerOptions(){} // RVA: 0x7AE21E3F0
+        public void AddJsonConverter(){} // RVA: 0x7AE21E840
+        public void Deconstruct(){} // RVA: 0x7AE21E920
+        public void GetDictionaryOrNull(){} // RVA: 0x7A8051B10
+        public void GetStringDictionaryOrNull(){} // RVA: 0x7AE21EDB0
+        public void GetPropertyOrNull(){} // RVA: 0x7AE21F1E0
+        public void GetDynamicOrNull(){} // RVA: 0x7AE21F400
+        public void GetNumber(){} // RVA: 0x7AE21F760
+        public void GetHexAsLong(){} // RVA: 0x7AE21F970
+        public void GetStringOrThrow(){} // RVA: 0x7AE21FB20
+        public void WriteDictionaryValue(){} // RVA: 0x7A7E23170
+        public void WriteStringDictionaryValue(){} // RVA: 0x7AE220220
+        public void WriteDictionary(){} // RVA: 0x7A7E23790
+        public void WriteStringDictionary(){} // RVA: 0x7AE220B10
+        public void WriteArrayValue(){} // RVA: 0x7A7E1E060
+        public void WriteArray(){} // RVA: 0x7A7E23790
+        public void WriteStringArrayValue(){} // RVA: 0x7AE220C40
+        public void WriteStringArray(){} // RVA: 0x7AE220EF0
+        public void WriteSerializableValue(){} // RVA: 0x7AE221020
+        public void WriteSerializable(){} // RVA: 0x7AE221090
+        public void WriteDynamicValue(){} // RVA: 0x7AE221200
+        public void ToUtf8Json(){} // RVA: 0x7AE221BE0
+        public void GetSerializerContext(){} // RVA: 0x7AE221E40
+        public void InternalSerializeToUtf8Bytes(){} // RVA: 0x7AE222010
+        public void InternalSerialize(){} // RVA: 0x7AE2221C0
+        public void WriteDynamic(){} // RVA: 0x7AE222470
+        public void WriteBooleanIfNotNull(){} // RVA: 0x7AE222670
+        public void WriteBooleanIfTrue(){} // RVA: 0x7AE222700
+        public void WriteNumberIfNotNull(){} // RVA: 0x7AE222BC0
+        public void WriteNumberIfNotZero(){} // RVA: 0x7AE222F60
+        public void WriteStringIfNotWhiteSpace(){} // RVA: 0x7AE222F90
+        public void WriteStringIfNotNull(){} // RVA: 0x7AE222FF0
+        public void WriteSerializableIfNotNull(){} // RVA: 0x7AE223080
+        public void WriteDictionaryIfNotEmpty(){} // RVA: 0x7A7E23790
+        public void WriteStringDictionaryIfNotEmpty(){} // RVA: 0x7AE223330
+        public void WriteArrayIfNotEmpty(){} // RVA: 0x7A7E23790
+        public void WriteStringArrayIfNotEmpty(){} // RVA: 0x7AE223530
+        public void WriteDynamicIfNotNull(){} // RVA: 0x7AE223770
+        public void WriteString(){} // RVA: 0x7AE223800
+        public void <InternalSerializeToUtf8Bytes>g__JitSerializeToUtf8Bytes|40_0(){} // RVA: 0x7AE223950
+        public void <InternalSerialize>g__JitSerialize|41_0(){} // RVA: 0x7AE223A80
     }
 
-    public class MiscExtensions
+    public class MiscExtensions : Object
     {
         // ── Methods ──
-        public void Pipe(){} // RVA: 0x283FA0
-        public void NullIfDefault(){} // RVA: 0x283FA0
-        public void ToHexString(){} // RVA: 0x6438890 | overloaded x4
-        public void CancelAfterSafe(){} // RVA: 0x6438B30
-        public void IsNull(){} // RVA: 0x36743B0
-        public void Add(){} // RVA: 0x283FA0
-        public void GetRawMessage(){} // RVA: 0x6438CC0
-        public void .cctor(){} // RVA: 0x6438F50
+        public void Pipe(){} // RVA: 0x7A8051B10
+        public void NullIfDefault(){} // RVA: 0x7A8051B10
+        public void ToHexString(){} // RVA: 0x7AE226760
+        public void CancelAfterSafe(){} // RVA: 0x7AE226A00
+        public void IsNull(){} // RVA: 0x7AB45A1A0
+        public void Add(){} // RVA: 0x7A8051B10
+        public void GetRawMessage(){} // RVA: 0x7AE226B90
+        public void .cctor(){} // RVA: 0x7AE226E20
     }
 
-    public class PEDebugImageData
+    public class PEDebugImageData : Object
     {
-        public string <ImageAddress>k__BackingField; // 0x10
-        public System.Nullable`1<long> <ImageSize>k__BackingField; // 0x18
-        public string <DebugId>k__BackingField; // 0x28
-        public string <DebugChecksum>k__BackingField; // 0x30
-        public string <DebugFile>k__BackingField; // 0x38
-        public string <CodeId>k__BackingField; // 0x40
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x6439700
-        public void get_ImageAddress(){} // RVA: 0x2F8380
-        public void set_ImageAddress(){} // RVA: 0x2DEE30
-        public void get_ImageSize(){} // RVA: 0x994EE0
-        public void set_ImageSize(){} // RVA: 0x9949A0
-        public void get_DebugId(){} // RVA: 0x30B130
-        public void set_DebugId(){} // RVA: 0x2DEE90
-        public void get_DebugChecksum(){} // RVA: 0x6374D0
-        public void set_DebugChecksum(){} // RVA: 0x30B890
-        public void get_DebugFile(){} // RVA: 0x4976A0
-        public void set_DebugFile(){} // RVA: 0x49B830
-        public void get_CodeId(){} // RVA: 0x35A740
-        public void set_CodeId(){} // RVA: 0x305200
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Type(){} // RVA: 0x7AE2275E0
+        public void get_ImageAddress(){} // RVA: 0x7A80F2570
+        public void set_ImageAddress(){} // RVA: 0x7A80D8E20
+        public void get_ImageSize(){} // RVA: 0x7A872EEF0
+        public void set_ImageSize(){} // RVA: 0x7A872E9B0
+        public void get_DebugId(){} // RVA: 0x7A8105330
+        public void set_DebugId(){} // RVA: 0x7A80D8E80
+        public void get_DebugChecksum(){} // RVA: 0x7A83F69F0
+        public void set_DebugChecksum(){} // RVA: 0x7A8105A90
+        public void get_DebugFile(){} // RVA: 0x7A8292C30
+        public void set_DebugFile(){} // RVA: 0x7A8296DE0
+        public void get_CodeId(){} // RVA: 0x7A8154D80
+        public void set_CodeId(){} // RVA: 0x7A80FF440
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class PEDebugImageDataExtensions
+    public class PEDebugImageDataExtensions : Object
     {
         // ── Methods ──
-        public void ToDebugImage(){} // RVA: 0x6439740
+        public void ToDebugImage(){} // RVA: 0x7AE227620
     }
 
-    public class PEReaderExtensions
+    public class PEReaderExtensions : Object
     {
         // ── Methods ──
-        public void TryGetPEDebugImageData(){} // RVA: 0x6439000
-        public void GetPEDebugImageData(){} // RVA: 0x6439020
+        public void TryGetPEDebugImageData(){} // RVA: 0x7AE226ED0
+        public void GetPEDebugImageData(){} // RVA: 0x7AE226EF0
     }
 
-    public class ReadOnlyDictionaryExtensions
+    public class ReadOnlyDictionaryExtensions : Object
     {
         // ── Methods ──
-        public void TryGetValue(){} // RVA: 0x283FA0
+        public void TryGetValue(){} // RVA: 0x7A8051B10
     }
 
-    public class SentryJsonContext
+    public class SentryJsonContext : JsonSerializerContext
     {
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<int> _Int32; // 0x20
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<Sentry.Internal.GrowableArray`1<int>> _GrowableArrayInt32; // 0x28
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<string> _String; // 0x30
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<bool> _Boolean; // 0x38
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<System.Collections.Generic.Dictionary`2<string,bool>> _DictionaryStringBoolean; // 0x40
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<object> _Object; // 0x48
-        public System.Text.Json.Serialization.Metadata.JsonTypeInfo`1<System.Collections.Generic.Dictionary`2<string,object>> _DictionaryStringObject; // 0x50
-        public System.Text.Json.JsonSerializerOptions <s_defaultOptions>k__BackingField;
-        public Sentry.Internal.Extensions.SentryJsonContext s_defaultContext; // 0x8
-        public System.Text.Json.JsonSerializerOptions <GeneratedSerializerOptions>k__BackingField; // 0x58
-
         // ── Methods ──
-        public void get_Int32(){} // RVA: 0x6435EB0
-        public void get_GrowableArrayInt32(){} // RVA: 0x6436050
-        public void GrowableArrayInt32SerializeHandler(){} // RVA: 0x64366D0
-        public void get_String(){} // RVA: 0x6436900
-        public void get_Boolean(){} // RVA: 0x6436AA0
-        public void get_DictionaryStringBoolean(){} // RVA: 0x6436C40
-        public void DictionaryStringBooleanSerializeHandler(){} // RVA: 0x6437210
-        public void get_Object(){} // RVA: 0x6437400
-        public void get_DictionaryStringObject(){} // RVA: 0x64375A0
-        public void get_s_defaultOptions(){} // RVA: 0x6437A80
-        public void get_Default(){} // RVA: 0x6437AE0
-        public void get_GeneratedSerializerOptions(){} // RVA: 0x3A5500
-        public void .ctor(){} // RVA: 0x6437D00 | overloaded x2
-        public void GetRuntimeProvidedCustomConverter(){} // RVA: 0x6437E00
-        public void GetTypeInfo(){} // RVA: 0x6438070
-        public void .cctor(){} // RVA: 0x6438210
+        public void get_Int32(){} // RVA: 0x7AE223D70
+        public void get_GrowableArrayInt32(){} // RVA: 0x7AE223F10
+        public void GrowableArrayInt32SerializeHandler(){} // RVA: 0x7AE224590
+        public void get_String(){} // RVA: 0x7AE2247A0
+        public void get_Boolean(){} // RVA: 0x7AE224940
+        public void get_DictionaryStringBoolean(){} // RVA: 0x7AE224AE0
+        public void DictionaryStringBooleanSerializeHandler(){} // RVA: 0x7AE2250B0
+        public void get_Object(){} // RVA: 0x7AE2252D0
+        public void get_DictionaryStringObject(){} // RVA: 0x7AE225470
+        public void get_s_defaultOptions(){} // RVA: 0x7AE225950
+        public void get_Default(){} // RVA: 0x7AE2259B0
+        public void get_GeneratedSerializerOptions(){} // RVA: 0x7A81A0050
+        public void .ctor(){} // RVA: 0x7AE225BD0
+        public void GetRuntimeProvidedCustomConverter(){} // RVA: 0x7AE225CD0
+        public void GetTypeInfo(){} // RVA: 0x7AE225F40
+        public void .cctor(){} // RVA: 0x7AE2260E0
     }
 
-    public class StreamExtensions
+    public class StreamExtensions : Object
     {
         // ── Methods ──
-        public void ReadLineAsync(){} // RVA: 0x6439860
-        public void SkipNewlinesAsync(){} // RVA: 0x6439A60
-        public void ReadByteChunkAsync(){} // RVA: 0x6439C70
-        public void WriteNewlineAsync(){} // RVA: 0x6439E70
-        public void WriteNewline(){} // RVA: 0x6439F10
-        public void TryGetLength(){} // RVA: 0x6439FA0
-        public void IsFileStream(){} // RVA: 0x643A040
-        public void .cctor(){} // RVA: 0x643A130
+        public void ReadLineAsync(){} // RVA: 0x7AE227740
+        public void SkipNewlinesAsync(){} // RVA: 0x7AE227940
+        public void ReadByteChunkAsync(){} // RVA: 0x7AE227B50
+        public void WriteNewlineAsync(){} // RVA: 0x7AE227D50
+        public void WriteNewline(){} // RVA: 0x7AE227DF0
+        public void TryGetLength(){} // RVA: 0x7AE227E80
+        public void IsFileStream(){} // RVA: 0x7AE227F20
+        public void .cctor(){} // RVA: 0x7AE228010
     }
 
-    public class StringExtensions
+    public class StringExtensions : Object
     {
         // ── Methods ──
-        public void ToSnakeCase(){} // RVA: 0x643B7F0
-        public void NullIfWhitespace(){} // RVA: 0x643B890
-        public void ParseHexAsLong(){} // RVA: 0x643B8C0
+        public void ToSnakeCase(){} // RVA: 0x7AE2297B0
+        public void NullIfWhitespace(){} // RVA: 0x7AE229850
+        public void ParseHexAsLong(){} // RVA: 0x7AE229880
     }
 
-    public class UriExtensions
+    public class UriExtensions : Object
     {
         // ── Methods ──
-        public void HttpRequestUrl(){} // RVA: 0x643BA90
+        public void HttpRequestUrl(){} // RVA: 0x7AE229A50
     }
 
 }

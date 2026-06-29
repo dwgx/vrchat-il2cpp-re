@@ -1,438 +1,104 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 100
-// Methods: 15
+// Classes: 16
+// Methods: 16
 
 namespace ThirdParty.DotNet.System
 {
-    public class IEquatable`1
+    public class IComparable`1
     {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        // ── Methods ──
+        public void CompareTo(){} // RVA: 0x7A7E062A0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){}
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xDE40
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){}
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xDE40
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-        // ── Methods ──
-        public void Equals(){} // RVA: 0xEA60
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x263BC0
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x263BC0
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xDE40
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xE6C0
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xDE40
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x263BC0
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xE1F0
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0xE6C0
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
-    }
-
-    public class IEquatable`1
-    {
+        public void Equals(){} // RVA: 0x7A8051B10
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){}
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
         // ── Methods ──
-        public void Equals(){}
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
     public class IEquatable`1
     {
-    }
-
-    public class IEquatable`1
-    {
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7A7E019D0
     }
 
 }

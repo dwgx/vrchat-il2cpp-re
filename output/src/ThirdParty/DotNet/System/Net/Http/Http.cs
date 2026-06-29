@@ -1,265 +1,228 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Net.Http
 // Classes: 18
-// Methods: 153
+// Methods: 130
 
 namespace ThirdParty.DotNet.System.Net.Http
 {
-    public class ByteArrayContent
+    public class ByteArrayContent : HttpContent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6802A60
-        public void CreateContentReadStreamAsync(){} // RVA: 0x6802B20
-        public void SerializeToStreamAsync(){} // RVA: 0x6802BF0
-        public void TryComputeLength(){} // RVA: 0x6802C30
+        public void .ctor(){} // RVA: 0x7AE5F16B0
+        public void CreateContentReadStreamAsync(){} // RVA: 0x7AE5F1770
+        public void SerializeToStreamAsync(){} // RVA: 0x7AE5F1840
+        public void TryComputeLength(){} // RVA: 0x7AE5F1880
     }
 
-    public class DelegatingHandler
+    public class DelegatingHandler : HttpMessageHandler
     {
-        public bool disposed; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6802C40 | overloaded x2
-        public void get_InnerHandler(){} // RVA: 0x2E07C0
-        public void set_InnerHandler(){} // RVA: 0x6802CF0
-        public void Dispose(){} // RVA: 0x6802DA0
-        public void SendAsync(){} // RVA: 0x6802DD0
+        public void .ctor(){} // RVA: 0x7AE5F1890
+        public void get_InnerHandler(){} // RVA: 0x7A80DA7B0
+        public void set_InnerHandler(){} // RVA: 0x7AE5F1940
+        public void Dispose(){} // RVA: 0x7AE5F19F0
+        public void SendAsync(){} // RVA: 0x7AE5F1A20
     }
 
-    public class HttpClient
+    public class HttpClient : HttpMessageInvoker
     {
-        public System.TimeSpan TimeoutDefault;
-        public System.Uri base_address; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6802ED0 | overloaded x3
-        public void get_DefaultRequestHeaders(){} // RVA: 0x6803090
-        public void get_MaxResponseContentBufferSize(){} // RVA: 0x35A740
-        public void Dispose(){} // RVA: 0x6803180
-        public void GetAsync(){} // RVA: 0x6803330 | overloaded x2
-        public void SendAsync(){} // RVA: 0x68034D0 | overloaded x3
-        public void SendAsyncWorker(){} // RVA: 0x68038E0
-        public void .cctor(){} // RVA: 0x6803B50
-        public void <>n__0(){} // RVA: 0x6803C00
+        public void .ctor(){} // RVA: 0x7AE5F1B20
+        public void get_DefaultRequestHeaders(){} // RVA: 0x7AE5F1CE0
+        public void get_MaxResponseContentBufferSize(){} // RVA: 0x7A8154D80
+        public void Dispose(){} // RVA: 0x7AE5F1DD0
+        public void GetAsync(){} // RVA: 0x7AE5F1F80
+        public void SendAsync(){} // RVA: 0x7AE5F2120
+        public void SendAsyncWorker(){} // RVA: 0x7AE5F2530
+        public void .cctor(){} // RVA: 0x7AE5F27A0
+        public void <>n__0(){} // RVA: 0x7AE5F2850
     }
 
-    public class HttpClientHandler
+    public class HttpClientHandler : HttpMessageHandler
     {
-        public System.Net.Http.IMonoHttpClientHandler _delegatingHandler; // 0x10
-        public 0x659C6718 _clientCertificateOptions; // 0x18
-
         // ── Methods ──
-        public void CreateDefaultHandler(){} // RVA: 0x67FD390
-        public void .ctor(){} // RVA: 0x67FD490 | overloaded x2
-        public void Dispose(){} // RVA: 0x67FD4F0
-        public void get_SupportsAutomaticDecompression(){} // RVA: 0x67FD550
-        public void ThrowForModifiedManagedSslOptionsIfStarted(){} // RVA: 0x67FD5A0
-        public void get_ClientCertificateOptions(){} // RVA: 0x5BED50
-        public void set_ClientCertificateOptions(){} // RVA: 0x67FD680
-        public void get_ClientCertificates(){} // RVA: 0x67FD8F0
-        public void set_AutomaticDecompression(){} // RVA: 0x67FDA30
-        public void set_Proxy(){} // RVA: 0x67FDA90
-        public void SetWebRequestTimeout(){} // RVA: 0x67FDAF0
-        public void SendAsync(){} // RVA: 0x67FDB50
-        public void <set_ClientCertificateOptions>b__23_0(){} // RVA: 0x67FDC30
+        public void CreateDefaultHandler(){} // RVA: 0x7AE5EBFD0
+        public void .ctor(){} // RVA: 0x7AE5EC0D0
+        public void Dispose(){} // RVA: 0x7AE5EC130
+        public void get_SupportsAutomaticDecompression(){} // RVA: 0x7AE5EC190
+        public void ThrowForModifiedManagedSslOptionsIfStarted(){} // RVA: 0x7AE5EC1E0
+        public void get_ClientCertificateOptions(){} // RVA: 0x7A83782A0
+        public void set_ClientCertificateOptions(){} // RVA: 0x7AE5EC2C0
+        public void get_ClientCertificates(){} // RVA: 0x7AE5EC530
+        public void set_AutomaticDecompression(){} // RVA: 0x7AE5EC670
+        public void set_Proxy(){} // RVA: 0x7AE5EC6D0
+        public void SetWebRequestTimeout(){} // RVA: 0x7AE5EC730
+        public void SendAsync(){} // RVA: 0x7AE5EC790
+        public void <set_ClientCertificateOptions>b__23_0(){} // RVA: 0x7AE5EC870
     }
 
-    public class HttpContent
+    public class HttpContent : Object
     {
-        public FixedMemoryStream buffer; // 0x10
-        public System.IO.Stream stream; // 0x18
-
         // ── Methods ──
-        public void get_Headers(){} // RVA: 0x68045B0
-        public void get_LoadedBufferLength(){} // RVA: 0x6804700
-        public void CopyToAsync(){} // RVA: 0x6804840 | overloaded x2
-        public void CreateContentReadStreamAsync(){} // RVA: 0x68048E0
-        public void CreateFixedMemoryStream(){} // RVA: 0x6804A70
-        public void Dispose(){} // RVA: 0x6804AD0 | overloaded x2
-        public void LoadIntoBufferAsync(){} // RVA: 0x6804B10 | overloaded x2
-        public void ReadAsStreamAsync(){} // RVA: 0x6804CD0
-        public void ReadAsByteArrayAsync(){} // RVA: 0x6804E60
-        public void ReadAsStringAsync(){} // RVA: 0x6804FF0
-        public void GetEncodingFromBuffer(){} // RVA: 0x6805180
-        public void StartsWith(){} // RVA: 0x6805390
-        public void SerializeToStreamAsync(){} // RVA: 0x1E6A0
-        public void TryComputeLength(){} // RVA: 0xDE40
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Headers(){} // RVA: 0x7AE5F31F0
+        public void get_LoadedBufferLength(){} // RVA: 0x7AE5F3340
+        public void CopyToAsync(){} // RVA: 0x7AE5F3480
+        public void CreateContentReadStreamAsync(){} // RVA: 0x7AE5F3520
+        public void CreateFixedMemoryStream(){} // RVA: 0x7AE5F36B0
+        public void Dispose(){} // RVA: 0x7AE5F3710
+        public void LoadIntoBufferAsync(){} // RVA: 0x7AE5F3750
+        public void ReadAsStreamAsync(){} // RVA: 0x7AE5F3910
+        public void ReadAsByteArrayAsync(){} // RVA: 0x7AE5F3AA0
+        public void ReadAsStringAsync(){} // RVA: 0x7AE5F3C30
+        public void GetEncodingFromBuffer(){} // RVA: 0x7AE5F3DC0
+        public void StartsWith(){} // RVA: 0x7AE5F3FD0
+        public void SerializeToStreamAsync(){} // RVA: 0x7A7E00BD0
+        public void TryComputeLength(){} // RVA: 0x7A7E019D0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class HttpMessageHandler
+    public class HttpMessageHandler : Object
     {
         // ── Methods ──
-        public void Dispose(){} // RVA: 0x2DD310 | overloaded x2
-        public void SendAsync(){}
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Dispose(){} // RVA: 0x7A80D7310
+        public void SendAsync(){} // RVA: 0x7A7E06640
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class HttpMessageInvoker
+    public class HttpMessageInvoker : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6806A50
-        public void Dispose(){} // RVA: 0x6806B00 | overloaded x2
-        public void SendAsync(){} // RVA: 0x6803C00
+        public void .ctor(){} // RVA: 0x7AE5F56A0
+        public void Dispose(){} // RVA: 0x7AE5F5750
+        public void SendAsync(){} // RVA: 0x7AE5F2850
     }
 
-    public class HttpMethod
+    public class HttpMethod : Object
     {
-        public System.Net.Http.HttpMethod delete_method;
-        public System.Net.Http.HttpMethod get_method; // 0x8
-        public System.Net.Http.HttpMethod head_method; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6806B50
-        public void get_Get(){} // RVA: 0x6806C20
-        public void get_Method(){} // RVA: 0x2F8380
-        public void get_Post(){} // RVA: 0x6806C80
-        public void op_Equality(){} // RVA: 0x6806CE0
-        public void Equals(){} // RVA: 0x6806DF0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x99E0E0
-        public void ToString(){} // RVA: 0x2F8380
-        public void .cctor(){} // RVA: 0x6806E90
+        public void .ctor(){} // RVA: 0x7AE5F57A0
+        public void get_Get(){} // RVA: 0x7AE5F5870
+        public void get_Method(){} // RVA: 0x7A80F2570
+        public void get_Post(){} // RVA: 0x7AE5F58D0
+        public void op_Equality(){} // RVA: 0x7AE5F5930
+        public void Equals(){} // RVA: 0x7AE5F5A40
+        public void GetHashCode(){} // RVA: 0x7A8738190
+        public void ToString(){} // RVA: 0x7A80F2570
+        public void .cctor(){} // RVA: 0x7AE5F5AD0
     }
 
-    public class HttpRequestException
+    public class HttpRequestException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68073F0 | overloaded x3
+        public void .ctor(){} // RVA: 0x7AE5F6030
     }
 
-    public class HttpRequestMessage
+    public class HttpRequestMessage : Object
     {
-        public System.Net.Http.Headers.HttpRequestHeaders headers; // 0x10
-        public System.Net.Http.HttpMethod method; // 0x18
-        public System.Version version; // 0x20
-        public System.Uri uri; // 0x28
-        public bool is_used; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68075F0 | overloaded x3
-        public void get_Content(){} // RVA: 0x4976A0
-        public void set_Content(){} // RVA: 0x49B830
-        public void get_Headers(){} // RVA: 0x6807620
-        public void get_Method(){} // RVA: 0x2E07C0
-        public void set_Method(){} // RVA: 0x6807710
-        public void get_RequestUri(){} // RVA: 0x30B130
-        public void set_RequestUri(){} // RVA: 0x6807800
-        public void IsAllowedAbsoluteUri(){} // RVA: 0x6807910
-        public void get_Version(){} // RVA: 0x6807BB0
-        public void Dispose(){} // RVA: 0x6807C20 | overloaded x2
-        public void SetIsUsed(){} // RVA: 0x6807C50
-        public void ToString(){} // RVA: 0x6807C60
+        public void .ctor(){} // RVA: 0x7AE5F6230
+        public void get_Content(){} // RVA: 0x7A8292C30
+        public void set_Content(){} // RVA: 0x7A8296DE0
+        public void get_Headers(){} // RVA: 0x7AE5F6260
+        public void get_Method(){} // RVA: 0x7A80DA7B0
+        public void set_Method(){} // RVA: 0x7AE5F6350
+        public void get_RequestUri(){} // RVA: 0x7A8105330
+        public void set_RequestUri(){} // RVA: 0x7AE5F6440
+        public void IsAllowedAbsoluteUri(){} // RVA: 0x7AE5F6550
+        public void get_Version(){} // RVA: 0x7AE5F67F0
+        public void Dispose(){} // RVA: 0x7AE5F6860
+        public void SetIsUsed(){} // RVA: 0x7AE5F6890
+        public void ToString(){} // RVA: 0x7AE5F68A0
     }
 
-    public class HttpResponseMessage : 0
+    public class HttpResponseMessage : Object
     {
-        public System.Net.Http.Headers.HttpResponseHeaders headers; // 0x10
-        public string reasonPhrase; // 0x18
-        public 0x65854D38 statusCode; // 0x20
-        public System.Version version; // 0x28
-        public bool disposed; // 0x30
-        public System.Net.Http.HttpContent <Content>k__BackingField; // 0x38
-        public System.Net.Http.HttpRequestMessage <RequestMessage>k__BackingField; // 0x40
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6807FC0
-        public void get_Content(){} // RVA: 0x4976A0
-        public void set_Content(){} // RVA: 0x49B830
-        public void get_Headers(){} // RVA: 0x6808020
-        public void get_IsSuccessStatusCode(){} // RVA: 0x6808110
-        public void get_ReasonPhrase(){} // RVA: 0x6808130
-        public void set_ReasonPhrase(){} // RVA: 0x343E80
-        public void get_RequestMessage(){} // RVA: 0x35A740
-        public void set_RequestMessage(){} // RVA: 0x305200
-        public void get_StatusCode(){} // RVA: 0x760030
-        public void set_StatusCode(){} // RVA: 0x6807FC0
-        public void get_Version(){} // RVA: 0x6808150
-        public void Dispose(){} // RVA: 0x68081C0 | overloaded x2
-        public void EnsureSuccessStatusCode(){} // RVA: 0x68081F0
-        public void ToString(){} // RVA: 0x68082B0
+        public void .ctor(){} // RVA: 0x7AE5F6C00
+        public void get_Content(){} // RVA: 0x7A8292C30
+        public void set_Content(){} // RVA: 0x7A8296DE0
+        public void get_Headers(){} // RVA: 0x7AE5F6C60
+        public void get_IsSuccessStatusCode(){} // RVA: 0x7AE5F6D50
+        public void get_ReasonPhrase(){} // RVA: 0x7AE5F6D70
+        public void set_ReasonPhrase(){} // RVA: 0x7A813E420
+        public void get_RequestMessage(){} // RVA: 0x7A8154D80
+        public void set_RequestMessage(){} // RVA: 0x7A80FF440
+        public void get_StatusCode(){} // RVA: 0x7A851DB90
+        public void set_StatusCode(){} // RVA: 0x7AE5F6C00
+        public void get_Version(){} // RVA: 0x7AE5F6D90
+        public void Dispose(){} // RVA: 0x7AE5F6E00
+        public void EnsureSuccessStatusCode(){} // RVA: 0x7AE5F6E30
+        public void ToString(){} // RVA: 0x7AE5F6EF0
     }
 
-    public class HttpUtilities
+    public class HttpUtilities : Object
     {
         // ── Methods ──
-        public void IsSupportedSecureScheme(){} // RVA: 0x67FD0E0
-        public void IsSecureWebSocketScheme(){} // RVA: 0x67FD290
+        public void IsSupportedSecureScheme(){} // RVA: 0x7AE5EBD20
+        public void IsSecureWebSocketScheme(){} // RVA: 0x7AE5EBED0
     }
 
     public class IMonoHttpClientHandler
     {
         // ── Methods ──
-        public void get_SupportsAutomaticDecompression(){} // RVA: 0xDBE0
-        public void get_SslOptions(){} // RVA: 0xCD60
-        public void set_SslOptions(){} // RVA: 0x24B10
-        public void set_AutomaticDecompression(){} // RVA: 0x24FA0
-        public void set_Proxy(){} // RVA: 0x24B10
-        public void SendAsync(){}
-        public void SetWebRequestTimeout(){} // RVA: 0x24CC0
+        public void get_SupportsAutomaticDecompression(){} // RVA: 0x7A7E01900
+        public void get_SslOptions(){} // RVA: 0x7A7E00680
+        public void set_SslOptions(){} // RVA: 0x7A7E18800
+        public void set_AutomaticDecompression(){} // RVA: 0x7A7E189D0
+        public void set_Proxy(){} // RVA: 0x7A7E18800
+        public void SendAsync(){} // RVA: 0x7A7E06640
+        public void SetWebRequestTimeout(){} // RVA: 0x7A7E188D0
     }
 
-    public class MonoWebRequestHandler
+    public class MonoWebRequestHandler : Object
     {
-        public long groupCounter;
-        public bool allowAutoRedirect; // 0x10
-        public 0x658579E8 automaticDecompression; // 0x14
-        public System.Net.CookieContainer cookieContainer; // 0x18
-        public System.Net.ICredentials credentials; // 0x20
-        public int maxAutomaticRedirections; // 0x28
-        public long maxRequestContentBufferSize; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x67FDEB0
-        public void EnsureModifiability(){} // RVA: 0x67FE280
-        public void set_AutomaticDecompression(){} // RVA: 0x67FE2F0
-        public void get_CookieContainer(){} // RVA: 0x67FE360
-        public void get_MaxRequestContentBufferSize(){} // RVA: 0x6374D0
-        public void set_Proxy(){} // RVA: 0x67FE410
-        public void get_SupportsAutomaticDecompression(){} // RVA: 0x3C2850
-        public void get_UseProxy(){} // RVA: 0x1376F50
-        public void get_SslOptions(){} // RVA: 0x67FE500
-        public void set_SslOptions(){} // RVA: 0x67FE5A0
-        public void Dispose(){} // RVA: 0x67FE670 | overloaded x2
-        public void GetConnectionKeepAlive(){} // RVA: 0x67FE6F0
-        public void CreateWebRequest(){} // RVA: 0x67FE8C0
-        public void CreateResponseMessage(){} // RVA: 0x67FF700
-        public void MethodHasBody(){} // RVA: 0x67FFC50
-        public void SendAsync(){} // RVA: 0x67FFE20
-        public void System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout(){} // RVA: 0x6800060
-        public void <CreateWebRequest>b__96_0(){} // RVA: 0x68000C0
+        public void .ctor(){} // RVA: 0x7AE5ECAF0
+        public void EnsureModifiability(){} // RVA: 0x7AE5ECEC0
+        public void set_AutomaticDecompression(){} // RVA: 0x7AE5ECF30
+        public void get_CookieContainer(){} // RVA: 0x7AE5ECFA0
+        public void get_MaxRequestContentBufferSize(){} // RVA: 0x7A83F69F0
+        public void set_Proxy(){} // RVA: 0x7AE5ED050
+        public void get_SupportsAutomaticDecompression(){} // RVA: 0x7A81BD750
+        public void get_UseProxy(){} // RVA: 0x7A9107BC0
+        public void get_SslOptions(){} // RVA: 0x7AE5ED140
+        public void set_SslOptions(){} // RVA: 0x7AE5ED1E0
+        public void Dispose(){} // RVA: 0x7AE5ED2C0
+        public void GetConnectionKeepAlive(){} // RVA: 0x7AE5ED340
+        public void CreateWebRequest(){} // RVA: 0x7AE5ED510
+        public void CreateResponseMessage(){} // RVA: 0x7AE5EE370
+        public void MethodHasBody(){} // RVA: 0x7AE5EE8C0
+        public void SendAsync(){} // RVA: 0x7AE5EEA90
+        public void System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout(){} // RVA: 0x7AE5EECD0
+        public void <CreateWebRequest>b__96_0(){} // RVA: 0x7AE5EED30
     }
 
-    public class PlatformHelper
+    public class PlatformHelper : Object
     {
         // ── Methods ──
-        public void IsContentHeader(){} // RVA: 0x6802800
-        public void GetSingleHeaderString(){} // RVA: 0x6802940
-        public void CreateStreamContent(){} // RVA: 0x68029A0
+        public void IsContentHeader(){} // RVA: 0x7AE5F1450
+        public void GetSingleHeaderString(){} // RVA: 0x7AE5F1590
+        public void CreateStreamContent(){} // RVA: 0x7AE5F15F0
     }
 
-    public class SerializableHttpContent
+    public class SerializableHttpContent : HttpContent
     {
         // ── Methods ──
-        public void SerializeToStream(){} // RVA: 0x2DD310
-        public void ReadAsStream(){} // RVA: 0x644C920
-        public void .ctor(){} // RVA: 0x2DD310
+        public void SerializeToStream(){} // RVA: 0x7A80D7310
+        public void ReadAsStream(){} // RVA: 0x7AE23A8A0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class StreamContent
+    public class StreamContent : HttpContent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x68087F0 | overloaded x3
-        public void CreateContentReadStreamAsync(){} // RVA: 0x6808860
-        public void Dispose(){} // RVA: 0x68088D0
-        public void SerializeToStreamAsync(){} // RVA: 0x6808930
-        public void TryComputeLength(){} // RVA: 0x6808A20
+        public void .ctor(){} // RVA: 0x7AE5F7430
+        public void CreateContentReadStreamAsync(){} // RVA: 0x7AE5F74A0
+        public void Dispose(){} // RVA: 0x7AE5F7510
+        public void SerializeToStreamAsync(){} // RVA: 0x7AE5F7570
+        public void TryComputeLength(){} // RVA: 0x7AE5F7660
     }
 
-    public class StringContent
+    public class StringContent : ByteArrayContent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6808AC0 | overloaded x2
-        public void GetByteArray(){} // RVA: 0x6808F00
+        public void .ctor(){} // RVA: 0x7AE5F7700
+        public void GetByteArray(){} // RVA: 0x7AE5F7B40
     }
 
 }

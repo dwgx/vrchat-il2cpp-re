@@ -5,42 +5,36 @@
 
 namespace ThirdParty.Other.Unity.IL2CPP.CompilerServices
 {
-    public class Il2CppEagerStaticClassConstructionAttribute
+    public class Il2CppEagerStaticClassConstructionAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class Il2CppEagerStaticClassConstructionAttribute
+    public class Il2CppEagerStaticClassConstructionAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class Il2CppSetOptionAttribute
+    public class Il2CppSetOptionAttribute : Attribute
     {
-        public 0x65865B10 <Option>k__BackingField; // 0x10
-        public object <Value>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_Option(){} // RVA: 0x32A5C0
-        public void set_Option(){} // RVA: 0x2E00C0
-        public void get_Value(){} // RVA: 0x2E07C0
-        public void set_Value(){} // RVA: 0x343E80
-        public void .ctor(){} // RVA: 0x1CC5AF0
+        public void get_Option(){} // RVA: 0x7A8124910
+        public void set_Option(){} // RVA: 0x7A80DA0C0
+        public void get_Value(){} // RVA: 0x7A80DA7B0
+        public void set_Value(){} // RVA: 0x7A813E420
+        public void .ctor(){} // RVA: 0x7A9AC8120
     }
 
-    public class Il2CppSetOptionAttribute
+    public class Il2CppSetOptionAttribute : Attribute
     {
-        public 0x6577A7B0 <Option>k__BackingField; // 0x10
-        public object <Value>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_Option(){} // RVA: 0x32A5C0
-        public void set_Option(){} // RVA: 0x2E00C0
-        public void get_Value(){} // RVA: 0x2E07C0
-        public void set_Value(){} // RVA: 0x343E80
-        public void .ctor(){} // RVA: 0x1CC5AF0
+        public void get_Option(){} // RVA: 0x7A8124910
+        public void set_Option(){} // RVA: 0x7A80DA0C0
+        public void get_Value(){} // RVA: 0x7A80DA7B0
+        public void set_Value(){} // RVA: 0x7A813E420
+        public void .ctor(){} // RVA: 0x7A9AC8120
     }
 
 }

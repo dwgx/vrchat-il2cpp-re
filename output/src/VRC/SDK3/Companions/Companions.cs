@@ -5,11 +5,11 @@
 
 namespace VRC.SDK3.Companions
 {
-    public class VRCCompanionApi
+    public class VRCCompanionApi : VRCPropApi
     {
         // ── Methods ──
-        public void TryGetCompanion(){} // RVA: 0x9A0C3E0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void TryGetCompanion(){} // RVA: 0x7B184B140
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

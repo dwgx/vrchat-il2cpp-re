@@ -5,92 +5,81 @@
 
 namespace ThirdParty.Unity.UnityEngine.UI.CoroutineTween
 {
-    public class ColorTween
+    public class ColorTween : ValueType
     {
-        public ColorTweenCallback m_Target; // 0x10
-        public UnityEngine.Color m_StartColor; // 0x18
-        public UnityEngine.Color m_TargetColor; // 0x28
-        public 0x6596B6F8 m_TweenMode; // 0x38
-        public float m_Duration; // 0x3C
-
         // ── Methods ──
-        public void get_startColor(){} // RVA: 0x1F6F090
-        public void set_startColor(){} // RVA: 0x1F74E00
-        public void get_targetColor(){} // RVA: 0x994EE0
-        public void set_targetColor(){} // RVA: 0x9949A0
-        public void get_tweenMode(){} // RVA: 0x791DC0
-        public void set_tweenMode(){} // RVA: 0xA53440
-        public void get_duration(){} // RVA: 0x4652A0
-        public void set_duration(){} // RVA: 0x8CF4F0
-        public void get_ignoreTimeScale(){} // RVA: 0x303450
-        public void set_ignoreTimeScale(){} // RVA: 0x303460
-        public void TweenValue(){} // RVA: 0x74DE9C0
-        public void AddOnChangedCallback(){} // RVA: 0x74DEAF0
-        public void GetIgnoreTimescale(){} // RVA: 0x303450
-        public void GetDuration(){} // RVA: 0x4652A0
-        public void ValidTarget(){} // RVA: 0x1102770
+        public void get_startColor(){} // RVA: 0x7A76B2030
+        public void set_startColor(){} // RVA: 0x7A76B6E30
+        public void get_targetColor(){} // RVA: 0x7A76D9A20
+        public void set_targetColor(){} // RVA: 0x7A7EC0480
+        public void get_tweenMode(){} // RVA: 0x7A765EE70
+        public void set_tweenMode(){} // RVA: 0x7A765EDE0
+        public void get_duration(){} // RVA: 0x7A7EC0490
+        public void set_duration(){} // RVA: 0x7A7EC04A0
+        public void get_ignoreTimeScale(){} // RVA: 0x7A7690A60
+        public void set_ignoreTimeScale(){} // RVA: 0x7A7690A80
+        public void TweenValue(){} // RVA: 0x7A7F0C470
+        public void AddOnChangedCallback(){} // RVA: 0x7A7F0C480
+        public void GetIgnoreTimescale(){} // RVA: 0x7A7690A60
+        public void GetDuration(){} // RVA: 0x7A7EC0490
+        public void ValidTarget(){} // RVA: 0x7A763CB50
     }
 
-    public class FloatTween
+    public class FloatTween : ValueType
     {
-        public FloatTweenCallback m_Target; // 0x10
-        public float m_StartValue; // 0x18
-        public float m_TargetValue; // 0x1C
-        public float m_Duration; // 0x20
-
         // ── Methods ──
-        public void get_startValue(){} // RVA: 0x1F78360
-        public void set_startValue(){} // RVA: 0x1F78340
-        public void get_targetValue(){} // RVA: 0x1F78390
-        public void set_targetValue(){} // RVA: 0x1F78380
-        public void get_duration(){} // RVA: 0x407320
-        public void set_duration(){} // RVA: 0x407330
-        public void get_ignoreTimeScale(){} // RVA: 0x42CBD0
-        public void set_ignoreTimeScale(){} // RVA: 0x42CBE0
-        public void TweenValue(){} // RVA: 0x74DEC40
-        public void AddOnChangedCallback(){} // RVA: 0x74DECD0
-        public void GetIgnoreTimescale(){} // RVA: 0x42CBD0
-        public void GetDuration(){} // RVA: 0x407320
-        public void ValidTarget(){} // RVA: 0x1102770
+        public void get_startValue(){} // RVA: 0x7A76B8950
+        public void set_startValue(){} // RVA: 0x7A76B8930
+        public void get_targetValue(){} // RVA: 0x7A76B8980
+        public void set_targetValue(){} // RVA: 0x7A76B8970
+        public void get_duration(){} // RVA: 0x7A76E1B90
+        public void set_duration(){} // RVA: 0x7A76E1BA0
+        public void get_ignoreTimeScale(){} // RVA: 0x7A76D1FB0
+        public void set_ignoreTimeScale(){} // RVA: 0x7A76D1FA0
+        public void TweenValue(){} // RVA: 0x7A7F0C490
+        public void AddOnChangedCallback(){} // RVA: 0x7A7F0C4A0
+        public void GetIgnoreTimescale(){} // RVA: 0x7A76D1FB0
+        public void GetDuration(){} // RVA: 0x7A76E1B90
+        public void ValidTarget(){} // RVA: 0x7A763CB50
     }
 
     public class ITweenValue
     {
         // ── Methods ──
-        public void TweenValue(){} // RVA: 0x325B0
-        public void get_ignoreTimeScale(){} // RVA: 0xDBE0
-        public void get_duration(){} // RVA: 0x21890
-        public void ValidTarget(){} // RVA: 0xDBE0
+        public void TweenValue(){} // RVA: 0x7A7E262C0
+        public void get_ignoreTimeScale(){} // RVA: 0x7A7E01900
+        public void get_duration(){} // RVA: 0x7A7E155B0
+        public void ValidTarget(){} // RVA: 0x7A7E01900
     }
 
-    public class TweenRunner`1
+    public class TweenRunner`1 : Object
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x283FA0
-        public void Init(){} // RVA: 0x24B10
-        public void StartTween(){} // RVA: 0x283FA0
-        public void StopTween(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x24A50
+        public void Start(){} // RVA: 0x7A8051B10
+        public void Init(){} // RVA: 0x7A7E18800
+        public void StartTween(){} // RVA: 0x7A8051B10
+        public void StopTween(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class TweenRunner`1
+    public class TweenRunner`1 : Object
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x4442390
-        public void Init(){} // RVA: 0x2DEE30
-        public void StartTween(){} // RVA: 0x4442480
-        public void StopTween(){} // RVA: 0x4441E20
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Start(){} // RVA: 0x7AC230550
+        public void Init(){} // RVA: 0x7A80D8E20
+        public void StartTween(){} // RVA: 0x7AC231320
+        public void StopTween(){} // RVA: 0x7AC230970
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class TweenRunner`1
+    public class TweenRunner`1 : Object
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x4441A00
-        public void Init(){} // RVA: 0x2DEE30
-        public void StartTween(){} // RVA: 0x44427D0
-        public void StopTween(){} // RVA: 0x4441E20
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Init(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Start(){} // RVA: 0x7AC230EE0
+        public void StartTween(){} // RVA: 0x7AC230FD0
+        public void StopTween(){} // RVA: 0x7AC230970
     }
 
 }

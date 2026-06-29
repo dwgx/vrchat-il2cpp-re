@@ -5,26 +5,26 @@
 
 namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
-    public class GradingModeParameter
+    public class GradingModeParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F12D30
+        public void .ctor(){} // RVA: 0x7AECF13A0
     }
 
-    public class Grain
+    public class Grain : PostProcessEffectSettings
     {
         // ── Methods ──
-        public void IsEnabledAndSupported(){} // RVA: 0x6F123F0
-        public void .ctor(){} // RVA: 0x6F1CAB0
+        public void IsEnabledAndSupported(){} // RVA: 0x7AECF0A60
+        public void .ctor(){} // RVA: 0x7AECFAFD0
     }
 
-    public class GrainRenderer
+    public class GrainRenderer : PostProcessEffectRenderer`1
     {
         // ── Methods ──
-        public void Render(){} // RVA: 0x6F1CD60
-        public void GetLookupFormat(){} // RVA: 0x6F1D920
-        public void Release(){} // RVA: 0x6F1D980
-        public void .ctor(){} // RVA: 0x6F1DA30
+        public void Render(){} // RVA: 0x7AECFB280
+        public void GetLookupFormat(){} // RVA: 0x7AECFBE40
+        public void Release(){} // RVA: 0x7AECFBEA0
+        public void .ctor(){} // RVA: 0x7AECFBF50
     }
 
 }

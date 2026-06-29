@@ -1,624 +1,594 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 // Classes: 22
-// Methods: 632
+// Methods: 476
 
 namespace ThirdParty.Newtonsoft.Newtonsoft.Json.Linq
 {
-    public class Extensions
+    public class Extensions : Object
     {
         // ── Methods ──
-        public void Ancestors(){} // RVA: 0xCE50
-        public void AncestorsAndSelf(){} // RVA: 0xCE50
-        public void Descendants(){} // RVA: 0xCE50
-        public void DescendantsAndSelf(){} // RVA: 0xCE50
-        public void Properties(){} // RVA: 0x6023A20
-        public void Values(){} // RVA: 0xCEC0 | overloaded x5
-        public void Value(){} // RVA: 0x283FA0 | overloaded x2
-        public void Children(){} // RVA: 0xCE50 | overloaded x2
-        public void Convert(){} // RVA: 0x283FA0 | overloaded x2
-        public void AsJEnumerable(){} // RVA: 0xCE50 | overloaded x2
+        public void Ancestors(){} // RVA: 0x7A7E00BA0
+        public void AncestorsAndSelf(){} // RVA: 0x7A7E00BA0
+        public void Descendants(){} // RVA: 0x7A7E00BA0
+        public void DescendantsAndSelf(){} // RVA: 0x7A7E00BA0
+        public void Properties(){} // RVA: 0x7ADE10370
+        public void Values(){} // RVA: 0x7A7E00C10
+        public void Value(){} // RVA: 0x7A8051B10
+        public void Children(){} // RVA: 0x7A7E00BA0
+        public void Convert(){} // RVA: 0x7A8051B10
+        public void AsJEnumerable(){} // RVA: 0x7A7E00BA0
     }
 
     public class IJEnumerable`1
     {
         // ── Methods ──
-        public void get_Item(){} // RVA: 0xCE10
+        public void get_Item(){} // RVA: 0x7A7E00B20
     }
 
-    public class IJEnumerable`1
-    {
-    }
-
-    public class IJEnumerable`1
-    {
-    }
-
-    public class JArray
-    {
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JToken> _values; // 0x58
-
-        // ── Methods ──
-        public void WriteToAsync(){} // RVA: 0x6023E30
-        public void LoadAsync(){} // RVA: 0x6024120 | overloaded x2
-        public void get_ChildrenTokens(){} // RVA: 0x3A5500
-        public void get_Type(){} // RVA: 0x3E2CB0
-        public void .ctor(){} // RVA: 0x6024650 | overloaded x5
-        public void DeepEquals(){} // RVA: 0x6024760
-        public void CloneToken(){} // RVA: 0x6024800
-        public void Load(){} // RVA: 0x6024920 | overloaded x2
-        public void Parse(){} // RVA: 0x6024B50 | overloaded x2
-        public void FromObject(){} // RVA: 0x6024E30 | overloaded x2
-        public void WriteTo(){} // RVA: 0x6024FC0
-        public void get_Item(){} // RVA: 0x60253D0 | overloaded x2
-        public void set_Item(){} // RVA: 0x60253F0 | overloaded x2
-        public void IndexOfItem(){} // RVA: 0x6025410
-        public void MergeItem(){} // RVA: 0x60254D0
-        public void IndexOf(){} // RVA: 0x60255C0
-        public void Insert(){} // RVA: 0x60255E0
-        public void RemoveAt(){} // RVA: 0x6025610
-        public void GetEnumerator(){} // RVA: 0x6025630
-        public void Add(){} // RVA: 0x60256C0
-        public void Clear(){} // RVA: 0x60256E0
-        public void Contains(){} // RVA: 0x6025700
-        public void CopyTo(){} // RVA: 0x6025720
-        public void get_IsReadOnly(){} // RVA: 0x2DD320
-        public void Remove(){} // RVA: 0x6025740
-        public void GetDeepHashCode(){} // RVA: 0x6025760
-    }
-
-    public class JConstructor
-    {
-        public string _name; // 0x58
-        public System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JToken> _values; // 0x60
-
-        // ── Methods ──
-        public void WriteToAsync(){} // RVA: 0x60266E0
-        public void LoadAsync(){} // RVA: 0x60269D0 | overloaded x2
-        public void get_ChildrenTokens(){} // RVA: 0x37B370
-        public void IndexOfItem(){} // RVA: 0x6026C20
-        public void MergeItem(){} // RVA: 0x6026CE0
-        public void get_Name(){} // RVA: 0x3A5500
-        public void set_Name(){} // RVA: 0x3A5510
-        public void get_Type(){} // RVA: 0xA308B0
-        public void .ctor(){} // RVA: 0x60271C0 | overloaded x6
-        public void DeepEquals(){} // RVA: 0x60273C0
-        public void CloneToken(){} // RVA: 0x60274B0
-        public void WriteTo(){} // RVA: 0x6027640
-        public void get_Item(){} // RVA: 0x6027760
-        public void set_Item(){} // RVA: 0x60278D0
-        public void GetDeepHashCode(){} // RVA: 0x6027A50
-        public void Load(){} // RVA: 0x6027AB0 | overloaded x2
-    }
-
-    public class JContainer
-    {
-        public System.ComponentModel.ListChangedEventHandler _listChanged; // 0x30
-        public System.ComponentModel.AddingNewEventHandler _addingNew; // 0x38
-        public System.Collections.Specialized.NotifyCollectionChangedEventHandler _collectionChanged; // 0x40
-        public object _syncRoot; // 0x48
-        public bool _busy; // 0x50
-
-        // ── Methods ──
-        public void ReadTokenFromAsync(){} // RVA: 0x6028D30
-        public void ReadContentFromAsync(){} // RVA: 0x6029000
-        public void add_ListChanged(){} // RVA: 0x60292D0
-        public void remove_ListChanged(){} // RVA: 0x60293C0
-        public void add_AddingNew(){} // RVA: 0x60294B0
-        public void remove_AddingNew(){} // RVA: 0x60295A0
-        public void add_CollectionChanged(){} // RVA: 0x6029690
-        public void remove_CollectionChanged(){} // RVA: 0x6029780
-        public void get_ChildrenTokens(){} // RVA: 0xCD60
-        public void .ctor(){} // RVA: 0x60298C0 | overloaded x2
-        public void CheckReentrancy(){} // RVA: 0x6029B90
-        public void CreateChildrenCollection(){} // RVA: 0x6029C40
-        public void OnAddingNew(){} // RVA: 0x57234D0
-        public void OnListChanged(){} // RVA: 0x6029CA0
-        public void OnCollectionChanged(){} // RVA: 0x6029D10
-        public void get_HasValues(){} // RVA: 0x6029D80
-        public void ContentsEqual(){} // RVA: 0x6029DF0
-        public void get_First(){} // RVA: 0x6029F50
-        public void get_Last(){} // RVA: 0x6029FF0
-        public void Children(){} // RVA: 0x602A090
-        public void Values(){} // RVA: 0xCD60
-        public void Descendants(){} // RVA: 0x602A1B0
-        public void DescendantsAndSelf(){} // RVA: 0x602A1C0
-        public void GetDescendants(){} // RVA: 0x602A1D0
-        public void IsMultiContent(){} // RVA: 0x602A290
-        public void EnsureParentToken(){} // RVA: 0x602A370
-        public void IndexOfItem(){} // RVA: 0x12590
-        public void InsertItem(){} // RVA: 0x602A4C0
-        public void RemoveItemAt(){} // RVA: 0x602A8F0
-        public void RemoveItem(){} // RVA: 0x602AC80
-        public void GetItem(){} // RVA: 0x602ACD0
-        public void SetItem(){} // RVA: 0x602AD40
-        public void ClearItems(){} // RVA: 0x602B1E0
-        public void ReplaceItem(){} // RVA: 0x602B6B0
-        public void ContainsItem(){} // RVA: 0x602B710
-        public void CopyItemsTo(){} // RVA: 0x602B740
-        public void IsTokenUnchanged(){} // RVA: 0x602BA30
-        public void ValidateToken(){} // RVA: 0x602BB00
-        public void Add(){} // RVA: 0x602BC60
-        public void TryAdd(){} // RVA: 0x602BCF0
-        public void AddAndSkipParentCheck(){} // RVA: 0x602BD80
-        public void AddFirst(){} // RVA: 0x602BE10
-        public void TryAddInternal(){} // RVA: 0x602BE40
-        public void CreateFromContent(){} // RVA: 0x602C100
-        public void CreateWriter(){} // RVA: 0x602C1C0
-        public void ReplaceAll(){} // RVA: 0x602C370
-        public void RemoveAll(){} // RVA: 0x60256E0
-        public void MergeItem(){} // RVA: 0x2DC60
-        public void Merge(){} // RVA: 0x602C410 | overloaded x2
-        public void ValidateContent(){} // RVA: 0x602C470
-        public void ReadTokenFrom(){} // RVA: 0x602C640
-        public void ReadContentFrom(){} // RVA: 0x602C800
-        public void ReadProperty(){} // RVA: 0x602CF20
-        public void ContentsHashCode(){} // RVA: 0x602D1A0
-        public void System.ComponentModel.ITypedList.GetListName(){} // RVA: 0x602D3B0
-        public void System.ComponentModel.ITypedList.GetItemProperties(){} // RVA: 0x602D3F0
-        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.IndexOf(){} // RVA: 0x60255C0
-        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Insert(){} // RVA: 0x60255E0
-        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.RemoveAt(){} // RVA: 0x6025610
-        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.get_Item(){} // RVA: 0x60253D0
-        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.set_Item(){} // RVA: 0x60253F0
-        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Add(){} // RVA: 0x60256C0
-        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Clear(){} // RVA: 0x60256E0
-        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Contains(){} // RVA: 0x6025700
-        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.CopyTo(){} // RVA: 0x6025720
-        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Remove(){} // RVA: 0x6025740
-        public void EnsureValue(){} // RVA: 0x602D4C0
-        public void System.Collections.IList.Add(){} // RVA: 0x602D580
-        public void System.Collections.IList.Clear(){} // RVA: 0x60256E0
-        public void System.Collections.IList.Contains(){} // RVA: 0x602D610
-        public void System.Collections.IList.IndexOf(){} // RVA: 0x602D640
-        public void System.Collections.IList.Insert(){} // RVA: 0x602D670
-        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x2DD320
-        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void System.Collections.IList.Remove(){} // RVA: 0x602D6D0
-        public void System.Collections.IList.RemoveAt(){} // RVA: 0x6025610
-        public void System.Collections.IList.get_Item(){} // RVA: 0x60253D0
-        public void System.Collections.IList.set_Item(){} // RVA: 0x602D700
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x6025720
-        public void get_Count(){} // RVA: 0x602D750
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x602D7C0
-        public void System.ComponentModel.IBindingList.AddIndex(){} // RVA: 0x2DD310
-        public void System.ComponentModel.IBindingList.AddNew(){} // RVA: 0x602D870
-        public void System.ComponentModel.IBindingList.get_AllowEdit(){} // RVA: 0x3C2850
-        public void System.ComponentModel.IBindingList.get_AllowNew(){} // RVA: 0x3C2850
-        public void System.ComponentModel.IBindingList.get_AllowRemove(){} // RVA: 0x3C2850
-        public void System.ComponentModel.IBindingList.ApplySort(){} // RVA: 0x602DAD0
-        public void System.ComponentModel.IBindingList.Find(){} // RVA: 0x602DB10
-        public void System.ComponentModel.IBindingList.get_IsSorted(){} // RVA: 0x2DD320
-        public void System.ComponentModel.IBindingList.RemoveIndex(){} // RVA: 0x2DD310
-        public void System.ComponentModel.IBindingList.RemoveSort(){} // RVA: 0x602DB50
-        public void System.ComponentModel.IBindingList.get_SortDirection(){} // RVA: 0x519240
-        public void System.ComponentModel.IBindingList.get_SortProperty(){} // RVA: 0x519240
-        public void System.ComponentModel.IBindingList.get_SupportsChangeNotification(){} // RVA: 0x3C2850
-        public void System.ComponentModel.IBindingList.get_SupportsSearching(){} // RVA: 0x2DD320
-        public void System.ComponentModel.IBindingList.get_SupportsSorting(){} // RVA: 0x2DD320
-        public void MergeEnumerableContent(){} // RVA: 0x602DB90
-    }
-
-    public class JEnumerable`1
-    {
-        public Newtonsoft.Json.Linq.JEnumerable`1<T> Empty;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCE10
-        public void Equals(){} // RVA: 0xDE40 | overloaded x2
-        public void GetHashCode(){} // RVA: 0xD840
-        public void .cctor(){} // RVA: 0x24A80
-    }
-
-    public class JObject : System.Collections.Generic
-    {
-        public Newtonsoft.Json.Linq.JPropertyKeyedCollection _properties; // 0x58
-        public System.ComponentModel.PropertyChangedEventHandler PropertyChanged; // 0x60
-        public System.ComponentModel.PropertyChangingEventHandler PropertyChanging; // 0x68
-
-        // ── Methods ──
-        public void WriteToAsync(){} // RVA: 0x60303F0
-        public void LoadAsync(){} // RVA: 0x6030650 | overloaded x2
-        public void get_ChildrenTokens(){} // RVA: 0x3A5500
-        public void add_PropertyChanged(){} // RVA: 0x60308A0
-        public void remove_PropertyChanged(){} // RVA: 0x6030990
-        public void add_PropertyChanging(){} // RVA: 0x6030A80
-        public void remove_PropertyChanging(){} // RVA: 0x6030B70
-        public void .ctor(){} // RVA: 0x6030EE0 | overloaded x5
-        public void DeepEquals(){} // RVA: 0x6030FE0
-        public void IndexOfItem(){} // RVA: 0x6031090
-        public void InsertItem(){} // RVA: 0x60311C0
-        public void ValidateToken(){} // RVA: 0x6031240
-        public void MergeItem(){} // RVA: 0x6031540
-        public void IsNull(){} // RVA: 0x60318F0
-        public void InternalPropertyChanged(){} // RVA: 0x6031990
-        public void InternalPropertyChanging(){} // RVA: 0x6031B80
-        public void CloneToken(){} // RVA: 0x6031BB0
-        public void get_Type(){} // RVA: 0x3CFAF0
-        public void Properties(){} // RVA: 0x6031CB0
-        public void Property(){} // RVA: 0x6031D00 | overloaded x2
-        public void PropertyValues(){} // RVA: 0x6031F30
-        public void get_Item(){} // RVA: 0x60324C0 | overloaded x2
-        public void set_Item(){} // RVA: 0x6032590 | overloaded x2
-        public void Load(){} // RVA: 0x60326E0 | overloaded x2
-        public void Parse(){} // RVA: 0x6032960 | overloaded x2
-        public void FromObject(){} // RVA: 0x6032C40 | overloaded x2
-        public void WriteTo(){} // RVA: 0x6032DD0
-        public void GetValue(){} // RVA: 0x6032FB0 | overloaded x2
-        public void TryGetValue(){} // RVA: 0x6033320 | overloaded x2
-        public void Add(){} // RVA: 0x6033080
-        public void ContainsKey(){} // RVA: 0x6033110
-        public void System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Keys(){} // RVA: 0x6033220
-        public void Remove(){} // RVA: 0x6033280
-        public void System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Values(){} // RVA: 0x6033410
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Add(){} // RVA: 0x6033450
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Clear(){} // RVA: 0x60256E0
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains(){} // RVA: 0x6033500
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.CopyTo(){} // RVA: 0x6033590
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_IsReadOnly(){} // RVA: 0x2DD320
-        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove(){} // RVA: 0x6033970
-        public void GetDeepHashCode(){} // RVA: 0x6025760
-        public void GetEnumerator(){} // RVA: 0x6033A80
-        public void OnPropertyChanged(){} // RVA: 0x6033B20
-        public void OnPropertyChanging(){} // RVA: 0x6033BB0
-        public void System.ComponentModel.ICustomTypeDescriptor.GetProperties(){} // RVA: 0x6033D00 | overloaded x2
-        public void System.ComponentModel.ICustomTypeDescriptor.GetAttributes(){} // RVA: 0x6034060
-        public void System.ComponentModel.ICustomTypeDescriptor.GetClassName(){} // RVA: 0x519240
-        public void System.ComponentModel.ICustomTypeDescriptor.GetComponentName(){} // RVA: 0x519240
-        public void System.ComponentModel.ICustomTypeDescriptor.GetConverter(){} // RVA: 0x60340C0
-        public void System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent(){} // RVA: 0x519240
-        public void System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty(){} // RVA: 0x519240
-        public void System.ComponentModel.ICustomTypeDescriptor.GetEditor(){} // RVA: 0x519240
-        public void System.ComponentModel.ICustomTypeDescriptor.GetEvents(){} // RVA: 0x6034160 | overloaded x2
-        public void System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(){} // RVA: 0x60341C0
-        public void GetMetaObject(){} // RVA: 0x6034240
-        public void <WriteToAsync>g__AwaitProperties|0_0(){} // RVA: 0x6034320
-    }
-
-    public class JProperty
-    {
-        public JPropertyList _content; // 0x58
-        public string _name; // 0x60
-
-        // ── Methods ──
-        public void WriteToAsync(){} // RVA: 0x6036270 | overloaded x2
-        public void WriteValueAsync(){} // RVA: 0x6036590
-        public void LoadAsync(){} // RVA: 0x6036610 | overloaded x2
-        public void get_ChildrenTokens(){} // RVA: 0x3A5500
-        public void get_Name(){} // RVA: 0x37B370
-        public void get_Value(){} // RVA: 0x6036860
-        public void set_Value(){} // RVA: 0x6036880
-        public void .ctor(){} // RVA: 0x60376D0 | overloaded x5
-        public void GetItem(){} // RVA: 0x6036BB0
-        public void SetItem(){} // RVA: 0x6036C20
-        public void RemoveItem(){} // RVA: 0x6036E20
-        public void RemoveItemAt(){} // RVA: 0x6036EE0
-        public void IndexOfItem(){} // RVA: 0x6036FA0
-        public void InsertItem(){} // RVA: 0x6036FE0
-        public void ContainsItem(){} // RVA: 0x6037110
-        public void MergeItem(){} // RVA: 0x6037130
-        public void ClearItems(){} // RVA: 0x60371F0
-        public void DeepEquals(){} // RVA: 0x60372B0
-        public void CloneToken(){} // RVA: 0x60373A0
-        public void get_Type(){} // RVA: 0xA7E130
-        public void WriteTo(){} // RVA: 0x6037960
-        public void GetDeepHashCode(){} // RVA: 0x6037A00
-        public void Load(){} // RVA: 0x6037A90 | overloaded x2
-    }
-
-    public class JPropertyDescriptor
+    public class JArray : JContainer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6038F40
-        public void CastInstance(){} // RVA: 0x6038F50
-        public void CanResetValue(){} // RVA: 0x2DD320
-        public void GetValue(){} // RVA: 0x6038FD0
-        public void ResetValue(){} // RVA: 0x2DD310
-        public void SetValue(){} // RVA: 0x6039130
-        public void ShouldSerializeValue(){} // RVA: 0x2DD320
-        public void get_ComponentType(){} // RVA: 0x6039290
-        public void get_IsReadOnly(){} // RVA: 0x2DD320
-        public void get_PropertyType(){} // RVA: 0x6039340
-        public void get_NameHashCode(){} // RVA: 0x760030
+        public void WriteToAsync(){} // RVA: 0x7ADE10780
+        public void LoadAsync(){} // RVA: 0x7ADE10A70
+        public void get_ChildrenTokens(){} // RVA: 0x7A81A0050
+        public void get_Type(){} // RVA: 0x7A81DDCC0
+        public void .ctor(){} // RVA: 0x7ADE10FA0
+        public void DeepEquals(){} // RVA: 0x7ADE110B0
+        public void CloneToken(){} // RVA: 0x7ADE11140
+        public void Load(){} // RVA: 0x7ADE11260
+        public void Parse(){} // RVA: 0x7ADE11490
+        public void FromObject(){} // RVA: 0x7ADE11780
+        public void WriteTo(){} // RVA: 0x7ADE11910
+        public void get_Item(){} // RVA: 0x7ADE11D40
+        public void set_Item(){} // RVA: 0x7ADE11D60
+        public void IndexOfItem(){} // RVA: 0x7ADE11D80
+        public void MergeItem(){} // RVA: 0x7ADE11E30
+        public void IndexOf(){} // RVA: 0x7ADE11F20
+        public void Insert(){} // RVA: 0x7ADE11F40
+        public void RemoveAt(){} // RVA: 0x7ADE11F70
+        public void GetEnumerator(){} // RVA: 0x7ADE11F90
+        public void Add(){} // RVA: 0x7ADE12020
+        public void Clear(){} // RVA: 0x7ADE12040
+        public void Contains(){} // RVA: 0x7ADE12060
+        public void CopyTo(){} // RVA: 0x7ADE12080
+        public void get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void Remove(){} // RVA: 0x7ADE120A0
+        public void GetDeepHashCode(){} // RVA: 0x7ADE120C0
     }
 
-    public class JPropertyKeyedCollection
+    public class JConstructor : JContainer
     {
-        public System.Collections.Generic.IEqualityComparer`1<string> Comparer;
-        public System.Collections.Generic.Dictionary`2<string,Newtonsoft.Json.Linq.JToken> _dictionary; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60393F0
-        public void AddKey(){} // RVA: 0x60394D0
-        public void ChangeItemKey(){} // RVA: 0x6039560
-        public void ClearItems(){} // RVA: 0x60397C0
-        public void Contains(){} // RVA: 0x6039870
-        public void ContainsItem(){} // RVA: 0x6039940
-        public void EnsureDictionary(){} // RVA: 0x6039A20
-        public void GetKeyForItem(){} // RVA: 0x6039B30
-        public void InsertItem(){} // RVA: 0x6039BB0
-        public void Remove(){} // RVA: 0x6039C80
-        public void RemoveItem(){} // RVA: 0x6039D70
-        public void RemoveKey(){} // RVA: 0x6039EF0
-        public void SetItem(){} // RVA: 0x6039F50
-        public void get_Item(){} // RVA: 0x603A1C0
-        public void TryGetValue(){} // RVA: 0x603A2B0
-        public void get_Keys(){} // RVA: 0x603A380
-        public void get_Values(){} // RVA: 0x603A3E0
-        public void IndexOfReference(){} // RVA: 0x603A440
-        public void Compare(){} // RVA: 0x603A550
-        public void .cctor(){} // RVA: 0x603A900
+        public void WriteToAsync(){} // RVA: 0x7ADE13040
+        public void LoadAsync(){} // RVA: 0x7ADE13330
+        public void get_ChildrenTokens(){} // RVA: 0x7A8175DF0
+        public void IndexOfItem(){} // RVA: 0x7ADE13580
+        public void MergeItem(){} // RVA: 0x7ADE13630
+        public void get_Name(){} // RVA: 0x7A81A0050
+        public void set_Name(){} // RVA: 0x7A81A0060
+        public void get_Type(){} // RVA: 0x7A87EE0F0
+        public void .ctor(){} // RVA: 0x7ADE13AF0
+        public void DeepEquals(){} // RVA: 0x7ADE13CF0
+        public void CloneToken(){} // RVA: 0x7ADE13DB0
+        public void WriteTo(){} // RVA: 0x7ADE13F40
+        public void get_Item(){} // RVA: 0x7ADE14080
+        public void set_Item(){} // RVA: 0x7ADE141F0
+        public void GetDeepHashCode(){} // RVA: 0x7ADE14370
+        public void Load(){} // RVA: 0x7ADE143D0
     }
 
-    public class JRaw
+    public class JContainer : JToken
     {
         // ── Methods ──
-        public void CreateAsync(){} // RVA: 0x603AA00
-        public void .ctor(){} // RVA: 0x603ADA0 | overloaded x3
-        public void Create(){} // RVA: 0x603ADB0
-        public void CloneToken(){} // RVA: 0x603B0C0
+        public void ReadTokenFromAsync(){} // RVA: 0x7ADE15650
+        public void ReadContentFromAsync(){} // RVA: 0x7ADE15920
+        public void add_ListChanged(){} // RVA: 0x7ADE15BF0
+        public void remove_ListChanged(){} // RVA: 0x7ADE15CE0
+        public void add_AddingNew(){} // RVA: 0x7ADE15DD0
+        public void remove_AddingNew(){} // RVA: 0x7ADE15EC0
+        public void add_CollectionChanged(){} // RVA: 0x7ADE15FB0
+        public void remove_CollectionChanged(){} // RVA: 0x7ADE160A0
+        public void get_ChildrenTokens(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x7ADE161E0
+        public void CheckReentrancy(){} // RVA: 0x7ADE164B0
+        public void CreateChildrenCollection(){} // RVA: 0x7ADE16560
+        public void OnAddingNew(){} // RVA: 0x7AD4F2F40
+        public void OnListChanged(){} // RVA: 0x7ADE165C0
+        public void OnCollectionChanged(){} // RVA: 0x7ADE16630
+        public void get_HasValues(){} // RVA: 0x7ADE166A0
+        public void ContentsEqual(){} // RVA: 0x7ADE16710
+        public void get_First(){} // RVA: 0x7ADE16870
+        public void get_Last(){} // RVA: 0x7ADE16910
+        public void Children(){} // RVA: 0x7ADE169B0
+        public void Values(){} // RVA: 0x7A7E00680
+        public void Descendants(){} // RVA: 0x7ADE16AE0
+        public void DescendantsAndSelf(){} // RVA: 0x7ADE16AF0
+        public void GetDescendants(){} // RVA: 0x7ADE16B00
+        public void IsMultiContent(){} // RVA: 0x7ADE16BC0
+        public void EnsureParentToken(){} // RVA: 0x7ADE16CA0
+        public void IndexOfItem(){} // RVA: 0x7A7E01630
+        public void InsertItem(){} // RVA: 0x7ADE16DF0
+        public void RemoveItemAt(){} // RVA: 0x7ADE17220
+        public void RemoveItem(){} // RVA: 0x7ADE175B0
+        public void GetItem(){} // RVA: 0x7ADE17600
+        public void SetItem(){} // RVA: 0x7ADE17670
+        public void ClearItems(){} // RVA: 0x7ADE17B00
+        public void ReplaceItem(){} // RVA: 0x7ADE17FF0
+        public void ContainsItem(){} // RVA: 0x7ADE18050
+        public void CopyItemsTo(){} // RVA: 0x7ADE18080
+        public void IsTokenUnchanged(){} // RVA: 0x7ADE18370
+        public void ValidateToken(){} // RVA: 0x7ADE18430
+        public void Add(){} // RVA: 0x7ADE18590
+        public void TryAdd(){} // RVA: 0x7ADE18620
+        public void AddAndSkipParentCheck(){} // RVA: 0x7ADE186B0
+        public void AddFirst(){} // RVA: 0x7ADE18740
+        public void TryAddInternal(){} // RVA: 0x7ADE18770
+        public void CreateFromContent(){} // RVA: 0x7ADE18A20
+        public void CreateWriter(){} // RVA: 0x7ADE18AE0
+        public void ReplaceAll(){} // RVA: 0x7ADE18C90
+        public void RemoveAll(){} // RVA: 0x7ADE12040
+        public void MergeItem(){} // RVA: 0x7A7E18890
+        public void Merge(){} // RVA: 0x7ADE18D30
+        public void ValidateContent(){} // RVA: 0x7ADE18D90
+        public void ReadTokenFrom(){} // RVA: 0x7ADE18F60
+        public void ReadContentFrom(){} // RVA: 0x7ADE19120
+        public void ReadProperty(){} // RVA: 0x7ADE19830
+        public void ContentsHashCode(){} // RVA: 0x7ADE19AB0
+        public void System.ComponentModel.ITypedList.GetListName(){} // RVA: 0x7ADE19CC0
+        public void System.ComponentModel.ITypedList.GetItemProperties(){} // RVA: 0x7ADE19D00
+        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.IndexOf(){} // RVA: 0x7ADE11F20
+        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Insert(){} // RVA: 0x7ADE11F40
+        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.RemoveAt(){} // RVA: 0x7ADE11F70
+        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.get_Item(){} // RVA: 0x7ADE11D40
+        public void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.set_Item(){} // RVA: 0x7ADE11D60
+        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Add(){} // RVA: 0x7ADE12020
+        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Clear(){} // RVA: 0x7ADE12040
+        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Contains(){} // RVA: 0x7ADE12060
+        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.CopyTo(){} // RVA: 0x7ADE12080
+        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Remove(){} // RVA: 0x7ADE120A0
+        public void EnsureValue(){} // RVA: 0x7ADE19DD0
+        public void System.Collections.IList.Add(){} // RVA: 0x7ADE19E90
+        public void System.Collections.IList.Clear(){} // RVA: 0x7ADE12040
+        public void System.Collections.IList.Contains(){} // RVA: 0x7ADE19F20
+        public void System.Collections.IList.IndexOf(){} // RVA: 0x7ADE19F50
+        public void System.Collections.IList.Insert(){} // RVA: 0x7ADE19F80
+        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0x7A80D7320
+        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void System.Collections.IList.Remove(){} // RVA: 0x7ADE19FE0
+        public void System.Collections.IList.RemoveAt(){} // RVA: 0x7ADE11F70
+        public void System.Collections.IList.get_Item(){} // RVA: 0x7ADE11D40
+        public void System.Collections.IList.set_Item(){} // RVA: 0x7ADE1A010
+        public void System.Collections.ICollection.CopyTo(){} // RVA: 0x7ADE12080
+        public void get_Count(){} // RVA: 0x7ADE1A060
+        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x7A80D7320
+        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0x7ADE1A0D0
+        public void System.ComponentModel.IBindingList.AddIndex(){} // RVA: 0x7A80D7310
+        public void System.ComponentModel.IBindingList.AddNew(){} // RVA: 0x7ADE1A180
+        public void System.ComponentModel.IBindingList.get_AllowEdit(){} // RVA: 0x7A81BD750
+        public void System.ComponentModel.IBindingList.get_AllowNew(){} // RVA: 0x7A81BD750
+        public void System.ComponentModel.IBindingList.get_AllowRemove(){} // RVA: 0x7A81BD750
+        public void System.ComponentModel.IBindingList.ApplySort(){} // RVA: 0x7ADE1A3C0
+        public void System.ComponentModel.IBindingList.Find(){} // RVA: 0x7ADE1A400
+        public void System.ComponentModel.IBindingList.get_IsSorted(){} // RVA: 0x7A80D7320
+        public void System.ComponentModel.IBindingList.RemoveIndex(){} // RVA: 0x7A80D7310
+        public void System.ComponentModel.IBindingList.RemoveSort(){} // RVA: 0x7ADE1A440
+        public void System.ComponentModel.IBindingList.get_SortDirection(){} // RVA: 0x7A82D1450
+        public void System.ComponentModel.IBindingList.get_SortProperty(){} // RVA: 0x7A82D1450
+        public void System.ComponentModel.IBindingList.get_SupportsChangeNotification(){} // RVA: 0x7A81BD750
+        public void System.ComponentModel.IBindingList.get_SupportsSearching(){} // RVA: 0x7A80D7320
+        public void System.ComponentModel.IBindingList.get_SupportsSorting(){} // RVA: 0x7A80D7320
+        public void MergeEnumerableContent(){} // RVA: 0x7ADE1A480
     }
 
-    public class JToken
+    public class JEnumerable`1 : ValueType
     {
-        public Newtonsoft.Json.Linq.JTokenEqualityComparer _equalityComparer;
-        public Newtonsoft.Json.Linq.JContainer _parent; // 0x10
-        public Newtonsoft.Json.Linq.JToken _previous; // 0x18
-        public Newtonsoft.Json.Linq.JToken _next; // 0x20
-        public object _annotations; // 0x28
-        public 0x658E7490[] BooleanTypes; // 0x8
-        public 0x658E7490[] NumberTypes; // 0x10
-        public 0x658E7490[] BigIntegerTypes; // 0x18
-        public 0x658E7490[] StringTypes; // 0x20
-        public 0x658E7490[] GuidTypes; // 0x28
-        public 0x658E7490[] TimeSpanTypes; // 0x30
-        public 0x658E7490[] UriTypes; // 0x38
-        public 0x658E7490[] CharTypes; // 0x40
-        public 0x658E7490[] DateTimeTypes; // 0x48
-
         // ── Methods ──
-        public void WriteToAsync(){} // RVA: 0x603BC80 | overloaded x2
-        public void ReadFromAsync(){} // RVA: 0x603BD10 | overloaded x2
-        public void LoadAsync(){} // RVA: 0x603C010 | overloaded x2
-        public void get_EqualityComparer(){} // RVA: 0x603C080
-        public void get_Parent(){} // RVA: 0x2F8380
-        public void set_Parent(){} // RVA: 0x2DEE30
-        public void get_Root(){} // RVA: 0x603C1B0
-        public void CloneToken(){} // RVA: 0xCE10
-        public void DeepEquals(){} // RVA: 0x603C1E0 | overloaded x2
-        public void get_Type(){} // RVA: 0xD840
-        public void get_HasValues(){} // RVA: 0xDBE0
-        public void get_Next(){} // RVA: 0x30B0C0
-        public void set_Next(){} // RVA: 0x30B0D0
-        public void get_Previous(){} // RVA: 0x2E07C0
-        public void set_Previous(){} // RVA: 0x343E80
-        public void get_Path(){} // RVA: 0x603C210
-        public void .ctor(){} // RVA: 0x2DD310
-        public void AddAfterSelf(){} // RVA: 0x603C5F0
-        public void AddBeforeSelf(){} // RVA: 0x603C6A0
-        public void Ancestors(){} // RVA: 0x603C750
-        public void AncestorsAndSelf(){} // RVA: 0x603C760
-        public void GetAncestors(){} // RVA: 0x603C770
-        public void AfterSelf(){} // RVA: 0x603C830
-        public void BeforeSelf(){} // RVA: 0x603C8E0
-        public void get_Item(){} // RVA: 0x603C990
-        public void set_Item(){} // RVA: 0x603CA30
-        public void Value(){} // RVA: 0x283FA0
-        public void get_First(){} // RVA: 0x603CAD0
-        public void get_Last(){} // RVA: 0x603CB70
-        public void Children(){} // RVA: 0x283FA0 | overloaded x2
-        public void Values(){} // RVA: 0xCD60
-        public void Remove(){} // RVA: 0x603CC70
-        public void Replace(){} // RVA: 0x603CCF0
-        public void WriteTo(){} // RVA: 0x2DC60
-        public void ToString(){} // RVA: 0x603CDC0 | overloaded x2
-        public void EnsureValue(){} // RVA: 0x603D010
-        public void GetType(){} // RVA: 0x603D140
-        public void ValidateToken(){} // RVA: 0x603D270
-        public void op_Explicit(){} // RVA: 0x6043E90 | overloaded x37
-        public void ToBigInteger(){} // RVA: 0x6044140
-        public void ToBigIntegerNullable(){} // RVA: 0x6044390
-        public void op_Implicit(){} // RVA: 0x6045900 | overloaded x35
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x60459A0
-        public void System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator(){} // RVA: 0x60459E0
-        public void GetDeepHashCode(){} // RVA: 0xD840
-        public void Newtonsoft.Json.Linq.IJEnumerable<Newtonsoft.Json.Linq.JToken>.get_Item(){} // RVA: 0x6045A70
-        public void CreateReader(){} // RVA: 0x6045A90
-        public void FromObjectInternal(){} // RVA: 0x6045AF0
-        public void FromObject(){} // RVA: 0x6045D90 | overloaded x2
-        public void ToObject(){} // RVA: 0x6046FD0 | overloaded x4
-        public void ReadFrom(){} // RVA: 0x6047280 | overloaded x2
-        public void Parse(){} // RVA: 0x60476A0 | overloaded x2
-        public void Load(){} // RVA: 0x60478B0 | overloaded x2
-        public void SetLineInfo(){} // RVA: 0x6047A30 | overloaded x2
-        public void Newtonsoft.Json.IJsonLineInfo.HasLineInfo(){} // RVA: 0x6047AA0
-        public void Newtonsoft.Json.IJsonLineInfo.get_LineNumber(){} // RVA: 0x6047AF0
-        public void Newtonsoft.Json.IJsonLineInfo.get_LinePosition(){} // RVA: 0x6047B40
-        public void SelectToken(){} // RVA: 0x6047C20 | overloaded x3
-        public void SelectTokens(){} // RVA: 0x6047EA0 | overloaded x3
-        public void GetMetaObject(){} // RVA: 0x6047F40
-        public void System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject(){} // RVA: 0x405B5C0
-        public void System.ICloneable.Clone(){} // RVA: 0x6048010
-        public void DeepClone(){} // RVA: 0x6048030 | overloaded x2
-        public void AddAnnotation(){} // RVA: 0x6048050
-        public void Annotation(){} // RVA: 0x6048390 | overloaded x2
-        public void Annotations(){} // RVA: 0x60484F0 | overloaded x2
-        public void RemoveAnnotations(){} // RVA: 0x6048600 | overloaded x2
-        public void CopyAnnotations(){} // RVA: 0x6048870
-        public void .cctor(){} // RVA: 0x6048A10
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void GetEnumerator(){} // RVA: 0x7A7E00680
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7A7E00680
+        public void get_Item(){} // RVA: 0x7A7E00B20
+        public void Equals(){} // RVA: 0x7A7E019D0
+        public void GetHashCode(){} // RVA: 0x7A7E00710
+        public void .cctor(){} // RVA: 0x7A7E187D0
     }
 
-    public class JTokenEqualityComparer
+    public class JObject : JContainer
     {
         // ── Methods ──
-        public void Equals(){} // RVA: 0x604AB40
-        public void GetHashCode(){} // RVA: 0x604ABE0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void WriteToAsync(){} // RVA: 0x7ADE1CC60
+        public void LoadAsync(){} // RVA: 0x7ADE1CED0
+        public void get_ChildrenTokens(){} // RVA: 0x7A81A0050
+        public void add_PropertyChanged(){} // RVA: 0x7ADE1D120
+        public void remove_PropertyChanged(){} // RVA: 0x7ADE1D210
+        public void add_PropertyChanging(){} // RVA: 0x7ADE1D300
+        public void remove_PropertyChanging(){} // RVA: 0x7ADE1D3F0
+        public void .ctor(){} // RVA: 0x7ADE1D760
+        public void DeepEquals(){} // RVA: 0x7ADE1D860
+        public void IndexOfItem(){} // RVA: 0x7ADE1D900
+        public void InsertItem(){} // RVA: 0x7ADE1DA40
+        public void ValidateToken(){} // RVA: 0x7ADE1DAC0
+        public void MergeItem(){} // RVA: 0x7ADE1DDC0
+        public void IsNull(){} // RVA: 0x7ADE1E150
+        public void InternalPropertyChanged(){} // RVA: 0x7ADE1E1F0
+        public void InternalPropertyChanging(){} // RVA: 0x7ADE1E3E0
+        public void CloneToken(){} // RVA: 0x7ADE1E410
+        public void get_Type(){} // RVA: 0x7A81CA9D0
+        public void Properties(){} // RVA: 0x7ADE1E510
+        public void Property(){} // RVA: 0x7ADE1E560
+        public void PropertyValues(){} // RVA: 0x7ADE1E790
+        public void get_Item(){} // RVA: 0x7ADE1ED40
+        public void set_Item(){} // RVA: 0x7ADE1EE10
+        public void Load(){} // RVA: 0x7ADE1EF60
+        public void Parse(){} // RVA: 0x7ADE1F1E0
+        public void FromObject(){} // RVA: 0x7ADE1F4D0
+        public void WriteTo(){} // RVA: 0x7ADE1F660
+        public void GetValue(){} // RVA: 0x7ADE1F840
+        public void TryGetValue(){} // RVA: 0x7ADE1FBB0
+        public void Add(){} // RVA: 0x7ADE1F910
+        public void ContainsKey(){} // RVA: 0x7ADE1F9A0
+        public void System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Keys(){} // RVA: 0x7ADE1FAB0
+        public void Remove(){} // RVA: 0x7ADE1FB10
+        public void System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Values(){} // RVA: 0x7ADE1FCA0
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Add(){} // RVA: 0x7ADE1FCE0
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Clear(){} // RVA: 0x7ADE12040
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains(){} // RVA: 0x7ADE1FD90
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.CopyTo(){} // RVA: 0x7ADE1FE20
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove(){} // RVA: 0x7ADE20200
+        public void GetDeepHashCode(){} // RVA: 0x7ADE120C0
+        public void GetEnumerator(){} // RVA: 0x7ADE20310
+        public void OnPropertyChanged(){} // RVA: 0x7ADE203B0
+        public void OnPropertyChanging(){} // RVA: 0x7ADE20440
+        public void System.ComponentModel.ICustomTypeDescriptor.GetProperties(){} // RVA: 0x7ADE20590
+        public void System.ComponentModel.ICustomTypeDescriptor.GetAttributes(){} // RVA: 0x7ADE208F0
+        public void System.ComponentModel.ICustomTypeDescriptor.GetClassName(){} // RVA: 0x7A82D1450
+        public void System.ComponentModel.ICustomTypeDescriptor.GetComponentName(){} // RVA: 0x7A82D1450
+        public void System.ComponentModel.ICustomTypeDescriptor.GetConverter(){} // RVA: 0x7ADE20950
+        public void System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent(){} // RVA: 0x7A82D1450
+        public void System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty(){} // RVA: 0x7A82D1450
+        public void System.ComponentModel.ICustomTypeDescriptor.GetEditor(){} // RVA: 0x7A82D1450
+        public void System.ComponentModel.ICustomTypeDescriptor.GetEvents(){} // RVA: 0x7ADE209F0
+        public void System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(){} // RVA: 0x7ADE20A50
+        public void GetMetaObject(){} // RVA: 0x7ADE20AD0
+        public void <WriteToAsync>g__AwaitProperties|0_0(){} // RVA: 0x7ADE20BB0
     }
 
-    public class JTokenReader
+    public class JProperty : JContainer
     {
-        public Newtonsoft.Json.Linq.JToken _root; // 0x78
-        public string _initialPath; // 0x80
-        public Newtonsoft.Json.Linq.JToken _parent; // 0x88
-        public Newtonsoft.Json.Linq.JToken _current; // 0x90
-
         // ── Methods ──
-        public void get_CurrentToken(){} // RVA: 0x796DE0
-        public void .ctor(){} // RVA: 0x604AD40 | overloaded x2
-        public void Read(){} // RVA: 0x604ADC0
-        public void ReadOver(){} // RVA: 0x604B010
-        public void ReadToEnd(){} // RVA: 0x604B100
-        public void GetEndToken(){} // RVA: 0x604B200
-        public void ReadInto(){} // RVA: 0x604B360
-        public void SetEnd(){} // RVA: 0x604B490
-        public void SetToken(){} // RVA: 0x604B6F0
-        public void SafeToString(){} // RVA: 0x604C210
-        public void Newtonsoft.Json.IJsonLineInfo.HasLineInfo(){} // RVA: 0x604C240
-        public void Newtonsoft.Json.IJsonLineInfo.get_LineNumber(){} // RVA: 0x604C2A0
-        public void Newtonsoft.Json.IJsonLineInfo.get_LinePosition(){} // RVA: 0x604C300
-        public void get_Path(){} // RVA: 0x604C360
+        public void WriteToAsync(){} // RVA: 0x7ADE22B00
+        public void WriteValueAsync(){} // RVA: 0x7ADE22E20
+        public void LoadAsync(){} // RVA: 0x7ADE22EA0
+        public void get_ChildrenTokens(){} // RVA: 0x7A81A0050
+        public void get_Name(){} // RVA: 0x7A8175DF0
+        public void get_Value(){} // RVA: 0x7ADE230F0
+        public void set_Value(){} // RVA: 0x7ADE23110
+        public void .ctor(){} // RVA: 0x7ADE23F10
+        public void GetItem(){} // RVA: 0x7ADE23440
+        public void SetItem(){} // RVA: 0x7ADE234B0
+        public void RemoveItem(){} // RVA: 0x7ADE236A0
+        public void RemoveItemAt(){} // RVA: 0x7ADE23760
+        public void IndexOfItem(){} // RVA: 0x7ADE23820
+        public void InsertItem(){} // RVA: 0x7ADE23860
+        public void ContainsItem(){} // RVA: 0x7ADE23990
+        public void MergeItem(){} // RVA: 0x7ADE239B0
+        public void ClearItems(){} // RVA: 0x7ADE23A60
+        public void DeepEquals(){} // RVA: 0x7ADE23B20
+        public void CloneToken(){} // RVA: 0x7ADE23BE0
+        public void get_Type(){} // RVA: 0x7A883BE70
+        public void WriteTo(){} // RVA: 0x7ADE241B0
+        public void GetDeepHashCode(){} // RVA: 0x7ADE24250
+        public void Load(){} // RVA: 0x7ADE242E0
     }
 
-    public class JTokenWriter
+    public class JPropertyDescriptor : PropertyDescriptor
     {
-        public Newtonsoft.Json.Linq.JContainer _token; // 0x60
-        public Newtonsoft.Json.Linq.JContainer _parent; // 0x68
-
         // ── Methods ──
-        public void WriteTokenAsync(){} // RVA: 0x604C600
-        public void get_CurrentToken(){} // RVA: 0x4C7C50
-        public void get_Token(){} // RVA: 0x604C710
-        public void .ctor(){} // RVA: 0x604C8B0 | overloaded x2
-        public void Flush(){} // RVA: 0x2DD310
-        public void Close(){} // RVA: 0x604C910
-        public void WriteStartObject(){} // RVA: 0x604C920
-        public void AddParent(){} // RVA: 0x604C9B0
-        public void RemoveParent(){} // RVA: 0x604CB80
-        public void WriteStartArray(){} // RVA: 0x604CCE0
-        public void WriteStartConstructor(){} // RVA: 0x604CD70
-        public void WriteEnd(){} // RVA: 0x604CB80
-        public void WritePropertyName(){} // RVA: 0x604CE10
-        public void AddRawValue(){} // RVA: 0x604CFC0
-        public void AddJValue(){} // RVA: 0x604D060
-        public void WriteValue(){} // RVA: 0x604E320 | overloaded x21
-        public void WriteNull(){} // RVA: 0x604D350
-        public void WriteUndefined(){} // RVA: 0x604D3E0
-        public void WriteRaw(){} // RVA: 0x604D470
-        public void WriteComment(){} // RVA: 0x604D4F0
-        public void WriteToken(){} // RVA: 0x604E410
+        public void .ctor(){} // RVA: 0x7ADE25790
+        public void CastInstance(){} // RVA: 0x7ADE257A0
+        public void CanResetValue(){} // RVA: 0x7A80D7320
+        public void GetValue(){} // RVA: 0x7ADE25820
+        public void ResetValue(){} // RVA: 0x7A80D7310
+        public void SetValue(){} // RVA: 0x7ADE25970
+        public void ShouldSerializeValue(){} // RVA: 0x7A80D7320
+        public void get_ComponentType(){} // RVA: 0x7ADE25AB0
+        public void get_IsReadOnly(){} // RVA: 0x7A80D7320
+        public void get_PropertyType(){} // RVA: 0x7ADE25B60
+        public void get_NameHashCode(){} // RVA: 0x7A851DB90
     }
 
-    public class JValue
+    public class JPropertyKeyedCollection : Collection`1
     {
-        public 0x658E7490 _valueType; // 0x30
-        public object _value; // 0x38
-
         // ── Methods ──
-        public void WriteToAsync(){} // RVA: 0x604E7D0
-        public void .ctor(){} // RVA: 0x604F960 | overloaded x17
-        public void DeepEquals(){} // RVA: 0x604F9A0
-        public void get_HasValues(){} // RVA: 0x2DD320
-        public void CompareBigInteger(){} // RVA: 0x604FA70
-        public void Compare(){} // RVA: 0x604FE80
-        public void CompareFloat(){} // RVA: 0x6050C00
-        public void Operation(){} // RVA: 0x6050DD0
-        public void CloneToken(){} // RVA: 0x60519D0
-        public void CreateComment(){} // RVA: 0x6051AE0
-        public void CreateString(){} // RVA: 0x6051B40
-        public void CreateNull(){} // RVA: 0x6051BA0
-        public void CreateUndefined(){} // RVA: 0x6051C00
-        public void GetValueType(){} // RVA: 0x6051C60
-        public void GetStringValueType(){} // RVA: 0x6052210
-        public void get_Type(){} // RVA: 0x338CD0
-        public void get_Value(){} // RVA: 0x4976A0
-        public void set_Value(){} // RVA: 0x6052280
-        public void WriteTo(){} // RVA: 0x60523B0
-        public void GetDeepHashCode(){} // RVA: 0x6052E30
-        public void ValuesEquals(){} // RVA: 0x6052E70
-        public void Equals(){} // RVA: 0x6052F10 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x6052FE0
-        public void ToString(){} // RVA: 0x6053140 | overloaded x4
-        public void GetMetaObject(){} // RVA: 0x6053220
-        public void System.IComparable.CompareTo(){} // RVA: 0x6053300
-        public void CompareTo(){} // RVA: 0x60533C0
-        public void System.IConvertible.GetTypeCode(){} // RVA: 0x60533F0
-        public void System.IConvertible.ToBoolean(){} // RVA: 0x6053460
-        public void System.IConvertible.ToChar(){} // RVA: 0x60534B0
-        public void System.IConvertible.ToSByte(){} // RVA: 0x6053500
-        public void System.IConvertible.ToByte(){} // RVA: 0x6053550
-        public void System.IConvertible.ToInt16(){} // RVA: 0x60535A0
-        public void System.IConvertible.ToUInt16(){} // RVA: 0x60535F0
-        public void System.IConvertible.ToInt32(){} // RVA: 0x6053640
-        public void System.IConvertible.ToUInt32(){} // RVA: 0x6053690
-        public void System.IConvertible.ToInt64(){} // RVA: 0x60536E0
-        public void System.IConvertible.ToUInt64(){} // RVA: 0x6053730
-        public void System.IConvertible.ToSingle(){} // RVA: 0x6053780
-        public void System.IConvertible.ToDouble(){} // RVA: 0x60537D0
-        public void System.IConvertible.ToDecimal(){} // RVA: 0x6053820
-        public void System.IConvertible.ToDateTime(){} // RVA: 0x6053890
-        public void System.IConvertible.ToType(){} // RVA: 0x60538E0
+        public void .ctor(){} // RVA: 0x7ADE25C10
+        public void AddKey(){} // RVA: 0x7ADE25CF0
+        public void ChangeItemKey(){} // RVA: 0x7ADE25D80
+        public void ClearItems(){} // RVA: 0x7ADE25FE0
+        public void Contains(){} // RVA: 0x7ADE26090
+        public void ContainsItem(){} // RVA: 0x7ADE26160
+        public void EnsureDictionary(){} // RVA: 0x7ADE26240
+        public void GetKeyForItem(){} // RVA: 0x7ADE26350
+        public void InsertItem(){} // RVA: 0x7ADE263D0
+        public void Remove(){} // RVA: 0x7ADE264A0
+        public void RemoveItem(){} // RVA: 0x7ADE26590
+        public void RemoveKey(){} // RVA: 0x7ADE26710
+        public void SetItem(){} // RVA: 0x7ADE26770
+        public void get_Item(){} // RVA: 0x7ADE269E0
+        public void TryGetValue(){} // RVA: 0x7ADE26AD0
+        public void get_Keys(){} // RVA: 0x7ADE26BA0
+        public void get_Values(){} // RVA: 0x7ADE26C00
+        public void IndexOfReference(){} // RVA: 0x7ADE26C60
+        public void Compare(){} // RVA: 0x7ADE26D70
+        public void .cctor(){} // RVA: 0x7ADE27130
     }
 
-    public class JsonCloneSettings
+    public class JRaw : JValue
     {
-        public Newtonsoft.Json.Linq.JsonCloneSettings CommentHandling;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6BD7E0
-        public void get_CopyAnnotations(){} // RVA: 0x3A75E0
-        public void set_CopyAnnotations(){} // RVA: 0x3A75F0
-        public void .cctor(){} // RVA: 0x603B8E0
+        public void CreateAsync(){} // RVA: 0x7ADE27230
+        public void .ctor(){} // RVA: 0x7ADE275C0
+        public void Create(){} // RVA: 0x7ADE275D0
+        public void CloneToken(){} // RVA: 0x7ADE278F0
     }
 
-    public class JsonLoadSettings
+    public class JToken : Object
     {
-        public 0x658E6258 MergeArrayHandling; // 0x10
-        public 0x658E75F0 MergeNullValueHandling; // 0x14
-        public 0x658E62B0 PropertyNameComparison; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x603B980
-        public void get_CommentHandling(){} // RVA: 0x32A5C0
-        public void set_CommentHandling(){} // RVA: 0x603B990
-        public void get_LineInfoHandling(){} // RVA: 0x8ABED0
-        public void set_LineInfoHandling(){} // RVA: 0x603BA00
-        public void get_DuplicatePropertyNameHandling(){} // RVA: 0x5BED50
-        public void set_DuplicatePropertyNameHandling(){} // RVA: 0x603BA70
+        public void WriteToAsync(){} // RVA: 0x7ADE284B0
+        public void ReadFromAsync(){} // RVA: 0x7ADE28540
+        public void LoadAsync(){} // RVA: 0x7ADE28840
+        public void get_EqualityComparer(){} // RVA: 0x7ADE288B0
+        public void get_Parent(){} // RVA: 0x7A80F2570
+        public void set_Parent(){} // RVA: 0x7A80D8E20
+        public void get_Root(){} // RVA: 0x7ADE289E0
+        public void CloneToken(){} // RVA: 0x7A7E00B20
+        public void DeepEquals(){} // RVA: 0x7ADE28A10
+        public void get_Type(){} // RVA: 0x7A7E00710
+        public void get_HasValues(){} // RVA: 0x7A7E01900
+        public void get_Next(){} // RVA: 0x7A81052C0
+        public void set_Next(){} // RVA: 0x7A81052D0
+        public void get_Previous(){} // RVA: 0x7A80DA7B0
+        public void set_Previous(){} // RVA: 0x7A813E420
+        public void get_Path(){} // RVA: 0x7ADE28A40
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void AddAfterSelf(){} // RVA: 0x7ADE28DE0
+        public void AddBeforeSelf(){} // RVA: 0x7ADE28E90
+        public void Ancestors(){} // RVA: 0x7ADE28F40
+        public void AncestorsAndSelf(){} // RVA: 0x7ADE28F50
+        public void GetAncestors(){} // RVA: 0x7ADE28F60
+        public void AfterSelf(){} // RVA: 0x7ADE29020
+        public void BeforeSelf(){} // RVA: 0x7ADE290D0
+        public void get_Item(){} // RVA: 0x7ADE29180
+        public void set_Item(){} // RVA: 0x7ADE29220
+        public void Value(){} // RVA: 0x7A8051B10
+        public void get_First(){} // RVA: 0x7ADE292C0
+        public void get_Last(){} // RVA: 0x7ADE29360
+        public void Children(){} // RVA: 0x7A8051B10
+        public void Values(){} // RVA: 0x7A7E00680
+        public void Remove(){} // RVA: 0x7ADE29460
+        public void Replace(){} // RVA: 0x7ADE294E0
+        public void WriteTo(){} // RVA: 0x7A7E18890
+        public void ToString(){} // RVA: 0x7ADE295B0
+        public void EnsureValue(){} // RVA: 0x7ADE29800
+        public void GetType(){} // RVA: 0x7ADE29930
+        public void ValidateToken(){} // RVA: 0x7ADE29A60
+        public void op_Explicit(){} // RVA: 0x7ADE306B0
+        public void ToBigInteger(){} // RVA: 0x7ADE30950
+        public void ToBigIntegerNullable(){} // RVA: 0x7ADE30BA0
+        public void op_Implicit(){} // RVA: 0x7ADE32160
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7ADE32200
+        public void System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator(){} // RVA: 0x7ADE32240
+        public void GetDeepHashCode(){} // RVA: 0x7A7E00710
+        public void Newtonsoft.Json.Linq.IJEnumerable<Newtonsoft.Json.Linq.JToken>.get_Item(){} // RVA: 0x7ADE322D0
+        public void CreateReader(){} // RVA: 0x7ADE322F0
+        public void FromObjectInternal(){} // RVA: 0x7ADE32350
+        public void FromObject(){} // RVA: 0x7ADE32600
+        public void ToObject(){} // RVA: 0x7ADE33840
+        public void ReadFrom(){} // RVA: 0x7ADE33B00
+        public void Parse(){} // RVA: 0x7ADE33F20
+        public void Load(){} // RVA: 0x7ADE34140
+        public void SetLineInfo(){} // RVA: 0x7ADE342C0
+        public void Newtonsoft.Json.IJsonLineInfo.HasLineInfo(){} // RVA: 0x7ADE34330
+        public void Newtonsoft.Json.IJsonLineInfo.get_LineNumber(){} // RVA: 0x7ADE34380
+        public void Newtonsoft.Json.IJsonLineInfo.get_LinePosition(){} // RVA: 0x7ADE343D0
+        public void SelectToken(){} // RVA: 0x7ADE344B0
+        public void SelectTokens(){} // RVA: 0x7ADE34750
+        public void GetMetaObject(){} // RVA: 0x7ADE347F0
+        public void System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject(){} // RVA: 0x7ABE50F70
+        public void System.ICloneable.Clone(){} // RVA: 0x7ADE348C0
+        public void DeepClone(){} // RVA: 0x7ADE348E0
+        public void AddAnnotation(){} // RVA: 0x7ADE34900
+        public void Annotation(){} // RVA: 0x7ADE34C40
+        public void Annotations(){} // RVA: 0x7ADE34DB0
+        public void RemoveAnnotations(){} // RVA: 0x7ADE34EC0
+        public void CopyAnnotations(){} // RVA: 0x7ADE35140
+        public void .cctor(){} // RVA: 0x7ADE352E0
     }
 
-    public class JsonMergeSettings
+    public class JTokenEqualityComparer : Object
     {
-        public 0x658E7648 RegexMatchTimeout; // 0x10
-        public 0x658E76A0 ErrorWhenNoMatch; // 0x14
-        public 0x657DC208 _propertyNameComparison; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x603BAE0
-        public void get_MergeArrayHandling(){} // RVA: 0x32A5C0
-        public void set_MergeArrayHandling(){} // RVA: 0x603BAF0
-        public void get_MergeNullValueHandling(){} // RVA: 0x8ABED0
-        public void set_MergeNullValueHandling(){} // RVA: 0x603BB60
-        public void get_PropertyNameComparison(){} // RVA: 0x5BED50
-        public void set_PropertyNameComparison(){} // RVA: 0x603BBD0
+        public void Equals(){} // RVA: 0x7ADE37410
+        public void GetHashCode(){} // RVA: 0x7ADE374B0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class JsonSelectSettings
+    public class JTokenReader : JsonReader
     {
-        public System.Nullable`1<System.TimeSpan> <RegexMatchTimeout>k__BackingField; // 0x10
-        public bool <ErrorWhenNoMatch>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void get_RegexMatchTimeout(){} // RVA: 0x196ABE0
-        public void set_RegexMatchTimeout(){} // RVA: 0x196ABF0
-        public void get_ErrorWhenNoMatch(){} // RVA: 0x3CB9D0
-        public void set_ErrorWhenNoMatch(){} // RVA: 0x3CB9E0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_CurrentToken(){} // RVA: 0x7A8555100
+        public void .ctor(){} // RVA: 0x7ADE37610
+        public void Read(){} // RVA: 0x7ADE37690
+        public void ReadOver(){} // RVA: 0x7ADE378E0
+        public void ReadToEnd(){} // RVA: 0x7ADE379D0
+        public void GetEndToken(){} // RVA: 0x7ADE37A50
+        public void ReadInto(){} // RVA: 0x7ADE37BB0
+        public void SetEnd(){} // RVA: 0x7ADE37CE0
+        public void SetToken(){} // RVA: 0x7ADE37F40
+        public void SafeToString(){} // RVA: 0x7ADE38640
+        public void Newtonsoft.Json.IJsonLineInfo.HasLineInfo(){} // RVA: 0x7ADE38670
+        public void Newtonsoft.Json.IJsonLineInfo.get_LineNumber(){} // RVA: 0x7ADE386D0
+        public void Newtonsoft.Json.IJsonLineInfo.get_LinePosition(){} // RVA: 0x7ADE38730
+        public void get_Path(){} // RVA: 0x7ADE38790
+    }
+
+    public class JTokenType[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D3F10
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29EBF0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6990
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA281BF0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29EBF0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class JTokenWriter : JsonWriter
+    {
+        // ── Methods ──
+        public void WriteTokenAsync(){} // RVA: 0x7ADE38A30
+        public void get_CurrentToken(){} // RVA: 0x7A82C2060
+        public void get_Token(){} // RVA: 0x7ADE38B40
+        public void .ctor(){} // RVA: 0x7ADE38CE0
+        public void Flush(){} // RVA: 0x7A80D7310
+        public void Close(){} // RVA: 0x7ADE38D40
+        public void WriteStartObject(){} // RVA: 0x7ADE38D50
+        public void AddParent(){} // RVA: 0x7ADE38DE0
+        public void RemoveParent(){} // RVA: 0x7ADE38FB0
+        public void WriteStartArray(){} // RVA: 0x7ADE39110
+        public void WriteStartConstructor(){} // RVA: 0x7ADE391A0
+        public void WriteEnd(){} // RVA: 0x7ADE38FB0
+        public void WritePropertyName(){} // RVA: 0x7ADE39240
+        public void AddRawValue(){} // RVA: 0x7ADE393E0
+        public void AddJValue(){} // RVA: 0x7ADE39480
+        public void WriteValue(){} // RVA: 0x7ADE3A730
+        public void WriteNull(){} // RVA: 0x7ADE39770
+        public void WriteUndefined(){} // RVA: 0x7ADE39800
+        public void WriteRaw(){} // RVA: 0x7ADE39890
+        public void WriteComment(){} // RVA: 0x7ADE39910
+        public void WriteToken(){} // RVA: 0x7ADE3A860
+    }
+
+    public class JToken[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class JValue : JToken
+    {
+        // ── Methods ──
+        public void WriteToAsync(){} // RVA: 0x7ADE3AC20
+        public void .ctor(){} // RVA: 0x7ADE3BDC0
+        public void DeepEquals(){} // RVA: 0x7ADE3BE00
+        public void get_HasValues(){} // RVA: 0x7A80D7320
+        public void CompareBigInteger(){} // RVA: 0x7ADE3BEC0
+        public void Compare(){} // RVA: 0x7ADE3C2D0
+        public void CompareFloat(){} // RVA: 0x7ADE3D050
+        public void Operation(){} // RVA: 0x7ADE3D220
+        public void CloneToken(){} // RVA: 0x7ADE3DE20
+        public void CreateComment(){} // RVA: 0x7ADE3DF30
+        public void CreateString(){} // RVA: 0x7ADE3DF90
+        public void CreateNull(){} // RVA: 0x7ADE3DFF0
+        public void CreateUndefined(){} // RVA: 0x7ADE3E050
+        public void GetValueType(){} // RVA: 0x7ADE3E0B0
+        public void GetStringValueType(){} // RVA: 0x7ADE3E660
+        public void get_Type(){} // RVA: 0x7A8133100
+        public void get_Value(){} // RVA: 0x7A8292C30
+        public void set_Value(){} // RVA: 0x7ADE3E6D0
+        public void WriteTo(){} // RVA: 0x7ADE3E800
+        public void GetDeepHashCode(){} // RVA: 0x7ADE3F270
+        public void ValuesEquals(){} // RVA: 0x7ADE3F2B0
+        public void Equals(){} // RVA: 0x7ADE3F350
+        public void GetHashCode(){} // RVA: 0x7ADE3F410
+        public void ToString(){} // RVA: 0x7ADE3F570
+        public void GetMetaObject(){} // RVA: 0x7ADE3F650
+        public void System.IComparable.CompareTo(){} // RVA: 0x7ADE3F730
+        public void CompareTo(){} // RVA: 0x7ADE3F7F0
+        public void System.IConvertible.GetTypeCode(){} // RVA: 0x7ADE3F820
+        public void System.IConvertible.ToBoolean(){} // RVA: 0x7ADE3F890
+        public void System.IConvertible.ToChar(){} // RVA: 0x7ADE3F8E0
+        public void System.IConvertible.ToSByte(){} // RVA: 0x7ADE3F930
+        public void System.IConvertible.ToByte(){} // RVA: 0x7ADE3F980
+        public void System.IConvertible.ToInt16(){} // RVA: 0x7ADE3F9D0
+        public void System.IConvertible.ToUInt16(){} // RVA: 0x7ADE3FA20
+        public void System.IConvertible.ToInt32(){} // RVA: 0x7ADE3FA70
+        public void System.IConvertible.ToUInt32(){} // RVA: 0x7ADE3FAC0
+        public void System.IConvertible.ToInt64(){} // RVA: 0x7ADE3FB10
+        public void System.IConvertible.ToUInt64(){} // RVA: 0x7ADE3FB60
+        public void System.IConvertible.ToSingle(){} // RVA: 0x7ADE3FBB0
+        public void System.IConvertible.ToDouble(){} // RVA: 0x7ADE3FC00
+        public void System.IConvertible.ToDecimal(){} // RVA: 0x7ADE3FC50
+        public void System.IConvertible.ToDateTime(){} // RVA: 0x7ADE3FCC0
+        public void System.IConvertible.ToType(){} // RVA: 0x7ADE3FD10
+    }
+
+    public class JsonCloneSettings : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A847A240
+        public void get_CopyAnnotations(){} // RVA: 0x7A81A2200
+        public void set_CopyAnnotations(){} // RVA: 0x7A81A2210
+        public void .cctor(){} // RVA: 0x7ADE28110
+    }
+
+    public class JsonLoadSettings : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADE281B0
+        public void get_CommentHandling(){} // RVA: 0x7A8124910
+        public void set_CommentHandling(){} // RVA: 0x7ADE281C0
+        public void get_LineInfoHandling(){} // RVA: 0x7A8668BC0
+        public void set_LineInfoHandling(){} // RVA: 0x7ADE28230
+        public void get_DuplicatePropertyNameHandling(){} // RVA: 0x7A83782A0
+        public void set_DuplicatePropertyNameHandling(){} // RVA: 0x7ADE282A0
+    }
+
+    public class JsonMergeSettings : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADE28310
+        public void get_MergeArrayHandling(){} // RVA: 0x7A8124910
+        public void set_MergeArrayHandling(){} // RVA: 0x7ADE28320
+        public void get_MergeNullValueHandling(){} // RVA: 0x7A8668BC0
+        public void set_MergeNullValueHandling(){} // RVA: 0x7ADE28390
+        public void get_PropertyNameComparison(){} // RVA: 0x7A83782A0
+        public void set_PropertyNameComparison(){} // RVA: 0x7ADE28400
+    }
+
+    public class JsonSelectSettings : Object
+    {
+        // ── Methods ──
+        public void get_RegexMatchTimeout(){} // RVA: 0x7A97277F0
+        public void set_RegexMatchTimeout(){} // RVA: 0x7A9727800
+        public void get_ErrorWhenNoMatch(){} // RVA: 0x7A81C68D0
+        public void set_ErrorWhenNoMatch(){} // RVA: 0x7A81C68E0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

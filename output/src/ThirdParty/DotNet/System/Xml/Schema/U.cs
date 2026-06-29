@@ -5,23 +5,20 @@
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class UnionFacetsChecker
+    public class UnionFacetsChecker : FacetsChecker
     {
         // ── Methods ──
-        public void CheckValueFacets(){} // RVA: 0x692EEE0
-        public void MatchEnumeration(){} // RVA: 0x692EE20
-        public void .ctor(){} // RVA: 0x2DD310
+        public void CheckValueFacets(){} // RVA: 0x7AE71E640
+        public void MatchEnumeration(){} // RVA: 0x7AE71E580
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class UpaException
+    public class UpaException : Exception
     {
-        public object particle1; // 0x90
-        public object particle2; // 0x98
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6AD8DA0
-        public void get_Particle1(){} // RVA: 0x796DE0
-        public void get_Particle2(){} // RVA: 0xA1C8C0
+        public void .ctor(){} // RVA: 0x7AE8C9210
+        public void get_Particle1(){} // RVA: 0x7A8555100
+        public void get_Particle2(){} // RVA: 0x7A87D9C10
     }
 
 }

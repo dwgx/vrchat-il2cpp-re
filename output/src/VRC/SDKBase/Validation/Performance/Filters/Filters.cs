@@ -5,105 +5,105 @@
 
 namespace VRC.SDKBase.Validation.Performance.Filters
 {
-    public class AbstractPerformanceFilter
+    public class AbstractPerformanceFilter : ScriptableObject
     {
         // ── Methods ──
-        public void ApplyPerformanceFilter(){}
-        public void RemoveComponentsOfTypeEnumerator(){} // RVA: 0xCE50
-        public void RemoveComponent(){} // RVA: 0x9ABF750
-        public void RemoveDependencies(){} // RVA: 0x9ABF7F0
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A7E12A30
+        public void RemoveComponentsOfTypeEnumerator(){} // RVA: 0x7A7E00BA0
+        public void RemoveComponent(){} // RVA: 0x7B1900E00
+        public void RemoveDependencies(){} // RVA: 0x7B1900EA0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class AnimatorPerformanceFilter
+    public class AnimatorPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void ApplyPerformanceFilter(){} // RVA: 0x592D30
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834BE00
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class AudioPerformanceFilter
+    public class AudioPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void ApplyPerformanceFilter(){} // RVA: 0x593900
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834C9D0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class ClothPerformanceFilter
+    public class ClothPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void ApplyPerformanceFilter(){} // RVA: 0x593C00
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834CCD0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class ConstraintPerformanceFilter
+    public class ConstraintPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void ApplyPerformanceFilter(){} // RVA: 0x594050
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834D120
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class ContactPerformanceFilter
+    public class ContactPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void ApplyPerformanceFilter(){} // RVA: 0x5944B0
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834D580
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class LightPerformanceFilter
+    public class LightPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
-        public void ApplyPerformanceFilter(){} // RVA: 0x5949B0
+        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834DA80
     }
 
-    public class LineRendererPerformanceFilter
+    public class LineRendererPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
-        public void ApplyPerformanceFilter(){} // RVA: 0x594DC0
+        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834DEA0
     }
 
-    public class MeshPerformanceFilter
+    public class MeshPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
-        public void ApplyPerformanceFilter(){} // RVA: 0x595120
+        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834E200
     }
 
-    public class ParticlePerformanceFilter
+    public class ParticlePerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
-        public void ApplyPerformanceFilter(){} // RVA: 0x595470
+        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834E550
     }
 
-    public class PhysBonePerformanceFilter
+    public class PhysBonePerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
-        public void ApplyPerformanceFilter(){} // RVA: 0x5958D0
+        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834E9B0
     }
 
-    public class PhysicsPerformanceFilter
+    public class PhysicsPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void ApplyPerformanceFilter(){} // RVA: 0x595FE0
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834F0C0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class RaycastPerformanceFilter
+    public class RaycastPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
-        public void ApplyPerformanceFilter(){} // RVA: 0x596660
+        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834F740
     }
 
-    public class TrailRendererPerformanceFilter
+    public class TrailRendererPerformanceFilter : AbstractPerformanceFilter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
-        public void ApplyPerformanceFilter(){} // RVA: 0x5968E0
+        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void ApplyPerformanceFilter(){} // RVA: 0x7A834F9C0
     }
 
 }

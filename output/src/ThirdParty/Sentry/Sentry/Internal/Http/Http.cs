@@ -1,124 +1,114 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Sentry.Sentry.Internal.Http
 // Classes: 10
-// Methods: 59
+// Methods: 56
 
 namespace ThirdParty.Sentry.Sentry.Internal.Http
 {
-    public class CachingTransport
+    public class CachingTransport : Object
     {
-        public string EnvelopeFileExt;
-
         // ── Methods ──
-        public void get_InnerTransport(){} // RVA: 0x2F8380
-        public void Create(){} // RVA: 0x641F8B0
-        public void .ctor(){} // RVA: 0x641F960
-        public void Initialize(){} // RVA: 0x641FF90
-        public void CachedTransportBackgroundTaskAsync(){} // RVA: 0x64206D0
-        public void MoveUnprocessedFilesBackToCache(){} // RVA: 0x6420890
-        public void EnsureFreeSpaceInCache(){} // RVA: 0x6420CD0
-        public void GetCacheFilePaths(){} // RVA: 0x6420F30
-        public void ProcessCacheAsync(){} // RVA: 0x6421080
-        public void IsNetworkError(){} // RVA: 0x6421290
-        public void InnerProcessCacheAsync(){} // RVA: 0x64213B0
-        public void LogFailureWithDiscard(){} // RVA: 0x6421640
-        public void TryPrepareNextCacheFileAsync(){} // RVA: 0x6421830
-        public void StoreToCacheAsync(){} // RVA: 0x6421A20
-        public void GetCacheLength(){} // RVA: 0x6421CB0
-        public void SendEnvelopeAsync(){} // RVA: 0x6421D00
-        public void StopWorkerAsync(){} // RVA: 0x6421F80
-        public void FlushAsync(){} // RVA: 0x64220F0
-        public void DisposeAsync(){} // RVA: 0x6422180
-        public void Dispose(){} // RVA: 0x6422310
-        public void <GetCacheFilePaths>b__24_0(){} // RVA: 0x6422590
+        public void get_InnerTransport(){} // RVA: 0x7A80F2570
+        public void Create(){} // RVA: 0x7AE20D640
+        public void .ctor(){} // RVA: 0x7AE20D6F0
+        public void Initialize(){} // RVA: 0x7AE20DD40
+        public void CachedTransportBackgroundTaskAsync(){} // RVA: 0x7AE20E480
+        public void MoveUnprocessedFilesBackToCache(){} // RVA: 0x7AE20E640
+        public void EnsureFreeSpaceInCache(){} // RVA: 0x7AE20EA80
+        public void GetCacheFilePaths(){} // RVA: 0x7AE20ECE0
+        public void ProcessCacheAsync(){} // RVA: 0x7AE20EE30
+        public void IsNetworkError(){} // RVA: 0x7AE20F040
+        public void InnerProcessCacheAsync(){} // RVA: 0x7AE20F160
+        public void LogFailureWithDiscard(){} // RVA: 0x7AE20F3F0
+        public void TryPrepareNextCacheFileAsync(){} // RVA: 0x7AE20F5E0
+        public void StoreToCacheAsync(){} // RVA: 0x7AE20F7D0
+        public void GetCacheLength(){} // RVA: 0x7AE20FA60
+        public void SendEnvelopeAsync(){} // RVA: 0x7AE20FAB0
+        public void StopWorkerAsync(){} // RVA: 0x7AE20FD30
+        public void FlushAsync(){} // RVA: 0x7AE20FEA0
+        public void DisposeAsync(){} // RVA: 0x7AE20FF30
+        public void Dispose(){} // RVA: 0x7AE2100C0
+        public void <GetCacheFilePaths>b__24_0(){} // RVA: 0x7AE210340
     }
 
-    public class DefaultSentryHttpClientFactory
+    public class DefaultSentryHttpClientFactory : Object
     {
         // ── Methods ──
-        public void Create(){} // RVA: 0x6427380
-        public void SupportsAutomaticDecompression(){} // RVA: 0x6427D20
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Create(){} // RVA: 0x7AE215110
+        public void SupportsAutomaticDecompression(){} // RVA: 0x7AE215AA0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class EnvelopeHttpContent
+    public class EnvelopeHttpContent : SerializableHttpContent
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6427D50
-        public void SerializeToStreamAsync(){} // RVA: 0x6427E50
-        public void SerializeToStream(){} // RVA: 0x6428060
-        public void TryComputeLength(){} // RVA: 0x5E61620
+        public void .ctor(){} // RVA: 0x7AE215AD0
+        public void SerializeToStreamAsync(){} // RVA: 0x7AE215BD0
+        public void SerializeToStream(){} // RVA: 0x7AE215DE0
+        public void TryComputeLength(){} // RVA: 0x7ADC500E0
     }
 
-    public class GzipBufferedRequestBodyHandler
+    public class GzipBufferedRequestBodyHandler : DelegatingHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6428490
-        public void SendAsync(){} // RVA: 0x64285D0
-        public void <>n__0(){} // RVA: 0x63A4B40
+        public void .ctor(){} // RVA: 0x7AE216210
+        public void SendAsync(){} // RVA: 0x7AE216350
+        public void <>n__0(){} // RVA: 0x7AE1916E0
     }
 
-    public class GzipRequestBodyHandler
+    public class GzipRequestBodyHandler : DelegatingHandler
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x64296B0
-        public void SendAsync(){} // RVA: 0x64297F0
+        public void .ctor(){} // RVA: 0x7AE217430
+        public void SendAsync(){} // RVA: 0x7AE217570
     }
 
-    public class HttpTransport
+    public class HttpTransport : HttpTransportBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x642A590 | overloaded x2
-        public void SendEnvelopeAsync(){} // RVA: 0x642A610
+        public void .ctor(){} // RVA: 0x7AE218310
+        public void SendEnvelopeAsync(){} // RVA: 0x7AE218390
     }
 
-    public class LazyHttpTransport : `
+    public class LazyHttpTransport : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x642B550
-        public void SendEnvelopeAsync(){} // RVA: 0x642B730
+        public void .ctor(){} // RVA: 0x7AE2192E0
+        public void SendEnvelopeAsync(){} // RVA: 0x7AE2194C0
     }
 
-    public class RateLimit
+    public class RateLimit : Object
     {
-        public System.Collections.Generic.IReadOnlyList`1<Sentry.Internal.Http.RateLimitCategory> <Categories>k__BackingField; // 0x10
-        public System.Collections.Generic.IReadOnlyList`1<string> <Namespaces>k__BackingField; // 0x18
-        public System.TimeSpan <RetryAfter>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void get_Categories(){} // RVA: 0x2F8380
-        public void get_Namespaces(){} // RVA: 0x2E07C0
-        public void get_IsDefaultNamespace(){} // RVA: 0x642B850
-        public void get_RetryAfter(){} // RVA: 0x30B0C0
-        public void .ctor(){} // RVA: 0x642B9C0
-        public void Parse(){} // RVA: 0x642BA70
-        public void ParseMany(){} // RVA: 0x642C180
+        public void get_Categories(){} // RVA: 0x7A80F2570
+        public void get_Namespaces(){} // RVA: 0x7A80DA7B0
+        public void get_IsDefaultNamespace(){} // RVA: 0x7AE2195E0
+        public void get_RetryAfter(){} // RVA: 0x7A81052C0
+        public void .ctor(){} // RVA: 0x7AE219750
+        public void Parse(){} // RVA: 0x7AE219800
+        public void ParseMany(){} // RVA: 0x7AE219F10
     }
 
-    public class RateLimitCategory
+    public class RateLimitCategory : Object
     {
-        public string <Name>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Name(){} // RVA: 0x2F8380
-        public void get_IsMatchAll(){} // RVA: 0x642C4A0
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Matches(){} // RVA: 0x642C4B0
-        public void Equals(){} // RVA: 0x642C800 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x642C990
+        public void get_Name(){} // RVA: 0x7A80F2570
+        public void get_IsMatchAll(){} // RVA: 0x7AE21A230
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Matches(){} // RVA: 0x7AE21A240
+        public void Equals(){} // RVA: 0x7AE21A520
+        public void GetHashCode(){} // RVA: 0x7AE21A6B0
     }
 
-    public class RetryAfterHandler
+    public class RetryAfterHandler : DelegatingHandler
     {
-        public Sentry.Infrastructure.ISystemClock _clock; // 0x20
-
         // ── Methods ──
-        public void get_RetryAfterUtcTicks(){} // RVA: 0x30B130
-        public void .ctor(){} // RVA: 0x642CC00 | overloaded x2
-        public void SendAsync(){} // RVA: 0x642CD70
-        public void GetRetryAfterTimestamp(){} // RVA: 0x642CFC0
-        public void .cctor(){} // RVA: 0x642D400
-        public void <>n__0(){} // RVA: 0x63A4B40
+        public void get_RetryAfterUtcTicks(){} // RVA: 0x7A8105330
+        public void .ctor(){} // RVA: 0x7AE21A920
+        public void SendAsync(){} // RVA: 0x7AE21AA90
+        public void GetRetryAfterTimestamp(){} // RVA: 0x7AE21ACE0
+        public void .cctor(){} // RVA: 0x7AE21B120
+        public void <>n__0(){} // RVA: 0x7AE1916E0
     }
 
 }

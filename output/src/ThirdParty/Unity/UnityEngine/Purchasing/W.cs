@@ -5,16 +5,16 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class WinRTStore
+    public class WinRTStore : AbstractStore
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x724C780
-        public void Initialize(){} // RVA: 0x343E80
-        public void RetrieveProducts(){} // RVA: 0x724C880
-        public void FinishTransaction(){} // RVA: 0x724CCD0
-        public void init(){} // RVA: 0x724CD30
-        public void Purchase(){} // RVA: 0x724CDA0
-        public void restoreTransactions(){} // RVA: 0x724CE10
+        public void .ctor(){} // RVA: 0x7AF02C220
+        public void Initialize(){} // RVA: 0x7A813E420
+        public void RetrieveProducts(){} // RVA: 0x7AF02C320
+        public void FinishTransaction(){} // RVA: 0x7AF02C780
+        public void init(){} // RVA: 0x7AF02C7E0
+        public void Purchase(){} // RVA: 0x7AF02C850
+        public void restoreTransactions(){} // RVA: 0x7AF02C8C0
     }
 
 }

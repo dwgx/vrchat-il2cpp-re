@@ -5,61 +5,47 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class GetArrayItemInstruction
+    public class GetArrayItemInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.GetArrayItemInstruction Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x660DC80
-        public void Run(){} // RVA: 0x660DCC0
-        public void .cctor(){} // RVA: 0x660DE20
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE3FC700
+        public void Run(){} // RVA: 0x7AE3FC740
+        public void .cctor(){} // RVA: 0x7AE3FC8B0
     }
 
-    public class GotoInstruction
+    public class GotoInstruction : IndexedBranchInstruction
     {
-        public int Variants;
-        public System.Linq.Expressions.Interpreter.GotoInstruction[] s_cache;
-        public bool _hasResult; // 0x18
-
         // ── Methods ──
-        public void get_InstructionName(){} // RVA: 0x6611270
-        public void get_ConsumedStack(){} // RVA: 0x6611010
-        public void get_ProducedStack(){} // RVA: 0x6611020
-        public void .ctor(){} // RVA: 0x66112B0
-        public void Create(){} // RVA: 0x66112D0
-        public void Run(){} // RVA: 0x6611470
-        public void .cctor(){} // RVA: 0x6611580
+        public void get_InstructionName(){} // RVA: 0x7AE3FFD30
+        public void get_ConsumedStack(){} // RVA: 0x7AE3FFAD0
+        public void get_ProducedStack(){} // RVA: 0x7AE3FFAE0
+        public void .ctor(){} // RVA: 0x7AE3FFD70
+        public void Create(){} // RVA: 0x7AE3FFD90
+        public void Run(){} // RVA: 0x7AE3FFF30
+        public void .cctor(){} // RVA: 0x7AE400040
     }
 
-    public class GreaterThanInstruction
+    public class GreaterThanInstruction : Instruction
     {
-        public object _nullValue; // 0x10
-        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6618F20
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Create(){} // RVA: 0x6618F60
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE407A30
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Create(){} // RVA: 0x7AE407A70
     }
 
-    public class GreaterThanOrEqualInstruction
+    public class GreaterThanOrEqualInstruction : Instruction
     {
-        public object _nullValue; // 0x10
-        public System.Linq.Expressions.Interpreter.Instruction s_SByte;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16; // 0x8
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x661AC60
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Create(){} // RVA: 0x661ACA0
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE409770
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Create(){} // RVA: 0x7AE4097B0
     }
 
 }

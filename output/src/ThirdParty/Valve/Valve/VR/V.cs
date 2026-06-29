@@ -1,238 +1,68 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Valve.Valve.VR
-// Classes: 55
-// Methods: 5
+// Classes: 5
+// Methods: 35
 
 namespace ThirdParty.Valve.Valve.VR
 {
-    public class VRActiveActionSet_t
-    {
-    }
-
-    public class VRBoneTransform_t
-    {
-    }
-
-    public class VRControllerAxis_t
-    {
-    }
-
-    public class VRControllerState_t
-    {
-    }
-
-    public class VRControllerState_t_Packed
+    public class VRActiveActionSet_t[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x61EE610
-        public void Unpack(){} // RVA: 0x61EE640
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A18F0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E0E0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2F10
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2508F0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E0E0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class VREvent_ApplicationLaunch_t
-    {
-    }
-
-    public class VREvent_AudioMuteControl_t
-    {
-    }
-
-    public class VREvent_AudioVolumeControl_t
-    {
-    }
-
-    public class VREvent_Chaperone_t
-    {
-    }
-
-    public class VREvent_Controller_t
-    {
-    }
-
-    public class VREvent_Data_t
-    {
-    }
-
-    public class VREvent_EditingCameraSurface_t
-    {
-    }
-
-    public class VREvent_HDCPError_t
-    {
-    }
-
-    public class VREvent_HapticVibration_t
-    {
-    }
-
-    public class VREvent_InputActionManifestLoad_t
-    {
-    }
-
-    public class VREvent_InputBindingLoad_t
-    {
-    }
-
-    public class VREvent_Ipd_t
-    {
-    }
-
-    public class VREvent_Keyboard_t
-    {
-        public byte cNewInput0; // 0x10
-
-        // ── Methods ──
-        public void get_cNewInput(){} // RVA: 0x70678A0
-    }
-
-    public class VREvent_MessageOverlay_t
-    {
-    }
-
-    public class VREvent_Mouse_t
-    {
-    }
-
-    public class VREvent_Notification_t
-    {
-    }
-
-    public class VREvent_Overlay_t
-    {
-    }
-
-    public class VREvent_PerformanceTest_t
-    {
-    }
-
-    public class VREvent_Process_t
-    {
-    }
-
-    public class VREvent_ProgressUpdate_t
-    {
-    }
-
-    public class VREvent_Property_t
-    {
-    }
-
-    public class VREvent_Reserved_t
-    {
-    }
-
-    public class VREvent_ScreenshotProgress_t
-    {
-    }
-
-    public class VREvent_Screenshot_t
-    {
-    }
-
-    public class VREvent_Scroll_t
-    {
-    }
-
-    public class VREvent_SeatedZeroPoseReset_t
-    {
-    }
-
-    public class VREvent_ShowDevTools_t
-    {
-    }
-
-    public class VREvent_ShowUI_t
-    {
-    }
-
-    public class VREvent_SpatialAnchor_t
-    {
-    }
-
-    public class VREvent_Status_t
-    {
-    }
-
-    public class VREvent_TouchPadMove_t
-    {
-    }
-
-    public class VREvent_WebConsole_t
-    {
-    }
-
-    public class VREvent_t
-    {
-    }
-
-    public class VREvent_t_Packed
+    public class VRBoneTransform_t[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x70679B0
-        public void Unpack(){} // RVA: 0x70679E0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A18F0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E0E0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2F10
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2508F0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E0E0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class VRNativeDevice_t
+    public class VRControllerState_t_Packed : ValueType
     {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7E64AF0
+        public void Unpack(){} // RVA: 0x7A7E64B90
     }
 
-    public class VROverlayIntersectionMaskPrimitive_Data_t
+    public class VREvent_Keyboard_t : ValueType
     {
+        // ── Methods ──
+        public void get_cNewInput(){} // RVA: 0x7A7ED3340
     }
 
-    public class VROverlayIntersectionMaskPrimitive_t
+    public class VREvent_t_Packed : ValueType
     {
-    }
-
-    public class VROverlayIntersectionParams_t
-    {
-    }
-
-    public class VROverlayIntersectionResults_t
-    {
-    }
-
-    public class VROverlayProjection_t
-    {
-    }
-
-    public class VROverlayView_t
-    {
-    }
-
-    public class VRSkeletalSummaryData_t
-    {
-    }
-
-    public class VRTextureBounds_t
-    {
-    }
-
-    public class VRTextureDepthInfo_t
-    {
-    }
-
-    public class VRTextureWithDepth_t
-    {
-    }
-
-    public class VRTextureWithPoseAndDepth_t
-    {
-    }
-
-    public class VRTextureWithPose_t
-    {
-    }
-
-    public class VRVulkanDevice_t
-    {
-    }
-
-    public class VRVulkanTextureArrayData_t
-    {
-    }
-
-    public class VRVulkanTextureData_t
-    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7ED3450
+        public void Unpack(){} // RVA: 0x7A7ED3490
     }
 
 }

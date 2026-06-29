@@ -1,102 +1,80 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 // Classes: 4
-// Methods: 58
+// Methods: 52
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.PoseLandmarker.Proto
 {
-    public class PoseLandmarkerGraphOptions
+    public class PoseLandmarkerGraphOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarkerGraphOptions> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public int _hasBits0; // 0x18
-        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
-        public Mediapipe.Tasks.Vision.PoseDetector.Proto.PoseDetectorGraphOptions poseDetectorGraphOptions_; // 0x28
-        public Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarksDetectorGraphOptions poseLandmarksDetectorGraphOptions_; // 0x30
-        public float MinTrackingConfidenceDefaultValue; // 0x8
-        public float minTrackingConfidence_; // 0x38
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x5B5C220
-        public void get_Descriptor(){} // RVA: 0x5B5C280
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B5C340
-        public void .ctor(){} // RVA: 0x5B5C430 | overloaded x2
-        public void Clone(){} // RVA: 0x5B5C680
-        public void get_BaseOptions(){} // RVA: 0x30B0C0
-        public void set_BaseOptions(){} // RVA: 0x30B0D0
-        public void get_PoseDetectorGraphOptions(){} // RVA: 0x30B130
-        public void set_PoseDetectorGraphOptions(){} // RVA: 0x2DEE90
-        public void get_PoseLandmarksDetectorGraphOptions(){} // RVA: 0x6374D0
-        public void set_PoseLandmarksDetectorGraphOptions(){} // RVA: 0x30B890
-        public void get_MinTrackingConfidence(){} // RVA: 0x5B5C6E0
-        public void set_MinTrackingConfidence(){} // RVA: 0x5B5C750
-        public void get_HasMinTrackingConfidence(){} // RVA: 0x5A5C3B0
-        public void ClearMinTrackingConfidence(){} // RVA: 0x5A5C3C0
-        public void Equals(){} // RVA: 0x5B5C7C0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x5B5C970
-        public void ToString(){} // RVA: 0x5B5CAA0
-        public void WriteTo(){} // RVA: 0x5A39740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B5CAF0
-        public void CalculateSize(){} // RVA: 0x5B5CBC0
-        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B5CFE0
-        public void .cctor(){} // RVA: 0x5B5D150
+        public void get_Parser(){} // RVA: 0x7AD949D80
+        public void get_Descriptor(){} // RVA: 0x7AD949DE0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD949EA0
+        public void .ctor(){} // RVA: 0x7AD949F90
+        public void Clone(){} // RVA: 0x7AD94A200
+        public void get_BaseOptions(){} // RVA: 0x7A81052C0
+        public void set_BaseOptions(){} // RVA: 0x7A81052D0
+        public void get_PoseDetectorGraphOptions(){} // RVA: 0x7A8105330
+        public void set_PoseDetectorGraphOptions(){} // RVA: 0x7A80D8E80
+        public void get_PoseLandmarksDetectorGraphOptions(){} // RVA: 0x7A83F69F0
+        public void set_PoseLandmarksDetectorGraphOptions(){} // RVA: 0x7A8105A90
+        public void get_MinTrackingConfidence(){} // RVA: 0x7AD94A260
+        public void set_MinTrackingConfidence(){} // RVA: 0x7AD94A2D0
+        public void get_HasMinTrackingConfidence(){} // RVA: 0x7AD848D40
+        public void ClearMinTrackingConfidence(){} // RVA: 0x7AD848D50
+        public void Equals(){} // RVA: 0x7AD94A340
+        public void GetHashCode(){} // RVA: 0x7AD94A4F0
+        public void ToString(){} // RVA: 0x7AD94A620
+        public void WriteTo(){} // RVA: 0x7AD825C30
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD94A670
+        public void CalculateSize(){} // RVA: 0x7AD94A740
+        public void MergeFrom(){} // RVA: 0x7AD825F70
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD94AB60
+        public void .cctor(){} // RVA: 0x7AD94ACD0
     }
 
-    public class PoseLandmarkerGraphOptionsReflection
+    public class PoseLandmarkerGraphOptionsReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x5B5B640
-        public void .cctor(){} // RVA: 0x5B5B6A0
+        public void get_Descriptor(){} // RVA: 0x7AD9491A0
+        public void .cctor(){} // RVA: 0x7AD949200
     }
 
-    public class PoseLandmarksDetectorGraphOptions
+    public class PoseLandmarksDetectorGraphOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.PoseLandmarker.Proto.PoseLandmarksDetectorGraphOptions> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public int _hasBits0; // 0x18
-        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
-        public float MinDetectionConfidenceDefaultValue; // 0x8
-        public float minDetectionConfidence_; // 0x28
-        public bool SmoothLandmarksDefaultValue; // 0xC
-        public bool smoothLandmarks_; // 0x2C
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x5B5DF20
-        public void get_Descriptor(){} // RVA: 0x5B5DF80
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B5E040
-        public void .ctor(){} // RVA: 0x5B5E130 | overloaded x2
-        public void Clone(){} // RVA: 0x5B5E2C0
-        public void get_BaseOptions(){} // RVA: 0x30B0C0
-        public void set_BaseOptions(){} // RVA: 0x30B0D0
-        public void get_MinDetectionConfidence(){} // RVA: 0x5B5E490
-        public void set_MinDetectionConfidence(){} // RVA: 0x5B5E500
-        public void get_HasMinDetectionConfidence(){} // RVA: 0x5A5C3B0
-        public void ClearMinDetectionConfidence(){} // RVA: 0x5A5C3C0
-        public void get_SmoothLandmarks(){} // RVA: 0x5B5E510
-        public void set_SmoothLandmarks(){} // RVA: 0x5B5E580
-        public void get_HasSmoothLandmarks(){} // RVA: 0x5A5C450
-        public void ClearSmoothLandmarks(){} // RVA: 0x5A5C460
-        public void Equals(){} // RVA: 0x5B5E720 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x5B5E870
-        public void ToString(){} // RVA: 0x5B5E990
-        public void WriteTo(){} // RVA: 0x5A39740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B5E9E0
-        public void CalculateSize(){} // RVA: 0x5B5EA90
-        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B5ED00
-        public void .cctor(){} // RVA: 0x5B5EE00
+        public void get_Parser(){} // RVA: 0x7AD94BAA0
+        public void get_Descriptor(){} // RVA: 0x7AD94BB00
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD94BBC0
+        public void .ctor(){} // RVA: 0x7AD94BCB0
+        public void Clone(){} // RVA: 0x7AD94BE60
+        public void get_BaseOptions(){} // RVA: 0x7A81052C0
+        public void set_BaseOptions(){} // RVA: 0x7A81052D0
+        public void get_MinDetectionConfidence(){} // RVA: 0x7AD94C040
+        public void set_MinDetectionConfidence(){} // RVA: 0x7AD94C0B0
+        public void get_HasMinDetectionConfidence(){} // RVA: 0x7AD848D40
+        public void ClearMinDetectionConfidence(){} // RVA: 0x7AD848D50
+        public void get_SmoothLandmarks(){} // RVA: 0x7AD94C0C0
+        public void set_SmoothLandmarks(){} // RVA: 0x7AD94C130
+        public void get_HasSmoothLandmarks(){} // RVA: 0x7AD848DE0
+        public void ClearSmoothLandmarks(){} // RVA: 0x7AD848DF0
+        public void Equals(){} // RVA: 0x7AD94C2D0
+        public void GetHashCode(){} // RVA: 0x7AD94C420
+        public void ToString(){} // RVA: 0x7AD94C540
+        public void WriteTo(){} // RVA: 0x7AD825C30
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD94C590
+        public void CalculateSize(){} // RVA: 0x7AD94C640
+        public void MergeFrom(){} // RVA: 0x7AD825F70
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD94C8B0
+        public void .cctor(){} // RVA: 0x7AD94C9B0
     }
 
-    public class PoseLandmarksDetectorGraphOptionsReflection
+    public class PoseLandmarksDetectorGraphOptionsReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x5B5D580
-        public void .cctor(){} // RVA: 0x5B5D5E0
+        public void get_Descriptor(){} // RVA: 0x7AD94B100
+        public void .cctor(){} // RVA: 0x7AD94B160
     }
 
 }

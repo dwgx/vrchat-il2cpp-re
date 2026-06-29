@@ -1,17 +1,15 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Annotations
 // Classes: 1
-// Methods: 3
+// Methods: 2
 
 namespace VRC.Annotations
 {
-    public class VRChatInternalAPI
+    public class VRChatInternalAPI : Attribute
     {
-        public string <Comment>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x2
-        public void get_Comment(){} // RVA: 0x2F8380
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Comment(){} // RVA: 0x7A80F2570
     }
 
 }

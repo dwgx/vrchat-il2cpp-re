@@ -1,29 +1,25 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Security.Cryptography
 // Classes: 1
-// Methods: 14
+// Methods: 12
 
 namespace ThirdParty.DotNet.System.Security.Cryptography
 {
-    public class FromBase64Transform
+    public class FromBase64Transform : Object
     {
-        public byte[] _inputBuffer; // 0x10
-        public int _inputIndex; // 0x18
-        public 0x657E6FA0 _whitespaces; // 0x1C
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C770C0 | overloaded x2
-        public void get_InputBlockSize(){} // RVA: 0x3CFAF0
-        public void get_OutputBlockSize(){} // RVA: 0xA308B0
-        public void get_CanTransformMultipleBlocks(){} // RVA: 0x2DD320
-        public void get_CanReuseTransform(){} // RVA: 0x3C2850
-        public void TransformBlock(){} // RVA: 0x5C77170
-        public void TransformFinalBlock(){} // RVA: 0x5C776F0
-        public void DiscardWhiteSpaces(){} // RVA: 0x5C77C10
-        public void Dispose(){} // RVA: 0x5C77E20 | overloaded x2
-        public void Reset(){} // RVA: 0xA52E70
-        public void Clear(){} // RVA: 0x5C77DB0
-        public void Finalize(){} // RVA: 0x5C76FE0
+        public void .ctor(){} // RVA: 0x7ADA65070
+        public void get_InputBlockSize(){} // RVA: 0x7A81CA9D0
+        public void get_OutputBlockSize(){} // RVA: 0x7A87EE0F0
+        public void get_CanTransformMultipleBlocks(){} // RVA: 0x7A80D7320
+        public void get_CanReuseTransform(){} // RVA: 0x7A81BD750
+        public void TransformBlock(){} // RVA: 0x7ADA65120
+        public void TransformFinalBlock(){} // RVA: 0x7ADA656A0
+        public void DiscardWhiteSpaces(){} // RVA: 0x7ADA65BC0
+        public void Dispose(){} // RVA: 0x7ADA65DF0
+        public void Reset(){} // RVA: 0x7A8810990
+        public void Clear(){} // RVA: 0x7ADA65D80
+        public void Finalize(){} // RVA: 0x7ADA64F90
     }
 
 }

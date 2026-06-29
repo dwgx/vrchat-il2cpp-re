@@ -1,74 +1,99 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI.Client.Emoji
-// Classes: 3
-// Methods: 38
+// Classes: 5
+// Methods: 66
 
 namespace VRC.UI.Client.Emoji
 {
-    public class EmojiCategoryList
+    public class EmojiCategoryList : ScriptableObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class EmojiData
+    public class EmojiData : ScriptableObject
     {
-        public string Name; // 0x18
-        public string Tooltip; // 0x20
-        public UnityEngine.Sprite Thumb; // 0x28
-        public string prefabName; // 0x30
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÏÌÏÏÍÎÎÎÎÌÌÎÍÍÍÎÏÌÏÌÌÍÍ>k__BackingField; // 0x38
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÌÏÍÌÏÌÌÎÍÏÍÍÏÍÌÌÎÍÍÏÎÎÏ>k__BackingField; // 0x40
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Sprite> <ÍÍÍÌÎÏÏÍÎÍÍÌÍÌÎÏÎÎÎÎÍÌÏ>k__BackingField; // 0x48
-        public string <ÎÎÍÏÌÍÌÌÎÎÌÌÏÏÍÏÌÎÌÏÌÎÏ>k__BackingField; // 0x50
-        public string _customPrefabName; // 0x58
-        public string <ÎÎÍÌÌÎÍÍÍÏÏÎÌÍÍÍÌÏÌÏÍÏÏ>k__BackingField; // 0x60
-        public string <ÍÍÍÏÏÍÎÎÎÌÍÌÌÌÍÍÌÍÍÌÏÌÌ>k__BackingField; // 0x68
-        public bool <ÏÌÍÏÏÏÏÎÎÎÏÎÌÎÏÌÌÏÌÏÌÎÏ>k__BackingField; // 0x70
-
         // ── Methods ──
-        public void get_OwnerID(){} // RVA: 0xCC3360
-        public void get_FPS(){} // RVA: 0x519240
-        public void set_LoopStyle(){} // RVA: 0x4354D0
-        public void get_LoadFrom(){} // RVA: 0x519240
-        public void set_Sprite(){} // RVA: 0x358740
-        public void set_LoadFrom(){} // RVA: 0x3A5510
-        public void set_EffectBundleID(){} // RVA: 0x37B370
-        public void get_EffectBundleID(){} // RVA: 0xCC33A0
-        public void get_FullResolutionTexture(){} // RVA: 0x35A740
-        public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x359330
-        public void set_IsAnimated(){} // RVA: 0x4976A0
-        public void get_IsAnimated(){} // RVA: 0x2DD320
-        public void set_Frames(){} // RVA: 0xCC33E0
-        public void get_Frames(){} // RVA: 0x519240
-        public void get_Sprite(){} // RVA: 0x358730
-        public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x359320
-        public void set_IsPremium(){} // RVA: 0xCC3510
-        public void get_IsPremium(){} // RVA: 0x2DD320
-        public void get_ID(){} // RVA: 0x2E07C0
-        public void get_MaskTag(){} // RVA: 0x37B370
-        public void get_AnimationStyle(){} // RVA: 0x358D50
-        public void get_IsSpecialFX(){} // RVA: 0x2DD320
-        public void set_FullResolutionTexture(){} // RVA: 0x305200
-        public void set_DisplayTexture(){} // RVA: 0x49B830
-        public void get_IsBuiltIn(){} // RVA: 0x3C2850
-        public void get_DisplayTexture(){} // RVA: 0x4976A0
-        public void get_LoopStyle(){} // RVA: 0x37E0E0
-        public void set_IsBuiltIn(){} // RVA: 0x3C2850
-        public void .ctor(){} // RVA: 0x53BFB0
-        public void set_AnimationStyle(){} // RVA: 0x358D60
-        public void set_FileId(){} // RVA: 0x4976A0
-        public void set_SpawnablePrefabName(){} // RVA: 0x49B830
-        public void set_ID(){} // RVA: 0x519240
-        public void get_SpawnablePrefabName(){} // RVA: 0xCC37F0
-        public void get_FileId(){} // RVA: 0x519240
-        public void set_MaskTag(){} // RVA: 0x519240
+        public void get_FPS(){} // RVA: 0x7A82D1450
+        public void set_FullResolutionTexture(){} // RVA: 0x7A80FF440
+        public void get_AnimationStyle(){} // RVA: 0x7A8153390
+        public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7A8153980
+        public void get_SpawnablePrefabName(){} // RVA: 0x7A8A647E0
+        public void set_SpawnablePrefabName(){} // RVA: 0x7A8A64800
+        public void set_LoadFrom(){} // RVA: 0x7A8A64930
+        public void set_IsBuiltIn(){} // RVA: 0x7A8152D80
+        public void get_LoadFrom(){} // RVA: 0x7A82D1450
+        public void set_EffectBundleID(){} // RVA: 0x7A81A0060
+        public void get_EffectBundleID(){} // RVA: 0x7A8A64A60
+        public void get_IsBuiltIn(){} // RVA: 0x7A81BD750
+        public void get_FileId(){} // RVA: 0x7A82D1450
+        public void .ctor(){} // RVA: 0x7A82F4A40
+        public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x7A8153990
+        public void get_IsPremium(){} // RVA: 0x7A80D7320
+        public void get_FullResolutionTexture(){} // RVA: 0x7A8154D80
+        public void get_MaskTag(){} // RVA: 0x7A8175DF0
+        public void get_IsAnimated(){} // RVA: 0x7A80D7320
+        public void get_LoopStyle(){} // RVA: 0x7A8178B90
+        public void set_IsAnimated(){} // RVA: 0x7A8292C30
+        public void set_MaskTag(){} // RVA: 0x7A80D7320
+        public void get_DisplayTexture(){} // RVA: 0x7A8292C30
+        public void set_AnimationStyle(){} // RVA: 0x7A81533A0
+        public void set_OwnerID(){} // RVA: 0x7A82D1450
+        public void set_Sprite(){} // RVA: 0x7A8152D90
+        public void get_Sprite(){} // RVA: 0x7A8152D80
+        public void set_LoopStyle(){} // RVA: 0x7A8230620
+        public void get_OwnerID(){} // RVA: 0x7A8A64AA0
+        public void get_Frames(){} // RVA: 0x7A82D1450
+        public void get_IsSpecialFX(){} // RVA: 0x7A80D7320
+        public void get_ID(){} // RVA: 0x7A80DA7B0
+        public void set_ID(){} // RVA: 0x7A8A64AE0
+        public void set_DisplayTexture(){} // RVA: 0x7A8296DE0
     }
 
-    public class EmojiDataList
+    public class EmojiDataList : ScriptableObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void .ctor(){} // RVA: 0x7A82F4A40
+    }
+
+    public class EmojiDataList[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class EmojiData[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
 }

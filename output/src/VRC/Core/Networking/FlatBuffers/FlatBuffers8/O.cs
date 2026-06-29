@@ -1,55 +1,51 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.FlatBuffers.FlatBuffers8
 // Classes: 3
-// Methods: 31
+// Methods: 28
 
 namespace VRC.Core.Networking.FlatBuffers.FlatBuffers8
 {
-    public class ObjectPool
+    public class ObjectPool : ValueType
     {
-        public Google.FlatBuffers8.Table __p; // 0x10
-
         // ── Methods ──
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void ValidateVersion(){} // RVA: 0x2DD310
-        public void GetRootAsObjectPool(){} // RVA: 0x75E0C40 | overloaded x2
-        public void VerifyObjectPool(){} // RVA: 0x75E3A40
-        public void __init(){} // RVA: 0x75E0560
-        public void __assign(){} // RVA: 0x75E0630
-        public void Data(){} // RVA: 0x75E11F0
-        public void get_DataLength(){} // RVA: 0x75E1270
-        public void GetDataBytes(){} // RVA: 0x75E3B30
-        public void GetDataArray(){} // RVA: 0x75E3BA0
-        public void CreateObjectPool(){} // RVA: 0x75E3BF0
-        public void StartObjectPool(){} // RVA: 0x75E0EB0
-        public void AddData(){} // RVA: 0x75E0ED0
-        public void CreateDataVector(){} // RVA: 0x75E1460
-        public void CreateDataVectorBlock(){} // RVA: 0x75E3E00 | overloaded x3
-        public void StartDataVector(){} // RVA: 0x75E1700
-        public void EndObjectPool(){} // RVA: 0x75E3E90
-        public void FinishObjectPoolBuffer(){} // RVA: 0x75E2530
-        public void FinishSizePrefixedObjectPoolBuffer(){} // RVA: 0x75E2590
-        public void UnPack(){} // RVA: 0x75E3F20
-        public void UnPackTo(){} // RVA: 0x75E3FD0
-        public void Pack(){} // RVA: 0x75E41E0
+        public void get_ByteBuffer(){} // RVA: 0x7A765F080
+        public void ValidateVersion(){} // RVA: 0x7A80D7310
+        public void GetRootAsObjectPool(){} // RVA: 0x7AF3BF190
+        public void VerifyObjectPool(){} // RVA: 0x7AF3C1FD0
+        public void __init(){} // RVA: 0x7A7F12470
+        public void __assign(){} // RVA: 0x7A7F12480
+        public void Data(){} // RVA: 0x7A7F12810
+        public void get_DataLength(){} // RVA: 0x7A7F12820
+        public void GetDataBytes(){} // RVA: 0x7A7F12B50
+        public void GetDataArray(){} // RVA: 0x7A7F12BC0
+        public void CreateObjectPool(){} // RVA: 0x7AF3C2180
+        public void StartObjectPool(){} // RVA: 0x7AF3BF400
+        public void AddData(){} // RVA: 0x7AF3BF420
+        public void CreateDataVector(){} // RVA: 0x7AF3BF9B0
+        public void CreateDataVectorBlock(){} // RVA: 0x7AF3C2390
+        public void StartDataVector(){} // RVA: 0x7AF3BFC60
+        public void EndObjectPool(){} // RVA: 0x7AF3C2420
+        public void FinishObjectPoolBuffer(){} // RVA: 0x7AF3C0AA0
+        public void FinishSizePrefixedObjectPoolBuffer(){} // RVA: 0x7AF3C0B00
+        public void UnPack(){} // RVA: 0x7A7F12C10
+        public void UnPackTo(){} // RVA: 0x7A7F12C20
+        public void Pack(){} // RVA: 0x7AF3C2770
     }
 
-    public class ObjectPoolT
+    public class ObjectPoolT : Object
     {
-        public System.Collections.Generic.List`1<byte> <Data>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void get_Data(){} // RVA: 0x2F8380
-        public void set_Data(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x574FB20
-        public void DeserializeFromBinary(){} // RVA: 0x75E4310
-        public void SerializeToBinary(){} // RVA: 0x75E43C0
+        public void get_Data(){} // RVA: 0x7A80F2570
+        public void set_Data(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7AD51EC30
+        public void DeserializeFromBinary(){} // RVA: 0x7AF3C28A0
+        public void SerializeToBinary(){} // RVA: 0x7AF3C2950
     }
 
-    public class ObjectPoolVerify
+    public class ObjectPoolVerify : Object
     {
         // ── Methods ──
-        public void Verify(){} // RVA: 0x75E1B00
+        public void Verify(){} // RVA: 0x7AF3C0060
     }
 
 }

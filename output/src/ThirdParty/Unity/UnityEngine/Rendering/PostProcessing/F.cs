@@ -1,30 +1,31 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 // Classes: 3
-// Methods: 7
+// Methods: 8
 
 namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
-    public class FastApproximateAntialiasing
+    public class FastApproximateAntialiasing : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FloatParameter
+    public class FloatParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void Interp(){} // RVA: 0x6F30050
-        public void .ctor(){} // RVA: 0x6F30070
+        public void Interp(){} // RVA: 0x7AED0E5C0
+        public void .ctor(){} // RVA: 0x7AED0E5E0
     }
 
-    public class Fog
+    public class Fog : Object
     {
         // ── Methods ──
-        public void GetCameraFlags(){} // RVA: 0x3CFAF0
-        public void IsEnabledAndSupported(){} // RVA: 0x6F1C380
-        public void Render(){} // RVA: 0x6F1C4F0
-        public void .ctor(){} // RVA: 0x570B20
+        public void GetCameraFlags(){} // RVA: 0x7A81CA9D0
+        public void IsEnabledAndSupported(){} // RVA: 0x7AECFA8B0
+        public void Render(){} // RVA: 0x7AECFAA20
+        public void .ctor(){} // RVA: 0x7A8329990
+        public void enabled(){} // RVA: 0x7B4192828
     }
 
 }

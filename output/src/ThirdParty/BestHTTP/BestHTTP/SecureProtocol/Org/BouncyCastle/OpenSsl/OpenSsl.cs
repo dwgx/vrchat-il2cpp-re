@@ -1,78 +1,74 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.OpenSsl
 // Classes: 7
-// Methods: 37
+// Methods: 31
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.OpenSsl
 {
     public class IPasswordFinder
     {
         // ── Methods ──
-        public void GetPassword(){} // RVA: 0xCD60
+        public void GetPassword(){} // RVA: 0x7A7E00680
     }
 
-    public class MiscPemGenerator : .ctor
+    public class MiscPemGenerator : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x325A50 | overloaded x2
-        public void CreatePemObject(){} // RVA: 0x98BA3A0 | overloaded x2
-        public void EncodePrivateKey(){} // RVA: 0x98BAC10
-        public void Generate(){} // RVA: 0x98BB6D0
+        public void .ctor(){} // RVA: 0x7A811FE30
+        public void CreatePemObject(){} // RVA: 0x7B16F58D0
+        public void EncodePrivateKey(){} // RVA: 0x7B16F6120
+        public void Generate(){} // RVA: 0x7B16F6BE0
     }
 
-    public class PemException
+    public class PemException : IOException
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5E254B0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7ADC13C20
     }
 
-    public class PemReader
+    public class PemReader : PemReader
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x98BB890 | overloaded x2
-        public void ReadObject(){} // RVA: 0x98BB9A0
-        public void ReadRsaPublicKey(){} // RVA: 0x98BC120
-        public void ReadPublicKey(){} // RVA: 0x98BC1C0
-        public void ReadCertificate(){} // RVA: 0x98BC200
-        public void ReadCrl(){} // RVA: 0x98BC300
-        public void ReadCertificateRequest(){} // RVA: 0x98BC3F0
-        public void ReadAttributeCertificate(){} // RVA: 0x98BC4F0
-        public void ReadPkcs7(){} // RVA: 0x98BC560
-        public void ReadPrivateKey(){} // RVA: 0x98BC630
-        public void GetCurveParameters(){} // RVA: 0x98BD8A0
+        public void .cctor(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7B16F6DA0
+        public void ReadObject(){} // RVA: 0x7B16F6EB0
+        public void ReadRsaPublicKey(){} // RVA: 0x7B16F7630
+        public void ReadPublicKey(){} // RVA: 0x7B16F76D0
+        public void ReadCertificate(){} // RVA: 0x7B16F7710
+        public void ReadCrl(){} // RVA: 0x7B16F7810
+        public void ReadCertificateRequest(){} // RVA: 0x7B16F7910
+        public void ReadAttributeCertificate(){} // RVA: 0x7B16F7A10
+        public void ReadPkcs7(){} // RVA: 0x7B16F7A80
+        public void ReadPrivateKey(){} // RVA: 0x7B16F7B50
+        public void GetCurveParameters(){} // RVA: 0x7B16F8DB0
     }
 
-    public class PemUtilities
+    public class PemUtilities : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x99533D0
-        public void ParseDekAlgName(){} // RVA: 0x99535C0
-        public void Crypt(){} // RVA: 0x99538F0
-        public void GetCipherParameters(){} // RVA: 0x9953DC0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x7B178EE10
+        public void ParseDekAlgName(){} // RVA: 0x7B178F000
+        public void Crypt(){} // RVA: 0x7B178F330
+        public void GetCipherParameters(){} // RVA: 0x7B178F800
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class PemWriter
+    public class PemWriter : PemWriter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x96E2870
-        public void WriteObject(){} // RVA: 0x9954140 | overloaded x2
+        public void .ctor(){} // RVA: 0x7B151C310
+        public void WriteObject(){} // RVA: 0x7B178FB80
     }
 
-    public class Pkcs8Generator
+    public class Pkcs8Generator : Object
     {
-        public string PbeSha1_RC4_128;
-        public string PbeSha1_RC4_40; // 0x8
-        public string PbeSha1_3DES; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9954300 | overloaded x2
-        public void set_SecureRandom(){} // RVA: 0x30B890
-        public void set_Password(){} // RVA: 0x2DEE30
-        public void set_IterationCount(){} // RVA: 0x99E0D0
-        public void Generate(){} // RVA: 0x99543C0
-        public void .cctor(){} // RVA: 0x9954640
+        public void .ctor(){} // RVA: 0x7B178FD40
+        public void set_SecureRandom(){} // RVA: 0x7A8105A90
+        public void set_Password(){} // RVA: 0x7A80D8E20
+        public void set_IterationCount(){} // RVA: 0x7A8738180
+        public void Generate(){} // RVA: 0x7B178FE00
+        public void .cctor(){} // RVA: 0x7B1790080
     }
 
 }

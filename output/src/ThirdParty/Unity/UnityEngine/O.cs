@@ -1,95 +1,128 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine
-// Classes: 5
-// Methods: 75
+// Classes: 7
+// Methods: 85
 
 namespace ThirdParty.Unity.UnityEngine
 {
-    public class Object
+    public class Object : Object
     {
-        public UIntPtr m_CachedPtr; // 0x10
-        public int OffsetOfInstanceIDInCPlusPlusObject;
-
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x712D640
-        public void GetHashCode(){} // RVA: 0x712D740
-        public void Equals(){} // RVA: 0x712D750
-        public void op_Implicit(){} // RVA: 0x712D980
-        public void CompareBaseObjects(){} // RVA: 0x712DA10
-        public void IsNativeObjectAlive(){} // RVA: 0x712DAE0
-        public void GetCachedPtr(){} // RVA: 0x33B6D40
-        public void get_name(){} // RVA: 0x712DB00
-        public void set_name(){} // RVA: 0x712DB90
-        public void Instantiate(){} // RVA: 0x283FA0 | overloaded x10
-        public void Destroy(){} // RVA: 0x712E760 | overloaded x2
-        public void DestroyImmediate(){} // RVA: 0x712E850 | overloaded x2
-        public void FindObjectsOfType(){} // RVA: 0x712E970 | overloaded x2
-        public void FindObjectsByType(){} // RVA: 0x127A0 | overloaded x3
-        public void DontDestroyOnLoad(){} // RVA: 0x712EAE0
-        public void get_hideFlags(){} // RVA: 0x712EB30
-        public void set_hideFlags(){} // RVA: 0x712EB80
-        public void FindObjectOfType(){} // RVA: 0x712EDB0 | overloaded x3
-        public void FindFirstObjectByType(){} // RVA: 0x712EE70 | overloaded x4
-        public void CheckNullArgument(){} // RVA: 0x712EBE0
-        public void ToString(){} // RVA: 0x712F470 | overloaded x2
-        public void op_Equality(){} // RVA: 0x712EFD0
-        public void op_Inequality(){} // RVA: 0x712F0E0
-        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x712F1F0
-        public void Internal_CloneSingle(){} // RVA: 0x712F240
-        public void Internal_CloneSingleWithParent(){} // RVA: 0x712F290
-        public void Internal_InstantiateSingle(){} // RVA: 0x712F300
-        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x712F3B0
-        public void GetName(){} // RVA: 0x712F4C0
-        public void SetName(){} // RVA: 0x712F510
-        public void FindObjectFromInstanceID(){} // RVA: 0x712F570
-        public void ForceLoadFromInstanceID(){} // RVA: 0x712F5C0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x712F610
-        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x712F650
-        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x712F6C0
+        public void GetInstanceID(){} // RVA: 0x7AEF0C560
+        public void GetHashCode(){} // RVA: 0x7AEF0C660
+        public void Equals(){} // RVA: 0x7AEF0C670
+        public void op_Implicit(){} // RVA: 0x7AEF0C8B0
+        public void CompareBaseObjects(){} // RVA: 0x7AEF0C950
+        public void IsNativeObjectAlive(){} // RVA: 0x7AEF0CA20
+        public void GetCachedPtr(){} // RVA: 0x7AB1AC740
+        public void get_name(){} // RVA: 0x7AEF0CA40
+        public void set_name(){} // RVA: 0x7AEF0CAD0
+        public void Instantiate(){} // RVA: 0x7AA54E990
+        public void Destroy(){} // RVA: 0x7AEF0D6A0
+        public void DestroyImmediate(){} // RVA: 0x7AEF0D790
+        public void FindObjectsOfType(){} // RVA: 0x7AEF0D8B0
+        public void FindObjectsByType(){} // RVA: 0x7AA54E850
+        public void DontDestroyOnLoad(){} // RVA: 0x7AEF0DA20
+        public void get_hideFlags(){} // RVA: 0x7AEF0DA70
+        public void set_hideFlags(){} // RVA: 0x7AEF0DAC0
+        public void FindObjectOfType(){} // RVA: 0x7AA54E690
+        public void FindFirstObjectByType(){} // RVA: 0x7AA54E410
+        public void CheckNullArgument(){} // RVA: 0x7AEF0DB20
+        public void ToString(){} // RVA: 0x7AEF0E3B0
+        public void op_Equality(){} // RVA: 0x7AEF0DF10
+        public void op_Inequality(){} // RVA: 0x7AEF0E020
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7AEF0E130
+        public void Internal_CloneSingle(){} // RVA: 0x7AEF0E180
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x7AEF0E1D0
+        public void Internal_InstantiateSingle(){} // RVA: 0x7AEF0E240
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7AEF0E2F0
+        public void GetName(){} // RVA: 0x7AEF0E400
+        public void SetName(){} // RVA: 0x7AEF0E450
+        public void FindObjectFromInstanceID(){} // RVA: 0x7AEF0E4B0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x7AEF0E500
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7AEF0E550
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x7AEF0E590
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x7AEF0E600
     }
 
-    public class ObjectDispatcher
+    public class ObjectDispatcher : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x711E040
+        public void .cctor(){} // RVA: 0x7AEEFCE60
     }
 
-    public class ObjectGUIState : .ctor
+    public class ObjectDispatcher[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7196840
-        public void Dispose(){} // RVA: 0x7196890
-        public void Finalize(){} // RVA: 0x71968F0
-        public void Destroy(){} // RVA: 0x7196930
-        public void Internal_Create(){} // RVA: 0x71969A0
-        public void Internal_Destroy(){} // RVA: 0x71969F0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class OcclusionArea
+    public class ObjectGUIState : Object
     {
-        public object open;
-
         // ── Methods ──
-        public void get_center(){} // RVA: 0x70F02C0
-        public void set_center(){} // RVA: 0x70F0330
-        public void get_size(){} // RVA: 0x70F0390
-        public void set_size(){} // RVA: 0x70F0400
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void get_center_Injected(){} // RVA: 0x70F0460
-        public void set_center_Injected(){} // RVA: 0x70F04C0
-        public void get_size_Injected(){} // RVA: 0x70F0520
-        public void set_size_Injected(){} // RVA: 0x70F0580
+        public void .ctor(){} // RVA: 0x7AEF75A20
+        public void Dispose(){} // RVA: 0x7AEF75A70
+        public void Finalize(){} // RVA: 0x7AEF75AD0
+        public void Destroy(){} // RVA: 0x7AEF75B10
+        public void Internal_Create(){} // RVA: 0x7AEF75B80
+        public void Internal_Destroy(){} // RVA: 0x7AEF75BD0
     }
 
-    public class OcclusionPortal
+    public class Object[] : Array
     {
-        public object billboard;
-
         // ── Methods ──
-        public void get_open(){} // RVA: 0x70F0210
-        public void set_open(){} // RVA: 0x70F0260
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class OcclusionArea : Component
+    {
+        // ── Methods ──
+        public void get_center(){} // RVA: 0x7AEECF180
+        public void set_center(){} // RVA: 0x7AEECF1F0
+        public void get_size(){} // RVA: 0x7AEECF250
+        public void set_size(){} // RVA: 0x7AEECF2C0
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void get_center_Injected(){} // RVA: 0x7AEECF320
+        public void set_center_Injected(){} // RVA: 0x7AEECF380
+        public void get_size_Injected(){} // RVA: 0x7AEECF3E0
+        public void set_size_Injected(){} // RVA: 0x7AEECF440
+    }
+
+    public class OcclusionPortal : Component
+    {
+        // ── Methods ──
+        public void get_open(){} // RVA: 0x7AEECF0D0
+        public void set_open(){} // RVA: 0x7AEECF120
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
 }

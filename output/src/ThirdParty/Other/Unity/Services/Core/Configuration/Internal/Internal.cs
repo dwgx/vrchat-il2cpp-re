@@ -1,6 +1,6 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.Unity.Services.Core.Configuration.Internal
-// Classes: 3
+// Classes: 2
 // Methods: 2
 
 namespace ThirdParty.Other.Unity.Services.Core.Configuration.Internal
@@ -8,17 +8,13 @@ namespace ThirdParty.Other.Unity.Services.Core.Configuration.Internal
     public class ICloudProjectId
     {
         // ── Methods ──
-        public void GetCloudProjectId(){} // RVA: 0xCD60
-    }
-
-    public class IExternalUserId
-    {
+        public void GetCloudProjectId(){} // RVA: 0x7A7E00680
     }
 
     public class IProjectConfiguration
     {
         // ── Methods ──
-        public void GetString(){} // RVA: 0x1E6A0
+        public void GetString(){} // RVA: 0x7A7E00BD0
     }
 
 }

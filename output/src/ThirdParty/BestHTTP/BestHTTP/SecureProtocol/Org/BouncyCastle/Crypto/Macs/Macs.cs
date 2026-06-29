@@ -1,240 +1,211 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Macs
 // Classes: 14
-// Methods: 148
+// Methods: 133
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Macs
 {
-    public class CMac
+    public class CMac : Object
     {
-        public byte CONSTANT_128;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95C4AC0 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x95C4EB0
-        public void ShiftLeft(){} // RVA: 0x95C4F00
-        public void DoubleLu(){} // RVA: 0x95C4F70
-        public void Init(){} // RVA: 0x95C5060
-        public void GetMacSize(){} // RVA: 0xFDC9F0
-        public void Update(){} // RVA: 0x95C52F0
-        public void BlockUpdate(){} // RVA: 0x95C53A0
-        public void DoFinal(){} // RVA: 0x95C55D0
-        public void Reset(){} // RVA: 0x95C57D0
+        public void .ctor(){} // RVA: 0x7B13FBCB0
+        public void get_AlgorithmName(){} // RVA: 0x7B13FC0A0
+        public void ShiftLeft(){} // RVA: 0x7B13FC0F0
+        public void DoubleLu(){} // RVA: 0x7B13FC170
+        public void Init(){} // RVA: 0x7B13FC260
+        public void GetMacSize(){} // RVA: 0x7A8D863F0
+        public void Update(){} // RVA: 0x7B13FC4F0
+        public void BlockUpdate(){} // RVA: 0x7B13FC5A0
+        public void DoFinal(){} // RVA: 0x7B13FC7D0
+        public void Reset(){} // RVA: 0x7B13FC9E0
     }
 
-    public class CbcBlockCipherMac
+    public class CbcBlockCipherMac : Object
     {
-        public byte[] buf; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95C2FD0 | overloaded x4
-        public void get_AlgorithmName(){} // RVA: 0x95C3210
-        public void Init(){} // RVA: 0x95C3260
-        public void GetMacSize(){} // RVA: 0x338CD0
-        public void Update(){} // RVA: 0x95C32D0
-        public void BlockUpdate(){} // RVA: 0x95C3380
-        public void DoFinal(){} // RVA: 0x95C35B0
-        public void Reset(){} // RVA: 0x95C3790
+        public void .ctor(){} // RVA: 0x7B13FA1B0
+        public void get_AlgorithmName(){} // RVA: 0x7B13FA3F0
+        public void Init(){} // RVA: 0x7B13FA440
+        public void GetMacSize(){} // RVA: 0x7A8133100
+        public void Update(){} // RVA: 0x7B13FA4B0
+        public void BlockUpdate(){} // RVA: 0x7B13FA560
+        public void DoFinal(){} // RVA: 0x7B13FA790
+        public void Reset(){} // RVA: 0x7B13FA970
     }
 
-    public class CfbBlockCipherMac
+    public class CfbBlockCipherMac : Object
     {
-        public byte[] mac; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95C4100 | overloaded x4
-        public void get_AlgorithmName(){} // RVA: 0x95C43A0
-        public void Init(){} // RVA: 0x95C44C0
-        public void GetMacSize(){} // RVA: 0xFDC9F0
-        public void Update(){} // RVA: 0x95C4650
-        public void BlockUpdate(){} // RVA: 0x95C46E0
-        public void DoFinal(){} // RVA: 0x95C4840
-        public void Reset(){} // RVA: 0x95C4A00
+        public void .ctor(){} // RVA: 0x7B13FB2F0
+        public void get_AlgorithmName(){} // RVA: 0x7B13FB590
+        public void Init(){} // RVA: 0x7B13FB6B0
+        public void GetMacSize(){} // RVA: 0x7A8D863F0
+        public void Update(){} // RVA: 0x7B13FB840
+        public void BlockUpdate(){} // RVA: 0x7B13FB8D0
+        public void DoFinal(){} // RVA: 0x7B13FBA30
+        public void Reset(){} // RVA: 0x7B13FBBF0
     }
 
-    public class Dstu7564Mac
+    public class Dstu7564Mac : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Digests.Dstu7564Digest engine; // 0x10
-
         // ── Methods ──
-        public void get_AlgorithmName(){} // RVA: 0x95C5850
-        public void .ctor(){} // RVA: 0x95C5890
-        public void Init(){} // RVA: 0x95C5950
-        public void GetMacSize(){} // RVA: 0x5BED50
-        public void BlockUpdate(){} // RVA: 0x95C5BE0
-        public void Update(){} // RVA: 0x95C5D40
-        public void DoFinal(){} // RVA: 0x95C5D80
-        public void Reset(){} // RVA: 0x95C6030
-        public void Pad(){} // RVA: 0x95C60B0
-        public void PadKey(){} // RVA: 0x95C61F0
+        public void get_AlgorithmName(){} // RVA: 0x7B13FCA60
+        public void .ctor(){} // RVA: 0x7B13FCAA0
+        public void Init(){} // RVA: 0x7B13FCB60
+        public void GetMacSize(){} // RVA: 0x7A83782A0
+        public void BlockUpdate(){} // RVA: 0x7B13FCDF0
+        public void Update(){} // RVA: 0x7B13FCF50
+        public void DoFinal(){} // RVA: 0x7B13FCF90
+        public void Reset(){} // RVA: 0x7B13FD240
+        public void Pad(){} // RVA: 0x7B13FD2C0
+        public void PadKey(){} // RVA: 0x7B13FD400
     }
 
-    public class Dstu7624Mac
+    public class Dstu7624Mac : Object
     {
-        public int macSize; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95C63E0
-        public void Init(){} // RVA: 0x95C6660
-        public void get_AlgorithmName(){} // RVA: 0x95C67F0
-        public void GetMacSize(){} // RVA: 0x32A5C0
-        public void Update(){} // RVA: 0x95C6830
-        public void BlockUpdate(){} // RVA: 0x95C6940
-        public void processBlock(){} // RVA: 0x95C6BD0
-        public void Xor(){} // RVA: 0x95C6CA0
-        public void DoFinal(){} // RVA: 0x95C6D50
-        public void Reset(){} // RVA: 0x95C6F90
+        public void .ctor(){} // RVA: 0x7B13FD5F0
+        public void Init(){} // RVA: 0x7B13FD870
+        public void get_AlgorithmName(){} // RVA: 0x7B13FDA00
+        public void GetMacSize(){} // RVA: 0x7A8124910
+        public void Update(){} // RVA: 0x7B13FDA40
+        public void BlockUpdate(){} // RVA: 0x7B13FDB50
+        public void processBlock(){} // RVA: 0x7B13FDE00
+        public void Xor(){} // RVA: 0x7B13FDED0
+        public void DoFinal(){} // RVA: 0x7B13FDF80
+        public void Reset(){} // RVA: 0x7B13FE1B0
     }
 
-    public class GMac
+    public class GMac : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.GcmBlockCipher cipher; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D66A50 | overloaded x2
-        public void Init(){} // RVA: 0x95C7170
-        public void get_AlgorithmName(){} // RVA: 0x95C7350
-        public void GetMacSize(){} // RVA: 0x95C73D0
-        public void Update(){} // RVA: 0x95C73E0
-        public void BlockUpdate(){} // RVA: 0x95C7470
-        public void DoFinal(){} // RVA: 0x95C74A0
-        public void Reset(){} // RVA: 0x95C7540
+        public void .ctor(){} // RVA: 0x7A9B6A000
+        public void Init(){} // RVA: 0x7B13FE390
+        public void get_AlgorithmName(){} // RVA: 0x7B13FE570
+        public void GetMacSize(){} // RVA: 0x7B13FE5F0
+        public void Update(){} // RVA: 0x7B13FE600
+        public void BlockUpdate(){} // RVA: 0x7B13FE690
+        public void DoFinal(){} // RVA: 0x7B13FE6C0
+        public void Reset(){} // RVA: 0x7B13FE760
     }
 
-    public class Gost28147Mac
+    public class Gost28147Mac : Object
     {
-        public int blockSize;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95C7570
-        public void GenerateWorkingKey(){} // RVA: 0x95C7700
-        public void Init(){} // RVA: 0x95C7830
-        public void get_AlgorithmName(){} // RVA: 0x95C7D40
-        public void GetMacSize(){} // RVA: 0xA7E130
-        public void gost28147_mainStep(){} // RVA: 0x95C7D80
-        public void gost28147MacFunc(){} // RVA: 0x95C7EF0
-        public void bytesToint(){} // RVA: 0x95C8110
-        public void intTobytes(){} // RVA: 0x95C8190
-        public void CM5func(){} // RVA: 0x95C8200
-        public void Update(){} // RVA: 0x95C82E0
-        public void BlockUpdate(){} // RVA: 0x95C8410
-        public void DoFinal(){} // RVA: 0x95C8780
-        public void Reset(){} // RVA: 0x95C89B0
+        public void .ctor(){} // RVA: 0x7B13FE790
+        public void GenerateWorkingKey(){} // RVA: 0x7B13FE920
+        public void Init(){} // RVA: 0x7B13FEA40
+        public void get_AlgorithmName(){} // RVA: 0x7B13FEF50
+        public void GetMacSize(){} // RVA: 0x7A883BE70
+        public void gost28147_mainStep(){} // RVA: 0x7B13FEF90
+        public void gost28147MacFunc(){} // RVA: 0x7B13FF110
+        public void bytesToint(){} // RVA: 0x7B13FF350
+        public void intTobytes(){} // RVA: 0x7B13FF3D0
+        public void CM5func(){} // RVA: 0x7B13FF440
+        public void Update(){} // RVA: 0x7B13FF520
+        public void BlockUpdate(){} // RVA: 0x7B13FF650
+        public void DoFinal(){} // RVA: 0x7B13FF9C0
+        public void Reset(){} // RVA: 0x7B13FFBF0
     }
 
-    public class HMac
+    public class HMac : Object
     {
-        public byte IPAD;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95C89F0
-        public void get_AlgorithmName(){} // RVA: 0x95C8B90
-        public void GetUnderlyingDigest(){} // RVA: 0x2F8380
-        public void Init(){} // RVA: 0x95C8C00
-        public void GetMacSize(){} // RVA: 0x5BED50
-        public void Update(){} // RVA: 0x95C9080
-        public void BlockUpdate(){} // RVA: 0x95C90E0
-        public void DoFinal(){} // RVA: 0x95C9170
-        public void Reset(){} // RVA: 0x95C93F0
-        public void XorPad(){} // RVA: 0x95C9480
+        public void .ctor(){} // RVA: 0x7B13FFC30
+        public void get_AlgorithmName(){} // RVA: 0x7B13FFDD0
+        public void GetUnderlyingDigest(){} // RVA: 0x7A80F2570
+        public void Init(){} // RVA: 0x7B13FFE40
+        public void GetMacSize(){} // RVA: 0x7A83782A0
+        public void Update(){} // RVA: 0x7B14002E0
+        public void BlockUpdate(){} // RVA: 0x7B1400340
+        public void DoFinal(){} // RVA: 0x7B14003D0
+        public void Reset(){} // RVA: 0x7B1400650
+        public void XorPad(){} // RVA: 0x7B14006E0
     }
 
-    public class ISO9797Alg3Mac
+    public class ISO9797Alg3Mac : Object
     {
-        public byte[] mac; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95C95F0 | overloaded x4
-        public void get_AlgorithmName(){} // RVA: 0x95C9930
-        public void Init(){} // RVA: 0x95C9970
-        public void GetMacSize(){} // RVA: 0xFDC9F0
-        public void Update(){} // RVA: 0x95C9F40
-        public void BlockUpdate(){} // RVA: 0x95C9FF0
-        public void DoFinal(){} // RVA: 0x95CA220
-        public void Reset(){} // RVA: 0x95CA4D0
+        public void .ctor(){} // RVA: 0x7B1400870
+        public void get_AlgorithmName(){} // RVA: 0x7B1400BB0
+        public void Init(){} // RVA: 0x7B1400BF0
+        public void GetMacSize(){} // RVA: 0x7A8D863F0
+        public void Update(){} // RVA: 0x7B14011B0
+        public void BlockUpdate(){} // RVA: 0x7B1401260
+        public void DoFinal(){} // RVA: 0x7B1401490
+        public void Reset(){} // RVA: 0x7B1401740
     }
 
-    public class MacCFBBlockCipher
+    public class MacCFBBlockCipher : Object
     {
-        public byte[] IV; // 0x10
-        public byte[] cfbV; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95C3810
-        public void Init(){} // RVA: 0x95C3A70
-        public void get_AlgorithmName(){} // RVA: 0x95C3BB0
-        public void get_IsPartialBlockOkay(){} // RVA: 0x3C2850
-        public void GetBlockSize(){} // RVA: 0x791DC0
-        public void ProcessBlock(){} // RVA: 0x95C3CC0
-        public void Reset(){} // RVA: 0x95C3EF0
-        public void GetMacBlock(){} // RVA: 0x95C3F60
+        public void .ctor(){} // RVA: 0x7B13FA9F0
+        public void Init(){} // RVA: 0x7B13FAC50
+        public void get_AlgorithmName(){} // RVA: 0x7B13FAD90
+        public void get_IsPartialBlockOkay(){} // RVA: 0x7A81BD750
+        public void GetBlockSize(){} // RVA: 0x7A854FDE0
+        public void ProcessBlock(){} // RVA: 0x7B13FAEA0
+        public void Reset(){} // RVA: 0x7B13FB0E0
+        public void GetMacBlock(){} // RVA: 0x7B13FB150
     }
 
-    public class Poly1305
+    public class Poly1305 : Object
     {
-        public int BlockSize;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95CA6B0 | overloaded x2
-        public void Init(){} // RVA: 0x95CA890
-        public void SetKey(){} // RVA: 0x95CAAC0
-        public void get_AlgorithmName(){} // RVA: 0x95CB010
-        public void GetMacSize(){} // RVA: 0x210E2B0
-        public void Update(){} // RVA: 0x95CB0A0
-        public void BlockUpdate(){} // RVA: 0x95CB190
-        public void ProcessBlock(){} // RVA: 0x95CB270
-        public void DoFinal(){} // RVA: 0x95CB640
-        public void Reset(){} // RVA: 0x95CBA00
-        public void mul32x32_64(){} // RVA: 0x5E1ECE0
+        public void .ctor(){} // RVA: 0x7B1401920
+        public void Init(){} // RVA: 0x7B1401B00
+        public void SetKey(){} // RVA: 0x7B1401D20
+        public void get_AlgorithmName(){} // RVA: 0x7B1402270
+        public void GetMacSize(){} // RVA: 0x7A9F22B20
+        public void Update(){} // RVA: 0x7B1402300
+        public void BlockUpdate(){} // RVA: 0x7B14023F0
+        public void ProcessBlock(){} // RVA: 0x7B14024D0
+        public void DoFinal(){} // RVA: 0x7B14028B0
+        public void Reset(){} // RVA: 0x7B1402CA0
+        public void mul32x32_64(){} // RVA: 0x7ADC0D4C0
     }
 
-    public class SipHash
+    public class SipHash : Object
     {
-        public int c; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4438000 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x95CBA10
-        public void GetMacSize(){} // RVA: 0xA63AE0
-        public void Init(){} // RVA: 0x95CBAA0
-        public void Update(){} // RVA: 0x95CBC40
-        public void BlockUpdate(){} // RVA: 0x95CBC90
-        public void DoFinal(){} // RVA: 0x95CBF50 | overloaded x2
-        public void Reset(){} // RVA: 0x95CBFA0
-        public void ProcessMessageWord(){} // RVA: 0x95CC000
-        public void ApplySipRounds(){} // RVA: 0x95CC040
-        public void RotateLeft(){} // RVA: 0x67F9B10
+        public void .ctor(){} // RVA: 0x7AC226C00
+        public void get_AlgorithmName(){} // RVA: 0x7B1402CB0
+        public void GetMacSize(){} // RVA: 0x7A88217C0
+        public void Init(){} // RVA: 0x7B1402D40
+        public void Update(){} // RVA: 0x7B1402ED0
+        public void BlockUpdate(){} // RVA: 0x7B1402F20
+        public void DoFinal(){} // RVA: 0x7B14031D0
+        public void Reset(){} // RVA: 0x7B1403220
+        public void ProcessMessageWord(){} // RVA: 0x7B1403280
+        public void ApplySipRounds(){} // RVA: 0x7B14032C0
+        public void RotateLeft(){} // RVA: 0x7AE5E8370
     }
 
-    public class SkeinMac
+    public class SkeinMac : Object
     {
-        public int SKEIN_256;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x95CC1D0 | overloaded x2
-        public void get_AlgorithmName(){} // RVA: 0x95CC2E0
-        public void Init(){} // RVA: 0x95CC4A0
-        public void GetMacSize(){} // RVA: 0xF3F910
-        public void Reset(){} // RVA: 0x95CC890
-        public void Update(){} // RVA: 0x95CC8F0
-        public void BlockUpdate(){} // RVA: 0x95CC910
-        public void DoFinal(){} // RVA: 0x95CC940
+        public void .ctor(){} // RVA: 0x7B1403430
+        public void get_AlgorithmName(){} // RVA: 0x7B1403540
+        public void Init(){} // RVA: 0x7B1403700
+        public void GetMacSize(){} // RVA: 0x7A8D0A110
+        public void Reset(){} // RVA: 0x7B1403C30
+        public void Update(){} // RVA: 0x7B1403C90
+        public void BlockUpdate(){} // RVA: 0x7B1403CB0
+        public void DoFinal(){} // RVA: 0x7B1403CE0
     }
 
-    public class VmpcMac
+    public class VmpcMac : Object
     {
-        public byte g; // 0x10
-
         // ── Methods ──
-        public void DoFinal(){} // RVA: 0x95CC960
-        public void get_AlgorithmName(){} // RVA: 0x95CCE50
-        public void GetMacSize(){} // RVA: 0x5FAB20
-        public void Init(){} // RVA: 0x95CCE90
-        public void initKey(){} // RVA: 0x95CD1A0
-        public void Reset(){} // RVA: 0x95CD430
-        public void Update(){} // RVA: 0x95CD510
-        public void BlockUpdate(){} // RVA: 0x95CD7A0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void DoFinal(){} // RVA: 0x7B1403D00
+        public void get_AlgorithmName(){} // RVA: 0x7B14041F0
+        public void GetMacSize(){} // RVA: 0x7A83B4040
+        public void Init(){} // RVA: 0x7B1404230
+        public void initKey(){} // RVA: 0x7B1404540
+        public void Reset(){} // RVA: 0x7B14047E0
+        public void Update(){} // RVA: 0x7B14048C0
+        public void BlockUpdate(){} // RVA: 0x7B1404B60
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

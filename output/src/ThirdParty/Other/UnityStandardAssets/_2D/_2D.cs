@@ -5,49 +5,49 @@
 
 namespace ThirdParty.Other.UnityStandardAssets._2D
 {
-    public class Camera2DFollow
+    public class Camera2DFollow : MonoBehaviour
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x319250
-        public void Update(){} // RVA: 0x319450
-        public void .ctor(){} // RVA: 0x319A10
+        public void Start(){} // RVA: 0x7A8113620
+        public void Update(){} // RVA: 0x7A8113820
+        public void .ctor(){} // RVA: 0x7A8113DB0
     }
 
-    public class CameraFollow
+    public class CameraFollow : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x319A70
-        public void CheckXMargin(){} // RVA: 0x319B90
-        public void CheckYMargin(){} // RVA: 0x319CD0
-        public void Update(){} // RVA: 0x319E10
-        public void TrackPlayer(){} // RVA: 0x319E20
-        public void .ctor(){} // RVA: 0x31A690
+        public void Awake(){} // RVA: 0x7A8113E10
+        public void CheckXMargin(){} // RVA: 0x7A8113F30
+        public void CheckYMargin(){} // RVA: 0x7A8114070
+        public void Update(){} // RVA: 0x7A81141B0
+        public void TrackPlayer(){} // RVA: 0x7A81141C0
+        public void .ctor(){} // RVA: 0x7A8114A30
     }
 
-    public class Platformer2DUserControl
+    public class Platformer2DUserControl : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x31A6F0
-        public void Update(){} // RVA: 0x31A780
-        public void FixedUpdate(){} // RVA: 0x31A7F0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Awake(){} // RVA: 0x7A8114A90
+        public void Update(){} // RVA: 0x7A8114B20
+        public void FixedUpdate(){} // RVA: 0x7A8114B90
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class PlatformerCharacter2D
+    public class PlatformerCharacter2D : MonoBehaviour
     {
         // ── Methods ──
-        public void Awake(){} // RVA: 0x31A920
-        public void FixedUpdate(){} // RVA: 0x31AD10
-        public void Move(){} // RVA: 0x31B110
-        public void Flip(){} // RVA: 0x31B530
-        public void .ctor(){} // RVA: 0x31B6D0
+        public void Awake(){} // RVA: 0x7A8114CC0
+        public void FixedUpdate(){} // RVA: 0x7A81150B0
+        public void Move(){} // RVA: 0x7A81154C0
+        public void Flip(){} // RVA: 0x7A81158E0
+        public void .ctor(){} // RVA: 0x7A8115A80
     }
 
-    public class Restarter
+    public class Restarter : MonoBehaviour
     {
         // ── Methods ──
-        public void OnTriggerEnter2D(){} // RVA: 0x31B730
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void OnTriggerEnter2D(){} // RVA: 0x7A8115AE0
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
 }

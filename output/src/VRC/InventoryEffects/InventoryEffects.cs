@@ -1,113 +1,118 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.InventoryEffects
-// Classes: 10
-// Methods: 40
+// Classes: 11
+// Methods: 55
 
 namespace VRC.InventoryEffects
 {
-    public class DroneSkinMapCore
+    public class DroneSkinMapCore : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class InventoryEffectAssetReference
+    public class InventoryEffectAssetReference : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
+        public void .ctor(){} // RVA: 0x7A8CE4080
     }
 
-    public class InventoryEffectDescription
+    public class InventoryEffectAssetReference[] : Array
     {
         // ── Methods ──
-        public void TryGetValue(){} // RVA: 0x11120
-        public void .ctor(){} // RVA: 0xE93CD0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class InventoryEffectDescriptionKeys
+    public class InventoryEffectDescription : ScriptableObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void TryGetValue(){} // RVA: 0x7AA4DEAE0
+        public void .ctor(){} // RVA: 0x7A8C5D440
     }
 
-    public class LoadingScreenMap
+    public class InventoryEffectDescriptionKeys : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x76D3690
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class LoadingScreenPreviewOverride
+    public class LoadingScreenMap : MonoBehaviour
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7AF4B2390
     }
 
-    public class LocalPositionTracker
+    public class LoadingScreenPreviewOverride : MonoBehaviour
     {
         // ── Methods ──
-        public void OnEnable(){} // RVA: 0x1724E10
-        public void Update(){} // RVA: 0x76D3710
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class WarpEffect
+    public class LocalPositionTracker : MonoBehaviour
     {
-        public float _MAX_EYE_HEIGHT;
-
         // ── Methods ──
-        public void add_Completed(){} // RVA: 0x76D3930
-        public void remove_Completed(){} // RVA: 0x76D3A30
-        public void get_AudioSources(){} // RVA: 0x4976A0
-        public void Initialize(){} // RVA: 0x76D3B30
-        public void ActivateEffect(){} // RVA: 0x76D3F60
-        public void SetTrackedTransform(){} // RVA: 0x2DEE90
-        public void SetTrackingScale(){} // RVA: 0xEBB7B0
-        public void SetAudioEnabled(){} // RVA: 0x76D43A0
-        public void SetPoseTracking(){} // RVA: 0x16DE990
-        public void DeactivateEffect(){} // RVA: 0x76D4450
-        public void SetLooping(){} // RVA: 0x306030
-        public void Update(){} // RVA: 0x76D45A0
-        public void UpdateTrackedTransform(){} // RVA: 0x76D4BD0
-        public void UpdatePoseTracking(){} // RVA: 0x76D54F0
-        public void UpdateCachedPoses(){} // RVA: 0x76D5680
-        public void IsCompleted(){} // RVA: 0x76D5780
-        public void .ctor(){} // RVA: 0x76D5820
+        public void OnEnable(){} // RVA: 0x7A94DF930
+        public void Update(){} // RVA: 0x7AF4B2410
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class WarpEffectMap
+    public class WarpEffect : MonoBehaviour
     {
-        public VRC.InventoryEffects.WarpEffectParams _parameters; // 0x20
-        public UnityEngine.Transform _trackedTransform; // 0x28
-
         // ── Methods ──
-        public void get_Parameters(){} // RVA: 0x30B0C0
-        public void get_TrackedTransform(){} // RVA: 0x30B130
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void add_Completed(){} // RVA: 0x7AF4B2630
+        public void remove_Completed(){} // RVA: 0x7AF4B2750
+        public void get_AudioSources(){} // RVA: 0x7A8292C30
+        public void Initialize(){} // RVA: 0x7AF4B2870
+        public void ActivateEffect(){} // RVA: 0x7AF4B2CA0
+        public void SetTrackedTransform(){} // RVA: 0x7A80D8E80
+        public void SetTrackingScale(){} // RVA: 0x7A8C85830
+        public void SetAudioEnabled(){} // RVA: 0x7AF4B30E0
+        public void SetPoseTracking(){} // RVA: 0x7A9475F50
+        public void DeactivateEffect(){} // RVA: 0x7AF4B31A0
+        public void SetLooping(){} // RVA: 0x7A8100270
+        public void Update(){} // RVA: 0x7AF4B32F0
+        public void UpdateTrackedTransform(){} // RVA: 0x7AF4B3920
+        public void UpdatePoseTracking(){} // RVA: 0x7AF4B4230
+        public void UpdateCachedPoses(){} // RVA: 0x7AF4B43C0
+        public void IsCompleted(){} // RVA: 0x7AF4B44C0
+        public void .ctor(){} // RVA: 0x7AF4B4560
     }
 
-    public class WarpEffectParams
+    public class WarpEffectMap : MonoBehaviour
     {
-        public 0x659FCBC0 _poseTrackingFlags; // 0x18
-        public float _poseTrackingDuration; // 0x1C
-        public bool _centerTrackedTransformVertically; // 0x20
-        public UnityEngine.Vector3 _trackedTransformLocalOffset; // 0x24
-        public UnityEngine.Vector3 _trackedTransformRemoteOffset; // 0x30
-        public float _delayBeforeShowingAvatar; // 0x3C
-        public float _delayBeforeDespawningPlayer; // 0x40
-        public UnityEngine.Vector3 _previewDistanceFromCamera; // 0x44
-        public bool _useReplacementShaderForPreview; // 0x50
-
         // ── Methods ──
-        public void get_PoseTrackingFlags(){} // RVA: 0x5BED50
-        public void get_PoseTrackingDuration(){} // RVA: 0x3AA570
-        public void get_CenterTrackedTransformVertically(){} // RVA: 0x3CB9D0
-        public void get_TrackedTransformLocalOffset(){} // RVA: 0x338CA0
-        public void get_TrackedTransformRemoteOffset(){} // RVA: 0x1B414E0
-        public void get_DelayBeforeShowingAvatar(){} // RVA: 0x9FC6D0
-        public void get_DelayBeforeDespawningPlayer(){} // RVA: 0x7D0490
-        public void get_PreviewDistanceFromCamera(){} // RVA: 0x343F70
-        public void get_UseReplacementShaderForPreview(){} // RVA: 0x3978E0
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void get_Parameters(){} // RVA: 0x7A81052C0
+        public void get_TrackedTransform(){} // RVA: 0x7A8105330
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class WarpEffectParams : ScriptableObject
+    {
+        // ── Methods ──
+        public void get_PoseTrackingFlags(){} // RVA: 0x7A83782A0
+        public void get_PoseTrackingDuration(){} // RVA: 0x7A81A5180
+        public void get_CenterTrackedTransformVertically(){} // RVA: 0x7A81C68D0
+        public void get_TrackedTransformLocalOffset(){} // RVA: 0x7A81330D0
+        public void get_TrackedTransformRemoteOffset(){} // RVA: 0x7A98DA220
+        public void get_DelayBeforeShowingAvatar(){} // RVA: 0x7A87B9920
+        public void get_DelayBeforeDespawningPlayer(){} // RVA: 0x7A85D5650
+        public void get_PreviewDistanceFromCamera(){} // RVA: 0x7A813E510
+        public void get_UseReplacementShaderForPreview(){} // RVA: 0x7A8192400
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
 }

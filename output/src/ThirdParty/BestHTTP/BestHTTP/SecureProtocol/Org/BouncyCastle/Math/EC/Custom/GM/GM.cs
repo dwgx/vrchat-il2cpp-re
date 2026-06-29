@@ -1,90 +1,83 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.GM
 // Classes: 4
-// Methods: 62
+// Methods: 55
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Custom.GM
 {
-    public class SM2P256V1Curve
+    public class SM2P256V1Curve : AbstractFpCurve
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q;
-        public int SM2P256V1_DEFAULT_COORDS;
-        public int SM2P256V1_FE_INTS;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x94F94C0
-        public void CloneCurve(){} // RVA: 0x94F98F0
-        public void SupportsCoordinateSystem(){} // RVA: 0x947A750
-        public void get_Q(){} // RVA: 0x94F9940
-        public void get_Infinity(){} // RVA: 0x37E0E0
-        public void get_FieldSize(){} // RVA: 0x94F99A0
-        public void FromBigInteger(){} // RVA: 0x94F9A10
-        public void CreateRawPoint(){} // RVA: 0x94F9B60 | overloaded x2
-        public void CreateCacheSafeLookupTable(){} // RVA: 0x94F9C00
-        public void .cctor(){} // RVA: 0x94F9E80
+        public void .ctor(){} // RVA: 0x7B132F220
+        public void CloneCurve(){} // RVA: 0x7B132F670
+        public void SupportsCoordinateSystem(){} // RVA: 0x7B12AE6F0
+        public void get_Q(){} // RVA: 0x7B132F6C0
+        public void get_Infinity(){} // RVA: 0x7A8178B90
+        public void get_FieldSize(){} // RVA: 0x7B132F720
+        public void FromBigInteger(){} // RVA: 0x7B132F790
+        public void CreateRawPoint(){} // RVA: 0x7B132F8E0
+        public void CreateCacheSafeLookupTable(){} // RVA: 0x7B132F980
+        public void .cctor(){} // RVA: 0x7B132FC10
     }
 
-    public class SM2P256V1Field
+    public class SM2P256V1Field : Object
     {
         // ── Methods ──
-        public void Add(){} // RVA: 0x94FA250
-        public void AddExt(){} // RVA: 0x94FA360
-        public void AddOne(){} // RVA: 0x94FA510
-        public void FromBigInteger(){} // RVA: 0x94FA670
-        public void Half(){} // RVA: 0x94FA760
-        public void Multiply(){} // RVA: 0x94FA890
-        public void MultiplyAddToExt(){} // RVA: 0x94FA950
-        public void Negate(){} // RVA: 0x94FAAC0
-        public void Reduce(){} // RVA: 0x94FABD0
-        public void Reduce32(){} // RVA: 0x94FAE50
-        public void Square(){} // RVA: 0x94FB030
-        public void SquareN(){} // RVA: 0x94FB0E0
-        public void Subtract(){} // RVA: 0x94FB1E0
-        public void SubtractExt(){} // RVA: 0x94FB330
-        public void Twice(){} // RVA: 0x94FB460
-        public void AddPInvTo(){} // RVA: 0x94FB5A0
-        public void SubPInvFrom(){} // RVA: 0x94FB6A0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x94FB780
+        public void Add(){} // RVA: 0x7B132FFF0
+        public void AddExt(){} // RVA: 0x7B1330110
+        public void AddOne(){} // RVA: 0x7B13302F0
+        public void FromBigInteger(){} // RVA: 0x7B1330480
+        public void Half(){} // RVA: 0x7B1330590
+        public void Multiply(){} // RVA: 0x7B13306C0
+        public void MultiplyAddToExt(){} // RVA: 0x7B1330780
+        public void Negate(){} // RVA: 0x7B1330900
+        public void Reduce(){} // RVA: 0x7B1330A30
+        public void Reduce32(){} // RVA: 0x7B1330CB0
+        public void Square(){} // RVA: 0x7B1330E90
+        public void SquareN(){} // RVA: 0x7B1330F40
+        public void Subtract(){} // RVA: 0x7B1331040
+        public void SubtractExt(){} // RVA: 0x7B1331180
+        public void Twice(){} // RVA: 0x7B13312E0
+        public void AddPInvTo(){} // RVA: 0x7B1331440
+        public void SubPInvFrom(){} // RVA: 0x7B1331520
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B1331600
     }
 
-    public class SM2P256V1FieldElement
+    public class SM2P256V1FieldElement : AbstractFpFieldElement
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger Q;
-        public uint[] x; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x3
-        public void get_IsZero(){} // RVA: 0x94A29B0
-        public void get_IsOne(){} // RVA: 0x94A29F0
-        public void TestBitZero(){} // RVA: 0x947CF00
-        public void ToBigInteger(){} // RVA: 0x94A2A50
-        public void get_FieldName(){} // RVA: 0x94FBB20
-        public void get_FieldSize(){} // RVA: 0x94FBB60
-        public void Add(){} // RVA: 0x94FBBD0
-        public void AddOne(){} // RVA: 0x94FBD40
-        public void Subtract(){} // RVA: 0x94FBF80
-        public void Multiply(){} // RVA: 0x94FC0F0
-        public void Divide(){} // RVA: 0x94FC260
-        public void Negate(){} // RVA: 0x94FC420
-        public void Square(){} // RVA: 0x94FC520
-        public void Invert(){} // RVA: 0x94FC620
-        public void Sqrt(){} // RVA: 0x94FC770
-        public void Equals(){} // RVA: 0x94A3CC0 | overloaded x3
-        public void GetHashCode(){} // RVA: 0x94FCCC0
-        public void .cctor(){} // RVA: 0x94FCDC0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_IsZero(){} // RVA: 0x7B12D6F40
+        public void get_IsOne(){} // RVA: 0x7B12D6FA0
+        public void TestBitZero(){} // RVA: 0x7B12B10D0
+        public void ToBigInteger(){} // RVA: 0x7B12D7000
+        public void get_FieldName(){} // RVA: 0x7B13319C0
+        public void get_FieldSize(){} // RVA: 0x7B1331A00
+        public void Add(){} // RVA: 0x7B1331A70
+        public void AddOne(){} // RVA: 0x7B1331BE0
+        public void Subtract(){} // RVA: 0x7B1331CE0
+        public void Multiply(){} // RVA: 0x7B1331E50
+        public void Divide(){} // RVA: 0x7B1331FC0
+        public void Negate(){} // RVA: 0x7B1332180
+        public void Square(){} // RVA: 0x7B1332280
+        public void Invert(){} // RVA: 0x7B1332380
+        public void Sqrt(){} // RVA: 0x7B13324D0
+        public void Equals(){} // RVA: 0x7B12D82C0
+        public void GetHashCode(){} // RVA: 0x7B1332A50
+        public void .cctor(){} // RVA: 0x7B1332B50
     }
 
-    public class SM2P256V1Point
+    public class SM2P256V1Point : AbstractFpPoint
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x947E360 | overloaded x3
-        public void Detach(){} // RVA: 0x94FCFD0
-        public void Add(){} // RVA: 0x94FD0E0
-        public void Twice(){} // RVA: 0x94FDB80
-        public void TwicePlus(){} // RVA: 0x947F5F0
-        public void ThreeTimes(){} // RVA: 0x947F6F0
-        public void Negate(){} // RVA: 0x94FE360
+        public void .ctor(){} // RVA: 0x7B12B2560
+        public void Detach(){} // RVA: 0x7B1332D60
+        public void Add(){} // RVA: 0x7B1332E70
+        public void Twice(){} // RVA: 0x7B1333960
+        public void TwicePlus(){} // RVA: 0x7B12B36C0
+        public void ThreeTimes(){} // RVA: 0x7B12B37C0
+        public void Negate(){} // RVA: 0x7B1334160
     }
 
 }

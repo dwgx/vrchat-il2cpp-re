@@ -1,370 +1,323 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI.Elements.Menus
 // Classes: 18
-// Methods: 208
+// Methods: 223
 
 namespace VRC.UI.Elements.Menus
 {
-    public class Binding
+    public class Binding[] : Array
     {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1330
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250480
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class GalleryIconsView
+    public class GalleryIconsView : HeaderElementContentView`1
     {
-        public VRC.UI.Elements.HelperMethods.UIAlert _iconSelected; // 0x68
-        public VRC.UI.Elements.HelperMethods.UIBinaryAlert _iconUpdated; // 0x90
-
         // ── Methods ──
-        public void UpdateActive(){} // RVA: 0x908CF30
-        public void AccessactiveSelf(){} // RVA: 0x908CF50
-        public void SetObservableListActiveTrue(){} // RVA: 0x908D370
-        public void Start(){} // RVA: 0x908D390
-        public void OnEnable_8A373DF3FE68(){} // RVA: 0x908D490
-        public void OnDisable(){} // RVA: 0x908D580
-        public void OnEnable(){} // RVA: 0x908D620
-        public void set_MaxContentCount(){} // RVA: 0x908D850
-        public void set_MaxContentCount_929FA7B99AF3(){} // RVA: 0x908DC70
-        public void get_MaxContentCount_929FA7B99AF3(){} // RVA: 0x908DF10
-        public void OnDestroy(){} // RVA: 0x908DF30
-        public void ToggleObservableListVisibility(){} // RVA: 0x908E020
-        public void get_MaxContentCount(){} // RVA: 0x908E040
-        public void .ctor(){} // RVA: 0x908E0C0
-        public void Initialize(){} // RVA: 0x908E130
-        public void set_ObservableList(){} // RVA: 0x908E260
-        public void ResetGalleryState(){} // RVA: 0x908E280
-        public void SetGalleryStateActive(){} // RVA: 0x908E370
-        public void get_ObservableList(){} // RVA: 0x908E7A0
-        public void get_ObservableList_07966E63381C(){} // RVA: 0x908E820
-    }
-
-    public class GalleryPhotosView
-    {
-        public ÍÏÏÏÍÏÍÏÍÌÌÌÏÍÌÍÌÏÌÏÏÌÌ _menuStateController; // 0x68
-        public UnityEngine.GameObject subNowInfo; // 0x70
-
-        // ── Methods ──
-        public void get_MaxContentCount_033373F0C03C(){} // RVA: 0x908EEA0
-        public void set_MaxContentCount(){} // RVA: 0x908F2C0
-        public void set_ObservableList(){} // RVA: 0x908F3B0
-        public void Start(){} // RVA: 0x908F4A0
-        public void OnDisable_E01EA12E2092(){} // RVA: 0x908F600
-        public void OnEnable(){} // RVA: 0x908FA20
-        public void .ctor(){} // RVA: 0x908FC50
-        public void OnDestroy(){} // RVA: 0x908FCC0
-        public void OnDisable(){} // RVA: 0x908FDB0
-        public void AccessactiveSelf(){} // RVA: 0x9090260
-        public void PreparePhotoViewRendering(){} // RVA: 0x9090770
-        public void get_MaxContentCount(){} // RVA: 0x9090A70
-        public void ProcessGalleryPhotoData(){} // RVA: 0x9090AF0
-        public void get_ObservableList(){} // RVA: 0x9090E10
+        public void set_MaxContentCount(){} // RVA: 0x7B0EBB220
+        public void get_MaxContentCount(){} // RVA: 0x7B0EBB240
+        public void OnEnable(){} // RVA: 0x7B0EBB2C0
+        public void Start(){} // RVA: 0x7B0EBB8A0
+        public void set_ObservableList(){} // RVA: 0x7B0EBBDF0
+        public void OnDestroy(){} // RVA: 0x7B0EBC350
+        public void get_ObservableList(){} // RVA: 0x7B0EBC770
+        public void OnDisable(){} // RVA: 0x7B0EBC810
+        public void .ctor(){} // RVA: 0x7B0EBC8B0
+        public void Initialize(){} // RVA: 0x7B0EBC920
         // ── Unresolved (hash) ──
-        public void m_C47(){} // RVA: 0x908FE40
-        public void m_7C3(){} // RVA: 0x9090350
+        public void m_9A3(){} // RVA: 0x7B0EBB4F0
+        public void m_BBF(){} // RVA: 0x7B0EBB790
+        public void m_44D(){} // RVA: 0x7B0EBB880
+        public void m_866(){} // RVA: 0x7B0EBB880
+        public void m_97F(){} // RVA: 0x7B0EBB9A0
+        public void m_11D(){} // RVA: 0x7B0EBB9C0
+        public void m_75D(){} // RVA: 0x7B0EBBF20
+        public void m_480(){} // RVA: 0x7B0EBC440
+        public void m_365(){} // RVA: 0x7B0EBC7F0
+        public void m_D48(){} // RVA: 0x7B0EBB880
     }
 
-    public class HeaderElementContentView`1
+    public class GalleryPhotosView : HeaderElementContentView`1
     {
         // ── Methods ──
-        public void Clear(){} // RVA: 0x24A50
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void OnTransformChildrenChanged(){} // RVA: 0xCE10
-        public void MemSet(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x24A50
+        public void ProcessGalleryPhotoData(){} // RVA: 0x7B0EBDC00
+        public void set_MaxContentCount(){} // RVA: 0x7B0EBDDE0
+        public void .ctor(){} // RVA: 0x7B0EBE620
+        public void OnDisable(){} // RVA: 0x7B0EBE690
+        public void get_MaxContentCount(){} // RVA: 0x7B0EBE720
+        public void Start(){} // RVA: 0x7B0EBE7A0
+        public void set_ObservableList(){} // RVA: 0x7B0EBE900
+        public void get_ObservableList(){} // RVA: 0x7B0EBED20
+        public void OnEnable(){} // RVA: 0x7B0EBEDA0
+        public void OnDestroy(){} // RVA: 0x7B0EBF6F0
         // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x24A50
+        public void m_64A(){} // RVA: 0x7B0EBCFA0
+        public void m_DE6(){} // RVA: 0x7B0EBD3C0
+        public void m_B97(){} // RVA: 0x7B0EBD7E0
+        public void m_929(){} // RVA: 0x7B0EBDCF0
+        public void m_386(){} // RVA: 0x7B0EBE200
+        public void m_05F(){} // RVA: 0x7B0EBEFD0
+        public void m_00A(){} // RVA: 0x7B0EBF3F0
+        public void m_9A3(){} // RVA: 0x7B0EBF7E0
     }
 
-    public class HeaderElementContentView`1
+    public class HeaderElementContentView`1 : ListContentView`1
     {
         // ── Methods ──
-        public void Clear(){} // RVA: 0x3511E10
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x35120B0
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void MemSet(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x2DDD50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x3512010
+        public void get_CountFormat(){} // RVA: 0x7A7E18770
+        public void get_MaxContentCount(){} // RVA: 0x7A7E18770
+        public void get_ObservableList(){} // RVA: 0x7A7E18890
+        public void Start(){} // RVA: 0x7A7E00B20
+        public void OnEnable(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class HeaderElementContentView`1
+    public class HeaderElementContentView`1 : ListContentView`1
     {
         // ── Methods ──
-        public void Clear(){} // RVA: 0x3511E10
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x35120B0
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void MemSet(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x2DDD50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x3512010
+        public void get_CountFormat(){} // RVA: 0x7AB305E00
+        public void get_MaxContentCount(){} // RVA: 0x7AB305FE0
+        public void get_ObservableList(){} // RVA: 0x7AB306060
+        public void Start(){} // RVA: 0x7A8175DF0
+        public void OnEnable(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class HeaderElementContentView`1
+    public class HeaderElementContentView`1 : ListContentView`1
     {
         // ── Methods ──
-        public void Clear(){} // RVA: 0x3511E10
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x35120B0
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void MemSet(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x2DDD50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x3512010
+        public void get_CountFormat(){} // RVA: 0x7AB305E00
+        public void get_MaxContentCount(){} // RVA: 0x7AB305FE0
+        public void get_ObservableList(){} // RVA: 0x7AB306060
+        public void Start(){} // RVA: 0x7A8175DF0
+        public void OnEnable(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class HeaderElementContentView`1
+    public class HeaderElementContentView`1 : ListContentView`1
     {
         // ── Methods ──
-        public void Clear(){} // RVA: 0x3511E10
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x35120B0
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void MemSet(){} // RVA: 0x24A50
-        public void .ctor(){} // RVA: 0x2DDD50
-        // ── Unresolved (hash) ──
-        public void m_353(){} // RVA: 0x3512010
+        public void get_CountFormat(){} // RVA: 0x7AB305E00
+        public void get_MaxContentCount(){} // RVA: 0x7AB305FE0
+        public void get_ObservableList(){} // RVA: 0x7AB306060
+        public void Start(){} // RVA: 0x7A8175DF0
+        public void OnEnable(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class KeyboardInputModalComponents
+    public class HeaderElementContentView`1 : ListContentView`1
     {
-        public UnityEngine.GameObject _title; // 0x10
-        public UnityEngine.UI.Button _keyboard; // 0x18
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ .ctor; // 0x20
-        public UnityEngine.UI.Button _worldBackground; // 0x28
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _submitText; // 0x30
-        public UnityEngine.UI.Button _closeButton; // 0x38
-        public UnityEngine.UI.Button _clearButton; // 0x40
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _title; // 0x48
-        public ÌÍÍÏÍÍÏÏÎÎÏÍÏÌÌÍÏÏÍÎÏÏÏ _placeholder; // 0x50
-        public ÌÏÍÎÏÍÌÎÍÏÍÍÎÏÌÏÎÎÌÌÎÌÎ _charactersRemaining; // 0x58
-        public TMPro.TMP_InputField _inputField; // 0x60
-        public ÍÍÍÌÎÍÍÌÍÍÍÏÏÎÌÌÍÏÎÎÌÍÍ _maskInputToggle; // 0x68
-        public ÏÌÎÎÍÍÍÎÍÎÌÏÏÍÍÏÎÏÎÌÌÍÎ _minimizedKeyboard; // 0x70
-        public UnityEngine.GameObject[] _modalBackgrounds; // 0x78
-        public UnityEngine.GameObject _worldKeyboardBackground; // 0x80
-        public ÌÍÎÏÌÌÏÍÍÏÎÎÏÏÎÌÎÎÌÏÌÏÎ[] _keyboardToggleGroups; // 0x88
-
         // ── Methods ──
-        public void get_Title(){} // RVA: 0x358730
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Initialize(){} // RVA: 0x2E07C0
-        public void get_Keyboard(){} // RVA: 0x90C8CF0
-        public void set_Keyboard(){} // RVA: 0x35A740
-        public void get_WorldBackground(){} // RVA: 0x462D00
-        public void get_MaskInputToggle(){} // RVA: 0x358D50
-        public void set_MaskInputToggle(){} // RVA: 0x3A5590
-        public void set_ModalBackgrounds(){} // RVA: 0x30B130
-        public void get_ModalBackgrounds(){} // RVA: 0x4C7C50
-        public void set_Placeholder(){} // RVA: 0x3A5590
-        public void set_MinimizedKeyboard(){} // RVA: 0x35A740
-        public void set_ClearButton(){} // RVA: 0x4C7C50
-        public void get_ClearButton(){} // RVA: 0x35A740
-        public void get_Placeholder(){} // RVA: 0x37E0E0
-        public void get_MinimizedKeyboard(){} // RVA: 0x3A5590
-        public void get_Cancel(){} // RVA: 0x2E07C0
-        public void get_InputField(){} // RVA: 0x37B370
-        public void get_KeyboardToggleGroups(){} // RVA: 0x31C010
-        public void get_CloseButton(){} // RVA: 0x4976A0
-        public void get_CharactersRemaining(){} // RVA: 0x3A5500
-        public void get_CancelText(){} // RVA: 0x30B0C0
-        public void get_SubmitText(){} // RVA: 0x6374D0
-        public void set_SubmitText(){} // RVA: 0x35A740
-        public void get_Submit(){} // RVA: 0x30B130
+        public void get_CountFormat(){} // RVA: 0x7AB305E00
+        public void get_MaxContentCount(){} // RVA: 0x7AB305FE0
+        public void get_ObservableList(){} // RVA: 0x7AB306060
+        public void Start(){} // RVA: 0x7A8175DF0
+        public void OnEnable(){} // RVA: 0x7A7E18770
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListContentView`1
+    public class KeyboardInputModalComponents : Object
     {
-        public UnityEngine.GameObject _contentPrefab; // 0x20
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0x37EFCB0
-        public void get_MaxContentCount(){} // RVA: 0x519240
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x37EF790
-        public void OnEnable(){} // RVA: 0x43E1C0
-        public void OnDisable(){} // RVA: 0x2EC6B90
-        public void IndexOf(){} // RVA: 0x37EFDF0
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x37EFFF0
-        public void Clear(){} // RVA: 0x37F00D0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x37F01E0
-        public void Add(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_CancelText(){} // RVA: 0x7A81052C0
+        public void get_Title(){} // RVA: 0x7A8152D80
+        public void get_ClearButton(){} // RVA: 0x7A8154D80
+        public void get_MinimizedKeyboard(){} // RVA: 0x7A81A00E0
+        public void get_Keyboard(){} // RVA: 0x7B0EF8EA0
+        public void set_Keyboard(){} // RVA: 0x7A80DA7B0
+        public void get_Cancel(){} // RVA: 0x7A80DA7B0
+        public void get_Submit(){} // RVA: 0x7A8105330
+        public void get_CloseButton(){} // RVA: 0x7A8292C30
+        public void get_CharactersRemaining(){} // RVA: 0x7A81A0050
+        public void get_WorldBackground(){} // RVA: 0x7A825E100
+        public void set_WorldBackground(){} // RVA: 0x7B0EF8F60
+        public void get_SubmitText(){} // RVA: 0x7A83F69F0
+        public void get_Placeholder(){} // RVA: 0x7A8178B90
+        public void set_Placeholder(){} // RVA: 0x7A8105330
+        public void get_ModalBackgrounds(){} // RVA: 0x7A82C2060
+        public void get_InputField(){} // RVA: 0x7A8175DF0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Initialize(){} // RVA: 0x7A81052C0
+        public void set_KeyboardToggleGroups(){} // RVA: 0x7A82C2060
+        public void get_KeyboardToggleGroups(){} // RVA: 0x7A81163D0
+        public void set_MaskInputToggle(){} // RVA: 0x7A80DA7B0
+        public void get_MaskInputToggle(){} // RVA: 0x7A8153390
     }
 
-    public class ListContentView`1
+    public class ListContentView`1 : MonoBehaviour
     {
-        public UnityEngine.GameObject _contentPrefab;
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding;
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding;
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0xCD60
-        public void get_MaxContentCount(){} // RVA: 0xD840
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x24A50
-        public void OnEnable(){} // RVA: 0x24A50
-        public void OnDisable(){} // RVA: 0x24A50
-        public void IndexOf(){} // RVA: 0x24A50
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x24A50
-        public void Clear(){} // RVA: 0x24A50
-        public void Cleanup(){} // RVA: 0xCE10
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void Add(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x24A50
+        public void get_CountFormat(){} // RVA: 0x7A7E00680
+        public void get_MaxContentCount(){} // RVA: 0x7A7E00710
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7A7E18770
+        public void OnEnable(){} // RVA: 0x7A7E18770
+        public void OnDisable(){} // RVA: 0x7A7E18770
+        public void StartCoroutine(){} // RVA: 0x7A7E18770
+        public void StartCoroutine_Auto(){} // RVA: 0x7A7E18770
+        public void StopCoroutine(){} // RVA: 0x7A7E18770
+        public void StopAllCoroutines(){} // RVA: 0x7A7E00B20
+        public void get_useGUILayout(){} // RVA: 0x7A7E18890
+        public void set_useGUILayout(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A7E18770
     }
 
-    public class ListContentView`1
+    public class ListContentView`1 : MonoBehaviour
     {
-        public UnityEngine.GameObject _contentPrefab; // 0x20
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0x37EFCB0
-        public void get_MaxContentCount(){} // RVA: 0x519240
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x37EF790
-        public void OnEnable(){} // RVA: 0x43E1C0
-        public void OnDisable(){} // RVA: 0x2EC6B90
-        public void IndexOf(){} // RVA: 0x37EFDF0
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x37EFFF0
-        public void Clear(){} // RVA: 0x37F00D0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x37F01E0
-        public void Add(){} // RVA: 0x283FA0
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_CountFormat(){} // RVA: 0x7AB5DC840
+        public void get_MaxContentCount(){} // RVA: 0x7A82D1450
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7AB5DC320
+        public void OnEnable(){} // RVA: 0x7A82393C0
+        public void OnDisable(){} // RVA: 0x7AACBE020
+        public void StartCoroutine(){} // RVA: 0x7AB5DC980
+        public void StartCoroutine_Auto(){} // RVA: 0x7AB5DCB70
+        public void StopCoroutine(){} // RVA: 0x7AB5DCC50
+        public void StopAllCoroutines(){} // RVA: 0x7A81052C0
+        public void get_useGUILayout(){} // RVA: 0x7AB5DCD60
+        public void set_useGUILayout(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListContentView`1
+    public class ListContentView`1 : MonoBehaviour
     {
-        public UnityEngine.GameObject _contentPrefab; // 0x20
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0x37EF650
-        public void get_MaxContentCount(){} // RVA: 0x519240
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x37EF790
-        public void OnEnable(){} // RVA: 0x43E1C0
-        public void OnDisable(){} // RVA: 0x37EF7B0
-        public void IndexOf(){} // RVA: 0x37EF7D0
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x37EF9B0
-        public void Clear(){} // RVA: 0x37EFA90
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x37EFBA0
-        public void Add(){} // RVA: 0x24B10
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_CountFormat(){} // RVA: 0x7AB5DC1E0
+        public void get_MaxContentCount(){} // RVA: 0x7A82D1450
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7AB5DC320
+        public void OnEnable(){} // RVA: 0x7A82393C0
+        public void OnDisable(){} // RVA: 0x7AB5DC340
+        public void StartCoroutine(){} // RVA: 0x7AB5DC360
+        public void StartCoroutine_Auto(){} // RVA: 0x7AB5DC540
+        public void StopCoroutine(){} // RVA: 0x7AB5DC620
+        public void StopAllCoroutines(){} // RVA: 0x7A81052C0
+        public void get_useGUILayout(){} // RVA: 0x7AB5DC730
+        public void set_useGUILayout(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListContentView`1
+    public class ListContentView`1 : MonoBehaviour
     {
-        public UnityEngine.GameObject _contentPrefab; // 0x20
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0x37EF650
-        public void get_MaxContentCount(){} // RVA: 0x519240
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x37EF790
-        public void OnEnable(){} // RVA: 0x43E1C0
-        public void OnDisable(){} // RVA: 0x37EF7B0
-        public void IndexOf(){} // RVA: 0x37EF7D0
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x37EF9B0
-        public void Clear(){} // RVA: 0x37EFA90
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x37EFBA0
-        public void Add(){} // RVA: 0x24B10
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_CountFormat(){} // RVA: 0x7AB5DC1E0
+        public void get_MaxContentCount(){} // RVA: 0x7A82D1450
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7AB5DC320
+        public void OnEnable(){} // RVA: 0x7A82393C0
+        public void OnDisable(){} // RVA: 0x7AB5DC340
+        public void StartCoroutine(){} // RVA: 0x7AB5DC360
+        public void StartCoroutine_Auto(){} // RVA: 0x7AB5DC540
+        public void StopCoroutine(){} // RVA: 0x7AB5DC620
+        public void StopAllCoroutines(){} // RVA: 0x7A81052C0
+        public void get_useGUILayout(){} // RVA: 0x7AB5DC730
+        public void set_useGUILayout(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListContentView`1
+    public class ListContentView`1 : MonoBehaviour
     {
-        public UnityEngine.GameObject _contentPrefab; // 0x20
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0x37EF650
-        public void get_MaxContentCount(){} // RVA: 0x519240
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x37EF790
-        public void OnEnable(){} // RVA: 0x43E1C0
-        public void OnDisable(){} // RVA: 0x37EF7B0
-        public void IndexOf(){} // RVA: 0x37EF7D0
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x37EF9B0
-        public void Clear(){} // RVA: 0x37EFA90
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x37EFBA0
-        public void Add(){} // RVA: 0x24B10
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_CountFormat(){} // RVA: 0x7AB5DC1E0
+        public void get_MaxContentCount(){} // RVA: 0x7A82D1450
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7AB5DC320
+        public void OnEnable(){} // RVA: 0x7A82393C0
+        public void OnDisable(){} // RVA: 0x7AB5DC340
+        public void StartCoroutine(){} // RVA: 0x7AB5DC360
+        public void StartCoroutine_Auto(){} // RVA: 0x7AB5DC540
+        public void StopCoroutine(){} // RVA: 0x7AB5DC620
+        public void StopAllCoroutines(){} // RVA: 0x7A81052C0
+        public void get_useGUILayout(){} // RVA: 0x7AB5DC730
+        public void set_useGUILayout(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListContentView`1
+    public class ListContentView`1 : MonoBehaviour
     {
-        public UnityEngine.GameObject _contentPrefab; // 0x20
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0x37EF650
-        public void get_MaxContentCount(){} // RVA: 0x519240
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x37EF790
-        public void OnEnable(){} // RVA: 0x43E1C0
-        public void OnDisable(){} // RVA: 0x37EF7B0
-        public void IndexOf(){} // RVA: 0x37EF7D0
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x37EF9B0
-        public void Clear(){} // RVA: 0x37EFA90
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x37EFBA0
-        public void Add(){} // RVA: 0x24B10
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_CountFormat(){} // RVA: 0x7AB5DC840
+        public void get_MaxContentCount(){} // RVA: 0x7A82D1450
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7AB5DC320
+        public void OnEnable(){} // RVA: 0x7A82393C0
+        public void OnDisable(){} // RVA: 0x7AACBE020
+        public void StartCoroutine(){} // RVA: 0x7AB5DC980
+        public void StartCoroutine_Auto(){} // RVA: 0x7AB5DCB70
+        public void StopCoroutine(){} // RVA: 0x7AB5DCC50
+        public void StopAllCoroutines(){} // RVA: 0x7A81052C0
+        public void get_useGUILayout(){} // RVA: 0x7AB5DCD60
+        public void set_useGUILayout(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListContentView`1
+    public class ListContentView`1 : MonoBehaviour
     {
-        public UnityEngine.GameObject _contentPrefab; // 0x20
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0x37F0310
-        public void get_MaxContentCount(){} // RVA: 0x519240
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x37EF790
-        public void OnEnable(){} // RVA: 0x43E1C0
-        public void OnDisable(){} // RVA: 0x37F0450
-        public void IndexOf(){} // RVA: 0x37F0530
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x37F0450
-        public void Clear(){} // RVA: 0x37F0830
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x37F0940
-        public void Add(){}
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_CountFormat(){} // RVA: 0x7AB5DC1E0
+        public void get_MaxContentCount(){} // RVA: 0x7A82D1450
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7AB5DC320
+        public void OnEnable(){} // RVA: 0x7A82393C0
+        public void OnDisable(){} // RVA: 0x7AB5DC340
+        public void StartCoroutine(){} // RVA: 0x7AB5DC360
+        public void StartCoroutine_Auto(){} // RVA: 0x7AB5DC540
+        public void StopCoroutine(){} // RVA: 0x7AB5DC620
+        public void StopAllCoroutines(){} // RVA: 0x7A81052C0
+        public void get_useGUILayout(){} // RVA: 0x7AB5DC730
+        public void set_useGUILayout(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class ListContentView`1
+    public class ListContentView`1 : MonoBehaviour
     {
-        public UnityEngine.GameObject _contentPrefab; // 0x20
-        public ÎÌÎÌÏÌÎÌÎÎÏÍÍÍÏÏÍÏÌÎÏÍÎ _listBinding; // 0x28
-        public ÍÏÎÎÎÎÎÌÍÌÌÍÎÍÎÎÎÏÌÍÌÌÍ _listCountBinding; // 0x30
-
         // ── Methods ──
-        public void get_CountFormat(){} // RVA: 0x37EF650
-        public void get_MaxContentCount(){} // RVA: 0x519240
-        public void get_ObservableList(){} // RVA: 0xCD60
-        public void Start(){} // RVA: 0x37EF790
-        public void OnEnable(){} // RVA: 0x43E1C0
-        public void OnDisable(){} // RVA: 0x37EF7B0
-        public void IndexOf(){} // RVA: 0x37EF7D0
-        public void OnDisable_54F19B8C6CB2(){} // RVA: 0x37EF9B0
-        public void Clear(){} // RVA: 0x37EFA90
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x37EFBA0
-        public void Add(){} // RVA: 0x24B10
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_CountFormat(){} // RVA: 0x7AB5DCE80
+        public void get_MaxContentCount(){} // RVA: 0x7A82D1450
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7AB5DC320
+        public void OnEnable(){} // RVA: 0x7A82393C0
+        public void OnDisable(){} // RVA: 0x7AB5DCFC0
+        public void StartCoroutine(){} // RVA: 0x7AB5DD0A0
+        public void StartCoroutine_Auto(){} // RVA: 0x7AB5DCFC0
+        public void StopCoroutine(){} // RVA: 0x7AB5DD3A0
+        public void StopAllCoroutines(){} // RVA: 0x7A81052C0
+        public void get_useGUILayout(){} // RVA: 0x7AB5DD4B0
+        public void set_useGUILayout(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class ListContentView`1 : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_CountFormat(){} // RVA: 0x7AB5DC1E0
+        public void get_MaxContentCount(){} // RVA: 0x7A82D1450
+        public void get_ObservableList(){} // RVA: 0x7A7E00680
+        public void Start(){} // RVA: 0x7AB5DC320
+        public void OnEnable(){} // RVA: 0x7A82393C0
+        public void OnDisable(){} // RVA: 0x7AB5DC340
+        public void StartCoroutine(){} // RVA: 0x7AB5DC360
+        public void StartCoroutine_Auto(){} // RVA: 0x7AB5DC540
+        public void StopCoroutine(){} // RVA: 0x7AB5DC620
+        public void StopAllCoroutines(){} // RVA: 0x7A81052C0
+        public void get_useGUILayout(){} // RVA: 0x7AB5DC730
+        public void set_useGUILayout(){} // RVA: 0x7A7E18800
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
 }

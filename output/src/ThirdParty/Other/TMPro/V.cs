@@ -1,14 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.TMPro
 // Classes: 1
-// Methods: 2
+// Methods: 1
 
 namespace ThirdParty.Other.TMPro
 {
-    public class VertexGradient
+    public class VertexGradient : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F06610 | overloaded x2
+        public void .ctor(){} // RVA: 0x7A7EBD1F0
     }
 
 }

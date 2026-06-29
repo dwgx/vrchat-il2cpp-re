@@ -1,26 +1,36 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.Microsoft.Extensions.Internal
-// Classes: 2
-// Methods: 9
+// Classes: 3
+// Methods: 13
 
 namespace ThirdParty.DotNet.Microsoft.Extensions.Internal
 {
-    public class ParameterDefaultValue
+    public class ParameterDefaultValue : Object
     {
         // ── Methods ──
-        public void CheckHasDefaultValue(){} // RVA: 0x5BA1E80
-        public void TryGetDefaultValue(){} // RVA: 0x5BA1FC0
-        public void <TryGetDefaultValue>g__CreateValueType|1_0(){} // RVA: 0x5BA2310
+        public void CheckHasDefaultValue(){} // RVA: 0x7AD98F910
+        public void TryGetDefaultValue(){} // RVA: 0x7AD98FA50
+        public void <TryGetDefaultValue>g__CreateValueType|1_0(){} // RVA: 0x7AD98FDA0
     }
 
-    public class TypeNameHelper
+    public class TypeNameHelper : Object
     {
         // ── Methods ──
-        public void GetTypeDisplayName(){} // RVA: 0x5BA2400 | overloaded x2
-        public void ProcessType(){} // RVA: 0x5BA2500
-        public void ProcessArrayType(){} // RVA: 0x5BA2980
-        public void ProcessGenericType(){} // RVA: 0x5BA2BA0
-        public void .cctor(){} // RVA: 0x5BA2FA0
+        public void GetTypeDisplayName(){} // RVA: 0x7AD98FE90
+        public void ProcessType(){} // RVA: 0x7AD98FF90
+        public void ProcessArrayType(){} // RVA: 0x7AD990410
+        public void ProcessGenericType(){} // RVA: 0x7AD990630
+        public void .cctor(){} // RVA: 0x7AD990A40
+    }
+
+    public class TypeNameHelper : Object
+    {
+        // ── Methods ──
+        public void GetTypeDisplayName(){} // RVA: 0x7AD994B80
+        public void ProcessType(){} // RVA: 0x7AD994C80
+        public void ProcessArrayType(){} // RVA: 0x7AD995100
+        public void ProcessGenericType(){} // RVA: 0x7AD995320
+        public void .cctor(){} // RVA: 0x7AD995730
     }
 
 }

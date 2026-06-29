@@ -5,10 +5,10 @@
 
 namespace ThirdParty.DotNet.System.Diagnostics.CodeAnalysis
 {
-    public class ExcludeFromCodeCoverageAttribute
+    public class ExcludeFromCodeCoverageAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

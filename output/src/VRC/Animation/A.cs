@@ -1,3010 +1,1727 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Animation
 // Classes: 100
-// Methods: 2413
+// Methods: 1933
 
 namespace VRC.Animation
 {
-    /// <summary>Originally: ÎÎÌÎÏÏÌÎÏÎÎÍÍÍÌÏÏÍÌÍÌÎÌ</summary>
-    public class AnimatedEmojiTextureDefinition
+    /// <summary>Originally: ÌÏÌÎÎÍÎÎÏÍÌÏÎÎÌÍÌÏÌÍÍÍÎ</summary>
+    public class AnimatedTexture : AnimatedTextureBase_4BD1
     {
-        public bool <ÏÌÍÏÏÏÏÎÎÎÏÎÌÎÏÌÌÏÌÏÌÎÏ>k__BackingField; // 0x20
-        public string ÏÍÌÏÍÌÍÍÍÌÌÎÎÍÎÎÎÏÍÎÌÌÎ; // 0x28
-        public UnityEngine.Material ÎÏÍÌÏÎÍÌÎÏÍÌÌÏÎÍÌÏÎÍÏÎÌ; // 0x30
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÍÍÍÌÎÏÎÍÌÍÍÎÌÍÌÎÎÎÍÎÎÌÌ; // 0x38
-        public string ÌÌÏÌÍÏÎÎÎÍÎÍÏÍÍÏÎÌÌÌÎÎÍ;
-        public VRC.Profiling.ProfilerMarker ÏÌÍÏÎÌÌÌÌÎÏÎÍÏÍÍÌÍÌÎÏÌÍ; // 0x40
-        public VRC.Profiling.ProfilerMarker ÏÎÏÏÌÌÌÎÏÏÏÍÍÌÏÍÌÎÏÌÏÏÍ; // 0x50
-        public ÎÌÏÏÍÎÍÎÌÍÎÌÍÌÌÎÎÎÍÎÏÏÏ <ÍÏÎÌÎÍÌÌÍÍÍÎÏÏÍÍÌÌÌÍÌÍÎ>k__BackingField; // 0x60
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÏÌÏÏÍÎÎÎÎÌÌÎÍÍÍÎÏÌÏÌÌÍÍ>k__BackingField; // 0x68
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÌÏÍÌÏÌÌÎÍÏÍÍÏÍÌÌÎÍÍÏÎÎÏ>k__BackingField; // 0x70
-        public int ÌÌÍÍÍÎÍÎÍÏÎÌÏÍÌÏÍÍÏÏÍÏÌ;
-
         // ── Methods ──
-        public void get_MaskTag(){} // RVA: 0x9E8FF0
-        public void set_AnimationStyle(){} // RVA: 0xEEFD10
-        public void set_FileId(){} // RVA: 0x1C37750
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void set_MaskTag(){} // RVA: 0x37B370
-        public void SetFPS(){} // RVA: 0xFC4480
-        public void set_IsSpecialFX(){} // RVA: 0x2DEE90
-        public void get_IsSpecialFX(){} // RVA: 0xF3B700
-        public void set_DisplayTexture(){} // RVA: 0x30B130
-        public void RichPresenceOptionsSetApiName(){} // RVA: 0x1C377A0
-        public void get_DisplayTexture(){} // RVA: 0x358D50
-        public void set_EffectBundleID(){} // RVA: 0x9B7650
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void get_AnimationStyle(){} // RVA: 0x977430
-        public void get_Frames(){} // RVA: 0x1C37960
-        public void get_IsBuiltIn(){} // RVA: 0x2DD320
-        public void set_OwnerCanUseAnimatedEmoji(){} // RVA: 0x3CB9E0
-        public void get_IsAnimated(){} // RVA: 0x1C37980
-        public void get_SpawnablePrefabName(){} // RVA: 0x30B130
-        public void set_SpawnablePrefabName(){} // RVA: 0x1C37960
-        public void set_LoadFrom(){} // RVA: 0x37B380
-        public void .ctor(){} // RVA: 0x1C379A0
-        public void get_LoadFrom(){} // RVA: 0x1C37B30
-        public void set_IsPremium(){} // RVA: 0x6374D0
-        public void set_Sprite(){} // RVA: 0x1C37B60
-        public void get_Sprite(){} // RVA: 0x519240
-        public void get_IsPremium(){} // RVA: 0x1C37C20
-        public void SetEffectBundleID(){} // RVA: 0x3A55A0
-        public void set_LoopStyle(){} // RVA: 0x1C37C40
-        public void set_Frames(){} // RVA: 0x37B380
-        public void get_IsPremium_AB7D7D00DFA0(){} // RVA: 0x358D60
-        public void SetFrames(){} // RVA: 0x1C37CB0
-        public void get_LoopStyle(){} // RVA: 0x1C38410
-        public void set_FullResolutionTexture(){} // RVA: 0x1C37C40
-        public void set_FPS(){} // RVA: 0x9E8FF0
-        public void get_OwnerCanUseAnimatedEmoji(){} // RVA: 0x3CB9D0
-        public void get_FPS(){} // RVA: 0xFC4480
-        public void get_FullResolutionTexture(){} // RVA: 0x3A5590
-    }
-
-    /// <summary>Originally: ÍÏÌÍÌÏÍÍÍÎÏÎÍÌÎÏÎÍÌÌÌÎÍ</summary>
-    public class AnimatedTexture
-    {
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÏÌÏÏÍÎÎÎÎÌÌÎÍÍÍÎÏÌÏÌÌÍÍ>k__BackingField; // 0x20
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÌÏÍÌÏÌÌÎÍÏÍÍÏÍÌÌÎÍÍÏÎÎÏ>k__BackingField; // 0x28
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÍÍÍÌÎÏÎÍÌÍÍÎÌÍÌÎÎÎÍÎÎÌÌ; // 0x30
-        public int ÏÌÌÌÌÎÌÍÍÌÏÏÌÎÌÏÌÍÎÌÍÌÍ;
-        public VRC.Profiling.ProfilerMarker ÏÌÍÏÎÌÌÌÌÎÏÎÍÏÍÍÌÍÌÎÏÌÍ; // 0x38
-        public VRC.Profiling.ProfilerMarker ÏÎÏÏÌÌÌÎÏÏÏÍÍÌÏÍÌÎÏÌÏÏÍ; // 0x48
-
-        // ── Methods ──
-        public void get_EffectBundleID(){} // RVA: 0x99E580
-        public void get_LoopStyle(){} // RVA: 0x1B8E640
-        public void set_LoopStyle(){} // RVA: 0xEDC8F0
-        public void set_EffectBundleID(){} // RVA: 0x30B0D0
-        public void set_LinearLoop(){} // RVA: 0x2DEE90
-        public void .ctor(){} // RVA: 0x1B8E6A0
-        public void Initialize(){} // RVA: 0x9770D0
-        public void SetIsBuiltIn(){} // RVA: 0x1B8E830
-        public void get_LinearLoop(){} // RVA: 0x1B8E880
-        public void set_Frames(){} // RVA: 0x1B8E930
-        public void ResolveAnimatedTexture(){} // RVA: 0x1B8ED90
-        public void Initialize8B4FBC9AB653(){} // RVA: 0x1B8EF50
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void get_Frames(){} // RVA: 0xFC46D0
-        public void set_FullResolutionTexture(){} // RVA: 0xFC46D0
-        public void set_MaskTag(){} // RVA: 0xFC46D0
-        public void set_FileId(){} // RVA: 0x1B8F000
-        public void set_IsSpecialFX(){} // RVA: 0x9E8D70
-        public void get_FullResolutionTexture(){} // RVA: 0x30B130
-        public void get_MaskTag(){} // RVA: 0x9E8D70
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void get_IsSpecialFX(){} // RVA: 0x1B8F460
-        public void get_IsBuiltIn(){} // RVA: 0x2DD320
-        public void set_IsBuiltIn(){} // RVA: 0xFC46D0
-        public void get_DisplayTexture(){} // RVA: 0x30B0C0
-        public void get_FPS(){} // RVA: 0xFC42B0
-        public void get_IsAnimated(){} // RVA: 0xEDC8F0
-    }
-
-    /// <summary>Originally: ÍÏÎÌÍÌÏÏÌÎÌÎÎÏÍÌÌÌÏÌÌÌÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_0CF6
-    {
-        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
-        public ÎÏÍÎÍÎÍÏÍÌÍÏÎÌÎÌÏÏÏÌÎÌÌ <ÌÍÎÏÌÎÌÌÏÍÍÌÏÍÌÍÏÏÎÌÍÏÍ>k__BackingField; // 0x38
-        public ÌÌÏÏÏÏÌÎÎÌÏÎÌÍÎÌÍÍÏÏÌÍÌ <ÎÎÏÏÎÍÎÏÏÍÍÎÍÎÏÎÌÌÍÎÍÌÌ>k__BackingField; // 0x40
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÍÏÍÍÌÌÌÏÍÌÍÎÍÏÍÍÍÏÎÏÎÏÏ>> <ÍÏÌÎÍÌÎÍÍÍÍÍÍÌÍÍÎÍÍÌÏÎÎ>k__BackingField; // 0x48
-        public int <ÌÏÎÎÍÏÏÏÏÏÎÏÎÍÍÍÌÌÏÌÏÏÌ>k__BackingField; // 0x50
-        public bool <ÍÏÎÏÍÍÌÍÌÏÏÏÎÏÎÌÎÏÏÌÏÌÍ>k__BackingField; // 0x54
-        public string ÎÎÏÍÏÎÌÎÌÌÏÎÍÏÏÍÎÌÍÍÍÏÏ; // 0x58
-
-        // ── Methods ──
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void get_CountActive(){} // RVA: 0x59C540
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void .ctor(){} // RVA: 0xBDAD20
-        public void Initialize(){} // RVA: 0xBDB400
-        public void set_controlPathInternal(){} // RVA: 0x305200
-        public void StartWithHighestBandwidth(){} // RVA: 0xBDB570
-        public void get_MoveNext_F15288BE40EA(){} // RVA: 0x4976A0
-        public void Equals(){} // RVA: 0xBDB400
-        public void set_CountActive(){} // RVA: 0x65F570
-        public void StartWithHighestBandwidth_FEE767C95910(){} // RVA: 0xBDB570
-        public void set_displayName(){} // RVA: 0x49B830
-        public void SetSize(){} // RVA: 0xBDB680
-        public void SetSize_9F1EDA763125(){} // RVA: 0xBDB780
-        public void SetCenter(){} // RVA: 0xBDB860
-        public void AddFromToForce(){} // RVA: 0x358740
-        public void set_CountActive_78CBB704B591(){} // RVA: 0x65F570
-        public void SetCenter_60BC6280D4D8(){} // RVA: 0xBDB960
+        public void get_EffectBundleID(){} // RVA: 0x7A8738630
+        public void get_LoopStyle(){} // RVA: 0x7A994C5B0
+        public void set_LoopStyle(){} // RVA: 0x7A8CA6C30
+        public void set_EffectBundleID(){} // RVA: 0x7A81052D0
+        public void set_LinearLoop(){} // RVA: 0x7A80D8E80
+        public void .ctor(){} // RVA: 0x7A994C610
+        public void Initialize(){} // RVA: 0x7A8711130
+        public void get_LinearLoop(){} // RVA: 0x7A994C7F0
+        public void set_Frames(){} // RVA: 0x7A994C8A0
+        public void get_Frames(){} // RVA: 0x7A8D6E090
+        public void set_FullResolutionTexture(){} // RVA: 0x7A8D6E090
+        public void set_MaskTag(){} // RVA: 0x7A8D6E090
+        public void set_FileId(){} // RVA: 0x7A994CF80
+        public void set_IsSpecialFX(){} // RVA: 0x7A87A5E70
+        public void get_FullResolutionTexture(){} // RVA: 0x7A8105330
+        public void get_MaskTag(){} // RVA: 0x7A87A5E70
+        public void get_FileId(){} // RVA: 0x7A8711130
+        public void get_IsSpecialFX(){} // RVA: 0x7A994D3F0
+        public void get_IsBuiltIn(){} // RVA: 0x7A80D7320
+        public void set_IsBuiltIn(){} // RVA: 0x7A8D6E090
+        public void get_DisplayTexture(){} // RVA: 0x7A81052C0
+        public void get_FPS(){} // RVA: 0x7A8D6DC70
+        public void get_IsAnimated(){} // RVA: 0x7A8CA6C30
         // ── Unresolved (hash) ──
-        public void m_A14(){} // RVA: 0xBDACC0
-        public void m_6F7(){} // RVA: 0xBDB470
-        public void m_F5C(){} // RVA: 0xBDB580
+        public void m_767(){} // RVA: 0x7A994C7A0
+        public void m_FF2(){} // RVA: 0x7A994CD10
+        public void m_57A(){} // RVA: 0x7A994CED0
+        public void m_CC8(){} // RVA: 0x7A8711090
     }
 
-    /// <summary>Originally: ÍÏÌÎÌÎÎÍÌÎÎÌÏÎÎÍÏÏÏÏÎÌÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_1171
+    /// <summary>Originally: ÏÎÌÌÍÍÏÏÌÍÍÍÌÎÏÎÌÍÎÎÌÍÌ</summary>
+    public class AnimatedTextureBaseIImpl_27B9 : AnimatedTextureBaseImplSibling_AD88
     {
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>> <ÍÌÏÎÎÎÏÎÎÏÎÎÎÏÍÎÏÎÍÏÌÎÎ>k__BackingField; // 0x20
-        public System.Threading.CancellationTokenSource ÏÍÍÌÍÍÍÌÍÎÏÎÎÍÎÏÍÌÏÏÎÌÌ; // 0x28
-        public int ÍÌÎÎÍÌÍÌÏÎÏÍÌÎÏÍÌÍÍÎÏÌÌ;
-
         // ── Methods ──
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void get_CallingAssembly(){} // RVA: 0x977430
-        public void get_MaskTag(){} // RVA: 0x9E8FF0
-        public void SetFrameCount(){} // RVA: 0xA8CBD0
-        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void SetItem_C0113BB004D6_650588A3E51E(){} // RVA: 0x9E8D10
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void get_CallingAssembly_0E4D7170E04B(){} // RVA: 0x977430
-        public void SetItem_C0113BB004D6_1E6F04D98852(){} // RVA: 0x9E8D10
-        public void .ctor(){} // RVA: 0xEF6150
-        public void Initialize(){} // RVA: 0x9E92F0
+        public void .ctor(){} // RVA: 0x7A9A18900
+    }
+
+    /// <summary>Originally: ÎÌÍÍÎÏÌÎÏÎÎÌÎÍÏÎÏÍÏÌÏÍÎ</summary>
+    public class AnimatedTextureBaseIImpl_857D : AnimatedTextureBaseImplSibling_8E5F
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9883560
+        public void ToString(){} // RVA: 0x7A9883630
         // ── Unresolved (hash) ──
-        public void m_829(){} // RVA: 0xEF5790
-        public void m_885(){} // RVA: 0xEB7890
-        public void m_4A4(){} // RVA: 0xEF57C0
-        public void m_B9F(){} // RVA: 0xEF57F0
-        public void m_4EB(){} // RVA: 0xEF5CA0
+        public void m_9CB(){} // RVA: 0x7A851DB90
+        public void m_A11(){} // RVA: 0x7A8738180
+        public void m_5B2(){} // RVA: 0x7A8738180
+        public void m_CDF(){} // RVA: 0x7A8738180
+        public void m_936(){} // RVA: 0x7A851DB90
+        public void m_31A(){} // RVA: 0x7A8738180
+        public void m_B92(){} // RVA: 0x7A851DB90
+        public void m_52C(){} // RVA: 0x7A8AB15F0
+        public void m_10D(){} // RVA: 0x7A94794D0
+        public void m_0E0(){} // RVA: 0x7A94794D0
     }
 
-    /// <summary>Originally: ÌÎÌÏÎÌÌÌÌÏÍÌÏÏÏÎÍÍÌÎÎÏÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_1720
-    {
-        public object _1720;
-
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0xD840
-        public void GetEnumerator(){} // RVA: 0xCD60
-        // ── 18 unresolved (hash) ──
-        public void m_7BC(){} // RVA: 0xCD60
-        public void m_648(){} // RVA: 0xCD60
-        public void m_BE4(){} // RVA: 0xCD60
-        public void m_697(){} // RVA: 0xCD60
-        public void m_62E(){} // RVA: 0xCD60
-        // ... 13 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÌÍÌÏÌÌÏÏÏÌÏÍÍÍÌÎÌÌÏÍÌÏ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_1D4C
+    /// <summary>Originally: ÏÏÏÎÏÌÍÌÎÌÌÎÎÎÍÍÌÏÍÎÌÏÏ</summary>
+    public class AnimatedTextureBaseIImpl_CFCF : AnimatedTextureBaseImplSibling_AD88
     {
         // ── Methods ──
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_4C6B1F781EC1(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_209BA13D93D8(){} // RVA: 0xDBE0
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Count_6C04F4B6B9D2(){} // RVA: 0xD840
-        public void get_IsReadOnly_EE9E1A2FFB58(){} // RVA: 0xDBE0
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_IsReadOnly_5AE511904243(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_2D5EA8EFCCF9(){} // RVA: 0xDBE0
-        public void Remove(){} // RVA: 0xDE40
-        public void CreateCollection(){} // RVA: 0x2F090
-        public void CreateCollection_2941794AE2D9(){} // RVA: 0x2F090
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void AwaitUnsafeOnCompleted_DD7377DBE82C(){} // RVA: 0x2DC60
-        // ── Unresolved (hash) ──
-        public void m_149(){} // RVA: 0xCD60
-        public void m_3F3(){} // RVA: 0xCD60
-        public void m_60B(){} // RVA: 0xCD60
-        public void m_2E2(){} // RVA: 0xCD60
-        public void m_BCF(){} // RVA: 0xCD60
-        public void m_F0A(){}
-        public void m_79B(){} // RVA: 0xCD60
-    }
-
-    /// <summary>Originally: ÍÏÏÍÏÏÍÎÌÎÎÎÍÌÏÌÍÌÎÎÎÏÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_1DD2
-    {
-        // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Count_638049950F27(){} // RVA: 0xD840
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_Count_6D0203E83638(){} // RVA: 0xD840
-        public void get_IsReadOnly_5EF268128696(){} // RVA: 0xDBE0
-        public void get_Count_01C6E16848B0(){} // RVA: 0xD840
-        // ── Unresolved (hash) ──
-        public void m_5A0(){} // RVA: 0xCD60
-        public void m_62E(){} // RVA: 0xCD60
-        public void m_6DB(){} // RVA: 0xCD60
-    }
-
-    /// <summary>Originally: ÍÏÏÍÎÍÍÏÌÍÌÍÏÏÏÏÍÌÍÌÏÌÏ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_20D0
-    {
-        public VRC.Core.ApiTokenBundle <ÌÌÍÍÍÍÏÍÌÎÎÌÏÏÎÎÌÍÎÍÏÌÍ>k__BackingField; // 0x10
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÎÏÍÍÏÌÌÌÏÌÍÏÏÏÍÏÎÍÎÏÍÍÏ>k__BackingField; // 0x18
-
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0x2F8380
-        public void Equals(){} // RVA: 0x343E80
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void .ctor(){} // RVA: 0x9EA750
-        public void Initialize(){} // RVA: 0x2E07C0
-        public void CreateRenderTexture(){} // RVA: 0x9EA8F0
-        public void set_Value(){} // RVA: 0x2DEE30
-        // ── 11 unresolved (hash) ──
-        public void m_54D(){} // RVA: 0x9EA560
-        public void m_287(){} // RVA: 0x9EA6B0
-        public void m_A9C(){} // RVA: 0x9EA6D0
-        public void m_E2E(){} // RVA: 0x9EA6F0
-        public void m_18B(){} // RVA: 0x9EA730
-        // ... 6 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_21A0
-    {
-        public object f_3AE;
-        public object f_7EF;
-        public object f_649;
-
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0xC770
-        public void get_Item(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void OnCanceled(){} // RVA: 0x24CC0
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_CAFA0B1A7A78(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_D50AE62BB8FC(){} // RVA: 0xDBE0
-        public void Dispose(){} // RVA: 0x25130
-        public void Add(){} // RVA: 0x24B10
-        public void get_IsReadOnly_C6C7C3766EF7(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_47E698627B14(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_3E2EB0500792(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_26B19D2FBA7C(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_484BDFD4364A(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_2421D67722DB(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_CCF65E26A1B8(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_189C0DC5566B(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_D9C290E29305(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_857D3754ED25(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_6CCED7C88BF2(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_3500641AEF8F(){} // RVA: 0xDBE0
-        public void OnCompleted(){} // RVA: 0xCD60
-        public void UnsafeOnCompleted(){} // RVA: 0xCD60
-        public void AwaitOnCompleted(){} // RVA: 0xCD60
-        public void Clear(){} // RVA: 0x24A50
-        public void AllocateThreadStaticStorageSlot(){} // RVA: 0x259F0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void AwaitUnsafeOnCompleted_34AA1C0B24D3(){} // RVA: 0x2DC60
-        public void AwaitUnsafeOnCompleted_DCF7BC2B9D03(){} // RVA: 0x24B10
-        // ── 16 unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_60B(){} // RVA: 0xC770
-        public void m_83A(){} // RVA: 0xCD60
-        public void m_E4E(){} // RVA: 0xCD60
-        public void m_7A9(){} // RVA: 0xCD60
-        // ... 11 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÎÏÎÎÎÎÏÍÎÎÌÎÍÍÎÏÌÍÌÎÎÏ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_29C0
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0xD840
-        public void GetEnumerator(){} // RVA: 0xCD60
-        // ── 12 unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_60B(){} // RVA: 0xCD60
-        public void m_1F9(){} // RVA: 0xCD60
-        public void m_6CD(){} // RVA: 0xCD60
-        public void m_2E2(){} // RVA: 0xCD60
-        // ... 7 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÏÎÎÏÏÎÍÌÌÍÎÎÏÌÌÏÍÌÍÌÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_2B9B
-    {
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
-        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
-        public VRC.Localization.LocalizableString <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x40
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÏÍÌÏÏÎÎÎÍÍÎÎÎÌÍÌÎÎÏÍÍÌÌ>k__BackingField; // 0x68
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Sprite> <ÍÍÍÌÎÏÏÍÎÍÍÌÍÌÎÏÎÎÎÎÍÌÏ>k__BackingField; // 0x70
-        public string <ÍÍÍÌÏÍÌÏÎÏÍÎÍÌÎÌÎÎÎÌÍÌÌ>k__BackingField; // 0x78
-        public string <ÍÎÍÍÌÍÌÍÏÌÎÎÌÎÍÌÍÎÌÎÎÌÍ>k__BackingField; // 0x80
-        public string <ÌÍÍÏÏÎÍÍÍÍÎÌÍÍÌÎÎÌÍÌÏÍÎ>k__BackingField; // 0x88
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÎÏÎÏÏÍÌÍÎÍÎÎÎÌÏÍÎÎÌÏÍÍÍ>k__BackingField; // 0x90
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÏÌÏÌÏÌÏÍÏÍÏÌÎÍÏÎÏÏÎÎÎÎÍ>k__BackingField; // 0x98
-        public bool <ÏÎÌÌÌÍÏÏÏÍÎÎÏÏÏÌÌÏÎÏÍÍÍ>k__BackingField; // 0xA0
-        public System.DateTime <ÎÍÎÌÍÌÎÍÏÎÏÎÏÍÎÏÍÎÏÏÏÎÎ>k__BackingField; // 0xA8
-        public System.DateTime <ÌÌÌÌÎÏÏÎÎÎÌÏÌÏÏÍÏÎÌÍÌÏÏ>k__BackingField; // 0xB0
-        public System.DateTime <ÌÍÏÎÌÏÏÏÍÏÏÎÏÌÍÌÏÌÍÎÏÎÎ>k__BackingField; // 0xB8
-        public System.DateTime <ÌÌÌÌÌÍÍÌÍÏÎÏÏÏÏÌÏÎÍÎÌÎÏ>k__BackingField; // 0xC0
-        public string <ÏÍÍÎÎÎÌÏÍÏÌÎÍÌÍÌÌÍÍÏÍÍÌ>k__BackingField; // 0xC8
-        public bool <ÎÎÌÎÎÏÍÍÏÏÏÎÏÍÍÌÏÎÎÎÏÍÎ>k__BackingField; // 0xD0
-        public string <ÏÌÎÌÍÌÏÌÍÎÎÎÍÍÍÏÍÌÏÏÌÌÏ>k__BackingField; // 0xD8
-        public string <ÎÏÎÎÌÍÌÏÍÎÌÏÎÏÍÍÌÌÏÍÌÎÌ>k__BackingField; // 0xE0
-        public string <ÎÎÌÍÏÏÎÏÏÌÍÏÏÏÏÌÌÍÍÎÌÍÏ>k__BackingField; // 0xE8
-        public string <ÌÎÌÎÍÍÍÌÍÌÏÍÎÏÏÌÍÎÌÏÎÎÎ>k__BackingField; // 0xF0
-        public string <ÎÌÍÏÍÏÎÏÎÌÏÎÍÍÏÎÌÍÍÌÍÍÎ>k__BackingField; // 0xF8
-        public bool <ÎÍÌÎÍÏÏÎÎÎÌÍÌÎÍÏÍÍÎÎÏÌÌ>k__BackingField; // 0x100
-        public bool <ÍÏÍÌÌÍÏÌÎÌÍÌÍÏÍÍÏÎÌÏÍÍÌ>k__BackingField; // 0x101
-        public bool <ÎÏÍÎÎÍÏÍÏÍÌÌÎÌÏÏÌÍÏÎÌÏÍ>k__BackingField; // 0x102
-        public bool <ÌÌÍÎÎÍÏÏÌÎÌÎÎÏÏÍÏÍÍÏÍÍÍ>k__BackingField; // 0x103
-        public bool <ÏÏÎÍÎÏÏÏÎÌÏÏÏÏÌÏÍÌÏÌÍÎÎ>k__BackingField; // 0x104
-        public bool <ÎÎÌÍÌÏÍÌÌÌÎÍÎÌÍÎÏÏÎÌÎÏÍ>k__BackingField; // 0x105
-        public bool <ÍÍÎÎÎÎÏÍÍÏÍÎÌÎÏÌÌÍÏÍÏÎÎ>k__BackingField; // 0x106
-        public bool <ÍÌÎÍÎÏÎÏÏÏÎÌÌÎÏÎÎÎÍÌÏÏÏ>k__BackingField; // 0x107
-        public bool <ÏÏÍÎÎÌÍÎÏÌÏÌÎÌÏÌÏÍÏÍÎÎÎ>k__BackingField; // 0x108
-        public bool <ÎÎÌÍÏÍÍÎÍÎÏÌÎÍÍÍÎÏÏÌÍÎÎ>k__BackingField; // 0x109
-        public bool <ÍÏÏÌÌÌÏÎÌÌÌÎÌÍÍÌÎÎÌÏÏÍÏ>k__BackingField; // 0x10A
-        public bool <ÍÌÌÍÏÌÍÏÏÏÍÎÏÏÌÌÍÍÌÎÍÏÏ>k__BackingField; // 0x10B
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÌÎÎÏÌÌÍÏÍÏÍÌÏÎÏÌÍÏÎÎÌ>k__BackingField; // 0x110
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÏÎÏÌÏÌÍÌÌÏÌÍÍÍÏÏÎÎÌÎÍÌ>k__BackingField; // 0x118
-        public System.Collections.Generic.List`1<string> <ÌÎÍÍÎÍÏÍÍÍÍÍÏÎÌÏÌÌÌÍÍÏÍ>k__BackingField; // 0x120
-        public System.Collections.Generic.List`1<string> <ÏÎÍÍÎÍÌÍÏÎÍÍÎÌÍÌÏÎÍÏÎÍÍ>k__BackingField; // 0x128
-        public System.Collections.Generic.List`1<string> <ÍÎÍÌÎÏÍÍÎÏÌÏÎÎÍÍÌÌÌÌÎÏÍ>k__BackingField; // 0x130
-        public System.Action ÌÏÏÏÌÌÍÏÍÌÍÏÍÍÏÏÍÎÍÌÌÌÏ; // 0x138
-
-        // ── Methods ──
-        public void get_pointerType(){} // RVA: 0xA1C130
-        public void get_up(){} // RVA: 0x59E660
-        public void get_EqualityComparer(){} // RVA: 0x35E970
-        public void get_unityVersion(){} // RVA: 0x348120
-        public void get_TraceWriter(){} // RVA: 0x7F7DB0
-        public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
-        public void get_playedOnce(){} // RVA: 0x1B6C640
-        public void get_releaseStatus(){} // RVA: 0x348040
-        public void set_updatedAt(){} // RVA: 0x1B6C650
-        public void SetLocalScale(){} // RVA: 0x1B6C660
-        public void ArgumentException(){} // RVA: 0x3482B0
-        public void set_down(){} // RVA: 0xD182E0
-        public void set_relatedTarget(){} // RVA: 0x463060
-        public void set_focusController(){} // RVA: 0x9AA650
-        public void set_authorId(){} // RVA: 0x464450
-        public void set_disclaimerText(){} // RVA: 0x435470
-        public void set_ipsQuery(){} // RVA: 0x63D280
-        public void get_down(){} // RVA: 0xA8EE80
-        public void OnDidApplyAnimationProperties_499381AB6900(){} // RVA: 0xA96D30
-        public void set_imageUrl(){} // RVA: 0x4C34F0
-        public void get_previewInEditor(){} // RVA: 0x1B6C950
-        public void set_imageUrl_71078BD976E3(){} // RVA: 0x4C34F0
-        public void get_ReferenceResolverProvider(){} // RVA: 0x3482A0
-        public void SetLocalScale_3500641AEF8F(){} // RVA: 0x1702E10
-        public void set_left(){} // RVA: 0xDA3F70
-        public void get_ContractResolver(){} // RVA: 0x35E900
-        public void get_TraceWriter_71E0703BE818(){} // RVA: 0x7F7DB0
-        public void set_unityPackages(){} // RVA: 0x35E980
-        public void ArgumentException_5FD07F8116BA(){} // RVA: 0x1B6C960
-        public void get_Current(){} // RVA: 0x2F8380
-        public void set_IsFocusDelegated(){} // RVA: 0xB70090
-        public void get_imageUrl(){} // RVA: 0x3A5590
-        public void set_ResponseModels(){} // RVA: 0x358D60
-        public void get_left(){} // RVA: 0xA8E870
-        public void .ctor(){} // RVA: 0x1B6CA00
-        public void Initialize(){} // RVA: 0x2DEE30
-        public void UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent(){} // RVA: 0x3480B0
-        public void get_focusController(){} // RVA: 0xA1C8C0
-        public void get_description(){} // RVA: 0x796DE0
-        public void set_TokenStartIndex(){} // RVA: 0xEB7880
-        public void set_Status(){} // RVA: 0x1B6CD00
-        public void get_ShouldCreateWrapper(){} // RVA: 0x12108C0
-        public void GetComponentTransform(){} // RVA: 0x4C7C50
-        public void get_focusController_89ECE1DB33DD(){} // RVA: 0xA1C8C0
-        public void set_monoscopic_68B0A8(){} // RVA: 0x8A9980
-        public void set_playedOnce(){} // RVA: 0x1B6CD20
-        public void set_AllowAdditionalProperties(){} // RVA: 0x11CE870
-        public void get_AllowManualFileExtension(){} // RVA: 0x1B6CD40
-        public void set_imageUrl_F174CDAEC727(){} // RVA: 0x3A55A0
-        public void get_SameFunc(){} // RVA: 0x31C010
-        public void get_IsFocusDelegated(){} // RVA: 0x1B6CD50
-        public void Add(){} // RVA: 0x7D0820
-        public void set_isVerified(){} // RVA: 0x1B6CD60
-        public void OnCanvasGroupChanged_8299E2EB2467(){} // RVA: 0x35E8A0
-        public void get_MoveNext(){} // RVA: 0x462D00
-        public void get_DictionaryKeyType(){} // RVA: 0x435460
-        public void get_DtdParserProxy_Namespaces(){} // RVA: 0x1B6CE60
-        public void get_OverrideCreator(){} // RVA: 0x507710
-        public void SetLocalScale_1F294F2DE0FC(){} // RVA: 0x120E9D0
-        public void get_placeholder(){} // RVA: 0x507D10
-        public void set_velocity(){} // RVA: 0x1B6CF30
-        public void set_AllowManualFileExtension(){} // RVA: 0x1B6CF40
-        public void System.Collections.Generic.IEnumerator<TSource>.get_Current_35E9DBAE75A7(){} // RVA: 0x7D0800
-        public void set_disclaimerText_60CB87459A4D(){} // RVA: 0x435470
-        public void set_up(){} // RVA: 0x59F420
-        public void set_contentList(){} // RVA: 0x35E910
-        public void set_contentList_BDF6CC528B90(){} // RVA: 0x35E910
-        public void set_description(){} // RVA: 0xB54600
-        public void get_ResponseModels(){} // RVA: 0x358D50
-        public void Equals(){} // RVA: 0x1B6CF60
-        public void set_isVerified_228545593B8E(){} // RVA: 0x1B6CD60
-        // ── 18 unresolved (hash) ──
-        public void m_3BB(){} // RVA: 0x1B6C630
-        public void m_34A(){} // RVA: 0x1B6C670
-        public void m_E41(){} // RVA: 0x1B6C720
-        public void m_0C8(){} // RVA: 0x1B6C810
-        public void m_6CC(){} // RVA: 0x1B6C8B0
-        // ... 13 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_362B
-    {
-        // ── Methods ──
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Count_1FB0AE9AB930(){} // RVA: 0xD840
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_Count_3AB542555433(){} // RVA: 0xD840
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void Clear(){} // RVA: 0x24A50
-        public void Add(){} // RVA: 0x24B10
-        public void get_Count_9C8A269DFE20(){} // RVA: 0xD840
-        public void RemoveAt(){} // RVA: 0x24FA0
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_IsReadOnly_41B63A5A435E(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_0E818BE393A6(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_FDEA698C8AC7(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_66AD78B96AB3(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_C7ED4AC4725C(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_C59298D1F7F8(){} // RVA: 0xDBE0
-        public void GetExpectedContentHeight(){} // RVA: 0x21890
-        public void get_IsReadOnly_E8088A092734(){} // RVA: 0xDBE0
-        public void get_Item(){} // RVA: 0x1BCC0
-        public void CompressBlockOptimal(){} // RVA: 0xE300
-        public void get_Count_905EE203D3E3(){} // RVA: 0xD840
-        public void get_Count_4EC2AF0E81C1(){} // RVA: 0xD840
-        public void get_Count_9C36C59F1DEC(){} // RVA: 0xD840
-        public void get_Count_F8346C6453CE(){} // RVA: 0xD840
-        public void get_Count_BDA77262C473(){} // RVA: 0xD840
+        public void .ctor(){} // RVA: 0x7A9A18900
+        public void Initialize(){} // RVA: 0x7A9A18C60
         // ── 27 unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_60B(){} // RVA: 0xCD60
-        public void m_346(){} // RVA: 0xCD60
-        public void m_1E6(){} // RVA: 0xCD60
-        public void m_E4E(){} // RVA: 0xCD60
+        public void m_E9B(){} // RVA: 0x7A9A18C10
+        public void m_7BB(){} // RVA: 0x7A8355900
+        public void m_0A6(){} // RVA: 0x7A9A18C20
+        public void m_257(){} // RVA: 0x7A9A18C10
+        public void m_D53(){} // RVA: 0x7A9A18C40
         // ... 22 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÍÏÍÎÍÌÎÎÌÏÍÎÍÎÎÌÌÌÏÏÏÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_39B0
+    /// <summary>Originally: ÍÌÎÌÌÏÍÏÌÍÎÎÏÎÎÌÍÏÍÏÌÍÎ</summary>
+    public class AnimatedTextureBaseIImpl_E38A : AnimatedTextureBaseImpl_2B43
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0xCD60
+        public void .ctor(){} // RVA: 0x7A8C5D430
         // ── Unresolved (hash) ──
-        public void m_E21(){} // RVA: 0xCD60
-        public void m_51F(){} // RVA: 0xCD60
-        public void m_FE0(){} // RVA: 0xCD60
-        public void m_AE2(){} // RVA: 0xCD60
-        public void m_D2F(){} // RVA: 0xCD60
-        public void m_C40(){} // RVA: 0xCD60
+        public void m_B79(){} // RVA: 0x7A8C5D3C0
     }
 
-    /// <summary>Originally: ÎÏÏÍÏÌÌÍÎÎÏÎÍÌÌÎÏÎÍÎÎÌÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_3EAC
+    /// <summary>Originally: ÍÎÍÌÏÎÍÎÌÍÍÍÎÌÍÏÏÎÌÌÌÍÏ</summary>
+    public class AnimatedTextureBaseImplImpl_11C9 : AnimatedTextureBaseImpl_0B8F
     {
-        public string <ÏÎÍÍÏÎÏÌÍÍÏÍÎÍÍÍÍÌÏÍÎÌÎ>k__BackingField; // 0x10
-        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
-        public ÏÍÏÏÏÌÏÏÍÎÍÍÌÏÌÍÏÍÏÌÎÏÍ <ÎÍÌÎÍÌÏÍÎÌÎÏÏÏÎÍÌÏÏÏÍÎÎ>k__BackingField; // 0x40
-        public ÎÏÍÎÍÎÍÏÍÌÍÏÎÌÎÌÏÏÏÌÎÌÌ <ÌÍÎÏÌÎÌÌÏÍÍÌÏÍÌÍÏÏÎÌÍÏÍ>k__BackingField; // 0x48
-
         // ── Methods ──
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void System.Collections.Generic.IEnumerator<TSource>.get_Current(){} // RVA: 0x7D0800
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void System.Collections.Generic.IEnumerator<TSource>.get_Current_345B449A5315(){} // RVA: 0x7D0800
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void get_Current(){} // RVA: 0x2F8380
-        public void set_controlPathInternal(){} // RVA: 0x305200
-        public void get_MoveNext_0313E60CDA56(){} // RVA: 0x35A740
-        public void set_controlPathInternal_6199C43F2066(){} // RVA: 0x305200
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Initialize(){} // RVA: 0x35A740
-        public void AddFromToForce_58CEA1EB071C_F15288BE40EA(){} // RVA: 0x358730
-        public void System.Collections.Generic.IEnumerator<TSource>.get_Current_5693E79546C8(){} // RVA: 0x7D0800
-        public void Add(){} // RVA: 0x7D0820
-        public void AddFromToForce(){} // RVA: 0x358740
+        public void .ctor(){} // RVA: 0x7A8C7FC10
+        public void Initialize(){} // RVA: 0x7A8142680
         // ── Unresolved (hash) ──
-        public void m_A14(){} // RVA: 0xCFA3C0
-        public void m_EBF(){} // RVA: 0x2F8380
-        public void m_1E0(){} // RVA: 0xCFA420
+        public void m_95D(){} // RVA: 0x7A8142680
+        public void m_CF7(){} // RVA: 0x7A8142680
+        public void m_1D7(){} // RVA: 0x7A9901F50
+        public void m_A23(){} // RVA: 0x7A8142680
+        public void m_185(){} // RVA: 0x7A9902360
+        public void m_8C9(){} // RVA: 0x7A99028C0
+        public void m_1C6(){} // RVA: 0x7A9902CD0
+        public void m_775(){} // RVA: 0x7A8142680
     }
 
-    /// <summary>Originally: ÌÎÏÏÏÌÍÌÏÍÍÌÏÏÎÌÌÏÎÎÏÌÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_401B
+    /// <summary>Originally: ÎÌÌÌÌÍÏÎÍÍÎÏÏÌÏÎÍÍÍÏÏÌÍ</summary>
+    public class AnimatedTextureBaseImplImpl_1925 : AnimatedTextureBaseImpl_0B8F
     {
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÌÎÍÎÍÍÏÌÌÌÎÌÍÍÌÎÎÍÍÏÎÏÌ; // 0x20
-
         // ── Methods ──
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void CompleteWithCallback(){} // RVA: 0x9E92F0
-        public void .ctor(){} // RVA: 0xF6EF70
-        public void Initialize(){} // RVA: 0x9E8D70
-        public void get_CallingAssembly(){} // RVA: 0x977430
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        // ── Unresolved (hash) ──
-        public void m_585(){} // RVA: 0xF6E8E0
-        public void m_886(){} // RVA: 0xF6E9A0
-        public void m_A57(){} // RVA: 0xF6EE70
-        public void m_526(){} // RVA: 0xF6E8E0
-        public void m_18B(){} // RVA: 0xF6EE70
-        public void m_748(){} // RVA: 0xF6EE90
-        public void m_A9C(){} // RVA: 0xF6EE70
-        public void m_8B6(){} // RVA: 0xF6EE90
-        public void m_BFA(){} // RVA: 0xF6EEB0
-        public void m_AD2(){} // RVA: 0x9E92F0
+        public void .ctor(){} // RVA: 0x7A8C8E7E0
+        public void Initialize(){} // RVA: 0x7A81426F0
+        // ── 13 unresolved (hash) ──
+        public void m_C37(){} // RVA: 0x7A82305B0
+        public void m_6C8(){} // RVA: 0x7A8142700
+        public void m_14F(){} // RVA: 0x7A81426F0
+        public void m_746(){} // RVA: 0x7A8142700
+        public void m_9BD(){} // RVA: 0x7A82305C0
+        // ... 8 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÏÌÎÏÏÌÌÌÍÌÏÏÎÌÌÏÍÏÌÎÌÏ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_4D84
+    /// <summary>Originally: ÍÌÍÏÏÏÎÌÍÍÏÌÌÌÌÍÏÏÎÎÏÌÌ</summary>
+    public class AnimatedTextureBaseImplImpl_718B : AnimatedTextureBaseImpl_0B8F
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void Add(){} // RVA: 0x24B10
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_6F49D5FBA9C6(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_42F7AD0CC4E1(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_9B7947A2497B(){} // RVA: 0xDBE0
-        // ── Unresolved (hash) ──
-        public void m_60B(){} // RVA: 0xCD60
-        public void m_841(){} // RVA: 0xCD60
-        public void m_216(){} // RVA: 0xCD60
-    }
-
-    /// <summary>Originally: ÎÎÎÍÍÏÏÌÍÌÍÌÎÍÎÏÏÏÌÎÌÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_50DE
-    {
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_64C3E97CBE50(){} // RVA: 0xDBE0
+        public void .ctor(){} // RVA: 0x7A8C7FC10
+        public void Initialize(){} // RVA: 0x7A8142680
         // ── 15 unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_0E5(){} // RVA: 0xCD60
-        public void m_4A7(){} // RVA: 0xCD60
-        public void m_CCB(){} // RVA: 0xCD60
-        public void m_F50(){} // RVA: 0xCD60
+        public void m_1D7(){} // RVA: 0x7A8CBAC80
+        public void m_C56(){} // RVA: 0x7A8CBAF20
+        public void m_94D(){} // RVA: 0x7A8142690
+        public void m_D3F(){} // RVA: 0x7A8CBAFB0
+        public void m_5DF(){} // RVA: 0x7A8CBB530
         // ... 10 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÏÏÍÏÎÌÌÏÏÎÎÏÎÎÌÏÎÏÍÌÌÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_5F27
+    /// <summary>Originally: ÍÏÍÎÎÎÍÌÎÎÌÏÏÎÌÌÌÎÌÏÌÍÌ</summary>
+    public class AnimatedTextureBaseImplImpl_C113 : AnimatedTextureBaseImpl_0B8F
     {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÏÏÎÍÌÎÎÍÎÍÎÏÏÍÏÍÏÍÎÏÎ>k__BackingField; // 0x10
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÎÏÏÎÌÎÎÌÍÏÌÏÍÍÎÎÍÏÎÍÎ>k__BackingField; // 0x18
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÌÏÎÌÍÍÌÌÍÌÏÍÍÎÍÌÎÎÌÍ>k__BackingField; // 0x20
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÍÌÎÌÌÍÏÏÌÍÍÎÍÍÏÌÍÌÎÌÎ>k__BackingField; // 0x28
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÍÌÍÏÍÍÍÏÏÌÌÎÎÎÍÏÏÌÍÎÏ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÌÎÎÎÎÍÍÌÎÎÍÏÎÎÌÍÏÎÍÍÌÎ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÍÌÌÏÏÎÍÌÏÎÌÍÏÍÌÌÍÍÍÏÍ>k__BackingField; // 0x40
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÏÌÏÍÌÌÏÍÎÌÍÍÏÏÏÏÌÏÏÍÍ>k__BackingField; // 0x48
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÎÌÌÌÌÏÏÌÎÌÌÌÏÎÌÏÏÏÎÏÌÏ>k__BackingField; // 0x50
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÏÌÌÌÌÍÌÌÏÌÏÏÏÎÍÏÏÌÍÏÌÏ>k__BackingField; // 0x58
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÏÌÌÍÌÎÌÍÍÌÎÌÎÍÎÎÍÌÍÌÌ>k__BackingField; // 0x60
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÎÎÎÌÍÍÌÍÍÌÏÎÎÎÍÌÎÏÌÏÎÏ>k__BackingField; // 0x68
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÍÎÍÌÌÎÍÍÏÌÍÌÌÍÎÎÎÏÍÎÍÎ>k__BackingField; // 0x70
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÏÎÏÍÌÌÌÌÌÏÌÌÍÍÎÎÍÎÌÍÏ>k__BackingField; // 0x78
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÍÌÌÎÎÌÏÏÌÌÎÏÍÏÍÌÎÌÎÍÏÏ>k__BackingField; // 0x80
-        public string ÎÌÎÏÍÌÍÍÍÌÏÍÌÏÏÌÏÌÏÍÌÍÌ; // 0x88
-        public System.Collections.Generic.List`1<string> ÍÎÌÍÎÌÍÍÎÍÎÍÌÍÏÌÏÎÍÏÎÏÌ; // 0x90
-
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current(){} // RVA: 0x2F8380
-        public void GetChildCount(){} // RVA: 0xC86DF0
-        public void GetComponentTransform(){} // RVA: 0x4C7C50
-        public void StringType(){} // RVA: 0x37E0E0
-        public void get_MoveNext_297159E5448F(){} // RVA: 0x35A740
-        public void get_SameFunc(){} // RVA: 0x31C010
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
-        public void get_MoveNext_6F49D5FBA9C6(){} // RVA: 0x4976A0
-        public void .ctor(){} // RVA: 0xC87490
-        public void Initialize(){} // RVA: 0xC87FB0
-        // ── 18 unresolved (hash) ──
-        public void m_099(){} // RVA: 0xC86770
-        public void m_1D6(){} // RVA: 0xC86ED0
-        public void m_6CE(){} // RVA: 0xC86FB0
-        public void m_CA8(){} // RVA: 0xC87040
-        public void m_9BC(){} // RVA: 0x6374D0
-        // ... 13 more unresolved methods
+        public void .ctor(){} // RVA: 0x7A8C7FC20
+        public void Initialize(){} // RVA: 0x7A8C7FC60
+        // ── 23 unresolved (hash) ──
+        public void m_68C(){} // RVA: 0x7A8C7FBA0
+        public void m_69E(){} // RVA: 0x7A8C7FE00
+        public void m_70A(){} // RVA: 0x7A8C7FF80
+        public void m_762(){} // RVA: 0x7A8C80040
+        public void m_FFA(){} // RVA: 0x7A8C80120
+        // ... 18 more unresolved methods
     }
 
-    /// <summary>Originally: ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_662F
+    /// <summary>Originally: ÎÎÌÏÏÎÍÎÎÌÌÌÍÏÌÎÎÍÍÎÍÎÎ</summary>
+    public class AnimatedTextureBaseImplRelated_2DF9
     {
-        public System.Action`1<System.Collections.Generic.Dictionary`2<0x65888FD8,bool>> [I;
-
-        // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Count_D1F340758DBD(){} // RVA: 0xD840
-        public void get_Count_624FB9CB73C3(){} // RVA: 0xD840
-        public void get_Count_D5F0AF6ABB02(){} // RVA: 0xD840
-        public void get_Count_E8984AAE761E(){} // RVA: 0xD840
-        public void get_Count_1FB0AE9AB930(){} // RVA: 0xD840
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_Count_5727A022A770(){} // RVA: 0xD840
-        public void get_Count_AC29B3B4F93C(){} // RVA: 0xD840
-        public void Equals(){} // RVA: 0xE300
-        public void CreateCollection(){} // RVA: 0x2F090
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void Insert(){} // RVA: 0x25130
-        public void CreateCollection_CB7D491B976B(){} // RVA: 0x2F090
-        public void Return(){} // RVA: 0x2A620
-        public void InitializeCollection(){} // RVA: 0x24A50
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void Add(){} // RVA: 0x24B10
-        public void Clear(){} // RVA: 0x24A50
-        public void get_Current(){} // RVA: 0xC770
-        public void Dispose(){} // RVA: 0x25130
-        public void Remove(){} // RVA: 0x2DC60
-        public void CreateCollection_C3640E6B910F(){} // RVA: 0x2F090
-        public void AwaitUnsafeOnCompleted_2B8FB1D05A4B(){} // RVA: 0x2DC60
-        public void AwaitUnsafeOnCompleted_966ABE19F525(){} // RVA: 0x2DC60
-        public void GetHashCode(){} // RVA: 0x12590
-        public void GetHashCode_D99BF328E6B9(){} // RVA: 0x12590
-        public void get_Count_BDA77262C473(){} // RVA: 0xD840
-        public void get_Count_109B935B43B7(){} // RVA: 0xD840
-        public void Remove_281BC4E944EA(){} // RVA: 0xDE40
-        // ── 32 unresolved (hash) ──
-        public void m_C2A(){} // RVA: 0xCD60
-        public void m_60B(){} // RVA: 0xCD60
-        public void m_0E5(){} // RVA: 0xCD60
-        public void m_6CD(){} // RVA: 0xCD60
-        public void m_9CA(){} // RVA: 0xCD60
-        // ... 27 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÎÏÌÌÎÏÏÍÌÎÌÍÌÎÍÎÌÌÍÎÏÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_66DD
-    {
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x20
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÌÏÍÌÍÍÍÎÎÏÎÏÌÌÏÍÏÌÎÎÏÌ>k__BackingField; // 0x28
-
-        // ── Methods ──
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void Contains(){} // RVA: 0xF27A30
-        public void get_ElementType(){} // RVA: 0x519240
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-        public void CopyTo(){} // RVA: 0x30B0C0
-        public void Clear(){} // RVA: 0x30B0C0
-        public void Add(){} // RVA: 0xF27A70
-        public void Remove(){} // RVA: 0xF27AE0
-        public void get_Data(){} // RVA: 0x30B130
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly_8B3AE16322F4(){} // RVA: 0x3C2850
-        public void .ctor(){} // RVA: 0xF27E10
-        public void Initialize(){} // RVA: 0x30B0C0
-        public void Dispose(){} // RVA: 0x2DD310
         // ── Unresolved (hash) ──
-        public void m_60B(){} // RVA: 0xF27D60
-        public void m_A6E(){} // RVA: 0xF27DD0
-        public void m_E15(){} // RVA: 0xF27FF0
-        public void m_90A(){} // RVA: 0xF28030
-        public void m_34A(){} // RVA: 0x2DD310
-        public void m_0FD(){} // RVA: 0xF282B0
-        public void m_25C(){} // RVA: 0xF282B0
-        public void m_CA3(){} // RVA: 0xF282B0
+        public void m_7C9(){} // RVA: 0x7A7E00710
+        public void m_6F4(){} // RVA: 0x7A7E01900
+        public void m_5EB(){} // RVA: 0x7A9B6ADA0
     }
 
-    /// <summary>Originally: ÍÏÎÏÍÍÌÍÌÎÌÍÌÌÍÏÍÎÌÌÏÎÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_7206
+    /// <summary>Originally: ÎÏÍÌÏÎÌÍÌÍÎÍÌÌÎÏÍÎÎÏÌÍÍ</summary>
+    public class AnimatedTextureBaseImplSiRelated_C36A : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count_A9C5D89322C5(){} // RVA: 0xD840
-        public void GetExpectedContentHeight(){} // RVA: 0x21890
-        public void get_Current(){} // RVA: 0xC770
-        public void get_Count_F67222060C32(){} // RVA: 0xD840
-        public void get_Item(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A8407900
+        public void Equals(){} // RVA: 0x7A8407900
+        public void GetHashCode(){} // RVA: 0x7A81A2210
+        public void op_Implicit(){} // RVA: 0x7A81BD750
+        public void CompareBaseObjects(){} // RVA: 0x7A8407900
+        public void IsNativeObjectAlive(){} // RVA: 0x7A8407900
+        public void .ctor(){} // RVA: 0x7A8407930
+        public void Initialize(){} // RVA: 0x7A81A2210
+        public void set_name(){} // RVA: 0x7A84079A0
+        public void Instantiate(){} // RVA: 0x7A81A2200
+        public void Destroy(){} // RVA: 0x7A80D7320
+        public void DestroyImmediate(){} // RVA: 0x7A81052C0
+        public void FindObjectsOfType(){} // RVA: 0x7A84079B0
+        public void FindObjectsByType(){} // RVA: 0x7A81BD750
+        public void DontDestroyOnLoad(){} // RVA: 0x7A81A2200
+        public void get_hideFlags(){} // RVA: 0x7A81A2200
+        public void set_hideFlags(){} // RVA: 0x7A81052C0
+        public void FindObjectOfType(){} // RVA: 0x7A80D7320
+        public void FindFirstObjectByType(){} // RVA: 0x7A84079C0
     }
 
-    /// <summary>Originally: ÏÌÌÍÌÍÎÎÍÍÍÏÏÍÌÎÏÌÌÏÎÍÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_72A2
+    /// <summary>Originally: ÌÌÍÏÎÎÎÌÍÍÎÌÍÌÌÌÎÍÍÏÏÍÌ</summary>
+    public class AnimatedTextureBaseImplSiblingSibling_96F7 : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Current(){} // RVA: 0xC770
+        public void GetInstanceID(){} // RVA: 0x7A8152D80
+        public void Equals(){} // RVA: 0x7A85D4960
+        public void GetHashCode(){} // RVA: 0x7A8154D80
+        public void op_Implicit(){} // RVA: 0x7A85D4960
+        public void CompareBaseObjects(){} // RVA: 0x7A80D8E20
+        public void IsNativeObjectAlive(){} // RVA: 0x7A80F2570
+        public void GetCachedPtr(){} // RVA: 0x7A8ABBEC0
+        public void get_name(){} // RVA: 0x7A80FF440
+        public void set_name(){} // RVA: 0x7A8154D80
+        public void Instantiate(){} // RVA: 0x7A80FF440
+        public void Destroy(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Initialize(){} // RVA: 0x7A8154D80
+        public void FindObjectsByType(){} // RVA: 0x7A8152D80
+        public void DontDestroyOnLoad(){} // RVA: 0x7A85D4960
+        public void get_hideFlags(){} // RVA: 0x7A8ABBF20
+        public void set_hideFlags(){} // RVA: 0x7A85D48F0
+        public void FindObjectOfType(){} // RVA: 0x7A8152D90
+    }
+
+    /// <summary>Originally: ÍÏÏÏÌÍÎÎÏÏÌÎÎÎÌÏÌÏÍÌÎÍÌ</summary>
+    public class AnimatedTextureBaseImplSibling_0D70 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A83F69F0
+        public void Equals(){} // RVA: 0x7A80DA7B0
+        public void GetHashCode(){} // RVA: 0x7A81BD750
+        public void .ctor(){} // RVA: 0x7A856A300
+        public void Initialize(){} // RVA: 0x7A83F69F0
+        public void IsNativeObjectAlive(){} // RVA: 0x7A856A750
+        public void GetCachedPtr(){} // RVA: 0x7A8105330
+        public void get_name(){} // RVA: 0x7A83F69F0
+        public void set_name(){} // RVA: 0x7A81052C0
+        public void Instantiate(){} // RVA: 0x7A856A750
+        public void Destroy(){} // RVA: 0x7A81CA9D0
+        public void DestroyImmediate(){} // RVA: 0x7A80DA7B0
+        public void FindObjectsOfType(){} // RVA: 0x7A82D1450
+        public void FindObjectsByType(){} // RVA: 0x7A80DA7B0
+    }
+
+    /// <summary>Originally: ÍÍÍÎÍÌÏÏÎÍÏÏÍÎÍÍÌÌÍÎÏÌÌ</summary>
+    public class AnimatedTextureBaseImplSibling_113A : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A7E18800
+        public void Equals(){} // RVA: 0x7A7E00680
+        public void GetHashCode(){} // RVA: 0x7A7E18800
+        public void op_Implicit(){} // RVA: 0x7A7E00680
+        public void CompareBaseObjects(){} // RVA: 0x7A8051B10
+        public void IsNativeObjectAlive(){} // RVA: 0x7A7E00680
+        public void GetCachedPtr(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void Initialize(){} // RVA: 0x7A8051B10
+        public void Instantiate(){} // RVA: 0x7A7E18800
+        public void Destroy(){} // RVA: 0x7A8051B10
+        public void DestroyImmediate(){} // RVA: 0x7A7E18800
+        public void FindObjectsOfType(){} // RVA: 0x7A7E00680
+        public void FindObjectsByType(){} // RVA: 0x7A7E00680
+        public void DontDestroyOnLoad(){} // RVA: 0x7A7E18800
+    }
+
+    /// <summary>Originally: ÏÎÌÎÎÎÍÏÍÏÎÏÏÎÏÏÌÏÏÍÏÎÏ</summary>
+    public class AnimatedTextureBaseImplSibling_428F : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A87A7770
+        public void Equals(){} // RVA: 0x7A80F2570
+        public void GetHashCode(){} // RVA: 0x7A87A78C0
+        public void op_Implicit(){} // RVA: 0x7A87A78E0
+        public void CompareBaseObjects(){} // RVA: 0x7A813E420
+        public void IsNativeObjectAlive(){} // RVA: 0x7A87A7900
+        public void GetCachedPtr(){} // RVA: 0x7A87A7940
+        public void get_name(){} // RVA: 0x7A87A78C0
+        public void set_name(){} // RVA: 0x7A856A750
+        public void .ctor(){} // RVA: 0x7A87A7960
+        public void Initialize(){} // RVA: 0x7A80DA7B0
+        public void DestroyImmediate(){} // RVA: 0x7A80F2570
+        public void FindObjectsOfType(){} // RVA: 0x7A87A7B00
+        public void FindObjectsByType(){} // RVA: 0x7A87A7B20
+        public void DontDestroyOnLoad(){} // RVA: 0x7A87A78C0
+        public void get_hideFlags(){} // RVA: 0x7A87A7B80
+        public void set_hideFlags(){} // RVA: 0x7A80D8E20
+        public void FindObjectOfType(){} // RVA: 0x7A87A7BE0
+    }
+
+    /// <summary>Originally: ÌÌÍÎÎÏÎÌÌÌÏÏÍÌÍÍÏÌÏÌÍÍÍ</summary>
+    public class AnimatedTextureBaseImplSibling_45FF : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A80F2570
+        public void Equals(){} // RVA: 0x7A87A7CF0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Initialize(){} // RVA: 0x7A87A7D00
+        public void CompareBaseObjects(){} // RVA: 0x7A87A7CF0
+        public void GetHashCode(){} // RVA: 0x7A8738190
+        public void GetCachedPtr(){} // RVA: 0x7A80DA7B0
+        public void get_name(){} // RVA: 0x7A87A7DA0
+        public void set_name(){} // RVA: 0x7A81052C0
+        public void Instantiate(){} // RVA: 0x7A81052D0
+        public void Destroy(){} // RVA: 0x7A81A00E0
+        public void DestroyImmediate(){} // RVA: 0x7A835E820
+        public void FindObjectsOfType(){} // RVA: 0x7A835E820
+        public void FindObjectsByType(){} // RVA: 0x7A835E820
+        public void ToString(){} // RVA: 0x7A87A7DB0
+        public void get_hideFlags(){} // RVA: 0x7A87A7EA0
+        public void set_hideFlags(){} // RVA: 0x7A81052C0
+        public void FindObjectOfType(){} // RVA: 0x7A8153390
+        public void FindFirstObjectByType(){} // RVA: 0x7A8175E00
+        public void CheckNullArgument(){} // RVA: 0x7A835E820
+        public void op_Equality(){} // RVA: 0x7A87A7EB0
+        public void op_Inequality(){} // RVA: 0x7A81533A0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A813E420
+        public void Internal_CloneSingle(){} // RVA: 0x7A87A7EC0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A8669350
+        public void Internal_InstantiateSingle(){} // RVA: 0x7A8175DF0
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7A81A00E0
+        public void GetName(){} // RVA: 0x7A8105330
+        public void SetName(){} // RVA: 0x7A87A7EC0
+        public void FindObjectFromInstanceID(){} // RVA: 0x7A80D8E20
         // ── Unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_F8B(){} // RVA: 0xCD60
-        public void m_AE5(){} // RVA: 0xCD60
-        public void m_4F6(){} // RVA: 0xCD60
-        public void m_585(){} // RVA: 0xCD60
-        public void m_BFA(){} // RVA: 0xCD60
-        public void m_E08(){} // RVA: 0xCD60
+        public void m_C85(){} // RVA: 0x7A87A7DA0
     }
 
-    /// <summary>Originally: ÏÌÌÎÏÌÏÌÎÎÌÌÍÌÌÍÎÎÍÌÌÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_823D
+    /// <summary>Originally: ÌÎÏÏÍÏÏÎÏÏÏÏÎÏÌÎÍÌÏÌÍÍÌ</summary>
+    public class AnimatedTextureBaseImplSibling_6221 : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
+        public void GetInstanceID(){} // RVA: 0x7A8A269F0
+        public void Equals(){} // RVA: 0x7A8152D80
+        public void GetHashCode(){} // RVA: 0x7A8153390
+        public void op_Implicit(){} // RVA: 0x7A81A0050
+        public void CompareBaseObjects(){} // RVA: 0x7A8175DF0
+        public void IsNativeObjectAlive(){} // RVA: 0x7A80DA7B0
+        public void GetCachedPtr(){} // RVA: 0x7A8154D80
+        public void get_name(){} // RVA: 0x7A82C2060
+        public void set_name(){} // RVA: 0x7A8178B90
+        public void Instantiate(){} // RVA: 0x7A8A26C70
+        public void Destroy(){} // RVA: 0x7A81A0050
+        public void DestroyImmediate(){} // RVA: 0x7A8105330
+        public void FindObjectsOfType(){} // RVA: 0x7A8154D80
+        public void FindObjectsByType(){} // RVA: 0x7A8152D80
+        public void DontDestroyOnLoad(){} // RVA: 0x7A81163D0
+        public void get_hideFlags(){} // RVA: 0x7A81A0050
+        public void set_hideFlags(){} // RVA: 0x7A8292C30
+        public void FindObjectOfType(){} // RVA: 0x7A8A26D50
+        public void FindFirstObjectByType(){} // RVA: 0x7A81052C0
+        public void .ctor(){} // RVA: 0x7A8A27100
+        public void Initialize(){} // RVA: 0x7A8555100
+        public void op_Equality(){} // RVA: 0x7A8A27C20
+        public void op_Inequality(){} // RVA: 0x7A83F69F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A8292C30
+        public void Internal_CloneSingle(){} // RVA: 0x7A83F69F0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A81A00E0
+        public void Internal_InstantiateSingle(){} // RVA: 0x7A80F2570
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7A825E100
+    }
+
+    /// <summary>Originally: ÎÎÌÍÍÎÌÏÎÎÏÌÎÌÏÌÎÌÌÎÌÍÍ</summary>
+    public class AnimatedTextureBaseImplSibling_8E5F : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A9883860
+        public void Equals(){} // RVA: 0x7A80F2570
+        public void .cctor(){} // RVA: 0x7A98838C0
+        public void op_Implicit(){} // RVA: 0x7A80F2570
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void .ctor(){} // RVA: 0x7A98839E0
+        public void Initialize(){} // RVA: 0x7A80D8E20
+        public void get_name(){} // RVA: 0x7A80F26E0
+        public void set_name(){} // RVA: 0x7A98839C0
+        public void Instantiate(){} // RVA: 0x7A80D8E20
+        public void ToString(){} // RVA: 0x7A9883A50
+        public void DestroyImmediate(){} // RVA: 0x7A80F26D0
+        public void FindObjectsOfType(){} // RVA: 0x7A80F26E0
+        public void FindObjectsByType(){} // RVA: 0x7A9883B10
+    }
+
+    /// <summary>Originally: ÎÎÌÏÌÍÏÌÎÏÎÌÌÏÍÍÍÎÏÏÍÏÎ</summary>
+    public class AnimatedTextureBaseImplSibling_9A82 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A81A00E0
+        public void Equals(){} // RVA: 0x7A825E100
+        public void op_Implicit(){} // RVA: 0x7A813E420
+        public void CompareBaseObjects(){} // RVA: 0x7A8355940
+        public void IsNativeObjectAlive(){} // RVA: 0x7A8669350
+        public void GetCachedPtr(){} // RVA: 0x7A825E100
+        public void ToString(){} // RVA: 0x7A87380B0
+        public void set_name(){} // RVA: 0x7A8738180
+        public void Instantiate(){} // RVA: 0x7A8355940
+        public void Destroy(){} // RVA: 0x7A82C0530
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Initialize(){} // RVA: 0x7A82C2060
+        public void FindObjectsByType(){} // RVA: 0x7A81533A0
+        public void DontDestroyOnLoad(){} // RVA: 0x7A8669350
+        public void get_hideFlags(){} // RVA: 0x7A825F860
+        public void GetHashCode(){} // RVA: 0x7A8738190
+        public void FindObjectOfType(){} // RVA: 0x7A87381C0
+        public void FindFirstObjectByType(){} // RVA: 0x7A80F2570
+        public void CheckNullArgument(){} // RVA: 0x7A8133100
+        public void op_Equality(){} // RVA: 0x7A8105330
+        public void op_Inequality(){} // RVA: 0x7A851DB90
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A83562E0
+        public void Internal_CloneSingle(){} // RVA: 0x7A87381D0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A87381D0
+        public void Internal_InstantiateSingle(){} // RVA: 0x7A82C0530
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7A80DA7B0
+        public void GetName(){} // RVA: 0x7A8105330
+        public void SetName(){} // RVA: 0x7A81A00F0
+        public void FindObjectFromInstanceID(){} // RVA: 0x7A80D8E20
         // ── Unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_605(){} // RVA: 0xCD60
-        public void m_329(){} // RVA: 0xCD60
-        public void m_0E5(){} // RVA: 0xCD60
-        public void m_1E6(){} // RVA: 0xCD60
-        public void m_885(){} // RVA: 0x1D72330
-        public void m_829(){} // RVA: 0x1D72390
-        public void m_4B9(){} // RVA: 0xCD60
-        public void m_BE2(){} // RVA: 0xCD60
+        public void m_7DB(){} // RVA: 0x7A8105330
+        public void m_24F(){} // RVA: 0x7A8153390
     }
 
-    /// <summary>Originally: ÌÏÌÎÌÏÎÏÍÏÍÌÍÌÍÌÎÎÎÌÎÏÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_82CA
+    /// <summary>Originally: ÌÏÍÎÍÌÌÏÍÌÍÏÌÍÎÏÌÍÎÏÌÌÏ</summary>
+    public class AnimatedTextureBaseImplSibling_9B0A : Object
     {
-        public ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ <ÌÍÌÎÎÏÍÌÏÍÏÎÍÍÎÌÏÎÎÍÍÌÎ>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void GetTransformChildCount_609445D97B38_E6C982CFFB23(){} // RVA: 0x30B0D0
-        public void get_EffectBundleID_6B7C2369361E(){} // RVA: 0x9B7650
-        public void get_CallingAssembly(){} // RVA: 0x977430
-        public void SetArrayElementValue(){} // RVA: 0xF165E0
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void get_CallingAssembly_1E6F04D98852(){} // RVA: 0x977430
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void .ctor(){} // RVA: 0xF16600
-        public void Initialize(){} // RVA: 0x30B0D0
-        public void get_FileId(){} // RVA: 0x9770D0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A8A224D0
+        public void GetHashCode(){} // RVA: 0x7A8A224D0
+        public void op_Implicit(){} // RVA: 0x7A8669350
+        public void CompareBaseObjects(){} // RVA: 0x7A97242F0
+        public void IsNativeObjectAlive(){} // RVA: 0x7A8884B10
+        public void GetCachedPtr(){} // RVA: 0x7A8105330
+        public void get_name(){} // RVA: 0x7A8669350
+        public void set_name(){} // RVA: 0x7A80F2570
+        public void Instantiate(){} // RVA: 0x7A80F2570
+        public void Destroy(){} // RVA: 0x7A81052C0
+        public void DestroyImmediate(){} // RVA: 0x7A81052C0
+        public void FindObjectsOfType(){} // RVA: 0x7A8A224D0
+        public void .ctor(){} // RVA: 0x7A9724300
+        public void Initialize(){} // RVA: 0x7A8105330
+    }
+
+    /// <summary>Originally: ÍÌÏÏÎÎÍÎÎÏÍÌÍÏÌÎÌÌÍÍÌÌÏ</summary>
+    public class AnimatedTextureBaseImplSibling_AD88 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A8230620
+        public void Equals(){} // RVA: 0x7A8100220
+        public void GetHashCode(){} // RVA: 0x7A80D8E20
+        public void op_Implicit(){} // RVA: 0x7A85D4FE0
+        public void CompareBaseObjects(){} // RVA: 0x7A9A18730
+        public void IsNativeObjectAlive(){} // RVA: 0x7A8100220
+        public void GetCachedPtr(){} // RVA: 0x7A9A187A0
+        public void get_name(){} // RVA: 0x7A85D5650
+        public void set_name(){} // RVA: 0x7A85D4960
+        public void Instantiate(){} // RVA: 0x7A9A18AC0
+        public void Destroy(){} // RVA: 0x7A80F2570
+        public void DestroyImmediate(){} // RVA: 0x7A8178B90
+        public void FindObjectsOfType(){} // RVA: 0x7A85D48F0
+        public void FindObjectsByType(){} // RVA: 0x7A80DF900
+        public void DontDestroyOnLoad(){} // RVA: 0x7A8100230
+        public void get_hideFlags(){} // RVA: 0x7A85D4960
+        public void set_hideFlags(){} // RVA: 0x7A8152D90
+        public void .ctor(){} // RVA: 0x7A9A18900
+        public void Initialize(){} // RVA: 0x7A9A18920
+        public void CheckNullArgument(){} // RVA: 0x7A8152D80
+        public void ToString(){} // RVA: 0x7A85D4960
+        public void op_Equality(){} // RVA: 0x7A9A18A50
+        public void op_Inequality(){} // RVA: 0x7A80D8E20
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A80DF910
+        public void Internal_CloneSingle(){} // RVA: 0x7A8178B90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A9A18730
+    }
+
+    /// <summary>Originally: ÌÍÍÍÏÏÏÎÎÎÏÍÎÍÎÍÌÏÎÍÌÍÎ</summary>
+    public class AnimatedTextureBaseImplSibling_BB7E : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A9716C20
+        public void Equals(){} // RVA: 0x7A9716F40
+        public void GetHashCode(){} // RVA: 0x7A9716F60
+        public void op_Implicit(){} // RVA: 0x7A97170E0
+        public void CompareBaseObjects(){} // RVA: 0x7A97171A0
+        public void IsNativeObjectAlive(){} // RVA: 0x7A9717390
+        public void GetCachedPtr(){} // RVA: 0x7A9717700
+        public void get_name(){} // RVA: 0x7A9717980
+        public void set_name(){} // RVA: 0x7A9717AB0
+        public void Instantiate(){} // RVA: 0x7A9717C70
+        public void Destroy(){} // RVA: 0x7A9717E30
+        public void DestroyImmediate(){} // RVA: 0x7A97180C0
+        public void FindObjectsOfType(){} // RVA: 0x7A9718390
+        public void FindObjectsByType(){} // RVA: 0x7A9718750
+        public void DontDestroyOnLoad(){} // RVA: 0x7A9718830
+        public void get_hideFlags(){} // RVA: 0x7A9718B10
+        public void set_hideFlags(){} // RVA: 0x7A9718BC0
+        public void FindObjectOfType(){} // RVA: 0x7A9718DE0
+        public void FindFirstObjectByType(){} // RVA: 0x7A9719010
+        public void CheckNullArgument(){} // RVA: 0x7A97190D0
+        public void ToString(){} // RVA: 0x7A97191B0
+        public void op_Equality(){} // RVA: 0x7A9719660
+        public void op_Inequality(){} // RVA: 0x7A9719C70
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A971A2C0
+        public void Internal_CloneSingle(){} // RVA: 0x7A971A5E0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A971AB20
+        public void Internal_InstantiateSingle(){} // RVA: 0x7A971B320
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x7A971B0B0
+        public void GetName(){} // RVA: 0x7A971B420
+        public void SetName(){} // RVA: 0x7A971B440
+        public void FindObjectFromInstanceID(){} // RVA: 0x7A971B460
+        public void ForceLoadFromInstanceID(){} // RVA: 0x7A971B480
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x7A971B4E0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x7A971B500
         // ── Unresolved (hash) ──
-        public void m_115(){} // RVA: 0xF16320
-        public void m_9B7(){} // RVA: 0xF163E0
-        public void m_6F4(){} // RVA: 0xF16400
-        public void m_42F(){} // RVA: 0xF165C0
-        public void m_CC4(){} // RVA: 0xF16630
+        public void m_192(){} // RVA: 0x7A971B4A0
+        public void m_8A9(){} // RVA: 0x7A971B4C0
     }
 
-    /// <summary>Originally: ÎÌÎÎÏÌÏÏÍÍÌÏÏÎÍÍÏÏÍÌÌÍÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_8BED
+    /// <summary>Originally: ÏÎÌÍÌÌÍÌÏÎÌÍÍÍÌÏÏÏÌÌÍÏÌ</summary>
+    public class AnimatedTextureBaseImplSibling_CC62 : Object
     {
-        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ[] <ÌÏÎÎÏÍÌÎÍÍÏÎÎÎÌÎÏÌÏÏÏÌÌ>k__BackingField; // 0x10
-        public ÎÌÎÎÌÍÏÎÏÍÎÏÌÍÌÌÌÏÌÏÎÎÍ[] <ÍÎÌÎÌÌÏÎÎÏÌÏÎÎÏÏÏÎÎÌÎÎÎ>k__BackingField; // 0x18
-        public System.Nullable`1<System.DateTimeOffset> <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x20
-        public System.Nullable`1<System.DateTimeOffset> <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x38
-        public ÎÏÏÌÌÏÎÎÎÌÏÏÎÍÎÌÌÌÌÍÏÎÌ <ÌÎÍÎÌÏÍÎÏÍÌÍÏÍÏÏÏÏÍÎÌÌÏ>k__BackingField; // 0x50
-
         // ── Methods ──
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x204E840
-        public void get_Current(){} // RVA: 0x1968950
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void set_Date(){} // RVA: 0x1F90200
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void GetPlaybackSpeed(){} // RVA: 0x1F90220
-        public void FormatUInt32Decimal(){} // RVA: 0x204E820
-        public void get_MoveNext_B98A063E628F(){} // RVA: 0x35A740
-        public void set_controlPathInternal(){} // RVA: 0x305200
-        public void set_Date_0145834DE45F(){} // RVA: 0x1F90200
-        public void MoveNext(){} // RVA: 0x1968950
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
+        public void GetInstanceID(){} // RVA: 0x7A96F9A50
+        public void Equals(){} // RVA: 0x7A96F9C30
+        public void GetHashCode(){} // RVA: 0x7A96F9E10
+        public void op_Implicit(){} // RVA: 0x7A96FA030
+        public void CompareBaseObjects(){} // RVA: 0x7A96FA980
+        public void IsNativeObjectAlive(){} // RVA: 0x7A96FB0E0
+        public void GetCachedPtr(){} // RVA: 0x7A96FACE0
+        public void get_name(){} // RVA: 0x7A96FB550
+        public void set_name(){} // RVA: 0x7A96FBE40
+        public void Instantiate(){} // RVA: 0x7A96FC6C0
+        public void Destroy(){} // RVA: 0x7A96FCE80
+        public void DestroyImmediate(){} // RVA: 0x7A96FD0C0
+        public void FindObjectsOfType(){} // RVA: 0x7A96FD290
+        public void FindObjectsByType(){} // RVA: 0x7A96FD430
+        public void DontDestroyOnLoad(){} // RVA: 0x7A96FDAF0
+        public void get_hideFlags(){} // RVA: 0x7A96FDBC0
+        public void set_hideFlags(){} // RVA: 0x7A96FDCE0
+    }
+
+    /// <summary>Originally: ÏÌÏÌÌÏÍÍÌÌÏÍÌÍÎÍÍÎÎÌÍÍÍ</summary>
+    public class AnimatedTextureBaseImplSibling_D0D4 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A8105330
+        public void Equals(){} // RVA: 0x7A89CF0B0
+        public void GetHashCode(){} // RVA: 0x7A80D8E20
+        public void op_Implicit(){} // RVA: 0x7A80D8E80
+        public void CompareBaseObjects(){} // RVA: 0x7A89CF2F0
+        public void IsNativeObjectAlive(){} // RVA: 0x7A81052D0
+        public void GetCachedPtr(){} // RVA: 0x7A8105330
+        public void get_name(){} // RVA: 0x7A80D8E80
+        public void set_name(){} // RVA: 0x7A81052C0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Initialize(){} // RVA: 0x7A80DA7B0
+        public void DestroyImmediate(){} // RVA: 0x7A81052D0
+        public void FindObjectsOfType(){} // RVA: 0x7A81052D0
+        public void FindObjectsByType(){} // RVA: 0x7A80F2570
+        public void DontDestroyOnLoad(){} // RVA: 0x7A813E420
+        public void get_hideFlags(){} // RVA: 0x7A89CF530
+        public void set_hideFlags(){} // RVA: 0x7A80D8E20
+    }
+
+    /// <summary>Originally: ÎÌÍÍÎÌÎÍÎÏÍÏÏÏÏÍÎÍÌÍÍÏÍ</summary>
+    public class AnimatedTextureBaseImplSibling_D316 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A8152D80
+        public void Equals(){} // RVA: 0x7A8355950
+        public void GetHashCode(){} // RVA: 0x7A89A1170
+        public void op_Implicit(){} // RVA: 0x7A8154D80
+        public void .ctor(){} // RVA: 0x7A89A11D0
+        public void Initialize(){} // RVA: 0x7A89A18D0
+        public void GetCachedPtr(){} // RVA: 0x7A80FF440
+        public void get_name(){} // RVA: 0x7A89A1940
+        public void set_name(){} // RVA: 0x7A89A1A40
+        public void Instantiate(){} // RVA: 0x7A8292C30
+        public void Destroy(){} // RVA: 0x7A89A18D0
+        public void DestroyImmediate(){} // RVA: 0x7A83F4180
+        public void FindObjectsOfType(){} // RVA: 0x7A89A1A50
+        public void FindObjectsByType(){} // RVA: 0x7A89A1A40
+        public void DontDestroyOnLoad(){} // RVA: 0x7A8296DE0
+        public void get_hideFlags(){} // RVA: 0x7A89A1B50
+        public void set_hideFlags(){} // RVA: 0x7A89A1C50
+        public void FindObjectOfType(){} // RVA: 0x7A89A1D30
+        public void FindFirstObjectByType(){} // RVA: 0x7A8152D90
+        public void CheckNullArgument(){} // RVA: 0x7A83F4180
+        public void ToString(){} // RVA: 0x7A89A1E30
+    }
+
+    /// <summary>Originally: ÎÍÎÎÍÍÎÍÎÏÌÏÏÌÌÎÎÏÌÌÌÎÎ</summary>
+    public class AnimatedTextureBaseImplSibling_D347 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A8152D80
+        public void .ctor(){} // RVA: 0x7A9308E20
+        public void Initialize(){} // RVA: 0x7A9309360
+        public void op_Implicit(){} // RVA: 0x7A9309490
+        public void CompareBaseObjects(){} // RVA: 0x7A8154D80
+        public void IsNativeObjectAlive(){} // RVA: 0x7A93099D0
+        public void GetCachedPtr(){} // RVA: 0x7A9309F10
+        public void get_name(){} // RVA: 0x7A8296DE0
+        public void set_name(){} // RVA: 0x7A89A1E30
+        public void Instantiate(){} // RVA: 0x7A89A18D0
+        public void Destroy(){} // RVA: 0x7A930A040
+        public void DestroyImmediate(){} // RVA: 0x7A8292C30
+        public void FindObjectsOfType(){} // RVA: 0x7A8154D80
+        public void FindObjectsByType(){} // RVA: 0x7A930A590
+        public void DontDestroyOnLoad(){} // RVA: 0x7A89A1E30
+    }
+
+    /// <summary>Originally: ÌÍÏÏÏÏÌÎÎÎÎÎÌÍÎÍÍÍÎÌÍÏÍ</summary>
+    public class AnimatedTextureBaseImplSibling_DE4C
+    {
+        // ── 44 unresolved (hash) ──
+        public void m_ED2(){} // RVA: 0x7A7E00680
+        public void m_6C2(){} // RVA: 0x7A7E00490
+        public void m_C80(){} // RVA: 0x7A7E00490
+        public void m_628(){} // RVA: 0x7A7E00680
+        public void m_9BD(){} // RVA: 0x7A7E00680
+        // ... 39 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÎÎÍÌÌÏÌÏÏÏÏÌÍÌÌÌÌÎÍÍÎÌ</summary>
+    public class AnimatedTextureBaseImplSibling_E625 : Object
+    {
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x7A8152D80
+        public void Equals(){} // RVA: 0x7A83F69F0
+        public void GetHashCode(){} // RVA: 0x7A8CB8B20
+        public void op_Implicit(){} // RVA: 0x7A8105330
+        public void CompareBaseObjects(){} // RVA: 0x7A8CB8EC0
+        public void IsNativeObjectAlive(){} // RVA: 0x7A8CB9070
+        public void GetCachedPtr(){} // RVA: 0x7A8CB90E0
+        public void get_name(){} // RVA: 0x7A81052C0
+        public void set_name(){} // RVA: 0x7A8178B90
+        public void Instantiate(){} // RVA: 0x7A8CB9150
+        public void Destroy(){} // RVA: 0x7A80DA7B0
+        public void DestroyImmediate(){} // RVA: 0x7A8230620
+        public void FindObjectsOfType(){} // RVA: 0x7A8154D80
+        public void .ctor(){} // RVA: 0x7A8CB91D0
+        public void Initialize(){} // RVA: 0x7A8105330
+        public void get_hideFlags(){} // RVA: 0x7A8292C30
+        public void set_hideFlags(){} // RVA: 0x7A8230620
+        public void FindObjectOfType(){} // RVA: 0x7A80D7320
+        public void FindFirstObjectByType(){} // RVA: 0x7A813E420
+        public void CheckNullArgument(){} // RVA: 0x7A83F69F0
+        public void ToString(){} // RVA: 0x7A80D7320
+        public void op_Equality(){} // RVA: 0x7A8230620
+        public void op_Inequality(){} // RVA: 0x7A81BD750
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x7A8CB9800
+        public void Internal_CloneSingle(){} // RVA: 0x7A8CB98F0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x7A81052C0
+    }
+
+    /// <summary>Originally: ÎÏÏÎÏÎÍÍÌÌÌÍÎÌÌÎÍÍÎÏÍÎÍ</summary>
+    public class AnimatedTextureBaseImplSibling_F4DD : LifecycleComponent_81AE
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A87ED630
+        public void Initialize(){} // RVA: 0x7A818F860
         // ── Unresolved (hash) ──
-        public void m_D65(){} // RVA: 0x100A2F0
-        public void m_B79(){} // RVA: 0x1968950
-        public void m_DD8(){} // RVA: 0x1968950
+        public void m_EC6(){} // RVA: 0x7A87ED620
+        public void m_576(){} // RVA: 0x7A818F860
+        public void m_E8F(){} // RVA: 0x7A818F860
+        public void m_DCB(){} // RVA: 0x7A818F860
+        public void m_1A7(){} // RVA: 0x7A818F850
+        public void m_D61(){} // RVA: 0x7A818F850
+        public void m_80B(){} // RVA: 0x7A818F860
     }
 
-    /// <summary>Originally: ÌÎÏÍÏÍÏÍÌÏÎÎÌÍÌÌÎÎÎÎÌÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_99C4
+    /// <summary>Originally: ÍÌÍÌÍÌÍÏÎÏÏÎÏÏÍÌÎÌÎÌÍÍÌ</summary>
+    public class AnimatedTextureBaseImpl_0691 : AnimatedTextureBase_4BD1
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Count_886B06B51F04(){} // RVA: 0xD840
-        public void AddRange(){} // RVA: 0xC770
-        public void get_Current(){} // RVA: 0xC770
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void Add(){} // RVA: 0x24B10
-        public void Return(){} // RVA: 0x2A620
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void MemSet(){} // RVA: 0x24A50
-        public void Clear(){} // RVA: 0x24A50
-        public void AwaitUnsafeOnCompleted_42799FD86C28(){} // RVA: 0x2DC60
-        // ── 40 unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_A5E(){} // RVA: 0xCD60
-        public void m_CE2(){} // RVA: 0xCD60
-        public void m_BEC(){} // RVA: 0xDBE0
-        public void m_F14(){} // RVA: 0xCD60
-        // ... 35 more unresolved methods
+        public void .ctor(){} // RVA: 0x7A8716560
+        public void Initialize(){} // RVA: 0x7A8711090
+        // ── Unresolved (hash) ──
+        public void m_68D(){} // RVA: 0x7A8716520
+        public void m_1A6(){} // RVA: 0x7A8711090
+        public void m_B06(){} // RVA: 0x7A8716540
+        public void m_AC1(){} // RVA: 0x7A8711130
+        public void m_066(){} // RVA: 0x7A8716540
+        public void m_8BA(){} // RVA: 0x7A8711090
+        public void m_4C8(){} // RVA: 0x7A8711090
+        public void m_6C0(){} // RVA: 0x7A87165C0
+        public void m_282(){} // RVA: 0x7A8716520
     }
 
-    /// <summary>Originally: ÍÌÍÌÎÌÎÌÌÌÍÏÏÎÎÌÏÏÍÍÍÎÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_9C43
+    /// <summary>Originally: ÌÏÎÎÍÌÍÌÍÏÍÌÏÎÏÍÎÍÎÍÏÌÍ</summary>
+    public class AnimatedTextureBaseImpl_0B8F : AnimatedTextureBase_4BD1
     {
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x20
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÌÏÍÌÍÍÍÎÎÏÎÏÌÌÏÍÏÌÎÎÏÌ>k__BackingField; // 0x28
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÍÍÏÎÏÏÍÌÎÏÏÌÍÍÌÌÍÎÌÌÌ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÍÏÌÎÎÏÌÌÍÏÍÏÍÌÏÎÏÌÍÏÎÎÌ>k__BackingField; // 0x38
-
         // ── Methods ──
-        public void Contains(){} // RVA: 0xF3DF90
-        public void IndexOf(){} // RVA: 0xF3E030
-        public void CopyTo(){} // RVA: 0xF3E120
-        public void Clear(){} // RVA: 0xF3E190
-        public void Add(){} // RVA: 0xF3E220
-        public void ReadAsyncOperationState(){} // RVA: 0xB2EE60
-        public void Remove(){} // RVA: 0xF3E2B0
-        public void get_SubjectPublicKeyInfo(){} // RVA: 0xF3ED00
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void get_MoveNext(){} // RVA: 0x4976A0
-        public void System.Collections.IList.Remove(){} // RVA: 0xF3F220
-        public void System.Collections.IList.get_Item(){} // RVA: 0xF3F2B0
-        public void System.Collections.IList.set_Item(){} // RVA: 0xF3F310
-        public void System.Collections.ICollection.CopyTo(){} // RVA: 0xF3F320
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xF3F900
-        public void OnPopulateMesh(){} // RVA: 0xF3F910
-        public void OnPopulateMesh_36FE510816A8(){} // RVA: 0xF3F930
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0xF3F9C0
-        public void .ctor(){} // RVA: 0xF3FA20
-        public void Initialize(){} // RVA: 0xB2ECF0
-        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0xF3FD50
-        public void System.Collections.IList.get_IsReadOnly(){} // RVA: 0xF3FDA0
-        public void BinarySearch(){} // RVA: 0xF3FE00
-        public void GetX509Extensions(){} // RVA: 0xB2E770
-        public void Sort(){} // RVA: 0xF3FE20
-        public void Raycast(){} // RVA: 0xF3FE30
-        public void Reverse(){} // RVA: 0xF3FE70
-        public void Find(){} // RVA: 0x9E99B0
-        public void FindAll(){} // RVA: 0xF3FE80
-        public void System.Xml.IDtdParserAdapter.get_NamespaceResolver(){} // RVA: 0xF00840
-        public void FindIndex(){} // RVA: 0xF3FEE0
-        public void FindLast(){} // RVA: 0xF3FF20
-        public void PixelAdjustPoint(){} // RVA: 0xF3FFB0
-        public void get_Data(){} // RVA: 0x30B130
-        public void FindLastIndex(){} // RVA: 0xF3FFF0
-        public void Exists(){} // RVA: 0xF40080
-        public void TrueForAll(){} // RVA: 0xF40090
-        public void get_Capacity(){} // RVA: 0xF3F910
-        public void ConvertAll(){} // RVA: 0xF03830
-        public void ForEach(){} // RVA: 0xF40130
-        public void <HandleResponse>b__4(){} // RVA: 0xF40150
-        public void GetRange(){} // RVA: 0xF40170
-        public void RemoveAll(){} // RVA: 0xF401D0
-        public void RemoveRange(){} // RVA: 0xF40130
-        public void InsertRange(){} // RVA: 0xF40360
-        public void AddRange(){} // RVA: 0xF403A0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void AsReadOnly(){} // RVA: 0xF40440
+        public void .ctor(){} // RVA: 0x7A9908670
+        public void Initialize(){} // RVA: 0x7A87A60F0
+        // ── 62 unresolved (hash) ──
+        public void m_F01(){} // RVA: 0x7A9906190
+        public void m_380(){} // RVA: 0x7A8D182A0
+        public void m_1F5(){} // RVA: 0x7A9906650
+        public void m_6AD(){} // RVA: 0x7A99068E0
+        public void m_ED2(){} // RVA: 0x7A856A750
+        // ... 57 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÌÍÍÏÍÍÏÏÌÎÍÍÎÍÌÌÏÏÎÏÍÎ</summary>
+    public class AnimatedTextureBaseImpl_2A88 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8710EC0
+        public void Initialize(){} // RVA: 0x7A81052C0
+        // ── Unresolved (hash) ──
+        public void m_DF7(){} // RVA: 0x7A8105330
+        public void m_265(){} // RVA: 0x7A8105330
+        public void m_DFB(){} // RVA: 0x7A81052C0
+        public void m_985(){} // RVA: 0x7A81052C0
+        public void m_781(){} // RVA: 0x7A81052C0
+        public void m_3F4(){} // RVA: 0x7A81052C0
+        public void m_951(){} // RVA: 0x7A81052C0
+    }
+
+    /// <summary>Originally: ÌÌÍÏÎÌÌÌÌÍÌÎÏÌÏÏÍÌÍÎÎÏÏ</summary>
+    public class AnimatedTextureBaseImpl_2B43 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8BF03C0
+        public void Initialize(){} // RVA: 0x7A9FC5540
+        // ── Unresolved (hash) ──
+        public void m_CD8(){} // RVA: 0x7A8105330
+        public void m_F7C(){} // RVA: 0x7A8BF0610
+        public void m_CDF(){} // RVA: 0x7A8BF08C0
+        public void m_AA7(){} // RVA: 0x7A8BF08F0
+        public void m_B79(){} // RVA: 0x7A7E1DDC0
+    }
+
+    /// <summary>Originally: ÏÍÎÏÍÎÏÏÍÌÌÌÍÏÎÏÌÏÏÍÍÎÏ</summary>
+    public class AnimatedTextureBaseImpl_2BC2 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CDECC0
+        public void Initialize(){} // RVA: 0x7A8774780
+        // ── 23 unresolved (hash) ──
+        public void m_994(){} // RVA: 0x7A8CDEB50
+        public void m_61B(){} // RVA: 0x7A8105330
+        public void m_ACA(){} // RVA: 0x7A81052C0
+        public void m_B9A(){} // RVA: 0x7A8711090
+        public void m_F3A(){} // RVA: 0x7A87A5E70
+        // ... 18 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÎÌÏÌÏÎÏÌÎÏÌÎÌÍÍÍÏÎÍÎÍÍ</summary>
+    public class AnimatedTextureBaseImpl_333C : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A884B370
+        public void Initialize(){} // RVA: 0x7A8711470
+        // ── Unresolved (hash) ──
+        public void m_659(){} // RVA: 0x7A8711470
+        public void m_6C1(){} // RVA: 0x7A8711490
+        public void m_173(){} // RVA: 0x7A8711470
+        public void m_77A(){} // RVA: 0x7A8711470
+        public void m_311(){} // RVA: 0x7A8711470
+        public void m_F44(){} // RVA: 0x7A8711490
+        public void m_65B(){} // RVA: 0x7A8711490
+    }
+
+    /// <summary>Originally: ÌÎÎÍÍÏÎÏÍÍÌÏÌÎÏÎÍÌÍÌÎÍÍ</summary>
+    public class AnimatedTextureBaseImpl_3645 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A87110D0
+        public void Initialize(){} // RVA: 0x7A87110B0
+        // ── Unresolved (hash) ──
+        public void m_3A7(){} // RVA: 0x7A8711090
+        public void m_B72(){} // RVA: 0x7A87110B0
+        public void m_AC1(){} // RVA: 0x7A8711090
+        public void m_623(){} // RVA: 0x7A8711090
+        public void m_D62(){} // RVA: 0x7A87110B0
+        public void m_F11(){} // RVA: 0x7A8711090
+        public void m_873(){} // RVA: 0x7A87110B0
+    }
+
+    /// <summary>Originally: ÏÍÏÍÌÏÎÎÏÏÏÎÏÏÏÏÏÏÍÎÎÌÍ</summary>
+    public class AnimatedTextureBaseImpl_3BC8 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8711150
+        public void Initialize(){} // RVA: 0x7A8711130
+        // ── Unresolved (hash) ──
+        public void m_AB2(){} // RVA: 0x7A8711130
+        public void m_471(){} // RVA: 0x7A8711090
+        public void m_4D6(){} // RVA: 0x7A8711130
+        public void m_919(){} // RVA: 0x7A8711090
+        public void m_FA2(){} // RVA: 0x7A81052C0
+        public void m_6DF(){} // RVA: 0x7A8711090
+        public void m_57D(){} // RVA: 0x7A8711090
+    }
+
+    /// <summary>Originally: ÎÍÌÎÍÎÎÎÏÌÍÍÌÌÎÌÍÍÍÎÌÏÍ</summary>
+    public class AnimatedTextureBaseImpl_43D9 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A87114F0
+        public void Initialize(){} // RVA: 0x7A8711490
+        // ── Unresolved (hash) ──
+        public void m_681(){} // RVA: 0x7A8711470
+        public void m_8B9(){} // RVA: 0x7A8711490
+        public void m_4B4(){} // RVA: 0x7A87114B0
+        public void m_B06(){} // RVA: 0x7A8711470
+        public void m_6C0(){} // RVA: 0x7A87114D0
+        public void m_319(){} // RVA: 0x7A87114D0
+        public void m_B89(){} // RVA: 0x7A87114B0
+        public void m_E3E(){} // RVA: 0x7A87114B0
+        public void m_300(){} // RVA: 0x7A8711490
+    }
+
+    /// <summary>Originally: ÍÎÌÍÎÏÍÏÏÌÌÌÌÍÌÏÎÎÍÍÎÌÎ</summary>
+    public class AnimatedTextureBaseImpl_50AF : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CE0870
+    }
+
+    /// <summary>Originally: ÌÌÌÏÌÎÏÎÏÏÌÌÎÎÍÍÎÍÎÏÏÎÎ</summary>
+    public class AnimatedTextureBaseImpl_581B : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9905800
+        public void Initialize(){} // RVA: 0x7A87114B0
+        // ── Unresolved (hash) ──
+        public void m_BBB(){} // RVA: 0x7A8711130
+        public void m_912(){} // RVA: 0x7A8711130
+        public void m_C63(){} // RVA: 0x7A8711090
+        public void m_E07(){} // RVA: 0x7A8711130
+        public void m_DC0(){} // RVA: 0x7A87114B0
+        public void m_90C(){} // RVA: 0x7A87114B0
+        public void m_71F(){} // RVA: 0x7A8711130
+        public void m_5FD(){} // RVA: 0x7A87114B0
+        public void m_3A3(){} // RVA: 0x7A8711130
+    }
+
+    /// <summary>Originally: ÎÎÌÏÎÎÌÎÌÏÏÍÌÎÏÌÎÌÌÎÍÍÌ</summary>
+    public class AnimatedTextureBaseImpl_5B08 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CE0360
+        public void Initialize(){} // RVA: 0x7A87114B0
+        // ── Unresolved (hash) ──
+        public void m_F1C(){} // RVA: 0x7A87114B0
+        public void m_A10(){} // RVA: 0x7A8711090
+        public void m_9A7(){} // RVA: 0x7A8CE0580
+        public void m_62C(){} // RVA: 0x7A87749F0
+        public void m_3AF(){} // RVA: 0x7A8711130
+        public void m_823(){} // RVA: 0x7A8CE05D0
+        public void m_A41(){} // RVA: 0x7A8711090
+        public void m_F30(){} // RVA: 0x7A87749F0
+        public void m_32D(){} // RVA: 0x7A8CE0710
+        public void m_89B(){} // RVA: 0x7A8711130
+    }
+
+    /// <summary>Originally: ÌÍÏÏÏÌÍÏÍÏÏÏÍÎÏÍÌÍÍÎÌÍÍ</summary>
+    public class AnimatedTextureBaseImpl_5DD1 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A96BFE40
+        public void Initialize(){} // RVA: 0x7A856A750
+        // ── Unresolved (hash) ──
+        public void m_C80(){} // RVA: 0x7A8711090
+        public void m_3BA(){} // RVA: 0x7A8711130
+        public void m_08B(){} // RVA: 0x7A96BFE20
+        public void m_6B8(){} // RVA: 0x7A96BFE20
+        public void m_AC6(){} // RVA: 0x7A8711130
+        public void m_0C8(){} // RVA: 0x7A96BFE20
+        public void m_341(){} // RVA: 0x7A8711090
+        public void m_6C2(){} // RVA: 0x7A8711130
+    }
+
+    /// <summary>Originally: ÎÏÏÏÍÌÍÏÏÏÍÏÍÌÌÍÌÎÍÏÍÏÌ</summary>
+    public class AnimatedTextureBaseImpl_6178 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8A17910
+        public void Initialize(){} // RVA: 0x7A8A17B70
+        // ── 27 unresolved (hash) ──
+        public void m_BFC(){} // RVA: 0x7A87A63F0
+        public void m_5B2(){} // RVA: 0x7A8716540
+        public void m_F7F(){} // RVA: 0x7A8153390
+        public void m_4E9(){} // RVA: 0x7A87A60F0
+        public void m_B14(){} // RVA: 0x7A8175DF0
+        // ... 22 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÍÏÎÏÏÏÎÏÎÎÌÏÍÏÎÎÎÎÌÌÏÏ</summary>
+    public class AnimatedTextureBaseImpl_7236 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .cctor(){} // RVA: 0x7A8D3D230
+        public void .ctor(){} // RVA: 0x7A8D43550
+        public void Initialize(){} // RVA: 0x7A8B4BD50
+        // ── 224 unresolved (hash) ──
+        public void m_07A(){} // RVA: 0x7A8CCB260
+        public void m_2CB(){} // RVA: 0x7A8D3B4F0
+        public void m_067(){} // RVA: 0x7A8D3B580
+        public void m_BDE(){} // RVA: 0x7A8B62DA0
+        public void m_247(){} // RVA: 0x7A8D3B980
+        // ... 219 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÍÍÌÍÍÎÎÌÍÌÏÎÏÏÏÍÍÌÏÏÍÍ</summary>
+    public class AnimatedTextureBaseImpl_7DD7 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CC0130
+        public void Initialize(){} // RVA: 0x7A87A63F0
         // ── 17 unresolved (hash) ──
-        public void m_75D(){} // RVA: 0xF3E3A0
-        public void m_CB6(){} // RVA: 0xF3E3B0
-        public void m_4AA(){} // RVA: 0xF3E4A0
-        public void m_95A(){} // RVA: 0xF3E640
-        public void m_BB6(){} // RVA: 0xF3E7E0
+        public void m_784(){} // RVA: 0x7A8CBF970
+        public void m_C73(){} // RVA: 0x7A8711090
+        public void m_B57(){} // RVA: 0x7A8C818C0
+        public void m_330(){} // RVA: 0x7A81052C0
+        public void m_88C(){} // RVA: 0x7A87114B0
         // ... 12 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÎÍÎÎÍÌÌÏÍÌÏÎÌÎÏÎÍÍÌÍÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_9DF5
+    /// <summary>Originally: ÏÎÍÌÍÍÍÌÎÌÎÎÌÏÎÌÌÍÍÌÌÍÎ</summary>
+    public class AnimatedTextureBaseImpl_7E6F : AnimatedTextureBase_4BD1
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void GetEnumerator(){} // RVA: 0xCD60
+        public void ToString(){} // RVA: 0x7A87747C0
+        public void .ctor(){} // RVA: 0x7A87755E0
+        public void Initialize(){} // RVA: 0x7A8774F70
+        public void GetHashCode(){} // RVA: 0x7A8775270
+        // ── 37 unresolved (hash) ──
+        public void m_447(){} // RVA: 0x7A87744E0
+        public void m_A48(){} // RVA: 0x7A87749D0
+        public void m_7FE(){} // RVA: 0x7A8774610
+        public void m_3F1(){} // RVA: 0x7A8774650
+        public void m_27D(){} // RVA: 0x7A8774680
+        // ... 32 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÎÏÍÏÍÍÎÎÏÏÍÏÎÎÎÍÍÌÌÎÍÌ</summary>
+    public class AnimatedTextureBaseImpl_8291 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CB9DE0
+        public void Initialize(){} // RVA: 0x7A87114B0
+        // ── 17 unresolved (hash) ──
+        public void m_D42(){} // RVA: 0x7A87114B0
+        public void m_1DE(){} // RVA: 0x7A8CB9C60
+        public void m_DD3(){} // RVA: 0x7A8CB9C70
+        public void m_F94(){} // RVA: 0x7A81052C0
+        public void m_77A(){} // RVA: 0x7A81052C0
+        // ... 12 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÏÎÌÏÏÍÏÍÎÍÎÌÏÍÌÌÏÎÏÎÌÏ</summary>
+    public class AnimatedTextureBaseImpl_8AC5 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void GetHashCode(){} // RVA: 0x7A8CCB500
+        public void .ctor(){} // RVA: 0x7A8CCB580
+        public void Initialize(){} // RVA: 0x7A87A5E70
+        public void Equals(){} // RVA: 0x7A8CCC740
+        // ── 78 unresolved (hash) ──
+        public void m_CE0(){} // RVA: 0x7A8153390
+        public void m_CD4(){} // RVA: 0x7A81A0050
+        public void m_C26(){} // RVA: 0x7A87A5E10
+        public void m_7CA(){} // RVA: 0x7A8CCABA0
+        public void m_D01(){} // RVA: 0x7A8CCABC0
+        // ... 73 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÏÍÌÌÌÎÏÌÌÏÌÍÍÌÌÏÎÎÎÎÌÌ</summary>
+    public class AnimatedTextureBaseImpl_8F08 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9A18D10
+        public void Initialize(){} // RVA: 0x7A87110B0
         // ── Unresolved (hash) ──
-        public void m_831(){} // RVA: 0xCD60
-        public void m_C0B(){} // RVA: 0xCD60
-        public void m_C72(){} // RVA: 0xCD60
+        public void m_BD6(){} // RVA: 0x7A87110B0
+        public void m_CD0(){} // RVA: 0x7A87110B0
+        public void m_B52(){} // RVA: 0x7A87110B0
+        public void m_3F3(){} // RVA: 0x7A87110B0
+        public void m_F44(){} // RVA: 0x7A87110B0
+        public void m_623(){} // RVA: 0x7A87110B0
+        public void m_20A(){} // RVA: 0x7A87110B0
     }
 
-    /// <summary>Originally: ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_A1D8
+    /// <summary>Originally: ÌÌÎÌÏÌÎÎÏÍÏÎÌÏÎÍÎÎÌÌÍÎÏ</summary>
+    public class AnimatedTextureBaseImpl_BCEA : AnimatedTextureBase_4BD1
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void Add(){} // RVA: 0x24B10
-        public void get_Item(){} // RVA: 0x24B10
-        public void OnCanceled(){} // RVA: 0x24CC0
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void get_Count(){} // RVA: 0xD840
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        // ── 12 unresolved (hash) ──
-        public void m_C13(){} // RVA: 0xCD60
-        public void m_891(){} // RVA: 0xCD60
-        public void m_911(){} // RVA: 0xCD60
-        public void m_EB2(){} // RVA: 0x24B10
-        public void m_0E4(){} // RVA: 0xCD60
-        // ... 7 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÎÏÍÍÎÎÍÍÌÌÍÍÌÌÌÌÌÌÎÍÎÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_A71F
-    {
-        // ── Methods ──
-        public void get_Item(){} // RVA: 0x1BCC0
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void Remove(){} // RVA: 0xDE40
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void Remove_3BF89F9CB131(){} // RVA: 0xDE40
-        public void GetHashCode(){} // RVA: 0x12590 | overloaded x5
-        public void Clear(){} // RVA: 0x24A50
-        public void Add(){} // RVA: 0x24B10
-        public void MemSet(){} // RVA: 0x24A50
-        // ── Unresolved (hash) ──
-        public void m_A7D(){} // RVA: 0xCD60
-        public void m_B89(){}
-        public void m_51B(){} // RVA: 0x24B10
-        public void m_BE1(){} // RVA: 0x24A50
-        public void m_D70(){} // RVA: 0x24A50
-        public void m_DE1(){} // RVA: 0x24B10
-        public void m_B55(){} // RVA: 0x24B10
-    }
-
-    /// <summary>Originally: ÎÍÏÏÏÌÎÎÎÎÏÎÌÍÌÎÍÎÎÎÍÏÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_AA22
-    {
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x10
-        public string <ÏÎÍÌÎÏÎÎÍÎÏÏÏÎÍÌÌÍÏÌÍÎÍ>k__BackingField; // 0x18
-        public int <ÏÌÌÍÎÏÏÎÎÌÏÎÏÌÍÌÌÍÏÌÍÏÍ>k__BackingField; // 0x20
-        public System.DateTime <ÏÍÌÍÎÌÏÌÍÍÏÌÎÏÎÎÏÍÍÍÏÎÎ>k__BackingField; // 0x28
-        public int <ÍÏÏÏÌÍÎÍÍÎÍÏÏÍÍÏÎÌÎÌÌÍÏ>k__BackingField; // 0x30
-        public VRC.Localization.LocalizableString <ÌÌÌÎÏÏÎÌÎÏÌÎÏÏÏÏÍÍÌÎÎÌÍ>k__BackingField; // 0x38
-        public int <ÍÎÍÏÌÏÏÏÎÏÏÍÎÎÌÍÌÏÎÎÌÌÎ>k__BackingField; // 0x60
-        public string <ÍÌÏÏÌÌÎÏÌÎÍÍÌÍÍÍÎÎÏÏÍÌÎ>k__BackingField; // 0x68
-        public string <ÏÍÍÌÎÏÍÏÎÌÍÏÍÌÏÍÍÌÎÎÎÌÍ>k__BackingField; // 0x70
-        public string <ÎÌÎÎÏÌÎÏÍÌÌÏÌÌÌÏÍÏÎÌÎÏÌ>k__BackingField; // 0x78
-        public string <ÌÌÌÌÎÌÏÍÍÏÍÎÎÌÎÎÎÎÌÏÍÎÏ>k__BackingField; // 0x80
-
-        // ── Methods ──
-        public void get_imageUrl(){} // RVA: 0x3A5590
-        public void get_MoveNext(){} // RVA: 0x462D00
-        public void get_Data(){} // RVA: 0x30B130
-        public void Equals(){} // RVA: 0x343E80
-        public void OVRMixedRealityCaptureConfiguration.set_extraHiddenLayers(){} // RVA: 0x59C530
-        public void set_timerMonitorIndex(){} // RVA: 0x8AC650
-        public void get_MoveNext_777B75A851A5(){} // RVA: 0x462D00
-        public void ToString(){} // RVA: 0x99E000
-        public void set_depth(){} // RVA: 0x99E0D0
-        public void OVRMixedRealityCaptureConfiguration.set_extraHiddenLayers_178937B6EC2C(){} // RVA: 0x59C530
-        public void set_imageUrl(){} // RVA: 0x4C34F0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Initialize(){} // RVA: 0x4C7C50
-        public void set_ResponseModels(){} // RVA: 0x358D60
-        public void set_timerMonitorIndex_63E42072C6D4(){} // RVA: 0x8AC650
-        public void set_authorId(){} // RVA: 0x464450
-        public void GetHashCode(){} // RVA: 0x99E0E0
-        public void MoveNext(){} // RVA: 0x99E110
-        public void get_Current(){} // RVA: 0x2F8380
-        public void SetSiblingIndex(){} // RVA: 0x338CD0
-        public void get_ResponseModels(){} // RVA: 0x358D50
-        public void get_Data_86982CB962CF(){} // RVA: 0x30B130
-        public void ProcessGameObject(){} // RVA: 0x760030
-        public void OVRMixedRealityCaptureConfiguration.get_extraHiddenLayers(){} // RVA: 0x59CEC0
-        public void .ctor_2CEDC32CBC77(){} // RVA: 0x99E120
-        public void .ctor_2CEDC32CBC77_6A54A15EED55(){} // RVA: 0x99E120
-        public void set_imageUrl_3B2CE3151477(){} // RVA: 0x4C34F0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void get_Data_E08E8CF46F86(){} // RVA: 0x30B130
-        public void set_imageUrl_E166C6EDBFCA(){} // RVA: 0x3A55A0
-        public void set_Value(){} // RVA: 0x2DEE30
-    }
-
-    /// <summary>Originally: ÌÎÍÎÍÏÎÍÎÏÌÌÏÎÍÍÎÎÍÍÌÌÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_ACD8
-    {
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<UnityEngine.Texture2D> <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x20
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÏÏÎÏÌÍÏÌÎÍÌÏÎÎÍÎÍÌÎÏÍÍÌ>k__BackingField; // 0x28
-
-        // ── Methods ──
-        public void Find(){} // RVA: 0x9E99B0
-        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void .ctor(){} // RVA: 0xF3CCB0
-        public void Initialize(){} // RVA: 0x30B130
-        public void get_CallingAssembly(){} // RVA: 0x977430
-        public void ReadCameraState(){} // RVA: 0x9770D0
-        public void ReadCameraState_53773F778605(){} // RVA: 0x7AC2C0
-        public void CompleteWithCallback(){} // RVA: 0x9E92F0
-        public void SwapIfGreater(){} // RVA: 0x9B85D0
-        public void get_Stats(){} // RVA: 0x9B8470
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void SetFrameCount(){} // RVA: 0xA8CBD0
-        public void get_Data(){} // RVA: 0x30B130
-        public void get_EffectBundleID_03208015566C(){} // RVA: 0x9B7650
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
-        public void ReadCameraState_60B417C4B11F(){} // RVA: 0x7AC2C0
-        public void GetConnectedBody_1C68158D047E_36CDEDA98DE9(){} // RVA: 0x99E580
-        public void SwapIfGreater_AA9A6E0FE0E5(){} // RVA: 0x9B85D0
-        public void get_MaskTag(){} // RVA: 0x9E8FF0
-        // ── Unresolved (hash) ──
-        public void m_FA3(){} // RVA: 0xF3CED0
-        public void m_818(){} // RVA: 0xA8CBD0
-    }
-
-    /// <summary>Originally: ÎÏÍÎÎÎÏÌÍÌÎÏÎÎÌÌÏÍÏÎÌÍÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_AF0E
-    {
-        public UnityEngine.Color[] <ÏÎÏÏÌÏÏÌÎÎÌÏÍÌÍÎÍÌÍÍÎÍÎ>k__BackingField; // 0x20
-
-        // ── Methods ──
-        public void RegisterPointerHandlers(){} // RVA: 0x1D5BE90
-        public void OnPointerClick(){} // RVA: 0x1D5BF70
-        public void .ctor(){} // RVA: 0x1D5C050
-        public void Initialize(){} // RVA: 0x1D5BEE0
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void AddPointerClickListener(){} // RVA: 0x1D5C0E0
-        // ── Unresolved (hash) ──
-        public void m_886(){} // RVA: 0x1D5BEE0
-        public void m_C23(){} // RVA: 0x1D5BF20
-        public void m_3B0(){} // RVA: 0x1D5BEE0
-        public void m_253(){} // RVA: 0x1D5BFC0
-        public void m_EEC(){} // RVA: 0x1D5C000
-        public void m_4C7(){} // RVA: 0x1D5BE90
-        public void m_32A(){} // RVA: 0x1D5BE90
-        public void m_A25(){} // RVA: 0x1D5BE90
-        public void m_BCB(){} // RVA: 0x1D5BEE0
-        public void m_73C(){} // RVA: 0x1D5C120
-    }
-
-    /// <summary>Originally: ÎÌÌÌÌÏÍÍÏÏÏÏÍÍÍÎÏÍÌÍÌÍÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_B1DC
-    {
-        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
-        public 0x6581C688 <ÏÌÏÍÌÏÏÌÏÎÏÌÍÍÌÏÍÍÎÏÏÏÏ>k__BackingField; // 0x18
-
-        // ── Methods ──
-        public void set_Count(){} // RVA: 0x1EA98A0
-        public void get_Length(){} // RVA: 0x1EA9890
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void set_Count_A151F2F16238(){} // RVA: 0x1EA98A0
-        public void System.Collections.IEnumerator.MoveNext(){} // RVA: 0x100A2F0
-        public void get_Length_9D31BAC32C39(){} // RVA: 0x1EA9890
-        public void MoveNext(){} // RVA: 0x100A2F0
-        public void get_Current(){} // RVA: 0x100A2F0
-        public void get_Value(){} // RVA: 0x1AD4690
-        public void set_Key(){} // RVA: 0x1AD4690
-    }
-
-    /// <summary>Originally: ÎÌÍÎÎÎÌÍÌÍÌÎÏÎÎÍÏÌÎÌÏÏÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_B45B
-    {
-        // ── Methods ──
-        public void Add(){} // RVA: 0x24B10
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void Clear(){} // RVA: 0x24A50
-        // ── 14 unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_6CD(){} // RVA: 0xCD60
-        public void m_60B(){} // RVA: 0xCD60
-        public void m_9EB(){} // RVA: 0xCD60
-        public void m_C9A(){} // RVA: 0xCD60
-        // ... 9 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÏÎÎÌÌÌÍÍÌÌÍÏÏÍÎÎÏÍÌÌÏÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_B5C2
-    {
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<object> <ÏÎÏÍÏÌÍÎÍÏÌÎÌÏÎÏÎÍÌÎÎÎÍ>k__BackingField; // 0x20
-        public ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ <ÌÌÏÍÌÌÎÌÌÍÏÏÌÍÎÍÌÌÎÌÌÍÌ>k__BackingField; // 0x28
-        public int <ÏÌÌÏÏÍÌÏÌÏÍÌÏÏÏÏÌÏÌÎÏÎÏ>k__BackingField; // 0x30
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÎÍÍÏÏÏÌÌÏÎÌÌÌÏÏÍÌÍÎÌÏ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.IList> ÎÏÌÏÏÌÌÌÎÍÍÏÏÌÏÏÏÏÍÏÎÌÍ;
-        public bool <ÌÍÍÌÎÏÌÎÏÍÎÌÏÌÌÏÌÎÏÏÌÌÍ>k__BackingField; // 0x40
-        public System.Collections.Generic.List`1<object> ÏÏÏÎÌÌÌÍÎÍÏÏÍÎÍÎÍÌÏÌÎÎÎ; // 0x48
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ> <ÎÌÌÍÍÌÌÎÌÏÏÏÍÍÏÌÎÍÌÎÍÏÍ>k__BackingField; // 0x50
-        public bool ÎÏÏÏÎÌÏÏÌÍÌÎÍÍÎÍÍÎÏÎÎÎÏ; // 0x58
-
-        // ── Methods ──
-        public void Contains(){} // RVA: 0xFCCFD0
-        public void IndexOf(){} // RVA: 0xFCD060
-        public void CopyTo(){} // RVA: 0xFCD120
-        public void Clear(){} // RVA: 0xFCD130
-        public void Add(){} // RVA: 0xFCD150
-        public void Remove(){} // RVA: 0xFCD1A0
-        public void get_Data(){} // RVA: 0x30B130
-        public void ExtensionDataGetterInvoke(){} // RVA: 0x338CE0
-        public void WriteIntegerToStream(){} // RVA: 0xFCD320
-        public void get_MoveNext(){} // RVA: 0x4976A0
-        public void WriteIntegerToStream_F51CBE47E2FD(){} // RVA: 0xFCD4E0
-        public void SyncStreamBuffer(){} // RVA: 0xFCD500
-        public void .cctor(){} // RVA: 0xFCD570
-        public void FlushUnitbufStream(){} // RVA: 0xFCD690
-        public void FlushOstreamSuffix(){} // RVA: 0xFCD6F0
-        public void GetCtypeFacet(){} // RVA: 0xFCD780
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void GetCtypeFacet_ED526EC2C3C5(){} // RVA: 0xFCD7A0
-        public void WriteCStringToStream(){} // RVA: 0xFCD970
-        public void WriteCStringToStream_51C7C543E867(){} // RVA: 0xFCD9A0
-        public void GetNumpunctFacet(){} // RVA: 0xFCDC10
-        public void WriteFloatingPointToStream(){} // RVA: 0xFCDF50
-        public void get_Stats(){} // RVA: 0x9B8470
-        public void WriteFloatingPointToStream_051556F7B864(){} // RVA: 0xFCDF70
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-        public void WriteFloatingPointToStream_B2380E882902(){} // RVA: 0xFCE1D0
-        public void InsertRepeatedCharacter(){} // RVA: 0xFCE470
-        public void CreateNumPutFacet(){} // RVA: 0xFCE7E0
-        public void CreateCodecvtFacet(){} // RVA: 0xFCE950
-        public void CreateCodecvtCharFacet(){} // RVA: 0xFCE9E0
-        public void DecodeVarLenUint8(){} // RVA: 0xFCEE60
-        public void set_displayName(){} // RVA: 0x49B830
-        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
-        public void DecodeHuffmanStream(){} // RVA: 0xFCEE80
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void DecodeMetaBlockLength(){} // RVA: 0xFCEF20
-        public void DecodeMetaBlockLength_849E2EB3675A(){} // RVA: 0xFCF0D0
-        public void DecodeMetaBlockLength_8A41A0392F49(){} // RVA: 0xFCF110
-        public void TryDecodeHuffmanSymbol(){} // RVA: 0xFCF480
-        public void CopyStoredDeflateBlock(){} // RVA: 0xFCF5B0
-        public void ReadHuffmanCodeLengths(){} // RVA: 0xFCF5F0
-        public void ReadHuffmanCodeLengths_20EB09233593(){} // RVA: 0xFCF6D0
-        public void get_MaskTag(){} // RVA: 0x9E8D70
-        public void DecodeDynamicHuffmanCodeLengths(){} // RVA: 0xFCF800
-        public void DecodeHuffmanStream_2F9BF2EBA638(){} // RVA: 0xFCF8C0
-        public void DecodeHuffmanStream_2812F81EB683(){} // RVA: 0xFCF930
-        public void DecodeDeflateBlock(){} // RVA: 0xFCFBA0
-        public void ReadHuffmanCode(){} // RVA: 0xFCFC00
-        public void DecodeContextMap(){} // RVA: 0xFCFC40
-        public void InflateDeflateStream(){} // RVA: 0xFD01F0
-        public void DecodeHuffmanStream_4284C284F656(){} // RVA: 0xFD0520
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void DecodeHuffmanStream_D91E70C8BEA8(){} // RVA: 0xFD0540
-        public void InflateFast(){} // RVA: 0xFD0630
-        public void InflateFast_D99BF328E6B9(){} // RVA: 0xFD0760
-        public void DecodeBlockSwitch(){} // RVA: 0xFD0940
-        public void SetShader(){} // RVA: 0xFD0DB0
-        public void GetMaterial(){} // RVA: 0xF50490
-        public void DecodeCommandBlockSwitch(){} // RVA: 0xFD0E80
-        public void GetComponentTransform(){} // RVA: 0x398C00
-        public void ApplyDecodedTextureFrame(){} // RVA: 0x398C10
-        public void DecodeCompressedDeflateBlock(){} // RVA: 0xFD0EC0
-        public void SetInt32(){} // RVA: 0xE59320
-        public void DecodeCommandBlockSwitch_9172319C7F87(){} // RVA: 0xFD0F20
-        public void DecodeDistanceBlockSwitch(){} // RVA: 0xFD1310
-        public void .ctor(){} // RVA: 0xFD1560
-        public void Initialize(){} // RVA: 0x338CD0
-        public void get_CountActive(){} // RVA: 0x59FF30
-        public void CopyUncompressedMetaBlock(){} // RVA: 0xFD1940
-        public void SetShader_C3640E6B910F(){} // RVA: 0xFD19E0
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void get_Data_E4CCC9A127BC(){} // RVA: 0x30B130
-        public void GetMaterial_D5F54B5B6796(){} // RVA: 0xFD1C40
-        public void SetVolume(){} // RVA: 0xFD1E60
-        public void SetVolume_A14D5B5DD783(){} // RVA: 0xFD1EF0
-        public void DecodeBrotliCommandLoop(){} // RVA: 0xFD22C0
-        public void StringType(){} // RVA: 0x37E0E0
-        public void CopyStoredDeflateBlock_1FB0AE9AB930(){} // RVA: 0xFCF5B0
-        public void BrotliDecoderDecompressStream(){} // RVA: 0xFD37D0
-        public void CopyStoredDeflateBlock_73D1F8DBF06C(){} // RVA: 0xFCF5B0
-        public void GetGraphicsDeviceVendor(){} // RVA: 0xFD38A0
-        public void GetGraphicsDeviceVendor_1CEB1F73CAFF(){} // RVA: 0xFD38D0
-        public void BrotliDecoderDecompressStream_966ABE19F525(){} // RVA: 0xFD38F0
-        public void GetNextFrameInfo(){} // RVA: 0xFD4E30
-        public void System.Collections.IList.Add(){} // RVA: 0xECF070
-        public void DecodeCommandBlockSwitch_E8984AAE761E(){} // RVA: 0xFD0E80
-        public void GetNextFrameInfo_E4A072E3175E(){} // RVA: 0xFD4EA0
-        public void FindSymbolByName(){} // RVA: 0xFD4F80
-        // ── Unresolved (hash) ──
-        public void m_1C7(){} // RVA: 0xFCD1B0
-        public void m_572(){} // RVA: 0xFCD450
-        public void m_2F9(){} // RVA: 0xFCF8C0
-        public void m_109(){} // RVA: 0xFCD1A0
-        public void m_79E(){} // RVA: 0xFD0280
-        public void m_475(){} // RVA: 0xF01100
-        public void m_CB6(){} // RVA: 0xFD0450
-        public void m_9CA(){} // RVA: 0xF786F0
-        public void m_ABF(){} // RVA: 0xFD0810
-        public void m_9CB(){} // RVA: 0xFD1D20
-    }
-
-    /// <summary>Originally: ÌÏÌÏÏÎÌÎÍÎÍÎÌÎÎÍÌÍÌÎÎÏÏ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_B726
-    {
-        // ── Methods ──
-        public void GetCachedPtr(){} // RVA: 0x9773F0
-        public void GetCachedPtr_108FC716D594(){} // RVA: 0x9773F0
-        public void get_Value(){} // RVA: 0x977410
-        public void get_Stats(){} // RVA: 0x9B8470
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void .ctor(){} // RVA: 0xF26930
-        public void Initialize(){} // RVA: 0x9E8FF0
-        public void get_CallingAssembly(){} // RVA: 0x977430
-        public void SetItem_51059F80870B_9124C81C284A(){} // RVA: 0x977030
-        public void SwapIfGreater(){} // RVA: 0x9B85D0
-        public void get_Stats_71FFD8DBD88F(){} // RVA: 0x9B8470
-        public void get_CallingAssembly_1E6F04D98852(){} // RVA: 0x977430
-        public void get_Value_0A10B88D7DBD(){} // RVA: 0x977410
-        // ── Unresolved (hash) ──
-        public void m_5C1(){} // RVA: 0x9E99B0
-        public void m_52B(){} // RVA: 0xF00820
-        public void m_535(){} // RVA: 0xF00820
-        public void m_6A5(){} // RVA: 0xF26790
-        public void m_585(){} // RVA: 0xF26820
-        public void m_A7F(){} // RVA: 0x9E9990
-    }
-
-    /// <summary>Originally: ÎÌÌÌÏÌÍÎÎÌÌÏÌÌÏÎÌÍÌÌÍÎÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_BC25
-    {
-        // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Current(){} // RVA: 0xC770
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_0D60929D1D22(){} // RVA: 0xDBE0
-        public void Clear(){} // RVA: 0x24A50
-        // ── Unresolved (hash) ──
-        public void m_228(){} // RVA: 0xC770
-        public void m_E4E(){} // RVA: 0xCD60
-        public void m_61C(){} // RVA: 0xCD60
-        public void m_7F0(){} // RVA: 0xCD60
-        public void m_5B5(){} // RVA: 0xCD60
-        public void m_C0B(){} // RVA: 0xCD60
-        public void m_C72(){} // RVA: 0xCD60
-    }
-
-    /// <summary>Originally: ÍÎÏÏÏÌÍÌÎÌÍÎÏÍÌÎÏÎÌÍÏÎÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_BEC3
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0xC770
-        public void GetEnumerator(){} // RVA: 0xCD60
-        // ── Unresolved (hash) ──
-        public void m_85A(){} // RVA: 0xCD60
-        public void m_657(){} // RVA: 0xCD60
-        public void m_C0B(){} // RVA: 0xCD60
-        public void m_C72(){} // RVA: 0xCD60
-    }
-
-    /// <summary>Originally: ÍÌÌÌÏÍÌÏÍÎÏÍÍÌÍÍÌÍÌÌÍÏÏ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_C80F
-    {
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÎÏÎÏÌÍÍÏÌÏÍÏÎÍÏÎÎÍÏÎÍÏÌ>k__BackingField; // 0x20
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÎÍÍÏÏÏÌÌÏÎÌÌÌÏÏÍÌÍÎÌÏ>k__BackingField; // 0x28
-        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ <ÎÌÌÏÎÌÍÌÌÌÏÌÏÎÎÍÏÌÌÌÍÏÍ>k__BackingField; // 0x30
-        public ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ <ÌÌÏÍÌÌÎÌÌÍÏÏÌÍÎÍÌÌÎÌÌÍÌ>k__BackingField; // 0x38
-        public bool ÌÏÏÏÍÌÌÌÍÌÏÍÍÍÍÏÏÍÌÎÎÏÎ; // 0x40
-
-        // ── Methods ──
-        public void SetItem(){} // RVA: 0xF4C7B0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void SetItem_43D77F46EF9D(){} // RVA: 0xF4C820
-        public void get_MaskTag(){} // RVA: 0x9E8FF0
-        public void ReadCameraState_F454BA3B1AB5(){} // RVA: 0x7AC2C0
-        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
-        public void SetItem_43D77F46EF9D_9AEB61576177(){} // RVA: 0xF4C820
-        public void set_displayName(){} // RVA: 0x49B830
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void GetItem(){} // RVA: 0xF4C850
-        public void GetItem_34AA1C0B24D3(){} // RVA: 0xF4C8C0
-        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void SetItem_C0113BB004D6_FA5F1971A7D1(){} // RVA: 0x9E8D10
-        public void .ctor(){} // RVA: 0xF4D200
-        public void Initialize(){} // RVA: 0xF4D3D0
-        public void TryGetValue(){} // RVA: 0xF4D400
-        public void ContainsValue(){} // RVA: 0x3CFAF0
-        public void CopyTo(){} // RVA: 0x4976A0
-        public void GetEnumerator(){} // RVA: 0xF4C7B0
-        public void Remove(){} // RVA: 0x9E8D10
-        public void get_Count(){} // RVA: 0x30B130
-        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void ContainsKey(){} // RVA: 0xF4D930
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void TryGetValue_A6E81C035208(){} // RVA: 0xF4D3D0
-        public void ReadCameraState_C139EE5492B3(){} // RVA: 0x7AC2C0
-        public void CopyTo_1FCC3FAC44A6(){} // RVA: 0xF4D950
-        public void set_Options(){} // RVA: 0x30B890
-        public void GetConnectedBody_1C68158D047E_5A0D1B39064D(){} // RVA: 0x99E580
-        public void get_Data(){} // RVA: 0x30B130
-        public void get_FileId_6183F63C59F2(){} // RVA: 0x9770D0
-        // ── 13 unresolved (hash) ──
-        public void m_052(){} // RVA: 0xF4CAE0
-        public void m_CA3(){} // RVA: 0xF4CD50
-        public void m_A22(){} // RVA: 0xF4CDC0
-        public void m_4F9(){} // RVA: 0xF4CE30
-        public void m_BA7(){} // RVA: 0xF4CE60
-        // ... 8 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÏÍÎÍÎÍÏÍÌÍÏÎÌÎÌÏÏÏÌÎÌÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_CAC3
-    {
-        // ── Methods ──
-        public void get_Current(){} // RVA: 0xC770
-        public void get_Item(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        // ── Unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_60B(){} // RVA: 0xC770
-        public void m_6A1(){} // RVA: 0xC770
-        public void m_9C2(){} // RVA: 0xC770
-        public void m_39F(){} // RVA: 0xC770
-        public void m_E4E(){} // RVA: 0xCD60
-        public void m_1C1(){} // RVA: 0xCD60
-        public void m_4B9(){} // RVA: 0xCD60
-        public void m_C0B(){} // RVA: 0xCD60
-    }
-
-    /// <summary>Originally: ÍÎÎÌÌÏÏÎÎÎÏÌÌÏÍÏÏÏÌÌÍÍÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_D158
-    {
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÌÎÍÎÍÍÏÌÌÌÎÌÍÍÌÎÎÍÍÏÎÏÌ; // 0x20
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> ÌÏÍÏÌÏÏÏÍÌÌÏÎÌÎÍÌÏÌÍÌÏÎ; // 0x28
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.IList`1<ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ>> ÏÌÎÏÍÏÌÎÌÌÌÏÌÌÏÌÌÍÍÎÏÏÏ; // 0x30
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.IList`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ>> ÎÏÌÎÌÏÌÍÌÍÍÍÎÏÍÏÎÌÍÍÎÎÎ; // 0x38
-        public System.Threading.CancellationTokenSource ÌÌÎÏÍÌÍÏÍÏÌÍÌÍÌÏÎÏÏÎÎÎÏ; // 0x40
-        public ÏÎÍÍÎÏÏÌÎÏÌÍÍÍÌÌÎÏÍÌÎÍÍ <ÎÎÎÍÍÏÌÍÍÏÍÌÎÏÌÍÌÎÏÎÏÎÍ>k__BackingField; // 0x48
-        public ÏÎÍÍÎÏÏÌÎÏÌÍÍÍÌÌÎÏÍÌÎÍÍ <ÌÏÍÏÌÏÌÏÌÏÏÍÎÌÌÎÎÏÌÎÍÏÍ>k__BackingField; // 0x98
-        public System.Nullable`1<int> ÌÍÌÍÎÏÏÎÌÏÍÍÏÏÍÎÎÍÏÏÏÏÏ; // 0xE8
-        public System.Nullable`1<int> ÌÏÌÎÎÌÏÏÍÍÍÍÍÏÌÍÌÌÎÏÏÍÍ; // 0xF0
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÎÎÍÏÍÏÎÏÌÍÍÏÏÌÏÎÌÎÎÍÏ>k__BackingField; // 0xF8
-
-        // ── Methods ──
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void Contains(){} // RVA: 0xECE0C0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void IndexOf(){} // RVA: 0xECE380
-        public void CopyTo(){} // RVA: 0xECE430
-        public void Clear(){} // RVA: 0xECE550
-        public void Add(){} // RVA: 0xECE630
-        public void .ctor(){} // RVA: 0xECE650
-        public void Initialize(){} // RVA: 0x63D280
-        public void Remove(){} // RVA: 0xECED90
-        public void System.Collections.IList.Remove_3F9F580B4BA8(){} // RVA: 0xED1F40 | overloaded x2
-        public void get_TraceWriter(){} // RVA: 0x7F7DB0
-        public void System.Collections.ICollection.get_Count(){} // RVA: 0xECF720
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xECF730
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0xECFA00
-        public void System.Collections.Generic.IReadOnlyCollection<T>.get_Count(){} // RVA: 0xECFC70
-        public void System.Collections.Generic.IReadOnlyList<T>.get_Item(){} // RVA: 0xECFCC0
-        public void get_MoveNext(){} // RVA: 0x4976A0
-        public void System.Collections.IReadOnlyList.get_Item(){} // RVA: 0xECFCE0
-        public void get_Comparer_6751AF90083E(){} // RVA: 0x6374D0
-        public void System.Collections.IList.get_Count(){} // RVA: 0xECFD00
-        public void EnsureCapacity(){} // RVA: 0xECFD50
-        public void TrimExcess(){} // RVA: 0xED0000
-        public void get_Capacity(){} // RVA: 0xED0020
-        public void set_Capacity(){} // RVA: 0xED0400
-        public void CheckIndex(){} // RVA: 0xED04E0
-        public void CheckRange(){} // RVA: 0xED0610
-        public void get_Data(){} // RVA: 0x30B130
-        public void GetBucketIndex(){} // RVA: 0xED0950
-        public void GetHashCodeForKey(){} // RVA: 0xED09D0
-        public void ResizeSparseHashTable(){} // RVA: 0xED0A60
-        public void InsertEntry(){} // RVA: 0xED0FB0
-        public void RemoveEntry(){} // RVA: 0xED12A0
-        public void FreeEntry(){} // RVA: 0xED14B0
-        public void CopyToArray(){} // RVA: 0xED1530
-        public void CopyKeysToArray(){} // RVA: 0xED1560
-        public void CopyValuesToArray(){} // RVA: 0xED1580
-        public void GetKeyCollection(){} // RVA: 0xED1970
-        public void GetValueCollection(){} // RVA: 0xED19B0
-        public void GetObjectData(){} // RVA: 0xED1B10
-        public void OnDeserialization(){} // RVA: 0xED1BC0
-        public void TryGetValue(){} // RVA: 0xECF070
-        public void ContainsKey(){} // RVA: 0xED21A0
-        public void ContainsValue(){} // RVA: 0xED21C0
-        public void RemoveKey(){} // RVA: 0xED2210
-        public void AddKeyValuePair(){} // RVA: 0xED2230
-        public void RemoveKeyValuePair(){} // RVA: 0xED2240
-        public void ContainsKeyValuePair(){} // RVA: 0xED2280
-        public void CopyKeyValuePairsTo(){} // RVA: 0xED2520
-        public void GetKeyValuePairEnumerator(){} // RVA: 0xED0A60
-        public void GetDictionaryEnumerator(){} // RVA: 0xED2820
-        public void InitializeRuntimeClass(){} // RVA: 0xED28D0
-        public void SetValue(){} // RVA: 0xED28F0
-        public void GetValue(){} // RVA: 0xED2980
-        public void GetKey(){} // RVA: 0xED2AB0
-        public void ThrowKeyNotFoundException_E42F60EA4C61(){} // RVA: 0xED2C70 | overloaded x2
-        public void ThrowArgumentException(){} // RVA: 0xED2B10
-        public void ThrowIndexOutOfRangeException(){} // RVA: 0xED2B70
-        // ── 21 unresolved (hash) ──
-        public void m_C1B(){} // RVA: 0xECEDA0
-        public void m_705(){} // RVA: 0xED0CA0
-        public void m_5BE(){} // RVA: 0xECEF10
-        public void m_609(){} // RVA: 0xECEF30
-        public void m_A7F(){} // RVA: 0xECEFB0
-        // ... 16 more unresolved methods
-    }
-
-    /// <summary>Originally: ÍÏÍÍÍÌÌÍÍÎÏÍÎÌÎÌÍÍÌÍÍÍÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_D167
-    {
-        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
-        public System.Nullable`1<System.DateTimeOffset> <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x18
-        public System.Nullable`1<System.DateTimeOffset> <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x30
-        public int <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x48
-
-        // ── Methods ──
-        public void GetLocalScale(){} // RVA: 0xFDC9F0
-        public void GetLocalScale_5BA8B09FF060(){} // RVA: 0xFDC9F0
-        public void GetLocalScale_D74F9E3B7B27(){} // RVA: 0xFDC9F0
+        public void .ctor(){} // RVA: 0x7A884B150
+        public void Initialize(){} // RVA: 0x7A87114B0
         // ── 11 unresolved (hash) ──
-        public void m_FEA(){} // RVA: 0x100A2F0
-        public void m_B60(){} // RVA: 0x1F02A60
-        public void m_D71(){} // RVA: 0x100A2F0
-        public void m_345(){} // RVA: 0x1AD4690
-        public void m_014(){} // RVA: 0x1F02A80
+        public void m_628(){} // RVA: 0x7A81052C0
+        public void m_CC8(){} // RVA: 0x7A87114B0
+        public void m_BE9(){} // RVA: 0x7A884AE80
+        public void m_16C(){} // RVA: 0x7A884AF30
+        public void m_89B(){} // RVA: 0x7A8711130
         // ... 6 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÎÏÏÍÍÌÏÍÏÏÏÎÌÏÍÌÏÎÏÏÏÏ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_D369
+    /// <summary>Originally: ÌÍÏÍÏÍÍÍÎÌÌÍÌÎÏÌÎÏÏÏÎÎÏ</summary>
+    public class AnimatedTextureBaseImpl_C87D : AnimatedTextureBase_4BD1
     {
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x20
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÌÏÍÌÍÍÍÎÎÏÎÏÌÌÏÍÏÌÎÎÏÌ>k__BackingField; // 0x28
-
         // ── Methods ──
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void .ctor(){} // RVA: 0xF1C240
-        public void Initialize(){} // RVA: 0x30B130
-        public void get_Data(){} // RVA: 0x30B130
-        public void get_ElementType(){} // RVA: 0x519240
-        // ── 13 unresolved (hash) ──
-        public void m_A6E(){} // RVA: 0x9B35F0
-        public void m_D97(){} // RVA: 0xF1BB20
-        public void m_60B(){} // RVA: 0xF1C1E0
-        public void m_A14(){} // RVA: 0xF1BD90
-        public void m_0FD(){} // RVA: 0x9B35F0
-        // ... 8 more unresolved methods
+        public void .ctor(){} // RVA: 0x7A8BF9E20
+        public void Initialize(){} // RVA: 0x7A8BF9F40
+        // ── 118 unresolved (hash) ──
+        public void m_D77(){} // RVA: 0x7A8BF7670
+        public void m_FDF(){} // RVA: 0x7A8BF76C0
+        public void m_C80(){} // RVA: 0x7A8BF7720
+        public void m_FD9(){} // RVA: 0x7A8BF7770
+        public void m_F44(){} // RVA: 0x7A8BF77C0
+        // ... 113 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÍÍÏÍÎÎÍÍÏÌÎÍÎÍÏÍÌÍÏÍÏÏ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_D830
+    /// <summary>Originally: ÍÏÌÏÌÎÎÎÍÍÍÍÍÍÌÌÍÍÎÎÍÎÌ</summary>
+    public class AnimatedTextureBaseImpl_D245 : AnimatedTextureBase_4BD1
     {
-        public VRC.Localization.LocalizableString <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x10
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÌÎÎÎÎÌÌÎÍÍÏÏÎÎÎÎÎÎÎÌÎÍÌ>> <ÍÌÏÎÎÎÏÎÎÏÎÎÎÏÍÎÏÎÍÏÌÎÎ>k__BackingField; // 0x38
-        public string <ÌÏÌÌÎÌÎÏÌÏÏÍÏÍÎÎÎÌÏÎÌÍÍ>k__BackingField; // 0x40
-        public string <ÎÍÎÏÍÏÍÌÍÌÏÌÏÍÏÏÌÌÍÎÏÌÍ>k__BackingField; // 0x48
-
         // ── Methods ──
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void .ctor(){} // RVA: 0x14F7E30
-        public void Initialize(){} // RVA: 0x14F8370
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void set_displayName(){} // RVA: 0x49B830
-        public void SetCenter(){} // RVA: 0xBDB960
-        public void Equals(){} // RVA: 0xBDB400
-        public void get_MoveNext_BE2841BB04F1(){} // RVA: 0x4976A0
-        public void get_MoveNext_C0BA5960DA9A(){} // RVA: 0x35A740
-        public void ConfigureGizmos(){} // RVA: 0x14F9540
-        public void SetCenter_345B449A5315(){} // RVA: 0xBDB960
-        // ── Unresolved (hash) ──
-        public void m_4EB(){} // RVA: 0x14F84A0
-        public void m_794(){} // RVA: 0x14F89C0
-        public void m_874(){} // RVA: 0x14F8EE0
-        public void m_2AE(){} // RVA: 0x14F9010
+        public void .ctor(){} // RVA: 0x7A87A6510
+        public void Initialize(){} // RVA: 0x7A87A6AA0
+        // ── 33 unresolved (hash) ──
+        public void m_0B2(){} // RVA: 0x7A8738630
+        public void m_CB0(){} // RVA: 0x7A8105330
+        public void m_265(){} // RVA: 0x7A87A5E10
+        public void m_D9F(){} // RVA: 0x7A8774780
+        public void m_807(){} // RVA: 0x7A87A5E30
+        // ... 28 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÏÌÎÎÌÌÎÌÌÏÎÌÍÏÍÌÍÎÍÍÏÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_E2B4
+    /// <summary>Originally: ÎÎÎÌÌÌÏÍÍÎÌÏÍÎÎÏÏÍÎÌÍÏÌ</summary>
+    public class AnimatedTextureBaseImpl_DC19 : AnimatedTextureBase_4BD1
     {
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ> <ÌÌÌÌÌÌÎÍÏÏÏÍÌÏÎÎÍÍÎÎÍÌÏ>k__BackingField; // 0x20
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÎÌÏÌÎÍÍÍÏÌÌÍÎÏÌÍÎÎÍÏÏÌÎ>k__BackingField; // 0x28
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÎÎÏÎÌÏÌÍÏÎÌÎÌÎÌÌÎÎÌÏÌÍ>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
-        public void .ctor(){} // RVA: 0x1DE2AE0
-        public void Initialize(){} // RVA: 0x30B0C0
-        public void ResizeSparseHashTable(){} // RVA: 0xED0A60
-        public void Find(){} // RVA: 0x9E99B0
-        public void GetAudioSourceVolume(){} // RVA: 0x1DE2DB0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void Contains(){} // RVA: 0xF50690
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void VisitGCHandles(){} // RVA: 0xD0A030
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void Equals(){} // RVA: 0x1DE3BC0 | overloaded x2
-        public void GetDeltaTime(){} // RVA: 0x1DE2F50
-        public void GetDeltaTime_26BA95FB8144(){} // RVA: 0x1DE2F70
-        public void SetItem_C0113BB004D6_83176C61A269(){} // RVA: 0x9E8D10
-        public void GetHashCode(){} // RVA: 0xF01180
-        public void SwapIfGreater(){} // RVA: 0x9B85D0
-        public void get_Comparer_6E37EEE6E27E(){} // RVA: 0x6374D0
-        public void get_HasInfo(){} // RVA: 0xF01170
-        public void get_CallingAssembly(){} // RVA: 0x977430
-        public void System.Xml.IDtdParserAdapter.get_LineNo(){} // RVA: 0x1DE3B80
-        public void InitializeSparseHashTable(){} // RVA: 0x9E9990
-        public void GetMaterial(){} // RVA: 0xF50490
-        public void get_Data(){} // RVA: 0x30B130
-        public void get_IsReady(){} // RVA: 0xEDC7C0
-        public void SetGCHandleTarget(){} // RVA: 0xFC3BF0
-        public void ReadCameraState_8B586ED5A05D(){} // RVA: 0x1DE3D50
-        public void GetLocalRotation(){} // RVA: 0x1DE3EC0
-        public void GetLocalRotation_7509799A113E(){} // RVA: 0x1DE3EE0
-        public void ReadCameraState_143002174244(){} // RVA: 0xF50840
-        public void GetDeltaTime_EEFD2056DA94(){} // RVA: 0x1DE4250
-        public void Contains_4DE71B735FE5(){} // RVA: 0x1DE43C0
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void Contains_F3041E6EFB3D(){} // RVA: 0x1DE43E0
-        public void Contains_0C6200CD88A4(){} // RVA: 0x1DE4400
-        public void get_MaskTag(){} // RVA: 0x9E8D70
-        public void CompleteWithCallback(){} // RVA: 0x9E92F0
-        public void GetDeltaTime_BC678A6EDD53(){} // RVA: 0x1DE4750
-        public void GetDeltaTime_A14D5B5DD783(){} // RVA: 0x1DE4800
-        public void get_MaskTag_4DB554623F53(){} // RVA: 0x9E8FF0
+        public void .ctor(){} // RVA: 0x7A884A7E0
+        public void Initialize(){} // RVA: 0x7A87749F0
+        // ── 15 unresolved (hash) ──
+        public void m_471(){} // RVA: 0x7A87114B0
+        public void m_EEA(){} // RVA: 0x7A8711490
+        public void m_B57(){} // RVA: 0x7A8105330
+        public void m_BEA(){} // RVA: 0x7A884A7A0
+        public void m_EE9(){} // RVA: 0x7A884A7A0
+        // ... 10 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÌÏÏÏÍÌÍÎÎÎÌÎÎÌÎÏÌÍÍÍÏÏ</summary>
+    public class AnimatedTextureBaseImpl_DD78 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A96C0110
+        public void Initialize(){} // RVA: 0x7A8105330
+        // ── 36 unresolved (hash) ──
+        public void m_2C4(){} // RVA: 0x7A81052C0
+        public void m_9A9(){} // RVA: 0x7A8105330
+        public void m_4B2(){} // RVA: 0x7A96BFE70
+        public void m_CE0(){} // RVA: 0x7A8154D80
+        public void m_C9C(){} // RVA: 0x7A8D6D5B0
+        // ... 31 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÌÌÍÌÏÏÎÍÏÍÍÍÏÌÎÎÌÌÎÌÍ</summary>
+    public class AnimatedTextureBaseImpl_E88B : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9903760
+        public void Initialize(){} // RVA: 0x7A9903A30
+        // ── 17 unresolved (hash) ──
+        public void m_026(){} // RVA: 0x7A8711130
+        public void m_D0E(){} // RVA: 0x7A83F69F0
+        public void m_45D(){} // RVA: 0x7A99030E0
+        public void m_4D5(){} // RVA: 0x7A99032E0
+        public void m_FDF(){} // RVA: 0x7A9903500
+        // ... 12 more unresolved methods
+    }
+
+    /// <summary>Originally: ÌÎÎÍÍÏÌÌÍÏÌÍÎÏÎÎÎÍÌÏÍÍÌ</summary>
+    public class AnimatedTextureBaseImpl_E9CA : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8C98910
+        public void Initialize(){} // RVA: 0x7A84442D0
+        // ── 79 unresolved (hash) ──
+        public void m_06F(){} // RVA: 0x7A83F69F0
+        public void m_7FB(){} // RVA: 0x7A8C98380
+        public void m_6D6(){} // RVA: 0x7A81052C0
+        public void m_545(){} // RVA: 0x7A8C98640
+        public void m_690(){} // RVA: 0x7A8C986F0
+        // ... 74 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÎÎÍÍÎÏÌÏÎÌÌÏÏÎÏÎÌÌÌÎÌ</summary>
+    public class AnimatedTextureBaseImpl_EEBC : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A96C4A10
+    }
+
+    /// <summary>Originally: ÏÎÏÌÎÎÏÍÌÏÎÌÍÍÍÏÎÍÍÎÎÌÎ</summary>
+    public class AnimatedTextureBaseImpl_F09E : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CE0840
+    }
+
+    /// <summary>Originally: ÌÍÎÍÏÎÎÎÍÎÌÍÎÎÌÏÍÍÍÏÏÏÌ</summary>
+    public class AnimatedTextureBaseImpl_F6B5 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8A08EF0
+        public void Initialize(){} // RVA: 0x7A8A092E0
+        // ── 22 unresolved (hash) ──
+        public void m_DED(){} // RVA: 0x7A8A08E60
+        public void m_4CE(){} // RVA: 0x7A8A08ED0
+        public void m_5A3(){} // RVA: 0x7A8A09300
+        public void m_DDC(){} // RVA: 0x7A8A09580
+        public void m_6AF(){} // RVA: 0x7A8A09BA0
+        // ... 17 more unresolved methods
+    }
+
+    /// <summary>Originally: ÏÏÎÎÎÎÍÏÏÎÍÎÏÌÎÌÌÍÌÌÏÎÏ</summary>
+    public class AnimatedTextureBaseImpl_F7D5 : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CDFE50
+        public void Initialize(){} // RVA: 0x7A8CE0030
+        // ── 25 unresolved (hash) ──
+        public void m_5D1(){} // RVA: 0x7A8CDF630
+        public void m_A41(){} // RVA: 0x7A8CDF780
+        public void m_CFF(){} // RVA: 0x7A83F69F0
+        public void m_B50(){} // RVA: 0x7A8105A90
+        public void m_05D(){} // RVA: 0x7A82D1450
+        // ... 20 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÎÌÌÍÌÍÎÍÍÏÌÍÌÎÎÏÏÍÍÍÌÎ</summary>
+    public class AnimatedTextureBaseImpl_FBEC : AnimatedTextureBase_4BD1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8CA6B20
+        public void Initialize(){} // RVA: 0x7A8CA6AE0
         // ── 18 unresolved (hash) ──
-        public void m_543(){} // RVA: 0xF50580
-        public void m_796(){} // RVA: 0x9E99B0
-        public void m_EDD(){} // RVA: 0x9E99B0
-        public void m_673(){} // RVA: 0xD0A030
-        public void m_35D(){} // RVA: 0x1DE31A0
+        public void m_5C4(){} // RVA: 0x7A87114D0
+        public void m_11E(){} // RVA: 0x7A8774780
+        public void m_99E(){} // RVA: 0x7A8CA6AE0
+        public void m_C80(){} // RVA: 0x7A87A60F0
+        public void m_A13(){} // RVA: 0x7A87A5E70
         // ... 13 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÍÏÏÏÍÍÍÏÏÌÏÎÍÎÍÍÏÏÎÎÍÎ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_E36B
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Item(){} // RVA: 0xCD60
-        public void get_Count_18EC0626336C(){} // RVA: 0xD840
-        public void get_Count_52BB0D8C8439(){} // RVA: 0xD840
-        public void get_Current(){} // RVA: 0xC770
-        // ── Unresolved (hash) ──
-        public void m_537(){} // RVA: 0xCD60
-        public void m_E08(){} // RVA: 0xCD60
-        public void m_71F(){} // RVA: 0xCD60
-        public void m_F9A(){} // RVA: 0xCD60
-        public void m_5C1(){} // RVA: 0xCD60
-        public void m_A7F(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A7E00680
+        public void Equals(){} // RVA: 0x7A7E18800
+        public void GetHashCode(){} // RVA: 0x7A8051B10
+        public void op_Implicit(){} // RVA: 0x7A8051B10
+        public void CompareBaseObjects(){} // RVA: 0x7A7E00680
+        public void IsNativeObjectAlive(){} // RVA: 0x7A8051B10
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void Initialize(){} // RVA: 0x7A8051B10
+        public void set_name(){} // RVA: 0x7A7E18770
     }
 
-    /// <summary>Originally: ÍÏÏÏÍÌÎÎÎÏÎÎÌÎÍÍÎÎÌÍÎÎÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_EC86
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void get_Current(){} // RVA: 0xC770
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÎÎÎÍÎÌÌÌÏÎÌÏÍÌÌÍÍÏÎÎÏÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_EF3C
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
-        // ── Unresolved (hash) ──
-        public void m_6D6(){} // RVA: 0xCD60
-        public void m_B4B(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÎÎÌÏÏÌÌÌÎÌÌÌÎÏÌÍÎÍÏÍÏÎÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_FD0A
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public T _fD0A;
-        public System.DateTime <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField;
-        public System.DateTime <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField;
-
         // ── Methods ──
-        public void set_Space(){} // RVA: 0x24CC0
-        public void ProcessPlayableHandle(){} // RVA: 0x2A310
-        public void ReadCapsuleColliderState(){} // RVA: 0x283FA0
-        public void ReadCapsuleColliderState_AB1933BA36FB(){} // RVA: 0x24A50
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0xCD60
-        public void get_InstantiationKind(){} // RVA: 0x283FA0
-        public void ReadCapsuleColliderState_2AFE2B1A3573(){} // RVA: 0x24A50
-        public void MoveNext(){} // RVA: 0xCD60
-        public void get_Current(){} // RVA: 0xCD60
-        public void .ctor(){} // RVA: 0x283FA0
-        public void Initialize(){} // RVA: 0x24A50
-        public void ReadCapsuleColliderState_827B8B48C24D(){} // RVA: 0xCD60
-        public void set_Seconds(){} // RVA: 0x24CC0
-        public void System.Collections.IEnumerator.get_Current_B60A77C90C59(){} // RVA: 0xCD60
-        public void InitializeCapsuleColliderDefaults(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÎÎÌÏÏÌÌÌÎÌÌÌÎÏÌÍÎÍÏÍÏÎÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_FD0A
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public 0x658952C0 <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x10
-        public System.DateTime <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x18
-        public System.DateTime <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void set_Space(){} // RVA: 0xAE83A0
-        public void ProcessPlayableHandle(){} // RVA: 0x2A310
-        public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
-        public void ReadCapsuleColliderState_AB1933BA36FB(){} // RVA: 0x5084BE0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void get_InstantiationKind(){} // RVA: 0x32A5C0
-        public void ReadCapsuleColliderState_2AFE2B1A3573(){} // RVA: 0x5084C30
-        public void MoveNext(){} // RVA: 0x5084C80
-        public void get_Current(){} // RVA: 0x30B0C0
-        public void .ctor(){} // RVA: 0x5084D80
-        public void Initialize(){} // RVA: 0x5084DE0
-        public void ReadCapsuleColliderState_827B8B48C24D(){} // RVA: 0x5084E30
-        public void set_Seconds(){} // RVA: 0xC5BE60
-        public void System.Collections.IEnumerator.get_Current_B60A77C90C59(){} // RVA: 0x2E07C0
-        public void InitializeCapsuleColliderDefaults(){} // RVA: 0x5084F30
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÎÎÌÏÏÌÌÌÎÌÌÌÎÏÌÍÎÍÏÍÏÎÌ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_FD0A
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public 0x65973DB8 <ÍÌÎÌÏÌÌÌÏÎÌÏÏÏÎÍÎÎÌÎÎÏÎ>k__BackingField; // 0x10
-        public System.DateTime <ÏÎÍÎÍÏÎÍÌÎÎÍÌÌÌÌÍÎÏÏÎÏÏ>k__BackingField; // 0x18
-        public System.DateTime <ÌÌÏÏÎÏÎÎÌÍÌÍÌÍÎÍÎÏÍÏÎÍÌ>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void set_Space(){} // RVA: 0xAE83A0
-        public void ProcessPlayableHandle(){} // RVA: 0x2A310
-        public void ReadCapsuleColliderState(){} // RVA: 0x2E00C0
-        public void ReadCapsuleColliderState_AB1933BA36FB(){} // RVA: 0x5084BE0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void get_InstantiationKind(){} // RVA: 0x32A5C0
-        public void ReadCapsuleColliderState_2AFE2B1A3573(){} // RVA: 0x5084C30
-        public void MoveNext(){} // RVA: 0x5084C80
-        public void get_Current(){} // RVA: 0x30B0C0
-        public void .ctor(){} // RVA: 0x5084D80
-        public void Initialize(){} // RVA: 0x5084DE0
-        public void ReadCapsuleColliderState_827B8B48C24D(){} // RVA: 0x5084E30
-        public void set_Seconds(){} // RVA: 0xC5BE60
-        public void System.Collections.IEnumerator.get_Current_B60A77C90C59(){} // RVA: 0x2E07C0
-        public void InitializeCapsuleColliderDefaults(){} // RVA: 0x5084F30
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ</summary>
-    public class AnimatedTextureBaseImpl_0682SiSibling_FD13
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void Contains(){} // RVA: 0xCD60
-        public void IndexOf(){} // RVA: 0xCD60
-        public void CopyTo(){} // RVA: 0xCD60
-        public void Clear(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Count_A3677B199D2D(){} // RVA: 0xD840
-        public void Remove(){} // RVA: 0xCD60
-        public void get_Count_624FB9CB73C3(){} // RVA: 0xD840
-        public void get_IsReadOnly_94411574C058(){} // RVA: 0xDBE0
-        public void get_IsReadOnly_6FE7B1AE5FC5(){} // RVA: 0xDBE0
-        public void Dispose(){} // RVA: 0x25130
-        public void Add(){} // RVA: 0x24B10
-        public void System.Collections.IList.get_Item(){} // RVA: 0xCD60
-        public void System.Collections.IList.set_Item(){} // RVA: 0xCD60
-        public void System.Collections.IList.get_IsFixedSize(){} // RVA: 0xCD60
-        public void System.Collections.ICollection.get_Count(){} // RVA: 0xCD60
-        public void System.Collections.ICollection.get_SyncRoot(){} // RVA: 0xCD60
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0xCD60
-        public void Insert(){} // RVA: 0xCD60
-        public void get_IsReadOnly_11FD1330BC97(){} // RVA: 0xDBE0
-        public void RemoveAt(){} // RVA: 0xCD60
-        public void OnCanceled(){} // RVA: 0x24CC0
-        public void get_Item(){} // RVA: 0xCD60
-        public void set_Item(){} // RVA: 0x24B10
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void AwaitUnsafeOnCompleted_3EB4E9498222(){} // RVA: 0x2DC60
-        public void get_IsFixedSize(){}
-        public void AllocateThreadStaticStorageSlot(){} // RVA: 0x259F0
-        public void AwaitUnsafeOnCompleted_A6887F1E0A90(){} // RVA: 0x2DC60
-        public void get_SyncRoot(){}
-        public void CreateCollection(){} // RVA: 0x2F090
-        public void CreateCollection_C265E755B1FD(){} // RVA: 0x2F090
-        // ── 14 unresolved (hash) ──
-        public void m_ED1(){} // RVA: 0xCD60
-        public void m_C01(){} // RVA: 0xCD60
-        public void m_A78(){} // RVA: 0xCD60
-        public void m_DE8(){} // RVA: 0xCD60
-        public void m_3D0(){} // RVA: 0xCD60
-        // ... 9 more unresolved methods
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÍÎÍÍÌÏÎÍÌÍÍÏÎÏÍÎÍÌÌÏÍÏ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_07C7
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public string ÎÎÎÌÌÌÌÍÏÍÏÎÏÌÍÎÍÎÎÍÎÏÍ;
-        public Discord.Sdk.UserHandle ÎÍÏÏÎÏÏÏÌÌÎÎÎÎÌÍÌÎÌÎÎÌÎ; // 0x10
-        public string <ÍÍÎÎÍÌÎÏÍÎÍÍÌÎÌÍÍÏÎÎÍÌÏ>k__BackingField; // 0x18
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÎÏÌÏÍÌÎÎÏÏÏÌÎÏÌÏÍÍÏÍÏ>k__BackingField; // 0x20
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÎÎÎÌÍÍÏÏÍÎÎÌÎÏÌÏÏÌÎÏÎ>k__BackingField; // 0x28
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<string> <ÏÌÏÍÌÏÏÌÏÎÏÌÍÍÌÏÍÍÎÏÏÏÏ>k__BackingField; // 0x30
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÌÏÎÍÌÍÎÎÎÌÍÎÎÏÌÏÏÎÍÌÌÍÎ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÌÍÌÎÌÌÌÏÎÌÌÌÍÎÎÍÏÍÍÌÎÍÍ>k__BackingField; // 0x40
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÌÍÎÏÌÏÍÌÎÍÎÎÍÌÍÏÏÌÌÏÍÍ>k__BackingField; // 0x48
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÌÍÌÌÍÍÎÌÌÌÌÌÎÎÎÍÌÍÎÎÍÍÍ>k__BackingField; // 0x50
-
         // ── Methods ──
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void MoveNext(){} // RVA: 0xEEE940
-        public void get_Current(){} // RVA: 0x30B130
-        public void Contains(){} // RVA: 0xEEECE0
-        public void CopyTo(){} // RVA: 0xEEEE90
-        public void Clear(){} // RVA: 0xEEEF00
-        public void Add(){} // RVA: 0x30B0C0
-        public void StringType(){} // RVA: 0x37E0E0
-        public void Remove(){} // RVA: 0xEEEF70
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void ObjectType(){} // RVA: 0x4354D0
-        public void Cleanup(){} // RVA: 0x35A740
-        public void .ctor(){} // RVA: 0xEEEFF0
-        public void Initialize(){} // RVA: 0x30B130
-        public void get_MoveNext(){} // RVA: 0x4976A0
-        public void ObjectType_3E19D6DB2FCC(){} // RVA: 0x4354D0
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-        public void Equals(){} // RVA: 0x343E80
-        public void get_Comparer_4A786158C145(){} // RVA: 0x6374D0
-        public void System.Collections.ICollection.get_IsSynchronized_A32C5404FEFE(){} // RVA: 0x2DD320
-        public void ObjectType_305651F76D68(){} // RVA: 0x4354D0
-        public void System.Collections.Generic.ICollection<TValue>.get_IsReadOnly(){} // RVA: 0x3C2850
-        public void Cleanup_7DB4FF145A04(){} // RVA: 0x30B0C0
-        // ── Unresolved (hash) ──
-        public void m_D56(){} // RVA: 0xEEF620
-        public void m_821(){} // RVA: 0xEEF710
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÍÏÏÌÏÌÍÏÏÍÌÎÌÍÎÎÏÍÍÌÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_206E
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public int ÌÍÌÎÏÍÏÎÎÍÎÍÎÎÍÌÎÎÍÏÎÍÍ;
-        public bool ÌÍÏÏÌÏÎÎÏÏÏÍÏÎÏÍÎÏÌÏÍÎÎ; // 0x20
-        public int ÍÎÎÎÎÌÌÍÌÌÌÏÎÎÌÌÌÎÎÍÌÏÎ; // 0x24
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ> <ÍÏÎÌÏÌÌÌÏÎÏÎÎÌÌÍÎÏÍÎÏÎÏ>k__BackingField; // 0x28
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x30
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÏÍÌÏÏÎÎÎÍÍÎÎÎÌÍÌÎÎÏÍÍÌÌ>k__BackingField; // 0x38
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<string> <ÏÍÏÏÎÌÏÍÍÏÏÏÍÏÏÌÌÍÎÏÍÌÎ>k__BackingField; // 0x40
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÎÌÌÏÎÌÍÌÌÌÏÌÏÎÎÍÏÌÌÌÍÏÍ>k__BackingField; // 0x48
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ>> <ÏÌÍÎÍÏÌÍÍÌÍÏÎÏÍÎÌÍÌÍÌÎÎ>k__BackingField; // 0x50
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÌÌÎÏÌÎÎÏÏÎÏÎÏÏÎÏÎÍÏÏÏÎ>k__BackingField; // 0x58
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÏÌÌÏÏÍÌÏÌÏÍÌÏÏÏÏÌÏÌÎÏÎÏ>k__BackingField; // 0x60
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÍÌÍÏÎÌÎÎÏÎÍÏÍÎÏÌÎÍÌÌÏÌ>k__BackingField; // 0x68
-        public string ÍÎÎÎÌÍÏÌÎÌÏÎÏÍÏÌÌÌÍÏÌÎÌ; // 0x70
-        public ÌÎÌÍÍÏÍÎÌÍÌÎÎÍÌÏÎÎÏÏÏÎÍ <ÏÎÍÍÎÍÌÍÍÌÍÍÎÍÏÍÌÏÎÏÎÎÍ>k__BackingField; // 0x78
-        public int <ÍÎÎÎÎÎÌÏÎÍÎÌÌÍÍÍÎÎÏÎÍÌÏ>k__BackingField; // 0x80
-
         // ── Methods ──
-        public void SetArrayElementValue(){} // RVA: 0xFC3BD0
-        public void SetArrayElementValue_66AD78B96AB3(){} // RVA: 0xFC3C10
-        public void ReadCameraState_143002174244(){} // RVA: 0xF50840
-        public void get_MaskTag(){} // RVA: 0x9E8D70
-        public void get_ResponseModels(){} // RVA: 0x358D50
-        public void SetArrayElementValue_5EF268128696(){} // RVA: 0xFC3C70
-        public void SetArrayElementValue_CB6D097317B6(){} // RVA: 0xFC3C90
-        public void MarkObjectReferences(){} // RVA: 0xFC3D70
-        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
-        public void InitializeGarbageCollector(){} // RVA: 0xFC3D90
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void OculusSpatializerWwise(){} // RVA: 0xFC4000
-        public void get_MaskTag_16A7DF0961D0(){} // RVA: 0x9E8FF0
-        public void InitializeGarbageCollector_08090350E857(){} // RVA: 0xFC4200
-        public void ClearWeakGcHandleTarget(){} // RVA: 0xFC42B0
-        public void AddFromToForce_58CEA1EB071C_51BA5B991C88(){} // RVA: 0x358730
-        public void ClearWeakReferenceSlot(){} // RVA: 0xFC42D0
-        public void VisitWeakReferenceHandles(){} // RVA: 0xFC43F0
-        public void MarkObjectReferences_E8984AAE761E(){} // RVA: 0xFC4480
-        public void MarkObjectReferences_E8088A092734(){} // RVA: 0xFC44A0
-        public void set_imageUrl(){} // RVA: 0x4C34F0
-        public void MarkObjectReferences_41B63A5A435E(){} // RVA: 0xFC4540
-        public void MarkObjectReferences_70C154BB3FDA(){} // RVA: 0xFC4560
-        public void MarkObjectReferences_9C8A269DFE20(){} // RVA: 0xFC4570
-        public void ResizeSparseHashBuckets(){} // RVA: 0xFC4580
-        public void MarkObjectReferences_38DE1624F3D6(){} // RVA: 0xFC4590
-        public void MarkObjectReferences_73C31D3FA3EB(){} // RVA: 0xFC45B0
-        public void ProcessWeakReferences(){} // RVA: 0xFC46D0
-        public void ProcessWeakReferences_C7ED4AC4725C(){} // RVA: 0xFC46F0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void VisitWeakReferenceHandles_FDEA698C8AC7(){} // RVA: 0xFC4860
-        public void StringType(){} // RVA: 0x37E0E0
-        public void AllocateGCHandle(){} // RVA: 0xFC4930
-        public void AllocateGCHandleSlot(){} // RVA: 0xFC4A50
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
-        public void OnCanvasHierarchyChanged_D1F340758DBD(){} // RVA: 0x3A5500
-        public void AllocateGCHandleSlot_7D04D14DBBE7(){} // RVA: 0xFC4A60
-        public void ReadComponentProperties(){} // RVA: 0xFC4CA0
-        public void InitializeRuntimeClass(){} // RVA: 0xED28D0
-        public void AllocateWeakReferenceHandle(){} // RVA: 0xFC4EC0
-        public void AllocateWeakReferenceHandle_5064F0F12E7E(){} // RVA: 0xFC4FA0
-        public void SetGCHandleTarget(){} // RVA: 0xFC52A0
-        public void InitializeFA55276D91DA(){} // RVA: 0xF00EE0
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void MarkObjectReferences_38DE1624F3D6_4EC2AF0E81C1(){} // RVA: 0xFC4590
-        public void OnTransformChildrenChanged(){} // RVA: 0x37B370
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void SetGcHandleTarget(){} // RVA: 0xFC52C0
-        public void SetGCHandleTarget_3AB542555433(){} // RVA: 0xFC5450
-        public void VisitGCHandles(){} // RVA: 0xFC55B0
-        public void GetComponentTransform(){} // RVA: 0x4C7C50
-        public void ClearWeakReferenceSlot_5DF8561ABD47(){} // RVA: 0xFC5940
-        public void get_Data(){} // RVA: 0x30B130
-        public void ClearWeakReferenceSlot_C59298D1F7F8(){} // RVA: 0xFC59F0
-        public void .ctor(){} // RVA: 0xFC5A90
-        public void Initialize(){} // RVA: 0x4976A0
-        public void InitializeSparseHashTable(){} // RVA: 0xFC6270
-        public void InitializeSparseHashTable_0E818BE393A6(){} // RVA: 0xFC6290
-        public void ResizeSparseHashBuckets_D9523D30EF38(){} // RVA: 0xFC6310
-        public void ResizeSparseHashBuckets_BDA77262C473(){} // RVA: 0xFC6440
-        public void ResizeSparseHashTable(){} // RVA: 0xFC64D0
-        public void GetIostreamCategoryName(){} // RVA: 0xFC6DB0
-        public void InitializeCtypeFacet(){} // RVA: 0xFC70E0
-        // ── Unresolved (hash) ──
-        public void m_62E(){} // RVA: 0xFC3BF0
-        public void m_481(){} // RVA: 0xD0A030
-        public void m_4B9(){} // RVA: 0x9E9990
-        public void m_CF4(){} // RVA: 0xED0A60
-        public void m_F83(){} // RVA: 0xF00820
-        public void m_089(){} // RVA: 0xF165E0
-        public void m_9C3(){} // RVA: 0xF165E0
-        public void m_5A0(){} // RVA: 0xF03830
-        public void m_EE3(){} // RVA: 0xFC7030
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÎÍÍÏÎÏÍÏÍÎÍÌÍÎÏÎÌÍÍÎÎÌ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_9E5B
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void IndexOf(){} // RVA: 0x193DE40
-        public void IndexOf_CB7D491B976B(){} // RVA: 0x193E020
-        public void IndexOf_D9B90BC27100(){} // RVA: 0x193ED70
-        public void ReadComponentState(){} // RVA: 0x193F060
-        public void GetIsHuman(){} // RVA: 0x193F7F0
-        public void IndexOf_6A00CDA323CC(){} // RVA: 0x1940060
-        public void MediapipeC(){} // RVA: 0x1941430
-        public void IndexOf_BA5D0AE94350(){} // RVA: 0x19415D0
-        public void IndexOf_ABA738FAEFF6(){} // RVA: 0x1941C80
-        public void IndexOf_D71874BBEA42(){} // RVA: 0x1941D50
-        public void IndexOf_966EE665F46D(){} // RVA: 0x1941E70
-        // ── Unresolved (hash) ──
-        public void m_EEF(){} // RVA: 0x193E200
-        public void m_355(){} // RVA: 0x193E420
-        public void m_7EE(){} // RVA: 0x193F380
-        public void m_427(){} // RVA: 0x1940860
-        public void m_11F(){} // RVA: 0x1941020
-        public void m_8F4(){} // RVA: 0x1941260
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÌÎÏÏÍÎÍÎÏÏÏÌÏÌÎÍÏÌÏÌÏÍ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_A352
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public ÎÍÍÌÎÎÏÌÍÌÏÍÌÏÌÍÍÎÎÎÌÎÎ ÏÌÍÌÍÍÎÌÏÍÎÎÏÌÏÎÎÎÍÏÌÏÎ; // 0x20
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ>> ÍÍÏÎÎÏÌÎÌÌÎÍÎÏÍÎÌÌÌÍÎÌÍ; // 0x28
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<VRC.Localization.LocalizableString> <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x30
-        public int <ÎÎÌÌÌÏÍÍÍÎÍÍÍÍÌÏÍÏÏÎÍÏÌ>k__BackingField; // 0x38
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<0x6588DD88> <ÏÎÍÌÎÍÎÌÌÏÌÌÌÎÏÌÏÍÎÍÌÌÍ>k__BackingField; // 0x40
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÍÍÏÍÍÏÍÎÌÎÍÍÍÍÌÏÎÌÍÏÌÏÍ>k__BackingField; // 0x48
-        public ÏÏÌÌÏÌÏÍÍÌÌÍÎÎÎÍÎÏÎÎÏÍÎ <ÌÍÎÌÏÌÌÏÏÍÏÍÍÍÍÎÎÎÎÍÌÎÏ>k__BackingField; // 0x50
-
         // ── Methods ──
-        public void GetBounds(){} // RVA: 0xFDB310
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void SetLocalPosition(){} // RVA: 0xFDB6C0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void SetLocalScale(){} // RVA: 0xFDB6D0
-        public void SetLocalScale_F3F03929D448(){} // RVA: 0xFDB7F0
-        public void FindOrAddStringHashEntry(){} // RVA: 0xFDBE80
-        public void InitializeStringHashEntryTable(){} // RVA: 0xFDC350
-        public void GetTime(){} // RVA: 0xFDC360
-        public void FindOrAddStringHashEntry_B76A15AEE68C(){} // RVA: 0xFDC5C0
-        public void FindOrAddStringHashEntry_EC4FBBDDED9C(){} // RVA: 0xFDC770
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void GetLocalScale(){} // RVA: 0xFDC9F0
-        public void GetLocalScale_96D177D141C5(){} // RVA: 0xFDCA00
-        public void SetLocalPosition_B5B2098EBF66(){} // RVA: 0xFDCC90
-        public void SetLocalPosition_3F3F00C41254(){} // RVA: 0xFDB6C0
-        public void StringType(){} // RVA: 0x37E0E0
-        public void .ctor(){} // RVA: 0xFDD060
-        public void Initialize(){} // RVA: 0xFDD4F0
-        public void AreHashKeysEqual(){} // RVA: 0xFDD6C0
-        public void AreStringTokenListsEqual(){} // RVA: 0xFDD6E0
-        public void AreStringTokenListsEqual_37A169E2792B(){} // RVA: 0xFDD6F0
-        public void SetLocalScale_DD7377DBE82C(){} // RVA: 0xFDD770
-        public void GrowHashTableIfNeeded(){} // RVA: 0xFDD8E0
-        public void ShrinkHashTableIfNeeded(){} // RVA: 0xFDDB70
-        public void ShrinkHashTableIfNeeded_A14D5B5DD783(){} // RVA: 0xFDDBE0
-        public void get_Data(){} // RVA: 0x30B130
-        public void GetBounds_F0A3341EF140(){} // RVA: 0xFDDF10
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void Cleanup(){} // RVA: 0x30B0C0
-        // ── Unresolved (hash) ──
-        public void m_2D5(){} // RVA: 0xFDAF40
-        public void m_A0E(){} // RVA: 0xFDB160
-        public void m_EE9(){} // RVA: 0xFDB570
-        public void m_B92(){} // RVA: 0xFDB5E0
-        public void m_6C0(){} // RVA: 0xFDB900
-        public void m_3B5(){} // RVA: 0xFDB9E0
-        public void m_CB6(){} // RVA: 0xFDC0E0
-        public void m_6EA(){} // RVA: 0xFDE1A0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_AEEA
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Current(){} // RVA: 0xC770
-        public void Insert(){} // RVA: 0x25130
-        public void Dispose(){} // RVA: 0x25130
-        public void InitializeCollection(){} // RVA: 0x24A50
-        public void MemSet(){} // RVA: 0x24A50
-        public void Clear(){} // RVA: 0x24A50
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Count_FC5B2FE8FCAF(){} // RVA: 0xD840
-        public void AwaitUnsafeOnCompleted(){} // RVA: 0x2DC60
-        public void AwaitUnsafeOnCompleted_6A00CDA323CC(){} // RVA: 0x2DC60
-        public void Add(){} // RVA: 0x24B10
-        public void set_Item(){} // RVA: 0x24B10
-        public void CreateCollection(){} // RVA: 0x2F090
-        public void CreateCollection_853F3E1795ED(){} // RVA: 0x2F090
-        public void CreateCollection_67343A12701A(){} // RVA: 0x2F090
-        public void CreateCollection_3C2D5F1B1FFD(){} // RVA: 0x2F090
-        public void CreateCollection_D2C02E5924CD(){} // RVA: 0x2F090
-        public void AwaitUnsafeOnCompleted_1E4872CE7C54(){} // RVA: 0x2DC60
-        // ── 131 unresolved (hash) ──
-        public void m_74F(){} // RVA: 0xCD60
-        public void m_A61(){} // RVA: 0xDBE0
-        public void m_D7C(){} // RVA: 0xCD60
-        public void m_C12(){} // RVA: 0xC770
-        public void m_95A(){} // RVA: 0xCD60
-        // ... 126 more unresolved methods
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÎÍÍÌÍÎÏÍÎÌÍÎÍÍÎÏÌÎÎÍÎÌ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_B4C6
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void CopyFromManagedArray(){} // RVA: 0x195A9F0
-        public void AllocateNativeArrayStorage_5029BF890F1B(){} // RVA: 0x195AD30 | overloaded x2
-        public void CreateNativeArrayWithOptions(){} // RVA: 0x195AD50
-        public void CreateEnumerator(){} // RVA: 0x195AF90
-        public void AllocateNativeArray(){} // RVA: 0x195B180
-        public void AllocateNativeArrayBuffer(){} // RVA: 0x195B400
-        public void CopyManagedArrayToNativeArray(){} // RVA: 0x195B580
-        public void CopyManagedArrayToNativeArray_315AE0E05B89(){} // RVA: 0x195B6B0
-        public void ReadComponentState(){} // RVA: 0x195B870
-        public void CopyManagedArrayToNativeArray_56D57B0CE426(){} // RVA: 0x195BA30
-        public void AllocateNativeArrayStorage_73C97A976CE9(){} // RVA: 0x195BCC0
-        public void AllocateNativeArrayStorage(){} // RVA: 0x195BF90 | overloaded x2
-        public void CopyManagedArrayToNativeArray_074822BE269A(){} // RVA: 0x195C350
-        public void CreateNativeArrayWithOptions_FF4E7814CD06(){} // RVA: 0x195C430
-        public void CopyNativeArrayContents(){} // RVA: 0x195C710
-        public void CreateEnumerator_AF378124D3B9(){} // RVA: 0x195C7C0
-        public void GetSubArray(){} // RVA: 0x195C9E0
-        public void ConstructNativeArrayFromManagedArray(){} // RVA: 0x195CCD0
-        public void CopyFromManagedArray_1847AC347757(){} // RVA: 0x195CDB0
-        public void CopyFromManagedArray_EDC59D388D2A(){} // RVA: 0x195D260
-        public void ReadComponentState_C85C2468851A(){} // RVA: 0x195D870
-        public void GetEnumerator(){} // RVA: 0x195DEC0
-        public void get_Item(){} // RVA: 0x195E1E0
-        public void GetNativeArraySubArray(){} // RVA: 0x195E720
-        public void CopyNativeArrayToNativeArray_26715C99ED4A(){} // RVA: 0x195EF20 | overloaded x2
-        public void CreateNativeArray(){} // RVA: 0x195ECB0
-        public void CreateEnumerator_9918E1EC3A75(){} // RVA: 0x195F020
-        public void GetEnumerator_355C62ED4536(){} // RVA: 0x195F040
-        public void GetEnumerator_15614CA100E9(){} // RVA: 0x195F060
-        public void CreateEnumerator_FF03A7A440EB(){} // RVA: 0x195F080
-        public void get_Buffer(){} // RVA: 0x195F0A0
-        public void GetEnumerator_3CDFB4E0D5CD(){} // RVA: 0x195F0C0
-        public void GetEnumerator_193FCF08C926(){} // RVA: 0x195F0E0
-        public void get_Length(){} // RVA: 0x195F100
-        // ── Unresolved (hash) ──
-        public void m_E56(){} // RVA: 0x195AED0
-        public void m_633(){} // RVA: 0x195CC10
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÍÌÍÏÏÏÍÏÏÍÍÌÎÎÍÌÌÌÌÏÎÌ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_D4B8
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_Current(){} // RVA: 0xC770
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_IsReadOnly_E39C5FB43786(){} // RVA: 0xDBE0
-        public void Dispose(){} // RVA: 0x25130
-        // ── Unresolved (hash) ──
-        public void m_4A7(){} // RVA: 0xCD60
-        public void m_CCB(){} // RVA: 0xCD60
-        public void m_CF7(){} // RVA: 0xCD60
-        public void m_D4F(){} // RVA: 0xCD60
-        public void m_4E7(){} // RVA: 0xCD60
-        public void m_D56(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÎÍÏÍÍÏÌÏÏÎÏÌÍÌÎÏÍÏÌÏÍÍ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_E30C
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public string ÎÌÏÍÍÍÏÍÍÎÎÍÌÎÏÏÌÌÎÏÍÏÍ; // 0x10
-        public string ÎÌÎÍÎÍÎÏÏÎÌÍÏÏÏÏÍÎÍÌÌÍÎ; // 0x18
-        public string ÍÎÏÏÏÌÏÏÎÍÌÌÎÍÌÎÎÏÌÍÌÌÍ; // 0x20
-        public string ÎÌÏÌÏÎÏÎÏÌÎÍÏÎÌÏÎÍÏÎÏÌÎ; // 0x28
-        public string ÏÌÍÏÌÎÍÍÎÎÌÏÎÎÎÎÌÌÌÍÏÍÍ; // 0x30
-        public string ÏÍÌÏÍÎÌÎÏÏÏÌÍÎÎÎÌÎÎÍÏÍÌ; // 0x38
-        public string ÏÏÍÌÍÏÍÏÎÌÍÎÎÌÍÌÌÌÏÎÌÌÏ; // 0x40
-        public string ÎÎÏÍÏÏÍÌÎÌÌÍÏÎÏÎÍÎÌÏÍÎÌ; // 0x48
-
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0x4976A0
-        public void MoveNext(){} // RVA: 0x30B0C0
-        public void TryPopLastElement(){} // RVA: 0xF6DF20
-        public void get_Data(){} // RVA: 0x30B130
-        public void get_Data_3ACE9770013B(){} // RVA: 0x30B130
-        public void get_MoveNext_D2FA0783F6CB(){} // RVA: 0x4976A0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void get_MoveNext_B9A7ABF98468(){} // RVA: 0x4976A0
-        public void get_Current(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0xF6E4F0
-        public void Initialize(){} // RVA: 0x6374D0
-        public void AddFromToForce_58CEA1EB071C(){} // RVA: 0x358730
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        // ── Unresolved (hash) ──
-        public void m_A14(){} // RVA: 0xF6E1E0
-        public void m_C40(){} // RVA: 0xF6E4A0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÍÌÍÌÏÌÌÌÌÎÏÍÍÍÏÎÍÌÌÎÎÌ</summary>
-    public class AnimatedTextureBaseImpl_0682Sibling_FBFC
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public string ÌÎÏÍÏÎÏÏÎÏÏÌÍÌÍÌÏÌÏÎÌÏÍ; // 0x20
-        public ÎÎÏÏÍÍÎÍÍÍÍÎÌÌÌÍÍÏÍÏÍÎÎ<UnityEngine.Texture2D> <ÍÎÎÍÌÎÎÎÏÌÍÌÌÍÌÏÌÎÍÎÎÍÏ>k__BackingField; // 0x28
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ ÎÍÌÌÌÌÌÌÌÌÏÍÌÌÍÎÏÍÌÎÏÏÌ; // 0x30
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÌÍÌÌÍÍÎÌÌÌÌÌÎÎÎÍÌÍÎÎÍÍÍ>k__BackingField; // 0x38
-        public string ÍÍÍÏÏÎÏÏÌÎÎÌÎÏÏÎÏÍÌÏÌÍÌ; // 0x40
-
         // ── Methods ──
-        public void InitializeSparseHashTable(){} // RVA: 0x9E9990
-        public void CompleteWithCallback(){} // RVA: 0x9E92F0
-        public void WriteCameraState(){} // RVA: 0xF3ADD0
-        public void Find(){} // RVA: 0x9E99B0
-        public void ReadCameraState(){} // RVA: 0xF3AF20
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void get_Data(){} // RVA: 0x30B130
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void get_MoveNext(){} // RVA: 0x4976A0
-        public void .ctor(){} // RVA: 0xF3B320
-        public void Initialize(){} // RVA: 0x9E8FF0
-        public void get_Stats(){} // RVA: 0x9B8470
-        public void get_CallingAssembly(){} // RVA: 0x977430
-        public void set_displayName(){} // RVA: 0x49B830
-        public void get_IsSpecialFX(){} // RVA: 0xF3B700
-        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
-        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
-        public void VisitGCHandles(){} // RVA: 0xD0A030
-        public void SwapIfGreater(){} // RVA: 0x9B85D0
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void GetConnectedBody_1C68158D047E_E4CCC9A127BC(){} // RVA: 0x99E580
-        public void get_Stats_AB5633F75AFA(){} // RVA: 0x9B8470
-        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
-        public void ReadCameraState_53773F778605(){} // RVA: 0x7AC2C0
-        // ── Unresolved (hash) ──
-        public void m_977(){} // RVA: 0xF3AAD0
-        public void m_96E(){} // RVA: 0xF3B070
-        public void m_DCD(){} // RVA: 0x9E92F0
-        public void m_64C(){} // RVA: 0xF3B630
-        public void m_722(){} // RVA: 0xF3B740
-        public void m_41F(){} // RVA: 0xF3B9D0
-        public void m_580(){} // RVA: 0xF3B9D0
-        public void m_057(){} // RVA: 0xF3B9D0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0Related_192F
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public object PH00;
-
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Item(){} // RVA: 0xCD60
-        public void get_Current(){} // RVA: 0xC770
-        public void get_Count(){} // RVA: 0xD840
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void OnCanceled(){} // RVA: 0x24CC0
-        public void ResolvePInvokeFunction(){} // RVA: 0x279F0
-        public void LogFormat(){} // RVA: 0x279F0
-        public void GetHashCode(){} // RVA: 0x13FB0
-        public void get_Count_BDA77262C473(){} // RVA: 0xD840
-        public void Add(){} // RVA: 0xDBE0
-        public void Add_98EC1A131252(){} // RVA: 0x24B10
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        // ── 43 unresolved (hash) ──
-        public void m_1E6(){} // RVA: 0xCD60
-        public void m_C1B(){} // RVA: 0xCD60
-        public void m_16A(){} // RVA: 0xCD60
-        public void m_30C(){} // RVA: 0xDBE0
-        public void m_297(){} // RVA: 0xDBE0
-        // ... 38 more unresolved methods
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÏÏÎÎÏÌÏÌÏÍÍÎÍÎÎÌÏÌÌÍÎÌ</summary>
-    public class AnimatedTextureBaseImpl_0Related_2320
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF15DF0
-        public void Initialize(){} // RVA: 0x977430
-        public void ProcessComponent(){} // RVA: 0x9B78C0
-        public void ProcessComponent_34D0C2A1E9D4(){} // RVA: 0x9B78C0
-        // ── Unresolved (hash) ──
-        public void m_B77(){} // RVA: 0x977430
-        public void m_F8E(){} // RVA: 0x977030
-        public void m_4BB(){} // RVA: 0xF16000
-        public void m_D98(){} // RVA: 0x9770D0
-        public void m_B01(){} // RVA: 0xF16050
-        public void m_113(){} // RVA: 0x977030
-        public void m_C35(){} // RVA: 0xF16190
-        public void m_228(){} // RVA: 0x9770D0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÌÍÍÏÏÏÌÌÍÌÏÏÎÎÌÏÍÎÍÌÎÏ</summary>
-    public class AnimatedTextureBaseImpl_0Related_2415
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void CreateCollection(){} // RVA: 0x2F090
-        // ── Unresolved (hash) ──
-        public void m_39D(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÌÎÌÎÎÌÎÎÏÎÏÏÎÌÎÎÌÍÎÎÌÌ</summary>
-    public class AnimatedTextureBaseImpl_0Related_2475
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<UnityEngine.Texture2D> <ÌÌÎÌÎÏÍÌÏÍÏÏÏÎÏÎÌÍÌÏÌÍÏ>k__BackingField; // 0x20
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<UnityEngine.Texture2D> <ÏÏÎÏÌÍÏÌÎÍÌÏÎÎÍÎÍÌÎÏÍÍÌ>k__BackingField; // 0x28
-        public System.Collections.Generic.List`1<ÎÏÌÎÏÏÌÌÌÍÌÏÏÎÌÌÏÍÏÌÎÌÏ> <ÌÌÌÎÌÍÍÍÌÏÍÍÏÏÎÏÌÏÍÌÍÍÍ>k__BackingField; // 0x30
-        public System.Collections.Generic.List`1<ÎÏÌÎÏÏÌÌÌÍÌÏÏÎÌÌÏÍÏÌÎÌÏ> <ÌÌÏÌÌÌÌÎÎÎÏÏÏÏÍÎÌÍÌÌÌÍÎ>k__BackingField; // 0x38
-        public System.Collections.Generic.List`1<string> <ÌÍÍÍÌÌÌÍÎÍÏÎÍÍÍÏÏÏÌÌÏÍÏ>k__BackingField; // 0x40
-        public ÍÌÎÌÎÌÌÌÎÌÌÎÏÏÏÏÏÎÎÌÎÌÍ <ÌÍÌÎÎÏÍÌÏÍÏÎÍÍÎÌÏÎÎÍÍÌÎ>k__BackingField; // 0x48
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ> <ÌÌÍÌÌÍÏÏÌÍÌÍÎÌÎÌÏÎÏÎÎÏÎ>k__BackingField; // 0x50
-        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ ÌÎÍÏÌÌÎÌÍÏÍÎÌÏÍÏÏÎÍÎÏÎÍ; // 0x58
-
         // ── Methods ──
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void get_Data(){} // RVA: 0x30B130
-        public void ContainsItem(){} // RVA: 0x1904040
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void SetGCHandleTarget(){} // RVA: 0xFC3BF0
-        public void GetItemHashCode(){} // RVA: 0x1904160
-        public void set_Item(){} // RVA: 0x19041D0
-        public void set_controlPathInternal(){} // RVA: 0x305200
-        public void set_Options(){} // RVA: 0x30B890
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void InsertionSort_51DC9B3B1EE3(){} // RVA: 0x9A41E0
-        public void .ctor(){} // RVA: 0x1904370
-        public void Initialize(){} // RVA: 0x30B130
-        public void IndexOfItem(){} // RVA: 0x9A04B0
-        public void GetItemHashCode_906D2C76FDBB(){} // RVA: 0x1904740
-        public void GetItemHashCode_345B449A5315(){} // RVA: 0x1904760
-        public void InsertionSort_51DC9B3B1EE3_213CAA0CBDE7(){} // RVA: 0x9A41E0
-        public void SetItem(){} // RVA: 0x1904790
-        public void IndexOfItem_B1670832D9C2(){} // RVA: 0x19048B0
-        public void IndexOf(){} // RVA: 0x1904900
-        public void IndexOfItem_B7898572497A(){} // RVA: 0x1904920
-        public void ContainsItem_B612CC5C11E3(){} // RVA: 0x19049C0
-        public void ContainsItem_9ADE75D73577(){} // RVA: 0x19049E0
-        public void IndexOfItem_F50AADF1C47A(){} // RVA: 0x1904B60
-        public void IndexOfItem_B6E0637D8384(){} // RVA: 0x1904B90
-        public void ContainsItem_88C4B22ECC7A(){} // RVA: 0x1904C30
-        public void ReadCameraState_53773F778605(){} // RVA: 0x7AC2C0
-        public void ContainsItem_9B4E767861C6(){} // RVA: 0x1904CB0
-        // ── Unresolved (hash) ──
-        public void m_85A(){} // RVA: 0x30B0C0
-        public void m_62F(){} // RVA: 0x49B830
-        public void m_926(){} // RVA: 0x358740
-        public void m_C01(){} // RVA: 0x9E8D10
-        public void m_ADD(){} // RVA: 0x37E0E0
-        public void m_841(){} // RVA: 0x358730
-        public void m_961(){} // RVA: 0x4976A0
-        public void m_510(){} // RVA: 0x977030
-        public void m_60B(){} // RVA: 0x1904760
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÎÌÍÍÌÏÎÎÌÎÌÌÌÎÍÎÎÍÏÎÏÌÍ</summary>
-    public class AnimatedTextureBaseImpl_0Related_3C4C
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public bool <ÏÏÌÎÎÎÌÍÎÏÍÏÍÏÍÍÎÎÏÏÌÍÌ>k__BackingField; // 0x20
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÏÌÏÍÍÎÌÌÏÏÏÎÎÍÏÎÎÌÌÍÌÏÌ>k__BackingField; // 0x28
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<bool> <ÎÏÍÌÍÎÎÍÎÍÏÍÍÌÌÎÍÏÍÍÏÏÌ>k__BackingField; // 0x30
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<ÍÏÏÍÏÏÍÎÌÎÎÎÍÌÏÌÍÌÎÎÎÏÌ> <ÎÏÎÌÎÏÌÏÎÍÌÍÌÎÍÍÏÌÌÏÌÍÎ>k__BackingField; // 0x38
-        public ÌÏÎÎÌÎÎÌÏÍÏÏÏÏÌÌÍÌÎÍÌÏÌ ÏÎÏÍÍÍÌÏÍÏÎÏÏÏÌÎÌÌÌÎÏÌÍ; // 0x40
-
         // ── Methods ──
-        public void get_IgnoreCase(){} // RVA: 0x3CB9D0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void InitializeDelegate(){} // RVA: 0xF520A0
-        public void set_displayName(){} // RVA: 0x49B830
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void get_FileId(){} // RVA: 0x9770D0
-        public void get_Data(){} // RVA: 0x30B130
-        public void .ctor(){} // RVA: 0xF521C0
-        public void Initialize(){} // RVA: 0x4976A0
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void get_ElementType(){} // RVA: 0x519240
-        public void ReadCameraState(){} // RVA: 0xF52310
-        public void get_Comparer_81A3FE1E3C22(){} // RVA: 0x6374D0
-        public void get_Comparer_AB7D22DD90FD(){} // RVA: 0x6374D0
-        public void get_IgnoreCase_145D95AD160E(){} // RVA: 0x3CB9D0
-        public void InitializeStaticMetadata(){} // RVA: 0xF52430
-        public void get_IgnoreCase_5EF268128696(){} // RVA: 0x3CB9D0
-        public void GetMaxDampTime(){} // RVA: 0x3CB9E0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÏÎÌÏÏÌÌÍÌÏÍÌÏÏÍÍÎÏÍÌÏÌ</summary>
-    public class AnimatedTextureBaseImpl_0Related_630D
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void get_Item(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        // ── Unresolved (hash) ──
-        public void m_60B(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÍÍÏÎÏÏÎÍÍÍÏÍÍÌÍÍÍÌÏÍÎÎ</summary>
-    public class AnimatedTextureBaseImpl_0Related_844D
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void get_Count(){} // RVA: 0xD840
-        public void get_Item(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        // ── Unresolved (hash) ──
-        public void m_C67(){} // RVA: 0xCD60
-        public void m_2E9(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÎÍÏÏÏÍÍÏÎÎÍÌÍÍÍÍÏÎÎÏÏÎ</summary>
-    public class AnimatedTextureBaseImpl_0Related_8AFB
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public string f_DE8; // 0x10
-        public string f_C3D; // 0x18
-        public ÎÍÍÎÎÏÌÍÌÏÌÍÌÌÎÎÏÎÏÌÏÏÎ f_C9B; // 0x20
-        public string f_EA0; // 0x28
-        public ÍÌÏÍÍÎÍÏÍÍÍÍÌÎÍÎÍÌÎÌÍÍÌ f_BC9; // 0x30
-        public System.DateTime f_502; // 0x38
-        public UnityEngine.Texture2D f_742; // 0x40
-        public 0x65889920 f_887; // 0x48
-        public byte[] f_148; // 0x50
-        public ÍÎÌÏÏÌÍÌÌÌÌÍÌÌÏÍÏÌÎÏÏÌÍ f_9B2; // 0x58
-        public bool f_0FB; // 0x60
-
         // ── Methods ──
-        public void set_controlPathInternal(){} // RVA: 0x305200
-        public void .ctor(){} // RVA: 0xF50070
-        public void Initialize(){} // RVA: 0x305200
-        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
-        public void Equals(){} // RVA: 0x343E80
-        public void get_MoveNext(){} // RVA: 0x35A740
-        public void get_Data(){} // RVA: 0x30B130
-        public void CompareTo_DC618AA5A9A7_4CD9D31E3B17(){} // RVA: 0x2DEE90
-        public void set_controlPathInternal_2F42DB516468(){} // RVA: 0x305200
-        public void StringType(){} // RVA: 0x37E0E0
-        public void MoveNext(){} // RVA: 0x2DEE30
-        public void set_Expires(){} // RVA: 0xF501D0
-        public void Constructor(){} // RVA: 0x3A5510
-        public void get_Data_681571C0CA5F(){} // RVA: 0x30B130
-        public void ObjectType(){} // RVA: 0x4354D0
-        public void ReadApplicationState_CC0FD8F70045(){} // RVA: 0x306030
-        public void set_Options(){} // RVA: 0x30B890
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void get_Current(){} // RVA: 0x2F8380
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void GetStatus(){} // RVA: 0x37E0C0
-        public void ReadApplicationState(){} // RVA: 0x306020
-        public void StringType_5BBF5A37179C(){} // RVA: 0x37E0E0
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x3A5500
-        public void get_MoveNext_FA5F1971A7D1(){} // RVA: 0x4976A0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void ReadApplicationState_5E20DEFF6CE0(){} // RVA: 0x306020
-        public void Decode_E41E86F9CC1A(){} // RVA: 0x37E0D0
-        public void Cleanup(){} // RVA: 0x30B0C0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÎÎÎÌÌÌÌÍÏÏÏÎÏÎÎÎÍÍÌÏÍÏÏ</summary>
-    public class AnimatedTextureBaseImpl_0Related_AE1C
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void System.Collections.Generic.IEnumerable<TValue>.GetEnumerator(){} // RVA: 0xCD60
-        public void GetEnumerator(){} // RVA: 0xCD60
-        // ── Unresolved (hash) ──
-        public void m_C72(){} // RVA: 0xCD60
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÌÌÍÌÏÎÌÍÍÍÍÏÌÌÍÌÌÌÎÎÌÌ</summary>
-    public class AnimatedTextureBaseImpl_0Related_D4F8
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public ÎÏÌÎÎÎÎÌÏÏÍÏÏÎÏÎÍÌÍÎÏÎÍ <ÍÍÌÍÏÎÎÌÍÎÏÎÌÏÌÏÍÎÍÏÎÎÎ>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void get_Current(){} // RVA: 0x2F8380
-        public void .ctor(){} // RVA: 0xF506E0 | overloaded x2
-        public void Initialize(){} // RVA: 0xF50440
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void GetMaterial(){} // RVA: 0xF50490
-        public void get_ElementType(){} // RVA: 0x519240
-        public void System.Xml.IDtdParserAdapter.get_NameTable(){} // RVA: 0xF50690
-        public void Contains(){} // RVA: 0xF506B0
-        public void ResizeSparseHashTable(){} // RVA: 0xED0A60
-        public void GetKeyValuePairEnumerator(){} // RVA: 0xED0A60
-        public void ReadCameraState(){} // RVA: 0xF507F0
-        public void ReadCameraState_143002174244(){} // RVA: 0xF50840
-        public void ReadCameraState_53773F778605(){} // RVA: 0x7AC2C0
-        // ── 14 unresolved (hash) ──
-        public void m_5EF(){} // RVA: 0xF501E0
-        public void m_C1B(){} // RVA: 0xF50230
-        public void m_CB6(){} // RVA: 0xF50280
-        public void m_6DB(){} // RVA: 0x2F8380
-        public void m_05D(){} // RVA: 0xF504B0
-        // ... 9 more unresolved methods
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÍÏÍÌÏÍÎÍÏÌÏÎÌÌÌÎÌÎÌÍÍÎ</summary>
-    public class AnimatedTextureBaseImpl_0Related_D7D1
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void get_Count(){} // RVA: 0xD840
-        public void get_IsReadOnly(){} // RVA: 0xDBE0
-        // ── Unresolved (hash) ──
-        public void m_169(){} // RVA: 0x1D677F0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÏÏÌÌÌÏÎÏÏÏÌÎÍÏÌÍÎÌÎÌÌÏ</summary>
-    public class AnimatedTextureBaseImpl_0Related_E6BA
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public ÍÏÎÎÎÌÎÎÍÏÎÍÎÌÌÍÌÍÏÌÍÏÎ _e6BA; // 0x10
-        public int ÎÍÌÍÎÏÎÏÍÎÍÌÎÍÍÍÎÍÎÌÏÏÎ; // 0x14
-        public byte[] ÏÏÍÏÌÏÌÎÍÌÎÎÍÏÌÍÍÏÎÏÏÌÎ; // 0x18
-
         // ── Methods ──
-        public void MoveNext(){} // RVA: 0x1968950
-        public void GetHashCode(){} // RVA: 0x19689B0
-        public void set_mode(){} // RVA: 0x833580
-        public void set_y(){} // RVA: 0x19689D0
-        public void set_mode_F40D45948841(){} // RVA: 0x833580
-        public void get_Size(){} // RVA: 0x19689E0
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void get_Size_76452C3060FE(){} // RVA: 0x19689E0
-        public void set_y_5B69E06EAC11(){} // RVA: 0x19689D0
-        public void set_y_6C06E1A3422A(){} // RVA: 0x19689D0
-        // ── Unresolved (hash) ──
-        public void m_E30(){} // RVA: 0x19689C0
-        public void m_5CB(){} // RVA: 0x1968950
-        public void m_F49(){} // RVA: 0x19689C0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÍÏÍÍÏÏÌÌÎÏÏÎÍÎÍÎÏÎÍÏÌÎ</summary>
-    public class AnimatedTextureBaseImpl_0Related_E884
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public string <ÏÌÌÏÏÏÍÎÎÎÍÏÌÏÎÎÎÌÏÎÎÌÍ>k__BackingField; // 0x10
-        public string <ÍÍÌÌÍÍÍÏÏÌÍÌÍÎÌÏÏÏÌÏÏÎÎ>k__BackingField; // 0x18
-        public string <ÏÏÌÌÎÏÏÏÌÍÍÎÎÍÎÌÎÏÍÍÏÍÍ>k__BackingField; // 0x20
-        public float <ÎÏÏÍÍÌÌÎÍÏÍÍÎÍÌÌÎÏÍÏÎÍÎ>k__BackingField; // 0x28
-        public System.Func`2<float,bool> <ÎÌÍÏÏÎÏÏÌÍÏÏÍÎÎÌÍÍÏÎÎÌÏ>k__BackingField; // 0x30
-        public System.Func`2<float,bool> <ÌÌÏÏÌÎÌÎÌÏÏÍÍÏÌÍÌÎÍÎÏÌÏ>k__BackingField; // 0x38
-        public System.Collections.Generic.IReadOnlyList`1<ÏÏÏÌÏÍÌÎÍÎÏÏÌÎÍÍÏÎÏÍÏÎÍ> <ÍÍÍÌÍÍÍÍÏÌÍÏÌÏÍÌÏÏÌÍÌÍÎ>k__BackingField; // 0x40
-        public int <ÍÌÍÍÍÍÍÎÏÏÎÌÌÏÍÎÍÌÍÎÏÎÎ>k__BackingField; // 0x48
-
         // ── Methods ──
-        public void GetStatus(){} // RVA: 0x37E0C0
-        public void get_MoveNext(){} // RVA: 0x4976A0
-        public void MoveNext(){} // RVA: 0x2DEE30
-        public void get_Default(){} // RVA: 0xC960
-        public void get_MoveNext_3C66DE177A26(){} // RVA: 0x35A740
-        public void set_displayName(){} // RVA: 0x49B830
-        public void set_Options(){} // RVA: 0x30B890
-        public void get_minTrackingConfidence(){} // RVA: 0x3BC210
-        public void GetStatus_C58A162972D2(){} // RVA: 0x37E0C0
-        public void Decode_E41E86F9CC1A(){} // RVA: 0x37E0D0
-        public void set_timer(){} // RVA: 0x3BC220
-        public void GetStatus_422F35E6BCCA(){} // RVA: 0x37E0C0
-        public void Equals(){} // RVA: 0x343E80
-        public void set_timer_A54334C07E10(){} // RVA: 0x3BC220
-        public void set_timer_1A007C735A28(){} // RVA: 0x3BC220
-        public void set_displayName_21B05F96AD76(){} // RVA: 0x49B830
-        public void get_Current(){} // RVA: 0x2F8380
-        public void set_controlPathInternal(){} // RVA: 0x305200
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void set_Options_022993DF4428(){} // RVA: 0x30B890
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void System.Collections.IEnumerator.get_Current(){} // RVA: 0x2E07C0
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void .ctor(){} // RVA: 0x1C5A050
-        // ── Unresolved (hash) ──
-        public void m_9CB(){} // RVA: 0x1C59B30
-        public void m_5D0(){} // RVA: 0x1C59D30
-        public void m_132(){} // RVA: 0x1C59D90
-        public void m_192(){} // RVA: 0x1C59DA0
-        public void m_89D(){} // RVA: 0x1C59FA0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÎÌÍÏÏÌÍÍÎÍÏÌÍÏÌÌÏÎÍÎÍÌ</summary>
-    public class AnimatedTextureDataDictionary
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÎÌÌÍÏÌÎÌÏÍÍÏÏÏÌÎÎÍÍÌÏÎÎ>k__BackingField; // 0x20
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÏÍÏÍÏÎÍÌÌÌÎÍÏÌÌÏÍÎÎÏÍÌÌ>k__BackingField; // 0x28
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<UnityEngine.Texture2D> <ÌÍÎÌÌÏÏÏÌÎÍÎÏÍÏÌÌÏÌÌÌÌÌ>k__BackingField; // 0x30
-        public System.Collections.Generic.List`1<ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ> <ÍÌÏÎÎÎÏÎÎÏÎÎÎÏÍÎÏÎÍÏÌÎÎ>k__BackingField; // 0x38
-        public ÎÌÏÏÎÌÌÌÍÎÏÌÍÎÍÍÎÌÎÍÌÎÌ <ÎÍÏÎÌÍÌÌÏÏÏÌÍÍÍÎÏÏÌÌÍÍÌ>k__BackingField; // 0x40
-        public bool ÏÍÏÌÌÏÏÎÎÏÎÏÌÍÏÌÏÌÍÎÎÎÍ; // 0x48
-        public string ÏÌÏÍÌÌÎÎÌÍÏÌÍÎÌÎÎÌÏÍÏÍÎ; // 0x50
-        public VRC.SDK3.Data.DataDictionary ÏÎÏÎÍÎÌÎÍÌÍÍÌÌÍÏÏÍÏÎÏÏÎ; // 0x58
-
         // ── Methods ──
-        public void GetConnectedBody_1C68158D047E(){} // RVA: 0x99E580
-        public void get_Data(){} // RVA: 0x30B130
-        public void SetItem_C0113BB004D6(){} // RVA: 0x9E8D10
-        public void get_EffectBundleID(){} // RVA: 0x9B7650
-        public void get_MoveNext(){} // RVA: 0x4976A0
-        public void get_MoveNext_BE2841BB04F1(){} // RVA: 0x4976A0
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void get_MaskTag(){} // RVA: 0x9E8D70
-        public void SetItem_51059F80870B(){} // RVA: 0x977030
-        public void get_MoveNext_92F5394C3622(){} // RVA: 0x4976A0
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void CompareTo_DC618AA5A9A7(){} // RVA: 0x2DEE90
-        public void set_displayName(){} // RVA: 0x49B830
-        public void get_CallingAssembly(){} // RVA: 0x977430
-        public void get_Stats(){} // RVA: 0x9B8470
-        public void get_MaskTag_62E75A98778F(){} // RVA: 0x9E8FF0
-        public void set_Options(){} // RVA: 0x30B890
-        public void ReadCameraState(){} // RVA: 0x7AC2C0
-        public void get_Comparer_E830E9E724F9(){} // RVA: 0x6374D0
-        public void get_MoveNext_EF08D979F711(){} // RVA: 0x35A740
-        public void .ctor(){} // RVA: 0x9E9410
-        public void Initialize(){} // RVA: 0x9E9990
-        public void CompareTo_DC618AA5A9A7_BA5AD65A257A(){} // RVA: 0x2DEE90
-        public void set_controlPathInternal(){} // RVA: 0x305200
-        public void CreateWebRequest(){} // RVA: 0x9E99B0
-        public void CreateBufferRequest(){} // RVA: 0x9E99D0
-        public void SwapIfGreater(){} // RVA: 0x9B85D0
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        // ── Unresolved (hash) ──
-        public void m_648(){} // RVA: 0x9E8D30
-        public void m_9E1(){} // RVA: 0x9E8D30
-        public void m_0C4(){} // RVA: 0x9E8D30
-        public void m_074(){} // RVA: 0x9E8D90
-        public void m_916(){} // RVA: 0x9E9010
-        public void m_4E0(){} // RVA: 0x9E92F0
-        public void m_C10(){} // RVA: 0x9E9310
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÌÎÌÌÌÏÏÌÍÏÍÎÌÍÏÎÍÍÏÎÌÌÎ</summary>
-    public class AnimatedTexture_7E5E
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void get_DisplayTexture(){} // RVA: 0xCD60
-        public void get_FullResolutionTexture(){} // RVA: 0xCD60
-        public void get_MaskTag(){} // RVA: 0xCD60
-        public void get_IsAnimated(){} // RVA: 0xDBE0
-        public void get_Frames(){} // RVA: 0xD840
-        public void get_FPS(){} // RVA: 0xD840
-        public void get_LinearLoop(){} // RVA: 0xDBE0
-        public void get_LoopStyle(){} // RVA: 0xCD60
-        public void get_FileId(){} // RVA: 0xCD60
-        public void get_IsBuiltIn(){} // RVA: 0xDBE0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÌÎÏÏÎÍÌÍÎÎÏÌÍÌÌÎÍÌÌÏÏÌ</summary>
-    public class AnimationAnimationCurveHandler_23B7
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public ÍÌÍÍÎÏÏÏÌÍÏÍÍÍÏÎÎÍÏÏÍÎÎ<System.Collections.Generic.List`1<ÍÎÏÏÏÌÍÌÎÌÍÎÏÍÌÎÏÎÌÍÏÎÍ>> <ÌÎÌÎÏÌÍÎÏÌÍÏÍÌÍÌÍÍÏÎÏÏÌ>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void Cleanup(){} // RVA: 0x30B0C0
-        public void GetTransformChildCount_609445D97B38(){} // RVA: 0x30B0D0
-        public void Start(){} // RVA: 0xC4DBD0
-        public void SetKeys(){} // RVA: 0xC4E280
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x30B0D0
-        public void SetKeys_AD5567907948(){} // RVA: 0xC4E530
-        public void Awake(){} // RVA: 0xC4E7E0
-        public void OnDestroy(){} // RVA: 0x30B0C0
-        // ── Unresolved (hash) ──
-        public void m_CB2(){} // RVA: 0xC4D910
-        public void m_A74(){} // RVA: 0xC4D9D0
-        public void m_976(){} // RVA: 0xC4DDD0
-        public void m_C9E(){} // RVA: 0xC4E080
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÌÍÌÍÍÏÌÏÏÎÎÌÎÏÎÍÍÍÎÎÍÌ</summary>
-    public class AnimationAnimationCurveHandler_4946
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void SetKeys(){} // RVA: 0xCA1E30
-        public void OrthoNormalize2(){} // RVA: 0xCA2030
-        public void UpdateRotation(){} // RVA: 0xCA2230
-        public void .ctor(){} // RVA: 0x2DD310
-        // ── Unresolved (hash) ──
-        public void m_F78(){} // RVA: 0xCA1410
-        public void m_B3B(){} // RVA: 0xCA1610
-        public void m_3FF(){} // RVA: 0xCA16B0
-        public void m_CC4(){} // RVA: 0xCA1990
-        public void m_5F8(){} // RVA: 0xCA1A30
-        public void m_D08(){} // RVA: 0xCA1C30
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÍÏÏÏÍÌÎÏÏÌÌÏÍÏÍÎÌÌÌÎÏÎ</summary>
-    public class AnimationAnimationCurveHandler_DED6
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void GetKeys(){} // RVA: 0xCA63D0
-        public void GetWorldCenterOfMass(){} // RVA: 0xCA6CA0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Initialize(){} // RVA: 0xCA7540
-        public void GetKeys_7E88B97538A8(){} // RVA: 0xCA7E10
-        public void GetKeys_5CA9779E5142(){} // RVA: 0xCA8FB0
-        // ── Unresolved (hash) ──
-        public void m_6A6(){} // RVA: 0xCA86E0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÎÌÎÍÎÍÎÍÎÌÍÏÎÍÌÏÎÏÏÍÌÏ</summary>
-    public class AnimationAnimationCurveHandler_EC57
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void Handle(){} // RVA: 0xB3A230
-        public void Process(){} // RVA: 0xB3A430
-        public void .cctor(){} // RVA: 0xB3A4F0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÍÍÏÎÎÌÌÌÍÎÏÍÏÎÏÏÏÎÎÍÏÎ</summary>
-    public class AnimationAnimatorOverrideControllerHandler_C155
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x1983270
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x1983980
-        public void GetName(){} // RVA: 0x1984800
-        // ── Unresolved (hash) ──
-        public void m_CA7(){} // RVA: 0x1982580
-        public void m_35D(){} // RVA: 0x19826A0
-        public void m_00B(){} // RVA: 0x1982AB0
-        public void m_6E2(){} // RVA: 0x1982AF0
-        public void m_C9E(){} // RVA: 0x1982B20
-        public void m_E28(){} // RVA: 0x1982C40
-        public void m_87F(){} // RVA: 0x1983230
-        public void m_A53(){} // RVA: 0x1983390
-        public void m_6D4(){} // RVA: 0x19840C0
-        public void m_AF0(){} // RVA: 0x19850F0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÎÎÍÌÍÍÎÍÎÌÍÎÎÌÌÏÍÏÏÎÏÌÍ</summary>
-    public class AnimationApplicationHandler_251B
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
-        public UnityEngine.UI.RawImage _screen; // 0x20
-        public ÌÎÎÍÍÏÌÍÎÍÌÏÎÌÎÍÏÍÍÏÍÏÍ ÏÏÍÎÏÍÌÍÎÍÌÎÌÌÎÍÏÌÌÏÏÍÍ; // 0x28
-
         // ── Methods ──
-        public void InternalGetBehaviours(){} // RVA: 0x19775E0
-        public void InternalGetBehaviours_BFBC0B325789(){} // RVA: 0x1977620
-        public void InternalGetBehaviours_457D4C9819CF(){} // RVA: 0x1977640
-        public void GetIsPlaying(){} // RVA: 0x1977680
-        public void InternalGetBehaviours_852E3599EAE7(){} // RVA: 0x1977710
-        public void InternalGetBehaviours_E1215064249B(){} // RVA: 0x19778A0
-        public void GetIsPlaying_FEF131E8B4B2(){} // RVA: 0x1977AC0
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x1977C60
-        public void GetIsPlaying_DFEF2FF7242B(){} // RVA: 0x1977C60
-        public void GetIsPlaying_7B295841C38A(){} // RVA: 0x1977CC0
-        public void GetIsPlaying_3736C823BADC(){} // RVA: 0x1977D00
-        // ── Unresolved (hash) ──
-        public void m_1E5(){} // RVA: 0x19775C0
-        public void m_0B3(){} // RVA: 0x19778E0
-        public void m_373(){} // RVA: 0x1977D00
-        public void m_F90(){} // RVA: 0x1977DA0
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÏÍÏÌÎÎÌÍÌÌÌÍÍÍÎÏÏÍÌÌÍÍ</summary>
-    public class AnimationApplicationHandler_B8FE
+    /// <summary>Originally: ÏÍÎÎÏÍÌÍÍÎÎÎÎÌÏÌÍÏÏÎÏÏÍ</summary>
+    public class AnimatedTextureBase_4BD1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1967700 | overloaded x2
-        public void Initialize(){} // RVA: 0x200F030
-        public void SetTriggerString(){} // RVA: 0x200F210
-        public void SetTriggerString_236DD0FD7585(){} // RVA: 0x200F3F0
-        // ── Unresolved (hash) ──
-        public void m_1C8(){} // RVA: 0x200F5D0
-        public void m_B1F(){} // RVA: 0x200F7A0
-        public void m_B31(){} // RVA: 0x200F980
+        public void GetInstanceID(){} // RVA: 0x7A80DA7B0
+        public void Equals(){} // RVA: 0x7A813E420
+        public void GetHashCode(){} // RVA: 0x7A80F2570
+        public void op_Implicit(){} // RVA: 0x7ABE84300
+        public void CompareBaseObjects(){} // RVA: 0x7A80F2570
+        public void IsNativeObjectAlive(){} // RVA: 0x7ACF03D80
+        public void .ctor(){} // RVA: 0x7ACF03DA0
+        public void Initialize(){} // RVA: 0x7ABE84300
+        public void set_name(){} // RVA: 0x7ACF03DC0
     }
 
-    /// <summary>Originally: ÍÎÍÌÍÍÏÏÍÎÌÏÌÍÍÎÌÎÎÏÍÌÎ</summary>
-    public class AnimationBehaviourHandler_2433
-    {
-        public 0x65800EE0 <ÏÍÍÌÍÏÎÎÏÌÌÌÎÌÎÍÍÌÌÌÌÍÎ>k__BackingField; // 0x10
-        public object <ÍÌÌÌÏÌÍÏÌÌÌÌÍÎÎÎÎÎÌÏÏÍÏ>k__BackingField; // 0x18
-        public ÎÌÏÏÌÏÎÎÍÏÍÎÏÍÍÏÍÌÌÍÌÍÌ <ÌÏÍÍÎÍÌÏÍÍÏÌÏÌÎÍÍÌÍÍÏÎÎ>k__BackingField; // 0x20
-
-        // ── Methods ──
-        public void SetFloatString(){} // RVA: 0x1FE5890
-        public void get_ByteBuffer(){} // RVA: 0x19689C0
-        public void set_mode(){} // RVA: 0x833580
-        public void get_Current(){} // RVA: 0x2F8380
-        public void MoveNext(){} // RVA: 0x1968950
-        public void SetFloatString_22AFF8CB038B(){} // RVA: 0x1FE58E0
-        public void set_Value(){} // RVA: 0x2DEE30
-        public void SetFloatString_CD87428B9DB8(){} // RVA: 0x1FE5930
-        public void GetHashCode(){} // RVA: 0x19689B0
-        // ── Unresolved (hash) ──
-        public void m_271(){} // RVA: 0x19689C0
-        public void m_87F(){} // RVA: 0x1968950
-        public void m_9C3(){} // RVA: 0x2DEE30
-        public void m_848(){} // RVA: 0x2DEE30
-        public void m_417(){} // RVA: 0x19689C0
-        public void m_82C(){} // RVA: 0x2DEE30
-        public void m_A98(){} // RVA: 0x19689C0
-    }
-
-    /// <summary>Originally: ÎÎÏÍÏÌÎÎÌÏÏÏÍÍÏÍÍÏÌÏÎÍÎ</summary>
-    public class AnimationBehaviourHandler_E211
+    /// <summary>Originally: ÍÌÌÎÏÎÎÌÍÎÍÍÏÏÎÍÎÍÍÎÎÍÎ</summary>
+    public class AnimationCurrentMoveNext_B523 : Object
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x19888C0
-        public void Update(){} // RVA: 0x1988DD0
-        public void GetIsHuman(){} // RVA: 0x1988EA0
-        public void LateUpdate(){} // RVA: 0x1988FF0
-        public void OnDisable(){} // RVA: 0x1989040
-        public void OnDestroy(){} // RVA: 0x1989120
-        public void OnApplicationPause(){} // RVA: 0x19891F0
-        public void OnApplicationQuit(){} // RVA: 0x1989460
-        public void OnBecameVisible(){} // RVA: 0x19895B0
-        public void OnBecameInvisible(){} // RVA: 0x1989600
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x1989650
-        public void OnCollisionExit(){} // RVA: 0x1989720
-        public void OnTriggerEnter(){} // RVA: 0x1989750
-    }
-
-    /// <summary>Originally: ÌÍÌÍÌÎÏÍÍÏÍÌÌÎÎÍÎÎÍÍÌÎÍ</summary>
-    public class AnimationComponentHandler_9F93
-    {
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<System.Collections.Generic.List`1<ÌÎÎÍÍÌÏÍÎÏÏÌÍÎÍÏÌÍÏÍÎÎÍ>> <ÌÍÏÌÌÏÌÏÏÍÏÎÍÍÏÎÍÏÍÌÍÍÌ>k__BackingField; // 0x20
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÌÎÎÌÍÏÎÌÍÎÍÍÌÌÎÏÌÎÏÌÌÏÍ>k__BackingField; // 0x28
-        public ÏÍÌÏÌÏÍÌÍÏÌÍÌÌÎÎÌÎÎÍÌÏÎ<int> <ÏÍÍÎÍÌÌÏÍÌÍÍÍÌÏÍÎÌÎÎÍÌÍ>k__BackingField; // 0x30
-
-        // ── Methods ──
-        public void get_Comparer(){} // RVA: 0x6374D0
-        public void Awake(){} // RVA: 0xEC5EB0
-        public void OnDestroy(){} // RVA: 0x30B0C0
-        public void .ctor(){} // RVA: 0xEC5F70
-        public void Initialize(){} // RVA: 0xEC61E0
-        public void Update(){} // RVA: 0xEC6440
-        public void LateUpdate(){} // RVA: 0xEC66A0
-        public void OnDisable(){} // RVA: 0x30B0C0
-        public void get_Data(){} // RVA: 0x30B130
-        public void OnApplicationPause(){} // RVA: 0x30B0C0
-        public void OnApplicationQuit(){} // RVA: 0x2DEE90
-        public void OnBecameVisible(){} // RVA: 0xEC6900
-        public void OnBecameInvisible(){} // RVA: 0x30B0D0
-        public void OnCollisionEnter(){} // RVA: 0x30B0C0
-        public void Start(){} // RVA: 0xEC6B60
-        public void OnCollisionExit(){} // RVA: 0x30B130
-        public void OnTriggerEnter(){} // RVA: 0x2DEE90
-    }
-
-    /// <summary>Originally: ÍÍÏÌÌÍÏÏÏÌÌÍÏÏÎÏÏÍÍÎÏÌÎ</summary>
-    public class AnimationCurrentMoveNext_CC50_92FE
-    {
-        public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,ÌÍÍÏÏÍÌÍÏÍÌÎÎÎÏÏÍÍÍÏÏÎÍ>> ÌÎÏÌÎÍÌÏÏÌÍÍÌÌÎÏÍÎÍÌÎÎÍ; // 0x10
-
-        // ── Methods ──
-        public void set_Key(){} // RVA: 0x1B05E20
-        public void get_Key_FEF12014EDB8(){} // RVA: 0x1B05EF0
-        public void Reset(){} // RVA: 0x1B05FC0
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Key(){} // RVA: 0x1B06010
-        public void set_Current(){} // RVA: 0x1B060E0
-        public void get_Current_E95830D67830(){} // RVA: 0x1B061B0
-        public void get_Current(){} // RVA: 0x1B06280
-        public void MoveNext(){} // RVA: 0x1B06470
-        public void set_Entry(){} // RVA: 0x1B064C0
-        public void set_Value(){} // RVA: 0x1B06510
-        public void get_Value(){} // RVA: 0x1B065B0
-        public void get_Entry(){} // RVA: 0x1B06680
-        // ── Unresolved (hash) ──
-        public void m_7DE(){} // RVA: 0x1B06560
-    }
-
-    /// <summary>Originally: ÌÎÎÍÏÏÍÎÏÏÏÏÏÌÎÏÍÌÏÎÎÎÏ</summary>
-    public class AnimationDisplayNamePrefabName_4B3C_8C7D
-    {
-        public object System.Collections.Generic.IEnumerator<System.Object>.Current;
-
-        // ── Methods ──
-        public void get_Key(){} // RVA: 0xCD60
-        public void get_DisplayName(){} // RVA: 0xC770
-        public void get_PrefabName(){} // RVA: 0xCD60
-    }
-
-    /// <summary>Originally: ÌÎÏÎÍÎÍÍÎÎÌÏÎÎÏÎÌÎÏÍÎÌÌ</summary>
-    public class AnimationHandler_1FBC
-    {
-        // ── Methods ──
-        public void Awake(){} // RVA: 0xECD520
-        public void OnDestroy(){} // RVA: 0xECD6D0
-        public void GetMuscleHandles(){} // RVA: 0xECD990
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0xECDEC0
-        // ── Unresolved (hash) ──
-        public void m_4D3(){} // RVA: 0xECD7D0
-        public void m_FDB(){} // RVA: 0xECDB50
-        public void m_6F5(){} // RVA: 0xECDD10
-        public void m_0A6(){} // RVA: 0xECDFC0
-    }
-
-    /// <summary>Originally: ÎÎÍÎÎÌÌÏÌÎÏÌÌÏÏÏÌÌÏÌÏÌÍ</summary>
-    public class AnimationHandler_2092
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x136A830 | overloaded x2
-        public void Initialize(){} // RVA: 0x136A4C0
-        public void StringToHash(){} // RVA: 0x136A7F0
-        public void StringToHash_295198689608(){} // RVA: 0x136AF50
-        // ── Unresolved (hash) ──
-        public void m_16E(){} // RVA: 0x136A5A0
-        public void m_839(){} // RVA: 0x136A680
-        public void m_D95(){} // RVA: 0x136AB00
-        public void m_74D(){} // RVA: 0x136AB40
-        public void m_4B8(){} // RVA: 0x136ACB0
-        public void m_C57(){} // RVA: 0x136AD90
-        public void m_AFD(){} // RVA: 0x136AE70
-    }
-
-    /// <summary>Originally: ÌÎÌÎÏÏÌÌÌÍÏÍÎÏÎÎÌÌÍÍÏÎÏ</summary>
-    public class AnimationHandler_43A5
-    {
-        // ── Methods ──
-        public void StringToHash(){} // RVA: 0x9327E00
-        public void .ctor(){} // RVA: 0x9327F00
-        public void Initialize(){} // RVA: 0x9328080
-        public void StringToHash_D99C6782CAE3(){} // RVA: 0x9328380
-        public void StringToHash_80BF953DFA84(){} // RVA: 0x8B88150
-        // ── Unresolved (hash) ──
-        public void m_085(){} // RVA: 0x93280F0
-        public void m_0FA(){} // RVA: 0x9328140
-        public void m_14B(){} // RVA: 0x9328310
-        public void m_FB4(){} // RVA: 0x9328480
-        public void m_578(){} // RVA: 0x9328580
-        public void m_602(){} // RVA: 0x9328680
-        public void m_328(){} // RVA: 0x93287F0
-        public void m_050(){} // RVA: 0x9328980
-        public void m_D98(){} // RVA: 0x9328B10
-    }
-
-    /// <summary>Originally: ÌÍÍÏÍÌÏÎÎÍÏÏÏÍÌÎÌÎÍÎÎÏÎ</summary>
-    public class AnimationHandler_93B8
-    {
-        public ÍÍÍÎÌÎÎÌÍÌÌÍÏÎÎÍÌÏÎÎÏÎÍ _93B8;
-
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x1FE5610
-        public void Process(){} // RVA: 0x1FE57E0
-    }
-
-    /// <summary>Originally: ÎÎÎÌÏÍÍÍÏÌÍÌÌÌÌÎÎÌÎÌÌÍÎ</summary>
-    public class AnimationHandler_DBF1
-    {
-        // ── Methods ──
-        public void GetIsHuman(){} // RVA: 0x1989830
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Initialize(){} // RVA: 0x19898A0
-        public void GetIsHuman_42A591D3CA2D(){} // RVA: 0x1989830
-        public void GetIsHuman_5438803224AA(){} // RVA: 0x1989910
-        // ── Unresolved (hash) ──
-        public void m_B45(){} // RVA: 0x1989910
-        public void m_E23(){} // RVA: 0x1989910
-        public void m_1FC(){} // RVA: 0x19898A0
-    }
-
-    /// <summary>Originally: ÎÍÌÌÍÍÏÌÏÏÌÍÏÎÍÍÏÍÍÌÌÏÍ</summary>
-    public class AnimationHandler_E2E4
-    {
-        // ── Methods ──
-        public void CompareTupleFields(){} // RVA: 0xC09700
-        public void GetStructuralHashCode(){} // RVA: 0xC098A0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Initialize(){} // RVA: 0xC09A20
-        public void GetStructuralHashCode_AA13F23BCA1E(){} // RVA: 0xC09BC0
-        public void GetStructuralHashCode_C8C7E1DBD21C(){} // RVA: 0xC09D60
-        public void GetIsHuman(){} // RVA: 0xC09F00
-        public void GetStructuralHashCode_9822407979CE(){} // RVA: 0xC0A1D0
-        public void EqualsTupleFields(){} // RVA: 0xC0A350
-        public void GetStructuralHashCode_4D1102258B05(){} // RVA: 0xC0A4D0
-        public void EqualsTupleFields_6992CAAA5DEE(){} // RVA: 0xC0A650
-    }
-
-    /// <summary>Originally: ÌÎÎÎÎÏÌÎÎÍÍÎÌÌÌÎÎÏÎÌÏÍÌ</summary>
-    public class AnimationHandler_FC00
-    {
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Initialize(){} // RVA: 0x9361710
-        public void StringToHash(){} // RVA: 0x9361710
-        public void StringToHash_8BCFA7FF3CD4(){} // RVA: 0x9361740
-        public void StringToHash_6F82FEEF1878(){} // RVA: 0x9361740
-        public void StringToHash_A33BCCAACB71(){} // RVA: 0x9361710
-        public void StringToHash_46683A75DF3A(){} // RVA: 0x9361710
-    }
-
-    /// <summary>Originally: ÎÌÎÍÍÍÎÎÎÏÍÌÍÌÍÏÎÌÏÏÍÌÎ</summary>
-    public class AnimationTransformHandler_C6AB
-    {
-        public ÍÏÏÏÍÌÏÍÎÌÌÌÏÎÌÎÍÍÏÎÏÍÏ _c6AB;
-
-        // ── Methods ──
-        public void Handle(){} // RVA: 0x1FE70E0
-        public void Process(){} // RVA: 0x1FE72B0
-    }
-
-    /// <summary>Originally: ÍÍÍÏÏÏÎÌÏÎÏÏÎÏÎÎÎÌÌÎÏÍÎ</summary>
-    public class AnimatorStaticMethods_4CBB
-    {
-        // ── Methods ──
-        public void Dispose_6EA0BBD7AB19(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x2DD310
-        public void OnAnimatorMove(){} // RVA: 0x2DD310
-        public void Dispose(){} // RVA: 0x2DD310
-        // ── Unresolved (hash) ──
-        public void m_F8D(){} // RVA: 0x2DD310
-        public void m_424(){} // RVA: 0x2DD310
-        public void m_859(){} // RVA: 0x2DD310
-        public void m_D44(){} // RVA: 0x2DD310
-    }
-
-    /// <summary>Originally: ÎÍÍÏÍÎÍÏÍÎÍÌÌÍÌÎÏÍÌÌÏÌÎ</summary>
-    public class AnimatorTransformCoroutineComponent_E3EA
-    {
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x10BDD10
-        public void Update_BFE2F870FCF3(){} // RVA: 0x10BE3F0
-        public void Update(){} // RVA: 0x10BFC00
-        public void CancelInvoke(){} // RVA: 0x10BFC10
-        public void Invoke(){} // RVA: 0x10C0000
-        public void .ctor(){} // RVA: 0x10C06C0
-        public void Initialize(){} // RVA: 0x10C0CB0
-        public void OnBecameVisible(){} // RVA: 0x10C0F70
-        public void StartCoroutine(){} // RVA: 0x10C1190
-        public void OnCollisionEnter(){} // RVA: 0x10C14F0
-        public void LateUpdate(){} // RVA: 0x10C17B0
-        public void Initialize_E88D79C2018E(){} // RVA: 0x10C17C0
-        public void Awake_39AB6FC8437D(){} // RVA: 0x10C1BA0
-        public void StopCoroutine(){} // RVA: 0x10C2130
-        public void .cctor(){} // RVA: 0x10C26B0
-        public void OnDestroy_18E1EDCBED2A(){} // RVA: 0x10C37F0
-        public void get_useGUILayout(){} // RVA: 0x10C3A60
-        public void set_useGUILayout(){} // RVA: 0x10C3CD0
-        public void LateUpdate_7B0A9A6189C4(){} // RVA: 0x10C3DF0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x10C42D0
-        public void Internal_IsInvokingAll(){} // RVA: 0x10C4590
-        public void InvokeDelayed(){} // RVA: 0x10C49B0
-        public void OnCollisionExit(){} // RVA: 0x10BFC00
-        public void OnBecameInvisible(){} // RVA: 0x10C4FB0
-        public void .cctor_13604C571450(){} // RVA: 0x10C53D0
-        public void OnDestroy(){} // RVA: 0x10C5730
-        public void StartCoroutineManaged2(){} // RVA: 0x10C5B30
-        public void Awake(){} // RVA: 0x10C5E20
-        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x10C6090
-        public void GetScriptClassName(){} // RVA: 0x10C61B0
-        public void OnCancellationTokenCreated(){} // RVA: 0x10C6430
-        public void ReadAnimatorState(){} // RVA: 0x10C7320
-        public void ConfigureTransform(){} // RVA: 0x10C7700
-        public void Internal_IsInvokingAll_FC4F97B2988D(){} // RVA: 0x10C7CD0
-        public void OnTriggerStay(){} // RVA: 0x10C7CE0
-    }
-
-    /// <summary>Originally: ÎÌÏÌÎÏÎÌÌÌÍÏÎÏÎÍÎÏÌÍÎÍÌ</summary>
-    public class AnimatorTransformPoseCache
-    {
-        public UnityEngine.RuntimeAnimatorController ÎÏÍÌÌÌÌÏÌÍÍÏÏÏÏÍÏÍÎÍÎÎÏ; // 0x20
-        public UnityEngine.Vector3 ÏÏÏÎÌÍÌÍÌÍÎÏÎÍÌÏÍÍÏÌÎÌÍ; // 0x28
-        public UnityEngine.Vector3 ÍÍÌÌÍÌÎÍÎÎÏÍÌÏÌÎÌÏÌÎÏÌÏ; // 0x34
-        public UnityEngine.Vector3 ÏÍÏÎÎÏÌÏÍÌÎÍÎÌÎÎÎÏÌÌÏÍÏ; // 0x40
-        public UnityEngine.Vector3 ÎÍÍÎÎÏÌÎÏÌÌÌÌÎÎÎÏÌÌÍÍÍÍ; // 0x4C
-        public UnityEngine.Quaternion ÍÎÎÏÏÏÌÏÌÌÍÎÍÌÎÍÌÌÎÏÎÏÏ; // 0x58
-        public UnityEngine.Quaternion ÏÌÌÎÏÏÏÍÍÌÏÌÍÍÏÌÏÏÎÌÏÏÎ; // 0x68
-        public bool ÏÏÎÌÍÏÎÍÍÎÍÍÍÏÍÏÏÎÎÏÍÏÌ; // 0x78
-        public bool ÌÍÎÏÎÏÏÎÎÍÍÏÏÌÍÏÌÏÏÍÏÎÍ; // 0x79
-        public int ÎÎÌÎÌÍÌÎÍÌÍÍÍÍÎÎÍÎÍÎÌÏÍ; // 0x7C
-        public bool ÏÍÎÎÏÎÏÏÎÎÏÎÏÏÏÌÎÎÌÌÏÍÎ; // 0x80
-        public bool ÍÏÍÏÌÏÎÎÏÌÏÏÍÌÍÍÍÍÌÍÏÎÍ; // 0x81
-        public bool ÌÍÏÍÍÍÏÏÌÏÌÏÎÏÌÌÎÎÎÏÎÍÌ; // 0x82
-        public bool ÎÍÌÎÍÍÏÍÎÌÍÌÌÏÌÍÌÎÍÎÎÌÏ; // 0x83
-
-        // ── Methods ──
-        public void UpdateTransformPose(){} // RVA: 0x1130B00
-        public void DrawTransformGizmos(){} // RVA: 0x1131060
-        public void DrawTransformGizmos_EE489D44C4FC(){} // RVA: 0x1131500
-        public void Awake(){} // RVA: 0x10E6F20
-        public void SetTransformWeight(){} // RVA: 0x1131860
-        public void ResetTransformPoses(){} // RVA: 0x1131E40
-        public void OnDisable(){} // RVA: 0x1132AC0
-        public void Contains(){} // RVA: 0x2DD310
-        public void GetCachedTransforms(){} // RVA: 0x1132AD0
-        public void GetCachedTransforms_FF4A655ED2B9(){} // RVA: 0x1132B00
-        public void GetCachedTransforms_1FFAB7E28A35(){} // RVA: 0x1132B10
-        public void CopyTo(){} // RVA: 0x2DD310
-        public void CreateTransformPoseCache(){} // RVA: 0x1132FF0
-        public void Update(){} // RVA: 0x1133090
-        public void ApplyCachedRotationSmoothing(){} // RVA: 0x1133C10
-        public void ApplySmoothedRotation(){} // RVA: 0x1133C30
-        public void DeadToFrozen(){} // RVA: 0x375330
-        public void ApplyCachedRotationSmoothing_9FD7870C1A9D(){} // RVA: 0x1133C80
-        public void ApplyCachedRotationSmoothing_7D1934C9D552(){} // RVA: 0x1134090
-        public void HasTransform(){} // RVA: 0x11341A0
-        public void HasValidTransform(){} // RVA: 0x11341D0
-        public void SetTransformAndCachePose(){} // RVA: 0x11342E0
-        public void SetTransform(){} // RVA: 0x1134320
-        public void ApplyOffsetPose(){} // RVA: 0x11343C0
-        public void ApplyOffsetPose_BC3793BA3D2B(){} // RVA: 0x1134550
-        public void ApplyTransformOffset(){} // RVA: 0x11345B0
-        public void ApplyOffsetPose_AF4C3F1C8097(){} // RVA: 0x1134720
-        public void ApplyTransformOffset_852E3599EAE7(){} // RVA: 0x1134780
-        public void RestoreCachedTransformPoses(){} // RVA: 0x11388B0
-        public void CacheTransformLocalPoses(){} // RVA: 0x1138A60
-        public void InitializeDefaults(){} // RVA: 0x1138B60
-        public void AreEndpointCollidersActive(){} // RVA: 0x1139430
-        public void UpdateSimulation(){} // RVA: 0x113A1F0
-        public void InsertRange(){} // RVA: 0x8A8570
-        public void Clear(){} // RVA: 0x113A380
-        public void UpdateSimulation_B424BE77153D(){} // RVA: 0x113A4F0
-        public void UpdateTransformPose_3AA5C1C36217(){} // RVA: 0x113A510
-        public void UpdateTransformPose_104F95098CD7(){} // RVA: 0x113A570
-        public void UpdateSimulation_F6BBA15BDD51(){} // RVA: 0x113A670
-        public void Constructor(){} // RVA: 0x113B0D0
-        public void .ctor(){} // RVA: 0x113B830
-        public void OnEnable(){} // RVA: 0x113BA40
-        public void LastIndexOf_674CB52AB8CC(){} // RVA: 0x8A7360
-        public void ResetSimulation(){} // RVA: 0x113BA80
-        public void CacheComponentReferences(){} // RVA: 0x113C470
-        public void CacheComponentReferences_280E6FDFD395(){} // RVA: 0x113C490
-        public void LastIndexOf_674CB52AB8CC_2F448D5F3A65(){} // RVA: 0x8A7360
-        public void OnDrawGizmos(){} // RVA: 0x113C4A0
-        public void Add(){} // RVA: 0x113C630
-        public void InitializeDefaults_C12531444720(){} // RVA: 0x113C720
-        public void Remove(){} // RVA: 0x113C770
-        public void InitializeColliders(){} // RVA: 0x113DAD0
-        public void UpdateTransformPoses(){} // RVA: 0x113E380
-        public void UpdateTransformPoses_567B33B3F57E(){} // RVA: 0x113E420
-        public void UpdateTransformPoses_65CB4519AC47(){} // RVA: 0x113E450
-        public void UpdateTransformPoseAtIndex(){} // RVA: 0x113E5C0
-        public void UpdateTransformPoseAtIndex_A92787DD0B9B(){} // RVA: 0x113E9B0
-        public void InitializeDefaults_886A7E8C1A7B(){} // RVA: 0x113F250
-        public void System.Collections.ICollection.get_IsSynchronized(){} // RVA: 0x2DD320
-        public void HasRequiredTransforms(){} // RVA: 0x113F3E0
-        public void InitializeSimulation(){} // RVA: 0x113FA40
-        public void BuildColliderCache(){} // RVA: 0x11401A0
-        public void BuildColliderCache_CDE86A8E2C35(){} // RVA: 0x1140570
-        public void OnDestroy(){} // RVA: 0x11407E0
-        public void OnValidate(){} // RVA: 0x11407F0
-        public void ValidateSettings(){} // RVA: 0x1140810
-        public void get_boundary_42B98C(){} // RVA: 0x59F730
-        // ── Unresolved (hash) ──
-        public void m_34B(){} // RVA: 0x1140590
-        public void m_8BD(){} // RVA: 0x11405D0
+        public void GetInstanceID(){} // RVA: 0x7A98C0020
+        public void set_Key(){} // RVA: 0x7A98C00F0
+        public void Reset(){} // RVA: 0x7A98C01C0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Key(){} // RVA: 0x7A98C0210
+        public void IsNativeObjectAlive(){} // RVA: 0x7A98C02E0
+        public void set_Current(){} // RVA: 0x7A98C03B0
+        public void get_Current(){} // RVA: 0x7A98C0480
+        public void MoveNext(){} // RVA: 0x7A98C0670
+        public void Instantiate(){} // RVA: 0x7A98C06C0
+        public void Destroy(){} // RVA: 0x7A98C0710
+        public void set_Value(){} // RVA: 0x7A98C0760
+        public void get_Value(){} // RVA: 0x7A98C07B0
+        public void get_Entry(){} // RVA: 0x7A98C0880
     }
 
 }

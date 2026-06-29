@@ -1,37 +1,39 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.SDK.Internal
 // Classes: 2
-// Methods: 21
+// Methods: 19
 
 namespace VRC.SDK.Internal
 {
-    public class VRCJokeJamTracker
+    public class VRCJokeJamTracker : VRCCustomAction
     {
         // ── Methods ──
-        public void CanActivateJokeJamAction(){} // RVA: 0x1C44E60
-        public void CanDeactivateJokeJamAction(){} // RVA: 0x1C44FB0
-        public void Execute(){} // RVA: 0x1C45100
-        public void IsJokeJamFeatureBlocked(){} // RVA: 0x1C45390
-        public void Execute_DD2C77ABE3ED(){} // RVA: 0x1C454E0
-        public void .ctor(){} // RVA: 0x2DDD50
-        public void Initialize(){} // RVA: 0x1C45630
-        public void Initialize_517777263B64(){} // RVA: 0x1C45780
-        public void .ctor_3B0C35ED7358(){} // RVA: 0x1C458D0
+        public void Execute(){} // RVA: 0x7A9A036B0
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void Initialize(){} // RVA: 0x7A9A03BE0
+        // ── Unresolved (hash) ──
+        public void m_3EA(){} // RVA: 0x7A9A03410
+        public void m_F36(){} // RVA: 0x7A9A03560
+        public void m_D8F(){} // RVA: 0x7A9A03940
+        public void m_F2D(){} // RVA: 0x7A9A03A90
+        public void m_8CD(){} // RVA: 0x7A9A03D30
+        public void m_3FD(){} // RVA: 0x7A9A03E80
     }
 
-    public class VRCUdonAnalytics
+    public class VRCUdonAnalytics : VRCCustomAction
     {
         // ── Methods ──
-        public void Execute(){} // RVA: 0x1C469C0 | overloaded x3
-        public void .ctor_1B28C78647DA(){} // RVA: 0x1C45EB0
-        public void Initialize(){} // RVA: 0x1C46000
-        public void ProcessAnalyticsRemoteString(){} // RVA: 0x1C46480
-        public void Execute_B666ACA72320(){} // RVA: 0x1C465D0
-        public void ResolveAnalyticsRemoteString(){} // RVA: 0x1C46720
-        public void ProcessRemoteStringVariables(){} // RVA: 0x1C46870
-        public void .ctor(){} // RVA: 0x1C46AA0
-        public void EnableKeyword(){} // RVA: 0x1C46B70
-        public void DisableKeyword(){} // RVA: 0x1C46CB0
+        public void Execute(){} // RVA: 0x7A9A04F70
+        public void .ctor(){} // RVA: 0x7A9A05050
+        public void Initialize(){} // RVA: 0x7A9A05120
+        // ── Unresolved (hash) ──
+        public void m_F36(){} // RVA: 0x7A9A04460
+        public void m_3FD(){} // RVA: 0x7A9A045B0
+        public void m_D8F(){} // RVA: 0x7A9A04A30
+        public void m_2DD(){} // RVA: 0x7A9A04B80
+        public void m_AC8(){} // RVA: 0x7A9A04CD0
+        public void m_8CD(){} // RVA: 0x7A9A04E20
+        public void m_3EA(){} // RVA: 0x7A9A05260
     }
 
 }

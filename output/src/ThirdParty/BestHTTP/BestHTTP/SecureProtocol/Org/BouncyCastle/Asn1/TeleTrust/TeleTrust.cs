@@ -1,32 +1,30 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.TeleTrust
 // Classes: 2
-// Methods: 13
+// Methods: 12
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.TeleTrust
 {
-    public class TeleTrusTNamedCurves
+    public class TeleTrusTNamedCurves : Object
     {
-        public System.Collections.IDictionary objIds;
-
         // ── Methods ──
-        public void ConfigureBasepoint(){} // RVA: 0x975E100
-        public void ConfigureCurve(){} // RVA: 0x1A3F520
-        public void DefineCurve(){} // RVA: 0x975E1F0
-        public void .cctor(){} // RVA: 0x975E340
-        public void GetByName(){} // RVA: 0x975EC30
-        public void GetByOid(){} // RVA: 0x975ECB0
-        public void GetOid(){} // RVA: 0x975F0D0 | overloaded x2
-        public void GetName(){} // RVA: 0x975EEC0
-        public void get_Names(){} // RVA: 0x975EF80
-        public void .ctor(){} // RVA: 0x2DD310
+        public void ConfigureBasepoint(){} // RVA: 0x7B1598030
+        public void ConfigureCurve(){} // RVA: 0x7A97F8BA0
+        public void DefineCurve(){} // RVA: 0x7B1598120
+        public void .cctor(){} // RVA: 0x7B1598270
+        public void GetByName(){} // RVA: 0x7B1598B60
+        public void GetByOid(){} // RVA: 0x7B1598BE0
+        public void GetOid(){} // RVA: 0x7B1599000
+        public void GetName(){} // RVA: 0x7B1598DF0
+        public void get_Names(){} // RVA: 0x7B1598EB0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class TeleTrusTObjectIdentifiers
+    public class TeleTrusTObjectIdentifiers : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9761AD0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B159BA00
     }
 
 }

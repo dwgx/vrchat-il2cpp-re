@@ -1,225 +1,201 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 // Classes: 18
-// Methods: 125
+// Methods: 103
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Ocsp
 {
-    public class BasicOcspResp
+    public class BasicOcspResp : X509ExtensionBase
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.BasicOcspResponse resp; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.ResponseData data; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9981270
-        public void GetTbsResponseData(){} // RVA: 0x9981350
-        public void get_Version(){} // RVA: 0x99813E0
-        public void get_ResponderId(){} // RVA: 0x9981450
-        public void get_ProducedAt(){} // RVA: 0x99814F0
-        public void get_Responses(){} // RVA: 0x9981520
-        public void get_ResponseExtensions(){} // RVA: 0x606D2D0
-        public void GetX509Extensions(){} // RVA: 0x606D2D0
-        public void get_SignatureAlgName(){} // RVA: 0x9981730
-        public void get_SignatureAlgOid(){} // RVA: 0x944DA40
-        public void GetResponseData(){} // RVA: 0x99818B0
-        public void GetSignature(){} // RVA: 0x944D8D0
-        public void GetCertList(){} // RVA: 0x9981950
-        public void GetCerts(){} // RVA: 0x9981CD0
-        public void GetCertificates(){} // RVA: 0x9981FD0
-        public void Verify(){} // RVA: 0x99820E0
-        public void GetEncoded(){} // RVA: 0x945AC10
-        public void Equals(){} // RVA: 0x9982450
-        public void GetHashCode(){} // RVA: 0x99E0E0
+        public void .ctor(){} // RVA: 0x7B17BCE70
+        public void GetTbsResponseData(){} // RVA: 0x7B17BCF50
+        public void get_Version(){} // RVA: 0x7B17BCFE0
+        public void get_ResponderId(){} // RVA: 0x7B17BD050
+        public void get_ProducedAt(){} // RVA: 0x7B17BD0F0
+        public void get_Responses(){} // RVA: 0x7B17BD120
+        public void get_ResponseExtensions(){} // RVA: 0x7ADE59620
+        public void GetX509Extensions(){} // RVA: 0x7ADE59620
+        public void get_SignatureAlgName(){} // RVA: 0x7B17BD320
+        public void get_SignatureAlgOid(){} // RVA: 0x7B12816E0
+        public void GetResponseData(){} // RVA: 0x7B17BD4A0
+        public void GetSignature(){} // RVA: 0x7B1281570
+        public void GetCertList(){} // RVA: 0x7B17BD540
+        public void GetCerts(){} // RVA: 0x7B17BD8C0
+        public void GetCertificates(){} // RVA: 0x7B17BDBC0
+        public void Verify(){} // RVA: 0x7B17BDCD0
+        public void GetEncoded(){} // RVA: 0x7B128E860
+        public void Equals(){} // RVA: 0x7B17BE040
+        public void GetHashCode(){} // RVA: 0x7A8738190
     }
 
-    public class BasicOcspRespGenerator
+    public class BasicOcspRespGenerator : Object
     {
-        public System.Collections.IList HashAlgOid; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9982660 | overloaded x2
-        public void AddResponse(){} // RVA: 0x9982AE0 | overloaded x4
-        public void SetResponseExtensions(){} // RVA: 0x343E80
-        public void GenerateResponse(){} // RVA: 0x9982BC0
-        public void Generate(){} // RVA: 0x9983A80 | overloaded x3
-        public void get_SignatureAlgNames(){} // RVA: 0x9983AF0
+        public void .ctor(){} // RVA: 0x7B17BE240
+        public void AddResponse(){} // RVA: 0x7B17BE6C0
+        public void SetResponseExtensions(){} // RVA: 0x7A813E420
+        public void GenerateResponse(){} // RVA: 0x7B17BE7A0
+        public void Generate(){} // RVA: 0x7B17BF600
+        public void get_SignatureAlgNames(){} // RVA: 0x7B17BF670
     }
 
-    public class CertificateID
+    public class CertificateID : Object
     {
-        public string HashSha1;
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.CertID id; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9984430 | overloaded x2
-        public void get_HashAlgOid(){} // RVA: 0x9984650
-        public void GetIssuerNameHash(){} // RVA: 0x98B75B0
-        public void GetIssuerKeyHash(){} // RVA: 0x9984690
-        public void get_SerialNumber(){} // RVA: 0x96F1710
-        public void MatchesIssuer(){} // RVA: 0x99846D0
-        public void ToAsn1Object(){} // RVA: 0x2F8380
-        public void Equals(){} // RVA: 0x9984720
-        public void GetHashCode(){} // RVA: 0x9984840
-        public void DeriveCertificateID(){} // RVA: 0x9984890
-        public void CreateCertID(){} // RVA: 0x9984AE0
+        public void .ctor(){} // RVA: 0x7B17C0120
+        public void get_HashAlgOid(){} // RVA: 0x7B17C0340
+        public void GetIssuerNameHash(){} // RVA: 0x7B16F26F0
+        public void GetIssuerKeyHash(){} // RVA: 0x7B17C0380
+        public void get_SerialNumber(){} // RVA: 0x7B152B230
+        public void MatchesIssuer(){} // RVA: 0x7B17C03C0
+        public void ToAsn1Object(){} // RVA: 0x7A80F2570
+        public void Equals(){} // RVA: 0x7B17C0410
+        public void GetHashCode(){} // RVA: 0x7B17C0510
+        public void DeriveCertificateID(){} // RVA: 0x7B17C0560
+        public void CreateCertID(){} // RVA: 0x7B17C07B0
     }
 
-    public class CertificateStatus
+    public class CertificateStatus : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class OCSPRespGenerator
+    public class OCSPRespGenerator : Object
     {
         // ── Methods ──
-        public void Generate(){} // RVA: 0x9987A80
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Generate(){} // RVA: 0x7B17C38A0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class OcscpRespStatus
+    public class OcscpRespStatus : OcspRespStatus
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class OcspException
+    public class OcspException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9984F40 | overloaded x3
+        public void .ctor(){} // RVA: 0x7B17C0C20
     }
 
-    public class OcspReq
+    public class OcspReq : X509ExtensionBase
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.OcspRequest req; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9985100 | overloaded x4
-        public void GetTbsRequest(){} // RVA: 0x9985290
-        public void get_Version(){} // RVA: 0x9459FA0
-        public void get_RequestorName(){} // RVA: 0x9985330
-        public void GetRequestList(){} // RVA: 0x9985360
-        public void get_RequestExtensions(){} // RVA: 0x9985580
-        public void GetX509Extensions(){} // RVA: 0x9985580
-        public void get_SignatureAlgOid(){} // RVA: 0x99855F0
-        public void GetSignature(){} // RVA: 0x9985640
-        public void GetCertList(){} // RVA: 0x9985690
-        public void GetCerts(){} // RVA: 0x99859D0
-        public void GetCertificates(){} // RVA: 0x9985CF0
-        public void get_IsSigned(){} // RVA: 0x9985E20
-        public void Verify(){} // RVA: 0x9985E40
-        public void GetEncoded(){} // RVA: 0x945AC10
+        public void .ctor(){} // RVA: 0x7B17C0DE0
+        public void GetTbsRequest(){} // RVA: 0x7B17C0F70
+        public void get_Version(){} // RVA: 0x7B128DBE0
+        public void get_RequestorName(){} // RVA: 0x7B17C1010
+        public void GetRequestList(){} // RVA: 0x7B17C1040
+        public void get_RequestExtensions(){} // RVA: 0x7B17C1250
+        public void GetX509Extensions(){} // RVA: 0x7B17C1250
+        public void get_SignatureAlgOid(){} // RVA: 0x7B17C12C0
+        public void GetSignature(){} // RVA: 0x7B17C1310
+        public void GetCertList(){} // RVA: 0x7B17C1360
+        public void GetCerts(){} // RVA: 0x7B17C16A0
+        public void GetCertificates(){} // RVA: 0x7B17C19D0
+        public void get_IsSigned(){} // RVA: 0x7B17C1B00
+        public void Verify(){} // RVA: 0x7B17C1B20
+        public void GetEncoded(){} // RVA: 0x7B128E860
     }
 
-    public class OcspReqGenerator
+    public class OcspReqGenerator : Object
     {
-        public System.Collections.IList Status; // 0x10
-
         // ── Methods ──
-        public void AddRequest(){} // RVA: 0x99861A0 | overloaded x2
-        public void SetRequestorName(){} // RVA: 0x343E80 | overloaded x2
-        public void SetRequestExtensions(){} // RVA: 0x30B0D0
-        public void GenerateRequest(){} // RVA: 0x99863B0
-        public void Generate(){} // RVA: 0x9986F80 | overloaded x3
-        public void get_SignatureAlgNames(){} // RVA: 0x9987240
-        public void .ctor(){} // RVA: 0x9987290
+        public void AddRequest(){} // RVA: 0x7B17C1E80
+        public void SetRequestorName(){} // RVA: 0x7A813E420
+        public void SetRequestExtensions(){} // RVA: 0x7A81052D0
+        public void GenerateRequest(){} // RVA: 0x7B17C2090
+        public void Generate(){} // RVA: 0x7B17C2DB0
+        public void get_SignatureAlgNames(){} // RVA: 0x7B17C3070
+        public void .ctor(){} // RVA: 0x7B17C30C0
     }
 
-    public class OcspResp
+    public class OcspResp : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.OcspResponse resp; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9987630 | overloaded x4
-        public void get_Status(){} // RVA: 0x9987750
-        public void GetResponseObject(){} // RVA: 0x99877C0
-        public void GetEncoded(){} // RVA: 0x945AC10
-        public void Equals(){} // RVA: 0x99879B0
-        public void GetHashCode(){} // RVA: 0x99E0E0
+        public void .ctor(){} // RVA: 0x7B17C3460
+        public void get_Status(){} // RVA: 0x7B17C3580
+        public void GetResponseObject(){} // RVA: 0x7B17C35F0
+        public void GetEncoded(){} // RVA: 0x7B128E860
+        public void Equals(){} // RVA: 0x7B17C37E0
+        public void GetHashCode(){} // RVA: 0x7A8738190
     }
 
-    public class OcspRespStatus
+    public class OcspRespStatus : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class OcspUtilities
+    public class OcspUtilities : Object
     {
-        public System.Collections.IDictionary SingleRequestExtensions;
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x9987FA0
-        public void GetAlgorithmOid(){} // RVA: 0x99896B0
-        public void GetAlgorithmName(){} // RVA: 0x9989840
-        public void GetSigAlgID(){} // RVA: 0x9989960
-        public void get_AlgNames(){} // RVA: 0x9989AE0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .cctor(){} // RVA: 0x7B17C3E20
+        public void GetAlgorithmOid(){} // RVA: 0x7B17C5530
+        public void GetAlgorithmName(){} // RVA: 0x7B17C56C0
+        public void GetSigAlgID(){} // RVA: 0x7B17C57E0
+        public void get_AlgNames(){} // RVA: 0x7B17C5960
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class Req
+    public class Req : X509ExtensionBase
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.Request req; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void GetCertID(){} // RVA: 0x9989C30
-        public void get_SingleRequestExtensions(){} // RVA: 0xB2EEA0
-        public void GetX509Extensions(){} // RVA: 0xB2EEA0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void GetCertID(){} // RVA: 0x7B17C5AB0
+        public void get_SingleRequestExtensions(){} // RVA: 0x7A88F4330
+        public void GetX509Extensions(){} // RVA: 0x7A88F4330
     }
 
-    public class RespData
+    public class RespData : X509ExtensionBase
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.ResponseData data; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Version(){} // RVA: 0x9726AE0
-        public void GetResponderId(){} // RVA: 0x9989D20
-        public void get_ProducedAt(){} // RVA: 0x9989DC0
-        public void GetResponses(){} // RVA: 0x9989DF0
-        public void get_ResponseExtensions(){} // RVA: 0xB2E770
-        public void GetX509Extensions(){} // RVA: 0xB2E770
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Version(){} // RVA: 0x7B15605F0
+        public void GetResponderId(){} // RVA: 0x7B17C5BA0
+        public void get_ProducedAt(){} // RVA: 0x7B17C5C40
+        public void GetResponses(){} // RVA: 0x7B17C5C70
+        public void get_ResponseExtensions(){} // RVA: 0x7A88F3B10
+        public void GetX509Extensions(){} // RVA: 0x7A88F3B10
     }
 
-    public class RespID
+    public class RespID : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x998A150 | overloaded x3
-        public void ToAsn1Object(){} // RVA: 0x2F8380
-        public void Equals(){} // RVA: 0x998A440
-        public void GetHashCode(){} // RVA: 0x99E0E0
+        public void .ctor(){} // RVA: 0x7B17C5FC0
+        public void ToAsn1Object(){} // RVA: 0x7A80F2570
+        public void Equals(){} // RVA: 0x7B17C6300
+        public void GetHashCode(){} // RVA: 0x7A8738190
     }
 
-    public class RevokedStatus
+    public class RevokedStatus : CertificateStatus
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.RevokedInfo ThisUpdate; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x998A510 | overloaded x2
-        public void get_RevocationTime(){} // RVA: 0x998A670
-        public void get_HasRevocationReason(){} // RVA: 0x9985E20
-        public void get_RevocationReason(){} // RVA: 0x998A6A0
+        public void .ctor(){} // RVA: 0x7B17C63C0
+        public void get_RevocationTime(){} // RVA: 0x7B17C6520
+        public void get_HasRevocationReason(){} // RVA: 0x7B17C1B00
+        public void get_RevocationReason(){} // RVA: 0x7B17C6550
     }
 
-    public class SingleResp
+    public class SingleResp : X509ExtensionBase
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.Ocsp.SingleResponse resp; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void GetCertID(){} // RVA: 0x998A760
-        public void GetCertStatus(){} // RVA: 0x998A850
-        public void get_ThisUpdate(){} // RVA: 0x998A950
-        public void get_NextUpdate(){} // RVA: 0x998A980
-        public void get_SingleExtensions(){} // RVA: 0xB2EE60
-        public void GetX509Extensions(){} // RVA: 0xB2EE60
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void GetCertID(){} // RVA: 0x7B17C6610
+        public void GetCertStatus(){} // RVA: 0x7B17C6700
+        public void get_ThisUpdate(){} // RVA: 0x7B17C6800
+        public void get_NextUpdate(){} // RVA: 0x7B17C6830
+        public void get_SingleExtensions(){} // RVA: 0x7A88F42F0
+        public void GetX509Extensions(){} // RVA: 0x7A88F42F0
     }
 
-    public class UnknownStatus
+    public class UnknownStatus : CertificateStatus
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

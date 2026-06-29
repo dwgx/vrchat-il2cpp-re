@@ -1,1108 +1,549 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System
-// Classes: 100
-// Methods: 560
+// Classes: 44
+// Methods: 321
 
 namespace ThirdParty.DotNet.System
 {
-    public class ValueTuple`2
+    public class ValueTuple : ValueType
     {
-        public UnityEngine.RenderTexture Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public UnityEngine.Transform Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void Equals(){} // RVA: 0x49AFCB0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49AFD90
-        public void System.IComparable.CompareTo(){} // RVA: 0x49AFEE0
-        public void CompareTo(){} // RVA: 0x49B00B0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49B0180
-        public void GetHashCode(){} // RVA: 0x49B0380
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49B03F0
-        public void GetHashCodeCore(){} // RVA: 0x49B0490
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49B03F0
-        public void ToString(){} // RVA: 0x49B0520
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49B0660
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+        public void Equals(){} // RVA: 0x7A78D5420
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7E3FD40
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7E3FD90
+        public void CompareTo(){} // RVA: 0x7A76850B0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7E3FEA0
+        public void GetHashCode(){} // RVA: 0x7A76850B0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A76850B0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A76850B0
+        public void ToString(){} // RVA: 0x7A7E3FFB0
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7E3FFF0
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A76850B0
+        public void CombineHashCodes(){} // RVA: 0x7ADCB23C0
     }
 
-    public class ValueTuple`2
+    public class ValueTuple`2 : ValueType
     {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public SortingData Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<System.Collections.Generic.List`1<ÎÎÎÍÍÏÏÌÍÌÍÌÎÍÎÏÏÏÌÎÌÏÎ>> Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x482F140
-        public void Equals(){} // RVA: 0x482F340 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x482F490
-        public void System.IComparable.CompareTo(){} // RVA: 0x482F700
-        public void CompareTo(){} // RVA: 0x482F8F0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x482FA40
-        public void GetHashCode(){} // RVA: 0x482FD80
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x482FF50
-        public void GetHashCodeCore(){} // RVA: 0x482FFA0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x482FF50
-        public void ToString(){} // RVA: 0x48300C0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x4830260
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+        public void .ctor(){} // RVA: 0x7A7C4C9D0
     }
 
-    public class ValueTuple`2
+    public class ValueTuple`2 : ValueType
     {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public SortingData Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public SortingData Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public SortingData Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public string Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void Equals(){} // RVA: 0x49AFCB0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49AFD90
-        public void System.IComparable.CompareTo(){} // RVA: 0x49AFEE0
-        public void CompareTo(){} // RVA: 0x49B00B0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49B0180
-        public void GetHashCode(){} // RVA: 0x49B0380
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49B03F0
-        public void GetHashCodeCore(){} // RVA: 0x49B0490
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49B03F0
-        public void ToString(){} // RVA: 0x49B0520
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49B0660
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+        public void .ctor(){} // RVA: 0x7A7908700
     }
 
-    public class ValueTuple`2
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x499B370
-        public void Equals(){} // RVA: 0x499B5A0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x499B800
-        public void System.IComparable.CompareTo(){} // RVA: 0x499BBB0
-        public void CompareTo(){} // RVA: 0x499BE80
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x499C170
-        public void GetHashCode(){} // RVA: 0x499C650
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x499C7E0
-        public void GetHashCodeCore(){} // RVA: 0x499C830
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x499C7E0
-        public void ToString(){} // RVA: 0x499C9C0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x499CB40
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void Equals(){} // RVA: 0x7A7C65D60
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C65D80
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C65ED0
+        public void CompareTo(){} // RVA: 0x7A7C65EE0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C65F00
+        public void GetHashCode(){} // RVA: 0x7A7C65F10
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C65F20
+        public void GetHashCodeCore(){} // RVA: 0x7A7C65FC0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C65F20
+        public void ToString(){} // RVA: 0x7A7C66050
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C66060
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDD60
     }
 
-    public class ValueTuple`2
+    public class ValueTuple`2 : ValueType
     {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public VRC.Localization.LocalizableString Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49A38C0
-        public void Equals(){} // RVA: 0x49A3A60 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49A3B80
-        public void System.IComparable.CompareTo(){} // RVA: 0x49A3E00
-        public void CompareTo(){} // RVA: 0x49A3FF0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49A4110
-        public void GetHashCode(){} // RVA: 0x49A4450
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49A4530
-        public void GetHashCodeCore(){} // RVA: 0x49A4580
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49A4530
-        public void ToString(){} // RVA: 0x49A46A0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49A48A0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+        public void .ctor(){} // RVA: 0x7A7908700
     }
 
-    public class ValueTuple`2
+    public class ValueTuple`2 : ValueType
     {
-        public SortingData Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public 0x65989FC8 Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public SortingData Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public object Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void Equals(){} // RVA: 0x49AFCB0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49AFD90
-        public void System.IComparable.CompareTo(){} // RVA: 0x49AFEE0
-        public void CompareTo(){} // RVA: 0x49B00B0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49B0180
-        public void GetHashCode(){} // RVA: 0x49B0380
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49B03F0
-        public void GetHashCodeCore(){} // RVA: 0x49B0490
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49B03F0
-        public void ToString(){} // RVA: 0x49B0520
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49B0660
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+        public void .ctor(){} // RVA: 0x7A7BF63D0
     }
 
-    public class ValueTuple`2
+    public class ValueTuple`2 : ValueType
     {
-        public SortingData Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public UnityEngine.Material Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x820840
-        public void Equals(){} // RVA: 0x49AD6E0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49AD7C0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49AD980
-        public void CompareTo(){} // RVA: 0x49ADB50
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49ADC20
-        public void GetHashCode(){} // RVA: 0x49ADE90
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49ADF00
-        public void GetHashCodeCore(){} // RVA: 0x49ADF50
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49ADF00
-        public void ToString(){} // RVA: 0x49AE020
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49AE170
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+        public void .ctor(){} // RVA: 0x7A7BF63D0
     }
 
-    public class ValueTuple`2
+    public class ValueTuple`2 : ValueType
     {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public SortingData Item1; // 0x10
-    }
-
-    public class ValueTuple`2
-    {
-        public SortingData Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void Equals(){} // RVA: 0x49AFCB0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49AFD90
-        public void System.IComparable.CompareTo(){} // RVA: 0x49AFEE0
-        public void CompareTo(){} // RVA: 0x49B00B0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49B0180
-        public void GetHashCode(){} // RVA: 0x49B0380
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49B03F0
-        public void GetHashCodeCore(){} // RVA: 0x49B0490
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49B03F0
-        public void ToString(){} // RVA: 0x49B0520
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49B0660
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x3E2CB0
+        public void .ctor(){} // RVA: 0x7A7BF63D0
     }
 
-    public class ValueTuple`3 : System
+    public class ValueTuple`2 : ValueType
     {
-        public U Item1;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void Equals(){} // RVA: 0x283FA0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x11120
-        public void System.IComparable.CompareTo(){} // RVA: 0x12590
-        public void CompareTo(){} // RVA: 0x283FA0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x17680
-        public void GetHashCode(){} // RVA: 0xD840
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x12590
-        public void GetHashCodeCore(){} // RVA: 0x12590
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x12590
-        public void ToString(){} // RVA: 0xCD60
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0xCD60
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xD840
+        public void .ctor(){} // RVA: 0x7A7BF63D0
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public string Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19D8110
-        public void Equals(){} // RVA: 0x49E9C20 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E9D70
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E9F00
-        public void CompareTo(){} // RVA: 0x49EA0E0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49EA240
-        public void GetHashCode(){} // RVA: 0x49EA490
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49EA530
-        public void GetHashCodeCore(){} // RVA: 0x49EA570
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49EA530
-        public void ToString(){} // RVA: 0x49EA630
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49EA7C0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7908700
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public bool Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49CF530
-        public void Equals(){} // RVA: 0x49CF6B0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49CF7E0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49CFA30
-        public void CompareTo(){} // RVA: 0x49CFC00
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49CFD30
-        public void GetHashCode(){} // RVA: 0x49D0030
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D0110
-        public void GetHashCodeCore(){} // RVA: 0x49D0160
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D0110
-        public void ToString(){} // RVA: 0x49D0280
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49D04B0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7C4EDB0
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public string Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49E21A0
-        public void Equals(){} // RVA: 0x49E23C0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E2560
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E2830
-        public void CompareTo(){} // RVA: 0x49E2A40
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E2C00
-        public void GetHashCode(){} // RVA: 0x49E2FA0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E30B0
-        public void GetHashCodeCore(){} // RVA: 0x49E3100
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E30B0
-        public void ToString(){} // RVA: 0x49E3240
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E3480
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7BF4E70
+        public void Equals(){} // RVA: 0x7A7BF4F50
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7BF4F90
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7BF4FA0
+        public void CompareTo(){} // RVA: 0x7A7BF4FB0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7BF4FF0
+        public void GetHashCode(){} // RVA: 0x7A7BF5000
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7BF5010
+        public void GetHashCodeCore(){} // RVA: 0x7A7BF5060
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7BF5010
+        public void ToString(){} // RVA: 0x7A7BF5070
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7BF5080
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDD60
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public NextResult<System.Collections.Generic.List`1<Mediapipe.Detection>> Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x18AABB0
-        public void Equals(){} // RVA: 0x49E8CA0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E8DF0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E8FF0
-        public void CompareTo(){} // RVA: 0x49E91D0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E9330
-        public void GetHashCode(){} // RVA: 0x49E9600
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E96A0
-        public void GetHashCodeCore(){} // RVA: 0x49E96F0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E96A0
-        public void ToString(){} // RVA: 0x49E97E0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E9980
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7BF6990
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public ÏÌÍÌÍÎÏÏÎÏÏÎÏÏÍÏÏÍÏÌÌÏÎ Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x18AABB0
-        public void Equals(){} // RVA: 0x49E8CA0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E8DF0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E8FF0
-        public void CompareTo(){} // RVA: 0x49E91D0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E9330
-        public void GetHashCode(){} // RVA: 0x49E9600
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E96A0
-        public void GetHashCodeCore(){} // RVA: 0x49E96F0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E96A0
-        public void ToString(){} // RVA: 0x49E97E0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E9980
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7908700
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public bool Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49D29F0
-        public void Equals(){} // RVA: 0x49D2BC0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49D2D10
-        public void System.IComparable.CompareTo(){} // RVA: 0x49D2F00
-        public void CompareTo(){} // RVA: 0x49D30E0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49D3240
-        public void GetHashCode(){} // RVA: 0x49D34F0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D35C0
-        public void GetHashCodeCore(){} // RVA: 0x49D3610
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D35C0
-        public void ToString(){} // RVA: 0x49D3700
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49D38E0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7908700
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public bool Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D765C0
-        public void Equals(){} // RVA: 0x49CE370 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49CE4A0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49CE750
-        public void CompareTo(){} // RVA: 0x49CE930
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49CEA60
-        public void GetHashCode(){} // RVA: 0x49CEDD0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49CEED0
-        public void GetHashCodeCore(){} // RVA: 0x49CEF20
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49CEED0
-        public void ToString(){} // RVA: 0x49CF070
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49CF2E0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7908700
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public bool Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49D06B0
-        public void Equals(){} // RVA: 0x49D0830 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49D0980
-        public void System.IComparable.CompareTo(){} // RVA: 0x49D0BD0
-        public void CompareTo(){} // RVA: 0x49D0DB0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49D0F10
-        public void GetHashCode(){} // RVA: 0x49D1230
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D1320
-        public void GetHashCodeCore(){} // RVA: 0x49D1370
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D1320
-        public void ToString(){} // RVA: 0x49D1490
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49D16C0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void Equals(){} // RVA: 0x7A7C65D60
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C65D80
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C65ED0
+        public void CompareTo(){} // RVA: 0x7A7C65EE0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C65F00
+        public void GetHashCode(){} // RVA: 0x7A7C65F10
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C65F20
+        public void GetHashCodeCore(){} // RVA: 0x7A7C65FC0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C65F20
+        public void ToString(){} // RVA: 0x7A7C66050
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C66060
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDD60
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public TMPro.TMP_Text Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49E0FF0
-        public void Equals(){} // RVA: 0x49E1180 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E12B0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E1500
-        public void CompareTo(){} // RVA: 0x49E16D0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E1800
-        public void GetHashCode(){} // RVA: 0x49E1B10
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E1C00
-        public void GetHashCodeCore(){} // RVA: 0x49E1C50
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E1C00
-        public void ToString(){} // RVA: 0x49E1D70
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E1FA0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7C5D2A0
+        public void Equals(){} // RVA: 0x7A7C5D4D0
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C5D580
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C5D590
+        public void CompareTo(){} // RVA: 0x7A7C5D5A0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C5D650
+        public void GetHashCode(){} // RVA: 0x7A7C5D660
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C5D800
+        public void GetHashCodeCore(){} // RVA: 0x7A7C5D850
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C5D800
+        public void ToString(){} // RVA: 0x7A7C5D860
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C5D870
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDD60
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public UnityEngine.UI.Graphic Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49E0FF0
-        public void Equals(){} // RVA: 0x49E1180 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E12B0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E1500
-        public void CompareTo(){} // RVA: 0x49E16D0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E1800
-        public void GetHashCode(){} // RVA: 0x49E1B10
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E1C00
-        public void GetHashCodeCore(){} // RVA: 0x49E1C50
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E1C00
-        public void ToString(){} // RVA: 0x49E1D70
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E1FA0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7908700
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public UnityEngine.CanvasRenderer Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49E0FF0
-        public void Equals(){} // RVA: 0x49E1180 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E12B0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E1500
-        public void CompareTo(){} // RVA: 0x49E16D0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E1800
-        public void GetHashCode(){} // RVA: 0x49E1B10
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E1C00
-        public void GetHashCodeCore(){} // RVA: 0x49E1C50
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E1C00
-        public void ToString(){} // RVA: 0x49E1D70
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E1FA0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7613470
+        public void Equals(){} // RVA: 0x7A7C65620
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C65640
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C65650
+        public void CompareTo(){} // RVA: 0x7A7C65660
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C65680
+        public void GetHashCode(){} // RVA: 0x7A7C65690
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C656A0
+        public void GetHashCodeCore(){} // RVA: 0x7A7C656F0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C656A0
+        public void ToString(){} // RVA: 0x7A7C65700
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C65710
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDD60
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public UnityEngine.Renderer Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49E0FF0
-        public void Equals(){} // RVA: 0x49E1180 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E12B0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E1500
-        public void CompareTo(){} // RVA: 0x49E16D0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E1800
-        public void GetHashCode(){} // RVA: 0x49E1B10
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E1C00
-        public void GetHashCodeCore(){} // RVA: 0x49E1C50
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E1C00
-        public void ToString(){} // RVA: 0x49E1D70
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E1FA0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7C5F0E0
+        public void Equals(){} // RVA: 0x7A7C5F160
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C5F1A0
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C5F1B0
+        public void CompareTo(){} // RVA: 0x7A7C5F1C0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C5F200
+        public void GetHashCode(){} // RVA: 0x7A7C5F210
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C5F220
+        public void GetHashCodeCore(){} // RVA: 0x7A7C5F270
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C5F220
+        public void ToString(){} // RVA: 0x7A7C5F280
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C5F290
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDD60
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public System.Type Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19D8110
-        public void Equals(){} // RVA: 0x49E9C20 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E9D70
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E9F00
-        public void CompareTo(){} // RVA: 0x49EA0E0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49EA240
-        public void GetHashCode(){} // RVA: 0x49EA490
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49EA530
-        public void GetHashCodeCore(){} // RVA: 0x49EA570
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49EA530
-        public void ToString(){} // RVA: 0x49EA630
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49EA7C0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void Equals(){} // RVA: 0x7A7C65D60
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C65D80
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C65ED0
+        public void CompareTo(){} // RVA: 0x7A7C65EE0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C65F00
+        public void GetHashCode(){} // RVA: 0x7A7C65F10
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C65F20
+        public void GetHashCodeCore(){} // RVA: 0x7A7C65FC0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C65F20
+        public void ToString(){} // RVA: 0x7A7C66050
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C66060
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDD60
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public string Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19D8110
-        public void Equals(){} // RVA: 0x49E9C20 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E9D70
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E9F00
-        public void CompareTo(){} // RVA: 0x49EA0E0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49EA240
-        public void GetHashCode(){} // RVA: 0x49EA490
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49EA530
-        public void GetHashCodeCore(){} // RVA: 0x49EA570
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49EA530
-        public void ToString(){} // RVA: 0x49EA630
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49EA7C0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A75F3A80
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public string Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3C214B0
-        public void Equals(){} // RVA: 0x49E57D0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E5900
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E5B50
-        public void CompareTo(){} // RVA: 0x49E5D20
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E5E40
-        public void GetHashCode(){} // RVA: 0x49E6140
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E6180
-        public void GetHashCodeCore(){} // RVA: 0x49E61D0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E6180
-        public void ToString(){} // RVA: 0x49E62F0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E64E0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7674B10
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public byte[] Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public System.Collections.Generic.List`1<System.Collections.Generic.Dictionary`2<byte,object>> Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49D6EC0
-        public void Equals(){} // RVA: 0x49D7040 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49D71A0
-        public void System.IComparable.CompareTo(){} // RVA: 0x49D7480
-        public void CompareTo(){} // RVA: 0x49D7660
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49D77D0
-        public void GetHashCode(){} // RVA: 0x49D7B70
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D7C40
-        public void GetHashCodeCore(){} // RVA: 0x49D7C90
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D7C40
-        public void ToString(){} // RVA: 0x49D7DE0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49D7FE0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7613500
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public VRC.Udon.UdonBehaviour Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49E7A60
-        public void Equals(){} // RVA: 0x49E7C40 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E7D90
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E7F90
-        public void CompareTo(){} // RVA: 0x49E8170
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E82D0
-        public void GetHashCode(){} // RVA: 0x49E85A0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E8680
-        public void GetHashCodeCore(){} // RVA: 0x49E86D0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E8680
-        public void ToString(){} // RVA: 0x49E87C0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E89B0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7BF59F0
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public UnityEngine.Mesh Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49E66B0
-        public void Equals(){} // RVA: 0x49E6890 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E6A60
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E6D30
-        public void CompareTo(){} // RVA: 0x49E6F60
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E7160
-        public void GetHashCode(){} // RVA: 0x49E7510
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E75B0
-        public void GetHashCodeCore(){} // RVA: 0x49E7600
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E75B0
-        public void ToString(){} // RVA: 0x49E7760
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E78F0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7908700
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public VRC.Localization.LocalizableString Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49DE7D0
-        public void Equals(){} // RVA: 0x49DE9E0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49DEB70
-        public void System.IComparable.CompareTo(){} // RVA: 0x49DEE30
-        public void CompareTo(){} // RVA: 0x49DF040
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49DF1E0
-        public void GetHashCode(){} // RVA: 0x49DF570
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49DF660
-        public void GetHashCodeCore(){} // RVA: 0x49DF6B0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49DF660
-        public void ToString(){} // RVA: 0x49DF7F0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49DF9F0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7615330
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public int Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49DC580
-        public void Equals(){} // RVA: 0x49DC6C0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49DC830
-        public void System.IComparable.CompareTo(){} // RVA: 0x49DCB10
-        public void CompareTo(){} // RVA: 0x49DCCF0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49DCE60
-        public void GetHashCode(){} // RVA: 0x49DD210
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49DD2F0
-        public void GetHashCodeCore(){} // RVA: 0x49DD340
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49DD2F0
-        public void ToString(){} // RVA: 0x49DD4A0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49DD650
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void Equals(){} // RVA: 0x7A7C65D60
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C65D80
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C65ED0
+        public void CompareTo(){} // RVA: 0x7A7C65EE0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C65F00
+        public void GetHashCode(){} // RVA: 0x7A7C65F10
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C65F20
+        public void GetHashCodeCore(){} // RVA: 0x7A7C65FC0
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C65F20
+        public void ToString(){} // RVA: 0x7A7C66050
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C66060
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDD60
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2 : ValueType
     {
-        public bool Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public bool Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49D29F0
-        public void Equals(){} // RVA: 0x49D2BC0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49D2D10
-        public void System.IComparable.CompareTo(){} // RVA: 0x49D2F00
-        public void CompareTo(){} // RVA: 0x49D30E0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49D3240
-        public void GetHashCode(){} // RVA: 0x49D34F0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D35C0
-        public void GetHashCodeCore(){} // RVA: 0x49D3610
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D35C0
-        public void ToString(){} // RVA: 0x49D3700
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49D38E0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7613470
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2[] : Array
     {
-        public bool Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49D06B0
-        public void Equals(){} // RVA: 0x49D19E0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49D1B30
-        public void System.IComparable.CompareTo(){} // RVA: 0x49D1D80
-        public void CompareTo(){} // RVA: 0x49D1F60
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49D20C0
-        public void GetHashCode(){} // RVA: 0x49D23E0
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D2480
-        public void GetHashCodeCore(){} // RVA: 0x49D24D0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D2480
-        public void ToString(){} // RVA: 0x49D25F0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49D2800
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2C73D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA278880
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2[] : Array
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49D81C0
-        public void Equals(){} // RVA: 0x49D82E0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49D8420
-        public void System.IComparable.CompareTo(){} // RVA: 0x49D86C0
-        public void CompareTo(){} // RVA: 0x49D8890
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49D89C0
-        public void GetHashCode(){} // RVA: 0x49D8D20
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D8E10
-        public void GetHashCodeCore(){} // RVA: 0x49D8E60
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D8E10
-        public void ToString(){} // RVA: 0x49D8FB0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49D91E0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2C6F50
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA278520
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2[] : Array
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public string Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3C214B0
-        public void Equals(){} // RVA: 0x49E4810 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E4940
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E4B90
-        public void CompareTo(){} // RVA: 0x49E4D60
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49E4E80
-        public void GetHashCode(){} // RVA: 0x49E5180
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49E5210
-        public void GetHashCodeCore(){} // RVA: 0x49E5260
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49E5210
-        public void ToString(){} // RVA: 0x49E5380
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49E5530
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2C73D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA278880
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2[] : Array
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public VRC.Udon.Common.Interfaces.IUdonProgram Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19D8110
-        public void Equals(){} // RVA: 0x49E9C20 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49E9D70
-        public void System.IComparable.CompareTo(){} // RVA: 0x49E9F00
-        public void CompareTo(){} // RVA: 0x49EA0E0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49EA240
-        public void GetHashCode(){} // RVA: 0x49EA490
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49EA530
-        public void GetHashCodeCore(){} // RVA: 0x49EA570
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49EA530
-        public void ToString(){} // RVA: 0x49EA630
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49EA7C0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2C7250
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA278760
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`2[] : Array
     {
-        public System.Net.WebHeaderCollection Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49D5D10
-        public void Equals(){} // RVA: 0x49D5E30 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49D5F70
-        public void System.IComparable.CompareTo(){} // RVA: 0x49D6210
-        public void CompareTo(){} // RVA: 0x49D63E0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49D6510
-        public void GetHashCode(){} // RVA: 0x49D6870
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D6940
-        public void GetHashCodeCore(){} // RVA: 0x49D6990
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D6940
-        public void ToString(){} // RVA: 0x49D6AE0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49D6CE0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2C73D0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA278880
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`3 : ValueType
     {
-        public uint Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49EEE50
-        public void Equals(){} // RVA: 0x49EF020 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49EF170
-        public void System.IComparable.CompareTo(){} // RVA: 0x49EF360
-        public void CompareTo(){} // RVA: 0x49EF540
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49EF6A0
-        public void GetHashCode(){} // RVA: 0x49EF950
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49EF9E0
-        public void GetHashCodeCore(){} // RVA: 0x49EFA30
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49EF9E0
-        public void ToString(){} // RVA: 0x49EFB20
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49EFCB0
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A79C13D0
+        public void Equals(){} // RVA: 0x7A7C75960
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C75980
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C75990
+        public void CompareTo(){} // RVA: 0x7A7C759A0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C759C0
+        public void GetHashCode(){} // RVA: 0x7A7C759D0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C759E0
+        public void GetHashCodeCore(){} // RVA: 0x7A7C75A30
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C759E0
+        public void ToString(){} // RVA: 0x7A7C75A40
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C75A50
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDE90
     }
 
-    public class ValueTuple`3
+    public class ValueTuple`3 : ValueType
     {
-        public int Item1; // 0x10
-    }
-
-    public class ValueTuple`3
-    {
-        public int Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x49D93F0
-        public void Equals(){} // RVA: 0x49D9520 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x49D9650
-        public void System.IComparable.CompareTo(){} // RVA: 0x49D98E0
-        public void CompareTo(){} // RVA: 0x49D9AC0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x49D9BE0
-        public void GetHashCode(){} // RVA: 0x49D9F40
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x49D9FC0
-        public void GetHashCodeCore(){} // RVA: 0x49DA010
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x49D9FC0
-        public void ToString(){} // RVA: 0x49DA160
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x49DA310
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA308B0
+        public void .ctor(){} // RVA: 0x7A7660880
+        public void Equals(){} // RVA: 0x7A7C76460
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C76490
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C764A0
+        public void CompareTo(){} // RVA: 0x7A7C764B0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C764E0
+        public void GetHashCode(){} // RVA: 0x7A7C764F0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C76500
+        public void GetHashCodeCore(){} // RVA: 0x7A7C76540
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C76500
+        public void ToString(){} // RVA: 0x7A7C76550
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C76560
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDE90
     }
 
-    public class ValueTuple`4 : System
+    public class ValueTuple`3 : ValueType
     {
-        public U Item1;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void Equals(){} // RVA: 0x283FA0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x11120
-        public void System.IComparable.CompareTo(){} // RVA: 0x12590
-        public void CompareTo(){} // RVA: 0x283FA0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x17680
-        public void GetHashCode(){} // RVA: 0xD840
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x12590
-        public void GetHashCodeCore(){} // RVA: 0x12590
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x12590
-        public void ToString(){} // RVA: 0xCD60
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0xCD60
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xD840
+        public void .ctor(){} // RVA: 0x7A7C71C60
+        public void Equals(){} // RVA: 0x7A7C71C80
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C71C90
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C71CA0
+        public void CompareTo(){} // RVA: 0x7A7C71CB0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C71CC0
+        public void GetHashCode(){} // RVA: 0x7A7C71CD0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C71CE0
+        public void GetHashCodeCore(){} // RVA: 0x7A7C71D30
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C71CE0
+        public void ToString(){} // RVA: 0x7A7C71D40
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C71D50
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDE90
     }
 
-    public class ValueTuple`4
+    public class ValueTuple`3 : ValueType
     {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> Item1; // 0x10
-    }
-
-    public class ValueTuple`4
-    {
-        public NextResult<System.Collections.Generic.List`1<Mediapipe.Detection>> Item1; // 0x10
-    }
-
-    public class ValueTuple`4
-    {
-        public int Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4A06B10
-        public void Equals(){} // RVA: 0x4A06CA0 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4A06E60
-        public void System.IComparable.CompareTo(){} // RVA: 0x4A07140
-        public void CompareTo(){} // RVA: 0x4A07320
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4A074E0
-        public void GetHashCode(){} // RVA: 0x4A07880
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4A07970
-        public void GetHashCodeCore(){} // RVA: 0x4A079C0
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x4A07970
-        public void ToString(){} // RVA: 0x4A07B40
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x4A07D90
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA7E130
+        public void .ctor(){} // RVA: 0x7A7C77620
+        public void Equals(){} // RVA: 0x7A7C77640
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C77670
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C77680
+        public void CompareTo(){} // RVA: 0x7A7C77690
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C776C0
+        public void GetHashCode(){} // RVA: 0x7A7C776D0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C776E0
+        public void GetHashCodeCore(){} // RVA: 0x7A7C77730
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C776E0
+        public void ToString(){} // RVA: 0x7A7C77740
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C77750
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDE90
     }
 
-    public class ValueTuple`4
+    public class ValueTuple`3 : ValueType
     {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> Item1; // 0x10
-    }
-
-    public class ValueTuple`4
-    {
-        public object Item1; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4A09400
-        public void Equals(){} // RVA: 0x4A09630 | overloaded x2
-        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x4A097D0
-        public void System.IComparable.CompareTo(){} // RVA: 0x4A09A00
-        public void CompareTo(){} // RVA: 0x4A09BE0
-        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x4A09D80
-        public void GetHashCode(){} // RVA: 0x4A0A070
-        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x4A0A140
-        public void GetHashCodeCore(){} // RVA: 0x4A0A190
-        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x4A0A140
-        public void ToString(){} // RVA: 0x4A0A2B0
-        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x4A0A490
-        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0xA7E130
+        public void .ctor(){} // RVA: 0x7A7C71FF0
+        public void Equals(){} // RVA: 0x7A7C72110
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C72140
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C72150
+        public void CompareTo(){} // RVA: 0x7A7C72160
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C72190
+        public void GetHashCode(){} // RVA: 0x7A7C721A0
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C72220
+        public void GetHashCodeCore(){} // RVA: 0x7A7C72270
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C72220
+        public void ToString(){} // RVA: 0x7A7C72280
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C72290
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A79BDE90
     }
 
-    public class ValueTuple`4
+    public class ValueTuple`3[] : Array
     {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> Item1; // 0x10
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2CAE20
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2C90
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA27B430
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DF80
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ValueTuple`4
+    public class ValueTuple`4 : ValueType
     {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> Item1; // 0x10
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7C780B0
+        public void Equals(){} // RVA: 0x7A7C78140
+        public void System.Collections.IStructuralEquatable.Equals(){} // RVA: 0x7A7C78190
+        public void System.IComparable.CompareTo(){} // RVA: 0x7A7C781A0
+        public void CompareTo(){} // RVA: 0x7A7C781B0
+        public void System.Collections.IStructuralComparable.CompareTo(){} // RVA: 0x7A7C78200
+        public void GetHashCode(){} // RVA: 0x7A7C78210
+        public void System.Collections.IStructuralEquatable.GetHashCode(){} // RVA: 0x7A7C78220
+        public void GetHashCodeCore(){} // RVA: 0x7A7C78270
+        public void System.IValueTupleInternal.GetHashCode(){} // RVA: 0x7A7C78220
+        public void ToString(){} // RVA: 0x7A7C78280
+        public void System.IValueTupleInternal.ToStringEnd(){} // RVA: 0x7A7C78290
+        public void System.Runtime.CompilerServices.ITuple.get_Length(){} // RVA: 0x7A772F020
     }
 
-    public class ValueTuple`4
+    public class ValueTuple`6[] : Array
     {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> Item1; // 0x10
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2CBFF0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29E6C0
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E3990
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA27C1F0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29E6C0
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class ValueTuple`4
+    public class Variant : ValueType
     {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> Item1; // 0x10
-    }
-
-    public class ValueTuple`4
-    {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> Item1; // 0x10
-    }
-
-    public class ValueTuple`4
-    {
-        public ÍÏÎÎÌÎÌÌÎÏÌÎÍÏÍÍÏÍÏÎÎÌÏ<ÌÍÍÏÏÏÏÍÌÎÎÏÎÌÍÏÍÍÍÎÍÏÎ> Item1; // 0x10
+        // ── Methods ──
+        public void Clear(){} // RVA: 0x7A7E420F0
     }
 
 }

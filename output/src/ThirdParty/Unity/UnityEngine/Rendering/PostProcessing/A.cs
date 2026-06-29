@@ -5,53 +5,53 @@
 
 namespace ThirdParty.Unity.UnityEngine.Rendering.PostProcessing
 {
-    public class AmbientOcclusion
+    public class AmbientOcclusion : PostProcessEffectSettings
     {
         // ── Methods ──
-        public void IsEnabledAndSupported(){} // RVA: 0x6F0DA00
-        public void .ctor(){} // RVA: 0x6F0DDB0
+        public void IsEnabledAndSupported(){} // RVA: 0x7AECEC050
+        public void .ctor(){} // RVA: 0x7AECEC400
     }
 
-    public class AmbientOcclusionModeParameter
+    public class AmbientOcclusionModeParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F0D960
+        public void .ctor(){} // RVA: 0x7AECEBFB0
     }
 
-    public class AmbientOcclusionQualityParameter
+    public class AmbientOcclusionQualityParameter : ParameterOverride`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F0D9B0
+        public void .ctor(){} // RVA: 0x7AECEC000
     }
 
-    public class AmbientOcclusionRenderer
+    public class AmbientOcclusionRenderer : PostProcessEffectRenderer`1
     {
         // ── Methods ──
-        public void Init(){} // RVA: 0x6F0E4D0
-        public void IsAmbientOnly(){} // RVA: 0x6F0E690
-        public void Get(){} // RVA: 0x6F0E7A0
-        public void GetCameraFlags(){} // RVA: 0x6F0E810
-        public void Release(){} // RVA: 0x6F0E8B0
-        public void GetScalableAO(){} // RVA: 0x6F0E9C0
-        public void GetMultiScaleVO(){} // RVA: 0x6F0EA30
-        public void Render(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x6F0EAA0
+        public void Init(){} // RVA: 0x7AECECB20
+        public void IsAmbientOnly(){} // RVA: 0x7AECECCE0
+        public void Get(){} // RVA: 0x7AECECDF0
+        public void GetCameraFlags(){} // RVA: 0x7AECECE60
+        public void Release(){} // RVA: 0x7AECECF00
+        public void GetScalableAO(){} // RVA: 0x7AECED020
+        public void GetMultiScaleVO(){} // RVA: 0x7AECED090
+        public void Render(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7AECED100
     }
 
-    public class AutoExposure
+    public class AutoExposure : PostProcessEffectSettings
     {
         // ── Methods ──
-        public void IsEnabledAndSupported(){} // RVA: 0x6F0EB30
-        public void .ctor(){} // RVA: 0x6F0ECF0
+        public void IsEnabledAndSupported(){} // RVA: 0x7AECED190
+        public void .ctor(){} // RVA: 0x7AECED350
     }
 
-    public class AutoExposureRenderer
+    public class AutoExposureRenderer : PostProcessEffectRenderer`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6F0F170
-        public void CheckTexture(){} // RVA: 0x6F0F3B0
-        public void Render(){} // RVA: 0x6F0F6C0
-        public void Release(){} // RVA: 0x6F10480
+        public void .ctor(){} // RVA: 0x7AECED7C0
+        public void CheckTexture(){} // RVA: 0x7AECEDA40
+        public void Render(){} // RVA: 0x7AECEDD50
+        public void Release(){} // RVA: 0x7AECEEAE0
     }
 
 }

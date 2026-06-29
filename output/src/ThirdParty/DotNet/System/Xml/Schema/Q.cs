@@ -1,24 +1,24 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Xml.Schema
 // Classes: 2
-// Methods: 8
+// Methods: 6
 
 namespace ThirdParty.DotNet.System.Xml.Schema
 {
-    public class QNameFacetsChecker
+    public class QNameFacetsChecker : FacetsChecker
     {
         // ── Methods ──
-        public void CheckValueFacets(){} // RVA: 0x692E270 | overloaded x2
-        public void MatchEnumeration(){} // RVA: 0x692E620 | overloaded x2
-        public void .ctor(){} // RVA: 0x2DD310
+        public void CheckValueFacets(){} // RVA: 0x7AE71D9D0
+        public void MatchEnumeration(){} // RVA: 0x7AE71DD80
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class QmarkNode
+    public class QmarkNode : InteriorNode
     {
         // ── Methods ──
-        public void ConstructPos(){} // RVA: 0x6ADC0C0
-        public void get_IsNullable(){} // RVA: 0x3C2850
-        public void .ctor(){} // RVA: 0x2DD310
+        public void ConstructPos(){} // RVA: 0x7AE8CC400
+        public void get_IsNullable(){} // RVA: 0x7A81BD750
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

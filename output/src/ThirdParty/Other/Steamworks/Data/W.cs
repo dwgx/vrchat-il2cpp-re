@@ -5,13 +5,11 @@
 
 namespace ThirdParty.Other.Steamworks.Data
 {
-    public class WorkshopEULAStatus_t
+    public class WorkshopEULAStatus_t : ValueType
     {
-        public 0x659B1530 Result; // 0x10
-
         // ── Methods ──
-        public void get_CallbackType(){} // RVA: 0x20D1A80
-        public void .cctor(){} // RVA: 0x20D1A90
+        public void get_CallbackType(){} // RVA: 0x7A7726720
+        public void .cctor(){} // RVA: 0x7A9EE6330
     }
 
 }

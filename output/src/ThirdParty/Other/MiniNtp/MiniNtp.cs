@@ -1,31 +1,31 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.MiniNtp
 // Classes: 3
-// Methods: 10
+// Methods: 8
 
 namespace ThirdParty.Other.MiniNtp
 {
-    public class ExtensionMethods
+    public class ExtensionMethods : Object
     {
         // ── Methods ──
-        public void ReverseBytes(){} // RVA: 0x20C6D90
+        public void ReverseBytes(){} // RVA: 0x7A9EDB630
     }
 
-    public class NtpTimestamp
+    public class NtpTimestamp : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60809F0 | overloaded x2
-        public void ToBigEndianBytes(){} // RVA: 0x6080B80
-        public void ToString(){} // RVA: 0x6080B90
-        public void Equals(){} // RVA: 0x6080C80 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x6080D10
-        public void CompareTo(){} // RVA: 0x6080D20
+        public void .ctor(){} // RVA: 0x7A7E4A160
+        public void ToBigEndianBytes(){} // RVA: 0x7A7E4A170
+        public void ToString(){} // RVA: 0x7A7E4A180
+        public void Equals(){} // RVA: 0x7A7E4A270
+        public void GetHashCode(){} // RVA: 0x7A7E4A300
+        public void CompareTo(){} // RVA: 0x7A7E4A310
     }
 
-    public class TimeConstants
+    public class TimeConstants : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x6080D50
+        public void .cctor(){} // RVA: 0x7ADE6CE10
     }
 
 }

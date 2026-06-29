@@ -1,6254 +1,5344 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Wrapper.Modules
 // Classes: 100
-// Methods: 5520
+// Methods: 4836
 
 namespace VRC.Udon.Wrapper.Modules
 {
-    public class ExternUnityEngineAvatar
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFA9B0
-        public void .ctor(){} // RVA: 0x7FFA9F0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x7FFADC0
-        public void GetExternFunctionDelegate(){} // RVA: 0x7FFAEF0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7FFB000
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x7FFB1D0
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7FFB330
-        public void __GetType__SystemType(){} // RVA: 0x7FFB480
-        public void __ToString__SystemString(){} // RVA: 0x7FFB570
-        public void __get_humanDescription__UnityEngineHumanDescription(){} // RVA: 0x7FFB6C0
-        public void __get_isHuman__SystemBoolean(){} // RVA: 0x7FFB840
-        public void __get_isValid__SystemBoolean(){} // RVA: 0x7FFB960
-        public void __get_name__SystemString(){} // RVA: 0x7FFBA80
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7FFBBD0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7FFBED0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7FFC0C0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7FFC3C0
-        public void <.ctor>b__6_1(){} // RVA: 0x7FFC510
-    }
-
-    public class ExternUnityEngineAvatarArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x7FFD0A0
-        public void .ctor(){} // RVA: 0x7FFD0E0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x7FFD4B0
-        public void GetExternFunctionDelegate(){} // RVA: 0x7FFD5E0
-        public void __Clone__SystemObject(){} // RVA: 0x7FFD6F0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7FFD7D0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7FFD8B0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7FFD980
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7FFDAD0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x7FFDB70
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7FFDC70
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7FFDD90
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7FFDEA0
-        public void __GetType__SystemType(){} // RVA: 0x7FFDFC0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7FFE0B0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7FFE190
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7FFE2B0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7FFE440
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7FFE590
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7FFE6C0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7FFE7E0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7FFE950
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7FFEA90
-        public void __Get__SystemInt32__UnityEngineAvatar(){} // RVA: 0x7FFEBB0
-        public void __Initialize__SystemVoid(){} // RVA: 0x7FFECF0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7FFED60
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7FFEE80
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7FFF000
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7FFF160
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7FFF290
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7FFF3B0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7FFF510
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7FFF660
-        public void __Set__SystemInt32_UnityEngineAvatar__SystemVoid(){} // RVA: 0x7FFF780
-        public void __ToString__SystemString(){} // RVA: 0x7FFF940
-        public void __ctor__SystemInt32__UnityEngineAvatarArray(){} // RVA: 0x7FFFA30
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7FFFBE0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7FFFC80
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7FFFD20
-        public void __get_Length__SystemInt32(){} // RVA: 0x7FFFDC0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x7FFFE60
-        public void __get_Rank__SystemInt32(){} // RVA: 0x7FFFF00
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7FFFFA0
-        public void <.ctor>b__6_1(){} // RVA: 0x8000080
-    }
-
-    public class ExternUnityEngineAvatarBuilder
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8001FA0
-        public void .ctor(){} // RVA: 0x8001FE0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80023B0
-        public void GetExternFunctionDelegate(){} // RVA: 0x80024E0
-        public void __BuildGenericAvatar__UnityEngineGameObject_SystemString__UnityEngineAvatar(){} // RVA: 0x80025F0
-        public void __BuildHumanAvatar__UnityEngineGameObject_UnityEngineHumanDescription__UnityEngineAvatar(){} // RVA: 0x8002770
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8002A40
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8002B90
-        public void __GetType__SystemType(){} // RVA: 0x8002C90
-        public void __ToString__SystemString(){} // RVA: 0x8002D80
-        public void __ctor____UnityEngineAvatarBuilder(){} // RVA: 0x8002E70
-        public void <.ctor>b__6_1(){} // RVA: 0x8002EF0
-    }
-
-    public class ExternUnityEngineAvatarBuilderArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8003610
-        public void .ctor(){} // RVA: 0x8003650
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8003A20
-        public void GetExternFunctionDelegate(){} // RVA: 0x8003B50
-        public void __Clone__SystemObject(){} // RVA: 0x8003C60
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8003D40
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8003E20
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8003EF0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8004040
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80040E0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x80041E0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8004300
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8004410
-        public void __GetType__SystemType(){} // RVA: 0x8004530
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8004620
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8004700
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8004820
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80049B0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8004B00
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8004C30
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8004D50
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8004EC0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8005000
-        public void __Get__SystemInt32__UnityEngineAvatarBuilder(){} // RVA: 0x8005120
-        public void __Initialize__SystemVoid(){} // RVA: 0x8005200
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8005270
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8005390
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8005510
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8005670
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x80057A0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80058C0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8005A20
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8005B70
-        public void __Set__SystemInt32_UnityEngineAvatarBuilder__SystemVoid(){} // RVA: 0x8005C90
-        public void __ToString__SystemString(){} // RVA: 0x8005ED0
-        public void __ctor__SystemInt32__UnityEngineAvatarBuilderArray(){} // RVA: 0x8005FC0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8006160
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8006200
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x80062A0
-        public void __get_Length__SystemInt32(){} // RVA: 0x8006340
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x80063E0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8006480
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8006520
-        public void <.ctor>b__6_1(){} // RVA: 0x8006600
-    }
-
-    public class ExternUnityEngineAvatarMask
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8008520
-        public void .ctor(){} // RVA: 0x8008560
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8008930
-        public void GetExternFunctionDelegate(){} // RVA: 0x8008A60
-        public void __AddTransformPath__UnityEngineTransform_SystemBoolean__SystemVoid(){} // RVA: 0x8008B70
-        public void __AddTransformPath__UnityEngineTransform__SystemVoid(){} // RVA: 0x8008CB0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8008E00
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8008FD0
-        public void __GetHumanoidBodyPartActive__UnityEngineAvatarMaskBodyPart__SystemBoolean(){} // RVA: 0x8009130
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8009290
-        public void __GetTransformActive__SystemInt32__SystemBoolean(){} // RVA: 0x80093E0
-        public void __GetTransformPath__SystemInt32__SystemString(){} // RVA: 0x8009500
-        public void __GetType__SystemType(){} // RVA: 0x8009660
-        public void __RemoveTransformPath__UnityEngineTransform_SystemBoolean__SystemVoid(){} // RVA: 0x8009750
-        public void __RemoveTransformPath__UnityEngineTransform__SystemVoid(){} // RVA: 0x8009890
-        public void __SetHumanoidBodyPartActive__UnityEngineAvatarMaskBodyPart_SystemBoolean__SystemVoid(){} // RVA: 0x80099E0
-        public void __SetTransformActive__SystemInt32_SystemBoolean__SystemVoid(){} // RVA: 0x8009B00
-        public void __SetTransformPath__SystemInt32_SystemString__SystemVoid(){} // RVA: 0x8009C70
-        public void __ToString__SystemString(){} // RVA: 0x8009DC0
-        public void __get_name__SystemString(){} // RVA: 0x8009F10
-        public void __get_transformCount__SystemInt32(){} // RVA: 0x800A060
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x800A180
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x800A480
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x800A670
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x800A970
-        public void __set_transformCount__SystemInt32__SystemVoid(){} // RVA: 0x800AAC0
-        public void <.ctor>b__6_1(){} // RVA: 0x800ABE0
-    }
-
-    public class ExternUnityEngineAvatarMaskArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x800BE30
-        public void .ctor(){} // RVA: 0x800BE70
-        public void GetExternFunctionParameterCount(){} // RVA: 0x800C240
-        public void GetExternFunctionDelegate(){} // RVA: 0x800C370
-        public void __Clone__SystemObject(){} // RVA: 0x800C480
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x800C560
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x800C640
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x800C710
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x800C860
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x800C900
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x800CA00
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x800CB20
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x800CC30
-        public void __GetType__SystemType(){} // RVA: 0x800CD50
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x800CE40
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x800CF20
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x800D040
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x800D1D0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x800D320
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x800D450
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x800D570
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x800D6E0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x800D820
-        public void __Get__SystemInt32__UnityEngineAvatarMask(){} // RVA: 0x800D940
-        public void __Initialize__SystemVoid(){} // RVA: 0x800DB50
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x800DBC0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x800DCE0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x800DE60
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x800DFC0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x800E0F0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x800E210
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x800E370
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x800E4C0
-        public void __Set__SystemInt32_UnityEngineAvatarMask__SystemVoid(){} // RVA: 0x800E5E0
-        public void __ToString__SystemString(){} // RVA: 0x800E770
-        public void __ctor__SystemInt32__UnityEngineAvatarMaskArray(){} // RVA: 0x800E860
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x800EA10
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x800EAB0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x800EB50
-        public void __get_Length__SystemInt32(){} // RVA: 0x800EBF0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x800EC90
-        public void __get_Rank__SystemInt32(){} // RVA: 0x800ED30
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x800EDD0
-        public void <.ctor>b__6_1(){} // RVA: 0x800EEB0
-    }
-
-    public class ExternUnityEngineBehaviour
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8010DD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8010E10
-        public void .ctor(){} // RVA: 0x8010EC0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8011290
-        public void GetExternFunctionDelegate(){} // RVA: 0x80113C0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80114D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80115C0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8011870
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x80119D0
-        public void __GetComponentInChildren__T(){} // RVA: 0x8011AF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x8011BE0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8011E60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8011F50
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8012200
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x8012360
-        public void __GetComponentInParent__T(){} // RVA: 0x8012480
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x8012570
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x80127F0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8012960
-        public void __GetComponent__T(){} // RVA: 0x8012A80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8012B60
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8012DB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8012EA0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80131D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80132C0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8013600
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80136F0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8013A00
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8013B70
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x8013CA0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x8013D90
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8014080
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8014170
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80144B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80145A0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80148B0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8014A20
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x8014B60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8014C50
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8014F40
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8015030
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x8015320
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x8015470
-        public void __GetComponents__TArray(){} // RVA: 0x80155A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x8015690
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8015940
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x8015A60
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8015B80
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8015E80
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8016070
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8016370
-        public void <.ctor>b__8_1(){} // RVA: 0x80164A0
-    }
-
-    public class ExternUnityEngineBehaviourArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8017E80
-        public void .ctor(){} // RVA: 0x8017EC0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8018290
-        public void GetExternFunctionDelegate(){} // RVA: 0x80183C0
-        public void __Clone__SystemObject(){} // RVA: 0x80184D0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x80185B0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8018690
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8018760
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x80188B0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8018950
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8018A50
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8018B70
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8018C80
-        public void __GetType__SystemType(){} // RVA: 0x8018DA0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8018E90
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8018F70
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8019090
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8019220
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8019370
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x80194A0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80195C0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8019730
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8019870
-        public void __Get__SystemInt32__UnityEngineBehaviour(){} // RVA: 0x8019990
-        public void __Initialize__SystemVoid(){} // RVA: 0x8019AD0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8019B40
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8019C60
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8019DE0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8019F40
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x801A070
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x801A190
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x801A2F0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x801A440
-        public void __Set__SystemInt32_UnityEngineBehaviour__SystemVoid(){} // RVA: 0x801A560
-        public void __ToString__SystemString(){} // RVA: 0x801A720
-        public void __ctor__SystemInt32__UnityEngineBehaviourArray(){} // RVA: 0x801A810
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x801A900
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x801A9A0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x801AA40
-        public void __get_Length__SystemInt32(){} // RVA: 0x801AAE0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x801AB80
-        public void __get_Rank__SystemInt32(){} // RVA: 0x801AC20
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x801ACC0
-        public void <.ctor>b__6_1(){} // RVA: 0x801ADA0
-    }
-
-    public class ExternUnityEngineBillboardRenderer
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x801CCC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x801CD00
-        public void .ctor(){} // RVA: 0x801CDB0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x801D180
-        public void GetExternFunctionDelegate(){} // RVA: 0x801D2B0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x801D3C0
-        public void __GetClosestReflectionProbes__SystemCollectionsGenericListUnityEngineRenderingReflectionProbeBlendInfo__SystemVoid(){} // RVA: 0x801D590
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x801D6B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x801D7A0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x801DA50
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x801DBB0
-        public void __GetComponentInChildren__T(){} // RVA: 0x801DCD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x801DDC0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x801E040
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x801E130
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x801E3E0
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x801E540
-        public void __GetComponentInParent__T(){} // RVA: 0x801E660
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x801E750
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x801E9D0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x801EB40
-        public void __GetComponent__T(){} // RVA: 0x801EC60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x801ED40
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x801EF90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x801F080
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x801F3B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x801F4A0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x801F7E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x801F8D0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x801FBE0
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x801FD50
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x801FE80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x801FF70
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8020260
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8020350
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8020690
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8020780
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8020A90
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8020C00
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x8020D40
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8020E30
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8021120
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8021210
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x8021500
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x8021650
-        public void __GetComponents__TArray(){} // RVA: 0x8021780
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x8021870
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8021B20
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8021C80
-        public void __GetMaterials__SystemCollectionsGenericListUnityEngineMaterial__SystemVoid(){} // RVA: 0x8021DD0
-        public void __GetPropertyBlock__UnityEngineMaterialPropertyBlock_SystemInt32__SystemVoid(){} // RVA: 0x8021EF0
-        public void __GetPropertyBlock__UnityEngineMaterialPropertyBlock__SystemVoid(){} // RVA: 0x8022000
-        public void __GetSharedMaterials__SystemCollectionsGenericListUnityEngineMaterial__SystemVoid(){} // RVA: 0x8022120
-        public void __GetType__SystemType(){} // RVA: 0x8022240
-        public void __HasPropertyBlock__SystemBoolean(){} // RVA: 0x8022330
-        public void __ResetBounds__SystemVoid(){} // RVA: 0x8022450
-        public void __ResetLocalBounds__SystemVoid(){} // RVA: 0x8022540
-        public void __SetMaterials__SystemCollectionsGenericListUnityEngineMaterial__SystemVoid(){} // RVA: 0x8022630
-        public void __SetPropertyBlock__UnityEngineMaterialPropertyBlock_SystemInt32__SystemVoid(){} // RVA: 0x8022800
-        public void __SetPropertyBlock__UnityEngineMaterialPropertyBlock__SystemVoid(){} // RVA: 0x8022910
-        public void __SetSharedMaterials__SystemCollectionsGenericListUnityEngineMaterial__SystemVoid(){} // RVA: 0x8022A30
-        public void __ToString__SystemString(){} // RVA: 0x8022C00
-        public void __get_allowOcclusionWhenDynamic__SystemBoolean(){} // RVA: 0x8022D50
-        public void __get_billboard__UnityEngineBillboardAsset(){} // RVA: 0x8022E70
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x8023080
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x80231D0
-        public void __get_forceRenderingOff__SystemBoolean(){} // RVA: 0x80232F0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8023410
-        public void __get_isPartOfStaticBatch__SystemBoolean(){} // RVA: 0x8023550
-        public void __get_isVisible__SystemBoolean(){} // RVA: 0x8023670
-        public void __get_lightProbeProxyVolumeOverride__UnityEngineGameObject(){} // RVA: 0x8023790
-        public void __get_lightProbeUsage__UnityEngineRenderingLightProbeUsage(){} // RVA: 0x80238D0
-        public void __get_lightmapIndex__SystemInt32(){} // RVA: 0x80239F0
-        public void __get_lightmapScaleOffset__UnityEngineVector4(){} // RVA: 0x8023B10
-        public void __get_localBounds__UnityEngineBounds(){} // RVA: 0x8023C50
-        public void __get_localToWorldMatrix__UnityEngineMatrix4x4(){} // RVA: 0x8023DA0
-        public void __get_material__UnityEngineMaterial(){} // RVA: 0x8023F20
-        public void __get_materials__UnityEngineMaterialArray(){} // RVA: 0x8024060
-        public void __get_motionVectorGenerationMode__UnityEngineMotionVectorGenerationMode(){} // RVA: 0x80241A0
-        public void __get_name__SystemString(){} // RVA: 0x80242C0
-        public void __get_probeAnchor__UnityEngineTransform(){} // RVA: 0x8024410
-        public void __get_realtimeLightmapIndex__SystemInt32(){} // RVA: 0x8024550
-        public void __get_realtimeLightmapScaleOffset__UnityEngineVector4(){} // RVA: 0x8024680
-        public void __get_receiveShadows__SystemBoolean(){} // RVA: 0x80247C0
-        public void __get_reflectionProbeUsage__UnityEngineRenderingReflectionProbeUsage(){} // RVA: 0x80248E0
-        public void __get_rendererPriority__SystemInt32(){} // RVA: 0x8024A00
-        public void __get_renderingLayerMask__SystemUInt32(){} // RVA: 0x8024B20
-        public void __get_shadowCastingMode__UnityEngineRenderingShadowCastingMode(){} // RVA: 0x8024C40
-        public void __get_sharedMaterial__UnityEngineMaterial(){} // RVA: 0x8024D60
-        public void __get_sharedMaterials__UnityEngineMaterialArray(){} // RVA: 0x8024EA0
-        public void __get_sortingLayerID__SystemInt32(){} // RVA: 0x8024FE0
-        public void __get_sortingLayerName__SystemString(){} // RVA: 0x8025100
-        public void __get_sortingOrder__SystemInt32(){} // RVA: 0x8025220
-        public void __get_staticShadowCaster__SystemBoolean(){} // RVA: 0x8025340
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8025460
-        public void __get_worldToLocalMatrix__UnityEngineMatrix4x4(){} // RVA: 0x80255A0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8025720
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8025A20
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8025C10
-        public void __set_allowOcclusionWhenDynamic__SystemBoolean__SystemVoid(){} // RVA: 0x8025F10
-        public void __set_billboard__UnityEngineBillboardAsset__SystemVoid(){} // RVA: 0x8026040
-        public void __set_bounds__UnityEngineBounds__SystemVoid(){} // RVA: 0x8026250
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8026390
-        public void __set_forceRenderingOff__SystemBoolean__SystemVoid(){} // RVA: 0x80264C0
-        public void __set_lightProbeProxyVolumeOverride__UnityEngineGameObject__SystemVoid(){} // RVA: 0x80265F0
-        public void __set_lightProbeUsage__UnityEngineRenderingLightProbeUsage__SystemVoid(){} // RVA: 0x8026740
-        public void __set_lightmapIndex__SystemInt32__SystemVoid(){} // RVA: 0x8026860
-        public void __set_lightmapScaleOffset__UnityEngineVector4__SystemVoid(){} // RVA: 0x8026990
-        public void __set_localBounds__UnityEngineBounds__SystemVoid(){} // RVA: 0x8026AC0
-        public void __set_material__UnityEngineMaterial__SystemVoid(){} // RVA: 0x8026C00
-        public void __set_materials__UnityEngineMaterialArray__SystemVoid(){} // RVA: 0x8026D50
-        public void __set_motionVectorGenerationMode__UnityEngineMotionVectorGenerationMode__SystemVoid(){} // RVA: 0x8026E80
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8026FA0
-        public void __set_probeAnchor__UnityEngineTransform__SystemVoid(){} // RVA: 0x80270F0
-        public void __set_realtimeLightmapIndex__SystemInt32__SystemVoid(){} // RVA: 0x8027240
-        public void __set_realtimeLightmapScaleOffset__UnityEngineVector4__SystemVoid(){} // RVA: 0x8027370
-        public void __set_receiveShadows__SystemBoolean__SystemVoid(){} // RVA: 0x80274A0
-        public void __set_reflectionProbeUsage__UnityEngineRenderingReflectionProbeUsage__SystemVoid(){} // RVA: 0x80275D0
-        public void __set_rendererPriority__SystemInt32__SystemVoid(){} // RVA: 0x80276F0
-        public void __set_renderingLayerMask__SystemUInt32__SystemVoid(){} // RVA: 0x8027810
-        public void __set_shadowCastingMode__UnityEngineRenderingShadowCastingMode__SystemVoid(){} // RVA: 0x8027930
-        public void __set_sharedMaterial__UnityEngineMaterial__SystemVoid(){} // RVA: 0x8027A50
-        public void __set_sharedMaterials__UnityEngineMaterialArray__SystemVoid(){} // RVA: 0x8027BA0
-        public void __set_sortingLayerID__SystemInt32__SystemVoid(){} // RVA: 0x8027CD0
-        public void __set_sortingLayerName__SystemString__SystemVoid(){} // RVA: 0x8027DF0
-        public void __set_sortingOrder__SystemInt32__SystemVoid(){} // RVA: 0x8027F10
-        public void __set_staticShadowCaster__SystemBoolean__SystemVoid(){} // RVA: 0x8028030
-        public void <.ctor>b__8_1(){} // RVA: 0x8028160
-    }
-
-    public class ExternUnityEngineBillboardRendererArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x802D440
-        public void .ctor(){} // RVA: 0x802D480
-        public void GetExternFunctionParameterCount(){} // RVA: 0x802D850
-        public void GetExternFunctionDelegate(){} // RVA: 0x802D980
-        public void __Clone__SystemObject(){} // RVA: 0x802DA90
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x802DB70
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x802DC50
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x802DD20
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x802DE70
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x802DF10
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x802E010
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x802E130
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x802E240
-        public void __GetType__SystemType(){} // RVA: 0x802E360
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x802E450
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x802E530
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x802E650
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x802E7E0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x802E930
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x802EA60
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x802EB80
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x802ECF0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x802EE30
-        public void __Get__SystemInt32__UnityEngineBillboardRenderer(){} // RVA: 0x802EF50
-        public void __Initialize__SystemVoid(){} // RVA: 0x802F090
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x802F100
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x802F220
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x802F3A0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x802F500
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x802F630
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x802F750
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x802F8B0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x802FA00
-        public void __Set__SystemInt32_UnityEngineBillboardRenderer__SystemVoid(){} // RVA: 0x802FB20
-        public void __ToString__SystemString(){} // RVA: 0x802FCB0
-        public void __ctor__SystemInt32__UnityEngineBillboardRendererArray(){} // RVA: 0x802FDA0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x802FE90
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x802FF30
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x802FFD0
-        public void __get_Length__SystemInt32(){} // RVA: 0x8030070
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8030110
-        public void __get_Rank__SystemInt32(){} // RVA: 0x80301B0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8030250
-        public void <.ctor>b__6_1(){} // RVA: 0x8030330
-    }
-
-    public class ExternUnityEngineBounds
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8032250
-        public void .ctor(){} // RVA: 0x8032290
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8032660
-        public void GetExternFunctionDelegate(){} // RVA: 0x8032790
-        public void __ClosestPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x80328A0
-        public void __Contains__UnityEngineVector3__SystemBoolean(){} // RVA: 0x8032A20
-        public void __Encapsulate__UnityEngineBounds__SystemVoid(){} // RVA: 0x8032B80
-        public void __Encapsulate__UnityEngineVector3__SystemVoid(){} // RVA: 0x8032C00
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8032CA0
-        public void __Equals__UnityEngineBounds__SystemBoolean(){} // RVA: 0x8032DD0
-        public void __Expand__SystemSingle__SystemVoid(){} // RVA: 0x8032F20
-        public void __Expand__UnityEngineVector3__SystemVoid(){} // RVA: 0x8032FC0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8033060
-        public void __GetType__SystemType(){} // RVA: 0x8033120
-        public void __IntersectRay__UnityEngineRay_SystemSingleRef__SystemBoolean(){} // RVA: 0x8033210
-        public void __IntersectRay__UnityEngineRay__SystemBoolean(){} // RVA: 0x80333E0
-        public void __Intersects__UnityEngineBounds__SystemBoolean(){} // RVA: 0x8033560
-        public void __SetMinMax__UnityEngineVector3_UnityEngineVector3__SystemVoid(){} // RVA: 0x80336F0
-        public void __SqrDistance__UnityEngineVector3__SystemSingle(){} // RVA: 0x80337B0
-        public void __ToString__SystemString(){} // RVA: 0x8033910
-        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x80339C0
-        public void __ToString__SystemString__SystemString(){} // RVA: 0x8033AE0
-        public void __ctor__UnityEngineVector3_UnityEngineVector3__UnityEngineBounds(){} // RVA: 0x8033BC0
-        public void __get_center__UnityEngineVector3(){} // RVA: 0x8033CF0
-        public void __get_extents__UnityEngineVector3(){} // RVA: 0x8033DB0
-        public void __get_max__UnityEngineVector3(){} // RVA: 0x8033E70
-        public void __get_min__UnityEngineVector3(){} // RVA: 0x8033F60
-        public void __get_size__UnityEngineVector3(){} // RVA: 0x8034050
-        public void __op_Equality__UnityEngineBounds_UnityEngineBounds__SystemBoolean(){} // RVA: 0x8034130
-        public void __op_Inequality__UnityEngineBounds_UnityEngineBounds__SystemBoolean(){} // RVA: 0x80342B0
-        public void __set_center__UnityEngineVector3__SystemVoid(){} // RVA: 0x8034430
-        public void __set_extents__UnityEngineVector3__SystemVoid(){} // RVA: 0x8034540
-        public void __set_max__UnityEngineVector3__SystemVoid(){} // RVA: 0x8034650
-        public void __set_min__UnityEngineVector3__SystemVoid(){} // RVA: 0x80347F0
-        public void __set_size__UnityEngineVector3__SystemVoid(){} // RVA: 0x8034980
-        public void <.ctor>b__6_1(){} // RVA: 0x8034AA0
-    }
-
-    public class ExternUnityEngineBoundsArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80363C0
-        public void .ctor(){} // RVA: 0x8036400
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80367D0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8036900
-        public void __Clone__SystemObject(){} // RVA: 0x8036A10
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8036AF0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8036BD0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8036CA0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8036DF0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8036E90
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8036F90
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x80370B0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x80371C0
-        public void __GetType__SystemType(){} // RVA: 0x80372E0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x80373D0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x80374B0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80375D0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8037760
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x80378B0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x80379E0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8037B00
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8037C70
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8037DB0
-        public void __Get__SystemInt32__UnityEngineBounds(){} // RVA: 0x8037ED0
-        public void __Initialize__SystemVoid(){} // RVA: 0x8037FD0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8038040
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8038160
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80382E0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8038440
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8038570
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8038690
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80387F0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8038940
-        public void __Set__SystemInt32_UnityEngineBounds__SystemVoid(){} // RVA: 0x8038A60
-        public void __ToString__SystemString(){} // RVA: 0x8038B70
-        public void __ctor__SystemInt32__UnityEngineBoundsArray(){} // RVA: 0x8038C60
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8038E00
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8038EA0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8038F40
-        public void __get_Length__SystemInt32(){} // RVA: 0x8038FE0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8039080
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8039120
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x80391C0
-        public void <.ctor>b__6_1(){} // RVA: 0x80392A0
-    }
-
-    public class ExternUnityEngineBoxCollider
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x803B1C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x803B200
-        public void .ctor(){} // RVA: 0x803B2B0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x803B680
-        public void GetExternFunctionDelegate(){} // RVA: 0x803B7B0
-        public void __ClosestPointOnBounds__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x803B8C0
-        public void __ClosestPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x803BAB0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x803BC50
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x803BE20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x803BF10
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x803C1C0
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x803C320
-        public void __GetComponentInChildren__T(){} // RVA: 0x803C440
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x803C530
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x803C7B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x803C8A0
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x803CB50
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x803CCB0
-        public void __GetComponentInParent__T(){} // RVA: 0x803CDD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x803CEC0
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x803D140
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x803D2B0
-        public void __GetComponent__T(){} // RVA: 0x803D3D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x803D4B0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x803D700
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x803D7F0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x803DB20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x803DC10
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x803DF50
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x803E040
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x803E350
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x803E4C0
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x803E5F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x803E6E0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x803E9D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x803EAC0
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x803EE00
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x803EEF0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x803F200
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x803F370
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x803F4B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x803F5A0
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x803F890
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x803F980
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x803FC70
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x803FDC0
-        public void __GetComponents__TArray(){} // RVA: 0x803FEF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x803FFE0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8040290
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x80403F0
-        public void __GetType__SystemType(){} // RVA: 0x8040540
-        public void __Raycast__UnityEngineRay_UnityEngineRaycastHitRef_SystemSingle__SystemBoolean(){} // RVA: 0x8040630
-        public void __ToString__SystemString(){} // RVA: 0x8040880
-        public void __get_attachedArticulationBody__UnityEngineArticulationBody(){} // RVA: 0x80409D0
-        public void __get_attachedRigidbody__UnityEngineRigidbody(){} // RVA: 0x8040B10
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x8040C50
-        public void __get_center__UnityEngineVector3(){} // RVA: 0x8040DA0
-        public void __get_contactOffset__SystemSingle(){} // RVA: 0x8040EF0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8041010
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x8041130
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8041260
-        public void __get_hasModifiableContacts__SystemBoolean(){} // RVA: 0x80413A0
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x80414C0
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x80415F0
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x8041710
-        public void __get_material__UnityEnginePhysicMaterial(){} // RVA: 0x8041830
-        public void __get_name__SystemString(){} // RVA: 0x8041970
-        public void __get_providesContacts__SystemBoolean(){} // RVA: 0x8041AC0
-        public void __get_sharedMaterial__UnityEnginePhysicMaterial(){} // RVA: 0x8041BE0
-        public void __get_size__UnityEngineVector3(){} // RVA: 0x8041D20
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8041E70
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8041FB0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x80422B0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80424A0
-        public void __set_center__UnityEngineVector3__SystemVoid(){} // RVA: 0x80427A0
-        public void __set_contactOffset__SystemSingle__SystemVoid(){} // RVA: 0x80428E0
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8042A10
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8042B40
-        public void __set_hasModifiableContacts__SystemBoolean__SystemVoid(){} // RVA: 0x8042C60
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8042D90
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x8042EB0
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x8042FE0
-        public void __set_material__UnityEnginePhysicMaterial__SystemVoid(){} // RVA: 0x8043100
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8043250
-        public void __set_providesContacts__SystemBoolean__SystemVoid(){} // RVA: 0x80433A0
-        public void __set_sharedMaterial__UnityEnginePhysicMaterial__SystemVoid(){} // RVA: 0x80434D0
-        public void __set_size__UnityEngineVector3__SystemVoid(){} // RVA: 0x8043620
-        public void <.ctor>b__8_1(){} // RVA: 0x8043760
-    }
-
-    public class ExternUnityEngineBoxCollider2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8046C30
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8046C70
-        public void .ctor(){} // RVA: 0x8046D20
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80470F0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8047220
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8047330
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8047600
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x80478D0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8047B50
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8047D90
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8047F60
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x80480F0
-        public void __ClosestPoint__UnityEngineVector2__UnityEngineVector2(){} // RVA: 0x8048240
-        public void __CreateMesh__SystemBoolean_SystemBoolean__UnityEngineMesh(){} // RVA: 0x80483A0
-        public void __Distance__UnityEngineCollider2D__UnityEngineColliderDistance2D(){} // RVA: 0x8048500
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8048690
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8048860
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8048950
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8048C00
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x8048D60
-        public void __GetComponentInChildren__T(){} // RVA: 0x8048E80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x8048F70
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80491F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80492E0
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8049590
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x80496F0
-        public void __GetComponentInParent__T(){} // RVA: 0x8049810
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x8049900
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x8049B80
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8049CF0
-        public void __GetComponent__T(){} // RVA: 0x8049E10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8049EF0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x804A140
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x804A230
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x804A560
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x804A650
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x804A990
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x804AA80
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x804AD90
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x804AF00
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x804B030
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x804B120
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x804B410
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x804B500
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x804B840
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x804B930
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x804BC40
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x804BDB0
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x804BEF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x804BFE0
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x804C2D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x804C3C0
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x804C6B0
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x804C800
-        public void __GetComponents__TArray(){} // RVA: 0x804C930
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x804CA20
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x804CCD0
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x804CE20
-        public void __GetContacts__UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x804CF30
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x804D080
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x804D2B0
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x804D490
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x804D6C0
-        public void __GetContacts__UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x804D8A0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x804D9B0
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x804DB10
-        public void __GetShapeHash__SystemUInt32(){} // RVA: 0x804DC60
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x804DD80
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D__SystemInt32(){} // RVA: 0x804DF00
-        public void __GetType__SystemType(){} // RVA: 0x804E080
-        public void __IsTouchingLayers__SystemBoolean(){} // RVA: 0x804E170
-        public void __IsTouchingLayers__SystemInt32__SystemBoolean(){} // RVA: 0x804E2A0
-        public void __IsTouching__UnityEngineCollider2D_UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x804E400
-        public void __IsTouching__UnityEngineCollider2D__SystemBoolean(){} // RVA: 0x804E5C0
-        public void __IsTouching__UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x804E720
-        public void __OverlapCollider__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x804E8A0
-        public void __OverlapCollider__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x804EAD0
-        public void __OverlapPoint__UnityEngineVector2__SystemBoolean(){} // RVA: 0x804ED00
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle__SystemInt32(){} // RVA: 0x804EE60
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x804F0D0
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x804F340
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle_SystemSingle__SystemInt32(){} // RVA: 0x804F570
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle__SystemInt32(){} // RVA: 0x804F7C0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32__SystemInt32(){} // RVA: 0x804F9D0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x804FBA0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x804FD30
-        public void __ToString__SystemString(){} // RVA: 0x804FE80
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x804FFD0
-        public void __get_autoTiling__SystemBoolean(){} // RVA: 0x8050110
-        public void __get_bounciness__SystemSingle(){} // RVA: 0x8050230
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x8050350
-        public void __get_callbackLayers__UnityEngineLayerMask(){} // RVA: 0x80504A0
-        public void __get_composite__UnityEngineCompositeCollider2D(){} // RVA: 0x80505D0
-        public void __get_contactCaptureLayers__UnityEngineLayerMask(){} // RVA: 0x8050710
-        public void __get_density__SystemSingle(){} // RVA: 0x8050840
-        public void __get_edgeRadius__SystemSingle(){} // RVA: 0x8050960
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8050A80
-        public void __get_errorState__UnityEngineColliderErrorState2D(){} // RVA: 0x8050BA0
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x8050CC0
-        public void __get_forceReceiveLayers__UnityEngineLayerMask(){} // RVA: 0x8050DF0
-        public void __get_forceSendLayers__UnityEngineLayerMask(){} // RVA: 0x8050F20
-        public void __get_friction__SystemSingle(){} // RVA: 0x8051050
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8051170
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x80512B0
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x80513E0
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x8051500
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x8051620
-        public void __get_name__SystemString(){} // RVA: 0x8051740
-        public void __get_offset__UnityEngineVector2(){} // RVA: 0x8051890
-        public void __get_shapeCount__SystemInt32(){} // RVA: 0x80519C0
-        public void __get_sharedMaterial__UnityEnginePhysicsMaterial2D(){} // RVA: 0x8051AE0
-        public void __get_size__UnityEngineVector2(){} // RVA: 0x8051C20
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8051D50
-        public void __get_usedByComposite__SystemBoolean(){} // RVA: 0x8051E90
-        public void __get_usedByEffector__SystemBoolean(){} // RVA: 0x8051FB0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80520D0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x80523D0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80525C0
-        public void __set_autoTiling__SystemBoolean__SystemVoid(){} // RVA: 0x80528C0
-        public void __set_callbackLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80529F0
-        public void __set_contactCaptureLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8052B10
-        public void __set_density__SystemSingle__SystemVoid(){} // RVA: 0x8052C30
-        public void __set_edgeRadius__SystemSingle__SystemVoid(){} // RVA: 0x8052D60
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8052E90
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8052FC0
-        public void __set_forceReceiveLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80530E0
-        public void __set_forceSendLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8053200
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8053320
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x8053440
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x8053570
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8053690
-        public void __set_offset__UnityEngineVector2__SystemVoid(){} // RVA: 0x80537E0
-        public void __set_sharedMaterial__UnityEnginePhysicsMaterial2D__SystemVoid(){} // RVA: 0x8053900
-        public void __set_size__UnityEngineVector2__SystemVoid(){} // RVA: 0x8053A50
-        public void __set_usedByComposite__SystemBoolean__SystemVoid(){} // RVA: 0x8053B70
-        public void __set_usedByEffector__SystemBoolean__SystemVoid(){} // RVA: 0x8053CA0
-        public void <.ctor>b__8_1(){} // RVA: 0x8053DD0
-    }
-
-    public class ExternUnityEngineBoxCollider2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8059770
-        public void .ctor(){} // RVA: 0x80597B0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8059B80
-        public void GetExternFunctionDelegate(){} // RVA: 0x8059CB0
-        public void __Clone__SystemObject(){} // RVA: 0x8059DC0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8059EA0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8059F80
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x805A050
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x805A1A0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x805A240
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x805A340
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x805A460
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x805A570
-        public void __GetType__SystemType(){} // RVA: 0x805A690
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x805A780
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x805A860
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x805A980
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x805AB10
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x805AC60
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x805AD90
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x805AEB0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x805B020
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x805B160
-        public void __Get__SystemInt32__UnityEngineBoxCollider2D(){} // RVA: 0x805B280
-        public void __Initialize__SystemVoid(){} // RVA: 0x805B3C0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x805B430
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x805B550
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x805B6D0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x805B830
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x805B960
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x805BA80
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x805BBE0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x805BD30
-        public void __Set__SystemInt32_UnityEngineBoxCollider2D__SystemVoid(){} // RVA: 0x805BE50
-        public void __ToString__SystemString(){} // RVA: 0x805BFE0
-        public void __ctor__SystemInt32__UnityEngineBoxCollider2DArray(){} // RVA: 0x805C0D0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x805C1C0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x805C260
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x805C300
-        public void __get_Length__SystemInt32(){} // RVA: 0x805C3A0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x805C440
-        public void __get_Rank__SystemInt32(){} // RVA: 0x805C4E0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x805C580
-        public void <.ctor>b__6_1(){} // RVA: 0x805C660
-    }
-
-    public class ExternUnityEngineBoxColliderArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x805E580
-        public void .ctor(){} // RVA: 0x805E5C0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x805E990
-        public void GetExternFunctionDelegate(){} // RVA: 0x805EAC0
-        public void __Clone__SystemObject(){} // RVA: 0x805EBD0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x805ECB0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x805ED90
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x805EE60
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x805EFB0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x805F050
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x805F150
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x805F270
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x805F380
-        public void __GetType__SystemType(){} // RVA: 0x805F4A0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x805F590
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x805F670
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x805F790
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x805F920
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x805FA70
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x805FBA0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x805FCC0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x805FE30
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x805FF70
-        public void __Get__SystemInt32__UnityEngineBoxCollider(){} // RVA: 0x8060090
-        public void __Initialize__SystemVoid(){} // RVA: 0x80601D0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8060240
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8060360
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80604E0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8060640
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8060770
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8060890
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80609F0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8060B40
-        public void __Set__SystemInt32_UnityEngineBoxCollider__SystemVoid(){} // RVA: 0x8060C60
-        public void __ToString__SystemString(){} // RVA: 0x8060E20
-        public void __ctor__SystemInt32__UnityEngineBoxColliderArray(){} // RVA: 0x8060F10
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8061000
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x80610A0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8061140
-        public void __get_Length__SystemInt32(){} // RVA: 0x80611E0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8061280
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8061320
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x80613C0
-        public void <.ctor>b__6_1(){} // RVA: 0x80614A0
-    }
-
-    public class ExternUnityEngineCamera
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80633C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8063400
-        public void .ctor(){} // RVA: 0x80634B0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8063880
-        public void GetExternFunctionDelegate(){} // RVA: 0x80639B0
-        public void __CalculateFrustumCorners__UnityEngineRect_SystemSingle_UnityEngineCameraMonoOrStereoscopicEye_UnityEngineVector3Array__SystemVoid(){} // RVA: 0x8063AC0
-        public void __CalculateObliqueMatrix__UnityEngineVector4__UnityEngineMatrix4x4(){} // RVA: 0x8063D60
-        public void __CalculateProjectionMatrixFromPhysicalProperties__UnityEngineMatrix4x4Ref_SystemSingle_UnityEngineVector2_UnityEngineVector2_SystemSingle_SystemSingle_UnityEngineCameraGateFitParameters__SystemVoid(){} // RVA: 0x8063F20
-        public void __CopyFrom__UnityEngineCamera__SystemVoid(){} // RVA: 0x80641E0
-        public void __CopyStereoDeviceProjectionMatrixToNonJittered__UnityEngineCameraStereoscopicEye__SystemVoid(){} // RVA: 0x8064310
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8064430
-        public void __FieldOfViewToFocalLength__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x8064600
-        public void __FocalLengthToFieldOfView__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x80646D0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80647F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80648E0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8064B90
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x8064CF0
-        public void __GetComponentInChildren__T(){} // RVA: 0x8064E10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x8064F00
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8065180
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8065270
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8065520
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x8065680
-        public void __GetComponentInParent__T(){} // RVA: 0x80657A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x8065890
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x8065B10
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8065C80
-        public void __GetComponent__T(){} // RVA: 0x8065DA0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8065E80
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80660D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80661C0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80664F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80665E0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8066920
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8066A10
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8066D20
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8066E90
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x8066FC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x80670B0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80673A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8067490
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80677D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80678C0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8067BD0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8067D40
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x8067E80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8067F70
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8068260
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8068350
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x8068640
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x8068790
-        public void __GetComponents__TArray(){} // RVA: 0x80688C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x80689B0
-        public void __GetGateFittedFieldOfView__SystemSingle(){} // RVA: 0x8068C60
-        public void __GetGateFittedLensShift__UnityEngineVector2(){} // RVA: 0x8068D80
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8068EB0
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8069010
-        public void __GetStereoNonJitteredProjectionMatrix__UnityEngineCameraStereoscopicEye__UnityEngineMatrix4x4(){} // RVA: 0x8069160
-        public void __GetStereoProjectionMatrix__UnityEngineCameraStereoscopicEye__UnityEngineMatrix4x4(){} // RVA: 0x8069320
-        public void __GetStereoViewMatrix__UnityEngineCameraStereoscopicEye__UnityEngineMatrix4x4(){} // RVA: 0x80694E0
-        public void __GetType__SystemType(){} // RVA: 0x80696A0
-        public void __HorizontalToVerticalFieldOfView__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x8069790
-        public void __RenderDontRestore__SystemVoid(){} // RVA: 0x8069860
-        public void __RenderToCubemap__UnityEngineCubemap_SystemInt32__SystemBoolean(){} // RVA: 0x8069950
-        public void __RenderToCubemap__UnityEngineCubemap__SystemBoolean(){} // RVA: 0x8069AC0
-        public void __RenderToCubemap__UnityEngineRenderTexture_SystemInt32_UnityEngineCameraMonoOrStereoscopicEye__SystemBoolean(){} // RVA: 0x8069C50
-        public void __RenderToCubemap__UnityEngineRenderTexture_SystemInt32__SystemBoolean(){} // RVA: 0x8069E00
-        public void __RenderToCubemap__UnityEngineRenderTexture__SystemBoolean(){} // RVA: 0x8069F70
-        public void __RenderWithShader__UnityEngineShader_SystemString__SystemVoid(){} // RVA: 0x806A100
-        public void __Render__SystemVoid(){} // RVA: 0x806A280
-        public void __ResetAspect__SystemVoid(){} // RVA: 0x806A370
-        public void __ResetCullingMatrix__SystemVoid(){} // RVA: 0x806A460
-        public void __ResetProjectionMatrix__SystemVoid(){} // RVA: 0x806A550
-        public void __ResetReplacementShader__SystemVoid(){} // RVA: 0x806A640
-        public void __ResetStereoProjectionMatrices__SystemVoid(){} // RVA: 0x806A730
-        public void __ResetStereoViewMatrices__SystemVoid(){} // RVA: 0x806A820
-        public void __ResetTransparencySortSettings__SystemVoid(){} // RVA: 0x806A910
-        public void __ResetWorldToCameraMatrix__SystemVoid(){} // RVA: 0x806AA00
-        public void __Reset__SystemVoid(){} // RVA: 0x806AAF0
-        public void __ScreenPointToRay__UnityEngineVector3_UnityEngineCameraMonoOrStereoscopicEye__UnityEngineRay(){} // RVA: 0x806ABE0
-        public void __ScreenPointToRay__UnityEngineVector3__UnityEngineRay(){} // RVA: 0x806ADD0
-        public void __ScreenToViewportPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x806AF90
-        public void __ScreenToWorldPoint__UnityEngineVector3_UnityEngineCameraMonoOrStereoscopicEye__UnityEngineVector3(){} // RVA: 0x806B130
-        public void __ScreenToWorldPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x806B310
-        public void __SetReplacementShader__UnityEngineShader_SystemString__SystemVoid(){} // RVA: 0x806B4B0
-        public void __SetStereoProjectionMatrix__UnityEngineCameraStereoscopicEye_UnityEngineMatrix4x4__SystemVoid(){} // RVA: 0x806B5E0
-        public void __SetStereoViewMatrix__UnityEngineCameraStereoscopicEye_UnityEngineMatrix4x4__SystemVoid(){} // RVA: 0x806B780
-        public void __SetTargetBuffers__UnityEngineRenderBufferArray_UnityEngineRenderBuffer__SystemVoid(){} // RVA: 0x806B920
-        public void __SetTargetBuffers__UnityEngineRenderBuffer_UnityEngineRenderBuffer__SystemVoid(){} // RVA: 0x806BA80
-        public void __SetupCurrent__UnityEngineCamera__SystemVoid(){} // RVA: 0x806BBE0
-        public void __ToString__SystemString(){} // RVA: 0x806BCC0
-        public void __VerticalToHorizontalFieldOfView__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x806BE10
-        public void __ViewportPointToRay__UnityEngineVector3_UnityEngineCameraMonoOrStereoscopicEye__UnityEngineRay(){} // RVA: 0x806BEE0
-        public void __ViewportPointToRay__UnityEngineVector3__UnityEngineRay(){} // RVA: 0x806C0D0
-        public void __ViewportToScreenPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x806C290
-        public void __ViewportToWorldPoint__UnityEngineVector3_UnityEngineCameraMonoOrStereoscopicEye__UnityEngineVector3(){} // RVA: 0x806C430
-        public void __ViewportToWorldPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x806C610
-        public void __WorldToScreenPoint__UnityEngineVector3_UnityEngineCameraMonoOrStereoscopicEye__UnityEngineVector3(){} // RVA: 0x806C7B0
-        public void __WorldToScreenPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x806C990
-        public void __WorldToViewportPoint__UnityEngineVector3_UnityEngineCameraMonoOrStereoscopicEye__UnityEngineVector3(){} // RVA: 0x806CB30
-        public void __WorldToViewportPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x806CD10
-        public void __get_activeTexture__UnityEngineRenderTexture(){} // RVA: 0x806CEB0
-        public void __get_actualRenderingPath__UnityEngineRenderingPath(){} // RVA: 0x806CFF0
-        public void __get_allowDynamicResolution__SystemBoolean(){} // RVA: 0x806D110
-        public void __get_allowHDR__SystemBoolean(){} // RVA: 0x806D230
-        public void __get_allowMSAA__SystemBoolean(){} // RVA: 0x806D350
-        public void __get_anamorphism__SystemSingle(){} // RVA: 0x806D470
-        public void __get_aperture__SystemSingle(){} // RVA: 0x806D590
-        public void __get_areVRStereoViewMatricesWithinSingleCullTolerance__SystemBoolean(){} // RVA: 0x806D6B0
-        public void __get_aspect__SystemSingle(){} // RVA: 0x806D7D0
-        public void __get_backgroundColor__UnityEngineColor(){} // RVA: 0x806D8F0
-        public void __get_barrelClipping__SystemSingle(){} // RVA: 0x806DA30
-        public void __get_bladeCount__SystemInt32(){} // RVA: 0x806DB50
-        public void __get_cameraToWorldMatrix__UnityEngineMatrix4x4(){} // RVA: 0x806DC70
-        public void __get_cameraType__UnityEngineCameraType(){} // RVA: 0x806DDF0
-        public void __get_clearFlags__UnityEngineCameraClearFlags(){} // RVA: 0x806DF10
-        public void __get_clearStencilAfterLightingPass__SystemBoolean(){} // RVA: 0x806E030
-        public void __get_cullingMask__SystemInt32(){} // RVA: 0x806E150
-        public void __get_cullingMatrix__UnityEngineMatrix4x4(){} // RVA: 0x806E270
-        public void __get_curvature__UnityEngineVector2(){} // RVA: 0x806E3F0
-        public void __get_depthTextureMode__UnityEngineDepthTextureMode(){} // RVA: 0x806E520
-        public void __get_depth__SystemSingle(){} // RVA: 0x806E640
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x806E760
-        public void __get_eventMask__SystemInt32(){} // RVA: 0x806E880
-        public void __get_farClipPlane__SystemSingle(){} // RVA: 0x806E9A0
-        public void __get_fieldOfView__SystemSingle(){} // RVA: 0x806EAC0
-        public void __get_focalLength__SystemSingle(){} // RVA: 0x806EBE0
-        public void __get_focusDistance__SystemSingle(){} // RVA: 0x806ED00
-        public void __get_forceIntoRenderTexture__SystemBoolean(){} // RVA: 0x806EE20
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x806EF40
-        public void __get_gateFit__UnityEngineCameraGateFitMode(){} // RVA: 0x806F080
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x806F1A0
-        public void __get_iso__SystemInt32(){} // RVA: 0x806F2C0
-        public void __get_kMaxAperture__SystemSingle(){} // RVA: 0x806F3E0
-        public void __get_kMaxBladeCount__SystemInt32(){} // RVA: 0x806F450
-        public void __get_kMinAperture__SystemSingle(){} // RVA: 0x806F4C0
-        public void __get_kMinBladeCount__SystemInt32(){} // RVA: 0x806F530
-        public void __get_layerCullDistances__SystemSingleArray(){} // RVA: 0x806F5A0
-        public void __get_layerCullSpherical__SystemBoolean(){} // RVA: 0x806F6C0
-        public void __get_lensShift__UnityEngineVector2(){} // RVA: 0x806F7E0
-        public void __get_name__SystemString(){} // RVA: 0x806F910
-        public void __get_nearClipPlane__SystemSingle(){} // RVA: 0x806FA60
-        public void __get_nonJitteredProjectionMatrix__UnityEngineMatrix4x4(){} // RVA: 0x806FB80
-        public void __get_opaqueSortMode__UnityEngineRenderingOpaqueSortMode(){} // RVA: 0x806FD00
-        public void __get_orthographicSize__SystemSingle(){} // RVA: 0x806FE20
-        public void __get_orthographic__SystemBoolean(){} // RVA: 0x806FF40
-        public void __get_overrideSceneCullingMask__SystemUInt64(){} // RVA: 0x8070060
-        public void __get_pixelHeight__SystemInt32(){} // RVA: 0x8070180
-        public void __get_pixelRect__UnityEngineRect(){} // RVA: 0x80702A0
-        public void __get_pixelWidth__SystemInt32(){} // RVA: 0x80703E0
-        public void __get_previousViewProjectionMatrix__UnityEngineMatrix4x4(){} // RVA: 0x8070500
-        public void __get_projectionMatrix__UnityEngineMatrix4x4(){} // RVA: 0x8070680
-        public void __get_rect__UnityEngineRect(){} // RVA: 0x8070800
-        public void __get_renderingPath__UnityEngineRenderingPath(){} // RVA: 0x8070940
-        public void __get_scaledPixelHeight__SystemInt32(){} // RVA: 0x8070A60
-        public void __get_scaledPixelWidth__SystemInt32(){} // RVA: 0x8070B80
-        public void __get_sensorSize__UnityEngineVector2(){} // RVA: 0x8070CA0
-        public void __get_shutterSpeed__SystemSingle(){} // RVA: 0x8070DD0
-        public void __get_stereoActiveEye__UnityEngineCameraMonoOrStereoscopicEye(){} // RVA: 0x8070EF0
-        public void __get_stereoConvergence__SystemSingle(){} // RVA: 0x8071010
-        public void __get_stereoEnabled__SystemBoolean(){} // RVA: 0x8071130
-        public void __get_stereoSeparation__SystemSingle(){} // RVA: 0x8071250
-        public void __get_stereoTargetEye__UnityEngineStereoTargetEyeMask(){} // RVA: 0x8071370
-        public void __get_targetDisplay__SystemInt32(){} // RVA: 0x8071490
-        public void __get_targetTexture__UnityEngineRenderTexture(){} // RVA: 0x80715B0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x80716F0
-        public void __get_transparencySortAxis__UnityEngineVector3(){} // RVA: 0x8071830
-        public void __get_transparencySortMode__UnityEngineTransparencySortMode(){} // RVA: 0x8071980
-        public void __get_useJitteredProjectionMatrixForTransparentRendering__SystemBoolean(){} // RVA: 0x8071AA0
-        public void __get_useOcclusionCulling__SystemBoolean(){} // RVA: 0x8071BC0
-        public void __get_usePhysicalProperties__SystemBoolean(){} // RVA: 0x8071CE0
-        public void __get_velocity__UnityEngineVector3(){} // RVA: 0x8071E00
-        public void __get_worldToCameraMatrix__UnityEngineMatrix4x4(){} // RVA: 0x8071F50
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80720D0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x80723D0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80725C0
-        public void __set_allowDynamicResolution__SystemBoolean__SystemVoid(){} // RVA: 0x80728C0
-        public void __set_allowHDR__SystemBoolean__SystemVoid(){} // RVA: 0x80729F0
-        public void __set_allowMSAA__SystemBoolean__SystemVoid(){} // RVA: 0x8072B20
-        public void __set_anamorphism__SystemSingle__SystemVoid(){} // RVA: 0x8072C50
-        public void __set_aperture__SystemSingle__SystemVoid(){} // RVA: 0x8072D80
-        public void __set_aspect__SystemSingle__SystemVoid(){} // RVA: 0x8072EB0
-        public void __set_backgroundColor__UnityEngineColor__SystemVoid(){} // RVA: 0x8072FE0
-        public void __set_barrelClipping__SystemSingle__SystemVoid(){} // RVA: 0x8073120
-        public void __set_bladeCount__SystemInt32__SystemVoid(){} // RVA: 0x8073250
-        public void __set_cameraType__UnityEngineCameraType__SystemVoid(){} // RVA: 0x8073370
-        public void __set_clearFlags__UnityEngineCameraClearFlags__SystemVoid(){} // RVA: 0x8073490
-        public void __set_clearStencilAfterLightingPass__SystemBoolean__SystemVoid(){} // RVA: 0x80735B0
-        public void __set_cullingMask__SystemInt32__SystemVoid(){} // RVA: 0x80736E0
-        public void __set_cullingMatrix__UnityEngineMatrix4x4__SystemVoid(){} // RVA: 0x8073800
-        public void __set_curvature__UnityEngineVector2__SystemVoid(){} // RVA: 0x8073960
-        public void __set_depthTextureMode__UnityEngineDepthTextureMode__SystemVoid(){} // RVA: 0x8073A80
-        public void __set_depth__SystemSingle__SystemVoid(){} // RVA: 0x8073BA0
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8073CD0
-        public void __set_eventMask__SystemInt32__SystemVoid(){} // RVA: 0x8073E00
-        public void __set_farClipPlane__SystemSingle__SystemVoid(){} // RVA: 0x8073F20
-        public void __set_fieldOfView__SystemSingle__SystemVoid(){} // RVA: 0x8074050
-        public void __set_focalLength__SystemSingle__SystemVoid(){} // RVA: 0x8074180
-        public void __set_focusDistance__SystemSingle__SystemVoid(){} // RVA: 0x80742B0
-        public void __set_forceIntoRenderTexture__SystemBoolean__SystemVoid(){} // RVA: 0x80743E0
-        public void __set_gateFit__UnityEngineCameraGateFitMode__SystemVoid(){} // RVA: 0x8074510
-        public void __set_iso__SystemInt32__SystemVoid(){} // RVA: 0x8074630
-        public void __set_layerCullDistances__SystemSingleArray__SystemVoid(){} // RVA: 0x8074750
-        public void __set_layerCullSpherical__SystemBoolean__SystemVoid(){} // RVA: 0x8074830
-        public void __set_lensShift__UnityEngineVector2__SystemVoid(){} // RVA: 0x8074960
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8074A80
-        public void __set_nearClipPlane__SystemSingle__SystemVoid(){} // RVA: 0x8074BD0
-        public void __set_nonJitteredProjectionMatrix__UnityEngineMatrix4x4__SystemVoid(){} // RVA: 0x8074D00
-        public void __set_opaqueSortMode__UnityEngineRenderingOpaqueSortMode__SystemVoid(){} // RVA: 0x8074E60
-        public void __set_orthographicSize__SystemSingle__SystemVoid(){} // RVA: 0x8074F80
-        public void __set_orthographic__SystemBoolean__SystemVoid(){} // RVA: 0x80750B0
-        public void __set_overrideSceneCullingMask__SystemUInt64__SystemVoid(){} // RVA: 0x80751E0
-        public void __set_pixelRect__UnityEngineRect__SystemVoid(){} // RVA: 0x8075300
-        public void __set_projectionMatrix__UnityEngineMatrix4x4__SystemVoid(){} // RVA: 0x8075430
-        public void __set_rect__UnityEngineRect__SystemVoid(){} // RVA: 0x8075590
-        public void __set_renderingPath__UnityEngineRenderingPath__SystemVoid(){} // RVA: 0x80756C0
-        public void __set_sensorSize__UnityEngineVector2__SystemVoid(){} // RVA: 0x80757E0
-        public void __set_shutterSpeed__SystemSingle__SystemVoid(){} // RVA: 0x8075900
-        public void __set_stereoConvergence__SystemSingle__SystemVoid(){} // RVA: 0x8075A30
-        public void __set_stereoSeparation__SystemSingle__SystemVoid(){} // RVA: 0x8075B60
-        public void __set_stereoTargetEye__UnityEngineStereoTargetEyeMask__SystemVoid(){} // RVA: 0x8075C90
-        public void __set_targetDisplay__SystemInt32__SystemVoid(){} // RVA: 0x8075DB0
-        public void __set_targetTexture__UnityEngineRenderTexture__SystemVoid(){} // RVA: 0x8075ED0
-        public void __set_transparencySortAxis__UnityEngineVector3__SystemVoid(){} // RVA: 0x8076020
-        public void __set_transparencySortMode__UnityEngineTransparencySortMode__SystemVoid(){} // RVA: 0x8076160
-        public void __set_useJitteredProjectionMatrixForTransparentRendering__SystemBoolean__SystemVoid(){} // RVA: 0x8076280
-        public void __set_useOcclusionCulling__SystemBoolean__SystemVoid(){} // RVA: 0x80763B0
-        public void __set_usePhysicalProperties__SystemBoolean__SystemVoid(){} // RVA: 0x80764E0
-        public void __set_worldToCameraMatrix__UnityEngineMatrix4x4__SystemVoid(){} // RVA: 0x8076610
-        public void <.ctor>b__8_1(){} // RVA: 0x8076770
-    }
-
-    public class ExternUnityEngineCameraArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80804C0
-        public void .ctor(){} // RVA: 0x8080500
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80808D0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8080A00
-        public void __Clone__SystemObject(){} // RVA: 0x8080B10
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8080BF0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8080CD0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8080DA0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8080EF0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8080F90
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8081090
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x80811B0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x80812C0
-        public void __GetType__SystemType(){} // RVA: 0x80813E0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x80814D0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x80815B0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80816D0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8081860
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x80819B0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8081AE0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8081C00
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8081D70
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8081EB0
-        public void __Get__SystemInt32__UnityEngineCamera(){} // RVA: 0x8081FD0
-        public void __Initialize__SystemVoid(){} // RVA: 0x8082110
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8082180
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80822A0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8082420
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8082580
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x80826B0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80827D0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8082930
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8082A80
-        public void __Set__SystemInt32_UnityEngineCamera__SystemVoid(){} // RVA: 0x8082BA0
-        public void __ToString__SystemString(){} // RVA: 0x8082CE0
-        public void __ctor__SystemInt32__UnityEngineCameraArray(){} // RVA: 0x8082DD0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8082EC0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8082F60
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8083000
-        public void __get_Length__SystemInt32(){} // RVA: 0x80830A0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8083140
-        public void __get_Rank__SystemInt32(){} // RVA: 0x80831E0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8083280
-        public void <.ctor>b__6_1(){} // RVA: 0x8083360
-    }
-
-    public class ExternUnityEngineCameraGateFitParameters
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8085280
-        public void .ctor(){} // RVA: 0x80852C0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8085690
-        public void GetExternFunctionDelegate(){} // RVA: 0x80857C0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80858D0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8085A10
-        public void __GetType__SystemType(){} // RVA: 0x8085AC0
-        public void __ToString__SystemString(){} // RVA: 0x8085BB0
-        public void __ctor__UnityEngineCameraGateFitMode_SystemSingle__UnityEngineCameraGateFitParameters(){} // RVA: 0x8085C60
-        public void __get_aspect__SystemSingle(){} // RVA: 0x8085D30
-        public void __get_mode__UnityEngineCameraGateFitMode(){} // RVA: 0x8085DD0
-        public void __set_aspect__SystemSingle__SystemVoid(){} // RVA: 0x8085E60
-        public void __set_mode__UnityEngineCameraGateFitMode__SystemVoid(){} // RVA: 0x8085F30
-        public void <.ctor>b__6_1(){} // RVA: 0x8085FF0
-    }
-
-    public class ExternUnityEngineCameraGateFitParametersArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8086890
-        public void .ctor(){} // RVA: 0x80868D0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8086CA0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8086DD0
-        public void __Clone__SystemObject(){} // RVA: 0x8086EE0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8086FC0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x80870A0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8087170
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x80872C0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8087360
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8087460
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8087580
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8087690
-        public void __GetType__SystemType(){} // RVA: 0x80877B0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x80878A0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8087980
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8087AA0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8087C30
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8087D80
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8087EB0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8087FD0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8088140
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8088280
-        public void __Get__SystemInt32__UnityEngineCameraGateFitParameters(){} // RVA: 0x80883A0
-        public void __Initialize__SystemVoid(){} // RVA: 0x8088480
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x80884F0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8088610
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8088790
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x80888F0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8088A20
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8088B40
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8088CA0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8088DF0
-        public void __Set__SystemInt32_UnityEngineCameraGateFitParameters__SystemVoid(){} // RVA: 0x8088F10
-        public void __ToString__SystemString(){} // RVA: 0x8088FF0
-        public void __ctor__SystemInt32__UnityEngineCameraGateFitParametersArray(){} // RVA: 0x80890E0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8089280
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8089320
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x80893C0
-        public void __get_Length__SystemInt32(){} // RVA: 0x8089460
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8089500
-        public void __get_Rank__SystemInt32(){} // RVA: 0x80895A0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8089640
-        public void <.ctor>b__6_1(){} // RVA: 0x8089720
-    }
-
-    public class ExternUnityEngineCanvas
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x808B640
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x808B680
-        public void .ctor(){} // RVA: 0x808B730
-        public void GetExternFunctionParameterCount(){} // RVA: 0x808BB00
-        public void GetExternFunctionDelegate(){} // RVA: 0x808BC30
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x808BD40
-        public void __ForceUpdateCanvases__SystemVoid(){} // RVA: 0x808BF10
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x808BF20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x808C010
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x808C2C0
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x808C420
-        public void __GetComponentInChildren__T(){} // RVA: 0x808C540
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x808C630
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x808C8B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x808C9A0
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x808CC50
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x808CDB0
-        public void __GetComponentInParent__T(){} // RVA: 0x808CED0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x808CFC0
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x808D240
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x808D3B0
-        public void __GetComponent__T(){} // RVA: 0x808D4D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x808D5B0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x808D800
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x808D8F0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x808DC20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x808DD10
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x808E050
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x808E140
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x808E450
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x808E5C0
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x808E6F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x808E7E0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x808EAD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x808EBC0
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x808EF00
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x808EFF0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x808F300
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x808F470
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x808F5B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x808F6A0
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x808F990
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x808FA80
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x808FD70
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x808FEC0
-        public void __GetComponents__TArray(){} // RVA: 0x808FFF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x80900E0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8090390
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x80904F0
-        public void __GetType__SystemType(){} // RVA: 0x8090640
-        public void __ToString__SystemString(){} // RVA: 0x8090730
-        public void __get_additionalShaderChannels__UnityEngineAdditionalCanvasShaderChannels(){} // RVA: 0x8090880
-        public void __get_cachedSortingLayerValue__SystemInt32(){} // RVA: 0x80909A0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8090AC0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8090BE0
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x8090D20
-        public void __get_isRootCanvas__SystemBoolean(){} // RVA: 0x8090E40
-        public void __get_name__SystemString(){} // RVA: 0x8090F60
-        public void __get_normalizedSortingGridSize__SystemSingle(){} // RVA: 0x80910B0
-        public void __get_overridePixelPerfect__SystemBoolean(){} // RVA: 0x80911D0
-        public void __get_overrideSorting__SystemBoolean(){} // RVA: 0x80912F0
-        public void __get_pixelPerfect__SystemBoolean(){} // RVA: 0x8091410
-        public void __get_pixelRect__UnityEngineRect(){} // RVA: 0x8091530
-        public void __get_planeDistance__SystemSingle(){} // RVA: 0x8091670
-        public void __get_referencePixelsPerUnit__SystemSingle(){} // RVA: 0x8091790
-        public void __get_renderOrder__SystemInt32(){} // RVA: 0x80918B0
-        public void __get_renderingDisplaySize__UnityEngineVector2(){} // RVA: 0x80919D0
-        public void __get_rootCanvas__UnityEngineCanvas(){} // RVA: 0x8091B00
-        public void __get_scaleFactor__SystemSingle(){} // RVA: 0x8091C30
-        public void __get_sortingLayerID__SystemInt32(){} // RVA: 0x8091D50
-        public void __get_sortingLayerName__SystemString(){} // RVA: 0x8091E70
-        public void __get_sortingOrder__SystemInt32(){} // RVA: 0x8091F90
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x80920B0
-        public void __get_updateRectTransformForStandalone__UnityEngineStandaloneRenderResize(){} // RVA: 0x80921F0
-        public void __get_vertexColorAlwaysGammaSpace__SystemBoolean(){} // RVA: 0x8092310
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8092430
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8092730
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8092920
-        public void __set_additionalShaderChannels__UnityEngineAdditionalCanvasShaderChannels__SystemVoid(){} // RVA: 0x8092C20
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8092D40
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8092E70
-        public void __set_normalizedSortingGridSize__SystemSingle__SystemVoid(){} // RVA: 0x8092FC0
-        public void __set_overridePixelPerfect__SystemBoolean__SystemVoid(){} // RVA: 0x80930F0
-        public void __set_overrideSorting__SystemBoolean__SystemVoid(){} // RVA: 0x8093220
-        public void __set_pixelPerfect__SystemBoolean__SystemVoid(){} // RVA: 0x8093350
-        public void __set_planeDistance__SystemSingle__SystemVoid(){} // RVA: 0x8093480
-        public void __set_referencePixelsPerUnit__SystemSingle__SystemVoid(){} // RVA: 0x80935B0
-        public void __set_scaleFactor__SystemSingle__SystemVoid(){} // RVA: 0x80936E0
-        public void __set_sortingLayerID__SystemInt32__SystemVoid(){} // RVA: 0x8093810
-        public void __set_sortingLayerName__SystemString__SystemVoid(){} // RVA: 0x8093930
-        public void __set_sortingOrder__SystemInt32__SystemVoid(){} // RVA: 0x8093A50
-        public void __set_updateRectTransformForStandalone__UnityEngineStandaloneRenderResize__SystemVoid(){} // RVA: 0x8093B70
-        public void __set_vertexColorAlwaysGammaSpace__SystemBoolean__SystemVoid(){} // RVA: 0x8093C90
-        public void <.ctor>b__8_1(){} // RVA: 0x8093DC0
-    }
-
-    public class ExternUnityEngineCanvasArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8097720
-        public void .ctor(){} // RVA: 0x8097760
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8097B30
-        public void GetExternFunctionDelegate(){} // RVA: 0x8097C60
-        public void __Clone__SystemObject(){} // RVA: 0x8097D70
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8097E50
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8097F30
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8098000
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8098150
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80981F0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x80982F0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8098410
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8098520
-        public void __GetType__SystemType(){} // RVA: 0x8098640
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8098730
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8098810
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8098930
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8098AC0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8098C10
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8098D40
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8098E60
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8098FD0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8099110
-        public void __Get__SystemInt32__UnityEngineCanvas(){} // RVA: 0x8099230
-        public void __Initialize__SystemVoid(){} // RVA: 0x8099370
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x80993E0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8099500
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8099680
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x80997E0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8099910
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8099A30
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8099B90
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8099CE0
-        public void __Set__SystemInt32_UnityEngineCanvas__SystemVoid(){} // RVA: 0x8099E00
-        public void __ToString__SystemString(){} // RVA: 0x8099F40
-        public void __ctor__SystemInt32__UnityEngineCanvasArray(){} // RVA: 0x809A030
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x809A120
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x809A1C0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x809A260
-        public void __get_Length__SystemInt32(){} // RVA: 0x809A300
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x809A3A0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x809A440
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x809A4E0
-        public void <.ctor>b__6_1(){} // RVA: 0x809A5C0
-    }
-
-    public class ExternUnityEngineCanvasGroup
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x809C4E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x809C520
-        public void .ctor(){} // RVA: 0x809C5D0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x809C9A0
-        public void GetExternFunctionDelegate(){} // RVA: 0x809CAD0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x809CBE0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x809CDB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x809CEA0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x809D150
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x809D2B0
-        public void __GetComponentInChildren__T(){} // RVA: 0x809D3D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x809D4C0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x809D740
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x809D830
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x809DAE0
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x809DC40
-        public void __GetComponentInParent__T(){} // RVA: 0x809DD60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x809DE50
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x809E0D0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x809E240
-        public void __GetComponent__T(){} // RVA: 0x809E360
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x809E440
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x809E690
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x809E780
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x809EAB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x809EBA0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x809EEE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x809EFD0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x809F2E0
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x809F450
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x809F580
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x809F670
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x809F960
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x809FA50
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x809FD90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x809FE80
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80A0190
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x80A0300
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x80A0440
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x80A0530
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x80A0820
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x80A0910
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x80A0C00
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x80A0D50
-        public void __GetComponents__TArray(){} // RVA: 0x80A0E80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x80A0F70
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x80A1220
-        public void __IsRaycastLocationValid__UnityEngineVector2_UnityEngineCamera__SystemBoolean(){} // RVA: 0x80A1370
-        public void __get_alpha__SystemSingle(){} // RVA: 0x80A1510
-        public void __get_blocksRaycasts__SystemBoolean(){} // RVA: 0x80A1630
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x80A1750
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x80A1870
-        public void __get_ignoreParentGroups__SystemBoolean(){} // RVA: 0x80A19B0
-        public void __get_interactable__SystemBoolean(){} // RVA: 0x80A1AD0
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x80A1BF0
-        public void __get_name__SystemString(){} // RVA: 0x80A1D10
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x80A1E60
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80A1FA0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x80A22A0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80A2490
-        public void __set_alpha__SystemSingle__SystemVoid(){} // RVA: 0x80A2790
-        public void __set_blocksRaycasts__SystemBoolean__SystemVoid(){} // RVA: 0x80A28C0
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x80A29F0
-        public void __set_ignoreParentGroups__SystemBoolean__SystemVoid(){} // RVA: 0x80A2B20
-        public void __set_interactable__SystemBoolean__SystemVoid(){} // RVA: 0x80A2C50
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x80A2D80
-        public void <.ctor>b__8_1(){} // RVA: 0x80A2ED0
-    }
-
-    public class ExternUnityEngineCanvasGroupArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80A53F0
-        public void .ctor(){} // RVA: 0x80A5430
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80A5800
-        public void GetExternFunctionDelegate(){} // RVA: 0x80A5930
-        public void __Clone__SystemObject(){} // RVA: 0x80A5A40
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x80A5B20
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x80A5C00
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80A5CD0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x80A5E20
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x80A5EC0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x80A5FE0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x80A60F0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x80A6210
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x80A62F0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80A6410
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80A65A0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x80A66F0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x80A6820
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80A6940
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80A6AB0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x80A6BF0
-        public void __Get__SystemInt32__UnityEngineCanvasGroup(){} // RVA: 0x80A6D10
-        public void __Initialize__SystemVoid(){} // RVA: 0x80A6E50
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x80A6EC0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80A6FE0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80A7160
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x80A72C0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x80A73F0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80A7510
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80A7670
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x80A77C0
-        public void __Set__SystemInt32_UnityEngineCanvasGroup__SystemVoid(){} // RVA: 0x80A78E0
-        public void __ctor__SystemInt32__UnityEngineCanvasGroupArray(){} // RVA: 0x80A7A70
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x80A7B60
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x80A7C00
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x80A7CA0
-        public void __get_Length__SystemInt32(){} // RVA: 0x80A7D40
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x80A7DE0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x80A7E80
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x80A7F20
-        public void <.ctor>b__6_1(){} // RVA: 0x80A8000
-    }
-
-    public class ExternUnityEngineCanvasRenderer
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80A9CD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x80A9D10
-        public void .ctor(){} // RVA: 0x80A9DC0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80AA190
-        public void GetExternFunctionDelegate(){} // RVA: 0x80AA2C0
-    }
-
-    public class ExternUnityEngineCanvasRendererArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80B6FA0
-        public void .ctor(){} // RVA: 0x80B6FE0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80B73B0
-        public void GetExternFunctionDelegate(){} // RVA: 0x80B74E0
-        public void __Clone__SystemObject(){} // RVA: 0x80B75F0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x80B76D0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x80B77B0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80B7880
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x80B79D0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80B7A70
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x80B7B70
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x80B7C90
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x80B7DA0
-        public void __GetType__SystemType(){} // RVA: 0x80B7EC0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x80B7FB0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x80B8090
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80B81B0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80B8340
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x80B8490
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x80B85C0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80B86E0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80B8850
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x80B8990
-        public void __Get__SystemInt32__UnityEngineCanvasRenderer(){} // RVA: 0x80B8AB0
-        public void __Initialize__SystemVoid(){} // RVA: 0x80B8BF0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x80B8C60
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80B8D80
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80B8F00
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x80B9060
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x80B9190
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80B92B0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80B9410
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x80B9560
-        public void __Set__SystemInt32_UnityEngineCanvasRenderer__SystemVoid(){} // RVA: 0x80B9680
-        public void __ToString__SystemString(){} // RVA: 0x80B9810
-        public void __ctor__SystemInt32__UnityEngineCanvasRendererArray(){} // RVA: 0x80B9900
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x80B99F0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x80B9A90
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x80B9B30
-        public void __get_Length__SystemInt32(){} // RVA: 0x80B9BD0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x80B9C70
-        public void __get_Rank__SystemInt32(){} // RVA: 0x80B9D10
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x80B9DB0
-        public void <.ctor>b__6_1(){} // RVA: 0x80B9E90
-    }
-
-    public class ExternUnityEngineCapsuleCollider
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80BBDB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x80BBDF0
-        public void .ctor(){} // RVA: 0x80BBEA0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80BC270
-        public void GetExternFunctionDelegate(){} // RVA: 0x80BC3A0
-        public void __ClosestPointOnBounds__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x80BC4B0
-        public void __ClosestPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x80BC6A0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80BC840
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80BCA10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80BCB00
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x80BCDB0
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x80BCF10
-        public void __GetComponentInChildren__T(){} // RVA: 0x80BD030
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x80BD120
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80BD3A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80BD490
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x80BD740
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x80BD8A0
-        public void __GetComponentInParent__T(){} // RVA: 0x80BD9C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x80BDAB0
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x80BDD30
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x80BDEA0
-        public void __GetComponent__T(){} // RVA: 0x80BDFC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x80BE0A0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80BE2F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80BE3E0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80BE710
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80BE800
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80BEB40
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80BEC30
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80BEF40
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x80BF0B0
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x80BF1E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x80BF2D0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80BF5C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80BF6B0
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80BF9F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80BFAE0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80BFDF0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x80BFF60
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x80C00A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x80C0190
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x80C0480
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x80C0570
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x80C0860
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x80C09B0
-        public void __GetComponents__TArray(){} // RVA: 0x80C0AE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x80C0BD0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80C0E80
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x80C0FE0
-        public void __GetType__SystemType(){} // RVA: 0x80C1130
-        public void __Raycast__UnityEngineRay_UnityEngineRaycastHitRef_SystemSingle__SystemBoolean(){} // RVA: 0x80C1220
-        public void __ToString__SystemString(){} // RVA: 0x80C1470
-        public void __get_attachedArticulationBody__UnityEngineArticulationBody(){} // RVA: 0x80C15C0
-        public void __get_attachedRigidbody__UnityEngineRigidbody(){} // RVA: 0x80C1700
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x80C1840
-        public void __get_center__UnityEngineVector3(){} // RVA: 0x80C1990
-        public void __get_contactOffset__SystemSingle(){} // RVA: 0x80C1AE0
-        public void __get_direction__SystemInt32(){} // RVA: 0x80C1C00
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x80C1D20
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x80C1E40
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x80C1F70
-        public void __get_hasModifiableContacts__SystemBoolean(){} // RVA: 0x80C20B0
-        public void __get_height__SystemSingle(){} // RVA: 0x80C21D0
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x80C22F0
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x80C2420
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x80C2540
-        public void __get_material__UnityEnginePhysicMaterial(){} // RVA: 0x80C2660
-        public void __get_name__SystemString(){} // RVA: 0x80C27A0
-        public void __get_providesContacts__SystemBoolean(){} // RVA: 0x80C28F0
-        public void __get_radius__SystemSingle(){} // RVA: 0x80C2A10
-        public void __get_sharedMaterial__UnityEnginePhysicMaterial(){} // RVA: 0x80C2B30
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x80C2C70
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80C2DB0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x80C30B0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80C32A0
-        public void __set_center__UnityEngineVector3__SystemVoid(){} // RVA: 0x80C35A0
-        public void __set_contactOffset__SystemSingle__SystemVoid(){} // RVA: 0x80C36E0
-        public void __set_direction__SystemInt32__SystemVoid(){} // RVA: 0x80C3810
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x80C3930
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80C3A60
-        public void __set_hasModifiableContacts__SystemBoolean__SystemVoid(){} // RVA: 0x80C3B80
-        public void __set_height__SystemSingle__SystemVoid(){} // RVA: 0x80C3CB0
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80C3DE0
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x80C3F00
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x80C4030
-        public void __set_material__UnityEnginePhysicMaterial__SystemVoid(){} // RVA: 0x80C4150
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x80C42A0
-        public void __set_providesContacts__SystemBoolean__SystemVoid(){} // RVA: 0x80C43F0
-        public void __set_radius__SystemSingle__SystemVoid(){} // RVA: 0x80C4520
-        public void __set_sharedMaterial__UnityEnginePhysicMaterial__SystemVoid(){} // RVA: 0x80C4650
-        public void <.ctor>b__8_1(){} // RVA: 0x80C47A0
-    }
-
-    public class ExternUnityEngineCapsuleCollider2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80C7F80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x80C7FC0
-        public void .ctor(){} // RVA: 0x80C8070
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80C8440
-        public void GetExternFunctionDelegate(){} // RVA: 0x80C8570
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x80C8680
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x80C8950
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x80C8C20
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x80C8EA0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x80C90E0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x80C92B0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x80C9440
-        public void __ClosestPoint__UnityEngineVector2__UnityEngineVector2(){} // RVA: 0x80C9590
-        public void __CreateMesh__SystemBoolean_SystemBoolean__UnityEngineMesh(){} // RVA: 0x80C96F0
-        public void __Distance__UnityEngineCollider2D__UnityEngineColliderDistance2D(){} // RVA: 0x80C9850
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80C99E0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80C9BB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80C9CA0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x80C9F50
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x80CA0B0
-        public void __GetComponentInChildren__T(){} // RVA: 0x80CA1D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x80CA2C0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80CA540
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80CA630
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x80CA8E0
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x80CAA40
-        public void __GetComponentInParent__T(){} // RVA: 0x80CAB60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x80CAC50
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x80CAED0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x80CB040
-        public void __GetComponent__T(){} // RVA: 0x80CB160
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x80CB240
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80CB490
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80CB580
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80CB8B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80CB9A0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80CBCE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80CBDD0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80CC0E0
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x80CC250
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x80CC380
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x80CC470
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80CC760
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80CC850
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80CCB90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80CCC80
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80CCF90
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x80CD100
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x80CD240
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x80CD330
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x80CD620
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x80CD710
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x80CDA00
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x80CDB50
-        public void __GetComponents__TArray(){} // RVA: 0x80CDC80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x80CDD70
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x80CE020
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x80CE170
-        public void __GetContacts__UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x80CE280
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x80CE3D0
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x80CE600
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x80CE7E0
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x80CEA10
-        public void __GetContacts__UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x80CEBF0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80CED00
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x80CEE60
-        public void __GetShapeHash__SystemUInt32(){} // RVA: 0x80CEFB0
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x80CF0D0
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D__SystemInt32(){} // RVA: 0x80CF250
-        public void __GetType__SystemType(){} // RVA: 0x80CF3D0
-        public void __IsTouchingLayers__SystemBoolean(){} // RVA: 0x80CF4C0
-        public void __IsTouchingLayers__SystemInt32__SystemBoolean(){} // RVA: 0x80CF5F0
-        public void __IsTouching__UnityEngineCollider2D_UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x80CF750
-        public void __IsTouching__UnityEngineCollider2D__SystemBoolean(){} // RVA: 0x80CF910
-        public void __IsTouching__UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x80CFA70
-        public void __OverlapCollider__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x80CFBF0
-        public void __OverlapCollider__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x80CFE20
-        public void __OverlapPoint__UnityEngineVector2__SystemBoolean(){} // RVA: 0x80D0050
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle__SystemInt32(){} // RVA: 0x80D01B0
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x80D0420
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x80D0690
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle_SystemSingle__SystemInt32(){} // RVA: 0x80D08C0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle__SystemInt32(){} // RVA: 0x80D0B10
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32__SystemInt32(){} // RVA: 0x80D0D20
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x80D0EF0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x80D1080
-        public void __ToString__SystemString(){} // RVA: 0x80D11D0
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x80D1320
-        public void __get_bounciness__SystemSingle(){} // RVA: 0x80D1460
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x80D1580
-        public void __get_callbackLayers__UnityEngineLayerMask(){} // RVA: 0x80D16D0
-        public void __get_composite__UnityEngineCompositeCollider2D(){} // RVA: 0x80D1800
-        public void __get_contactCaptureLayers__UnityEngineLayerMask(){} // RVA: 0x80D1940
-        public void __get_density__SystemSingle(){} // RVA: 0x80D1A70
-        public void __get_direction__UnityEngineCapsuleDirection2D(){} // RVA: 0x80D1B90
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x80D1CB0
-        public void __get_errorState__UnityEngineColliderErrorState2D(){} // RVA: 0x80D1DD0
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x80D1EF0
-        public void __get_forceReceiveLayers__UnityEngineLayerMask(){} // RVA: 0x80D2020
-        public void __get_forceSendLayers__UnityEngineLayerMask(){} // RVA: 0x80D2150
-        public void __get_friction__SystemSingle(){} // RVA: 0x80D2280
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x80D23A0
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x80D24E0
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x80D2610
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x80D2730
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x80D2850
-        public void __get_name__SystemString(){} // RVA: 0x80D2970
-        public void __get_offset__UnityEngineVector2(){} // RVA: 0x80D2AC0
-        public void __get_shapeCount__SystemInt32(){} // RVA: 0x80D2BF0
-        public void __get_sharedMaterial__UnityEnginePhysicsMaterial2D(){} // RVA: 0x80D2D10
-        public void __get_size__UnityEngineVector2(){} // RVA: 0x80D2E50
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x80D2F80
-        public void __get_usedByComposite__SystemBoolean(){} // RVA: 0x80D30C0
-        public void __get_usedByEffector__SystemBoolean(){} // RVA: 0x80D31E0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80D3300
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x80D3600
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80D37F0
-        public void __set_callbackLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80D3AF0
-        public void __set_contactCaptureLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80D3C10
-        public void __set_density__SystemSingle__SystemVoid(){} // RVA: 0x80D3D30
-        public void __set_direction__UnityEngineCapsuleDirection2D__SystemVoid(){} // RVA: 0x80D3E60
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x80D3F80
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80D40B0
-        public void __set_forceReceiveLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80D41D0
-        public void __set_forceSendLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80D42F0
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80D4410
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x80D4530
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x80D4660
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x80D4780
-        public void __set_offset__UnityEngineVector2__SystemVoid(){} // RVA: 0x80D48D0
-        public void __set_sharedMaterial__UnityEnginePhysicsMaterial2D__SystemVoid(){} // RVA: 0x80D49F0
-        public void __set_size__UnityEngineVector2__SystemVoid(){} // RVA: 0x80D4B40
-        public void __set_usedByComposite__SystemBoolean__SystemVoid(){} // RVA: 0x80D4C60
-        public void __set_usedByEffector__SystemBoolean__SystemVoid(){} // RVA: 0x80D4D90
-        public void <.ctor>b__8_1(){} // RVA: 0x80D4EC0
-    }
-
-    public class ExternUnityEngineCapsuleCollider2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80DA6E0
-        public void .ctor(){} // RVA: 0x80DA720
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80DAAF0
-        public void GetExternFunctionDelegate(){} // RVA: 0x80DAC20
-        public void __Clone__SystemObject(){} // RVA: 0x80DAD30
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x80DAE10
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x80DAEF0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80DAFC0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x80DB110
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80DB1B0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x80DB2B0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x80DB3D0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x80DB4E0
-        public void __GetType__SystemType(){} // RVA: 0x80DB600
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x80DB6F0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x80DB7D0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80DB8F0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80DBA80
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x80DBBD0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x80DBD00
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80DBE20
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80DBF90
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x80DC0D0
-        public void __Get__SystemInt32__UnityEngineCapsuleCollider2D(){} // RVA: 0x80DC1F0
-        public void __Initialize__SystemVoid(){} // RVA: 0x80DC330
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x80DC3A0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80DC4C0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80DC640
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x80DC7A0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x80DC8D0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80DC9F0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80DCB50
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x80DCCA0
-        public void __Set__SystemInt32_UnityEngineCapsuleCollider2D__SystemVoid(){} // RVA: 0x80DCDC0
-        public void __ToString__SystemString(){} // RVA: 0x80DCF50
-        public void __ctor__SystemInt32__UnityEngineCapsuleCollider2DArray(){} // RVA: 0x80DD040
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x80DD130
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x80DD1D0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x80DD270
-        public void __get_Length__SystemInt32(){} // RVA: 0x80DD310
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x80DD3B0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x80DD450
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x80DD4F0
-        public void <.ctor>b__6_1(){} // RVA: 0x80DD5D0
-    }
-
-    public class ExternUnityEngineCapsuleColliderArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80DF4F0
-        public void .ctor(){} // RVA: 0x80DF530
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80DF900
-        public void GetExternFunctionDelegate(){} // RVA: 0x80DFA30
-        public void __Clone__SystemObject(){} // RVA: 0x80DFB40
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x80DFC20
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x80DFD00
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80DFDD0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x80DFF20
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80DFFC0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x80E00C0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x80E01E0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x80E02F0
-        public void __GetType__SystemType(){} // RVA: 0x80E0410
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x80E0500
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x80E05E0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80E0700
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80E0890
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x80E09E0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x80E0B10
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80E0C30
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80E0DA0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x80E0EE0
-        public void __Get__SystemInt32__UnityEngineCapsuleCollider(){} // RVA: 0x80E1000
-        public void __Initialize__SystemVoid(){} // RVA: 0x80E1140
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x80E11B0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80E12D0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80E1450
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x80E15B0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x80E16E0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80E1800
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80E1960
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x80E1AB0
-        public void __Set__SystemInt32_UnityEngineCapsuleCollider__SystemVoid(){} // RVA: 0x80E1BD0
-        public void __ToString__SystemString(){} // RVA: 0x80E1D90
-        public void __ctor__SystemInt32__UnityEngineCapsuleColliderArray(){} // RVA: 0x80E1E80
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x80E1F70
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x80E2010
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x80E20B0
-        public void __get_Length__SystemInt32(){} // RVA: 0x80E2150
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x80E21F0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x80E2290
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x80E2330
-        public void <.ctor>b__6_1(){} // RVA: 0x80E2410
-    }
-
-    public class ExternUnityEngineCharacterController
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80E4330
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x80E4370
-        public void .ctor(){} // RVA: 0x80E4420
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80E47F0
-        public void GetExternFunctionDelegate(){} // RVA: 0x80E4920
-        public void __ClosestPointOnBounds__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x80E4A30
-        public void __ClosestPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x80E4C20
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80E4DC0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80E4F90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80E5080
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x80E5330
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x80E5490
-        public void __GetComponentInChildren__T(){} // RVA: 0x80E55B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x80E56A0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80E5920
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80E5A10
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x80E5CC0
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x80E5E20
-        public void __GetComponentInParent__T(){} // RVA: 0x80E5F40
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x80E6030
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x80E62B0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x80E6420
-        public void __GetComponent__T(){} // RVA: 0x80E6540
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x80E6620
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80E6870
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80E6960
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80E6C90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80E6D80
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80E70C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80E71B0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80E74C0
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x80E7630
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x80E7760
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x80E7850
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80E7B40
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80E7C30
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80E7F70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80E8060
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80E8370
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x80E84E0
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x80E8620
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x80E8710
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x80E8A00
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x80E8AF0
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x80E8DE0
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x80E8F30
-        public void __GetComponents__TArray(){} // RVA: 0x80E9060
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x80E9150
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80E9400
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x80E9560
-        public void __GetType__SystemType(){} // RVA: 0x80E96B0
-        public void __Move__UnityEngineVector3__UnityEngineCollisionFlags(){} // RVA: 0x80E97A0
-        public void __Raycast__UnityEngineRay_UnityEngineRaycastHitRef_SystemSingle__SystemBoolean(){} // RVA: 0x80E9920
-        public void __SimpleMove__UnityEngineVector3__SystemBoolean(){} // RVA: 0x80E9B70
-        public void __ToString__SystemString(){} // RVA: 0x80E9CF0
-        public void __get_attachedArticulationBody__UnityEngineArticulationBody(){} // RVA: 0x80E9E40
-        public void __get_attachedRigidbody__UnityEngineRigidbody(){} // RVA: 0x80E9F80
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x80EA0C0
-        public void __get_center__UnityEngineVector3(){} // RVA: 0x80EA210
-        public void __get_collisionFlags__UnityEngineCollisionFlags(){} // RVA: 0x80EA360
-        public void __get_contactOffset__SystemSingle(){} // RVA: 0x80EA480
-        public void __get_detectCollisions__SystemBoolean(){} // RVA: 0x80EA5A0
-        public void __get_enableOverlapRecovery__SystemBoolean(){} // RVA: 0x80EA6C0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x80EA7E0
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x80EA900
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x80EAA30
-        public void __get_hasModifiableContacts__SystemBoolean(){} // RVA: 0x80EAB70
-        public void __get_height__SystemSingle(){} // RVA: 0x80EAC90
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x80EADB0
-        public void __get_isGrounded__SystemBoolean(){} // RVA: 0x80EAEE0
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x80EB000
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x80EB120
-        public void __get_material__UnityEnginePhysicMaterial(){} // RVA: 0x80EB240
-        public void __get_minMoveDistance__SystemSingle(){} // RVA: 0x80EB380
-        public void __get_name__SystemString(){} // RVA: 0x80EB4A0
-        public void __get_providesContacts__SystemBoolean(){} // RVA: 0x80EB5F0
-        public void __get_radius__SystemSingle(){} // RVA: 0x80EB710
-        public void __get_sharedMaterial__UnityEnginePhysicMaterial(){} // RVA: 0x80EB830
-        public void __get_skinWidth__SystemSingle(){} // RVA: 0x80EB970
-        public void __get_slopeLimit__SystemSingle(){} // RVA: 0x80EBA90
-        public void __get_stepOffset__SystemSingle(){} // RVA: 0x80EBBB0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x80EBCD0
-        public void __get_velocity__UnityEngineVector3(){} // RVA: 0x80EBE10
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80EBF60
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x80EC260
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x80EC450
-        public void __set_center__UnityEngineVector3__SystemVoid(){} // RVA: 0x80EC750
-        public void __set_contactOffset__SystemSingle__SystemVoid(){} // RVA: 0x80EC890
-        public void __set_detectCollisions__SystemBoolean__SystemVoid(){} // RVA: 0x80EC9C0
-        public void __set_enableOverlapRecovery__SystemBoolean__SystemVoid(){} // RVA: 0x80ECAF0
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x80ECC20
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80ECD50
-        public void __set_hasModifiableContacts__SystemBoolean__SystemVoid(){} // RVA: 0x80ECE70
-        public void __set_height__SystemSingle__SystemVoid(){} // RVA: 0x80ECFA0
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x80ED0D0
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x80ED1F0
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x80ED320
-        public void __set_material__UnityEnginePhysicMaterial__SystemVoid(){} // RVA: 0x80ED440
-        public void __set_minMoveDistance__SystemSingle__SystemVoid(){} // RVA: 0x80ED590
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x80ED6C0
-        public void __set_providesContacts__SystemBoolean__SystemVoid(){} // RVA: 0x80ED810
-        public void __set_radius__SystemSingle__SystemVoid(){} // RVA: 0x80ED940
-        public void __set_sharedMaterial__UnityEnginePhysicMaterial__SystemVoid(){} // RVA: 0x80EDA70
-        public void __set_skinWidth__SystemSingle__SystemVoid(){} // RVA: 0x80EDBC0
-        public void __set_slopeLimit__SystemSingle__SystemVoid(){} // RVA: 0x80EDCF0
-        public void __set_stepOffset__SystemSingle__SystemVoid(){} // RVA: 0x80EDE20
-        public void <.ctor>b__8_1(){} // RVA: 0x80EDF50
-    }
-
-    public class ExternUnityEngineCharacterControllerArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80F2270
-        public void .ctor(){} // RVA: 0x80F22B0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80F2680
-        public void GetExternFunctionDelegate(){} // RVA: 0x80F27B0
-        public void __Clone__SystemObject(){} // RVA: 0x80F28C0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x80F29A0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x80F2A80
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80F2B50
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x80F2CA0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80F2D40
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x80F2E40
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x80F2F60
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x80F3070
-        public void __GetType__SystemType(){} // RVA: 0x80F3190
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x80F3280
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x80F3360
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80F3480
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x80F3610
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x80F3760
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x80F3890
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80F39B0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x80F3B20
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x80F3C60
-        public void __Get__SystemInt32__UnityEngineCharacterController(){} // RVA: 0x80F3D80
-        public void __Initialize__SystemVoid(){} // RVA: 0x80F3EC0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x80F3F30
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80F4050
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x80F41D0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x80F4330
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x80F4460
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80F4580
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x80F46E0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x80F4830
-        public void __Set__SystemInt32_UnityEngineCharacterController__SystemVoid(){} // RVA: 0x80F4950
-        public void __ToString__SystemString(){} // RVA: 0x80F4B10
-        public void __ctor__SystemInt32__UnityEngineCharacterControllerArray(){} // RVA: 0x80F4C00
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x80F4CF0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x80F4D90
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x80F4E30
-        public void __get_Length__SystemInt32(){} // RVA: 0x80F4ED0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x80F4F70
-        public void __get_Rank__SystemInt32(){} // RVA: 0x80F5010
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x80F50B0
-        public void <.ctor>b__6_1(){} // RVA: 0x80F5190
-    }
-
-    public class ExternUnityEngineCircleCollider2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x80F70B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x80F70F0
-        public void .ctor(){} // RVA: 0x80F71A0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x80F7570
-        public void GetExternFunctionDelegate(){} // RVA: 0x80F76A0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x80F77B0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x80F7A80
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x80F7D50
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x80F7FD0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x80F8210
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x80F83E0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x80F8570
-        public void __ClosestPoint__UnityEngineVector2__UnityEngineVector2(){} // RVA: 0x80F86C0
-        public void __CreateMesh__SystemBoolean_SystemBoolean__UnityEngineMesh(){} // RVA: 0x80F8820
-        public void __Distance__UnityEngineCollider2D__UnityEngineColliderDistance2D(){} // RVA: 0x80F8980
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x80F8B10
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80F8CE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x80F8DD0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x80F9080
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x80F91E0
-        public void __GetComponentInChildren__T(){} // RVA: 0x80F9300
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x80F93F0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80F9670
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x80F9760
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x80F9A10
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x80F9B70
-        public void __GetComponentInParent__T(){} // RVA: 0x80F9C90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x80F9D80
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x80FA000
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x80FA170
-        public void __GetComponent__T(){} // RVA: 0x80FA290
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x80FA370
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80FA5C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x80FA6B0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80FA9E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80FAAD0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80FAE10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x80FAF00
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80FB210
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x80FB380
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x80FB4B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x80FB5A0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80FB890
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x80FB980
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80FBCC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x80FBDB0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x80FC0C0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x80FC230
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x80FC370
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x80FC460
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x80FC750
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x80FC840
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x80FCB30
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x80FCC80
-        public void __GetComponents__TArray(){} // RVA: 0x80FCDB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x80FCEA0
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x80FD150
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x80FD2A0
-        public void __GetContacts__UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x80FD3B0
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x80FD500
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x80FD730
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x80FD910
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x80FDB40
-        public void __GetContacts__UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x80FDD20
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x80FDE30
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x80FDF90
-        public void __GetShapeHash__SystemUInt32(){} // RVA: 0x80FE0E0
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x80FE200
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D__SystemInt32(){} // RVA: 0x80FE380
-        public void __GetType__SystemType(){} // RVA: 0x80FE500
-        public void __IsTouchingLayers__SystemBoolean(){} // RVA: 0x80FE5F0
-        public void __IsTouchingLayers__SystemInt32__SystemBoolean(){} // RVA: 0x80FE720
-        public void __IsTouching__UnityEngineCollider2D_UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x80FE880
-        public void __IsTouching__UnityEngineCollider2D__SystemBoolean(){} // RVA: 0x80FEA40
-        public void __IsTouching__UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x80FEBA0
-        public void __OverlapCollider__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x80FED20
-        public void __OverlapCollider__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x80FEF50
-        public void __OverlapPoint__UnityEngineVector2__SystemBoolean(){} // RVA: 0x80FF180
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle__SystemInt32(){} // RVA: 0x80FF2E0
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x80FF550
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x80FF7C0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle_SystemSingle__SystemInt32(){} // RVA: 0x80FF9F0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle__SystemInt32(){} // RVA: 0x80FFC40
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32__SystemInt32(){} // RVA: 0x80FFE50
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8100020
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x81001B0
-        public void __ToString__SystemString(){} // RVA: 0x8100300
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x8100450
-        public void __get_bounciness__SystemSingle(){} // RVA: 0x8100590
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x81006B0
-        public void __get_callbackLayers__UnityEngineLayerMask(){} // RVA: 0x8100800
-        public void __get_composite__UnityEngineCompositeCollider2D(){} // RVA: 0x8100930
-        public void __get_contactCaptureLayers__UnityEngineLayerMask(){} // RVA: 0x8100A70
-        public void __get_density__SystemSingle(){} // RVA: 0x8100BA0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8100CC0
-        public void __get_errorState__UnityEngineColliderErrorState2D(){} // RVA: 0x8100DE0
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x8100F00
-        public void __get_forceReceiveLayers__UnityEngineLayerMask(){} // RVA: 0x8101030
-        public void __get_forceSendLayers__UnityEngineLayerMask(){} // RVA: 0x8101160
-        public void __get_friction__SystemSingle(){} // RVA: 0x8101290
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x81013B0
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x81014F0
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x8101620
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x8101740
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x8101860
-        public void __get_name__SystemString(){} // RVA: 0x8101980
-        public void __get_offset__UnityEngineVector2(){} // RVA: 0x8101AD0
-        public void __get_radius__SystemSingle(){} // RVA: 0x8101C00
-        public void __get_shapeCount__SystemInt32(){} // RVA: 0x8101D20
-        public void __get_sharedMaterial__UnityEnginePhysicsMaterial2D(){} // RVA: 0x8101E40
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8101F80
-        public void __get_usedByComposite__SystemBoolean(){} // RVA: 0x81020C0
-        public void __get_usedByEffector__SystemBoolean(){} // RVA: 0x81021E0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8102300
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8102600
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81027F0
-        public void __set_callbackLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8102AF0
-        public void __set_contactCaptureLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8102C10
-        public void __set_density__SystemSingle__SystemVoid(){} // RVA: 0x8102D30
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8102E60
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8102F90
-        public void __set_forceReceiveLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81030B0
-        public void __set_forceSendLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81031D0
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81032F0
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x8103410
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x8103540
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8103660
-        public void __set_offset__UnityEngineVector2__SystemVoid(){} // RVA: 0x81037B0
-        public void __set_radius__SystemSingle__SystemVoid(){} // RVA: 0x81038D0
-        public void __set_sharedMaterial__UnityEnginePhysicsMaterial2D__SystemVoid(){} // RVA: 0x8103A00
-        public void __set_usedByComposite__SystemBoolean__SystemVoid(){} // RVA: 0x8103B50
-        public void __set_usedByEffector__SystemBoolean__SystemVoid(){} // RVA: 0x8103C80
-        public void <.ctor>b__8_1(){} // RVA: 0x8103DB0
-    }
-
-    public class ExternUnityEngineCircleCollider2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8109450
-        public void .ctor(){} // RVA: 0x8109490
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8109860
-        public void GetExternFunctionDelegate(){} // RVA: 0x8109990
-        public void __Clone__SystemObject(){} // RVA: 0x8109AA0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8109B80
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8109C60
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8109D30
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8109E80
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8109F20
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x810A020
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x810A140
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x810A250
-        public void __GetType__SystemType(){} // RVA: 0x810A370
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x810A460
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x810A540
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x810A660
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x810A7F0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x810A940
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x810AA70
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x810AB90
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x810AD00
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x810AE40
-        public void __Get__SystemInt32__UnityEngineCircleCollider2D(){} // RVA: 0x810AF60
-        public void __Initialize__SystemVoid(){} // RVA: 0x810B0A0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x810B110
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x810B230
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x810B3B0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x810B510
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x810B640
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x810B760
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x810B8C0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x810BA10
-        public void __Set__SystemInt32_UnityEngineCircleCollider2D__SystemVoid(){} // RVA: 0x810BB30
-        public void __ToString__SystemString(){} // RVA: 0x810BCC0
-        public void __ctor__SystemInt32__UnityEngineCircleCollider2DArray(){} // RVA: 0x810BDB0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x810BEA0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x810BF40
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x810BFE0
-        public void __get_Length__SystemInt32(){} // RVA: 0x810C080
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x810C120
-        public void __get_Rank__SystemInt32(){} // RVA: 0x810C1C0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x810C260
-        public void <.ctor>b__6_1(){} // RVA: 0x810C340
-    }
-
-    public class ExternUnityEngineCollider
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x810E260
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x810E2A0
-        public void .ctor(){} // RVA: 0x810E350
-        public void GetExternFunctionParameterCount(){} // RVA: 0x810E720
-        public void GetExternFunctionDelegate(){} // RVA: 0x810E850
-        public void __ClosestPointOnBounds__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x810E960
-        public void __ClosestPoint__UnityEngineVector3__UnityEngineVector3(){} // RVA: 0x810EB50
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x810ECF0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x810EEC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x810EFB0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x810F260
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x810F3C0
-        public void __GetComponentInChildren__T(){} // RVA: 0x810F4E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x810F5D0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x810F850
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x810F940
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x810FBF0
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x810FD50
-        public void __GetComponentInParent__T(){} // RVA: 0x810FE70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x810FF60
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x81101E0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8110350
-        public void __GetComponent__T(){} // RVA: 0x8110470
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8110550
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x81107A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8110890
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8110BC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8110CB0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8110FF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x81110E0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x81113F0
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8111560
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x8111690
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x8111780
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8111A70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8111B60
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8111EA0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8111F90
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x81122A0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8112410
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x8112550
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8112640
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8112930
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8112A20
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x8112D10
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x8112E60
-        public void __GetComponents__TArray(){} // RVA: 0x8112F90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x8113080
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8113330
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8113490
-        public void __GetType__SystemType(){} // RVA: 0x81135E0
-        public void __Raycast__UnityEngineRay_UnityEngineRaycastHitRef_SystemSingle__SystemBoolean(){} // RVA: 0x81136D0
-        public void __ToString__SystemString(){} // RVA: 0x8113920
-        public void __get_attachedArticulationBody__UnityEngineArticulationBody(){} // RVA: 0x8113A70
-        public void __get_attachedRigidbody__UnityEngineRigidbody(){} // RVA: 0x8113BB0
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x8113CF0
-        public void __get_contactOffset__SystemSingle(){} // RVA: 0x8113E40
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8113F60
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x8114080
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x81141B0
-        public void __get_hasModifiableContacts__SystemBoolean(){} // RVA: 0x81142F0
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x8114410
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x8114540
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x8114660
-        public void __get_material__UnityEnginePhysicMaterial(){} // RVA: 0x8114780
-        public void __get_name__SystemString(){} // RVA: 0x81148C0
-        public void __get_providesContacts__SystemBoolean(){} // RVA: 0x8114A10
-        public void __get_sharedMaterial__UnityEnginePhysicMaterial(){} // RVA: 0x8114B30
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8114C70
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8114DB0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x81150B0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81152A0
-        public void __set_contactOffset__SystemSingle__SystemVoid(){} // RVA: 0x81155A0
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x81156D0
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8115800
-        public void __set_hasModifiableContacts__SystemBoolean__SystemVoid(){} // RVA: 0x8115920
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8115A50
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x8115B70
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x8115CA0
-        public void __set_material__UnityEnginePhysicMaterial__SystemVoid(){} // RVA: 0x8115DC0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8115F10
-        public void __set_providesContacts__SystemBoolean__SystemVoid(){} // RVA: 0x8116060
-        public void __set_sharedMaterial__UnityEnginePhysicMaterial__SystemVoid(){} // RVA: 0x8116190
-        public void <.ctor>b__8_1(){} // RVA: 0x81162E0
-    }
-
-    public class ExternUnityEngineCollider2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81194C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8119500
-        public void .ctor(){} // RVA: 0x81195B0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8119980
-        public void GetExternFunctionDelegate(){} // RVA: 0x8119AB0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8119BC0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8119E90
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x811A160
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x811A3E0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x811A620
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x811A7F0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x811A980
-        public void __ClosestPoint__UnityEngineVector2__UnityEngineVector2(){} // RVA: 0x811AAD0
-        public void __CreateMesh__SystemBoolean_SystemBoolean__UnityEngineMesh(){} // RVA: 0x811AC30
-        public void __Distance__UnityEngineCollider2D__UnityEngineColliderDistance2D(){} // RVA: 0x811AD90
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x811AF20
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x811B0F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x811B1E0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x811B490
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x811B5F0
-        public void __GetComponentInChildren__T(){} // RVA: 0x811B710
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x811B800
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x811BA80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x811BB70
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x811BE20
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x811BF80
-        public void __GetComponentInParent__T(){} // RVA: 0x811C0A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x811C190
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x811C410
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x811C580
-        public void __GetComponent__T(){} // RVA: 0x811C6A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x811C780
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x811C9D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x811CAC0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x811CDF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x811CEE0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x811D220
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x811D310
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x811D620
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x811D790
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x811D8C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x811D9B0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x811DCA0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x811DD90
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x811E0D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x811E1C0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x811E4D0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x811E640
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x811E780
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x811E870
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x811EB60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x811EC50
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x811EF40
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x811F090
-        public void __GetComponents__TArray(){} // RVA: 0x811F1C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x811F2B0
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x811F560
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x811F6B0
-        public void __GetContacts__UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x811F7C0
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x811F910
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x811FB40
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x811FD20
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x811FF50
-        public void __GetContacts__UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x8120130
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8120240
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x81203A0
-        public void __GetShapeHash__SystemUInt32(){} // RVA: 0x81204F0
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x8120610
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D__SystemInt32(){} // RVA: 0x8120790
-        public void __GetType__SystemType(){} // RVA: 0x8120910
-        public void __IsTouchingLayers__SystemBoolean(){} // RVA: 0x8120A00
-        public void __IsTouchingLayers__SystemInt32__SystemBoolean(){} // RVA: 0x8120B30
-        public void __IsTouching__UnityEngineCollider2D_UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x8120C90
-        public void __IsTouching__UnityEngineCollider2D__SystemBoolean(){} // RVA: 0x8120E50
-        public void __IsTouching__UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x8120FB0
-        public void __OverlapCollider__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8121130
-        public void __OverlapCollider__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x8121360
-        public void __OverlapPoint__UnityEngineVector2__SystemBoolean(){} // RVA: 0x8121590
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle__SystemInt32(){} // RVA: 0x81216F0
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8121960
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8121BD0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle_SystemSingle__SystemInt32(){} // RVA: 0x8121E00
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle__SystemInt32(){} // RVA: 0x8122050
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32__SystemInt32(){} // RVA: 0x8122260
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8122430
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x81225C0
-        public void __ToString__SystemString(){} // RVA: 0x8122710
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x8122860
-        public void __get_bounciness__SystemSingle(){} // RVA: 0x81229A0
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x8122AC0
-        public void __get_callbackLayers__UnityEngineLayerMask(){} // RVA: 0x8122C10
-        public void __get_composite__UnityEngineCompositeCollider2D(){} // RVA: 0x8122D40
-        public void __get_contactCaptureLayers__UnityEngineLayerMask(){} // RVA: 0x8122E80
-        public void __get_density__SystemSingle(){} // RVA: 0x8122FB0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x81230D0
-        public void __get_errorState__UnityEngineColliderErrorState2D(){} // RVA: 0x81231F0
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x8123310
-        public void __get_forceReceiveLayers__UnityEngineLayerMask(){} // RVA: 0x8123440
-        public void __get_forceSendLayers__UnityEngineLayerMask(){} // RVA: 0x8123570
-        public void __get_friction__SystemSingle(){} // RVA: 0x81236A0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x81237C0
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x8123900
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x8123A30
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x8123B50
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x8123C70
-        public void __get_name__SystemString(){} // RVA: 0x8123D90
-        public void __get_offset__UnityEngineVector2(){} // RVA: 0x8123EE0
-        public void __get_shapeCount__SystemInt32(){} // RVA: 0x8124010
-        public void __get_sharedMaterial__UnityEnginePhysicsMaterial2D(){} // RVA: 0x8124130
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8124270
-        public void __get_usedByComposite__SystemBoolean(){} // RVA: 0x81243B0
-        public void __get_usedByEffector__SystemBoolean(){} // RVA: 0x81244D0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81245F0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x81248F0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8124AE0
-        public void __set_callbackLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8124DE0
-        public void __set_contactCaptureLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8124F00
-        public void __set_density__SystemSingle__SystemVoid(){} // RVA: 0x8125020
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8125150
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x8125280
-        public void __set_forceReceiveLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81253A0
-        public void __set_forceSendLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81254C0
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81255E0
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x8125700
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x8125830
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8125950
-        public void __set_offset__UnityEngineVector2__SystemVoid(){} // RVA: 0x8125AA0
-        public void __set_sharedMaterial__UnityEnginePhysicsMaterial2D__SystemVoid(){} // RVA: 0x8125BC0
-        public void __set_usedByComposite__SystemBoolean__SystemVoid(){} // RVA: 0x8125D10
-        public void __set_usedByEffector__SystemBoolean__SystemVoid(){} // RVA: 0x8125E40
-        public void <.ctor>b__8_1(){} // RVA: 0x8125F70
-    }
-
-    public class ExternUnityEngineCollider2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x812B490
-        public void .ctor(){} // RVA: 0x812B4D0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x812B8A0
-        public void GetExternFunctionDelegate(){} // RVA: 0x812B9D0
-        public void __Clone__SystemObject(){} // RVA: 0x812BAE0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x812BBC0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x812BCA0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x812BD70
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x812BEC0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x812BF60
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x812C060
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x812C180
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x812C290
-        public void __GetType__SystemType(){} // RVA: 0x812C3B0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x812C4A0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x812C580
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x812C6A0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x812C830
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x812C980
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x812CAB0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x812CBD0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x812CD40
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x812CE80
-        public void __Get__SystemInt32__UnityEngineCollider2D(){} // RVA: 0x812CFA0
-        public void __Initialize__SystemVoid(){} // RVA: 0x812D0E0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x812D150
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x812D270
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x812D3F0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x812D550
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x812D680
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x812D7A0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x812D900
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x812DA50
-        public void __Set__SystemInt32_UnityEngineCollider2D__SystemVoid(){} // RVA: 0x812DB70
-        public void __ToString__SystemString(){} // RVA: 0x812DD30
-        public void __ctor__SystemInt32__UnityEngineCollider2DArray(){} // RVA: 0x812DE20
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x812DF10
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x812DFB0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x812E050
-        public void __get_Length__SystemInt32(){} // RVA: 0x812E0F0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x812E190
-        public void __get_Rank__SystemInt32(){} // RVA: 0x812E230
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x812E2D0
-        public void <.ctor>b__6_1(){} // RVA: 0x812E3B0
-    }
-
-    public class ExternUnityEngineColliderArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81302D0
-        public void .ctor(){} // RVA: 0x8130310
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81306E0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8130810
-        public void __Clone__SystemObject(){} // RVA: 0x8130920
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8130A00
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8130AE0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8130BB0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8130D00
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8130DA0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8130EA0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8130FC0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81310D0
-        public void __GetType__SystemType(){} // RVA: 0x81311F0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81312E0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81313C0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81314E0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8131670
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81317C0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81318F0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8131A10
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8131B80
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8131CC0
-        public void __Get__SystemInt32__UnityEngineCollider(){} // RVA: 0x8131DE0
-        public void __Initialize__SystemVoid(){} // RVA: 0x8131F20
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8131F90
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81320B0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8132230
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8132390
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81324C0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81325E0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8132740
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8132890
-        public void __Set__SystemInt32_UnityEngineCollider__SystemVoid(){} // RVA: 0x81329B0
-        public void __ToString__SystemString(){} // RVA: 0x8132B20
-        public void __ctor__SystemInt32__UnityEngineColliderArray(){} // RVA: 0x8132C10
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8132D00
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8132DA0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8132E40
-        public void __get_Length__SystemInt32(){} // RVA: 0x8132EE0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8132F80
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8133020
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81330C0
-        public void <.ctor>b__6_1(){} // RVA: 0x81331A0
-    }
-
-    public class ExternUnityEngineColliderDistance2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81350C0
-        public void .ctor(){} // RVA: 0x8135100
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81354D0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8135600
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8135710
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8135850
-        public void __GetType__SystemType(){} // RVA: 0x8135900
-        public void __ToString__SystemString(){} // RVA: 0x81359F0
-        public void __get_distance__SystemSingle(){} // RVA: 0x8135AA0
-        public void __get_isOverlapped__SystemBoolean(){} // RVA: 0x8135B40
-        public void __get_isValid__SystemBoolean(){} // RVA: 0x8135BE0
-        public void __get_normal__UnityEngineVector2(){} // RVA: 0x8135C90
-        public void __get_pointA__UnityEngineVector2(){} // RVA: 0x8135D40
-        public void __get_pointB__UnityEngineVector2(){} // RVA: 0x8135DE0
-        public void __set_distance__SystemSingle__SystemVoid(){} // RVA: 0x8135E90
-        public void __set_isValid__SystemBoolean__SystemVoid(){} // RVA: 0x8135F80
-        public void __set_pointA__UnityEngineVector2__SystemVoid(){} // RVA: 0x8136080
-        public void __set_pointB__UnityEngineVector2__SystemVoid(){} // RVA: 0x8136190
-        public void <.ctor>b__6_1(){} // RVA: 0x81362A0
-    }
-
-    public class ExternUnityEngineColliderDistance2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8136F00
-        public void .ctor(){} // RVA: 0x8136F40
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8137310
-        public void GetExternFunctionDelegate(){} // RVA: 0x8137440
-        public void __Clone__SystemObject(){} // RVA: 0x8137550
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8137630
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8137710
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81377E0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8137930
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81379D0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8137AD0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8137BF0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8137D00
-        public void __GetType__SystemType(){} // RVA: 0x8137E20
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8137F10
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8137FF0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8138110
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81382A0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81383F0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8138520
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8138640
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81387B0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81388F0
-        public void __Get__SystemInt32__UnityEngineColliderDistance2D(){} // RVA: 0x8138A10
-        public void __Initialize__SystemVoid(){} // RVA: 0x8138B10
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8138B80
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8138CA0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8138E20
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8138F80
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81390B0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81391D0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8139330
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8139480
-        public void __Set__SystemInt32_UnityEngineColliderDistance2D__SystemVoid(){} // RVA: 0x81395A0
-        public void __ToString__SystemString(){} // RVA: 0x81396A0
-        public void __ctor__SystemInt32__UnityEngineColliderDistance2DArray(){} // RVA: 0x8139790
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8139930
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81399D0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8139A70
-        public void __get_Length__SystemInt32(){} // RVA: 0x8139B10
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8139BB0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8139C50
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8139CF0
-        public void <.ctor>b__6_1(){} // RVA: 0x8139DD0
-    }
-
-    public class ExternUnityEngineCollision
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x813BCF0
-        public void .ctor(){} // RVA: 0x813BD30
-        public void GetExternFunctionParameterCount(){} // RVA: 0x813C100
-        public void GetExternFunctionDelegate(){} // RVA: 0x813C230
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x813C340
-        public void __GetContact__SystemInt32__UnityEngineContactPoint(){} // RVA: 0x813C490
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint__SystemInt32(){} // RVA: 0x813C5A0
-        public void __GetContacts__UnityEngineContactPointArray__SystemInt32(){} // RVA: 0x813C880
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x813CA70
-        public void __GetType__SystemType(){} // RVA: 0x813CB70
-        public void __ToString__SystemString(){} // RVA: 0x813CC60
-        public void __ctor____UnityEngineCollision(){} // RVA: 0x813CD50
-        public void __get_articulationBody__UnityEngineArticulationBody(){} // RVA: 0x813CDF0
-        public void __get_body__UnityEngineComponent(){} // RVA: 0x813CF50
-        public void __get_collider__UnityEngineCollider(){} // RVA: 0x813D030
-        public void __get_contactCount__SystemInt32(){} // RVA: 0x813D110
-        public void __get_contacts__UnityEngineContactPointArray(){} // RVA: 0x813D1B0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x813D250
-        public void __get_impulse__UnityEngineVector3(){} // RVA: 0x813D330
-        public void __get_relativeVelocity__UnityEngineVector3(){} // RVA: 0x813D3E0
-        public void __get_rigidbody__UnityEngineRigidbody(){} // RVA: 0x813D4E0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x813D5C0
-        public void <.ctor>b__6_1(){} // RVA: 0x813D6A0
-    }
-
-    public class ExternUnityEngineCollision2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x813E600
-        public void .ctor(){} // RVA: 0x813E640
-        public void GetExternFunctionParameterCount(){} // RVA: 0x813EA10
-        public void GetExternFunctionDelegate(){} // RVA: 0x813EB40
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x813EC50
-        public void __GetContact__SystemInt32__UnityEngineContactPoint2D(){} // RVA: 0x813EDA0
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x813EF80
-        public void __GetContacts__UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x813F1E0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x813F400
-        public void __GetType__SystemType(){} // RVA: 0x813F500
-        public void __ToString__SystemString(){} // RVA: 0x813F5F0
-        public void __ctor____UnityEngineCollision2D(){} // RVA: 0x813F6E0
-        public void __get_collider__UnityEngineCollider2D(){} // RVA: 0x813F760
-        public void __get_contactCount__SystemInt32(){} // RVA: 0x813F840
-        public void __get_contacts__UnityEngineContactPoint2DArray(){} // RVA: 0x813F8E0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x813F980
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x813FA20
-        public void __get_otherCollider__UnityEngineCollider2D(){} // RVA: 0x813FB00
-        public void __get_otherRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x813FCB0
-        public void __get_relativeVelocity__UnityEngineVector2(){} // RVA: 0x813FE40
-        public void __get_rigidbody__UnityEngineRigidbody2D(){} // RVA: 0x813FEE0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x813FFC0
-        public void <.ctor>b__6_1(){} // RVA: 0x8140200
-    }
-
-    public class ExternUnityEngineCollision2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8141160
-        public void .ctor(){} // RVA: 0x81411A0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8141570
-        public void GetExternFunctionDelegate(){} // RVA: 0x81416A0
-        public void __Clone__SystemObject(){} // RVA: 0x81417B0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8141890
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8141970
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8141A40
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8141B90
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8141C30
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8141D30
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8141E50
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8141F60
-        public void __GetType__SystemType(){} // RVA: 0x8142080
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8142170
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8142250
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8142370
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8142500
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8142650
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8142780
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81428A0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8142A10
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8142B50
-        public void __Get__SystemInt32__UnityEngineCollision2D(){} // RVA: 0x8142C70
-        public void __Initialize__SystemVoid(){} // RVA: 0x8142D50
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8142DC0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8142EE0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8143060
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x81431C0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81432F0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8143410
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8143570
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x81436C0
-        public void __Set__SystemInt32_UnityEngineCollision2D__SystemVoid(){} // RVA: 0x81437E0
-        public void __ToString__SystemString(){} // RVA: 0x8143960
-        public void __ctor__SystemInt32__UnityEngineCollision2DArray(){} // RVA: 0x8143A50
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8143BF0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8143C90
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8143D30
-        public void __get_Length__SystemInt32(){} // RVA: 0x8143DD0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8143E70
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8143F10
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8143FB0
-        public void <.ctor>b__6_1(){} // RVA: 0x8144090
-    }
-
-    public class ExternUnityEngineCollisionArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8145FB0
-        public void .ctor(){} // RVA: 0x8145FF0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81463C0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81464F0
-        public void __Clone__SystemObject(){} // RVA: 0x8146600
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x81466E0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x81467C0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8146890
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x81469E0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8146A80
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8146B80
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8146CA0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8146DB0
-        public void __GetType__SystemType(){} // RVA: 0x8146ED0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8146FC0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81470A0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81471C0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8147350
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81474A0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81475D0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81476F0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8147860
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81479A0
-        public void __Get__SystemInt32__UnityEngineCollision(){} // RVA: 0x8147AC0
-        public void __Initialize__SystemVoid(){} // RVA: 0x8147BA0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8147C10
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8147D30
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8147EB0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8148010
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8148140
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8148260
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81483C0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8148510
-        public void __Set__SystemInt32_UnityEngineCollision__SystemVoid(){} // RVA: 0x8148630
-        public void __ToString__SystemString(){} // RVA: 0x81487B0
-        public void __ctor__SystemInt32__UnityEngineCollisionArray(){} // RVA: 0x81488A0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8148A40
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8148AE0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8148B80
-        public void __get_Length__SystemInt32(){} // RVA: 0x8148C20
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8148CC0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8148D60
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8148E00
-        public void <.ctor>b__6_1(){} // RVA: 0x8148EE0
-    }
-
-    public class ExternUnityEngineColor
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x814AE00
-        public void .ctor(){} // RVA: 0x814AE40
-        public void GetExternFunctionParameterCount(){} // RVA: 0x814B210
-        public void GetExternFunctionDelegate(){} // RVA: 0x814B340
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x814B450
-        public void __Equals__UnityEngineColor__SystemBoolean(){} // RVA: 0x814B6B0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x814B860
-        public void __GetType__SystemType(){} // RVA: 0x814B9A0
-        public void __HSVToRGB__SystemSingle_SystemSingle_SystemSingle_SystemBoolean__UnityEngineColor(){} // RVA: 0x814BA90
-        public void __HSVToRGB__SystemSingle_SystemSingle_SystemSingle__UnityEngineColor(){} // RVA: 0x814BC00
-        public void __LerpUnclamped__UnityEngineColor_UnityEngineColor_SystemSingle__UnityEngineColor(){} // RVA: 0x814BD30
-        public void __Lerp__UnityEngineColor_UnityEngineColor_SystemSingle__UnityEngineColor(){} // RVA: 0x814BED0
-        public void __RGBToHSV__UnityEngineColor_SystemSingleRef_SystemSingleRef_SystemSingleRef__SystemVoid(){} // RVA: 0x814C090
-        public void __ToString__SystemString(){} // RVA: 0x814C220
-        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x814C2D0
-        public void __ToString__SystemString__SystemString(){} // RVA: 0x814C3F0
-        public void __ctor__SystemSingle_SystemSingle_SystemSingle_SystemSingle__UnityEngineColor(){} // RVA: 0x814C4D0
-        public void __ctor__SystemSingle_SystemSingle_SystemSingle__UnityEngineColor(){} // RVA: 0x814C620
-        public void __get_Item__SystemInt32__SystemSingle(){} // RVA: 0x814C750
-        public void __get_a__SystemSingle(){} // RVA: 0x814C830
-        public void __set_a__SystemSingle(){} // RVA: 0x814C960
-        public void __get_b__SystemSingle(){} // RVA: 0x814CA80
-        public void __set_b__SystemSingle(){} // RVA: 0x814CBB0
-        public void __get_black__UnityEngineColor(){} // RVA: 0x814CCD0
-        public void __get_blue__UnityEngineColor(){} // RVA: 0x814CD50
-        public void __get_clear__UnityEngineColor(){} // RVA: 0x814CDD0
-        public void __get_cyan__UnityEngineColor(){} // RVA: 0x814CE50
-        public void __get_g__SystemSingle(){} // RVA: 0x814CED0
-        public void __set_g__SystemSingle(){} // RVA: 0x814D000
-        public void __get_gamma__UnityEngineColor(){} // RVA: 0x814D120
-        public void __get_gray__UnityEngineColor(){} // RVA: 0x814D1E0
-        public void __get_grayscale__SystemSingle(){} // RVA: 0x814D260
-        public void __get_green__UnityEngineColor(){} // RVA: 0x814D330
-        public void __get_grey__UnityEngineColor(){} // RVA: 0x814D3B0
-        public void __get_linear__UnityEngineColor(){} // RVA: 0x814D430
-        public void __get_magenta__UnityEngineColor(){} // RVA: 0x814D4F0
-        public void __get_maxColorComponent__SystemSingle(){} // RVA: 0x814D570
-        public void __get_r__SystemSingle(){} // RVA: 0x814D630
-        public void __set_r__SystemSingle(){} // RVA: 0x814D760
-        public void __get_red__UnityEngineColor(){} // RVA: 0x814D880
-        public void __get_white__UnityEngineColor(){} // RVA: 0x814D900
-        public void __get_yellow__UnityEngineColor(){} // RVA: 0x814D980
-        public void __op_Addition__UnityEngineColor_UnityEngineColor__UnityEngineColor(){} // RVA: 0x814DA00
-        public void __op_Division__UnityEngineColor_SystemSingle__UnityEngineColor(){} // RVA: 0x814DB40
-        public void __op_Equality__UnityEngineColor_UnityEngineColor__SystemBoolean(){} // RVA: 0x814DC80
-        public void __op_Implicit__UnityEngineColor__UnityEngineVector4(){} // RVA: 0x814DDC0
-        public void __op_Implicit__UnityEngineVector4__UnityEngineColor(){} // RVA: 0x814DEA0
-        public void __op_Inequality__UnityEngineColor_UnityEngineColor__SystemBoolean(){} // RVA: 0x814DF80
-        public void __op_Multiply__SystemSingle_UnityEngineColor__UnityEngineColor(){} // RVA: 0x814E0C0
-        public void __op_Multiply__UnityEngineColor_SystemSingle__UnityEngineColor(){} // RVA: 0x814E200
-        public void __op_Multiply__UnityEngineColor_UnityEngineColor__UnityEngineColor(){} // RVA: 0x814E340
-        public void __op_Subtraction__UnityEngineColor_UnityEngineColor__UnityEngineColor(){} // RVA: 0x814E480
-        public void __set_Item__SystemInt32_SystemSingle__SystemVoid(){} // RVA: 0x814E5C0
-        public void <.ctor>b__6_1(){} // RVA: 0x814E6F0
-    }
-
-    public class ExternUnityEngineColor32
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8150D90
-        public void .ctor(){} // RVA: 0x8150DD0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81511A0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81512D0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81513E0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8151520
-        public void __GetType__SystemType(){} // RVA: 0x81515D0
-        public void __LerpUnclamped__UnityEngineColor32_UnityEngineColor32_SystemSingle__UnityEngineColor32(){} // RVA: 0x81516C0
-        public void __Lerp__UnityEngineColor32_UnityEngineColor32_SystemSingle__UnityEngineColor32(){} // RVA: 0x81517C0
-        public void __ToString__SystemString(){} // RVA: 0x81518C0
-        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x8151960
-        public void __ToString__SystemString__SystemString(){} // RVA: 0x8151A70
-        public void __ctor__SystemByte_SystemByte_SystemByte_SystemByte__UnityEngineColor32(){} // RVA: 0x8151B40
-        public void __get_Item__SystemInt32__SystemByte(){} // RVA: 0x8151C60
-        public void __get_a__SystemByte(){} // RVA: 0x8151D30
-        public void __set_a__SystemByte(){} // RVA: 0x8151E00
-        public void __get_b__SystemByte(){} // RVA: 0x8151EC0
-        public void __set_b__SystemByte(){} // RVA: 0x8151F90
-        public void __get_g__SystemByte(){} // RVA: 0x8152050
-        public void __set_g__SystemByte(){} // RVA: 0x8152120
-        public void __get_r__SystemByte(){} // RVA: 0x81521E0
-        public void __set_r__SystemByte(){} // RVA: 0x81522B0
-        public void __op_Implicit__UnityEngineColor32__UnityEngineColor(){} // RVA: 0x8152370
-        public void __op_Implicit__UnityEngineColor__UnityEngineColor32(){} // RVA: 0x8152480
-        public void __set_Item__SystemInt32_SystemByte__SystemVoid(){} // RVA: 0x8152530
-        public void <.ctor>b__6_1(){} // RVA: 0x8152640
-    }
-
-    public class ExternUnityEngineColor32Array
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81537E0
-        public void .ctor(){} // RVA: 0x8153820
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8153BF0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8153D20
-        public void __Clone__SystemObject(){} // RVA: 0x8153E30
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8153F10
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8153FF0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81540C0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8154210
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81542B0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x81543B0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x81544D0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81545E0
-        public void __GetType__SystemType(){} // RVA: 0x8154700
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81547F0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81548D0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81549F0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8154B80
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8154CD0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8154E00
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8154F20
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8155090
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81551D0
-        public void __Get__SystemInt32__UnityEngineColor32(){} // RVA: 0x81552F0
-        public void __Initialize__SystemVoid(){} // RVA: 0x81553D0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8155440
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8155560
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81556E0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8155840
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8155970
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8155A90
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8155BF0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8155D40
-        public void __Set__SystemInt32_UnityEngineColor32__SystemVoid(){} // RVA: 0x8155E60
-        public void __ToString__SystemString(){} // RVA: 0x8155F40
-        public void __ctor__SystemInt32__UnityEngineColor32Array(){} // RVA: 0x8156030
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x81560E0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8156180
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8156220
-        public void __get_Length__SystemInt32(){} // RVA: 0x81562C0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8156360
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8156400
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81564A0
-        public void <.ctor>b__6_1(){} // RVA: 0x8156580
-    }
-
-    public class ExternUnityEngineColorArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81584A0
-        public void .ctor(){} // RVA: 0x81584E0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81588B0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81589E0
-        public void __Clone__SystemObject(){} // RVA: 0x8158AF0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8158BD0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8158CB0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8158D80
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8158ED0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8158F70
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8159070
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8159190
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81592A0
-        public void __GetType__SystemType(){} // RVA: 0x81593C0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81594B0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8159590
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81596B0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8159840
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8159990
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8159AC0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8159BE0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8159D50
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8159E90
-        public void __Get__SystemInt32__UnityEngineColor(){} // RVA: 0x8159FB0
-        public void __Initialize__SystemVoid(){} // RVA: 0x815A0B0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x815A120
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x815A240
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x815A3C0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x815A520
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x815A650
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x815A770
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x815A8D0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x815AA20
-        public void __Set__SystemInt32_UnityEngineColor__SystemVoid(){} // RVA: 0x815AB40
-        public void __ToString__SystemString(){} // RVA: 0x815AC40
-        public void __ctor__SystemInt32__UnityEngineColorArray(){} // RVA: 0x815AD30
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x815ADE0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x815AE80
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x815AF20
-        public void __get_Length__SystemInt32(){} // RVA: 0x815AFC0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x815B060
-        public void __get_Rank__SystemInt32(){} // RVA: 0x815B100
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x815B1A0
-        public void <.ctor>b__6_1(){} // RVA: 0x815B280
-    }
-
-    public class ExternUnityEngineCombineInstance
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81844F0
-        public void .ctor(){} // RVA: 0x8184530
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8184900
-        public void GetExternFunctionDelegate(){} // RVA: 0x8184A30
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8184B40
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8184C80
-        public void __GetType__SystemType(){} // RVA: 0x8184D30
-        public void __ToString__SystemString(){} // RVA: 0x8184E20
-        public void __get_lightmapScaleOffset__UnityEngineVector4(){} // RVA: 0x8184ED0
-        public void __get_mesh__UnityEngineMesh(){} // RVA: 0x8184F90
-        public void __get_realtimeLightmapScaleOffset__UnityEngineVector4(){} // RVA: 0x81850C0
-        public void __get_subMeshIndex__SystemInt32(){} // RVA: 0x8185190
-        public void __get_transform__UnityEngineMatrix4x4(){} // RVA: 0x8185240
-        public void __set_lightmapScaleOffset__UnityEngineVector4__SystemVoid(){} // RVA: 0x8185350
-        public void __set_mesh__UnityEngineMesh__SystemVoid(){} // RVA: 0x81854E0
-        public void __set_realtimeLightmapScaleOffset__UnityEngineVector4__SystemVoid(){} // RVA: 0x8185680
-        public void __set_subMeshIndex__SystemInt32__SystemVoid(){} // RVA: 0x8185800
-        public void __set_transform__UnityEngineMatrix4x4__SystemVoid(){} // RVA: 0x8185980
-        public void <.ctor>b__6_1(){} // RVA: 0x8185B00
-    }
-
-    public class ExternUnityEngineCombineInstanceArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8186760
-        public void .ctor(){} // RVA: 0x81867A0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8186B70
-        public void GetExternFunctionDelegate(){} // RVA: 0x8186CA0
-        public void __Clone__SystemObject(){} // RVA: 0x8186DB0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8186E90
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8186F70
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8187040
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8187190
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8187230
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8187330
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8187450
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8187560
-        public void __GetType__SystemType(){} // RVA: 0x8187680
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8187770
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8187850
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8187970
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8187B00
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8187C50
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8187D80
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8187EA0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8188010
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8188150
-        public void __Get__SystemInt32__UnityEngineCombineInstance(){} // RVA: 0x8188270
-        public void __Initialize__SystemVoid(){} // RVA: 0x81883C0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8188430
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8188550
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81886D0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8188830
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8188960
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8188A80
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8188BE0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8188D30
-        public void __Set__SystemInt32_UnityEngineCombineInstance__SystemVoid(){} // RVA: 0x8188E50
-        public void __ToString__SystemString(){} // RVA: 0x8188FA0
-        public void __ctor__SystemInt32__UnityEngineCombineInstanceArray(){} // RVA: 0x8189090
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8189230
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81892D0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8189370
-        public void __get_Length__SystemInt32(){} // RVA: 0x8189410
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x81894B0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8189550
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81895F0
-        public void <.ctor>b__6_1(){} // RVA: 0x81896D0
-    }
-
-    public class ExternUnityEngineComponent
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x818B5F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x818B630
-        public void .ctor(){} // RVA: 0x818B6E0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x818BAB0
-        public void GetExternFunctionDelegate(){} // RVA: 0x818BBE0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x818BCF0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x818BEC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x818BFB0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x818C260
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x818C3C0
-        public void __GetComponentInChildren__T(){} // RVA: 0x818C4E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x818C5D0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x818C850
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x818C940
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x818CBF0
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x818CD50
-        public void __GetComponentInParent__T(){} // RVA: 0x818CE70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x818CF60
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x818D1E0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x818D350
-        public void __GetComponent__T(){} // RVA: 0x818D470
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x818D550
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x818D7A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x818D890
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x818DBC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x818DCB0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x818DFF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x818E0E0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x818E3F0
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x818E560
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x818E690
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x818E780
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x818EA70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x818EB60
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x818EEA0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x818EF90
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x818F2A0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x818F410
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x818F550
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x818F640
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x818F930
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x818FA20
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x818FD10
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x818FE60
-        public void __GetComponents__TArray(){} // RVA: 0x818FF90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x8190080
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8190330
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8190490
-        public void __GetType__SystemType(){} // RVA: 0x81905E0
-        public void __ToString__SystemString(){} // RVA: 0x81906D0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8190820
-        public void __get_name__SystemString(){} // RVA: 0x8190960
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8190AB0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8190BF0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8190EF0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81910E0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x81913E0
-        public void <.ctor>b__8_1(){} // RVA: 0x8191530
-    }
-
-    public class ExternUnityEngineComponentArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8193380
-        public void .ctor(){} // RVA: 0x81933C0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8193790
-        public void GetExternFunctionDelegate(){} // RVA: 0x81938C0
-        public void __Clone__SystemObject(){} // RVA: 0x81939D0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8193AB0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8193B90
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8193C60
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8193DB0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8193E50
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8193F50
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8194070
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8194180
-        public void __GetType__SystemType(){} // RVA: 0x81942A0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8194390
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8194470
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8194590
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8194720
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8194870
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81949A0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8194AC0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8194C30
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8194D70
-        public void __Get__SystemInt32__UnityEngineComponent(){} // RVA: 0x8194E90
-        public void __Initialize__SystemVoid(){} // RVA: 0x8194FD0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8195040
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8195160
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81952E0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8195440
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8195570
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8195690
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81957F0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8195940
-        public void __Set__SystemInt32_UnityEngineComponent__SystemVoid(){} // RVA: 0x8195A60
-        public void __ToString__SystemString(){} // RVA: 0x8195C20
-        public void __ctor__SystemInt32__UnityEngineComponentArray(){} // RVA: 0x8195D10
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8195E00
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8195EA0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8195F40
-        public void __get_Length__SystemInt32(){} // RVA: 0x8195FE0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8196080
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8196120
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81961C0
-        public void <.ctor>b__6_1(){} // RVA: 0x81962A0
-    }
-
-    public class ExternUnityEngineCompositeCollider2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81981C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8198200
-        public void .ctor(){} // RVA: 0x81982B0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8198680
-        public void GetExternFunctionDelegate(){} // RVA: 0x81987B0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x81988C0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8198B90
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8198E60
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x81990E0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x8199320
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x81994F0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8199680
-        public void __ClosestPoint__UnityEngineVector2__UnityEngineVector2(){} // RVA: 0x81997D0
-        public void __CreateMesh__SystemBoolean_SystemBoolean__UnityEngineMesh(){} // RVA: 0x8199930
-        public void __Distance__UnityEngineCollider2D__UnityEngineColliderDistance2D(){} // RVA: 0x8199A90
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8199C20
-        public void __GenerateGeometry__SystemVoid(){} // RVA: 0x8199DF0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8199EE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8199FD0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x819A280
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x819A3E0
-        public void __GetComponentInChildren__T(){} // RVA: 0x819A500
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x819A5F0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x819A870
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x819A960
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x819AC10
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x819AD70
-        public void __GetComponentInParent__T(){} // RVA: 0x819AE90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x819AF80
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x819B200
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x819B370
-        public void __GetComponent__T(){} // RVA: 0x819B490
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x819B570
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x819B7C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x819B8B0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x819BBE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x819BCD0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x819C010
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x819C100
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x819C410
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x819C580
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x819C6B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x819C7A0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x819CA90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x819CB80
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x819CEC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x819CFB0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x819D2C0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x819D430
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x819D570
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x819D660
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x819D950
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x819DA40
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x819DD30
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x819DE80
-        public void __GetComponents__TArray(){} // RVA: 0x819DFB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x819E0A0
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x819E350
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x819E4A0
-        public void __GetContacts__UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x819E5B0
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x819E700
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x819E930
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x819EB10
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x819ED40
-        public void __GetContacts__UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x819EF20
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x819F030
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x819F190
-        public void __GetPathPointCount__SystemInt32__SystemInt32(){} // RVA: 0x819F2E0
-        public void __GetPath__SystemInt32_SystemCollectionsGenericListUnityEngineVector2__SystemInt32(){} // RVA: 0x819F550
-        public void __GetPath__SystemInt32_UnityEngineVector2Array__SystemInt32(){} // RVA: 0x819F690
-        public void __GetShapeHash__SystemUInt32(){} // RVA: 0x819F7D0
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x819F8F0
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D__SystemInt32(){} // RVA: 0x819FA70
-        public void __GetType__SystemType(){} // RVA: 0x819FBF0
-        public void __IsTouchingLayers__SystemBoolean(){} // RVA: 0x819FCE0
-        public void __IsTouchingLayers__SystemInt32__SystemBoolean(){} // RVA: 0x819FE10
-        public void __IsTouching__UnityEngineCollider2D_UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x819FF70
-        public void __IsTouching__UnityEngineCollider2D__SystemBoolean(){} // RVA: 0x81A0130
-        public void __IsTouching__UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x81A0290
-        public void __OverlapCollider__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x81A0410
-        public void __OverlapCollider__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x81A0640
-        public void __OverlapPoint__UnityEngineVector2__SystemBoolean(){} // RVA: 0x81A0870
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle__SystemInt32(){} // RVA: 0x81A09D0
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x81A0C40
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x81A0EB0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle_SystemSingle__SystemInt32(){} // RVA: 0x81A10E0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle__SystemInt32(){} // RVA: 0x81A1330
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32__SystemInt32(){} // RVA: 0x81A1540
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x81A1710
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x81A18A0
-        public void __ToString__SystemString(){} // RVA: 0x81A19F0
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x81A1B40
-        public void __get_bounciness__SystemSingle(){} // RVA: 0x81A1C80
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x81A1DA0
-        public void __get_callbackLayers__UnityEngineLayerMask(){} // RVA: 0x81A1EF0
-        public void __get_composite__UnityEngineCompositeCollider2D(){} // RVA: 0x81A2020
-        public void __get_contactCaptureLayers__UnityEngineLayerMask(){} // RVA: 0x81A2160
-        public void __get_density__SystemSingle(){} // RVA: 0x81A2290
-        public void __get_edgeRadius__SystemSingle(){} // RVA: 0x81A23B0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x81A24D0
-        public void __get_errorState__UnityEngineColliderErrorState2D(){} // RVA: 0x81A25F0
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x81A2710
-        public void __get_forceReceiveLayers__UnityEngineLayerMask(){} // RVA: 0x81A2840
-        public void __get_forceSendLayers__UnityEngineLayerMask(){} // RVA: 0x81A2970
-        public void __get_friction__SystemSingle(){} // RVA: 0x81A2AA0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x81A2BC0
-        public void __get_generationType__UnityEngineCompositeCollider2DGenerationType(){} // RVA: 0x81A2D00
-        public void __get_geometryType__UnityEngineCompositeCollider2DGeometryType(){} // RVA: 0x81A2E20
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x81A2F40
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x81A3070
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x81A3190
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x81A32B0
-        public void __get_name__SystemString(){} // RVA: 0x81A33D0
-        public void __get_offsetDistance__SystemSingle(){} // RVA: 0x81A3520
-        public void __get_offset__UnityEngineVector2(){} // RVA: 0x81A3640
-        public void __get_pathCount__SystemInt32(){} // RVA: 0x81A3770
-        public void __get_pointCount__SystemInt32(){} // RVA: 0x81A3890
-        public void __get_shapeCount__SystemInt32(){} // RVA: 0x81A39B0
-        public void __get_sharedMaterial__UnityEnginePhysicsMaterial2D(){} // RVA: 0x81A3AD0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x81A3C10
-        public void __get_useDelaunayMesh__SystemBoolean(){} // RVA: 0x81A3D50
-        public void __get_usedByComposite__SystemBoolean(){} // RVA: 0x81A3E70
-        public void __get_usedByEffector__SystemBoolean(){} // RVA: 0x81A3F90
-        public void __get_vertexDistance__SystemSingle(){} // RVA: 0x81A40B0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81A41D0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x81A44D0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81A46C0
-        public void __set_callbackLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81A49C0
-        public void __set_contactCaptureLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81A4AE0
-        public void __set_density__SystemSingle__SystemVoid(){} // RVA: 0x81A4C00
-        public void __set_edgeRadius__SystemSingle__SystemVoid(){} // RVA: 0x81A4D30
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x81A4E60
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81A4F90
-        public void __set_forceReceiveLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81A50B0
-        public void __set_forceSendLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81A51D0
-        public void __set_generationType__UnityEngineCompositeCollider2DGenerationType__SystemVoid(){} // RVA: 0x81A52F0
-        public void __set_geometryType__UnityEngineCompositeCollider2DGeometryType__SystemVoid(){} // RVA: 0x81A5410
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81A5530
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x81A5650
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x81A5780
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x81A58A0
-        public void __set_offsetDistance__SystemSingle__SystemVoid(){} // RVA: 0x81A59F0
-        public void __set_offset__UnityEngineVector2__SystemVoid(){} // RVA: 0x81A5B20
-        public void __set_sharedMaterial__UnityEnginePhysicsMaterial2D__SystemVoid(){} // RVA: 0x81A5C40
-        public void __set_useDelaunayMesh__SystemBoolean__SystemVoid(){} // RVA: 0x81A5D90
-        public void __set_usedByComposite__SystemBoolean__SystemVoid(){} // RVA: 0x81A5EC0
-        public void __set_usedByEffector__SystemBoolean__SystemVoid(){} // RVA: 0x81A5FF0
-        public void __set_vertexDistance__SystemSingle__SystemVoid(){} // RVA: 0x81A6120
-        public void <.ctor>b__8_1(){} // RVA: 0x81A6250
-    }
-
-    public class ExternUnityEngineCompositeCollider2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81AC4F0
-        public void .ctor(){} // RVA: 0x81AC530
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81AC900
-        public void GetExternFunctionDelegate(){} // RVA: 0x81ACA30
-        public void __Clone__SystemObject(){} // RVA: 0x81ACB40
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x81ACC20
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x81ACD00
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81ACDD0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x81ACF20
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81ACFC0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x81AD0C0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x81AD1E0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81AD2F0
-        public void __GetType__SystemType(){} // RVA: 0x81AD410
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81AD500
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81AD5E0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81AD700
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81AD890
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81AD9E0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81ADB10
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81ADC30
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81ADDA0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81ADEE0
-        public void __Get__SystemInt32__UnityEngineCompositeCollider2D(){} // RVA: 0x81AE000
-        public void __Initialize__SystemVoid(){} // RVA: 0x81AE140
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x81AE1B0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81AE2D0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81AE450
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x81AE5B0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81AE6E0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81AE800
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81AE960
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x81AEAB0
-        public void __Set__SystemInt32_UnityEngineCompositeCollider2D__SystemVoid(){} // RVA: 0x81AEBD0
-        public void __ToString__SystemString(){} // RVA: 0x81AED60
-        public void __ctor__SystemInt32__UnityEngineCompositeCollider2DArray(){} // RVA: 0x81AEE50
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x81AEF40
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81AEFE0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x81AF080
-        public void __get_Length__SystemInt32(){} // RVA: 0x81AF120
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x81AF1C0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x81AF260
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81AF300
-        public void <.ctor>b__6_1(){} // RVA: 0x81AF3E0
-    }
-
-    public class ExternUnityEngineConfigurableJoint
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81B1300
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x81B1340
-        public void .ctor(){} // RVA: 0x81B13F0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81B17C0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81B18F0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81B1A00
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x81B1BD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x81B1CC0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x81B1F70
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x81B20D0
-        public void __GetComponentInChildren__T(){} // RVA: 0x81B21F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x81B22E0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x81B2560
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x81B2650
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x81B2900
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x81B2A60
-        public void __GetComponentInParent__T(){} // RVA: 0x81B2B80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x81B2C70
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x81B2EF0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x81B3060
-        public void __GetComponent__T(){} // RVA: 0x81B3180
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x81B3260
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x81B34B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x81B35A0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81B38D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81B39C0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x81B3D00
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x81B3DF0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x81B4100
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x81B4270
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x81B43A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x81B4490
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81B4780
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81B4870
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x81B4BB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x81B4CA0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x81B4FB0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x81B5120
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x81B5260
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x81B5350
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x81B5640
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x81B5730
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x81B5A20
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x81B5B70
-        public void __GetComponents__TArray(){} // RVA: 0x81B5CA0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x81B5D90
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81B6040
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x81B61A0
-        public void __GetType__SystemType(){} // RVA: 0x81B62F0
-        public void __ToString__SystemString(){} // RVA: 0x81B63E0
-        public void __get_anchor__UnityEngineVector3(){} // RVA: 0x81B6530
-        public void __get_angularXDrive__UnityEngineJointDrive(){} // RVA: 0x81B6680
-        public void __get_angularXLimitSpring__UnityEngineSoftJointLimitSpring(){} // RVA: 0x81B67C0
-        public void __get_angularXMotion__UnityEngineConfigurableJointMotion(){} // RVA: 0x81B68F0
-        public void __get_angularYLimit__UnityEngineSoftJointLimit(){} // RVA: 0x81B6A10
-        public void __get_angularYMotion__UnityEngineConfigurableJointMotion(){} // RVA: 0x81B6B50
-        public void __get_angularYZDrive__UnityEngineJointDrive(){} // RVA: 0x81B6C70
-        public void __get_angularYZLimitSpring__UnityEngineSoftJointLimitSpring(){} // RVA: 0x81B6DB0
-        public void __get_angularZLimit__UnityEngineSoftJointLimit(){} // RVA: 0x81B6EE0
-        public void __get_angularZMotion__UnityEngineConfigurableJointMotion(){} // RVA: 0x81B7020
-        public void __get_autoConfigureConnectedAnchor__SystemBoolean(){} // RVA: 0x81B7140
-        public void __get_axis__UnityEngineVector3(){} // RVA: 0x81B7260
-        public void __get_breakForce__SystemSingle(){} // RVA: 0x81B73B0
-        public void __get_breakTorque__SystemSingle(){} // RVA: 0x81B74D0
-        public void __get_configuredInWorldSpace__SystemBoolean(){} // RVA: 0x81B75F0
-        public void __get_connectedAnchor__UnityEngineVector3(){} // RVA: 0x81B7710
-        public void __get_connectedArticulationBody__UnityEngineArticulationBody(){} // RVA: 0x81B7860
-        public void __get_connectedBody__UnityEngineRigidbody(){} // RVA: 0x81B79A0
-        public void __get_connectedMassScale__SystemSingle(){} // RVA: 0x81B7AE0
-        public void __get_currentForce__UnityEngineVector3(){} // RVA: 0x81B7C00
-        public void __get_currentTorque__UnityEngineVector3(){} // RVA: 0x81B7D00
-        public void __get_enableCollision__SystemBoolean(){} // RVA: 0x81B7E00
-        public void __get_enablePreprocessing__SystemBoolean(){} // RVA: 0x81B7F20
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x81B8040
-        public void __get_highAngularXLimit__UnityEngineSoftJointLimit(){} // RVA: 0x81B8180
-        public void __get_linearLimitSpring__UnityEngineSoftJointLimitSpring(){} // RVA: 0x81B82C0
-        public void __get_linearLimit__UnityEngineSoftJointLimit(){} // RVA: 0x81B83F0
-        public void __get_lowAngularXLimit__UnityEngineSoftJointLimit(){} // RVA: 0x81B8530
-        public void __get_massScale__SystemSingle(){} // RVA: 0x81B8670
-        public void __get_name__SystemString(){} // RVA: 0x81B8790
-        public void __get_projectionAngle__SystemSingle(){} // RVA: 0x81B88E0
-        public void __get_projectionDistance__SystemSingle(){} // RVA: 0x81B8A00
-        public void __get_projectionMode__UnityEngineJointProjectionMode(){} // RVA: 0x81B8B20
-        public void __get_rotationDriveMode__UnityEngineRotationDriveMode(){} // RVA: 0x81B8C40
-        public void __get_secondaryAxis__UnityEngineVector3(){} // RVA: 0x81B8D60
-        public void __get_slerpDrive__UnityEngineJointDrive(){} // RVA: 0x81B8EB0
-        public void __get_swapBodies__SystemBoolean(){} // RVA: 0x81B8FF0
-        public void __get_targetAngularVelocity__UnityEngineVector3(){} // RVA: 0x81B9110
-        public void __get_targetPosition__UnityEngineVector3(){} // RVA: 0x81B9260
-        public void __get_targetRotation__UnityEngineQuaternion(){} // RVA: 0x81B93B0
-        public void __get_targetVelocity__UnityEngineVector3(){} // RVA: 0x81B94F0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x81B9640
-        public void __get_xDrive__UnityEngineJointDrive(){} // RVA: 0x81B9780
-        public void __get_xMotion__UnityEngineConfigurableJointMotion(){} // RVA: 0x81B98C0
-        public void __get_yDrive__UnityEngineJointDrive(){} // RVA: 0x81B99E0
-        public void __get_yMotion__UnityEngineConfigurableJointMotion(){} // RVA: 0x81B9B20
-        public void __get_zDrive__UnityEngineJointDrive(){} // RVA: 0x81B9C40
-        public void __get_zMotion__UnityEngineConfigurableJointMotion(){} // RVA: 0x81B9D80
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81B9EA0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x81BA1A0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81BA390
-        public void __set_anchor__UnityEngineVector3__SystemVoid(){} // RVA: 0x81BA690
-        public void __set_angularXDrive__UnityEngineJointDrive__SystemVoid(){} // RVA: 0x81BA7D0
-        public void __set_angularXLimitSpring__UnityEngineSoftJointLimitSpring__SystemVoid(){} // RVA: 0x81BA900
-        public void __set_angularXMotion__UnityEngineConfigurableJointMotion__SystemVoid(){} // RVA: 0x81BAA20
-        public void __set_angularYLimit__UnityEngineSoftJointLimit__SystemVoid(){} // RVA: 0x81BAB40
-        public void __set_angularYMotion__UnityEngineConfigurableJointMotion__SystemVoid(){} // RVA: 0x81BAC80
-        public void __set_angularYZDrive__UnityEngineJointDrive__SystemVoid(){} // RVA: 0x81BADA0
-        public void __set_angularYZLimitSpring__UnityEngineSoftJointLimitSpring__SystemVoid(){} // RVA: 0x81BAED0
-        public void __set_angularZLimit__UnityEngineSoftJointLimit__SystemVoid(){} // RVA: 0x81BAFF0
-        public void __set_angularZMotion__UnityEngineConfigurableJointMotion__SystemVoid(){} // RVA: 0x81BB130
-        public void __set_autoConfigureConnectedAnchor__SystemBoolean__SystemVoid(){} // RVA: 0x81BB250
-        public void __set_axis__UnityEngineVector3__SystemVoid(){} // RVA: 0x81BB380
-        public void __set_breakForce__SystemSingle__SystemVoid(){} // RVA: 0x81BB4C0
-        public void __set_breakTorque__SystemSingle__SystemVoid(){} // RVA: 0x81BB5F0
-        public void __set_configuredInWorldSpace__SystemBoolean__SystemVoid(){} // RVA: 0x81BB720
-        public void __set_connectedAnchor__UnityEngineVector3__SystemVoid(){} // RVA: 0x81BB850
-        public void __set_connectedArticulationBody__UnityEngineArticulationBody__SystemVoid(){} // RVA: 0x81BB990
-        public void __set_connectedBody__UnityEngineRigidbody__SystemVoid(){} // RVA: 0x81BBAE0
-        public void __set_connectedMassScale__SystemSingle__SystemVoid(){} // RVA: 0x81BBC30
-        public void __set_enableCollision__SystemBoolean__SystemVoid(){} // RVA: 0x81BBD60
-        public void __set_enablePreprocessing__SystemBoolean__SystemVoid(){} // RVA: 0x81BBE90
-        public void __set_highAngularXLimit__UnityEngineSoftJointLimit__SystemVoid(){} // RVA: 0x81BBFC0
-        public void __set_linearLimitSpring__UnityEngineSoftJointLimitSpring__SystemVoid(){} // RVA: 0x81BC100
-        public void __set_linearLimit__UnityEngineSoftJointLimit__SystemVoid(){} // RVA: 0x81BC220
-        public void __set_lowAngularXLimit__UnityEngineSoftJointLimit__SystemVoid(){} // RVA: 0x81BC360
-        public void __set_massScale__SystemSingle__SystemVoid(){} // RVA: 0x81BC4A0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x81BC5D0
-        public void __set_projectionAngle__SystemSingle__SystemVoid(){} // RVA: 0x81BC720
-        public void __set_projectionDistance__SystemSingle__SystemVoid(){} // RVA: 0x81BC850
-        public void __set_projectionMode__UnityEngineJointProjectionMode__SystemVoid(){} // RVA: 0x81BC980
-        public void __set_rotationDriveMode__UnityEngineRotationDriveMode__SystemVoid(){} // RVA: 0x81BCAA0
-        public void __set_secondaryAxis__UnityEngineVector3__SystemVoid(){} // RVA: 0x81BCBC0
-        public void __set_slerpDrive__UnityEngineJointDrive__SystemVoid(){} // RVA: 0x81BCD00
-        public void __set_swapBodies__SystemBoolean__SystemVoid(){} // RVA: 0x81BCE30
-        public void __set_targetAngularVelocity__UnityEngineVector3__SystemVoid(){} // RVA: 0x81BCF60
-        public void __set_targetPosition__UnityEngineVector3__SystemVoid(){} // RVA: 0x81BD0A0
-        public void __set_targetRotation__UnityEngineQuaternion__SystemVoid(){} // RVA: 0x81BD1E0
-        public void __set_targetVelocity__UnityEngineVector3__SystemVoid(){} // RVA: 0x81BD310
-        public void __set_xDrive__UnityEngineJointDrive__SystemVoid(){} // RVA: 0x81BD450
-        public void __set_xMotion__UnityEngineConfigurableJointMotion__SystemVoid(){} // RVA: 0x81BD580
-        public void __set_yDrive__UnityEngineJointDrive__SystemVoid(){} // RVA: 0x81BD6A0
-        public void __set_yMotion__UnityEngineConfigurableJointMotion__SystemVoid(){} // RVA: 0x81BD7D0
-        public void __set_zDrive__UnityEngineJointDrive__SystemVoid(){} // RVA: 0x81BD8F0
-        public void __set_zMotion__UnityEngineConfigurableJointMotion__SystemVoid(){} // RVA: 0x81BDA20
-        public void <.ctor>b__8_1(){} // RVA: 0x81BDB40
-    }
-
-    public class ExternUnityEngineConfigurableJointArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81C3BA0
-        public void .ctor(){} // RVA: 0x81C3BE0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81C3FB0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81C40E0
-        public void __Clone__SystemObject(){} // RVA: 0x81C41F0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x81C42D0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x81C43B0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81C4480
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x81C45D0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81C4670
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x81C4770
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x81C4890
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81C49A0
-        public void __GetType__SystemType(){} // RVA: 0x81C4AC0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81C4BB0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81C4C90
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81C4DB0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81C4F40
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81C5090
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81C51C0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81C52E0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81C5450
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81C5590
-        public void __Get__SystemInt32__UnityEngineConfigurableJoint(){} // RVA: 0x81C56B0
-        public void __Initialize__SystemVoid(){} // RVA: 0x81C57F0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x81C5860
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81C5980
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81C5B00
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x81C5C60
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81C5D90
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81C5EB0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81C6010
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x81C6160
-        public void __Set__SystemInt32_UnityEngineConfigurableJoint__SystemVoid(){} // RVA: 0x81C6280
-        public void __ToString__SystemString(){} // RVA: 0x81C6440
-        public void __ctor__SystemInt32__UnityEngineConfigurableJointArray(){} // RVA: 0x81C6530
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x81C6620
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81C66C0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x81C6760
-        public void __get_Length__SystemInt32(){} // RVA: 0x81C6800
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x81C68A0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x81C6940
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81C69E0
-        public void <.ctor>b__6_1(){} // RVA: 0x81C6AC0
-    }
-
-    public class ExternUnityEngineConstantForce
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81C89E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x81C8A20
-        public void .ctor(){} // RVA: 0x81C8AD0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81C8EA0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81C8FD0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81C90E0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x81C92B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x81C93A0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x81C9650
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x81C97B0
-        public void __GetComponentInChildren__T(){} // RVA: 0x81C98D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x81C99C0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x81C9C40
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x81C9D30
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x81C9FE0
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x81CA140
-        public void __GetComponentInParent__T(){} // RVA: 0x81CA260
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x81CA350
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x81CA5D0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x81CA740
-        public void __GetComponent__T(){} // RVA: 0x81CA860
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x81CA940
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x81CAB90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x81CAC80
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81CAFB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81CB0A0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x81CB3E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x81CB4D0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x81CB7E0
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x81CB950
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x81CBA80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x81CBB70
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81CBE60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81CBF50
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x81CC290
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x81CC380
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x81CC690
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x81CC800
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x81CC940
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x81CCA30
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x81CCD20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x81CCE10
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x81CD100
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x81CD250
-        public void __GetComponents__TArray(){} // RVA: 0x81CD380
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x81CD470
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81CD720
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x81CD880
-        public void __GetType__SystemType(){} // RVA: 0x81CD9D0
-        public void __ToString__SystemString(){} // RVA: 0x81CDAC0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x81CDC10
-        public void __get_force__UnityEngineVector3(){} // RVA: 0x81CDD30
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x81CDE80
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x81CDFC0
-        public void __get_name__SystemString(){} // RVA: 0x81CE0E0
-        public void __get_relativeForce__UnityEngineVector3(){} // RVA: 0x81CE230
-        public void __get_relativeTorque__UnityEngineVector3(){} // RVA: 0x81CE380
-        public void __get_torque__UnityEngineVector3(){} // RVA: 0x81CE4D0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x81CE620
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81CE760
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x81CEA60
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81CEC50
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x81CEF50
-        public void __set_force__UnityEngineVector3__SystemVoid(){} // RVA: 0x81CF080
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x81CF1C0
-        public void __set_relativeForce__UnityEngineVector3__SystemVoid(){} // RVA: 0x81CF310
-        public void __set_relativeTorque__UnityEngineVector3__SystemVoid(){} // RVA: 0x81CF450
-        public void __set_torque__UnityEngineVector3__SystemVoid(){} // RVA: 0x81CF590
-        public void <.ctor>b__8_1(){} // RVA: 0x81CF6D0
-    }
-
-    public class ExternUnityEngineConstantForce2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81D1D70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x81D1DB0
-        public void .ctor(){} // RVA: 0x81D1E60
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81D2230
-        public void GetExternFunctionDelegate(){} // RVA: 0x81D2360
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81D2470
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x81D2640
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x81D2730
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x81D29E0
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x81D2B40
-        public void __GetComponentInChildren__T(){} // RVA: 0x81D2C60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x81D2D50
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x81D2FD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x81D30C0
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x81D3370
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x81D34D0
-        public void __GetComponentInParent__T(){} // RVA: 0x81D35F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x81D36E0
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x81D3960
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x81D3AD0
-        public void __GetComponent__T(){} // RVA: 0x81D3BF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x81D3CD0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x81D3F20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x81D4010
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81D4340
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81D4430
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x81D4770
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x81D4860
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x81D4B70
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x81D4CE0
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x81D4E10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x81D4F00
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81D51F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x81D52E0
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x81D5620
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x81D5710
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x81D5A20
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x81D5B90
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x81D5CD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x81D5DC0
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x81D60B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x81D61A0
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x81D6490
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x81D65E0
-        public void __GetComponents__TArray(){} // RVA: 0x81D6710
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x81D6800
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81D6AB0
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x81D6C10
-        public void __GetType__SystemType(){} // RVA: 0x81D6D60
-        public void __ToString__SystemString(){} // RVA: 0x81D6E50
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x81D6FA0
-        public void __get_force__UnityEngineVector2(){} // RVA: 0x81D70C0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x81D71F0
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x81D7330
-        public void __get_name__SystemString(){} // RVA: 0x81D7450
-        public void __get_relativeForce__UnityEngineVector2(){} // RVA: 0x81D75A0
-        public void __get_torque__SystemSingle(){} // RVA: 0x81D76D0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x81D77F0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81D7930
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x81D7C30
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x81D7E20
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x81D8120
-        public void __set_force__UnityEngineVector2__SystemVoid(){} // RVA: 0x81D8250
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x81D8370
-        public void __set_relativeForce__UnityEngineVector2__SystemVoid(){} // RVA: 0x81D84C0
-        public void __set_torque__SystemSingle__SystemVoid(){} // RVA: 0x81D85E0
-        public void <.ctor>b__8_1(){} // RVA: 0x81D8710
-    }
-
-    public class ExternUnityEngineConstantForce2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81DAC30
-        public void .ctor(){} // RVA: 0x81DAC70
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81DB040
-        public void GetExternFunctionDelegate(){} // RVA: 0x81DB170
-        public void __Clone__SystemObject(){} // RVA: 0x81DB280
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x81DB360
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x81DB440
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81DB510
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x81DB660
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81DB700
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x81DB800
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x81DB920
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81DBA30
-        public void __GetType__SystemType(){} // RVA: 0x81DBB50
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81DBC40
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81DBD20
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81DBE40
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81DBFD0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81DC120
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81DC250
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81DC370
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81DC4E0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81DC620
-        public void __Get__SystemInt32__UnityEngineConstantForce2D(){} // RVA: 0x81DC740
-        public void __Initialize__SystemVoid(){} // RVA: 0x81DC880
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x81DC8F0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81DCA10
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81DCB90
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x81DCCF0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81DCE20
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81DCF40
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81DD0A0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x81DD1F0
-        public void __Set__SystemInt32_UnityEngineConstantForce2D__SystemVoid(){} // RVA: 0x81DD310
-        public void __ToString__SystemString(){} // RVA: 0x81DD4A0
-        public void __ctor__SystemInt32__UnityEngineConstantForce2DArray(){} // RVA: 0x81DD590
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x81DD680
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81DD720
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x81DD7C0
-        public void __get_Length__SystemInt32(){} // RVA: 0x81DD860
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x81DD900
-        public void __get_Rank__SystemInt32(){} // RVA: 0x81DD9A0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81DDA40
-        public void <.ctor>b__6_1(){} // RVA: 0x81DDB20
-    }
-
-    public class ExternUnityEngineConstantForceArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81DFA40
-        public void .ctor(){} // RVA: 0x81DFA80
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81DFE50
-        public void GetExternFunctionDelegate(){} // RVA: 0x81DFF80
-        public void __Clone__SystemObject(){} // RVA: 0x81E0090
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x81E0170
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x81E0250
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81E0320
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x81E0470
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81E0510
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x81E0610
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x81E0730
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81E0840
-        public void __GetType__SystemType(){} // RVA: 0x81E0960
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81E0A50
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81E0B30
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81E0C50
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81E0DE0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81E0F30
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81E1060
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81E1180
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81E12F0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81E1430
-        public void __Get__SystemInt32__UnityEngineConstantForce(){} // RVA: 0x81E1550
-        public void __Initialize__SystemVoid(){} // RVA: 0x81E1690
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x81E1700
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81E1820
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81E19A0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x81E1B00
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81E1C30
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81E1D50
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81E1EB0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x81E2000
-        public void __Set__SystemInt32_UnityEngineConstantForce__SystemVoid(){} // RVA: 0x81E2120
-        public void __ToString__SystemString(){} // RVA: 0x81E22E0
-        public void __ctor__SystemInt32__UnityEngineConstantForceArray(){} // RVA: 0x81E23D0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x81E24C0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81E2560
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x81E2600
-        public void __get_Length__SystemInt32(){} // RVA: 0x81E26A0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x81E2740
-        public void __get_Rank__SystemInt32(){} // RVA: 0x81E27E0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81E2880
-        public void <.ctor>b__6_1(){} // RVA: 0x81E2960
-    }
-
-    public class ExternUnityEngineContactFilter2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81E4880
-        public void .ctor(){} // RVA: 0x81E48C0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81E4C90
-        public void GetExternFunctionDelegate(){} // RVA: 0x81E4DC0
-        public void __ClearDepth__SystemVoid(){} // RVA: 0x81E4ED0
-        public void __ClearLayerMask__SystemVoid(){} // RVA: 0x81E4F40
-        public void __ClearNormalAngle__SystemVoid(){} // RVA: 0x81E4FB0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81E5020
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81E5160
-        public void __GetType__SystemType(){} // RVA: 0x81E5210
-        public void __IsFilteringDepth__UnityEngineGameObject__SystemBoolean(){} // RVA: 0x81E5300
-        public void __IsFilteringLayerMask__UnityEngineGameObject__SystemBoolean(){} // RVA: 0x81E5430
-        public void __IsFilteringNormalAngle__SystemSingle__SystemBoolean(){} // RVA: 0x81E55C0
-        public void __IsFilteringNormalAngle__UnityEngineVector2__SystemBoolean(){} // RVA: 0x81E5710
-        public void __IsFilteringTrigger__UnityEngineCollider2D__SystemBoolean(){} // RVA: 0x81E5850
-        public void __NoFilter__UnityEngineContactFilter2D(){} // RVA: 0x81E59C0
-        public void __SetDepth__SystemSingle_SystemSingle__SystemVoid(){} // RVA: 0x81E5B10
-        public void __SetLayerMask__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x81E5C60
-        public void __SetNormalAngle__SystemSingle_SystemSingle__SystemVoid(){} // RVA: 0x81E5CF0
-        public void __ToString__SystemString(){} // RVA: 0x81E5E40
-        public void __get_NormalAngleUpperLimit__SystemSingle(){} // RVA: 0x81E5EF0
-        public void __get_isFiltering__SystemBoolean(){} // RVA: 0x81E5F90
-        public void __get_layerMask__UnityEngineLayerMask(){} // RVA: 0x81E6060
-        public void __set_layerMask__UnityEngineLayerMask(){} // RVA: 0x81E6190
-        public void __get_maxDepth__SystemSingle(){} // RVA: 0x81E6290
-        public void __set_maxDepth__SystemSingle(){} // RVA: 0x81E63C0
-        public void __get_maxNormalAngle__SystemSingle(){} // RVA: 0x81E64D0
-        public void __set_maxNormalAngle__SystemSingle(){} // RVA: 0x81E65F0
-        public void __get_minDepth__SystemSingle(){} // RVA: 0x81E66F0
-        public void __set_minDepth__SystemSingle(){} // RVA: 0x81E6810
-        public void __get_minNormalAngle__SystemSingle(){} // RVA: 0x81E6920
-        public void __set_minNormalAngle__SystemSingle(){} // RVA: 0x81E6A50
-        public void __get_useDepth__SystemBoolean(){} // RVA: 0x81E6B60
-        public void __set_useDepth__SystemBoolean(){} // RVA: 0x81E6C90
-        public void __get_useLayerMask__SystemBoolean(){} // RVA: 0x81E6DA0
-        public void __set_useLayerMask__SystemBoolean(){} // RVA: 0x81E6ED0
-        public void __get_useNormalAngle__SystemBoolean(){} // RVA: 0x81E6FE0
-        public void __set_useNormalAngle__SystemBoolean(){} // RVA: 0x81E7110
-        public void __get_useOutsideDepth__SystemBoolean(){} // RVA: 0x81E7220
-        public void __set_useOutsideDepth__SystemBoolean(){} // RVA: 0x81E7350
-        public void __get_useOutsideNormalAngle__SystemBoolean(){} // RVA: 0x81E7460
-        public void __set_useOutsideNormalAngle__SystemBoolean(){} // RVA: 0x81E7590
-        public void __get_useTriggers__SystemBoolean(){} // RVA: 0x81E76A0
-        public void __set_useTriggers__SystemBoolean(){} // RVA: 0x81E77C0
-        public void <.ctor>b__6_1(){} // RVA: 0x81E78D0
-    }
-
-    public class ExternUnityEngineContactFilter2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81E98B0
-        public void .ctor(){} // RVA: 0x81E98F0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81E9CC0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81E9DF0
-        public void __Clone__SystemObject(){} // RVA: 0x81E9F00
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x81E9FE0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x81EA0C0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81EA190
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x81EA2E0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81EA380
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x81EA480
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x81EA5A0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81EA6B0
-        public void __GetType__SystemType(){} // RVA: 0x81EA7D0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81EA8C0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81EA9A0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81EAAC0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81EAC50
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81EADA0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81EAED0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81EAFF0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81EB160
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81EB2A0
-        public void __Get__SystemInt32__UnityEngineContactFilter2D(){} // RVA: 0x81EB3C0
-        public void __Initialize__SystemVoid(){} // RVA: 0x81EB4C0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x81EB530
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81EB650
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81EB7D0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x81EB930
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81EBA60
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81EBB80
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81EBCE0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x81EBE30
-        public void __Set__SystemInt32_UnityEngineContactFilter2D__SystemVoid(){} // RVA: 0x81EBF50
-        public void __ToString__SystemString(){} // RVA: 0x81EC060
-        public void __ctor__SystemInt32__UnityEngineContactFilter2DArray(){} // RVA: 0x81EC150
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x81EC2F0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81EC390
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x81EC430
-        public void __get_Length__SystemInt32(){} // RVA: 0x81EC4D0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x81EC570
-        public void __get_Rank__SystemInt32(){} // RVA: 0x81EC610
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81EC6B0
-        public void <.ctor>b__6_1(){} // RVA: 0x81EC790
-    }
-
-    public class ExternUnityEngineContactPoint
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81EE6B0
-        public void .ctor(){} // RVA: 0x81EE6F0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81EEAC0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81EEBF0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81EED00
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81EEE40
-        public void __GetType__SystemType(){} // RVA: 0x81EEEF0
-        public void __ToString__SystemString(){} // RVA: 0x81EEFE0
-        public void __get_impulse__UnityEngineVector3(){} // RVA: 0x81EF090
-        public void __get_normal__UnityEngineVector3(){} // RVA: 0x81EF150
-        public void __get_otherCollider__UnityEngineCollider(){} // RVA: 0x81EF220
-        public void __get_point__UnityEngineVector3(){} // RVA: 0x81EF390
-        public void __get_separation__SystemSingle(){} // RVA: 0x81EF450
-        public void __get_thisCollider__UnityEngineCollider(){} // RVA: 0x81EF4F0
-        public void <.ctor>b__6_1(){} // RVA: 0x81EF660
-    }
-
-    public class ExternUnityEngineContactPoint2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81EFFC0
-        public void .ctor(){} // RVA: 0x81F0000
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81F03D0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81F0500
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81F0610
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81F0750
-        public void __GetType__SystemType(){} // RVA: 0x81F0800
-        public void __ToString__SystemString(){} // RVA: 0x81F08F0
-        public void __get_collider__UnityEngineCollider2D(){} // RVA: 0x81F09A0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x81F0AC0
-        public void __get_normalImpulse__SystemSingle(){} // RVA: 0x81F0B70
-        public void __get_normal__UnityEngineVector2(){} // RVA: 0x81F0C10
-        public void __get_otherCollider__UnityEngineCollider2D(){} // RVA: 0x81F0CC0
-        public void __get_otherRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x81F0DE0
-        public void __get_point__UnityEngineVector2(){} // RVA: 0x81F0F00
-        public void __get_relativeVelocity__UnityEngineVector2(){} // RVA: 0x81F0FB0
-        public void __get_rigidbody__UnityEngineRigidbody2D(){} // RVA: 0x81F1060
-        public void __get_separation__SystemSingle(){} // RVA: 0x81F1180
-        public void __get_tangentImpulse__SystemSingle(){} // RVA: 0x81F1220
-        public void <.ctor>b__6_1(){} // RVA: 0x81F12C0
-    }
-
-    public class ExternUnityEngineContactPoint2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81F1FE0
-        public void .ctor(){} // RVA: 0x81F2020
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81F23F0
-        public void GetExternFunctionDelegate(){} // RVA: 0x81F2520
-        public void __Clone__SystemObject(){} // RVA: 0x81F2630
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x81F2710
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x81F27F0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81F28C0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x81F2A10
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81F2AB0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x81F2BB0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x81F2CD0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81F2DE0
-        public void __GetType__SystemType(){} // RVA: 0x81F2F00
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81F2FF0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81F30D0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81F31F0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81F3380
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81F34D0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81F3600
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81F3720
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81F3890
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81F39D0
-        public void __Get__SystemInt32__UnityEngineContactPoint2D(){} // RVA: 0x81F3AF0
-        public void __Initialize__SystemVoid(){} // RVA: 0x81F3C00
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x81F3C70
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81F3D90
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81F3F10
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x81F4070
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81F41A0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81F42C0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81F4420
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x81F4570
-        public void __Set__SystemInt32_UnityEngineContactPoint2D__SystemVoid(){} // RVA: 0x81F4690
-        public void __ToString__SystemString(){} // RVA: 0x81F47B0
-        public void __ctor__SystemInt32__UnityEngineContactPoint2DArray(){} // RVA: 0x81F48A0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x81F4950
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81F49F0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x81F4A90
-        public void __get_Length__SystemInt32(){} // RVA: 0x81F4B30
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x81F4BD0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x81F4C70
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81F4D10
-        public void <.ctor>b__6_1(){} // RVA: 0x81F4DF0
-    }
-
-    public class ExternUnityEngineContactPointArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81F6D10
-        public void .ctor(){} // RVA: 0x81F6D50
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81F7120
-        public void GetExternFunctionDelegate(){} // RVA: 0x81F7250
-        public void __Clone__SystemObject(){} // RVA: 0x81F7360
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x81F7440
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x81F7520
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81F75F0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x81F7740
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81F77E0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x81F78E0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x81F7A00
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x81F7B10
-        public void __GetType__SystemType(){} // RVA: 0x81F7C30
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x81F7D20
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x81F7E00
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81F7F20
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x81F80B0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x81F8200
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x81F8330
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81F8450
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x81F85C0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x81F8700
-        public void __Get__SystemInt32__UnityEngineContactPoint(){} // RVA: 0x81F8820
-        public void __Initialize__SystemVoid(){} // RVA: 0x81F8920
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x81F8990
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81F8AB0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x81F8C30
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x81F8D90
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x81F8EC0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81F8FE0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x81F9140
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x81F9290
-        public void __Set__SystemInt32_UnityEngineContactPoint__SystemVoid(){} // RVA: 0x81F93B0
-        public void __ToString__SystemString(){} // RVA: 0x81F94C0
-        public void __ctor__SystemInt32__UnityEngineContactPointArray(){} // RVA: 0x81F95B0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x81F9660
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x81F9700
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x81F97A0
-        public void __get_Length__SystemInt32(){} // RVA: 0x81F9840
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x81F98E0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x81F9980
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x81F9A20
-        public void <.ctor>b__6_1(){} // RVA: 0x81F9B00
-    }
-
-    public class ExternUnityEngineControllerColliderHit
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81FBA20
-        public void .ctor(){} // RVA: 0x81FBA60
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81FBE30
-        public void GetExternFunctionDelegate(){} // RVA: 0x81FBF60
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81FC070
-        public void __get_collider__UnityEngineCollider(){} // RVA: 0x81FC1C0
-        public void __get_controller__UnityEngineCharacterController(){} // RVA: 0x81FC290
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x81FC360
-        public void __get_moveDirection__UnityEngineVector3(){} // RVA: 0x81FC490
-        public void __get_moveLength__SystemSingle(){} // RVA: 0x81FC540
-        public void __get_normal__UnityEngineVector3(){} // RVA: 0x81FC5E0
-        public void __get_point__UnityEngineVector3(){} // RVA: 0x81FC690
-        public void __get_rigidbody__UnityEngineRigidbody(){} // RVA: 0x81FC740
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x81FC870
-        public void <.ctor>b__6_1(){} // RVA: 0x81FC9A0
-    }
-
-    public class ExternUnityEngineCubemap
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x81FD300
-        public void .ctor(){} // RVA: 0x81FD340
-        public void GetExternFunctionParameterCount(){} // RVA: 0x81FD710
-        public void GetExternFunctionDelegate(){} // RVA: 0x81FD840
-        public void __Apply__SystemBoolean_SystemBoolean__SystemVoid(){} // RVA: 0x81FD950
-        public void __Apply__SystemBoolean__SystemVoid(){} // RVA: 0x81FDA60
-        public void __Apply__SystemVoid(){} // RVA: 0x81FDB40
-        public void __ClearRequestedMipmapLevel__SystemVoid(){} // RVA: 0x81FDBF0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x81FDCE0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x81FDEB0
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x81FE010
-        public void __GetPixel__UnityEngineCubemapFace_SystemInt32_SystemInt32_SystemInt32__UnityEngineColor(){} // RVA: 0x81FE160
-        public void __GetPixel__UnityEngineCubemapFace_SystemInt32_SystemInt32__UnityEngineColor(){} // RVA: 0x81FE320
-        public void __GetPixels__UnityEngineCubemapFace_SystemInt32__UnityEngineColorArray(){} // RVA: 0x81FE4C0
-        public void __GetPixels__UnityEngineCubemapFace__UnityEngineColorArray(){} // RVA: 0x81FE650
-        public void __GetType__SystemType(){} // RVA: 0x81FE7B0
-        public void __IncrementUpdateCount__SystemVoid(){} // RVA: 0x81FE8A0
-        public void __SetPixelData__TArray_SystemInt32_UnityEngineCubemapFace_SystemInt32__SystemVoid(){} // RVA: 0x81FE990
-        public void __SetPixel__UnityEngineCubemapFace_SystemInt32_SystemInt32_UnityEngineColor_SystemInt32__SystemVoid(){} // RVA: 0x81FECE0
-        public void __SetPixel__UnityEngineCubemapFace_SystemInt32_SystemInt32_UnityEngineColor__SystemVoid(){} // RVA: 0x81FEEC0
-        public void __SetPixels__UnityEngineColorArray_UnityEngineCubemapFace_SystemInt32__SystemVoid(){} // RVA: 0x81FF060
-        public void __SetPixels__UnityEngineColorArray_UnityEngineCubemapFace__SystemVoid(){} // RVA: 0x81FF1C0
-        public void __SmoothEdges__SystemInt32__SystemVoid(){} // RVA: 0x81FF2E0
-        public void __SmoothEdges__SystemVoid(){} // RVA: 0x81FF400
-        public void __ToString__SystemString(){} // RVA: 0x81FF4F0
-        public void __get_anisoLevel__SystemInt32(){} // RVA: 0x81FF640
-        public void __get_desiredMipmapLevel__SystemInt32(){} // RVA: 0x81FF760
-        public void __get_dimension__UnityEngineRenderingTextureDimension(){} // RVA: 0x81FF880
-        public void __get_filterMode__UnityEngineFilterMode(){} // RVA: 0x81FF970
-        public void __get_format__UnityEngineTextureFormat(){} // RVA: 0x81FFA90
-        public void __get_height__SystemInt32(){} // RVA: 0x81FFBB0
-        public void __get_isDataSRGB__SystemBoolean(){} // RVA: 0x81FFCA0
-        public void __get_isReadable__SystemBoolean(){} // RVA: 0x81FFDD0
-        public void __get_loadedMipmapLevel__SystemInt32(){} // RVA: 0x81FFEC0
-        public void __get_loadingMipmapLevel__SystemInt32(){} // RVA: 0x81FFFE0
-        public void __get_mipMapBias__SystemSingle(){} // RVA: 0x8200100
-        public void __get_mipmapCount__SystemInt32(){} // RVA: 0x8200220
-        public void __get_name__SystemString(){} // RVA: 0x8200340
-        public void __get_requestedMipmapLevel__SystemInt32(){} // RVA: 0x8200490
-        public void __get_streamingMipmapsPriority__SystemInt32(){} // RVA: 0x82005B0
-        public void __get_streamingMipmaps__SystemBoolean(){} // RVA: 0x82006D0
-        public void __get_texelSize__UnityEngineVector2(){} // RVA: 0x82007F0
-        public void __get_updateCount__SystemUInt32(){} // RVA: 0x8200920
-        public void __get_width__SystemInt32(){} // RVA: 0x8200A40
-        public void __get_wrapModeU__UnityEngineTextureWrapMode(){} // RVA: 0x8200B30
-        public void __get_wrapModeV__UnityEngineTextureWrapMode(){} // RVA: 0x8200C50
-        public void __get_wrapModeW__UnityEngineTextureWrapMode(){} // RVA: 0x8200D70
-        public void __get_wrapMode__UnityEngineTextureWrapMode(){} // RVA: 0x8200E90
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8200FB0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x82012B0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x82014A0
-        public void __set_anisoLevel__SystemInt32__SystemVoid(){} // RVA: 0x82017A0
-        public void __set_dimension__UnityEngineRenderingTextureDimension__SystemVoid(){} // RVA: 0x82018C0
-        public void __set_filterMode__UnityEngineFilterMode__SystemVoid(){} // RVA: 0x82019B0
-        public void __set_height__SystemInt32__SystemVoid(){} // RVA: 0x8201AD0
-        public void __set_mipMapBias__SystemSingle__SystemVoid(){} // RVA: 0x8201BC0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8201CF0
-        public void __set_requestedMipmapLevel__SystemInt32__SystemVoid(){} // RVA: 0x8201E40
-        public void __set_width__SystemInt32__SystemVoid(){} // RVA: 0x8201F60
-        public void __set_wrapModeU__UnityEngineTextureWrapMode__SystemVoid(){} // RVA: 0x8202050
-        public void __set_wrapModeV__UnityEngineTextureWrapMode__SystemVoid(){} // RVA: 0x8202170
-        public void __set_wrapModeW__UnityEngineTextureWrapMode__SystemVoid(){} // RVA: 0x8202290
-        public void __set_wrapMode__UnityEngineTextureWrapMode__SystemVoid(){} // RVA: 0x82023B0
-        public void <.ctor>b__6_1(){} // RVA: 0x82024D0
-    }
-
-    public class ExternUnityEngineCubemapArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82052E0
-        public void .ctor(){} // RVA: 0x8205320
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82056F0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8205820
-        public void __Clone__SystemObject(){} // RVA: 0x8205930
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8205A10
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8205AF0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8205BC0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8205D10
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8205DB0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8205EB0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8205FD0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x82060E0
-        public void __GetType__SystemType(){} // RVA: 0x8206200
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x82062F0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x82063D0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82064F0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8206680
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x82067D0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8206900
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8206A20
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8206B90
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8206CD0
-        public void __Get__SystemInt32__UnityEngineCubemap(){} // RVA: 0x8206DF0
-        public void __Initialize__SystemVoid(){} // RVA: 0x8207000
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8207070
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8207190
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8207310
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8207470
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x82075A0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82076C0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8207820
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8207970
-        public void __Set__SystemInt32_UnityEngineCubemap__SystemVoid(){} // RVA: 0x8207A90
-        public void __ToString__SystemString(){} // RVA: 0x8207C20
-        public void __ctor__SystemInt32__UnityEngineCubemapArray(){} // RVA: 0x8207D10
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8207EC0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8207F60
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8208000
-        public void __get_Length__SystemInt32(){} // RVA: 0x82080A0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8208140
-        public void __get_Rank__SystemInt32(){} // RVA: 0x82081E0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8208280
-        public void <.ctor>b__6_1(){} // RVA: 0x8208360
-    }
-
-    public class ExternUnityEngineCubemapFace
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x820A280
-        public void .ctor(){} // RVA: 0x820A2C0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x820A690
-        public void GetExternFunctionDelegate(){} // RVA: 0x820A7C0
-        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x820A8D0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x820AA00
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x820AB40
-        public void __GetType__SystemType(){} // RVA: 0x820ABF0
-        public void __HasFlag__SystemEnum__SystemBoolean(){} // RVA: 0x820ACE0
-        public void __ToString__SystemString(){} // RVA: 0x820ADB0
-        public void __ToString__SystemString__SystemString(){} // RVA: 0x820AE60
-        public void __get_NegativeX__UnityEngineCubemapFace(){} // RVA: 0x820AF30
-        public void __get_NegativeY__UnityEngineCubemapFace(){} // RVA: 0x820AFA0
-        public void __get_NegativeZ__UnityEngineCubemapFace(){} // RVA: 0x820B010
-        public void __get_PositiveX__UnityEngineCubemapFace(){} // RVA: 0x820B080
-        public void __get_PositiveY__UnityEngineCubemapFace(){} // RVA: 0x820B0F0
-        public void __get_PositiveZ__UnityEngineCubemapFace(){} // RVA: 0x820B160
-        public void __get_Unknown__UnityEngineCubemapFace(){} // RVA: 0x820B1D0
-        public void <.ctor>b__6_1(){} // RVA: 0x820B240
-    }
-
-    public class ExternUnityEngineCubemapFaceArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x820BEA0
-        public void .ctor(){} // RVA: 0x820BEE0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x820C2B0
-        public void GetExternFunctionDelegate(){} // RVA: 0x820C3E0
-        public void __Clone__SystemObject(){} // RVA: 0x820C4F0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x820C5D0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x820C6B0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x820C780
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x820C8D0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x820C970
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x820CA70
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x820CB90
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x820CCA0
-        public void __GetType__SystemType(){} // RVA: 0x820CDC0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x820CEB0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x820CF90
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x820D0B0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x820D240
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x820D390
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x820D4C0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x820D5E0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x820D750
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x820D890
-        public void __Get__SystemInt32__UnityEngineCubemapFace(){} // RVA: 0x820D9B0
-        public void __Initialize__SystemVoid(){} // RVA: 0x820DA90
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x820DB00
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x820DC20
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x820DDA0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x820DF00
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x820E030
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x820E150
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x820E2B0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x820E400
-        public void __Set__SystemInt32_UnityEngineCubemapFace__SystemVoid(){} // RVA: 0x820E520
-        public void __ToString__SystemString(){} // RVA: 0x820E610
-        public void __ctor__SystemInt32__UnityEngineCubemapFaceArray(){} // RVA: 0x820E700
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x820E8A0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x820E940
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x820E9E0
-        public void __get_Length__SystemInt32(){} // RVA: 0x820EA80
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x820EB20
-        public void __get_Rank__SystemInt32(){} // RVA: 0x820EBC0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x820EC60
-        public void <.ctor>b__6_1(){} // RVA: 0x820ED40
-    }
-
-    public class ExternUnityEngineCustomRenderTexture
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8210C60
-        public void .ctor(){} // RVA: 0x8210CA0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8211070
-        public void GetExternFunctionDelegate(){} // RVA: 0x82111A0
-        public void __ClearUpdateZones__SystemVoid(){} // RVA: 0x82112B0
-        public void __ConvertToEquirect__UnityEngineRenderTexture_UnityEngineCameraMonoOrStereoscopicEye__SystemVoid(){} // RVA: 0x82113A0
-        public void __DiscardContents__SystemBoolean_SystemBoolean__SystemVoid(){} // RVA: 0x82114C0
-        public void __DiscardContents__SystemVoid(){} // RVA: 0x82115D0
-        public void __EnsureDoubleBufferConsistency__SystemVoid(){} // RVA: 0x82116C0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82117B0
-        public void __GenerateMips__SystemVoid(){} // RVA: 0x8211980
-        public void __GetDoubleBufferRenderTexture__UnityEngineRenderTexture(){} // RVA: 0x8211A70
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8211BB0
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8211D10
-        public void __GetType__SystemType(){} // RVA: 0x8211E60
-        public void __GetUpdateZones__SystemCollectionsGenericListUnityEngineCustomRenderTextureUpdateZone__SystemVoid(){} // RVA: 0x8211F50
-        public void __IncrementUpdateCount__SystemVoid(){} // RVA: 0x8212140
-        public void __Initialize__SystemVoid(){} // RVA: 0x8212230
-        public void __IsCreated__SystemBoolean(){} // RVA: 0x8212370
-        public void __Release__SystemVoid(){} // RVA: 0x8212490
-        public void __ResolveAntiAliasedSurface__SystemVoid(){} // RVA: 0x8212580
-        public void __ResolveAntiAliasedSurface__UnityEngineRenderTexture__SystemVoid(){} // RVA: 0x8212670
-        public void __SetUpdateZones__UnityEngineCustomRenderTextureUpdateZoneArray__SystemVoid(){} // RVA: 0x82127A0
-        public void __ToString__SystemString(){} // RVA: 0x82129E0
-        public void __Update__SystemInt32__SystemVoid(){} // RVA: 0x8212B30
-        public void __Update__SystemVoid(){} // RVA: 0x8212C10
-        public void __get_anisoLevel__SystemInt32(){} // RVA: 0x8212CC0
-        public void __get_antiAliasing__SystemInt32(){} // RVA: 0x8212DE0
-        public void __get_autoGenerateMips__SystemBoolean(){} // RVA: 0x8212F00
-        public void __get_bindTextureMS__SystemBoolean(){} // RVA: 0x8213020
-        public void __get_colorBuffer__UnityEngineRenderBuffer(){} // RVA: 0x8213140
-        public void __get_cubemapFaceMask__SystemUInt32(){} // RVA: 0x8213280
-        public void __get_depthBuffer__UnityEngineRenderBuffer(){} // RVA: 0x82133A0
-        public void __get_depth__SystemInt32(){} // RVA: 0x82134E0
-        public void __get_descriptor__UnityEngineRenderTextureDescriptor(){} // RVA: 0x8213600
-        public void __get_dimension__UnityEngineRenderingTextureDimension(){} // RVA: 0x8213720
-        public void __get_doubleBuffered__SystemBoolean(){} // RVA: 0x8213810
-        public void __get_enableRandomWrite__SystemBoolean(){} // RVA: 0x8213930
-        public void __get_filterMode__UnityEngineFilterMode(){} // RVA: 0x8213A50
-        public void __get_format__UnityEngineRenderTextureFormat(){} // RVA: 0x8213B70
-        public void __get_height__SystemInt32(){} // RVA: 0x8213C50
-        public void __get_initializationColor__UnityEngineColor(){} // RVA: 0x8213D40
-        public void __get_initializationMaterial__UnityEngineMaterial(){} // RVA: 0x8213E80
-        public void __get_initializationMode__UnityEngineCustomRenderTextureUpdateMode(){} // RVA: 0x8213FC0
-        public void __get_initializationSource__UnityEngineCustomRenderTextureInitializationSource(){} // RVA: 0x82140E0
-        public void __get_initializationTexture__UnityEngineTexture(){} // RVA: 0x8214200
-        public void __get_isDataSRGB__SystemBoolean(){} // RVA: 0x8214340
-        public void __get_isPowerOfTwo__SystemBoolean(){} // RVA: 0x8214470
-        public void __get_isReadable__SystemBoolean(){} // RVA: 0x8214590
-        public void __get_material__UnityEngineMaterial(){} // RVA: 0x8214680
-        public void __get_mipMapBias__SystemSingle(){} // RVA: 0x82147C0
-        public void __get_mipmapCount__SystemInt32(){} // RVA: 0x82148E0
-        public void __get_name__SystemString(){} // RVA: 0x8214A00
-        public void __get_sRGB__SystemBoolean(){} // RVA: 0x8214B50
-        public void __get_shaderPass__SystemInt32(){} // RVA: 0x8214C70
-        public void __get_texelSize__UnityEngineVector2(){} // RVA: 0x8214D90
-        public void __get_updateCount__SystemUInt32(){} // RVA: 0x8214EC0
-        public void __get_updateMode__UnityEngineCustomRenderTextureUpdateMode(){} // RVA: 0x8214FE0
-        public void __get_updatePeriod__SystemSingle(){} // RVA: 0x8215100
-        public void __get_updateZoneSpace__UnityEngineCustomRenderTextureUpdateZoneSpace(){} // RVA: 0x8215220
-        public void __get_useDynamicScale__SystemBoolean(){} // RVA: 0x8215340
-        public void __get_useMipMap__SystemBoolean(){} // RVA: 0x8215460
-        public void __get_volumeDepth__SystemInt32(){} // RVA: 0x8215580
-        public void __get_vrUsage__UnityEngineVRTextureUsage(){} // RVA: 0x82156A0
-        public void __get_width__SystemInt32(){} // RVA: 0x82157C0
-        public void __get_wrapModeU__UnityEngineTextureWrapMode(){} // RVA: 0x82158B0
-        public void __get_wrapModeV__UnityEngineTextureWrapMode(){} // RVA: 0x82159D0
-        public void __get_wrapModeW__UnityEngineTextureWrapMode(){} // RVA: 0x8215AF0
-        public void __get_wrapMode__UnityEngineTextureWrapMode(){} // RVA: 0x8215C10
-        public void __get_wrapUpdateZones__SystemBoolean(){} // RVA: 0x8215D30
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8215E50
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8216150
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8216340
-        public void __set_anisoLevel__SystemInt32__SystemVoid(){} // RVA: 0x8216640
-        public void __set_antiAliasing__SystemInt32__SystemVoid(){} // RVA: 0x8216760
-        public void __set_autoGenerateMips__SystemBoolean__SystemVoid(){} // RVA: 0x8216880
-        public void __set_bindTextureMS__SystemBoolean__SystemVoid(){} // RVA: 0x82169B0
-        public void __set_cubemapFaceMask__SystemUInt32__SystemVoid(){} // RVA: 0x8216AE0
-        public void __set_depth__SystemInt32__SystemVoid(){} // RVA: 0x8216C00
-        public void __set_descriptor__UnityEngineRenderTextureDescriptor__SystemVoid(){} // RVA: 0x8216D20
-        public void __set_dimension__UnityEngineRenderingTextureDimension__SystemVoid(){} // RVA: 0x8216E40
-        public void __set_doubleBuffered__SystemBoolean__SystemVoid(){} // RVA: 0x8216F30
-        public void __set_enableRandomWrite__SystemBoolean__SystemVoid(){} // RVA: 0x8217060
-        public void __set_filterMode__UnityEngineFilterMode__SystemVoid(){} // RVA: 0x8217190
-        public void __set_format__UnityEngineRenderTextureFormat__SystemVoid(){} // RVA: 0x82172B0
-        public void __set_height__SystemInt32__SystemVoid(){} // RVA: 0x8217390
-        public void __set_initializationColor__UnityEngineColor__SystemVoid(){} // RVA: 0x8217480
-        public void __set_initializationMaterial__UnityEngineMaterial__SystemVoid(){} // RVA: 0x82175C0
-        public void __set_initializationMode__UnityEngineCustomRenderTextureUpdateMode__SystemVoid(){} // RVA: 0x8217710
-        public void __set_initializationSource__UnityEngineCustomRenderTextureInitializationSource__SystemVoid(){} // RVA: 0x8217830
-        public void __set_initializationTexture__UnityEngineTexture__SystemVoid(){} // RVA: 0x8217950
-        public void __set_isPowerOfTwo__SystemBoolean__SystemVoid(){} // RVA: 0x8217AA0
-        public void __set_material__UnityEngineMaterial__SystemVoid(){} // RVA: 0x8217B70
-        public void __set_mipMapBias__SystemSingle__SystemVoid(){} // RVA: 0x8217CC0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8217DF0
-        public void __set_shaderPass__SystemInt32__SystemVoid(){} // RVA: 0x8217F40
-        public void __set_updateMode__UnityEngineCustomRenderTextureUpdateMode__SystemVoid(){} // RVA: 0x8218060
-        public void __set_updatePeriod__SystemSingle__SystemVoid(){} // RVA: 0x8218180
-        public void __set_updateZoneSpace__UnityEngineCustomRenderTextureUpdateZoneSpace__SystemVoid(){} // RVA: 0x82182B0
-        public void __set_useDynamicScale__SystemBoolean__SystemVoid(){} // RVA: 0x82183D0
-        public void __set_useMipMap__SystemBoolean__SystemVoid(){} // RVA: 0x8218500
-        public void __set_volumeDepth__SystemInt32__SystemVoid(){} // RVA: 0x8218630
-        public void __set_vrUsage__UnityEngineVRTextureUsage__SystemVoid(){} // RVA: 0x8218750
-        public void __set_width__SystemInt32__SystemVoid(){} // RVA: 0x8218870
-        public void __set_wrapModeU__UnityEngineTextureWrapMode__SystemVoid(){} // RVA: 0x8218960
-        public void __set_wrapModeV__UnityEngineTextureWrapMode__SystemVoid(){} // RVA: 0x8218A80
-        public void __set_wrapModeW__UnityEngineTextureWrapMode__SystemVoid(){} // RVA: 0x8218BA0
-        public void __set_wrapMode__UnityEngineTextureWrapMode__SystemVoid(){} // RVA: 0x8218CC0
-        public void __set_wrapUpdateZones__SystemBoolean__SystemVoid(){} // RVA: 0x8218DE0
-        public void <.ctor>b__6_1(){} // RVA: 0x8218F10
-    }
-
-    public class ExternUnityEngineCustomRenderTextureArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x821DFB0
-        public void .ctor(){} // RVA: 0x821DFF0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x821E3C0
-        public void GetExternFunctionDelegate(){} // RVA: 0x821E4F0
-        public void __Clone__SystemObject(){} // RVA: 0x821E600
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x821E6E0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x821E7C0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x821E890
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x821E9E0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x821EA80
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x821EB80
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x821ECA0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x821EDB0
-        public void __GetType__SystemType(){} // RVA: 0x821EED0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x821EFC0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x821F0A0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x821F1C0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x821F350
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x821F4A0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x821F5D0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x821F6F0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x821F860
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x821F9A0
-        public void __Get__SystemInt32__UnityEngineCustomRenderTexture(){} // RVA: 0x821FAC0
-        public void __Initialize__SystemVoid(){} // RVA: 0x821FCD0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x821FD40
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x821FE60
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x821FFE0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8220140
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8220270
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8220390
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82204F0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8220640
-        public void __Set__SystemInt32_UnityEngineCustomRenderTexture__SystemVoid(){} // RVA: 0x8220760
-        public void __ToString__SystemString(){} // RVA: 0x82208F0
-        public void __ctor__SystemInt32__UnityEngineCustomRenderTextureArray(){} // RVA: 0x82209E0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8220B90
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8220C30
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8220CD0
-        public void __get_Length__SystemInt32(){} // RVA: 0x8220D70
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8220E10
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8220EB0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8220F50
-        public void <.ctor>b__6_1(){} // RVA: 0x8221030
-    }
-
-    public class ExternUnityEngineDebug
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8222F50
-        public void .ctor(){} // RVA: 0x8222F90
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8223360
-        public void GetExternFunctionDelegate(){} // RVA: 0x8223490
-        public void __AssertFormat__SystemBoolean_SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x82235A0
-        public void __AssertFormat__SystemBoolean_UnityEngineObject_SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x8223690
-        public void __Assert__SystemBoolean_SystemObject_UnityEngineObject__SystemVoid(){} // RVA: 0x8223840
-        public void __Assert__SystemBoolean_SystemObject__SystemVoid(){} // RVA: 0x82239E0
-        public void __Assert__SystemBoolean_SystemString_UnityEngineObject__SystemVoid(){} // RVA: 0x8223AC0
-        public void __Assert__SystemBoolean_SystemString__SystemVoid(){} // RVA: 0x8223C30
-        public void __Assert__SystemBoolean_UnityEngineObject__SystemVoid(){} // RVA: 0x8223CC0
-        public void __Assert__SystemBoolean__SystemVoid(){} // RVA: 0x8223E00
-        public void __DebugBreak__SystemVoid(){} // RVA: 0x8223E70
-        public void __DrawLine__UnityEngineVector3_UnityEngineVector3_UnityEngineColor_SystemSingle_SystemBoolean__SystemVoid(){} // RVA: 0x8223EF0
-        public void __DrawLine__UnityEngineVector3_UnityEngineVector3_UnityEngineColor_SystemSingle__SystemVoid(){} // RVA: 0x8224170
-        public void __DrawLine__UnityEngineVector3_UnityEngineVector3_UnityEngineColor__SystemVoid(){} // RVA: 0x82243F0
-        public void __DrawLine__UnityEngineVector3_UnityEngineVector3__SystemVoid(){} // RVA: 0x8224630
-        public void __DrawRay__UnityEngineVector3_UnityEngineVector3_UnityEngineColor_SystemSingle_SystemBoolean__SystemVoid(){} // RVA: 0x8224750
-        public void __DrawRay__UnityEngineVector3_UnityEngineVector3_UnityEngineColor_SystemSingle__SystemVoid(){} // RVA: 0x8224970
-        public void __DrawRay__UnityEngineVector3_UnityEngineVector3_UnityEngineColor__SystemVoid(){} // RVA: 0x8224B90
-        public void __DrawRay__UnityEngineVector3_UnityEngineVector3__SystemVoid(){} // RVA: 0x8224D60
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8224EF0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8225040
-        public void __GetType__SystemType(){} // RVA: 0x8225140
-        public void __LogAssertionFormat__SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x8225230
-        public void __LogAssertionFormat__UnityEngineObject_SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x82252F0
-        public void __LogAssertion__SystemObject_UnityEngineObject__SystemVoid(){} // RVA: 0x8225470
-        public void __LogAssertion__SystemObject__SystemVoid(){} // RVA: 0x82255E0
-        public void __LogErrorFormat__SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x8225690
-        public void __LogErrorFormat__UnityEngineObject_SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x82257A0
-        public void __LogError__SystemObject_UnityEngineObject__SystemVoid(){} // RVA: 0x8225970
-        public void __LogError__SystemObject__SystemVoid(){} // RVA: 0x8225B20
-        public void __LogException__SystemException_UnityEngineObject__SystemVoid(){} // RVA: 0x8225C00
-        public void __LogException__SystemException__SystemVoid(){} // RVA: 0x8225D80
-        public void __LogFormat__SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x8225E20
-        public void __LogFormat__UnityEngineLogType_UnityEngineLogOption_UnityEngineObject_SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x8225F30
-        public void __LogFormat__UnityEngineObject_SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x82261A0
-        public void __LogWarningFormat__SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x8226370
-        public void __LogWarningFormat__UnityEngineObject_SystemString_SystemObjectArray__SystemVoid(){} // RVA: 0x8226480
-        public void __LogWarning__SystemObject_UnityEngineObject__SystemVoid(){} // RVA: 0x8226650
-        public void __LogWarning__SystemObject__SystemVoid(){} // RVA: 0x8226800
-        public void __Log__SystemObject_UnityEngineObject__SystemVoid(){} // RVA: 0x82268E0
-        public void __Log__SystemObject__SystemVoid(){} // RVA: 0x8226A90
-        public void __ToString__SystemString(){} // RVA: 0x8226B70
-        public void __ctor____UnityEngineDebug(){} // RVA: 0x8226C60
-        public void <.ctor>b__6_1(){} // RVA: 0x8226CE0
-    }
-
-    public class ExternUnityEngineDebugArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8228D70
-        public void .ctor(){} // RVA: 0x8228DB0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8229180
-        public void GetExternFunctionDelegate(){} // RVA: 0x82292B0
-        public void __Clone__SystemObject(){} // RVA: 0x82293C0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x82294A0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8229580
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8229650
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x82297A0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8229840
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8229940
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8229A60
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8229B70
-        public void __GetType__SystemType(){} // RVA: 0x8229C90
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8229D80
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8229E60
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8229F80
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x822A110
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x822A260
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x822A390
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x822A4B0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x822A620
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x822A760
-        public void __Get__SystemInt32__UnityEngineDebug(){} // RVA: 0x822A880
-        public void __Initialize__SystemVoid(){} // RVA: 0x822A960
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x822A9D0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x822AAF0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x822AC70
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x822ADD0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x822AF00
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x822B020
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x822B180
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x822B2D0
-        public void __Set__SystemInt32_UnityEngineDebug__SystemVoid(){} // RVA: 0x822B3F0
-        public void __ToString__SystemString(){} // RVA: 0x822B630
-        public void __ctor__SystemInt32__UnityEngineDebugArray(){} // RVA: 0x822B720
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x822B8C0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x822B960
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x822BA00
-        public void __get_Length__SystemInt32(){} // RVA: 0x822BAA0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x822BB40
-        public void __get_Rank__SystemInt32(){} // RVA: 0x822BBE0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x822BC80
-        public void <.ctor>b__6_1(){} // RVA: 0x822BD60
-    }
-
-    public class ExternUnityEngineDistanceJoint2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x822DC80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x822DCC0
-        public void .ctor(){} // RVA: 0x822DD70
-        public void GetExternFunctionParameterCount(){} // RVA: 0x822E140
-        public void GetExternFunctionDelegate(){} // RVA: 0x822E270
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x822E380
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x822E550
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x822E640
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x822E8F0
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x822EA50
-        public void __GetComponentInChildren__T(){} // RVA: 0x822EB70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x822EC60
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x822EEE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x822EFD0
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x822F280
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x822F3E0
-        public void __GetComponentInParent__T(){} // RVA: 0x822F500
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x822F5F0
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x822F870
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x822F9E0
-        public void __GetComponent__T(){} // RVA: 0x822FB00
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x822FBE0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x822FE30
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x822FF20
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8230250
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8230340
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8230680
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8230770
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8230A80
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8230BF0
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x8230D20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x8230E10
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8231100
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x82311F0
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8231530
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8231620
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8231930
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8231AA0
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x8231BE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8231CD0
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8231FC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x82320B0
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x82323A0
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x82324F0
-        public void __GetComponents__TArray(){} // RVA: 0x8232620
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x8232710
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82329C0
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8232B20
-        public void __GetReactionForce__SystemSingle__UnityEngineVector2(){} // RVA: 0x8232C70
-        public void __GetReactionTorque__SystemSingle__SystemSingle(){} // RVA: 0x8232D80
-        public void __GetType__SystemType(){} // RVA: 0x8232EE0
-        public void __ToString__SystemString(){} // RVA: 0x8232FD0
-        public void __get_anchor__UnityEngineVector2(){} // RVA: 0x8233120
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x8233250
-        public void __get_autoConfigureConnectedAnchor__SystemBoolean(){} // RVA: 0x8233390
-        public void __get_autoConfigureDistance__SystemBoolean(){} // RVA: 0x82334B0
-        public void __get_breakAction__UnityEngineJointBreakAction2D(){} // RVA: 0x82335D0
-        public void __get_breakForce__SystemSingle(){} // RVA: 0x82336F0
-        public void __get_breakTorque__SystemSingle(){} // RVA: 0x8233810
-        public void __get_connectedAnchor__UnityEngineVector2(){} // RVA: 0x8233930
-        public void __get_connectedBody__UnityEngineRigidbody2D(){} // RVA: 0x8233A60
-        public void __get_distance__SystemSingle(){} // RVA: 0x8233BA0
-        public void __get_enableCollision__SystemBoolean(){} // RVA: 0x8233CC0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8233DE0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8233F00
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x8234040
-        public void __get_maxDistanceOnly__SystemBoolean(){} // RVA: 0x8234160
-        public void __get_name__SystemString(){} // RVA: 0x8234280
-        public void __get_reactionForce__UnityEngineVector2(){} // RVA: 0x82343D0
-        public void __get_reactionTorque__SystemSingle(){} // RVA: 0x8234500
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x8234620
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8234760
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8234A60
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8234C50
-        public void __set_anchor__UnityEngineVector2__SystemVoid(){} // RVA: 0x8234F50
-        public void __set_autoConfigureConnectedAnchor__SystemBoolean__SystemVoid(){} // RVA: 0x8235070
-        public void __set_autoConfigureDistance__SystemBoolean__SystemVoid(){} // RVA: 0x82351A0
-        public void __set_breakAction__UnityEngineJointBreakAction2D__SystemVoid(){} // RVA: 0x82352D0
-        public void __set_breakForce__SystemSingle__SystemVoid(){} // RVA: 0x82353F0
-        public void __set_breakTorque__SystemSingle__SystemVoid(){} // RVA: 0x8235520
-        public void __set_connectedAnchor__UnityEngineVector2__SystemVoid(){} // RVA: 0x8235650
-        public void __set_connectedBody__UnityEngineRigidbody2D__SystemVoid(){} // RVA: 0x8235770
-        public void __set_distance__SystemSingle__SystemVoid(){} // RVA: 0x82358C0
-        public void __set_enableCollision__SystemBoolean__SystemVoid(){} // RVA: 0x82359F0
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x8235B20
-        public void __set_maxDistanceOnly__SystemBoolean__SystemVoid(){} // RVA: 0x8235C50
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8235D80
-        public void <.ctor>b__8_1(){} // RVA: 0x8235ED0
-    }
-
-    public class ExternUnityEngineDistanceJoint2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82393A0
-        public void .ctor(){} // RVA: 0x82393E0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82397B0
-        public void GetExternFunctionDelegate(){} // RVA: 0x82398E0
-        public void __Clone__SystemObject(){} // RVA: 0x82399F0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8239AD0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8239BB0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8239C80
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8239DD0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8239E70
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8239F70
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x823A090
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x823A1A0
-        public void __GetType__SystemType(){} // RVA: 0x823A2C0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x823A3B0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x823A490
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x823A5B0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x823A740
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x823A890
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x823A9C0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x823AAE0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x823AC50
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x823AD90
-        public void __Get__SystemInt32__UnityEngineDistanceJoint2D(){} // RVA: 0x823AEB0
-        public void __Initialize__SystemVoid(){} // RVA: 0x823AFF0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x823B060
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x823B180
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x823B300
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x823B460
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x823B590
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x823B6B0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x823B810
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x823B960
-        public void __Set__SystemInt32_UnityEngineDistanceJoint2D__SystemVoid(){} // RVA: 0x823BA80
-        public void __ToString__SystemString(){} // RVA: 0x823BC10
-        public void __ctor__SystemInt32__UnityEngineDistanceJoint2DArray(){} // RVA: 0x823BD00
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x823BDF0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x823BE90
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x823BF30
-        public void __get_Length__SystemInt32(){} // RVA: 0x823BFD0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x823C070
-        public void __get_Rank__SystemInt32(){} // RVA: 0x823C110
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x823C1B0
-        public void <.ctor>b__6_1(){} // RVA: 0x823C290
-    }
-
-    public class ExternUnityEngineEdgeCollider2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x823E1B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x823E1F0
-        public void .ctor(){} // RVA: 0x823E2A0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x823E670
-        public void GetExternFunctionDelegate(){} // RVA: 0x823E7A0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x823E8B0
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x823EB80
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x823EE50
-        public void __Cast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x823F0D0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemBoolean__SystemInt32(){} // RVA: 0x823F310
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x823F4E0
-        public void __Cast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x823F670
-        public void __ClosestPoint__UnityEngineVector2__UnityEngineVector2(){} // RVA: 0x823F7C0
-        public void __CreateMesh__SystemBoolean_SystemBoolean__UnityEngineMesh(){} // RVA: 0x823F920
-        public void __Distance__UnityEngineCollider2D__UnityEngineColliderDistance2D(){} // RVA: 0x823FA80
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x823FC10
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x823FDE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x823FED0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8240180
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x82402E0
-        public void __GetComponentInChildren__T(){} // RVA: 0x8240400
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x82404F0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8240770
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8240860
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8240B10
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x8240C70
-        public void __GetComponentInParent__T(){} // RVA: 0x8240D90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x8240E80
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x8241100
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8241270
-        public void __GetComponent__T(){} // RVA: 0x8241390
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8241470
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x82416C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x82417B0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8241AE0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8241BD0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8241F10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8242000
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8242310
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8242480
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x82425B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x82426A0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8242990
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8242A80
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8242DC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8242EB0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x82431C0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8243330
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x8243470
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8243560
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8243850
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8243940
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x8243C30
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x8243D80
-        public void __GetComponents__TArray(){} // RVA: 0x8243EB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x8243FA0
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8244250
-        public void __GetContacts__SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x82443A0
-        public void __GetContacts__UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x82444B0
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8244600
-        public void __GetContacts__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineContactPoint2D__SystemInt32(){} // RVA: 0x8244830
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x8244A10
-        public void __GetContacts__UnityEngineContactFilter2D_UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x8244C40
-        public void __GetContacts__UnityEngineContactPoint2DArray__SystemInt32(){} // RVA: 0x8244E20
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8244F30
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8245090
-        public void __GetPoints__SystemCollectionsGenericListUnityEngineVector2__SystemInt32(){} // RVA: 0x82451E0
-        public void __GetShapeHash__SystemUInt32(){} // RVA: 0x8245340
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x8245460
-        public void __GetShapes__UnityEnginePhysicsShapeGroup2D__SystemInt32(){} // RVA: 0x82455E0
-        public void __GetType__SystemType(){} // RVA: 0x8245760
-        public void __IsTouchingLayers__SystemBoolean(){} // RVA: 0x8245850
-        public void __IsTouchingLayers__SystemInt32__SystemBoolean(){} // RVA: 0x8245980
-        public void __IsTouching__UnityEngineCollider2D_UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x8245AE0
-        public void __IsTouching__UnityEngineCollider2D__SystemBoolean(){} // RVA: 0x8245CA0
-        public void __IsTouching__UnityEngineContactFilter2D__SystemBoolean(){} // RVA: 0x8245E00
-        public void __OverlapCollider__UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineCollider2D__SystemInt32(){} // RVA: 0x8245F80
-        public void __OverlapCollider__UnityEngineContactFilter2D_UnityEngineCollider2DArray__SystemInt32(){} // RVA: 0x82461B0
-        public void __OverlapPoint__UnityEngineVector2__SystemBoolean(){} // RVA: 0x82463E0
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_SystemCollectionsGenericListUnityEngineRaycastHit2D_SystemSingle__SystemInt32(){} // RVA: 0x8246540
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x82467B0
-        public void __Raycast__UnityEngineVector2_UnityEngineContactFilter2D_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8246A20
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle_SystemSingle__SystemInt32(){} // RVA: 0x8246C50
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32_SystemSingle__SystemInt32(){} // RVA: 0x8246EA0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle_SystemInt32__SystemInt32(){} // RVA: 0x82470B0
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray_SystemSingle__SystemInt32(){} // RVA: 0x8247280
-        public void __Raycast__UnityEngineVector2_UnityEngineRaycastHit2DArray__SystemInt32(){} // RVA: 0x8247410
-        public void __Reset__SystemVoid(){} // RVA: 0x8247560
-        public void __SetPoints__SystemCollectionsGenericListUnityEngineVector2__SystemBoolean(){} // RVA: 0x8247650
-        public void __ToString__SystemString(){} // RVA: 0x82477B0
-        public void __get_adjacentEndPoint__UnityEngineVector2(){} // RVA: 0x8247900
-        public void __get_adjacentStartPoint__UnityEngineVector2(){} // RVA: 0x8247A30
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x8247B60
-        public void __get_bounciness__SystemSingle(){} // RVA: 0x8247CA0
-        public void __get_bounds__UnityEngineBounds(){} // RVA: 0x8247DC0
-        public void __get_callbackLayers__UnityEngineLayerMask(){} // RVA: 0x8247F10
-        public void __get_composite__UnityEngineCompositeCollider2D(){} // RVA: 0x8248040
-        public void __get_contactCaptureLayers__UnityEngineLayerMask(){} // RVA: 0x8248180
-        public void __get_density__SystemSingle(){} // RVA: 0x82482B0
-        public void __get_edgeCount__SystemInt32(){} // RVA: 0x82483D0
-        public void __get_edgeRadius__SystemSingle(){} // RVA: 0x82484F0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8248610
-        public void __get_errorState__UnityEngineColliderErrorState2D(){} // RVA: 0x8248730
-        public void __get_excludeLayers__UnityEngineLayerMask(){} // RVA: 0x8248850
-        public void __get_forceReceiveLayers__UnityEngineLayerMask(){} // RVA: 0x8248980
-        public void __get_forceSendLayers__UnityEngineLayerMask(){} // RVA: 0x8248AB0
-        public void __get_friction__SystemSingle(){} // RVA: 0x8248BE0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8248D00
-        public void __get_includeLayers__UnityEngineLayerMask(){} // RVA: 0x8248E40
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x8248F70
-        public void __get_isTrigger__SystemBoolean(){} // RVA: 0x8249090
-        public void __get_layerOverridePriority__SystemInt32(){} // RVA: 0x82491B0
-        public void __get_name__SystemString(){} // RVA: 0x82492D0
-        public void __get_offset__UnityEngineVector2(){} // RVA: 0x8249420
-        public void __get_pointCount__SystemInt32(){} // RVA: 0x8249550
-        public void __get_points__UnityEngineVector2Array(){} // RVA: 0x8249670
-        public void __get_shapeCount__SystemInt32(){} // RVA: 0x8249790
-        public void __get_sharedMaterial__UnityEnginePhysicsMaterial2D(){} // RVA: 0x82498B0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x82499F0
-        public void __get_useAdjacentEndPoint__SystemBoolean(){} // RVA: 0x8249B30
-        public void __get_useAdjacentStartPoint__SystemBoolean(){} // RVA: 0x8249C50
-        public void __get_usedByComposite__SystemBoolean(){} // RVA: 0x8249D70
-        public void __get_usedByEffector__SystemBoolean(){} // RVA: 0x8249E90
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8249FB0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x824A2B0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x824A4A0
-        public void __set_adjacentEndPoint__UnityEngineVector2__SystemVoid(){} // RVA: 0x824A7A0
-        public void __set_adjacentStartPoint__UnityEngineVector2__SystemVoid(){} // RVA: 0x824A8C0
-        public void __set_callbackLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x824A9E0
-        public void __set_contactCaptureLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x824AB00
-        public void __set_density__SystemSingle__SystemVoid(){} // RVA: 0x824AC20
-        public void __set_edgeRadius__SystemSingle__SystemVoid(){} // RVA: 0x824AD50
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x824AE80
-        public void __set_excludeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x824AFB0
-        public void __set_forceReceiveLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x824B0D0
-        public void __set_forceSendLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x824B1F0
-        public void __set_includeLayers__UnityEngineLayerMask__SystemVoid(){} // RVA: 0x824B310
-        public void __set_isTrigger__SystemBoolean__SystemVoid(){} // RVA: 0x824B430
-        public void __set_layerOverridePriority__SystemInt32__SystemVoid(){} // RVA: 0x824B560
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x824B680
-        public void __set_offset__UnityEngineVector2__SystemVoid(){} // RVA: 0x824B7D0
-        public void __set_points__UnityEngineVector2Array__SystemVoid(){} // RVA: 0x824B8F0
-        public void __set_sharedMaterial__UnityEnginePhysicsMaterial2D__SystemVoid(){} // RVA: 0x824BA10
-        public void __set_useAdjacentEndPoint__SystemBoolean__SystemVoid(){} // RVA: 0x824BB60
-        public void __set_useAdjacentStartPoint__SystemBoolean__SystemVoid(){} // RVA: 0x824BC90
-        public void __set_usedByComposite__SystemBoolean__SystemVoid(){} // RVA: 0x824BDC0
-        public void __set_usedByEffector__SystemBoolean__SystemVoid(){} // RVA: 0x824BEF0
-        public void <.ctor>b__8_1(){} // RVA: 0x824C020
-    }
-
-    public class ExternUnityEngineEdgeCollider2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8252200
-        public void .ctor(){} // RVA: 0x8252240
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8252610
-        public void GetExternFunctionDelegate(){} // RVA: 0x8252740
-        public void __Clone__SystemObject(){} // RVA: 0x8252850
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8252930
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8252A10
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8252AE0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8252C30
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8252CD0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8252DD0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8252EF0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8253000
-        public void __GetType__SystemType(){} // RVA: 0x8253120
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8253210
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x82532F0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8253410
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82535A0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x82536F0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8253820
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8253940
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8253AB0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8253BF0
-        public void __Get__SystemInt32__UnityEngineEdgeCollider2D(){} // RVA: 0x8253D10
-        public void __Initialize__SystemVoid(){} // RVA: 0x8253E50
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8253EC0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8253FE0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8254160
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x82542C0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x82543F0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8254510
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8254670
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x82547C0
-        public void __Set__SystemInt32_UnityEngineEdgeCollider2D__SystemVoid(){} // RVA: 0x82548E0
-        public void __ToString__SystemString(){} // RVA: 0x8254A70
-        public void __ctor__SystemInt32__UnityEngineEdgeCollider2DArray(){} // RVA: 0x8254B60
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8254C50
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8254CF0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8254D90
-        public void __get_Length__SystemInt32(){} // RVA: 0x8254E30
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8254ED0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8254F70
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8255010
-        public void <.ctor>b__6_1(){} // RVA: 0x82550F0
-    }
-
-    public class ExternUnityEngineEffector2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8257010
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8257050
-        public void .ctor(){} // RVA: 0x8257100
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82574D0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8257600
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8257710
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x82578E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x82579D0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8257C80
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x8257DE0
-        public void __GetComponentInChildren__T(){} // RVA: 0x8257F00
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x8257FF0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8258270
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8258360
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8258610
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x8258770
-        public void __GetComponentInParent__T(){} // RVA: 0x8258890
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x8258980
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x8258C00
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8258D70
-        public void __GetComponent__T(){} // RVA: 0x8258E90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8258F70
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x82591C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x82592B0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x82595E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x82596D0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8259A10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8259B00
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8259E10
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8259F80
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x825A0B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x825A1A0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x825A490
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x825A580
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x825A8C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x825A9B0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x825ACC0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x825AE30
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x825AF70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x825B060
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x825B350
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x825B440
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x825B730
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x825B880
-        public void __GetComponents__TArray(){} // RVA: 0x825B9B0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x825BAA0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x825BD50
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x825BEB0
-        public void __GetType__SystemType(){} // RVA: 0x825C000
-        public void __ToString__SystemString(){} // RVA: 0x825C0F0
-        public void __get_colliderMask__SystemInt32(){} // RVA: 0x825C240
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x825C360
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x825C480
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x825C5C0
-        public void __get_name__SystemString(){} // RVA: 0x825C6E0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x825C830
-        public void __get_useColliderMask__SystemBoolean(){} // RVA: 0x825C970
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x825CA90
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x825CD90
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x825CF80
-        public void __set_colliderMask__SystemInt32__SystemVoid(){} // RVA: 0x825D280
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x825D3A0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x825D4D0
-        public void __set_useColliderMask__SystemBoolean__SystemVoid(){} // RVA: 0x825D620
-        public void <.ctor>b__8_1(){} // RVA: 0x825D750
-    }
-
-    public class ExternUnityEngineEffector2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x825FAE0
-        public void .ctor(){} // RVA: 0x825FB20
-        public void GetExternFunctionParameterCount(){} // RVA: 0x825FEF0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8260020
-        public void __Clone__SystemObject(){} // RVA: 0x8260130
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8260210
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x82602F0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82603C0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8260510
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82605B0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x82606B0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x82607D0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x82608E0
-        public void __GetType__SystemType(){} // RVA: 0x8260A00
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8260AF0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8260BD0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8260CF0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8260E80
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8260FD0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8261100
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8261220
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8261390
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x82614D0
-        public void __Get__SystemInt32__UnityEngineEffector2D(){} // RVA: 0x82615F0
-        public void __Initialize__SystemVoid(){} // RVA: 0x8261730
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x82617A0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82618C0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8261A40
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8261BA0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8261CD0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8261DF0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8261F50
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x82620A0
-        public void __Set__SystemInt32_UnityEngineEffector2D__SystemVoid(){} // RVA: 0x82621C0
-        public void __ToString__SystemString(){} // RVA: 0x8262380
-        public void __ctor__SystemInt32__UnityEngineEffector2DArray(){} // RVA: 0x8262470
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8262560
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8262600
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x82626A0
-        public void __get_Length__SystemInt32(){} // RVA: 0x8262740
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x82627E0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8262880
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8262920
-        public void <.ctor>b__6_1(){} // RVA: 0x8262A00
-    }
-
-    public class ExternUnityEngineFixedJoint
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8264920
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8264960
-        public void .ctor(){} // RVA: 0x8264A10
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8264DE0
-        public void GetExternFunctionDelegate(){} // RVA: 0x8264F10
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8265020
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x82651F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x82652E0
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8265590
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x82656F0
-        public void __GetComponentInChildren__T(){} // RVA: 0x8265810
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x8265900
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8265B80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8265C70
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8265F20
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x8266080
-        public void __GetComponentInParent__T(){} // RVA: 0x82661A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x8266290
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x8266510
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8266680
-        public void __GetComponent__T(){} // RVA: 0x82667A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8266880
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8266AD0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8266BC0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8266EF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8266FE0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8267320
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8267410
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8267720
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8267890
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x82679C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x8267AB0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8267DA0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8267E90
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x82681D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x82682C0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x82685D0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8268740
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x8268880
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8268970
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8268C60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8268D50
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x8269040
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x8269190
-        public void __GetComponents__TArray(){} // RVA: 0x82692C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x82693B0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8269660
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x82697C0
-        public void __GetType__SystemType(){} // RVA: 0x8269910
-        public void __ToString__SystemString(){} // RVA: 0x8269A00
-        public void __get_anchor__UnityEngineVector3(){} // RVA: 0x8269B50
-        public void __get_autoConfigureConnectedAnchor__SystemBoolean(){} // RVA: 0x8269CA0
-        public void __get_axis__UnityEngineVector3(){} // RVA: 0x8269DC0
-        public void __get_breakForce__SystemSingle(){} // RVA: 0x8269F10
-        public void __get_breakTorque__SystemSingle(){} // RVA: 0x826A030
-        public void __get_connectedAnchor__UnityEngineVector3(){} // RVA: 0x826A150
-        public void __get_connectedArticulationBody__UnityEngineArticulationBody(){} // RVA: 0x826A2A0
-        public void __get_connectedBody__UnityEngineRigidbody(){} // RVA: 0x826A3E0
-        public void __get_connectedMassScale__SystemSingle(){} // RVA: 0x826A520
-        public void __get_currentForce__UnityEngineVector3(){} // RVA: 0x826A640
-        public void __get_currentTorque__UnityEngineVector3(){} // RVA: 0x826A740
-        public void __get_enableCollision__SystemBoolean(){} // RVA: 0x826A840
-        public void __get_enablePreprocessing__SystemBoolean(){} // RVA: 0x826A960
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x826AA80
-        public void __get_massScale__SystemSingle(){} // RVA: 0x826ABC0
-        public void __get_name__SystemString(){} // RVA: 0x826ACE0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x826AE30
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x826AF70
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x826B270
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x826B460
-        public void __set_anchor__UnityEngineVector3__SystemVoid(){} // RVA: 0x826B760
-        public void __set_autoConfigureConnectedAnchor__SystemBoolean__SystemVoid(){} // RVA: 0x826B8A0
-        public void __set_axis__UnityEngineVector3__SystemVoid(){} // RVA: 0x826B9D0
-        public void __set_breakForce__SystemSingle__SystemVoid(){} // RVA: 0x826BB10
-        public void __set_breakTorque__SystemSingle__SystemVoid(){} // RVA: 0x826BC40
-        public void __set_connectedAnchor__UnityEngineVector3__SystemVoid(){} // RVA: 0x826BD70
-        public void __set_connectedArticulationBody__UnityEngineArticulationBody__SystemVoid(){} // RVA: 0x826BEB0
-        public void __set_connectedBody__UnityEngineRigidbody__SystemVoid(){} // RVA: 0x826C000
-        public void __set_connectedMassScale__SystemSingle__SystemVoid(){} // RVA: 0x826C150
-        public void __set_enableCollision__SystemBoolean__SystemVoid(){} // RVA: 0x826C280
-        public void __set_enablePreprocessing__SystemBoolean__SystemVoid(){} // RVA: 0x826C3B0
-        public void __set_massScale__SystemSingle__SystemVoid(){} // RVA: 0x826C4E0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x826C610
-        public void <.ctor>b__8_1(){} // RVA: 0x826C760
-    }
-
-    public class ExternUnityEngineFixedJoint2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x826F940
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x826F980
-        public void .ctor(){} // RVA: 0x826FA30
-        public void GetExternFunctionParameterCount(){} // RVA: 0x826FE00
-        public void GetExternFunctionDelegate(){} // RVA: 0x826FF30
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8270040
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8270210
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8270300
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x82705B0
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x8270710
-        public void __GetComponentInChildren__T(){} // RVA: 0x8270830
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x8270920
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8270BA0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8270C90
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8270F40
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x82710A0
-        public void __GetComponentInParent__T(){} // RVA: 0x82711C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x82712B0
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x8271530
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x82716A0
-        public void __GetComponent__T(){} // RVA: 0x82717C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x82718A0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8271AF0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8271BE0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8271F10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8272000
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8272340
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x8272430
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8272740
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x82728B0
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x82729E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x8272AD0
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8272DC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8272EB0
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x82731F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x82732E0
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x82735F0
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x8273760
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x82738A0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8273990
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8273C80
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8273D70
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x8274060
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x82741B0
-        public void __GetComponents__TArray(){} // RVA: 0x82742E0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x82743D0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8274680
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x82747E0
-        public void __GetReactionForce__SystemSingle__UnityEngineVector2(){} // RVA: 0x8274930
-        public void __GetReactionTorque__SystemSingle__SystemSingle(){} // RVA: 0x8274A40
-        public void __GetType__SystemType(){} // RVA: 0x8274BA0
-        public void __ToString__SystemString(){} // RVA: 0x8274C90
-        public void __get_anchor__UnityEngineVector2(){} // RVA: 0x8274DE0
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x8274F10
-        public void __get_autoConfigureConnectedAnchor__SystemBoolean(){} // RVA: 0x8275050
-        public void __get_breakAction__UnityEngineJointBreakAction2D(){} // RVA: 0x8275170
-        public void __get_breakForce__SystemSingle(){} // RVA: 0x8275290
-        public void __get_breakTorque__SystemSingle(){} // RVA: 0x82753B0
-        public void __get_connectedAnchor__UnityEngineVector2(){} // RVA: 0x82754D0
-        public void __get_connectedBody__UnityEngineRigidbody2D(){} // RVA: 0x8275600
-        public void __get_dampingRatio__SystemSingle(){} // RVA: 0x8275740
-        public void __get_enableCollision__SystemBoolean(){} // RVA: 0x8275860
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x8275980
-        public void __get_frequency__SystemSingle(){} // RVA: 0x8275AA0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x8275BC0
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x8275D00
-        public void __get_name__SystemString(){} // RVA: 0x8275E20
-        public void __get_reactionForce__UnityEngineVector2(){} // RVA: 0x8275F70
-        public void __get_reactionTorque__SystemSingle(){} // RVA: 0x82760A0
-        public void __get_referenceAngle__SystemSingle(){} // RVA: 0x82761C0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x82762E0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8276420
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x8276720
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x8276910
-        public void __set_anchor__UnityEngineVector2__SystemVoid(){} // RVA: 0x8276C10
-        public void __set_autoConfigureConnectedAnchor__SystemBoolean__SystemVoid(){} // RVA: 0x8276D30
-        public void __set_breakAction__UnityEngineJointBreakAction2D__SystemVoid(){} // RVA: 0x8276E60
-        public void __set_breakForce__SystemSingle__SystemVoid(){} // RVA: 0x8276F80
-        public void __set_breakTorque__SystemSingle__SystemVoid(){} // RVA: 0x82770B0
-        public void __set_connectedAnchor__UnityEngineVector2__SystemVoid(){} // RVA: 0x82771E0
-        public void __set_connectedBody__UnityEngineRigidbody2D__SystemVoid(){} // RVA: 0x8277300
-        public void __set_dampingRatio__SystemSingle__SystemVoid(){} // RVA: 0x8277450
-        public void __set_enableCollision__SystemBoolean__SystemVoid(){} // RVA: 0x8277580
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x82776B0
-        public void __set_frequency__SystemSingle__SystemVoid(){} // RVA: 0x82777E0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x8277910
-        public void <.ctor>b__8_1(){} // RVA: 0x8277A60
-    }
-
-    public class ExternUnityEngineFixedJoint2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x827AE80
-        public void .ctor(){} // RVA: 0x827AEC0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x827B290
-        public void GetExternFunctionDelegate(){} // RVA: 0x827B3C0
-        public void __Clone__SystemObject(){} // RVA: 0x827B4D0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x827B5B0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x827B690
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x827B760
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x827B8B0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x827B950
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x827BA50
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x827BB70
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x827BC80
-        public void __GetType__SystemType(){} // RVA: 0x827BDA0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x827BE90
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x827BF70
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x827C090
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x827C220
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x827C370
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x827C4A0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x827C5C0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x827C730
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x827C870
-        public void __Get__SystemInt32__UnityEngineFixedJoint2D(){} // RVA: 0x827C990
-        public void __Initialize__SystemVoid(){} // RVA: 0x827CAD0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x827CB40
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x827CC60
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x827CDE0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x827CF40
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x827D070
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x827D190
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x827D2F0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x827D440
-        public void __Set__SystemInt32_UnityEngineFixedJoint2D__SystemVoid(){} // RVA: 0x827D560
-        public void __ToString__SystemString(){} // RVA: 0x827D6F0
-        public void __ctor__SystemInt32__UnityEngineFixedJoint2DArray(){} // RVA: 0x827D7E0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x827D8D0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x827D970
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x827DA10
-        public void __get_Length__SystemInt32(){} // RVA: 0x827DAB0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x827DB50
-        public void __get_Rank__SystemInt32(){} // RVA: 0x827DBF0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x827DC90
-        public void <.ctor>b__6_1(){} // RVA: 0x827DD70
-    }
-
-    public class ExternUnityEngineFixedJointArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x827FC90
-        public void .ctor(){} // RVA: 0x827FCD0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82800A0
-        public void GetExternFunctionDelegate(){} // RVA: 0x82801D0
-        public void __Clone__SystemObject(){} // RVA: 0x82802E0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x82803C0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x82804A0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8280570
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x82806C0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8280760
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8280860
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8280980
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8280A90
-        public void __GetType__SystemType(){} // RVA: 0x8280BB0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8280CA0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8280D80
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8280EA0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8281030
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8281180
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x82812B0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82813D0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8281540
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8281680
-        public void __Get__SystemInt32__UnityEngineFixedJoint(){} // RVA: 0x82817A0
-        public void __Initialize__SystemVoid(){} // RVA: 0x82818E0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8281950
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8281A70
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8281BF0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8281D50
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8281E80
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8281FA0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8282100
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8282250
-        public void __Set__SystemInt32_UnityEngineFixedJoint__SystemVoid(){} // RVA: 0x8282370
-        public void __ToString__SystemString(){} // RVA: 0x8282620
-        public void __ctor__SystemInt32__UnityEngineFixedJointArray(){} // RVA: 0x8282710
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8282800
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x82828A0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8282940
-        public void __get_Length__SystemInt32(){} // RVA: 0x82829E0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8282A80
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8282B20
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8282BC0
-        public void <.ctor>b__6_1(){} // RVA: 0x8282CA0
-    }
-
-    public class ExternUnityEngineFrictionJoint2D
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8284BC0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x8284C00
-        public void .ctor(){} // RVA: 0x8284CB0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8285080
-        public void GetExternFunctionDelegate(){} // RVA: 0x82851B0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82852C0
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8285490
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x8285580
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x8285830
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x8285990
-        public void __GetComponentInChildren__T(){} // RVA: 0x8285AB0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x8285BA0
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8285E20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x8285F10
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x82861C0
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x8286320
-        public void __GetComponentInParent__T(){} // RVA: 0x8286440
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x8286530
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x82867B0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x8286920
-        public void __GetComponent__T(){} // RVA: 0x8286A40
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x8286B20
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8286D70
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x8286E60
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8287190
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8287280
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x82875C0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x82876B0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x82879C0
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x8287B30
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x8287C60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x8287D50
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8288040
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x8288130
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8288470
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x8288560
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x8288870
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x82889E0
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x8288B20
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x8288C10
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x8288F00
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x8288FF0
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x82892E0
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x8289430
-        public void __GetComponents__TArray(){} // RVA: 0x8289560
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x8289650
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8289900
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x8289A60
-        public void __GetReactionForce__SystemSingle__UnityEngineVector2(){} // RVA: 0x8289BB0
-        public void __GetReactionTorque__SystemSingle__SystemSingle(){} // RVA: 0x8289CC0
-        public void __GetType__SystemType(){} // RVA: 0x8289E20
-        public void __ToString__SystemString(){} // RVA: 0x8289F10
-        public void __get_anchor__UnityEngineVector2(){} // RVA: 0x828A060
-        public void __get_attachedRigidbody__UnityEngineRigidbody2D(){} // RVA: 0x828A190
-        public void __get_autoConfigureConnectedAnchor__SystemBoolean(){} // RVA: 0x828A2D0
-        public void __get_breakAction__UnityEngineJointBreakAction2D(){} // RVA: 0x828A3F0
-        public void __get_breakForce__SystemSingle(){} // RVA: 0x828A510
-        public void __get_breakTorque__SystemSingle(){} // RVA: 0x828A630
-        public void __get_connectedAnchor__UnityEngineVector2(){} // RVA: 0x828A750
-        public void __get_connectedBody__UnityEngineRigidbody2D(){} // RVA: 0x828A880
-        public void __get_enableCollision__SystemBoolean(){} // RVA: 0x828A9C0
-        public void __get_enabled__SystemBoolean(){} // RVA: 0x828AAE0
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x828AC00
-        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x828AD40
-        public void __get_maxForce__SystemSingle(){} // RVA: 0x828AE60
-        public void __get_maxTorque__SystemSingle(){} // RVA: 0x828AF80
-        public void __get_name__SystemString(){} // RVA: 0x828B0A0
-        public void __get_reactionForce__UnityEngineVector2(){} // RVA: 0x828B1F0
-        public void __get_reactionTorque__SystemSingle(){} // RVA: 0x828B320
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x828B440
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x828B580
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x828B880
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x828BA70
-        public void __set_anchor__UnityEngineVector2__SystemVoid(){} // RVA: 0x828BD70
-        public void __set_autoConfigureConnectedAnchor__SystemBoolean__SystemVoid(){} // RVA: 0x828BE90
-        public void __set_breakAction__UnityEngineJointBreakAction2D__SystemVoid(){} // RVA: 0x828BFC0
-        public void __set_breakForce__SystemSingle__SystemVoid(){} // RVA: 0x828C0E0
-        public void __set_breakTorque__SystemSingle__SystemVoid(){} // RVA: 0x828C210
-        public void __set_connectedAnchor__UnityEngineVector2__SystemVoid(){} // RVA: 0x828C340
-        public void __set_connectedBody__UnityEngineRigidbody2D__SystemVoid(){} // RVA: 0x828C460
-        public void __set_enableCollision__SystemBoolean__SystemVoid(){} // RVA: 0x828C5B0
-        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x828C6E0
-        public void __set_maxForce__SystemSingle__SystemVoid(){} // RVA: 0x828C810
-        public void __set_maxTorque__SystemSingle__SystemVoid(){} // RVA: 0x828C940
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x828CA70
-        public void <.ctor>b__8_1(){} // RVA: 0x828CBC0
-    }
-
-    public class ExternUnityEngineFrictionJoint2DArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x828FF20
-        public void .ctor(){} // RVA: 0x828FF60
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8290330
-        public void GetExternFunctionDelegate(){} // RVA: 0x8290460
-        public void __Clone__SystemObject(){} // RVA: 0x8290570
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8290650
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8290730
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8290800
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8290950
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82909F0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8290AF0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8290C10
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8290D20
-        public void __GetType__SystemType(){} // RVA: 0x8290E40
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8290F30
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x8291010
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8291130
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82912C0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x8291410
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8291540
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8291660
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82917D0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8291910
-        public void __Get__SystemInt32__UnityEngineFrictionJoint2D(){} // RVA: 0x8291A30
-        public void __Initialize__SystemVoid(){} // RVA: 0x8291B70
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8291BE0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8291D00
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8291E80
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8291FE0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x8292110
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8292230
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8292390
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x82924E0
-        public void __Set__SystemInt32_UnityEngineFrictionJoint2D__SystemVoid(){} // RVA: 0x8292600
-        public void __ToString__SystemString(){} // RVA: 0x8292790
-        public void __ctor__SystemInt32__UnityEngineFrictionJoint2DArray(){} // RVA: 0x8292880
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8292970
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8292A10
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8292AB0
-        public void __get_Length__SystemInt32(){} // RVA: 0x8292B50
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8292BF0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8292C90
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8292D30
-        public void <.ctor>b__6_1(){} // RVA: 0x8292E10
-    }
-
-    public class ExternUnityEngineFrustumPlanes
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8294D30
-        public void .ctor(){} // RVA: 0x8294D70
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8295140
-        public void GetExternFunctionDelegate(){} // RVA: 0x8295270
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x8295380
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82954C0
-        public void __GetType__SystemType(){} // RVA: 0x8295570
-        public void __ToString__SystemString(){} // RVA: 0x8295660
-        public void __get_bottom__SystemSingle(){} // RVA: 0x8295710
-        public void __set_bottom__SystemSingle(){} // RVA: 0x8295810
-        public void __get_left__SystemSingle(){} // RVA: 0x8295910
-        public void __set_left__SystemSingle(){} // RVA: 0x8295A00
-        public void __get_right__SystemSingle(){} // RVA: 0x8295B00
-        public void __set_right__SystemSingle(){} // RVA: 0x8295C00
-        public void __get_top__SystemSingle(){} // RVA: 0x8295D00
-        public void __set_top__SystemSingle(){} // RVA: 0x8295E00
-        public void __get_zFar__SystemSingle(){} // RVA: 0x8295F00
-        public void __set_zFar__SystemSingle(){} // RVA: 0x8296010
-        public void __get_zNear__SystemSingle(){} // RVA: 0x8296110
-        public void __set_zNear__SystemSingle(){} // RVA: 0x8296220
-        public void <.ctor>b__6_1(){} // RVA: 0x8296320
-    }
-
-    public class ExternUnityEngineFrustumPlanesArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x8297100
-        public void .ctor(){} // RVA: 0x8297140
-        public void GetExternFunctionParameterCount(){} // RVA: 0x8297510
-        public void GetExternFunctionDelegate(){} // RVA: 0x8297640
-        public void __Clone__SystemObject(){} // RVA: 0x8297750
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x8297830
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x8297910
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82979E0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x8297B30
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x8297BD0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x8297CD0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x8297DF0
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x8297F00
-        public void __GetType__SystemType(){} // RVA: 0x8298020
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x8298110
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x82981F0
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x8298310
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82984A0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x82985F0
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x8298720
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x8298840
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82989B0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x8298AF0
-        public void __Get__SystemInt32__UnityEngineFrustumPlanes(){} // RVA: 0x8298C10
-        public void __Initialize__SystemVoid(){} // RVA: 0x8298D10
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x8298D80
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8298EA0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x8299020
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x8299180
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x82992B0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82993D0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x8299530
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x8299680
-        public void __Set__SystemInt32_UnityEngineFrustumPlanes__SystemVoid(){} // RVA: 0x82997A0
-        public void __ToString__SystemString(){} // RVA: 0x82998B0
-        public void __ctor__SystemInt32__UnityEngineFrustumPlanesArray(){} // RVA: 0x82999A0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x8299B40
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x8299BE0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x8299C80
-        public void __get_Length__SystemInt32(){} // RVA: 0x8299D20
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x8299DC0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x8299E60
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x8299F00
-        public void <.ctor>b__6_1(){} // RVA: 0x8299FE0
-    }
-
-    public class ExternUnityEngineGameObject
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x829BF00
-        public void .ctor(){} // RVA: 0x829BF40
-        public void GetExternFunctionParameterCount(){} // RVA: 0x829C310
-        public void GetExternFunctionDelegate(){} // RVA: 0x829C440
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x829C550
-        public void __Find__SystemString__UnityEngineGameObject(){} // RVA: 0x829C720
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x829C840
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x829C930
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x829CAA0
-        public void __GetComponentInChildren__T(){} // RVA: 0x829CC20
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x829CD10
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x829CE00
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x829CF70
-        public void __GetComponentInParent__T(){} // RVA: 0x829D0F0
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x829D1E0
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x829D360
-        public void __GetComponent__T(){} // RVA: 0x829D4E0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x829D5C0
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x829D6B0
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x829D7A0
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x829D890
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x829DA00
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x829DB40
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x829DC30
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x829DD20
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x829DE10
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x829DF80
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x829E0C0
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x829E1B0
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x829E2A0
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x829E3F0
-        public void __GetComponents__TArray(){} // RVA: 0x829E520
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x829E610
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x829E770
-        public void __GetType__SystemType(){} // RVA: 0x829E8C0
-        public void __SetActive__SystemBoolean__SystemVoid(){} // RVA: 0x829E9B0
-        public void __ToString__SystemString(){} // RVA: 0x829EAE0
-        public void __get_activeInHierarchy__SystemBoolean(){} // RVA: 0x829EC30
-        public void __get_activeSelf__SystemBoolean(){} // RVA: 0x829ED50
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x829EE70
-        public void __get_isStatic__SystemBoolean(){} // RVA: 0x829EF60
-        public void __get_layer__SystemInt32(){} // RVA: 0x829F080
-        public void __get_name__SystemString(){} // RVA: 0x829F1A0
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x829F2F0
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x829F430
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x829F730
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x829F920
-        public void __set_isStatic__SystemBoolean__SystemVoid(){} // RVA: 0x829FC20
-        public void __set_layer__SystemInt32__SystemVoid(){} // RVA: 0x829FD50
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x829FE70
-        public void <.ctor>b__6_1(){} // RVA: 0x829FFC0
-    }
-
-    public class ExternUnityEngineGameObjectArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82A2420
-        public void .ctor(){} // RVA: 0x82A2460
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82A2830
-        public void GetExternFunctionDelegate(){} // RVA: 0x82A2960
-        public void __Clone__SystemObject(){} // RVA: 0x82A2A70
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x82A2B50
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x82A2C30
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82A2D00
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x82A2E50
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82A2EF0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x82A2FF0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x82A3110
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x82A3220
-        public void __GetType__SystemType(){} // RVA: 0x82A3340
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x82A3430
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x82A3510
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82A3630
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82A37C0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x82A3910
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x82A3A40
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82A3B60
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82A3CD0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x82A3E10
-        public void __Get__SystemInt32__UnityEngineGameObject(){} // RVA: 0x82A3F30
-        public void __Initialize__SystemVoid(){} // RVA: 0x82A4070
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x82A40E0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82A4200
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82A4380
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x82A44E0
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x82A4610
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82A4730
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82A4890
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x82A49E0
-        public void __Set__SystemInt32_UnityEngineGameObject__SystemVoid(){} // RVA: 0x82A4B00
-        public void __ToString__SystemString(){} // RVA: 0x82A4C40
-        public void __ctor__SystemInt32__UnityEngineGameObjectArray(){} // RVA: 0x82A4D30
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x82A4E20
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x82A4EC0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x82A4F60
-        public void __get_Length__SystemInt32(){} // RVA: 0x82A5000
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x82A50A0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x82A5140
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x82A51E0
-        public void <.ctor>b__6_1(){} // RVA: 0x82A52C0
-    }
-
-    public class ExternUnityEngineGeometryUtility
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82A71E0
-        public void .ctor(){} // RVA: 0x82A7220
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82A75F0
-        public void GetExternFunctionDelegate(){} // RVA: 0x82A7720
-        public void __CalculateBounds__UnityEngineVector3Array_UnityEngineMatrix4x4__UnityEngineBounds(){} // RVA: 0x82A7830
-        public void __CalculateFrustumPlanes__UnityEngineCamera_UnityEnginePlaneArray__SystemVoid(){} // RVA: 0x82A7960
-        public void __CalculateFrustumPlanes__UnityEngineCamera__UnityEnginePlaneArray(){} // RVA: 0x82A7A30
-        public void __CalculateFrustumPlanes__UnityEngineMatrix4x4_UnityEnginePlaneArray__SystemVoid(){} // RVA: 0x82A7B50
-        public void __CalculateFrustumPlanes__UnityEngineMatrix4x4__UnityEnginePlaneArray(){} // RVA: 0x82A7C50
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82A7DA0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82A7EF0
-        public void __GetType__SystemType(){} // RVA: 0x82A7FF0
-        public void __TestPlanesAABB__UnityEnginePlaneArray_UnityEngineBounds__SystemBoolean(){} // RVA: 0x82A80E0
-        public void __ToString__SystemString(){} // RVA: 0x82A8220
-        public void __TryCreatePlaneFromPolygon__UnityEngineVector3Array_UnityEnginePlaneRef__SystemBoolean(){} // RVA: 0x82A8310
-        public void <.ctor>b__6_1(){} // RVA: 0x82A8400
-    }
-
-    public class ExternUnityEngineGizmos
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82A8E10
-        public void .ctor(){} // RVA: 0x82A8E50
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82A9220
-        public void GetExternFunctionDelegate(){} // RVA: 0x82A9350
-        public void __DrawCube__UnityEngineVector3_UnityEngineVector3__SystemVoid(){} // RVA: 0x82A9460
-        public void __DrawFrustum__UnityEngineVector3_SystemSingle_SystemSingle_SystemSingle_SystemSingle__SystemVoid(){} // RVA: 0x82A9580
-        public void __DrawGUITexture__UnityEngineRect_UnityEngineTexture_SystemInt32_SystemInt32_SystemInt32_SystemInt32_UnityEngineMaterial__SystemVoid(){} // RVA: 0x82A9760
-        public void __DrawGUITexture__UnityEngineRect_UnityEngineTexture_SystemInt32_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82A99E0
-        public void __DrawGUITexture__UnityEngineRect_UnityEngineTexture_UnityEngineMaterial__SystemVoid(){} // RVA: 0x82A9BE0
-        public void __DrawGUITexture__UnityEngineRect_UnityEngineTexture__SystemVoid(){} // RVA: 0x82A9D90
-        public void __DrawIcon__UnityEngineVector3_SystemString_SystemBoolean_UnityEngineColor__SystemVoid(){} // RVA: 0x82A9EE0
-        public void __DrawIcon__UnityEngineVector3_SystemString_SystemBoolean__SystemVoid(){} // RVA: 0x82AA080
-        public void __DrawIcon__UnityEngineVector3_SystemString__SystemVoid(){} // RVA: 0x82AA1F0
-        public void __DrawLine__UnityEngineVector3_UnityEngineVector3__SystemVoid(){} // RVA: 0x82AA300
-        public void __DrawRay__UnityEngineRay__SystemVoid(){} // RVA: 0x82AA420
-        public void __DrawRay__UnityEngineVector3_UnityEngineVector3__SystemVoid(){} // RVA: 0x82AA540
-        public void __DrawSphere__UnityEngineVector3_SystemSingle__SystemVoid(){} // RVA: 0x82AA690
-        public void __DrawWireCube__UnityEngineVector3_UnityEngineVector3__SystemVoid(){} // RVA: 0x82AA7B0
-        public void __DrawWireMesh__UnityEngineMesh_SystemInt32_UnityEngineVector3_UnityEngineQuaternion_UnityEngineVector3__SystemVoid(){} // RVA: 0x82AA8D0
-        public void __DrawWireMesh__UnityEngineMesh_SystemInt32_UnityEngineVector3_UnityEngineQuaternion__SystemVoid(){} // RVA: 0x82AAB00
-        public void __DrawWireMesh__UnityEngineMesh_SystemInt32_UnityEngineVector3__SystemVoid(){} // RVA: 0x82AAD30
-        public void __DrawWireMesh__UnityEngineMesh_SystemInt32__SystemVoid(){} // RVA: 0x82AAF50
-        public void __DrawWireMesh__UnityEngineMesh_UnityEngineVector3_UnityEngineQuaternion_UnityEngineVector3__SystemVoid(){} // RVA: 0x82AB160
-        public void __DrawWireMesh__UnityEngineMesh_UnityEngineVector3_UnityEngineQuaternion__SystemVoid(){} // RVA: 0x82AB350
-        public void __DrawWireMesh__UnityEngineMesh_UnityEngineVector3__SystemVoid(){} // RVA: 0x82AB540
-        public void __DrawWireMesh__UnityEngineMesh__SystemVoid(){} // RVA: 0x82AB730
-        public void __DrawWireSphere__UnityEngineVector3_SystemSingle__SystemVoid(){} // RVA: 0x82AB910
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82ABA30
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82ABB80
-        public void __GetType__SystemType(){} // RVA: 0x82ABC80
-        public void __ToString__SystemString(){} // RVA: 0x82ABD70
-        public void __get_color__UnityEngineColor(){} // RVA: 0x82ABE60
-        public void __get_matrix__UnityEngineMatrix4x4(){} // RVA: 0x82ABF30
-        public void __get_probeSize__SystemSingle(){} // RVA: 0x82AC030
-        public void __set_color__UnityEngineColor__SystemVoid(){} // RVA: 0x82AC0E0
-        public void __set_matrix__UnityEngineMatrix4x4__SystemVoid(){} // RVA: 0x82AC1A0
-        public void <.ctor>b__6_1(){} // RVA: 0x82AC280
-    }
-
-    public class ExternUnityEngineGradient
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82ADC60
-        public void .ctor(){} // RVA: 0x82ADCA0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82AE070
-        public void GetExternFunctionDelegate(){} // RVA: 0x82AE1A0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82AE2B0
-        public void __Equals__UnityEngineGradient__SystemBoolean(){} // RVA: 0x82AE3F0
-        public void __Evaluate__SystemSingle__UnityEngineColor(){} // RVA: 0x82AE4C0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82AE610
-        public void __GetType__SystemType(){} // RVA: 0x82AE6C0
-        public void __SetKeys__UnityEngineGradientColorKeyArray_UnityEngineGradientAlphaKeyArray__SystemVoid(){} // RVA: 0x82AE7B0
-        public void __ToString__SystemString(){} // RVA: 0x82AE890
-        public void __ctor____UnityEngineGradient(){} // RVA: 0x82AE980
-        public void __get_alphaKeys__UnityEngineGradientAlphaKeyArray(){} // RVA: 0x82AEA50
-        public void __get_colorKeys__UnityEngineGradientColorKeyArray(){} // RVA: 0x82AEB30
-        public void __get_colorSpace__UnityEngineColorSpace(){} // RVA: 0x82AEC10
-        public void __get_mode__UnityEngineGradientMode(){} // RVA: 0x82AED00
-        public void __set_alphaKeys__UnityEngineGradientAlphaKeyArray__SystemVoid(){} // RVA: 0x82AEDF0
-        public void __set_colorKeys__UnityEngineGradientColorKeyArray__SystemVoid(){} // RVA: 0x82AEEE0
-        public void __set_colorSpace__UnityEngineColorSpace__SystemVoid(){} // RVA: 0x82AEFD0
-        public void __set_mode__UnityEngineGradientMode__SystemVoid(){} // RVA: 0x82AF0C0
-        public void <.ctor>b__6_1(){} // RVA: 0x82AF1B0
-    }
-
-    public class ExternUnityEngineGradientAlphaKey
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82AFF90
-        public void .ctor(){} // RVA: 0x82AFFD0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82B03A0
-        public void GetExternFunctionDelegate(){} // RVA: 0x82B04D0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82B05E0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82B0720
-        public void __GetType__SystemType(){} // RVA: 0x82B07D0
-        public void __ToString__SystemString(){} // RVA: 0x82B08C0
-        public void __ctor__SystemSingle_SystemSingle__UnityEngineGradientAlphaKey(){} // RVA: 0x82B0970
-        public void __get_alpha__SystemSingle(){} // RVA: 0x82B0A30
-        public void __set_alpha__SystemSingle(){} // RVA: 0x82B0B10
-        public void __get_time__SystemSingle(){} // RVA: 0x82B0BE0
-        public void __set_time__SystemSingle(){} // RVA: 0x82B0CC0
-        public void <.ctor>b__6_1(){} // RVA: 0x82B0D90
-    }
-
-    public class ExternUnityEngineGradientAlphaKeyArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82B1630
-        public void .ctor(){} // RVA: 0x82B1670
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82B1A40
-        public void GetExternFunctionDelegate(){} // RVA: 0x82B1B70
-        public void __Clone__SystemObject(){} // RVA: 0x82B1C80
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x82B1D60
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x82B1E40
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82B1F10
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x82B2060
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82B2100
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x82B2200
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x82B2320
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x82B2430
-        public void __GetType__SystemType(){} // RVA: 0x82B2550
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x82B2640
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x82B2720
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82B2840
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82B29D0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x82B2B20
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x82B2C50
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82B2D70
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82B2EE0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x82B3020
-        public void __Get__SystemInt32__UnityEngineGradientAlphaKey(){} // RVA: 0x82B3140
-        public void __Initialize__SystemVoid(){} // RVA: 0x82B3220
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x82B3290
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82B33B0
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82B3530
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x82B3690
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x82B37C0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82B38E0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82B3A40
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x82B3B90
-        public void __Set__SystemInt32_UnityEngineGradientAlphaKey__SystemVoid(){} // RVA: 0x82B3CB0
-        public void __ToString__SystemString(){} // RVA: 0x82B3DB0
-        public void __ctor__SystemInt32__UnityEngineGradientAlphaKeyArray(){} // RVA: 0x82B3EA0
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x82B3F50
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x82B3FF0
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x82B4090
-        public void __get_Length__SystemInt32(){} // RVA: 0x82B4130
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x82B41D0
-        public void __get_Rank__SystemInt32(){} // RVA: 0x82B4270
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x82B4310
-        public void <.ctor>b__6_1(){} // RVA: 0x82B43F0
-    }
-
-    public class ExternUnityEngineGradientArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82B6310
-        public void .ctor(){} // RVA: 0x82B6350
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82B6720
-        public void GetExternFunctionDelegate(){} // RVA: 0x82B6850
-        public void __Clone__SystemObject(){} // RVA: 0x82B6960
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x82B6A40
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x82B6B20
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82B6BF0
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x82B6D40
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82B6DE0
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x82B6EE0
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x82B7000
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x82B7110
-        public void __GetType__SystemType(){} // RVA: 0x82B7230
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x82B7320
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x82B7400
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82B7520
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82B76B0
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x82B7800
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x82B7930
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82B7A50
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82B7BC0
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x82B7D00
-        public void __Get__SystemInt32__UnityEngineGradient(){} // RVA: 0x82B7E20
-        public void __Initialize__SystemVoid(){} // RVA: 0x82B7F00
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x82B7F70
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82B8090
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82B8210
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x82B8370
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x82B84A0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82B85C0
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82B8720
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x82B8870
-        public void __Set__SystemInt32_UnityEngineGradient__SystemVoid(){} // RVA: 0x82B8990
-        public void __ToString__SystemString(){} // RVA: 0x82B8B10
-        public void __ctor__SystemInt32__UnityEngineGradientArray(){} // RVA: 0x82B8C00
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x82B8DA0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x82B8E40
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x82B8EE0
-        public void __get_Length__SystemInt32(){} // RVA: 0x82B8F80
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x82B9020
-        public void __get_Rank__SystemInt32(){} // RVA: 0x82B90C0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x82B9160
-        public void <.ctor>b__6_1(){} // RVA: 0x82B9240
-    }
-
-    public class ExternUnityEngineGradientColorKey
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82BB160
-        public void .ctor(){} // RVA: 0x82BB1A0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82BB570
-        public void GetExternFunctionDelegate(){} // RVA: 0x82BB6A0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82BB7B0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82BB8F0
-        public void __GetType__SystemType(){} // RVA: 0x82BB9A0
-        public void __ToString__SystemString(){} // RVA: 0x82BBA90
-        public void __ctor__UnityEngineColor_SystemSingle__UnityEngineGradientColorKey(){} // RVA: 0x82BBB40
-        public void __get_color__UnityEngineColor(){} // RVA: 0x82BBC50
-        public void __set_color__UnityEngineColor(){} // RVA: 0x82BBD50
-        public void __get_time__SystemSingle(){} // RVA: 0x82BBE30
-        public void __set_time__SystemSingle(){} // RVA: 0x82BBF20
-        public void <.ctor>b__6_1(){} // RVA: 0x82BC000
-    }
-
-    public class ExternUnityEngineGradientColorKeyArray
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82BC8A0
-        public void .ctor(){} // RVA: 0x82BC8E0
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82BCCB0
-        public void GetExternFunctionDelegate(){} // RVA: 0x82BCDE0
-        public void __Clone__SystemObject(){} // RVA: 0x82BCEF0
-        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x82BCFD0
-        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x82BD0B0
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82BD180
-        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x82BD2D0
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82BD370
-        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x82BD470
-        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x82BD590
-        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x82BD6A0
-        public void __GetType__SystemType(){} // RVA: 0x82BD7C0
-        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x82BD8B0
-        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x82BD990
-        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82BDAB0
-        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x82BDC40
-        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x82BDD90
-        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x82BDEC0
-        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82BDFE0
-        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x82BE150
-        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x82BE290
-        public void __Get__SystemInt32__UnityEngineGradientColorKey(){} // RVA: 0x82BE3B0
-        public void __Initialize__SystemVoid(){} // RVA: 0x82BE4A0
-        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x82BE510
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82BE630
-        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x82BE7B0
-        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x82BE910
-        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x82BEA40
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82BEB60
-        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x82BECC0
-        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x82BEE10
-        public void __Set__SystemInt32_UnityEngineGradientColorKey__SystemVoid(){} // RVA: 0x82BEF30
-        public void __ToString__SystemString(){} // RVA: 0x82BF030
-        public void __ctor__SystemInt32__UnityEngineGradientColorKeyArray(){} // RVA: 0x82BF120
-        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x82BF1D0
-        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x82BF270
-        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x82BF310
-        public void __get_Length__SystemInt32(){} // RVA: 0x82BF3B0
-        public void __get_LongLength__SystemInt64(){} // RVA: 0x82BF450
-        public void __get_Rank__SystemInt32(){} // RVA: 0x82BF4F0
-        public void __get_SyncRoot__SystemObject(){} // RVA: 0x82BF590
-        public void <.ctor>b__6_1(){} // RVA: 0x82BF670
-    }
-
-    public class ExternUnityEngineHingeJoint
-    {
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,int>> _parameterCounts; // 0x10
-        public System.Lazy`1<System.Collections.Generic.Dictionary`2<string,VRC.Udon.Common.Delegates.UdonExternDelegate>> _functionDelegates; // 0x18
-
-        // ── Methods ──
-        public void get_Name(){} // RVA: 0x82C1590
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x82C15D0
-        public void .ctor(){} // RVA: 0x82C1680
-        public void GetExternFunctionParameterCount(){} // RVA: 0x82C1A50
-        public void GetExternFunctionDelegate(){} // RVA: 0x82C1B80
-        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x82C1C90
-        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x82C1E60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x82C1F50
-        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x82C2200
-        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x82C2360
-        public void __GetComponentInChildren__T(){} // RVA: 0x82C2480
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x82C2570
-        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x82C27F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x82C28E0
-        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x82C2B90
-        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x82C2CF0
-        public void __GetComponentInParent__T(){} // RVA: 0x82C2E10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x82C2F00
-        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x82C3180
-        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x82C32F0
-        public void __GetComponent__T(){} // RVA: 0x82C3410
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x82C34F0
-        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x82C3740
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x82C3830
-        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x82C3B60
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x82C3C50
-        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x82C3F90
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x82C4080
-        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x82C4390
-        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x82C4500
-        public void __GetComponentsInChildren__TArray(){} // RVA: 0x82C4630
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x82C4720
-        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x82C4A10
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x82C4B00
-        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x82C4E40
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x82C4F30
-        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x82C5240
-        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x82C53B0
-        public void __GetComponentsInParent__TArray(){} // RVA: 0x82C54F0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x82C55E0
-        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x82C58D0
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x82C59C0
-        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x82C5CB0
-        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x82C5E00
-        public void __GetComponents__TArray(){} // RVA: 0x82C5F30
-        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x82C6020
-        public void __GetHashCode__SystemInt32(){} // RVA: 0x82C62D0
-        public void __GetInstanceID__SystemInt32(){} // RVA: 0x82C6430
-        public void __GetType__SystemType(){} // RVA: 0x82C6580
-        public void __ToString__SystemString(){} // RVA: 0x82C6670
-        public void __get_anchor__UnityEngineVector3(){} // RVA: 0x82C67C0
-        public void __get_angle__SystemSingle(){} // RVA: 0x82C6910
-        public void __get_autoConfigureConnectedAnchor__SystemBoolean(){} // RVA: 0x82C6A30
-        public void __get_axis__UnityEngineVector3(){} // RVA: 0x82C6B50
-        public void __get_breakForce__SystemSingle(){} // RVA: 0x82C6CA0
-        public void __get_breakTorque__SystemSingle(){} // RVA: 0x82C6DC0
-        public void __get_connectedAnchor__UnityEngineVector3(){} // RVA: 0x82C6EE0
-        public void __get_connectedArticulationBody__UnityEngineArticulationBody(){} // RVA: 0x82C7030
-        public void __get_connectedBody__UnityEngineRigidbody(){} // RVA: 0x82C7170
-        public void __get_connectedMassScale__SystemSingle(){} // RVA: 0x82C72B0
-        public void __get_currentForce__UnityEngineVector3(){} // RVA: 0x82C73D0
-        public void __get_currentTorque__UnityEngineVector3(){} // RVA: 0x82C74D0
-        public void __get_enableCollision__SystemBoolean(){} // RVA: 0x82C75D0
-        public void __get_enablePreprocessing__SystemBoolean(){} // RVA: 0x82C76F0
-        public void __get_extendedLimits__SystemBoolean(){} // RVA: 0x82C7810
-        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x82C7930
-        public void __get_limits__UnityEngineJointLimits(){} // RVA: 0x82C7A70
-        public void __get_massScale__SystemSingle(){} // RVA: 0x82C7BD0
-        public void __get_motor__UnityEngineJointMotor(){} // RVA: 0x82C7CF0
-        public void __get_name__SystemString(){} // RVA: 0x82C7E30
-        public void __get_spring__UnityEngineJointSpring(){} // RVA: 0x82C7F80
-        public void __get_transform__UnityEngineTransform(){} // RVA: 0x82C80C0
-        public void __get_useAcceleration__SystemBoolean(){} // RVA: 0x82C8200
-        public void __get_useLimits__SystemBoolean(){} // RVA: 0x82C8320
-        public void __get_useMotor__SystemBoolean(){} // RVA: 0x82C8440
-        public void __get_useSpring__SystemBoolean(){} // RVA: 0x82C8560
-        public void __get_velocity__SystemSingle(){} // RVA: 0x82C8680
-        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x82C87A0
-        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x82C8AA0
-        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x82C8C90
-        public void __set_anchor__UnityEngineVector3__SystemVoid(){} // RVA: 0x82C8F90
-        public void __set_autoConfigureConnectedAnchor__SystemBoolean__SystemVoid(){} // RVA: 0x82C90D0
-        public void __set_axis__UnityEngineVector3__SystemVoid(){} // RVA: 0x82C9200
-        public void __set_breakForce__SystemSingle__SystemVoid(){} // RVA: 0x82C9340
-        public void __set_breakTorque__SystemSingle__SystemVoid(){} // RVA: 0x82C9470
-        public void __set_connectedAnchor__UnityEngineVector3__SystemVoid(){} // RVA: 0x82C95A0
-        public void __set_connectedArticulationBody__UnityEngineArticulationBody__SystemVoid(){} // RVA: 0x82C96E0
-        public void __set_connectedBody__UnityEngineRigidbody__SystemVoid(){} // RVA: 0x82C9830
-        public void __set_connectedMassScale__SystemSingle__SystemVoid(){} // RVA: 0x82C9980
-        public void __set_enableCollision__SystemBoolean__SystemVoid(){} // RVA: 0x82C9AB0
-        public void __set_enablePreprocessing__SystemBoolean__SystemVoid(){} // RVA: 0x82C9BE0
-        public void __set_extendedLimits__SystemBoolean__SystemVoid(){} // RVA: 0x82C9D10
-        public void __set_limits__UnityEngineJointLimits__SystemVoid(){} // RVA: 0x82C9E40
-        public void __set_massScale__SystemSingle__SystemVoid(){} // RVA: 0x82C9F80
-        public void __set_motor__UnityEngineJointMotor__SystemVoid(){} // RVA: 0x82CA0B0
-        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x82CA1F0
-        public void __set_spring__UnityEngineJointSpring__SystemVoid(){} // RVA: 0x82CA340
-        public void __set_useAcceleration__SystemBoolean__SystemVoid(){} // RVA: 0x82CA480
-        public void __set_useLimits__SystemBoolean__SystemVoid(){} // RVA: 0x82CA5B0
-        public void __set_useMotor__SystemBoolean__SystemVoid(){} // RVA: 0x82CA6E0
-        public void __set_useSpring__SystemBoolean__SystemVoid(){} // RVA: 0x82CA810
-        public void <.ctor>b__8_1(){} // RVA: 0x82CA940
+    public class ExternCinemachineCinemachineDollyCart : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF99DC00
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7AF99DC40
+        public void .ctor(){} // RVA: 0x7AF99DCF0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF99E0C0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF99E1F0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF99E300
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AF99E4E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AF99E5D0
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AF99E890
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x7AF99E9F0
+        public void __GetComponentInChildren__T(){} // RVA: 0x7AF99EB20
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x7AF99EC10
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AF99EE90
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AF99EF80
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AF99F240
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x7AF99F3A0
+        public void __GetComponentInParent__T(){} // RVA: 0x7AF99F4D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x7AF99F5C0
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x7AF99F840
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x7AF99F9C0
+        public void __GetComponent__T(){} // RVA: 0x7AF99FAF0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x7AF99FBD0
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AF99FE30
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AF99FF20
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF9A0260
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF9A0350
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AF9A06B0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AF9A07A0
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AF9A0AC0
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AF9A0C30
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x7AF9A0D70
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x7AF9A0E60
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF9A1160
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF9A1250
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AF9A15B0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AF9A16A0
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AF9A19C0
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AF9A1B30
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x7AF9A1C70
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x7AF9A1D60
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x7AF9A2060
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x7AF9A2150
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x7AF9A2450
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AF9A25A0
+        public void __GetComponents__TArray(){} // RVA: 0x7AF9A26E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x7AF9A27D0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF9A2AA0
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AF9A2C10
+        public void __GetType__SystemType(){} // RVA: 0x7AF9A2D70
+        public void __ToString__SystemString(){} // RVA: 0x7AF9A2E60
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x7AF9A2FD0
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x7AF9A3100
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x7AF9A3250
+        public void __get_m_Path__CinemachineCinemachinePathBase(){} // RVA: 0x7AF9A3380
+        public void __set_m_Path__CinemachineCinemachinePathBase(){} // RVA: 0x7AF9A3490
+        public void __get_m_Position__SystemSingle(){} // RVA: 0x7AF9A35C0
+        public void __set_m_Position__SystemSingle(){} // RVA: 0x7AF9A36A0
+        public void __get_m_Speed__SystemSingle(){} // RVA: 0x7AF9A3780
+        public void __set_m_Speed__SystemSingle(){} // RVA: 0x7AF9A3860
+        public void __get_name__SystemString(){} // RVA: 0x7AF9A3940
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x7AF9A3AA0
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AF9A3BF0
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AF9A3EF0
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AF9A40F0
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x7AF9A43D0
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AF9A4500
+        public void <.ctor>b__8_1(){} // RVA: 0x7AF9A4660
+    }
+
+    public class ExternCinemachineCinemachineDollyCartArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF9A6B80
+        public void .ctor(){} // RVA: 0x7AF9A6BC0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF9A6F90
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF9A70C0
+        public void __Clone__SystemObject(){} // RVA: 0x7AF9A71D0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AF9A72C0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AF9A73A0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF9A7470
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AF9A75C0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF9A7660
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AF9A7770
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AF9A7890
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF9A79A0
+        public void __GetType__SystemType(){} // RVA: 0x7AF9A7AC0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF9A7BB0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AF9A7C90
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF9A7DC0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF9A7F50
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AF9A80A0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AF9A81D0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF9A8300
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF9A8480
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AF9A85D0
+        public void __Get__SystemInt32__CinemachineCinemachineDollyCart(){} // RVA: 0x7AF9A8700
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AF9A8850
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AF9A88C0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF9A89F0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF9A8B70
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AF9A8CD0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AF9A8E00
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF9A8F30
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF9A90A0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AF9A91F0
+        public void __Set__SystemInt32_CinemachineCinemachineDollyCart__SystemVoid(){} // RVA: 0x7AF9A9320
+        public void __ToString__SystemString(){} // RVA: 0x7AF9A94F0
+        public void __ctor__SystemInt32__CinemachineCinemachineDollyCartArray(){} // RVA: 0x7AF9A95F0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AF9A96F0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AF9A9790
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AF9A9830
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AF9A98D0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AF9A9970
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AF9A9A10
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AF9A9AB0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF9A9B90
+    }
+
+    public class ExternCinemachineCinemachinePathBase : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF9ABAB0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7AF9ABAF0
+        public void .ctor(){} // RVA: 0x7AF9ABBA0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF9ABF70
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF9AC0A0
+        public void __DistanceCacheIsValid__SystemBoolean(){} // RVA: 0x7AF9AC1B0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF9AC2A0
+        public void __EvaluateLocalOrientation__SystemSingle__UnityEngineQuaternion(){} // RVA: 0x7AF9AC480
+        public void __EvaluateLocalPosition__SystemSingle__UnityEngineVector3(){} // RVA: 0x7AF9AC5C0
+        public void __EvaluateLocalTangent__SystemSingle__UnityEngineVector3(){} // RVA: 0x7AF9AC710
+        public void __EvaluateOrientationAtUnit__SystemSingle_CinemachineCinemachinePathBasePositionUnits__UnityEngineQuaternion(){} // RVA: 0x7AF9AC860
+        public void __EvaluateOrientation__SystemSingle__UnityEngineQuaternion(){} // RVA: 0x7AF9AC9F0
+        public void __EvaluatePositionAtUnit__SystemSingle_CinemachineCinemachinePathBasePositionUnits__UnityEngineVector3(){} // RVA: 0x7AF9ACB30
+        public void __EvaluatePosition__SystemSingle__UnityEngineVector3(){} // RVA: 0x7AF9ACCD0
+        public void __EvaluateTangentAtUnit__SystemSingle_CinemachineCinemachinePathBasePositionUnits__UnityEngineVector3(){} // RVA: 0x7AF9ACE20
+        public void __EvaluateTangent__SystemSingle__UnityEngineVector3(){} // RVA: 0x7AF9ACFC0
+        public void __FindClosestPoint__UnityEngineVector3_SystemInt32_SystemInt32_SystemInt32__SystemSingle(){} // RVA: 0x7AF9AD110
+        public void __FromPathNativeUnits__SystemSingle_CinemachineCinemachinePathBasePositionUnits__SystemSingle(){} // RVA: 0x7AF9AD300
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AF9AD460
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AF9AD550
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AF9AD810
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x7AF9AD970
+        public void __GetComponentInChildren__T(){} // RVA: 0x7AF9ADAA0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x7AF9ADB90
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AF9ADE10
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AF9ADF00
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AF9AE1C0
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x7AF9AE320
+        public void __GetComponentInParent__T(){} // RVA: 0x7AF9AE450
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x7AF9AE540
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x7AF9AE7C0
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x7AF9AE940
+        public void __GetComponent__T(){} // RVA: 0x7AF9AEA70
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x7AF9AEB50
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AF9AEDB0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AF9AEEA0
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF9AF1E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF9AF2D0
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AF9AF630
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AF9AF720
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AF9AFA40
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AF9AFBB0
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x7AF9AFCF0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x7AF9AFDE0
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF9B00E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AF9B01D0
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AF9B0530
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AF9B0620
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AF9B0940
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AF9B0AB0
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x7AF9B0BF0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x7AF9B0CE0
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x7AF9B0FE0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x7AF9B10D0
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x7AF9B13D0
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AF9B1520
+        public void __GetComponents__TArray(){} // RVA: 0x7AF9B1660
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x7AF9B1750
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF9B1A20
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AF9B1B90
+        public void __GetType__SystemType(){} // RVA: 0x7AF9B1CF0
+        public void __InvalidateDistanceCache__SystemVoid(){} // RVA: 0x7AF9B1DE0
+        public void __MaxUnit__CinemachineCinemachinePathBasePositionUnits__SystemSingle(){} // RVA: 0x7AF9B1EA0
+        public void __MinUnit__CinemachineCinemachinePathBasePositionUnits__SystemSingle(){} // RVA: 0x7AF9B1FF0
+        public void __StandardizePathDistance__SystemSingle__SystemSingle(){} // RVA: 0x7AF9B2130
+        public void __StandardizePos__SystemSingle__SystemSingle(){} // RVA: 0x7AF9B2250
+        public void __StandardizeUnit__SystemSingle_CinemachineCinemachinePathBasePositionUnits__SystemSingle(){} // RVA: 0x7AF9B2380
+        public void __ToNativePathUnits__SystemSingle_CinemachineCinemachinePathBasePositionUnits__SystemSingle(){} // RVA: 0x7AF9B24F0
+        public void __ToString__SystemString(){} // RVA: 0x7AF9B2650
+        public void __get_DistanceCacheSampleStepsPerSegment__SystemInt32(){} // RVA: 0x7AF9B27C0
+        public void __get_Looped__SystemBoolean(){} // RVA: 0x7AF9B28B0
+        public void __get_MaxPos__SystemSingle(){} // RVA: 0x7AF9B29A0
+        public void __get_MinPos__SystemSingle(){} // RVA: 0x7AF9B2A90
+        public void __get_PathLength__SystemSingle(){} // RVA: 0x7AF9B2B80
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x7AF9B2C70
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x7AF9B2DA0
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x7AF9B2EF0
+        public void __get_m_Appearance__CinemachineCinemachinePathBaseAppearance(){} // RVA: 0x7AF9B3020
+        public void __set_m_Appearance__CinemachineCinemachinePathBaseAppearance(){} // RVA: 0x7AF9B31C0
+        public void __get_name__SystemString(){} // RVA: 0x7AF9B33B0
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x7AF9B3510
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AF9B3660
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AF9B3960
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AF9B3B60
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x7AF9B3E40
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AF9B3F70
+        public void <.ctor>b__8_1(){} // RVA: 0x7AF9B40D0
+    }
+
+    public class ExternCinemachineCinemachinePathBaseArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFAD24E0
+        public void .ctor(){} // RVA: 0x7AFAD2520
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFAD28F0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFAD2A20
+        public void __Clone__SystemObject(){} // RVA: 0x7AFAD2B30
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFAD2C20
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFAD2D00
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFAD2DD0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFAD2F20
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFAD2FC0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFAD30D0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFAD31F0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFAD3300
+        public void __GetType__SystemType(){} // RVA: 0x7AFAD3420
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFAD3510
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFAD35F0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFAD3720
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFAD38B0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFAD3A00
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFAD3B30
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFAD3C60
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFAD3DE0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFAD3F30
+        public void __Get__SystemInt32__CinemachineCinemachinePathBase(){} // RVA: 0x7AFAD4060
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFAD41B0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFAD4220
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFAD4350
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFAD44D0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFAD4630
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFAD4760
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFAD4890
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFAD4A00
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFAD4B50
+        public void __Set__SystemInt32_CinemachineCinemachinePathBase__SystemVoid(){} // RVA: 0x7AFAD4C80
+        public void __ToString__SystemString(){} // RVA: 0x7AFAD4E50
+        public void __ctor__SystemInt32__CinemachineCinemachinePathBaseArray(){} // RVA: 0x7AFAD4F50
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFAD5050
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFAD50F0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFAD5190
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFAD5230
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFAD52D0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFAD5370
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFAD5410
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFAD54F0
+    }
+
+    public class ExternSystemArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF940070
+        public void .ctor(){} // RVA: 0x7AF9400B0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF940480
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF9405B0
+        public void __BinarySearch__SystemArray_SystemInt32_SystemInt32_SystemObject__SystemInt32(){} // RVA: 0x7AF9406C0
+        public void __BinarySearch__SystemArray_SystemObject__SystemInt32(){} // RVA: 0x7AF940860
+        public void __BinarySearch__TArray_SystemInt32_SystemInt32_T__SystemInt32(){} // RVA: 0x7AF940A30
+        public void __BinarySearch__TArray_T__SystemInt32(){} // RVA: 0x7AF940BD0
+        public void __Clear__SystemArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF940D50
+        public void __Clone__SystemObject(){} // RVA: 0x7AF940E30
+        public void __ConstrainedCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF940F20
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AF941060
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AF941140
+        public void __Copy__SystemArray_SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AF941210
+        public void __Copy__SystemArray_SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AF941400
+        public void __Copy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF9414D0
+        public void __Copy__SystemArray_SystemInt64_SystemArray_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF941610
+        public void __CreateInstance__SystemType_SystemInt32Array_SystemInt32Array__SystemArray(){} // RVA: 0x7AF941730
+        public void __CreateInstance__SystemType_SystemInt32Array__SystemArray(){} // RVA: 0x7AF941830
+        public void __CreateInstance__SystemType_SystemInt32_SystemInt32_SystemInt32__SystemArray(){} // RVA: 0x7AF941900
+        public void __CreateInstance__SystemType_SystemInt32_SystemInt32__SystemArray(){} // RVA: 0x7AF941A90
+        public void __CreateInstance__SystemType_SystemInt32__SystemArray(){} // RVA: 0x7AF941BA0
+        public void __CreateInstance__SystemType_SystemInt64Array__SystemArray(){} // RVA: 0x7AF941C70
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF941D40
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AF941E90
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF941F30
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AF942040
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AF942160
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF942270
+        public void __GetType__SystemType(){} // RVA: 0x7AF942390
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF942480
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AF942560
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF942690
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF942820
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AF942970
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AF942AA0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF942BD0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF942D50
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AF942EA0
+        public void __IndexOf__SystemArray_SystemObject_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AF942FD0
+        public void __IndexOf__SystemArray_SystemObject_SystemInt32__SystemInt32(){} // RVA: 0x7AF943160
+        public void __IndexOf__SystemArray_SystemObject__SystemInt32(){} // RVA: 0x7AF943370
+        public void __IndexOf__TArray_T_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AF943540
+        public void __IndexOf__TArray_T_SystemInt32__SystemInt32(){} // RVA: 0x7AF9436B0
+        public void __IndexOf__TArray_T__SystemInt32(){} // RVA: 0x7AF943860
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AF9439D0
+        public void __LastIndexOf__SystemArray_SystemObject_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AF943A40
+        public void __LastIndexOf__SystemArray_SystemObject_SystemInt32__SystemInt32(){} // RVA: 0x7AF943BD0
+        public void __LastIndexOf__SystemArray_SystemObject__SystemInt32(){} // RVA: 0x7AF943D90
+        public void __LastIndexOf__TArray_T_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AF943F30
+        public void __LastIndexOf__TArray_T_SystemInt32__SystemInt32(){} // RVA: 0x7AF9440A0
+        public void __LastIndexOf__TArray_T__SystemInt32(){} // RVA: 0x7AF944250
+        public void __Reverse__SystemArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF9443D0
+        public void __Reverse__SystemArray__SystemVoid(){} // RVA: 0x7AF9444B0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AF9445B0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF9446E0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF944860
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AF9449C0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AF944AF0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF944C20
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF944D90
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AF944EE0
+        public void __Sort__SystemArray_SystemArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF945010
+        public void __Sort__SystemArray_SystemArray__SystemVoid(){} // RVA: 0x7AF945120
+        public void __Sort__SystemArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF945260
+        public void __Sort__SystemArray__SystemVoid(){} // RVA: 0x7AF945350
+        public void __ToString__SystemString(){} // RVA: 0x7AF945460
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AF945560
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AF945600
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AF9456A0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AF945740
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AF9457E0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AF945880
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AF945920
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF945A00
+    }
+
+    public class ExternSystemBitConverter : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF949050
+        public void .ctor(){} // RVA: 0x7AF949090
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF949460
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF949590
+        public void __DoubleToInt64Bits__SystemDouble__SystemInt64(){} // RVA: 0x7AF9496A0
+        public void __GetBytes__SystemBoolean__SystemByteArray(){} // RVA: 0x7AF949730
+        public void __GetBytes__SystemChar__SystemByteArray(){} // RVA: 0x7AF949820
+        public void __GetBytes__SystemDouble__SystemByteArray(){} // RVA: 0x7AF949900
+        public void __GetBytes__SystemInt16__SystemByteArray(){} // RVA: 0x7AF9499E0
+        public void __GetBytes__SystemInt32__SystemByteArray(){} // RVA: 0x7AF949AC0
+        public void __GetBytes__SystemInt64__SystemByteArray(){} // RVA: 0x7AF949BB0
+        public void __GetBytes__SystemSingle__SystemByteArray(){} // RVA: 0x7AF949C90
+        public void __GetBytes__SystemUInt16__SystemByteArray(){} // RVA: 0x7AF949D80
+        public void __GetBytes__SystemUInt32__SystemByteArray(){} // RVA: 0x7AF949E60
+        public void __GetBytes__SystemUInt64__SystemByteArray(){} // RVA: 0x7AF949F50
+        public void __Int32BitsToSingle__SystemInt32__SystemSingle(){} // RVA: 0x7AF94A030
+        public void __Int64BitsToDouble__SystemInt64__SystemDouble(){} // RVA: 0x7AF94A0D0
+        public void __SingleToInt32Bits__SystemSingle__SystemInt32(){} // RVA: 0x7AF94A160
+        public void __ToBoolean__SystemByteArray_SystemInt32__SystemBoolean(){} // RVA: 0x7AF94A200
+        public void __ToChar__SystemByteArray_SystemInt32__SystemChar(){} // RVA: 0x7AF94A320
+        public void __ToDouble__SystemByteArray_SystemInt32__SystemDouble(){} // RVA: 0x7AF94A440
+        public void __ToInt16__SystemByteArray_SystemInt32__SystemInt16(){} // RVA: 0x7AF94A560
+        public void __ToInt32__SystemByteArray_SystemInt32__SystemInt32(){} // RVA: 0x7AF94A680
+        public void __ToInt64__SystemByteArray_SystemInt32__SystemInt64(){} // RVA: 0x7AF94A7A0
+        public void __ToSingle__SystemByteArray_SystemInt32__SystemSingle(){} // RVA: 0x7AF94A8C0
+        public void __ToUInt16__SystemByteArray_SystemInt32__SystemUInt16(){} // RVA: 0x7AF94A9E0
+        public void __ToUInt32__SystemByteArray_SystemInt32__SystemUInt32(){} // RVA: 0x7AF94AB00
+        public void __ToUInt64__SystemByteArray_SystemInt32__SystemUInt64(){} // RVA: 0x7AF94AC20
+        public void __get_IsLittleEndian__SystemBoolean(){} // RVA: 0x7AF94AD40
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF94ADB0
+    }
+
+    public class ExternSystemBoolean : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF94C250
+        public void .ctor(){} // RVA: 0x7AF94C290
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF94C660
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF94C790
+        public void __CompareTo__SystemBoolean__SystemInt32(){} // RVA: 0x7AF94C8A0
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AF94C9C0
+        public void __Equals__SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94CB20
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF94CC30
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF94CDE0
+        public void __GetType__SystemType(){} // RVA: 0x7AF94CEB0
+        public void __Parse__SystemString__SystemBoolean(){} // RVA: 0x7AF94CFA0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AF94D070
+        public void __ToString__SystemString(){} // RVA: 0x7AF94D1F0
+        public void __TryParse__SystemString_SystemBooleanRef__SystemBoolean(){} // RVA: 0x7AF94D300
+        public void __get_FalseString__SystemString(){} // RVA: 0x7AF94D4A0
+        public void __get_TrueString__SystemString(){} // RVA: 0x7AF94D540
+        public void __op_ConditionalAnd__SystemBoolean_SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94D5E0
+        public void __op_ConditionalOr__SystemBoolean_SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94D6B0
+        public void __op_ConditionalXor__SystemBoolean_SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94D780
+        public void __op_Equality__SystemBoolean_SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94D850
+        public void __op_Inequality__SystemBoolean_SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94D920
+        public void __op_LogicalAnd__SystemBoolean_SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94D9F0
+        public void __op_LogicalOr__SystemBoolean_SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94DAC0
+        public void __op_LogicalXor__SystemBoolean_SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94DB90
+        public void __op_UnaryNegation__SystemBoolean__SystemBoolean(){} // RVA: 0x7AF94DC60
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF94DD00
+    }
+
+    public class ExternSystemBooleanArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF94EEA0
+        public void .ctor(){} // RVA: 0x7AF94EEE0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF94F2B0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF94F3E0
+        public void __Clone__SystemObject(){} // RVA: 0x7AF94F4F0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AF94F5E0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AF94F6C0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF94F790
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AF94F8E0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF94F980
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AF94FA90
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AF94FBB0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF94FCC0
+        public void __GetType__SystemType(){} // RVA: 0x7AF94FDE0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF94FED0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AF94FFB0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF9500E0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF950270
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AF9503C0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AF9504F0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF950620
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF9507A0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AF9508F0
+        public void __Get__SystemInt32__SystemBoolean(){} // RVA: 0x7AF950A20
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AF950B00
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AF950B70
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF950CA0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF950E20
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AF950F80
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AF9510B0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF9511E0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF951350
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AF9514A0
+        public void __Set__SystemInt32_SystemBoolean__SystemVoid(){} // RVA: 0x7AF9515D0
+        public void __ToString__SystemString(){} // RVA: 0x7AF9516C0
+        public void __ctor__SystemInt32__SystemBooleanArray(){} // RVA: 0x7AF9517C0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AF951960
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AF951A00
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AF951AA0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AF951B40
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AF951BE0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AF951C80
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AF951D20
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF951E00
+    }
+
+    public class ExternSystemBuffer : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF953D20
+        public void .ctor(){} // RVA: 0x7AF953D60
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF954130
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF954260
+        public void __BlockCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF954370
+        public void __ByteLength__SystemArray__SystemInt32(){} // RVA: 0x7AF9544B0
+        public void __GetByte__SystemArray_SystemInt32__SystemByte(){} // RVA: 0x7AF9545F0
+        public void __SetByte__SystemArray_SystemInt32_SystemByte__SystemVoid(){} // RVA: 0x7AF9547D0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF9549C0
+    }
+
+    public class ExternSystemByte : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF954E90
+        public void .ctor(){} // RVA: 0x7AF954ED0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF9552A0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF9553D0
+        public void __CompareTo__SystemByte__SystemInt32(){} // RVA: 0x7AF9554E0
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AF9555B0
+        public void __Equals__SystemByte__SystemBoolean(){} // RVA: 0x7AF955780
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF955850
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF9559D0
+        public void __GetType__SystemType(){} // RVA: 0x7AF955A70
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemByte(){} // RVA: 0x7AF955B60
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemByte(){} // RVA: 0x7AF955D00
+        public void __Parse__SystemString_SystemIFormatProvider__SystemByte(){} // RVA: 0x7AF955E60
+        public void __Parse__SystemString__SystemByte(){} // RVA: 0x7AF955FC0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AF9560E0
+        public void __ToString__SystemString(){} // RVA: 0x7AF956250
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF956380
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AF956540
+        public void __TryParse__SystemString_SystemByteRef__SystemBoolean(){} // RVA: 0x7AF9566C0
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemByteRef__SystemBoolean(){} // RVA: 0x7AF956820
+        public void __get_MaxValue__SystemByte(){} // RVA: 0x7AF956A00
+        public void __get_MinValue__SystemByte(){} // RVA: 0x7AF956A70
+        public void __op_Addition__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF956AE0
+        public void __op_Division__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF956BB0
+        public void __op_Equality__SystemByte_SystemByte__SystemBoolean(){} // RVA: 0x7AF956C90
+        public void __op_GreaterThanOrEqual__SystemByte_SystemByte__SystemBoolean(){} // RVA: 0x7AF956D60
+        public void __op_GreaterThan__SystemByte_SystemByte__SystemBoolean(){} // RVA: 0x7AF956E30
+        public void __op_Inequality__SystemByte_SystemByte__SystemBoolean(){} // RVA: 0x7AF956F00
+        public void __op_LeftShift__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF956FD0
+        public void __op_LessThanOrEqual__SystemByte_SystemByte__SystemBoolean(){} // RVA: 0x7AF9570A0
+        public void __op_LessThan__SystemByte_SystemByte__SystemBoolean(){} // RVA: 0x7AF957170
+        public void __op_LogicalAnd__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF957240
+        public void __op_LogicalOr__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF957310
+        public void __op_LogicalXor__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF9573E0
+        public void __op_Multiplication__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF9574B0
+        public void __op_RightShift__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF957580
+        public void __op_Subtraction__SystemByte_SystemByte__SystemInt32(){} // RVA: 0x7AF957650
+        public void __op_UnaryMinus__SystemByte__SystemInt32(){} // RVA: 0x7AF957720
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF9577C0
+    }
+
+    public class ExternSystemByteArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF959320
+        public void .ctor(){} // RVA: 0x7AF959360
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF959730
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF959860
+        public void __Clone__SystemObject(){} // RVA: 0x7AF959970
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AF959A60
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AF959B40
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF959C10
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AF959D60
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF959E00
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AF959F10
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AF95A030
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF95A140
+        public void __GetType__SystemType(){} // RVA: 0x7AF95A260
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF95A350
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AF95A430
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF95A560
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF95A6F0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AF95A840
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AF95A970
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF95AAA0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF95AC20
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AF95AD70
+        public void __Get__SystemInt32__SystemByte(){} // RVA: 0x7AF95AEA0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AF95AF80
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AF95AFF0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF95B120
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF95B2A0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AF95B400
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AF95B530
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF95B660
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF95B7D0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AF95B920
+        public void __Set__SystemInt32_SystemByte__SystemVoid(){} // RVA: 0x7AF95BA50
+        public void __ToString__SystemString(){} // RVA: 0x7AF95BB40
+        public void __ctor__SystemInt32__SystemByteArray(){} // RVA: 0x7AF95BC40
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AF95BCF0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AF95BD90
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AF95BE30
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AF95BED0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AF95BF70
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AF95C010
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AF95C0B0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF95C190
+    }
+
+    public class ExternSystemChar : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF95E0B0
+        public void .ctor(){} // RVA: 0x7AF95E0F0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF95E4C0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF95E5F0
+        public void __CompareTo__SystemChar__SystemInt32(){} // RVA: 0x7AF95E700
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AF95E7F0
+        public void __ConvertFromUtf32__SystemInt32__SystemString(){} // RVA: 0x7AF95E9F0
+        public void __ConvertToUtf32__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF95EAC0
+        public void __ConvertToUtf32__SystemString_SystemInt32__SystemInt32(){} // RVA: 0x7AF95EBC0
+        public void __Equals__SystemChar__SystemBoolean(){} // RVA: 0x7AF95ECE0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF95EDD0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF95EF80
+        public void __GetNumericValue__SystemChar__SystemDouble(){} // RVA: 0x7AF95F050
+        public void __GetNumericValue__SystemString_SystemInt32__SystemDouble(){} // RVA: 0x7AF95F120
+        public void __GetType__SystemType(){} // RVA: 0x7AF95F230
+        public void __GetUnicodeCategory__SystemChar__SystemGlobalizationUnicodeCategory(){} // RVA: 0x7AF95F320
+        public void __GetUnicodeCategory__SystemString_SystemInt32__SystemGlobalizationUnicodeCategory(){} // RVA: 0x7AF95F3F0
+        public void __IsControl__SystemChar__SystemBoolean(){} // RVA: 0x7AF95F510
+        public void __IsControl__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF95F5E0
+        public void __IsDigit__SystemChar__SystemBoolean(){} // RVA: 0x7AF95F880
+        public void __IsDigit__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF95F950
+        public void __IsHighSurrogate__SystemChar__SystemBoolean(){} // RVA: 0x7AF95FBE0
+        public void __IsHighSurrogate__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF95FCC0
+        public void __IsLetterOrDigit__SystemChar__SystemBoolean(){} // RVA: 0x7AF95FDE0
+        public void __IsLetterOrDigit__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF95FEB0
+        public void __IsLetter__SystemChar__SystemBoolean(){} // RVA: 0x7AF95FFD0
+        public void __IsLetter__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF9600A0
+        public void __IsLowSurrogate__SystemChar__SystemBoolean(){} // RVA: 0x7AF9601C0
+        public void __IsLowSurrogate__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF9602A0
+        public void __IsLower__SystemChar__SystemBoolean(){} // RVA: 0x7AF9604C0
+        public void __IsLower__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF960590
+        public void __IsNumber__SystemChar__SystemBoolean(){} // RVA: 0x7AF9606B0
+        public void __IsNumber__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF960780
+        public void __IsPunctuation__SystemChar__SystemBoolean(){} // RVA: 0x7AF9608A0
+        public void __IsPunctuation__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF960970
+        public void __IsSeparator__SystemChar__SystemBoolean(){} // RVA: 0x7AF960A90
+        public void __IsSeparator__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF960B60
+        public void __IsSurrogatePair__SystemChar_SystemChar__SystemBoolean(){} // RVA: 0x7AF960C80
+        public void __IsSurrogatePair__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF960DA0
+        public void __IsSurrogate__SystemChar__SystemBoolean(){} // RVA: 0x7AF961010
+        public void __IsSurrogate__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF9610F0
+        public void __IsSymbol__SystemChar__SystemBoolean(){} // RVA: 0x7AF961210
+        public void __IsSymbol__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF9612E0
+        public void __IsUpper__SystemChar__SystemBoolean(){} // RVA: 0x7AF961400
+        public void __IsUpper__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF9614D0
+        public void __IsWhiteSpace__SystemChar__SystemBoolean(){} // RVA: 0x7AF9615F0
+        public void __IsWhiteSpace__SystemString_SystemInt32__SystemBoolean(){} // RVA: 0x7AF9616C0
+        public void __Parse__SystemString__SystemChar(){} // RVA: 0x7AF9617E0
+        public void __ToLowerInvariant__SystemChar__SystemChar(){} // RVA: 0x7AF961940
+        public void __ToLower__SystemChar_SystemGlobalizationCultureInfo__SystemChar(){} // RVA: 0x7AF961A10
+        public void __ToLower__SystemChar__SystemChar(){} // RVA: 0x7AF961BA0
+        public void __ToString__SystemChar__SystemString(){} // RVA: 0x7AF961C70
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AF961D40
+        public void __ToString__SystemString(){} // RVA: 0x7AF961E80
+        public void __ToUpperInvariant__SystemChar__SystemChar(){} // RVA: 0x7AF961F90
+        public void __ToUpper__SystemChar_SystemGlobalizationCultureInfo__SystemChar(){} // RVA: 0x7AF962060
+        public void __ToUpper__SystemChar__SystemChar(){} // RVA: 0x7AF9621F0
+        public void __TryParse__SystemString_SystemCharRef__SystemBoolean(){} // RVA: 0x7AF9622C0
+        public void __get_MaxValue__SystemChar(){} // RVA: 0x7AF9623D0
+        public void __get_MinValue__SystemChar(){} // RVA: 0x7AF962440
+        public void __op_Addition__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF9624B0
+        public void __op_Division__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF962570
+        public void __op_Equality__SystemChar_SystemChar__SystemBoolean(){} // RVA: 0x7AF962630
+        public void __op_GreaterThanOrEqual__SystemChar_SystemChar__SystemBoolean(){} // RVA: 0x7AF9626F0
+        public void __op_GreaterThan__SystemChar_SystemChar__SystemBoolean(){} // RVA: 0x7AF9627B0
+        public void __op_Inequality__SystemChar_SystemChar__SystemBoolean(){} // RVA: 0x7AF962870
+        public void __op_LeftShift__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF962930
+        public void __op_LessThanOrEqual__SystemChar_SystemChar__SystemBoolean(){} // RVA: 0x7AF9629F0
+        public void __op_LessThan__SystemChar_SystemChar__SystemBoolean(){} // RVA: 0x7AF962AB0
+        public void __op_LogicalAnd__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF962B70
+        public void __op_LogicalOr__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF962C30
+        public void __op_LogicalXor__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF962CF0
+        public void __op_Multiplication__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF962DB0
+        public void __op_RightShift__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF962E70
+        public void __op_Subtraction__SystemChar_SystemChar__SystemInt32(){} // RVA: 0x7AF962F30
+        public void __op_UnaryMinus__SystemChar__SystemInt32(){} // RVA: 0x7AF962FF0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF963090
+    }
+
+    public class ExternSystemCharArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF966870
+        public void .ctor(){} // RVA: 0x7AF9668B0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF966C80
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF966DB0
+        public void __Clone__SystemObject(){} // RVA: 0x7AF966EC0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AF966FB0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AF967090
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF967160
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AF9672B0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF967350
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AF967460
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AF967580
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF967690
+        public void __GetType__SystemType(){} // RVA: 0x7AF9677B0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF9678A0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AF967980
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF967AB0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF967C40
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AF967D90
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AF967EC0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF967FF0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF968170
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AF9682C0
+        public void __Get__SystemInt32__SystemChar(){} // RVA: 0x7AF9683F0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AF9684D0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AF968540
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF968670
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF9687F0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AF968950
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AF968A80
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF968BB0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF968D20
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AF968E70
+        public void __Set__SystemInt32_SystemChar__SystemVoid(){} // RVA: 0x7AF968FA0
+        public void __ToString__SystemString(){} // RVA: 0x7AF969080
+        public void __ctor__SystemInt32__SystemCharArray(){} // RVA: 0x7AF969180
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AF969230
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AF9692D0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AF969370
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AF969410
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AF9694B0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AF969550
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AF9695F0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF9696D0
+    }
+
+    public class ExternSystemConvert : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF96B5F0
+        public void .ctor(){} // RVA: 0x7AF96B630
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF96BA00
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF96BB30
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF96BC40
+        public void __FromBase64CharArray__SystemCharArray_SystemInt32_SystemInt32__SystemByteArray(){} // RVA: 0x7AF96BD90
+        public void __FromBase64String__SystemString__SystemByteArray(){} // RVA: 0x7AF96BED0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF96C040
+        public void __GetType__SystemType(){} // RVA: 0x7AF96C150
+        public void __ToBase64CharArray__SystemByteArray_SystemInt32_SystemInt32_SystemCharArray_SystemInt32_SystemBase64FormattingOptions__SystemInt32(){} // RVA: 0x7AF96C240
+        public void __ToBase64CharArray__SystemByteArray_SystemInt32_SystemInt32_SystemCharArray_SystemInt32__SystemInt32(){} // RVA: 0x7AF96C440
+        public void __ToBase64String__SystemByteArray_SystemBase64FormattingOptions__SystemString(){} // RVA: 0x7AF96C600
+        public void __ToBase64String__SystemByteArray_SystemInt32_SystemInt32_SystemBase64FormattingOptions__SystemString(){} // RVA: 0x7AF96C7D0
+        public void __ToBase64String__SystemByteArray_SystemInt32_SystemInt32__SystemString(){} // RVA: 0x7AF96C950
+        public void __ToBase64String__SystemByteArray__SystemString(){} // RVA: 0x7AF96CA90
+        public void __ToBoolean__SystemBoolean__SystemBoolean(){} // RVA: 0x7AF96CC20
+        public void __ToBoolean__SystemByte__SystemBoolean(){} // RVA: 0x7AF96CCF0
+        public void __ToBoolean__SystemChar__SystemBoolean(){} // RVA: 0x7AF96CDC0
+        public void __ToBoolean__SystemDateTime__SystemBoolean(){} // RVA: 0x7AF96CE50
+        public void __ToBoolean__SystemDecimal__SystemBoolean(){} // RVA: 0x7AF96CEE0
+        public void __ToBoolean__SystemDouble__SystemBoolean(){} // RVA: 0x7AF96CFC0
+        public void __ToBoolean__SystemInt16__SystemBoolean(){} // RVA: 0x7AF96D0A0
+        public void __ToBoolean__SystemInt32__SystemBoolean(){} // RVA: 0x7AF96D170
+        public void __ToBoolean__SystemInt64__SystemBoolean(){} // RVA: 0x7AF96D240
+        public void __ToBoolean__SystemObject_SystemIFormatProvider__SystemBoolean(){} // RVA: 0x7AF96D310
+        public void __ToBoolean__SystemObject__SystemBoolean(){} // RVA: 0x7AF96D470
+        public void __ToBoolean__SystemSByte__SystemBoolean(){} // RVA: 0x7AF96D590
+        public void __ToBoolean__SystemSingle__SystemBoolean(){} // RVA: 0x7AF96D660
+        public void __ToBoolean__SystemString_SystemIFormatProvider__SystemBoolean(){} // RVA: 0x7AF96D740
+        public void __ToBoolean__SystemString__SystemBoolean(){} // RVA: 0x7AF96D890
+        public void __ToBoolean__SystemUInt16__SystemBoolean(){} // RVA: 0x7AF96D9B0
+        public void __ToBoolean__SystemUInt32__SystemBoolean(){} // RVA: 0x7AF96DA80
+        public void __ToBoolean__SystemUInt64__SystemBoolean(){} // RVA: 0x7AF96DB50
+        public void __ToByte__SystemBoolean__SystemByte(){} // RVA: 0x7AF96DC20
+        public void __ToByte__SystemByte__SystemByte(){} // RVA: 0x7AF96DCF0
+        public void __ToByte__SystemChar__SystemByte(){} // RVA: 0x7AF96DDC0
+        public void __ToByte__SystemDateTime__SystemByte(){} // RVA: 0x7AF96DED0
+        public void __ToByte__SystemDecimal__SystemByte(){} // RVA: 0x7AF96DF60
+        public void __ToByte__SystemDouble__SystemByte(){} // RVA: 0x7AF96E040
+        public void __ToByte__SystemInt16__SystemByte(){} // RVA: 0x7AF96E110
+        public void __ToByte__SystemInt32__SystemByte(){} // RVA: 0x7AF96E220
+        public void __ToByte__SystemInt64__SystemByte(){} // RVA: 0x7AF96E330
+        public void __ToByte__SystemObject_SystemIFormatProvider__SystemByte(){} // RVA: 0x7AF96E440
+        public void __ToByte__SystemObject__SystemByte(){} // RVA: 0x7AF96E5A0
+        public void __ToByte__SystemSByte__SystemByte(){} // RVA: 0x7AF96E6C0
+        public void __ToByte__SystemSingle__SystemByte(){} // RVA: 0x7AF96E7D0
+        public void __ToByte__SystemString_SystemIFormatProvider__SystemByte(){} // RVA: 0x7AF96E8F0
+        public void __ToByte__SystemString_SystemInt32__SystemByte(){} // RVA: 0x7AF96EA70
+        public void __ToByte__SystemString__SystemByte(){} // RVA: 0x7AF96EB90
+        public void __ToByte__SystemUInt16__SystemByte(){} // RVA: 0x7AF96EC60
+        public void __ToByte__SystemUInt32__SystemByte(){} // RVA: 0x7AF96ED70
+        public void __ToByte__SystemUInt64__SystemByte(){} // RVA: 0x7AF96EE80
+        public void __ToChar__SystemBoolean__SystemChar(){} // RVA: 0x7AF96EF90
+        public void __ToChar__SystemByte__SystemChar(){} // RVA: 0x7AF96F020
+        public void __ToChar__SystemChar__SystemChar(){} // RVA: 0x7AF96F0F0
+        public void __ToChar__SystemDateTime__SystemChar(){} // RVA: 0x7AF96F1B0
+        public void __ToChar__SystemDecimal__SystemChar(){} // RVA: 0x7AF96F240
+        public void __ToChar__SystemDouble__SystemChar(){} // RVA: 0x7AF96F2E0
+        public void __ToChar__SystemInt16__SystemChar(){} // RVA: 0x7AF96F370
+        public void __ToChar__SystemInt32__SystemChar(){} // RVA: 0x7AF96F470
+        public void __ToChar__SystemInt64__SystemChar(){} // RVA: 0x7AF96F580
+        public void __ToChar__SystemObject_SystemIFormatProvider__SystemChar(){} // RVA: 0x7AF96F690
+        public void __ToChar__SystemObject__SystemChar(){} // RVA: 0x7AF96F7F0
+        public void __ToChar__SystemSByte__SystemChar(){} // RVA: 0x7AF96F990
+        public void __ToChar__SystemSingle__SystemChar(){} // RVA: 0x7AF96FA90
+        public void __ToChar__SystemString_SystemIFormatProvider__SystemChar(){} // RVA: 0x7AF96FB20
+        public void __ToChar__SystemString__SystemChar(){} // RVA: 0x7AF96FCB0
+        public void __ToChar__SystemUInt16__SystemChar(){} // RVA: 0x7AF96FD80
+        public void __ToChar__SystemUInt32__SystemChar(){} // RVA: 0x7AF96FE40
+        public void __ToChar__SystemUInt64__SystemChar(){} // RVA: 0x7AF96FF50
+        public void __ToDateTime__SystemBoolean__SystemDateTime(){} // RVA: 0x7AF970060
+        public void __ToDateTime__SystemByte__SystemDateTime(){} // RVA: 0x7AF9700F0
+        public void __ToDateTime__SystemChar__SystemDateTime(){} // RVA: 0x7AF970180
+        public void __ToDateTime__SystemDateTime__SystemDateTime(){} // RVA: 0x7AF970210
+        public void __ToDateTime__SystemDecimal__SystemDateTime(){} // RVA: 0x7AF9702D0
+        public void __ToDateTime__SystemDouble__SystemDateTime(){} // RVA: 0x7AF970370
+        public void __ToDateTime__SystemInt16__SystemDateTime(){} // RVA: 0x7AF970400
+        public void __ToDateTime__SystemInt32__SystemDateTime(){} // RVA: 0x7AF970490
+        public void __ToDateTime__SystemInt64__SystemDateTime(){} // RVA: 0x7AF970520
+        public void __ToDateTime__SystemObject_SystemIFormatProvider__SystemDateTime(){} // RVA: 0x7AF9705B0
+        public void __ToDateTime__SystemObject__SystemDateTime(){} // RVA: 0x7AF970710
+        public void __ToDateTime__SystemSByte__SystemDateTime(){} // RVA: 0x7AF9708F0
+        public void __ToDateTime__SystemSingle__SystemDateTime(){} // RVA: 0x7AF970980
+        public void __ToDateTime__SystemString_SystemIFormatProvider__SystemDateTime(){} // RVA: 0x7AF970A10
+        public void __ToDateTime__SystemString__SystemDateTime(){} // RVA: 0x7AF970B60
+        public void __ToDateTime__SystemUInt16__SystemDateTime(){} // RVA: 0x7AF970C30
+        public void __ToDateTime__SystemUInt32__SystemDateTime(){} // RVA: 0x7AF970CC0
+        public void __ToDateTime__SystemUInt64__SystemDateTime(){} // RVA: 0x7AF970D50
+        public void __ToDecimal__SystemBoolean__SystemDecimal(){} // RVA: 0x7AF970DE0
+        public void __ToDecimal__SystemByte__SystemDecimal(){} // RVA: 0x7AF970F00
+        public void __ToDecimal__SystemChar__SystemDecimal(){} // RVA: 0x7AF971020
+        public void __ToDecimal__SystemDateTime__SystemDecimal(){} // RVA: 0x7AF9710B0
+        public void __ToDecimal__SystemDecimal__SystemDecimal(){} // RVA: 0x7AF971140
+        public void __ToDecimal__SystemDouble__SystemDecimal(){} // RVA: 0x7AF971210
+        public void __ToDecimal__SystemInt16__SystemDecimal(){} // RVA: 0x7AF9712F0
+        public void __ToDecimal__SystemInt32__SystemDecimal(){} // RVA: 0x7AF971420
+        public void __ToDecimal__SystemInt64__SystemDecimal(){} // RVA: 0x7AF971560
+        public void __ToDecimal__SystemObject_SystemIFormatProvider__SystemDecimal(){} // RVA: 0x7AF9716A0
+        public void __ToDecimal__SystemObject__SystemDecimal(){} // RVA: 0x7AF971810
+        public void __ToDecimal__SystemSByte__SystemDecimal(){} // RVA: 0x7AF971940
+        public void __ToDecimal__SystemSingle__SystemDecimal(){} // RVA: 0x7AF971A70
+        public void __ToDecimal__SystemString_SystemIFormatProvider__SystemDecimal(){} // RVA: 0x7AF971B50
+        public void __ToDecimal__SystemString__SystemDecimal(){} // RVA: 0x7AF971CE0
+        public void __ToDecimal__SystemUInt16__SystemDecimal(){} // RVA: 0x7AF971F30
+        public void __ToDecimal__SystemUInt32__SystemDecimal(){} // RVA: 0x7AF972050
+        public void __ToDecimal__SystemUInt64__SystemDecimal(){} // RVA: 0x7AF972170
+        public void __ToDouble__SystemBoolean__SystemDouble(){} // RVA: 0x7AF972290
+        public void __ToDouble__SystemByte__SystemDouble(){} // RVA: 0x7AF972360
+        public void __ToDouble__SystemChar__SystemDouble(){} // RVA: 0x7AF972430
+        public void __ToDouble__SystemDateTime__SystemDouble(){} // RVA: 0x7AF9724C0
+        public void __ToDouble__SystemDecimal__SystemDouble(){} // RVA: 0x7AF972550
+        public void __ToDouble__SystemDouble__SystemDouble(){} // RVA: 0x7AF972630
+        public void __ToDouble__SystemInt16__SystemDouble(){} // RVA: 0x7AF9726F0
+        public void __ToDouble__SystemInt32__SystemDouble(){} // RVA: 0x7AF9727C0
+        public void __ToDouble__SystemInt64__SystemDouble(){} // RVA: 0x7AF972890
+        public void __ToDouble__SystemObject_SystemIFormatProvider__SystemDouble(){} // RVA: 0x7AF972960
+        public void __ToDouble__SystemObject__SystemDouble(){} // RVA: 0x7AF972AC0
+        public void __ToDouble__SystemSByte__SystemDouble(){} // RVA: 0x7AF972BE0
+        public void __ToDouble__SystemSingle__SystemDouble(){} // RVA: 0x7AF972CB0
+        public void __ToDouble__SystemString_SystemIFormatProvider__SystemDouble(){} // RVA: 0x7AF972D80
+        public void __ToDouble__SystemString__SystemDouble(){} // RVA: 0x7AF972EA0
+        public void __ToDouble__SystemUInt16__SystemDouble(){} // RVA: 0x7AF973000
+        public void __ToDouble__SystemUInt32__SystemDouble(){} // RVA: 0x7AF9730D0
+        public void __ToDouble__SystemUInt64__SystemDouble(){} // RVA: 0x7AF9731A0
+        public void __ToInt16__SystemBoolean__SystemInt16(){} // RVA: 0x7AF973280
+        public void __ToInt16__SystemByte__SystemInt16(){} // RVA: 0x7AF973350
+        public void __ToInt16__SystemChar__SystemInt16(){} // RVA: 0x7AF973420
+        public void __ToInt16__SystemDateTime__SystemInt16(){} // RVA: 0x7AF973530
+        public void __ToInt16__SystemDecimal__SystemInt16(){} // RVA: 0x7AF9735C0
+        public void __ToInt16__SystemDouble__SystemInt16(){} // RVA: 0x7AF9736A0
+        public void __ToInt16__SystemInt16__SystemInt16(){} // RVA: 0x7AF973770
+        public void __ToInt16__SystemInt32__SystemInt16(){} // RVA: 0x7AF973830
+        public void __ToInt16__SystemInt64__SystemInt16(){} // RVA: 0x7AF973940
+        public void __ToInt16__SystemObject_SystemIFormatProvider__SystemInt16(){} // RVA: 0x7AF973A50
+        public void __ToInt16__SystemObject__SystemInt16(){} // RVA: 0x7AF973BB0
+        public void __ToInt16__SystemSByte__SystemInt16(){} // RVA: 0x7AF973CD0
+        public void __ToInt16__SystemSingle__SystemInt16(){} // RVA: 0x7AF973D90
+        public void __ToInt16__SystemString_SystemIFormatProvider__SystemInt16(){} // RVA: 0x7AF973EA0
+        public void __ToInt16__SystemString_SystemInt32__SystemInt16(){} // RVA: 0x7AF974010
+        public void __ToInt16__SystemString__SystemInt16(){} // RVA: 0x7AF974120
+        public void __ToInt16__SystemUInt16__SystemInt16(){} // RVA: 0x7AF9742E0
+        public void __ToInt16__SystemUInt32__SystemInt16(){} // RVA: 0x7AF9743F0
+        public void __ToInt16__SystemUInt64__SystemInt16(){} // RVA: 0x7AF974500
+        public void __ToInt32__SystemBoolean__SystemInt32(){} // RVA: 0x7AF974610
+        public void __ToInt32__SystemByte__SystemInt32(){} // RVA: 0x7AF9746E0
+        public void __ToInt32__SystemChar__SystemInt32(){} // RVA: 0x7AF9747B0
+        public void __ToInt32__SystemDateTime__SystemInt32(){} // RVA: 0x7AF974880
+        public void __ToInt32__SystemDecimal__SystemInt32(){} // RVA: 0x7AF974910
+        public void __ToInt32__SystemDouble__SystemInt32(){} // RVA: 0x7AF9749F0
+        public void __ToInt32__SystemInt16__SystemInt32(){} // RVA: 0x7AF974AC0
+        public void __ToInt32__SystemInt32__SystemInt32(){} // RVA: 0x7AF974B90
+        public void __ToInt32__SystemInt64__SystemInt32(){} // RVA: 0x7AF974C60
+        public void __ToInt32__SystemObject_SystemIFormatProvider__SystemInt32(){} // RVA: 0x7AF974D80
+        public void __ToInt32__SystemObject__SystemInt32(){} // RVA: 0x7AF974EE0
+        public void __ToInt32__SystemSByte__SystemInt32(){} // RVA: 0x7AF975000
+        public void __ToInt32__SystemSingle__SystemInt32(){} // RVA: 0x7AF9750D0
+        public void __ToInt32__SystemString_SystemIFormatProvider__SystemInt32(){} // RVA: 0x7AF9751F0
+        public void __ToInt32__SystemString_SystemInt32__SystemInt32(){} // RVA: 0x7AF975320
+        public void __ToInt32__SystemString__SystemInt32(){} // RVA: 0x7AF975440
+        public void __ToInt32__SystemUInt16__SystemInt32(){} // RVA: 0x7AF975510
+        public void __ToInt32__SystemUInt32__SystemInt32(){} // RVA: 0x7AF9755E0
+        public void __ToInt32__SystemUInt64__SystemInt32(){} // RVA: 0x7AF9756F0
+        public void __ToInt64__SystemBoolean__SystemInt64(){} // RVA: 0x7AF975800
+        public void __ToInt64__SystemByte__SystemInt64(){} // RVA: 0x7AF9758D0
+        public void __ToInt64__SystemChar__SystemInt64(){} // RVA: 0x7AF9759A0
+        public void __ToInt64__SystemDateTime__SystemInt64(){} // RVA: 0x7AF975A60
+        public void __ToInt64__SystemDecimal__SystemInt64(){} // RVA: 0x7AF975AF0
+        public void __ToInt64__SystemDouble__SystemInt64(){} // RVA: 0x7AF975BD0
+        public void __ToInt64__SystemInt16__SystemInt64(){} // RVA: 0x7AF975CA0
+        public void __ToInt64__SystemInt32__SystemInt64(){} // RVA: 0x7AF975D60
+        public void __ToInt64__SystemInt64__SystemInt64(){} // RVA: 0x7AF975E30
+        public void __ToInt64__SystemObject_SystemIFormatProvider__SystemInt64(){} // RVA: 0x7AF975EF0
+        public void __ToInt64__SystemObject__SystemInt64(){} // RVA: 0x7AF976050
+        public void __ToInt64__SystemSByte__SystemInt64(){} // RVA: 0x7AF976170
+        public void __ToInt64__SystemSingle__SystemInt64(){} // RVA: 0x7AF976230
+        public void __ToInt64__SystemString_SystemIFormatProvider__SystemInt64(){} // RVA: 0x7AF976340
+        public void __ToInt64__SystemString_SystemInt32__SystemInt64(){} // RVA: 0x7AF976460
+        public void __ToInt64__SystemString__SystemInt64(){} // RVA: 0x7AF976570
+        public void __ToInt64__SystemUInt16__SystemInt64(){} // RVA: 0x7AF976640
+        public void __ToInt64__SystemUInt32__SystemInt64(){} // RVA: 0x7AF976700
+        public void __ToInt64__SystemUInt64__SystemInt64(){} // RVA: 0x7AF9767D0
+        public void __ToSByte__SystemBoolean__SystemSByte(){} // RVA: 0x7AF9768E0
+        public void __ToSByte__SystemByte__SystemSByte(){} // RVA: 0x7AF9769B0
+        public void __ToSByte__SystemChar__SystemSByte(){} // RVA: 0x7AF976AC0
+        public void __ToSByte__SystemDateTime__SystemSByte(){} // RVA: 0x7AF976BC0
+        public void __ToSByte__SystemDecimal__SystemSByte(){} // RVA: 0x7AF976C50
+        public void __ToSByte__SystemDouble__SystemSByte(){} // RVA: 0x7AF976D30
+        public void __ToSByte__SystemInt16__SystemSByte(){} // RVA: 0x7AF976E00
+        public void __ToSByte__SystemInt32__SystemSByte(){} // RVA: 0x7AF976F10
+        public void __ToSByte__SystemInt64__SystemSByte(){} // RVA: 0x7AF977020
+        public void __ToSByte__SystemObject_SystemIFormatProvider__SystemSByte(){} // RVA: 0x7AF977130
+        public void __ToSByte__SystemObject__SystemSByte(){} // RVA: 0x7AF977290
+        public void __ToSByte__SystemSByte__SystemSByte(){} // RVA: 0x7AF9773B0
+        public void __ToSByte__SystemSingle__SystemSByte(){} // RVA: 0x7AF977470
+        public void __ToSByte__SystemString_SystemIFormatProvider__SystemSByte(){} // RVA: 0x7AF977580
+        public void __ToSByte__SystemString_SystemInt32__SystemSByte(){} // RVA: 0x7AF977700
+        public void __ToSByte__SystemString__SystemSByte(){} // RVA: 0x7AF977810
+        public void __ToSByte__SystemUInt16__SystemSByte(){} // RVA: 0x7AF9779D0
+        public void __ToSByte__SystemUInt32__SystemSByte(){} // RVA: 0x7AF977AD0
+        public void __ToSByte__SystemUInt64__SystemSByte(){} // RVA: 0x7AF977BE0
+        public void __ToSingle__SystemBoolean__SystemSingle(){} // RVA: 0x7AF977CE0
+        public void __ToSingle__SystemByte__SystemSingle(){} // RVA: 0x7AF977DB0
+        public void __ToSingle__SystemChar__SystemSingle(){} // RVA: 0x7AF977E80
+        public void __ToSingle__SystemDateTime__SystemSingle(){} // RVA: 0x7AF977F10
+        public void __ToSingle__SystemDecimal__SystemSingle(){} // RVA: 0x7AF977FA0
+        public void __ToSingle__SystemDouble__SystemSingle(){} // RVA: 0x7AF9780C0
+        public void __ToSingle__SystemInt16__SystemSingle(){} // RVA: 0x7AF978190
+        public void __ToSingle__SystemInt32__SystemSingle(){} // RVA: 0x7AF978260
+        public void __ToSingle__SystemInt64__SystemSingle(){} // RVA: 0x7AF978330
+        public void __ToSingle__SystemObject_SystemIFormatProvider__SystemSingle(){} // RVA: 0x7AF978400
+        public void __ToSingle__SystemObject__SystemSingle(){} // RVA: 0x7AF978560
+        public void __ToSingle__SystemSByte__SystemSingle(){} // RVA: 0x7AF978680
+        public void __ToSingle__SystemSingle__SystemSingle(){} // RVA: 0x7AF978750
+        public void __ToSingle__SystemString_SystemIFormatProvider__SystemSingle(){} // RVA: 0x7AF978820
+        public void __ToSingle__SystemString__SystemSingle(){} // RVA: 0x7AF978950
+        public void __ToSingle__SystemUInt16__SystemSingle(){} // RVA: 0x7AF978A20
+        public void __ToSingle__SystemUInt32__SystemSingle(){} // RVA: 0x7AF978AF0
+        public void __ToSingle__SystemUInt64__SystemSingle(){} // RVA: 0x7AF978BD0
+        public void __ToString__SystemBoolean_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF978CC0
+        public void __ToString__SystemBoolean__SystemString(){} // RVA: 0x7AF978E40
+        public void __ToString__SystemByte_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF978F90
+        public void __ToString__SystemByte_SystemInt32__SystemString(){} // RVA: 0x7AF9790B0
+        public void __ToString__SystemByte__SystemString(){} // RVA: 0x7AF9791D0
+        public void __ToString__SystemChar_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF979320
+        public void __ToString__SystemChar__SystemString(){} // RVA: 0x7AF979430
+        public void __ToString__SystemDateTime_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF979540
+        public void __ToString__SystemDateTime__SystemString(){} // RVA: 0x7AF979650
+        public void __ToString__SystemDecimal_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF979790
+        public void __ToString__SystemDecimal__SystemString(){} // RVA: 0x7AF9798F0
+        public void __ToString__SystemDouble_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF979A80
+        public void __ToString__SystemDouble__SystemString(){} // RVA: 0x7AF979B90
+        public void __ToString__SystemInt16_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF979D30
+        public void __ToString__SystemInt16_SystemInt32__SystemString(){} // RVA: 0x7AF979E50
+        public void __ToString__SystemInt16__SystemString(){} // RVA: 0x7AF979FD0
+        public void __ToString__SystemInt32_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97A120
+        public void __ToString__SystemInt32_SystemInt32__SystemString(){} // RVA: 0x7AF97A240
+        public void __ToString__SystemInt32__SystemString(){} // RVA: 0x7AF97A340
+        public void __ToString__SystemInt64_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97A410
+        public void __ToString__SystemInt64_SystemInt32__SystemString(){} // RVA: 0x7AF97A530
+        public void __ToString__SystemInt64__SystemString(){} // RVA: 0x7AF97A640
+        public void __ToString__SystemObject_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97A790
+        public void __ToString__SystemObject__SystemString(){} // RVA: 0x7AF97A8F0
+        public void __ToString__SystemSByte_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97AA50
+        public void __ToString__SystemSByte__SystemString(){} // RVA: 0x7AF97AB70
+        public void __ToString__SystemSingle_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97ACC0
+        public void __ToString__SystemSingle__SystemString(){} // RVA: 0x7AF97AE20
+        public void __ToString__SystemString(){} // RVA: 0x7AF97AFC0
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97B0C0
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AF97B1B0
+        public void __ToString__SystemUInt16_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97B270
+        public void __ToString__SystemUInt16__SystemString(){} // RVA: 0x7AF97B390
+        public void __ToString__SystemUInt32_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97B4E0
+        public void __ToString__SystemUInt32__SystemString(){} // RVA: 0x7AF97B600
+        public void __ToString__SystemUInt64_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF97B750
+        public void __ToString__SystemUInt64__SystemString(){} // RVA: 0x7AF97B870
+        public void __ToUInt16__SystemBoolean__SystemUInt16(){} // RVA: 0x7AF97B9C0
+        public void __ToUInt16__SystemByte__SystemUInt16(){} // RVA: 0x7AF97BA90
+        public void __ToUInt16__SystemChar__SystemUInt16(){} // RVA: 0x7AF97BB60
+        public void __ToUInt16__SystemDateTime__SystemUInt16(){} // RVA: 0x7AF97BC20
+        public void __ToUInt16__SystemDecimal__SystemUInt16(){} // RVA: 0x7AF97BCB0
+        public void __ToUInt16__SystemDouble__SystemUInt16(){} // RVA: 0x7AF97BD90
+        public void __ToUInt16__SystemInt16__SystemUInt16(){} // RVA: 0x7AF97BE60
+        public void __ToUInt16__SystemInt32__SystemUInt16(){} // RVA: 0x7AF97BF60
+        public void __ToUInt16__SystemInt64__SystemUInt16(){} // RVA: 0x7AF97C070
+        public void __ToUInt16__SystemObject_SystemIFormatProvider__SystemUInt16(){} // RVA: 0x7AF97C180
+        public void __ToUInt16__SystemObject__SystemUInt16(){} // RVA: 0x7AF97C2E0
+        public void __ToUInt16__SystemSByte__SystemUInt16(){} // RVA: 0x7AF97C400
+        public void __ToUInt16__SystemSingle__SystemUInt16(){} // RVA: 0x7AF97C500
+        public void __ToUInt16__SystemString_SystemIFormatProvider__SystemUInt16(){} // RVA: 0x7AF97C610
+        public void __ToUInt16__SystemString_SystemInt32__SystemUInt16(){} // RVA: 0x7AF97C780
+        public void __ToUInt16__SystemString__SystemUInt16(){} // RVA: 0x7AF97C890
+        public void __ToUInt16__SystemUInt16__SystemUInt16(){} // RVA: 0x7AF97CA50
+        public void __ToUInt16__SystemUInt32__SystemUInt16(){} // RVA: 0x7AF97CB10
+        public void __ToUInt16__SystemUInt64__SystemUInt16(){} // RVA: 0x7AF97CC20
+        public void __ToUInt32__SystemBoolean__SystemUInt32(){} // RVA: 0x7AF97CD30
+        public void __ToUInt32__SystemByte__SystemUInt32(){} // RVA: 0x7AF97CE00
+        public void __ToUInt32__SystemChar__SystemUInt32(){} // RVA: 0x7AF97CED0
+        public void __ToUInt32__SystemDateTime__SystemUInt32(){} // RVA: 0x7AF97CF90
+        public void __ToUInt32__SystemDecimal__SystemUInt32(){} // RVA: 0x7AF97D020
+        public void __ToUInt32__SystemDouble__SystemUInt32(){} // RVA: 0x7AF97D100
+        public void __ToUInt32__SystemInt16__SystemUInt32(){} // RVA: 0x7AF97D1D0
+        public void __ToUInt32__SystemInt32__SystemUInt32(){} // RVA: 0x7AF97D2D0
+        public void __ToUInt32__SystemInt64__SystemUInt32(){} // RVA: 0x7AF97D3E0
+        public void __ToUInt32__SystemObject_SystemIFormatProvider__SystemUInt32(){} // RVA: 0x7AF97D4F0
+        public void __ToUInt32__SystemObject__SystemUInt32(){} // RVA: 0x7AF97D650
+        public void __ToUInt32__SystemSByte__SystemUInt32(){} // RVA: 0x7AF97D770
+        public void __ToUInt32__SystemSingle__SystemUInt32(){} // RVA: 0x7AF97D870
+        public void __ToUInt32__SystemString_SystemIFormatProvider__SystemUInt32(){} // RVA: 0x7AF97D980
+        public void __ToUInt32__SystemString_SystemInt32__SystemUInt32(){} // RVA: 0x7AF97DAA0
+        public void __ToUInt32__SystemString__SystemUInt32(){} // RVA: 0x7AF97DBB0
+        public void __ToUInt32__SystemUInt16__SystemUInt32(){} // RVA: 0x7AF97DD10
+        public void __ToUInt32__SystemUInt32__SystemUInt32(){} // RVA: 0x7AF97DDD0
+        public void __ToUInt32__SystemUInt64__SystemUInt32(){} // RVA: 0x7AF97DEA0
+        public void __ToUInt64__SystemBoolean__SystemUInt64(){} // RVA: 0x7AF97DFB0
+        public void __ToUInt64__SystemByte__SystemUInt64(){} // RVA: 0x7AF97E080
+        public void __ToUInt64__SystemChar__SystemUInt64(){} // RVA: 0x7AF97E150
+        public void __ToUInt64__SystemDateTime__SystemUInt64(){} // RVA: 0x7AF97E210
+        public void __ToUInt64__SystemDecimal__SystemUInt64(){} // RVA: 0x7AF97E2A0
+        public void __ToUInt64__SystemDouble__SystemUInt64(){} // RVA: 0x7AF97E380
+        public void __ToUInt64__SystemInt16__SystemUInt64(){} // RVA: 0x7AF97E450
+        public void __ToUInt64__SystemInt32__SystemUInt64(){} // RVA: 0x7AF97E550
+        public void __ToUInt64__SystemInt64__SystemUInt64(){} // RVA: 0x7AF97E660
+        public void __ToUInt64__SystemObject_SystemIFormatProvider__SystemUInt64(){} // RVA: 0x7AF97E760
+        public void __ToUInt64__SystemObject__SystemUInt64(){} // RVA: 0x7AF97E8C0
+        public void __ToUInt64__SystemSByte__SystemUInt64(){} // RVA: 0x7AF97E9E0
+        public void __ToUInt64__SystemSingle__SystemUInt64(){} // RVA: 0x7AF97EAE0
+        public void __ToUInt64__SystemString_SystemIFormatProvider__SystemUInt64(){} // RVA: 0x7AF97EBF0
+        public void __ToUInt64__SystemString_SystemInt32__SystemUInt64(){} // RVA: 0x7AF97ED10
+        public void __ToUInt64__SystemString__SystemUInt64(){} // RVA: 0x7AF97EE20
+        public void __ToUInt64__SystemUInt16__SystemUInt64(){} // RVA: 0x7AF97EF80
+        public void __ToUInt64__SystemUInt32__SystemUInt64(){} // RVA: 0x7AF97F040
+        public void __ToUInt64__SystemUInt64__SystemUInt64(){} // RVA: 0x7AF97F110
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF97F1D0
+    }
+
+    public class ExternSystemDateTime : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC12610
+        public void .ctor(){} // RVA: 0x7AFC12650
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC12A20
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC12B50
+        public void __AddDays__SystemDouble__SystemDateTime(){} // RVA: 0x7AFC12C60
+        public void __AddHours__SystemDouble__SystemDateTime(){} // RVA: 0x7AFC12DA0
+        public void __AddMilliseconds__SystemDouble__SystemDateTime(){} // RVA: 0x7AFC12EE0
+        public void __AddMinutes__SystemDouble__SystemDateTime(){} // RVA: 0x7AFC13020
+        public void __AddMonths__SystemInt32__SystemDateTime(){} // RVA: 0x7AFC13160
+        public void __AddSeconds__SystemDouble__SystemDateTime(){} // RVA: 0x7AFC13270
+        public void __AddTicks__SystemInt64__SystemDateTime(){} // RVA: 0x7AFC133B0
+        public void __AddYears__SystemInt32__SystemDateTime(){} // RVA: 0x7AFC134B0
+        public void __Add__SystemTimeSpan__SystemDateTime(){} // RVA: 0x7AFC135C0
+        public void __CompareTo__SystemDateTime__SystemInt32(){} // RVA: 0x7AFC13700
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AFC13840
+        public void __Compare__SystemDateTime_SystemDateTime__SystemInt32(){} // RVA: 0x7AFC13990
+        public void __DaysInMonth__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFC13A90
+        public void __Equals__SystemDateTime_SystemDateTime__SystemBoolean(){} // RVA: 0x7AFC13BA0
+        public void __Equals__SystemDateTime__SystemBoolean(){} // RVA: 0x7AFC13CE0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC13E20
+        public void __FromBinary__SystemInt64__SystemDateTime(){} // RVA: 0x7AFC13FF0
+        public void __FromFileTimeUtc__SystemInt64__SystemDateTime(){} // RVA: 0x7AFC140C0
+        public void __FromFileTime__SystemInt64__SystemDateTime(){} // RVA: 0x7AFC14190
+        public void __FromOADate__SystemDouble__SystemDateTime(){} // RVA: 0x7AFC14260
+        public void __GetDateTimeFormats__SystemChar_SystemIFormatProvider__SystemStringArray(){} // RVA: 0x7AFC144B0
+        public void __GetDateTimeFormats__SystemChar__SystemStringArray(){} // RVA: 0x7AFC14670
+        public void __GetDateTimeFormats__SystemIFormatProvider__SystemStringArray(){} // RVA: 0x7AFC14770
+        public void __GetDateTimeFormats__SystemStringArray(){} // RVA: 0x7AFC148F0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC149B0
+        public void __GetType__SystemType(){} // RVA: 0x7AFC14AD0
+        public void __IsDaylightSavingTime__SystemBoolean(){} // RVA: 0x7AFC14BC0
+        public void __IsLeapYear__SystemInt32__SystemBoolean(){} // RVA: 0x7AFC14C90
+        public void __ParseExact__SystemString_SystemStringArray_SystemIFormatProvider_SystemGlobalizationDateTimeStyles__SystemDateTime(){} // RVA: 0x7AFC14D70
+        public void __ParseExact__SystemString_SystemString_SystemIFormatProvider_SystemGlobalizationDateTimeStyles__SystemDateTime(){} // RVA: 0x7AFC14F00
+        public void __ParseExact__SystemString_SystemString_SystemIFormatProvider__SystemDateTime(){} // RVA: 0x7AFC15080
+        public void __Parse__SystemString_SystemIFormatProvider_SystemGlobalizationDateTimeStyles__SystemDateTime(){} // RVA: 0x7AFC151C0
+        public void __Parse__SystemString_SystemIFormatProvider__SystemDateTime(){} // RVA: 0x7AFC15310
+        public void __Parse__SystemString__SystemDateTime(){} // RVA: 0x7AFC15420
+        public void __SpecifyKind__SystemDateTime_SystemDateTimeKind__SystemDateTime(){} // RVA: 0x7AFC154F0
+        public void __Subtract__SystemDateTime__SystemTimeSpan(){} // RVA: 0x7AFC15600
+        public void __Subtract__SystemTimeSpan__SystemDateTime(){} // RVA: 0x7AFC15740
+        public void __ToBinary__SystemInt64(){} // RVA: 0x7AFC15840
+        public void __ToFileTimeUtc__SystemInt64(){} // RVA: 0x7AFC15900
+        public void __ToFileTime__SystemInt64(){} // RVA: 0x7AFC159C0
+        public void __ToLocalTime__SystemDateTime(){} // RVA: 0x7AFC15AD0
+        public void __ToLongDateString__SystemString(){} // RVA: 0x7AFC15BE0
+        public void __ToLongTimeString__SystemString(){} // RVA: 0x7AFC15D00
+        public void __ToOADate__SystemDouble(){} // RVA: 0x7AFC15E20
+        public void __ToShortDateString__SystemString(){} // RVA: 0x7AFC15EE0
+        public void __ToShortTimeString__SystemString(){} // RVA: 0x7AFC16000
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AFC16120
+        public void __ToString__SystemString(){} // RVA: 0x7AFC16270
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AFC16380
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFC16500
+        public void __ToUniversalTime__SystemDateTime(){} // RVA: 0x7AFC16650
+        public void __TryParseExact__SystemString_SystemStringArray_SystemIFormatProvider_SystemGlobalizationDateTimeStyles_SystemDateTimeRef__SystemBoolean(){} // RVA: 0x7AFC16710
+        public void __TryParseExact__SystemString_SystemString_SystemIFormatProvider_SystemGlobalizationDateTimeStyles_SystemDateTimeRef__SystemBoolean(){} // RVA: 0x7AFC168F0
+        public void __TryParse__SystemString_SystemDateTimeRef__SystemBoolean(){} // RVA: 0x7AFC16AC0
+        public void __TryParse__SystemString_SystemIFormatProvider_SystemGlobalizationDateTimeStyles_SystemDateTimeRef__SystemBoolean(){} // RVA: 0x7AFC16BE0
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemGlobalizationCalendar__SystemDateTime(){} // RVA: 0x7AFC16D80
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemDateTimeKind__SystemDateTime(){} // RVA: 0x7AFC17020
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemGlobalizationCalendar__SystemDateTime(){} // RVA: 0x7AFC17250
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemDateTimeKind__SystemDateTime(){} // RVA: 0x7AFC17550
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemGlobalizationCalendar_SystemDateTimeKind__SystemDateTime(){} // RVA: 0x7AFC177B0
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemGlobalizationCalendar__SystemDateTime(){} // RVA: 0x7AFC17A50
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32__SystemDateTime(){} // RVA: 0x7AFC17CB0
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32__SystemDateTime(){} // RVA: 0x7AFC17ED0
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32__SystemDateTime(){} // RVA: 0x7AFC180D0
+        public void __ctor__SystemInt64_SystemDateTimeKind__SystemDateTime(){} // RVA: 0x7AFC18240
+        public void __ctor__SystemInt64__SystemDateTime(){} // RVA: 0x7AFC18360
+        public void __get_Date__SystemDateTime(){} // RVA: 0x7AFC18490
+        public void __get_DayOfWeek__SystemDayOfWeek(){} // RVA: 0x7AFC185C0
+        public void __get_DayOfYear__SystemInt32(){} // RVA: 0x7AFC18700
+        public void __get_Day__SystemInt32(){} // RVA: 0x7AFC18810
+        public void __get_Hour__SystemInt32(){} // RVA: 0x7AFC18920
+        public void __get_Kind__SystemDateTimeKind(){} // RVA: 0x7AFC18A70
+        public void __get_MaxValue__SystemDateTime(){} // RVA: 0x7AFC18BA0
+        public void __get_Millisecond__SystemInt32(){} // RVA: 0x7AFC18C60
+        public void __get_MinValue__SystemDateTime(){} // RVA: 0x7AFC18DB0
+        public void __get_Minute__SystemInt32(){} // RVA: 0x7AFC18E70
+        public void __get_Month__SystemInt32(){} // RVA: 0x7AFC18FC0
+        public void __get_Now__SystemDateTime(){} // RVA: 0x7AFC190D0
+        public void __get_Second__SystemInt32(){} // RVA: 0x7AFC19160
+        public void __get_Ticks__SystemInt64(){} // RVA: 0x7AFC192B0
+        public void __get_TimeOfDay__SystemTimeSpan(){} // RVA: 0x7AFC193C0
+        public void __get_Today__SystemDateTime(){} // RVA: 0x7AFC194E0
+        public void __get_UtcNow__SystemDateTime(){} // RVA: 0x7AFC19570
+        public void __get_Year__SystemInt32(){} // RVA: 0x7AFC19600
+        public void __op_Addition__SystemDateTime_SystemTimeSpan__SystemDateTime(){} // RVA: 0x7AFC19710
+        public void __op_Equality__SystemDateTime_SystemDateTime__SystemBoolean(){} // RVA: 0x7AFC19820
+        public void __op_GreaterThanOrEqual__SystemDateTime_SystemDateTime__SystemBoolean(){} // RVA: 0x7AFC19960
+        public void __op_GreaterThan__SystemDateTime_SystemDateTime__SystemBoolean(){} // RVA: 0x7AFC19A60
+        public void __op_Inequality__SystemDateTime_SystemDateTime__SystemBoolean(){} // RVA: 0x7AFC19B60
+        public void __op_LessThanOrEqual__SystemDateTime_SystemDateTime__SystemBoolean(){} // RVA: 0x7AFC19CA0
+        public void __op_LessThan__SystemDateTime_SystemDateTime__SystemBoolean(){} // RVA: 0x7AFC19DA0
+        public void __op_Subtraction__SystemDateTime_SystemDateTime__SystemTimeSpan(){} // RVA: 0x7AFC19EA0
+        public void __op_Subtraction__SystemDateTime_SystemTimeSpan__SystemDateTime(){} // RVA: 0x7AFC19FA0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC1A0B0
+    }
+
+    public class ExternSystemDateTimeArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC1E840
+        public void .ctor(){} // RVA: 0x7AFC1E880
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC1EC50
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC1ED80
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC1EE90
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC1EF80
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC1F060
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC1F130
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC1F280
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC1F320
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC1F430
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC1F550
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC1F660
+        public void __GetType__SystemType(){} // RVA: 0x7AFC1F780
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC1F870
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC1F950
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC1FA80
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC1FC10
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC1FD60
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC1FE90
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC1FFC0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC20140
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC20290
+        public void __Get__SystemInt32__SystemDateTime(){} // RVA: 0x7AFC203C0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC204A0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC20510
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC20640
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC207C0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC20920
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC20A50
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC20B80
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC20CF0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC20E40
+        public void __Set__SystemInt32_SystemDateTime__SystemVoid(){} // RVA: 0x7AFC20F70
+        public void __ToString__SystemString(){} // RVA: 0x7AFC21050
+        public void __ctor__SystemInt32__SystemDateTimeArray(){} // RVA: 0x7AFC21150
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC212F0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC21390
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC21430
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC214D0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC21570
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC21610
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC216B0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC21790
+    }
+
+    public class ExternSystemDateTimeOffset : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC236B0
+        public void .ctor(){} // RVA: 0x7AFC236F0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC23AC0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC23BF0
+        public void __AddDays__SystemDouble__SystemDateTimeOffset(){} // RVA: 0x7AFC23D00
+        public void __AddHours__SystemDouble__SystemDateTimeOffset(){} // RVA: 0x7AFC23E20
+        public void __AddMilliseconds__SystemDouble__SystemDateTimeOffset(){} // RVA: 0x7AFC23F40
+        public void __AddMinutes__SystemDouble__SystemDateTimeOffset(){} // RVA: 0x7AFC24060
+        public void __AddMonths__SystemInt32__SystemDateTimeOffset(){} // RVA: 0x7AFC24180
+        public void __AddSeconds__SystemDouble__SystemDateTimeOffset(){} // RVA: 0x7AFC242A0
+        public void __AddTicks__SystemInt64__SystemDateTimeOffset(){} // RVA: 0x7AFC243C0
+        public void __AddYears__SystemInt32__SystemDateTimeOffset(){} // RVA: 0x7AFC244E0
+        public void __Add__SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC24600
+        public void __CompareTo__SystemDateTimeOffset__SystemInt32(){} // RVA: 0x7AFC24720
+        public void __Compare__SystemDateTimeOffset_SystemDateTimeOffset__SystemInt32(){} // RVA: 0x7AFC24830
+        public void __EqualsExact__SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC24950
+        public void __Equals__SystemDateTimeOffset_SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC24A60
+        public void __Equals__SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC24CA0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC24DB0
+        public void __FromFileTime__SystemInt64__SystemDateTimeOffset(){} // RVA: 0x7AFC24F10
+        public void __FromUnixTimeMilliseconds__SystemInt64__SystemDateTimeOffset(){} // RVA: 0x7AFC25040
+        public void __FromUnixTimeSeconds__SystemInt64__SystemDateTimeOffset(){} // RVA: 0x7AFC25120
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC25200
+        public void __GetType__SystemType(){} // RVA: 0x7AFC252D0
+        public void __ParseExact__SystemString_SystemStringArray_SystemIFormatProvider_SystemGlobalizationDateTimeStyles__SystemDateTimeOffset(){} // RVA: 0x7AFC253C0
+        public void __ParseExact__SystemString_SystemString_SystemIFormatProvider_SystemGlobalizationDateTimeStyles__SystemDateTimeOffset(){} // RVA: 0x7AFC25560
+        public void __ParseExact__SystemString_SystemString_SystemIFormatProvider__SystemDateTimeOffset(){} // RVA: 0x7AFC256F0
+        public void __Parse__SystemString_SystemIFormatProvider_SystemGlobalizationDateTimeStyles__SystemDateTimeOffset(){} // RVA: 0x7AFC258A0
+        public void __Parse__SystemString_SystemIFormatProvider__SystemDateTimeOffset(){} // RVA: 0x7AFC25A10
+        public void __Parse__SystemString__SystemDateTimeOffset(){} // RVA: 0x7AFC25B90
+        public void __Subtract__SystemDateTimeOffset__SystemTimeSpan(){} // RVA: 0x7AFC25DD0
+        public void __Subtract__SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC25EE0
+        public void __ToFileTime__SystemInt64(){} // RVA: 0x7AFC26000
+        public void __ToLocalTime__SystemDateTimeOffset(){} // RVA: 0x7AFC260D0
+        public void __ToOffset__SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC261F0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AFC263B0
+        public void __ToString__SystemString(){} // RVA: 0x7AFC264C0
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AFC26590
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFC266E0
+        public void __ToUniversalTime__SystemDateTimeOffset(){} // RVA: 0x7AFC267F0
+        public void __ToUnixTimeMilliseconds__SystemInt64(){} // RVA: 0x7AFC26960
+        public void __ToUnixTimeSeconds__SystemInt64(){} // RVA: 0x7AFC26A30
+        public void __TryParseExact__SystemString_SystemStringArray_SystemIFormatProvider_SystemGlobalizationDateTimeStyles_SystemDateTimeOffsetRef__SystemBoolean(){} // RVA: 0x7AFC26B00
+        public void __TryParseExact__SystemString_SystemString_SystemIFormatProvider_SystemGlobalizationDateTimeStyles_SystemDateTimeOffsetRef__SystemBoolean(){} // RVA: 0x7AFC26CE0
+        public void __TryParse__SystemString_SystemDateTimeOffsetRef__SystemBoolean(){} // RVA: 0x7AFC26EB0
+        public void __TryParse__SystemString_SystemIFormatProvider_SystemGlobalizationDateTimeStyles_SystemDateTimeOffsetRef__SystemBoolean(){} // RVA: 0x7AFC26FD0
+        public void __ctor__SystemDateTime_SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC27180
+        public void __ctor__SystemDateTime__SystemDateTimeOffset(){} // RVA: 0x7AFC272A0
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemGlobalizationCalendar_SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC27390
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC27640
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC278B0
+        public void __ctor__SystemInt64_SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC27AE0
+        public void __get_DateTime__SystemDateTime(){} // RVA: 0x7AFC27C00
+        public void __get_Date__SystemDateTime(){} // RVA: 0x7AFC27D10
+        public void __get_DayOfWeek__SystemDayOfWeek(){} // RVA: 0x7AFC27DE0
+        public void __get_DayOfYear__SystemInt32(){} // RVA: 0x7AFC27EB0
+        public void __get_Day__SystemInt32(){} // RVA: 0x7AFC27F80
+        public void __get_Hour__SystemInt32(){} // RVA: 0x7AFC28050
+        public void __get_LocalDateTime__SystemDateTime(){} // RVA: 0x7AFC28120
+        public void __get_MaxValue__SystemDateTimeOffset(){} // RVA: 0x7AFC281F0
+        public void __get_Millisecond__SystemInt32(){} // RVA: 0x7AFC282C0
+        public void __get_MinValue__SystemDateTimeOffset(){} // RVA: 0x7AFC28390
+        public void __get_Minute__SystemInt32(){} // RVA: 0x7AFC28460
+        public void __get_Month__SystemInt32(){} // RVA: 0x7AFC28530
+        public void __get_Now__SystemDateTimeOffset(){} // RVA: 0x7AFC28600
+        public void __get_Offset__SystemTimeSpan(){} // RVA: 0x7AFC286F0
+        public void __get_Second__SystemInt32(){} // RVA: 0x7AFC28810
+        public void __get_Ticks__SystemInt64(){} // RVA: 0x7AFC288E0
+        public void __get_TimeOfDay__SystemTimeSpan(){} // RVA: 0x7AFC289B0
+        public void __get_UtcDateTime__SystemDateTime(){} // RVA: 0x7AFC28A80
+        public void __get_UtcNow__SystemDateTimeOffset(){} // RVA: 0x7AFC28B90
+        public void __get_UtcTicks__SystemInt64(){} // RVA: 0x7AFC28C80
+        public void __get_Year__SystemInt32(){} // RVA: 0x7AFC28D50
+        public void __op_Addition__SystemDateTimeOffset_SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC28E20
+        public void __op_Equality__SystemDateTimeOffset_SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC28F50
+        public void __op_GreaterThanOrEqual__SystemDateTimeOffset_SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC29070
+        public void __op_GreaterThan__SystemDateTimeOffset_SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC29280
+        public void __op_Implicit__SystemDateTime__SystemDateTimeOffset(){} // RVA: 0x7AFC293A0
+        public void __op_Inequality__SystemDateTimeOffset_SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC29490
+        public void __op_LessThanOrEqual__SystemDateTimeOffset_SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC295B0
+        public void __op_LessThan__SystemDateTimeOffset_SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7AFC297C0
+        public void __op_Subtraction__SystemDateTimeOffset_SystemDateTimeOffset__SystemTimeSpan(){} // RVA: 0x7AFC298E0
+        public void __op_Subtraction__SystemDateTimeOffset_SystemTimeSpan__SystemDateTimeOffset(){} // RVA: 0x7AFC299F0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC29BF0
+    }
+
+    public class ExternSystemDateTimeOffsetArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC2D910
+        public void .ctor(){} // RVA: 0x7AFC2D950
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC2DD20
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC2DE50
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC2DF60
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC2E050
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC2E130
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC2E200
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC2E350
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC2E3F0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC2E500
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC2E620
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC2E730
+        public void __GetType__SystemType(){} // RVA: 0x7AFC2E850
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC2E940
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC2EA20
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC2EB50
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC2ECE0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC2EE30
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC2EF60
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC2F090
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC2F210
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC2F360
+        public void __Get__SystemInt32__SystemDateTimeOffset(){} // RVA: 0x7AFC2F490
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC2F580
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC2F5F0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC2F720
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC2F8A0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC2FA00
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC2FB30
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC2FC60
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC2FDD0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC2FF20
+        public void __Set__SystemInt32_SystemDateTimeOffset__SystemVoid(){} // RVA: 0x7AFC30050
+        public void __ToString__SystemString(){} // RVA: 0x7AFC30140
+        public void __ctor__SystemInt32__SystemDateTimeOffsetArray(){} // RVA: 0x7AFC30240
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC303E0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC30480
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC30520
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC305C0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC30660
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC30700
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC307A0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC30880
+    }
+
+    public class ExternSystemDecimal : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC327A0
+        public void .ctor(){} // RVA: 0x7AFC327E0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC32BB0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC32CE0
+        public void __Add__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC32DF0
+        public void __Ceiling__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC32F70
+        public void __CompareTo__SystemDecimal__SystemInt32(){} // RVA: 0x7AFC330E0
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AFC33230
+        public void __Compare__SystemDecimal_SystemDecimal__SystemInt32(){} // RVA: 0x7AFC33390
+        public void __Divide__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC334E0
+        public void __Equals__SystemDecimal_SystemDecimal__SystemBoolean(){} // RVA: 0x7AFC33660
+        public void __Equals__SystemDecimal__SystemBoolean(){} // RVA: 0x7AFC337C0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC33910
+        public void __Floor__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC33B10
+        public void __FromOACurrency__SystemInt64__SystemDecimal(){} // RVA: 0x7AFC33C80
+        public void __GetBits__SystemDecimal__SystemInt32Array(){} // RVA: 0x7AFC33E40
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC33F90
+        public void __GetType__SystemType(){} // RVA: 0x7AFC34060
+        public void __Multiply__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC34150
+        public void __Negate__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC342D0
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemDecimal(){} // RVA: 0x7AFC343D0
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemDecimal(){} // RVA: 0x7AFC34540
+        public void __Parse__SystemString_SystemIFormatProvider__SystemDecimal(){} // RVA: 0x7AFC34710
+        public void __Parse__SystemString__SystemDecimal(){} // RVA: 0x7AFC348E0
+        public void __Remainder__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC34A70
+        public void __Round__SystemDecimal_SystemInt32_SystemMidpointRounding__SystemDecimal(){} // RVA: 0x7AFC34BF0
+        public void __Round__SystemDecimal_SystemInt32__SystemDecimal(){} // RVA: 0x7AFC34DA0
+        public void __Round__SystemDecimal_SystemMidpointRounding__SystemDecimal(){} // RVA: 0x7AFC35010
+        public void __Round__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC35180
+        public void __Subtract__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC35350
+        public void __ToByte__SystemDecimal__SystemByte(){} // RVA: 0x7AFC354D0
+        public void __ToDouble__SystemDecimal__SystemDouble(){} // RVA: 0x7AFC355B0
+        public void __ToInt16__SystemDecimal__SystemInt16(){} // RVA: 0x7AFC356D0
+        public void __ToInt32__SystemDecimal__SystemInt32(){} // RVA: 0x7AFC357B0
+        public void __ToInt64__SystemDecimal__SystemInt64(){} // RVA: 0x7AFC35890
+        public void __ToOACurrency__SystemDecimal__SystemInt64(){} // RVA: 0x7AFC35970
+        public void __ToSByte__SystemDecimal__SystemSByte(){} // RVA: 0x7AFC35AB0
+        public void __ToSingle__SystemDecimal__SystemSingle(){} // RVA: 0x7AFC35B90
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AFC35CF0
+        public void __ToString__SystemString(){} // RVA: 0x7AFC35E00
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AFC35ED0
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFC360D0
+        public void __ToUInt16__SystemDecimal__SystemUInt16(){} // RVA: 0x7AFC36290
+        public void __ToUInt32__SystemDecimal__SystemUInt32(){} // RVA: 0x7AFC36370
+        public void __ToUInt64__SystemDecimal__SystemUInt64(){} // RVA: 0x7AFC36450
+        public void __Truncate__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC36530
+        public void __TryParse__SystemString_SystemDecimalRef__SystemBoolean(){} // RVA: 0x7AFC366F0
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemDecimalRef__SystemBoolean(){} // RVA: 0x7AFC368C0
+        public void __ctor__SystemDouble__SystemDecimal(){} // RVA: 0x7AFC36B20
+        public void __ctor__SystemInt32Array__SystemDecimal(){} // RVA: 0x7AFC36C70
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemBoolean_SystemByte__SystemDecimal(){} // RVA: 0x7AFC36D60
+        public void __ctor__SystemInt32__SystemDecimal(){} // RVA: 0x7AFC36F90
+        public void __ctor__SystemInt64__SystemDecimal(){} // RVA: 0x7AFC37090
+        public void __ctor__SystemSingle__SystemDecimal(){} // RVA: 0x7AFC371A0
+        public void __ctor__SystemUInt32__SystemDecimal(){} // RVA: 0x7AFC372F0
+        public void __ctor__SystemUInt64__SystemDecimal(){} // RVA: 0x7AFC373D0
+        public void __get_MaxValue__SystemDecimal(){} // RVA: 0x7AFC374B0
+        public void __get_MinValue__SystemDecimal(){} // RVA: 0x7AFC37580
+        public void __get_MinusOne__SystemDecimal(){} // RVA: 0x7AFC37650
+        public void __get_One__SystemDecimal(){} // RVA: 0x7AFC37720
+        public void __get_Zero__SystemDecimal(){} // RVA: 0x7AFC377F0
+        public void __op_Addition__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC37890
+        public void __op_Decrement__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC37A10
+        public void __op_Division__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC37BB0
+        public void __op_Equality__SystemDecimal_SystemDecimal__SystemBoolean(){} // RVA: 0x7AFC37D30
+        public void __op_Explicit__SystemDecimal__SystemByte(){} // RVA: 0x7AFC37E90
+        public void __op_Explicit__SystemDecimal__SystemChar(){} // RVA: 0x7AFC37FB0
+        public void __op_Explicit__SystemDecimal__SystemDouble(){} // RVA: 0x7AFC38090
+        public void __op_Explicit__SystemDecimal__SystemInt16(){} // RVA: 0x7AFC381E0
+        public void __op_Explicit__SystemDecimal__SystemInt32(){} // RVA: 0x7AFC38300
+        public void __op_Explicit__SystemDecimal__SystemInt64(){} // RVA: 0x7AFC38420
+        public void __op_Explicit__SystemDecimal__SystemSByte(){} // RVA: 0x7AFC38540
+        public void __op_Explicit__SystemDecimal__SystemSingle(){} // RVA: 0x7AFC38660
+        public void __op_Explicit__SystemDecimal__SystemUInt16(){} // RVA: 0x7AFC38740
+        public void __op_Explicit__SystemDecimal__SystemUInt32(){} // RVA: 0x7AFC38860
+        public void __op_Explicit__SystemDecimal__SystemUInt64(){} // RVA: 0x7AFC38980
+        public void __op_Explicit__SystemDouble__SystemDecimal(){} // RVA: 0x7AFC38AA0
+        public void __op_Explicit__SystemSingle__SystemDecimal(){} // RVA: 0x7AFC38BF0
+        public void __op_GreaterThanOrEqual__SystemDecimal_SystemDecimal__SystemBoolean(){} // RVA: 0x7AFC38D40
+        public void __op_GreaterThan__SystemDecimal_SystemDecimal__SystemBoolean(){} // RVA: 0x7AFC38EA0
+        public void __op_Implicit__SystemByte__SystemDecimal(){} // RVA: 0x7AFC39000
+        public void __op_Implicit__SystemChar__SystemDecimal(){} // RVA: 0x7AFC390F0
+        public void __op_Implicit__SystemInt16__SystemDecimal(){} // RVA: 0x7AFC391D0
+        public void __op_Implicit__SystemInt32__SystemDecimal(){} // RVA: 0x7AFC392D0
+        public void __op_Implicit__SystemInt64__SystemDecimal(){} // RVA: 0x7AFC393D0
+        public void __op_Implicit__SystemSByte__SystemDecimal(){} // RVA: 0x7AFC394E0
+        public void __op_Implicit__SystemUInt16__SystemDecimal(){} // RVA: 0x7AFC395E0
+        public void __op_Implicit__SystemUInt32__SystemDecimal(){} // RVA: 0x7AFC396C0
+        public void __op_Implicit__SystemUInt64__SystemDecimal(){} // RVA: 0x7AFC397A0
+        public void __op_Increment__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC39880
+        public void __op_Inequality__SystemDecimal_SystemDecimal__SystemBoolean(){} // RVA: 0x7AFC39970
+        public void __op_LessThanOrEqual__SystemDecimal_SystemDecimal__SystemBoolean(){} // RVA: 0x7AFC39AD0
+        public void __op_LessThan__SystemDecimal_SystemDecimal__SystemBoolean(){} // RVA: 0x7AFC39C30
+        public void __op_Modulus__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC39D90
+        public void __op_Multiply__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC39F10
+        public void __op_Subtraction__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC3A090
+        public void __op_UnaryNegation__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC3A210
+        public void __op_UnaryPlus__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFC3A310
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC3A3B0
+    }
+
+    public class ExternSystemDecimalArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFDB1250
+        public void .ctor(){} // RVA: 0x7AFDB1290
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFDB1660
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFDB1790
+        public void __Clone__SystemObject(){} // RVA: 0x7AFDB18A0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFDB1990
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFDB1A70
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFDB1B40
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFDB1C90
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFDB1D30
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFDB1E40
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFDB1F60
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFDB2070
+        public void __GetType__SystemType(){} // RVA: 0x7AFDB2190
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFDB2280
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFDB2360
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFDB2490
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFDB2620
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFDB2770
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFDB28A0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFDB29D0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFDB2B50
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFDB2CA0
+        public void __Get__SystemInt32__SystemDecimal(){} // RVA: 0x7AFDB2DD0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFDB2EC0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFDB2F30
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFDB3060
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFDB31E0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFDB3340
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFDB3470
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFDB35A0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFDB3710
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFDB3860
+        public void __Set__SystemInt32_SystemDecimal__SystemVoid(){} // RVA: 0x7AFDB3990
+        public void __ToString__SystemString(){} // RVA: 0x7AFDB3A80
+        public void __ctor__SystemInt32__SystemDecimalArray(){} // RVA: 0x7AFDB3B80
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFDB3D20
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFDB3DC0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFDB3E60
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFDB3F00
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFDB3FA0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFDB4040
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFDB40E0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFDB41C0
+    }
+
+    public class ExternSystemDiagnosticsStopwatch : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFDB60E0
+        public void .ctor(){} // RVA: 0x7AFDB6120
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFDB64F0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFDB6620
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFDB6730
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFDB6880
+        public void __GetTimestamp__SystemInt64(){} // RVA: 0x7AFDB6990
+        public void __GetType__SystemType(){} // RVA: 0x7AFDB6A20
+        public void __Reset__SystemVoid(){} // RVA: 0x7AFDB6B10
+        public void __Restart__SystemVoid(){} // RVA: 0x7AFDB6B90
+        public void __StartNew__SystemDiagnosticsStopwatch(){} // RVA: 0x7AFDB6C50
+        public void __Start__SystemVoid(){} // RVA: 0x7AFDB6CE0
+        public void __Stop__SystemVoid(){} // RVA: 0x7AFDB6DA0
+        public void __ToString__SystemString(){} // RVA: 0x7AFDB6E10
+        public void __ctor____SystemDiagnosticsStopwatch(){} // RVA: 0x7AFDB6F10
+        public void __get_ElapsedMilliseconds__SystemInt64(){} // RVA: 0x7AFDB6F90
+        public void __get_ElapsedTicks__SystemInt64(){} // RVA: 0x7AFDB7030
+        public void __get_Elapsed__SystemTimeSpan(){} // RVA: 0x7AFDB70D0
+        public void __get_Frequency__SystemInt64(){} // RVA: 0x7AFDB7170
+        public void __get_IsHighResolution__SystemBoolean(){} // RVA: 0x7AFDB7210
+        public void __get_IsRunning__SystemBoolean(){} // RVA: 0x7AFDB72C0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFDB7360
+    }
+
+    public class ExternSystemDiagnosticsStopwatchArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFDB8200
+        public void .ctor(){} // RVA: 0x7AFDB8240
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFDB8610
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFDB8740
+        public void __Clone__SystemObject(){} // RVA: 0x7AFDB8850
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFDB8940
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFDB8A20
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFDB8AF0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFDB8C40
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFDB8CE0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFDB8DF0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFDB8F10
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFDB9020
+        public void __GetType__SystemType(){} // RVA: 0x7AFDB9140
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFDB9230
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFDB9310
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFDB9440
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFDB95D0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFDB9720
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFDB9850
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFDB9980
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFDB9B00
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFDB9C50
+        public void __Get__SystemInt32__SystemDiagnosticsStopwatch(){} // RVA: 0x7AFDB9D80
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFDB9E60
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFDB9ED0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFDBA000
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFDBA180
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFDBA2E0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFDBA410
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFDBA540
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFDBA6B0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFDBA800
+        public void __Set__SystemInt32_SystemDiagnosticsStopwatch__SystemVoid(){} // RVA: 0x7AFDBA930
+        public void __ToString__SystemString(){} // RVA: 0x7AFDBAAA0
+        public void __ctor__SystemInt32__SystemDiagnosticsStopwatchArray(){} // RVA: 0x7AFDBABA0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFDBAD40
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFDBADE0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFDBAE80
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFDBAF20
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFDBAFC0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFDBB060
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFDBB100
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFDBB1E0
+    }
+
+    public class ExternSystemDouble : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFDBD100
+        public void .ctor(){} // RVA: 0x7AFDBD140
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFDBD510
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFDBD640
+        public void __CompareTo__SystemDouble__SystemInt32(){} // RVA: 0x7AFDBD750
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AFDBD870
+        public void __Equals__SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBD9A0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFDBDAA0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFDBDC70
+        public void __GetType__SystemType(){} // RVA: 0x7AFDBDD30
+        public void __IsInfinity__SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBDE20
+        public void __IsNaN__SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBDED0
+        public void __IsNegativeInfinity__SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBDF80
+        public void __IsPositiveInfinity__SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBE030
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemDouble(){} // RVA: 0x7AFDBE0E0
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemDouble(){} // RVA: 0x7AFDBE200
+        public void __Parse__SystemString_SystemIFormatProvider__SystemDouble(){} // RVA: 0x7AFDBE2D0
+        public void __Parse__SystemString__SystemDouble(){} // RVA: 0x7AFDBE3B0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AFDBE450
+        public void __ToString__SystemString(){} // RVA: 0x7AFDBE580
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AFDBE680
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFDBE7F0
+        public void __TryParse__SystemString_SystemDoubleRef__SystemBoolean(){} // RVA: 0x7AFDBE920
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemDoubleRef__SystemBoolean(){} // RVA: 0x7AFDBEA80
+        public void __get_Epsilon__SystemDouble(){} // RVA: 0x7AFDBEC60
+        public void __get_MaxValue__SystemDouble(){} // RVA: 0x7AFDBECD0
+        public void __get_MinValue__SystemDouble(){} // RVA: 0x7AFDBED40
+        public void __get_NaN__SystemDouble(){} // RVA: 0x7AFDBEDB0
+        public void __get_NegativeInfinity__SystemDouble(){} // RVA: 0x7AFDBEE20
+        public void __get_PositiveInfinity__SystemDouble(){} // RVA: 0x7AFDBEE90
+        public void __op_Addition__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFDBEF00
+        public void __op_Division__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFDBEFB0
+        public void __op_Equality__SystemDouble_SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBF060
+        public void __op_GreaterThanOrEqual__SystemDouble_SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBF120
+        public void __op_GreaterThan__SystemDouble_SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBF1E0
+        public void __op_Inequality__SystemDouble_SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBF2A0
+        public void __op_LessThanOrEqual__SystemDouble_SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBF360
+        public void __op_LessThan__SystemDouble_SystemDouble__SystemBoolean(){} // RVA: 0x7AFDBF420
+        public void __op_Multiplication__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFDBF4E0
+        public void __op_Remainder__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFDBF590
+        public void __op_Subtraction__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFDBF650
+        public void __op_UnaryMinus__SystemDouble__SystemDouble(){} // RVA: 0x7AFDBF700
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFDBF790
+    }
+
+    public class ExternSystemDoubleArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFDC15E0
+        public void .ctor(){} // RVA: 0x7AFDC1620
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFDC19F0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFDC1B20
+        public void __Clone__SystemObject(){} // RVA: 0x7AFDC1C30
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFDC1D20
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFDC1E00
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFDC1ED0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFDC2020
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFDC20C0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFDC21D0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFDC22F0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFDC2400
+        public void __GetType__SystemType(){} // RVA: 0x7AFDC2520
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFDC2610
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFDC26F0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFDC2820
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFDC29B0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFDC2B00
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFDC2C30
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFDC2D60
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFDC2EE0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFDC3030
+        public void __Get__SystemInt32__SystemDouble(){} // RVA: 0x7AFDC3160
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFDC3240
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFDC32B0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFDC33E0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFDC3560
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFDC36C0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFDC37F0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFDC3920
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFDC3A90
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFDC3BE0
+        public void __Set__SystemInt32_SystemDouble__SystemVoid(){} // RVA: 0x7AFDC3D10
+        public void __ToString__SystemString(){} // RVA: 0x7AFDC3DF0
+        public void __ctor__SystemInt32__SystemDoubleArray(){} // RVA: 0x7AFDC3EF0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFDC4090
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFDC4130
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFDC41D0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFDC4270
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFDC4310
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFDC43B0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFDC4450
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFDC4530
+    }
+
+    public class ExternSystemGlobalizationCultureInfo : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFDC6450
+        public void .ctor(){} // RVA: 0x7AFDC6490
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFDC6860
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFDC6990
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFDC6AA0
+        public void __GetCultureInfo__SystemInt32__SystemGlobalizationCultureInfo(){} // RVA: 0x7AFDC6BE0
+        public void __GetCultureInfo__SystemString_SystemString__SystemGlobalizationCultureInfo(){} // RVA: 0x7AFDC6CB0
+        public void __GetCultureInfo__SystemString__SystemGlobalizationCultureInfo(){} // RVA: 0x7AFDC6E80
+        public void __GetFormat__SystemType__SystemObject(){} // RVA: 0x7AFDC6F50
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFDC7090
+        public void __GetType__SystemType(){} // RVA: 0x7AFDC7140
+        public void __ToString__SystemString(){} // RVA: 0x7AFDC7230
+        public void __get_CurrentCulture__SystemGlobalizationCultureInfo(){} // RVA: 0x7AFDC72E0
+        public void __get_CurrentUICulture__SystemGlobalizationCultureInfo(){} // RVA: 0x7AFDC73B0
+        public void __get_DateTimeFormat__SystemGlobalizationDateTimeFormatInfo(){} // RVA: 0x7AFDC7480
+        public void __get_DisplayName__SystemString(){} // RVA: 0x7AFDC7610
+        public void __get_EnglishName__SystemString(){} // RVA: 0x7AFDC76C0
+        public void __get_InvariantCulture__SystemGlobalizationCultureInfo(){} // RVA: 0x7AFDC7770
+        public void __get_NumberFormat__SystemGlobalizationNumberFormatInfo(){} // RVA: 0x7AFDC7850
+        public void __get_ThreeLetterISOLanguageName__SystemString(){} // RVA: 0x7AFDC79E0
+        public void __get_TwoLetterISOLanguageName__SystemString(){} // RVA: 0x7AFDC7A90
+        public void __set_CurrentUICulture__SystemGlobalizationCultureInfo__SystemVoid(){} // RVA: 0x7AFDC7B40
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFDC7BF0
+    }
+
+    public class ExternSystemGlobalizationCultureInfoArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFDC8B50
+        public void .ctor(){} // RVA: 0x7AFDC8B90
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFDC8F60
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFDC9090
+        public void __Clone__SystemObject(){} // RVA: 0x7AFDC91A0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFDC9290
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFDC9370
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFDC9440
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFDC9590
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFDC9630
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFDC9740
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFDC9860
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFDC9970
+        public void __GetType__SystemType(){} // RVA: 0x7AFDC9A90
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFDC9B80
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFDC9C60
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFDC9D90
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFDC9F20
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFDCA070
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFDCA1A0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFDCA2D0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFDCA450
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFDCA5A0
+        public void __Get__SystemInt32__SystemGlobalizationCultureInfo(){} // RVA: 0x7AFDCA6D0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFDCA7B0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFDCA820
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFDCA950
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFDCAAD0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFDCAC30
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFDCAD60
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFDCAE90
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFDCB000
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFDCB150
+        public void __Set__SystemInt32_SystemGlobalizationCultureInfo__SystemVoid(){} // RVA: 0x7AFDCB280
+        public void __ToString__SystemString(){} // RVA: 0x7AFDCB3A0
+        public void __ctor__SystemInt32__SystemGlobalizationCultureInfoArray(){} // RVA: 0x7AFDCB4A0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFDCB640
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFDCB6E0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFDCB780
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFDCB820
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFDCB8C0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFDCB960
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFDCBA00
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFDCBAE0
+    }
+
+    public class ExternSystemGuid : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFDCDA00
+        public void .ctor(){} // RVA: 0x7AFDCDA40
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFDCDE10
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFDCDF40
+        public void __CompareTo__SystemGuid__SystemInt32(){} // RVA: 0x7AFDCE050
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AFDCE130
+        public void __Equals__SystemGuid__SystemBoolean(){} // RVA: 0x7AFDCE260
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFDCE380
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFDCE560
+        public void __GetType__SystemType(){} // RVA: 0x7AFDCE630
+        public void __NewGuid__SystemGuid(){} // RVA: 0x7AFDCE720
+        public void __ParseExact__SystemString_SystemString__SystemGuid(){} // RVA: 0x7AFDCE800
+        public void __Parse__SystemString__SystemGuid(){} // RVA: 0x7AFDCEA10
+        public void __ToByteArray__SystemByteArray(){} // RVA: 0x7AFDCEBC0
+        public void __ToString__SystemString(){} // RVA: 0x7AFDCEC70
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AFDCED50
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFDCEE70
+        public void __TryParseExact__SystemString_SystemString_SystemGuidRef__SystemBoolean(){} // RVA: 0x7AFDCEF50
+        public void __TryParse__SystemString_SystemGuidRef__SystemBoolean(){} // RVA: 0x7AFDCF060
+        public void __ctor__SystemByteArray__SystemGuid(){} // RVA: 0x7AFDCF1E0
+        public void __ctor__SystemInt32_SystemInt16_SystemInt16_SystemByteArray__SystemGuid(){} // RVA: 0x7AFDCF340
+        public void __ctor__SystemInt32_SystemInt16_SystemInt16_SystemByte_SystemByte_SystemByte_SystemByte_SystemByte_SystemByte_SystemByte_SystemByte__SystemGuid(){} // RVA: 0x7AFDCF4B0
+        public void __ctor__SystemString__SystemGuid(){} // RVA: 0x7AFDCF760
+        public void __ctor__SystemUInt32_SystemUInt16_SystemUInt16_SystemByte_SystemByte_SystemByte_SystemByte_SystemByte_SystemByte_SystemByte_SystemByte__SystemGuid(){} // RVA: 0x7AFDCF910
+        public void __get_Empty__SystemGuid(){} // RVA: 0x7AFDCFBC0
+        public void __op_Equality__SystemGuid_SystemGuid__SystemBoolean(){} // RVA: 0x7AFDCFC80
+        public void __op_Inequality__SystemGuid_SystemGuid__SystemBoolean(){} // RVA: 0x7AFDCFD90
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFDCFEA0
+    }
+
+    public class ExternSystemGuidArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFF55440
+        public void .ctor(){} // RVA: 0x7AFF55480
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFF55850
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFF55980
+        public void __Clone__SystemObject(){} // RVA: 0x7AFF55A90
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFF55B80
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFF55C60
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFF55D30
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFF55E80
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFF55F20
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFF56030
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFF56150
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFF56260
+        public void __GetType__SystemType(){} // RVA: 0x7AFF56380
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFF56470
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFF56550
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFF56680
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFF56810
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFF56960
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFF56A90
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFF56BC0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFF56D40
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFF56E90
+        public void __Get__SystemInt32__SystemGuid(){} // RVA: 0x7AFF56FC0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFF570B0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFF57120
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF57250
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF573D0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFF57530
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFF57660
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFF57790
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFF57900
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFF57A50
+        public void __Set__SystemInt32_SystemGuid__SystemVoid(){} // RVA: 0x7AFF57B80
+        public void __ToString__SystemString(){} // RVA: 0x7AFF57C70
+        public void __ctor__SystemInt32__SystemGuidArray(){} // RVA: 0x7AFF57D70
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFF57F10
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFF57FB0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFF58050
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFF580F0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFF58190
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFF58230
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFF582D0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFF583B0
+    }
+
+    public class ExternSystemInt16 : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFF5A2D0
+        public void .ctor(){} // RVA: 0x7AFF5A310
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFF5A6E0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFF5A810
+        public void __CompareTo__SystemInt16__SystemInt32(){} // RVA: 0x7AFF5A920
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AFF5A9E0
+        public void __Equals__SystemInt16__SystemBoolean(){} // RVA: 0x7AFF5ABB0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFF5AC70
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFF5ADF0
+        public void __GetType__SystemType(){} // RVA: 0x7AFF5AE90
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemInt16(){} // RVA: 0x7AFF5AF80
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemInt16(){} // RVA: 0x7AFF5B120
+        public void __Parse__SystemString_SystemIFormatProvider__SystemInt16(){} // RVA: 0x7AFF5B280
+        public void __Parse__SystemString__SystemInt16(){} // RVA: 0x7AFF5B3E0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AFF5B500
+        public void __ToString__SystemString(){} // RVA: 0x7AFF5B670
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AFF5B7A0
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFF5B8B0
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemInt16Ref__SystemBoolean(){} // RVA: 0x7AFF5B980
+        public void __TryParse__SystemString_SystemInt16Ref__SystemBoolean(){} // RVA: 0x7AFF5BB50
+        public void __get_MaxValue__SystemInt16(){} // RVA: 0x7AFF5BD00
+        public void __get_MinValue__SystemInt16(){} // RVA: 0x7AFF5BD70
+        public void __op_Addition__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5BDE0
+        public void __op_Division__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5BEA0
+        public void __op_Equality__SystemInt16_SystemInt16__SystemBoolean(){} // RVA: 0x7AFF5BF70
+        public void __op_GreaterThanOrEqual__SystemInt16_SystemInt16__SystemBoolean(){} // RVA: 0x7AFF5C030
+        public void __op_GreaterThan__SystemInt16_SystemInt16__SystemBoolean(){} // RVA: 0x7AFF5C0F0
+        public void __op_Inequality__SystemInt16_SystemInt16__SystemBoolean(){} // RVA: 0x7AFF5C1B0
+        public void __op_LeftShift__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5C270
+        public void __op_LessThanOrEqual__SystemInt16_SystemInt16__SystemBoolean(){} // RVA: 0x7AFF5C330
+        public void __op_LessThan__SystemInt16_SystemInt16__SystemBoolean(){} // RVA: 0x7AFF5C3F0
+        public void __op_LogicalAnd__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5C4B0
+        public void __op_LogicalOr__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5C570
+        public void __op_LogicalXor__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5C630
+        public void __op_Multiplication__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5C6F0
+        public void __op_RightShift__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5C7B0
+        public void __op_Subtraction__SystemInt16_SystemInt16__SystemInt32(){} // RVA: 0x7AFF5C870
+        public void __op_UnaryMinus__SystemInt16__SystemInt32(){} // RVA: 0x7AFF5C930
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFF5C9D0
+    }
+
+    public class ExternSystemInt16Array : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFF5E530
+        public void .ctor(){} // RVA: 0x7AFF5E570
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFF5E940
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFF5EA70
+        public void __Clone__SystemObject(){} // RVA: 0x7AFF5EB80
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFF5EC70
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFF5ED50
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFF5EE20
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFF5EF70
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFF5F010
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFF5F120
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFF5F240
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFF5F350
+        public void __GetType__SystemType(){} // RVA: 0x7AFF5F470
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFF5F560
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFF5F640
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFF5F770
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFF5F900
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFF5FA50
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFF5FB80
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFF5FCB0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFF5FE30
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFF5FF80
+        public void __Get__SystemInt32__SystemInt16(){} // RVA: 0x7AFF600B0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFF60190
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFF60200
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF60330
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF604B0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFF60610
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFF60740
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFF60870
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFF609E0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFF60B30
+        public void __Set__SystemInt32_SystemInt16__SystemVoid(){} // RVA: 0x7AFF60C60
+        public void __ToString__SystemString(){} // RVA: 0x7AFF60D40
+        public void __ctor__SystemInt32__SystemInt16Array(){} // RVA: 0x7AFF60E40
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFF60FE0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFF61080
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFF61120
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFF611C0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFF61260
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFF61300
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFF613A0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFF61480
+    }
+
+    public class ExternSystemInt32 : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFF633A0
+        public void .ctor(){} // RVA: 0x7AFF633E0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFF637B0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFF638E0
+        public void __CompareTo__SystemInt32__SystemInt32(){} // RVA: 0x7AFF639F0
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AFF63AD0
+        public void __Equals__SystemInt32__SystemBoolean(){} // RVA: 0x7AFF63C00
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFF63CD0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFF63E50
+        public void __GetType__SystemType(){} // RVA: 0x7AFF63EF0
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemInt32(){} // RVA: 0x7AFF63FE0
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemInt32(){} // RVA: 0x7AFF64100
+        public void __Parse__SystemString_SystemIFormatProvider__SystemInt32(){} // RVA: 0x7AFF641E0
+        public void __Parse__SystemString__SystemInt32(){} // RVA: 0x7AFF642C0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AFF64360
+        public void __ToString__SystemString(){} // RVA: 0x7AFF644D0
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AFF64600
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFF647C0
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemInt32Ref__SystemBoolean(){} // RVA: 0x7AFF64940
+        public void __TryParse__SystemString_SystemInt32Ref__SystemBoolean(){} // RVA: 0x7AFF64AB0
+        public void __get_MaxValue__SystemInt32(){} // RVA: 0x7AFF64C50
+        public void __get_MinValue__SystemInt32(){} // RVA: 0x7AFF64CC0
+        public void __op_Addition__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF64D30
+        public void __op_Division__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF64E00
+        public void __op_Equality__SystemInt32_SystemInt32__SystemBoolean(){} // RVA: 0x7AFF64ED0
+        public void __op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean(){} // RVA: 0x7AFF64FA0
+        public void __op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean(){} // RVA: 0x7AFF65070
+        public void __op_Inequality__SystemInt32_SystemInt32__SystemBoolean(){} // RVA: 0x7AFF65140
+        public void __op_LeftShift__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF65210
+        public void __op_LessThanOrEqual__SystemInt32_SystemInt32__SystemBoolean(){} // RVA: 0x7AFF652E0
+        public void __op_LessThan__SystemInt32_SystemInt32__SystemBoolean(){} // RVA: 0x7AFF653B0
+        public void __op_LogicalAnd__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF65480
+        public void __op_LogicalOr__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF65550
+        public void __op_LogicalXor__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF65620
+        public void __op_Multiplication__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF656F0
+        public void __op_Remainder__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF657C0
+        public void __op_RightShift__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF65890
+        public void __op_Subtraction__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF65960
+        public void __op_UnaryMinus__SystemInt32__SystemInt32(){} // RVA: 0x7AFF65A30
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFF65AD0
+    }
+
+    public class ExternSystemInt32Array : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFF676F0
+        public void .ctor(){} // RVA: 0x7AFF67730
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFF67B00
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFF67C30
+        public void __Clone__SystemObject(){} // RVA: 0x7AFF67D40
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFF67E30
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFF67F10
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFF67FE0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFF68130
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFF681D0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFF682E0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFF68400
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFF68510
+        public void __GetType__SystemType(){} // RVA: 0x7AFF68630
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFF68720
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFF68800
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFF68930
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFF68AC0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFF68C10
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFF68D40
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFF68E70
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFF68FF0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFF69140
+        public void __Get__SystemInt32__SystemInt32(){} // RVA: 0x7AFF69270
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFF69350
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFF693C0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF694F0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF69670
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFF697D0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFF69900
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFF69A30
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFF69BA0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFF69CF0
+        public void __Set__SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF69E20
+        public void __ToString__SystemString(){} // RVA: 0x7AFF69F00
+        public void __ctor__SystemInt32__SystemInt32Array(){} // RVA: 0x7AFF6A000
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFF6A0B0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFF6A150
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFF6A1F0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFF6A290
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFF6A330
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFF6A3D0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFF6A470
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFF6A550
+    }
+
+    public class ExternSystemInt64 : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFF6C470
+        public void .ctor(){} // RVA: 0x7AFF6C4B0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFF6C880
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFF6C9B0
+        public void __CompareTo__SystemInt64__SystemInt32(){} // RVA: 0x7AFF6CAC0
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AFF6CB90
+        public void __Equals__SystemInt64__SystemBoolean(){} // RVA: 0x7AFF6CCC0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFF6CD80
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFF6CF00
+        public void __GetType__SystemType(){} // RVA: 0x7AFF6CFA0
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemInt64(){} // RVA: 0x7AFF6D090
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemInt64(){} // RVA: 0x7AFF6D1B0
+        public void __Parse__SystemString_SystemIFormatProvider__SystemInt64(){} // RVA: 0x7AFF6D280
+        public void __Parse__SystemString__SystemInt64(){} // RVA: 0x7AFF6D360
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AFF6D400
+        public void __ToString__SystemString(){} // RVA: 0x7AFF6D570
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AFF6D6A0
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFF6D860
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemInt64Ref__SystemBoolean(){} // RVA: 0x7AFF6D9E0
+        public void __TryParse__SystemString_SystemInt64Ref__SystemBoolean(){} // RVA: 0x7AFF6DB50
+        public void __get_MaxValue__SystemInt64(){} // RVA: 0x7AFF6DCF0
+        public void __get_MinValue__SystemInt64(){} // RVA: 0x7AFF6DD60
+        public void __op_Addition__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF6DDD0
+        public void __op_Division__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF6DE80
+        public void __op_Equality__SystemInt64_SystemInt64__SystemBoolean(){} // RVA: 0x7AFF6DF50
+        public void __op_GreaterThanOrEqual__SystemInt64_SystemInt64__SystemBoolean(){} // RVA: 0x7AFF6E010
+        public void __op_GreaterThan__SystemInt64_SystemInt64__SystemBoolean(){} // RVA: 0x7AFF6E0D0
+        public void __op_Inequality__SystemInt64_SystemInt64__SystemBoolean(){} // RVA: 0x7AFF6E190
+        public void __op_LeftShift__SystemInt64_SystemInt32__SystemInt64(){} // RVA: 0x7AFF6E250
+        public void __op_LessThanOrEqual__SystemInt64_SystemInt64__SystemBoolean(){} // RVA: 0x7AFF6E320
+        public void __op_LessThan__SystemInt64_SystemInt64__SystemBoolean(){} // RVA: 0x7AFF6E3E0
+        public void __op_LogicalAnd__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF6E4A0
+        public void __op_LogicalOr__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF6E550
+        public void __op_LogicalXor__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF6E600
+        public void __op_Multiplication__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF6E6B0
+        public void __op_RightShift__SystemInt64_SystemInt32__SystemInt64(){} // RVA: 0x7AFF6E760
+        public void __op_Subtraction__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF6E830
+        public void __op_UnaryMinus__SystemInt64__SystemInt64(){} // RVA: 0x7AFF6E8E0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFF6E970
+    }
+
+    public class ExternSystemInt64Array : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFF704D0
+        public void .ctor(){} // RVA: 0x7AFF70510
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFF708E0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFF70A10
+        public void __Clone__SystemObject(){} // RVA: 0x7AFF70B20
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFF70C10
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFF70CF0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFF70DC0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFF70F10
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFF70FB0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFF710C0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFF711E0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFF712F0
+        public void __GetType__SystemType(){} // RVA: 0x7AFF71410
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFF71500
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFF715E0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFF71710
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFF718A0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFF719F0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFF71B20
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFF71C50
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFF71DD0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFF71F20
+        public void __Get__SystemInt32__SystemInt64(){} // RVA: 0x7AFF72050
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFF72130
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFF721A0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF722D0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFF72450
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFF725B0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFF726E0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFF72810
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFF72980
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFF72AD0
+        public void __Set__SystemInt32_SystemInt64__SystemVoid(){} // RVA: 0x7AFF72C00
+        public void __ToString__SystemString(){} // RVA: 0x7AFF72CE0
+        public void __ctor__SystemInt32__SystemInt64Array(){} // RVA: 0x7AFF72DE0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFF72F80
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFF73020
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFF730C0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFF73160
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFF73200
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFF732A0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFF73340
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFF73420
+    }
+
+    public class ExternSystemMath : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFF75340
+        public void .ctor(){} // RVA: 0x7AFF75380
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFF75750
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFF75880
+        public void __Abs__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFF75990
+        public void __Abs__SystemDouble__SystemDouble(){} // RVA: 0x7AFF75AD0
+        public void __Abs__SystemInt16__SystemInt16(){} // RVA: 0x7AFF75BA0
+        public void __Abs__SystemInt32__SystemInt32(){} // RVA: 0x7AFF75CB0
+        public void __Abs__SystemInt64__SystemInt64(){} // RVA: 0x7AFF75D80
+        public void __Abs__SystemSByte__SystemSByte(){} // RVA: 0x7AFF75E50
+        public void __Abs__SystemSingle__SystemSingle(){} // RVA: 0x7AFF75F60
+        public void __Acos__SystemDouble__SystemDouble(){} // RVA: 0x7AFF76040
+        public void __Asin__SystemDouble__SystemDouble(){} // RVA: 0x7AFF76110
+        public void __Atan2__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFF761E0
+        public void __Atan__SystemDouble__SystemDouble(){} // RVA: 0x7AFF762D0
+        public void __BigMul__SystemInt32_SystemInt32__SystemInt64(){} // RVA: 0x7AFF763A0
+        public void __Ceiling__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFF764A0
+        public void __Ceiling__SystemDouble__SystemDouble(){} // RVA: 0x7AFF76640
+        public void __Cos__SystemDouble__SystemDouble(){} // RVA: 0x7AFF76710
+        public void __Cosh__SystemDouble__SystemDouble(){} // RVA: 0x7AFF767E0
+        public void __DivRem__SystemInt32_SystemInt32_SystemInt32Ref__SystemInt32(){} // RVA: 0x7AFF768B0
+        public void __DivRem__SystemInt64_SystemInt64_SystemInt64Ref__SystemInt64(){} // RVA: 0x7AFF769F0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFF76B20
+        public void __Exp__SystemDouble__SystemDouble(){} // RVA: 0x7AFF76C70
+        public void __Floor__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFF76D40
+        public void __Floor__SystemDouble__SystemDouble(){} // RVA: 0x7AFF76EE0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFF76FB0
+        public void __GetType__SystemType(){} // RVA: 0x7AFF770C0
+        public void __IEEERemainder__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFF771B0
+        public void __Log10__SystemDouble__SystemDouble(){} // RVA: 0x7AFF772B0
+        public void __Log__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFF77380
+        public void __Log__SystemDouble__SystemDouble(){} // RVA: 0x7AFF77480
+        public void __Max__SystemByte_SystemByte__SystemByte(){} // RVA: 0x7AFF77550
+        public void __Max__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFF77660
+        public void __Max__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFF77790
+        public void __Max__SystemInt16_SystemInt16__SystemInt16(){} // RVA: 0x7AFF778A0
+        public void __Max__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF77990
+        public void __Max__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF77A90
+        public void __Max__SystemSByte_SystemSByte__SystemSByte(){} // RVA: 0x7AFF77B80
+        public void __Max__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x7AFF77C70
+        public void __Max__SystemUInt16_SystemUInt16__SystemUInt16(){} // RVA: 0x7AFF77D90
+        public void __Max__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7AFF77E80
+        public void __Max__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AFF77F80
+        public void __Min__SystemByte_SystemByte__SystemByte(){} // RVA: 0x7AFF78070
+        public void __Min__SystemDecimal_SystemDecimal__SystemDecimal(){} // RVA: 0x7AFF78180
+        public void __Min__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFF78320
+        public void __Min__SystemInt16_SystemInt16__SystemInt16(){} // RVA: 0x7AFF78430
+        public void __Min__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7AFF78520
+        public void __Min__SystemInt64_SystemInt64__SystemInt64(){} // RVA: 0x7AFF78620
+        public void __Min__SystemSByte_SystemSByte__SystemSByte(){} // RVA: 0x7AFF78710
+        public void __Min__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x7AFF78800
+        public void __Min__SystemUInt16_SystemUInt16__SystemUInt16(){} // RVA: 0x7AFF78920
+        public void __Min__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7AFF78A10
+        public void __Min__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AFF78B10
+        public void __Pow__SystemDouble_SystemDouble__SystemDouble(){} // RVA: 0x7AFF78C00
+        public void __Round__SystemDecimal_SystemInt32_SystemMidpointRounding__SystemDecimal(){} // RVA: 0x7AFF78D00
+        public void __Round__SystemDecimal_SystemInt32__SystemDecimal(){} // RVA: 0x7AFF78EF0
+        public void __Round__SystemDecimal_SystemMidpointRounding__SystemDecimal(){} // RVA: 0x7AFF79020
+        public void __Round__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFF791D0
+        public void __Round__SystemDouble_SystemInt32_SystemMidpointRounding__SystemDouble(){} // RVA: 0x7AFF792C0
+        public void __Round__SystemDouble_SystemInt32__SystemDouble(){} // RVA: 0x7AFF79410
+        public void __Round__SystemDouble_SystemMidpointRounding__SystemDouble(){} // RVA: 0x7AFF79520
+        public void __Round__SystemDouble__SystemDouble(){} // RVA: 0x7AFF79670
+        public void __Sign__SystemDecimal__SystemInt32(){} // RVA: 0x7AFF79740
+        public void __Sign__SystemDouble__SystemInt32(){} // RVA: 0x7AFF79890
+        public void __Sign__SystemInt16__SystemInt32(){} // RVA: 0x7AFF79960
+        public void __Sign__SystemInt32__SystemInt32(){} // RVA: 0x7AFF79A70
+        public void __Sign__SystemInt64__SystemInt32(){} // RVA: 0x7AFF79B50
+        public void __Sign__SystemSByte__SystemInt32(){} // RVA: 0x7AFF79C30
+        public void __Sign__SystemSingle__SystemInt32(){} // RVA: 0x7AFF79D40
+        public void __Sin__SystemDouble__SystemDouble(){} // RVA: 0x7AFF79E80
+        public void __Sinh__SystemDouble__SystemDouble(){} // RVA: 0x7AFF79F50
+        public void __Sqrt__SystemDouble__SystemDouble(){} // RVA: 0x7AFF7A020
+        public void __Tan__SystemDouble__SystemDouble(){} // RVA: 0x7AFF7A100
+        public void __Tanh__SystemDouble__SystemDouble(){} // RVA: 0x7AFF7A1D0
+        public void __ToString__SystemString(){} // RVA: 0x7AFF7A2A0
+        public void __Truncate__SystemDecimal__SystemDecimal(){} // RVA: 0x7AFF7A3A0
+        public void __Truncate__SystemDouble__SystemDouble(){} // RVA: 0x7AFF7A490
+        public void __get_E__SystemDouble(){} // RVA: 0x7AFF7A560
+        public void __get_PI__SystemDouble(){} // RVA: 0x7AFF7A5D0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFF7A640
+    }
+
+    public class ExternSystemObject : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B00F1170
+        public void .ctor(){} // RVA: 0x7B00F11B0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B00F1580
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B00F16B0
+        public void __Equals__SystemObject_SystemObject__SystemBoolean(){} // RVA: 0x7B00F17C0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B00F1920
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B00F1A70
+        public void __GetType__SystemType(){} // RVA: 0x7B00F1B80
+        public void __ReferenceEquals__SystemObject_SystemObject__SystemBoolean(){} // RVA: 0x7B00F1C70
+        public void __ToString__SystemString(){} // RVA: 0x7B00F1DB0
+        public void __ctor____SystemObject(){} // RVA: 0x7B00F1EB0
+        public void __op_Equality__SystemObject_SystemObject__SystemBoolean(){} // RVA: 0x7B00F1F80
+        public void __op_Inequality__SystemObject_SystemObject__SystemBoolean(){} // RVA: 0x7B00F20C0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B00F2200
+    }
+
+    public class ExternSystemObjectArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B00F2AA0
+        public void .ctor(){} // RVA: 0x7B00F2AE0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B00F2EB0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B00F2FE0
+        public void __Clone__SystemObject(){} // RVA: 0x7B00F30F0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B00F31E0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B00F32C0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B00F3390
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B00F34E0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B00F3580
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B00F3690
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B00F37B0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B00F38C0
+        public void __GetType__SystemType(){} // RVA: 0x7B00F39E0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B00F3AD0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B00F3BB0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B00F3CE0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B00F3E70
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B00F3FC0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B00F40F0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B00F4220
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B00F43A0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B00F44F0
+        public void __Get__SystemInt32__SystemObject(){} // RVA: 0x7B00F4620
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B00F4750
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B00F47C0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B00F48F0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B00F4A70
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B00F4BD0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B00F4D00
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B00F4E30
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B00F4FA0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B00F50F0
+        public void __Set__SystemInt32_SystemObject__SystemVoid(){} // RVA: 0x7B00F5220
+        public void __ToString__SystemString(){} // RVA: 0x7B00F5380
+        public void __ctor__SystemInt32__SystemObjectArray(){} // RVA: 0x7B00F5480
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B00F5640
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B00F56E0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B00F5780
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B00F5820
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B00F58C0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B00F5960
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B00F5A00
+        public void <.ctor>b__6_1(){} // RVA: 0x7B00F5AE0
+    }
+
+    public class ExternSystemRandom : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B00F7A00
+        public void .ctor(){} // RVA: 0x7B00F7A40
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B00F7E10
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B00F7F40
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B00F8050
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B00F81A0
+        public void __NextBytes__SystemByteArray__SystemVoid(){} // RVA: 0x7B00F82B0
+        public void __NextDouble__SystemDouble(){} // RVA: 0x7B00F8370
+        public void __Next__SystemInt32(){} // RVA: 0x7B00F8420
+        public void __Next__SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B00F84D0
+        public void __Next__SystemInt32__SystemInt32(){} // RVA: 0x7B00F85F0
+        public void __ctor__SystemInt32__SystemRandom(){} // RVA: 0x7B00F86E0
+        public void __ctor____SystemRandom(){} // RVA: 0x7B00F87C0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B00F88A0
+    }
+
+    public class ExternSystemRandomArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B00F9140
+        public void .ctor(){} // RVA: 0x7B00F9180
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B00F9550
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B00F9680
+        public void __Clone__SystemObject(){} // RVA: 0x7B00F9790
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B00F9880
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B00F9960
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B00F9A30
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B00F9B80
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B00F9C20
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B00F9D30
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B00F9E50
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B00F9F60
+        public void __GetType__SystemType(){} // RVA: 0x7B00FA080
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B00FA170
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B00FA250
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B00FA380
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B00FA510
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B00FA660
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B00FA790
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B00FA8C0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B00FAA40
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B00FAB90
+        public void __Get__SystemInt32__SystemRandom(){} // RVA: 0x7B00FACC0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B00FADA0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B00FAE10
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B00FAF40
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B00FB0C0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B00FB220
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B00FB350
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B00FB480
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B00FB5F0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B00FB740
+        public void __Set__SystemInt32_SystemRandom__SystemVoid(){} // RVA: 0x7B00FB870
+        public void __ToString__SystemString(){} // RVA: 0x7B00FB9E0
+        public void __ctor__SystemInt32__SystemRandomArray(){} // RVA: 0x7B00FBAE0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B00FBC80
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B00FBD20
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B00FBDC0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B00FBE60
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B00FBF00
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B00FBFA0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B00FC040
+        public void <.ctor>b__6_1(){} // RVA: 0x7B00FC120
+    }
+
+    public class ExternSystemSByte : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B00FE040
+        public void .ctor(){} // RVA: 0x7B00FE080
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B00FE450
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B00FE580
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7B00FE690
+        public void __CompareTo__SystemSByte__SystemInt32(){} // RVA: 0x7B00FE860
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B00FE920
+        public void __Equals__SystemSByte__SystemBoolean(){} // RVA: 0x7B00FEAA0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B00FEB60
+        public void __GetType__SystemType(){} // RVA: 0x7B00FEC00
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemSByte(){} // RVA: 0x7B00FECF0
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemSByte(){} // RVA: 0x7B00FEE90
+        public void __Parse__SystemString_SystemIFormatProvider__SystemSByte(){} // RVA: 0x7B00FEFF0
+        public void __Parse__SystemString__SystemSByte(){} // RVA: 0x7B00FF150
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7B00FF270
+        public void __ToString__SystemString(){} // RVA: 0x7B00FF3E0
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7B00FF510
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7B00FF620
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemSByteRef__SystemBoolean(){} // RVA: 0x7B00FF6F0
+        public void __TryParse__SystemString_SystemSByteRef__SystemBoolean(){} // RVA: 0x7B00FF8C0
+        public void __get_MaxValue__SystemSByte(){} // RVA: 0x7B00FFA80
+        public void __get_MinValue__SystemSByte(){} // RVA: 0x7B00FFAF0
+        public void __op_Addition__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B00FFB60
+        public void __op_Division__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B00FFC20
+        public void __op_Equality__SystemSByte_SystemSByte__SystemBoolean(){} // RVA: 0x7B00FFCF0
+        public void __op_GreaterThanOrEqual__SystemSByte_SystemSByte__SystemBoolean(){} // RVA: 0x7B00FFDB0
+        public void __op_GreaterThan__SystemSByte_SystemSByte__SystemBoolean(){} // RVA: 0x7B00FFE70
+        public void __op_Inequality__SystemSByte_SystemSByte__SystemBoolean(){} // RVA: 0x7B00FFF30
+        public void __op_LeftShift__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B00FFFF0
+        public void __op_LessThanOrEqual__SystemSByte_SystemSByte__SystemBoolean(){} // RVA: 0x7B01000B0
+        public void __op_LessThan__SystemSByte_SystemSByte__SystemBoolean(){} // RVA: 0x7B0100170
+        public void __op_LogicalAnd__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B0100230
+        public void __op_LogicalOr__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B01002F0
+        public void __op_LogicalXor__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B01003B0
+        public void __op_Multiplication__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B0100470
+        public void __op_RightShift__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B0100530
+        public void __op_Subtraction__SystemSByte_SystemSByte__SystemInt32(){} // RVA: 0x7B01005F0
+        public void __op_UnaryMinus__SystemSByte__SystemInt32(){} // RVA: 0x7B01006B0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B0100750
+    }
+
+    public class ExternSystemSByteArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B01022B0
+        public void .ctor(){} // RVA: 0x7B01022F0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B01026C0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B01027F0
+        public void __Clone__SystemObject(){} // RVA: 0x7B0102900
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B01029F0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B0102AD0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B0102BA0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B0102CF0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0102D90
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B0102EA0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B0102FC0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B01030D0
+        public void __GetType__SystemType(){} // RVA: 0x7B01031F0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B01032E0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B01033C0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B01034F0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B0103680
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B01037D0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B0103900
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B0103A30
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B0103BB0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B0103D00
+        public void __Get__SystemInt32__SystemSByte(){} // RVA: 0x7B0103E30
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B0103F10
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B0103F80
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B01040B0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B0104230
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B0104390
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B01044C0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B01045F0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B0104760
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B01048B0
+        public void __Set__SystemInt32_SystemSByte__SystemVoid(){} // RVA: 0x7B01049E0
+        public void __ToString__SystemString(){} // RVA: 0x7B0104AC0
+        public void __ctor__SystemInt32__SystemSByteArray(){} // RVA: 0x7B0104BC0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B0104D60
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B0104E00
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B0104EA0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B0104F40
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B0104FE0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B0105080
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B0105120
+        public void <.ctor>b__6_1(){} // RVA: 0x7B0105200
+    }
+
+    public class ExternSystemSingle : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B0107120
+        public void .ctor(){} // RVA: 0x7B0107160
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B0107530
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B0107660
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7B0107770
+        public void __CompareTo__SystemSingle__SystemInt32(){} // RVA: 0x7B01078A0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B01079C0
+        public void __Equals__SystemSingle__SystemBoolean(){} // RVA: 0x7B0107B80
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0107C80
+        public void __GetType__SystemType(){} // RVA: 0x7B0107D30
+        public void __IsInfinity__SystemSingle__SystemBoolean(){} // RVA: 0x7B0107E20
+        public void __IsNaN__SystemSingle__SystemBoolean(){} // RVA: 0x7B0107ED0
+        public void __IsNegativeInfinity__SystemSingle__SystemBoolean(){} // RVA: 0x7B0107F80
+        public void __IsPositiveInfinity__SystemSingle__SystemBoolean(){} // RVA: 0x7B0108030
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemSingle(){} // RVA: 0x7B01080E0
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemSingle(){} // RVA: 0x7B0108200
+        public void __Parse__SystemString_SystemIFormatProvider__SystemSingle(){} // RVA: 0x7B01082E0
+        public void __Parse__SystemString__SystemSingle(){} // RVA: 0x7B01083C0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7B0108460
+        public void __ToString__SystemString(){} // RVA: 0x7B01085A0
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7B01086A0
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7B0108810
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemSingleRef__SystemBoolean(){} // RVA: 0x7B0108950
+        public void __TryParse__SystemString_SystemSingleRef__SystemBoolean(){} // RVA: 0x7B0108B40
+        public void __get_Epsilon__SystemSingle(){} // RVA: 0x7B0108CB0
+        public void __get_MaxValue__SystemSingle(){} // RVA: 0x7B0108D20
+        public void __get_MinValue__SystemSingle(){} // RVA: 0x7B0108D90
+        public void __get_NaN__SystemSingle(){} // RVA: 0x7B0108E00
+        public void __get_NegativeInfinity__SystemSingle(){} // RVA: 0x7B0108E70
+        public void __get_PositiveInfinity__SystemSingle(){} // RVA: 0x7B0108EE0
+        public void __op_Addition__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x7B0108F50
+        public void __op_Division__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x7B0109020
+        public void __op_Equality__SystemSingle_SystemSingle__SystemBoolean(){} // RVA: 0x7B01090F0
+        public void __op_GreaterThanOrEqual__SystemSingle_SystemSingle__SystemBoolean(){} // RVA: 0x7B01091C0
+        public void __op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean(){} // RVA: 0x7B0109290
+        public void __op_Inequality__SystemSingle_SystemSingle__SystemBoolean(){} // RVA: 0x7B0109360
+        public void __op_LessThanOrEqual__SystemSingle_SystemSingle__SystemBoolean(){} // RVA: 0x7B0109430
+        public void __op_LessThan__SystemSingle_SystemSingle__SystemBoolean(){} // RVA: 0x7B0109500
+        public void __op_Multiplication__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x7B01095D0
+        public void __op_Remainder__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x7B01096A0
+        public void __op_Subtraction__SystemSingle_SystemSingle__SystemSingle(){} // RVA: 0x7B0109770
+        public void __op_UnaryMinus__SystemSingle__SystemSingle(){} // RVA: 0x7B0109840
+        public void <.ctor>b__6_1(){} // RVA: 0x7B01098E0
+    }
+
+    public class ExternSystemSingleArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B010B730
+        public void .ctor(){} // RVA: 0x7B010B770
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B010BB40
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B010BC70
+        public void __Clone__SystemObject(){} // RVA: 0x7B010BD80
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B010BE70
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B010BF50
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B010C020
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B010C170
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B010C210
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B010C320
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B010C440
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B010C550
+        public void __GetType__SystemType(){} // RVA: 0x7B010C670
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B010C760
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B010C840
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B010C970
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B010CB00
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B010CC50
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B010CD80
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B010CEB0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B010D030
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B010D180
+        public void __Get__SystemInt32__SystemSingle(){} // RVA: 0x7B010D2B0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B010D390
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B010D400
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B010D530
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B010D6B0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B010D810
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B010D940
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B010DA70
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B010DBE0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B010DD30
+        public void __Set__SystemInt32_SystemSingle__SystemVoid(){} // RVA: 0x7B010DE60
+        public void __ToString__SystemString(){} // RVA: 0x7B010DF50
+        public void __ctor__SystemInt32__SystemSingleArray(){} // RVA: 0x7B010E050
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B010E100
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B010E1A0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B010E240
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B010E2E0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B010E380
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B010E420
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B010E4C0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B010E5A0
+    }
+
+    public class ExternSystemString : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B01104C0
+        public void .ctor(){} // RVA: 0x7B0110500
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B01108D0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B0110A00
+        public void __Clone__SystemObject(){} // RVA: 0x7B0110B10
+        public void __CompareOrdinal__SystemString_SystemInt32_SystemString_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B0110BF0
+        public void __CompareOrdinal__SystemString_SystemString__SystemInt32(){} // RVA: 0x7B0110D60
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7B0110E70
+        public void __CompareTo__SystemString__SystemInt32(){} // RVA: 0x7B0111030
+        public void __Compare__SystemString_SystemInt32_SystemString_SystemInt32_SystemInt32_SystemBoolean_SystemGlobalizationCultureInfo__SystemInt32(){} // RVA: 0x7B0111100
+        public void __Compare__SystemString_SystemInt32_SystemString_SystemInt32_SystemInt32_SystemBoolean__SystemInt32(){} // RVA: 0x7B01112F0
+        public void __Compare__SystemString_SystemInt32_SystemString_SystemInt32_SystemInt32_SystemGlobalizationCultureInfo_SystemGlobalizationCompareOptions__SystemInt32(){} // RVA: 0x7B01114A0
+        public void __Compare__SystemString_SystemInt32_SystemString_SystemInt32_SystemInt32_SystemStringComparison__SystemInt32(){} // RVA: 0x7B01116A0
+        public void __Compare__SystemString_SystemInt32_SystemString_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B0111850
+        public void __Compare__SystemString_SystemString_SystemBoolean_SystemGlobalizationCultureInfo__SystemInt32(){} // RVA: 0x7B01119C0
+        public void __Compare__SystemString_SystemString_SystemBoolean__SystemInt32(){} // RVA: 0x7B0111B90
+        public void __Compare__SystemString_SystemString_SystemGlobalizationCultureInfo_SystemGlobalizationCompareOptions__SystemInt32(){} // RVA: 0x7B0111CA0
+        public void __Compare__SystemString_SystemString_SystemStringComparison__SystemInt32(){} // RVA: 0x7B0111E70
+        public void __Compare__SystemString_SystemString__SystemInt32(){} // RVA: 0x7B0111F80
+        public void __Concat__IEnumerableT__SystemString(){} // RVA: 0x7B0112040
+        public void __Concat__SystemCollectionsGenericIEnumerableSystemString__SystemString(){} // RVA: 0x7B01120F0
+        public void __Concat__SystemObjectArray__SystemString(){} // RVA: 0x7B0112190
+        public void __Concat__SystemObject_SystemObject_SystemObject__SystemString(){} // RVA: 0x7B0112270
+        public void __Concat__SystemObject_SystemObject__SystemString(){} // RVA: 0x7B01124D0
+        public void __Concat__SystemObject__SystemString(){} // RVA: 0x7B0112690
+        public void __Concat__SystemStringArray__SystemString(){} // RVA: 0x7B01127D0
+        public void __Concat__SystemString_SystemString_SystemString_SystemString__SystemString(){} // RVA: 0x7B0112870
+        public void __Concat__SystemString_SystemString_SystemString__SystemString(){} // RVA: 0x7B0112990
+        public void __Concat__SystemString_SystemString__SystemString(){} // RVA: 0x7B0112A80
+        public void __Contains__SystemChar_SystemStringComparison__SystemBoolean(){} // RVA: 0x7B0112B40
+        public void __Contains__SystemChar__SystemBoolean(){} // RVA: 0x7B0112C60
+        public void __Contains__SystemString_SystemStringComparison__SystemBoolean(){} // RVA: 0x7B0112D40
+        public void __Contains__SystemString__SystemBoolean(){} // RVA: 0x7B0112E70
+        public void __CopyTo__SystemInt32_SystemCharArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B0112F40
+        public void __Copy__SystemString__SystemString(){} // RVA: 0x7B0113090
+        public void __EndsWith__SystemChar__SystemBoolean(){} // RVA: 0x7B01131E0
+        public void __EndsWith__SystemString_SystemBoolean_SystemGlobalizationCultureInfo__SystemBoolean(){} // RVA: 0x7B01132E0
+        public void __EndsWith__SystemString_SystemStringComparison__SystemBoolean(){} // RVA: 0x7B0113510
+        public void __EndsWith__SystemString__SystemBoolean(){} // RVA: 0x7B0113620
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B01136F0
+        public void __Equals__SystemString_SystemStringComparison__SystemBoolean(){} // RVA: 0x7B0113830
+        public void __Equals__SystemString_SystemString_SystemStringComparison__SystemBoolean(){} // RVA: 0x7B0113940
+        public void __Equals__SystemString_SystemString__SystemBoolean(){} // RVA: 0x7B0113A50
+        public void __Equals__SystemString__SystemBoolean(){} // RVA: 0x7B0113B50
+        public void __Format__SystemIFormatProvider_SystemString_SystemObjectArray__SystemString(){} // RVA: 0x7B0113C50
+        public void __Format__SystemIFormatProvider_SystemString_SystemObject_SystemObject_SystemObject__SystemString(){} // RVA: 0x7B0113E50
+        public void __Format__SystemIFormatProvider_SystemString_SystemObject_SystemObject__SystemString(){} // RVA: 0x7B0114060
+        public void __Format__SystemIFormatProvider_SystemString_SystemObject__SystemString(){} // RVA: 0x7B0114260
+        public void __Format__SystemString_SystemObjectArray__SystemString(){} // RVA: 0x7B0114410
+        public void __Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString(){} // RVA: 0x7B01145D0
+        public void __Format__SystemString_SystemObject_SystemObject__SystemString(){} // RVA: 0x7B01147F0
+        public void __Format__SystemString_SystemObject__SystemString(){} // RVA: 0x7B01149B0
+        public void __GetEnumerator__SystemCharEnumerator(){} // RVA: 0x7B0114B20
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0114D20
+        public void __GetHashCode__SystemStringComparison__SystemInt32(){} // RVA: 0x7B0114DD0
+        public void __GetType__SystemType(){} // RVA: 0x7B0114EB0
+        public void __IndexOfAny__SystemCharArray_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B0114FA0
+        public void __IndexOfAny__SystemCharArray_SystemInt32__SystemInt32(){} // RVA: 0x7B0115100
+        public void __IndexOfAny__SystemCharArray__SystemInt32(){} // RVA: 0x7B0115230
+        public void __IndexOf__SystemChar_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B0115320
+        public void __IndexOf__SystemChar_SystemInt32__SystemInt32(){} // RVA: 0x7B0115480
+        public void __IndexOf__SystemChar_SystemStringComparison__SystemInt32(){} // RVA: 0x7B01155B0
+        public void __IndexOf__SystemChar__SystemInt32(){} // RVA: 0x7B01156D0
+        public void __IndexOf__SystemString_SystemInt32_SystemInt32_SystemStringComparison__SystemInt32(){} // RVA: 0x7B01157B0
+        public void __IndexOf__SystemString_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B0115930
+        public void __IndexOf__SystemString_SystemInt32_SystemStringComparison__SystemInt32(){} // RVA: 0x7B0115B60
+        public void __IndexOf__SystemString_SystemInt32__SystemInt32(){} // RVA: 0x7B0115CC0
+        public void __IndexOf__SystemString_SystemStringComparison__SystemInt32(){} // RVA: 0x7B0115DE0
+        public void __IndexOf__SystemString__SystemInt32(){} // RVA: 0x7B0115F00
+        public void __Insert__SystemInt32_SystemString__SystemString(){} // RVA: 0x7B0115FE0
+        public void __Intern__SystemString__SystemString(){} // RVA: 0x7B01160F0
+        public void __IsInterned__SystemString__SystemString(){} // RVA: 0x7B01161E0
+        public void __IsNormalized__SystemBoolean(){} // RVA: 0x7B01162D0
+        public void __IsNormalized__SystemTextNormalizationForm__SystemBoolean(){} // RVA: 0x7B0116380
+        public void __IsNullOrEmpty__SystemString__SystemBoolean(){} // RVA: 0x7B0116460
+        public void __IsNullOrWhiteSpace__SystemString__SystemBoolean(){} // RVA: 0x7B0116500
+        public void __Join__SystemChar_SystemObjectArray__SystemString(){} // RVA: 0x7B01165A0
+        public void __Join__SystemChar_SystemStringArray_SystemInt32_SystemInt32__SystemString(){} // RVA: 0x7B01166C0
+        public void __Join__SystemChar_SystemStringArray__SystemString(){} // RVA: 0x7B0116810
+        public void __Join__SystemString_IEnumerableT__SystemString(){} // RVA: 0x7B0116950
+        public void __Join__SystemString_SystemCollectionsGenericIEnumerableSystemString__SystemString(){} // RVA: 0x7B0116AB0
+        public void __Join__SystemString_SystemObjectArray__SystemString(){} // RVA: 0x7B0116B90
+        public void __Join__SystemString_SystemStringArray_SystemInt32_SystemInt32__SystemString(){} // RVA: 0x7B0116CF0
+        public void __Join__SystemString_SystemStringArray__SystemString(){} // RVA: 0x7B0116E90
+        public void __LastIndexOfAny__SystemCharArray_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B0117030
+        public void __LastIndexOfAny__SystemCharArray_SystemInt32__SystemInt32(){} // RVA: 0x7B0117190
+        public void __LastIndexOfAny__SystemCharArray__SystemInt32(){} // RVA: 0x7B01172C0
+        public void __LastIndexOf__SystemChar_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B01173B0
+        public void __LastIndexOf__SystemChar_SystemInt32__SystemInt32(){} // RVA: 0x7B0117510
+        public void __LastIndexOf__SystemChar__SystemInt32(){} // RVA: 0x7B0117640
+        public void __LastIndexOf__SystemString_SystemInt32_SystemInt32_SystemStringComparison__SystemInt32(){} // RVA: 0x7B0117720
+        public void __LastIndexOf__SystemString_SystemInt32_SystemInt32__SystemInt32(){} // RVA: 0x7B01178A0
+        public void __LastIndexOf__SystemString_SystemInt32_SystemStringComparison__SystemInt32(){} // RVA: 0x7B0117A50
+        public void __LastIndexOf__SystemString_SystemInt32__SystemInt32(){} // RVA: 0x7B0117BB0
+        public void __LastIndexOf__SystemString_SystemStringComparison__SystemInt32(){} // RVA: 0x7B0117CD0
+        public void __LastIndexOf__SystemString__SystemInt32(){} // RVA: 0x7B0117DF0
+        public void __Normalize__SystemString(){} // RVA: 0x7B0117ED0
+        public void __Normalize__SystemTextNormalizationForm__SystemString(){} // RVA: 0x7B0117F70
+        public void __PadLeft__SystemInt32_SystemChar__SystemString(){} // RVA: 0x7B0118050
+        public void __PadLeft__SystemInt32__SystemString(){} // RVA: 0x7B0118170
+        public void __PadRight__SystemInt32_SystemChar__SystemString(){} // RVA: 0x7B0118250
+        public void __PadRight__SystemInt32__SystemString(){} // RVA: 0x7B0118370
+        public void __Remove__SystemInt32_SystemInt32__SystemString(){} // RVA: 0x7B0118450
+        public void __Remove__SystemInt32__SystemString(){} // RVA: 0x7B0118560
+        public void __Replace__SystemChar_SystemChar__SystemString(){} // RVA: 0x7B0118640
+        public void __Replace__SystemString_SystemString_SystemBoolean_SystemGlobalizationCultureInfo__SystemString(){} // RVA: 0x7B0118740
+        public void __Replace__SystemString_SystemString_SystemStringComparison__SystemString(){} // RVA: 0x7B01188B0
+        public void __Replace__SystemString_SystemString__SystemString(){} // RVA: 0x7B01189F0
+        public void __Split__SystemCharArray_SystemInt32_SystemStringSplitOptions__SystemStringArray(){} // RVA: 0x7B0118AE0
+        public void __Split__SystemCharArray_SystemInt32__SystemStringArray(){} // RVA: 0x7B0118C40
+        public void __Split__SystemCharArray_SystemStringSplitOptions__SystemStringArray(){} // RVA: 0x7B0118DE0
+        public void __Split__SystemCharArray__SystemStringArray(){} // RVA: 0x7B0118F90
+        public void __Split__SystemChar_SystemInt32_SystemStringSplitOptions__SystemStringArray(){} // RVA: 0x7B0119100
+        public void __Split__SystemChar_SystemStringSplitOptions__SystemStringArray(){} // RVA: 0x7B01192C0
+        public void __Split__SystemStringArray_SystemInt32_SystemStringSplitOptions__SystemStringArray(){} // RVA: 0x7B01193E0
+        public void __Split__SystemStringArray_SystemStringSplitOptions__SystemStringArray(){} // RVA: 0x7B0119550
+        public void __Split__SystemString_SystemInt32_SystemStringSplitOptions__SystemStringArray(){} // RVA: 0x7B0119680
+        public void __Split__SystemString_SystemStringSplitOptions__SystemStringArray(){} // RVA: 0x7B0119820
+        public void __StartsWith__SystemChar__SystemBoolean(){} // RVA: 0x7B0119990
+        public void __StartsWith__SystemString_SystemBoolean_SystemGlobalizationCultureInfo__SystemBoolean(){} // RVA: 0x7B0119A70
+        public void __StartsWith__SystemString_SystemStringComparison__SystemBoolean(){} // RVA: 0x7B0119CA0
+        public void __StartsWith__SystemString__SystemBoolean(){} // RVA: 0x7B0119DB0
+        public void __Substring__SystemInt32_SystemInt32__SystemString(){} // RVA: 0x7B0119E80
+        public void __Substring__SystemInt32__SystemString(){} // RVA: 0x7B0119F90
+        public void __ToCharArray__SystemCharArray(){} // RVA: 0x7B011A070
+        public void __ToCharArray__SystemInt32_SystemInt32__SystemCharArray(){} // RVA: 0x7B011A110
+        public void __ToLowerInvariant__SystemString(){} // RVA: 0x7B011A220
+        public void __ToLower__SystemGlobalizationCultureInfo__SystemString(){} // RVA: 0x7B011A2C0
+        public void __ToLower__SystemString(){} // RVA: 0x7B011A420
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7B011A4C0
+        public void __ToString__SystemString(){} // RVA: 0x7B011A590
+        public void __ToUpperInvariant__SystemString(){} // RVA: 0x7B011A640
+        public void __ToUpper__SystemGlobalizationCultureInfo__SystemString(){} // RVA: 0x7B011A6E0
+        public void __ToUpper__SystemString(){} // RVA: 0x7B011A840
+        public void __TrimEnd__SystemCharArray__SystemString(){} // RVA: 0x7B011A8E0
+        public void __TrimEnd__SystemChar__SystemString(){} // RVA: 0x7B011A9F0
+        public void __TrimEnd__SystemString(){} // RVA: 0x7B011AAE0
+        public void __TrimStart__SystemCharArray__SystemString(){} // RVA: 0x7B011AB80
+        public void __TrimStart__SystemChar__SystemString(){} // RVA: 0x7B011AC90
+        public void __TrimStart__SystemString(){} // RVA: 0x7B011AD80
+        public void __Trim__SystemCharArray__SystemString(){} // RVA: 0x7B011AE20
+        public void __Trim__SystemChar__SystemString(){} // RVA: 0x7B011AF30
+        public void __Trim__SystemString(){} // RVA: 0x7B011B020
+        public void __ctor__SystemCharArray_SystemInt32_SystemInt32__SystemString(){} // RVA: 0x7B011B0C0
+        public void __ctor__SystemCharArray__SystemString(){} // RVA: 0x7B011B1D0
+        public void __ctor__SystemChar_SystemInt32__SystemString(){} // RVA: 0x7B011B270
+        public void __get_Empty__SystemString(){} // RVA: 0x7B011B350
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B011B3E0
+        public void __op_Addition__SystemString_SystemString__SystemString(){} // RVA: 0x7B011B480
+        public void __op_Equality__SystemString_SystemString__SystemBoolean(){} // RVA: 0x7B011B540
+        public void __op_Inequality__SystemString_SystemString__SystemBoolean(){} // RVA: 0x7B011B640
+        public void <.ctor>b__6_1(){} // RVA: 0x7B011B740
+    }
+
+    public class ExternSystemTextRegularExpressionsCaptureCollectionArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B029E060
+        public void .ctor(){} // RVA: 0x7B029E0A0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B029E470
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B029E5A0
+        public void __Clone__SystemObject(){} // RVA: 0x7B029E6B0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B029E7A0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B029E880
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B029E950
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B029EAA0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B029EB40
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B029EC50
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B029ED70
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B029EE80
+        public void __GetType__SystemType(){} // RVA: 0x7B029EFA0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B029F090
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B029F170
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B029F2A0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B029F430
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B029F580
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B029F6B0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B029F7E0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B029F960
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B029FAB0
+        public void __Get__SystemInt32__SystemTextRegularExpressionsCaptureCollection(){} // RVA: 0x7B029FBE0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B029FCC0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B029FD30
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B029FE60
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B029FFE0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B02A0140
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B02A0270
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B02A03A0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B02A0510
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B02A0660
+        public void __Set__SystemInt32_SystemTextRegularExpressionsCaptureCollection__SystemVoid(){} // RVA: 0x7B02A0790
+        public void __ToString__SystemString(){} // RVA: 0x7B02A0900
+        public void __ctor__SystemInt32__SystemTextRegularExpressionsCaptureCollectionArray(){} // RVA: 0x7B02A0A00
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B02A0BA0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B02A0C40
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B02A0CE0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B02A0D80
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B02A0E20
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B02A0EC0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B02A0F60
+        public void <.ctor>b__6_1(){} // RVA: 0x7B02A1040
+    }
+
+    public class ExternSystemTextRegularExpressionsRegexArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B0442D90
+        public void .ctor(){} // RVA: 0x7B0442DD0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B04431A0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B04432D0
+        public void __Clone__SystemObject(){} // RVA: 0x7B04433E0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B04434D0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B04435B0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B0443680
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B04437D0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0443870
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B0443980
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B0443AA0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B0443BB0
+        public void __GetType__SystemType(){} // RVA: 0x7B0443CD0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B0443DC0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B0443EA0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B0443FD0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B0444160
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B04442B0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B04443E0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B0444510
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B0444690
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B04447E0
+        public void __Get__SystemInt32__SystemTextRegularExpressionsRegex(){} // RVA: 0x7B0444910
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B04449F0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B0444A60
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B0444B90
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B0444D10
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B0444E70
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B0444FA0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B04450D0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B0445240
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B0445390
+        public void __Set__SystemInt32_SystemTextRegularExpressionsRegex__SystemVoid(){} // RVA: 0x7B04454C0
+        public void __ToString__SystemString(){} // RVA: 0x7B04455E0
+        public void __ctor__SystemInt32__SystemTextRegularExpressionsRegexArray(){} // RVA: 0x7B04456E0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B0445880
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B0445920
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B04459C0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B0445A60
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B0445B00
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B0445BA0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B0445C40
+        public void <.ctor>b__6_1(){} // RVA: 0x7B0445D20
+    }
+
+    public class ExternSystemTextRegularExpressionsRegexOptions : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B0447C40
+        public void .ctor(){} // RVA: 0x7B0447C80
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B0448050
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B0448180
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7B0448290
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B04483C0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0448500
+        public void __GetType__SystemType(){} // RVA: 0x7B04485B0
+        public void __HasFlag__SystemEnum__SystemBoolean(){} // RVA: 0x7B04486A0
+        public void __ToString__SystemString(){} // RVA: 0x7B0448770
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7B0448820
+        public void __get_Compiled__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B04488F0
+        public void __get_CultureInvariant__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B0448960
+        public void __get_ECMAScript__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B04489D0
+        public void __get_ExplicitCapture__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B0448A40
+        public void __get_IgnoreCase__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B0448AB0
+        public void __get_IgnorePatternWhitespace__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B0448B20
+        public void __get_Multiline__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B0448B90
+        public void __get_None__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B0448C00
+        public void __get_RightToLeft__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B0448C70
+        public void __get_Singleline__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B0448CE0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B0448D50
+    }
+
+    public class ExternSystemTextRegularExpressionsRegexOptionsArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B0449BF0
+        public void .ctor(){} // RVA: 0x7B0449C30
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B044A000
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B044A130
+        public void __Clone__SystemObject(){} // RVA: 0x7B044A240
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B044A330
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B044A410
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B044A4E0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B044A630
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B044A6D0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B044A7E0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B044A900
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B044AA10
+        public void __GetType__SystemType(){} // RVA: 0x7B044AB30
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B044AC20
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B044AD00
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B044AE30
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B044AFC0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B044B110
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B044B240
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B044B370
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B044B4F0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B044B640
+        public void __Get__SystemInt32__SystemTextRegularExpressionsRegexOptions(){} // RVA: 0x7B044B770
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B044B850
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B044B8C0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B044B9F0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B044BB70
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B044BCD0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B044BE00
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B044BF30
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B044C0A0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B044C1F0
+        public void __Set__SystemInt32_SystemTextRegularExpressionsRegexOptions__SystemVoid(){} // RVA: 0x7B044C320
+        public void __ToString__SystemString(){} // RVA: 0x7B044C410
+        public void __ctor__SystemInt32__SystemTextRegularExpressionsRegexOptionsArray(){} // RVA: 0x7B044C510
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B044C6B0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B044C750
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B044C7F0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B044C890
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B044C930
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B044C9D0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B044CA70
+        public void <.ctor>b__6_1(){} // RVA: 0x7B044CB50
+    }
+
+    public class ExternSystemTextStringBuilder : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B05B93C0
+        public void .ctor(){} // RVA: 0x7B05B9400
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B05B97D0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B05B9900
+        public void __AppendFormat__SystemIFormatProvider_SystemString_SystemObjectArray__SystemTextStringBuilder(){} // RVA: 0x7B05B9A10
+        public void __AppendFormat__SystemIFormatProvider_SystemString_SystemObject_SystemObject_SystemObject__SystemTextStringBuilder(){} // RVA: 0x7B05B9C60
+        public void __AppendFormat__SystemIFormatProvider_SystemString_SystemObject_SystemObject__SystemTextStringBuilder(){} // RVA: 0x7B05B9ED0
+        public void __AppendFormat__SystemIFormatProvider_SystemString_SystemObject__SystemTextStringBuilder(){} // RVA: 0x7B05BA120
+        public void __AppendFormat__SystemString_SystemObjectArray__SystemTextStringBuilder(){} // RVA: 0x7B05BA2C0
+        public void __AppendFormat__SystemString_SystemObject_SystemObject_SystemObject__SystemTextStringBuilder(){} // RVA: 0x7B05BA4D0
+        public void __AppendFormat__SystemString_SystemObject_SystemObject__SystemTextStringBuilder(){} // RVA: 0x7B05BA6E0
+        public void __AppendFormat__SystemString_SystemObject__SystemTextStringBuilder(){} // RVA: 0x7B05BA890
+        public void __AppendJoin__SystemChar_SystemObjectArray__SystemTextStringBuilder(){} // RVA: 0x7B05BAA50
+        public void __AppendJoin__SystemChar_SystemStringArray__SystemTextStringBuilder(){} // RVA: 0x7B05BABF0
+        public void __AppendJoin__SystemString_SystemObjectArray__SystemTextStringBuilder(){} // RVA: 0x7B05BAD50
+        public void __AppendJoin__SystemString_SystemStringArray__SystemTextStringBuilder(){} // RVA: 0x7B05BAF10
+        public void __AppendLine__SystemString__SystemTextStringBuilder(){} // RVA: 0x7B05BB0A0
+        public void __AppendLine__SystemTextStringBuilder(){} // RVA: 0x7B05BB190
+        public void __Append__SystemBoolean__SystemTextStringBuilder(){} // RVA: 0x7B05BB240
+        public void __Append__SystemByte__SystemTextStringBuilder(){} // RVA: 0x7B05BB320
+        public void __Append__SystemCharArray_SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BB400
+        public void __Append__SystemCharArray__SystemTextStringBuilder(){} // RVA: 0x7B05BB550
+        public void __Append__SystemChar_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BB640
+        public void __Append__SystemChar__SystemTextStringBuilder(){} // RVA: 0x7B05BB760
+        public void __Append__SystemDecimal__SystemTextStringBuilder(){} // RVA: 0x7B05BB830
+        public void __Append__SystemDouble__SystemTextStringBuilder(){} // RVA: 0x7B05BBA20
+        public void __Append__SystemInt16__SystemTextStringBuilder(){} // RVA: 0x7B05BBC10
+        public void __Append__SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BBE30
+        public void __Append__SystemInt64__SystemTextStringBuilder(){} // RVA: 0x7B05BBF10
+        public void __Append__SystemObject__SystemTextStringBuilder(){} // RVA: 0x7B05BBFE0
+        public void __Append__SystemSByte__SystemTextStringBuilder(){} // RVA: 0x7B05BC130
+        public void __Append__SystemSingle__SystemTextStringBuilder(){} // RVA: 0x7B05BC350
+        public void __Append__SystemString_SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BC430
+        public void __Append__SystemString__SystemTextStringBuilder(){} // RVA: 0x7B05BC580
+        public void __Append__SystemTextStringBuilder_SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BC650
+        public void __Append__SystemTextStringBuilder__SystemTextStringBuilder(){} // RVA: 0x7B05BC790
+        public void __Append__SystemUInt16__SystemTextStringBuilder(){} // RVA: 0x7B05BC880
+        public void __Append__SystemUInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BCAA0
+        public void __Append__SystemUInt64__SystemTextStringBuilder(){} // RVA: 0x7B05BCB80
+        public void __Clear__SystemTextStringBuilder(){} // RVA: 0x7B05BCDA0
+        public void __CopyTo__SystemInt32_SystemCharArray_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B05BCE50
+        public void __EnsureCapacity__SystemInt32__SystemInt32(){} // RVA: 0x7B05BCFA0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B05BD080
+        public void __Equals__SystemTextStringBuilder__SystemBoolean(){} // RVA: 0x7B05BD1D0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B05BD390
+        public void __GetType__SystemType(){} // RVA: 0x7B05BD4A0
+        public void __Insert__SystemInt32_SystemBoolean__SystemTextStringBuilder(){} // RVA: 0x7B05BD590
+        public void __Insert__SystemInt32_SystemByte__SystemTextStringBuilder(){} // RVA: 0x7B05BD750
+        public void __Insert__SystemInt32_SystemCharArray_SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BD890
+        public void __Insert__SystemInt32_SystemCharArray__SystemTextStringBuilder(){} // RVA: 0x7B05BDA10
+        public void __Insert__SystemInt32_SystemChar__SystemTextStringBuilder(){} // RVA: 0x7B05BDBB0
+        public void __Insert__SystemInt32_SystemDecimal__SystemTextStringBuilder(){} // RVA: 0x7B05BDCE0
+        public void __Insert__SystemInt32_SystemDouble__SystemTextStringBuilder(){} // RVA: 0x7B05BDE60
+        public void __Insert__SystemInt32_SystemInt16__SystemTextStringBuilder(){} // RVA: 0x7B05BE000
+        public void __Insert__SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BE140
+        public void __Insert__SystemInt32_SystemInt64__SystemTextStringBuilder(){} // RVA: 0x7B05BE270
+        public void __Insert__SystemInt32_SystemObject__SystemTextStringBuilder(){} // RVA: 0x7B05BE3B0
+        public void __Insert__SystemInt32_SystemSByte__SystemTextStringBuilder(){} // RVA: 0x7B05BE540
+        public void __Insert__SystemInt32_SystemSingle__SystemTextStringBuilder(){} // RVA: 0x7B05BE680
+        public void __Insert__SystemInt32_SystemString_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BE820
+        public void __Insert__SystemInt32_SystemString__SystemTextStringBuilder(){} // RVA: 0x7B05BE970
+        public void __Insert__SystemInt32_SystemUInt16__SystemTextStringBuilder(){} // RVA: 0x7B05BEA90
+        public void __Insert__SystemInt32_SystemUInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BEBD0
+        public void __Insert__SystemInt32_SystemUInt64__SystemTextStringBuilder(){} // RVA: 0x7B05BED10
+        public void __Remove__SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BEE50
+        public void __Replace__SystemChar_SystemChar_SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BEF60
+        public void __Replace__SystemChar_SystemChar__SystemTextStringBuilder(){} // RVA: 0x7B05BF0E0
+        public void __Replace__SystemString_SystemString_SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BF1F0
+        public void __Replace__SystemString_SystemString__SystemTextStringBuilder(){} // RVA: 0x7B05BF370
+        public void __ToString__SystemInt32_SystemInt32__SystemString(){} // RVA: 0x7B05BF480
+        public void __ToString__SystemString(){} // RVA: 0x7B05BF590
+        public void __ctor__SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BF640
+        public void __ctor__SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BF750
+        public void __ctor__SystemString_SystemInt32_SystemInt32_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BF830
+        public void __ctor__SystemString_SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05BF9B0
+        public void __ctor__SystemString__SystemTextStringBuilder(){} // RVA: 0x7B05BFAF0
+        public void __ctor____SystemTextStringBuilder(){} // RVA: 0x7B05BFBF0
+        public void __get_Capacity__SystemInt32(){} // RVA: 0x7B05BFC90
+        public void __get_Chars__SystemInt32__SystemChar(){} // RVA: 0x7B05BFD40
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B05BFE20
+        public void __get_MaxCapacity__SystemInt32(){} // RVA: 0x7B05BFEC0
+        public void __set_Capacity__SystemInt32__SystemVoid(){} // RVA: 0x7B05BFF60
+        public void __set_Chars__SystemInt32_SystemChar__SystemVoid(){} // RVA: 0x7B05C0010
+        public void __set_Length__SystemInt32__SystemVoid(){} // RVA: 0x7B05C0100
+        public void <.ctor>b__6_1(){} // RVA: 0x7B05C01B0
+    }
+
+    public class ExternSystemTextStringBuilderArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B05C3F90
+        public void .ctor(){} // RVA: 0x7B05C3FD0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B05C43A0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B05C44D0
+        public void __Clone__SystemObject(){} // RVA: 0x7B05C45E0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B05C46D0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B05C47B0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B05C4880
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B05C49D0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B05C4A70
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B05C4B80
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B05C4CA0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B05C4DB0
+        public void __GetType__SystemType(){} // RVA: 0x7B05C4ED0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B05C4FC0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B05C50A0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B05C51D0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B05C5360
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B05C54B0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B05C55E0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B05C5710
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B05C5890
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B05C59E0
+        public void __Get__SystemInt32__SystemTextStringBuilder(){} // RVA: 0x7B05C5B10
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B05C5BF0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B05C5C60
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B05C5D90
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B05C5F10
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B05C6070
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B05C61A0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B05C62D0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B05C6440
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B05C6590
+        public void __Set__SystemInt32_SystemTextStringBuilder__SystemVoid(){} // RVA: 0x7B05C66C0
+        public void __ToString__SystemString(){} // RVA: 0x7B05C6800
+        public void __ctor__SystemInt32__SystemTextStringBuilderArray(){} // RVA: 0x7B05C6900
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B05C6AA0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B05C6B40
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B05C6BE0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B05C6C80
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B05C6D20
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B05C6DC0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B05C6E60
+        public void <.ctor>b__6_1(){} // RVA: 0x7B05C6F40
+    }
+
+    public class ExternSystemTimeSpan : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B05C8E60
+        public void .ctor(){} // RVA: 0x7B05C8EA0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B05C9270
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B05C93A0
+        public void __Add__SystemTimeSpan__SystemTimeSpan(){} // RVA: 0x7B05C94B0
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7B05C9600
+        public void __CompareTo__SystemTimeSpan__SystemInt32(){} // RVA: 0x7B05C9750
+        public void __Compare__SystemTimeSpan_SystemTimeSpan__SystemInt32(){} // RVA: 0x7B05C9860
+        public void __Duration__SystemTimeSpan(){} // RVA: 0x7B05C9970
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B05C9A30
+        public void __Equals__SystemTimeSpan_SystemTimeSpan__SystemBoolean(){} // RVA: 0x7B05C9BE0
+        public void __Equals__SystemTimeSpan__SystemBoolean(){} // RVA: 0x7B05C9CD0
+        public void __FromDays__SystemDouble__SystemTimeSpan(){} // RVA: 0x7B05C9DC0
+        public void __FromHours__SystemDouble__SystemTimeSpan(){} // RVA: 0x7B05C9ED0
+        public void __FromMilliseconds__SystemDouble__SystemTimeSpan(){} // RVA: 0x7B05C9FE0
+        public void __FromMinutes__SystemDouble__SystemTimeSpan(){} // RVA: 0x7B05CA0F0
+        public void __FromSeconds__SystemDouble__SystemTimeSpan(){} // RVA: 0x7B05CA200
+        public void __FromTicks__SystemInt64__SystemTimeSpan(){} // RVA: 0x7B05CA310
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B05CA3D0
+        public void __GetType__SystemType(){} // RVA: 0x7B05CA4A0
+        public void __Negate__SystemTimeSpan(){} // RVA: 0x7B05CA590
+        public void __ParseExact__SystemString_SystemStringArray_SystemIFormatProvider_SystemGlobalizationTimeSpanStyles__SystemTimeSpan(){} // RVA: 0x7B05CA650
+        public void __ParseExact__SystemString_SystemStringArray_SystemIFormatProvider__SystemTimeSpan(){} // RVA: 0x7B05CA910
+        public void __ParseExact__SystemString_SystemString_SystemIFormatProvider_SystemGlobalizationTimeSpanStyles__SystemTimeSpan(){} // RVA: 0x7B05CAAE0
+        public void __ParseExact__SystemString_SystemString_SystemIFormatProvider__SystemTimeSpan(){} // RVA: 0x7B05CADF0
+        public void __Parse__SystemString_SystemIFormatProvider__SystemTimeSpan(){} // RVA: 0x7B05CB010
+        public void __Parse__SystemString__SystemTimeSpan(){} // RVA: 0x7B05CB1A0
+        public void __Subtract__SystemTimeSpan__SystemTimeSpan(){} // RVA: 0x7B05CB2F0
+        public void __ToString__SystemString(){} // RVA: 0x7B05CB440
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7B05CB550
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7B05CB6D0
+        public void __TryParseExact__SystemString_SystemStringArray_SystemIFormatProvider_SystemGlobalizationTimeSpanStyles_SystemTimeSpanRef__SystemBoolean(){} // RVA: 0x7B05CB820
+        public void __TryParseExact__SystemString_SystemStringArray_SystemIFormatProvider_SystemTimeSpanRef__SystemBoolean(){} // RVA: 0x7B05CBB00
+        public void __TryParseExact__SystemString_SystemString_SystemIFormatProvider_SystemGlobalizationTimeSpanStyles_SystemTimeSpanRef__SystemBoolean(){} // RVA: 0x7B05CBCF0
+        public void __TryParseExact__SystemString_SystemString_SystemIFormatProvider_SystemTimeSpanRef__SystemBoolean(){} // RVA: 0x7B05CC020
+        public void __TryParse__SystemString_SystemIFormatProvider_SystemTimeSpanRef__SystemBoolean(){} // RVA: 0x7B05CC260
+        public void __TryParse__SystemString_SystemTimeSpanRef__SystemBoolean(){} // RVA: 0x7B05CC410
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32__SystemTimeSpan(){} // RVA: 0x7B05CC580
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32_SystemInt32__SystemTimeSpan(){} // RVA: 0x7B05CC790
+        public void __ctor__SystemInt32_SystemInt32_SystemInt32__SystemTimeSpan(){} // RVA: 0x7B05CC9B0
+        public void __ctor__SystemInt64__SystemTimeSpan(){} // RVA: 0x7B05CCB20
+        public void __get_Days__SystemInt32(){} // RVA: 0x7B05CCBE0
+        public void __get_Hours__SystemInt32(){} // RVA: 0x7B05CCCC0
+        public void __get_MaxValue__SystemTimeSpan(){} // RVA: 0x7B05CCDD0
+        public void __get_Milliseconds__SystemInt32(){} // RVA: 0x7B05CCE90
+        public void __get_MinValue__SystemTimeSpan(){} // RVA: 0x7B05CCFA0
+        public void __get_Minutes__SystemInt32(){} // RVA: 0x7B05CD060
+        public void __get_Seconds__SystemInt32(){} // RVA: 0x7B05CD170
+        public void __get_TicksPerDay__SystemInt64(){} // RVA: 0x7B05CD280
+        public void __get_TicksPerHour__SystemInt64(){} // RVA: 0x7B05CD310
+        public void __get_TicksPerMillisecond__SystemInt64(){} // RVA: 0x7B05CD3A0
+        public void __get_TicksPerMinute__SystemInt64(){} // RVA: 0x7B05CD420
+        public void __get_TicksPerSecond__SystemInt64(){} // RVA: 0x7B05CD4A0
+        public void __get_Ticks__SystemInt64(){} // RVA: 0x7B05CD520
+        public void __get_TotalDays__SystemDouble(){} // RVA: 0x7B05CD5E0
+        public void __get_TotalHours__SystemDouble(){} // RVA: 0x7B05CD6B0
+        public void __get_TotalMilliseconds__SystemDouble(){} // RVA: 0x7B05CD780
+        public void __get_TotalMinutes__SystemDouble(){} // RVA: 0x7B05CD870
+        public void __get_TotalSeconds__SystemDouble(){} // RVA: 0x7B05CD940
+        public void __get_Zero__SystemTimeSpan(){} // RVA: 0x7B05CDA10
+        public void __op_Addition__SystemTimeSpan_SystemTimeSpan__SystemTimeSpan(){} // RVA: 0x7B05CDAD0
+        public void __op_Equality__SystemTimeSpan_SystemTimeSpan__SystemBoolean(){} // RVA: 0x7B05CDBD0
+        public void __op_GreaterThanOrEqual__SystemTimeSpan_SystemTimeSpan__SystemBoolean(){} // RVA: 0x7B05CDCC0
+        public void __op_GreaterThan__SystemTimeSpan_SystemTimeSpan__SystemBoolean(){} // RVA: 0x7B05CDDB0
+        public void __op_Inequality__SystemTimeSpan_SystemTimeSpan__SystemBoolean(){} // RVA: 0x7B05CDEA0
+        public void __op_LessThanOrEqual__SystemTimeSpan_SystemTimeSpan__SystemBoolean(){} // RVA: 0x7B05CDF90
+        public void __op_LessThan__SystemTimeSpan_SystemTimeSpan__SystemBoolean(){} // RVA: 0x7B05CE080
+        public void __op_Subtraction__SystemTimeSpan_SystemTimeSpan__SystemTimeSpan(){} // RVA: 0x7B05CE170
+        public void __op_UnaryNegation__SystemTimeSpan__SystemTimeSpan(){} // RVA: 0x7B05CE270
+        public void __op_UnaryPlus__SystemTimeSpan__SystemTimeSpan(){} // RVA: 0x7B05CE340
+        public void <.ctor>b__6_1(){} // RVA: 0x7B05CE400
+    }
+
+    public class ExternSystemTimeSpanArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B05D1760
+        public void .ctor(){} // RVA: 0x7B05D17A0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B05D1B70
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B05D1CA0
+        public void __Clone__SystemObject(){} // RVA: 0x7B05D1DB0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B05D1EA0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B05D1F80
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B05D2050
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B05D21A0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B05D2240
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B05D2350
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B05D2470
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B05D2580
+        public void __GetType__SystemType(){} // RVA: 0x7B05D26A0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B05D2790
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B05D2870
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B05D29A0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B05D2B30
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B05D2C80
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B05D2DB0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B05D2EE0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B05D3060
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B05D31B0
+        public void __Get__SystemInt32__SystemTimeSpan(){} // RVA: 0x7B05D32E0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B05D33C0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B05D3430
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B05D3560
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B05D36E0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B05D3840
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B05D3970
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B05D3AA0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B05D3C10
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B05D3D60
+        public void __Set__SystemInt32_SystemTimeSpan__SystemVoid(){} // RVA: 0x7B05D3E90
+        public void __ToString__SystemString(){} // RVA: 0x7B05D3F70
+        public void __ctor__SystemInt32__SystemTimeSpanArray(){} // RVA: 0x7B05D4070
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B05D4120
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B05D41C0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B05D4260
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B05D4300
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B05D43A0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B05D4440
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B05D44E0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B05D45C0
+    }
+
+    public class ExternSystemTimeZoneInfo : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B05D64E0
+        public void .ctor(){} // RVA: 0x7B05D6520
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B05D68F0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B05D6A20
+        public void __ClearCachedData__SystemVoid(){} // RVA: 0x7B05D6B30
+        public void __ConvertTimeBySystemTimeZoneId__SystemDateTimeOffset_SystemString__SystemDateTimeOffset(){} // RVA: 0x7B05D6B80
+        public void __ConvertTimeBySystemTimeZoneId__SystemDateTime_SystemString_SystemString__SystemDateTime(){} // RVA: 0x7B05D6CF0
+        public void __ConvertTimeBySystemTimeZoneId__SystemDateTime_SystemString__SystemDateTime(){} // RVA: 0x7B05D6E20
+        public void __ConvertTimeFromUtc__SystemDateTime_SystemTimeZoneInfo__SystemDateTime(){} // RVA: 0x7B05D6F70
+        public void __ConvertTimeToUtc__SystemDateTime_SystemTimeZoneInfo__SystemDateTime(){} // RVA: 0x7B05D7080
+        public void __ConvertTimeToUtc__SystemDateTime__SystemDateTime(){} // RVA: 0x7B05D7200
+        public void __ConvertTime__SystemDateTimeOffset_SystemTimeZoneInfo__SystemDateTimeOffset(){} // RVA: 0x7B05D73F0
+        public void __ConvertTime__SystemDateTime_SystemTimeZoneInfo_SystemTimeZoneInfo__SystemDateTime(){} // RVA: 0x7B05D7520
+        public void __ConvertTime__SystemDateTime_SystemTimeZoneInfo__SystemDateTime(){} // RVA: 0x7B05D7650
+        public void __CreateCustomTimeZone__SystemString_SystemTimeSpan_SystemString_SystemString_SystemString_SystemTimeZoneInfoAdjustmentRuleArray_SystemBoolean__SystemTimeZoneInfo(){} // RVA: 0x7B05D7760
+        public void __CreateCustomTimeZone__SystemString_SystemTimeSpan_SystemString_SystemString_SystemString_SystemTimeZoneInfoAdjustmentRuleArray__SystemTimeZoneInfo(){} // RVA: 0x7B05D7970
+        public void __CreateCustomTimeZone__SystemString_SystemTimeSpan_SystemString_SystemString__SystemTimeZoneInfo(){} // RVA: 0x7B05D7B80
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B05D7CE0
+        public void __Equals__SystemTimeZoneInfo__SystemBoolean(){} // RVA: 0x7B05D7E20
+        public void __FindSystemTimeZoneById__SystemString__SystemTimeZoneInfo(){} // RVA: 0x7B05D7EF0
+        public void __FromSerializedString__SystemString__SystemTimeZoneInfo(){} // RVA: 0x7B05D7FC0
+        public void __GetAdjustmentRules__SystemTimeZoneInfoAdjustmentRuleArray(){} // RVA: 0x7B05D8150
+        public void __GetAmbiguousTimeOffsets__SystemDateTimeOffset__SystemTimeSpanArray(){} // RVA: 0x7B05D82E0
+        public void __GetAmbiguousTimeOffsets__SystemDateTime__SystemTimeSpanArray(){} // RVA: 0x7B05D83C0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B05D8490
+        public void __GetType__SystemType(){} // RVA: 0x7B05D8540
+        public void __GetUtcOffset__SystemDateTimeOffset__SystemTimeSpan(){} // RVA: 0x7B05D8630
+        public void __GetUtcOffset__SystemDateTime__SystemTimeSpan(){} // RVA: 0x7B05D87D0
+        public void __HasSameRules__SystemTimeZoneInfo__SystemBoolean(){} // RVA: 0x7B05D88A0
+        public void __IsAmbiguousTime__SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7B05D8970
+        public void __IsAmbiguousTime__SystemDateTime__SystemBoolean(){} // RVA: 0x7B05D8B40
+        public void __IsDaylightSavingTime__SystemDateTimeOffset__SystemBoolean(){} // RVA: 0x7B05D8C20
+        public void __IsDaylightSavingTime__SystemDateTime__SystemBoolean(){} // RVA: 0x7B05D8E10
+        public void __IsInvalidTime__SystemDateTime__SystemBoolean(){} // RVA: 0x7B05D8F60
+        public void __ToSerializedString__SystemString(){} // RVA: 0x7B05D9040
+        public void __ToString__SystemString(){} // RVA: 0x7B05D90E0
+        public void __get_BaseUtcOffset__SystemTimeSpan(){} // RVA: 0x7B05D9190
+        public void __get_DaylightName__SystemString(){} // RVA: 0x7B05D9220
+        public void __get_DisplayName__SystemString(){} // RVA: 0x7B05D9300
+        public void __get_Id__SystemString(){} // RVA: 0x7B05D93E0
+        public void __get_Local__SystemTimeZoneInfo(){} // RVA: 0x7B05D9470
+        public void __get_StandardName__SystemString(){} // RVA: 0x7B05D9500
+        public void __get_SupportsDaylightSavingTime__SystemBoolean(){} // RVA: 0x7B05D95E0
+        public void __get_Utc__SystemTimeZoneInfo(){} // RVA: 0x7B05D9680
+        public void <.ctor>b__6_1(){} // RVA: 0x7B05D9750
+    }
+
+    public class ExternSystemTimeZoneInfoArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B075A910
+        public void .ctor(){} // RVA: 0x7B075A950
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B075AD20
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B075AE50
+        public void __Clone__SystemObject(){} // RVA: 0x7B075AF60
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B075B050
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B075B130
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B075B200
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B075B350
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B075B3F0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B075B500
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B075B620
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B075B730
+        public void __GetType__SystemType(){} // RVA: 0x7B075B850
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B075B940
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B075BA20
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B075BB50
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B075BCE0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B075BE30
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B075BF60
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B075C090
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B075C210
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B075C360
+        public void __Get__SystemInt32__SystemTimeZoneInfo(){} // RVA: 0x7B075C490
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B075C570
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B075C5E0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B075C710
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B075C890
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B075C9F0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B075CB20
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B075CC50
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B075CDC0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B075CF10
+        public void __Set__SystemInt32_SystemTimeZoneInfo__SystemVoid(){} // RVA: 0x7B075D040
+        public void __ToString__SystemString(){} // RVA: 0x7B075D180
+        public void __ctor__SystemInt32__SystemTimeZoneInfoArray(){} // RVA: 0x7B075D280
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B075D420
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B075D4C0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B075D560
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B075D600
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B075D6A0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B075D740
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B075D7E0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B075D8C0
+    }
+
+    public class ExternSystemType : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B075F7E0
+        public void .ctor(){} // RVA: 0x7B075F820
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B075FBF0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B075FD20
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B075FE30
+        public void __Equals__SystemType__SystemBoolean(){} // RVA: 0x7B075FF70
+        public void __GetArrayRank__SystemInt32(){} // RVA: 0x7B0760050
+        public void __GetElementType__SystemType(){} // RVA: 0x7B0760100
+        public void __GetEnumName__SystemObject__SystemString(){} // RVA: 0x7B07601B0
+        public void __GetEnumNames__SystemStringArray(){} // RVA: 0x7B07602F0
+        public void __GetEnumUnderlyingType__SystemType(){} // RVA: 0x7B07603A0
+        public void __GetEnumValues__SystemArray(){} // RVA: 0x7B0760450
+        public void __GetGenericArguments__SystemTypeArray(){} // RVA: 0x7B0760500
+        public void __GetGenericParameterConstraints__SystemTypeArray(){} // RVA: 0x7B07605B0
+        public void __GetGenericTypeDefinition__SystemType(){} // RVA: 0x7B0760660
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0760710
+        public void __GetNestedType__SystemString__SystemType(){} // RVA: 0x7B07607C0
+        public void __GetTypeArray__SystemObjectArray__SystemTypeArray(){} // RVA: 0x7B07608B0
+        public void __GetType__SystemString_SystemBoolean_SystemBoolean__SystemType(){} // RVA: 0x7B0760B10
+        public void __GetType__SystemString_SystemBoolean__SystemType(){} // RVA: 0x7B0760C80
+        public void __GetType__SystemString__SystemType(){} // RVA: 0x7B0760DC0
+        public void __GetType__SystemType(){} // RVA: 0x7B0760EB0
+        public void __IsAssignableFrom__SystemType__SystemBoolean(){} // RVA: 0x7B0760F50
+        public void __IsEnumDefined__SystemObject__SystemBoolean(){} // RVA: 0x7B0761030
+        public void __IsEquivalentTo__SystemType__SystemBoolean(){} // RVA: 0x7B0761170
+        public void __IsInstanceOfType__SystemObject__SystemBoolean(){} // RVA: 0x7B0761250
+        public void __IsSubclassOf__SystemType__SystemBoolean(){} // RVA: 0x7B0761390
+        public void __MakeArrayType__SystemInt32__SystemType(){} // RVA: 0x7B0761470
+        public void __MakeArrayType__SystemType(){} // RVA: 0x7B0761560
+        public void __MakeByRefType__SystemType(){} // RVA: 0x7B0761610
+        public void __MakeGenericType__SystemTypeArray__SystemType(){} // RVA: 0x7B07616C0
+        public void __ToString__SystemString(){} // RVA: 0x7B07617A0
+        public void __get_BaseType__SystemType(){} // RVA: 0x7B0761850
+        public void __get_ContainsGenericParameters__SystemBoolean(){} // RVA: 0x7B0761900
+        public void __get_DeclaringType__SystemType(){} // RVA: 0x7B07619B0
+        public void __get_FullName__SystemString(){} // RVA: 0x7B0761A60
+        public void __get_GUID__SystemGuid(){} // RVA: 0x7B0761B10
+        public void __get_GenericParameterPosition__SystemInt32(){} // RVA: 0x7B0761BD0
+        public void __get_GenericTypeArguments__SystemTypeArray(){} // RVA: 0x7B0761C80
+        public void __get_HasElementType__SystemBoolean(){} // RVA: 0x7B0761D30
+        public void __get_IsAbstract__SystemBoolean(){} // RVA: 0x7B0761DE0
+        public void __get_IsAnsiClass__SystemBoolean(){} // RVA: 0x7B0761EA0
+        public void __get_IsArray__SystemBoolean(){} // RVA: 0x7B0761F60
+        public void __get_IsAutoClass__SystemBoolean(){} // RVA: 0x7B0762010
+        public void __get_IsAutoLayout__SystemBoolean(){} // RVA: 0x7B07620D0
+        public void __get_IsByRef__SystemBoolean(){} // RVA: 0x7B0762190
+        public void __get_IsCOMObject__SystemBoolean(){} // RVA: 0x7B0762240
+        public void __get_IsClass__SystemBoolean(){} // RVA: 0x7B07622F0
+        public void __get_IsConstructedGenericType__SystemBoolean(){} // RVA: 0x7B07623E0
+        public void __get_IsContextful__SystemBoolean(){} // RVA: 0x7B0762490
+        public void __get_IsEnum__SystemBoolean(){} // RVA: 0x7B0762540
+        public void __get_IsExplicitLayout__SystemBoolean(){} // RVA: 0x7B07625F0
+        public void __get_IsGenericParameter__SystemBoolean(){} // RVA: 0x7B07626B0
+        public void __get_IsGenericTypeDefinition__SystemBoolean(){} // RVA: 0x7B0762760
+        public void __get_IsGenericType__SystemBoolean(){} // RVA: 0x7B0762810
+        public void __get_IsImport__SystemBoolean(){} // RVA: 0x7B07628C0
+        public void __get_IsInterface__SystemBoolean(){} // RVA: 0x7B0762980
+        public void __get_IsLayoutSequential__SystemBoolean(){} // RVA: 0x7B0762A20
+        public void __get_IsMarshalByRef__SystemBoolean(){} // RVA: 0x7B0762AE0
+        public void __get_IsNestedAssembly__SystemBoolean(){} // RVA: 0x7B0762B90
+        public void __get_IsNestedFamANDAssem__SystemBoolean(){} // RVA: 0x7B0762C50
+        public void __get_IsNestedFamORAssem__SystemBoolean(){} // RVA: 0x7B0762D10
+        public void __get_IsNestedFamily__SystemBoolean(){} // RVA: 0x7B0762DD0
+        public void __get_IsNestedPrivate__SystemBoolean(){} // RVA: 0x7B0762E90
+        public void __get_IsNestedPublic__SystemBoolean(){} // RVA: 0x7B0762F50
+        public void __get_IsNested__SystemBoolean(){} // RVA: 0x7B0763010
+        public void __get_IsNotPublic__SystemBoolean(){} // RVA: 0x7B0763120
+        public void __get_IsPointer__SystemBoolean(){} // RVA: 0x7B07631E0
+        public void __get_IsPrimitive__SystemBoolean(){} // RVA: 0x7B0763290
+        public void __get_IsPublic__SystemBoolean(){} // RVA: 0x7B0763340
+        public void __get_IsSZArray__SystemBoolean(){} // RVA: 0x7B0763400
+        public void __get_IsSealed__SystemBoolean(){} // RVA: 0x7B07634B0
+        public void __get_IsSecurityCritical__SystemBoolean(){} // RVA: 0x7B0763570
+        public void __get_IsSecuritySafeCritical__SystemBoolean(){} // RVA: 0x7B0763620
+        public void __get_IsSecurityTransparent__SystemBoolean(){} // RVA: 0x7B07636D0
+        public void __get_IsSerializable__SystemBoolean(){} // RVA: 0x7B0763780
+        public void __get_IsSpecialName__SystemBoolean(){} // RVA: 0x7B0763830
+        public void __get_IsUnicodeClass__SystemBoolean(){} // RVA: 0x7B07638F0
+        public void __get_IsValueType__SystemBoolean(){} // RVA: 0x7B07639B0
+        public void __get_IsVisible__SystemBoolean(){} // RVA: 0x7B0763A60
+        public void __get_Name__SystemString(){} // RVA: 0x7B0763B00
+        public void __get_Namespace__SystemString(){} // RVA: 0x7B0763C90
+        public void __get_ReflectedType__SystemType(){} // RVA: 0x7B0763D40
+        public void __get_UnderlyingSystemType__SystemType(){} // RVA: 0x7B0763DF0
+        public void __op_Equality__SystemType_SystemType__SystemBoolean(){} // RVA: 0x7B0763EA0
+        public void __op_Inequality__SystemType_SystemType__SystemBoolean(){} // RVA: 0x7B0763F90
+        public void <.ctor>b__6_1(){} // RVA: 0x7B0764080
+    }
+
+    public class ExternSystemTypeArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B0767FE0
+        public void .ctor(){} // RVA: 0x7B0768020
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B07683F0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B0768520
+        public void __Clone__SystemObject(){} // RVA: 0x7B0768630
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B0768720
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B0768800
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B07688D0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B0768A20
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0768AC0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B0768BD0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B0768CF0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B0768E00
+        public void __GetType__SystemType(){} // RVA: 0x7B0768F20
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B0769010
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B07690F0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B0769220
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B07693B0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B0769500
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B0769630
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B0769760
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B07698E0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B0769A30
+        public void __Get__SystemInt32__SystemType(){} // RVA: 0x7B0769B60
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B0769C40
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B0769CB0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B0769DE0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B0769F60
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B076A0C0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B076A1F0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B076A320
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B076A490
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B076A5E0
+        public void __Set__SystemInt32_SystemType__SystemVoid(){} // RVA: 0x7B076A710
+        public void __ToString__SystemString(){} // RVA: 0x7B076A830
+        public void __ctor__SystemInt32__SystemTypeArray(){} // RVA: 0x7B076A930
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B076A9E0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B076AA80
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B076AB20
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B076ABC0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B076AC60
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B076AD00
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B076ADA0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B076AE80
+    }
+
+    public class ExternSystemUInt16 : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B076CDA0
+        public void .ctor(){} // RVA: 0x7B076CDE0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B076D1B0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B076D2E0
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7B076D3F0
+        public void __CompareTo__SystemUInt16__SystemInt32(){} // RVA: 0x7B076D5C0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B076D680
+        public void __Equals__SystemUInt16__SystemBoolean(){} // RVA: 0x7B076D800
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B076D8C0
+        public void __GetType__SystemType(){} // RVA: 0x7B076D960
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemUInt16(){} // RVA: 0x7B076DA50
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemUInt16(){} // RVA: 0x7B076DBF0
+        public void __Parse__SystemString_SystemIFormatProvider__SystemUInt16(){} // RVA: 0x7B076DD50
+        public void __Parse__SystemString__SystemUInt16(){} // RVA: 0x7B076DEB0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7B076DFD0
+        public void __ToString__SystemString(){} // RVA: 0x7B076E140
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7B076E270
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7B076E430
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemUInt16Ref__SystemBoolean(){} // RVA: 0x7B076E5B0
+        public void __TryParse__SystemString_SystemUInt16Ref__SystemBoolean(){} // RVA: 0x7B076E780
+        public void __get_MaxValue__SystemUInt16(){} // RVA: 0x7B076E920
+        public void __get_MinValue__SystemUInt16(){} // RVA: 0x7B076E990
+        public void __op_Addition__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076EA00
+        public void __op_Division__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076EAC0
+        public void __op_Equality__SystemUInt16_SystemUInt16__SystemBoolean(){} // RVA: 0x7B076EB90
+        public void __op_GreaterThanOrEqual__SystemUInt16_SystemUInt16__SystemBoolean(){} // RVA: 0x7B076EC50
+        public void __op_GreaterThan__SystemUInt16_SystemUInt16__SystemBoolean(){} // RVA: 0x7B076ED10
+        public void __op_Inequality__SystemUInt16_SystemUInt16__SystemBoolean(){} // RVA: 0x7B076EDD0
+        public void __op_LeftShift__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076EE90
+        public void __op_LessThanOrEqual__SystemUInt16_SystemUInt16__SystemBoolean(){} // RVA: 0x7B076EF50
+        public void __op_LessThan__SystemUInt16_SystemUInt16__SystemBoolean(){} // RVA: 0x7B076F010
+        public void __op_LogicalAnd__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076F0D0
+        public void __op_LogicalOr__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076F190
+        public void __op_LogicalXor__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076F250
+        public void __op_Multiplication__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076F310
+        public void __op_RightShift__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076F3D0
+        public void __op_Subtraction__SystemUInt16_SystemUInt16__SystemInt32(){} // RVA: 0x7B076F490
+        public void __op_UnaryMinus__SystemUInt16__SystemInt32(){} // RVA: 0x7B076F550
+        public void <.ctor>b__6_1(){} // RVA: 0x7B076F5F0
+    }
+
+    public class ExternSystemUInt16Array : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B0771150
+        public void .ctor(){} // RVA: 0x7B0771190
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B0771560
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B0771690
+        public void __Clone__SystemObject(){} // RVA: 0x7B07717A0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B0771890
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B0771970
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B0771A40
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B0771B90
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0771C30
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B0771D40
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B0771E60
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B0771F70
+        public void __GetType__SystemType(){} // RVA: 0x7B0772090
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B0772180
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B0772260
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B0772390
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B0772520
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B0772670
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B07727A0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B07728D0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B0772A50
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B0772BA0
+        public void __Get__SystemInt32__SystemUInt16(){} // RVA: 0x7B0772CD0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B0772DB0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B0772E20
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B0772F50
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B07730D0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B0773230
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B0773360
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B0773490
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B0773600
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B0773750
+        public void __Set__SystemInt32_SystemUInt16__SystemVoid(){} // RVA: 0x7B0773880
+        public void __ToString__SystemString(){} // RVA: 0x7B0773960
+        public void __ctor__SystemInt32__SystemUInt16Array(){} // RVA: 0x7B0773A60
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B0773B10
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B0773BB0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B0773C50
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B0773CF0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B0773D90
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B0773E30
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B0773ED0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B0773FB0
+    }
+
+    public class ExternSystemUInt32 : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B0775ED0
+        public void .ctor(){} // RVA: 0x7B0775F10
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B07762E0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B0776410
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7B0776520
+        public void __CompareTo__SystemUInt32__SystemInt32(){} // RVA: 0x7B0776650
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B0776730
+        public void __Equals__SystemUInt32__SystemBoolean(){} // RVA: 0x7B07768B0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B0776980
+        public void __GetType__SystemType(){} // RVA: 0x7B0776A20
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemUInt32(){} // RVA: 0x7B0776B10
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemUInt32(){} // RVA: 0x7B0776C30
+        public void __Parse__SystemString_SystemIFormatProvider__SystemUInt32(){} // RVA: 0x7B0776D00
+        public void __Parse__SystemString__SystemUInt32(){} // RVA: 0x7B0776DE0
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7B0776E80
+        public void __ToString__SystemString(){} // RVA: 0x7B0776FF0
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7B0777120
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7B07772E0
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemUInt32Ref__SystemBoolean(){} // RVA: 0x7B0777460
+        public void __TryParse__SystemString_SystemUInt32Ref__SystemBoolean(){} // RVA: 0x7B07775D0
+        public void __get_MaxValue__SystemUInt32(){} // RVA: 0x7B0777770
+        public void __get_MinValue__SystemUInt32(){} // RVA: 0x7B07777E0
+        public void __op_Addition__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7B0777850
+        public void __op_Division__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7B0777910
+        public void __op_Equality__SystemUInt32_SystemUInt32__SystemBoolean(){} // RVA: 0x7B07779E0
+        public void __op_GreaterThanOrEqual__SystemUInt32_SystemUInt32__SystemBoolean(){} // RVA: 0x7B0777AB0
+        public void __op_GreaterThan__SystemUInt32_SystemUInt32__SystemBoolean(){} // RVA: 0x7B0777B80
+        public void __op_Inequality__SystemUInt32_SystemUInt32__SystemBoolean(){} // RVA: 0x7B0777C50
+        public void __op_LeftShift__SystemUInt32_SystemInt32__SystemUInt32(){} // RVA: 0x7B0777D20
+        public void __op_LessThanOrEqual__SystemUInt32_SystemUInt32__SystemBoolean(){} // RVA: 0x7B0777E00
+        public void __op_LessThan__SystemUInt32_SystemUInt32__SystemBoolean(){} // RVA: 0x7B0777ED0
+        public void __op_LogicalAnd__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7B0777FA0
+        public void __op_LogicalOr__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7B0778060
+        public void __op_LogicalXor__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7B0778120
+        public void __op_Multiplication__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7B07781E0
+        public void __op_RightShift__SystemUInt32_SystemInt32__SystemUInt32(){} // RVA: 0x7B07782A0
+        public void __op_Subtraction__SystemUInt32_SystemUInt32__SystemUInt32(){} // RVA: 0x7B0778380
+        public void __op_UnaryMinus__SystemUInt32__SystemInt64(){} // RVA: 0x7B0778440
+        public void <.ctor>b__6_1(){} // RVA: 0x7B07784E0
+    }
+
+    public class ExternSystemUInt32Array : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7B077A040
+        public void .ctor(){} // RVA: 0x7B077A080
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7B077A450
+        public void GetExternFunctionDelegate(){} // RVA: 0x7B077A580
+        public void __Clone__SystemObject(){} // RVA: 0x7B077A690
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7B077A780
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7B077A860
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7B077A930
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7B077AA80
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7B077AB20
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7B077AC30
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7B077AD50
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7B077AE60
+        public void __GetType__SystemType(){} // RVA: 0x7B077AF80
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7B077B070
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7B077B150
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B077B280
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7B077B410
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7B077B560
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7B077B690
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B077B7C0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7B077B940
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7B077BA90
+        public void __Get__SystemInt32__SystemUInt32(){} // RVA: 0x7B077BBC0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7B077BCA0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7B077BD10
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B077BE40
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7B077BFC0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7B077C120
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7B077C250
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B077C380
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7B077C4F0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7B077C640
+        public void __Set__SystemInt32_SystemUInt32__SystemVoid(){} // RVA: 0x7B077C770
+        public void __ToString__SystemString(){} // RVA: 0x7B077C860
+        public void __ctor__SystemInt32__SystemUInt32Array(){} // RVA: 0x7B077C960
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7B077CB00
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7B077CBA0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7B077CC40
+        public void __get_Length__SystemInt32(){} // RVA: 0x7B077CCE0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7B077CD80
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7B077CE20
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7B077CEC0
+        public void <.ctor>b__6_1(){} // RVA: 0x7B077CFA0
+    }
+
+    public class ExternSystemUInt64 : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF98BF30
+        public void .ctor(){} // RVA: 0x7AF98BF70
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF98C340
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF98C470
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AF98C580
+        public void __CompareTo__SystemUInt64__SystemInt32(){} // RVA: 0x7AF98C6B0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF98C780
+        public void __Equals__SystemUInt64__SystemBoolean(){} // RVA: 0x7AF98C900
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF98C9C0
+        public void __GetType__SystemType(){} // RVA: 0x7AF98CA60
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider__SystemUInt64(){} // RVA: 0x7AF98CB50
+        public void __Parse__SystemString_SystemGlobalizationNumberStyles__SystemUInt64(){} // RVA: 0x7AF98CC70
+        public void __Parse__SystemString_SystemIFormatProvider__SystemUInt64(){} // RVA: 0x7AF98CD40
+        public void __Parse__SystemString__SystemUInt64(){} // RVA: 0x7AF98CE20
+        public void __ToString__SystemIFormatProvider__SystemString(){} // RVA: 0x7AF98CEC0
+        public void __ToString__SystemString(){} // RVA: 0x7AF98D030
+        public void __ToString__SystemString_SystemIFormatProvider__SystemString(){} // RVA: 0x7AF98D160
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AF98D320
+        public void __TryParse__SystemString_SystemGlobalizationNumberStyles_SystemIFormatProvider_SystemUInt64Ref__SystemBoolean(){} // RVA: 0x7AF98D4A0
+        public void __TryParse__SystemString_SystemUInt64Ref__SystemBoolean(){} // RVA: 0x7AF98D610
+        public void __get_MaxValue__SystemUInt64(){} // RVA: 0x7AF98D7B0
+        public void __get_MinValue__SystemUInt64(){} // RVA: 0x7AF98D820
+        public void __op_Addition__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AF98D890
+        public void __op_Division__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AF98D940
+        public void __op_Equality__SystemUInt64_SystemUInt64__SystemBoolean(){} // RVA: 0x7AF98DA10
+        public void __op_GreaterThanOrEqual__SystemUInt64_SystemUInt64__SystemBoolean(){} // RVA: 0x7AF98DAD0
+        public void __op_GreaterThan__SystemUInt64_SystemUInt64__SystemBoolean(){} // RVA: 0x7AF98DB90
+        public void __op_Inequality__SystemUInt64_SystemUInt64__SystemBoolean(){} // RVA: 0x7AF98DC50
+        public void __op_LeftShift__SystemUInt64_SystemInt32__SystemUInt64(){} // RVA: 0x7AF98DD10
+        public void __op_LessThanOrEqual__SystemUInt64_SystemUInt64__SystemBoolean(){} // RVA: 0x7AF98DDE0
+        public void __op_LessThan__SystemUInt64_SystemUInt64__SystemBoolean(){} // RVA: 0x7AF98DEA0
+        public void __op_LogicalAnd__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AF98DF60
+        public void __op_LogicalOr__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AF98E010
+        public void __op_LogicalXor__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AF98E0C0
+        public void __op_Multiplication__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AF98E170
+        public void __op_RightShift__SystemUInt64_SystemInt32__SystemUInt64(){} // RVA: 0x7AF98E220
+        public void __op_Subtraction__SystemUInt64_SystemUInt64__SystemUInt64(){} // RVA: 0x7AF98E2F0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF98E3A0
+    }
+
+    public class ExternSystemUInt64Array : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF98FE40
+        public void .ctor(){} // RVA: 0x7AF98FE80
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF990250
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF990380
+        public void __Clone__SystemObject(){} // RVA: 0x7AF990490
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AF990580
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AF990660
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF990730
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AF990880
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF990920
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AF990A30
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AF990B50
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF990C60
+        public void __GetType__SystemType(){} // RVA: 0x7AF990D80
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF990E70
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AF990F50
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF991080
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF991210
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AF991360
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AF991490
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF9915C0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF991740
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AF991890
+        public void __Get__SystemInt32__SystemUInt64(){} // RVA: 0x7AF9919C0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AF991AA0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AF991B10
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF991C40
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF991DC0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AF991F20
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AF992050
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF992180
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF9922F0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AF992440
+        public void __Set__SystemInt32_SystemUInt64__SystemVoid(){} // RVA: 0x7AF992570
+        public void __ToString__SystemString(){} // RVA: 0x7AF992650
+        public void __ctor__SystemInt32__SystemUInt64Array(){} // RVA: 0x7AF992750
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AF9928F0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AF992990
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AF992A30
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AF992AD0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AF992B70
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AF992C10
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AF992CB0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF992D90
+    }
+
+    public class ExternUnityEngineAINavMeshAgentArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBCADD0
+        public void .ctor(){} // RVA: 0x7AFBCAE10
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBCB1E0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBCB310
+        public void __Clone__SystemObject(){} // RVA: 0x7AFBCB420
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFBCB510
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFBCB5F0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBCB6C0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFBCB810
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBCB8B0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFBCB9C0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFBCBAE0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBCBBF0
+        public void __GetType__SystemType(){} // RVA: 0x7AFBCBD10
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBCBE00
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFBCBEE0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBCC010
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBCC1A0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFBCC2F0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFBCC420
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBCC550
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBCC6D0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFBCC820
+        public void __Get__SystemInt32__UnityEngineAINavMeshAgent(){} // RVA: 0x7AFBCC950
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFBCCAA0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFBCCB10
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBCCC40
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBCCDC0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFBCCF20
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFBCD050
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBCD180
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBCD2F0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFBCD440
+        public void __Set__SystemInt32_UnityEngineAINavMeshAgent__SystemVoid(){} // RVA: 0x7AFBCD570
+        public void __ToString__SystemString(){} // RVA: 0x7AFBCD710
+        public void __ctor__SystemInt32__UnityEngineAINavMeshAgentArray(){} // RVA: 0x7AFBCD810
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFBCD910
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFBCD9B0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFBCDA50
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFBCDAF0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFBCDB90
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFBCDC30
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFBCDCD0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBCDDB0
+    }
+
+    public class ExternUnityEngineAINavMeshBuildSettings : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBCFCD0
+        public void .ctor(){} // RVA: 0x7AFBCFD10
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBD00E0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBD0210
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBD0320
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBD0460
+        public void __GetType__SystemType(){} // RVA: 0x7AFBD0510
+        public void __ToString__SystemString(){} // RVA: 0x7AFBD0600
+        public void __ValidationReport__UnityEngineBounds__SystemStringArray(){} // RVA: 0x7AFBD06B0
+        public void __get_agentClimb__SystemSingle(){} // RVA: 0x7AFBD0840
+        public void __get_agentHeight__SystemSingle(){} // RVA: 0x7AFBD08E0
+        public void __get_agentRadius__SystemSingle(){} // RVA: 0x7AFBD0980
+        public void __get_agentSlope__SystemSingle(){} // RVA: 0x7AFBD0A20
+        public void __get_agentTypeID__SystemInt32(){} // RVA: 0x7AFBD0AC0
+        public void __get_buildHeightMesh__SystemBoolean(){} // RVA: 0x7AFBD0B70
+        public void __get_debug__UnityEngineAINavMeshBuildDebugSettings(){} // RVA: 0x7AFBD0C20
+        public void __get_ledgeDropHeight__SystemSingle(){} // RVA: 0x7AFBD0DC0
+        public void __get_maxJumpAcrossDistance__SystemSingle(){} // RVA: 0x7AFBD0E60
+        public void __get_minRegionArea__SystemSingle(){} // RVA: 0x7AFBD0F00
+        public void __get_overrideTileSize__SystemBoolean(){} // RVA: 0x7AFBD0FA0
+        public void __get_overrideVoxelSize__SystemBoolean(){} // RVA: 0x7AFBD1050
+        public void __get_preserveTilesOutsideBounds__SystemBoolean(){} // RVA: 0x7AFBD1100
+        public void __get_tileSize__SystemInt32(){} // RVA: 0x7AFBD11B0
+        public void __get_voxelSize__SystemSingle(){} // RVA: 0x7AFBD1260
+        public void __set_agentClimb__SystemSingle__SystemVoid(){} // RVA: 0x7AFBD1300
+        public void __set_agentHeight__SystemSingle__SystemVoid(){} // RVA: 0x7AFBD1440
+        public void __set_agentRadius__SystemSingle__SystemVoid(){} // RVA: 0x7AFBD1580
+        public void __set_agentSlope__SystemSingle__SystemVoid(){} // RVA: 0x7AFBD16C0
+        public void __set_agentTypeID__SystemInt32__SystemVoid(){} // RVA: 0x7AFBD1800
+        public void __set_buildHeightMesh__SystemBoolean__SystemVoid(){} // RVA: 0x7AFBD1930
+        public void __set_debug__UnityEngineAINavMeshBuildDebugSettings__SystemVoid(){} // RVA: 0x7AFBD1A60
+        public void __set_ledgeDropHeight__SystemSingle__SystemVoid(){} // RVA: 0x7AFBD1C80
+        public void __set_maxJumpAcrossDistance__SystemSingle__SystemVoid(){} // RVA: 0x7AFBD1DC0
+        public void __set_minRegionArea__SystemSingle__SystemVoid(){} // RVA: 0x7AFBD1F00
+        public void __set_overrideTileSize__SystemBoolean__SystemVoid(){} // RVA: 0x7AFBD2040
+        public void __set_overrideVoxelSize__SystemBoolean__SystemVoid(){} // RVA: 0x7AFBD2170
+        public void __set_preserveTilesOutsideBounds__SystemBoolean__SystemVoid(){} // RVA: 0x7AFBD22A0
+        public void __set_tileSize__SystemInt32__SystemVoid(){} // RVA: 0x7AFBD23D0
+        public void __set_voxelSize__SystemSingle__SystemVoid(){} // RVA: 0x7AFBD2500
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBD2640
+    }
+
+    public class ExternUnityEngineAINavMeshBuildSettingsArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBD4260
+        public void .ctor(){} // RVA: 0x7AFBD42A0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBD4670
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBD47A0
+        public void __Clone__SystemObject(){} // RVA: 0x7AFBD48B0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFBD49A0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFBD4A80
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBD4B50
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFBD4CA0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBD4D40
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFBD4E50
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFBD4F70
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBD5080
+        public void __GetType__SystemType(){} // RVA: 0x7AFBD51A0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBD5290
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFBD5370
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBD54A0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBD5630
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFBD5780
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFBD58B0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBD59E0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBD5B60
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFBD5CB0
+        public void __Get__SystemInt32__UnityEngineAINavMeshBuildSettings(){} // RVA: 0x7AFBD5DE0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFBD5EF0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFBD5F60
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBD6090
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBD6210
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFBD6370
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFBD64A0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBD65D0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBD6740
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFBD6890
+        public void __Set__SystemInt32_UnityEngineAINavMeshBuildSettings__SystemVoid(){} // RVA: 0x7AFBD69C0
+        public void __ToString__SystemString(){} // RVA: 0x7AFBD6AE0
+        public void __ctor__SystemInt32__UnityEngineAINavMeshBuildSettingsArray(){} // RVA: 0x7AFBD6BE0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFBD6D80
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFBD6E20
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFBD6EC0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFBD6F60
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFBD7000
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFBD70A0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFBD7140
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBD7220
+    }
+
+    public class ExternUnityEngineAINavMeshCollectGeometry : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBD9140
+        public void .ctor(){} // RVA: 0x7AFBD9180
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBD9550
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBD9680
+        public void __CompareTo__SystemObject__SystemInt32(){} // RVA: 0x7AFBD9790
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBD98C0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBD9A00
+        public void __GetType__SystemType(){} // RVA: 0x7AFBD9AB0
+        public void __HasFlag__SystemEnum__SystemBoolean(){} // RVA: 0x7AFBD9BA0
+        public void __ToString__SystemString(){} // RVA: 0x7AFBD9C70
+        public void __ToString__SystemString__SystemString(){} // RVA: 0x7AFBD9D20
+        public void __get_PhysicsColliders__UnityEngineAINavMeshCollectGeometry(){} // RVA: 0x7AFBD9DF0
+        public void __get_RenderMeshes__UnityEngineAINavMeshCollectGeometry(){} // RVA: 0x7AFBD9E60
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBD9ED0
+    }
+
+    public class ExternUnityEngineAINavMeshData : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBDA770
+        public void .ctor(){} // RVA: 0x7AFBDA7B0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBDAB80
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBDACB0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBDADC0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBDAFA0
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AFBDB110
+        public void __GetType__SystemType(){} // RVA: 0x7AFBDB270
+        public void __ToString__SystemString(){} // RVA: 0x7AFBDB360
+        public void __get_name__SystemString(){} // RVA: 0x7AFBDB4D0
+        public void __get_position__UnityEngineVector3(){} // RVA: 0x7AFBDB630
+        public void __get_rotation__UnityEngineQuaternion(){} // RVA: 0x7AFBDB780
+        public void __get_sourceBounds__UnityEngineBounds(){} // RVA: 0x7AFBDB8C0
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFBDBA20
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFBDBD20
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFBDBF20
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AFBDC200
+        public void __set_position__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFBDC360
+        public void __set_rotation__UnityEngineQuaternion__SystemVoid(){} // RVA: 0x7AFBDC4B0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBDC5F0
+    }
+
+    public class ExternUnityEngineAINavMeshDataArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBDD310
+        public void .ctor(){} // RVA: 0x7AFBDD350
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBDD720
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBDD850
+        public void __Clone__SystemObject(){} // RVA: 0x7AFBDD960
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFBDDA50
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFBDDB30
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBDDC00
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFBDDD50
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBDDDF0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFBDDF00
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFBDE020
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBDE130
+        public void __GetType__SystemType(){} // RVA: 0x7AFBDE250
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBDE340
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFBDE420
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBDE550
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBDE6E0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFBDE830
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFBDE960
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBDEA90
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBDEC10
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFBDED60
+        public void __Get__SystemInt32__UnityEngineAINavMeshData(){} // RVA: 0x7AFBDEE90
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFBDEFE0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFBDF050
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBDF180
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBDF300
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFBDF460
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFBDF590
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBDF6C0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBDF830
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFBDF980
+        public void __Set__SystemInt32_UnityEngineAINavMeshData__SystemVoid(){} // RVA: 0x7AFBDFAB0
+        public void __ToString__SystemString(){} // RVA: 0x7AFBDFC50
+        public void __ctor__SystemInt32__UnityEngineAINavMeshDataArray(){} // RVA: 0x7AFBDFD50
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFBDFF10
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFBDFFB0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFBE0050
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFBE00F0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFBE0190
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFBE0230
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFBE02D0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBE03B0
+    }
+
+    public class ExternUnityEngineAINavMeshDataInstance : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBE22D0
+        public void .ctor(){} // RVA: 0x7AFBE2310
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBE26E0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBE2810
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBE2920
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBE2A60
+        public void __GetType__SystemType(){} // RVA: 0x7AFBE2B10
+        public void __Remove__SystemVoid(){} // RVA: 0x7AFBE2C00
+        public void __ToString__SystemString(){} // RVA: 0x7AFBE2CB0
+        public void __get_owner__UnityEngineObject(){} // RVA: 0x7AFBE2D60
+        public void __get_valid__SystemBoolean(){} // RVA: 0x7AFBE2EE0
+        public void __set_owner__UnityEngineObject__SystemVoid(){} // RVA: 0x7AFBE2FD0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBE3160
+    }
+
+    public class ExternUnityEngineAINavMeshDataInstanceArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBE3940
+        public void .ctor(){} // RVA: 0x7AFBE3980
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBE3D50
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBE3E80
+        public void __Clone__SystemObject(){} // RVA: 0x7AFBE3F90
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFBE4080
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFBE4160
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBE4230
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFBE4380
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBE4420
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFBE4530
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFBE4650
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBE4760
+        public void __GetType__SystemType(){} // RVA: 0x7AFBE4880
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBE4970
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFBE4A50
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBE4B80
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBE4D10
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFBE4E60
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFBE4F90
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBE50C0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBE5240
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFBE5390
+        public void __Get__SystemInt32__UnityEngineAINavMeshDataInstance(){} // RVA: 0x7AFBE54C0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFBE55A0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFBE5610
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBE5740
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBE58C0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFBE5A20
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFBE5B50
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBE5C80
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBE5DF0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFBE5F40
+        public void __Set__SystemInt32_UnityEngineAINavMeshDataInstance__SystemVoid(){} // RVA: 0x7AFBE6070
+        public void __ToString__SystemString(){} // RVA: 0x7AFBE6150
+        public void __ctor__SystemInt32__UnityEngineAINavMeshDataInstanceArray(){} // RVA: 0x7AFBE6250
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFBE63F0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFBE6490
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFBE6530
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFBE65D0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFBE6670
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFBE6710
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFBE67B0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBE6890
+    }
+
+    public class ExternUnityEngineAINavMeshHit : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBE87B0
+        public void .ctor(){} // RVA: 0x7AFBE87F0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBE8BC0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBE8CF0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBE8E00
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBE8F40
+        public void __GetType__SystemType(){} // RVA: 0x7AFBE8FF0
+        public void __ToString__SystemString(){} // RVA: 0x7AFBE90E0
+        public void __get_distance__SystemSingle(){} // RVA: 0x7AFBE9190
+        public void __get_hit__SystemBoolean(){} // RVA: 0x7AFBE9230
+        public void __get_mask__SystemInt32(){} // RVA: 0x7AFBE92D0
+        public void __get_normal__UnityEngineVector3(){} // RVA: 0x7AFBE9380
+        public void __get_position__UnityEngineVector3(){} // RVA: 0x7AFBE9450
+        public void __set_distance__SystemSingle__SystemVoid(){} // RVA: 0x7AFBE9510
+        public void __set_hit__SystemBoolean__SystemVoid(){} // RVA: 0x7AFBE9630
+        public void __set_mask__SystemInt32__SystemVoid(){} // RVA: 0x7AFBE9730
+        public void __set_normal__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFBE9840
+        public void __set_position__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFBE9970
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBE9A90
+    }
+
+    public class ExternUnityEngineAINavMeshHitArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBEA6F0
+        public void .ctor(){} // RVA: 0x7AFBEA730
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBEAB00
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBEAC30
+        public void __Clone__SystemObject(){} // RVA: 0x7AFBEAD40
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFBEAE30
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFBEAF10
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBEAFE0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFBEB130
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBEB1D0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFBEB2E0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFBEB400
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBEB510
+        public void __GetType__SystemType(){} // RVA: 0x7AFBEB630
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBEB720
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFBEB800
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBEB930
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBEBAC0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFBEBC10
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFBEBD40
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBEBE70
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBEBFF0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFBEC140
+        public void __Get__SystemInt32__UnityEngineAINavMeshHit(){} // RVA: 0x7AFBEC270
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFBEC370
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFBEC3E0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBEC510
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBEC690
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFBEC7F0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFBEC920
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBECA50
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBECBC0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFBECD10
+        public void __Set__SystemInt32_UnityEngineAINavMeshHit__SystemVoid(){} // RVA: 0x7AFBECE40
+        public void __ToString__SystemString(){} // RVA: 0x7AFBECF50
+        public void __ctor__SystemInt32__UnityEngineAINavMeshHitArray(){} // RVA: 0x7AFBED050
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFBED1F0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFBED290
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFBED330
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFBED3D0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFBED470
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFBED510
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFBED5B0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBED690
+    }
+
+    public class ExternUnityEngineAINavMeshLinkData : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBEF5B0
+        public void .ctor(){} // RVA: 0x7AFBEF5F0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBEF9C0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBEFAF0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBEFC00
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBEFD40
+        public void __GetType__SystemType(){} // RVA: 0x7AFBEFDF0
+        public void __ToString__SystemString(){} // RVA: 0x7AFBEFEE0
+        public void __get_agentTypeID__SystemInt32(){} // RVA: 0x7AFBEFF90
+        public void __get_area__SystemInt32(){} // RVA: 0x7AFBF0030
+        public void __get_bidirectional__SystemBoolean(){} // RVA: 0x7AFBF00E0
+        public void __get_costModifier__SystemSingle(){} // RVA: 0x7AFBF0190
+        public void __get_endPosition__UnityEngineVector3(){} // RVA: 0x7AFBF0230
+        public void __get_startPosition__UnityEngineVector3(){} // RVA: 0x7AFBF0300
+        public void __get_width__SystemSingle(){} // RVA: 0x7AFBF03C0
+        public void __set_agentTypeID__SystemInt32__SystemVoid(){} // RVA: 0x7AFBF0470
+        public void __set_area__SystemInt32__SystemVoid(){} // RVA: 0x7AFBF0590
+        public void __set_bidirectional__SystemBoolean__SystemVoid(){} // RVA: 0x7AFBF06C0
+        public void __set_costModifier__SystemSingle__SystemVoid(){} // RVA: 0x7AFBF07F0
+        public void __set_endPosition__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFBF0930
+        public void __set_startPosition__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFBF0A80
+        public void __set_width__SystemSingle__SystemVoid(){} // RVA: 0x7AFBF0BD0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBF0D10
+    }
+
+    public class ExternUnityEngineAINavMeshLinkDataArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBF1C70
+        public void .ctor(){} // RVA: 0x7AFBF1CB0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBF2080
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBF21B0
+        public void __Clone__SystemObject(){} // RVA: 0x7AFBF22C0
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFBF23B0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFBF2490
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBF2560
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFBF26B0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBF2750
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFBF2860
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFBF2980
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBF2A90
+        public void __GetType__SystemType(){} // RVA: 0x7AFBF2BB0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBF2CA0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFBF2D80
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBF2EB0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBF3040
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFBF3190
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFBF32C0
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBF33F0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBF3570
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFBF36C0
+        public void __Get__SystemInt32__UnityEngineAINavMeshLinkData(){} // RVA: 0x7AFBF37F0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFBF3900
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFBF3970
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBF3AA0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBF3C20
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFBF3D80
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFBF3EB0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBF3FE0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBF4150
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFBF42A0
+        public void __Set__SystemInt32_UnityEngineAINavMeshLinkData__SystemVoid(){} // RVA: 0x7AFBF43D0
+        public void __ToString__SystemString(){} // RVA: 0x7AFBF44E0
+        public void __ctor__SystemInt32__UnityEngineAINavMeshLinkDataArray(){} // RVA: 0x7AFBF45E0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFBF4780
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFBF4820
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFBF48C0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFBF4960
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFBF4A00
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFBF4AA0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFBF4B40
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBF4C20
+    }
+
+    public class ExternUnityEngineAINavMeshLinkInstance : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBF6B40
+        public void .ctor(){} // RVA: 0x7AFBF6B80
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBF6F50
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBF7080
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBF7190
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBF72D0
+        public void __GetType__SystemType(){} // RVA: 0x7AFBF7380
+        public void __Remove__SystemVoid(){} // RVA: 0x7AFBF7470
+        public void __ToString__SystemString(){} // RVA: 0x7AFBF7520
+        public void __get_owner__UnityEngineObject(){} // RVA: 0x7AFBF75D0
+        public void __get_valid__SystemBoolean(){} // RVA: 0x7AFBF7750
+        public void __set_owner__UnityEngineObject__SystemVoid(){} // RVA: 0x7AFBF7840
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBF79D0
+    }
+
+    public class ExternUnityEngineAINavMeshLinkInstanceArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBF81B0
+        public void .ctor(){} // RVA: 0x7AFBF81F0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBF85C0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBF86F0
+        public void __Clone__SystemObject(){} // RVA: 0x7AFBF8800
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFBF88F0
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFBF89D0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBF8AA0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFBF8BF0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFBF8C90
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFBF8DA0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFBF8EC0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBF8FD0
+        public void __GetType__SystemType(){} // RVA: 0x7AFBF90F0
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFBF91E0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFBF92C0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBF93F0
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFBF9580
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFBF96D0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFBF9800
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBF9930
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFBF9AB0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFBF9C00
+        public void __Get__SystemInt32__UnityEngineAINavMeshLinkInstance(){} // RVA: 0x7AFBF9D30
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFBF9E10
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFBF9E80
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBF9FB0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFBFA130
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFBFA290
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFBFA3C0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBFA4F0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFBFA660
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFBFA7B0
+        public void __Set__SystemInt32_UnityEngineAINavMeshLinkInstance__SystemVoid(){} // RVA: 0x7AFBFA8E0
+        public void __ToString__SystemString(){} // RVA: 0x7AFBFA9C0
+        public void __ctor__SystemInt32__UnityEngineAINavMeshLinkInstanceArray(){} // RVA: 0x7AFBFAAC0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFBFAC60
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFBFAD00
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFBFADA0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFBFAE40
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFBFAEE0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFBFAF80
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFBFB020
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFBFB100
+    }
+
+    public class ExternUnityEngineAINavMeshObstacle : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFBFD020
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7AFBFD060
+        public void .ctor(){} // RVA: 0x7AFBFD110
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFBFD4E0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFBFD610
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFBFD720
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFBFD900
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFBFD9F0
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFBFDCB0
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x7AFBFDE10
+        public void __GetComponentInChildren__T(){} // RVA: 0x7AFBFDF40
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x7AFBFE030
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFBFE2B0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFBFE3A0
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFBFE660
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFBFE7C0
+        public void __GetComponentInParent__T(){} // RVA: 0x7AFBFE8F0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x7AFBFE9E0
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x7AFBFEC60
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFBFEDE0
+        public void __GetComponent__T(){} // RVA: 0x7AFBFEF10
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x7AFBFEFF0
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFBFF250
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFBFF340
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFBFF680
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFBFF770
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFBFFAD0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFBFFBC0
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFBFFEE0
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC00050
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x7AFC00190
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x7AFC00280
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC00580
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC00670
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC009D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC00AC0
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC00DE0
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC00F50
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x7AFC01090
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x7AFC01180
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC01480
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC01570
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x7AFC01870
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC019C0
+        public void __GetComponents__TArray(){} // RVA: 0x7AFC01B00
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x7AFC01BF0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC01EC0
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AFC02030
+        public void __GetType__SystemType(){} // RVA: 0x7AFC02190
+        public void __ToString__SystemString(){} // RVA: 0x7AFC02280
+        public void __get_carveOnlyStationary__SystemBoolean(){} // RVA: 0x7AFC023F0
+        public void __get_carvingMoveThreshold__SystemSingle(){} // RVA: 0x7AFC02520
+        public void __get_carvingTimeToStationary__SystemSingle(){} // RVA: 0x7AFC02650
+        public void __get_carving__SystemBoolean(){} // RVA: 0x7AFC02780
+        public void __get_center__UnityEngineVector3(){} // RVA: 0x7AFC028B0
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x7AFC02A00
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x7AFC02B30
+        public void __get_height__SystemSingle(){} // RVA: 0x7AFC02C80
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x7AFC02DB0
+        public void __get_name__SystemString(){} // RVA: 0x7AFC02EE0
+        public void __get_radius__SystemSingle(){} // RVA: 0x7AFC03040
+        public void __get_shape__UnityEngineAINavMeshObstacleShape(){} // RVA: 0x7AFC03170
+        public void __get_size__UnityEngineVector3(){} // RVA: 0x7AFC032A0
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x7AFC033F0
+        public void __get_velocity__UnityEngineVector3(){} // RVA: 0x7AFC03540
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC03690
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC03990
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC03B90
+        public void __set_carveOnlyStationary__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC03E70
+        public void __set_carvingMoveThreshold__SystemSingle__SystemVoid(){} // RVA: 0x7AFC03FA0
+        public void __set_carvingTimeToStationary__SystemSingle__SystemVoid(){} // RVA: 0x7AFC040E0
+        public void __set_carving__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC04220
+        public void __set_center__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC04350
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC044A0
+        public void __set_height__SystemSingle__SystemVoid(){} // RVA: 0x7AFC045D0
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AFC04710
+        public void __set_radius__SystemSingle__SystemVoid(){} // RVA: 0x7AFC04870
+        public void __set_shape__UnityEngineAINavMeshObstacleShape__SystemVoid(){} // RVA: 0x7AFC049B0
+        public void __set_size__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC04AE0
+        public void __set_velocity__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC04C30
+        public void <.ctor>b__8_1(){} // RVA: 0x7AFC04D80
+    }
+
+    public class ExternUnityEngineAINavMeshObstacleArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC07D10
+        public void .ctor(){} // RVA: 0x7AFC07D50
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC08120
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC08250
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC08360
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC08450
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC08530
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC08600
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC08750
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC087F0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC08900
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC08A20
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC08B30
+        public void __GetType__SystemType(){} // RVA: 0x7AFC08C50
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC08D40
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC08E20
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC08F50
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC090E0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC09230
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC09360
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC09490
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC09610
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC09760
+        public void __Get__SystemInt32__UnityEngineAINavMeshObstacle(){} // RVA: 0x7AFC09890
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC099E0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC09A50
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC09B80
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC09D00
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC09E60
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC09F90
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC0A0C0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC0A230
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC0A380
+        public void __Set__SystemInt32_UnityEngineAINavMeshObstacle__SystemVoid(){} // RVA: 0x7AFC0A4B0
+        public void __ToString__SystemString(){} // RVA: 0x7AFC0A650
+        public void __ctor__SystemInt32__UnityEngineAINavMeshObstacleArray(){} // RVA: 0x7AFC0A750
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC0A850
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC0A8F0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC0A990
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC0AA30
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC0AAD0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC0AB70
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC0AC10
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC0ACF0
+    }
+
+    public class ExternUnityEngineAINavMeshPath : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC0CC10
+        public void .ctor(){} // RVA: 0x7AFC0CC50
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC0D020
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC0D150
+        public void __ClearCorners__SystemVoid(){} // RVA: 0x7AFC0D260
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC0D2D0
+        public void __GetCornersNonAlloc__UnityEngineVector3Array__SystemInt32(){} // RVA: 0x7AFC0D420
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC0D540
+        public void __GetType__SystemType(){} // RVA: 0x7AFC0D650
+        public void __ToString__SystemString(){} // RVA: 0x7AFC0D740
+        public void __ctor____UnityEngineAINavMeshPath(){} // RVA: 0x7AFC0D840
+        public void __get_corners__UnityEngineVector3Array(){} // RVA: 0x7AFC0D910
+        public void __get_status__UnityEngineAINavMeshPathStatus(){} // RVA: 0x7AFC0D9B0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC0DAA0
+    }
+
+    public class ExternUnityEngineAINavMeshPathArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC0E340
+        public void .ctor(){} // RVA: 0x7AFC0E380
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC0E750
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC0E880
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC0E990
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC0EA80
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC0EB60
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC0EC30
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC0ED80
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC0EE20
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC0EF30
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC0F050
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC0F160
+        public void __GetType__SystemType(){} // RVA: 0x7AFC0F280
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC0F370
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC0F450
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC0F580
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC0F710
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC0F860
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC0F990
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC0FAC0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC0FC40
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC0FD90
+        public void __Get__SystemInt32__UnityEngineAINavMeshPath(){} // RVA: 0x7AFC0FEC0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC0FFA0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC10010
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC10140
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC102C0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC10420
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC10550
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC10680
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC107F0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC10940
+        public void __Set__SystemInt32_UnityEngineAINavMeshPath__SystemVoid(){} // RVA: 0x7AFC10A70
+        public void __ToString__SystemString(){} // RVA: 0x7AFC10BB0
+        public void __ctor__SystemInt32__UnityEngineAINavMeshPathArray(){} // RVA: 0x7AFC10CB0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC10E50
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC10EF0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC10F90
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC11030
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC110D0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC11170
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC11210
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC112F0
+    }
+
+    public class ExternUnityEngineAINavMeshQueryFilter : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC3DCD0
+        public void .ctor(){} // RVA: 0x7AFC3DD10
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC3E0E0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC3E210
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC3E320
+        public void __GetAreaCost__SystemInt32__SystemSingle(){} // RVA: 0x7AFC3E460
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC3E540
+        public void __GetType__SystemType(){} // RVA: 0x7AFC3E5F0
+        public void __SetAreaCost__SystemInt32_SystemSingle__SystemVoid(){} // RVA: 0x7AFC3E6E0
+        public void __ToString__SystemString(){} // RVA: 0x7AFC3E7D0
+        public void __get_agentTypeID__SystemInt32(){} // RVA: 0x7AFC3E880
+        public void __get_areaMask__SystemInt32(){} // RVA: 0x7AFC3E920
+        public void __set_agentTypeID__SystemInt32__SystemVoid(){} // RVA: 0x7AFC3E9C0
+        public void __set_areaMask__SystemInt32__SystemVoid(){} // RVA: 0x7AFC3EAA0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC3EB80
+    }
+
+    public class ExternUnityEngineAINavMeshQueryFilterArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC3F4E0
+        public void .ctor(){} // RVA: 0x7AFC3F520
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC3F8F0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC3FA20
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC3FB30
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC3FC20
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC3FD00
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC3FDD0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC3FF20
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC3FFC0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC400D0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC401F0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC40300
+        public void __GetType__SystemType(){} // RVA: 0x7AFC40420
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC40510
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC405F0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC40720
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC408B0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC40A00
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC40B30
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC40C60
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC40DE0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC40F30
+        public void __Get__SystemInt32__UnityEngineAINavMeshQueryFilter(){} // RVA: 0x7AFC41060
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC41150
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC411C0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC412F0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC41470
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC415D0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC41700
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC41830
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC419A0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC41AF0
+        public void __Set__SystemInt32_UnityEngineAINavMeshQueryFilter__SystemVoid(){} // RVA: 0x7AFC41C20
+        public void __ToString__SystemString(){} // RVA: 0x7AFC41D80
+        public void __ctor__SystemInt32__UnityEngineAINavMeshQueryFilterArray(){} // RVA: 0x7AFC41E80
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC42020
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC420C0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC42160
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC42200
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC422A0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC42340
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC423E0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC424C0
+    }
+
+    public class ExternUnityEngineAINavMeshTriangulationArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC45E10
+        public void .ctor(){} // RVA: 0x7AFC45E50
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC46220
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC46350
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC46460
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC46550
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC46630
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC46700
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC46850
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC468F0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC46A00
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC46B20
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC46C30
+        public void __GetType__SystemType(){} // RVA: 0x7AFC46D50
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC46E40
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC46F20
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC47050
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC471E0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC47330
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC47460
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC47590
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC47710
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC47860
+        public void __Get__SystemInt32__UnityEngineAINavMeshTriangulation(){} // RVA: 0x7AFC47990
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC47A90
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC47B00
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC47C30
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC47DB0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC47F10
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC48040
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC48170
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC482E0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC48430
+        public void __Set__SystemInt32_UnityEngineAINavMeshTriangulation__SystemVoid(){} // RVA: 0x7AFC48560
+        public void __ToString__SystemString(){} // RVA: 0x7AFC486D0
+        public void __ctor__SystemInt32__UnityEngineAINavMeshTriangulationArray(){} // RVA: 0x7AFC487D0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC48970
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC48A10
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC48AB0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC48B50
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC48BF0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC48C90
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC48D30
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC48E10
+    }
+
+    public class ExternUnityEngineAIOffMeshLink : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC4AD30
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7AFC4AD70
+        public void .ctor(){} // RVA: 0x7AFC4AE20
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC4B1F0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC4B320
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC4B430
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFC4B610
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFC4B700
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFC4B9C0
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC4BB20
+        public void __GetComponentInChildren__T(){} // RVA: 0x7AFC4BC50
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x7AFC4BD40
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFC4BFC0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFC4C0B0
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFC4C370
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC4C4D0
+        public void __GetComponentInParent__T(){} // RVA: 0x7AFC4C600
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x7AFC4C6F0
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x7AFC4C970
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC4CAF0
+        public void __GetComponent__T(){} // RVA: 0x7AFC4CC20
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x7AFC4CD00
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFC4CF60
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFC4D050
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC4D390
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC4D480
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFC4D7E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFC4D8D0
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC4DBF0
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC4DD60
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x7AFC4DEA0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x7AFC4DF90
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC4E290
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC4E380
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC4E6E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC4E7D0
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC4EAF0
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC4EC60
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x7AFC4EDA0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x7AFC4EE90
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC4F190
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC4F280
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x7AFC4F580
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC4F6D0
+        public void __GetComponents__TArray(){} // RVA: 0x7AFC4F810
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x7AFC4F900
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC4FBD0
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AFC4FD40
+        public void __GetType__SystemType(){} // RVA: 0x7AFC4FEA0
+        public void __ToString__SystemString(){} // RVA: 0x7AFC4FF90
+        public void __UpdatePositions__SystemVoid(){} // RVA: 0x7AFC50100
+        public void __get_activated__SystemBoolean(){} // RVA: 0x7AFC501F0
+        public void __get_area__SystemInt32(){} // RVA: 0x7AFC50320
+        public void __get_autoUpdatePositions__SystemBoolean(){} // RVA: 0x7AFC50450
+        public void __get_biDirectional__SystemBoolean(){} // RVA: 0x7AFC50580
+        public void __get_costOverride__SystemSingle(){} // RVA: 0x7AFC506B0
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x7AFC507E0
+        public void __get_endTransform__UnityEngineTransform(){} // RVA: 0x7AFC50910
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x7AFC50A60
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x7AFC50BB0
+        public void __get_name__SystemString(){} // RVA: 0x7AFC50CE0
+        public void __get_occupied__SystemBoolean(){} // RVA: 0x7AFC50E40
+        public void __get_startTransform__UnityEngineTransform(){} // RVA: 0x7AFC50F70
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x7AFC510C0
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC51210
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC51510
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC51710
+        public void __set_activated__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC519F0
+        public void __set_area__SystemInt32__SystemVoid(){} // RVA: 0x7AFC51B20
+        public void __set_autoUpdatePositions__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC51C50
+        public void __set_biDirectional__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC51D80
+        public void __set_costOverride__SystemSingle__SystemVoid(){} // RVA: 0x7AFC51EB0
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC51FF0
+        public void __set_endTransform__UnityEngineTransform__SystemVoid(){} // RVA: 0x7AFC52120
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AFC52270
+        public void __set_startTransform__UnityEngineTransform__SystemVoid(){} // RVA: 0x7AFC523D0
+        public void <.ctor>b__8_1(){} // RVA: 0x7AFC52520
+    }
+
+    public class ExternUnityEngineAIOffMeshLinkArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC551C0
+        public void .ctor(){} // RVA: 0x7AFC55200
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC555D0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC55700
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC55810
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC55900
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC559E0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC55AB0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC55C00
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC55CA0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC55DB0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC55ED0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC55FE0
+        public void __GetType__SystemType(){} // RVA: 0x7AFC56100
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC561F0
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC562D0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC56400
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC56590
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC566E0
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC56810
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC56940
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC56AC0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC56C10
+        public void __Get__SystemInt32__UnityEngineAIOffMeshLink(){} // RVA: 0x7AFC56D40
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC56E90
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC56F00
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC57030
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC571B0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC57310
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC57440
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC57570
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC576E0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC57830
+        public void __Set__SystemInt32_UnityEngineAIOffMeshLink__SystemVoid(){} // RVA: 0x7AFC57960
+        public void __ToString__SystemString(){} // RVA: 0x7AFC57B00
+        public void __ctor__SystemInt32__UnityEngineAIOffMeshLinkArray(){} // RVA: 0x7AFC57C00
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC57D00
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC57DA0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC57E40
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC57EE0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC57F80
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC58020
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC580C0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC581A0
+    }
+
+    public class ExternUnityEngineAIOffMeshLinkData : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC5A0C0
+        public void .ctor(){} // RVA: 0x7AFC5A100
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC5A4D0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC5A600
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC5A710
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC5A850
+        public void __GetType__SystemType(){} // RVA: 0x7AFC5A900
+        public void __ToString__SystemString(){} // RVA: 0x7AFC5A9F0
+        public void __get_activated__SystemBoolean(){} // RVA: 0x7AFC5AAA0
+        public void __get_endPos__UnityEngineVector3(){} // RVA: 0x7AFC5AB50
+        public void __get_linkType__UnityEngineAIOffMeshLinkType(){} // RVA: 0x7AFC5AC20
+        public void __get_offMeshLink__UnityEngineAIOffMeshLink(){} // RVA: 0x7AFC5ACD0
+        public void __get_startPos__UnityEngineVector3(){} // RVA: 0x7AFC5AE10
+        public void __get_valid__SystemBoolean(){} // RVA: 0x7AFC5AED0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC5AF80
+    }
+
+    public class ExternUnityEngineAIOffMeshLinkDataArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC5B8E0
+        public void .ctor(){} // RVA: 0x7AFC5B920
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC5BCF0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC5BE20
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC5BF30
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC5C020
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC5C100
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC5C1D0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC5C320
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC5C3C0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC5C4D0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC5C5F0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC5C700
+        public void __GetType__SystemType(){} // RVA: 0x7AFC5C820
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC5C910
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC5C9F0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC5CB20
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC5CCB0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC5CE00
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC5CF30
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC5D060
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC5D1E0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC5D330
+        public void __Get__SystemInt32__UnityEngineAIOffMeshLinkData(){} // RVA: 0x7AFC5D460
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC5D560
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC5D5D0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC5D700
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC5D880
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC5D9E0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC5DB10
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC5DC40
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC5DDB0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC5DF00
+        public void __Set__SystemInt32_UnityEngineAIOffMeshLinkData__SystemVoid(){} // RVA: 0x7AFC5E030
+        public void __ToString__SystemString(){} // RVA: 0x7AFC5E140
+        public void __ctor__SystemInt32__UnityEngineAIOffMeshLinkDataArray(){} // RVA: 0x7AFC5E240
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC5E3E0
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC5E480
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC5E520
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC5E5C0
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC5E660
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC5E700
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC5E7A0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC5E880
+    }
+
+    public class ExternUnityEngineAnimationClip : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC607A0
+        public void .ctor(){} // RVA: 0x7AFC607E0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC60BB0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC60CE0
+        public void __ClearCurves__SystemVoid(){} // RVA: 0x7AFC60DF0
+        public void __EnsureQuaternionContinuity__SystemVoid(){} // RVA: 0x7AFC60EE0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC60FD0
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC611B0
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AFC61320
+        public void __GetType__SystemType(){} // RVA: 0x7AFC61480
+        public void __SampleAnimation__UnityEngineGameObject_SystemSingle__SystemVoid(){} // RVA: 0x7AFC61570
+        public void __SetCurve__SystemString_SystemType_SystemString_UnityEngineAnimationCurve__SystemVoid(){} // RVA: 0x7AFC616C0
+        public void __ToString__SystemString(){} // RVA: 0x7AFC61830
+        public void __get_apparentSpeed__SystemSingle(){} // RVA: 0x7AFC619A0
+        public void __get_averageAngularSpeed__SystemSingle(){} // RVA: 0x7AFC61AD0
+        public void __get_averageDuration__SystemSingle(){} // RVA: 0x7AFC61C00
+        public void __get_averageSpeed__UnityEngineVector3(){} // RVA: 0x7AFC61D30
+        public void __get_empty__SystemBoolean(){} // RVA: 0x7AFC61E80
+        public void __get_frameRate__SystemSingle(){} // RVA: 0x7AFC61FB0
+        public void __get_hasGenericRootTransform__SystemBoolean(){} // RVA: 0x7AFC620E0
+        public void __get_hasMotionCurves__SystemBoolean(){} // RVA: 0x7AFC62210
+        public void __get_hasMotionFloatCurves__SystemBoolean(){} // RVA: 0x7AFC62340
+        public void __get_hasRootCurves__SystemBoolean(){} // RVA: 0x7AFC62470
+        public void __get_humanMotion__SystemBoolean(){} // RVA: 0x7AFC625A0
+        public void __get_isHumanMotion__SystemBoolean(){} // RVA: 0x7AFC626D0
+        public void __get_isLooping__SystemBoolean(){} // RVA: 0x7AFC62800
+        public void __get_length__SystemSingle(){} // RVA: 0x7AFC62930
+        public void __get_localBounds__UnityEngineBounds(){} // RVA: 0x7AFC62A60
+        public void __get_name__SystemString(){} // RVA: 0x7AFC62BC0
+        public void __get_wrapMode__UnityEngineWrapMode(){} // RVA: 0x7AFC62D20
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC62E50
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC63150
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC63350
+        public void __set_frameRate__SystemSingle__SystemVoid(){} // RVA: 0x7AFC63630
+        public void __set_localBounds__UnityEngineBounds__SystemVoid(){} // RVA: 0x7AFC63770
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AFC638C0
+        public void __set_wrapMode__UnityEngineWrapMode__SystemVoid(){} // RVA: 0x7AFC63A20
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC63B50
+    }
+
+    public class ExternUnityEngineAnimationClipArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC655F0
+        public void .ctor(){} // RVA: 0x7AFC65630
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC65A00
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC65B30
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC65C40
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC65D30
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC65E10
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC65EE0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC66030
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC660D0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC661E0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC66300
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC66410
+        public void __GetType__SystemType(){} // RVA: 0x7AFC66530
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC66620
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC66700
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC66830
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC669C0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC66B10
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC66C40
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC66D70
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC66EF0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC67040
+        public void __Get__SystemInt32__UnityEngineAnimationClip(){} // RVA: 0x7AFC67170
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC672C0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC67330
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC67460
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC675E0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC67740
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC67870
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC679A0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC67B10
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC67C60
+        public void __Set__SystemInt32_UnityEngineAnimationClip__SystemVoid(){} // RVA: 0x7AFC67D90
+        public void __ToString__SystemString(){} // RVA: 0x7AFC67F30
+        public void __ctor__SystemInt32__UnityEngineAnimationClipArray(){} // RVA: 0x7AFC68030
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC68130
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC681D0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC68270
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC68310
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC683B0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC68450
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC684F0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC685D0
+    }
+
+    public class ExternUnityEngineAnimationCurve : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC6A4F0
+        public void .ctor(){} // RVA: 0x7AFC6A530
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC6A900
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC6AA30
+        public void __AddKey__SystemSingle_SystemSingle__SystemInt32(){} // RVA: 0x7AFC6AB40
+        public void __AddKey__UnityEngineKeyframe__SystemInt32(){} // RVA: 0x7AFC6AC60
+        public void __ClearKeys__SystemVoid(){} // RVA: 0x7AFC6ADA0
+        public void __Constant__SystemSingle_SystemSingle_SystemSingle__UnityEngineAnimationCurve(){} // RVA: 0x7AFC6AE50
+        public void __CopyFrom__UnityEngineAnimationCurve__SystemVoid(){} // RVA: 0x7AFC6AF60
+        public void __EaseInOut__SystemSingle_SystemSingle_SystemSingle_SystemSingle__UnityEngineAnimationCurve(){} // RVA: 0x7AFC6B040
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC6B180
+        public void __Equals__UnityEngineAnimationCurve__SystemBoolean(){} // RVA: 0x7AFC6B2C0
+        public void __Evaluate__SystemSingle__SystemSingle(){} // RVA: 0x7AFC6B390
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC6B4C0
+        public void __GetType__SystemType(){} // RVA: 0x7AFC6B570
+        public void __Linear__SystemSingle_SystemSingle_SystemSingle_SystemSingle__UnityEngineAnimationCurve(){} // RVA: 0x7AFC6B660
+        public void __MoveKey__SystemInt32_UnityEngineKeyframe__SystemInt32(){} // RVA: 0x7AFC6B7A0
+        public void __RemoveKey__SystemInt32__SystemVoid(){} // RVA: 0x7AFC6B930
+        public void __SmoothTangents__SystemInt32_SystemSingle__SystemVoid(){} // RVA: 0x7AFC6BA20
+        public void __ToString__SystemString(){} // RVA: 0x7AFC6BB60
+        public void __ctor__UnityEngineKeyframeArray__UnityEngineAnimationCurve(){} // RVA: 0x7AFC6BC60
+        public void __ctor____UnityEngineAnimationCurve(){} // RVA: 0x7AFC6BD70
+        public void __get_Item__SystemInt32__UnityEngineKeyframe(){} // RVA: 0x7AFC6BE40
+        public void __get_keys__UnityEngineKeyframeArray(){} // RVA: 0x7AFC6C080
+        public void __get_length__SystemInt32(){} // RVA: 0x7AFC6C240
+        public void __get_postWrapMode__UnityEngineWrapMode(){} // RVA: 0x7AFC6C330
+        public void __get_preWrapMode__UnityEngineWrapMode(){} // RVA: 0x7AFC6C420
+        public void __set_keys__UnityEngineKeyframeArray__SystemVoid(){} // RVA: 0x7AFC6C510
+        public void __set_postWrapMode__UnityEngineWrapMode__SystemVoid(){} // RVA: 0x7AFC6C600
+        public void __set_preWrapMode__UnityEngineWrapMode__SystemVoid(){} // RVA: 0x7AFC6C6F0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC6C7E0
+    }
+
+    public class ExternUnityEngineAnimationCurveArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC6DD40
+        public void .ctor(){} // RVA: 0x7AFC6DD80
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC6E150
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC6E280
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC6E390
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC6E480
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC6E560
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC6E630
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC6E780
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC6E820
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC6E930
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC6EA50
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC6EB60
+        public void __GetType__SystemType(){} // RVA: 0x7AFC6EC80
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC6ED70
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC6EE50
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC6EF80
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC6F110
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC6F260
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC6F390
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC6F4C0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC6F640
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC6F790
+        public void __Get__SystemInt32__UnityEngineAnimationCurve(){} // RVA: 0x7AFC6F8C0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC6F9A0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC6FA10
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC6FB40
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC6FCC0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC6FE20
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC6FF50
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC70080
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC701F0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC70340
+        public void __Set__SystemInt32_UnityEngineAnimationCurve__SystemVoid(){} // RVA: 0x7AFC70470
+        public void __ToString__SystemString(){} // RVA: 0x7AFC70590
+        public void __ctor__SystemInt32__UnityEngineAnimationCurveArray(){} // RVA: 0x7AFC70690
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC70830
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC708D0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC70970
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC70A10
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC70AB0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC70B50
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC70BF0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC70CD0
+    }
+
+    public class ExternUnityEngineAnimationsAimConstraint : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC72BF0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7AFC72C30
+        public void .ctor(){} // RVA: 0x7AFC72CE0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC730B0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC731E0
+        public void __AddSource__UnityEngineAnimationsConstraintSource__SystemInt32(){} // RVA: 0x7AFC732F0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC73470
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFC73650
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFC73740
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFC73A00
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC73B60
+        public void __GetComponentInChildren__T(){} // RVA: 0x7AFC73C90
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x7AFC73D80
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFC74000
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFC740F0
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFC743B0
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC74510
+        public void __GetComponentInParent__T(){} // RVA: 0x7AFC74640
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x7AFC74730
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x7AFC749B0
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC74B30
+        public void __GetComponent__T(){} // RVA: 0x7AFC74C60
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x7AFC74D40
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFC74FA0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFC75090
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC753D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC754C0
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFC75820
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFC75910
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC75C30
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC75DA0
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x7AFC75EE0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x7AFC75FD0
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC762D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC763C0
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC76720
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC76810
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC76B30
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC76CA0
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x7AFC76DE0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x7AFC76ED0
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC771D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC772C0
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x7AFC775C0
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC77710
+        public void __GetComponents__TArray(){} // RVA: 0x7AFC77850
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x7AFC77940
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC77C10
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AFC77D80
+        public void __GetSource__SystemInt32__UnityEngineAnimationsConstraintSource(){} // RVA: 0x7AFC77EE0
+        public void __GetSources__SystemCollectionsGenericListUnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC78070
+        public void __GetType__SystemType(){} // RVA: 0x7AFC781A0
+        public void __RemoveSource__SystemInt32__SystemVoid(){} // RVA: 0x7AFC78290
+        public void __SetSource__SystemInt32_UnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC783D0
+        public void __SetSources__SystemCollectionsGenericListUnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC78550
+        public void __ToString__SystemString(){} // RVA: 0x7AFC786D0
+        public void __get_aimVector__UnityEngineVector3(){} // RVA: 0x7AFC78840
+        public void __get_constraintActive__SystemBoolean(){} // RVA: 0x7AFC78990
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x7AFC78AC0
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x7AFC78BF0
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x7AFC78D40
+        public void __get_locked__SystemBoolean(){} // RVA: 0x7AFC78E70
+        public void __get_name__SystemString(){} // RVA: 0x7AFC78FA0
+        public void __get_rotationAtRest__UnityEngineVector3(){} // RVA: 0x7AFC79100
+        public void __get_rotationAxis__UnityEngineAnimationsAxis(){} // RVA: 0x7AFC79250
+        public void __get_rotationOffset__UnityEngineVector3(){} // RVA: 0x7AFC79380
+        public void __get_sourceCount__SystemInt32(){} // RVA: 0x7AFC794D0
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x7AFC79600
+        public void __get_upVector__UnityEngineVector3(){} // RVA: 0x7AFC79750
+        public void __get_weight__SystemSingle(){} // RVA: 0x7AFC798A0
+        public void __get_worldUpObject__UnityEngineTransform(){} // RVA: 0x7AFC799D0
+        public void __get_worldUpType__UnityEngineAnimationsAimConstraintWorldUpType(){} // RVA: 0x7AFC79B20
+        public void __get_worldUpVector__UnityEngineVector3(){} // RVA: 0x7AFC79C50
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC79DA0
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC7A0A0
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC7A2A0
+        public void __set_aimVector__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC7A580
+        public void __set_constraintActive__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC7A6D0
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC7A800
+        public void __set_locked__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC7A930
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AFC7AA60
+        public void __set_rotationAtRest__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC7ABC0
+        public void __set_rotationAxis__UnityEngineAnimationsAxis__SystemVoid(){} // RVA: 0x7AFC7AD10
+        public void __set_rotationOffset__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC7AE40
+        public void __set_upVector__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC7AF90
+        public void __set_weight__SystemSingle__SystemVoid(){} // RVA: 0x7AFC7B0E0
+        public void __set_worldUpObject__UnityEngineTransform__SystemVoid(){} // RVA: 0x7AFC7B220
+        public void __set_worldUpType__UnityEngineAnimationsAimConstraintWorldUpType__SystemVoid(){} // RVA: 0x7AFC7B370
+        public void __set_worldUpVector__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC7B4A0
+        public void <.ctor>b__8_1(){} // RVA: 0x7AFC7B5F0
+    }
+
+    public class ExternUnityEngineAnimationsAimConstraintArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC7EC40
+        public void .ctor(){} // RVA: 0x7AFC7EC80
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC7F050
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC7F180
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC7F290
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC7F380
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC7F460
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC7F530
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC7F680
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC7F720
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC7F830
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC7F950
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC7FA60
+        public void __GetType__SystemType(){} // RVA: 0x7AFC7FB80
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC7FC70
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC7FD50
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC7FE80
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC80010
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC80160
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC80290
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC803C0
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC80540
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC80690
+        public void __Get__SystemInt32__UnityEngineAnimationsAimConstraint(){} // RVA: 0x7AFC807C0
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC80910
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC80980
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC80AB0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC80C30
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC80D90
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC80EC0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC80FF0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC81160
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC812B0
+        public void __Set__SystemInt32_UnityEngineAnimationsAimConstraint__SystemVoid(){} // RVA: 0x7AFC813E0
+        public void __ToString__SystemString(){} // RVA: 0x7AFC81580
+        public void __ctor__SystemInt32__UnityEngineAnimationsAimConstraintArray(){} // RVA: 0x7AFC81680
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC81780
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC81820
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC818C0
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC81960
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC81A00
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC81AA0
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC81B40
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC81C20
+    }
+
+    public class ExternUnityEngineAnimationsConstraintSource : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC83B40
+        public void .ctor(){} // RVA: 0x7AFC83B80
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC83F50
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC84080
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC84190
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC842D0
+        public void __GetType__SystemType(){} // RVA: 0x7AFC84380
+        public void __ToString__SystemString(){} // RVA: 0x7AFC84470
+        public void __get_sourceTransform__UnityEngineTransform(){} // RVA: 0x7AFC84520
+        public void __get_weight__SystemSingle(){} // RVA: 0x7AFC84600
+        public void __set_sourceTransform__UnityEngineTransform__SystemVoid(){} // RVA: 0x7AFC846A0
+        public void __set_weight__SystemSingle__SystemVoid(){} // RVA: 0x7AFC84820
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC84900
+    }
+
+    public class ExternUnityEngineAnimationsConstraintSourceArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC850E0
+        public void .ctor(){} // RVA: 0x7AFC85120
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC854F0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC85620
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC85730
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC85820
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC85900
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC859D0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC85B20
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC85BC0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC85CD0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC85DF0
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC85F00
+        public void __GetType__SystemType(){} // RVA: 0x7AFC86020
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC86110
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC861F0
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC86320
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC864B0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC86600
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC86730
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC86860
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC869E0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC86B30
+        public void __Get__SystemInt32__UnityEngineAnimationsConstraintSource(){} // RVA: 0x7AFC86C60
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC86D50
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC86DC0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC86EF0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC87070
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC871D0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC87300
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC87430
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC875A0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC876F0
+        public void __Set__SystemInt32_UnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC87820
+        public void __ToString__SystemString(){} // RVA: 0x7AFC87980
+        public void __ctor__SystemInt32__UnityEngineAnimationsConstraintSourceArray(){} // RVA: 0x7AFC87A80
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC87C20
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC87CC0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC87D60
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC87E00
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC87EA0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC87F40
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC87FE0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC880C0
+    }
+
+    public class ExternUnityEngineAnimationsLookAtConstraint : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC89FE0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7AFC8A020
+        public void .ctor(){} // RVA: 0x7AFC8A0D0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC8A4A0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC8A5D0
+        public void __AddSource__UnityEngineAnimationsConstraintSource__SystemInt32(){} // RVA: 0x7AFC8A6E0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC8A860
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFC8AA40
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFC8AB30
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFC8ADF0
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC8AF50
+        public void __GetComponentInChildren__T(){} // RVA: 0x7AFC8B080
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x7AFC8B170
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFC8B3F0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFC8B4E0
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFC8B7A0
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC8B900
+        public void __GetComponentInParent__T(){} // RVA: 0x7AFC8BA30
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x7AFC8BB20
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x7AFC8BDA0
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC8BF20
+        public void __GetComponent__T(){} // RVA: 0x7AFC8C050
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x7AFC8C130
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFC8C390
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFC8C480
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC8C7C0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC8C8B0
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFC8CC10
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFC8CD00
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC8D020
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC8D190
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x7AFC8D2D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x7AFC8D3C0
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC8D6C0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC8D7B0
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC8DB10
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC8DC00
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC8DF20
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC8E090
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x7AFC8E1D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x7AFC8E2C0
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC8E5C0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC8E6B0
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x7AFC8E9B0
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC8EB00
+        public void __GetComponents__TArray(){} // RVA: 0x7AFC8EC40
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x7AFC8ED30
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC8F000
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AFC8F170
+        public void __GetSource__SystemInt32__UnityEngineAnimationsConstraintSource(){} // RVA: 0x7AFC8F2D0
+        public void __GetSources__SystemCollectionsGenericListUnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC8F460
+        public void __GetType__SystemType(){} // RVA: 0x7AFC8F590
+        public void __RemoveSource__SystemInt32__SystemVoid(){} // RVA: 0x7AFC8F680
+        public void __SetSource__SystemInt32_UnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC8F7C0
+        public void __SetSources__SystemCollectionsGenericListUnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC8F940
+        public void __ToString__SystemString(){} // RVA: 0x7AFC8FAC0
+        public void __get_constraintActive__SystemBoolean(){} // RVA: 0x7AFC8FC30
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x7AFC8FD60
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x7AFC8FE90
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x7AFC8FFE0
+        public void __get_locked__SystemBoolean(){} // RVA: 0x7AFC90110
+        public void __get_name__SystemString(){} // RVA: 0x7AFC90240
+        public void __get_roll__SystemSingle(){} // RVA: 0x7AFC903A0
+        public void __get_rotationAtRest__UnityEngineVector3(){} // RVA: 0x7AFC904D0
+        public void __get_rotationOffset__UnityEngineVector3(){} // RVA: 0x7AFC90620
+        public void __get_sourceCount__SystemInt32(){} // RVA: 0x7AFC90770
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x7AFC908A0
+        public void __get_useUpObject__SystemBoolean(){} // RVA: 0x7AFC909F0
+        public void __get_weight__SystemSingle(){} // RVA: 0x7AFC90B20
+        public void __get_worldUpObject__UnityEngineTransform(){} // RVA: 0x7AFC90C50
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC90DA0
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC910A0
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFC912A0
+        public void __set_constraintActive__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC91580
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC916B0
+        public void __set_locked__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC917E0
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AFC91910
+        public void __set_roll__SystemSingle__SystemVoid(){} // RVA: 0x7AFC91A70
+        public void __set_rotationAtRest__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC91BB0
+        public void __set_rotationOffset__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC91D00
+        public void __set_useUpObject__SystemBoolean__SystemVoid(){} // RVA: 0x7AFC91E50
+        public void __set_weight__SystemSingle__SystemVoid(){} // RVA: 0x7AFC91F80
+        public void __set_worldUpObject__UnityEngineTransform__SystemVoid(){} // RVA: 0x7AFC920C0
+        public void <.ctor>b__8_1(){} // RVA: 0x7AFC92210
+    }
+
+    public class ExternUnityEngineAnimationsLookAtConstraintArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC953F0
+        public void .ctor(){} // RVA: 0x7AFC95430
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC95800
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC95930
+        public void __Clone__SystemObject(){} // RVA: 0x7AFC95A40
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AFC95B30
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AFC95C10
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC95CE0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AFC95E30
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC95ED0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AFC95FE0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AFC96100
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC96210
+        public void __GetType__SystemType(){} // RVA: 0x7AFC96330
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AFC96420
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AFC96500
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC96630
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AFC967C0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AFC96910
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AFC96A40
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC96B70
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AFC96CF0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AFC96E40
+        public void __Get__SystemInt32__UnityEngineAnimationsLookAtConstraint(){} // RVA: 0x7AFC96F70
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AFC970C0
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AFC97130
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC97260
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AFC973E0
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AFC97540
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AFC97670
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC977A0
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AFC97910
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AFC97A60
+        public void __Set__SystemInt32_UnityEngineAnimationsLookAtConstraint__SystemVoid(){} // RVA: 0x7AFC97B90
+        public void __ToString__SystemString(){} // RVA: 0x7AFC97D30
+        public void __ctor__SystemInt32__UnityEngineAnimationsLookAtConstraintArray(){} // RVA: 0x7AFC97E30
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AFC97F30
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AFC97FD0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AFC98070
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AFC98110
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AFC981B0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AFC98250
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AFC982F0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AFC983D0
+    }
+
+    public class ExternUnityEngineAnimationsParentConstraint : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AFC9A2F0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.get_GetterType(){} // RVA: 0x7AFC9A330
+        public void .ctor(){} // RVA: 0x7AFC9A3E0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AFC9A7B0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AFC9A8E0
+        public void __AddSource__UnityEngineAnimationsConstraintSource__SystemInt32(){} // RVA: 0x7AFC9A9F0
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AFC9AB70
+        public void __GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFC9AD50
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__SystemBoolean__T(){} // RVA: 0x7AFC9AE40
+        public void __GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFC9B100
+        public void __GetComponentInChildren__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC9B260
+        public void __GetComponentInChildren__T(){} // RVA: 0x7AFC9B390
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInChildren__T(){} // RVA: 0x7AFC9B480
+        public void __GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFC9B700
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__SystemBoolean__T(){} // RVA: 0x7AFC9B7F0
+        public void __GetComponentInParent__SystemType_SystemBoolean__UnityEngineComponent(){} // RVA: 0x7AFC9BAB0
+        public void __GetComponentInParent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC9BC10
+        public void __GetComponentInParent__T(){} // RVA: 0x7AFC9BD40
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentInParent__T(){} // RVA: 0x7AFC9BE30
+        public void __GetComponent__SystemString__UnityEngineComponent(){} // RVA: 0x7AFC9C0B0
+        public void __GetComponent__SystemType__UnityEngineComponent(){} // RVA: 0x7AFC9C230
+        public void __GetComponent__T(){} // RVA: 0x7AFC9C360
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponent__T(){} // RVA: 0x7AFC9C440
+        public void __GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFC9C6A0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__ListT__SystemVoid(){} // RVA: 0x7AFC9C790
+        public void __GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC9CAD0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC9CBC0
+        public void __GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFC9CF20
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__SystemBoolean__TArray(){} // RVA: 0x7AFC9D010
+        public void __GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC9D330
+        public void __GetComponentsInChildren__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC9D4A0
+        public void __GetComponentsInChildren__TArray(){} // RVA: 0x7AFC9D5E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInChildren__TArray(){} // RVA: 0x7AFC9D6D0
+        public void __GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC9D9D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean_ListT__SystemVoid(){} // RVA: 0x7AFC9DAC0
+        public void __GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC9DE20
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__SystemBoolean__TArray(){} // RVA: 0x7AFC9DF10
+        public void __GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray(){} // RVA: 0x7AFC9E230
+        public void __GetComponentsInParent__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC9E3A0
+        public void __GetComponentsInParent__TArray(){} // RVA: 0x7AFC9E4E0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponentsInParent__TArray(){} // RVA: 0x7AFC9E5D0
+        public void __GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC9E8D0
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__ListT__SystemVoid(){} // RVA: 0x7AFC9E9C0
+        public void __GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid(){} // RVA: 0x7AFC9ECC0
+        public void __GetComponents__SystemType__UnityEngineComponentArray(){} // RVA: 0x7AFC9EE10
+        public void __GetComponents__TArray(){} // RVA: 0x7AFC9EF50
+        public void VRC.Udon.Common.Interfaces.IUdonComponentGetterModule.GetComponents__TArray(){} // RVA: 0x7AFC9F040
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AFC9F310
+        public void __GetInstanceID__SystemInt32(){} // RVA: 0x7AFC9F480
+        public void __GetRotationOffset__SystemInt32__UnityEngineVector3(){} // RVA: 0x7AFC9F5E0
+        public void __GetSource__SystemInt32__UnityEngineAnimationsConstraintSource(){} // RVA: 0x7AFC9F780
+        public void __GetSources__SystemCollectionsGenericListUnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC9F910
+        public void __GetTranslationOffset__SystemInt32__UnityEngineVector3(){} // RVA: 0x7AFC9FA40
+        public void __GetType__SystemType(){} // RVA: 0x7AFC9FBE0
+        public void __RemoveSource__SystemInt32__SystemVoid(){} // RVA: 0x7AFC9FCD0
+        public void __SetRotationOffset__SystemInt32_UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFC9FE10
+        public void __SetSource__SystemInt32_UnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFC9FFB0
+        public void __SetSources__SystemCollectionsGenericListUnityEngineAnimationsConstraintSource__SystemVoid(){} // RVA: 0x7AFCA0130
+        public void __SetTranslationOffset__SystemInt32_UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFCA02B0
+        public void __ToString__SystemString(){} // RVA: 0x7AFCA0450
+        public void __get_constraintActive__SystemBoolean(){} // RVA: 0x7AFCA05C0
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x7AFCA06F0
+        public void __get_gameObject__UnityEngineGameObject(){} // RVA: 0x7AFCA0820
+        public void __get_isActiveAndEnabled__SystemBoolean(){} // RVA: 0x7AFCA0970
+        public void __get_locked__SystemBoolean(){} // RVA: 0x7AFCA0AA0
+        public void __get_name__SystemString(){} // RVA: 0x7AFCA0BD0
+        public void __get_rotationAtRest__UnityEngineVector3(){} // RVA: 0x7AFCA0D30
+        public void __get_rotationAxis__UnityEngineAnimationsAxis(){} // RVA: 0x7AFCA0E80
+        public void __get_rotationOffsets__UnityEngineVector3Array(){} // RVA: 0x7AFCA0FB0
+        public void __get_sourceCount__SystemInt32(){} // RVA: 0x7AFCA10D0
+        public void __get_transform__UnityEngineTransform(){} // RVA: 0x7AFCA1200
+        public void __get_translationAtRest__UnityEngineVector3(){} // RVA: 0x7AFCA1350
+        public void __get_translationAxis__UnityEngineAnimationsAxis(){} // RVA: 0x7AFCA14A0
+        public void __get_translationOffsets__UnityEngineVector3Array(){} // RVA: 0x7AFCA15D0
+        public void __get_weight__SystemSingle(){} // RVA: 0x7AFCA16F0
+        public void __op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFCA1820
+        public void __op_Implicit__UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFCA1B20
+        public void __op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean(){} // RVA: 0x7AFCA1D20
+        public void __set_constraintActive__SystemBoolean__SystemVoid(){} // RVA: 0x7AFCA2000
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x7AFCA2130
+        public void __set_locked__SystemBoolean__SystemVoid(){} // RVA: 0x7AFCA2260
+        public void __set_name__SystemString__SystemVoid(){} // RVA: 0x7AFCA2390
+        public void __set_rotationAtRest__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFCA24F0
+        public void __set_rotationAxis__UnityEngineAnimationsAxis__SystemVoid(){} // RVA: 0x7AFCA2640
+        public void __set_rotationOffsets__UnityEngineVector3Array__SystemVoid(){} // RVA: 0x7AFCA2770
+        public void __set_translationAtRest__UnityEngineVector3__SystemVoid(){} // RVA: 0x7AFCA28A0
+        public void __set_translationAxis__UnityEngineAnimationsAxis__SystemVoid(){} // RVA: 0x7AFCA29F0
+        public void __set_translationOffsets__UnityEngineVector3Array__SystemVoid(){} // RVA: 0x7AFCA2B20
+        public void __set_weight__SystemSingle__SystemVoid(){} // RVA: 0x7AFCA2C50
+        public void <.ctor>b__8_1(){} // RVA: 0x7AFCA2D90
+    }
+
+    public class ExternVRCUdonCommonInterfacesIUdonEventReceiver : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF994CB0
+        public void .ctor(){} // RVA: 0x7AF994CF0
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF9950C0
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF9951F0
+        public void __GetProgramVariableType__SystemString__SystemType(){} // RVA: 0x7AF995300
+        public void __GetProgramVariable__SystemString__SystemObject(){} // RVA: 0x7AF9953F0
+        public void __RequestSerialization__SystemVoid(){} // RVA: 0x7AF995540
+        public void __SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid(){} // RVA: 0x7AF9955E0
+        public void __SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid(){} // RVA: 0x7AF9957B0
+        public void __SendCustomEvent__SystemString__SystemVoid(){} // RVA: 0x7AF995910
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid(){} // RVA: 0x7AF9959E0
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid(){} // RVA: 0x7AF995E50
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid(){} // RVA: 0x7AF996260
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid(){} // RVA: 0x7AF996610
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid(){} // RVA: 0x7AF996990
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject__SystemVoid(){} // RVA: 0x7AF996CB0
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject__SystemVoid(){} // RVA: 0x7AF996F70
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject__SystemVoid(){} // RVA: 0x7AF9971C0
+        public void __SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid(){} // RVA: 0x7AF997360
+        public void __SetProgramVariable__SystemString_SystemObject__SystemVoid(){} // RVA: 0x7AF997470
+        public void __get_DisableInteractive__SystemBoolean(){} // RVA: 0x7AF9975D0
+        public void __get_InteractionText__SystemString(){} // RVA: 0x7AF9976A0
+        public void __get_enabled__SystemBoolean(){} // RVA: 0x7AF997760
+        public void __set_DisableInteractive__SystemBoolean__SystemVoid(){} // RVA: 0x7AF997830
+        public void __set_InteractionText__SystemString__SystemVoid(){} // RVA: 0x7AF997900
+        public void __set_enabled__SystemBoolean__SystemVoid(){} // RVA: 0x7AF9979D0
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF997AA0
+    }
+
+    public class ExternVRCUdonCommonInterfacesIUdonEventReceiverArray : Object
+    {
+        // ── Methods ──
+        public void get_Name(){} // RVA: 0x7AF998CF0
+        public void .ctor(){} // RVA: 0x7AF998D30
+        public void GetExternFunctionParameterCount(){} // RVA: 0x7AF999100
+        public void GetExternFunctionDelegate(){} // RVA: 0x7AF999230
+        public void __Clone__SystemObject(){} // RVA: 0x7AF999340
+        public void __CopyTo__SystemArray_SystemInt32__SystemVoid(){} // RVA: 0x7AF999430
+        public void __CopyTo__SystemArray_SystemInt64__SystemVoid(){} // RVA: 0x7AF999510
+        public void __Equals__SystemObject__SystemBoolean(){} // RVA: 0x7AF9995E0
+        public void __GetEnumerator__SystemCollectionsIEnumerator(){} // RVA: 0x7AF999730
+        public void __GetHashCode__SystemInt32(){} // RVA: 0x7AF9997D0
+        public void __GetLength__SystemInt32__SystemInt32(){} // RVA: 0x7AF9998E0
+        public void __GetLongLength__SystemInt32__SystemInt64(){} // RVA: 0x7AF999A00
+        public void __GetLowerBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF999B10
+        public void __GetType__SystemType(){} // RVA: 0x7AF999C30
+        public void __GetUpperBound__SystemInt32__SystemInt32(){} // RVA: 0x7AF999D20
+        public void __GetValue__SystemInt32Array__SystemObject(){} // RVA: 0x7AF999E00
+        public void __GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF999F30
+        public void __GetValue__SystemInt32_SystemInt32__SystemObject(){} // RVA: 0x7AF99A0C0
+        public void __GetValue__SystemInt32__SystemObject(){} // RVA: 0x7AF99A210
+        public void __GetValue__SystemInt64Array__SystemObject(){} // RVA: 0x7AF99A340
+        public void __GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF99A470
+        public void __GetValue__SystemInt64_SystemInt64__SystemObject(){} // RVA: 0x7AF99A5F0
+        public void __GetValue__SystemInt64__SystemObject(){} // RVA: 0x7AF99A740
+        public void __Get__SystemInt32__VRCUdonCommonInterfacesIUdonEventReceiver(){} // RVA: 0x7AF99A870
+        public void __Initialize__SystemVoid(){} // RVA: 0x7AF99A950
+        public void __SetValue__SystemObject_SystemInt32Array__SystemVoid(){} // RVA: 0x7AF99A9C0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF99AAF0
+        public void __SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid(){} // RVA: 0x7AF99AC70
+        public void __SetValue__SystemObject_SystemInt32__SystemVoid(){} // RVA: 0x7AF99ADD0
+        public void __SetValue__SystemObject_SystemInt64Array__SystemVoid(){} // RVA: 0x7AF99AF00
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF99B030
+        public void __SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid(){} // RVA: 0x7AF99B1A0
+        public void __SetValue__SystemObject_SystemInt64__SystemVoid(){} // RVA: 0x7AF99B2F0
+        public void __Set__SystemInt32_VRCUdonCommonInterfacesIUdonEventReceiver__SystemVoid(){} // RVA: 0x7AF99B420
+        public void __ToString__SystemString(){} // RVA: 0x7AF99B5A0
+        public void __ctor__SystemInt32__VRCUdonCommonInterfacesIUdonEventReceiverArray(){} // RVA: 0x7AF99B6A0
+        public void __get_IsFixedSize__SystemBoolean(){} // RVA: 0x7AF99B840
+        public void __get_IsReadOnly__SystemBoolean(){} // RVA: 0x7AF99B8E0
+        public void __get_IsSynchronized__SystemBoolean(){} // RVA: 0x7AF99B980
+        public void __get_Length__SystemInt32(){} // RVA: 0x7AF99BA20
+        public void __get_LongLength__SystemInt64(){} // RVA: 0x7AF99BAC0
+        public void __get_Rank__SystemInt32(){} // RVA: 0x7AF99BB60
+        public void __get_SyncRoot__SystemObject(){} // RVA: 0x7AF99BC00
+        public void <.ctor>b__6_1(){} // RVA: 0x7AF99BCE0
     }
 
 }

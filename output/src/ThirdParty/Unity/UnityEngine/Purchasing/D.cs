@@ -5,10 +5,10 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class DialogRequest
+    public class DialogRequest : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

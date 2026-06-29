@@ -5,12 +5,12 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks
 {
-    public class DeltaTimePlayerLoopTimer
+    public class DeltaTimePlayerLoopTimer : PlayerLoopTimer
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6CEC990
-        public void MoveNextCore(){} // RVA: 0x6CECA60
-        public void ResetCore(){} // RVA: 0x6CECB40
+        public void .ctor(){} // RVA: 0x7AEADB8D0
+        public void MoveNextCore(){} // RVA: 0x7AEADB9A0
+        public void ResetCore(){} // RVA: 0x7AEADBA80
     }
 
 }

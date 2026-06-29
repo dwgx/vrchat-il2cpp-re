@@ -5,24 +5,24 @@
 
 namespace VRC.Udon.Serialization.Formatters
 {
-    public class UdonGameObjectComponentReferenceFormatter
+    public class UdonGameObjectComponentReferenceFormatter : BaseFormatter`1
     {
         // ── Methods ──
-        public void GetUninitializedObject(){} // RVA: 0x519240
-        public void DeserializeImplementation(){} // RVA: 0x7715830
-        public void SerializeImplementation(){} // RVA: 0x7715A10
-        public void .ctor(){} // RVA: 0x7715AC0
-        public void .cctor(){} // RVA: 0x7715B20
+        public void GetUninitializedObject(){} // RVA: 0x7A82D1450
+        public void DeserializeImplementation(){} // RVA: 0x7AF4F4CB0
+        public void SerializeImplementation(){} // RVA: 0x7AF4F4E90
+        public void .ctor(){} // RVA: 0x7AF4F4F40
+        public void .cctor(){} // RVA: 0x7AF4F4FA0
     }
 
-    public class UdonProgramFormatter
+    public class UdonProgramFormatter : BaseFormatter`1
     {
         // ── Methods ──
-        public void GetUninitializedObject(){} // RVA: 0x519240
-        public void DeserializeImplementation(){} // RVA: 0x7715C00
-        public void SerializeImplementation(){} // RVA: 0x77160A0
-        public void .ctor(){} // RVA: 0x77163B0
-        public void .cctor(){} // RVA: 0x7716410
+        public void GetUninitializedObject(){} // RVA: 0x7A82D1450
+        public void DeserializeImplementation(){} // RVA: 0x7AF4F5080
+        public void SerializeImplementation(){} // RVA: 0x7AF4F5520
+        public void .ctor(){} // RVA: 0x7AF4F5830
+        public void .cctor(){} // RVA: 0x7AF4F5890
     }
 
 }

@@ -5,10 +5,10 @@
 
 namespace VRC.UI.Dev
 {
-    public class EditorFragmentDataState
+    public class EditorFragmentDataState : ScriptableObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
 }

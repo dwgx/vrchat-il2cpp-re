@@ -1,739 +1,742 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.ZLinq.ZLinq.Linq
-// Classes: 76
-// Methods: 373
+// Classes: 67
+// Methods: 399
 
 namespace ThirdParty.ZLinq.ZLinq.Linq
 {
-    public class FromArray`1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void GetSource(){} // RVA: 0xCD60
-        public void TryGetNonEnumeratedCount(){} // RVA: 0xDE40
-        public void TryGetSpan(){} // RVA: 0xDE40
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void TryGetNext(){} // RVA: 0xDE40
-        public void Dispose(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void GetSource(){} // RVA: 0x7A7E00680
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
+        public void TryGetSpan(){} // RVA: 0x7A7E019D0
+        public void TryCopyTo(){} // RVA: 0x7A8051B10
+        public void TryGetNext(){} // RVA: 0x7A7E019D0
+        public void Dispose(){} // RVA: 0x7A7E18770
     }
 
-    public class FromArray`1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x334C3A0
-        public void TryGetSpan(){} // RVA: 0x334DF50
-        public void TryCopyTo(){} // RVA: 0x334E1A0
-        public void TryGetNext(){} // RVA: 0x334E330
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7862450
+        public void TryGetSpan(){} // RVA: 0x7A7862690
+        public void TryCopyTo(){} // RVA: 0x7A78626A0
+        public void TryGetNext(){} // RVA: 0x7A78626C0
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromArray`1
-    {
-    }
-
-    public class FromArray`1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x334C3A0
-        public void TryGetSpan(){} // RVA: 0x334DF50
-        public void TryCopyTo(){} // RVA: 0x334E1A0
-        public void TryGetNext(){} // RVA: 0x334E330
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7862450
+        public void TryGetSpan(){} // RVA: 0x7A7862690
+        public void TryCopyTo(){} // RVA: 0x7A78626A0
+        public void TryGetNext(){} // RVA: 0x7A78626C0
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromArray`1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x334C3A0
-        public void TryGetSpan(){} // RVA: 0x334DF50
-        public void TryCopyTo(){} // RVA: 0x334E1A0
-        public void TryGetNext(){} // RVA: 0x334E330
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7862450
+        public void TryGetSpan(){} // RVA: 0x7A7862690
+        public void TryCopyTo(){} // RVA: 0x7A78626A0
+        public void TryGetNext(){} // RVA: 0x7A78626C0
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromArray`1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x334C3A0
-        public void TryGetSpan(){} // RVA: 0x334CFF0
-        public void TryCopyTo(){} // RVA: 0x334D1B0
-        public void TryGetNext(){} // RVA: 0x334D350
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7862450
+        public void TryGetSpan(){} // RVA: 0x7A78625A0
+        public void TryCopyTo(){} // RVA: 0x7A78625B0
+        public void TryGetNext(){} // RVA: 0x7A78625D0
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromArray`1
-    {
-    }
-
-    public class FromArray`1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x334C3A0
-        public void TryGetSpan(){} // RVA: 0x334DF50
-        public void TryCopyTo(){} // RVA: 0x334E1A0
-        public void TryGetNext(){} // RVA: 0x334E330
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
     }
 
-    public class FromArray`1
-    {
-    }
-
-    public class FromArray`1
-    {
-    }
-
-    public class FromArray`1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x334C3A0
-        public void TryGetSpan(){} // RVA: 0x334D790
-        public void TryCopyTo(){} // RVA: 0x334D950
-        public void TryGetNext(){} // RVA: 0x334DB00
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7862450
+        public void TryGetSpan(){} // RVA: 0x7A7862690
+        public void TryCopyTo(){} // RVA: 0x7A78626A0
+        public void TryGetNext(){} // RVA: 0x7A78626C0
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromArray`1
-    {
-    }
-
-    public class FromArray`1
-    {
-    }
-
-    public class FromEnumerableContent
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7466CC0
-        public void ThrowIfNoEnumerable(){} // RVA: 0x9B07A30
-        public void <ThrowIfNoEnumerable>g__Throw|3_0(){} // RVA: 0x9B07A50
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
     }
 
-    public class FromEnumerable`1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void GetSource(){} // RVA: 0xCD60
-        public void TryGetNonEnumeratedCount(){} // RVA: 0xDE40
-        public void TryGetSpan(){} // RVA: 0xDE40
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void TryGetNext(){} // RVA: 0xDE40
-        public void Dispose(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7862450
+        public void TryGetSpan(){} // RVA: 0x7A7862620
+        public void TryCopyTo(){} // RVA: 0x7A7862630
+        public void TryGetNext(){} // RVA: 0x7A7862650
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromArray`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerableContent : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7F08CA0
+        public void ThrowIfNoEnumerable(){} // RVA: 0x7A7FCB4D0
+        public void <ThrowIfNoEnumerable>g__Throw|3_0(){} // RVA: 0x7B19497E0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void GetSource(){} // RVA: 0x7A7E00680
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
+        public void TryGetSpan(){} // RVA: 0x7A7E019D0
+        public void TryCopyTo(){} // RVA: 0x7A8051B10
+        public void TryGetNext(){} // RVA: 0x7A7E019D0
+        public void Dispose(){} // RVA: 0x7A7E18770
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3353460
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x33539F0
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1
-    {
-    }
-
-    public class FromEnumerable`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3352E70
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3353400
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1
-    {
-    }
-
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3355210
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x33557A0
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7862E10
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A7862E20
     }
 
-    public class FromEnumerable`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7862DA0
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A7862DB0
     }
 
-    public class FromEnumerable`1
-    {
-    }
-
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3352880
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3352E10
+        public void .ctor(){} // RVA: 0x7A7863040
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A7863050
     }
 
-    public class FromEnumerable`1
-    {
-    }
-
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3352E70
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3353400
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3352E70
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3353400
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3355DF0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356380
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7862D30
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A7862D40
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromEnumerable`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x33563E0
-        public void GetSource(){} // RVA: 0x3350F00
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3350F20
-        public void TryGetSpan(){} // RVA: 0x3350F70
-        public void TryCopyTo(){} // RVA: 0x3350FC0
-        public void TryGetNext(){} // RVA: 0x3351020
-        public void Dispose(){} // RVA: 0x3356970
+        public void .ctor(){} // RVA: 0x7A7862DA0
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A7862DB0
     }
 
-    public class FromList`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void GetSource(){} // RVA: 0xCD60
-        public void TryGetNonEnumeratedCount(){} // RVA: 0xDE40
-        public void TryGetSpan(){} // RVA: 0xDE40
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void TryGetNext(){} // RVA: 0xDE40
-        public void Dispose(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A7863120
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A7863130
     }
 
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1 : Ps1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromList`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7863190
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A78631A0
     }
 
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1
+    public class FromEnumerable`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7862DA0
+        public void GetSource(){} // RVA: 0x7A78629B0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78629D0
+        public void TryGetSpan(){} // RVA: 0x7A7862A20
+        public void TryCopyTo(){} // RVA: 0x7A7862A70
+        public void TryGetNext(){} // RVA: 0x7A7862AD0
+        public void Dispose(){} // RVA: 0x7A7862DB0
     }
 
-    public class FromList`1
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void GetSource(){} // RVA: 0x7A7E00680
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
+        public void TryGetSpan(){} // RVA: 0x7A7E019D0
+        public void TryCopyTo(){} // RVA: 0x7A8051B10
+        public void TryGetNext(){} // RVA: 0x7A7E019D0
+        public void Dispose(){} // RVA: 0x7A7E18770
     }
 
-    public class FromList`1 : Ps1
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
     }
 
-    public class FromList`1
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1 : Ps1
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
     }
 
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromList`1
-    {
-    }
-
-    public class FromList`1
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromList`1
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1CBDE20
-        public void GetSource(){} // RVA: 0x1AD4690
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3358D70
-        public void TryGetSpan(){} // RVA: 0x335A580
-        public void TryCopyTo(){} // RVA: 0x335A670
-        public void TryGetNext(){} // RVA: 0x335A880
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromMemory`1
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void TryGetNonEnumeratedCount(){} // RVA: 0xDE40
-        public void TryCopyTo(){} // RVA: 0x283FA0
-        public void TryGetSpan(){} // RVA: 0xDE40
-        public void TryGetNext(){} // RVA: 0xDE40
-        public void Dispose(){} // RVA: 0x24A50
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
     }
 
-    public class FromMemory`1
-    {
-    }
-
-    public class FromMemory`1
-    {
-    }
-
-    public class FromMemory`1
-    {
-    }
-
-    public class FromRange
+    public class FromList`1 : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9B08320
-        public void TryGetNonEnumeratedCount(){} // RVA: 0x3E4A3C0
-        public void TryGetSpan(){} // RVA: 0x29F2270
-        public void TryCopyTo(){} // RVA: 0x9B08340
-        public void TryGetNext(){} // RVA: 0x9B08490
-        public void Dispose(){} // RVA: 0x2DD310
-        public void FillIncremental(){} // RVA: 0x9B084B0
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+    }
+
+    public class FromList`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7854D30
+        public void GetSource(){} // RVA: 0x7A765F710
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A78634A0
+        public void TryGetSpan(){} // RVA: 0x7A7863BF0
+        public void TryCopyTo(){} // RVA: 0x7A7863C00
+        public void TryGetNext(){} // RVA: 0x7A7863C20
+        public void Dispose(){} // RVA: 0x7A75F4910
+    }
+
+    public class FromMemory`1 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7E019D0
+        public void TryCopyTo(){} // RVA: 0x7A8051B10
+        public void TryGetSpan(){} // RVA: 0x7A7E019D0
+        public void TryGetNext(){} // RVA: 0x7A7E019D0
+        public void Dispose(){} // RVA: 0x7A7E18770
+    }
+
+    public class FromRange : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7FCB4F0
+        public void TryGetNonEnumeratedCount(){} // RVA: 0x7A7A1ACD0
+        public void TryGetSpan(){} // RVA: 0x7A77CFDC0
+        public void TryCopyTo(){} // RVA: 0x7A7FCB510
+        public void TryGetNext(){} // RVA: 0x7A7FCB530
+        public void Dispose(){} // RVA: 0x7A75F4910
+        public void FillIncremental(){} // RVA: 0x7B194A3A0
     }
 
 }

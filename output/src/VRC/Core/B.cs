@@ -5,27 +5,27 @@
 
 namespace VRC.Core
 {
-    public class BaseConfig
+    public class BaseConfig : Object
     {
         // ── Methods ──
-        public void GetValue(){} // RVA: 0x992C120
-        public void Init(){} // RVA: 0x992C1D0
-        public void HasKey(){} // RVA: 0x992C230
-        public void GetObject(){} // RVA: 0x992C280
-        public void GetString(){} // RVA: 0x992C2F0
-        public void GetInt(){} // RVA: 0x992C380
-        public void GetBool(){} // RVA: 0x992C4F0
-        public void GetFloat(){} // RVA: 0x992C650
-        public void GetList(){} // RVA: 0x992C720
-        public void GetDictionary(){} // RVA: 0x992C7E0
-        public void GetListOfDictionaries(){} // RVA: 0x992C890
-        public void GetObjectAtPath(){} // RVA: 0x992CBD0
-        public void IsInitializedInternal(){} // RVA: 0x992D160
-        public void IsInitialized(){} // RVA: 0xF01170
-        public void FetchConfig(){} // RVA: 0x2DC60
-        public void TryGet(){} // RVA: 0x11120
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x992D240
+        public void GetValue(){} // RVA: 0x7B1767B50
+        public void Init(){} // RVA: 0x7B1767C00
+        public void HasKey(){} // RVA: 0x7B1767C60
+        public void GetObject(){} // RVA: 0x7B1767CB0
+        public void GetString(){} // RVA: 0x7B1767D20
+        public void GetInt(){} // RVA: 0x7B1767DB0
+        public void GetBool(){} // RVA: 0x7B1767F20
+        public void GetFloat(){} // RVA: 0x7B1768080
+        public void GetList(){} // RVA: 0x7B1768150
+        public void GetDictionary(){} // RVA: 0x7B1768210
+        public void GetListOfDictionaries(){} // RVA: 0x7B17682C0
+        public void GetObjectAtPath(){} // RVA: 0x7B1768600
+        public void IsInitializedInternal(){} // RVA: 0x7B1768B90
+        public void IsInitialized(){} // RVA: 0x7A8CCB4F0
+        public void FetchConfig(){} // RVA: 0x7A7E18890
+        public void TryGet(){} // RVA: 0x7AA3F2590
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B1768C70
     }
 
 }

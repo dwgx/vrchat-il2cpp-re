@@ -5,17 +5,14 @@
 
 namespace ThirdParty.Sentry.Sentry
 {
-    public class PersistedSessionUpdate
+    public class PersistedSessionUpdate : Object
     {
-        public Sentry.SessionUpdate <Update>k__BackingField; // 0x10
-        public System.Nullable`1<System.DateTimeOffset> <PauseTimestamp>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_Update(){} // RVA: 0x2F8380
-        public void get_PauseTimestamp(){} // RVA: 0x1F4D690
-        public void .ctor(){} // RVA: 0x446EB70
-        public void WriteTo(){} // RVA: 0x62B6360
-        public void FromJson(){} // RVA: 0x62B64A0
+        public void get_Update(){} // RVA: 0x7A80F2570
+        public void get_PauseTimestamp(){} // RVA: 0x7A9D57420
+        public void .ctor(){} // RVA: 0x7AC25CD10
+        public void WriteTo(){} // RVA: 0x7AE0A21E0
+        public void FromJson(){} // RVA: 0x7AE0A2340
     }
 
 }

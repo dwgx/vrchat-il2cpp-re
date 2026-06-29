@@ -1,134 +1,117 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.UIElements
 // Classes: 9
-// Methods: 71
+// Methods: 64
 
 namespace ThirdParty.Unity.UnityEngine.UIElements
 {
-    public class NavigateFocusRing
+    public class NavigateFocusRing : Object
     {
-        public ChangeDirection Left;
-
         // ── Methods ──
-        public void get_focusController(){} // RVA: 0x7F0180
-        public void .ctor(){} // RVA: 0x73FDE40
-        public void GetFocusChangeDirection(){} // RVA: 0x73FDF60
-        public void GetNextFocusable(){} // RVA: 0x73FE510
-        public void GetNextFocusable2D(){} // RVA: 0x73FE680
-        public void IsActive(){} // RVA: 0x73FEDC0
-        public void IsNavigable(){} // RVA: 0x73FEE30
-        public void .cctor(){} // RVA: 0x73FEE80
+        public void get_focusController(){} // RVA: 0x7A858AA50
+        public void .ctor(){} // RVA: 0x7AF1DCFB0
+        public void GetFocusChangeDirection(){} // RVA: 0x7AF1DD0D0
+        public void GetNextFocusable(){} // RVA: 0x7AF1DD670
+        public void GetNextFocusable2D(){} // RVA: 0x7AF1DD7E0
+        public void IsActive(){} // RVA: 0x7AF1DDF20
+        public void IsNavigable(){} // RVA: 0x7AF1DDF90
+        public void .cctor(){} // RVA: 0x7AF1DDFE0
     }
 
-    public class NavigationCancelEvent
+    public class NavigationCancelEvent : NavigationEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F4030
-        public void .ctor(){} // RVA: 0x73F4120
+        public void .cctor(){} // RVA: 0x7AF1D3250
+        public void .ctor(){} // RVA: 0x7AF1D3340
     }
 
-    public class NavigationEventBase`1
+    public class NavigationEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField;
-        public 0x65838618 <deviceType>k__BackingField;
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xD840
-        public void set_modifiers(){} // RVA: 0x24FA0
-        public void get_shiftKey(){} // RVA: 0xDBE0
-        public void get_altKey(){} // RVA: 0xDBE0
-        public void get_deviceType(){} // RVA: 0xD840
-        public void set_deviceType(){} // RVA: 0x24FA0
-        public void .ctor(){} // RVA: 0x24A50
-        public void Init(){} // RVA: 0x24A50
-        public void LocalInit(){} // RVA: 0x24A50
-        public void GetPooled(){} // RVA: 0x283FA0 | overloaded x2
+        public void get_modifiers(){} // RVA: 0x7A7E00710
+        public void set_modifiers(){} // RVA: 0x7A7E189D0
+        public void get_shiftKey(){} // RVA: 0x7A7E01900
+        public void get_altKey(){} // RVA: 0x7A7E01900
+        public void get_deviceType(){} // RVA: 0x7A7E00710
+        public void set_deviceType(){} // RVA: 0x7A7E189D0
+        public void .ctor(){} // RVA: 0x7A7E18770
+        public void Init(){} // RVA: 0x7A7E18770
+        public void LocalInit(){} // RVA: 0x7A7E18770
+        public void GetPooled(){} // RVA: 0x7A8051B10
     }
 
-    public class NavigationEventBase`1
+    public class NavigationEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public 0x65838618 <deviceType>k__BackingField; // 0x8C
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void get_deviceType(){} // RVA: 0x363A7C0
-        public void set_deviceType(){} // RVA: 0x3C7AFE0
-        public void .ctor(){} // RVA: 0x3C7AFF0
-        public void Init(){} // RVA: 0x3C7B080
-        public void LocalInit(){} // RVA: 0x3C7B130
-        public void GetPooled(){} // RVA: 0x3C7B230 | overloaded x2
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void get_deviceType(){} // RVA: 0x7AB40DAB0
+        public void set_deviceType(){} // RVA: 0x7ABA6C530
+        public void .ctor(){} // RVA: 0x7ABA6C540
+        public void Init(){} // RVA: 0x7ABA6C5D0
+        public void LocalInit(){} // RVA: 0x7ABA6C680
+        public void GetPooled(){} // RVA: 0x7ABA6C780
     }
 
-    public class NavigationEventBase`1
+    public class NavigationEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public 0x65838618 <deviceType>k__BackingField; // 0x8C
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void get_deviceType(){} // RVA: 0x363A7C0
-        public void set_deviceType(){} // RVA: 0x3C7AFE0
-        public void .ctor(){} // RVA: 0x3C7AFF0
-        public void Init(){} // RVA: 0x3C7B080
-        public void LocalInit(){} // RVA: 0x3C7B130
-        public void GetPooled(){} // RVA: 0x3C7B230 | overloaded x2
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void get_deviceType(){} // RVA: 0x7AB40DAB0
+        public void set_deviceType(){} // RVA: 0x7ABA6C530
+        public void .ctor(){} // RVA: 0x7ABA6C540
+        public void Init(){} // RVA: 0x7ABA6C5D0
+        public void LocalInit(){} // RVA: 0x7ABA6C680
+        public void GetPooled(){} // RVA: 0x7ABA6C780
     }
 
-    public class NavigationEventBase`1
+    public class NavigationEventBase`1 : EventBase`1
     {
-        public 0x659A0EE8 <modifiers>k__BackingField; // 0x88
-        public 0x65838618 <deviceType>k__BackingField; // 0x8C
-
         // ── Methods ──
-        public void get_modifiers(){} // RVA: 0xBB90C0
-        public void set_modifiers(){} // RVA: 0xBB9E60
-        public void get_shiftKey(){} // RVA: 0x37CDA10
-        public void get_altKey(){} // RVA: 0x37CDA40
-        public void get_deviceType(){} // RVA: 0x363A7C0
-        public void set_deviceType(){} // RVA: 0x3C7AFE0
-        public void .ctor(){} // RVA: 0x3C7AFF0
-        public void Init(){} // RVA: 0x3C7B080
-        public void LocalInit(){} // RVA: 0x3C7B130
-        public void GetPooled(){} // RVA: 0x3C7B230 | overloaded x2
+        public void get_modifiers(){} // RVA: 0x7A897F560
+        public void set_modifiers(){} // RVA: 0x7A8980300
+        public void get_shiftKey(){} // RVA: 0x7AB5BA7D0
+        public void get_altKey(){} // RVA: 0x7AB5BA800
+        public void get_deviceType(){} // RVA: 0x7AB40DAB0
+        public void set_deviceType(){} // RVA: 0x7ABA6C530
+        public void .ctor(){} // RVA: 0x7ABA6C540
+        public void Init(){} // RVA: 0x7ABA6C5D0
+        public void LocalInit(){} // RVA: 0x7ABA6C680
+        public void GetPooled(){} // RVA: 0x7ABA6C780
     }
 
-    public class NavigationEventDispatchingStrategy
+    public class NavigationEventDispatchingStrategy : Object
     {
         // ── Methods ──
-        public void CanDispatchEvent(){} // RVA: 0x73F3640
-        public void DispatchEvent(){} // RVA: 0x73F3690
-        public void .ctor(){} // RVA: 0x2DD310
+        public void CanDispatchEvent(){} // RVA: 0x7AF1D2860
+        public void DispatchEvent(){} // RVA: 0x7AF1D28B0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class NavigationMoveEvent
+    public class NavigationMoveEvent : NavigationEventBase`1
     {
-        public 0x658386C8 <direction>k__BackingField; // 0x90
-        public UnityEngine.Vector2 <move>k__BackingField; // 0x94
-
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F3740
-        public void DetermineMoveDirection(){} // RVA: 0x73F3830
-        public void get_direction(){} // RVA: 0x6AFD40
-        public void set_direction(){} // RVA: 0xF02F80
-        public void set_move(){} // RVA: 0x3C49BC0
-        public void GetPooled(){} // RVA: 0x73F3B10 | overloaded x4
-        public void Init(){} // RVA: 0x73F3BD0
-        public void .ctor(){} // RVA: 0x73F3CF0
-        public void LocalInit(){} // RVA: 0x73F3DF0
+        public void .cctor(){} // RVA: 0x7AF1D2960
+        public void DetermineMoveDirection(){} // RVA: 0x7AF1D2A50
+        public void get_direction(){} // RVA: 0x7A846C760
+        public void set_direction(){} // RVA: 0x7A8CCD330
+        public void set_move(){} // RVA: 0x7ABA390A0
+        public void GetPooled(){} // RVA: 0x7AF1D2D30
+        public void Init(){} // RVA: 0x7AF1D2DF0
+        public void .ctor(){} // RVA: 0x7AF1D2F10
+        public void LocalInit(){} // RVA: 0x7AF1D3010
     }
 
-    public class NavigationSubmitEvent
+    public class NavigationSubmitEvent : NavigationEventBase`1
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x73F4350
-        public void .ctor(){} // RVA: 0x73F4440
+        public void .cctor(){} // RVA: 0x7AF1D3570
+        public void .ctor(){} // RVA: 0x7AF1D3660
     }
 
 }

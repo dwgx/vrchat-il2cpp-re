@@ -1,56 +1,56 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Other.JetBrains.Annotations
 // Classes: 8
-// Methods: 11
+// Methods: 8
 
 namespace ThirdParty.Other.JetBrains.Annotations
 {
-    public class AssertionMethodAttribute
+    public class AssertionMethodAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class CanBeNullAttribute
+    public class CanBeNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class MeansImplicitUseAttribute
+    public class MeansImplicitUseAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4438000 | overloaded x3
+        public void .ctor(){} // RVA: 0x7AC226C00
     }
 
-    public class NotNullAttribute
+    public class NotNullAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class PublicAPIAttribute
+    public class PublicAPIAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class PureAttribute
+    public class PureAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class StringFormatMethodAttribute
+    public class StringFormatMethodAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class UsedImplicitlyAttribute
+    public class UsedImplicitlyAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4438000 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AC226C00
     }
 
 }

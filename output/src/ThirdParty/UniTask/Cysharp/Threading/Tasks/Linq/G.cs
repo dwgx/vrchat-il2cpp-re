@@ -5,67 +5,67 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class GroupByAwaitWithCancellation`3
+    public class GroupByAwaitWithCancellation`3 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F9F0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DB70
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class GroupByAwaitWithCancellation`4
+    public class GroupByAwaitWithCancellation`4 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2FCA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DCE0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class GroupByAwait`3
+    public class GroupByAwait`3 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F9F0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DB70
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class GroupByAwait`4
+    public class GroupByAwait`4 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2FCA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DCE0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class GroupBy`3
+    public class GroupBy`3 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F9F0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DB70
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class GroupBy`4
+    public class GroupBy`4 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2FCA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DCE0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class GroupJoinAwaitWithCancellation`4
+    public class GroupJoinAwaitWithCancellation`4 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2FE10
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1D860
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class GroupJoinAwait`4
+    public class GroupJoinAwait`4 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2FE10
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1D860
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class GroupJoin`4
+    public class GroupJoin`4 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2FE10
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1D860
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
 }

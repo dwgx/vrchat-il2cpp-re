@@ -5,28 +5,24 @@
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
-    public class ReferenceEqualityComparer : .ctor
+    public class ReferenceEqualityComparer : Object
     {
-        public System.Collections.Generic.ReferenceEqualityComparer <Instance>k__BackingField;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_Instance(){} // RVA: 0x62F69C0
-        public void Equals(){} // RVA: 0x3473E20
-        public void GetHashCode(){} // RVA: 0x5FF7850
-        public void .cctor(){} // RVA: 0x62F6A20
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Instance(){} // RVA: 0x7AE0E2670
+        public void Equals(){} // RVA: 0x7AB263CC0
+        public void GetHashCode(){} // RVA: 0x7ADDE4290
+        public void .cctor(){} // RVA: 0x7AE0E26D0
     }
 
-    public class ReferenceEqualityComparer : .ctor
+    public class ReferenceEqualityComparer : Object
     {
-        public System.Collections.Generic.ReferenceEqualityComparer <Instance>k__BackingField;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_Instance(){} // RVA: 0x6840D30
-        public void Equals(){} // RVA: 0x3473E20
-        public void GetHashCode(){} // RVA: 0x5FF7850
-        public void .cctor(){} // RVA: 0x6840D90
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Instance(){} // RVA: 0x7AE62F9C0
+        public void Equals(){} // RVA: 0x7AB263CC0
+        public void GetHashCode(){} // RVA: 0x7ADDE4290
+        public void .cctor(){} // RVA: 0x7AE62FA20
     }
 
 }

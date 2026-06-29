@@ -5,11 +5,11 @@
 
 namespace ThirdParty.DotNet.Microsoft.Extensions.DependencyInjection.Extensions
 {
-    public class ServiceCollectionDescriptorExtensions
+    public class ServiceCollectionDescriptorExtensions : Object
     {
         // ── Methods ──
-        public void TryAdd(){} // RVA: 0x5B8BBA0
-        public void TryAddEnumerable(){} // RVA: 0x5B8BCF0
+        public void TryAdd(){} // RVA: 0x7AD9799A0
+        public void TryAddEnumerable(){} // RVA: 0x7AD979AF0
     }
 
 }

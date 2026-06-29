@@ -1,126 +1,107 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.SDK3.Rendering
 // Classes: 4
-// Methods: 87
+// Methods: 79
 
 namespace VRC.SDK3.Rendering
 {
-    public class VRCAsyncGPUReadback
+    public class VRCAsyncGPUReadback : Object
     {
         // ── Methods ──
-        public void Request(){} // RVA: 0x9A13790 | overloaded x4
+        public void Request(){} // RVA: 0x7B1852B20
     }
 
-    public class VRCAsyncGPUReadbackRequest
+    public class VRCAsyncGPUReadbackRequest : Object
     {
-        public UnityEngine.Rendering.AsyncGPUReadbackRequest IsInitialized; // 0x10
-        public VRC.Udon.Common.Interfaces.IUdonEventReceiver CanExecuteConstraintJobsInEditMode; // 0x20
-
         // ── Methods ──
-        public void get_done(){} // RVA: 0x849F30
-        public void get_hasError(){} // RVA: 0x9A13910
-        public void get_width(){} // RVA: 0x9A13960
-        public void get_height(){} // RVA: 0x9A139B0
-        public void get_depth(){} // RVA: 0x9A13A00
-        public void get_layerCount(){} // RVA: 0x9A13A50
-        public void get_layerDataSize(){} // RVA: 0x9A13AA0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void HandleCallback(){} // RVA: 0x9A13AF0
-        public void TryGetData(){} // RVA: 0x10840 | overloaded x5
+        public void get_done(){} // RVA: 0x7A8606F20
+        public void get_hasError(){} // RVA: 0x7B1852CA0
+        public void get_width(){} // RVA: 0x7B1852CF0
+        public void get_height(){} // RVA: 0x7B1852D40
+        public void get_depth(){} // RVA: 0x7B1852D90
+        public void get_layerCount(){} // RVA: 0x7B1852DE0
+        public void get_layerDataSize(){} // RVA: 0x7B1852E30
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void HandleCallback(){} // RVA: 0x7B1852E80
+        public void TryGetData(){} // RVA: 0x7A7E039E0
     }
 
-    public class VRCCameraSettings
+    public class VRCCameraSettings : Object
     {
-        public System.Action`1<UnityEngine.Camera> OnCameraSettingsChanged;
-        public System.Func`1<0x6597D550> GetCameraMode; // 0x10
-        public VRC.SDK3.Rendering.VRCCameraSettings <ScreenCamera>k__BackingField; // 0x8
-        public VRC.SDK3.Rendering.VRCCameraSettings <PhotoCamera>k__BackingField; // 0x10
-        public UnityEngine.Camera _targetCamera; // 0x18
-        public System.Func`1<UnityEngine.Transform> TransformGetter; // 0x20
-        public bool HasChangedFarClipPlane; // 0x28
-        public bool _layerCullSphericalFake; // 0x29
-        public bool _layerCullSphericalWarningDisplayed; // 0x18
-        public float[] _defaultLayerCullDistances; // 0x20
-        public int[] _excludedLayers; // 0x28
-
         // ── Methods ──
-        public void get_ScreenCamera(){} // RVA: 0x9A13E10
-        public void set_ScreenCamera(){} // RVA: 0x9A13E70
-        public void get_ScreenCameraRef(){} // RVA: 0x9A13F30
-        public void set_ScreenCameraRef(){} // RVA: 0x9A13FD0
-        public void get_PhotoCamera(){} // RVA: 0x9A140E0
-        public void set_PhotoCamera(){} // RVA: 0x9A14140
-        public void get_PhotoCameraRef(){} // RVA: 0x9A14200
-        public void set_PhotoCameraRef(){} // RVA: 0x9A142A0
-        public void .ctor(){} // RVA: 0x9A143B0
-        public void get_CameraMode(){} // RVA: 0x9A144D0
-        public void get_Position(){} // RVA: 0x9A144F0
-        public void get_Rotation(){} // RVA: 0x9A145F0
-        public void get_Forward(){} // RVA: 0x9A146F0
-        public void get_Up(){} // RVA: 0x9A147A0
-        public void get_Right(){} // RVA: 0x9A14850
-        public void get_PixelWidth(){} // RVA: 0x9A14900
-        public void get_PixelHeight(){} // RVA: 0x9A14960
-        public void get_FieldOfView(){} // RVA: 0x9A149C0
-        public void get_Aspect(){} // RVA: 0x9A14A20
-        public void get_Active(){} // RVA: 0x9A14A80
-        public void get_StereoEnabled(){} // RVA: 0x9A14B40
-        public void get_NearClipPlane(){} // RVA: 0x9A14BA0
-        public void set_NearClipPlane(){} // RVA: 0x9A14C00
-        public void get_FarClipPlane(){} // RVA: 0x9A14CE0
-        public void set_FarClipPlane(){} // RVA: 0x9A14D40
-        public void get_ClearFlags(){} // RVA: 0x9A14E20
-        public void set_ClearFlags(){} // RVA: 0x9A14E80
-        public void get_BackgroundColor(){} // RVA: 0x9A14F60
-        public void set_BackgroundColor(){} // RVA: 0x9A14FE0
-        public void get_AllowHDR(){} // RVA: 0x9A150D0
-        public void set_AllowHDR(){} // RVA: 0x9A15130
-        public void get_DepthTextureMode(){} // RVA: 0x9A15210
-        public void set_DepthTextureMode(){} // RVA: 0x9A15270
-        public void get_UseOcclusionCulling(){} // RVA: 0x9A15470
-        public void set_UseOcclusionCulling(){} // RVA: 0x9A154D0
-        public void get_AllowMSAA(){} // RVA: 0x9A155B0
-        public void set_AllowMSAA(){} // RVA: 0x9A15610
-        public void get_CullingMask(){} // RVA: 0x9A156F0
-        public void set_CullingMask(){} // RVA: 0x9A15750
-        public void get_LayerCullDistances(){} // RVA: 0x9A159A0
-        public void set_LayerCullDistances(){} // RVA: 0x9A15A00
-        public void get_LayerCullSpherical(){} // RVA: 0xC36000
-        public void set_LayerCullSpherical(){} // RVA: 0x9A15AA0
-        public void OnExitWorld(){} // RVA: 0x9A15B80
-        public void GetEyePosition(){} // RVA: 0x9A15BF0
-        public void GetEyeRotation(){} // RVA: 0x9A16170
-        public void GetCurrentCamera(){} // RVA: 0x9A16780
-        public void Equals(){} // RVA: 0x9A16BE0
-        public void GetHashCode(){} // RVA: 0x9A16DA0
-        public void ToString(){} // RVA: 0x9A16EA0
-        public void SetLayerCullDistances(){} // RVA: 0x9A170A0
-        public void SetCullingMask(){} // RVA: 0x9A173B0
-        public void .cctor(){} // RVA: 0x9A174D0
-        public void <.ctor>b__16_0(){} // RVA: 0x71EFC80
+        public void get_ScreenCamera(){} // RVA: 0x7B18531A0
+        public void set_ScreenCamera(){} // RVA: 0x7B1853200
+        public void get_ScreenCameraRef(){} // RVA: 0x7B18532C0
+        public void set_ScreenCameraRef(){} // RVA: 0x7B1853360
+        public void get_PhotoCamera(){} // RVA: 0x7B1853470
+        public void set_PhotoCamera(){} // RVA: 0x7B18534D0
+        public void get_PhotoCameraRef(){} // RVA: 0x7B1853590
+        public void set_PhotoCameraRef(){} // RVA: 0x7B1853630
+        public void .ctor(){} // RVA: 0x7B1853740
+        public void get_CameraMode(){} // RVA: 0x7B1853860
+        public void get_Position(){} // RVA: 0x7B1853880
+        public void get_Rotation(){} // RVA: 0x7B1853980
+        public void get_Forward(){} // RVA: 0x7B1853A80
+        public void get_Up(){} // RVA: 0x7B1853B30
+        public void get_Right(){} // RVA: 0x7B1853BE0
+        public void get_PixelWidth(){} // RVA: 0x7B1853C90
+        public void get_PixelHeight(){} // RVA: 0x7B1853CF0
+        public void get_FieldOfView(){} // RVA: 0x7B1853D50
+        public void get_Aspect(){} // RVA: 0x7B1853DB0
+        public void get_Active(){} // RVA: 0x7B1853E10
+        public void get_StereoEnabled(){} // RVA: 0x7B1853ED0
+        public void get_NearClipPlane(){} // RVA: 0x7B1853F30
+        public void set_NearClipPlane(){} // RVA: 0x7B1853F90
+        public void get_FarClipPlane(){} // RVA: 0x7B1854070
+        public void set_FarClipPlane(){} // RVA: 0x7B18540D0
+        public void get_ClearFlags(){} // RVA: 0x7B18541B0
+        public void set_ClearFlags(){} // RVA: 0x7B1854210
+        public void get_BackgroundColor(){} // RVA: 0x7B18542F0
+        public void set_BackgroundColor(){} // RVA: 0x7B1854370
+        public void get_AllowHDR(){} // RVA: 0x7B1854460
+        public void set_AllowHDR(){} // RVA: 0x7B18544C0
+        public void get_DepthTextureMode(){} // RVA: 0x7B18545A0
+        public void set_DepthTextureMode(){} // RVA: 0x7B1854600
+        public void get_UseOcclusionCulling(){} // RVA: 0x7B1854800
+        public void set_UseOcclusionCulling(){} // RVA: 0x7B1854860
+        public void get_AllowMSAA(){} // RVA: 0x7B1854940
+        public void set_AllowMSAA(){} // RVA: 0x7B18549A0
+        public void get_CullingMask(){} // RVA: 0x7B1854A80
+        public void set_CullingMask(){} // RVA: 0x7B1854AE0
+        public void get_LayerCullDistances(){} // RVA: 0x7B1854D40
+        public void set_LayerCullDistances(){} // RVA: 0x7B1854DA0
+        public void get_LayerCullSpherical(){} // RVA: 0x7A89FCA90
+        public void set_LayerCullSpherical(){} // RVA: 0x7B1854E40
+        public void OnExitWorld(){} // RVA: 0x7B1854F20
+        public void GetEyePosition(){} // RVA: 0x7B1854F90
+        public void GetEyeRotation(){} // RVA: 0x7B1855500
+        public void GetCurrentCamera(){} // RVA: 0x7B1855B10
+        public void Equals(){} // RVA: 0x7B1855F70
+        public void GetHashCode(){} // RVA: 0x7B1856110
+        public void ToString(){} // RVA: 0x7B1856210
+        public void SetLayerCullDistances(){} // RVA: 0x7B1856410
+        public void SetCullingMask(){} // RVA: 0x7B1856730
+        public void .cctor(){} // RVA: 0x7B1856860
+        public void <.ctor>b__16_0(){} // RVA: 0x7AEFCF210
     }
 
-    public class VRCQualitySettings
+    public class VRCQualitySettings : Object
     {
-        public System.Action`4<float,float,float,float> SetShadowDistanceInternal;
-        public System.Action`1<float> SetShadowDistanceInternalAll; // 0x8
-        public System.Action ResetShadowDistanceInternal; // 0x10
-
         // ── Methods ──
-        public void get_AntiAliasing(){} // RVA: 0x70DA9A0
-        public void get_PixelLightCount(){} // RVA: 0x70DA370
-        public void get_LODBias(){} // RVA: 0x70DA760
-        public void get_MaximumLODLevel(){} // RVA: 0x70DA810
-        public void get_ShadowResolution(){} // RVA: 0x70DA560
-        public void get_ShadowCascades(){} // RVA: 0x70DA410
-        public void get_VSyncCount(){} // RVA: 0x70DA900
-        public void get_ShadowDistance(){} // RVA: 0x70DA4B0
-        public void ResetShadowDistance(){} // RVA: 0x79E8450
-        public void SetShadowDistance(){} // RVA: 0x9A176C0 | overloaded x2
-        public void get_ShadowCascade2Split(){} // RVA: 0x70DA600
-        public void set_ShadowCascade2Split(){} // RVA: 0x70DA650
-        public void get_ShadowCascade4Split(){} // RVA: 0x9A17760
-        public void set_ShadowCascade4Split(){} // RVA: 0x9A177D0
+        public void get_AntiAliasing(){} // RVA: 0x7AEEB9850
+        public void get_PixelLightCount(){} // RVA: 0x7AEEB9220
+        public void get_LODBias(){} // RVA: 0x7AEEB9610
+        public void get_MaximumLODLevel(){} // RVA: 0x7AEEB96C0
+        public void get_ShadowResolution(){} // RVA: 0x7AEEB9410
+        public void get_ShadowCascades(){} // RVA: 0x7AEEB92C0
+        public void get_VSyncCount(){} // RVA: 0x7AEEB97B0
+        public void get_ShadowDistance(){} // RVA: 0x7AEEB9360
+        public void ResetShadowDistance(){} // RVA: 0x7AF7CA130
+        public void SetShadowDistance(){} // RVA: 0x7B1856A50
+        public void get_ShadowCascade2Split(){} // RVA: 0x7AEEB94B0
+        public void set_ShadowCascade2Split(){} // RVA: 0x7AEEB9500
+        public void get_ShadowCascade4Split(){} // RVA: 0x7B1856AF0
+        public void set_ShadowCascade4Split(){} // RVA: 0x7B1856B60
     }
 
 }

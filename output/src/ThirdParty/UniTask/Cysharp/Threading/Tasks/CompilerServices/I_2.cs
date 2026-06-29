@@ -1,170 +1,161 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
-// Classes: 18
-// Methods: 72
+// Classes: 17
+// Methods: 68
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 {
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){} // RVA: 0xC770
-        public void SetResult(){} // RVA: 0x24B10
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){} // RVA: 0xC770
-        public void SetResult(){} // RVA: 0x24B10
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){}
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){}
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){}
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){} // RVA: 0xC770
-        public void SetResult(){} // RVA: 0x24B10
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){} // RVA: 0x26100
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){} // RVA: 0x24B10
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){} // RVA: 0x24B10
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){} // RVA: 0x24CC0
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){}
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E188D0
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){} // RVA: 0x24CC0
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){} // RVA: 0x24B10
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){} // RVA: 0xC770
-        public void SetResult(){} // RVA: 0x24B10
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){}
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){}
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18800
+        public void SetException(){} // RVA: 0x7A7E18800
     }
 
     public class IStateMachineRunnerPromise`1
     {
         // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){} // RVA: 0xC770
-        public void SetResult(){} // RVA: 0x24B10
-        public void SetException(){} // RVA: 0x24B10
-    }
-
-    public class IStateMachineRunnerPromise`1
-    {
-        // ── Methods ──
-        public void get_MoveNext(){} // RVA: 0xCD60
-        public void get_Task(){}
-        public void SetResult(){}
-        public void SetException(){} // RVA: 0x24B10
+        public void get_Task(){} // RVA: 0x7A7E00490
+        public void SetException(){} // RVA: 0x7A7E18800
+        public void get_MoveNext(){} // RVA: 0x7A7E00680
+        public void SetResult(){} // RVA: 0x7A7E18950
     }
 
 }

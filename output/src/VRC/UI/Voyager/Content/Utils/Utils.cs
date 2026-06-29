@@ -5,28 +5,28 @@
 
 namespace VRC.UI.Voyager.Content.Utils
 {
-    public class ProfileHelpers
+    public class ProfileHelpers : Object
     {
         // ── Methods ──
-        public void GetIconForLink(){} // RVA: 0x93EBAA0
-        public void .cctor(){} // RVA: 0x93EBE90
+        public void GetIconForLink(){} // RVA: 0x7B1222EC0
+        public void .cctor(){} // RVA: 0x7B12232D0
     }
 
-    public class WalletHelpers
+    public class WalletHelpers : Object
     {
         // ── Methods ──
-        public void get_CreditsAmountFormatString(){} // RVA: 0x93EC720
-        public void get_CreditTokensGlyphSymbol(){} // RVA: 0x93EC760
-        public void get_CreditTokensColorGlyphSymbol(){} // RVA: 0x93EC7A0
-        public void get_StreamerModeWalletCensor(){} // RVA: 0x93EC7E0
-        public void FormatCreditAmount(){} // RVA: 0x93EC820
-        public void FormatWalletAmount(){} // RVA: 0x93EC8E0
+        public void get_CreditsAmountFormatString(){} // RVA: 0x7B1223B60
+        public void get_CreditTokensGlyphSymbol(){} // RVA: 0x7B1223BA0
+        public void get_CreditTokensColorGlyphSymbol(){} // RVA: 0x7B1223BE0
+        public void get_StreamerModeWalletCensor(){} // RVA: 0x7B1223C20
+        public void FormatCreditAmount(){} // RVA: 0x7B1223C60
+        public void FormatWalletAmount(){} // RVA: 0x7B1223D20
     }
 
-    public class WorldHelpers
+    public class WorldHelpers : Object
     {
         // ── Methods ──
-        public void GetRegionIconString(){} // RVA: 0x93ECAF0
+        public void GetRegionIconString(){} // RVA: 0x7B1223F30
     }
 
 }

@@ -5,15 +5,15 @@
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing.Registration
 {
-    public class IapCoreInitializeCallback
+    public class IapCoreInitializeCallback : Object
     {
         // ── Methods ──
-        public void Register(){} // RVA: 0x724E7B0
-        public void Initialize(){} // RVA: 0x724E960
-        public void CacheInitializedEnvironment(){} // RVA: 0x724EDC0
-        public void GetCurrentEnvironment(){} // RVA: 0x724EE50
-        public void InitializeTelemetryComponents(){} // RVA: 0x724EF00
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Register(){} // RVA: 0x7AF02E230
+        public void Initialize(){} // RVA: 0x7AF02E3E0
+        public void CacheInitializedEnvironment(){} // RVA: 0x7AF02E840
+        public void GetCurrentEnvironment(){} // RVA: 0x7AF02E8D0
+        public void InitializeTelemetryComponents(){} // RVA: 0x7AF02E980
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

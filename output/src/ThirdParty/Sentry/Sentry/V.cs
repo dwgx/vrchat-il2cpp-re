@@ -5,38 +5,32 @@
 
 namespace ThirdParty.Sentry.Sentry
 {
-    public class ViewHierarchy : ؄}e
+    public class ViewHierarchy : Object
     {
-        public string <RenderingSystem>k__BackingField; // 0x10
-        public System.Collections.Generic.List`1<Sentry.ViewHierarchyNode> <Windows>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_RenderingSystem(){} // RVA: 0x2F8380
-        public void set_RenderingSystem(){} // RVA: 0x2DEE30
-        public void get_Windows(){} // RVA: 0x2E07C0
-        public void .ctor(){} // RVA: 0x63CC3C0
-        public void WriteTo(){} // RVA: 0x63CC4E0
+        public void get_RenderingSystem(){} // RVA: 0x7A80F2570
+        public void set_RenderingSystem(){} // RVA: 0x7A80D8E20
+        public void get_Windows(){} // RVA: 0x7A80DA7B0
+        public void .ctor(){} // RVA: 0x7AE1B98E0
+        public void WriteTo(){} // RVA: 0x7AE1B9A00
     }
 
-    public class ViewHierarchyAttachment
+    public class ViewHierarchyAttachment : SentryAttachment
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63CC720
+        public void .ctor(){} // RVA: 0x7AE1B9CA0
     }
 
-    public class ViewHierarchyNode
+    public class ViewHierarchyNode : Object
     {
-        public System.Collections.Generic.List`1<Sentry.ViewHierarchyNode> _children; // 0x10
-        public string <Type>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void get_Type(){} // RVA: 0x2E07C0
-        public void set_Type(){} // RVA: 0x343E80
-        public void get_Children(){} // RVA: 0x63CC7A0
-        public void set_Children(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x343E80
-        public void WriteTo(){} // RVA: 0x63CC860
-        public void WriteAdditionalProperties(){} // RVA: 0x2DC60
+        public void get_Type(){} // RVA: 0x7A80DA7B0
+        public void set_Type(){} // RVA: 0x7A813E420
+        public void get_Children(){} // RVA: 0x7AE1B9D20
+        public void set_Children(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A813E420
+        public void WriteTo(){} // RVA: 0x7AE1B9DE0
+        public void WriteAdditionalProperties(){} // RVA: 0x7A7E18890
     }
 
 }

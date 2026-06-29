@@ -1,209 +1,184 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.SDK3.Data
 // Classes: 6
-// Methods: 292
+// Methods: 146
 
 namespace VRC.SDK3.Data
 {
-    public class DataDictionary
+    public class DataDictionary : Object
     {
-        public System.Collections.Generic.Dictionary`2<VRC.SDK3.Data.DataToken,VRC.SDK3.Data.DataToken> _values; // 0x10
-        public bool <IsReadOnly>k__BackingField; // 0x18
-        public VRC.SDK3.Data.DataList keyCache; // 0x20
-
         // ── Methods ──
-        public void get_Count(){} // RVA: 0x9A1C8C0
-        public void get_IsReadOnly(){} // RVA: 0x2F84E0
-        public void .ctor(){} // RVA: 0x9A1CA50 | overloaded x2
-        public void get_Item(){} // RVA: 0x9A1CB40
-        public void set_Item(){} // RVA: 0x9A1CBF0
-        public void SetValue(){} // RVA: 0x9A1CC40
-        public void TryGetValue(){} // RVA: 0x9A1D040 | overloaded x2
-        public void GetValue(){} // RVA: 0x9A1D0F0
-        public void ShallowClone(){} // RVA: 0x9A1D220
-        public void DeepClone(){} // RVA: 0x9A1D4D0
-        public void Clear(){} // RVA: 0x9A1DA40
-        public void Remove(){} // RVA: 0x9A1E690 | overloaded x3
-        public void ContainsKey(){} // RVA: 0x9A1DC90
-        public void ContainsValue(){} // RVA: 0x9A1DD20
-        public void EnsureCapacity(){} // RVA: 0x9A1DDB0
-        public void ParseAll(){} // RVA: 0x2DD310
-        public void GetKeys(){} // RVA: 0x9A1DED0
-        public void GetValues(){} // RVA: 0x9A1DFF0
-        public void GetEnumerator(){} // RVA: 0x9A1E120
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x9A1E260
-        public void Add(){} // RVA: 0x9A1E3D0 | overloaded x2
-        public void Contains(){} // RVA: 0x9A1E500
-        public void CopyTo(){} // RVA: 0x9A1E650
-        public void Equals(){} // RVA: 0x9A1E8A0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x64A3790
+        public void get_Count(){} // RVA: 0x7B1864C40
+        public void get_IsReadOnly(){} // RVA: 0x7A80F26D0
+        public void .ctor(){} // RVA: 0x7B1864DD0
+        public void get_Item(){} // RVA: 0x7B1864EC0
+        public void set_Item(){} // RVA: 0x7B1864F70
+        public void SetValue(){} // RVA: 0x7B1864FC0
+        public void TryGetValue(){} // RVA: 0x7B18653C0
+        public void GetValue(){} // RVA: 0x7B1865470
+        public void ShallowClone(){} // RVA: 0x7B18655A0
+        public void DeepClone(){} // RVA: 0x7B1865850
+        public void Clear(){} // RVA: 0x7B1865DC0
+        public void Remove(){} // RVA: 0x7B1866A10
+        public void ContainsKey(){} // RVA: 0x7B1866010
+        public void ContainsValue(){} // RVA: 0x7B18660A0
+        public void EnsureCapacity(){} // RVA: 0x7B1866130
+        public void ParseAll(){} // RVA: 0x7A80D7310
+        public void GetKeys(){} // RVA: 0x7B1866250
+        public void GetValues(){} // RVA: 0x7B1866370
+        public void GetEnumerator(){} // RVA: 0x7B18664A0
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7B18665E0
+        public void Add(){} // RVA: 0x7B1866750
+        public void Contains(){} // RVA: 0x7B1866880
+        public void CopyTo(){} // RVA: 0x7B18669D0
+        public void Equals(){} // RVA: 0x7B1866C20
+        public void GetHashCode(){} // RVA: 0x7AE290990
     }
 
-    public class DataList
+    public class DataList : Object
     {
-        public System.Collections.Generic.List`1<VRC.SDK3.Data.DataToken> _values; // 0x10
-        public bool <IsReadOnly>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30 | overloaded x5
-        public void get_Count(){} // RVA: 0x9A27F20
-        public void get_Capacity(){} // RVA: 0x9A27F70
-        public void set_Capacity(){} // RVA: 0x9A27FC0
-        public void TrimExcess(){} // RVA: 0x9A28020
-        public void get_IsReadOnly(){} // RVA: 0x2F84E0
-        public void get_Item(){} // RVA: 0x9A280B0
-        public void set_Item(){} // RVA: 0x9A280F0
-        public void SetValue(){} // RVA: 0x9A28130
-        public void TryGetValue(){} // RVA: 0x9A283A0 | overloaded x2
-        public void GetValue(){} // RVA: 0x9A28430
-        public void Insert(){} // RVA: 0x9A28540
-        public void InsertRange(){} // RVA: 0x9A285C0
-        public void GetRange(){} // RVA: 0x9A28630
-        public void ShallowClone(){} // RVA: 0x9A28720
-        public void DeepClone(){} // RVA: 0x9A288B0
-        public void ToArray(){} // RVA: 0x9A28C40
-        public void Add(){} // RVA: 0x9A28D70
-        public void AddRange(){} // RVA: 0x9A28E70 | overloaded x2
-        public void Contains(){} // RVA: 0x9A29090
-        public void IndexOf(){} // RVA: 0x9A292F0 | overloaded x3
-        public void LastIndexOf(){} // RVA: 0x9A29560 | overloaded x3
-        public void Remove(){} // RVA: 0x9A29610
-        public void RemoveAll(){} // RVA: 0x9A296F0
-        public void Clear(){} // RVA: 0x9A29790
-        public void RemoveAt(){} // RVA: 0x9A29800
-        public void RemoveRange(){} // RVA: 0x9A29850
-        public void Reverse(){} // RVA: 0x9A29950 | overloaded x2
-        public void Sort(){} // RVA: 0x9A29A50 | overloaded x2
-        public void BinarySearch(){} // RVA: 0x9A29BC0 | overloaded x2
-        public void ParseAll(){} // RVA: 0x9A29CD0
-        public void ParseInRange(){} // RVA: 0x2DD310 | overloaded x2
-        public void CopyTo(){} // RVA: 0x9A29DA0
-        public void GetEnumerator(){} // RVA: 0x9A29E20
-        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x9A29F40
-        public void Equals(){} // RVA: 0x9A29F50 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x64A3790
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Count(){} // RVA: 0x7B1867370
+        public void get_Capacity(){} // RVA: 0x7B18673C0
+        public void set_Capacity(){} // RVA: 0x7B1867410
+        public void TrimExcess(){} // RVA: 0x7B1867470
+        public void get_IsReadOnly(){} // RVA: 0x7A80F26D0
+        public void get_Item(){} // RVA: 0x7B1867500
+        public void set_Item(){} // RVA: 0x7B1867540
+        public void SetValue(){} // RVA: 0x7B1867580
+        public void TryGetValue(){} // RVA: 0x7B1867800
+        public void GetValue(){} // RVA: 0x7B1867890
+        public void Insert(){} // RVA: 0x7B18679A0
+        public void InsertRange(){} // RVA: 0x7B1867A20
+        public void GetRange(){} // RVA: 0x7B1867A90
+        public void ShallowClone(){} // RVA: 0x7B1867B80
+        public void DeepClone(){} // RVA: 0x7B1867D10
+        public void ToArray(){} // RVA: 0x7B1868090
+        public void Add(){} // RVA: 0x7B18681C0
+        public void AddRange(){} // RVA: 0x7B18682C0
+        public void Contains(){} // RVA: 0x7B18684F0
+        public void IndexOf(){} // RVA: 0x7B1868750
+        public void LastIndexOf(){} // RVA: 0x7B18689C0
+        public void Remove(){} // RVA: 0x7B1868A70
+        public void RemoveAll(){} // RVA: 0x7B1868B50
+        public void Clear(){} // RVA: 0x7B1868BF0
+        public void RemoveAt(){} // RVA: 0x7B1868C60
+        public void RemoveRange(){} // RVA: 0x7B1868CB0
+        public void Reverse(){} // RVA: 0x7B1868DB0
+        public void Sort(){} // RVA: 0x7B1868EB0
+        public void BinarySearch(){} // RVA: 0x7B1868FF0
+        public void ParseAll(){} // RVA: 0x7B18690B0
+        public void ParseInRange(){} // RVA: 0x7A80D7310
+        public void CopyTo(){} // RVA: 0x7B1869180
+        public void GetEnumerator(){} // RVA: 0x7B1869200
+        public void System.Collections.IEnumerable.GetEnumerator(){} // RVA: 0x7B1869320
+        public void Equals(){} // RVA: 0x7B1869330
+        public void GetHashCode(){} // RVA: 0x7AE290990
     }
 
-    public class DataToken
+    public class DataToken : ValueType
     {
-        public string _string; // 0x10
-        public object _reference; // 0x10
-        public bool _boolean; // 0x18
-        public sbyte _sbyte; // 0x18
-        public byte _byte; // 0x18
-        public short _short; // 0x18
-        public ushort _ushort; // 0x18
-        public int _int; // 0x18
-        public uint _uint; // 0x18
-        public long _long; // 0x18
-        public ulong _ulong; // 0x18
-        public float _float; // 0x18
-        public double _double; // 0x18
-        public 0x6597D9C8 _error; // 0x18
-        public 0x6597DA20 _tokenType; // 0x20
-
         // ── Methods ──
-        public void get_TokenType(){} // RVA: 0x3A75E0
-        public void get_IsEmpty(){} // RVA: 0xB84FF0
-        public void .ctor(){} // RVA: 0x9A305D0 | overloaded x19
-        public void get_Boolean(){} // RVA: 0x9A2A420
-        public void get_SByte(){} // RVA: 0x9A2A4F0
-        public void get_Byte(){} // RVA: 0x9A2A5C0
-        public void get_Short(){} // RVA: 0x9A2A690
-        public void get_UShort(){} // RVA: 0x9A2A780
-        public void get_Int(){} // RVA: 0x9A2A860
-        public void get_UInt(){} // RVA: 0x9A2A970
-        public void get_Long(){} // RVA: 0x9A2AA60
-        public void get_ULong(){} // RVA: 0x9A2AB80
-        public void get_Float(){} // RVA: 0x9A2AC80
-        public void get_Double(){} // RVA: 0x9A2AE40
-        public void get_Number(){} // RVA: 0x9A2B010
-        public void get_String(){} // RVA: 0x9A2B1E0
-        public void get_DataList(){} // RVA: 0x9A2B2B0
-        public void get_DataDictionary(){} // RVA: 0x9A2B3E0
-        public void get_Reference(){} // RVA: 0x9A2B510
-        public void get_Error(){} // RVA: 0x9A2B5E0
-        public void op_Explicit(){} // RVA: 0x9A2B5E0 | overloaded x15
-        public void op_Implicit(){} // RVA: 0x9A2B9D0 | overloaded x16
-        public void get_IsNumber(){} // RVA: 0x9A2B9F0
-        public void get_IsNull(){} // RVA: 0x9A2BA40
-        public void ToString(){} // RVA: 0x9A2BB50
-        public void GetHashCode(){} // RVA: 0x9A2C0D0
-        public void CompareTo(){} // RVA: 0x9A2C390 | overloaded x2
-        public void op_Equality(){} // RVA: 0x9A2F8F0 | overloaded x31
-        public void op_Inequality(){} // RVA: 0x9A2F970 | overloaded x31
-        public void Equals(){} // RVA: 0x9A2F9F0 | overloaded x17
-        public void Bitcast(){} // RVA: 0x9A2FA50
-        public void GetObjectData(){} // RVA: 0x9A2FC40
+        public void get_TokenType(){} // RVA: 0x7A769A8A0
+        public void get_IsEmpty(){} // RVA: 0x7A7FC3440
+        public void .ctor(){} // RVA: 0x7A7FC8900
+        public void get_Boolean(){} // RVA: 0x7A7FC84B0
+        public void get_SByte(){} // RVA: 0x7A7FC84C0
+        public void get_Byte(){} // RVA: 0x7A7FC84D0
+        public void get_Short(){} // RVA: 0x7A7FC84E0
+        public void get_UShort(){} // RVA: 0x7A7FC84F0
+        public void get_Int(){} // RVA: 0x7A7FC8500
+        public void get_UInt(){} // RVA: 0x7A7FC8510
+        public void get_Long(){} // RVA: 0x7A7FC8520
+        public void get_ULong(){} // RVA: 0x7A7FC8530
+        public void get_Float(){} // RVA: 0x7A7FC8540
+        public void get_Double(){} // RVA: 0x7A7FC8550
+        public void get_Number(){} // RVA: 0x7A7FC8560
+        public void get_String(){} // RVA: 0x7A7FC8570
+        public void get_DataList(){} // RVA: 0x7A7FC8580
+        public void get_DataDictionary(){} // RVA: 0x7A7FC8590
+        public void get_Reference(){} // RVA: 0x7A7FC85A0
+        public void get_Error(){} // RVA: 0x7A7FC85B0
+        public void op_Explicit(){} // RVA: 0x7B186A9C0
+        public void op_Implicit(){} // RVA: 0x7B186ADB0
+        public void get_IsNumber(){} // RVA: 0x7A7FC85C0
+        public void get_IsNull(){} // RVA: 0x7A7FC8610
+        public void ToString(){} // RVA: 0x7A7FC8620
+        public void GetHashCode(){} // RVA: 0x7A7FC8630
+        public void CompareTo(){} // RVA: 0x7A7FC8650
+        public void op_Equality(){} // RVA: 0x7B186EFD0
+        public void op_Inequality(){} // RVA: 0x7B186F050
+        public void Equals(){} // RVA: 0x7A7FC8850
+        public void Bitcast(){} // RVA: 0x7A7FC88B0
+        public void GetObjectData(){} // RVA: 0x7A7FC88E0
     }
 
-    public class JsonDictionary
+    public class JsonDictionary : DataDictionary
     {
-        public string _source; // 0x40
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9A30FF0
-        public void get_Count(){} // RVA: 0x9A311A0
-        public void SetValue(){} // RVA: 0x9A31210
-        public void GetValue(){} // RVA: 0x9A31400
-        public void Clear(){} // RVA: 0x9A31770
-        public void ContainsKey(){} // RVA: 0x9A31840
-        public void Remove(){} // RVA: 0x9A31940
-        public void ParseAll(){} // RVA: 0x9A31A20
-        public void GetKeys(){} // RVA: 0x9A31D40
-        public void Add(){} // RVA: 0x9A31EA0
-        public void AddLazyValue(){} // RVA: 0x9A320E0
+        public void .ctor(){} // RVA: 0x7B18706E0
+        public void get_Count(){} // RVA: 0x7B1870890
+        public void SetValue(){} // RVA: 0x7B1870900
+        public void GetValue(){} // RVA: 0x7B1870AF0
+        public void Clear(){} // RVA: 0x7B1870E60
+        public void ContainsKey(){} // RVA: 0x7B1870F30
+        public void Remove(){} // RVA: 0x7B1871030
+        public void ParseAll(){} // RVA: 0x7B1871110
+        public void GetKeys(){} // RVA: 0x7B1871440
+        public void Add(){} // RVA: 0x7B18715A0
+        public void AddLazyValue(){} // RVA: 0x7B18717E0
     }
 
-    public class JsonList
+    public class JsonList : DataList
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9A321B0
-        public void GetValue(){} // RVA: 0x9A32280
-        public void Insert(){} // RVA: 0x9A325A0
-        public void InsertRange(){} // RVA: 0x9A326E0
-        public void Add(){} // RVA: 0x9A327E0
-        public void RemoveAt(){} // RVA: 0x9A32920
-        public void Clear(){} // RVA: 0x9A329B0
-        public void RemoveRange(){} // RVA: 0x9A32A60
-        public void Reverse(){} // RVA: 0x9A32C90 | overloaded x2
-        public void ParseInRange(){} // RVA: 0x9A32D30
-        public void AddLazyValue(){} // RVA: 0x9A32F90
-        public void ClearLazyValue(){} // RVA: 0x9A330C0
+        public void .ctor(){} // RVA: 0x7B18718B0
+        public void GetValue(){} // RVA: 0x7B1871980
+        public void Insert(){} // RVA: 0x7B1871CA0
+        public void InsertRange(){} // RVA: 0x7B1871DE0
+        public void Add(){} // RVA: 0x7B1871EE0
+        public void RemoveAt(){} // RVA: 0x7B1872020
+        public void Clear(){} // RVA: 0x7B18720B0
+        public void RemoveRange(){} // RVA: 0x7B1872160
+        public void Reverse(){} // RVA: 0x7B1872390
+        public void ParseInRange(){} // RVA: 0x7B1872430
+        public void AddLazyValue(){} // RVA: 0x7B18726A0
+        public void ClearLazyValue(){} // RVA: 0x7B18727D0
     }
 
-    public class VRCJson
+    public class VRCJson : Object
     {
         // ── Methods ──
-        public void TryDeserializeFromJson(){} // RVA: 0x9A33240
-        public void TrySerializeToJson(){} // RVA: 0x9A33740
-        public void SerializeObject(){} // RVA: 0x9A33D30
-        public void SerializeArray(){} // RVA: 0x9A349D0
-        public void AppendIndent(){} // RVA: 0x9A35420
-        public void TryParseToken(){} // RVA: 0x9A35580
-        public void TryParseObject(){} // RVA: 0x9A35700
-        public void TryParseArray(){} // RVA: 0x9A36120
-        public void TryParseString(){} // RVA: 0x9A36A20
-        public void TryParseNumber(){} // RVA: 0x9A36E40
-        public void TryParseBool(){} // RVA: 0x9A37720
-        public void ScanObject(){} // RVA: 0x9A37B60
-        public void ScanArray(){} // RVA: 0x9A37D80
-        public void ScanString(){} // RVA: 0x9A38050
-        public void ScanNumber(){} // RVA: 0x9A38290
-        public void ScanBool(){} // RVA: 0x9A38450
-        public void ScanNull(){} // RVA: 0x9A38600
-        public void ScanUnknown(){} // RVA: 0x9A38790
-        public void SkipWhitespace(){} // RVA: 0x9A388F0
-        public void IsComplexObject(){} // RVA: 0x9A38980
-        public void GetStringEnd(){} // RVA: 0x9A389F0
-        public void IsComplexArray(){} // RVA: 0x9A38A60
-        public void SkipToCharacter(){} // RVA: 0x9A38AD0
-        public void SkipToAnyCharacter(){} // RVA: 0x9A38B20
-        public void UnEscapeCharacter(){} // RVA: 0x9A38C40
-        public void EscapeString(){} // RVA: 0x9A39120
-        public void TrimWhitespace(){} // RVA: 0x9A39250
-        public void TryIdentifyType(){} // RVA: 0x9A39370
-        public void .cctor(){} // RVA: 0x9A39590
+        public void TryDeserializeFromJson(){} // RVA: 0x7B1872950
+        public void TrySerializeToJson(){} // RVA: 0x7B1872E40
+        public void SerializeObject(){} // RVA: 0x7B1873430
+        public void SerializeArray(){} // RVA: 0x7B18740D0
+        public void AppendIndent(){} // RVA: 0x7B1874B20
+        public void TryParseToken(){} // RVA: 0x7B1874C80
+        public void TryParseObject(){} // RVA: 0x7B1874E00
+        public void TryParseArray(){} // RVA: 0x7B1875830
+        public void TryParseString(){} // RVA: 0x7B18761E0
+        public void TryParseNumber(){} // RVA: 0x7B18765F0
+        public void TryParseBool(){} // RVA: 0x7B1876ED0
+        public void ScanObject(){} // RVA: 0x7B1877320
+        public void ScanArray(){} // RVA: 0x7B1877540
+        public void ScanString(){} // RVA: 0x7B1877810
+        public void ScanNumber(){} // RVA: 0x7B1877A50
+        public void ScanBool(){} // RVA: 0x7B1877C10
+        public void ScanNull(){} // RVA: 0x7B1877DC0
+        public void ScanUnknown(){} // RVA: 0x7B1877F50
+        public void SkipWhitespace(){} // RVA: 0x7B18780B0
+        public void IsComplexObject(){} // RVA: 0x7B1878140
+        public void GetStringEnd(){} // RVA: 0x7B18781B0
+        public void IsComplexArray(){} // RVA: 0x7B1878220
+        public void SkipToCharacter(){} // RVA: 0x7B1878290
+        public void SkipToAnyCharacter(){} // RVA: 0x7B18782E0
+        public void UnEscapeCharacter(){} // RVA: 0x7B1878400
+        public void EscapeString(){} // RVA: 0x7B1878850
+        public void TrimWhitespace(){} // RVA: 0x7B1878980
+        public void TryIdentifyType(){} // RVA: 0x7B1878AA0
+        public void .cctor(){} // RVA: 0x7B1878CD0
     }
 
 }

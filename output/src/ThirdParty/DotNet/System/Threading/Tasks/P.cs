@@ -1,109 +1,91 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Threading.Tasks
-// Classes: 10
-// Methods: 43
+// Classes: 9
+// Methods: 38
 
 namespace ThirdParty.DotNet.System.Threading.Tasks
 {
-    public class Parallel
+    public class Parallel : Object
     {
         // ── Methods ──
-        public void CheckTimeoutReached(){} // RVA: 0x5F43910
-        public void ComputeTimeoutPoint(){} // RVA: 0x5F43940
-        public void ForWorker(){} // RVA: 0x283FA0
-        public void ForEach(){} // RVA: 0x283FA0 | overloaded x2
-        public void ForEachWorker(){} // RVA: 0x283FA0 | overloaded x3
-        public void PartitionerForEachWorker(){} // RVA: 0x283FA0
-        public void ReduceToSingleCancellationException(){} // RVA: 0x5F43960
-        public void ThrowSingleCancellationExceptionOrOtherException(){} // RVA: 0x5F43C90
-        public void .cctor(){} // RVA: 0x5F43CF0
+        public void CheckTimeoutReached(){} // RVA: 0x7ADD32300
+        public void ComputeTimeoutPoint(){} // RVA: 0x7ADD32330
+        public void ForWorker(){} // RVA: 0x7A8051B10
+        public void ForEach(){} // RVA: 0x7AA555860
+        public void ForEachWorker(){} // RVA: 0x7AA556050
+        public void PartitionerForEachWorker(){} // RVA: 0x7AA559090
+        public void ReduceToSingleCancellationException(){} // RVA: 0x7ADD32350
+        public void ThrowSingleCancellationExceptionOrOtherException(){} // RVA: 0x7ADD32650
+        public void .cctor(){} // RVA: 0x7ADD326B0
     }
 
-    public class ParallelEtwProvider
+    public class ParallelEtwProvider : EventSource
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5E0E7D0
-        public void ParallelLoopBegin(){} // RVA: 0x5F43DC0
-        public void ParallelLoopEnd(){} // RVA: 0x5F43DF0
-        public void ParallelFork(){} // RVA: 0x1020CE0
-        public void ParallelJoin(){} // RVA: 0x1020CE0
-        public void .cctor(){} // RVA: 0x5F43E20
+        public void .ctor(){} // RVA: 0x7ADBFCE20
+        public void ParallelLoopBegin(){} // RVA: 0x7ADD32780
+        public void ParallelLoopEnd(){} // RVA: 0x7ADD327B0
+        public void ParallelFork(){} // RVA: 0x7A8DD7270
+        public void ParallelJoin(){} // RVA: 0x7A8DD7270
+        public void .cctor(){} // RVA: 0x7ADD327E0
     }
 
-    public class ParallelLoopResult
-    {
-    }
-
-    public class ParallelLoopState
+    public class ParallelLoopState : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
+        public void .ctor(){} // RVA: 0x7A80D8E20
     }
 
-    public class ParallelLoopState32
+    public class ParallelLoopState32 : ParallelLoopState
     {
-        public System.Threading.Tasks.ParallelLoopStateFlags32 LowestBreakIteration; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F43ED0
-        public void set_CurrentIteration(){} // RVA: 0x99E0D0
+        public void .ctor(){} // RVA: 0x7ADD32890
+        public void set_CurrentIteration(){} // RVA: 0x7A8738180
     }
 
-    public class ParallelLoopState64
+    public class ParallelLoopState64 : ParallelLoopState
     {
-        public System.Threading.Tasks.ParallelLoopStateFlags64 _sharedParallelStateFlags; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F43ED0
-        public void set_CurrentIteration(){} // RVA: 0xAE83A0
+        public void .ctor(){} // RVA: 0x7ADD32890
+        public void set_CurrentIteration(){} // RVA: 0x7A8884B10
     }
 
-    public class ParallelLoopStateFlags
+    public class ParallelLoopStateFlags : Object
     {
-        public int _loopStateFlags; // 0x10
-
         // ── Methods ──
-        public void get_LoopStateFlags(){} // RVA: 0x5F2AEC0
-        public void AtomicLoopStateUpdate(){} // RVA: 0x5F44070 | overloaded x2
-        public void SetExceptional(){} // RVA: 0x5F44180
-        public void Cancel(){} // RVA: 0x5F44190
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_LoopStateFlags(){} // RVA: 0x7ADD19C70
+        public void AtomicLoopStateUpdate(){} // RVA: 0x7ADD32A30
+        public void SetExceptional(){} // RVA: 0x7ADD32B40
+        public void Cancel(){} // RVA: 0x7ADD32B50
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ParallelLoopStateFlags32
+    public class ParallelLoopStateFlags32 : ParallelLoopStateFlags
     {
-        public int _lowestBreakIteration; // 0x18
-
         // ── Methods ──
-        public void get_LowestBreakIteration(){} // RVA: 0x5F441A0
-        public void ShouldExitLoop(){} // RVA: 0x5F441E0 | overloaded x2
-        public void .ctor(){} // RVA: 0x5F44200
+        public void get_LowestBreakIteration(){} // RVA: 0x7ADD32B60
+        public void ShouldExitLoop(){} // RVA: 0x7ADD32BA0
+        public void .ctor(){} // RVA: 0x7ADD32BC0
     }
 
-    public class ParallelLoopStateFlags64
+    public class ParallelLoopStateFlags64 : ParallelLoopStateFlags
     {
-        public long LoopStateFlags; // 0x18
-
         // ── Methods ──
-        public void get_LowestBreakIteration(){} // RVA: 0x2E07C0
-        public void ShouldExitLoop(){} // RVA: 0x5F44210
-        public void .ctor(){} // RVA: 0x5F44240
+        public void get_LowestBreakIteration(){} // RVA: 0x7A80DA7B0
+        public void ShouldExitLoop(){} // RVA: 0x7ADD32BD0
+        public void .ctor(){} // RVA: 0x7ADD32C00
     }
 
-    public class ParallelOptions
+    public class ParallelOptions : Object
     {
-        public System.Threading.Tasks.TaskScheduler _scheduler; // 0x10
-        public int _maxDegreeOfParallelism; // 0x18
-        public System.Threading.CancellationToken _cancellationToken; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5F435D0
-        public void get_TaskScheduler(){} // RVA: 0x2F8380
-        public void get_EffectiveTaskScheduler(){} // RVA: 0x5F43750
-        public void get_MaxDegreeOfParallelism(){} // RVA: 0x5BED50
-        public void set_MaxDegreeOfParallelism(){} // RVA: 0x5F437B0
-        public void get_CancellationToken(){} // RVA: 0x30B0C0
-        public void get_EffectiveMaxConcurrencyLevel(){} // RVA: 0x5F43820
+        public void .ctor(){} // RVA: 0x7ADD31FC0
+        public void get_TaskScheduler(){} // RVA: 0x7A80F2570
+        public void get_EffectiveTaskScheduler(){} // RVA: 0x7ADD32140
+        public void get_MaxDegreeOfParallelism(){} // RVA: 0x7A83782A0
+        public void set_MaxDegreeOfParallelism(){} // RVA: 0x7ADD321A0
+        public void get_CancellationToken(){} // RVA: 0x7A81052C0
+        public void get_EffectiveMaxConcurrencyLevel(){} // RVA: 0x7ADD32210
     }
 
 }

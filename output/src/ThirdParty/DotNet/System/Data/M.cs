@@ -1,38 +1,36 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Data
 // Classes: 3
-// Methods: 16
+// Methods: 13
 
 namespace ThirdParty.DotNet.System.Data
 {
-    public class MergeFailedEventArgs
+    public class MergeFailedEventArgs : EventArgs
     {
-        public System.Data.DataTable <Table>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x6729650
-        public void get_Conflict(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7AE517C20
+        public void get_Conflict(){} // RVA: 0x7A80DA7B0
     }
 
-    public class MergeFailedEventHandler
+    public class MergeFailedEventHandler : MulticastDelegate
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1AFE240
-        public void Invoke(){} // RVA: 0x439370
+        public void .ctor(){} // RVA: 0x7A98B8320
+        public void Invoke(){} // RVA: 0x7A82344F0
     }
 
-    public class Merger
+    public class Merger : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x67297D0 | overloaded x2
-        public void MergeDataSet(){} // RVA: 0x6729840
-        public void MergeTable(){} // RVA: 0x672A7E0 | overloaded x2
-        public void MergeSchema(){} // RVA: 0x672AD10
-        public void MergeTableData(){} // RVA: 0x672B780
-        public void MergeConstraints(){} // RVA: 0x672B8B0 | overloaded x2
-        public void MergeRelation(){} // RVA: 0x672BB90
-        public void MergeExtendedProperties(){} // RVA: 0x672C620
-        public void GetSrcKey(){} // RVA: 0x672C7F0
+        public void .ctor(){} // RVA: 0x7AE517DA0
+        public void MergeDataSet(){} // RVA: 0x7AE517E10
+        public void MergeTable(){} // RVA: 0x7AE518D70
+        public void MergeSchema(){} // RVA: 0x7AE519290
+        public void MergeTableData(){} // RVA: 0x7AE519D00
+        public void MergeConstraints(){} // RVA: 0x7AE519E40
+        public void MergeRelation(){} // RVA: 0x7AE51A120
+        public void MergeExtendedProperties(){} // RVA: 0x7AE51AC00
+        public void GetSrcKey(){} // RVA: 0x7AE51ADD0
     }
 
 }

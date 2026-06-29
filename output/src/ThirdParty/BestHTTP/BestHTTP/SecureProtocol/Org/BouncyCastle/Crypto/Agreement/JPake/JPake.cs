@@ -1,116 +1,97 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Agreement.JPake
 // Classes: 7
-// Methods: 63
+// Methods: 54
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Agreement.JPake
 {
-    public class JPakeParticipant
+    public class JPakeParticipant : Object
     {
-        public int STATE_INITIALIZED;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x96889C0 | overloaded x3
-        public void get_State(){} // RVA: 0xBB90C0
-        public void CreateRound1PayloadToSend(){} // RVA: 0x9689020
-        public void ValidateRound1PayloadReceived(){} // RVA: 0x96894F0
-        public void CreateRound2PayloadToSend(){} // RVA: 0x9689A00
-        public void ValidateRound2PayloadReceived(){} // RVA: 0x9689D50
-        public void CalculateKeyingMaterial(){} // RVA: 0x968A150
-        public void CreateRound3PayloadToSend(){} // RVA: 0x968A5E0
-        public void ValidateRound3PayloadReceived(){} // RVA: 0x968A8E0
-        public void .cctor(){} // RVA: 0x968AD90
+        public void .ctor(){} // RVA: 0x7B14C1CB0
+        public void get_State(){} // RVA: 0x7A897F560
+        public void CreateRound1PayloadToSend(){} // RVA: 0x7B14C2320
+        public void ValidateRound1PayloadReceived(){} // RVA: 0x7B14C27D0
+        public void CreateRound2PayloadToSend(){} // RVA: 0x7B14C2CD0
+        public void ValidateRound2PayloadReceived(){} // RVA: 0x7B14C3020
+        public void CalculateKeyingMaterial(){} // RVA: 0x7B14C3410
+        public void CreateRound3PayloadToSend(){} // RVA: 0x7B14C38A0
+        public void ValidateRound3PayloadReceived(){} // RVA: 0x7B14C3BC0
+        public void .cctor(){} // RVA: 0x7B14C4070
     }
 
-    public class JPakePrimeOrderGroup
+    public class JPakePrimeOrderGroup : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger p; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger q; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger g; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x968AE90 | overloaded x2
-        public void get_P(){} // RVA: 0x2F8380
-        public void get_Q(){} // RVA: 0x2E07C0
-        public void get_G(){} // RVA: 0x30B0C0
+        public void .ctor(){} // RVA: 0x7B14C4170
+        public void get_P(){} // RVA: 0x7A80F2570
+        public void get_Q(){} // RVA: 0x7A80DA7B0
+        public void get_G(){} // RVA: 0x7A81052C0
     }
 
-    public class JPakePrimeOrderGroups
+    public class JPakePrimeOrderGroups : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x968B450
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B14C4730
     }
 
-    public class JPakeRound1Payload
+    public class JPakeRound1Payload : Object
     {
-        public string participantId; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger gx1; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger gx2; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger[] knowledgeProofForX1; // 0x28
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger[] knowledgeProofForX2; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x968B890
-        public void get_ParticipantId(){} // RVA: 0x2F8380
-        public void get_Gx1(){} // RVA: 0x2E07C0
-        public void get_Gx2(){} // RVA: 0x30B0C0
-        public void get_KnowledgeProofForX1(){} // RVA: 0x968BE50
-        public void get_KnowledgeProofForX2(){} // RVA: 0x968BF90
+        public void .ctor(){} // RVA: 0x7B14C4B80
+        public void get_ParticipantId(){} // RVA: 0x7A80F2570
+        public void get_Gx1(){} // RVA: 0x7A80DA7B0
+        public void get_Gx2(){} // RVA: 0x7A81052C0
+        public void get_KnowledgeProofForX1(){} // RVA: 0x7B14C5140
+        public void get_KnowledgeProofForX2(){} // RVA: 0x7B14C5280
     }
 
-    public class JPakeRound2Payload
+    public class JPakeRound2Payload : Object
     {
-        public string participantId; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger a; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger[] knowledgeProofForX2s; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x968C0D0
-        public void get_ParticipantId(){} // RVA: 0x2F8380
-        public void get_A(){} // RVA: 0x2E07C0
-        public void get_KnowledgeProofForX2s(){} // RVA: 0x968C380
+        public void .ctor(){} // RVA: 0x7B14C53C0
+        public void get_ParticipantId(){} // RVA: 0x7A80F2570
+        public void get_A(){} // RVA: 0x7A80DA7B0
+        public void get_KnowledgeProofForX2s(){} // RVA: 0x7B14C5680
     }
 
-    public class JPakeRound3Payload
+    public class JPakeRound3Payload : Object
     {
-        public string participantId; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.BigInteger macTag; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
-        public void get_ParticipantId(){} // RVA: 0x2F8380
-        public void get_MacTag(){} // RVA: 0x2E07C0
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void get_ParticipantId(){} // RVA: 0x7A80F2570
+        public void get_MacTag(){} // RVA: 0x7A80DA7B0
     }
 
-    public class JPakeUtilities
+    public class JPakeUtilities : Object
     {
         // ── Methods ──
-        public void GenerateX1(){} // RVA: 0x968C4C0
-        public void GenerateX2(){} // RVA: 0x968C560
-        public void CalculateS(){} // RVA: 0x968C600
-        public void CalculateGx(){} // RVA: 0x95D39C0
-        public void CalculateGA(){} // RVA: 0x968C6A0
-        public void CalculateX2s(){} // RVA: 0x968C770
-        public void CalculateA(){} // RVA: 0x968C830
-        public void CalculateZeroKnowledgeProof(){} // RVA: 0x968C860
-        public void CalculateHashForZeroKnowledgeProof(){} // RVA: 0x968CAC0
-        public void ValidateGx4(){} // RVA: 0x968CDE0
-        public void ValidateGa(){} // RVA: 0x968CEB0
-        public void ValidateZeroKnowledgeProof(){} // RVA: 0x968CF80
-        public void CalculateKeyingMaterial(){} // RVA: 0x968D1C0
-        public void ValidateParticipantIdsDiffer(){} // RVA: 0x968D300
-        public void ValidateParticipantIdsEqual(){} // RVA: 0x968D3C0
-        public void ValidateNotNull(){} // RVA: 0x968D520
-        public void CalculateMacTag(){} // RVA: 0x968D580
-        public void CalculateMacKey(){} // RVA: 0x968D860
-        public void ValidateMacTag(){} // RVA: 0x968DB90
-        public void UpdateDigest(){} // RVA: 0x968DEF0 | overloaded x3
-        public void UpdateDigestIncludingSize(){} // RVA: 0x968E0C0 | overloaded x3
-        public void UpdateMac(){} // RVA: 0x968E410 | overloaded x3
-        public void IntToByteArray(){} // RVA: 0x968E4D0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x968E4E0
+        public void GenerateX1(){} // RVA: 0x7B14C57C0
+        public void GenerateX2(){} // RVA: 0x7B14C5860
+        public void CalculateS(){} // RVA: 0x7B14C5900
+        public void CalculateGx(){} // RVA: 0x7B140ADD0
+        public void CalculateGA(){} // RVA: 0x7B14C59A0
+        public void CalculateX2s(){} // RVA: 0x7B14C5A70
+        public void CalculateA(){} // RVA: 0x7B14C5B30
+        public void CalculateZeroKnowledgeProof(){} // RVA: 0x7B14C5B60
+        public void CalculateHashForZeroKnowledgeProof(){} // RVA: 0x7B14C5DC0
+        public void ValidateGx4(){} // RVA: 0x7B14C60E0
+        public void ValidateGa(){} // RVA: 0x7B14C61B0
+        public void ValidateZeroKnowledgeProof(){} // RVA: 0x7B14C6280
+        public void CalculateKeyingMaterial(){} // RVA: 0x7B14C64C0
+        public void ValidateParticipantIdsDiffer(){} // RVA: 0x7B14C6600
+        public void ValidateParticipantIdsEqual(){} // RVA: 0x7B14C66C0
+        public void ValidateNotNull(){} // RVA: 0x7B14C6820
+        public void CalculateMacTag(){} // RVA: 0x7B14C6880
+        public void CalculateMacKey(){} // RVA: 0x7B14C6B60
+        public void ValidateMacTag(){} // RVA: 0x7B14C6EA0
+        public void UpdateDigest(){} // RVA: 0x7B14C7200
+        public void UpdateDigestIncludingSize(){} // RVA: 0x7B14C73D0
+        public void UpdateMac(){} // RVA: 0x7B14C7720
+        public void IntToByteArray(){} // RVA: 0x7B14C77E0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B14C77F0
     }
 
 }

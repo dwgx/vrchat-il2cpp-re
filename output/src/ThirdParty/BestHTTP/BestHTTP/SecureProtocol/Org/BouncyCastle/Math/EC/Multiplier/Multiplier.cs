@@ -1,218 +1,201 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Multiplier
-// Classes: 22
-// Methods: 94
+// Classes: 21
+// Methods: 88
 
 namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.Multiplier
 {
-    public class AbstractECMultiplier
+    public class AbstractECMultiplier : Object
     {
         // ── Methods ──
-        public void Multiply(){} // RVA: 0x9472150
-        public void MultiplyPositive(){} // RVA: 0x1E6A0
-        public void CheckResult(){} // RVA: 0x9472260
-        public void .ctor(){} // RVA: 0x2DD310
+        public void Multiply(){} // RVA: 0x7B12A6020
+        public void MultiplyPositive(){} // RVA: 0x7A7E00BD0
+        public void CheckResult(){} // RVA: 0x7B12A6130
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class DoubleAddMultiplier
+    public class DoubleAddMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x94722E0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12A61B0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
     public class ECMultiplier
     {
         // ── Methods ──
-        public void Multiply(){} // RVA: 0x1E6A0
+        public void Multiply(){} // RVA: 0x7A7E00BD0
     }
 
-    public class FixedPointCombMultiplier
+    public class FixedPointCombMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x9472540
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12A6420
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class FixedPointPreCompInfo
+    public class FixedPointPreCompInfo : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint m_offset; // 0x10
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECLookupTable m_lookupTable; // 0x18
-        public int m_width; // 0x20
-
         // ── Methods ──
-        public void get_LookupTable(){} // RVA: 0x2E07C0
-        public void set_LookupTable(){} // RVA: 0x343E80
-        public void get_Offset(){} // RVA: 0x2F8380
-        public void set_Offset(){} // RVA: 0x2DEE30
-        public void get_Width(){} // RVA: 0x760030
-        public void set_Width(){} // RVA: 0x99E0D0
-        public void .ctor(){} // RVA: 0x2EE3B40
+        public void get_LookupTable(){} // RVA: 0x7A80DA7B0
+        public void set_LookupTable(){} // RVA: 0x7A813E420
+        public void get_Offset(){} // RVA: 0x7A80F2570
+        public void set_Offset(){} // RVA: 0x7A80D8E20
+        public void get_Width(){} // RVA: 0x7A851DB90
+        public void set_Width(){} // RVA: 0x7A8738180
+        public void .ctor(){} // RVA: 0x7AACDA600
     }
 
-    public class FixedPointUtilities
+    public class FixedPointUtilities : Object
     {
         // ── Methods ──
-        public void GetCombSize(){} // RVA: 0x9472820
-        public void GetFixedPointPreCompInfo(){} // RVA: 0x9472880
-        public void Precompute(){} // RVA: 0x9472910
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9472A90
+        public void GetCombSize(){} // RVA: 0x7B12A6700
+        public void GetFixedPointPreCompInfo(){} // RVA: 0x7B12A6760
+        public void Precompute(){} // RVA: 0x7B12A67E0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B12A6960
     }
 
-    public class GlvMultiplier
+    public class GlvMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x9473200
-        public void MultiplyPositive(){} // RVA: 0x9473360
+        public void .ctor(){} // RVA: 0x7B12A7140
+        public void MultiplyPositive(){} // RVA: 0x7B12A72A0
     }
 
     public class IPreCompCallback
     {
         // ── Methods ──
-        public void Precompute(){} // RVA: 0xCE10
+        public void Precompute(){} // RVA: 0x7A7E00B20
     }
 
-    public class MixedNafR2LMultiplier
+    public class MixedNafR2LMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x4438000 | overloaded x2
-        public void MultiplyPositive(){} // RVA: 0x9473590
-        public void ConfigureCurve(){} // RVA: 0x94737C0
+        public void .ctor(){} // RVA: 0x7AC226C00
+        public void MultiplyPositive(){} // RVA: 0x7B12A74D0
+        public void ConfigureCurve(){} // RVA: 0x7B12A7700
     }
 
-    public class MontgomeryLadderMultiplier
+    public class MontgomeryLadderMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x94738E0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12A7820
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class NafL2RMultiplier
+    public class NafL2RMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x9473C00
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12A7B50
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class NafR2LMultiplier
+    public class NafR2LMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x9473D80
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12A7CE0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class PreCompInfo
-    {
-    }
-
-    public class ReferenceMultiplier
+    public class ReferenceMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x9473F00
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12A7E60
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ValidityPreCompInfo
+    public class ValidityPreCompInfo : Object
     {
         // ── Methods ──
-        public void HasFailed(){} // RVA: 0x3A75E0
-        public void ReportFailed(){} // RVA: 0x6BD7E0
-        public void HasCurveEquationPassed(){} // RVA: 0x543460
-        public void ReportCurveEquationPassed(){} // RVA: 0x570B10
-        public void HasOrderPassed(){} // RVA: 0x195A940
-        public void ReportOrderPassed(){} // RVA: 0x9473F20
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9473F30
+        public void HasFailed(){} // RVA: 0x7A81A2200
+        public void ReportFailed(){} // RVA: 0x7A847A240
+        public void HasCurveEquationPassed(){} // RVA: 0x7A82FBFB0
+        public void ReportCurveEquationPassed(){} // RVA: 0x7A8329980
+        public void HasOrderPassed(){} // RVA: 0x7A9716B70
+        public void ReportOrderPassed(){} // RVA: 0x7B12A7E80
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B12A7E90
     }
 
-    public class WNafL2RMultiplier
+    public class WNafL2RMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x9473FE0
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12A7F40
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class WNafPreCompInfo
+    public class WNafPreCompInfo : Object
     {
-        public int m_promotionCountdown; // 0x10
-        public int m_confWidth; // 0x14
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint[] m_preComp; // 0x18
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint[] m_preCompNeg; // 0x20
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.ECPoint m_twice; // 0x28
-        public int m_width; // 0x30
-
         // ── Methods ──
-        public void DecrementPromotionCountdown(){} // RVA: 0x9474410
-        public void get_PromotionCountdown(){} // RVA: 0x5F2AEC0
-        public void set_PromotionCountdown(){} // RVA: 0x5E0E890
-        public void get_IsPromoted(){} // RVA: 0x9474430
-        public void get_ConfWidth(){} // RVA: 0x8ABED0
-        public void set_ConfWidth(){} // RVA: 0x8AC660
-        public void get_PreComp(){} // RVA: 0x2E07C0
-        public void set_PreComp(){} // RVA: 0x343E80
-        public void get_PreCompNeg(){} // RVA: 0x30B0C0
-        public void set_PreCompNeg(){} // RVA: 0x30B0D0
-        public void get_Twice(){} // RVA: 0x30B130
-        public void set_Twice(){} // RVA: 0x2DEE90
-        public void get_Width(){} // RVA: 0x338CD0
-        public void set_Width(){} // RVA: 0x338CE0
-        public void .ctor(){} // RVA: 0x9474440
+        public void DecrementPromotionCountdown(){} // RVA: 0x7B12A8320
+        public void get_PromotionCountdown(){} // RVA: 0x7ADD19C70
+        public void set_PromotionCountdown(){} // RVA: 0x7ADBFCEE0
+        public void get_IsPromoted(){} // RVA: 0x7B12A8340
+        public void get_ConfWidth(){} // RVA: 0x7A8668BC0
+        public void set_ConfWidth(){} // RVA: 0x7A8669360
+        public void get_PreComp(){} // RVA: 0x7A80DA7B0
+        public void set_PreComp(){} // RVA: 0x7A813E420
+        public void get_PreCompNeg(){} // RVA: 0x7A81052C0
+        public void set_PreCompNeg(){} // RVA: 0x7A81052D0
+        public void get_Twice(){} // RVA: 0x7A8105330
+        public void set_Twice(){} // RVA: 0x7A80D8E80
+        public void get_Width(){} // RVA: 0x7A8133100
+        public void set_Width(){} // RVA: 0x7A8133110
+        public void .ctor(){} // RVA: 0x7B12A8350
     }
 
-    public class WNafUtilities
+    public class WNafUtilities : Object
     {
         // ── Methods ──
-        public void ConfigureBasepoint(){} // RVA: 0x9474460
-        public void GenerateCompactNaf(){} // RVA: 0x9474680
-        public void GenerateCompactWindowNaf(){} // RVA: 0x9474960
-        public void GenerateJsf(){} // RVA: 0x9474C90
-        public void GenerateNaf(){} // RVA: 0x9475090
-        public void GenerateWindowNaf(){} // RVA: 0x9475220
-        public void GetNafWeight(){} // RVA: 0x9475610
-        public void GetWNafPreCompInfo(){} // RVA: 0x94757B0 | overloaded x2
-        public void GetWindowSize(){} // RVA: 0x94759A0 | overloaded x4
-        public void MapPointWithPrecomp(){} // RVA: 0x9475A50
-        public void Precompute(){} // RVA: 0x9475C30
-        public void PrecomputeWithPointMap(){} // RVA: 0x9475DC0
-        public void Trim(){} // RVA: 0x9476090 | overloaded x2
-        public void ResizeTable(){} // RVA: 0x9476110
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9476190
+        public void ConfigureBasepoint(){} // RVA: 0x7B12A8370
+        public void GenerateCompactNaf(){} // RVA: 0x7B12A8590
+        public void GenerateCompactWindowNaf(){} // RVA: 0x7B12A8880
+        public void GenerateJsf(){} // RVA: 0x7B12A8BC0
+        public void GenerateNaf(){} // RVA: 0x7B12A8FE0
+        public void GenerateWindowNaf(){} // RVA: 0x7B12A91D0
+        public void GetNafWeight(){} // RVA: 0x7B12A9480
+        public void GetWNafPreCompInfo(){} // RVA: 0x7B12A9610
+        public void GetWindowSize(){} // RVA: 0x7B12A97F0
+        public void MapPointWithPrecomp(){} // RVA: 0x7B12A98A0
+        public void Precompute(){} // RVA: 0x7B12A9A80
+        public void PrecomputeWithPointMap(){} // RVA: 0x7B12A9C20
+        public void Trim(){} // RVA: 0x7B12A9EF0
+        public void ResizeTable(){} // RVA: 0x7B12A9F70
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B12A9FF0
     }
 
-    public class WTauNafMultiplier
+    public class WTauNafMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x9477DE0
-        public void MultiplyWTnaf(){} // RVA: 0x94781F0
-        public void MultiplyFromWTnaf(){} // RVA: 0x94783B0
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x9478990
+        public void MultiplyPositive(){} // RVA: 0x7B12ABD40
+        public void MultiplyWTnaf(){} // RVA: 0x7B12AC160
+        public void MultiplyFromWTnaf(){} // RVA: 0x7B12AC320
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7B12AC910
     }
 
-    public class WTauNafPreCompInfo
+    public class WTauNafPreCompInfo : Object
     {
-        public BestHTTP.SecureProtocol.Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp; // 0x10
-
         // ── Methods ──
-        public void get_PreComp(){} // RVA: 0x2F8380
-        public void set_PreComp(){} // RVA: 0x2DEE30
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_PreComp(){} // RVA: 0x7A80F2570
+        public void set_PreComp(){} // RVA: 0x7A80D8E20
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ZSignedDigitL2RMultiplier
+    public class ZSignedDigitL2RMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x9478B30
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12ACAB0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class ZSignedDigitR2LMultiplier
+    public class ZSignedDigitR2LMultiplier : AbstractECMultiplier
     {
         // ── Methods ──
-        public void MultiplyPositive(){} // RVA: 0x9478C50
-        public void .ctor(){} // RVA: 0x2DD310
+        public void MultiplyPositive(){} // RVA: 0x7B12ACBD0
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

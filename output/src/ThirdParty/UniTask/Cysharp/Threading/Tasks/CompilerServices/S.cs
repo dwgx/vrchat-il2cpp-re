@@ -5,10 +5,10 @@
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.CompilerServices
 {
-    public class StateMachineUtility
+    public class StateMachineUtility : Object
     {
         // ── Methods ──
-        public void GetState(){} // RVA: 0x6D65C30
+        public void GetState(){} // RVA: 0x7AEB53A40
     }
 
 }

@@ -1,1546 +1,1449 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Cinemachine.Cinemachine
-// Classes: 83
-// Methods: 917
+// Classes: 87
+// Methods: 1004
 
 namespace ThirdParty.Cinemachine.Cinemachine
 {
-    public class AxisBase
+    public class AxisBase : ValueType
     {
         // ── Methods ──
-        public void Validate(){} // RVA: 0x1D1E3C0
+        public void Validate(){} // RVA: 0x7A7673AE0
     }
 
-    public class AxisState
-    {
-        public float Value; // 0x10
-        public 0x65946188 m_SpeedMode; // 0x14
-        public float m_MaxSpeed; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D10E70
-        public void Validate(){} // RVA: 0x1D10FE0
-        public void Reset(){} // RVA: 0x1D11040
-        public void SetInputAxisProvider(){} // RVA: 0x1D11050
-        public void get_HasInputProvider(){} // RVA: 0x1D110B0
-        public void Update(){} // RVA: 0x1D110C0
-        public void ClampValue(){} // RVA: 0x1D115C0
-        public void MaxSpeedUpdate(){} // RVA: 0x1D11630
-        public void GetMaxSpeed(){} // RVA: 0x1D11870
-        public void get_ValueRangeLocked(){} // RVA: 0x1D11920
-        public void set_ValueRangeLocked(){} // RVA: 0x1D11930
-        public void get_HasRecentering(){} // RVA: 0x1D11940
-        public void set_HasRecentering(){} // RVA: 0x1D11950
-    }
-
-    public class AxisStatePropertyAttribute
+    public class AxisState : ValueType
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A76729E0
+        public void Validate(){} // RVA: 0x7A7672A00
+        public void Reset(){} // RVA: 0x7A7672A60
+        public void SetInputAxisProvider(){} // RVA: 0x7A7672A70
+        public void get_HasInputProvider(){} // RVA: 0x7A7672AD0
+        public void Update(){} // RVA: 0x7A7672AE0
+        public void ClampValue(){} // RVA: 0x7A7672AF0
+        public void MaxSpeedUpdate(){} // RVA: 0x7A7672B00
+        public void GetMaxSpeed(){} // RVA: 0x7A7672B10
+        public void get_ValueRangeLocked(){} // RVA: 0x7A7672B20
+        public void set_ValueRangeLocked(){} // RVA: 0x7A7672B30
+        public void get_HasRecentering(){} // RVA: 0x7A7672B40
+        public void set_HasRecentering(){} // RVA: 0x7A7672B50
     }
 
-    public class BlendSourceVirtualCamera
-    {
-        public Cinemachine.CinemachineBlend <Blend>k__BackingField; // 0x10
-        public int <Priority>k__BackingField; // 0x18
-        public UnityEngine.Transform <LookAt>k__BackingField; // 0x20
-        public UnityEngine.Transform <Follow>k__BackingField; // 0x28
-        public Cinemachine.CameraState <State>k__BackingField; // 0x30
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_Blend(){} // RVA: 0x2F8380
-        public void set_Blend(){} // RVA: 0x2DEE30
-        public void get_Name(){} // RVA: 0x1D19030
-        public void get_Description(){} // RVA: 0x1D19070
-        public void get_Priority(){} // RVA: 0x5BED50
-        public void set_Priority(){} // RVA: 0x6374E0
-        public void get_LookAt(){} // RVA: 0x30B0C0
-        public void set_LookAt(){} // RVA: 0x30B0D0
-        public void get_Follow(){} // RVA: 0x30B130
-        public void set_Follow(){} // RVA: 0x2DEE90
-        public void get_State(){} // RVA: 0x1D18EB0
-        public void set_State(){} // RVA: 0x1D18F50
-        public void get_VirtualCameraGameObject(){} // RVA: 0x519240
-        public void get_IsValid(){} // RVA: 0x1D190C0
-        public void get_ParentCamera(){} // RVA: 0x519240
-        public void IsLiveChild(){} // RVA: 0x1D190E0
-        public void CalculateNewState(){} // RVA: 0x1D18EB0
-        public void UpdateCameraState(){} // RVA: 0x1D19100
-        public void InternalUpdateCameraState(){} // RVA: 0x2DD310
-        public void OnTransitionFromCamera(){} // RVA: 0x2DD310
-        public void OnTargetObjectWarped(){} // RVA: 0x2DD310
-    }
-
-    public class CameraState
-    {
-        public Cinemachine.LensSettings rectTransform; // 0x10
-        public UnityEngine.Vector3 showMaskGraphic; // 0x44
-        public UnityEngine.Vector3 graphic; // 0x50
-        public UnityEngine.Vector3 kNoPoint;
-        public UnityEngine.Vector3 RawPosition; // 0x5C
-        public UnityEngine.Quaternion RawOrientation; // 0x68
-        public UnityEngine.Vector3 PositionDampingBypass; // 0x78
-
-        // ── Methods ──
-        public void get_HasLookAt(){} // RVA: 0x1D11D30
-        public void get_CorrectedPosition(){} // RVA: 0x1D11D90
-        public void get_CorrectedOrientation(){} // RVA: 0x1D11DE0
-        public void get_FinalPosition(){} // RVA: 0x1D11D90
-        public void get_FinalOrientation(){} // RVA: 0x1D11F50
-        public void get_Default(){} // RVA: 0x1D12210
-        public void get_NumCustomBlendables(){} // RVA: 0x1D12470
-        public void set_NumCustomBlendables(){} // RVA: 0x1D12480
-        public void GetCustomBlendable(){} // RVA: 0x1D12490
-        public void FindCustomBlendable(){} // RVA: 0x1D12600
-        public void AddCustomBlendable(){} // RVA: 0x1D12B80
-        public void Lerp(){} // RVA: 0x1D12F40
-        public void InterpolateFOV(){} // RVA: 0x1D16FA0
-        public void ApplyPosBlendHint(){} // RVA: 0x1D170F0
-        public void ApplyRotBlendHint(){} // RVA: 0x1D17170
-        public void InterpolatePosition(){} // RVA: 0x1D171C0
-        public void .cctor(){} // RVA: 0x1D176B0
-    }
-
-    public class Cinemachine3rdPersonAim
-    {
-        public UnityEngine.LayerMask AimCollisionFilter; // 0x30
-
-        // ── Methods ──
-        public void get_AimTarget(){} // RVA: 0x343FA0
-        public void set_AimTarget(){} // RVA: 0x343FC0
-        public void OnValidate(){} // RVA: 0x1CC8960
-        public void Reset(){} // RVA: 0x1CC8980
-        public void OnTransitionFromCamera(){} // RVA: 0x1CC8A90
-        public void DrawReticle(){} // RVA: 0x1CC8C10
-        public void ComputeLookAtPoint(){} // RVA: 0x1CC8FA0
-        public void ComputeAimTarget(){} // RVA: 0x1CC95D0
-        public void PostPipelineStageCallback(){} // RVA: 0x1CC9850
-        public void .ctor(){} // RVA: 0x1CC9BA0
-    }
-
-    public class Cinemachine3rdPersonFollow
-    {
-        public UnityEngine.Vector3 Damping; // 0x28
-        public UnityEngine.Vector3 ShoulderOffset; // 0x34
-
-        // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1CFA610
-        public void Reset(){} // RVA: 0x1CFA690
-        public void OnDestroy(){} // RVA: 0x1CFA700
-        public void get_IsValid(){} // RVA: 0x1CFA750
-        public void get_Stage(){} // RVA: 0x519240
-        public void GetMaxDampTime(){} // RVA: 0x1CFA870
-        public void MutateCameraState(){} // RVA: 0x1CFA8A0
-        public void OnTargetObjectWarped(){} // RVA: 0x1CFA930
-        public void PositionCamera(){} // RVA: 0x1CFAAA0
-        public void GetRigPositions(){} // RVA: 0x1CFB1C0
-        public void GetHeading(){} // RVA: 0x1CFB3E0
-        public void GetRawRigPositions(){} // RVA: 0x1CFB960
-        public void ResolveCollisions(){} // RVA: 0x1CFBCE0
-        public void .ctor(){} // RVA: 0x1CFC030
-    }
-
-    public class CinemachineBasicMultiChannelPerlin
-    {
-        public Cinemachine.NoiseSettings m_NoiseProfile; // 0x28
-        public UnityEngine.Vector3 m_PivotOffset; // 0x30
-
-        // ── Methods ──
-        public void get_IsValid(){} // RVA: 0x1CFC100
-        public void get_Stage(){} // RVA: 0x3E2CB0
-        public void MutateCameraState(){} // RVA: 0x1CFC220
-        public void ReSeed(){} // RVA: 0x1CFCD00
-        public void Initialize(){} // RVA: 0x1CFCE30
-        public void .ctor(){} // RVA: 0x1CFD040
-    }
-
-    public class CinemachineBlend
-    {
-        public Cinemachine.ICinemachineCamera CamA; // 0x10
-        public Cinemachine.ICinemachineCamera CamB; // 0x18
-        public UnityEngine.AnimationCurve BlendCurve; // 0x20
-        public float TimeInBlend; // 0x28
-        public float Duration; // 0x2C
-
-        // ── Methods ──
-        public void get_BlendWeight(){} // RVA: 0x1D17700
-        public void get_IsValid(){} // RVA: 0x1D177F0
-        public void get_IsComplete(){} // RVA: 0x1D17870
-        public void get_Description(){} // RVA: 0x1D178A0
-        public void Uses(){} // RVA: 0x1D17AB0
-        public void .ctor(){} // RVA: 0x1D17BF0
-        public void UpdateCameraState(){} // RVA: 0x1D17D10
-        public void get_State(){} // RVA: 0x1D17E00
-    }
-
-    public class CinemachineBlendDefinition
-    {
-        public 0x65946448 Name; // 0x10
-        public float Description; // 0x14
-
-        // ── Methods ──
-        public void get_BlendTime(){} // RVA: 0x1D182D0
-        public void .ctor(){} // RVA: 0x1D182E0
-        public void CreateStandardCurves(){} // RVA: 0x1D18340
-        public void get_BlendCurve(){} // RVA: 0x1D18BB0
-    }
-
-    public class CinemachineBlendDefinitionPropertyAttribute
+    public class AxisStatePropertyAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class CinemachineBlendListCamera
-    {
-        public UnityEngine.Transform m_LookAt; // 0xA8
-        public UnityEngine.Transform m_Follow; // 0xB0
-        public bool m_ShowDebugText; // 0xB8
-        public bool m_Loop; // 0xB9
-        public Cinemachine.CinemachineVirtualCameraBase[] m_ChildCameras; // 0xC0
-        public Instruction[] m_Instructions; // 0xC8
-        public Cinemachine.ICinemachineCamera <LiveChild>k__BackingField; // 0xD0
-
-        // ── Methods ──
-        public void get_Description(){} // RVA: 0x1CC9C70
-        public void Reset(){} // RVA: 0x1CC9DB0
-        public void get_LiveChild(){} // RVA: 0x3FA100
-        public void set_LiveChild(){} // RVA: 0x3FA110
-        public void IsLiveChild(){} // RVA: 0x1CC9F20
-        public void get_State(){} // RVA: 0x1CC9F50
-        public void get_LookAt(){} // RVA: 0x1CC9FF0
-        public void set_LookAt(){} // RVA: 0xAE5030
-        public void get_Follow(){} // RVA: 0x1CCA000
-        public void set_Follow(){} // RVA: 0x348050
-        public void OnTargetObjectWarped(){} // RVA: 0x1CCA010
-        public void ForceCameraPosition(){} // RVA: 0x1CCA0F0
-        public void OnTransitionFromCamera(){} // RVA: 0x1CCA280
-        public void InternalUpdateCameraState(){} // RVA: 0x1CCA4B0
-        public void OnEnable(){} // RVA: 0x1CCAE80
-        public void OnDisable(){} // RVA: 0x1CCB1E0
-        public void OnTransformChildrenChanged(){} // RVA: 0x1CCB360
-        public void OnGuiHandler(){} // RVA: 0x1CCB370
-        public void get_ChildCameras(){} // RVA: 0x1CCB4E0
-        public void get_IsBlending(){} // RVA: 0x1CCB500
-        public void InvalidateListOfChildren(){} // RVA: 0x1CCB510
-        public void UpdateListOfChildren(){} // RVA: 0x1CCB5D0
-        public void ValidateInstructions(){} // RVA: 0x1CCB960
-        public void AdvanceCurrentInstruction(){} // RVA: 0x1CCBD60
-        public void .ctor(){} // RVA: 0x1CCBFC0
-    }
-
-    public class CinemachineBlenderSettings
+    public class BlendSourceVirtualCamera : Object
     {
         // ── Methods ──
-        public void GetBlendForVirtualCameras(){} // RVA: 0x1D192D0
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_Blend(){} // RVA: 0x7A80F2570
+        public void set_Blend(){} // RVA: 0x7A80D8E20
+        public void get_Name(){} // RVA: 0x7A9B1B4C0
+        public void get_Description(){} // RVA: 0x7A9B1B500
+        public void get_Priority(){} // RVA: 0x7A83782A0
+        public void set_Priority(){} // RVA: 0x7A84385B0
+        public void get_LookAt(){} // RVA: 0x7A81052C0
+        public void set_LookAt(){} // RVA: 0x7A81052D0
+        public void get_Follow(){} // RVA: 0x7A8105330
+        public void set_Follow(){} // RVA: 0x7A80D8E80
+        public void get_State(){} // RVA: 0x7A9B1B340
+        public void set_State(){} // RVA: 0x7A9B1B3E0
+        public void get_VirtualCameraGameObject(){} // RVA: 0x7A82D1450
+        public void get_IsValid(){} // RVA: 0x7A9B1B550
+        public void get_ParentCamera(){} // RVA: 0x7A82D1450
+        public void IsLiveChild(){} // RVA: 0x7A9B1B570
+        public void CalculateNewState(){} // RVA: 0x7A9B1B340
+        public void UpdateCameraState(){} // RVA: 0x7A9B1B590
+        public void InternalUpdateCameraState(){} // RVA: 0x7A80D7310
+        public void OnTransitionFromCamera(){} // RVA: 0x7A80D7310
+        public void OnTargetObjectWarped(){} // RVA: 0x7A80D7310
     }
 
-    public class CinemachineBrain
-    {
-        public bool m_ShowDebugText; // 0x20
-        public bool m_ShowCameraFrustum; // 0x21
-        public bool m_IgnoreTimeScale; // 0x22
-        public UnityEngine.Transform m_WorldUpOverride; // 0x28
-        public 0x659445B0 m_UpdateMethod; // 0x30
-        public 0x65944608 m_BlendUpdateMethod; // 0x34
-        public Cinemachine.CinemachineBlendDefinition m_DefaultBlend; // 0x38
-        public Cinemachine.CinemachineBlenderSettings m_CustomBlends; // 0x48
-
-        // ── Methods ──
-        public void get_OutputCamera(){} // RVA: 0x1CCC190
-        public void get_ControlledObject(){} // RVA: 0x1CCC300
-        public void set_ControlledObject(){} // RVA: 0x1CCC420
-        public void get_SoloCamera(){} // RVA: 0x1CCC4E0
-        public void set_SoloCamera(){} // RVA: 0x1CCC540
-        public void GetSoloGUIColor(){} // RVA: 0x1CCC7A0
-        public void get_DefaultWorldUp(){} // RVA: 0x1CCC7C0
-        public void OnEnable(){} // RVA: 0x1CCC950
-        public void OnDisable(){} // RVA: 0x1CCCEC0
-        public void OnSceneLoaded(){} // RVA: 0x1CCD1C0
-        public void OnSceneUnloaded(){} // RVA: 0x1CCD260
-        public void Awake(){} // RVA: 0x1CCD300
-        public void Start(){} // RVA: 0x1CCD360
-        public void OnGuiHandler(){} // RVA: 0x1CCD380
-        public void AfterPhysics(){} // RVA: 0x1CCD860
-        public void LateUpdate(){} // RVA: 0x1CCD900
-        public void ManualUpdate(){} // RVA: 0x1CCD910
-        public void GetEffectiveDeltaTime(){} // RVA: 0x1CCDC40
-        public void UpdateVirtualCameras(){} // RVA: 0x1CCDEE0
-        public void get_ActiveVirtualCamera(){} // RVA: 0x1CCE270
-        public void DeepCamBFromBlend(){} // RVA: 0x1CCE3F0
-        public void IsLiveInBlend(){} // RVA: 0x1CCE4B0
-        public void get_IsBlending(){} // RVA: 0x1CCE5F0
-        public void get_ActiveBlend(){} // RVA: 0x1CCE610
-        public void set_ActiveBlend(){} // RVA: 0x1CCE710
-        public void GetBrainFrame(){} // RVA: 0x1CCE830
-        public void SetCameraOverride(){} // RVA: 0x1CCE970
-        public void ReleaseCameraOverride(){} // RVA: 0x1CCEEA0
-        public void ProcessActiveCamera(){} // RVA: 0x1CCEF80
-        public void UpdateFrame0(){} // RVA: 0x1CCF6D0
-        public void ComputeCurrentBlend(){} // RVA: 0x1CCFF00
-        public void IsLive(){} // RVA: 0x1CD0500
-        public void get_CurrentCameraState(){} // RVA: 0x1CD06E0
-        public void set_CurrentCameraState(){} // RVA: 0x1CD0780
-        public void TopCameraFromPriorityQueue(){} // RVA: 0x1CD0870
-        public void LookupBlend(){} // RVA: 0x1CD0BA0
-        public void PushStateToUnityCamera(){} // RVA: 0x1CD0E00
-        public void .ctor(){} // RVA: 0x1CD1490
-        public void .cctor(){} // RVA: 0x1CD18F0
-    }
-
-    public class CinemachineClearShot
-    {
-        public UnityEngine.Transform m_LookAt; // 0xA8
-        public UnityEngine.Transform m_Follow; // 0xB0
-        public bool m_ShowDebugText; // 0xB8
-        public Cinemachine.CinemachineVirtualCameraBase[] m_ChildCameras; // 0xC0
-        public float m_ActivateAfter; // 0xC8
-        public float m_MinDuration; // 0xCC
-        public bool m_RandomizeChoice; // 0xD0
-        public Cinemachine.CinemachineBlendDefinition m_DefaultBlend; // 0xD8
-
-        // ── Methods ──
-        public void get_Description(){} // RVA: 0x1CD1EB0
-        public void get_LiveChild(){} // RVA: 0x3482A0
-        public void set_LiveChild(){} // RVA: 0x3482B0
-        public void get_State(){} // RVA: 0x1CD1FF0
-        public void IsLiveChild(){} // RVA: 0x1CD2090
-        public void get_LookAt(){} // RVA: 0x1CC9FF0
-        public void set_LookAt(){} // RVA: 0xAE5030
-        public void get_Follow(){} // RVA: 0x1CCA000
-        public void set_Follow(){} // RVA: 0x348050
-        public void OnTargetObjectWarped(){} // RVA: 0x1CD20C0
-        public void ForceCameraPosition(){} // RVA: 0x1CD21A0
-        public void InternalUpdateCameraState(){} // RVA: 0x1CD2330
-        public void OnEnable(){} // RVA: 0x1CD2A70
-        public void OnDisable(){} // RVA: 0x1CD2D80
-        public void OnTransformChildrenChanged(){} // RVA: 0x1CD2F00
-        public void OnGuiHandler(){} // RVA: 0x1CD2F20
-        public void get_IsBlending(){} // RVA: 0x1CD3090
-        public void get_ActiveBlend(){} // RVA: 0xD92860
-        public void get_ChildCameras(){} // RVA: 0x1CD30A0
-        public void InvalidateListOfChildren(){} // RVA: 0x1CD30C0
-        public void ResetRandomization(){} // RVA: 0x1CD31E0
-        public void UpdateListOfChildren(){} // RVA: 0x1CD3260
-        public void ChooseCurrentCamera(){} // RVA: 0x1CD3720
-        public void Randomize(){} // RVA: 0x1CD4100
-        public void LookupBlend(){} // RVA: 0x1CD4630
-        public void OnTransitionFromCamera(){} // RVA: 0x1CD48A0
-        public void .ctor(){} // RVA: 0x1CD4A30
-    }
-
-    public class CinemachineCollider
-    {
-        public UnityEngine.LayerMask m_CollideAgainst; // 0x30
-
-        // ── Methods ──
-        public void IsTargetObscured(){} // RVA: 0x1CD4D80
-        public void CameraWasDisplaced(){} // RVA: 0x1CD4DE0
-        public void GetCameraDisplacementDistance(){} // RVA: 0x1CD4E50
-        public void OnValidate(){} // RVA: 0x1CD4EC0
-        public void OnDestroy(){} // RVA: 0x1CD4F10
-        public void get_DebugPaths(){} // RVA: 0x1CD4F80
-        public void GetMaxDampTime(){} // RVA: 0x1CD51A0
-        public void OnTargetObjectWarped(){} // RVA: 0x1CD51C0
-        public void PostPipelineStageCallback(){} // RVA: 0x1CD52C0
-        public void PreserveLineOfSight(){} // RVA: 0x1CD6590
-        public void PullCameraInFrontOfNearestObstacle(){} // RVA: 0x1CD6B80
-        public void PushCameraBack(){} // RVA: 0x1CD70A0
-        public void GetWalkingDirection(){} // RVA: 0x1CD7B30
-        public void GetPushBackDistance(){} // RVA: 0x1CD8470
-        public void ClampRayToBounds(){} // RVA: 0x1CD85E0
-        public void RespectCameraRadius(){} // RVA: 0x1CD94F0
-        public void CheckForTargetObstructions(){} // RVA: 0x1CDA1C0
-        public void IsTargetOffscreen(){} // RVA: 0x1CDA630
-        public void .ctor(){} // RVA: 0x1CDAEB0
-        public void .cctor(){} // RVA: 0x1CDB020
-    }
-
-    public class CinemachineCollisionImpulseSource
+    public class CameraState : ValueType
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x1D2EE30
-        public void OnEnable(){} // RVA: 0x2DD310
-        public void OnCollisionEnter(){} // RVA: 0x1D2EF50
-        public void OnTriggerEnter(){} // RVA: 0x1D2F000
-        public void GetMassAndVelocity(){} // RVA: 0x1D2F070
-        public void GenerateImpactEvent(){} // RVA: 0x1D2F570
-        public void OnCollisionEnter2D(){} // RVA: 0x1D2F8E0
-        public void OnTriggerEnter2D(){} // RVA: 0x1D2F940
-        public void GetMassAndVelocity2D(){} // RVA: 0x1D2F9B0
-        public void GenerateImpactEvent2D(){} // RVA: 0x1D2FE00
-        public void .ctor(){} // RVA: 0x1D30170
+        public void get_HasLookAt(){} // RVA: 0x7A7672D00
+        public void get_CorrectedPosition(){} // RVA: 0x7A7672D60
+        public void get_CorrectedOrientation(){} // RVA: 0x7A7672DB0
+        public void get_FinalPosition(){} // RVA: 0x7A7672D60
+        public void get_FinalOrientation(){} // RVA: 0x7A7672DE0
+        public void get_Default(){} // RVA: 0x7A9B145F0
+        public void get_NumCustomBlendables(){} // RVA: 0x7A7672E10
+        public void set_NumCustomBlendables(){} // RVA: 0x7A7672E20
+        public void GetCustomBlendable(){} // RVA: 0x7A7672E30
+        public void FindCustomBlendable(){} // RVA: 0x7A7672E60
+        public void AddCustomBlendable(){} // RVA: 0x7A7672E70
+        public void Lerp(){} // RVA: 0x7A9B15320
+        public void InterpolateFOV(){} // RVA: 0x7A9B19490
+        public void ApplyPosBlendHint(){} // RVA: 0x7A9B195D0
+        public void ApplyRotBlendHint(){} // RVA: 0x7A9B19650
+        public void InterpolatePosition(){} // RVA: 0x7A7672E90
+        public void .cctor(){} // RVA: 0x7A9B19B80
     }
 
-    public class CinemachineComponentBase
-    {
-        public float Epsilon;
-        public Cinemachine.CinemachineVirtualCameraBase m_vcamOwner; // 0x20
-
-        // ── Methods ──
-        public void get_VirtualCamera(){} // RVA: 0x1D19630
-        public void get_FollowTarget(){} // RVA: 0x1D19A40
-        public void get_LookAtTarget(){} // RVA: 0x1D19B40
-        public void get_AbstractFollowTargetGroup(){} // RVA: 0x1D19C40
-        public void get_FollowTargetGroup(){} // RVA: 0x1D19D20
-        public void get_FollowTargetPosition(){} // RVA: 0x1D19DB0
-        public void get_FollowTargetRotation(){} // RVA: 0x1D1A0B0
-        public void get_AbstractLookAtTargetGroup(){} // RVA: 0x1D1A380
-        public void get_LookAtTargetGroup(){} // RVA: 0x1D1A3B0
-        public void get_LookAtTargetPosition(){} // RVA: 0x1D1A450
-        public void get_LookAtTargetRotation(){} // RVA: 0x1D1A750
-        public void get_VcamState(){} // RVA: 0x1D1AA20
-        public void get_IsValid(){} // RVA: 0xDBE0
-        public void PrePipelineMutateCameraState(){} // RVA: 0x2DD310
-        public void get_Stage(){} // RVA: 0xD840
-        public void get_BodyAppliesAfterAim(){} // RVA: 0x2DD320
-        public void MutateCameraState(){} // RVA: 0x318E0
-        public void OnTransitionFromCamera(){} // RVA: 0x2DD320
-        public void OnTargetObjectWarped(){} // RVA: 0x2DD310
-        public void ForceCameraPosition(){} // RVA: 0x2DD310
-        public void GetMaxDampTime(){} // RVA: 0xAFF380
-        public void get_RequiresUserInput(){} // RVA: 0x2DD320
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class CinemachineComposer
-    {
-        public UnityEngine.Vector3 m_TrackedObjectOffset; // 0x28
-        public float m_LookaheadTime; // 0x34
-        public float m_LookaheadSmoothing; // 0x38
-        public bool m_LookaheadIgnoreY; // 0x3C
-        public float m_HorizontalDamping; // 0x40
-
-        // ── Methods ──
-        public void get_IsValid(){} // RVA: 0x1CFD120
-        public void get_Stage(){} // RVA: 0x3CFAF0
-        public void get_TrackedPoint(){} // RVA: 0x1CFD240
-        public void set_TrackedPoint(){} // RVA: 0x1CFD260
-        public void GetLookAtPointAndSetTrackedPoint(){} // RVA: 0x1CFD270
-        public void OnTargetObjectWarped(){} // RVA: 0x1CFD740
-        public void ForceCameraPosition(){} // RVA: 0x1CFD940
-        public void GetMaxDampTime(){} // RVA: 0x1CFD960
-        public void PrePipelineMutateCameraState(){} // RVA: 0x1CFD970
-        public void MutateCameraState(){} // RVA: 0x1CFDAB0
-        public void get_SoftGuideRect(){} // RVA: 0x1CFE860
-        public void set_SoftGuideRect(){} // RVA: 0x1CFE8B0
-        public void get_HardGuideRect(){} // RVA: 0x1CFE970
-        public void set_HardGuideRect(){} // RVA: 0x1CFE9F0
-        public void RotateToScreenBounds(){} // RVA: 0x1CFEA60
-        public void ClampVerticalBounds(){} // RVA: 0x1CFED40
-        public void .ctor(){} // RVA: 0x1CFF040
-    }
-
-    public class CinemachineConfiner
-    {
-        public 0x65944A28 m_ConfineMode; // 0x30
-
-        // ── Methods ──
-        public void CameraWasDisplaced(){} // RVA: 0x1CDB260
-        public void GetCameraDisplacementDistance(){} // RVA: 0x1CDB2D0
-        public void OnValidate(){} // RVA: 0x1CDB330
-        public void ConnectToVcam(){} // RVA: 0x1CDB340
-        public void get_IsValid(){} // RVA: 0x1CDB350
-        public void GetMaxDampTime(){} // RVA: 0x862910
-        public void PostPipelineStageCallback(){} // RVA: 0x1CDB5E0
-        public void InvalidatePathCache(){} // RVA: 0x1CDB8C0
-        public void ValidatePathCache(){} // RVA: 0x1CDB970
-        public void ConfinePoint(){} // RVA: 0x1CDC2B0
-        public void ConfineScreenEdges(){} // RVA: 0x1CDC8F0
-        public void .ctor(){} // RVA: 0x1CDD120
-    }
-
-    public class CinemachineConfiner2D
+    public class Cinemachine3rdPersonAim : CinemachineExtension
     {
         // ── Methods ──
-        public void InvalidateCache(){} // RVA: 0x1CDD170
-        public void ValidateCache(){} // RVA: 0x1CDD180
-        public void PostPipelineStageCallback(){} // RVA: 0x1CDD1D0
-        public void CalculateHalfFrustumHeight(){} // RVA: 0x1CDDA00
-        public void OnValidate(){} // RVA: 0x1CDDAB0
-        public void Reset(){} // RVA: 0x1CDDAD0
-        public void .ctor(){} // RVA: 0x1CDDAE0
+        public void get_AimTarget(){} // RVA: 0x7A813E540
+        public void set_AimTarget(){} // RVA: 0x7A813E560
+        public void OnValidate(){} // RVA: 0x7A9ACAFF0
+        public void Reset(){} // RVA: 0x7A9ACB010
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9ACB120
+        public void DrawReticle(){} // RVA: 0x7A9ACB2A0
+        public void ComputeLookAtPoint(){} // RVA: 0x7A9ACB630
+        public void ComputeAimTarget(){} // RVA: 0x7A9ACBC50
+        public void PostPipelineStageCallback(){} // RVA: 0x7A9ACBED0
+        public void .ctor(){} // RVA: 0x7A9ACC220
     }
 
-    public class CinemachineCore
-    {
-        public int State;
-        public Cinemachine.CinemachineCore LookAt; // 0x8
-        public bool Follow; // 0x10
-        public AxisInputDelegate m_vcamOwner; // 0x18
-        public float UniformDeltaTimeOverride; // 0x20
-
-        // ── Methods ──
-        public void get_Instance(){} // RVA: 0x1D1ABD0
-        public void get_DeltaTime(){} // RVA: 0x1D1AD00
-        public void get_CurrentTime(){} // RVA: 0x1D1ADC0
-        public void get_BrainCount(){} // RVA: 0x1D1AE80
-        public void GetActiveBrain(){} // RVA: 0x1D1AED0
-        public void AddActiveBrain(){} // RVA: 0x1D1AF50
-        public void RemoveActiveBrain(){} // RVA: 0x1D1AFF0
-        public void get_VirtualCameraCount(){} // RVA: 0x1D1B050
-        public void GetVirtualCamera(){} // RVA: 0x1D1B0A0
-        public void AddActiveCamera(){} // RVA: 0x1D1B260
-        public void RemoveActiveCamera(){} // RVA: 0x1D1B2D0
-        public void CameraDestroyed(){} // RVA: 0x1D1B350
-        public void CameraEnabled(){} // RVA: 0x1D1B440
-        public void CameraDisabled(){} // RVA: 0x1D1B6A0
-        public void UpdateAllActiveVirtualCameras(){} // RVA: 0x1D1B8D0
-        public void UpdateVirtualCamera(){} // RVA: 0x1D1BFE0
-        public void InitializeModule(){} // RVA: 0x1D1C4D0
-        public void GetUpdateTarget(){} // RVA: 0x1D1C5D0
-        public void GetVcamUpdateStatus(){} // RVA: 0x1D1C8F0
-        public void IsLive(){} // RVA: 0x1D1C980
-        public void IsLiveInBlend(){} // RVA: 0x1D1CAE0
-        public void GenerateCameraActivationEvent(){} // RVA: 0x1D1CC40
-        public void GenerateCameraCutEvent(){} // RVA: 0x1D1CE20
-        public void FindPotentialTargetBrain(){} // RVA: 0x1D1D070
-        public void OnTargetObjectWarped(){} // RVA: 0x1D1D540
-        public void .ctor(){} // RVA: 0x1D1D610
-        public void .cctor(){} // RVA: 0x1D1D800
-    }
-
-    public class CinemachineDollyCart
+    public class Cinemachine3rdPersonFollow : CinemachineComponentBase
     {
         // ── Methods ──
-        public void FixedUpdate(){} // RVA: 0x1CDEDE0
-        public void Update(){} // RVA: 0x1CDEE70
-        public void LateUpdate(){} // RVA: 0x1CDEF80
-        public void SetCartPosition(){} // RVA: 0x1CDF0A0
-        public void .ctor(){} // RVA: 0x1CDF2B0
+        public void OnValidate(){} // RVA: 0x7A9AFCB50
+        public void Reset(){} // RVA: 0x7A9AFCBD0
+        public void OnDestroy(){} // RVA: 0x7A9AFCC40
+        public void get_IsValid(){} // RVA: 0x7A9AFCC90
+        public void get_Stage(){} // RVA: 0x7A82D1450
+        public void GetMaxDampTime(){} // RVA: 0x7A9AFCDC0
+        public void MutateCameraState(){} // RVA: 0x7A9AFCDF0
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9AFCE80
+        public void PositionCamera(){} // RVA: 0x7A9AFCFF0
+        public void GetRigPositions(){} // RVA: 0x7A9AFD710
+        public void GetHeading(){} // RVA: 0x7A9AFD930
+        public void GetRawRigPositions(){} // RVA: 0x7A9AFDE90
+        public void ResolveCollisions(){} // RVA: 0x7A9AFE200
+        public void .ctor(){} // RVA: 0x7A9AFE540
     }
 
-    public class CinemachineEmbeddedAssetPropertyAttribute
+    public class CinemachineBasicMultiChannelPerlin : CinemachineComponentBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x3A75F0
+        public void get_IsValid(){} // RVA: 0x7A9AFE610
+        public void get_Stage(){} // RVA: 0x7A81DDCC0
+        public void MutateCameraState(){} // RVA: 0x7A9AFE730
+        public void ReSeed(){} // RVA: 0x7A9AFF210
+        public void Initialize(){} // RVA: 0x7A9AFF340
+        public void .ctor(){} // RVA: 0x7A9AFF550
     }
 
-    public class CinemachineExtension
-    {
-        public float Epsilon;
-        public Cinemachine.CinemachineVirtualCameraBase m_vcamOwner; // 0x20
-
-        // ── Methods ──
-        public void get_VirtualCamera(){} // RVA: 0x1D1DFA0
-        public void Awake(){} // RVA: 0x1D1E0E0
-        public void OnEnable(){} // RVA: 0x2DD310
-        public void OnDestroy(){} // RVA: 0x1D1E100
-        public void EnsureStarted(){} // RVA: 0x1D1E0E0
-        public void ConnectToVcam(){} // RVA: 0x1D1E120
-        public void PrePipelineMutateCameraStateCallback(){} // RVA: 0x2DD310
-        public void InvokePostPipelineStageCallback(){} // RVA: 0x1D1E3A0
-        public void PostPipelineStageCallback(){}
-        public void OnTargetObjectWarped(){} // RVA: 0x2DD310
-        public void ForceCameraPosition(){} // RVA: 0x2DD310
-        public void OnTransitionFromCamera(){} // RVA: 0x2DD320
-        public void GetMaxDampTime(){} // RVA: 0xAFF380
-        public void get_RequiresUserInput(){} // RVA: 0x2DD320
-        public void GetExtraState(){} // RVA: 0x283FA0
-        public void GetAllExtraStates(){} // RVA: 0xCD60
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class CinemachineExternalCamera
-    {
-        public UnityEngine.Transform m_LookAt; // 0xA8
-        public UnityEngine.Camera m_Camera; // 0xB0
-        public Cinemachine.CameraState m_State; // 0xB8
-
-        // ── Methods ──
-        public void get_State(){} // RVA: 0x1CDF300
-        public void get_LookAt(){} // RVA: 0xA1C130
-        public void set_LookAt(){} // RVA: 0xAE5030
-        public void get_Follow(){} // RVA: 0xDB1150
-        public void set_Follow(){} // RVA: 0xD95560
-        public void InternalUpdateCameraState(){} // RVA: 0x1CDF3A0
-        public void .ctor(){} // RVA: 0x1CDFFC0
-    }
-
-    public class CinemachineFixedSignal
-    {
-        public UnityEngine.AnimationCurve m_XCurve; // 0x18
-
-        // ── Methods ──
-        public void get_SignalDuration(){} // RVA: 0x1D30330
-        public void AxisDuration(){} // RVA: 0x1D30390
-        public void GetSignal(){} // RVA: 0x1D30490
-        public void AxisValue(){} // RVA: 0x1D30670
-        public void .ctor(){} // RVA: 0x53BFB0
-    }
-
-    public class CinemachineFollowZoom
+    public class CinemachineBlend : Object
     {
         // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1CE0190
-        public void GetMaxDampTime(){} // RVA: 0x3A7630
-        public void PostPipelineStageCallback(){} // RVA: 0x1CE01F0
-        public void .ctor(){} // RVA: 0x1CE05E0
+        public void get_BlendWeight(){} // RVA: 0x7A9B19BD0
+        public void get_IsValid(){} // RVA: 0x7A9B19CC0
+        public void get_IsComplete(){} // RVA: 0x7A9B19D40
+        public void get_Description(){} // RVA: 0x7A9B19D70
+        public void Uses(){} // RVA: 0x7A9B19F80
+        public void .ctor(){} // RVA: 0x7A9B1A080
+        public void UpdateCameraState(){} // RVA: 0x7A9B1A1A0
+        public void get_State(){} // RVA: 0x7A9B1A290
+        public void CamA(){} // RVA: 0x7B3FA7CD8
     }
 
-    public class CinemachineFramingTransposer
-    {
-        public UnityEngine.Vector3 m_TrackedObjectOffset; // 0x28
-        public float m_LookaheadTime; // 0x34
-        public float m_LookaheadSmoothing; // 0x38
-        public bool m_LookaheadIgnoreY; // 0x3C
-        public float m_XDamping; // 0x40
-        public float m_YDamping; // 0x44
-        public float m_ZDamping; // 0x48
-        public bool m_TargetMovementOnly; // 0x4C
-
-        // ── Methods ──
-        public void get_SoftGuideRect(){} // RVA: 0x1CFFF10
-        public void set_SoftGuideRect(){} // RVA: 0x1CFFF60
-        public void get_HardGuideRect(){} // RVA: 0x1D00020
-        public void set_HardGuideRect(){} // RVA: 0x1D000A0
-        public void OnValidate(){} // RVA: 0x1D00110
-        public void get_IsValid(){} // RVA: 0x1D00200
-        public void get_Stage(){} // RVA: 0x519240
-        public void get_BodyAppliesAfterAim(){} // RVA: 0x3C2850
-        public void get_TrackedPoint(){} // RVA: 0x1D00320
-        public void set_TrackedPoint(){} // RVA: 0x1D00340
-        public void OnTargetObjectWarped(){} // RVA: 0x1D00360
-        public void ForceCameraPosition(){} // RVA: 0x1D00520
-        public void GetMaxDampTime(){} // RVA: 0x1D00550
-        public void OnTransitionFromCamera(){} // RVA: 0x1D00570
-        public void ScreenToOrtho(){} // RVA: 0x1D007A0
-        public void OrthoOffsetToScreenBounds(){} // RVA: 0x1D00870
-        public void get_LastBounds(){} // RVA: 0x1D00980
-        public void set_LastBounds(){} // RVA: 0x1D009A0
-        public void get_LastBoundsMatrix(){} // RVA: 0x1D009C0
-        public void set_LastBoundsMatrix(){} // RVA: 0x1D009F0
-        public void MutateCameraState(){} // RVA: 0x1D00A20
-        public void GetTargetHeight(){} // RVA: 0x1D025D0
-        public void ComputeGroupBounds(){} // RVA: 0x1D027D0
-        public void GetScreenSpaceGroupBoundingBox(){} // RVA: 0x1D03000
-        public void .ctor(){} // RVA: 0x1D03810
-    }
-
-    public class CinemachineFreeLook
-    {
-        public UnityEngine.Transform m_LookAt; // 0xA8
-        public UnityEngine.Transform m_Follow; // 0xB0
-        public bool m_CommonLens; // 0xB8
-        public Cinemachine.LensSettings m_Lens; // 0xBC
-        public TransitionParams m_Transitions; // 0xF0
-        public 0x65946FF8 m_LegacyBlendHint; // 0x100
-
-        // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1CE0640
-        public void GetRig(){} // RVA: 0x1CE0930
-        public void get_RigsAreCreated(){} // RVA: 0x1CE0990
-        public void get_RigNames(){} // RVA: 0x1CE09B0
-        public void OnEnable(){} // RVA: 0x1CE0A70
-        public void UpdateInputAxisProvider(){} // RVA: 0x1CE0C90
-        public void OnDestroy(){} // RVA: 0x1CE0E50
-        public void OnTransformChildrenChanged(){} // RVA: 0x1CE1060
-        public void Reset(){} // RVA: 0x1CE10C0
-        public void get_PreviousStateIsValid(){} // RVA: 0x59FF30
-        public void set_PreviousStateIsValid(){} // RVA: 0x1CE10E0
-        public void get_State(){} // RVA: 0x1CE1260
-        public void get_LookAt(){} // RVA: 0x1CC9FF0
-        public void set_LookAt(){} // RVA: 0xAE5030
-        public void get_Follow(){} // RVA: 0x1CCA000
-        public void set_Follow(){} // RVA: 0x348050
-        public void IsLiveChild(){} // RVA: 0x1CE1300
-        public void OnTargetObjectWarped(){} // RVA: 0x1CE1410
-        public void ForceCameraPosition(){} // RVA: 0x1CE14F0
-        public void InternalUpdateCameraState(){} // RVA: 0x1CE1810
-        public void OnTransitionFromCamera(){} // RVA: 0x1CE2360
-        public void RequiresUserInput(){} // RVA: 0x3C2850
-        public void GetYAxisClosestValue(){} // RVA: 0x1CE2870
-        public void SteepestDescent(){} // RVA: 0x1CE2FE0
-        public void InvalidateRigCache(){} // RVA: 0x1CE1060
-        public void DestroyRigs(){} // RVA: 0x1CE3230
-        public void CreateRigs(){} // RVA: 0x1CE3980
-        public void UpdateRigCache(){} // RVA: 0x1CE45F0
-        public void LocateExistingRigs(){} // RVA: 0x1CE4B80
-        public void UpdateXAxisHeading(){} // RVA: 0x1CE5240
-        public void PushSettingsToRigs(){} // RVA: 0x1CE5500
-        public void GetYAxisValue(){} // RVA: 0x1CE5CA0
-        public void CalculateNewState(){} // RVA: 0x1CE5CD0
-        public void GetLocalPositionForCameraFromInput(){} // RVA: 0x1CE5F80
-        public void UpdateCachedSpline(){} // RVA: 0x1CE6230
-        public void OnBeforeSerialize(){} // RVA: 0x1CE6890
-        public void .ctor(){} // RVA: 0x1CE6970
-        public void <SteepestDescent>g__AngleFunction|47_0(){} // RVA: 0x1CE7040
-        public void <SteepestDescent>g__SlopeOfAngleFunction|47_1(){} // RVA: 0x1CE7110
-        public void <SteepestDescent>g__InitialGuess|47_2(){} // RVA: 0x1CE7180
-        public void <SteepestDescent>g__ChooseBestAngle|47_3(){} // RVA: 0x1CE7290
-    }
-
-    public class CinemachineGroupComposer
-    {
-        public float m_GroupFramingSize; // 0x100
-        public 0x65945B00 m_FramingMode; // 0x104
-
-        // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1D039C0
-        public void get_LastBounds(){} // RVA: 0x1D03A90
-        public void set_LastBounds(){} // RVA: 0x1D03AB0
-        public void get_LastBoundsMatrix(){} // RVA: 0x1D03AD0
-        public void set_LastBoundsMatrix(){} // RVA: 0x1D03B00
-        public void GetMaxDampTime(){} // RVA: 0x1D03B30
-        public void MutateCameraState(){} // RVA: 0x1D03B50
-        public void GetTargetHeight(){} // RVA: 0x1D04CC0
-        public void GetScreenSpaceGroupBoundingBox(){} // RVA: 0x1D04F00
-        public void .ctor(){} // RVA: 0x1D05490
-    }
-
-    public class CinemachineHardLockToTarget
-    {
-        public float m_Damping; // 0x28
-        public UnityEngine.Vector3 m_PreviousTargetPosition; // 0x2C
-
-        // ── Methods ──
-        public void get_IsValid(){} // RVA: 0x1D05510
-        public void get_Stage(){} // RVA: 0x519240
-        public void GetMaxDampTime(){} // RVA: 0x3BC210
-        public void MutateCameraState(){} // RVA: 0x1D05630
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class CinemachineHardLookAt
+    public class CinemachineBlendDefinition : ValueType
     {
         // ── Methods ──
-        public void get_IsValid(){} // RVA: 0x1D05800
-        public void get_Stage(){} // RVA: 0x3CFAF0
-        public void MutateCameraState(){} // RVA: 0x1D05920
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void get_BlendTime(){} // RVA: 0x7A7673100
+        public void .ctor(){} // RVA: 0x7A7673110
+        public void CreateStandardCurves(){} // RVA: 0x7A7673170
+        public void get_BlendCurve(){} // RVA: 0x7A7673180
     }
 
-    public class CinemachineImpulseChannelPropertyAttribute
+    public class CinemachineBlendDefinitionPropertyAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class CinemachineImpulseDefinition
-    {
-        public int Descriptor; // 0x10
-
-        // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1D306F0
-        public void CreateStandardShapes(){} // RVA: 0x1D307E0
-        public void GetStandardCurve(){} // RVA: 0x1D313E0
-        public void get_ImpulseCurve(){} // RVA: 0x1D31460
-        public void CreateEvent(){} // RVA: 0x1D31570
-        public void CreateAndReturnEvent(){} // RVA: 0x1D315B0
-        public void LegacyCreateAndReturnEvent(){} // RVA: 0x1D31800
-        public void .ctor(){} // RVA: 0x1D31BF0
-    }
-
-    public class CinemachineImpulseDefinitionPropertyAttribute
+    public class CinemachineBlendListCamera : CinemachineVirtualCameraBase
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_Description(){} // RVA: 0x7A9ACC2F0
+        public void Reset(){} // RVA: 0x7A9ACC430
+        public void get_LiveChild(){} // RVA: 0x7A81F50F0
+        public void set_LiveChild(){} // RVA: 0x7A81F5100
+        public void IsLiveChild(){} // RVA: 0x7A9ACC5A0
+        public void get_State(){} // RVA: 0x7A9ACC5D0
+        public void get_LookAt(){} // RVA: 0x7A9ACC670
+        public void set_LookAt(){} // RVA: 0x7A8881790
+        public void get_Follow(){} // RVA: 0x7A9ACC680
+        public void set_Follow(){} // RVA: 0x7A8142620
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9ACC690
+        public void ForceCameraPosition(){} // RVA: 0x7A9ACC770
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9ACC870
+        public void InternalUpdateCameraState(){} // RVA: 0x7A9ACCAA0
+        public void OnEnable(){} // RVA: 0x7A9ACD470
+        public void OnDisable(){} // RVA: 0x7A9ACD7E0
+        public void OnTransformChildrenChanged(){} // RVA: 0x7A9ACD960
+        public void OnGuiHandler(){} // RVA: 0x7A9ACD970
+        public void get_ChildCameras(){} // RVA: 0x7A9ACDAE0
+        public void get_IsBlending(){} // RVA: 0x7A9ACDB00
+        public void InvalidateListOfChildren(){} // RVA: 0x7A9ACDB10
+        public void UpdateListOfChildren(){} // RVA: 0x7A9ACDBD0
+        public void ValidateInstructions(){} // RVA: 0x7A9ACDF70
+        public void AdvanceCurrentInstruction(){} // RVA: 0x7A9ACE380
+        public void .ctor(){} // RVA: 0x7A9ACE5C0
     }
 
-    public class CinemachineImpulseEnvelopePropertyAttribute
+    public class CinemachineBlenderSettings : ScriptableObject
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void GetBlendForVirtualCameras(){} // RVA: 0x7A9B1B760
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class CinemachineImpulseListener
+    public class CinemachineBrain : MonoBehaviour
     {
         // ── Methods ──
-        public void Reset(){} // RVA: 0x1D32600
-        public void PostPipelineStageCallback(){} // RVA: 0x1D326C0
-        public void .ctor(){} // RVA: 0x1D32CA0
+        public void get_OutputCamera(){} // RVA: 0x7A9ACE790
+        public void get_ControlledObject(){} // RVA: 0x7A9ACE900
+        public void set_ControlledObject(){} // RVA: 0x7A9ACEA20
+        public void get_SoloCamera(){} // RVA: 0x7A9ACEAE0
+        public void set_SoloCamera(){} // RVA: 0x7A9ACEB40
+        public void GetSoloGUIColor(){} // RVA: 0x7A9ACEDA0
+        public void get_DefaultWorldUp(){} // RVA: 0x7A9ACEDC0
+        public void OnEnable(){} // RVA: 0x7A9ACEF50
+        public void OnDisable(){} // RVA: 0x7A9ACF4C0
+        public void OnSceneLoaded(){} // RVA: 0x7A9ACF7C0
+        public void OnSceneUnloaded(){} // RVA: 0x7A9ACF860
+        public void Awake(){} // RVA: 0x7A9ACF900
+        public void Start(){} // RVA: 0x7A9ACF960
+        public void OnGuiHandler(){} // RVA: 0x7A9ACF980
+        public void AfterPhysics(){} // RVA: 0x7A9ACFE60
+        public void LateUpdate(){} // RVA: 0x7A9ACFF00
+        public void ManualUpdate(){} // RVA: 0x7A9ACFF10
+        public void GetEffectiveDeltaTime(){} // RVA: 0x7A9AD0240
+        public void UpdateVirtualCameras(){} // RVA: 0x7A9AD0500
+        public void get_ActiveVirtualCamera(){} // RVA: 0x7A9AD0890
+        public void DeepCamBFromBlend(){} // RVA: 0x7A9AD0A10
+        public void IsLiveInBlend(){} // RVA: 0x7A9AD0AD0
+        public void get_IsBlending(){} // RVA: 0x7A9AD0C00
+        public void get_ActiveBlend(){} // RVA: 0x7A9AD0C20
+        public void set_ActiveBlend(){} // RVA: 0x7A9AD0D20
+        public void GetBrainFrame(){} // RVA: 0x7A9AD0E40
+        public void SetCameraOverride(){} // RVA: 0x7A9AD0F90
+        public void ReleaseCameraOverride(){} // RVA: 0x7A9AD14D0
+        public void ProcessActiveCamera(){} // RVA: 0x7A9AD15C0
+        public void UpdateFrame0(){} // RVA: 0x7A9AD1D10
+        public void ComputeCurrentBlend(){} // RVA: 0x7A9AD2530
+        public void IsLive(){} // RVA: 0x7A9AD2B40
+        public void get_CurrentCameraState(){} // RVA: 0x7A9AD2D20
+        public void set_CurrentCameraState(){} // RVA: 0x7A9AD2DC0
+        public void TopCameraFromPriorityQueue(){} // RVA: 0x7A9AD2EB0
+        public void LookupBlend(){} // RVA: 0x7A9AD31E0
+        public void PushStateToUnityCamera(){} // RVA: 0x7A9AD3440
+        public void .ctor(){} // RVA: 0x7A9AD3AD0
+        public void .cctor(){} // RVA: 0x7A9AD3F30
     }
 
-    public class CinemachineImpulseManager
-    {
-        public Cinemachine.CinemachineImpulseManager _instance;
-        public float _currentTime;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_Instance(){} // RVA: 0x1D333B0
-        public void InitializeModule(){} // RVA: 0x1D33470
-        public void EvaluateDissipationScale(){} // RVA: 0x1D335A0
-        public void GetImpulseAt(){} // RVA: 0x1D336A0
-        public void get_CurrentTime(){} // RVA: 0x1D33BB0
-        public void NewImpulseEvent(){} // RVA: 0x1D33C50
-        public void AddImpulseEvent(){} // RVA: 0x1D33D50
-        public void Clear(){} // RVA: 0x1D33E50
-    }
-
-    public class CinemachineImpulseSource
-    {
-        // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1D34CF0
-        public void Reset(){} // RVA: 0x1D34E00
-        public void GenerateImpulseAtPositionWithVelocity(){} // RVA: 0x1D34FF0
-        public void GenerateImpulseWithVelocity(){} // RVA: 0x1D35040
-        public void GenerateImpulseWithForce(){} // RVA: 0x1D35160
-        public void GenerateImpulse(){} // RVA: 0x1D35160 | overloaded x3
-        public void GenerateImpulseAt(){} // RVA: 0x1D34FF0
-        public void .ctor(){} // RVA: 0x1D35300
-    }
-
-    public class CinemachineIndependentImpulseListener
-    {
-        // ── Methods ──
-        public void Reset(){} // RVA: 0x1D35420
-        public void OnEnable(){} // RVA: 0x1D354D0
-        public void Update(){} // RVA: 0x1D35560
-        public void LateUpdate(){} // RVA: 0x1D359D0
-        public void .ctor(){} // RVA: 0x2DDD50
-    }
-
-    public class CinemachineInputAxisDriver
+    public class CinemachineBrain[] : Array
     {
         // ── Methods ──
-        public void Validate(){} // RVA: 0x1D11980
-        public void Update(){} // RVA: 0x1D1E750 | overloaded x2
-        public void ClampValue(){} // RVA: 0x1D1E7C0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
-    public class CinemachineInputProvider
+    public class CinemachineClearShot : CinemachineVirtualCameraBase
     {
         // ── Methods ──
-        public void GetAxisValue(){} // RVA: 0x1D2C800
-        public void ResolveForPlayer(){} // RVA: 0x1D2C920
-        public void OnDisable(){} // RVA: 0x11074B0
-        public void .ctor(){} // RVA: 0x1D2D080
-        public void <ResolveForPlayer>g__GetFirstMatch|7_0(){} // RVA: 0x1D2D0D0
+        public void get_Description(){} // RVA: 0x7A9AD44F0
+        public void get_LiveChild(){} // RVA: 0x7A8142870
+        public void set_LiveChild(){} // RVA: 0x7A8142880
+        public void get_State(){} // RVA: 0x7A9AD4630
+        public void IsLiveChild(){} // RVA: 0x7A9AD46D0
+        public void get_LookAt(){} // RVA: 0x7A9ACC670
+        public void set_LookAt(){} // RVA: 0x7A8881790
+        public void get_Follow(){} // RVA: 0x7A9ACC680
+        public void set_Follow(){} // RVA: 0x7A8142620
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9AD4700
+        public void ForceCameraPosition(){} // RVA: 0x7A9AD47E0
+        public void InternalUpdateCameraState(){} // RVA: 0x7A9AD48E0
+        public void OnEnable(){} // RVA: 0x7A9AD5020
+        public void OnDisable(){} // RVA: 0x7A9AD5340
+        public void OnTransformChildrenChanged(){} // RVA: 0x7A9AD54C0
+        public void OnGuiHandler(){} // RVA: 0x7A9AD54E0
+        public void get_IsBlending(){} // RVA: 0x7A9AD5650
+        public void get_ActiveBlend(){} // RVA: 0x7A8B562C0
+        public void get_ChildCameras(){} // RVA: 0x7A9AD5660
+        public void InvalidateListOfChildren(){} // RVA: 0x7A9AD5680
+        public void ResetRandomization(){} // RVA: 0x7A9AD57A0
+        public void UpdateListOfChildren(){} // RVA: 0x7A9AD5820
+        public void ChooseCurrentCamera(){} // RVA: 0x7A9AD5CE0
+        public void Randomize(){} // RVA: 0x7A9AD66D0
+        public void LookupBlend(){} // RVA: 0x7A9AD6C10
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9AD6E80
+        public void .ctor(){} // RVA: 0x7A9AD7010
     }
 
-    public class CinemachineMixingCamera
-    {
-        public int MaxCameras;
-        public float m_Weight0; // 0xA8
-        public float m_Weight1; // 0xAC
-        public float m_Weight2; // 0xB0
-        public float m_Weight3; // 0xB4
-
-        // ── Methods ──
-        public void GetWeight(){} // RVA: 0x1CE7760 | overloaded x2
-        public void SetWeight(){} // RVA: 0x1CE7AA0 | overloaded x2
-        public void get_LiveChild(){} // RVA: 0xDA5040
-        public void set_LiveChild(){} // RVA: 0xD8AAB0
-        public void get_State(){} // RVA: 0x1CE7D70
-        public void get_LookAt(){} // RVA: 0xDB2150
-        public void set_LookAt(){} // RVA: 0xD94B20
-        public void get_Follow(){} // RVA: 0xA57F60
-        public void set_Follow(){} // RVA: 0xD94790
-        public void OnTargetObjectWarped(){} // RVA: 0x1CE7E10
-        public void ForceCameraPosition(){} // RVA: 0x1CE7EF0
-        public void OnEnable(){} // RVA: 0x1CE8080
-        public void OnTransformChildrenChanged(){} // RVA: 0x1CE80A0
-        public void OnValidate(){} // RVA: 0x1CE80B0
-        public void IsLiveChild(){} // RVA: 0x1CE8160
-        public void get_ChildCameras(){} // RVA: 0x1CE8200
-        public void InvalidateListOfChildren(){} // RVA: 0x1CE8220
-        public void ValidateListOfChildren(){} // RVA: 0x1CE8340
-        public void OnTransitionFromCamera(){} // RVA: 0x1CE87E0
-        public void InternalUpdateCameraState(){} // RVA: 0x1CE8940
-        public void .ctor(){} // RVA: 0x1CE9040
-    }
-
-    public class CinemachineOrbitalTransposer
-    {
-        public Heading m_Heading; // 0xA0
-
-        // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1D05CE0
-        public void UpdateHeading(){} // RVA: 0x1D05F10 | overloaded x2
-        public void OnEnable(){} // RVA: 0x1D060B0
-        public void UpdateInputAxisProvider(){} // RVA: 0x1D062D0
-        public void OnTargetObjectWarped(){} // RVA: 0x1D06440
-        public void ForceCameraPosition(){} // RVA: 0x1D06740
-        public void OnTransitionFromCamera(){} // RVA: 0x1D068A0
-        public void GetAxisClosestValue(){} // RVA: 0x1D06AE0
-        public void MutateCameraState(){} // RVA: 0x1D07250
-        public void GetTargetCameraPosition(){} // RVA: 0x1D081F0
-        public void get_RequiresUserInput(){} // RVA: 0x3C2850
-        public void GetTargetHeading(){} // RVA: 0x1D08640
-        public void .ctor(){} // RVA: 0x1D08FB0
-    }
-
-    public class CinemachinePOV
-    {
-        public 0x65945E70 m_RecenterTarget; // 0x28
-        public Cinemachine.AxisState m_VerticalAxis; // 0x30
-        public Recentering m_VerticalRecentering; // 0xA0
-
-        // ── Methods ──
-        public void get_IsValid(){} // RVA: 0x343DE0
-        public void get_Stage(){} // RVA: 0x3CFAF0
-        public void OnValidate(){} // RVA: 0x1D097A0
-        public void OnEnable(){} // RVA: 0x1D098B0
-        public void UpdateInputAxisProvider(){} // RVA: 0x1D098C0
-        public void PrePipelineMutateCameraState(){} // RVA: 0x2DD310
-        public void MutateCameraState(){} // RVA: 0x1D09B90
-        public void GetRecenterTarget(){} // RVA: 0x1D0A350
-        public void NormalizeAngle(){} // RVA: 0x1D0A800
-        public void ForceCameraPosition(){} // RVA: 0x1D0A830
-        public void OnTransitionFromCamera(){} // RVA: 0x1D0A850
-        public void get_RequiresUserInput(){} // RVA: 0x3C2850
-        public void SetAxesForRotation(){} // RVA: 0x1D0AAC0
-        public void .ctor(){} // RVA: 0x1D0B5B0
-    }
-
-    public class CinemachinePath
-    {
-        public bool m_Looped; // 0x50
-        public Waypoint[] m_Waypoints; // 0x58
-
-        // ── Methods ──
-        public void get_MinPos(){} // RVA: 0xAFF380
-        public void get_MaxPos(){} // RVA: 0x1CE9260
-        public void get_Looped(){} // RVA: 0x3978E0
-        public void Reset(){} // RVA: 0x1CE92A0
-        public void OnValidate(){} // RVA: 0x1CE9460
-        public void get_DistanceCacheSampleStepsPerSegment(){} // RVA: 0x760030
-        public void GetBoundingIndices(){} // RVA: 0x1CE9480
-        public void EvaluateLocalPosition(){} // RVA: 0x1CE9570
-        public void EvaluateLocalTangent(){} // RVA: 0x1CE98C0
-        public void EvaluateLocalOrientation(){} // RVA: 0x1CE9B20
-        public void GetRoll(){} // RVA: 0x1CE9F40
-        public void RollAroundForward(){} // RVA: 0x1CEA070
-        public void .ctor(){} // RVA: 0x1CEA0C0
-    }
-
-    public class CinemachinePathBase
-    {
-        public int m_Resolution; // 0x20
-        public Appearance m_Appearance; // 0x28
-        public float[] m_DistanceToPos; // 0x30
-        public float[] m_PosToDistance; // 0x38
-        public int m_CachedSampleSteps; // 0x40
-
-        // ── Methods ──
-        public void get_MinPos(){} // RVA: 0x21890
-        public void get_MaxPos(){} // RVA: 0x21890
-        public void get_Looped(){} // RVA: 0xDBE0
-        public void StandardizePos(){} // RVA: 0x1D1E830
-        public void EvaluatePosition(){} // RVA: 0x1D1E920
-        public void EvaluateTangent(){} // RVA: 0x1D1EA40
-        public void EvaluateOrientation(){} // RVA: 0x1D1EB60
-        public void EvaluateLocalPosition(){}
-        public void EvaluateLocalTangent(){}
-        public void EvaluateLocalOrientation(){}
-        public void FindClosestPoint(){} // RVA: 0x1D1EDD0
-        public void MinUnit(){} // RVA: 0x1D1F220
-        public void MaxUnit(){} // RVA: 0x1D1F250
-        public void StandardizeUnit(){} // RVA: 0x1D1F280
-        public void EvaluatePositionAtUnit(){} // RVA: 0x1D1F330
-        public void EvaluateTangentAtUnit(){} // RVA: 0x1D1F390
-        public void EvaluateOrientationAtUnit(){} // RVA: 0x1D1F3F0
-        public void get_DistanceCacheSampleStepsPerSegment(){} // RVA: 0xD840
-        public void InvalidateDistanceCache(){} // RVA: 0x1D1F450
-        public void DistanceCacheIsValid(){} // RVA: 0x1D1F500
-        public void get_PathLength(){} // RVA: 0x1D1F5A0
-        public void StandardizePathDistance(){} // RVA: 0x1D1F610
-        public void ToNativePathUnits(){} // RVA: 0x1D1F6D0
-        public void FromPathNativeUnits(){} // RVA: 0x1D1F850
-        public void ResamplePath(){} // RVA: 0x1D1F970
-        public void .ctor(){} // RVA: 0x1D1FE20
-    }
-
-    public class CinemachinePipeline
+    public class CinemachineCollider : CinemachineExtension
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void IsTargetObscured(){} // RVA: 0x7A9AD7360
+        public void CameraWasDisplaced(){} // RVA: 0x7A9AD73C0
+        public void GetCameraDisplacementDistance(){} // RVA: 0x7A9AD7430
+        public void OnValidate(){} // RVA: 0x7A9AD74A0
+        public void OnDestroy(){} // RVA: 0x7A9AD74F0
+        public void get_DebugPaths(){} // RVA: 0x7A9AD7560
+        public void GetMaxDampTime(){} // RVA: 0x7A9AD7790
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9AD77B0
+        public void PostPipelineStageCallback(){} // RVA: 0x7A9AD78B0
+        public void PreserveLineOfSight(){} // RVA: 0x7A9AD8BA0
+        public void PullCameraInFrontOfNearestObstacle(){} // RVA: 0x7A9AD9170
+        public void PushCameraBack(){} // RVA: 0x7A9AD9690
+        public void GetWalkingDirection(){} // RVA: 0x7A9ADA0F0
+        public void GetPushBackDistance(){} // RVA: 0x7A9ADAA40
+        public void ClampRayToBounds(){} // RVA: 0x7A9ADABB0
+        public void RespectCameraRadius(){} // RVA: 0x7A9ADBB80
+        public void CheckForTargetObstructions(){} // RVA: 0x7A9ADC870
+        public void IsTargetOffscreen(){} // RVA: 0x7A9ADCCE0
+        public void .ctor(){} // RVA: 0x7A9ADD560
+        public void .cctor(){} // RVA: 0x7A9ADD6D0
     }
 
-    public class CinemachinePixelPerfect
+    public class CinemachineCollisionImpulseSource : CinemachineImpulseSource
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DDD50
+        public void Start(){} // RVA: 0x7A9B31750
+        public void OnEnable(){} // RVA: 0x7A80D7310
+        public void OnCollisionEnter(){} // RVA: 0x7A9B31870
+        public void OnTriggerEnter(){} // RVA: 0x7A9B31920
+        public void GetMassAndVelocity(){} // RVA: 0x7A9B31990
+        public void GenerateImpactEvent(){} // RVA: 0x7A9B31E90
+        public void OnCollisionEnter2D(){} // RVA: 0x7A9B321E0
+        public void OnTriggerEnter2D(){} // RVA: 0x7A9B32240
+        public void GetMassAndVelocity2D(){} // RVA: 0x7A9B322B0
+        public void GenerateImpactEvent2D(){} // RVA: 0x7A9B32700
+        public void .ctor(){} // RVA: 0x7A9B32A50
     }
 
-    public class CinemachineSameAsFollowTarget
-    {
-        public float m_Damping; // 0x28
-        public UnityEngine.Quaternion m_PreviousReferenceOrientation; // 0x2C
-
-        // ── Methods ──
-        public void get_IsValid(){} // RVA: 0x1D0B910
-        public void get_Stage(){} // RVA: 0x3CFAF0
-        public void GetMaxDampTime(){} // RVA: 0x3BC210
-        public void MutateCameraState(){} // RVA: 0x1D0BA30
-        public void .ctor(){} // RVA: 0x1D0BD70
-    }
-
-    public class CinemachineSmoothPath
-    {
-        public bool m_Looped; // 0x50
-        public Waypoint[] m_Waypoints; // 0x58
-        public Waypoint[] m_ControlPoints1; // 0x60
-        public Waypoint[] m_ControlPoints2; // 0x68
-
-        // ── Methods ──
-        public void get_MinPos(){} // RVA: 0xAFF380
-        public void get_MaxPos(){} // RVA: 0x1CE9260
-        public void get_Looped(){} // RVA: 0x3978E0
-        public void get_DistanceCacheSampleStepsPerSegment(){} // RVA: 0x760030
-        public void OnValidate(){} // RVA: 0x1CE9460
-        public void Reset(){} // RVA: 0x1CEA260
-        public void InvalidateDistanceCache(){} // RVA: 0x1CEA410
-        public void UpdateControlPoints(){} // RVA: 0x1CEA560
-        public void GetBoundingIndices(){} // RVA: 0x1CEA8D0
-        public void EvaluateLocalPosition(){} // RVA: 0x1CEA9B0
-        public void EvaluateLocalTangent(){} // RVA: 0x1CEAD40
-        public void EvaluateLocalOrientation(){} // RVA: 0x1CEB010
-        public void RollAroundForward(){} // RVA: 0x1CEA070
-        public void .ctor(){} // RVA: 0x1CEB520
-    }
-
-    public class CinemachineStateDrivenCamera
-    {
-        public UnityEngine.Transform m_LookAt; // 0xA8
-        public UnityEngine.Transform m_Follow; // 0xB0
-        public UnityEngine.Animator m_AnimatedTarget; // 0xB8
-        public int m_LayerIndex; // 0xC0
-        public bool m_ShowDebugText; // 0xC4
-        public Cinemachine.CinemachineVirtualCameraBase[] m_ChildCameras; // 0xC8
-        public Instruction[] m_Instructions; // 0xD0
-        public Cinemachine.CinemachineBlendDefinition m_DefaultBlend; // 0xD8
-
-        // ── Methods ──
-        public void get_Description(){} // RVA: 0x1CEB650
-        public void get_LiveChild(){} // RVA: 0x7F7DB0
-        public void set_LiveChild(){} // RVA: 0x63D280
-        public void IsLiveChild(){} // RVA: 0x1CEB790
-        public void get_State(){} // RVA: 0x1CEB7C0
-        public void get_LookAt(){} // RVA: 0x1CC9FF0
-        public void set_LookAt(){} // RVA: 0xAE5030
-        public void get_Follow(){} // RVA: 0x1CCA000
-        public void set_Follow(){} // RVA: 0x348050
-        public void OnTargetObjectWarped(){} // RVA: 0x1CEB860
-        public void ForceCameraPosition(){} // RVA: 0x1CEB940
-        public void OnTransitionFromCamera(){} // RVA: 0x1CEBAD0
-        public void InternalUpdateCameraState(){} // RVA: 0x1CEBBE0
-        public void OnEnable(){} // RVA: 0x1CEC4D0
-        public void OnDisable(){} // RVA: 0x1CEC7E0
-        public void OnTransformChildrenChanged(){} // RVA: 0x1CEC960
-        public void OnGuiHandler(){} // RVA: 0x1CEC970
-        public void get_ChildCameras(){} // RVA: 0x1CECAE0
-        public void get_IsBlending(){} // RVA: 0x1CECB00
-        public void get_ActiveBlend(){} // RVA: 0xD90BA0
-        public void CreateFakeHash(){} // RVA: 0x1CECB10
-        public void LookupFakeHash(){} // RVA: 0x1CECBD0
-        public void InvalidateListOfChildren(){} // RVA: 0x1CECF80
-        public void UpdateListOfChildren(){} // RVA: 0x1CED040
-        public void ValidateInstructions(){} // RVA: 0x1CED3E0
-        public void ChooseCurrentCamera(){} // RVA: 0x1CEDA20
-        public void GetClipHash(){} // RVA: 0x1CEE2C0
-        public void LookupBlend(){} // RVA: 0x1CEE450
-        public void .ctor(){} // RVA: 0x1CEE6C0
-    }
-
-    public class CinemachineStoryboard
-    {
-        public bool s_StoryboardGlobalMute;
-
-        // ── Methods ──
-        public void PostPipelineStageCallback(){} // RVA: 0x1CEEA00
-        public void UpdateRenderCanvas(){} // RVA: 0x1CEEC10
-        public void ConnectToVcam(){} // RVA: 0x1CEEE60
-        public void get_CanvasName(){} // RVA: 0x1CEF030
-        public void CameraUpdatedCallback(){} // RVA: 0x1CEF160
-        public void LocateMyCanvas(){} // RVA: 0x1CEF500
-        public void CreateCanvas(){} // RVA: 0x1CEFE20
-        public void DestroyCanvas(){} // RVA: 0x1CF0950
-        public void PlaceImage(){} // RVA: 0x1CF0CD0
-        public void StaticBlendingHandler(){} // RVA: 0x1CF1900
-        public void InitializeModule(){} // RVA: 0x1CF1CE0
-        public void .ctor(){} // RVA: 0x1CF1E50
-    }
-
-    public class CinemachineTargetGroup
-    {
-        public 0x659455D8 m_PositionMode; // 0x20
-        public 0x65945630 m_RotationMode; // 0x24
-        public 0x65945688 m_UpdateMethod; // 0x28
-        public Target[] m_Targets; // 0x30
-        public float m_MaxWeight; // 0x38
-
-        // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1CF2020
-        public void Reset(){} // RVA: 0x1CF20C0
-        public void get_Transform(){} // RVA: 0x891B00
-        public void get_BoundingBox(){} // RVA: 0x1CF2150
-        public void set_BoundingBox(){} // RVA: 0x1CF21E0
-        public void get_Sphere(){} // RVA: 0x1CF2200
-        public void set_Sphere(){} // RVA: 0x3EDDC0
-        public void get_IsEmpty(){} // RVA: 0x1CF2280
-        public void AddMember(){} // RVA: 0x1CF2320
-        public void RemoveMember(){} // RVA: 0x1CF2600
-        public void FindMember(){} // RVA: 0x1CF2910
-        public void GetWeightedBoundsForMember(){} // RVA: 0x1CF2AA0
-        public void GetViewSpaceBoundingBox(){} // RVA: 0x1CF2C80
-        public void get_CachedCountIsValid(){} // RVA: 0x1CF3440
-        public void IndexIsValid(){} // RVA: 0x1CF34B0
-        public void WeightedMemberBoundsForValidMember(){} // RVA: 0x1CF34D0
-        public void DoUpdate(){} // RVA: 0x1CF3690
-        public void UpdateMemberValidity(){} // RVA: 0x1CF39E0
-        public void CalculateAveragePosition(){} // RVA: 0x1CF3D70
-        public void CalculateBoundingBox(){} // RVA: 0x1CF4000
-        public void CalculateBoundingSphere(){} // RVA: 0x1CF4570
-        public void CalculateAverageOrientation(){} // RVA: 0x1CF4970
-        public void FixedUpdate(){} // RVA: 0x1CF5110
-        public void Update(){} // RVA: 0x1CF5120
-        public void LateUpdate(){} // RVA: 0x1CF51C0
-        public void GetViewSpaceAngularBounds(){} // RVA: 0x1CF51D0
-        public void .ctor(){} // RVA: 0x1CF5F10
-    }
-
-    public class CinemachineTrackedDolly
-    {
-        public Cinemachine.CinemachinePathBase m_Path; // 0x28
-        public float m_PathPosition; // 0x30
-        public 0x65946AD0 m_PositionUnits; // 0x34
-
-        // ── Methods ──
-        public void get_IsValid(){} // RVA: 0x1D0BDF0
-        public void get_Stage(){} // RVA: 0x519240
-        public void GetMaxDampTime(){} // RVA: 0x1D0BF10
-        public void MutateCameraState(){} // RVA: 0x1D0BFC0
-        public void GetCameraOrientationAtPathPoint(){} // RVA: 0x1D0D250
-        public void get_AngularDamping(){} // RVA: 0x1D0D930
-        public void .ctor(){} // RVA: 0x1D0D9E0
-    }
-
-    public class CinemachineTransposer
-    {
-        public 0x65946080 m_BindingMode; // 0x28
-        public UnityEngine.Vector3 m_FollowOffset; // 0x2C
-        public float m_XDamping; // 0x38
-        public float m_YDamping; // 0x3C
-        public float m_ZDamping; // 0x40
-        public 0x659460D8 m_AngularDampingMode; // 0x44
-
-        // ── Methods ──
-        public void OnValidate(){} // RVA: 0x1D0DB40
-        public void get_HideOffsetInInspector(){} // RVA: 0x59FF30
-        public void set_HideOffsetInInspector(){} // RVA: 0xC5F680
-        public void get_EffectiveOffset(){} // RVA: 0x1D0DB90
-        public void get_IsValid(){} // RVA: 0x1D0DBD0
-        public void get_Stage(){} // RVA: 0x519240
-        public void GetMaxDampTime(){} // RVA: 0x1D0DCF0
-        public void MutateCameraState(){} // RVA: 0x1D0DD80
-        public void OnTargetObjectWarped(){} // RVA: 0x1D0E460
-        public void ForceCameraPosition(){} // RVA: 0x1D0E5D0
-        public void InitPrevFrameStateInfo(){} // RVA: 0x1D0E910
-        public void TrackTarget(){} // RVA: 0x1D0EB70
-        public void GetOffsetForMinimumTargetDistance(){} // RVA: 0x1D0FCC0
-        public void get_Damping(){} // RVA: 0x1D10260
-        public void get_AngularDamping(){} // RVA: 0x1D102A0
-        public void GetTargetCameraPosition(){} // RVA: 0x1D10380
-        public void GetReferenceOrientation(){} // RVA: 0x1D10680
-        public void .ctor(){} // RVA: 0x1D10D00
-    }
-
-    public class CinemachineTriggerAction
+    public class CinemachineComponentBase : MonoBehaviour
     {
         // ── Methods ──
-        public void Filter(){} // RVA: 0x1D2D550
-        public void InternalDoTriggerEnter(){} // RVA: 0x1D2D670
-        public void InternalDoTriggerExit(){} // RVA: 0x1D2D800
-        public void OnTriggerEnter(){} // RVA: 0x1D2D8E0
-        public void OnTriggerExit(){} // RVA: 0x1D2D960
-        public void OnCollisionEnter(){} // RVA: 0x1D2D9E0
-        public void OnCollisionExit(){} // RVA: 0x1D2DA20
-        public void OnTriggerEnter2D(){} // RVA: 0x1D2D8E0
-        public void OnTriggerExit2D(){} // RVA: 0x1D2D960
-        public void OnCollisionEnter2D(){} // RVA: 0x1D2DA60
-        public void OnCollisionExit2D(){} // RVA: 0x1D2DAA0
-        public void OnEnable(){} // RVA: 0x2DD310
-        public void .ctor(){} // RVA: 0x1D2DAE0
+        public void get_VirtualCamera(){} // RVA: 0x7A9B1BAB0
+        public void get_FollowTarget(){} // RVA: 0x7A9B1BEC0
+        public void get_LookAtTarget(){} // RVA: 0x7A9B1BFC0
+        public void get_AbstractFollowTargetGroup(){} // RVA: 0x7A9B1C0C0
+        public void get_FollowTargetGroup(){} // RVA: 0x7A9B1C1A0
+        public void get_FollowTargetPosition(){} // RVA: 0x7A9B1C220
+        public void get_FollowTargetRotation(){} // RVA: 0x7A9B1C520
+        public void get_AbstractLookAtTargetGroup(){} // RVA: 0x7A9B1C7F0
+        public void get_LookAtTargetGroup(){} // RVA: 0x7A9B1C820
+        public void get_LookAtTargetPosition(){} // RVA: 0x7A9B1C8B0
+        public void get_LookAtTargetRotation(){} // RVA: 0x7A9B1CBB0
+        public void get_VcamState(){} // RVA: 0x7A9B1CE80
+        public void get_IsValid(){} // RVA: 0x7A7E01900
+        public void PrePipelineMutateCameraState(){} // RVA: 0x7A80D7310
+        public void get_Stage(){} // RVA: 0x7A7E00710
+        public void get_BodyAppliesAfterAim(){} // RVA: 0x7A80D7320
+        public void MutateCameraState(){} // RVA: 0x7A7E1DD40
+        public void OnTransitionFromCamera(){} // RVA: 0x7A80D7320
+        public void OnTargetObjectWarped(){} // RVA: 0x7A80D7310
+        public void ForceCameraPosition(){} // RVA: 0x7A80D7310
+        public void GetMaxDampTime(){} // RVA: 0x7A889BC60
+        public void get_RequiresUserInput(){} // RVA: 0x7A80D7320
+        public void .ctor(){} // RVA: 0x7A80D7D60
     }
 
-    public class CinemachineVirtualCamera
-    {
-        public UnityEngine.Transform m_LookAt; // 0xA8
-        public UnityEngine.Transform m_Follow; // 0xB0
-        public Cinemachine.LensSettings m_Lens; // 0xB8
-
-        // ── Methods ──
-        public void get_State(){} // RVA: 0x1CEB7C0
-        public void get_LookAt(){} // RVA: 0x1CC9FF0
-        public void set_LookAt(){} // RVA: 0xAE5030
-        public void get_Follow(){} // RVA: 0x1CCA000
-        public void set_Follow(){} // RVA: 0x348050
-        public void GetMaxDampTime(){} // RVA: 0x1CF6110
-        public void InternalUpdateCameraState(){} // RVA: 0x1CF6280
-        public void OnEnable(){} // RVA: 0x1CF6760
-        public void OnDestroy(){} // RVA: 0x1CF6DE0
-        public void OnValidate(){} // RVA: 0x1CF7170
-        public void OnTransformChildrenChanged(){} // RVA: 0x1CF7250
-        public void Reset(){} // RVA: 0x1CF72B0
-        public void DestroyPipeline(){} // RVA: 0x1CF72D0
-        public void CreatePipeline(){} // RVA: 0x1CF7A00
-        public void InvalidateComponentPipeline(){} // RVA: 0x1CF7250
-        public void GetComponentOwner(){} // RVA: 0x1CF7D70
-        public void GetComponentPipeline(){} // RVA: 0x1CF7D90
-        public void GetCinemachineComponent(){} // RVA: 0x283FA0 | overloaded x2
-        public void AddCinemachineComponent(){} // RVA: 0x283FA0
-        public void DestroyCinemachineComponent(){} // RVA: 0x24A50
-        public void UpdateComponentPipeline(){} // RVA: 0x1CF7E40
-        public void SetFlagsForHiddenChild(){} // RVA: 0x1CF86B0
-        public void CalculateNewState(){} // RVA: 0x1CF8860
-        public void OnTargetObjectWarped(){} // RVA: 0x1CF9320
-        public void ForceCameraPosition(){} // RVA: 0x1CF96B0
-        public void SetStateRawPosition(){} // RVA: 0x1CF9930
-        public void OnTransitionFromCamera(){} // RVA: 0x1CF9950
-        public void RequiresUserInput(){} // RVA: 0x1CF9E60
-        public void OnBeforeSerialize(){} // RVA: 0x1CFA120
-        public void .ctor(){} // RVA: 0x1CFA200
-    }
-
-    public class CinemachineVirtualCameraBase
-    {
-        public string[] m_ExcludedPropertiesInInspector; // 0x20
-        public 0x65946708[] m_LockStageInInspector; // 0x28
-        public int m_ValidatingStreamVersion; // 0x30
-        public bool m_OnValidateCalled; // 0x34
-        public int m_StreamingVersion; // 0x38
-        public int m_Priority; // 0x3C
-        public int m_ActivationId; // 0x40
-        public float FollowTargetAttachment; // 0x44
-        public float LookAtTargetAttachment; // 0x48
-        public 0x65946FA0 m_StandbyUpdate; // 0x4C
-        public System.Collections.Generic.List`1<Cinemachine.CinemachineExtension> <mExtensions>k__BackingField; // 0x50
-        public bool <PreviousStateIsValid>k__BackingField; // 0x58
-        public bool m_WasStarted; // 0x59
-        public bool mSlaveStatusUpdated; // 0x5A
-        public Cinemachine.CinemachineVirtualCameraBase m_parentVcam; // 0x60
-        public int m_QueuePriority; // 0x68
-        public float m_blendStartPosition; // 0x6C
-        public UnityEngine.Transform m_CachedFollowTarget; // 0x70
-
-        // ── Methods ──
-        public void get_ValidatingStreamVersion(){} // RVA: 0x1D1FF30
-        public void set_ValidatingStreamVersion(){} // RVA: 0x338CE0
-        public void GetMaxDampTime(){} // RVA: 0x1D1FFA0
-        public void DetachedFollowTargetDamp(){} // RVA: 0x1D202A0 | overloaded x3
-        public void DetachedLookAtTargetDamp(){} // RVA: 0x1D20570 | overloaded x3
-        public void AddExtension(){} // RVA: 0x1D20620
-        public void RemoveExtension(){} // RVA: 0x1D20780
-        public void get_mExtensions(){} // RVA: 0x37E0E0
-        public void set_mExtensions(){} // RVA: 0x4354D0
-        public void InvokePostPipelineStageCallback(){} // RVA: 0x1D207E0
-        public void InvokePrePipelineMutateCameraStateCallback(){} // RVA: 0x1D20AD0
-        public void InvokeOnTransitionInExtensions(){} // RVA: 0x1D20DB0
-        public void get_Name(){} // RVA: 0x59E520
-        public void get_Description(){} // RVA: 0x1D20FD0
-        public void get_Priority(){} // RVA: 0x891AF0
-        public void set_Priority(){} // RVA: 0x1CB95F0
-        public void ApplyPositionBlendMethod(){} // RVA: 0x1D21010
-        public void get_VirtualCameraGameObject(){} // RVA: 0x1D21040
-        public void get_IsValid(){} // RVA: 0x1D21150
-        public void get_State(){}
-        public void get_ParentCamera(){} // RVA: 0x1D21220
-        public void IsLiveChild(){} // RVA: 0x2DD320
-        public void get_LookAt(){} // RVA: 0xCD60
-        public void set_LookAt(){} // RVA: 0x24B10
-        public void get_Follow(){} // RVA: 0xCD60
-        public void set_Follow(){} // RVA: 0x24B10
-        public void get_PreviousStateIsValid(){} // RVA: 0x59FF30
-        public void set_PreviousStateIsValid(){} // RVA: 0xC5F680
-        public void UpdateCameraState(){} // RVA: 0x1D212C0
-        public void InternalUpdateCameraState(){}
-        public void OnTransitionFromCamera(){} // RVA: 0x1D21360
-        public void OnDestroy(){} // RVA: 0x1D21430
-        public void OnTransformParentChanged(){} // RVA: 0x1D21560
-        public void Start(){} // RVA: 0x490630
-        public void RequiresUserInput(){} // RVA: 0x1D21600
-        public void EnsureStarted(){} // RVA: 0x1D21780
-        public void GetInputAxisProvider(){} // RVA: 0x1D21840
-        public void OnValidate(){} // RVA: 0x1D21900
-        public void OnEnable(){} // RVA: 0x1D21970
-        public void OnDisable(){} // RVA: 0x1D21CE0
-        public void Update(){} // RVA: 0x1D21D50
-        public void UpdateSlaveStatus(){} // RVA: 0x1D21D60
-        public void ResolveLookAt(){} // RVA: 0x1D21F40
-        public void ResolveFollow(){} // RVA: 0x1D22060
-        public void UpdateVcamPoolStatus(){} // RVA: 0x1D22180
-        public void MoveToTopOfPrioritySubqueue(){} // RVA: 0x1D223B0
-        public void OnTargetObjectWarped(){} // RVA: 0x1D223C0
-        public void ForceCameraPosition(){} // RVA: 0x1D224C0
-        public void GetInheritPosition(){} // RVA: 0x1D225D0
-        public void CreateBlend(){} // RVA: 0x1D226E0
-        public void PullStateFromVirtualCamera(){} // RVA: 0x1D22B40
-        public void InvalidateCachedTargets(){} // RVA: 0x1D22E70
-        public void get_FollowTargetChanged(){} // RVA: 0x1B6CD50
-        public void set_FollowTargetChanged(){} // RVA: 0xB70090
-        public void get_LookAtTargetChanged(){} // RVA: 0x1D23080
-        public void set_LookAtTargetChanged(){} // RVA: 0x1D23090
-        public void UpdateTargetCache(){} // RVA: 0x1D230A0
-        public void get_AbstractFollowTargetGroup(){} // RVA: 0x462D00
-        public void get_FollowTargetAsVcam(){} // RVA: 0x4C7C50
-        public void get_AbstractLookAtTargetGroup(){} // RVA: 0xA1C8C0
-        public void get_LookAtTargetAsVcam(){} // RVA: 0x796DE0
-        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x1D236A0
-        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x1D236C0
-        public void LegacyUpgrade(){} // RVA: 0x2DD310
-        public void OnBeforeSerialize(){} // RVA: 0x2DD310
-        public void CancelDamping(){} // RVA: 0x1D23770
-        public void .ctor(){} // RVA: 0x1D239D0
-    }
-
-    public class ClipperLib
-    {
-    }
-
-    public class ConfinerOven
-    {
-        public float m_MinFrustumHeightWithBones; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D23C70
-        public void GetBakedSolution(){} // RVA: 0x1D23DA0
-        public void get_State(){} // RVA: 0x9EAB90
-        public void set_State(){} // RVA: 0x9EAAE0
-        public void Initialize(){} // RVA: 0x1D24200
-        public void BakeConfiner(){} // RVA: 0x1D24A60
-        public void <Initialize>g__GetPolygonBoundingBox|24_0(){} // RVA: 0x1D250B0
-        public void <Initialize>g__MidPointOfIntRect|24_1(){} // RVA: 0x1D25270
-        public void <BakeConfiner>g__ComputeSkeleton|25_0(){} // RVA: 0x1D252A0
-    }
-
-    public class Documentation
-    {
-    }
-
-    public class DocumentationSortingAttribute
-    {
-        public 0x65946EF0 <Category>k__BackingField; // 0x10
-
-        // ── Methods ──
-        public void get_Category(){} // RVA: 0x32A5C0
-        public void set_Category(){} // RVA: 0x2E00C0
-        public void .ctor(){} // RVA: 0x2E00C0
-    }
-
-    public class GroupWeightManipulator
+    public class CinemachineComponentBase[] : Array
     {
         // ── Methods ──
-        public void Start(){} // RVA: 0x1D2E9F0
-        public void OnValidate(){} // RVA: 0x1D2EA80
-        public void Update(){} // RVA: 0x1D2EAF0
-        public void UpdateWeights(){} // RVA: 0x1D2ECC0
-        public void .ctor(){} // RVA: 0x1D2EDB0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class CinemachineComposer : CinemachineComponentBase
+    {
+        // ── Methods ──
+        public void get_IsValid(){} // RVA: 0x7A9AFF630
+        public void get_Stage(){} // RVA: 0x7A81CA9D0
+        public void get_TrackedPoint(){} // RVA: 0x7A9AFF760
+        public void set_TrackedPoint(){} // RVA: 0x7A9AFF780
+        public void GetLookAtPointAndSetTrackedPoint(){} // RVA: 0x7A9AFF790
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9AFFC60
+        public void ForceCameraPosition(){} // RVA: 0x7A9AFFE60
+        public void GetMaxDampTime(){} // RVA: 0x7A9AFFE80
+        public void PrePipelineMutateCameraState(){} // RVA: 0x7A9AFFE90
+        public void MutateCameraState(){} // RVA: 0x7A9AFFFD0
+        public void get_SoftGuideRect(){} // RVA: 0x7A9B00D70
+        public void set_SoftGuideRect(){} // RVA: 0x7A9B00DC0
+        public void get_HardGuideRect(){} // RVA: 0x7A9B00E80
+        public void set_HardGuideRect(){} // RVA: 0x7A9B00F00
+        public void RotateToScreenBounds(){} // RVA: 0x7A9B00F70
+        public void ClampVerticalBounds(){} // RVA: 0x7A9B01250
+        public void .ctor(){} // RVA: 0x7A9B01550
+    }
+
+    public class CinemachineConfiner : CinemachineExtension
+    {
+        // ── Methods ──
+        public void CameraWasDisplaced(){} // RVA: 0x7A9ADD910
+        public void GetCameraDisplacementDistance(){} // RVA: 0x7A9ADD980
+        public void OnValidate(){} // RVA: 0x7A9ADD9E0
+        public void ConnectToVcam(){} // RVA: 0x7A9ADD9F0
+        public void get_IsValid(){} // RVA: 0x7A9ADDA00
+        public void GetMaxDampTime(){} // RVA: 0x7A861F990
+        public void PostPipelineStageCallback(){} // RVA: 0x7A9ADDC90
+        public void InvalidatePathCache(){} // RVA: 0x7A9ADDF70
+        public void ValidatePathCache(){} // RVA: 0x7A9ADE020
+        public void ConfinePoint(){} // RVA: 0x7A9ADE990
+        public void ConfineScreenEdges(){} // RVA: 0x7A9ADEFE0
+        public void .ctor(){} // RVA: 0x7A9ADF810
+    }
+
+    public class CinemachineConfiner2D : CinemachineExtension
+    {
+        // ── Methods ──
+        public void InvalidateCache(){} // RVA: 0x7A9ADF860
+        public void ValidateCache(){} // RVA: 0x7A9ADF870
+        public void PostPipelineStageCallback(){} // RVA: 0x7A9ADF8C0
+        public void CalculateHalfFrustumHeight(){} // RVA: 0x7A9AE00F0
+        public void OnValidate(){} // RVA: 0x7A9AE01A0
+        public void Reset(){} // RVA: 0x7A9AE01C0
+        public void .ctor(){} // RVA: 0x7A9AE01D0
+    }
+
+    public class CinemachineCore : Object
+    {
+        // ── Methods ──
+        public void get_Instance(){} // RVA: 0x7A9B1D030
+        public void get_DeltaTime(){} // RVA: 0x7A9B1D160
+        public void get_CurrentTime(){} // RVA: 0x7A9B1D220
+        public void get_BrainCount(){} // RVA: 0x7A9B1D2E0
+        public void GetActiveBrain(){} // RVA: 0x7A9B1D330
+        public void AddActiveBrain(){} // RVA: 0x7A9B1D3B0
+        public void RemoveActiveBrain(){} // RVA: 0x7A9B1D450
+        public void get_VirtualCameraCount(){} // RVA: 0x7A9B1D4B0
+        public void GetVirtualCamera(){} // RVA: 0x7A9B1D500
+        public void AddActiveCamera(){} // RVA: 0x7A9B1D6C0
+        public void RemoveActiveCamera(){} // RVA: 0x7A9B1D730
+        public void CameraDestroyed(){} // RVA: 0x7A9B1D7B0
+        public void CameraEnabled(){} // RVA: 0x7A9B1D8A0
+        public void CameraDisabled(){} // RVA: 0x7A9B1DB00
+        public void UpdateAllActiveVirtualCameras(){} // RVA: 0x7A9B1DD40
+        public void UpdateVirtualCamera(){} // RVA: 0x7A9B1E4A0
+        public void InitializeModule(){} // RVA: 0x7A9B1E990
+        public void GetUpdateTarget(){} // RVA: 0x7A9B1EA90
+        public void GetVcamUpdateStatus(){} // RVA: 0x7A9B1EDB0
+        public void IsLive(){} // RVA: 0x7A9B1EE40
+        public void IsLiveInBlend(){} // RVA: 0x7A9B1EFA0
+        public void GenerateCameraActivationEvent(){} // RVA: 0x7A9B1F100
+        public void GenerateCameraCutEvent(){} // RVA: 0x7A9B1F2F0
+        public void FindPotentialTargetBrain(){} // RVA: 0x7A9B1F550
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9B1FA20
+        public void .ctor(){} // RVA: 0x7A9B1FAF0
+        public void .cctor(){} // RVA: 0x7A9B1FCE0
+        public void kStreamingVersion(){} // RVA: 0x7B41F0F98
+    }
+
+    public class CinemachineDollyCart : MonoBehaviour
+    {
+        // ── Methods ──
+        public void FixedUpdate(){} // RVA: 0x7A9AE14F0
+        public void Update(){} // RVA: 0x7A9AE1580
+        public void LateUpdate(){} // RVA: 0x7A9AE1690
+        public void SetCartPosition(){} // RVA: 0x7A9AE17B0
+        public void .ctor(){} // RVA: 0x7A9AE19C0
+    }
+
+    public class CinemachineEmbeddedAssetPropertyAttribute : PropertyAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A81A2210
+    }
+
+    public class CinemachineExtension : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_VirtualCamera(){} // RVA: 0x7A9B20480
+        public void Awake(){} // RVA: 0x7A9B205C0
+        public void OnEnable(){} // RVA: 0x7A80D7310
+        public void OnDestroy(){} // RVA: 0x7A9B205E0
+        public void EnsureStarted(){} // RVA: 0x7A9B205C0
+        public void ConnectToVcam(){} // RVA: 0x7A9B20600
+        public void PrePipelineMutateCameraStateCallback(){} // RVA: 0x7A80D7310
+        public void InvokePostPipelineStageCallback(){} // RVA: 0x7A9B20880
+        public void PostPipelineStageCallback(){} // RVA: 0x7A7E1E270
+        public void OnTargetObjectWarped(){} // RVA: 0x7A80D7310
+        public void ForceCameraPosition(){} // RVA: 0x7A80D7310
+        public void OnTransitionFromCamera(){} // RVA: 0x7A80D7320
+        public void GetMaxDampTime(){} // RVA: 0x7A889BC60
+        public void get_RequiresUserInput(){} // RVA: 0x7A80D7320
+        public void GetExtraState(){} // RVA: 0x7A8051B10
+        public void GetAllExtraStates(){} // RVA: 0x7A7E00680
+        public void .ctor(){} // RVA: 0x7A80D7D60
+        public void Epsilon(){} // RVA: 0x7A8051B10
+    }
+
+    public class CinemachineExtension[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class CinemachineExternalCamera : CinemachineVirtualCameraBase
+    {
+        // ── Methods ──
+        public void get_State(){} // RVA: 0x7A9AE1A10
+        public void get_LookAt(){} // RVA: 0x7A87D9480
+        public void set_LookAt(){} // RVA: 0x7A8881790
+        public void get_Follow(){} // RVA: 0x7A8B76160
+        public void set_Follow(){} // RVA: 0x7A8B592F0
+        public void InternalUpdateCameraState(){} // RVA: 0x7A9AE1AB0
+        public void .ctor(){} // RVA: 0x7A9AE26D0
+    }
+
+    public class CinemachineFixedSignal : SignalSourceAsset
+    {
+        // ── Methods ──
+        public void get_SignalDuration(){} // RVA: 0x7A9B32C10
+        public void AxisDuration(){} // RVA: 0x7A9B32C70
+        public void GetSignal(){} // RVA: 0x7A9B32D70
+        public void AxisValue(){} // RVA: 0x7A9B32F50
+        public void .ctor(){} // RVA: 0x7A82F4A40
+    }
+
+    public class CinemachineFollowZoom : CinemachineExtension
+    {
+        // ── Methods ──
+        public void OnValidate(){} // RVA: 0x7A9AE28A0
+        public void GetMaxDampTime(){} // RVA: 0x7A81A2250
+        public void PostPipelineStageCallback(){} // RVA: 0x7A9AE2900
+        public void .ctor(){} // RVA: 0x7A9AE2CF0
+    }
+
+    public class CinemachineFramingTransposer : CinemachineComponentBase
+    {
+        // ── Methods ──
+        public void get_SoftGuideRect(){} // RVA: 0x7A9B02420
+        public void set_SoftGuideRect(){} // RVA: 0x7A9B02470
+        public void get_HardGuideRect(){} // RVA: 0x7A9B02530
+        public void set_HardGuideRect(){} // RVA: 0x7A9B025B0
+        public void OnValidate(){} // RVA: 0x7A9B02620
+        public void get_IsValid(){} // RVA: 0x7A9B02710
+        public void get_Stage(){} // RVA: 0x7A82D1450
+        public void get_BodyAppliesAfterAim(){} // RVA: 0x7A81BD750
+        public void get_TrackedPoint(){} // RVA: 0x7A9B02840
+        public void set_TrackedPoint(){} // RVA: 0x7A9B02860
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9B02880
+        public void ForceCameraPosition(){} // RVA: 0x7A9B02A40
+        public void GetMaxDampTime(){} // RVA: 0x7A9B02A70
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9B02A90
+        public void ScreenToOrtho(){} // RVA: 0x7A9B02CC0
+        public void OrthoOffsetToScreenBounds(){} // RVA: 0x7A9B02D90
+        public void get_LastBounds(){} // RVA: 0x7A9B02EA0
+        public void set_LastBounds(){} // RVA: 0x7A9B02EC0
+        public void get_LastBoundsMatrix(){} // RVA: 0x7A9B02EE0
+        public void set_LastBoundsMatrix(){} // RVA: 0x7A9B02F10
+        public void MutateCameraState(){} // RVA: 0x7A9B02F40
+        public void GetTargetHeight(){} // RVA: 0x7A9B04AC0
+        public void ComputeGroupBounds(){} // RVA: 0x7A9B04CC0
+        public void GetScreenSpaceGroupBoundingBox(){} // RVA: 0x7A9B054C0
+        public void .ctor(){} // RVA: 0x7A9B05CD0
+    }
+
+    public class CinemachineFreeLook : CinemachineVirtualCameraBase
+    {
+        // ── Methods ──
+        public void OnValidate(){} // RVA: 0x7A9AE2D50
+        public void GetRig(){} // RVA: 0x7A9AE3030
+        public void get_RigsAreCreated(){} // RVA: 0x7A9AE3090
+        public void get_RigNames(){} // RVA: 0x7A9AE30B0
+        public void OnEnable(){} // RVA: 0x7A9AE3170
+        public void UpdateInputAxisProvider(){} // RVA: 0x7A9AE3390
+        public void OnDestroy(){} // RVA: 0x7A9AE3550
+        public void OnTransformChildrenChanged(){} // RVA: 0x7A9AE3770
+        public void Reset(){} // RVA: 0x7A9AE37D0
+        public void get_PreviousStateIsValid(){} // RVA: 0x7A8359360
+        public void set_PreviousStateIsValid(){} // RVA: 0x7A9AE37F0
+        public void get_State(){} // RVA: 0x7A9AE3970
+        public void get_LookAt(){} // RVA: 0x7A9ACC670
+        public void set_LookAt(){} // RVA: 0x7A8881790
+        public void get_Follow(){} // RVA: 0x7A9ACC680
+        public void set_Follow(){} // RVA: 0x7A8142620
+        public void IsLiveChild(){} // RVA: 0x7A9AE3A10
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9AE3B20
+        public void ForceCameraPosition(){} // RVA: 0x7A9AE3C10
+        public void InternalUpdateCameraState(){} // RVA: 0x7A9AE3E80
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9AE49E0
+        public void RequiresUserInput(){} // RVA: 0x7A81BD750
+        public void GetYAxisClosestValue(){} // RVA: 0x7A9AE4F00
+        public void SteepestDescent(){} // RVA: 0x7A9AE5670
+        public void InvalidateRigCache(){} // RVA: 0x7A9AE3770
+        public void DestroyRigs(){} // RVA: 0x7A9AE58C0
+        public void CreateRigs(){} // RVA: 0x7A9AE6020
+        public void UpdateRigCache(){} // RVA: 0x7A9AE6C30
+        public void LocateExistingRigs(){} // RVA: 0x7A9AE71E0
+        public void UpdateXAxisHeading(){} // RVA: 0x7A9AE78C0
+        public void PushSettingsToRigs(){} // RVA: 0x7A9AE7B50
+        public void GetYAxisValue(){} // RVA: 0x7A9AE82C0
+        public void CalculateNewState(){} // RVA: 0x7A9AE82F0
+        public void GetLocalPositionForCameraFromInput(){} // RVA: 0x7A9AE85A0
+        public void UpdateCachedSpline(){} // RVA: 0x7A9AE8890
+        public void OnBeforeSerialize(){} // RVA: 0x7A9AE8F20
+        public void .ctor(){} // RVA: 0x7A9AE9000
+        public void <SteepestDescent>g__AngleFunction|47_0(){} // RVA: 0x7A9AE96D0
+        public void <SteepestDescent>g__SlopeOfAngleFunction|47_1(){} // RVA: 0x7A9AE97A0
+        public void <SteepestDescent>g__InitialGuess|47_2(){} // RVA: 0x7A9AE9810
+        public void <SteepestDescent>g__ChooseBestAngle|47_3(){} // RVA: 0x7A9AE9920
+    }
+
+    public class CinemachineGroupComposer : CinemachineComposer
+    {
+        // ── Methods ──
+        public void OnValidate(){} // RVA: 0x7A9B05E80
+        public void get_LastBounds(){} // RVA: 0x7A9B05F50
+        public void set_LastBounds(){} // RVA: 0x7A9B05F70
+        public void get_LastBoundsMatrix(){} // RVA: 0x7A9B05F90
+        public void set_LastBoundsMatrix(){} // RVA: 0x7A9B05FC0
+        public void GetMaxDampTime(){} // RVA: 0x7A9B05FF0
+        public void MutateCameraState(){} // RVA: 0x7A9B06010
+        public void GetTargetHeight(){} // RVA: 0x7A9B07170
+        public void GetScreenSpaceGroupBoundingBox(){} // RVA: 0x7A9B073B0
+        public void .ctor(){} // RVA: 0x7A9B07930
+    }
+
+    public class CinemachineHardLockToTarget : CinemachineComponentBase
+    {
+        // ── Methods ──
+        public void get_IsValid(){} // RVA: 0x7A9B079B0
+        public void get_Stage(){} // RVA: 0x7A82D1450
+        public void GetMaxDampTime(){} // RVA: 0x7A81B7060
+        public void MutateCameraState(){} // RVA: 0x7A9B07AE0
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class CinemachineHardLookAt : CinemachineComponentBase
+    {
+        // ── Methods ──
+        public void get_IsValid(){} // RVA: 0x7A9B07CB0
+        public void get_Stage(){} // RVA: 0x7A81CA9D0
+        public void MutateCameraState(){} // RVA: 0x7A9B07DE0
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class CinemachineImpulseChannelPropertyAttribute : PropertyAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+    }
+
+    public class CinemachineImpulseDefinition : Object
+    {
+        // ── Methods ──
+        public void OnValidate(){} // RVA: 0x7A9B32FD0
+        public void CreateStandardShapes(){} // RVA: 0x7A9B330C0
+        public void GetStandardCurve(){} // RVA: 0x7A9B33CA0
+        public void get_ImpulseCurve(){} // RVA: 0x7A9B33D20
+        public void CreateEvent(){} // RVA: 0x7A9B33E30
+        public void CreateAndReturnEvent(){} // RVA: 0x7A9B33E70
+        public void LegacyCreateAndReturnEvent(){} // RVA: 0x7A9B340D0
+        public void .ctor(){} // RVA: 0x7A9B344C0
+        // ── Unresolved (hash) ──
+        public void m_ImpulseChannel(){} // RVA: 0x7B3FA7CD8
+    }
+
+    public class CinemachineImpulseDefinitionPropertyAttribute : PropertyAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+    }
+
+    public class CinemachineImpulseEnvelopePropertyAttribute : PropertyAttribute
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+    }
+
+    public class CinemachineImpulseListener : CinemachineExtension
+    {
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x7A9B34ED0
+        public void PostPipelineStageCallback(){} // RVA: 0x7A9B34F90
+        public void .ctor(){} // RVA: 0x7A9B35570
+    }
+
+    public class CinemachineImpulseManager : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_Instance(){} // RVA: 0x7A9B35C80
+        public void InitializeModule(){} // RVA: 0x7A9B35D40
+        public void EvaluateDissipationScale(){} // RVA: 0x7A9B35E90
+        public void GetImpulseAt(){} // RVA: 0x7A9B35F90
+        public void get_CurrentTime(){} // RVA: 0x7A9B364B0
+        public void NewImpulseEvent(){} // RVA: 0x7A9B36550
+        public void AddImpulseEvent(){} // RVA: 0x7A9B36650
+        public void Clear(){} // RVA: 0x7A9B36750
+        public void sInstance(){} // RVA: 0x7B3F87F28
+    }
+
+    public class CinemachineImpulseSource : MonoBehaviour
+    {
+        // ── Methods ──
+        public void OnValidate(){} // RVA: 0x7A9B375F0
+        public void Reset(){} // RVA: 0x7A9B37700
+        public void GenerateImpulseAtPositionWithVelocity(){} // RVA: 0x7A9B378F0
+        public void GenerateImpulseWithVelocity(){} // RVA: 0x7A9B37940
+        public void GenerateImpulseWithForce(){} // RVA: 0x7A9B37A60
+        public void GenerateImpulse(){} // RVA: 0x7A9B37A60
+        public void GenerateImpulseAt(){} // RVA: 0x7A9B378F0
+        public void .ctor(){} // RVA: 0x7A9B37C00
+    }
+
+    public class CinemachineIndependentImpulseListener : MonoBehaviour
+    {
+        // ── Methods ──
+        public void Reset(){} // RVA: 0x7A9B37D20
+        public void OnEnable(){} // RVA: 0x7A9B37DD0
+        public void Update(){} // RVA: 0x7A9B37E60
+        public void LateUpdate(){} // RVA: 0x7A9B382C0
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class CinemachineInputAxisDriver : ValueType
+    {
+        // ── Methods ──
+        public void Validate(){} // RVA: 0x7A7672BF0
+        public void Update(){} // RVA: 0x7A7673C70
+        public void ClampValue(){} // RVA: 0x7A7673CF0
+        public void multiplier(){} // RVA: 0x7B3F8D6A8
+    }
+
+    public class CinemachineInputProvider : MonoBehaviour
+    {
+        // ── Methods ──
+        public void GetAxisValue(){} // RVA: 0x7A9B2EF60
+        public void ResolveForPlayer(){} // RVA: 0x7A9B2F0A0
+        public void OnDisable(){} // RVA: 0x7A8EC2FD0
+        public void .ctor(){} // RVA: 0x7A9B2F9A0
+        public void <ResolveForPlayer>g__GetFirstMatch|7_0(){} // RVA: 0x7A9B2F9F0
+    }
+
+    public class CinemachineMixingCamera : CinemachineVirtualCameraBase
+    {
+        // ── Methods ──
+        public void GetWeight(){} // RVA: 0x7A9AE9DE0
+        public void SetWeight(){} // RVA: 0x7A9AEA120
+        public void get_LiveChild(){} // RVA: 0x7A8B69B70
+        public void set_LiveChild(){} // RVA: 0x7A8B4DC50
+        public void get_State(){} // RVA: 0x7A9AEA3F0
+        public void get_LookAt(){} // RVA: 0x7A8B772D0
+        public void set_LookAt(){} // RVA: 0x7A8B58850
+        public void get_Follow(){} // RVA: 0x7A8815B70
+        public void set_Follow(){} // RVA: 0x7A8B58420
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9AEA490
+        public void ForceCameraPosition(){} // RVA: 0x7A9AEA570
+        public void OnEnable(){} // RVA: 0x7A9AEA670
+        public void OnTransformChildrenChanged(){} // RVA: 0x7A9AEA690
+        public void OnValidate(){} // RVA: 0x7A9AEA6A0
+        public void IsLiveChild(){} // RVA: 0x7A9AEA750
+        public void get_ChildCameras(){} // RVA: 0x7A9AEA810
+        public void InvalidateListOfChildren(){} // RVA: 0x7A9AEA830
+        public void ValidateListOfChildren(){} // RVA: 0x7A9AEA950
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9AEAE00
+        public void InternalUpdateCameraState(){} // RVA: 0x7A9AEAF60
+        public void .ctor(){} // RVA: 0x7A9AEB660
+    }
+
+    public class CinemachineOrbitalTransposer : CinemachineTransposer
+    {
+        // ── Methods ──
+        public void OnValidate(){} // RVA: 0x7A9B081A0
+        public void UpdateHeading(){} // RVA: 0x7A9B083D0
+        public void OnEnable(){} // RVA: 0x7A9B08570
+        public void UpdateInputAxisProvider(){} // RVA: 0x7A9B08790
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9B08900
+        public void ForceCameraPosition(){} // RVA: 0x7A9B08C00
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9B08D60
+        public void GetAxisClosestValue(){} // RVA: 0x7A9B08FA0
+        public void MutateCameraState(){} // RVA: 0x7A9B09700
+        public void GetTargetCameraPosition(){} // RVA: 0x7A9B0A690
+        public void get_RequiresUserInput(){} // RVA: 0x7A81BD750
+        public void GetTargetHeading(){} // RVA: 0x7A9B0AAF0
+        public void .ctor(){} // RVA: 0x7A9B0B460
+    }
+
+    public class CinemachineOrbitalTransposer[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class CinemachinePOV : CinemachineComponentBase
+    {
+        // ── Methods ──
+        public void get_IsValid(){} // RVA: 0x7A813E380
+        public void get_Stage(){} // RVA: 0x7A81CA9D0
+        public void OnValidate(){} // RVA: 0x7A9B0BC20
+        public void OnEnable(){} // RVA: 0x7A9B0BD30
+        public void UpdateInputAxisProvider(){} // RVA: 0x7A9B0BD40
+        public void PrePipelineMutateCameraState(){} // RVA: 0x7A80D7310
+        public void MutateCameraState(){} // RVA: 0x7A9B0C010
+        public void GetRecenterTarget(){} // RVA: 0x7A9B0C7C0
+        public void NormalizeAngle(){} // RVA: 0x7A9B0CC70
+        public void ForceCameraPosition(){} // RVA: 0x7A9B0CCA0
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9B0CCC0
+        public void get_RequiresUserInput(){} // RVA: 0x7A81BD750
+        public void SetAxesForRotation(){} // RVA: 0x7A9B0CF30
+        public void .ctor(){} // RVA: 0x7A9B0DA00
+    }
+
+    public class CinemachinePath : CinemachinePathBase
+    {
+        // ── Methods ──
+        public void get_MinPos(){} // RVA: 0x7A889BC60
+        public void get_MaxPos(){} // RVA: 0x7A9AEB880
+        public void get_Looped(){} // RVA: 0x7A8192400
+        public void Reset(){} // RVA: 0x7A9AEB8C0
+        public void OnValidate(){} // RVA: 0x7A9AEBA80
+        public void get_DistanceCacheSampleStepsPerSegment(){} // RVA: 0x7A851DB90
+        public void GetBoundingIndices(){} // RVA: 0x7A9AEBAA0
+        public void EvaluateLocalPosition(){} // RVA: 0x7A9AEBB90
+        public void EvaluateLocalTangent(){} // RVA: 0x7A9AEBEB0
+        public void EvaluateLocalOrientation(){} // RVA: 0x7A9AEC110
+        public void GetRoll(){} // RVA: 0x7A9AEC520
+        public void RollAroundForward(){} // RVA: 0x7A9AEC650
+        public void .ctor(){} // RVA: 0x7A9AEC6A0
+    }
+
+    public class CinemachinePathBase : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_MinPos(){} // RVA: 0x7A7E155B0
+        public void get_MaxPos(){} // RVA: 0x7A7E155B0
+        public void get_Looped(){} // RVA: 0x7A7E01900
+        public void StandardizePos(){} // RVA: 0x7A9B20D10
+        public void EvaluatePosition(){} // RVA: 0x7A9B20E00
+        public void EvaluateTangent(){} // RVA: 0x7A9B20F20
+        public void EvaluateOrientation(){} // RVA: 0x7A9B21040
+        public void EvaluateLocalPosition(){} // RVA: 0x7A7E008E0
+        public void EvaluateLocalTangent(){} // RVA: 0x7A7E008E0
+        public void EvaluateLocalOrientation(){} // RVA: 0x7A7E008E0
+        public void FindClosestPoint(){} // RVA: 0x7A9B212B0
+        public void MinUnit(){} // RVA: 0x7A9B21700
+        public void MaxUnit(){} // RVA: 0x7A9B21730
+        public void StandardizeUnit(){} // RVA: 0x7A9B21760
+        public void EvaluatePositionAtUnit(){} // RVA: 0x7A9B21810
+        public void EvaluateTangentAtUnit(){} // RVA: 0x7A9B21870
+        public void EvaluateOrientationAtUnit(){} // RVA: 0x7A9B218D0
+        public void get_DistanceCacheSampleStepsPerSegment(){} // RVA: 0x7A7E00710
+        public void InvalidateDistanceCache(){} // RVA: 0x7A9B21930
+        public void DistanceCacheIsValid(){} // RVA: 0x7A9B219E0
+        public void get_PathLength(){} // RVA: 0x7A9B21A80
+        public void StandardizePathDistance(){} // RVA: 0x7A9B21AF0
+        public void ToNativePathUnits(){} // RVA: 0x7A9B21BB0
+        public void FromPathNativeUnits(){} // RVA: 0x7A9B21D30
+        public void ResamplePath(){} // RVA: 0x7A9B21E50
+        public void .ctor(){} // RVA: 0x7A9B22340
+    }
+
+    public class CinemachinePipeline : MonoBehaviour
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class CinemachinePixelPerfect : MonoBehaviour
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7D60
+    }
+
+    public class CinemachineSameAsFollowTarget : CinemachineComponentBase
+    {
+        // ── Methods ──
+        public void get_IsValid(){} // RVA: 0x7A9B0DD60
+        public void get_Stage(){} // RVA: 0x7A81CA9D0
+        public void GetMaxDampTime(){} // RVA: 0x7A81B7060
+        public void MutateCameraState(){} // RVA: 0x7A9B0DE90
+        public void .ctor(){} // RVA: 0x7A9B0E1C0
+    }
+
+    public class CinemachineSmoothPath : CinemachinePathBase
+    {
+        // ── Methods ──
+        public void get_MinPos(){} // RVA: 0x7A889BC60
+        public void get_MaxPos(){} // RVA: 0x7A9AEB880
+        public void get_Looped(){} // RVA: 0x7A8192400
+        public void get_DistanceCacheSampleStepsPerSegment(){} // RVA: 0x7A851DB90
+        public void OnValidate(){} // RVA: 0x7A9AEBA80
+        public void Reset(){} // RVA: 0x7A9AEC840
+        public void InvalidateDistanceCache(){} // RVA: 0x7A9AEC9F0
+        public void UpdateControlPoints(){} // RVA: 0x7A9AECB40
+        public void GetBoundingIndices(){} // RVA: 0x7A9AECED0
+        public void EvaluateLocalPosition(){} // RVA: 0x7A9AECFB0
+        public void EvaluateLocalTangent(){} // RVA: 0x7A9AED330
+        public void EvaluateLocalOrientation(){} // RVA: 0x7A9AED600
+        public void RollAroundForward(){} // RVA: 0x7A9AEC650
+        public void .ctor(){} // RVA: 0x7A9AEDAF0
+    }
+
+    public class CinemachineStateDrivenCamera : CinemachineVirtualCameraBase
+    {
+        // ── Methods ──
+        public void get_Description(){} // RVA: 0x7A9AEDC20
+        public void get_LiveChild(){} // RVA: 0x7A8592710
+        public void set_LiveChild(){} // RVA: 0x7A84442D0
+        public void IsLiveChild(){} // RVA: 0x7A9AEDD60
+        public void get_State(){} // RVA: 0x7A9AEDD90
+        public void get_LookAt(){} // RVA: 0x7A9ACC670
+        public void set_LookAt(){} // RVA: 0x7A8881790
+        public void get_Follow(){} // RVA: 0x7A9ACC680
+        public void set_Follow(){} // RVA: 0x7A8142620
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9AEDE30
+        public void ForceCameraPosition(){} // RVA: 0x7A9AEDF10
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9AEE010
+        public void InternalUpdateCameraState(){} // RVA: 0x7A9AEE120
+        public void OnEnable(){} // RVA: 0x7A9AEEA10
+        public void OnDisable(){} // RVA: 0x7A9AEED30
+        public void OnTransformChildrenChanged(){} // RVA: 0x7A9AEEEB0
+        public void OnGuiHandler(){} // RVA: 0x7A9AEEEC0
+        public void get_ChildCameras(){} // RVA: 0x7A9AEF030
+        public void get_IsBlending(){} // RVA: 0x7A9AEF050
+        public void get_ActiveBlend(){} // RVA: 0x7A8B54430
+        public void CreateFakeHash(){} // RVA: 0x7A9AEF060
+        public void LookupFakeHash(){} // RVA: 0x7A9AEF120
+        public void InvalidateListOfChildren(){} // RVA: 0x7A9AEF4D0
+        public void UpdateListOfChildren(){} // RVA: 0x7A9AEF590
+        public void ValidateInstructions(){} // RVA: 0x7A9AEF940
+        public void ChooseCurrentCamera(){} // RVA: 0x7A9AEFF90
+        public void GetClipHash(){} // RVA: 0x7A9AF0820
+        public void LookupBlend(){} // RVA: 0x7A9AF09B0
+        public void .ctor(){} // RVA: 0x7A9AF0C20
+    }
+
+    public class CinemachineStoryboard : CinemachineExtension
+    {
+        // ── Methods ──
+        public void PostPipelineStageCallback(){} // RVA: 0x7A9AF0F60
+        public void UpdateRenderCanvas(){} // RVA: 0x7A9AF1180
+        public void ConnectToVcam(){} // RVA: 0x7A9AF13E0
+        public void get_CanvasName(){} // RVA: 0x7A9AF15B0
+        public void CameraUpdatedCallback(){} // RVA: 0x7A9AF16E0
+        public void LocateMyCanvas(){} // RVA: 0x7A9AF1A80
+        public void CreateCanvas(){} // RVA: 0x7A9AF23A0
+        public void DestroyCanvas(){} // RVA: 0x7A9AF2ED0
+        public void PlaceImage(){} // RVA: 0x7A9AF3250
+        public void StaticBlendingHandler(){} // RVA: 0x7A9AF3E80
+        public void InitializeModule(){} // RVA: 0x7A9AF4270
+        public void .ctor(){} // RVA: 0x7A9AF43E0
+    }
+
+    public class CinemachineTargetGroup : MonoBehaviour
+    {
+        // ── Methods ──
+        public void OnValidate(){} // RVA: 0x7A9AF45B0
+        public void Reset(){} // RVA: 0x7A9AF4640
+        public void get_Transform(){} // RVA: 0x7A864E8E0
+        public void get_BoundingBox(){} // RVA: 0x7A9AF46D0
+        public void set_BoundingBox(){} // RVA: 0x7A9AF4760
+        public void get_Sphere(){} // RVA: 0x7A9AF4780
+        public void set_Sphere(){} // RVA: 0x7A81E8E10
+        public void get_IsEmpty(){} // RVA: 0x7A9AF4800
+        public void AddMember(){} // RVA: 0x7A9AF48A0
+        public void RemoveMember(){} // RVA: 0x7A9AF4B90
+        public void FindMember(){} // RVA: 0x7A9AF4D60
+        public void GetWeightedBoundsForMember(){} // RVA: 0x7A9AF4F00
+        public void GetViewSpaceBoundingBox(){} // RVA: 0x7A9AF50E0
+        public void get_CachedCountIsValid(){} // RVA: 0x7A9AF58B0
+        public void IndexIsValid(){} // RVA: 0x7A9AF5920
+        public void WeightedMemberBoundsForValidMember(){} // RVA: 0x7A9AF5940
+        public void DoUpdate(){} // RVA: 0x7A9AF5B00
+        public void UpdateMemberValidity(){} // RVA: 0x7A9AF5E50
+        public void CalculateAveragePosition(){} // RVA: 0x7A9AF61D0
+        public void CalculateBoundingBox(){} // RVA: 0x7A9AF6490
+        public void CalculateBoundingSphere(){} // RVA: 0x7A9AF6A30
+        public void CalculateAverageOrientation(){} // RVA: 0x7A9AF6E60
+        public void FixedUpdate(){} // RVA: 0x7A9AF7660
+        public void Update(){} // RVA: 0x7A9AF7670
+        public void LateUpdate(){} // RVA: 0x7A9AF7710
+        public void GetViewSpaceAngularBounds(){} // RVA: 0x7A9AF7720
+        public void .ctor(){} // RVA: 0x7A9AF84B0
+    }
+
+    public class CinemachineTrackedDolly : CinemachineComponentBase
+    {
+        // ── Methods ──
+        public void get_IsValid(){} // RVA: 0x7A9B0E240
+        public void get_Stage(){} // RVA: 0x7A82D1450
+        public void GetMaxDampTime(){} // RVA: 0x7A9B0E360
+        public void MutateCameraState(){} // RVA: 0x7A9B0E410
+        public void GetCameraOrientationAtPathPoint(){} // RVA: 0x7A9B0F660
+        public void get_AngularDamping(){} // RVA: 0x7A9B0FD40
+        public void .ctor(){} // RVA: 0x7A9B0FDF0
+    }
+
+    public class CinemachineTransposer : CinemachineComponentBase
+    {
+        // ── Methods ──
+        public void OnValidate(){} // RVA: 0x7A9B0FF50
+        public void get_HideOffsetInInspector(){} // RVA: 0x7A8359360
+        public void set_HideOffsetInInspector(){} // RVA: 0x7A8A21900
+        public void get_EffectiveOffset(){} // RVA: 0x7A9B0FFA0
+        public void get_IsValid(){} // RVA: 0x7A9B0FFE0
+        public void get_Stage(){} // RVA: 0x7A82D1450
+        public void GetMaxDampTime(){} // RVA: 0x7A9B10110
+        public void MutateCameraState(){} // RVA: 0x7A9B101A0
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9B10860
+        public void ForceCameraPosition(){} // RVA: 0x7A9B109D0
+        public void InitPrevFrameStateInfo(){} // RVA: 0x7A9B10D20
+        public void TrackTarget(){} // RVA: 0x7A9B10F80
+        public void GetOffsetForMinimumTargetDistance(){} // RVA: 0x7A9B120A0
+        public void get_Damping(){} // RVA: 0x7A9B12640
+        public void get_AngularDamping(){} // RVA: 0x7A9B12680
+        public void GetTargetCameraPosition(){} // RVA: 0x7A9B12760
+        public void GetReferenceOrientation(){} // RVA: 0x7A9B12A60
+        public void .ctor(){} // RVA: 0x7A9B130E0
+    }
+
+    public class CinemachineTriggerAction : MonoBehaviour
+    {
+        // ── Methods ──
+        public void Filter(){} // RVA: 0x7A9B2FE70
+        public void InternalDoTriggerEnter(){} // RVA: 0x7A9B2FF90
+        public void InternalDoTriggerExit(){} // RVA: 0x7A9B30120
+        public void OnTriggerEnter(){} // RVA: 0x7A9B30200
+        public void OnTriggerExit(){} // RVA: 0x7A9B30280
+        public void OnCollisionEnter(){} // RVA: 0x7A9B30300
+        public void OnCollisionExit(){} // RVA: 0x7A9B30340
+        public void OnTriggerEnter2D(){} // RVA: 0x7A9B30200
+        public void OnTriggerExit2D(){} // RVA: 0x7A9B30280
+        public void OnCollisionEnter2D(){} // RVA: 0x7A9B30380
+        public void OnCollisionExit2D(){} // RVA: 0x7A9B303C0
+        public void OnEnable(){} // RVA: 0x7A80D7310
+        public void .ctor(){} // RVA: 0x7A9B30400
+    }
+
+    public class CinemachineVirtualCamera : CinemachineVirtualCameraBase
+    {
+        // ── Methods ──
+        public void get_State(){} // RVA: 0x7A9AEDD90
+        public void get_LookAt(){} // RVA: 0x7A9ACC670
+        public void set_LookAt(){} // RVA: 0x7A8881790
+        public void get_Follow(){} // RVA: 0x7A9ACC680
+        public void set_Follow(){} // RVA: 0x7A8142620
+        public void GetMaxDampTime(){} // RVA: 0x7A9AF86B0
+        public void InternalUpdateCameraState(){} // RVA: 0x7A9AF8840
+        public void OnEnable(){} // RVA: 0x7A9AF8D20
+        public void OnDestroy(){} // RVA: 0x7A9AF93C0
+        public void OnValidate(){} // RVA: 0x7A9AF9740
+        public void OnTransformChildrenChanged(){} // RVA: 0x7A9AF9810
+        public void Reset(){} // RVA: 0x7A9AF9870
+        public void DestroyPipeline(){} // RVA: 0x7A9AF9890
+        public void CreatePipeline(){} // RVA: 0x7A9AF9FB0
+        public void InvalidateComponentPipeline(){} // RVA: 0x7A9AF9810
+        public void GetComponentOwner(){} // RVA: 0x7A9AFA320
+        public void GetComponentPipeline(){} // RVA: 0x7A9AFA340
+        public void GetCinemachineComponent(){} // RVA: 0x7A8051B10
+        public void AddCinemachineComponent(){} // RVA: 0x7A8051B10
+        public void DestroyCinemachineComponent(){} // RVA: 0x7A7E18770
+        public void UpdateComponentPipeline(){} // RVA: 0x7A9AFA410
+        public void SetFlagsForHiddenChild(){} // RVA: 0x7A9AFAC60
+        public void CalculateNewState(){} // RVA: 0x7A9AFAE10
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9AFB8E0
+        public void ForceCameraPosition(){} // RVA: 0x7A9AFBC90
+        public void SetStateRawPosition(){} // RVA: 0x7A9AFBE60
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9AFBE80
+        public void RequiresUserInput(){} // RVA: 0x7A9AFC3A0
+        public void OnBeforeSerialize(){} // RVA: 0x7A9AFC660
+        public void .ctor(){} // RVA: 0x7A9AFC740
+    }
+
+    public class CinemachineVirtualCameraBase : MonoBehaviour
+    {
+        // ── Methods ──
+        public void get_ValidatingStreamVersion(){} // RVA: 0x7A9B22450
+        public void set_ValidatingStreamVersion(){} // RVA: 0x7A8133110
+        public void GetMaxDampTime(){} // RVA: 0x7A9B224C0
+        public void DetachedFollowTargetDamp(){} // RVA: 0x7A9B227D0
+        public void DetachedLookAtTargetDamp(){} // RVA: 0x7A9B22AA0
+        public void AddExtension(){} // RVA: 0x7A9B22B50
+        public void RemoveExtension(){} // RVA: 0x7A9B22CB0
+        public void get_mExtensions(){} // RVA: 0x7A8178B90
+        public void set_mExtensions(){} // RVA: 0x7A8230620
+        public void InvokePostPipelineStageCallback(){} // RVA: 0x7A9B22D10
+        public void InvokePrePipelineMutateCameraStateCallback(){} // RVA: 0x7A9B23020
+        public void InvokeOnTransitionInExtensions(){} // RVA: 0x7A9B23320
+        public void get_Name(){} // RVA: 0x7A8357950
+        public void get_Description(){} // RVA: 0x7A9B23550
+        public void get_Priority(){} // RVA: 0x7A864E8D0
+        public void set_Priority(){} // RVA: 0x7A9ABBD00
+        public void ApplyPositionBlendMethod(){} // RVA: 0x7A9B23590
+        public void get_VirtualCameraGameObject(){} // RVA: 0x7A9B235C0
+        public void get_IsValid(){} // RVA: 0x7A9B236D0
+        public void get_State(){} // RVA: 0x7A7E00490
+        public void get_ParentCamera(){} // RVA: 0x7A9B237A0
+        public void IsLiveChild(){} // RVA: 0x7A80D7320
+        public void get_LookAt(){} // RVA: 0x7A7E00680
+        public void set_LookAt(){} // RVA: 0x7A7E18800
+        public void get_Follow(){} // RVA: 0x7A7E00680
+        public void set_Follow(){} // RVA: 0x7A7E18800
+        public void get_PreviousStateIsValid(){} // RVA: 0x7A8359360
+        public void set_PreviousStateIsValid(){} // RVA: 0x7A8A21900
+        public void UpdateCameraState(){} // RVA: 0x7A9B23840
+        public void InternalUpdateCameraState(){} // RVA: 0x7A7E1DD40
+        public void OnTransitionFromCamera(){} // RVA: 0x7A9B238E0
+        public void OnDestroy(){} // RVA: 0x7A9B239B0
+        public void OnTransformParentChanged(){} // RVA: 0x7A9B23AE0
+        public void Start(){} // RVA: 0x7A828BB70
+        public void RequiresUserInput(){} // RVA: 0x7A9B23B80
+        public void EnsureStarted(){} // RVA: 0x7A9B23D00
+        public void GetInputAxisProvider(){} // RVA: 0x7A9B23DD0
+        public void OnValidate(){} // RVA: 0x7A9B23EA0
+        public void OnEnable(){} // RVA: 0x7A9B23F10
+        public void OnDisable(){} // RVA: 0x7A9B24290
+        public void Update(){} // RVA: 0x7A9B24300
+        public void UpdateSlaveStatus(){} // RVA: 0x7A9B24310
+        public void ResolveLookAt(){} // RVA: 0x7A9B244F0
+        public void ResolveFollow(){} // RVA: 0x7A9B24610
+        public void UpdateVcamPoolStatus(){} // RVA: 0x7A9B24730
+        public void MoveToTopOfPrioritySubqueue(){} // RVA: 0x7A9B24960
+        public void OnTargetObjectWarped(){} // RVA: 0x7A9B24970
+        public void ForceCameraPosition(){} // RVA: 0x7A9B24A80
+        public void GetInheritPosition(){} // RVA: 0x7A9B24BA0
+        public void CreateBlend(){} // RVA: 0x7A9B24CE0
+        public void PullStateFromVirtualCamera(){} // RVA: 0x7A9B25160
+        public void InvalidateCachedTargets(){} // RVA: 0x7A9B25490
+        public void get_FollowTargetChanged(){} // RVA: 0x7A9905F60
+        public void set_FollowTargetChanged(){} // RVA: 0x7A8935600
+        public void get_LookAtTargetChanged(){} // RVA: 0x7A9B256A0
+        public void set_LookAtTargetChanged(){} // RVA: 0x7A9B256B0
+        public void UpdateTargetCache(){} // RVA: 0x7A9B256C0
+        public void get_AbstractFollowTargetGroup(){} // RVA: 0x7A825E100
+        public void get_FollowTargetAsVcam(){} // RVA: 0x7A82C2060
+        public void get_AbstractLookAtTargetGroup(){} // RVA: 0x7A87D9C10
+        public void get_LookAtTargetAsVcam(){} // RVA: 0x7A8555100
+        public void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize(){} // RVA: 0x7A9B25D10
+        public void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize(){} // RVA: 0x7A9B25D30
+        public void LegacyUpgrade(){} // RVA: 0x7A80D7310
+        public void OnBeforeSerialize(){} // RVA: 0x7A80D7310
+        public void CancelDamping(){} // RVA: 0x7A9B25DE0
+        public void .ctor(){} // RVA: 0x7A9B26040
+    }
+
+    public class CinemachineVirtualCameraBase[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class CinemachineVirtualCamera[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class ConfinerOven : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A9B262E0
+        public void GetBakedSolution(){} // RVA: 0x7A9B26410
+        public void get_State(){} // RVA: 0x7A87A7DA0
+        public void set_State(){} // RVA: 0x7A87A7CF0
+        public void Initialize(){} // RVA: 0x7A9B26870
+        public void BakeConfiner(){} // RVA: 0x7A9B270C0
+        public void <Initialize>g__GetPolygonBoundingBox|24_0(){} // RVA: 0x7A9B27710
+        public void <Initialize>g__MidPointOfIntRect|24_1(){} // RVA: 0x7A9B278D0
+        public void <BakeConfiner>g__ComputeSkeleton|25_0(){} // RVA: 0x7A9B27900
+        // ── Unresolved (hash) ──
+        public void m_MinFrustumHeightWithBones(){} // RVA: 0x7B40D0D48
+    }
+
+    public class DocumentationSortingAttribute : Attribute
+    {
+        // ── Methods ──
+        public void get_Category(){} // RVA: 0x7A8124910
+        public void set_Category(){} // RVA: 0x7A80DA0C0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+    }
+
+    public class GroupWeightManipulator : MonoBehaviour
+    {
+        // ── Methods ──
+        public void Start(){} // RVA: 0x7A9B31310
+        public void OnValidate(){} // RVA: 0x7A9B313A0
+        public void Update(){} // RVA: 0x7A9B31410
+        public void UpdateWeights(){} // RVA: 0x7A9B315E0
+        public void .ctor(){} // RVA: 0x7A9B316D0
     }
 
     public class ICameraOverrideStack
     {
         // ── Methods ──
-        public void SetCameraOverride(){}
-        public void ReleaseCameraOverride(){} // RVA: 0x24FA0
-        public void get_DefaultWorldUp(){} // RVA: 0xC770
+        public void SetCameraOverride(){} // RVA: 0x7A7E08730
+        public void ReleaseCameraOverride(){} // RVA: 0x7A7E189D0
+        public void get_DefaultWorldUp(){} // RVA: 0x7A7E00490
     }
 
     public class ICinemachineCamera
     {
         // ── Methods ──
-        public void get_Name(){} // RVA: 0xCD60
-        public void get_Description(){} // RVA: 0xCD60
-        public void get_Priority(){} // RVA: 0xD840
-        public void set_Priority(){} // RVA: 0x24FA0
-        public void get_LookAt(){} // RVA: 0xCD60
-        public void set_LookAt(){} // RVA: 0x24B10
-        public void get_Follow(){} // RVA: 0xCD60
-        public void set_Follow(){} // RVA: 0x24B10
-        public void get_State(){}
-        public void get_VirtualCameraGameObject(){} // RVA: 0xCD60
-        public void get_IsValid(){} // RVA: 0xDBE0
-        public void get_ParentCamera(){} // RVA: 0xCD60
-        public void IsLiveChild(){}
-        public void UpdateCameraState(){}
-        public void InternalUpdateCameraState(){}
-        public void OnTransitionFromCamera(){}
-        public void OnTargetObjectWarped(){}
+        public void get_Name(){} // RVA: 0x7A7E00680
+        public void get_Description(){} // RVA: 0x7A7E00680
+        public void get_Priority(){} // RVA: 0x7A7E00710
+        public void set_Priority(){} // RVA: 0x7A7E189D0
+        public void get_LookAt(){} // RVA: 0x7A7E00680
+        public void set_LookAt(){} // RVA: 0x7A7E18800
+        public void get_Follow(){} // RVA: 0x7A7E00680
+        public void set_Follow(){} // RVA: 0x7A7E18800
+        public void get_State(){} // RVA: 0x7A7E00490
+        public void get_VirtualCameraGameObject(){} // RVA: 0x7A7E00680
+        public void get_IsValid(){} // RVA: 0x7A7E01900
+        public void get_ParentCamera(){} // RVA: 0x7A7E00680
+        public void IsLiveChild(){} // RVA: 0x7A7E03AD0
+        public void UpdateCameraState(){} // RVA: 0x7A7E1DD40
+        public void InternalUpdateCameraState(){} // RVA: 0x7A7E1DD40
+        public void OnTransitionFromCamera(){} // RVA: 0x7A7E199F0
+        public void OnTargetObjectWarped(){} // RVA: 0x7A7E18890
     }
 
     public class ICinemachineTargetGroup
     {
         // ── Methods ──
-        public void get_Transform(){} // RVA: 0xCD60
-        public void get_BoundingBox(){}
-        public void get_Sphere(){}
-        public void get_IsEmpty(){} // RVA: 0xDBE0
-        public void GetViewSpaceBoundingBox(){}
-        public void GetViewSpaceAngularBounds(){}
+        public void get_Transform(){} // RVA: 0x7A7E00680
+        public void get_BoundingBox(){} // RVA: 0x7A7E00490
+        public void get_Sphere(){} // RVA: 0x7A7E00490
+        public void get_IsEmpty(){} // RVA: 0x7A7E01900
+        public void GetViewSpaceBoundingBox(){} // RVA: 0x7A7E00560
+        public void GetViewSpaceAngularBounds(){} // RVA: 0x7A7E1DB70
     }
 
     public class ISignalSource6D
     {
         // ── Methods ──
-        public void get_SignalDuration(){} // RVA: 0x21890
-        public void GetSignal(){}
+        public void get_SignalDuration(){} // RVA: 0x7A7E155B0
+        public void GetSignal(){} // RVA: 0x7A7E26590
     }
 
-    public class LensSettings
+    public class LensSettings : ValueType
     {
-        public Cinemachine.LensSettings Default;
-        public float FieldOfView; // 0x10
-        public float OrthographicSize; // 0x14
-        public float NearClipPlane; // 0x18
-
         // ── Methods ──
-        public void get_Orthographic(){} // RVA: 0x1D26820
-        public void set_Orthographic(){} // RVA: 0x1D26840
-        public void get_SensorSize(){} // RVA: 0x18F7880
-        public void set_SensorSize(){} // RVA: 0x8AC650
-        public void get_Aspect(){} // RVA: 0x1D26850
-        public void get_IsPhysicalCamera(){} // RVA: 0x1D268E0
-        public void set_IsPhysicalCamera(){} // RVA: 0x1D26900
-        public void FromCamera(){} // RVA: 0x1D26910
-        public void SnapshotCameraReadOnlyProperties(){} // RVA: 0x1D270B0 | overloaded x2
-        public void .ctor(){} // RVA: 0x1D271C0
-        public void Lerp(){} // RVA: 0x1D27210
-        public void Validate(){} // RVA: 0x1D27470
-        public void .cctor(){} // RVA: 0x1D274F0
+        public void get_Orthographic(){} // RVA: 0x7A7673EE0
+        public void set_Orthographic(){} // RVA: 0x7A7673F00
+        public void get_SensorSize(){} // RVA: 0x7A7673F10
+        public void set_SensorSize(){} // RVA: 0x7A7673F30
+        public void get_Aspect(){} // RVA: 0x7A7673F40
+        public void get_IsPhysicalCamera(){} // RVA: 0x7A7673F50
+        public void set_IsPhysicalCamera(){} // RVA: 0x7A7673F70
+        public void FromCamera(){} // RVA: 0x7A9B28FB0
+        public void SnapshotCameraReadOnlyProperties(){} // RVA: 0x7A7673F90
+        public void .ctor(){} // RVA: 0x7A76740A0
+        public void Lerp(){} // RVA: 0x7A9B298B0
+        public void Validate(){} // RVA: 0x7A76740F0
+        public void .cctor(){} // RVA: 0x7A9B29B90
     }
 
-    public class LensSettingsPropertyAttribute
+    public class LensSettingsPropertyAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class NoSaveDuringPlayAttribute
+    public class NoSaveDuringPlayAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class NoiseSettings
+    public class NoiseSettings : SignalSourceAsset
     {
-        public TransformNoiseParams[] PositionNoise; // 0x18
-
         // ── Methods ──
-        public void GetCombinedFilterResults(){} // RVA: 0x1D27580
-        public void get_SignalDuration(){} // RVA: 0xAFF380
-        public void GetSignal(){} // RVA: 0x1D27700
-        public void .ctor(){} // RVA: 0x1D278B0
+        public void GetCombinedFilterResults(){} // RVA: 0x7A9B29C20
+        public void get_SignalDuration(){} // RVA: 0x7A889BC60
+        public void GetSignal(){} // RVA: 0x7A9B29DA0
+        public void .ctor(){} // RVA: 0x7A9B29F50
     }
 
-    public class NoiseSettingsPropertyAttribute
+    public class NoiseSettingsPropertyAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class NotNullAttribute
+    public class NotNullAttribute : Object
     {
-        public string <Name>k__BackingField; // 0x10
-        public int <Priority>k__BackingField; // 0x18
-        public UnityEngine.Transform <LookAt>k__BackingField; // 0x20
-        public UnityEngine.Transform <Follow>k__BackingField; // 0x28
-        public Cinemachine.CameraState <State>k__BackingField; // 0x30
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D18CC0
-        public void SetState(){} // RVA: 0x1D18DC0
-        public void get_Name(){} // RVA: 0x2F8380
-        public void set_Name(){} // RVA: 0x2DEE30
-        public void get_Description(){} // RVA: 0x1D18E70
-        public void get_Priority(){} // RVA: 0x5BED50
-        public void set_Priority(){} // RVA: 0x6374E0
-        public void get_LookAt(){} // RVA: 0x30B0C0
-        public void set_LookAt(){} // RVA: 0x30B0D0
-        public void get_Follow(){} // RVA: 0x30B130
-        public void set_Follow(){} // RVA: 0x2DEE90
-        public void get_State(){} // RVA: 0x1D18EB0
-        public void set_State(){} // RVA: 0x1D18F50
-        public void get_VirtualCameraGameObject(){} // RVA: 0x519240
-        public void get_IsValid(){} // RVA: 0x3C2850
-        public void get_ParentCamera(){} // RVA: 0x519240
-        public void IsLiveChild(){} // RVA: 0x2DD320
-        public void UpdateCameraState(){} // RVA: 0x2DD310
-        public void InternalUpdateCameraState(){} // RVA: 0x2DD310
-        public void OnTransitionFromCamera(){} // RVA: 0x2DD310
-        public void OnTargetObjectWarped(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A9B1B150
+        public void SetState(){} // RVA: 0x7A9B1B250
+        public void get_Name(){} // RVA: 0x7A80F2570
+        public void set_Name(){} // RVA: 0x7A80D8E20
+        public void get_Description(){} // RVA: 0x7A9B1B300
+        public void get_Priority(){} // RVA: 0x7A83782A0
+        public void set_Priority(){} // RVA: 0x7A84385B0
+        public void get_LookAt(){} // RVA: 0x7A81052C0
+        public void set_LookAt(){} // RVA: 0x7A81052D0
+        public void get_Follow(){} // RVA: 0x7A8105330
+        public void set_Follow(){} // RVA: 0x7A80D8E80
+        public void get_State(){} // RVA: 0x7A9B1B340
+        public void set_State(){} // RVA: 0x7A9B1B3E0
+        public void get_VirtualCameraGameObject(){} // RVA: 0x7A82D1450
+        public void get_IsValid(){} // RVA: 0x7A81BD750
+        public void get_ParentCamera(){} // RVA: 0x7A82D1450
+        public void IsLiveChild(){} // RVA: 0x7A80D7320
+        public void UpdateCameraState(){} // RVA: 0x7A80D7310
+        public void InternalUpdateCameraState(){} // RVA: 0x7A80D7310
+        public void OnTransitionFromCamera(){} // RVA: 0x7A80D7310
+        public void OnTargetObjectWarped(){} // RVA: 0x7A80D7310
     }
 
-    public class OrbitalTransposerHeadingPropertyAttribute
+    public class OrbitalTransposerHeadingPropertyAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class RuntimeUtility
+    public class RuntimeUtility : Object
     {
         // ── Methods ──
-        public void DestroyObject(){} // RVA: 0x1D27AF0
-        public void IsPrefab(){} // RVA: 0x2DD320
-        public void RaycastIgnoreTag(){} // RVA: 0x1D27BE0
-        public void SphereCastIgnoreTag(){} // RVA: 0x1D27FA0
-        public void GetScratchCollider(){} // RVA: 0x1D28B10
-        public void DestroyScratchCollider(){} // RVA: 0x1D290B0
-        public void NormalizeCurve(){} // RVA: 0x1D293A0
-        public void .cctor(){} // RVA: 0x1D29610
+        public void DestroyObject(){} // RVA: 0x7A9B2A190
+        public void IsPrefab(){} // RVA: 0x7A80D7320
+        public void RaycastIgnoreTag(){} // RVA: 0x7A9B2A280
+        public void SphereCastIgnoreTag(){} // RVA: 0x7A9B2A680
+        public void GetScratchCollider(){} // RVA: 0x7A9B2B240
+        public void DestroyScratchCollider(){} // RVA: 0x7A9B2B7E0
+        public void NormalizeCurve(){} // RVA: 0x7A9B2BAD0
+        public void .cctor(){} // RVA: 0x7A9B2BD00
     }
 
-    public class SaveDuringPlayAttribute
+    public class SaveDuringPlayAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class SignalSourceAsset
+    public class SignalSourceAsset : ScriptableObject
     {
         // ── Methods ──
-        public void get_SignalDuration(){} // RVA: 0x21890
-        public void GetSignal(){}
-        public void .ctor(){} // RVA: 0x53BFB0
+        public void get_SignalDuration(){} // RVA: 0x7A7E155B0
+        public void GetSignal(){} // RVA: 0x7A7E26590
+        public void .ctor(){} // RVA: 0x7A82F4A40
     }
 
-    public class TagFieldAttribute
+    public class TagFieldAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
-    public class TargetPositionCache
+    public class TargetPositionCache : Object
     {
-        public bool UseCache;
-        public float CacheStepSize;
-        public 0x659476D8 m_CacheMode; // 0x4
-        public float CurrentTime; // 0x8
-        public int CurrentFrame; // 0xC
-        public bool IsCameraCut; // 0x10
-
         // ── Methods ──
-        public void get_CacheMode(){} // RVA: 0x1D29760
-        public void set_CacheMode(){} // RVA: 0x1D297A0
-        public void get_IsRecording(){} // RVA: 0x1D29810
-        public void get_CurrentPlaybackTimeValid(){} // RVA: 0x1D29860
-        public void get_IsEmpty(){} // RVA: 0x1D298F0
-        public void get_CacheTimeRange(){} // RVA: 0x1D29940
-        public void get_HasCurrentTime(){} // RVA: 0x1D29990
-        public void ClearCache(){} // RVA: 0x1D299F0
-        public void CreatePlaybackCurves(){} // RVA: 0x1D29B60
-        public void GetTargetPosition(){} // RVA: 0x1D29DB0
-        public void GetTargetRotation(){} // RVA: 0x1D2A270
-        public void .ctor(){} // RVA: 0x2DD310
+        public void get_CacheMode(){} // RVA: 0x7A9B2BE50
+        public void set_CacheMode(){} // RVA: 0x7A9B2BE90
+        public void get_IsRecording(){} // RVA: 0x7A9B2BF00
+        public void get_CurrentPlaybackTimeValid(){} // RVA: 0x7A9B2BF50
+        public void get_IsEmpty(){} // RVA: 0x7A9B2BFE0
+        public void get_CacheTimeRange(){} // RVA: 0x7A9B2C030
+        public void get_HasCurrentTime(){} // RVA: 0x7A9B2C080
+        public void ClearCache(){} // RVA: 0x7A9B2C0E0
+        public void CreatePlaybackCurves(){} // RVA: 0x7A9B2C250
+        public void GetTargetPosition(){} // RVA: 0x7A9B2C4B0
+        public void GetTargetRotation(){} // RVA: 0x7A9B2C970
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void UseCache(){} // RVA: 0x7B41F0F98
     }
 
-    public class UpdateTracker
+    public class UpdateTracker : Object
     {
         // ── Methods ──
-        public void InitializeModule(){} // RVA: 0x1D2BA80
-        public void UpdateTargets(){} // RVA: 0x1D2BB00
-        public void GetPreferredUpdate(){} // RVA: 0x1D2C000
-        public void OnUpdate(){} // RVA: 0x1D2C370
-        public void .ctor(){} // RVA: 0x2DD310
-        public void .cctor(){} // RVA: 0x1D2C430
+        public void InitializeModule(){} // RVA: 0x7A9B2E1A0
+        public void UpdateTargets(){} // RVA: 0x7A9B2E220
+        public void GetPreferredUpdate(){} // RVA: 0x7A9B2E760
+        public void OnUpdate(){} // RVA: 0x7A9B2EAD0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void .cctor(){} // RVA: 0x7A9B2EB90
+        public void mUpdateStatus(){} // RVA: 0x7B41F0F98
     }
 
-    public class VcamTargetPropertyAttribute
+    public class VcamTargetPropertyAttribute : PropertyAttribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

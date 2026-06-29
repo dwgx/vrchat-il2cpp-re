@@ -8,8 +8,7 @@ namespace VRC.Media
     /// <summary>Originally: ÏÏÌÎÍÍÏÏÍÏÎÍÍÎÌÎÎÏÎÏÍÎÎ</summary>
     public class AVProMediaSliderBinding
     {
-        public UnityEngine.UI.Slider GenericTypeArguments; // 0x20
-        public RenderHeads.Media.AVProVideo.MediaPlayer target; // 0x28
+        public object GenericTypeArguments;
 
         // ── Methods ──
         public void ConfigureBehaviour(){} // RVA: 0x8F3C050
@@ -31,7 +30,7 @@ namespace VRC.Media
     /// <summary>Originally: ÌÍÎÏÌÍÌÌÌÎÌÌÍÌÎÍÌÌÌÍÏÏÌ</summary>
     public class VideoCapture_CB34
     {
-        public bool Capture;
+        public object Capture;
 
         // ── Methods ──
         public void CreateSpanFromArrayRange(){} // RVA: 0x18A0A00

@@ -1,96 +1,76 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker.Proto
 // Classes: 4
-// Methods: 54
+// Methods: 48
 
 namespace ThirdParty.Mediapipe.Mediapipe.Tasks.Vision.HandLandmarker.Proto
 {
-    public class HandLandmarkerGraphOptions
+    public class HandLandmarkerGraphOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.HandLandmarker.Proto.HandLandmarkerGraphOptions> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public int _hasBits0; // 0x18
-        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
-        public Mediapipe.Tasks.Vision.HandDetector.Proto.HandDetectorGraphOptions handDetectorGraphOptions_; // 0x28
-        public Mediapipe.Tasks.Vision.HandLandmarker.Proto.HandLandmarksDetectorGraphOptions handLandmarksDetectorGraphOptions_; // 0x30
-        public float MinTrackingConfidenceDefaultValue; // 0x8
-        public float minTrackingConfidence_; // 0x38
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x5B64270
-        public void get_Descriptor(){} // RVA: 0x5B642D0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B64390
-        public void .ctor(){} // RVA: 0x5B64480 | overloaded x2
-        public void Clone(){} // RVA: 0x5B646D0
-        public void get_BaseOptions(){} // RVA: 0x30B0C0
-        public void set_BaseOptions(){} // RVA: 0x30B0D0
-        public void get_HandDetectorGraphOptions(){} // RVA: 0x30B130
-        public void set_HandDetectorGraphOptions(){} // RVA: 0x2DEE90
-        public void get_HandLandmarksDetectorGraphOptions(){} // RVA: 0x6374D0
-        public void set_HandLandmarksDetectorGraphOptions(){} // RVA: 0x30B890
-        public void get_MinTrackingConfidence(){} // RVA: 0x5B64730
-        public void set_MinTrackingConfidence(){} // RVA: 0x5B5C750
-        public void get_HasMinTrackingConfidence(){} // RVA: 0x5A5C3B0
-        public void ClearMinTrackingConfidence(){} // RVA: 0x5A5C3C0
-        public void Equals(){} // RVA: 0x5B64800 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x5B649B0
-        public void ToString(){} // RVA: 0x5B64AE0
-        public void WriteTo(){} // RVA: 0x5A39740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B64B30
-        public void CalculateSize(){} // RVA: 0x5B64C00
-        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B65170
-        public void .cctor(){} // RVA: 0x5B652E0
+        public void get_Parser(){} // RVA: 0x7AD951E90
+        public void get_Descriptor(){} // RVA: 0x7AD951EF0
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD951FB0
+        public void .ctor(){} // RVA: 0x7AD9520A0
+        public void Clone(){} // RVA: 0x7AD952310
+        public void get_BaseOptions(){} // RVA: 0x7A81052C0
+        public void set_BaseOptions(){} // RVA: 0x7A81052D0
+        public void get_HandDetectorGraphOptions(){} // RVA: 0x7A8105330
+        public void set_HandDetectorGraphOptions(){} // RVA: 0x7A80D8E80
+        public void get_HandLandmarksDetectorGraphOptions(){} // RVA: 0x7A83F69F0
+        public void set_HandLandmarksDetectorGraphOptions(){} // RVA: 0x7A8105A90
+        public void get_MinTrackingConfidence(){} // RVA: 0x7AD952370
+        public void set_MinTrackingConfidence(){} // RVA: 0x7AD94A2D0
+        public void get_HasMinTrackingConfidence(){} // RVA: 0x7AD848D40
+        public void ClearMinTrackingConfidence(){} // RVA: 0x7AD848D50
+        public void Equals(){} // RVA: 0x7AD952440
+        public void GetHashCode(){} // RVA: 0x7AD9525F0
+        public void ToString(){} // RVA: 0x7AD952720
+        public void WriteTo(){} // RVA: 0x7AD825C30
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD952770
+        public void CalculateSize(){} // RVA: 0x7AD952840
+        public void MergeFrom(){} // RVA: 0x7AD825F70
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD952DB0
+        public void .cctor(){} // RVA: 0x7AD952F20
     }
 
-    public class HandLandmarkerGraphOptionsReflection
+    public class HandLandmarkerGraphOptionsReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x5B63690
-        public void .cctor(){} // RVA: 0x5B636F0
+        public void get_Descriptor(){} // RVA: 0x7AD9512B0
+        public void .cctor(){} // RVA: 0x7AD951310
     }
 
-    public class HandLandmarksDetectorGraphOptions
+    public class HandLandmarksDetectorGraphOptions : Object
     {
-        public Google.Protobuf.MessageParser`1<Mediapipe.Tasks.Vision.HandLandmarker.Proto.HandLandmarksDetectorGraphOptions> _parser;
-        public Google.Protobuf.UnknownFieldSet _unknownFields; // 0x10
-        public int _hasBits0; // 0x18
-        public Mediapipe.Tasks.Core.Proto.BaseOptions baseOptions_; // 0x20
-        public float MinDetectionConfidenceDefaultValue; // 0x8
-        public float minDetectionConfidence_; // 0x28
-
         // ── Methods ──
-        public void get_Parser(){} // RVA: 0x5B66080
-        public void get_Descriptor(){} // RVA: 0x5B660E0
-        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x5B661A0
-        public void .ctor(){} // RVA: 0x5B66290 | overloaded x2
-        public void Clone(){} // RVA: 0x5B66420
-        public void get_BaseOptions(){} // RVA: 0x30B0C0
-        public void set_BaseOptions(){} // RVA: 0x30B0D0
-        public void get_MinDetectionConfidence(){} // RVA: 0x5B665F0
-        public void set_MinDetectionConfidence(){} // RVA: 0x5B5E500
-        public void get_HasMinDetectionConfidence(){} // RVA: 0x5A5C3B0
-        public void ClearMinDetectionConfidence(){} // RVA: 0x5A5C3C0
-        public void Equals(){} // RVA: 0x5B667D0 | overloaded x2
-        public void GetHashCode(){} // RVA: 0x5B66900
-        public void ToString(){} // RVA: 0x5B669F0
-        public void WriteTo(){} // RVA: 0x5A39740
-        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x5B66A40
-        public void CalculateSize(){} // RVA: 0x5B66AC0
-        public void MergeFrom(){} // RVA: 0x5A39A80 | overloaded x2
-        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x5B66D10
-        public void .cctor(){} // RVA: 0x5B66DF0
+        public void get_Parser(){} // RVA: 0x7AD953CC0
+        public void get_Descriptor(){} // RVA: 0x7AD953D20
+        public void pb::Google.Protobuf.IMessage.get_Descriptor(){} // RVA: 0x7AD953DE0
+        public void .ctor(){} // RVA: 0x7AD953ED0
+        public void Clone(){} // RVA: 0x7AD954080
+        public void get_BaseOptions(){} // RVA: 0x7A81052C0
+        public void set_BaseOptions(){} // RVA: 0x7A81052D0
+        public void get_MinDetectionConfidence(){} // RVA: 0x7AD954260
+        public void set_MinDetectionConfidence(){} // RVA: 0x7AD94C0B0
+        public void get_HasMinDetectionConfidence(){} // RVA: 0x7AD848D40
+        public void ClearMinDetectionConfidence(){} // RVA: 0x7AD848D50
+        public void Equals(){} // RVA: 0x7AD954440
+        public void GetHashCode(){} // RVA: 0x7AD954570
+        public void ToString(){} // RVA: 0x7AD954660
+        public void WriteTo(){} // RVA: 0x7AD825C30
+        public void pb::Google.Protobuf.IBufferMessage.InternalWriteTo(){} // RVA: 0x7AD9546B0
+        public void CalculateSize(){} // RVA: 0x7AD954730
+        public void MergeFrom(){} // RVA: 0x7AD825F70
+        public void pb::Google.Protobuf.IBufferMessage.InternalMergeFrom(){} // RVA: 0x7AD954980
+        public void .cctor(){} // RVA: 0x7AD954A60
     }
 
-    public class HandLandmarksDetectorGraphOptionsReflection
+    public class HandLandmarksDetectorGraphOptionsReflection : Object
     {
-        public Google.Protobuf.Reflection.FileDescriptor descriptor;
-
         // ── Methods ──
-        public void get_Descriptor(){} // RVA: 0x5B65710
-        public void .cctor(){} // RVA: 0x5B65770
+        public void get_Descriptor(){} // RVA: 0x7AD953350
+        public void .cctor(){} // RVA: 0x7AD9533B0
     }
 
 }

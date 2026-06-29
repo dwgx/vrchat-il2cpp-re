@@ -1,184 +1,150 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Sentry.Sentry.Protocol.Metrics
 // Classes: 10
-// Methods: 100
+// Methods: 92
 
 namespace ThirdParty.Sentry.Sentry.Protocol.Metrics
 {
-    public class CodeLocations
+    public class CodeLocations : Object
     {
-        public long <timestamp>P; // 0x10
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5D8AEC0
-        public void get_Timestamp(){} // RVA: 0x2F8380
-        public void WriteTo(){} // RVA: 0x63DFCC0
+        public void .ctor(){} // RVA: 0x7ADB78F90
+        public void get_Timestamp(){} // RVA: 0x7A80F2570
+        public void WriteTo(){} // RVA: 0x7AE1CD6C0
     }
 
-    public class CounterMetric
+    public class CounterMetric : Metric
     {
-        public double <Value>k__BackingField; // 0x58
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63E07F0 | overloaded x2
-        public void get_Value(){} // RVA: 0x63E0870
-        public void set_Value(){} // RVA: 0x63E0880
-        public void Add(){} // RVA: 0x63E0890
-        public void WriteValues(){} // RVA: 0x63E08A0
-        public void SerializedStatsdValues(){} // RVA: 0x63E0900
+        public void .ctor(){} // RVA: 0x7AE1CE250
+        public void get_Value(){} // RVA: 0x7AE1CE2D0
+        public void set_Value(){} // RVA: 0x7AE1CE2E0
+        public void Add(){} // RVA: 0x7AE1CE2F0
+        public void WriteValues(){} // RVA: 0x7AE1CE300
+        public void SerializedStatsdValues(){} // RVA: 0x7AE1CE360
     }
 
-    public class DistributionMetric
+    public class DistributionMetric : Metric
     {
-        public System.Collections.Generic.List`1<double> _value; // 0x58
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63E0C60 | overloaded x2
-        public void get_Value(){} // RVA: 0x3A5500
-        public void Add(){} // RVA: 0x63E0E10
-        public void WriteValues(){} // RVA: 0x63E0EC0
-        public void SerializedStatsdValues(){} // RVA: 0x63E0F70
+        public void .ctor(){} // RVA: 0x7AE1CE6C0
+        public void get_Value(){} // RVA: 0x7A81A0050
+        public void Add(){} // RVA: 0x7AE1CE870
+        public void WriteValues(){} // RVA: 0x7AE1CE920
+        public void SerializedStatsdValues(){} // RVA: 0x7AE1CE9D0
     }
 
-    public class GaugeMetric
+    public class GaugeMetric : Metric
     {
-        public double <Value>k__BackingField; // 0x58
-        public double <First>k__BackingField; // 0x60
-        public double <Min>k__BackingField; // 0x68
-        public double <Max>k__BackingField; // 0x70
-        public double <Sum>k__BackingField; // 0x78
-        public double <Count>k__BackingField; // 0x80
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63E0FF0 | overloaded x2
-        public void get_Value(){} // RVA: 0x63E0870
-        public void set_Value(){} // RVA: 0x63E0880
-        public void get_First(){} // RVA: 0x36ADB50
-        public void get_Min(){} // RVA: 0x36AD830
-        public void set_Min(){} // RVA: 0x36AD840
-        public void get_Max(){} // RVA: 0x63E1090
-        public void set_Max(){} // RVA: 0x63E10A0
-        public void get_Sum(){} // RVA: 0x1D4A890
-        public void set_Sum(){} // RVA: 0x1D4A8A0
-        public void get_Count(){} // RVA: 0x1D4A8B0
-        public void set_Count(){} // RVA: 0x1D4A8C0
-        public void Add(){} // RVA: 0x63E10B0
-        public void WriteValues(){} // RVA: 0x63E1190
-        public void SerializedStatsdValues(){} // RVA: 0x63E12C0
+        public void .ctor(){} // RVA: 0x7AE1CEA50
+        public void get_Value(){} // RVA: 0x7AE1CE2D0
+        public void set_Value(){} // RVA: 0x7AE1CE2E0
+        public void get_First(){} // RVA: 0x7AB492F00
+        public void get_Min(){} // RVA: 0x7AB492BE0
+        public void set_Min(){} // RVA: 0x7AB492BF0
+        public void get_Max(){} // RVA: 0x7AE1CEAF0
+        public void set_Max(){} // RVA: 0x7AE1CEB00
+        public void get_Sum(){} // RVA: 0x7A9B4D410
+        public void set_Sum(){} // RVA: 0x7A9B4D420
+        public void get_Count(){} // RVA: 0x7A9B4D430
+        public void set_Count(){} // RVA: 0x7A9B4D440
+        public void Add(){} // RVA: 0x7AE1CEB10
+        public void WriteValues(){} // RVA: 0x7AE1CEBF0
+        public void SerializedStatsdValues(){} // RVA: 0x7AE1CED20
     }
 
-    public class Metric
+    public class Metric : Object
     {
-        public Sentry.SentryId <EventId>k__BackingField; // 0x10
-        public string <Key>k__BackingField; // 0x20
-        public System.DateTimeOffset <Timestamp>k__BackingField; // 0x28
-        public System.Nullable`1<Sentry.MeasurementUnit> <Unit>k__BackingField; // 0x38
-        public System.Collections.Generic.IDictionary`2<string,string> _tags; // 0x50
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63E1720 | overloaded x2
-        public void get_EventId(){} // RVA: 0x196ABE0
-        public void get_Key(){} // RVA: 0x30B0C0
-        public void get_Timestamp(){} // RVA: 0x111F520
-        public void get_Unit(){} // RVA: 0x63E19B0
-        public void get_Tags(){} // RVA: 0x63E19D0
-        public void Add(){} // RVA: 0x26100
-        public void WriteValues(){} // RVA: 0x2DC60
-        public void WriteTo(){} // RVA: 0x63E1A90
-        public void SerializedStatsdValues(){} // RVA: 0xCD60
-        public void SerializeAsync(){} // RVA: 0x63E1D40
-        public void Serialize(){} // RVA: 0x63E1FD0
-        public void get_StatsdType(){} // RVA: 0x63E2070
+        public void .ctor(){} // RVA: 0x7AE1CF180
+        public void get_EventId(){} // RVA: 0x7A97277F0
+        public void get_Key(){} // RVA: 0x7A81052C0
+        public void get_Timestamp(){} // RVA: 0x7A8EDF360
+        public void get_Unit(){} // RVA: 0x7AE1CF410
+        public void get_Tags(){} // RVA: 0x7AE1CF430
+        public void Add(){} // RVA: 0x7A7E19E10
+        public void WriteValues(){} // RVA: 0x7A7E18890
+        public void WriteTo(){} // RVA: 0x7AE1CF4F0
+        public void SerializedStatsdValues(){} // RVA: 0x7A7E00680
+        public void SerializeAsync(){} // RVA: 0x7AE1CF7D0
+        public void Serialize(){} // RVA: 0x7AE1CFA50
+        public void get_StatsdType(){} // RVA: 0x7AE1CFAF0
     }
 
-    public class MetricResourceIdentifier
+    public class MetricResourceIdentifier : ValueType
     {
-        public 0x658B7550 <MetricType>k__BackingField; // 0x10
-        public string <Key>k__BackingField; // 0x18
-        public Sentry.MeasurementUnit <Unit>k__BackingField; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63E4CD0
-        public void get_MetricType(){} // RVA: 0x1E40360
-        public void set_MetricType(){} // RVA: 0x1E40370
-        public void get_Key(){} // RVA: 0x19689C0
-        public void set_Key(){} // RVA: 0x1968950
-        public void get_Unit(){} // RVA: 0x196ABE0
-        public void set_Unit(){} // RVA: 0x1F77B90
-        public void ToString(){} // RVA: 0x63E4D80
-        public void PrintMembers(){} // RVA: 0x63E4E90
-        public void op_Inequality(){} // RVA: 0x63E5060
-        public void op_Equality(){} // RVA: 0x63E50A0
-        public void GetHashCode(){} // RVA: 0x63E50D0
-        public void Equals(){} // RVA: 0x63E5290 | overloaded x2
-        public void Deconstruct(){} // RVA: 0x63E53E0
+        public void .ctor(){} // RVA: 0x7A7E76400
+        public void get_MetricType(){} // RVA: 0x7A767CAD0
+        public void set_MetricType(){} // RVA: 0x7A767CAE0
+        public void get_Key(){} // RVA: 0x7A765F080
+        public void set_Key(){} // RVA: 0x7A765F010
+        public void get_Unit(){} // RVA: 0x7A76B8870
+        public void set_Unit(){} // RVA: 0x7A76B8880
+        public void ToString(){} // RVA: 0x7A7E76430
+        public void PrintMembers(){} // RVA: 0x7A7E76440
+        public void op_Inequality(){} // RVA: 0x7AE1D2AE0
+        public void op_Equality(){} // RVA: 0x7AE1D2B20
+        public void GetHashCode(){} // RVA: 0x7A7E76450
+        public void Equals(){} // RVA: 0x7A7E76470
+        public void Deconstruct(){} // RVA: 0x7A7E764A0
     }
 
-    public class MetricTypeExtensions
+    public class MetricTypeExtensions : Object
     {
         // ── Methods ──
-        public void ToStatsdType(){} // RVA: 0x63E6260
+        public void ToStatsdType(){} // RVA: 0x7AE1D3D00
     }
 
-    public class MetricsSummary : `
+    public class MetricsSummary : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63E5490
-        public void WriteTo(){} // RVA: 0x63E5A00
+        public void .ctor(){} // RVA: 0x7AE1D2F10
+        public void WriteTo(){} // RVA: 0x7AE1D3480
     }
 
-    public class SetMetric
+    public class SetMetric : Metric
     {
-        public System.Collections.Generic.HashSet`1<int> _value; // 0x58
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x63E6450 | overloaded x2
-        public void get_Value(){} // RVA: 0x3A5500
-        public void Add(){} // RVA: 0x63E65C0
-        public void WriteValues(){} // RVA: 0x63E6630
-        public void SerializedStatsdValues(){} // RVA: 0x63E66E0
+        public void .ctor(){} // RVA: 0x7AE1D3EF0
+        public void get_Value(){} // RVA: 0x7A81A0050
+        public void Add(){} // RVA: 0x7AE1D4060
+        public void WriteValues(){} // RVA: 0x7AE1D40D0
+        public void SerializedStatsdValues(){} // RVA: 0x7AE1D4180
     }
 
-    public class SpanMetric
+    public class SpanMetric : Object
     {
-        public 0x658B7550 <MetricType>k__BackingField; // 0x10
-        public string <Key>k__BackingField; // 0x18
-        public Sentry.MeasurementUnit <Unit>k__BackingField; // 0x20
-        public System.Collections.Generic.IDictionary`2<string,string> <Tags>k__BackingField; // 0x30
-        public double <Min>k__BackingField; // 0x38
-        public double <Max>k__BackingField; // 0x40
-        public double <Sum>k__BackingField; // 0x48
-        public double <Count>k__BackingField; // 0x50
-
         // ── Methods ──
-        public void get_EqualityContract(){} // RVA: 0x63E6720
-        public void .ctor(){} // RVA: 0x63E7A30 | overloaded x2
-        public void get_MetricType(){} // RVA: 0x3A75E0
-        public void set_MetricType(){} // RVA: 0x3A75F0
-        public void get_Key(){} // RVA: 0x2E07C0
-        public void set_Key(){} // RVA: 0x343E80
-        public void get_Unit(){} // RVA: 0x1EFB630
-        public void set_Unit(){} // RVA: 0x1EFB640
-        public void get_Tags(){} // RVA: 0x6374D0
-        public void set_Tags(){} // RVA: 0x30B890
-        public void get_Min(){} // RVA: 0x332F490
-        public void set_Min(){} // RVA: 0x332F4A0
-        public void get_Max(){} // RVA: 0x1F65E70
-        public void set_Max(){} // RVA: 0x1F65E80
-        public void get_Sum(){} // RVA: 0x1C99350
-        public void set_Sum(){} // RVA: 0x63E6900
-        public void get_Count(){} // RVA: 0x4363CB0
-        public void set_Count(){} // RVA: 0x63E6910
-        public void get_ExportKey(){} // RVA: 0x63E6920
-        public void Add(){} // RVA: 0x63E6A00
-        public void WriteTo(){} // RVA: 0x63E6AD0
-        public void ToString(){} // RVA: 0x63E6C20
-        public void PrintMembers(){} // RVA: 0x63E6D60
-        public void op_Inequality(){} // RVA: 0x1D77880
-        public void op_Equality(){} // RVA: 0x1D778C0
-        public void GetHashCode(){} // RVA: 0x63E7200
-        public void Equals(){} // RVA: 0x63E75A0 | overloaded x2
-        public void <Clone>$(){} // RVA: 0x63E78B0
+        public void get_EqualityContract(){} // RVA: 0x7AE1D41C0
+        public void .ctor(){} // RVA: 0x7AE1D54F0
+        public void get_MetricType(){} // RVA: 0x7A81A2200
+        public void set_MetricType(){} // RVA: 0x7A81A2210
+        public void get_Key(){} // RVA: 0x7A80DA7B0
+        public void set_Key(){} // RVA: 0x7A813E420
+        public void get_Unit(){} // RVA: 0x7A9D01C90
+        public void set_Unit(){} // RVA: 0x7A9D01CA0
+        public void get_Tags(){} // RVA: 0x7A83F69F0
+        public void set_Tags(){} // RVA: 0x7A8105A90
+        public void get_Min(){} // RVA: 0x7AB126C30
+        public void set_Min(){} // RVA: 0x7AB126C40
+        public void get_Max(){} // RVA: 0x7A9D70440
+        public void set_Max(){} // RVA: 0x7A9D70450
+        public void get_Sum(){} // RVA: 0x7A9A9B800
+        public void set_Sum(){} // RVA: 0x7AE1D43A0
+        public void get_Count(){} // RVA: 0x7AC154B90
+        public void set_Count(){} // RVA: 0x7AE1D43B0
+        public void get_ExportKey(){} // RVA: 0x7AE1D43C0
+        public void Add(){} // RVA: 0x7AE1D44A0
+        public void WriteTo(){} // RVA: 0x7AE1D4570
+        public void ToString(){} // RVA: 0x7AE1D46E0
+        public void PrintMembers(){} // RVA: 0x7AE1D4820
+        public void op_Inequality(){} // RVA: 0x7A9B7AD40
+        public void op_Equality(){} // RVA: 0x7A9B7AD80
+        public void GetHashCode(){} // RVA: 0x7AE1D4CC0
+        public void Equals(){} // RVA: 0x7AE1D5060
+        public void <Clone>$(){} // RVA: 0x7AE1D5370
     }
 
 }

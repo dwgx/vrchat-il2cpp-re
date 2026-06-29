@@ -5,59 +5,56 @@
 
 namespace ThirdParty.Oculus.Oculus.Platform.Models
 {
-    public class NetSyncConnection
+    public class NetSyncConnection : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60ED7C0
+        public void .ctor(){} // RVA: 0x7ADED9AC0
     }
 
-    public class NetSyncSession
+    public class NetSyncSession : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EDA90
+        public void .ctor(){} // RVA: 0x7ADED9D90
     }
 
-    public class NetSyncSessionList
+    public class NetSyncSessionList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EDD60
+        public void .ctor(){} // RVA: 0x7ADEDA060
     }
 
-    public class NetSyncSessionsChangedNotification
+    public class NetSyncSessionsChangedNotification : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EE040
+        public void .ctor(){} // RVA: 0x7ADEDA330
     }
 
-    public class NetSyncSetSessionPropertyResult
+    public class NetSyncSetSessionPropertyResult : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EE1F0
+        public void .ctor(){} // RVA: 0x7ADEDA4E0
     }
 
-    public class NetSyncVoipAttenuationValue
+    public class NetSyncVoipAttenuationValue : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EE340
+        public void .ctor(){} // RVA: 0x7ADEDA630
     }
 
-    public class NetSyncVoipAttenuationValueList
+    public class NetSyncVoipAttenuationValueList : DeserializableList`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x60EE470
+        public void .ctor(){} // RVA: 0x7ADEDA760
     }
 
-    public class NetworkingPeer
+    public class NetworkingPeer : Object
     {
-        public ulong <ID>k__BackingField; // 0x10
-        public 0x659779E0 <State>k__BackingField; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x1969380
-        public void get_ID(){} // RVA: 0x2F8380
-        public void set_ID(){} // RVA: 0x1967700
-        public void get_State(){} // RVA: 0x5BED50
-        public void set_State(){} // RVA: 0x6374E0
+        public void .ctor(){} // RVA: 0x7A9725F90
+        public void get_ID(){} // RVA: 0x7A80F2570
+        public void set_ID(){} // RVA: 0x7A97242F0
+        public void get_State(){} // RVA: 0x7A83782A0
+        public void set_State(){} // RVA: 0x7A84385B0
     }
 
 }

@@ -5,26 +5,21 @@
 
 namespace VRC.Steam
 {
-    public class SteamManager
+    public class SteamManager : Object
     {
-        public uint ÌÌÌÍÍÎÎÍÌÏÌÍÎÌÏÌÎÍÌÌÍÍÎ;
-        public uint ÎÌÏÍÎÏÎÍÌÌÍÏÏÍÍÏÌÎÏÌÍÏÍ;
-        public Steamworks.AuthTicket ÍÍÍÌÌÎÌÌÍÏÌÌÎÍÏÎÌÍÌÎÏÌÌ; // 0x8
-        public bool <ÍÍÎÎÌÍÎÏÍÍÍÍÍÎÏÎÍÌÌÎÎÎÏ>k__BackingField; // 0x10
-
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x5350D0
-        public void Equals(){} // RVA: 0x5351A0
-        public void GetHashCode(){} // RVA: 0x535240
-        public void op_Implicit(){} // RVA: 0x5352A0
-        public void CompareBaseObjects(){} // RVA: 0x535300
-        public void IsNativeObjectAlive(){} // RVA: 0x5354C0
-        public void GetCachedPtr(){} // RVA: 0x535580
-        public void get_name(){} // RVA: 0x5355C0
-        public void set_name(){} // RVA: 0x535810
-        public void Instantiate(){} // RVA: 0x535910
-        public void ToString(){} // RVA: 0x535EE0
-        public void .cctor(){} // RVA: 0x536050
+        public void GetInstanceID(){} // RVA: 0x7A82EDA70
+        public void Equals(){} // RVA: 0x7A82EDB40
+        public void GetHashCode(){} // RVA: 0x7A82EDBE0
+        public void op_Implicit(){} // RVA: 0x7A82EDC40
+        public void CompareBaseObjects(){} // RVA: 0x7A82EDCA0
+        public void IsNativeObjectAlive(){} // RVA: 0x7A82EDE50
+        public void GetCachedPtr(){} // RVA: 0x7A82EDF10
+        public void get_name(){} // RVA: 0x7A82EDF50
+        public void set_name(){} // RVA: 0x7A82EE1A0
+        public void Instantiate(){} // RVA: 0x7A82EE2A0
+        public void Destroy(){} // RVA: 0x7A82EE870
+        public void .cctor(){} // RVA: 0x7A82EE9E0
     }
 
 }

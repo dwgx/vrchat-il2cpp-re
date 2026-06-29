@@ -1,14 +1,14 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.Unity.UnityEngine.Purchasing
 // Classes: 1
-// Methods: 2
+// Methods: 1
 
 namespace ThirdParty.Unity.UnityEngine.Purchasing
 {
-    public class ReceiptParserException
+    public class ReceiptParserException : Exception
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x724A8A0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7AF02A310
     }
 
 }

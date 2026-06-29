@@ -5,30 +5,26 @@
 
 namespace VRC.Core
 {
-    public class CaptchaArea
+    public class CaptchaArea : Object
     {
         // ── Methods ──
-        public void GenerateCaptcha(){} // RVA: 0x990A3C0
-        public void SolveCaptcha(){} // RVA: 0x990A560
+        public void GenerateCaptcha(){} // RVA: 0x7B1745CB0
+        public void SolveCaptcha(){} // RVA: 0x7B1745E50
     }
 
-    public class ConfigManager
+    public class ConfigManager : Object
     {
-        public string KEY_DISABLE_UPGRADE_ACCOUNT;
-        public VRC.Core.Config.Interfaces.IReadWriteConfig <LocalConfig>k__BackingField;
-        public VRC.Core.Config.Interfaces.IReadWriteConfig <WorldConfig>k__BackingField; // 0x8
-
         // ── Methods ──
-        public void get_LocalConfig(){} // RVA: 0x992D480
-        public void set_LocalConfig(){} // RVA: 0x992D4C0
-        public void get_WorldConfig(){} // RVA: 0x992D560
-        public void set_WorldConfig(){} // RVA: 0x992D5A0
-        public void get_RemoteConfig(){} // RVA: 0x992D640
-        public void set_RemoteConfig(){} // RVA: 0x992D680
-        public void Initialize(){} // RVA: 0x992D720
-        public void WorldConfigIDChange(){} // RVA: 0x992D940
-        public void AssignTestLocalConfig(){} // RVA: 0x992DA70
-        public void AssignTestRemoteConfig(){} // RVA: 0x992DB00
+        public void get_LocalConfig(){} // RVA: 0x7B1768EB0
+        public void set_LocalConfig(){} // RVA: 0x7B1768EF0
+        public void get_WorldConfig(){} // RVA: 0x7B1768F90
+        public void set_WorldConfig(){} // RVA: 0x7B1768FD0
+        public void get_RemoteConfig(){} // RVA: 0x7B1769070
+        public void set_RemoteConfig(){} // RVA: 0x7B17690B0
+        public void Initialize(){} // RVA: 0x7B1769150
+        public void WorldConfigIDChange(){} // RVA: 0x7B1769370
+        public void AssignTestLocalConfig(){} // RVA: 0x7B17694A0
+        public void AssignTestRemoteConfig(){} // RVA: 0x7B1769530
     }
 
 }

@@ -5,10 +5,10 @@
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
-    public class OdinSerializeAttribute
+    public class OdinSerializeAttribute : Attribute
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7A80D7310
     }
 
 }

@@ -1,807 +1,904 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: Global
 // Classes: 100
-// Methods: 303
+// Methods: 400
 
-public class <>c
+public class _CanRenderScene : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78CCE10
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78CCEB0
+    public void .ctor(){} // RVA: 0x7AB15CF60
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _ClearLastSubmittedFrame : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78C87C0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78C8860
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _ClearSkyboxOverride : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78DEE10
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78DEEB0
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _ClearStageOverride : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78C6450
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78C64F0
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _CompositorBringToFront : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78BFA60
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78BFB00
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _CompositorDumpImages : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78BB520
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78BB5C0
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _CompositorGoToBack : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78B9ED0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78B9F70
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _CompositorQuit : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78B58C0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78B5960
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _CreateOverlay : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78C1DD0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78C1E70
+    public void .ctor(){} // RVA: 0x7ADFCCFB0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE326A0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _DestroyOverlay : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78E0920
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78E09C0
+    public void .ctor(){} // RVA: 0x7A9726900
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE32760
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _FadeGrid : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78E4E10
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78E4EB0
+    public void .ctor(){} // RVA: 0x7ADFCAF10
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE31B50
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _FadeToColor : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78E7380
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78E7420
+    public void .ctor(){} // RVA: 0x7ADFCABC0
+    public void Invoke(){} // RVA: 0x7ADFCAC90
+    public void BeginInvoke(){} // RVA: 0x7AEE319C0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _FindOverlay : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A759B0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x7A75A50
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE325F0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _ForceInterleavedReprojectionOn : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A6DD90
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A6DE30
+    public void .ctor(){} // RVA: 0x7A93C45D0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE31C90
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _ForceReconnectProcess : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A688F0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x7A68990
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _GetCompositorBenchmarkResults : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A5EF80
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A5F020
+    public void .ctor(){} // RVA: 0x7AC873980
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE32400
+    public void EndInvoke(){} // RVA: 0x7ADFC4600
 }
 
-public class <>c
+public class _GetCumulativeStats : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A59DB0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x7A59E50
+    public void .ctor(){} // RVA: 0x7AC871860
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE31910
+    public void EndInvoke(){} // RVA: 0x7A9CE2680
 }
 
-public class <>c
+public class _GetCurrentFadeColor : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A50DF0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A50E90
+    public void .ctor(){} // RVA: 0x7ADFCADC0
+    public void Invoke(){} // RVA: 0x7AB160BE0
+    public void BeginInvoke(){} // RVA: 0x7AEE31AD0
+    public void EndInvoke(){} // RVA: 0x7A9B20330
 }
 
-public class <>c
+public class _GetCurrentGridAlpha : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A4C8D0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A4C970
+    public void .ctor(){} // RVA: 0x7AA987DA0
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A9307C80
 }
 
-public class <>c
+public class _GetCurrentSceneFocusProcess : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A4AD10
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A4ADB0
+    public void .ctor(){} // RVA: 0x7AA987EB0
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _GetFrameTimeRemaining : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A467F0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A46890
+    public void .ctor(){} // RVA: 0x7AA987DA0
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A9307C80
 }
 
-public class <>c
+public class _GetFrameTiming : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A44C30
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A44CD0
+    public void .ctor(){} // RVA: 0x7AC873980
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE317D0
+    public void EndInvoke(){} // RVA: 0x7ADFC4600
 }
 
-public class <>c
+public class _GetFrameTimings : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A40310
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A403B0
+    public void .ctor(){} // RVA: 0x7ADFC90B0
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE31880
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _GetLastFrameRenderer : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A3DDC0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A3DE60
+    public void .ctor(){} // RVA: 0x7AA987EB0
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _GetLastPoseForTrackedDeviceIndex : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78F9B20
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78F9BC0
+    public void .ctor(){} // RVA: 0x7ADFCA630
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE31410
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _GetLastPosePredictionIDs : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78F56A0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78F5740
+    public void .ctor(){} // RVA: 0x7A9E3BB40
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE324B0
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _GetLastPoses : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78F3D30
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78F3DD0
+    public void .ctor(){} // RVA: 0x7ADFCA3E0
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE31360
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _GetMirrorTextureD3D11 : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78EF2B0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78EF350
+    public void .ctor(){} // RVA: 0x7ADFCA630
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE31D90
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetMirrorTextureGL : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x78EB9E0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x78EBA80
+    public void .ctor(){} // RVA: 0x7ADFCA630
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE31ED0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayAlpha : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A83EE0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x7A83F80
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE331C0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayColor : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79228E0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x7922980
+    public void .ctor(){} // RVA: 0x7ADFCC620
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE33030
+    public void EndInvoke(){} // RVA: 0x7ADFC7200
 }
 
-public class <>c
+public class _GetOverlayCurvature : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7927B60
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7927C00
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33740
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayErrorNameFromEnum : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7930CD0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x7930D70
+    public void .ctor(){} // RVA: 0x7AB162430
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE32B50
+    public void EndInvoke(){} // RVA: 0x7A9E46B70
 }
 
-public class <>c
+public class _GetOverlayFlag : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79DCDE0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79DCE80
+    public void .ctor(){} // RVA: 0x7ADFCC2D0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE32DD0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayFlags : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79E22A0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79E2340
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE32EA0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayImageData : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79E7200
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79E72A0
+    public void .ctor(){} // RVA: 0x7ADFCBDB0
+    public void Invoke(){} // RVA: 0x7AB112E00
+    public void BeginInvoke(){} // RVA: 0x7AEE32A50
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _GetOverlayInputMethod : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79EAB00
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79EABA0
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE34800
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayKey : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79EB6B0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79EB750
+    public void .ctor(){} // RVA: 0x7ADFCBA90
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE327E0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayMouseScale : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79EE270
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79EE310
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE34960
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayName : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79F7000
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x79F70A0
+    public void .ctor(){} // RVA: 0x7ADFCBA90
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE328C0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayPreCurvePitch : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79FC380
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79FC420
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE338A0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayRenderingPid : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79FE2B0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79FE350
+    public void .ctor(){} // RVA: 0x7A9726900
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE32C80
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _GetOverlaySortOrder : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A01EC0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A01F60
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33480
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayTexelAspect : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A03360
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A03400
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33320
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayTextureBounds : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A0AC80
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x7A0AD20
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33B60
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayTextureColorSpace : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A0FC60
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A0FD00
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33A00
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayTransformAbsolute : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A11F40
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A11FE0
+    public void .ctor(){} // RVA: 0x7ADFCCFB0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE33D90
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _GetOverlayTransformCursor : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A165C0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A16660
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE34250
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayTransformTrackedDeviceComponent : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A1B050
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A1B0F0
+    public void .ctor(){} // RVA: 0x7ADFCDA60
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE340D0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayTransformTrackedDeviceRelative : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A3D1C0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A3D260
+    public void .ctor(){} // RVA: 0x7ADFCCFB0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE33F30
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _GetOverlayTransformType : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79D8640
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79D86E0
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33C10
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetOverlayWidthInMeters : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A38C70
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A38D10
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE335E0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetPosesForFrame : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A35170
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A35210
+    public void .ctor(){} // RVA: 0x7ADFC8210
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE32550
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _GetTransformForOverlayCoordinates : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A33110
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A331B0
+    public void .ctor(){} // RVA: 0x7ADFCDF00
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE345B0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _GetVulkanDeviceExtensionsRequired : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A2EC40
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A2ECE0
+    public void .ctor(){} // RVA: 0x7ADFCB660
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE321D0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _GetVulkanInstanceExtensionsRequired : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A2D080
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A2D120
+    public void .ctor(){} // RVA: 0x7ADFC90B0
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE32140
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _HideMirrorWindow : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A274D0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A27570
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _HideOverlay : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A1D090
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A1D130
+    public void .ctor(){} // RVA: 0x7A9726900
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE344B0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _IsCurrentSceneFocusAppLoading : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7A37530
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7A375D0
+    public void .ctor(){} // RVA: 0x7AB15CF60
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _IsFullscreen : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79D6480
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79D6520
+    public void .ctor(){} // RVA: 0x7AB15CF60
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _IsMirrorWindowVisible : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79E9740
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79E97E0
+    public void .ctor(){} // RVA: 0x7AB15CF60
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _IsMotionSmoothingEnabled : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79CF460
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79CF500
+    public void .ctor(){} // RVA: 0x7AB15CF60
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _IsMotionSmoothingSupported : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x798A9E0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x798AA80
+    public void .ctor(){} // RVA: 0x7AB15CF60
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _IsOverlayVisible : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79885C0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7988660
+    public void .ctor(){} // RVA: 0x7AB19FCA0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE34530
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _LockGLSharedTextureForAccess : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7983F40
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7983FE0
+    public void .ctor(){} // RVA: 0x7A9C64DA0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE32040
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _PollNextOverlayEvent : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7981DC0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7981E60
+    public void .ctor(){} // RVA: 0x7ADFCE0D0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE34730
+    public void EndInvoke(){} // RVA: 0x7ADFC4600
 }
 
-public class <>c
+public class _PostPresentHandoff : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79D3E80
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79D3F20
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _ReleaseMirrorTextureD3D11 : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7975310
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79753B0
+    public void .ctor(){} // RVA: 0x7A9C64DA0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE31E50
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _ReleaseSharedGLTexture : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x798F180
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x798F220
+    public void .ctor(){} // RVA: 0x7AB1A2330
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE31FA0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _SetExplicitTimingMode : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x796F0E0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x796F180
+    public void .ctor(){} // RVA: 0x7A81C9250
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE32280
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _SetOverlayAlpha : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x795BE90
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x795BF30
+    public void .ctor(){} // RVA: 0x7ADFCC7D0
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33110
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayColor : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7952CF0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7952D90
+    public void .ctor(){} // RVA: 0x7ADFCC470
+    public void Invoke(){} // RVA: 0x7AB4CD960
+    public void BeginInvoke(){} // RVA: 0x7AEE32F50
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayCurvature : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x794D9B0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x794DA50
+    public void .ctor(){} // RVA: 0x7ADFCC7D0
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33690
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayFlag : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7944340
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79443E0
+    public void .ctor(){} // RVA: 0x7ADFCC130
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE32D00
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayInputMethod : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x793F0C0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x793F160
+    public void .ctor(){} // RVA: 0x7ADFC7E20
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE348B0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayName : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7935F50
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7935FF0
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE329A0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayPreCurvePitch : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7961140
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79611E0
+    public void .ctor(){} // RVA: 0x7ADFCC7D0
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE337F0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayRenderingPid : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7990CB0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7990D50
+    public void .ctor(){} // RVA: 0x7ADFC7E20
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE32BD0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlaySortOrder : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x797CF40
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x797CFE0
+    public void .ctor(){} // RVA: 0x7ADFC7E20
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE333D0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayTexelAspect : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7996DB0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x7996E50
+    public void .ctor(){} // RVA: 0x7ADFCC7D0
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33270
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayTextureBounds : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79CCC60
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79CCD00
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33AB0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _SetOverlayTextureColorSpace : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79CB550
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79CB5F0
+    public void .ctor(){} // RVA: 0x7ADFC7E20
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33950
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayTransformAbsolute : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79C6FF0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79C7090
+    public void .ctor(){} // RVA: 0x7ADFCC2D0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE33CC0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _SetOverlayTransformCursor : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7995110
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79951B0
+    public void .ctor(){} // RVA: 0x7AD6C1380
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE341A0
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _SetOverlayTransformProjection : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79C4B90
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79C4C30
+    public void .ctor(){} // RVA: 0x7ADFC7C30
+    public void Invoke(){} // RVA: 0x7AB112E00
+    public void BeginInvoke(){} // RVA: 0x7AEE34300
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _SetOverlayTransformTrackedDeviceComponent : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79BC490
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79BC530
+    public void .ctor(){} // RVA: 0x7ADFCC2D0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE34000
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetOverlayTransformTrackedDeviceRelative : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79B7F90
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79B8030
+    public void .ctor(){} // RVA: 0x7ADFCC2D0
+    public void Invoke(){} // RVA: 0x7A8234660
+    public void BeginInvoke(){} // RVA: 0x7AEE33E60
+    public void EndInvoke(){} // RVA: 0x7A9CFEA20
 }
 
-public class <>c
+public class _SetOverlayWidthInMeters : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79AC050
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79AC0F0
+    public void .ctor(){} // RVA: 0x7ADFCC7D0
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE33530
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetSkyboxOverride : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79A7950
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79A79F0
+    public void .ctor(){} // RVA: 0x7ADFC90B0
+    public void Invoke(){} // RVA: 0x7A82344F0
+    public void BeginInvoke(){} // RVA: 0x7AEE31C00
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SetStageOverride_Async : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79A51B0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79A5250
+    public void .ctor(){} // RVA: 0x7ADFCDA60
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE32300
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _ShouldAppRenderWithLowResources : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79A0A20
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79A0AC0
+    public void .ctor(){} // RVA: 0x7AB15CF60
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A98D5590
 }
 
-public class <>c
+public class _ShowMirrorWindow : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x799EA00
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x799EAA0
+    public void .ctor(){} // RVA: 0x7A8135E00
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _ShowOverlay : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x7998550
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x79985F0
+    public void .ctor(){} // RVA: 0x7A9726900
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE34430
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _Submit : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x79B32B0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__8_0(){} // RVA: 0x79B3350
+    public void .ctor(){} // RVA: 0x7ADFC6990
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE314D0
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _SubmitExplicitTimingData : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x799CB40
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x799CBE0
+    public void .ctor(){} // RVA: 0x7AA987EB0
+    public void Invoke(){} // RVA: 0x7A8135ED0
+    public void BeginInvoke(){} // RVA: 0x7A8135EE0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _SubmitWithArrayIndex : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x76E64E0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__6_0(){} // RVA: 0x76E6580
+    public void .ctor(){} // RVA: 0x7AEE315D0
+    public void Invoke(){} // RVA: 0x7AB112E00
+    public void BeginInvoke(){} // RVA: 0x7AEE316A0
+    public void EndInvoke(){} // RVA: 0x7A9E3BCE0
 }
 
-public class <>c
+public class _SuspendRendering : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x5F452B0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.ctor>b__4_0(){} // RVA: 0x5F45350
-    public void <Execute>b__7_0(){} // RVA: 0x5F453D0
+    public void .ctor(){} // RVA: 0x7A93C45D0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE31D10
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _UnlockGLSharedTextureForAccess : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x287BAD0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.cctor>b__5_0(){} // RVA: 0x33786E0
-    public void <.cctor>b__5_1(){} // RVA: 0x3B44F70
+    public void .ctor(){} // RVA: 0x7A9C64DA0
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE320C0
+    public void EndInvoke(){} // RVA: 0x7A80D8CA0
 }
 
-public class <>c
+public class _WaitFrameSync : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x287BAD0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.cctor>b__3_0(){} // RVA: 0x287C7D0
+    public void .ctor(){} // RVA: 0x7AB162500
+    public void Invoke(){} // RVA: 0x7A8133090
+    public void BeginInvoke(){} // RVA: 0x7AEE346B0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }
 
-public class <>c
+public class _WaitGetPoses : MulticastDelegate
 {
     // ── Methods ──
-    public void .cctor(){} // RVA: 0x287BAD0
-    public void .ctor(){} // RVA: 0x2DD310
-    public void <.cctor>b__5_0(){} // RVA: 0x33786E0
-    public void <.cctor>b__5_1(){} // RVA: 0x3B44F70
+    public void .ctor(){} // RVA: 0x7ADFCA3E0
+    public void Invoke(){} // RVA: 0x7A89D0820
+    public void BeginInvoke(){} // RVA: 0x7AEE312B0
+    public void EndInvoke(){} // RVA: 0x7A9726A50
 }

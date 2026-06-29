@@ -1,179 +1,179 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 // Classes: 24
-// Methods: 96
+// Methods: 51
 
 namespace ThirdParty.UniTask.Cysharp.Threading.Tasks.Linq
 {
-    public class SelectAwaitWithCancellation`2
+    public class SelectAwaitWithCancellation`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SelectAwait`2
+    public class SelectAwait`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SelectIntAwaitWithCancellation`2
+    public class SelectIntAwaitWithCancellation`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SelectIntAwait`2
+    public class SelectIntAwait`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SelectInt`2
+    public class SelectInt`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SelectManyAwaitWithCancellation`3
+    public class SelectManyAwaitWithCancellation`3 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090 | overloaded x2
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SelectManyAwait`3
+    public class SelectManyAwait`3 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090 | overloaded x2
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SelectMany`3
+    public class SelectMany`3 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2F090 | overloaded x2
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DDC0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Select`2
+    public class Select`2 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SequenceEqual
+    public class SequenceEqual : Object
     {
         // ── Methods ──
-        public void SequenceEqualAsync(){} // RVA: 0x283FA0
+        public void SequenceEqualAsync(){} // RVA: 0x7A8051B10
     }
 
-    public class SingleOperator
+    public class SingleOperator : Object
     {
         // ── Methods ──
-        public void SingleAsync(){} // RVA: 0x283FA0 | overloaded x2
-        public void SingleAwaitAsync(){} // RVA: 0x283FA0
-        public void SingleAwaitWithCancellationAsync(){} // RVA: 0x283FA0
+        public void SingleAsync(){} // RVA: 0x7A8051B10
+        public void SingleAwaitAsync(){} // RVA: 0x7A8051B10
+        public void SingleAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
     }
 
-    public class SkipLast`1
+    public class SkipLast`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2BAA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1D590
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SkipUntilCanceled`1
+    public class SkipUntilCanceled`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1DFE0
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SkipUntil`1
+    public class SkipUntil`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x283FA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A8051B10
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SkipWhileAwaitWithCancellation`1
+    public class SkipWhileAwaitWithCancellation`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SkipWhileAwait`1
+    public class SkipWhileAwait`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SkipWhileIntAwaitWithCancellation`1
+    public class SkipWhileIntAwaitWithCancellation`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SkipWhileIntAwait`1
+    public class SkipWhileIntAwait`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SkipWhileInt`1
+    public class SkipWhileInt`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class SkipWhile`1
+    public class SkipWhile`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DC60
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E18890
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Skip`1
+    public class Skip`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2BAA0
-        public void GetAsyncEnumerator(){}
+        public void .ctor(){} // RVA: 0x7A7E1D590
+        public void GetAsyncEnumerator(){} // RVA: 0x7A7E063E0
     }
 
-    public class Subscribe
+    public class Subscribe : Object
     {
         // ── Methods ──
-        public void SubscribeCore(){} // RVA: 0x283FA0 | overloaded x4
-        public void SubscribeAwaitCore(){} // RVA: 0x283FA0 | overloaded x2
-        public void .cctor(){} // RVA: 0x6D23C30
+        public void SubscribeCore(){} // RVA: 0x7A8051B10
+        public void SubscribeAwaitCore(){} // RVA: 0x7A8051B10
+        public void .cctor(){} // RVA: 0x7AEB12FD0
     }
 
-    public class Sum
+    public class Sum : Object
     {
         // ── Methods ──
-        public void SumAsync(){} // RVA: 0x283FA0 | overloaded x20
-        public void SumAwaitAsync(){} // RVA: 0x283FA0 | overloaded x10
-        public void SumAwaitWithCancellationAsync(){} // RVA: 0x283FA0 | overloaded x10
+        public void SumAsync(){} // RVA: 0x7A8051B10
+        public void SumAwaitAsync(){} // RVA: 0x7A8051B10
+        public void SumAwaitWithCancellationAsync(){} // RVA: 0x7A8051B10
     }
 
-    public class SyncSelectorAsyncEnumerableSorter`2
+    public class SyncSelectorAsyncEnumerableSorter`2 : AsyncEnumerableSorter`1
     {
         // ── Methods ──
-        public void .ctor(){}
-        public void ComputeKeysAsync(){}
-        public void CompareKeys(){} // RVA: 0x14170
+        public void .ctor(){} // RVA: 0x7A7E21DC0
+        public void ComputeKeysAsync(){} // RVA: 0x7A7E00780
+        public void CompareKeys(){} // RVA: 0x7A7E076F0
     }
 
 }

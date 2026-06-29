@@ -1,120 +1,130 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Networking.Pose
-// Classes: 8
-// Methods: 65
+// Classes: 9
+// Methods: 77
 
 namespace VRC.Core.Networking.Pose
 {
-    public class Configuration
+    public class Configuration : Object
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x7643790
+        public void .cctor(){} // RVA: 0x7AF422560
     }
 
-    public class DirectQuantizedPose
+    public class DirectQuantizedPose : PoseCodec`1
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7643F00
-        public void Encode(){} // RVA: 0x76442B0
-        public void CreateFingers(){} // RVA: 0x76448B0
-        public void CreateMuscles(){} // RVA: 0x7644960
-        public void Decode(){} // RVA: 0x7644AF0
-        public void ReadMuscles(){} // RVA: 0x76451E0
-        public void ReadFingers(){} // RVA: 0x7645420
-        public void ReadLegacyFace(){} // RVA: 0x7645550
-        public void ReadPuppet(){} // RVA: 0x7645630
+        public void .ctor(){} // RVA: 0x7AF422CC0
+        public void Encode(){} // RVA: 0x7AF423070
+        public void CreateFingers(){} // RVA: 0x7AF423690
+        public void CreateMuscles(){} // RVA: 0x7AF423740
+        public void Decode(){} // RVA: 0x7AF4238D0
+        public void ReadMuscles(){} // RVA: 0x7AF423FF0
+        public void ReadFingers(){} // RVA: 0x7AF424250
+        public void ReadLegacyFace(){} // RVA: 0x7AF424390
+        public void ReadPuppet(){} // RVA: 0x7AF424480
+        public void lastEncodedMuscles(){} // RVA: 0x7B41AE978
     }
 
     public class IPoseRecorder
     {
         // ── Methods ──
-        public void get_UseDirectPoseCodec(){} // RVA: 0xDBE0
-        public void set_UseDirectPoseCodec(){} // RVA: 0x25130
-        public void UpdatePuppetChannelTypes(){} // RVA: 0x24B10
-        public void Decode(){} // RVA: 0x318E0
+        public void get_UseDirectPoseCodec(){} // RVA: 0x7A7E01900
+        public void set_UseDirectPoseCodec(){} // RVA: 0x7A7E18C30
+        public void UpdatePuppetChannelTypes(){} // RVA: 0x7A7E18800
+        public void Decode(){} // RVA: 0x7A7E1DD40
     }
 
-    public class PoseCodec`1
+    public class PoseCodec`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x24B10
-        public void Encode(){} // RVA: 0x17680
-        public void Decode(){} // RVA: 0x283FA0
+        public void .ctor(){} // RVA: 0x7A7E18800
+        public void Encode(){} // RVA: 0x7A7E06320
+        public void Decode(){} // RVA: 0x7A8051B10
     }
 
-    public class PoseCodec`1
+    public class PoseCodec`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Encode(){} // RVA: 0x17680
-        public void Decode(){}
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Encode(){} // RVA: 0x7A7E06320
+        public void Decode(){} // RVA: 0x7A7E199F0
     }
 
-    public class PoseCodec`1
+    public class PoseCodec`1 : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void Encode(){} // RVA: 0x17680
-        public void Decode(){}
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void Encode(){} // RVA: 0x7A7E06320
+        public void Decode(){} // RVA: 0x7A7E199F0
     }
 
-    public class PoseEvent
+    public class PoseEvent : TweenableValue`1
     {
-        public ushort <poseContents>k__BackingField; // 0x40
-        public float[] muscles; // 0x48
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers8.QuaternionT bodyRotation; // 0x50
-        public byte standingHeight; // 0x58
-        public byte motionFlags; // 0x59
-        public byte miscFlags; // 0x5A
-        public byte handGestureLeft; // 0x5B
-        public byte handGestureRight; // 0x5C
-        public int handGestureIndexLeft; // 0x60
-        public int handGestureIndexRight; // 0x64
-        public float handGestureWeightLeft; // 0x68
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7646490 | overloaded x2
-        public void Finalize(){} // RVA: 0x76470B0
-        public void get_poseContents(){} // RVA: 0x44CB950
-        public void set_poseContents(){} // RVA: 0x6382A00
-        public void get_IsImmobilized(){} // RVA: 0x7647250
-        public void get_IsLocomoting(){} // RVA: 0x7647260
-        public void get_IsSeated(){} // RVA: 0x7647270
-        public void get_InVehicle(){} // RVA: 0x7647280
-        public void get_IsGrounded(){} // RVA: 0x7647290
-        public void get_IsAFK(){} // RVA: 0x76472A0
-        public void get_InStation(){} // RVA: 0x76472B0
-        public void get_IsOwnerIKDisabled(){} // RVA: 0x76472C0
-        public void get_IsMutingSelf(){} // RVA: 0x76472D0
-        public void DeepCopy(){} // RVA: 0x76472E0
-        public void PartialCopy(){} // RVA: 0x76473E0
-        public void IsEmpty(){} // RVA: 0x7647BC0
-        public void Contains(){} // RVA: 0x7647BD0 | overloaded x2
-        public void Remove(){} // RVA: 0x7647BE0 | overloaded x2
-        public void Add(){} // RVA: 0x7647BF0 | overloaded x3
-        public void ClearFlags(){} // RVA: 0x7647C00
-        public void get_Contents(){} // RVA: 0x7647C10
-        public void CountOnes(){} // RVA: 0x7647CC0
-        public void Interpolate(){} // RVA: 0x7647CF0
-        public void Extrapolate(){} // RVA: 0x7647D30
-        public void DecodeGestureIndexFromNetwork(){} // RVA: 0x7647DB0
-        public void DecodeGestureFromNetwork(){} // RVA: 0x7647DC0
+        public void .ctor(){} // RVA: 0x7AF425300
+        public void Finalize(){} // RVA: 0x7AF425F40
+        public void get_poseContents(){} // RVA: 0x7AC2B74D0
+        public void set_poseContents(){} // RVA: 0x7AE16F3A0
+        public void get_IsImmobilized(){} // RVA: 0x7AF4260E0
+        public void get_IsLocomoting(){} // RVA: 0x7AF4260F0
+        public void get_IsSeated(){} // RVA: 0x7AF426100
+        public void get_InVehicle(){} // RVA: 0x7AF426110
+        public void get_IsGrounded(){} // RVA: 0x7AF426120
+        public void get_IsAFK(){} // RVA: 0x7AF426130
+        public void get_InStation(){} // RVA: 0x7AF426140
+        public void get_IsOwnerIKDisabled(){} // RVA: 0x7AF426150
+        public void get_IsMutingSelf(){} // RVA: 0x7AF426160
+        public void DeepCopy(){} // RVA: 0x7AF426170
+        public void PartialCopy(){} // RVA: 0x7AF426270
+        public void IsEmpty(){} // RVA: 0x7AF426A50
+        public void Contains(){} // RVA: 0x7AF426A60
+        public void Remove(){} // RVA: 0x7AF426A70
+        public void Add(){} // RVA: 0x7AF426A80
+        public void ClearFlags(){} // RVA: 0x7AF426A90
+        public void get_Contents(){} // RVA: 0x7AF426AA0
+        public void CountOnes(){} // RVA: 0x7AF426B50
+        public void Interpolate(){} // RVA: 0x7AF426B80
+        public void Extrapolate(){} // RVA: 0x7AF426BC0
+        public void DecodeGestureIndexFromNetwork(){} // RVA: 0x7AF426C40
+        public void DecodeGestureFromNetwork(){} // RVA: 0x7AF426C50
     }
 
-    public class QuantizedPose
+    public class PoseEvent[] : Array
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7648450
-        public void Encode(){} // RVA: 0x7648800
-        public void CreateFingers(){} // RVA: 0x7649090
-        public void CreateMuscles(){} // RVA: 0x7649160
-        public void Decode(){} // RVA: 0x7649320
-        public void ReadHandGestures(){} // RVA: 0x76499B0
-        public void ReadMuscles(){} // RVA: 0x7649B70
-        public void ReadFingers(){} // RVA: 0x7649E40
-        public void ReadEyes(){} // RVA: 0x764A010
-        public void ReadLegacyFace(){} // RVA: 0x764A150
-        public void ReadPuppet(){} // RVA: 0x764A2D0
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2D6630
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E6BD0
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2836C0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class QuantizedPose : PoseCodec`1
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7AF4272D0
+        public void Encode(){} // RVA: 0x7AF427680
+        public void CreateFingers(){} // RVA: 0x7AF427F30
+        public void CreateMuscles(){} // RVA: 0x7AF428000
+        public void Decode(){} // RVA: 0x7AF4281C0
+        public void ReadHandGestures(){} // RVA: 0x7AF428870
+        public void ReadMuscles(){} // RVA: 0x7AF428A30
+        public void ReadFingers(){} // RVA: 0x7AF428D10
+        public void ReadEyes(){} // RVA: 0x7AF428EF0
+        public void ReadLegacyFace(){} // RVA: 0x7AF429030
+        public void ReadPuppet(){} // RVA: 0x7AF4291C0
+        public void lastEncodedMuscles(){} // RVA: 0x7B41AE978
     }
 
 }

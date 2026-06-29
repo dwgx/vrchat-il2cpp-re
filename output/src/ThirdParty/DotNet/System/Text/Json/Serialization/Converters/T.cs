@@ -5,23 +5,23 @@
 
 namespace ThirdParty.DotNet.System.Text.Json.Serialization.Converters
 {
-    public class TimeSpanConverter
+    public class TimeSpanConverter : JsonConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x6367780
-        public void Write(){} // RVA: 0x6368050
-        public void .ctor(){} // RVA: 0x6368310
+        public void Read(){} // RVA: 0x7AE154000
+        public void Write(){} // RVA: 0x7AE1548A0
+        public void .ctor(){} // RVA: 0x7AE154B60
     }
 
-    public class TimeSpanConverter
+    public class TimeSpanConverter : JsonPrimitiveConverter`1
     {
         // ── Methods ──
-        public void Read(){} // RVA: 0x68E5660
-        public void ReadAsPropertyNameCore(){} // RVA: 0x68E5690
-        public void ReadCore(){} // RVA: 0x68E56A0
-        public void Write(){} // RVA: 0x68E5940
-        public void WriteAsPropertyNameCore(){} // RVA: 0x68E5AC0
-        public void .ctor(){} // RVA: 0x68E5C40
+        public void Read(){} // RVA: 0x7AE6D3EE0
+        public void ReadAsPropertyNameCore(){} // RVA: 0x7AE6D3F10
+        public void ReadCore(){} // RVA: 0x7AE6D3F20
+        public void Write(){} // RVA: 0x7AE6D41B0
+        public void WriteAsPropertyNameCore(){} // RVA: 0x7AE6D4330
+        public void .ctor(){} // RVA: 0x7AE6D44B0
     }
 
 }

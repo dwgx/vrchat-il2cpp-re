@@ -1,706 +1,874 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Collections.Generic
 // Classes: 100
-// Methods: 70
+// Methods: 366
 
 namespace ThirdParty.DotNet.System.Collections.Generic
 {
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public ÏÍÏÎÌÏÎÎÌÌÏÎÍÌÏÍÎÏÎÏÍÌÎ key; // 0x10
-        public ÎÎÎÏÎÏÏÎÎÏÎÍÍÏÌÏÍÏÍÏÎÎÌ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public Cinemachine.CinemachineVirtualCameraBase key; // 0x10
-        public UpdateStatus value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public Cinemachine.CinemachineBrain key; // 0x10
-        public UnityEngine.Rendering.PostProcessing.PostProcessLayer value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public ÏÍÎÎÏÎÌÍÍÌÍÎÏÎÎÌÌÏÏÏÍÌÍ value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x37C6C70
-        public void get_Key(){} // RVA: 0x19689B0
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C6CD0
-        public void Deconstruct(){} // RVA: 0x37C6D60
+        public void get_Key(){} // RVA: 0x7A7662BE0
+        public void get_Value(){} // RVA: 0x7A7664CF0
+        public void .ctor(){} // RVA: 0x7A7907ED0
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public UnityEngine.Transform key; // 0x10
-        public UpdateStatus value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public bool <5; // 0x10
-        public VRC.Core.Networking.PositionEvent value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public Google.FlatBuffers32.StringOffset value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public bool <5; // 0x10
-        public VRC.Core.Networking.Pose.PoseEvent value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public ÌÍÌÌÎÌÍÎÌÍÏÌÌÎÍÎÌÌÎÎÏÎÌ key; // 0x10
-        public System.Collections.Generic.Dictionary`2<int,UnityEngine.AnimatorControllerParameter> value; // 0x30
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.ParticleSystem key; // 0x10
-        public int value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x820840
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x1EA9890
-        public void ToString(){} // RVA: 0x37C9CE0
-        public void Deconstruct(){} // RVA: 0x37C9D70
+        public void get_Value(){} // RVA: 0x7A79099A0
+        public void .ctor(){} // RVA: 0x7A7909990
+        public void get_Key(){} // RVA: 0x7A765F070
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public UnityEngine.Light key; // 0x10
-        public int value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public 0x657CA5C0 key; // 0x10
-        public string value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public System.Collections.Generic.List`1<uint> value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public System.ValueTuple`2<string,string> key; // 0x10
-        public string value; // 0x20
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint key; // 0x10
-        public System.ValueTuple`2<uint,uint> value; // 0x14
-    }
-
-    public class KeyValuePair`2
-    {
-        public ÏÎÎÌÎÍÍÍÍÍÍÎÌÍÌÍÍÍÏÎÏÌÌ key; // 0x10
-        public ÍÌÍÎÏÎÎÎÍÏÌÍÏÍÏÏÌÏÎÏÌÍÏ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.Transform key; // 0x10
-        public UnityEngine.Transform value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.Transform key; // 0x10
-        public HeadChopData value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x37CB490
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x1F9BEA0
-        public void ToString(){} // RVA: 0x37C9360
-        public void Deconstruct(){} // RVA: 0x37CB510
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public uint key; // 0x10
-        public TMPro.TMP_SpriteCharacter value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint key; // 0x10
-        public TMPro.TMP_SpriteGlyph value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public TMPro.TMP_Style value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public bool value; // 0x14
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÍÎÎÏÏÌÏÏÍÏÎÎÍÌÏÌÌÌÍÌÍÍÌ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public System.Guid key; // 0x10
-        public Mediapipe.Unity.Experimental.TextureFrame value; // 0x20
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public UnityEngine.Transform value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public 0x65715E98 key; // 0x10
-        public float value; // 0x14
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ItemAttribute value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÍÌÎÍÌÎÎÏÎÎÎÎÍÏÏÌÌÎÎÍÌÎÏ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public System.Collections.Generic.List`1<ÏÌÎÌÌÌÎÍÌÎÎÌÍÍÌÎÍÎÎÏÎÌÏ> value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.GameObject key; // 0x10
-        public VRC.SDKBase.Network.NetworkIDPair value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public 0x65A0B318 key; // 0x10
-        public System.Type value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x37C6C70
-        public void get_Key(){} // RVA: 0x19689B0
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C6CD0
-        public void Deconstruct(){} // RVA: 0x37C6D60
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public long value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x7AAF30
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C8BA0
-        public void Deconstruct(){} // RVA: 0x37C8FA0
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public string key; // 0x10
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.WorldMetadataT value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public VRC.Core.Networking.FlatBuffers.FlatBuffers32.ObjectMetadataPairT value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public bool key; // 0x10
-        public float value; // 0x14
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public ÏÏÌÏÎÍÍÎÏÏÏÏÌÌÌÎÍÍÏÎÌÌÍ<bool> value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public Transmtn.IAcceptMessages value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C9FC0
-        public void Deconstruct(){} // RVA: 0x37C8C30
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public System.DateTime key; // 0x10
-        public Transmtn.DTO.Notifications.Notification value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public System.Threading.Thread key; // 0x10
-        public System.Diagnostics.StackTrace value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public BlobHandles.BlobHandle key; // 0x10
-        public OscCore.OscActionPair value; // 0x20
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public BlobHandles.BlobString value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public VRC.OSCQuery.OSCQueryNode value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public 0x6588F598 key; // 0x10
-        public System.Collections.Generic.Dictionary`2<VRC.OSCQuery.OSCQueryServiceProfile,OscCore.OscClient> value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.MeshFilter key; // 0x10
-        public UnityEngine.Color value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public 0x659C0BA8 key; // 0x10
-        public int value; // 0x14
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÍÎÍÌÍÏÍÌÏÏÌÌÌÎÌÎÎÍÌÍÌÌÎ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÌÎÎÎÎÍÎÌÌÌÏÍÍÏÍÎÍÏÎÌÍÍÎ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public System.Collections.Generic.List`1<VRC.Core.ApiModeration> value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C9FC0
-        public void Deconstruct(){} // RVA: 0x37C8C30
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public string key; // 0x10
-        public System.Collections.Generic.List`1<VRC.Core.ApiPlayerModeration> value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C9FC0
-        public void Deconstruct(){} // RVA: 0x37C8C30
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A7687090
+        public void .ctor(){} // RVA: 0x7A7613500
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public string key; // 0x10
-        public System.Collections.Generic.List`1<VRC.Core.ApiAvatarModeration> value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C9FC0
-        public void Deconstruct(){} // RVA: 0x37C8C30
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A790EFD0
+        public void .ctor(){} // RVA: 0x7A790EF70
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public int key; // 0x10
-        public System.ValueTuple`2<bool,bool> value; // 0x14
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public short key; // 0x10
-        public ÌÍÍÌÍÍÍÎÌÍÎÎÏÌÌÌÏÏÏÏÌÏÏ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÌÍÍÌÍÍÍÎÌÍÎÎÏÌÌÌÏÏÏÏÌÏÏ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public System.Collections.Generic.Dictionary`2<ÌÍÍÌÍÍÍÎÌÍÎÎÏÌÌÌÏÏÏÏÌÏÏ,float> value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÍÍÎÍÎÎÍÏÏÌÎÏÎÎÍÎÌÌÌÍÎÍÏ<System.Collections.Generic.List`1<ÎÎÎÌÌÌÌÍÏÏÏÎÏÎÎÎÍÍÌÏÍÏÏ>> value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÏÏÌÏÎÏÌÍÌÍÌÍÏÎÌÌÏÎÎÍÍÏÌ value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C9FC0
-        public void Deconstruct(){} // RVA: 0x37C8C30
+        public void get_Key(){} // RVA: 0x7A7662BE0
+        public void get_Value(){} // RVA: 0x7A7664CF0
+        public void .ctor(){} // RVA: 0x7A79085F0
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public ÏÍÌÏÌÌÍÎÌÎÍÍÎÎÏÌÎÍÍÎÍÎÏ key; // 0x10
-        public ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ value; // 0x28
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public ÏÍÌÏÌÌÍÎÌÎÍÍÎÎÏÌÎÍÍÎÍÎÏ key; // 0x10
-        public Cysharp.Threading.Tasks.UniTaskCompletionSource`1<ÌÌÍÍÌÍÏÍÌÏÍÏÏÏÌÍÌÏÎÏÎÍÎ> value; // 0x28
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public UnityEngine.UIElements.Panel value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.Transform key; // 0x10
-        public bool value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.GameObject key; // 0x10
-        public int value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public bool key; // 0x10
-        public VRC.Core.Networking.Tween.AnimationEvent value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public bool key; // 0x10
-        public VRC.Core.Networking.Tween.AnimatorEvent value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public System.Collections.Generic.List`1<string> value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C9FC0
-        public void Deconstruct(){} // RVA: 0x37C8C30
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public UnityEngine.Camera key; // 0x10
-        public UnityEngine.Rendering.CommandBuffer value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C9FC0
-        public void Deconstruct(){} // RVA: 0x37C8C30
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A76B8960
+        public void .ctor(){} // RVA: 0x7A7613510
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public int key; // 0x10
-        public System.Collections.Generic.List`1<VRC.Core.ApiModel> value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÍÎÎÍÎÍÌÎÏÎÎÍÌÎÌÌÍÍÍÎÌÍÌ value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x19B3510
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x19689C0
-        public void ToString(){} // RVA: 0x37C9FC0
-        public void Deconstruct(){} // RVA: 0x37C8C30
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public System.Guid key; // 0x10
-        public ÎÏÌÏÌÍÎÌÏÍÎÌÎÏÏÎÎÌÍÌÎÌÎ value; // 0x20
-    }
-
-    public class KeyValuePair`2
-    {
-        public 0x65704148 key; // 0x10
-        public byte[] value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public System.Collections.Generic.List`1<ÌÏÎÌÍÏÎÌÍÏÎÍÎÌÏÌÌÌÏÍÌÌÌ> value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public string key; // 0x10
-        public ÌÏÎÌÍÏÎÌÍÏÎÍÎÌÏÌÌÌÏÍÌÌÌ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public 0x657CA3B0 key; // 0x10
-        public int value; // 0x14
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public PhysSound.PhysSoundAudioSet value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public PhysSound.PhysSoundAudioContainer value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public int key; // 0x10
-        public ÌÍÍÍÏÏÌÎÌÎÍÏÍÎÌÏÌÏÌÏÌÎÏ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public ÌÍÌÌÎÎÌÏÌÍÎÎÎÏÏÏÌÎÏÌÍÌÎ key; // 0x10
-        public ÏÏÏÎÍÏÌÌÎÌÌÎÏÎÌÏÌÌÍÍÍÍÍ value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public ÏÏÎÍÎÎÍÎÌÌÍÍÎÍÍÏÏÎÍÌÏÎÌ key; // 0x10
-        public ÏÌÌÎÍÏÏÏÎÎÎÏÏÌÏÌÏÌÎÌÍÌÎ value; // 0x30
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.Transform key; // 0x10
-        public 0x659C0BA8 value; // 0x18
-    }
-
-    public class KeyValuePair`2
-    {
-        public UnityEngine.Renderer key; // 0x10
-        public bool value; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xBA8650
-        public void get_Key(){} // RVA: 0x1AD4690
-        public void get_Value(){} // RVA: 0x1B06CA0
-        public void ToString(){} // RVA: 0x37C9A90
-        public void Deconstruct(){} // RVA: 0x37C9B20
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public int key; // 0x10
-        public UnityEngine.Color value; // 0x14
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public bool key; // 0x10
-        public ÍÏÌÎÎÎÎÏÏÌÏÎÎÏÎÍÍÎÏÏÌÎÍ value; // 0x18
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public ÏÎÏÍÎÏÏÍÍÎÏÌÏÌÎÎÌÎÏÍÎÎÎ key; // 0x10
-        public int value; // 0x18
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public uint[][] key; // 0x10
-        public object value; // 0x18
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public string key; // 0x10
-        public uint value; // 0x18
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A79088A0
     }
 
-    public class KeyValuePair`2
+    public class KeyValuePair`2 : ValueType
     {
-        public string key; // 0x10
-        public System.Collections.Generic.List`1<ÎÏÏÌÎÎÍÍÏÍÎÏÌÎÏÍÎÍÍÍÍÏÎ> value; // 0x18
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7668B90
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A7662BE0
+        public void get_Value(){} // RVA: 0x7A7664CF0
+        public void .ctor(){} // RVA: 0x7A79085F0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A790B150
+        public void .ctor(){} // RVA: 0x7A790D110
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A76B2030
+        public void .ctor(){} // RVA: 0x7A790D390
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F0A0
+        public void .ctor(){} // RVA: 0x7A7615330
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A790EFD0
+        public void .ctor(){} // RVA: 0x7A790EF70
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A790ED20
+        public void .ctor(){} // RVA: 0x7A790ECC0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A7909FD0
+        public void .ctor(){} // RVA: 0x7A7909FC0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A76C87F0
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A79097F0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A76A6DB0
+        public void get_Value(){} // RVA: 0x7A76A6CB0
+        public void .ctor(){} // RVA: 0x7A7909180
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A76A6DB0
+        public void get_Value(){} // RVA: 0x7A767FF40
+        public void .ctor(){} // RVA: 0x7A790F2E0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A7664BF0
+        public void .ctor(){} // RVA: 0x7A76236F0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A75FEFA0
+        public void .ctor(){} // RVA: 0x7A7613470
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7908700
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7908700
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A790A910
+        public void .ctor(){} // RVA: 0x7A790A8E0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A7662BE0
+        public void get_Value(){} // RVA: 0x7A7664CF0
+        public void .ctor(){} // RVA: 0x7A79085F0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A7718830
+        public void get_Value(){} // RVA: 0x7A7677A70
+        public void .ctor(){} // RVA: 0x7A79104A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A75FEFA0
+        public void .ctor(){} // RVA: 0x7A7613470
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A76236F0
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A7664BF0
+        public void ToString(){} // RVA: 0x7A790D240
+        public void Deconstruct(){} // RVA: 0x7A790D2D0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A790A3E0
+        public void .ctor(){} // RVA: 0x7A790A3D0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7908700
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A75FEFA0
+        public void .ctor(){} // RVA: 0x7A7613470
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A7615330
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F0A0
+        public void ToString(){} // RVA: 0x7A790A5A0
+        public void Deconstruct(){} // RVA: 0x7A790A530
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A767CAD0
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7908700
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F0A0
+        public void .ctor(){} // RVA: 0x7A7615330
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A790CDB0
+        public void .ctor(){} // RVA: 0x7A790CD40
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A790AD40
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A7908AD0
+        public void ToString(){} // RVA: 0x7A790AD60
+        public void Deconstruct(){} // RVA: 0x7A790AE30
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A7664BF0
+        public void .ctor(){} // RVA: 0x7A76236F0
+        public void ToString(){} // RVA: 0x7A790D240
+        public void Deconstruct(){} // RVA: 0x7A790D2D0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A7673D20
+        public void get_Value(){} // RVA: 0x7A76FA980
+        public void .ctor(){} // RVA: 0x7A790F970
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A76B8950
+        public void .ctor(){} // RVA: 0x7A763CAD0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A768E4C0
+        public void .ctor(){} // RVA: 0x7A790C6D0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A76C4680
+        public void .ctor(){} // RVA: 0x7A790B300
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F070
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A790A7A0
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+        public void ToString(){} // RVA: 0x7A790D7B0
+        public void Deconstruct(){} // RVA: 0x7A790D810
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2 : ValueType
+    {
+        // ── Methods ──
+        public void get_Key(){} // RVA: 0x7A765F710
+        public void get_Value(){} // RVA: 0x7A765F080
+        public void .ctor(){} // RVA: 0x7A7661E00
+    }
+
+    public class KeyValuePair`2[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class KeyValuePair`2[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class KeyValuePair`2[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A0FB0
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2A50
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA2501E0
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DE40
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+    }
+
+    public class KeyValuePair`2[] : Array
+    {
+        // ── Methods ──
+        public void System.Collections.Generic.IList`1.Insert(){} // RVA: 0x7AA2E28D0
+        public void System.Collections.Generic.IList`1.RemoveAt(){} // RVA: 0x7ADCBB890
+        public void System.Collections.Generic.IList`1.IndexOf(){} // RVA: 0x7AA2A1530
+        public void System.Collections.Generic.IList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IList`1.set_Item(){} // RVA: 0x7AA2E2920
+        public void System.Collections.Generic.ICollection`1.get_Count(){} // RVA: 0x7ADCB85C0
+        public void System.Collections.Generic.ICollection`1.get_IsReadOnly(){} // RVA: 0x7A81BD750
+        public void System.Collections.Generic.ICollection`1.Clear(){} // RVA: 0x7ADCBB840
+        public void System.Collections.Generic.ICollection`1.Add(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Remove(){} // RVA: 0x7AA250040
+        public void System.Collections.Generic.ICollection`1.Contains(){} // RVA: 0x7AA250600
+        public void System.Collections.Generic.ICollection`1.CopyTo(){} // RVA: 0x7AA29DBF0
+        public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x7AA29DC80
+        public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x7AA29DD90
+        public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x7ADCB85C0
     }
 
 }

@@ -1,426 +1,370 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: ThirdParty.DotNet.System.Security.Cryptography
-// Classes: 27
-// Methods: 289
+// Classes: 26
+// Methods: 232
 
 namespace ThirdParty.DotNet.System.Security.Cryptography
 {
-    public class RC2
-    {
-        public int EffectiveKeySizeValue; // 0x48
-        public System.Security.Cryptography.KeySizes[] s_legalBlockSizes;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C841A0
-        public void get_EffectiveKeySize(){} // RVA: 0x5C842D0
-        public void set_EffectiveKeySize(){} // RVA: 0x5C842E0
-        public void get_KeySize(){} // RVA: 0xFDC9F0
-        public void set_KeySize(){} // RVA: 0x5C84430
-        public void Create(){} // RVA: 0x5C84500 | overloaded x2
-        public void .cctor(){} // RVA: 0x5C845E0
-    }
-
-    public class RC2CryptoServiceProvider
-    {
-        public bool m_use40bitSalt; // 0x50
-        public System.Security.Cryptography.KeySizes[] s_legalKeySizes;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C84860
-        public void get_EffectiveKeySize(){} // RVA: 0xFDC9F0
-        public void set_EffectiveKeySize(){} // RVA: 0x5C84AB0
-        public void get_UseSalt(){} // RVA: 0x3978E0
-        public void set_UseSalt(){} // RVA: 0x3978F0
-        public void CreateEncryptor(){} // RVA: 0x5C84B30
-        public void CreateDecryptor(){} // RVA: 0x5C84C10
-        public void GenerateKey(){} // RVA: 0x5C84CF0
-        public void GenerateIV(){} // RVA: 0x5C84DE0
-        public void .cctor(){} // RVA: 0x5C84EC0
-    }
-
-    public class RC2Transform
+    public class RC2 : SymmetricAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CAA700
-        public void ECB(){} // RVA: 0x5CAAD20
-        public void .cctor(){} // RVA: 0x5CAB840
+        public void .ctor(){} // RVA: 0x7ADA721D0
+        public void get_EffectiveKeySize(){} // RVA: 0x7ADA72300
+        public void set_EffectiveKeySize(){} // RVA: 0x7ADA72310
+        public void get_KeySize(){} // RVA: 0x7A8D863F0
+        public void set_KeySize(){} // RVA: 0x7ADA72460
+        public void Create(){} // RVA: 0x7ADA72530
+        public void .cctor(){} // RVA: 0x7ADA72610
     }
 
-    public class RIPEMD160
+    public class RC2CryptoServiceProvider : RC2
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C89F40
-        public void Create(){} // RVA: 0x5C89FA0 | overloaded x2
+        public void .ctor(){} // RVA: 0x7ADA72890
+        public void get_EffectiveKeySize(){} // RVA: 0x7A8D863F0
+        public void set_EffectiveKeySize(){} // RVA: 0x7ADA72AE0
+        public void get_UseSalt(){} // RVA: 0x7A8192400
+        public void set_UseSalt(){} // RVA: 0x7A8192410
+        public void CreateEncryptor(){} // RVA: 0x7ADA72B60
+        public void CreateDecryptor(){} // RVA: 0x7ADA72C40
+        public void GenerateKey(){} // RVA: 0x7ADA72D20
+        public void GenerateIV(){} // RVA: 0x7ADA72E10
+        public void .cctor(){} // RVA: 0x7ADA72EF0
     }
 
-    public class RIPEMD160Managed
+    public class RC2Transform : SymmetricTransform
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C8A080
-        public void Initialize(){} // RVA: 0x5C8A230
-        public void HashCore(){} // RVA: 0x5C8A290
-        public void HashFinal(){} // RVA: 0x5C8A2A0
-        public void InitializeState(){} // RVA: 0x5C8A2B0
-        public void _HashData(){} // RVA: 0x5C8A340
-        public void _EndHash(){} // RVA: 0x5C8A630
-        public void MDTransform(){} // RVA: 0x5C8A920
-        public void F(){} // RVA: 0x5C8CEF0
-        public void G(){} // RVA: 0x5C8CF00
-        public void H(){} // RVA: 0x5C8CF10
-        public void I(){} // RVA: 0x5C8CF20
-        public void J(){} // RVA: 0x5C8CF30
+        public void .ctor(){} // RVA: 0x7ADA98710
+        public void ECB(){} // RVA: 0x7ADA98DE0
+        public void .cctor(){} // RVA: 0x7ADA99920
     }
 
-    public class RNGCryptoServiceProvider
+    public class RIPEMD160 : HashAlgorithm
     {
         // ── Methods ──
-        public void .cctor(){} // RVA: 0x5CAB920
-        public void .ctor(){} // RVA: 0x5CABAD0 | overloaded x4
-        public void Check(){} // RVA: 0x5CABBC0
-        public void RngOpen(){} // RVA: 0x2DD320
-        public void RngInitialize(){} // RVA: 0x5CABC40
-        public void RngGetBytes(){} // RVA: 0x5CABC50
-        public void RngClose(){} // RVA: 0x5CABCE0
-        public void GetBytes(){} // RVA: 0x5CABFA0 | overloaded x2
-        public void GetNonZeroBytes(){} // RVA: 0x5CAC1D0
-        public void Finalize(){} // RVA: 0x5CAC3C0
-        public void Dispose(){} // RVA: 0x2DD310
+        public void .ctor(){} // RVA: 0x7ADA78190
+        public void Create(){} // RVA: 0x7ADA781F0
     }
 
-    public class RSA
+    public class RIPEMD160Managed : RIPEMD160
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x5C8FA80 | overloaded x4
-        public void Encrypt(){} // RVA: 0x5C8D080
-        public void Decrypt(){} // RVA: 0x5C8D0B0
-        public void SignHash(){} // RVA: 0x5C8D0E0
-        public void VerifyHash(){} // RVA: 0x5C90AA0 | overloaded x2
-        public void HashData(){} // RVA: 0x5C8D170 | overloaded x2
-        public void SignData(){} // RVA: 0x5C8D510 | overloaded x3
-        public void VerifyData(){} // RVA: 0x5C90600 | overloaded x4
-        public void DerivedClassMustOverride(){} // RVA: 0x5C8DD60
-        public void HashAlgorithmNameNullOrEmpty(){} // RVA: 0x5C8DDE0
-        public void DecryptValue(){} // RVA: 0x5C8DE70
-        public void EncryptValue(){} // RVA: 0x5C8DED0
-        public void get_KeyExchangeAlgorithm(){} // RVA: 0x5C8DF30
-        public void get_SignatureAlgorithm(){} // RVA: 0x5C8DF70
-        public void FromXmlString(){} // RVA: 0x5C8DFB0
-        public void ToXmlString(){} // RVA: 0x5C8EFB0
-        public void ExportParameters(){}
-        public void ImportParameters(){}
-        public void TryDecrypt(){} // RVA: 0x5C8FB70
-        public void TryEncrypt(){} // RVA: 0x5C8FD00
-        public void TryHashData(){} // RVA: 0x5C8FE90
-        public void TrySignHash(){} // RVA: 0x5C90180
-        public void TrySignData(){} // RVA: 0x5C90320
-        public void ExportRSAPrivateKey(){} // RVA: 0x5C90B40
-        public void ExportRSAPublicKey(){} // RVA: 0x5C90B80
-        public void ImportRSAPrivateKey(){} // RVA: 0x5C90BC0
-        public void ImportRSAPublicKey(){} // RVA: 0x5C90C00
-        public void TryExportRSAPrivateKey(){} // RVA: 0x5C90C40
-        public void TryExportRSAPublicKey(){} // RVA: 0x5C90C80
+        public void .ctor(){} // RVA: 0x7ADA782D0
+        public void Initialize(){} // RVA: 0x7ADA78480
+        public void HashCore(){} // RVA: 0x7ADA784E0
+        public void HashFinal(){} // RVA: 0x7ADA784F0
+        public void InitializeState(){} // RVA: 0x7ADA78500
+        public void _HashData(){} // RVA: 0x7ADA78590
+        public void _EndHash(){} // RVA: 0x7ADA78880
+        public void MDTransform(){} // RVA: 0x7ADA78B50
+        public void F(){} // RVA: 0x7ADA7B080
+        public void G(){} // RVA: 0x7ADA7B090
+        public void H(){} // RVA: 0x7ADA7B0A0
+        public void I(){} // RVA: 0x7ADA7B0B0
+        public void J(){} // RVA: 0x7ADA7B0C0
     }
 
-    public class RSACryptoServiceProvider
-    {
-        public 0x657E7260 s_UseMachineKeyStore;
-        public int PROV_RSA_FULL;
-        public int AT_KEYEXCHANGE;
-        public int AT_SIGNATURE;
-        public Mono.Security.Cryptography.KeyPairPersistence store; // 0x20
-        public bool persistKey; // 0x28
-        public bool persisted; // 0x29
-
-        // ── Methods ──
-        public void get_SignatureAlgorithm(){} // RVA: 0x5C90CC0
-        public void get_UseMachineKeyStore(){} // RVA: 0x5C90D00
-        public void set_UseMachineKeyStore(){} // RVA: 0x5C90D50
-        public void HashData(){} // RVA: 0x5C90E00 | overloaded x2
-        public void GetAlgorithmId(){} // RVA: 0x5C90E40
-        public void Encrypt(){} // RVA: 0x5C92BD0 | overloaded x2
-        public void Decrypt(){} // RVA: 0x5C92660 | overloaded x2
-        public void SignHash(){} // RVA: 0x5C93B60 | overloaded x3
-        public void VerifyHash(){} // RVA: 0x5C93FD0 | overloaded x3
-        public void PaddingModeNotSupported(){} // RVA: 0x5C91AB0
-        public void .ctor(){} // RVA: 0x5C91CE0 | overloaded x4
-        public void Common(){} // RVA: 0x5C923D0 | overloaded x2
-        public void Finalize(){} // RVA: 0x5AAC950
-        public void get_KeyExchangeAlgorithm(){} // RVA: 0x5C92540
-        public void get_KeySize(){} // RVA: 0x5C92580
-        public void get_PersistKeyInCsp(){} // RVA: 0x6E8A80
-        public void set_PersistKeyInCsp(){} // RVA: 0x5C925B0
-        public void get_PublicOnly(){} // RVA: 0x5C92640
-        public void DecryptValue(){} // RVA: 0x5C92B40
-        public void EncryptValue(){} // RVA: 0x5C92F20
-        public void ExportParameters(){} // RVA: 0x5C92F50
-        public void ImportParameters(){} // RVA: 0x5C930F0
-        public void GetHash(){} // RVA: 0x5C93150
-        public void GetHashFromString(){} // RVA: 0x5C93470
-        public void SignData(){} // RVA: 0x5C936F0 | overloaded x3
-        public void GetHashNameFromOID(){} // RVA: 0x5C937C0
-        public void InternalHashToHashAlgorithm(){} // RVA: 0x5C93BE0
-        public void VerifyData(){} // RVA: 0x5C93D10
-        public void Dispose(){} // RVA: 0x5C94060
-        public void OnKeyGenerated(){} // RVA: 0x5C940B0
-        public void get_CspKeyContainerInfo(){} // RVA: 0x5C94140
-        public void ExportCspBlob(){} // RVA: 0x5C94200
-        public void ImportCspBlob(){} // RVA: 0x5C94280
-    }
-
-    public class RSAEncryptionPadding
-    {
-        public System.Security.Cryptography.RSAEncryptionPadding s_pkcs1;
-        public System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA1; // 0x8
-        public System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA256; // 0x10
-        public System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA384; // 0x18
-        public System.Security.Cryptography.RSAEncryptionPadding s_oaepSHA512; // 0x20
-        public 0x657E6C88 _mode; // 0x10
-        public System.Security.Cryptography.HashAlgorithmName _oaepHashAlgorithm; // 0x18
-
-        // ── Methods ──
-        public void get_Pkcs1(){} // RVA: 0x5C74C90
-        public void get_OaepSHA1(){} // RVA: 0x5C74CF0
-        public void get_OaepSHA256(){} // RVA: 0x5C74D50
-        public void get_OaepSHA384(){} // RVA: 0x5C74DB0
-        public void get_OaepSHA512(){} // RVA: 0x5C74E10
-        public void .ctor(){} // RVA: 0x5C75570 | overloaded x2
-        public void CreateOaep(){} // RVA: 0x5C74E70
-        public void get_Mode(){} // RVA: 0x32A5C0
-        public void get_OaepHashAlgorithm(){} // RVA: 0x2E07C0
-        public void GetHashCode(){} // RVA: 0x5C74F80
-        public void CombineHashCodes(){} // RVA: 0x3C22780
-        public void Equals(){} // RVA: 0x5C75060 | overloaded x2
-        public void op_Equality(){} // RVA: 0x5C75160
-        public void op_Inequality(){} // RVA: 0x5C75180
-        public void ToString(){} // RVA: 0x5C75200
-        public void .cctor(){} // RVA: 0x5C75270
-    }
-
-    public class RSAOAEPKeyExchangeDeformatter
-    {
-        public System.Security.Cryptography.RSA _rsaKey; // 0x10
-        public System.Nullable`1<bool> _rsaOverridesDecrypt; // 0x18
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C94610 | overloaded x2
-        public void get_Parameters(){} // RVA: 0x519240
-        public void set_Parameters(){} // RVA: 0x2DD310
-        public void DecryptKeyExchange(){} // RVA: 0x5C94770
-        public void SetKey(){} // RVA: 0x5C949B0
-        public void get_OverridesDecrypt(){} // RVA: 0x5C94B10
-    }
-
-    public class RSAOAEPKeyExchangeFormatter
-    {
-        public byte[] ParameterValue; // 0x10
-        public System.Security.Cryptography.RSA _rsaKey; // 0x18
-        public System.Nullable`1<bool> _rsaOverridesEncrypt; // 0x20
-        public System.Security.Cryptography.RandomNumberGenerator RngValue; // 0x28
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C94D20 | overloaded x2
-        public void get_Parameter(){} // RVA: 0x5C94E80
-        public void set_Parameter(){} // RVA: 0x5C94F00
-        public void get_Parameters(){} // RVA: 0x519240
-        public void get_Rng(){} // RVA: 0x30B130
-        public void set_Rng(){} // RVA: 0x2DEE90
-        public void SetKey(){} // RVA: 0x5C95060
-        public void CreateKeyExchange(){} // RVA: 0x400EA10 | overloaded x2
-        public void get_OverridesEncrypt(){} // RVA: 0x5C953C0
-    }
-
-    public class RSAPKCS1KeyExchangeDeformatter
-    {
-        public System.Security.Cryptography.RSA _rsaKey; // 0x10
-        public System.Nullable`1<bool> _rsaOverridesDecrypt; // 0x18
-        public System.Security.Cryptography.RandomNumberGenerator RngValue; // 0x20
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C955D0 | overloaded x2
-        public void get_RNG(){} // RVA: 0x30B0C0
-        public void set_RNG(){} // RVA: 0x30B0D0
-        public void get_Parameters(){} // RVA: 0x519240
-        public void set_Parameters(){} // RVA: 0x2DD310
-        public void DecryptKeyExchange(){} // RVA: 0x5C95730
-        public void SetKey(){} // RVA: 0x5C95990
-        public void get_OverridesDecrypt(){} // RVA: 0x5C95AF0
-    }
-
-    public class RSAPKCS1KeyExchangeFormatter
-    {
-        public System.Security.Cryptography.RandomNumberGenerator RngValue; // 0x10
-        public System.Security.Cryptography.RSA _rsaKey; // 0x18
-        public System.Nullable`1<bool> _rsaOverridesEncrypt; // 0x20
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C95D00 | overloaded x2
-        public void get_Parameters(){} // RVA: 0x5C95E60
-        public void get_Rng(){} // RVA: 0x2F8380
-        public void set_Rng(){} // RVA: 0x2DEE30
-        public void SetKey(){} // RVA: 0x5C95EA0
-        public void CreateKeyExchange(){} // RVA: 0x400EA10 | overloaded x2
-        public void get_OverridesEncrypt(){} // RVA: 0x5C96370
-    }
-
-    public class RSAPKCS1SHA1SignatureDescription
+    public class RNGCryptoServiceProvider : RandomNumberGenerator
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C9D1F0
+        public void .cctor(){} // RVA: 0x7ADA99A00
+        public void .ctor(){} // RVA: 0x7ADA99BB0
+        public void Check(){} // RVA: 0x7ADA99CA0
+        public void RngOpen(){} // RVA: 0x7A80D7320
+        public void RngInitialize(){} // RVA: 0x7ADA99D20
+        public void RngGetBytes(){} // RVA: 0x7ADA99D30
+        public void RngClose(){} // RVA: 0x7ADA99DC0
+        public void GetBytes(){} // RVA: 0x7ADA9A040
+        public void GetNonZeroBytes(){} // RVA: 0x7ADA9A240
+        public void Finalize(){} // RVA: 0x7ADA9A430
+        public void Dispose(){} // RVA: 0x7A80D7310
     }
 
-    public class RSAPKCS1SHA256SignatureDescription
+    public class RSA : AsymmetricAlgorithm
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C9D250
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7ADA7DC10
+        public void Encrypt(){} // RVA: 0x7ADA7B210
+        public void Decrypt(){} // RVA: 0x7ADA7B240
+        public void SignHash(){} // RVA: 0x7ADA7B270
+        public void VerifyHash(){} // RVA: 0x7ADA7EC50
+        public void HashData(){} // RVA: 0x7ADA7B300
+        public void SignData(){} // RVA: 0x7ADA7B6A0
+        public void VerifyData(){} // RVA: 0x7ADA7E7A0
+        public void DerivedClassMustOverride(){} // RVA: 0x7ADA7BEF0
+        public void HashAlgorithmNameNullOrEmpty(){} // RVA: 0x7ADA7BF70
+        public void DecryptValue(){} // RVA: 0x7ADA7C000
+        public void EncryptValue(){} // RVA: 0x7ADA7C060
+        public void get_KeyExchangeAlgorithm(){} // RVA: 0x7ADA7C0C0
+        public void get_SignatureAlgorithm(){} // RVA: 0x7ADA7C100
+        public void FromXmlString(){} // RVA: 0x7ADA7C140
+        public void ToXmlString(){} // RVA: 0x7ADA7D140
+        public void ExportParameters(){} // RVA: 0x7A7E00E20
+        public void ImportParameters(){} // RVA: 0x7A7E18800
+        public void TryDecrypt(){} // RVA: 0x7ADA7DD10
+        public void TryEncrypt(){} // RVA: 0x7ADA7DEA0
+        public void TryHashData(){} // RVA: 0x7ADA7E030
+        public void TrySignHash(){} // RVA: 0x7ADA7E320
+        public void TrySignData(){} // RVA: 0x7ADA7E4C0
+        public void ExportRSAPrivateKey(){} // RVA: 0x7ADA7ECF0
+        public void ExportRSAPublicKey(){} // RVA: 0x7ADA7ED30
+        public void ImportRSAPrivateKey(){} // RVA: 0x7ADA7ED70
+        public void ImportRSAPublicKey(){} // RVA: 0x7ADA7EDB0
+        public void TryExportRSAPrivateKey(){} // RVA: 0x7ADA7EDF0
+        public void TryExportRSAPublicKey(){} // RVA: 0x7ADA7EE30
     }
 
-    public class RSAPKCS1SHA384SignatureDescription
+    public class RSACryptoServiceProvider : RSA
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C9D2B0
+        public void get_SignatureAlgorithm(){} // RVA: 0x7ADA7EE70
+        public void get_UseMachineKeyStore(){} // RVA: 0x7ADA7EEB0
+        public void set_UseMachineKeyStore(){} // RVA: 0x7ADA7EF00
+        public void HashData(){} // RVA: 0x7ADA7EFB0
+        public void GetAlgorithmId(){} // RVA: 0x7ADA7EFF0
+        public void Encrypt(){} // RVA: 0x7ADA80D80
+        public void Decrypt(){} // RVA: 0x7ADA80810
+        public void SignHash(){} // RVA: 0x7ADA81D10
+        public void VerifyHash(){} // RVA: 0x7ADA82180
+        public void PaddingModeNotSupported(){} // RVA: 0x7ADA7FC60
+        public void .ctor(){} // RVA: 0x7ADA7FE90
+        public void Common(){} // RVA: 0x7ADA80580
+        public void Finalize(){} // RVA: 0x7AD899E40
+        public void get_KeyExchangeAlgorithm(){} // RVA: 0x7ADA806F0
+        public void get_KeySize(){} // RVA: 0x7ADA80730
+        public void get_PersistKeyInCsp(){} // RVA: 0x7A84A5BD0
+        public void set_PersistKeyInCsp(){} // RVA: 0x7ADA80760
+        public void get_PublicOnly(){} // RVA: 0x7ADA807F0
+        public void DecryptValue(){} // RVA: 0x7ADA80CF0
+        public void EncryptValue(){} // RVA: 0x7ADA810D0
+        public void ExportParameters(){} // RVA: 0x7ADA81100
+        public void ImportParameters(){} // RVA: 0x7ADA812A0
+        public void GetHash(){} // RVA: 0x7ADA81300
+        public void GetHashFromString(){} // RVA: 0x7ADA81620
+        public void SignData(){} // RVA: 0x7ADA818A0
+        public void GetHashNameFromOID(){} // RVA: 0x7ADA81970
+        public void InternalHashToHashAlgorithm(){} // RVA: 0x7ADA81D90
+        public void VerifyData(){} // RVA: 0x7ADA81EC0
+        public void Dispose(){} // RVA: 0x7ADA82210
+        public void OnKeyGenerated(){} // RVA: 0x7ADA82260
+        public void get_CspKeyContainerInfo(){} // RVA: 0x7ADA822F0
+        public void ExportCspBlob(){} // RVA: 0x7ADA823B0
+        public void ImportCspBlob(){} // RVA: 0x7ADA82430
     }
 
-    public class RSAPKCS1SHA512SignatureDescription
+    public class RSAEncryptionPadding : Object
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C9D310
+        public void get_Pkcs1(){} // RVA: 0x7ADA62C80
+        public void get_OaepSHA1(){} // RVA: 0x7ADA62CE0
+        public void get_OaepSHA256(){} // RVA: 0x7ADA62D40
+        public void get_OaepSHA384(){} // RVA: 0x7ADA62DA0
+        public void get_OaepSHA512(){} // RVA: 0x7ADA62E00
+        public void .ctor(){} // RVA: 0x7ADA63560
+        public void CreateOaep(){} // RVA: 0x7ADA62E60
+        public void get_Mode(){} // RVA: 0x7A8124910
+        public void get_OaepHashAlgorithm(){} // RVA: 0x7A80DA7B0
+        public void GetHashCode(){} // RVA: 0x7ADA62F70
+        public void CombineHashCodes(){} // RVA: 0x7ABA13C70
+        public void Equals(){} // RVA: 0x7ADA63050
+        public void op_Equality(){} // RVA: 0x7ADA63150
+        public void op_Inequality(){} // RVA: 0x7ADA63170
+        public void ToString(){} // RVA: 0x7ADA631F0
+        public void .cctor(){} // RVA: 0x7ADA63260
     }
 
-    public class RSAPKCS1SignatureDeformatter
+    public class RSAOAEPKeyExchangeDeformatter : AsymmetricKeyExchangeDeformatter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CAC460 | overloaded x2
-        public void SetHashAlgorithm(){} // RVA: 0x5CAC480
-        public void SetKey(){} // RVA: 0x5CAC530
-        public void VerifySignature(){} // RVA: 0x5CAC690
+        public void .ctor(){} // RVA: 0x7ADA827C0
+        public void get_Parameters(){} // RVA: 0x7A82D1450
+        public void set_Parameters(){} // RVA: 0x7A80D7310
+        public void DecryptKeyExchange(){} // RVA: 0x7ADA82920
+        public void SetKey(){} // RVA: 0x7ADA82B60
+        public void get_OverridesDecrypt(){} // RVA: 0x7ADA82CC0
     }
 
-    public class RSAPKCS1SignatureDescription
+    public class RSAOAEPKeyExchangeFormatter : AsymmetricKeyExchangeFormatter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C9CD60
-        public void CreateDeformatter(){} // RVA: 0x5C9CF90
-        public void CreateFormatter(){} // RVA: 0x5C9D0C0
+        public void .ctor(){} // RVA: 0x7ADA82ED0
+        public void get_Parameter(){} // RVA: 0x7ADA83030
+        public void set_Parameter(){} // RVA: 0x7ADA830B0
+        public void get_Parameters(){} // RVA: 0x7A82D1450
+        public void get_Rng(){} // RVA: 0x7A8105330
+        public void set_Rng(){} // RVA: 0x7A80D8E80
+        public void SetKey(){} // RVA: 0x7ADA83210
+        public void CreateKeyExchange(){} // RVA: 0x7ABE04E20
+        public void get_OverridesEncrypt(){} // RVA: 0x7ADA83570
     }
 
-    public class RSAPKCS1SignatureFormatter
+    public class RSAPKCS1KeyExchangeDeformatter : AsymmetricKeyExchangeDeformatter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5CAC460 | overloaded x2
-        public void CreateSignature(){} // RVA: 0x5CAC880
-        public void SetHashAlgorithm(){} // RVA: 0x5CACA10
-        public void SetKey(){} // RVA: 0x5CACAC0
+        public void .ctor(){} // RVA: 0x7ADA83780
+        public void get_RNG(){} // RVA: 0x7A81052C0
+        public void set_RNG(){} // RVA: 0x7A81052D0
+        public void get_Parameters(){} // RVA: 0x7A82D1450
+        public void set_Parameters(){} // RVA: 0x7A80D7310
+        public void DecryptKeyExchange(){} // RVA: 0x7ADA838E0
+        public void SetKey(){} // RVA: 0x7ADA83B40
+        public void get_OverridesDecrypt(){} // RVA: 0x7ADA83CA0
     }
 
-    public class RSAParameters
-    {
-    }
-
-    public class RSASignaturePadding
-    {
-        public System.Security.Cryptography.RSASignaturePadding s_pkcs1;
-        public System.Security.Cryptography.RSASignaturePadding s_pss; // 0x8
-        public 0x657E6D38 _mode; // 0x10
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C759B0 | overloaded x2
-        public void get_Pkcs1(){} // RVA: 0x5C755A0
-        public void get_Pss(){} // RVA: 0x5C75600
-        public void get_Mode(){} // RVA: 0x32A5C0
-        public void GetHashCode(){} // RVA: 0x32A5C0
-        public void Equals(){} // RVA: 0x5C756C0 | overloaded x2
-        public void op_Equality(){} // RVA: 0x5C75780
-        public void op_Inequality(){} // RVA: 0x5C757A0
-        public void ToString(){} // RVA: 0x5C75820
-        public void .cctor(){} // RVA: 0x5C75880
-    }
-
-    public class RandomNumberGenerator
+    public class RSAPKCS1KeyExchangeFormatter : AsymmetricKeyExchangeFormatter
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x5C83670 | overloaded x2
-        public void Dispose(){} // RVA: 0x2DD310 | overloaded x2
-        public void GetBytes(){} // RVA: 0x5C83B10 | overloaded x3
-        public void GetNonZeroBytes(){} // RVA: 0x5C83D60 | overloaded x2
-        public void Fill(){} // RVA: 0x5C83A40
-        public void FillSpan(){} // RVA: 0x5C83AB0
-        public void GetInt32(){} // RVA: 0x5C84110 | overloaded x2
+        public void .ctor(){} // RVA: 0x7ADA83EB0
+        public void get_Parameters(){} // RVA: 0x7ADA84010
+        public void get_Rng(){} // RVA: 0x7A80F2570
+        public void set_Rng(){} // RVA: 0x7A80D8E20
+        public void SetKey(){} // RVA: 0x7ADA84050
+        public void CreateKeyExchange(){} // RVA: 0x7ABE04E20
+        public void get_OverridesEncrypt(){} // RVA: 0x7ADA84520
     }
 
-    public class Rfc2898DeriveBytes
+    public class RSAPKCS1SHA1SignatureDescription : RSAPKCS1SignatureDescription
     {
-        public int MinimumSaltSize;
-        public byte[] _password; // 0x10
-        public byte[] _salt; // 0x18
-
         // ── Methods ──
-        public void get_HashAlgorithm(){} // RVA: 0x37E0E0
-        public void .ctor(){} // RVA: 0x5C6C4B0 | overloaded x8
-        public void get_IterationCount(){} // RVA: 0x760030
-        public void set_IterationCount(){} // RVA: 0x5C6C6C0
-        public void get_Salt(){} // RVA: 0x5C6C750
-        public void set_Salt(){} // RVA: 0x5C6C7D0
-        public void Dispose(){} // RVA: 0x5C6C950
-        public void GetBytes(){} // RVA: 0x5C6CA20
-        public void CryptDeriveKey(){} // RVA: 0x5C6CBD0
-        public void Reset(){} // RVA: 0x5C6CC10
-        public void OpenHmac(){} // RVA: 0x5C6CC20
-        public void Initialize(){} // RVA: 0x5C6CF00
-        public void Func(){} // RVA: 0x5C6CFC0
+        public void .ctor(){} // RVA: 0x7ADA8B5D0
     }
 
-    public class Rijndael
+    public class RSAPKCS1SHA256SignatureDescription : RSAPKCS1SignatureDescription
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C85020
-        public void Create(){} // RVA: 0x5C851A0 | overloaded x2
-        public void .cctor(){} // RVA: 0x5C85280
+        public void .ctor(){} // RVA: 0x7ADA8B630
     }
 
-    public class RijndaelManaged
+    public class RSAPKCS1SHA384SignatureDescription : RSAPKCS1SignatureDescription
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C85500
-        public void CreateEncryptor(){} // RVA: 0x5C856A0
-        public void CreateDecryptor(){} // RVA: 0x5C857D0
-        public void GenerateKey(){} // RVA: 0x5C85900
-        public void GenerateIV(){} // RVA: 0x5C859B0
-        public void NewEncryptor(){} // RVA: 0x5C85A60
+        public void .ctor(){} // RVA: 0x7ADA8B690
     }
 
-    public class RijndaelManagedTransform
+    public class RSAPKCS1SHA512SignatureDescription : RSAPKCS1SignatureDescription
     {
-        public 0x657E70A8 m_cipherMode; // 0x10
-        public 0x657E7100 m_paddingValue; // 0x14
-        public 0x657E7C58 m_transformMode; // 0x18
-        public int m_blockSizeBits; // 0x1C
-        public int m_blockSizeBytes; // 0x20
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x5C89F10 | overloaded x2
-        public void Dispose(){} // RVA: 0x5C86470 | overloaded x2
-        public void Clear(){} // RVA: 0x5C86460
-        public void get_BlockSizeValue(){} // RVA: 0x197C3B0
-        public void get_InputBlockSize(){} // RVA: 0xCEF5B0
-        public void get_OutputBlockSize(){} // RVA: 0x791DC0
-        public void get_CanTransformMultipleBlocks(){} // RVA: 0x3C2850
-        public void get_CanReuseTransform(){} // RVA: 0x3C2850
-        public void TransformBlock(){} // RVA: 0x5C86740
-        public void TransformFinalBlock(){} // RVA: 0x5C86C10
-        public void Reset(){} // RVA: 0x5C87050
-        public void EncryptData(){} // RVA: 0x5C871D0
-        public void DecryptData(){} // RVA: 0x5C87FB0
-        public void Enc(){} // RVA: 0x5C88EF0
-        public void Dec(){} // RVA: 0x5C89100
-        public void GenerateKeyExpansion(){} // RVA: 0x5C89330
-        public void rot1(){} // RVA: 0x5C899A0
-        public void rot2(){} // RVA: 0x5C899B0
-        public void rot3(){} // RVA: 0x5C899C0
-        public void SubWord(){} // RVA: 0x5C899D0
-        public void MulX(){} // RVA: 0x5C89AB0
-        public void .cctor(){} // RVA: 0x5C89AE0
+        public void .ctor(){} // RVA: 0x7ADA8B6F0
+    }
+
+    public class RSAPKCS1SignatureDeformatter : AsymmetricSignatureDeformatter
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADA9A4D0
+        public void SetHashAlgorithm(){} // RVA: 0x7ADA9A4F0
+        public void SetKey(){} // RVA: 0x7ADA9A5A0
+        public void VerifySignature(){} // RVA: 0x7ADA9A700
+    }
+
+    public class RSAPKCS1SignatureDescription : SignatureDescription
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADA8B140
+        public void CreateDeformatter(){} // RVA: 0x7ADA8B370
+        public void CreateFormatter(){} // RVA: 0x7ADA8B4A0
+    }
+
+    public class RSAPKCS1SignatureFormatter : AsymmetricSignatureFormatter
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADA9A4D0
+        public void CreateSignature(){} // RVA: 0x7ADA9A8F0
+        public void SetHashAlgorithm(){} // RVA: 0x7ADA9AA80
+        public void SetKey(){} // RVA: 0x7ADA9AB30
+    }
+
+    public class RSASignaturePadding : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADA639A0
+        public void get_Pkcs1(){} // RVA: 0x7ADA63590
+        public void get_Pss(){} // RVA: 0x7ADA635F0
+        public void get_Mode(){} // RVA: 0x7A8124910
+        public void GetHashCode(){} // RVA: 0x7A8124910
+        public void Equals(){} // RVA: 0x7ADA636B0
+        public void op_Equality(){} // RVA: 0x7ADA63770
+        public void op_Inequality(){} // RVA: 0x7ADA63790
+        public void ToString(){} // RVA: 0x7ADA63810
+        public void .cctor(){} // RVA: 0x7ADA63870
+    }
+
+    public class RandomNumberGenerator : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7ADA716B0
+        public void Dispose(){} // RVA: 0x7A80D7310
+        public void GetBytes(){} // RVA: 0x7ADA71B50
+        public void GetNonZeroBytes(){} // RVA: 0x7ADA71D90
+        public void Fill(){} // RVA: 0x7ADA71A80
+        public void FillSpan(){} // RVA: 0x7ADA71AF0
+        public void GetInt32(){} // RVA: 0x7ADA72140
+    }
+
+    public class Rfc2898DeriveBytes : DeriveBytes
+    {
+        // ── Methods ──
+        public void get_HashAlgorithm(){} // RVA: 0x7A8178B90
+        public void .ctor(){} // RVA: 0x7ADA5A4D0
+        public void get_IterationCount(){} // RVA: 0x7A851DB90
+        public void set_IterationCount(){} // RVA: 0x7ADA5A6E0
+        public void get_Salt(){} // RVA: 0x7ADA5A770
+        public void set_Salt(){} // RVA: 0x7ADA5A7F0
+        public void Dispose(){} // RVA: 0x7ADA5A970
+        public void GetBytes(){} // RVA: 0x7ADA5AA40
+        public void CryptDeriveKey(){} // RVA: 0x7ADA5ABF0
+        public void Reset(){} // RVA: 0x7ADA5AC30
+        public void OpenHmac(){} // RVA: 0x7ADA5AC40
+        public void Initialize(){} // RVA: 0x7ADA5AF20
+        public void Func(){} // RVA: 0x7ADA5AFE0
+    }
+
+    public class Rijndael : SymmetricAlgorithm
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADA73050
+        public void Create(){} // RVA: 0x7ADA731D0
+        public void .cctor(){} // RVA: 0x7ADA732B0
+    }
+
+    public class RijndaelManaged : Rijndael
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADA73530
+        public void CreateEncryptor(){} // RVA: 0x7ADA736D0
+        public void CreateDecryptor(){} // RVA: 0x7ADA73800
+        public void GenerateKey(){} // RVA: 0x7ADA73930
+        public void GenerateIV(){} // RVA: 0x7ADA739E0
+        public void NewEncryptor(){} // RVA: 0x7ADA73A90
+    }
+
+    public class RijndaelManagedTransform : Object
+    {
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x7ADA78160
+        public void Dispose(){} // RVA: 0x7ADA744E0
+        public void Clear(){} // RVA: 0x7ADA744D0
+        public void get_BlockSizeValue(){} // RVA: 0x7A9739200
+        public void get_InputBlockSize(){} // RVA: 0x7A8AB15F0
+        public void get_OutputBlockSize(){} // RVA: 0x7A854FDE0
+        public void get_CanTransformMultipleBlocks(){} // RVA: 0x7A81BD750
+        public void get_CanReuseTransform(){} // RVA: 0x7A81BD750
+        public void TransformBlock(){} // RVA: 0x7ADA747B0
+        public void TransformFinalBlock(){} // RVA: 0x7ADA74C80
+        public void Reset(){} // RVA: 0x7ADA750B0
+        public void EncryptData(){} // RVA: 0x7ADA75230
+        public void DecryptData(){} // RVA: 0x7ADA760B0
+        public void Enc(){} // RVA: 0x7ADA770E0
+        public void Dec(){} // RVA: 0x7ADA772F0
+        public void GenerateKeyExpansion(){} // RVA: 0x7ADA77520
+        public void rot1(){} // RVA: 0x7ADA77BE0
+        public void rot2(){} // RVA: 0x7ADA77BF0
+        public void rot3(){} // RVA: 0x7ADA77C00
+        public void SubWord(){} // RVA: 0x7ADA77C10
+        public void MulX(){} // RVA: 0x7ADA77D00
+        public void .cctor(){} // RVA: 0x7ADA77D30
     }
 
 }

@@ -5,100 +5,87 @@
 
 namespace ThirdParty.DotNet.System.Linq.Expressions.Interpreter
 {
-    public class ScriptingRuntimeHelpers
+    public class ScriptingRuntimeHelpers : Object
     {
         // ── Methods ──
-        public void Int32ToObject(){} // RVA: 0x665AEB0
-        public void GetPrimitiveDefaultValue(){} // RVA: 0x665B020
+        public void Int32ToObject(){} // RVA: 0x7AE449970
+        public void GetPrimitiveDefaultValue(){} // RVA: 0x7AE449AE0
     }
 
-    public class SetArrayItemInstruction
+    public class SetArrayItemInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.SetArrayItemInstruction Instance;
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DD310
-        public void get_ConsumedStack(){} // RVA: 0xA308B0
-        public void get_InstructionName(){} // RVA: 0x660DEC0
-        public void Run(){} // RVA: 0x660DF00
-        public void .cctor(){} // RVA: 0x660E020
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void get_ConsumedStack(){} // RVA: 0x7A87EE0F0
+        public void get_InstructionName(){} // RVA: 0x7AE3FC950
+        public void Run(){} // RVA: 0x7AE3FC990
+        public void .cctor(){} // RVA: 0x7AE3FCAB0
     }
 
-    public class StoreFieldInstruction
+    public class StoreFieldInstruction : FieldInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_InstructionName(){} // RVA: 0x6618DC0
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void Run(){} // RVA: 0x6618E00
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_InstructionName(){} // RVA: 0x7AE4078D0
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void Run(){} // RVA: 0x7AE407910
     }
 
-    public class StoreLocalBoxedInstruction
+    public class StoreLocalBoxedInstruction : LocalAccessInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6645D50
-        public void Run(){} // RVA: 0x6645D90
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE434710
+        public void Run(){} // RVA: 0x7AE434750
     }
 
-    public class StoreLocalInstruction
+    public class StoreLocalInstruction : LocalAccessInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2E00C0
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6645AC0
-        public void Run(){} // RVA: 0x6645B00
-        public void BoxIfIndexMatches(){} // RVA: 0x6645BA0
+        public void .ctor(){} // RVA: 0x7A80DA0C0
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE434480
+        public void Run(){} // RVA: 0x7AE4344C0
+        public void BoxIfIndexMatches(){} // RVA: 0x7AE434560
     }
 
-    public class StoreStaticFieldInstruction
+    public class StoreStaticFieldInstruction : FieldInstruction
     {
         // ── Methods ──
-        public void .ctor(){} // RVA: 0x2DEE30
-        public void get_InstructionName(){} // RVA: 0x6618E80
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void Run(){} // RVA: 0x6618EC0
+        public void .ctor(){} // RVA: 0x7A80D8E20
+        public void get_InstructionName(){} // RVA: 0x7AE407990
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void Run(){} // RVA: 0x7AE4079D0
     }
 
-    public class StringSwitchInstruction
+    public class StringSwitchInstruction : Instruction
     {
-        public System.Collections.Generic.Dictionary`2<string,int> _cases; // 0x10
-        public System.Runtime.CompilerServices.StrongBox`1<int> _nullCase; // 0x18
-
         // ── Methods ──
-        public void .ctor(){} // RVA: 0xF19AE0
-        public void get_InstructionName(){} // RVA: 0x66135D0
-        public void get_ConsumedStack(){} // RVA: 0x3CFAF0
-        public void Run(){} // RVA: 0x6613610
+        public void .ctor(){} // RVA: 0x7A8CE4080
+        public void get_InstructionName(){} // RVA: 0x7AE402080
+        public void get_ConsumedStack(){} // RVA: 0x7A81CA9D0
+        public void Run(){} // RVA: 0x7AE4020C0
     }
 
-    public class SubInstruction
+    public class SubInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6654B70
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x6654BB0
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE4435D0
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE443610
     }
 
-    public class SubOvfInstruction
+    public class SubOvfInstruction : Instruction
     {
-        public System.Linq.Expressions.Interpreter.Instruction s_Int16;
-        public System.Linq.Expressions.Interpreter.Instruction s_Int32; // 0x8
-        public System.Linq.Expressions.Interpreter.Instruction s_Int64; // 0x10
-
         // ── Methods ──
-        public void get_ConsumedStack(){} // RVA: 0x3E2CB0
-        public void get_ProducedStack(){} // RVA: 0x3CFAF0
-        public void get_InstructionName(){} // RVA: 0x6655B10
-        public void .ctor(){} // RVA: 0x2DD310
-        public void Create(){} // RVA: 0x6655B50
+        public void get_ConsumedStack(){} // RVA: 0x7A81DDCC0
+        public void get_ProducedStack(){} // RVA: 0x7A81CA9D0
+        public void get_InstructionName(){} // RVA: 0x7AE444590
+        public void .ctor(){} // RVA: 0x7A80D7310
+        public void Create(){} // RVA: 0x7AE4445D0
     }
 
 }
