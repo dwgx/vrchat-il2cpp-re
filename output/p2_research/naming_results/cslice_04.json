@@ -1,0 +1,74 @@
+[
+  {
+    "obf_class": "BackingFieldBaseImpl_BE25",
+    "proposed_name": "FavoriteAreaListManager",
+    "confidence": "medium",
+    "evidence": "两个收藏域 callee(FavoriteArea::FetchLists + FavoriteAreaListFetcher::GetCachedPtr)配合 Buffer::Memcpy/Array::Clear 构建列表数组并经 VRCLogger 记日志,指向收藏区列表管理"
+  },
+  {
+    "obf_class": "BaseClass45Impl_D713",
+    "proposed_name": "TweenAnimationController",
+    "confidence": "medium",
+    "evidence": "DOTween::Kill + TweenManager::FilteredOperation 两个补间动画 callee,配合 FindObjectsByType/FirstOrDefault 查找目标对象后驱动 tween"
+  },
+  {
+    "obf_class": "BaseClass45Impl_42A0",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4 的 Init/Find/Destroy/ForceLoad 通用对象生命周期 + Monitor 锁,无具体子系统领域信号,且与 4E61/84C7 签名几乎一致,宁缺毋滥"
+  },
+  {
+    "obf_class": "BackingFieldBase_k__BackingField_26B8",
+    "proposed_name": "ApiFileVersionResolver",
+    "confidence": "medium",
+    "evidence": "ApiFile::GetLatestCompleteVersionNumber + ApiFile::GetVersion 两个 ApiFile 版本 callee,配合 String::Concat/Buffer::Memcpy,指向 ApiFile 版本解析"
+  },
+  {
+    "obf_class": "BaseClass45Impl_4E61",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "纯 UnityObjectWrapper_4 Init/Find/Destroy 通用对象生命周期 boilerplate,无领域子系统信号"
+  },
+  {
+    "obf_class": "BaseClass45Impl_84C7",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "与 4E61 同签名的 UnityObjectWrapper_4 通用生命周期 callee,无可辨别领域"
+  },
+  {
+    "obf_class": "BaseClass45Impl_DA9B",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "Enumerable::Skip/Error::ArgumentNull/FindObjectsByType/String::FormatHelper 信号互相不自洽,看不出单一领域"
+  },
+  {
+    "obf_class": "BaseClass52Impl_2A54",
+    "proposed_name": "StyleElementColorParser",
+    "confidence": "medium",
+    "evidence": "ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy 指向解析 HTML 颜色字符串并设置样式元素颜色"
+  },
+  {
+    "obf_class": "BackingFieldBase_k__BackingFieldImpl_F86A",
+    "proposed_name": "LogColorFormatter",
+    "confidence": "low",
+    "evidence": "VRCLogger::get_GlobalLogger + ZLoggerInterpolatedStringHandler::AppendLiteral 两个日志 callee 为主,配合 ColorUtility::TryParseHtmlString,疑为带颜色的日志格式化"
+  },
+  {
+    "obf_class": "BaseClass45Impl_E847",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "Texture2D::get_whiteTexture/NativeObjectCreateDestroyWrapper::IsNativeObjectAlive/FirstOrDefault 信号混杂,单一纹理 callee 不足以定域"
+  },
+  {
+    "obf_class": "BaseClass52Impl_A946",
+    "proposed_name": "RegexCacheHelper",
+    "confidence": "low",
+    "evidence": "RegexCache::GetCachedPtr 指向正则缓存使用,其余仅 ThrowHelper 边界检查,领域信号偏单薄"
+  },
+  {
+    "obf_class": "BaseClass52Impl_AE72",
+    "proposed_name": "StyleElementColorParser",
+    "confidence": "medium",
+    "evidence": "与 2A54 同签名:ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy,解析 HTML 颜色并设置样式元素颜色"
+  }
+]

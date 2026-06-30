@@ -1,18 +1,10 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Udon.Serialization.OdinSerializer
-// Classes: 4
-// Methods: 26
+// Classes: 3
+// Methods: 23
 
 namespace VRC.Udon.Serialization.OdinSerializer
 {
-    public class FileReadType : EasyBaseFormatter`1
-    {
-        // ── Methods ──
-        public void ReadDataEntry(){} // RVA: 0x89DAB0
-        public void WriteDataEntries(){} // RVA: 0x8943B0
-        public void .ctor(){} // RVA: 0x894290
-    }
-
     public class FormatterEmitter : Object
     {
         public object helperFormatterNameId;

@@ -1,0 +1,302 @@
+{
+  "_about": "Static-analysis hook map for capturing JSON key->class leaks via Newtonsoft.Json deserialisation. See JSON_HOOK_DESIGN.md.",
+  "newtonsoft_core_hooks": [
+    {
+      "ea": "0x186a71520",
+      "symbol": "JsonSerializerInternalReader::SetPropertyValue",
+      "range": "asm_copy_A(0x186)",
+      "why": "PRIME HOOK. Called once per JSON property. Args carry the JsonProperty (-> get_UnderlyingName = the real field name) and the target object being filled (-> its il2cpp class). One hook = (key, target_class) for every DTO."
+    },
+    {
+      "ea": "0x18818f6d0",
+      "symbol": "JsonSerializerInternalReader::SetPropertyValue",
+      "range": "asm_copy_B(0x188)",
+      "why": "PRIME HOOK. Called once per JSON property. Args carry the JsonProperty (-> get_UnderlyingName = the real field name) and the target object being filled (-> its il2cpp class). One hook = (key, target_class) for every DTO."
+    },
+    {
+      "ea": "0x186a78ea0",
+      "symbol": "JsonSerializerInternalReader::PopulateObject",
+      "range": "asm_copy_A(0x186)",
+      "why": "Per-object property loop. Holds the target object + its JsonObjectContract for the whole deserialise of one object; hook to bracket a class's key set."
+    },
+    {
+      "ea": "0x188196940",
+      "symbol": "JsonSerializerInternalReader::PopulateObject",
+      "range": "asm_copy_B(0x188)",
+      "why": "Per-object property loop. Holds the target object + its JsonObjectContract for the whole deserialise of one object; hook to bracket a class's key set."
+    },
+    {
+      "ea": "0x186a7a8e0",
+      "symbol": "JsonSerializerInternalReader::SetPropertyPresence",
+      "range": "asm_copy_A(0x186)",
+      "why": "Records which property was just seen on the target; corroborates the key stream feeding one object even when SetPropertyValue is short-circuited."
+    },
+    {
+      "ea": "0x188198520",
+      "symbol": "JsonSerializerInternalReader::SetPropertyPresence",
+      "range": "asm_copy_B(0x188)",
+      "why": "Records which property was just seen on the target; corroborates the key stream feeding one object even when SetPropertyValue is short-circuited."
+    },
+    {
+      "ea": "0x186a71930",
+      "symbol": "JsonSerializerInternalReader::CalculatePropertyDetails",
+      "range": "asm_copy_A(0x186)",
+      "why": "Resolves the JsonProperty for the current reader token; reading its JsonProperty arg gives the key name before the value is materialised."
+    },
+    {
+      "ea": "0x18818fab0",
+      "symbol": "JsonSerializerInternalReader::CalculatePropertyDetails",
+      "range": "asm_copy_B(0x188)",
+      "why": "Resolves the JsonProperty for the current reader token; reading its JsonProperty arg gives the key name before the value is materialised."
+    },
+    {
+      "ea": "0x186a78bb0",
+      "symbol": "JsonSerializerInternalReader::CreateNewObject",
+      "range": "asm_copy_A(0x186)",
+      "why": "Instantiates the target before population. Hook to capture the contract's CreatedType (the obf class) and tag the object identity for later keys."
+    },
+    {
+      "ea": "0x188196650",
+      "symbol": "JsonSerializerInternalReader::CreateNewObject",
+      "range": "asm_copy_B(0x188)",
+      "why": "Instantiates the target before population. Hook to capture the contract's CreatedType (the obf class) and tag the object identity for later keys."
+    },
+    {
+      "ea": "0x186a6db30",
+      "symbol": "JsonSerializerInternalReader::CreateObject",
+      "range": "asm_copy_A(0x186)",
+      "why": "Outer object-creation dispatch (metadata/$type, converter, plain object); sees the JsonObjectContract -> CreatedType for the class about to be filled."
+    },
+    {
+      "ea": "0x18818bd90",
+      "symbol": "JsonSerializerInternalReader::CreateObject",
+      "range": "asm_copy_B(0x188)",
+      "why": "Outer object-creation dispatch (metadata/$type, converter, plain object); sees the JsonObjectContract -> CreatedType for the class about to be filled."
+    },
+    {
+      "ea": "0x186a762c0",
+      "symbol": "JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters",
+      "range": "asm_copy_A(0x186)",
+      "why": "Immutable-DTO path: values are passed to a parameterized constructor, so SetPropertyValue never fires. Hook here for ctor-arg DTOs (record types)."
+    },
+    {
+      "ea": "0x188193a90",
+      "symbol": "JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters",
+      "range": "asm_copy_B(0x188)",
+      "why": "Immutable-DTO path: values are passed to a parameterized constructor, so SetPropertyValue never fires. Hook here for ctor-arg DTOs (record types)."
+    },
+    {
+      "ea": "0x186a77fd0",
+      "symbol": "JsonSerializerInternalReader::ResolvePropertyAndCreatorValues",
+      "range": "asm_copy_A(0x186)",
+      "why": "Collects (property, value) pairs for the constructor path above; carries the key names for ctor-populated DTOs that SetPropertyValue would miss."
+    },
+    {
+      "ea": "0x1881957c0",
+      "symbol": "JsonSerializerInternalReader::ResolvePropertyAndCreatorValues",
+      "range": "asm_copy_B(0x188)",
+      "why": "Collects (property, value) pairs for the constructor path above; carries the key names for ctor-populated DTOs that SetPropertyValue would miss."
+    },
+    {
+      "ea": "0x186a6c4f0",
+      "symbol": "JsonSerializerInternalReader::Deserialize",
+      "range": "asm_copy_A(0x186)",
+      "why": "Top of the internal reader. Sees the requested root type; brackets a whole deserialise call so captured keys can be attributed to one root object."
+    },
+    {
+      "ea": "0x18818a720",
+      "symbol": "JsonSerializerInternalReader::Deserialize",
+      "range": "asm_copy_B(0x188)",
+      "why": "Top of the internal reader. Sees the requested root type; brackets a whole deserialise call so captured keys can be attributed to one root object."
+    },
+    {
+      "ea": "0x1831135c0",
+      "symbol": "JsonConvert::DeserializeObject",
+      "range": "other",
+      "why": "Public entry VRChat calls. Coarse, but its Type arg names the requested root class -- a sanity anchor for the key stream that follows."
+    },
+    {
+      "ea": "0x188147bb0",
+      "symbol": "JsonConvert::DeserializeObject",
+      "range": "asm_copy_B(0x188)",
+      "why": "Public entry VRChat calls. Coarse, but its Type arg names the requested root class -- a sanity anchor for the key stream that follows."
+    },
+    {
+      "ea": "0x1869dc4b0",
+      "symbol": "JsonSerializer::Deserialize",
+      "range": "asm_copy_A(0x186)",
+      "why": "Serializer-level entry between JsonConvert and the internal reader; useful if a call site uses a preconfigured JsonSerializer instead of JsonConvert."
+    },
+    {
+      "ea": "0x18730b570",
+      "symbol": "JsonSerializer::Deserialize",
+      "range": "other",
+      "why": "Serializer-level entry between JsonConvert and the internal reader; useful if a call site uses a preconfigured JsonSerializer instead of JsonConvert."
+    },
+    {
+      "ea": "0x18814f820",
+      "symbol": "JsonSerializer::Deserialize",
+      "range": "asm_copy_B(0x188)",
+      "why": "Serializer-level entry between JsonConvert and the internal reader; useful if a call site uses a preconfigured JsonSerializer instead of JsonConvert."
+    }
+  ],
+  "support_accessors": [
+    {
+      "ea": "0x180be2c60",
+      "symbol": "JsonProperty::get_UnderlyingName",
+      "range": "other",
+      "why": "JsonProperty arg -> the real (pre-rename) field name = the JSON key."
+    },
+    {
+      "ea": "0x186a6a400",
+      "symbol": "JsonProperty::set_PropertyName",
+      "range": "asm_copy_A(0x186)",
+      "why": "Alt key source; the serialised key as it appears on the wire."
+    },
+    {
+      "ea": "0x188188ff0",
+      "symbol": "JsonProperty::set_PropertyName",
+      "range": "asm_copy_B(0x188)",
+      "why": "Alt key source; the serialised key as it appears on the wire."
+    },
+    {
+      "ea": "0x186a65170",
+      "symbol": "JsonContract::set_CreatedType",
+      "range": "asm_copy_A(0x186)",
+      "why": "Contract -> the il2cpp Type being built = the obf class identity."
+    },
+    {
+      "ea": "0x188185230",
+      "symbol": "JsonContract::set_CreatedType",
+      "range": "asm_copy_B(0x188)",
+      "why": "Contract -> the il2cpp Type being built = the obf class identity."
+    },
+    {
+      "ea": "0x1869d35e0",
+      "symbol": "JsonReader::get_ValueType",
+      "range": "asm_copy_A(0x186)",
+      "why": "Reader -> CLR type of the current value, to record value alongside key."
+    },
+    {
+      "ea": "0x188149320",
+      "symbol": "JsonReader::get_ValueType",
+      "range": "asm_copy_B(0x188)",
+      "why": "Reader -> CLR type of the current value, to record value alongside key."
+    }
+  ],
+  "per_target_dto": [
+    {
+      "obf_class": "BackingFieldBase_k__BackingField_55CF",
+      "callee_hint": [
+        "InputModule",
+        "JsonObjectAttribute",
+        "JsonProperty",
+        "ObjectPool_1"
+      ],
+      "n_methods_seen": 7,
+      "candidate_methods": [
+        {
+          "ea": "0x180be2c70",
+          "real_symbol": "JsonProperty::set_UnderlyingName",
+          "score": 4.5,
+          "why": "property setter: receives one deserialised field value; JsonProperty/JsonContract member: carries the wire key; body references Newtonsoft Json* / UnderlyingName"
+        },
+        {
+          "ea": "0x180c0ffc0",
+          "real_symbol": "JsonProperty::get_Order",
+          "score": 3.0,
+          "why": "JsonProperty/JsonContract member: carries the wire key; Json* getter: metadata accessor, weak signal; body references Newtonsoft Json* / UnderlyingName"
+        },
+        {
+          "ea": "0x180be2c60",
+          "real_symbol": "JsonProperty::get_UnderlyingName",
+          "score": 3.0,
+          "why": "JsonProperty/JsonContract member: carries the wire key; Json* getter: metadata accessor, weak signal; body references Newtonsoft Json* / UnderlyingName"
+        },
+        {
+          "ea": "0x180bbff90",
+          "real_symbol": "JsonProperty::get_ValueProvider",
+          "score": 3.0,
+          "why": "JsonProperty/JsonContract member: carries the wire key; Json* getter: metadata accessor, weak signal; body references Newtonsoft Json* / UnderlyingName"
+        },
+        {
+          "ea": "0x180eea060",
+          "real_symbol": "ObjectPool`1::set_CountActive",
+          "score": 2.0,
+          "why": "property setter: receives one deserialised field value"
+        },
+        {
+          "ea": "0x180e32c80",
+          "real_symbol": "JsonObjectAttribute::get_MemberSerialization",
+          "score": 0.5,
+          "why": "Json* getter: metadata accessor, weak signal"
+        }
+      ]
+    },
+    {
+      "obf_class": "BackingFieldBase_k__Impl_F1E6",
+      "callee_hint": [
+        "JsonReader",
+        "SslConfiguration",
+        "UnityEngineObjectSecurityWhitelist"
+      ],
+      "n_methods_seen": 3,
+      "candidate_methods": [
+        {
+          "ea": "0x181faa840",
+          "real_symbol": "SslConfiguration::set_EnabledSslProtocols",
+          "score": 2.0,
+          "why": "property setter: receives one deserialised field value"
+        },
+        {
+          "ea": "0x181269760",
+          "real_symbol": "UnityEngineObjectSecurityWhitelist::set_LightReservedLayerMask",
+          "score": 2.0,
+          "why": "property setter: receives one deserialised field value"
+        },
+        {
+          "ea": "0x1815af000",
+          "real_symbol": "JsonReader::get_CurrentState",
+          "score": 1.5,
+          "why": "Json* getter: metadata accessor, weak signal; body references Newtonsoft Json* / UnderlyingName"
+        }
+      ]
+    },
+    {
+      "obf_class": "BaseClass290ImplImpl_828C",
+      "callee_hint": [
+        "Detection",
+        "SafeSerializationManager",
+        "XElement"
+      ],
+      "n_methods_seen": 5,
+      "candidate_methods": []
+    },
+    {
+      "obf_class": "BaseClass45Impl_7C14",
+      "callee_hint": [
+        "Pointerk__BackingFieldComponent_9C82",
+        "SerializableQuaternionSiblingSibling_0535",
+        "UIk__BackingFieldtargetObjectToDisableComponent_C20F"
+      ],
+      "n_methods_seen": 12,
+      "candidate_methods": []
+    },
+    {
+      "obf_class": "Static23m_A445",
+      "callee_hint": [
+        "BaseDictionaryKeyPathProvider_1",
+        "JsonConverter"
+      ],
+      "n_methods_seen": 2,
+      "candidate_methods": [
+        {
+          "ea": "0x18088d2c0",
+          "real_symbol": "JsonConverter::ReadJson",
+          "score": 8.0,
+          "why": "name=ReadJson/Deserialize: custom JSON read entry (reads each key itself; library core never sees them); declares JsonConverter: a custom converter for this DTO; body references Newtonsoft Json* / UnderlyingName"
+        }
+      ]
+    }
+  ]
+}

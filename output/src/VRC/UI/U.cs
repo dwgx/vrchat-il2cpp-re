@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
 // Classes: 100
-// Methods: 2324
+// Methods: 2337
 
 namespace VRC.UI
 {
@@ -840,6 +840,48 @@ namespace VRC.UI
         public void m_BBA(){} // RVA: 0x5AE2640
         public void m_975(){} // RVA: 0x5AE26B0
         public void m_658(){} // RVA: 0x5AE2720
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : Pointerk__BackingField_8B17
+    {
+        public object f_C25;
+        public object f_292;
+        public object f_A7F;
+        public object f_14A;
+        public object f_43E;
+        public object f_5BB;
+        public object f_5A7;
+        public object f_3F0;
+        public object f_D11;
+        public object f_2A4;
+        public object f_07C;
+        public object f_FD5;
+        public object f_E48;
+        public object f_A2A;
+        public object f_57D;
+
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AB4D90
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AB5450
+        public void .cctor(){} // RVA: 0x5AB5A60
+        // ── 35 unresolved (hash) ──
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AB1C40
+        public void m_BBA(){} // RVA: 0x5AB1D90
+        public void m_975(){} // RVA: 0x5AB1DD0
+        public void m_658(){} // RVA: 0x5AB1E20
         // ... 30 more unresolved methods
     }
 
@@ -2246,34 +2288,6 @@ namespace VRC.UI
         public void m_5B9(){} // RVA: 0x1186750
         public void m_DEF(){} // RVA: 0x11868E0
         // ... 45 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÏÏÌÍÎÏÍÏÏÍÏÌÎÏÌÏÌÍÌÌÌÎ</summary>
-    public class UIk__BackingField_28DE : SeparatorsVisibilityBase_67C2
-    {
-        public object _title;
-        public object _titleContainer;
-        public object _childIndicator;
-        public object _messages;
-        public object _separators;
-        public object _tooltips;
-        public object f_509;
-        public object f_51A;
-        public object f_3D4;
-        public object f_955;
-
-        // ── Methods ──
-        public void OnDestroy(){} // RVA: 0x9EA53F0
-        public void Awake(){} // RVA: 0xB43310
-        public void .ctor(){} // RVA: 0xB43D60
-        public void Initialize(){} // RVA: 0xC10050
-        // ── 31 unresolved (hash) ──
-        public void m_4E1(){} // RVA: 0x9EA54A0
-        public void m_AA0(){} // RVA: 0x9EA5590
-        public void m_ECA(){} // RVA: 0x9EA5700
-        public void m_E27(){} // RVA: 0x9EA5BE0
-        public void m_284(){} // RVA: 0x9EA5C60
-        // ... 26 more unresolved methods
     }
 
     /// <summary>Originally: ÌÏÍÌÏÎÌÍÍÎÌÌÎÌÏÌÌÍÎÌÌÌÍ</summary>

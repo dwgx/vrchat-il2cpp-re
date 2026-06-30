@@ -32,7 +32,7 @@ namespace VRC.Physics
         public void get_IsVRCPlus(){} // RVA: 0x87D280
         public void get_Type(){} // RVA: 0x87C130
         public void set_Type(){} // RVA: 0x87C0A0
-        public void set_Preview(){} // RVA: 0x894290
+        public void set_IsVRCPlus(){} // RVA: 0x894290
     }
 
     /// <summary>Originally: ÍÏÍÏÌÎÎÎÎÌÍÍÌÌÎÎÎÎÎÍÎÏÍ</summary>

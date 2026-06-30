@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Rendering
-// Classes: 36
-// Methods: 638
+// Classes: 37
+// Methods: 657
 
 namespace VRC.Rendering
 {
@@ -73,6 +73,40 @@ namespace VRC.Rendering
         public void get_didAwake(){} // RVA: 0x1AA6CE0
         public void print(){} // RVA: 0x1AA6CF0
         public void .ctor(){} // RVA: 0x1AA6F80
+    }
+
+    /// <summary>Originally: ÍÌÍÍÎÌÏÌÎÍÏÌÌÎÍÌÎÏÎÍÍÏÎ</summary>
+    public class BlurRenderTexture : k__BackingField_0920
+    {
+        public object f_26E;
+        public object f_BC8;
+        public object f_592;
+        public object f_03F;
+        public object f_1B4;
+        public object f_62E;
+        public object renderTextureWidth;
+        public object renderTextureHeight;
+        public object blurDownsampleFactor;
+        public object blurSize;
+        public object blurIterations;
+        public object f_FD2;
+        public object f_A9E;
+        public object f_E0E;
+        public object f_E37;
+        public object f_96F;
+        public object f_FEA;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1D06170
+        public void Initialize(){} // RVA: 0x1D061F0
+        public void .cctor(){} // RVA: 0x1D073D0
+        // ── 16 unresolved (hash) ──
+        public void m_0B7(){} // RVA: 0x1D05430
+        public void m_884(){} // RVA: 0x1D056B0
+        public void m_89A(){} // RVA: 0x1D05930
+        public void m_7E4(){} // RVA: 0x1D05AB0
+        public void m_7BC(){} // RVA: 0x1D05D30
+        // ... 11 more unresolved methods
     }
 
     /// <summary>Originally: ÏÌÌÏÌÍÌÎÌÌÏÏÍÌÎÍÌÎÏÎÎÏÎ</summary>

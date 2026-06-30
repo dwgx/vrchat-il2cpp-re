@@ -1,0 +1,2037 @@
+{
+ "summary": {
+  "classes_scanned": 27799,
+  "weak_unnamed_with_union_signal": 74,
+  "idf_corpus_size": 27799,
+  "note": "union of field + method-return + method-param Il2CppType signals; disjoint from all three single-signal passes."
+ },
+ "signals": [
+  {
+   "obf_name": "ÌÎÎÎÌÍÌÎÌÍÎÏÌÏÏÎÌÍÎÎÍÏÎ",
+   "current_name": "VRC_MainSibling_98B4",
+   "namespace": "",
+   "score": 34.93,
+   "distinct_types": 6,
+   "signal_types": [
+    {
+     "type": "LoggingMode",
+     "source": "return"
+    },
+    {
+     "type": "MirrorQualitySetting",
+     "source": "return"
+    },
+    {
+     "type": "Resolution",
+     "source": "return"
+    },
+    {
+     "type": "PerformanceRating",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "return"
+    },
+    {
+     "type": "Transform",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÎÎÏÎÍÏÏÌÌÏÍÍÏÌÏÎÎÌÎÌÎÎ",
+    "ÌÏÌÍÎÌÏÌÏÌÌÎÏÏÍÌÌÎÌÎÏÏÏ",
+    "ÍÌÎÎÏÎÌÏÍÌÏÍÏÍÏÎÍÏÎÎÍÌÎ",
+    "ÍÍÌÍÌÎÎÎÎÎÏÎÌÎÏÏÏÌÏÎÌÍÏ",
+    "ÏÏÍÏÌÏÎÌÍÏÏÎÌÍÍÏÏÏÏÌÌÌÎ",
+    "ÏÍÎÎÍÏÍÎÏÎÌÏÍÏÍÍÌÏÍÌÍÏÌ",
+    "ÍÌÎÏÎÎÎÏÌÏÌÍÍÍÏÎÏÎÏÌÌÍÎ",
+    "ÎÏÌÎÎÌÎÌÍÏÏÏÎÌÌÌÌÌÏÍÏÌÏ"
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÎÍÌÍÎÍÍÍÏÏÎÎÎÎÎÍÌÌÍÌ",
+   "current_name": "Static2m_0B03",
+   "namespace": "",
+   "score": 28.435,
+   "distinct_types": 4,
+   "signal_types": [
+    {
+     "type": "ListSelect",
+     "source": "param"
+    },
+    {
+     "type": "ArraySelect",
+     "source": "param"
+    },
+    {
+     "type": "ValueEnumerable",
+     "source": "param"
+    },
+    {
+     "type": "Notification",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÏÌÍÌÍÍÏÌÌÍÍÏÌÌÏÏÍÌÌÌÌÍÍ",
+    "ÌÍÎÎÏÍÍÏÎÌÌÎÍÎÏÏÍÎÏÍÎÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÌÌÍÌÎÏÏÍÍÎÍÌÌÏÌÎÎÏÏÍÎÎÏ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_5616",
+   "namespace": "",
+   "score": 25.385,
+   "distinct_types": 4,
+   "signal_types": [
+    {
+     "type": "ApiPurchaseSubscriptionCancelledInfo",
+     "source": "param"
+    },
+    {
+     "type": "ApiPurchaseCancelSubscriptionInfo",
+     "source": "param"
+    },
+    {
+     "type": "Texture2D",
+     "source": "return"
+    },
+    {
+     "type": "DateTime",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÍÎÎÍÍÌÌÌÌÎÍÌÌÍÌÌÎÌÌÎÏÏ",
+    "ÌÎÍÎÏÍÌÏÌÎÌÏÎÏÏÎÎÏÏÌÎÎÎ",
+    "ÎÌÍÌÍÍÎÌÎÍÍÎÎÎÍÏÎÌÍÍÎÌÍ",
+    "ÌÎÍÍÎÏÎÍÍÍÌÎÍÎÎÍÎÏÏÌÎÎÍ",
+    "ÍÎÍÏÎÍÌÌÌÍÍÍÎÎÌÏÌÎÏÏÏÌÏ",
+    "ÍÎÎÏÎÌÌÎÌÎÍÎÏÍÏÎÏÍÏÏÌÍÏ",
+    "ÌÍÌÌÎÏÏÍÏÏÌÍÍÌÏÏÎÌÌÍÌÏÎ",
+    "ÍÎÌÌÌÍÎÏÎÍÍÍÏÌÌÌÍÏÍÍÏÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÍÎÎÏÏÏÏÌÏÌÎÍÍÎÍÏÏÌÏÏ",
+   "current_name": "Type16m1f_E6D7",
+   "namespace": "",
+   "score": 24.863,
+   "distinct_types": 4,
+   "signal_types": [
+    {
+     "type": "Random",
+     "source": "field"
+    },
+    {
+     "type": "Enum",
+     "source": "return"
+    },
+    {
+     "type": "StringComparison",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÌÎÌÎÏÏÌÏÌÌÎÍÏÌÍÌÌÍÏÍÍÎ",
+    "ÌÌÍÍÍÎÌÍÌÏÎÍÍÍÌÎÍÍÌÏÏÍÍ",
+    "ÎÎÎÎÍÎÎÌÏÌÍÌÌÍÎÌÌÌÍÎÏÎÌ",
+    "ÎÍÏÎÏÌÍÎÏÏÎÎÌÌÍÎÍÍÎÌÏÌÍ",
+    "ÎÎÌÎÏÎÌÍÍÌÌÎÎÌÎÌÎÎÌÍÍÌÍ",
+    "ÏÎÏÍÎÏÌÍÌÎÏÎÌÌÍÎÍÍÎÎÎÏÌ",
+    "ÍÏÏÏÌÌÍÏÍÍÎÍÍÌÏÌÏÍÌÍÌÎÏ",
+    "ÎÎÎÌÍÎÏÌÎÏÌÎÌÎÍÍÍÎÏÌÏÏÍ"
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÏÍÍÌÎÍÎÎÎÌÎÍÎÎÌÌÌÎÎÏ",
+   "current_name": "k__BackingFieldComponentSiblinSibling_9E72",
+   "namespace": "",
+   "score": 21.73,
+   "distinct_types": 5,
+   "signal_types": [
+    {
+     "type": "Sprite",
+     "source": "param"
+    },
+    {
+     "type": "UnityAction",
+     "source": "param"
+    },
+    {
+     "type": "StringBuilder",
+     "source": "param"
+    },
+    {
+     "type": "Color",
+     "source": "return"
+    },
+    {
+     "type": "Vector2",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÌÎÏÎÍÎÎÎÌÍÌÏÎÍÎÎÍÎÌÍÎÍÌ",
+    "ÎÎÌÎÍÎÏÏÎÎÎÍÏÏÏÌÏÎÎÏÍÌÌ",
+    "ÏÎÍÌÎÌÏÎÏÎÍÎÎÌÏÏÌÍÎÏÌÏÎ",
+    "ÏÏÏÌÏÏÏÌÏÍÍÍÍÌÎÎÍÍÌÍÏÌÏ",
+    "ÌÎÏÍÎÌÎÏÍÎÍÏÍÌÌÍÏÍÏÍÏÎÎ",
+    "ÎÍÌÌÎÎÏÏÌÍÌÎÍÌÎÎÌÏÎÍÏÍÌ",
+    "ÏÏÌÎÎÎÌÏÎÏÎÌÏÌÍÍÍÎÍÍÏÏÍ",
+    "ÎÏÌÍÎÍÍÌÍÌÌÏÎÏÎÏÍÍÌÌÏÌÏ"
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÎÌÍÎÍÌÌÍÏÍÌÏÎÏÌÍÎÍÍÎ",
+   "current_name": "Camerak__BackingFieldComponentSibling_D86E",
+   "namespace": "",
+   "score": 19.557,
+   "distinct_types": 5,
+   "signal_types": [
+    {
+     "type": "RenderTexture",
+     "source": "return"
+    },
+    {
+     "type": "Camera",
+     "source": "return"
+    },
+    {
+     "type": "Vector2",
+     "source": "param"
+    },
+    {
+     "type": "Vector3",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÌÌÎÌÏÌÏÎÍÌÍÍÌÏÌÏÌÏÍÌÏÎ",
+    "ÌÍÎÎÌÌÌÏÍÏÍÌÏÏÏÎÏÌÏÎÌÎÌ",
+    "ÌÏÍÏÍÎÌÌÌÌÌÍÎÌÍÍÏÏÍÎÍÏÎ",
+    "ÌÏÎÏÏÎÎÌÌÏÌÍÍÌÎÎÍÍÌÌÍÌÎ",
+    "ÏÍÏÏÎÌÍÏÌÍÌÌÌÌÎÌÍÏÏÎÍÌÍ",
+    "ÏÌÎÌÌÌÎÏÍÌÍÍÏÍÌÌÍÎÏÎÌÍÎ",
+    "ÏÌÏÎÍÌÌÎÍÌÌÏÍÏÌÍÏÌÎÍÎÏÏ",
+    "ÏÏÌÎÍÌÏÍÏÌÎÏÎÍÍÏÎÌÍÍÌÎÎ"
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÎÍÌÏÌÍÏÏÍÏÏÌÌÍÌÎÎÏÍÏ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_6289",
+   "namespace": "",
+   "score": 16.696,
+   "distinct_types": 4,
+   "signal_types": [
+    {
+     "type": "Sprite",
+     "source": "return"
+    },
+    {
+     "type": "Texture2D",
+     "source": "return"
+    },
+    {
+     "type": "DateTime",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÍÎÎÍÍÌÌÌÌÎÍÌÌÍÌÌÎÌÌÎÏÏ",
+    "ÍÎÍÏÎÍÌÌÌÍÍÍÎÎÌÏÌÎÏÏÏÌÏ",
+    "ÎÏÏÍÍÎÍÌÍÏÍÏÎÍÍÏÏÍÌÍÌÍÌ",
+    "ÏÏÌÍÎÏÎÍÌÌÍÌÎÌÌÍÌÌÏÏÏÍÌ",
+    "ÍÏÌÏÎÍÏÌÏÌÏÌÎÌÌÎÏÎÍÏÌÌÍ",
+    "ÍÎÎÌÎÏÏÍÌÏÌÏÌÌÍÏÍÏÎÎÌÎÌ",
+    "ÍÍÍÌÏÌÌÎÌÏÍÍÌÎÎÎÏÌÏÍÎÎÎ",
+    "ÎÎÌÎÎÌÎÍÍÌÍÏÌÍÌÎÎÏÍÌÎÎÌ"
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÌÎÌÏÎÏÍÏÍÍÍÍÍÎÏÍÏÎÏÌ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_17F2",
+   "namespace": "",
+   "score": 16.672,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "ApiHypeTrainInfo",
+     "source": "param"
+    },
+    {
+     "type": "TimeSpan",
+     "source": "return"
+    },
+    {
+     "type": "DateTime",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÌÍÌÌÍÏÏÌÌÎÏÏÎÍÎÍÎÎÍÍÎÎ",
+    "ÌÌÏÍÍÍÏÏÎÍÎÏÌÍÎÍÎÎÌÌÍÎÏ",
+    "ÌÏÎÏÌÌÌÎÎÌÍÏÏÏÎÍÎÍÌÎÌÎÏ",
+    "ÌÌÎÍÍÍÎÏÎÏÏÌÎÌÏÏÏÌÎÍÌÌÍ",
+    "ÍÏÏÌÏÏÌÍÍÏÍÎÍÏÌÏÍÎÌÎÏÏÎ",
+    "ÌÎÎÌÏÎÌÏÎÌÏÍÎÌÌÍÌÍÎÏÎÎÏ",
+    "ÌÍÍÌÎÌÍÏÌÍÎÌÎÌÌÏÌÎÏÌÍÎÌ",
+    "ÍÎÎÌÎÌÍÍÏÌÏÌÏÌÍÌÎÏÏÌÌÍÏ"
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÍÌÏÌÍÍÎÍÌÌÏÍÌÏÌÌÍÍÍÌ",
+   "current_name": "Static7m_31A8",
+   "namespace": "",
+   "score": 16.507,
+   "distinct_types": 4,
+   "signal_types": [
+    {
+     "type": "Bounds",
+     "source": "return"
+    },
+    {
+     "type": "Animator",
+     "source": "return"
+    },
+    {
+     "type": "Vector3",
+     "source": "return"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÏÌÌÌÌÏÍÎÌÏÌÏÌÍÏÌÍÍÎÌÌÍÏ",
+    "ÎÏÏÎÏÏÏÍÎÌÎÏÏÍÎÍÏÌÏÏÌÌÍ",
+    "ÌÎÌÎÌÏÍÎÍÏÍÏÏÍÏÍÍÏÎÍÏÍÍ",
+    "ÏÎÎÍÎÎÎÏÍÎÍÎÍÏÎÌÎÍÌÏÎÌÌ",
+    "ÏÎÌÎÎÌÏÌÌÏÏÍÍÍÎÎÎÏÍÍÍÍÏ",
+    "ÎÎÌÏÍÌÌÌÍÏÏÏÌÏÌÍÍÍÍÌÏÌÎ",
+    "ÍÏÌÍÎÎÌÍÍÍÌÌÌÌÏÍÍÍÍÏÏÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÍÏÎÍÏÍÎÏÍÎÍÏÏÌÍÎÏÍÎÎ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_20EF",
+   "namespace": "",
+   "score": 15.973,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "APIGroupMemberList",
+     "source": "return"
+    },
+    {
+     "type": "Texture2D",
+     "source": "return"
+    },
+    {
+     "type": "DateTime",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÎÎÎÌÏÍÌÌÍÍÍÎÏÎÎÍÎÌÎÌÎÍ",
+    "ÏÍÌÏÍÍÏÏÍÌÏÌÍÎÍÎÎÎÎÌÌÏÏ",
+    "ÍÎÍÏÎÍÌÌÌÍÍÍÎÎÌÏÌÎÏÏÏÌÏ",
+    "ÍÎÍÏÌÍÌÌÏÏÌÌÏÏÎÎÎÏÍÍÍÎÎ",
+    "ÏÎÎÏÏÏÌÏÎÌÏÎÏÍÏÎÏÌÎÍÍÌÎ",
+    "ÎÏÏÍÍÎÍÌÍÏÍÏÎÍÍÏÏÍÌÍÌÍÌ",
+    "ÎÎÎÎÌÌÍÍÍÏÎÏÍÍÏÌÍÏÍÌÎÏÏ",
+    "ÍÏÏÍÏÏÍÌÍÎÍÏÏÎÌÌÏÍÍÎÎÏÎ"
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÎÎÌÍÏÌÎÌÏÍÍÏÎÏÎÏÏÏÎÌ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_4C73",
+   "namespace": "",
+   "score": 15.003,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "APIGroupMember",
+     "source": "param"
+    },
+    {
+     "type": "Texture2D",
+     "source": "return"
+    },
+    {
+     "type": "DateTime",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÍÎÎÍÍÌÌÌÌÎÍÌÌÍÌÌÎÌÌÎÏÏ",
+    "ÍÍÌÏÎÏÌÌÎÌÌÌÏÏÏÏÎÎÎÌÎÌÎ",
+    "ÍÎÍÏÎÍÌÌÌÍÍÍÎÎÌÏÌÎÏÏÏÌÏ",
+    "ÏÌÏÍÍÏÎÎÎÍÏÍÏÎÎÍÏÏÎÍÏÎÌ",
+    "ÎÏÎÎÏÌÏÏÏÍÍÏÍÏÍÌÌÌÎÎÏÏÍ",
+    "ÏÌÍÎÏÎÍÍÍÌÏÏÏÌÌÍÍÎÍÌÍÏÎ",
+    "ÎÎÍÎÏÎÌÎÎÎÌÎÏÍÎÍÌÎÍÌÍÍÏ",
+    "ÌÍÎÏÍÍÏÍÏÎÎÌÏÎÌÌÍÏÌÎÍÎÍ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÌÍÍÏÍÍÌÍÎÌÍÏÎÎÏÏÌÎÌÏ",
+   "current_name": "k__BackingFieldComponentSibling_E4AE",
+   "namespace": "",
+   "score": 14.787,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "ISet",
+     "source": "return"
+    },
+    {
+     "type": "Material",
+     "source": "return"
+    },
+    {
+     "type": "Color",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÏÌÎÍÍÎÏÎÎÌÏÍÏÍÌÎÌÎÏÌÎÌÌ",
+    "ÌÎÌÏÎÍÏÍÎÎÎÍÎÎÎÎÏÌÎÍÍÎÌ",
+    "ÍÎÎÏÎÍÍÏÏÌÏÎÌÌÌÍÎÍÌÍÍÌÏ",
+    "ÍÍÏÍÎÍÌÏÍÌÏÍÏÍÏÌÎÌÌÏÎÌÍ",
+    "ÍÎÏÍÍÌÎÍÍÌÏÍÌÌÏÌÎÍÎÌÏÏÏ",
+    "ÍÌÍÎÌÍÍÎÏÍÍÌÌÎÌÎÌÍÎÏÍÏÏ",
+    "ÎÌÎÌÏÎÍÌÏÌÌÏÍÏÍÌÏÏÎÎÏÎÌ",
+    "ÎÏÌÍÏÌÌÎÎÌÍÌÎÏÍÏÌÌÎÌÏÌÎ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÎÍÏÏÍÏÍÎÍÍÏÌÌÌÍÎÏÍÎÎ",
+   "current_name": "Networkk__BackingFieldSibling_73C8",
+   "namespace": "",
+   "score": 14.603,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "State",
+     "source": "return"
+    },
+    {
+     "type": "ReadOnlyMemory",
+     "source": "return"
+    },
+    {
+     "type": "Awaiter",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÏÍÌÎÎÏÌÎÌÎÏÏÍÍÎÌÌÎÎÌÏÍÌ",
+    "ÎÏÍÏÌÍÎÍÎÌÏÏÌÌÏÌÍÏÍÌÏÌÍ",
+    "ÏÏÌÍÌÍÌÏÍÏÌÍÌÎÎÍÏÌÏÎÏÎÌ",
+    "ÎÍÏÎÎÎÎÏÏÌÍÌÍÏÍÌÏÌÎÎÎÍÍ",
+    "ÏÎÏÏÏÏÌÏÎÌÏÎÌÌÌÌÍÌÏÎÏÍÏ",
+    "ÌÏÎÎÌÏÌÌÏÌÏÌÎÎÎÌÌÌÎÏÌÏÌ",
+    "ÏÍÏÌÌÏÌÌÎÏÍÌÌÏÌÏÎÎÎÍÎÎÍ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÎÏÏÌÎÎÏÍÏÍÏÏÎÍÎÏÌÎÎÌ",
+   "current_name": "Type16m1f_0A22",
+   "namespace": "",
+   "score": 13.467,
+   "distinct_types": 4,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "param"
+    },
+    {
+     "type": "Transform",
+     "source": "return"
+    },
+    {
+     "type": "Vector3",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÏÎÎÌÏÌÎÌÍÍÏÍÎÏÏÎÏÍÍÍÏÏÍ",
+    "ÎÌÎÌÍÏÏÌÌÎÌÎÏÎÍÏÍÎÍÌÎÎÏ",
+    "ÏÎÎÍÌÌÎÏÎÍÌÌÌÎÍÌÍÎÎÍÏÌÌ",
+    "ÌÌÏÌÌÏÌÏÏÌÌÎÍÌÎÎÍÌÍÎÌÍÍ",
+    "ÌÏÏÎÍÍÍÌÌÌÍÌÌÍÍÏÌÎÌÌÍÎÍ",
+    "ÏÎÌÎÌÌÎÎÍÍÎÌÌÌÍÍÌÎÎÏÌÏÌ",
+    "ÍÍÍÏÍÎÍÌÎÌÌÍÎÎÏÍÌÎÌÏÌÍÏ",
+    "ÍÏÍÏÏÎÍÏÏÍÎÎÍÎÏÍÍÌÍÏÌÏÍ"
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÎÌÏÏÏÌÎÌÏÎÏÍÏÎÎÏÎÍÍÌ",
+   "current_name": "k__BackingFieldComponentSiblinSibling_B716",
+   "namespace": "",
+   "score": 13.078,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "Token",
+     "source": "param"
+    },
+    {
+     "type": "DateTime",
+     "source": "return"
+    },
+    {
+     "type": "ApiContainer",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÍÏÏÍÌÏÍÎÏÍÌÎÏÌÏÌÏÍÌÎÍÏÎ",
+    "ÏÌÏÏÏÌÍÌÎÍÏÏÎÍÍÌÌÍÍÌÍÏÍ",
+    "ÏÌÌÎÍÎÌÍÏÌÌÏÎÌÍÏÎÍÏÍÎÎÏ",
+    "ÏÎÍÏÌÏÌÏÌÏÌÍÏÏÎÎÌÏÌÎÎÏÌ",
+    "ÌÍÎÏÏÌÍÌÏÌÍÍÌÎÎÏÌÌÏÍÎÌÌ",
+    "ÎÌÎÏÌÌÎÌÏÎÌÎÏÏÌÌÍÍÏÎÏÎÎ",
+    "ÌÏÎÎÎÏÍÍÌÌÌÏÎÌÌÍÎÏÌÏÎÎÌ",
+    "ÏÏÏÍÍÍÌÎÍÍÎÏÌÌÍÎÌÎÍÌÍÌÍ"
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÍÌÌÎÍÏÍÎÎÍÌÌÎÎÏÎÌÏÌÏ",
+   "current_name": "LifecycleComponentSibling_EA2D",
+   "namespace": "",
+   "score": 13.064,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "TMP_Dropdown",
+     "source": "param"
+    },
+    {
+     "type": "Component",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÌÎÌÍÏÌÎÌÎÏÍÎÎÌÏÌÍÌÌÌÍÏÏ",
+    "ÏÎÍÏÏÏÌÎÎÍÏÍÍÎÍÌÍÍÎÍÍÌÍ",
+    "ÍÎÎÍÌÏÎÏÏÍÍÍÎÏÍÎÎÎÌÏÌÏÌ",
+    "ÎÍÍÍÏÌÍÏÎÏÌÎÍÌÌÏÍÍÍÏÏÌÎ"
+   ]
+  },
+  {
+   "obf_name": "ÌÍÌÌÍÍÎÍÏÎÎÌÌÎÍÌÌÍÏÍÎÏÌ",
+   "current_name": "k__BackingFieldComponentSibling_313D",
+   "namespace": "",
+   "score": 11.221,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "InstanceAccessType",
+     "source": "param"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÍÍÏÏÍÍÏÍÏÎÎÍÎÌÏÎÎÎÍÎÌÍÍ",
+    "ÍÍÌÌÎÍÍÌÎÍÌÌÏÎÍÎÌÍÏÍÌÎÌ",
+    "ÏÎÍÏÍÎÏÍÌÏÍÎÏÎÎÌÌÎÎÌÎÍÌ",
+    "ÎÏÏÌÌÌÎÏÏÌÍÎÎÎÏÏÎÎÍÍÎÏÌ",
+    "ÏÍÏÍÌÎÎÍÎÎÎÏÌÎÏÍÏÎÌÌÍÌÏ",
+    "ÎÏÌÏÍÍÌÌÍÏÎÎÌÍÏÎÏÌÏÌÎÍÍ",
+    "ÌÌÍÌÏÎÍÏÌÍÍÏÍÍÎÌÎÏÌÍÍÎÍ",
+    "ÍÌÍÍÍÏÎÌÍÍÍÎÎÎÍÍÏÍÌÏÏÍÌ"
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÌÏÍÏÎÎÎÍÌÌÏÌÌÍÍÎÎÎÍÌ",
+   "current_name": "Type10m1f_6D01",
+   "namespace": "",
+   "score": 10.867,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "ValueEnumerable",
+     "source": "field"
+    },
+    {
+     "type": "Index",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÎÌÎÎÍÏÏÌÎÏÎÍÎÎÍÌÎÎÍÍÍÎÌ",
+    "ÏÍÌÍÍÏÍÏÎÎÏÎÌÎÏÌÍÌÏÏÎÌÌ",
+    "ÍÎÎÏÌÌÍÌÎÌÏÏÍÍÍÍÏÏÎÌÌÎÍ",
+    "ÎÌÎÌÍÍÍÏÎÏÎÍÌÎÎÎÍÏÌÏÏÏÎ",
+    "ÍÏÏÎÌÍÎÎÍÌÍÌÌÍÌÏÍÍÏÍÌÌÎ",
+    "ÏÌÏÍÍÍÎÍÌÍÎÍÌÏÏÎÎÌÏÏÌÍÌ",
+    ".ctor",
+    "ÍÏÏÌÏÍÎÏÏÏÏÍÍÍÎÍÌÌÎÏÍÌÏ"
+   ]
+  },
+  {
+   "obf_name": "ÎÎÍÍÌÍÏÍÎÎÌÍÍÌÏÍÎÍÏÍÍÍÎ",
+   "current_name": "VRCPlayerSiblingSibling_804B",
+   "namespace": "",
+   "score": 10.827,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "param"
+    },
+    {
+     "type": "Vector3",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÌÍÍÍÍÏÍÏÏÏÍÏÍÌÎÏÌÏÌÌÌÎÏ",
+    "ÌÌÎÌÌÌÏÏÎÏÎÏÏÏÌÎÏÍÎÏÍÏÏ",
+    "ÌÎÏÍÌÍÎÏÎÍÍÍÎÍÎÍÍÌÏÌÏÎÎ",
+    "ÌÌÌÎÍÍÎÌÌÍÌÍÍÎÏÌÏÍÏÌÎÎÍ",
+    "ÍÎÍÌÏÌÌÍÎÌÎÌÌÍÍÍÌÌÌÏÍÌÌ",
+    "ÍÎÍÏÏÏÎÌÌÎÏÏÎÌÏÍÌÏÌÎÌÌÌ",
+    "ÏÎÌÍÎÌÌÍÎÏÎÏÍÏÌÍÍÍÍÎÍÍÍ",
+    "ÍÌÎÏÍÍÏÍÍÌÍÌÎÍÎÌÌÎÎÎÎÍÏ"
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÌÌÎÎÌÎÏÍÎÏÍÍÎÏÌÏÍÌÏÎ",
+   "current_name": "UIdescriptionFieldContainerselSibling_BE0B",
+   "namespace": "",
+   "score": 10.597,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "ReportContentType",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÏÎÎÏÏÌÌÍÍÏÍÎÌÌÎÏÎÌÏÏÏÍÎ",
+    "ÎÍÌÎÏÏÎÌÍÎÍÏÏÍÌÍÎÌÏÏÏÌÌ",
+    "ÍÎÍÎÎÌÏÍÏÍÌÍÏÍÎÍÍÎÏÌÏÎÍ",
+    "ÌÎÏÏÏÏÌÏÌÏÏÏÎÎÍÏÍÎÍÎÌÍÍ",
+    "ÌÍÎÏÏÏÍÎÎÌÌÏÌÏÌÎÎÍÍÏÏÌÌ",
+    "ÏÌÌÍÏÎÌÏÏÍÏÌÎÌÍÎÏÍÍÍÏÌÍ",
+    "ÏÍÏÎÎÍÏÎÎÏÎÏÏÌÌÍÏÍÎÏÌÏÍ",
+    "ÏÎÏÏÍÏÎÍÍÌÎÌÏÏÍÎÌÏÏÍÍÎÌ"
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÍÎÏÌÌÎÎÌÌÍÌÍÎÎÏÍÌÌÌÍ",
+   "current_name": "VRC_SecondarySiblingSibling_4ABD",
+   "namespace": "",
+   "score": 10.589,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "param"
+    },
+    {
+     "type": "Transform",
+     "source": "return"
+    },
+    {
+     "type": "Vector3",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÌÏÍÏÏÎÏÍÏÏÎÍÎÎÎÍÎÌÌÎÌÎ",
+    "ÏÌÌÍÏÍÍÌÌÏÏÏÏÍÏÍÎÌÎÌÍÍÎ",
+    "ÎÏÎÎÌÏÏÎÍÏÌÌÎÎÎÌÎÏÍÍÏÍÍ",
+    "ÌÎÎÍÌÌÍÍÎÎÏÏÍÎÎÌÎÌÍÎÌÎÏ",
+    "ÎÏÌÌÎÎÏÌÍÌÍÌÏÎÏÍÏÌÌÌÏÎÍ",
+    "ÏÏÍÍÌÏÏÌÎÏÏÍÏÏÌÌÌÍÍÎÎÏÌ",
+    "ÏÎÏÏÏÍÎÌÍÎÌÍÍÌÏÏÍÎÌÌÌÎÎ",
+    "ÏÎÍÌÍÌÍÎÌÌÌÎÌÍÍÎÌÌÌÍÌÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÍÍÌÎÌÍÎÌÎÎÏÍÏÎÍÌÍÌÏÏÎÏÌ",
+   "current_name": "Service22m_7F6D",
+   "namespace": "",
+   "score": 10.353,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "IDisposable",
+     "source": "return"
+    },
+    {
+     "type": "Delegate",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÌÏÏÍÎÏÏÏÏÏÌÌÏÎÍÏÎÎÏÏÌÌÍ",
+    "ÌÍÌÏÏÏÍÎÌÌÎÎÍÏÎÎÎÏÍÍÏÏÏ",
+    ".ctor",
+    "ÏÏÎÌÎÌÌÌÎÎÌÎÌÎÏÎÏÌÌÌÎÍÍ",
+    "ÌÌÎÎÍÍÏÎÌÎÍÎÏÌÎÍÏÍÌÏÏÍÌ",
+    "ÍÍÏÌÎÍÌÎÍÏÎÌÌÎÏÏÎÏÌÎÎÍÍ",
+    "ÌÎÌÎÎÍÍÎÏÏÍÌÏÌÍÍÍÏÎÏÎÍÌ",
+    "ÌÎÍÏÌÏÌÌÍÏÏÌÎÌÍÌÌÏÍÍÏÎÌ"
+   ]
+  },
+  {
+   "obf_name": "ÍÌÎÎÌÌÎÌÏÎÌÏÍÎÍÌÎÏÎÎÏÍÎ",
+   "current_name": "Type10m1f_AF36",
+   "namespace": "",
+   "score": 10.177,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "TaskCompletionSource",
+     "source": "field"
+    },
+    {
+     "type": "ApiContainer",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÎÏÏÏÏÏÌÌÍÏÎÍÍÏÌÍÏÍÍÌÏÏÎ",
+    "ÎÍÎÎÎÏÏÎÍÏÎÎÌÎÏÏÎÏÎÌÏÍÌ",
+    "ÎÍÌÍÏÎÎÎÏÏÏÏÍÏÎÌÏÎÌÍÏÍÍ",
+    "ÎÌÍÍÌÌÌÌÎÎÍÍÎÌÎÏÏÏÌÌÌÌÏ",
+    "ÏÌÏÍÎÌÍÏÏÎÎÌÍÌÌÎÎÌÌÏÌÏÏ",
+    ".ctor",
+    "ÎÏÍÌÍÌÌÍÎÏÎÌÌÏÎÌÏÏÏÍÌÍÍ",
+    "ÏÌÌÎÏÎÎÏÏÌÌÏÌÏÌÍÏÍÍÎÎÍÌ"
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÌÍÍÏÏÏÏÍÎÍÎÍÏÌÏÍÌÎÌÏ",
+   "current_name": "Type8m1f_8739",
+   "namespace": "",
+   "score": 10.177,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "TaskCompletionSource",
+     "source": "field"
+    },
+    {
+     "type": "ApiContainer",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÌÎÎÍÏÎÏÏÎÎÎÍÌÏÎÌÏÏÌÍÏÏÍ",
+    ".ctor",
+    "ÍÌÎÍÏÏÎÌÎÍÍÍÎÎÏÏÏÌÎÎÎÎÏ",
+    "ÍÌÍÍÍÌÌÎÏÍÏÏÍÎÍÏÏÎÏÏÌÌÎ",
+    "ÍÏÏÏÎÏÎÌÏÍÍÎÎÏÎÎÌÏÎÏÏÌÎ",
+    "ÍÏÏÏÌÌÍÍÎÎÏÎÏÍÌÌÌÎÍÌÍÏÎ",
+    "ÎÎÎÍÌÌÍÎÏÏÏÎÏÍÏÍÏÌÍÏÎÍÏ",
+    "ÎÌÎÏÍÏÌÏÌÏÎÍÏÌÎÎÎÌÏÍÏÍÎ"
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÏÎÍÍÍÌÏÍÎÎÌÍÌÏÏÍÍÎÌÍ",
+   "current_name": "Avatark__BackingFieldComponentSibling_1B79",
+   "namespace": "",
+   "score": 10.019,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "AvatarVariant",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÌÏÎÍÌÏÍÎÌÌÍÌÍÏÏÎÌÎÎÌÏÌÎ",
+    "ÍÍÌÎÏÏÏÎÌÎÌÏÍÌÏÍÍÍÍÎÌÍÏ",
+    "ÎÌÎÌÎÎÎÎÌÍÎÏÎÍÎÍÎÏÏÎÏÎÌ",
+    "ÌÌÏÎÎÏÍÍÎÎÍÎÍÍÎÏÎÏÌÏÌÎÏ",
+    "ÏÌÏÍÌÏÌÎÍÏÎÎÍÍÍÌÎÌÏÌÌÌÎ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÏÎÎÎÏÏÎÌÍÌÌÍÍÌÎÍÎÎÌÏ",
+   "current_name": "k__BackingFieldComponentSibling_0CAB",
+   "namespace": "",
+   "score": 10.008,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "param"
+    },
+    {
+     "type": "Vector3",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÏÏÌÏÌÎÌÌÍÎÌÎÏÌÌÏÌÍÎÎÍÏ",
+    "ÎÎÌÎÌÎÏÏÏÍÎÍÏÌÌÍÏÍÎÏÏÌÏ",
+    "ÏÏÏÌÍÎÏÌÎÏÌÏÎÌÎÏÌÌÍÎÌÏÎ",
+    "ÎÌÌÏÏÏÍÍÏÍÌÎÎÌÍÎÎÌÌÎÏÍÌ",
+    "ÌÎÌÌÏÌÌÍÎÎÍÎÎÎÎÍÍÌÌÏÏÍÌ",
+    "ÏÏÏÍÏÏÎÌÍÍÎÍÏÎÌÏÌÎÎÏÏÎÌ",
+    "ÎÏÍÎÏÎÎÌÍÎÏÏÎÎÍÌÎÏÍÎÌÏÏ",
+    "ÌÌÌÍÍÏÍÏÏÍÏÍÍÎÎÌÌÌÎÌÌÏÏ"
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÏÎÏÏÍÍÌÍÌÌÏÍÏÍÏÏÍÎÎÏ",
+   "current_name": "Static6m_2413",
+   "namespace": "",
+   "score": 9.932,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "PooledArray",
+     "source": "return"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÏÎÍÌÎÏÏÎÏÌÎÌÎÎÎÍÎÎÎÍÍÎÏ",
+    "ÍÌÏÍÌÏÍÍÏÎÎÌÏÍÏÏÍÏÍÍÏÌÍ",
+    "ÎÌÌÌÌÎÌÌÎÎÏÌÏÌÌÍÎÌÎÏÎÍÌ",
+    "ÌÏÌÏÍÎÍÏÏÏÍÎÌÌÏÌÌÏÎÎÏÏÎ",
+    "ÍÍÍÏÌÎÎÍÏÍÏÏÌÎÍÍÌÌÌÌÌÍÍ",
+    "ÎÎÌÎÎÌÏÎÍÌÍÌÏÏÍÌÎÍÎÎÏÏÍ"
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÏÏÎÌÍÌÏÎÎÌÎÏÎÌÎÎÌÎÌÎ",
+   "current_name": "Static5m_2759",
+   "namespace": "",
+   "score": 9.527,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "MonoBehaviour",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÏÌÍÎÏÏÍÍÌÏÎÍÎÎÍÌÍÏÍÎÍÌÎ",
+    "ÌÎÍÏÏÎÏÌÏÌÏÌÏÍÍÎÍÌÎÍÎÍÏ",
+    "ÏÏÏÎÍÌÎÎÌÎÏÎÏÌÏÎÏÎÌÍÌÎÏ",
+    "ÍÎÍÎÏÎÍÍÎÌÎÍÍÏÍÏÍÍÌÎÎÌÌ",
+    "ÍÏÌÍÍÍÍÏÌÌÍÍÌÍÍÎÎÏÏÌÎÌÏ"
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÏÍÎÌÌÎÍÍÌÏÍÌÏÎÏÍÏÎÏÌ",
+   "current_name": "k__BackingFieldComponentSibling_1056",
+   "namespace": "",
+   "score": 9.376,
+   "distinct_types": 3,
+   "signal_types": [
+    {
+     "type": "Transform",
+     "source": "param"
+    },
+    {
+     "type": "Vector3",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÏÍÎÍÌÎÎÍÏÏÎÏÌÏÎÌÌÏÏÎÎÎÌ",
+    "ÍÎÏÏÌÌÍÌÏÍÌÍÍÎÌÏÍÎÍÍÍÌÏ",
+    "ÏÎÏÍÎÌÍÏÏÌÎÎÏÌÎÍÍÏÌÎÏÍÌ",
+    "ÎÏÌÎÎÏÌÍÍÎÍÌÏÎÍÎÍÍÍÎÍÌÍ",
+    "ÍÎÏÎÍÎÏÌÌÌÎÍÎÎÌÎÎÍÍÏÍÎÍ",
+    "ÍÍÏÎÏÌÌÎÍÏÎÎÍÌÏÏÏÍÌÏÏÍÍ",
+    "ÍÏÏÏÎÌÏÎÍÌÍÍÌÎÌÎÍÏÎÍÏÌÏ",
+    "ÌÌÏÏÍÏÍÌÍÎÌÍÏÎÌÌÌÏÍÎÌÎÎ"
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÌÏÏÍÏÍÍÌÌÏÌÏÎÏÌÍÎÎÎÍ",
+   "current_name": "Type10m2f_842F",
+   "namespace": "",
+   "score": 9.349,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "source": "field"
+    },
+    {
+     "type": "GameObject",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÍÏÌÍÌÎÏÌÍÌÏÏÎÏÏÎÍÌÎÌÏÎÎ",
+    "ÏÎÏÎÌÏÏÍÎÍÌÌÏÏÍÏÍÍÎÌÍÎÏ",
+    "ÍÌÎÍÍÍÏÍÎÎÏÌÏÎÍÍÍÏÍÍÍÎÌ",
+    "ÎÌÎÌÎÎÌÎÎÏÎÍÍÍÎÍÏÏÍÌÏÏÎ",
+    "ÏÏÌÌÎÏÎÎÏÌÌÌÍÌÏÍÌÏÍÌÌÏÌ",
+    "ÌÌÎÎÌÏÏÏÎÌÍÏÏÏÌÍÎÎÍÎÍÏÏ",
+    "ÍÍÍÍÎÎÍÌÏÏÌÏÍÏÌÏÍÌÌÏÍÍÏ",
+    "ÌÎÎÎÌÏÌÏÍÌÎÌÍÏÎÎÏÍÍÏÌÍÏ"
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÍÍÎÎÎÎÌÌÍÌÏÏÌÎÏÏÌÏÍÎ",
+   "current_name": "k__BackingFieldComponentSibling_32D7",
+   "namespace": "",
+   "score": 9.016,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "RenderTexture",
+     "source": "return"
+    },
+    {
+     "type": "Vector2",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÎÎÏÎÏÍÏÍÏÏÍÏÌÍÍÏÏÍÏÍÍÎÎ",
+    "ÏÌÏÎÍÌÌÎÍÌÌÏÍÏÌÍÏÌÎÍÎÏÏ",
+    "ÏÏÌÎÍÌÏÍÏÌÎÏÎÍÍÏÎÌÍÍÌÎÎ",
+    "ÍÎÍÏÏÏÍÍÎÍÍÍÏÍÌÍÍÎÍÏÍÌÍ",
+    "ÌÎÌÏÍÌÌÏÍÎÍÎÏÎÎÍÍÏÎÎÍÍÎ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÏÍÏÍÍÍÎÌÏÎÌÏÌÏÌÏÎÎÍÏ",
+   "current_name": "loadingTextureComponentSiblingSibling_D766",
+   "namespace": "",
+   "score": 9.006,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Sprite",
+     "source": "return"
+    },
+    {
+     "type": "Material",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÍÏÎÌÌÍÏÍÏÍÏÏÏÎÌÍÍÏÍÌÏÌ",
+    "ÌÏÍÎÏÌÌÍÍÌÏÎÍÍÌÍÏÌÍÏÍÏÌ",
+    "ÏÍÎÎÌÍÏÎÍÏÎÏÍÎÍÎÎÌÍÏÌÌÏ",
+    "ÏÍÍÌÌÌÏÍÍÎÏÎÏÏÎÌÍÏÍÎÌÌÌ",
+    "ÍÏÏÍÌÏÍÎÏÍÌÎÏÌÏÌÏÍÌÎÍÏÎ"
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÌÎÌÍÍÌÍÌÍÎÎÏÏÍÏÍÎÎÌÏ",
+   "current_name": "Type7m2f_2FAB",
+   "namespace": "",
+   "score": 8.966,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Sprite",
+     "source": "field"
+    },
+    {
+     "type": "Texture2D",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÌÎÏÏÎÎÏÎÏÍÎÍÏÎÍÎÎÌÎÎÍÌÍ",
+    "ÍÏÎÏÍÏÏÏÎÏÏÌÏÏÍÎÌÍÎÎÎÏÎ",
+    ".ctor",
+    "ÎÏÍÌÎÌÍÎÎÎÍÏÎÎÌÏÏÎÏÌÌÏÍ",
+    "ÏÌÎÌÎÍÎÏÏÍÍÏÍÏÍÌÍÌÌÎÍÎÌ",
+    "ÌÌÏÌÍÎÍÎÎÏÌÏÏÌÌÎÌÏÎÍÎÏÌ",
+    "ÏÏÌÏÏÌÍÏÌÎÍÌÍÏÏÏÌÌÌÍÍÎÎ"
+   ]
+  },
+  {
+   "obf_name": "ÍÏÏÏÎÏÎÌÎÏÎÌÎÌÎÍÎÎÏÌÎÏÏ",
+   "current_name": "BaseClass290Impl_k__BackingFieSibling_B0FB",
+   "namespace": "",
+   "score": 8.956,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Bounds",
+     "source": "return"
+    },
+    {
+     "type": "Vector2",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÏÎÌÏÎÎÌÍÏÎÌÌÌÍÏÌÏÎÍÎÎÏ",
+    "ÏÎÎÍÎÍÌÌÌÌÌÎÎÎÍÏÎÍÏÎÌÌÍ",
+    "ÏÌÌÍÏÌÏÌÎÍÌÎÏÌÌÎÏÍÌÍÌÍÎ",
+    "ÌÎÏÌÏÍÍÏÍÌÏÌÌÌÎÏÎÏÍÍÏÌÍ",
+    "ÌÎÌÎÌÏÍÎÍÏÍÏÏÍÏÍÍÏÎÍÏÍÍ"
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÎÍÏÏÏÌÎÎÎÌÌÍÏÏÌÏÏÌÌÎ",
+   "current_name": "BaseClass45Impl_5F64",
+   "namespace": "",
+   "score": 8.882,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Content",
+     "source": "field"
+    },
+    {
+     "type": "Color",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÍÌÌÍÎÍÏÌÎÎÍÏÍÍÎÌÌÏÌÎÍÏ",
+    "ÌÍÍÌÌÌÌÏÎÏÏÎÏÏÌÏÌÏÏÏÎÏÍ",
+    "ÌÏÌÏÌÌÌÌÏÌÏÍÎÏÎÏÍÌÏÍÎÎÎ",
+    "ÎÌÏÎÎÍÏÏÏÌÎÎÏÌÍÌÎÎÏÌÍÎÏ",
+    "ÌÌÍÌÎÍÍÏÎÌÏÏÎÎÏÏÎÍÏÌÎÎÌ",
+    "ÎÏÍÍÏÎÍÎÌÏÌÎÌÎÍÎÍÌÍÎÌÎÌ",
+    "ÎÏÍÎÏÎÎÌÏÍÌÎÎÏÌÌÍÌÏÏÎÍÏ",
+    "ÎÎÌÏÌÍÏÌÏÌÍÏÎÍÍÏÏÏÌÍÍÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÏÎÎÌÌÍÎÎÎÎÎÏÍÍÏÍÍÍÏÎ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_3C3F",
+   "namespace": "",
+   "score": 8.558,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Sprite",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÎÍÏÎÍÌÌÌÍÍÍÎÎÌÏÌÎÏÏÏÌÏ",
+    "ÎÍÏÌÏÎÌÏÌÎÍÌÎÎÍÎÏÎÏÏÍÍÎ",
+    "ÌÌÌÍÍÏÍÏÏÍÏÍÍÎÎÌÌÌÎÌÌÏÏ",
+    "ÎÌÏÏÌÎÏÏÌÍÍÏÌÌÏÍÍÏÎÏÍÌÌ",
+    "ÎÍÍÎÍÎÌÍÌÎÎÏÎÎÍÎÏÍÏÍÎÌÍ",
+    "ÍÏÎÍÍÏÏÌÌÍÍÍÌÎÎÏÍÎÏÎÌÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÌÏÌÎÍÏÌÌÌÍÏÏÏÌÏÏÍÏÌÏ",
+   "current_name": "Type8m1f_FBD9",
+   "namespace": "",
+   "score": 8.507,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "UniTaskCompletionSource",
+     "source": "field"
+    },
+    {
+     "type": "ApiContainer",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÌÌÏÎÌÍÌÎÌÎÌÎÎÏÎÌÌÏÏÎÌÎÌ",
+    "ÍÌÏÎÍÍÍÌÍÌÍÏÎÌÏÌÌÍÌÌÎÎÍ",
+    "ÎÌÎÌÌÎÎÏÍÌÏÎÎÎÏÌÏÎÌÍÎÌÍ",
+    "ÌÏÍÎÎÏÌÍÌÍÌÎÍÍÍÎÏÍÎÌÌÏÎ",
+    "ÎÎÍÌÍÍÌÍÎÌÌÌÍÍÎÏÎÍÏÍÎÎÏ",
+    "ÎÎÎÍÍÍÍÌÏÍÏÎÌÏÎÍÌÍÎÏÎÌÎ",
+    "ÎÌÌÏÏÏÎÌÍÍÎÏÌÌÌÌÌÎÏÏÏÏÍ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÌÍÎÏÍÍÌÎÍÏÏÍÏÏÏÌÎÍÌÎ",
+   "current_name": "Type11m3f_447C",
+   "namespace": "",
+   "score": 8.507,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "UniTaskCompletionSource",
+     "source": "field"
+    },
+    {
+     "type": "ApiContainer",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÍÏÍÍÏÌÍÌÍÍÌÍÌÏÎÎÎÎÎÌÎÌÌ",
+    "ÌÌÌÏÏÍÏÎÌÎÎÏÌÌÍÌÎÌÍÎÍÌÏ",
+    "ÏÏÌÍÌÏÍÌÍÌÎÍÎÍÎÍÏÍÏÍÌÏÌ",
+    "ÎÎÎÌÌÌÌÌÏÍÍÏÎÍÌÏÏÍÎÎÍÌÍ",
+    "ÏÎÎÍÎÌÌÏÍÎÌÌÌÍÍÌÌÏÌÏÏÍÏ",
+    ".ctor",
+    "ÏÏÎÏÎÎÎÌÎÎÎÌÎÌÎÌÎÌÌÌÎÍÍ",
+    "ÏÎÎÍÌÎÍÍÌÏÏÌÎÏÏÎÏÌÍÏÍÍÍ"
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÌÍÏÎÎÎÏÌÏÎÍÎÏÍÌÎÏÎÌÍ",
+   "current_name": "Type11m1f_34B5",
+   "namespace": "",
+   "score": 8.507,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "UniTaskCompletionSource",
+     "source": "field"
+    },
+    {
+     "type": "ApiContainer",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÏÍÍÌÍÏÍÍÎÍÏÏÎÏÍÌÏÌÎÌÍÏÍ",
+    "ÏÏÍÎÏÍÏÎÌÍÍÎÌÎÌÍÏÍÌÌÏÌÌ",
+    ".ctor",
+    "ÍÎÏÎÍÍÌÍÏÏÎÍÏÌÏÍÏÏÌÌÎÍÍ",
+    "ÏÌÌÏÎÌÍÌÎÎÍÏÎÎÌÎÎÍÌÏÏÎÌ",
+    "ÏÎÏÏÍÍÎÎÏÍÌÏÍÎÎÌÍÏÏÍÎÏÌ",
+    "ÌÏÍÎÏÏÍÌÍÍÌÌÏÏÌÏÌÍÍÍÍÎÍ",
+    "ÍÎÍÍÏÏÏÎÌÏÏÎÍÎÏÌÍÎÍÌÍÍÍ"
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÎÏÌÏÌÏÏÏÏÎÍÎÏÍÌÍÌÍÌÏ",
+   "current_name": "Mono1m_CEF8",
+   "namespace": "",
+   "score": 8.476,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Rect",
+     "source": "field"
+    },
+    {
+     "type": "Vector2",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÎÎÎÌÌÏÏÏÎÎÌÏÏÏÍÌÍÍÍÍÌÌÎ",
+   "current_name": "Type8m1f_AF12",
+   "namespace": "",
+   "score": 8.476,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Rect",
+     "source": "field"
+    },
+    {
+     "type": "Vector2",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÏÌÌÌÌÌÏÌÏÏÏÌÏÌÍÌÏÎÌÎÍÎÎ",
+    "ÎÏÏÍÍÍÎÌÌÌÍÌÌÌÎÌÌÌÎÍÎÏÎ",
+    "ÎÏÏÏÍÎÌÌÎÌÌÎÌÍÍÌÎÏÍÍÎÍÌ",
+    "ÏÍÏÏÍÎÎÏÌÌÎÌÏÍÍÍÏÏÏÎÌÎÎ",
+    "ÏÏÍÏÏÏÌÍÎÍÍÌÏÍÏÌÍÍÍÌÏÎÍ",
+    "ÎÌÎÌÎÎÍÌÌÏÏÍÎÍÍÏÎÌÏÏÏÎÎ",
+    "ÌÏÏÌÏÎÍÍÍÏÎÌÎÎÎÌÎÍÌÏÎÎÎ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÎÎÏÏÏÏÏÍÏÍÍÏÎÍÎÏÌÌÏÌÏÌÎ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_E79D",
+   "namespace": "",
+   "score": 8.162,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Animator",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÏÌÌÎÏÌÎÍÏÏÏÏÌÌÌÍÍÌÌÌÎÏÍ",
+    "ÏÌÌÍÏÎÏÌÎÎÏÎÍÍÌÌÍÌÍÌÎÍÎ",
+    "ÎÏÌÌÍÎÍÌÌÎÎÌÌÏÌÍÎÌÎÎÍÌÍ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÍÍÏÍÎÎÎÍÍÌÎÌÎÎÌÎÏÎÎÏ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_A591",
+   "namespace": "",
+   "score": 8.138,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Texture2D",
+     "source": "return"
+    },
+    {
+     "type": "DateTime",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÎÏÍÏÍÎÌÎÎÍÏÍÌÏÌÌÌÌÎÏÏÍ",
+    "ÏÎÍÍÎÎÍÌÎÏÏÌÎÏÏÌÏÍÏÍÎÌÏ",
+    "ÍÏÏÍÌÎÏÏÌÏÌÌÏÎÌÌÌÌÏÎÌÏÏ",
+    "ÏÌÍÎÎÎÏÎÌÌÌÌÏÏÍÌÏÌÏÎÌÌÎ",
+    "ÌÍÍÌÍÍÍÎÏÍÍÌÏÌÎÏÎÌÌÎÏÌÏ",
+    "ÎÍÍÌÎÏÏÌÌÌÏÏÍÍÎÍÌÎÍÍÌÌÍ",
+    "ÌÍÎÍÍÏÍÌÍÏÏÍÏÎÍÍÎÎÌÌÌÏÌ",
+    "ÍÎÍÍÎÌÎÍÏÌÎÏÏÌÎÎÍÍÍÍÎÎÍ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÎÍÌÏÌÍÌÌÎÏÌÏÏÍÏÍÍÎÎÏ",
+   "current_name": "Type6m3f_9F1D",
+   "namespace": "",
+   "score": 8.107,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Component",
+     "source": "return"
+    },
+    {
+     "type": "GameObject",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÌÍÍÌÍÎÍÍÏÌÌÎÏÎÍÎÌÏÎÌÎÍÎ",
+    "ÍÌÍÏÌÏÎÍÏÏÏÍÎÌÍÍÌÏÏÎÍÌÏ",
+    "ÏÎÍÏÌÎÌÌÏÎÌÏÏÌÌÌÍÏÎÌÌÏÍ",
+    "ÌÏÏÌÏÍÌÍÏÏÍÌÏÎÎÌÏÌÍÌÎÌÌ",
+    "ÎÍÎÍÏÏÏÍÍÍÍÍÌÏÍÏÎÏÎÎÎÍÍ",
+    ".cctor"
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÍÎÎÌÍÏÍÏÍÌÏÌÏÏÎÌÎÌÌÎ",
+   "current_name": "Type2m1f_59F6",
+   "namespace": "",
+   "score": 8.084,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "RectTransform",
+     "source": "param"
+    },
+    {
+     "type": "Vector2",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÌÌÏÌÎÏÎÌÎÌÎÎÎÏÎÏÌÏÎÎÎÏÎ",
+    "ÍÏÍÏÏÏÍÍÎÎÏÌÍÏÎÏÌÏÏÏÎÎÎ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÎÍÏÍÍÌÌÏÍÏÏÍÎÏÏÌÌÌÍÌ",
+   "current_name": "Struct5f_1819",
+   "namespace": "",
+   "score": 7.865,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Rect",
+     "source": "param"
+    },
+    {
+     "type": "Vector3",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÏÎÎÍÍÎÎÎÎÍÏÏÎÎÎÏÍÏÌÌÏÌ",
+    "ÏÍÌÎÏÏÌÏÎÍÎÎÍÏÏÎÎÎÎÌÏÏÏ",
+    "ÎÌÏÌÍÏÍÏÏÎÏÎÎÍÎÍÌÎÏÌÏÌÎ",
+    "ÍÏÎÏÍÎÎÍÎÍÏÍÌÌÍÎÌÎÏÌÍÌÎ",
+    "ÍÏÎÍÌÏÏÌÎÌÌÎÎÍÎÌÏÎÌÎÎÏÏ",
+    "ÌÍÍÎÎÌÎÏÍÌÍÏÎÌÍÎÎÎÍÎÏÍÍ",
+    "ÌÌÎÍÎÍÎÌÌÏÎÌÎÏÎÏÎÍÎÏÍÌÌ",
+    "ÌÎÎÎÏÍÌÌÏÏÍÎÎÎÏÍÏÏÍÌÌÍÍ"
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÌÍÌÌÌÎÍÍÎÌÏÍÍÎÍÎÎÍÎÌ",
+   "current_name": "PlayerNetSibling_12D7",
+   "namespace": "",
+   "score": 7.8,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Texture2D",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÎÍÏÎÍÌÌÌÍÍÍÎÎÌÏÌÎÏÏÏÌÏ",
+    "ÌÏÍÍÏÌÍÎÏÏÏÎÌÏÌÎÌÏÍÏÎÌÏ",
+    "ÌÎÍÎÏÍÌÏÌÎÌÏÎÏÏÎÎÏÏÌÎÎÎ",
+    "ÎÍÍÌÎÌÏÏÍÍÎÌÌÏÍÏÎÎÎÎÍÎÎ",
+    "ÏÍÌÍÏÌÎÌÏÍÏÌÍÌÌÌÍÎÍÏÌÎÎ"
+   ]
+  },
+  {
+   "obf_name": "ÎÎÏÍÏÎÌÏÌÎÎÎÏÏÎÍÍÌÏÍÍÌÍ",
+   "current_name": "BackingFieldBaseImplSiblingSibSibling_2F0F",
+   "namespace": "",
+   "score": 7.8,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Texture2D",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÍÎÎÍÍÌÌÌÌÎÍÌÌÍÌÌÎÌÌÎÏÏ",
+    "ÌÏÍÎÏÏÍÌÎÏÎÍÏÍÍÍÌÏÎÌÎÏÍ",
+    "ÎÍÌÎÎÍÏÍÍÏÌÌÍÌÎÌÎÏÏÎÏÌÎ",
+    "ÍÎÌÌÌÍÎÏÎÍÍÍÏÌÌÌÍÏÍÍÏÏÌ",
+    "ÌÏÏÌÍÎÍÌÍÎÏÏÏÍÏÍÍÍÍÌÌÍÏ",
+    "ÎÏÏÍÍÎÍÌÍÏÍÏÎÍÍÏÏÍÌÍÌÍÌ",
+    "ÏÏÍÎÌÎÏÎÎÏÎÏÏÎÌÍÎÌÌÎÌÌÎ",
+    "ÍÍÌÎÍÍÏÏÎÏÏÌÌÌÍÎÎÎÏÏÌÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÌÌÌÌÎÏÍÌÍÍÎÎÍÍÍÌÍÌÎÌÎÌÍ",
+   "current_name": "k__BackingFieldComponentSibling_B28A",
+   "namespace": "",
+   "score": 7.8,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Texture2D",
+     "source": "param"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÎÌÏÎÌÎÌÍÎÏÍÎÏÏÎÌÏÍÏÍÍÏÎ",
+    "ÍÌÎÎÌÌÌÌÏÎÏÍÍÍÏÍÏÏÌÎÍÍÏ",
+    "ÏÏÎÎÎÎÌÏÎÏÏÌÍÌÌÌÏÎÍÏÏÌÍ",
+    "ÎÏÎÌÍÏÏÍÏÎÎÍÍÏÎÎÏÍÌÌÎÏÎ",
+    "ÏÏÎÎÍÍÌÌÏÌÎÌÎÏÎÍÏÌÏÏÏÏÌ",
+    "ÏÍÍÍÍÏÌÏÏÎÏÌÌÍÎÌÍÌÍÌÎÏÌ",
+    "ÍÍÍÍÏÌÍÌÍÎÌÏÌÎÏÌÏÎÍÎÍÌÏ",
+    "ÏÍÎÎÎÏÏÍÌÎÌÍÏÎÎÌÎÏÏÏÍÎÍ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÌÌÌÍÌÏÏÌÎÏÏÍÌÎÌÎÎÏÍÌ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_2D51",
+   "namespace": "",
+   "score": 7.8,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Texture2D",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÌÌÌÎÎÎÎÍÌÏÍÏÌÎÍÎÌÍÌÌÍÏ",
+    "ÌÏÍÍÏÌÍÎÏÏÏÎÌÏÌÎÌÏÍÏÎÌÏ",
+    "ÏÎÎÏÍÌÏÍÌÍÏÌÎÌÏÏÎÏÏÌÎÏÏ",
+    "ÏÍÍÎÏÎÏÎÍÍÍÍÍÎÏÍÌÍÍÎÍÎÎ",
+    "ÎÌÏÎÎÏÍÎÍÍÌÍÏÏÍÏÏÍÍÌÎÏÌ",
+    "ÌÎÌÏÍÌÌÏÍÎÍÎÏÎÎÍÍÏÎÎÍÍÎ",
+    "ÍÎÏÍÍÍÍÌÏÍÍÎÎÍÌÍÏÏÎÌÌÏÍ",
+    "ÎÌÏÎÍÌÎÏÍÍÏÍÌÌÌÍÌÍÎÎÏÏÍ"
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÌÌÏÍÍÏÍÎÍÌÏÍÍÏÏÍÍÍÏÎ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_0B40",
+   "namespace": "",
+   "score": 7.73,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "DateTime",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÎÎÎÌÏÍÌÌÍÍÍÎÏÎÎÍÎÌÎÌÎÍ",
+    "ÌÎÎÍÌÍÏÌÌÍÎÌÏÎÏÏÎÏÎÏÍÌÎ",
+    "ÌÌÌÎÎÍÏÏÍÌÌÌÏÏÍÌÎÌÌÍÏÏÏ",
+    "ÎÎÏÍÏÍÎÌÎÎÍÏÍÌÏÌÌÌÌÎÏÏÍ",
+    "ÍÎÍÏÌÍÌÌÏÏÌÌÏÏÎÎÎÏÍÍÍÎÎ",
+    "ÎÏÌÏÏÍÌÎÏÏÏÎÍÎÎÌÍÎÎÍÍÍÎ",
+    "ÏÏÏÏÌÍÏÍÌÏÌÍÎÎÍÌÎÌÌÍÌÍÌ",
+    "ÍÎÏÌÌÍÎÏÌÌÎÍÏÎÎÎÌÌÎÎÎÎÎ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÎÏÎÏÏÎÍÍÍÍÎÍÏÍÏÍÎÏÌÌ",
+   "current_name": "Record4f_A791",
+   "namespace": "",
+   "score": 7.603,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Color",
+     "source": "field"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÍÌÎÌÍÍÍÏÌÌÌÍÍÏÌÍÍÏÌÏ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_70A1",
+   "namespace": "",
+   "score": 7.603,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Color",
+     "source": "return"
+    },
+    {
+     "type": "LocalizableString",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÍÎÎÍÍÌÌÌÌÎÍÌÌÍÌÌÎÌÌÎÏÏ",
+    "ÎÎÏÌÍÏÏÏÍÍÎÎÎÏÏÍÍÌÏÏÏÌÌ",
+    "ÌÌÌÎÎÍÏÏÍÌÌÌÏÏÍÌÎÌÌÍÏÏÏ",
+    "ÍÎÍÏÎÍÌÌÌÍÍÍÎÎÌÏÌÎÏÏÏÌÏ",
+    "ÌÎÍÎÌÍÌÌÍÌÎÏÌÏÎÎÎÎÍÏÍÌÎ",
+    "ÏÎÍÍÌÏÌÎÍÏÎÌÍÍÍÌÏÏÏÍÌÏÎ",
+    "ÎÏÏÌÏÍÌÏÌÎÍÏÎÏÍÌÍÎÎÌÏÌÌ",
+    "ÍÏÎÌÌÍÌÏÍÍÎÏÍÌÌÌÌÍÎÏÌÏÏ"
+   ]
+  },
+  {
+   "obf_name": "ÎÍÌÍÏÌÎÎÎÍÏÏÏÌÎÏÎÎÏÌÎÎÎ",
+   "current_name": "BackingFieldBaseImplSibling_7E8C",
+   "namespace": "",
+   "score": 7.557,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Color",
+     "source": "field"
+    },
+    {
+     "type": "Vector2",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÏÎÏÏÎÏÏÎÌÏÎÌÎÎÍÎÍÌÌÏÏÎÏ",
+    "ÍÎÍÏÎÍÌÌÌÍÍÍÎÎÌÏÌÎÏÏÏÌÏ",
+    "ÌÍÎÏÌÍÍÎÌÌÎÏÍÍÍÌÏÍÍÏÍÏÌ",
+    "ÍÏÍÏÌÏÏÍÏÏÏÏÍÍÍÎÎÎÍÎÍÎÏ",
+    "ÌÏÌÍÎÎÎÏÍÎÎÌÌÌÎÏÌÏÌÌÎÏÍ",
+    "ÌÏÍÏÍÍÏÍÍÎÎÌÏÎÍÍÏÎÍÍÌÌÎ",
+    "ÍÎÌÍÌÏÏÎÌÌÍÍÎÍÎÍÍÍÍÏÎÌÌ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÍÎÌÌÏÎÎÏÍÌÏÎÍÌÍÍÌÏÌÍ",
+   "current_name": "Type9m4f_2C5A",
+   "namespace": "",
+   "score": 7.38,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "UniTaskCompletionSource",
+     "source": "field"
+    },
+    {
+     "type": "GameObject",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÎÎÌÌÏÏÌÎÌÍÎÍÌÌÌÌÏÌÍÍÎÍÌ",
+    "ÍÌÏÎÏÍÌÎÎÌÏÏÌÎÌÏÏÌÍÌÏÍÍ",
+    "ÍÏÏÌÍÌÌÌÎÌÍÍÏÍÍÎÌÍÏÌÍÏÌ",
+    "ÌÌÎÏÏÍÌÍÏÍÏÎÍÏÏÏÎÎÌÍÍÎÏ",
+    "ÏÍÎÍÎÎÏÎÏÍÌÍÏÍÎÍÎÏÌÎÌÌÍ",
+    ".ctor",
+    "ÍÏÌÏÍÏÏÎÍÎÏÏÏÎÍÌÎÏÏÍÌÌÏ",
+    "ÍÏÎÍÏÏÍÎÌÌÏÏÏÍÌÏÎÏÌÎÎÏÍ"
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÌÌÍÍÎÌÌÌÏÎÌÍÌÏÍÎÍÏÌÎ",
+   "current_name": "Type9m4f_B7E0",
+   "namespace": "",
+   "score": 7.131,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "param"
+    },
+    {
+     "type": "Vector3",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÍÏÏÌÎÌÌÎÍÎÏÎÎÏÍÌÍÌÍÍÌÌÎ",
+    "ÍÎÎÌÏÏÏÌÎÌÏÌÏÍÏÎÏÍÎÌÌÎÎ",
+    "ÍÎÏÏÎÏÏÌÍÏÍÏÏÎÍÎÏÍÏÍÍÌÎ",
+    "ÏÌÍÎÎÎÎÏÎÌÌÍÎÌÎÎÏÌÍÏÍÌÍ",
+    "ÎÌÌÏÏÌÍÍÎÌÍÍÏÏÍÌÏÍÎÌÏÏÏ",
+    "ÏÎÎÎÎÎÍÎÌÏÌÎÌÍÍÎÍÌÏÏÏÎÏ",
+    ".ctor",
+    "ÍÎÌÍÎÏÏÍÎÎÏÌÍÌÌÌÍÍÎÏÎÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÍÍÏÎÌÎÌÍÎÍÌÎÏÌÌÎÍÌÌÍ",
+   "current_name": "Static8m_7DDF",
+   "namespace": "",
+   "score": 7.131,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "return"
+    },
+    {
+     "type": "Vector3",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÎÎÌÎÏÍÌÍÎÎÌÏÍÎÏÎÍÌÏÎÏÌÎ",
+    "ÌÎÌÎÏÏÌÎÎÎÎÌÍÎÎÏÏÍÏÎÌÍÌ",
+    "ÏÎÎÍÏÌÏÌÏÎÏÍÍÌÌÍÎÍÏÏÎÎÎ",
+    "ÌÎÏÎÌÍÌÏÍÍÍÏÍÏÍÎÎÏÌÌÎÎÏ",
+    "ÏÍÌÌÍÍÏÍÍÍÎÎÏÍÎÎÏÎÎÌÎÍÌ",
+    "ÍÏÎÎÏÌÍÏÍÌÎÍÍÍÏÏÍÍÍÍÏÌÎ",
+    "ÎÎÍÍÍÌÌÌÎÌÎÎÌÌÌÍÎÎÏÎÏÎÎ",
+    "ÌÌÎÍÏÌÍÏÌÌÍÎÌÌÏÏÎÏÍÎÍÏÍ"
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÎÍÍÎÎÎÍÍÍÌÌÍÍÌÍÍÏÏÏÌ",
+   "current_name": "BaseClass3Impl_D9BD",
+   "namespace": "",
+   "score": 7.131,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "field"
+    },
+    {
+     "type": "Vector3",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÌÎÏÏÏÌÎÏÏÏÍÍÍÍÏÏÎÎÎÍÌÍÏ",
+    "ÏÍÍÍÍÍÍÌÌÏÍÎÎÍÍÏÎÌÎÎÏÎÍ",
+    "ÏÌÏÍÎÌÍÏÏÏÏÏÍÏÎÎÏÍÍÍÎÏÍ",
+    "ÌÏÍÌÌÏÎÌÌÍÍÎÏÍÌÏÏÎÏÍÍÎÏ",
+    ".ctor",
+    "ÏÏÍÍÌÎÏÍÍÍÎÍÏÌÍÎÏÏÏÏÍÏÎ",
+    "ÏÌÍÏÎÍÌÍÌÍÌÏÎÍÍÎÍÏÍÌÎÍÎ",
+    "ÍÎÎÎÏÌÎÎÎÌÍÏÌÎÍÍÎÏÏÎÌÍÌ"
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÏÎÎÏÌÌÌÎÎÌÎÌÌÌÏÏÌÍÏÏ",
+   "current_name": "Type9m4f_5B3F",
+   "namespace": "",
+   "score": 7.131,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "param"
+    },
+    {
+     "type": "Vector3",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÏÍÍÏÌÌÌÏÎÌÌÎÍÌÌÏÏÍÎÏÏÏÍ",
+    "ÍÌÍÌÎÏÏÎÌÍÌÏÎÍÏÍÎÏÎÏÍÏÌ",
+    "ÍÎÎÏÎÎÏÌÏÏÏÌÍÌÌÌÏÎÏÍÎÏÎ",
+    "ÍÏÍÏÎÌÍÏÍÌÌÍÌÎÏÍÍÍÍÌÎÏÎ",
+    "ÍÍÏÌÏÏÌÎÏÌÍÍÌÏÌÏÎÏÏÍÌÎÌ",
+    "ÎÎÍÏÎÍÏÏÏÍÎÏÌÍÍÍÏÎÌÍÌÌÍ",
+    "ÍÌÏÍÎÏÍÎÍÎÍÏÎÎÎÌÏÎÏÎÌÌÎ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÌÎÏÎÌÎÍÍÍÌÍÍÍÏÏÍÏÏÌÌ",
+   "current_name": "VRCPlayerSibling_A8EA",
+   "namespace": "",
+   "score": 7.131,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Quaternion",
+     "source": "return"
+    },
+    {
+     "type": "Vector3",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÌÏÍÍÏÌÍÎÏÏÏÎÌÏÌÎÌÏÍÏÎÌÏ",
+    "ÏÎÏÎÌÎÎÌÍÏÍÎÌÏÌÌÏÏÏÌÎÌÏ",
+    "ÍÏÏÎÍÏÍÎÏÎÎÌÏÌÍÏÌÎÌÎÍÌÏ",
+    "ÎÏÌÎÍÍÌÍÌÎÏÎÌÎÍÍÏÍÏÌÍÍÏ",
+    "ÍÏÌÎÌÌÏÏÍÎÍÎÏÏÌÍÌÍÏÎÎÏÎ",
+    "ÎÏÍÌÍÎÍÌÌÌÎÌÏÎÌÎÌÏÍÌÌÏÏ",
+    "ÍÍÏÎÎÎÌÍÎÌÎÍÌÎÌÍÌÌÏÍÌÏÎ",
+    "ÍÍÌÌÎÌÍÎÍÍÌÍÎÍÏÏÌÌÎÏÍÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÌÌÍÌÎÍÎÌÎÏÍÍÏÏÏÌÌÏÏÎÏÎÍ",
+   "current_name": "Static2m_9E5C",
+   "namespace": "",
+   "score": 6.946,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Color",
+     "source": "return"
+    },
+    {
+     "type": "Vector3",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÏÍÌÏÌÌÍÍÏÌÏÎÎÎÍÌÏÍÌÍÏÏÍ",
+    "ÍÎÍÍÎÌÎÏÍÌÍÍÏÎÌÏÌÌÎÌÍÎÏ"
+   ]
+  },
+  {
+   "obf_name": "ÏÏÍÎÎÍÏÍÎÏÍÍÎÎÎÍÎÍÏÎÎÌÏ",
+   "current_name": "VRCUiManagerSibling_78C1",
+   "namespace": "",
+   "score": 6.574,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "LocalizableString",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÏÍÎÎÌÌÌÌÌÎÍÎÏÏÍÎÎÎÏÌÍÎÎ",
+    "ÏÎÌÏÏÎÌÌÎÍÌÎÌÍÎÌÏÌÌÏÎÍÍ",
+    "ÍÏÌÎÏÏÌÍÏÎÏÎÏÌÏÎÌÏÏÏÍÏÍ",
+    "ÎÎÏÍÍÌÌÎÏÏÌÏÍÏÌÎÏÎÍÍÏÌÍ",
+    "ÍÌÍÍÍÏÌÍÌÌÌÍÎÌÎÍÌÎÌÏÏÌÌ",
+    "ÎÌÏÍÍÏÍÎÍÍÍÌÍÎÎÌÎÏÎÏÎÎÍ",
+    "ÎÎÏÌÏÌÍÏÏÌÍÍÌÌÏÎÌÌÎÌÌÏÎ",
+    "ÏÌÍÏÎÏÎÌÍÌÍÍÏÍÌÎÌÍÌÍÍÎÏ"
+   ]
+  },
+  {
+   "obf_name": "ÎÏÎÍÌÏÎÌÏÍÏÎÌÏÎÎÏÍÌÎÏÏÎ",
+   "current_name": "BaseClass45Impl_C8B0",
+   "namespace": "",
+   "score": 6.574,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "LocalizableString",
+     "source": "field"
+    },
+    {
+     "type": "GameObject",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÌÍÍÌÌÌÌÏÎÏÏÎÏÏÌÏÌÏÏÏÎÏÍ",
+    "ÌÍÏÎÌÎÏÎÍÌÌÏÌÎÏÏÍÍÌÌÎÏÎ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÏÎÎÍÏÏÎÌÌÍÎÍÎÎÎÍÏÌÏÍ",
+   "current_name": "BaseClass45Impl_8939",
+   "namespace": "",
+   "score": 6.574,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "LocalizableString",
+     "source": "field"
+    },
+    {
+     "type": "GameObject",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÎÏÏÍÌÏÌÏÍÍÌÍÏÏÏÎÍÌÏÍÎÍÎ",
+    "ÌÌÍÌÎÌÍÍÏÎÌÎÍÎÌÎÏÌÎÌÎÍÌ",
+    "ÍÎÌÍÍÎÏÎÏÏÎÍÍÏÌÌÎÌÌÍÍÌÌ",
+    "ÏÍÍÎÎÍÍÎÌÏÍÎÌÍÏÌÍÌÍÏÎÎÍ",
+    "ÏÎÎÎÏÌÌÎÍÏÏÍÎÍÎÎÌÌÎÌÌÍÌ",
+    "ÍÎÏÌÏÏÍÌÍÌÏÏÎÏÌÏÎÍÏÏÍÌÍ",
+    "ÌÍÏÎÌÎÏÎÍÌÌÏÌÎÏÏÍÍÌÌÎÏÎ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÏÌÍÏÎÎÏÌÌÎÍÌÍÏÍÎÌÎÍÏÍÌÏ",
+   "current_name": "k__BackingFieldSiblingSibling_3DD6",
+   "namespace": "",
+   "score": 6.528,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Vector2",
+     "source": "field"
+    },
+    {
+     "type": "GameObject",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "Update",
+    "ÍÏÏÍÍÏÏÎÏÌÏÎÎÌÎÌÏÍÎÌÏÍÍ",
+    "ÏÏÎÏÏÌÍÍÎÍÏÌÎÌÏÍÏÌÏÌÎÏÌ",
+    "ÎÌÎÏÎÎÍÏÎÍÏÎÍÌÍÏÍÏÍÌÌÌÌ",
+    "ÍÍÌÏÍÎÌÎÌÍÏÍÎÌÌÎÏÌÍÍÍÍÏ",
+    "ÌÍÎÍÍÎÍÌÎÌÌÏÍÎÌÌÏÏÎÌÌÎÍ",
+    "ÏÍÍÌÎÍÌÎÏÍÍÌÏÎÌÏÏÍÌÏÏÍÏ",
+    "ÌÏÍÏÍÏÍÎÏÍÍÍÌÍÌÏÌÎÎÍÌÌÍ"
+   ]
+  },
+  {
+   "obf_name": "ÌÌÌÎÏÌÍÏÏÏÍÍÍÏÎÍÏÍÎÏÍÍÍ",
+   "current_name": "Static7m_B7F8",
+   "namespace": "",
+   "score": 6.528,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Vector2",
+     "source": "return"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÍÌÎÍÎÎÎÎÍÌÌÎÌÏÍÍÎÌÎÌÎÍÌ",
+    "ÎÍÏÏÌÎÍÍÏÏÍÎÏÍÏÎÍÏÏÏÌÌÍ",
+    "ÍÍÏÍÏÍÏÏÍÏÌÌÍÎÍÎÏÏÌÌÏÎÎ",
+    "ÍÏÎÏÌÌÍÏÍÍÍÌÌÏÌÍÍÌÍÎÏÌÍ",
+    "ÎÌÏÍÏÏÏÍÌÏÎÍÌÌÎÏÏÎÍÌÌÎÌ",
+    "ÌÏÏÌÍÎÍÎÏÍÏÍÌÏÏÌÏÌÌÍÌÍÏ",
+    "ÍÎÌÍÎÌÌÍÏÏÍÌÎÏÎÍÎÏÌÍÍÏÌ"
+   ]
+  },
+  {
+   "obf_name": "ÌÏÎÏÍÍÌÌÍÌÌÍÏÎÏÍÏÏÎÌÏÏÎ",
+   "current_name": "BackingFieldBaseImpl_1356",
+   "namespace": "",
+   "score": 6.336,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Transform",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÌÌÍÎÎÏÌÏÎÎÎÏÎÏÏÏÏÏÍÎÏÌÌ",
+    "ÏÏÌÌÌÏÏÏÏÍÏÌÍÏÏÌÎÎÎÍÎÎÌ",
+    "ÌÏÍÍÎÌÍÏÌÏÌÍÌÌÏÏÎÌÌÌÎÎÎ",
+    "ÏÍÍÎÎÏÎÌÏÏÍÍÌÏÏÍÌÏÎÌÌÎÏ",
+    "ÌÏÍÌÏÍÍÌÌÍÍÌÏÏÏÏÌÍÏÎÏÍÎ",
+    "ÌÏÏÍÌÍÌÍÎÍÍÎÏÍÎÏÎÎÌÎÍÎÏ",
+    ".ctor",
+    "ÎÎÎÏÏÎÌÎÎÎÍÌÎÏÏÎÏÍÏÎÌÎÎ"
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÏÎÏÎÌÌÎÍÍÎÍÎÍÌÌÍÌÌÍÍ",
+   "current_name": "Networkk__BackingField_k__BackSibling_6F38",
+   "namespace": "",
+   "score": 6.336,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Transform",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÌÍÍÎÌÍÏÌÎÎÏÍÏÍÏÏÎÏÍÌÍÌÍ",
+    "ÎÌÏÍÎÏÏÏÎÍÎÍÎÎÍÍÏÎÎÌÌÏÏ",
+    "ÌÍÏÌÌÎÌÎÌÍÏÏÏÍÎÏÎÍÍÍÎÎÏ",
+    "ÏÍÏÌÌÏÌÌÎÏÍÌÌÏÌÏÎÎÎÍÎÎÍ"
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÍÍÎÎÏÎÍÎÍÎÎÎÎÍÌÌÎÏÍÎ",
+   "current_name": "Networkk__BackingField_k__BackSibling_CF98",
+   "namespace": "",
+   "score": 6.336,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Transform",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    "ÌÍÍÎÌÍÏÌÎÎÏÍÏÍÏÏÎÏÍÌÍÌÍ",
+    "ÎÌÏÍÎÏÏÏÎÍÎÍÎÎÍÍÏÎÎÌÌÏÏ",
+    "ÌÍÏÌÌÎÌÎÌÍÏÏÏÍÎÏÎÍÍÍÎÎÏ",
+    "ÏÍÏÌÌÏÌÌÎÏÍÌÌÏÌÏÎÎÎÍÎÎÍ"
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÎÎÎÍÏÌÍÍÎÌÎÏÍÎÍÍÍÍÌÍ",
+   "current_name": "BaseClass45ImplSibling_768A",
+   "namespace": "",
+   "score": 6.336,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Transform",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "field"
+    }
+   ],
+   "methods": [
+    "ÌÌÎÍÏÍÌÏÎÎÍÌÌÏÎÍÏÏÎÎÍÎÌ",
+    "ÎÍÌÏÎÎÌÍÎÍÏÌÎÏÎÏÎÌÎÎÌÍÎ",
+    ".ctor",
+    "ÍÌÌÌÎÌÍÎÌÎÎÍÌÍÏÎÍÍÎÎÍÌÍ",
+    "ÏÍÎÎÎÍÎÍÎÏÌÎÌÍÌÍÌÏÏÏÍÌÎ",
+    "ÎÍÌÍÎÏÌÎÏÍÌÏÏÏÏÍÎÎÌÍÏÏÍ",
+    "ÍÍÎÍÍÌÌÏÌÍÏÍÌÎÍÎÎÌÍÏÍÏÌ",
+    "ÏÏÌÍÎÎÎÍÌÍÎÎÏÏÏÍÌÏÌÌÌÏÎ"
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÍÍÌÏÏÏÍÍÍÌÍÏÍÌÌÎÎÏÏÌ",
+   "current_name": "Static2m_D9C1",
+   "namespace": "",
+   "score": 6.336,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Transform",
+     "source": "param"
+    },
+    {
+     "type": "GameObject",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÌÎÌÌÏÍÏÌÌÌÌÏÎÎÌÌÏÎÌÌÏÎÏ",
+    "ÍÎÍÏÌÎÏÌÌÌÍÎÎÌÌÌÏÌÌÎÌÍÌ"
+   ]
+  },
+  {
+   "obf_name": "ÎÎÏÌÌÍÌÍÎÌÌÏÍÍÏÏÏÍÎÌÎÌÏ",
+   "current_name": "Static5m_47E4",
+   "namespace": "",
+   "score": 5.969,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "Vector3",
+     "source": "param"
+    },
+    {
+     "type": "Span",
+     "source": "param"
+    }
+   ],
+   "methods": [
+    "ÎÍÍÌÌÏÍÏÍÌÏÌÏÌÌÍÍÌÏÏÎÍÍ",
+    "ÌÌÎÌÏÎÍÌÌÎÍÏÏÎÌÌÏÌÎÎÌÏÌ",
+    "ÍÌÍÌÌÎÌÌÍÎÏÎÏÏÏÏÏÎÍÌÎÎÏ",
+    "ÌÏÌÌÏÌÍÌÏÍÍÍÎÎÍÏÏÍÌÎÌÎÏ",
+    "ÌÌÎÏÏÎÍÌÍÏÎÌÎÍÏÎÌÌÏÎÌÏÏ"
+   ]
+  },
+  {
+   "obf_name": "ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ",
+   "current_name": "Delegate_DD17",
+   "namespace": "",
+   "score": 4.894,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "AsyncCallback",
+     "source": "param"
+    },
+    {
+     "type": "IAsyncResult",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    ".ctor",
+    "Invoke",
+    "BeginInvoke",
+    "EndInvoke"
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÌÍÏÏÎÌÌÍÌÌÎÏÏÎÌÎÎÌÍÌ",
+   "current_name": "Delegate_AEEB",
+   "namespace": "",
+   "score": 4.894,
+   "distinct_types": 2,
+   "signal_types": [
+    {
+     "type": "AsyncCallback",
+     "source": "param"
+    },
+    {
+     "type": "IAsyncResult",
+     "source": "return"
+    }
+   ],
+   "methods": [
+    ".ctor",
+    "Invoke",
+    "BeginInvoke",
+    "EndInvoke"
+   ]
+  }
+ ]
+}

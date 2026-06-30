@@ -1,0 +1,13 @@
+{
+ "ÍÍÍÍÌÌÎÍÏÏÌÍÏÍÎÏÏÎÌÎÍÎÍ": "SelectableUiControl",
+ "ÎÌÏÎÌÌÎÏÌÍÏÌÌÍÍÌÌÏÎÍÏÌÏ": "PointerEventReceiver",
+ "ÏÎÌÌÍÍÏÎÏÎÏÎÌÌÍÏÎÍÏÍÎÌÌ": "PointerEventReceiver_2",
+ "ÎÌÌÏÎÏÎÏÌÏÎÏÏÍÍÍÌÌÏÍÌÍÍ": "PointerEventReceiver_3",
+ "ÏÌÍÍÎÏÏÎÍÌÏÎÍÌÍÌÎÎÌÍÍÏÌ": "PointerEventReceiver_4",
+ "ÌÎÏÏÍÍÏÌÏÎÎÌÎÏÎÎÎÏÏÌÏÌÎ": "PointerEventReceiver_5",
+ "ÌÌÎÌÍÏÎÍÍÎÌÍÎÌÌÏÌÌÏÍÎÏÎ": "PointerEventReceiver_6",
+ "ÍÎÌÏÍÎÏÎÍÎÌÍÌÌÎÎÌÍÌÌÏÌÌ": "PointerEventReceiver_7",
+ "ÍÎÎÎÎÏÍÏÍÎÏÍÎÎÌÏÍÎÍÍÏÍÍ": "PointerEventReceiver_8",
+ "ÎÌÎÏÌÏÌÏÌÏÎÍÍÎÏÍÌÎÍÌÌÍÌ": "PhotonPeerListener",
+ "ÍÎÌÎÏÏÎÌÎÌÌÏÏÏÍÎÏÌÌÍÍÌÎ": "CriticalAsyncAwaiter"
+}

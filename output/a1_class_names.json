@@ -661,5 +661,16 @@
  "ÍÌÍÍÍÎÏÍÌÏÍÌÍÏÏÌÏÎÍÍÎÏÍ": "UnityObjectWrapper_17",
  "ÍÌÍÏÏÍÎÎÌÌÌÍÏÏÏÌÏÏÎÏÎÌÎ": "DisposableUnityObject_2",
  "ÎÎÎÍÎÎÎÎÎÌÌÌÏÍÏÎÏÎÎÏÌÎÎ": "UnityObjectWrapper_18",
- "ÏÎÎÏÌÌÎÎÌÍÎÎÏÌÎÎÍÌÎÍÍÌÍ": "UnityObjectWrapper_19"
+ "ÏÎÎÏÌÌÎÎÌÍÎÎÏÌÎÎÍÌÎÍÍÌÍ": "UnityObjectWrapper_19",
+ "ÎÎÎÎÎÌÏÍÏÍÍÎÏÏÍÎÏÌÌÏÏÌÍ": "StyledButtonIndicator",
+ "ÌÌÏÎÎÌÎÏÌÍÍÌÌÏÌÎÍÎÌÌÌÌÍ": "MicMuteButton",
+ "ÌÎÏÍÌÏÍÏÎÍÌÏÍÏÌÎÍÌÍÎÏÏÌ": "VerticalLayoutCanvasPanel",
+ "ÎÏÎÍÎÏÎÎÌÍÎÍÏÍÎÎÌÎÌÏÍÍÌ": "TextListLayout",
+ "ÍÏÌÍÏÌÌÍÌÍÌÎÌÏÎÍÎÌÍÍÏÌÏ": "ImageCropPreviewPanel",
+ "ÌÎÏÌÌÎÎÏÍÍÍÎÍÎÍÍÌÎÎÏÍÎÎ": "PulseEffectSpawner",
+ "ÎÌÌÍÌÏÎÍÌÌÌÏÏÍÍÍÌÏÍÍÏÍÌ": "RoleNameLabel",
+ "ÏÌÏÎÌÏÌÏÍÌÌÏÍÏÎÏÍÎÍÌÏÍÍ": "TooltipButton",
+ "ÏÍÎÏÍÍÍÎÌÏÍÎÎÎÌÌÏÌÏÎÏÍÏ": "RippleEffectGraphic",
+ "ÎÍÏÏÏÌÌÍÎÍÌÍÍÍÎÍÎÏÎÌÏÏÏ": "IconToggleRow",
+ "ÎÏÍÌÎÏÎÎÏÎÏÍÍÏÏÍÎÌÏÎÍÏÍ": "ServiceCanvasRoot"
 }

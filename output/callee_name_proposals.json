@@ -1,0 +1,57 @@
+{
+ "ÎÍÍÍÌÌÎÏÌÏÍÌÌÌÏÎÏÍÎÎÌÏÍ": {
+  "current": "Static3m_1CD3",
+  "proposed_base": "CameraController",
+  "evidence": "Camera x7 (100% of domain calls)"
+ },
+ "ÍÍÌÎÌÍÏÍÌÌÌÏÍÎÌÍÎÏÏÍÌÌÌ": {
+  "current": "Type7m1f_8CA2",
+  "proposed_base": "PlayerComponent",
+  "evidence": "VRCPlayer x6 (100% of domain calls)"
+ },
+ "ÌÍÏÌÎÎÏÌÎÎÎÎÌÌÍÌÍÌÌÎÏÏÎ": {
+  "current": "Type10m1f_8E62",
+  "proposed_base": "AsyncCompletionSource",
+  "evidence": "UniTaskCompletionSource`1 x9 (100% of domain calls)"
+ },
+ "ÏÎÎÏÍÏÎÌÏÎÌÍÍÏÎÍÎÏÎÍÏÍÏ": {
+  "current": "Type8m3f_BA84",
+  "proposed_base": "CancellableOperation",
+  "evidence": "CancellationTokenSource x7 (50% of domain calls)"
+ },
+ "ÏÍÎÌÍÎÍÍÏÌÏÎÌÏÍÌÌÎÎÏÎÌÏ": {
+  "current": "BackingFieldBase_k__BackingField_93EA",
+  "proposed_base": "AnimatorController",
+  "evidence": "Animator x9 (53% of domain calls)"
+ },
+ "ÎÍÏÌÎÎÌÎÍÏÏÏÍÎÏÎÌÌÏÎÎÎÍ": {
+  "current": "BackingFieldBase_k__BackingField_26D6",
+  "proposed_base": "ApiFileHandler",
+  "evidence": "ApiFile x8 (50% of domain calls)"
+ },
+ "ÍÎÍÏÎÏÏÏÌÌÎÌÏÍÌÏÌÌÍÍÍÍÎ": {
+  "current": "BackingFieldBaseImpl_2AAF",
+  "proposed_base": "AnimatorController",
+  "evidence": "Animator x6 (67% of domain calls)"
+ },
+ "ÏÏÎÎÍÏÎÍÎÎÏÍÍÌÌÌÏÏÌÏÏÍÏ": {
+  "current": "BackingFieldBaseImpl_AD91",
+  "proposed_base": "AnimatorController",
+  "evidence": "Animator x6 (75% of domain calls)"
+ },
+ "ÍÏÏÍÏÎÏÌÏÌÌÎÌÏÍÍÎÎÎÏÌÌÌ": {
+  "current": "Type10m1f_0F94",
+  "proposed_base": "AsyncCompletionSource",
+  "evidence": "UniTaskCompletionSource`1 x5 (100% of domain calls)"
+ },
+ "ÍÌÏÏÍÌÌÎÎÎÌÌÌÌÌÎÎÌÏÌÎÎÏ": {
+  "current": "BackingFieldBaseImpl_B3AA",
+  "proposed_base": "AnimatorController",
+  "evidence": "Animator x6 (75% of domain calls)"
+ },
+ "ÎÍÌÏÌÍÏÍÌÏÌÎÎÎÎÎÏÌÏÎÎÏÌ": {
+  "current": "BackingFieldBaseImpl_329D",
+  "proposed_base": "AnimatorController",
+  "evidence": "Animator x6 (55% of domain calls)"
+ }
+}

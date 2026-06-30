@@ -1,0 +1,242 @@
+[
+ {
+  "key": "VRC_Secondary_8E5E::m_A56",
+  "ea": "0x180000E50",
+  "runtime_va": "0x7FFAF4000E50",
+  "class": "VRC_Secondary_8E5E",
+  "method": "m_A56",
+  "namespace": ""
+ },
+ {
+  "key": "VRC_Secondary_8E5E::m_B7B",
+  "ea": "0x180000140",
+  "runtime_va": "0x7FFAF4000140",
+  "class": "VRC_Secondary_8E5E",
+  "method": "m_B7B",
+  "namespace": ""
+ },
+ {
+  "key": "StyleElement::m_1CF",
+  "ea": "0x180598D30",
+  "runtime_va": "0x7FFAFB598D30",
+  "class": "StyleElement",
+  "method": "m_1CF",
+  "namespace": "VRC.UI.Core.Styles"
+ },
+ {
+  "key": "StyleElement::m_314",
+  "ea": "0x18059D520",
+  "runtime_va": "0x7FFAFB59D520",
+  "class": "StyleElement",
+  "method": "m_314",
+  "namespace": "VRC.UI.Core.Styles"
+ },
+ {
+  "key": "StyleElement::m_E6F",
+  "ea": "0x18059B780",
+  "runtime_va": "0x7FFAFB59B780",
+  "class": "StyleElement",
+  "method": "m_E6F",
+  "namespace": "VRC.UI.Core.Styles"
+ },
+ {
+  "key": "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_1A1",
+  "ea": "0x18034DF50",
+  "runtime_va": "0x7FFAF434DF50",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_BCB4",
+  "method": "m_1A1",
+  "namespace": ""
+ },
+ {
+  "key": "VRCNetworkBehaviourSibling_BF5Sibling_BCB4::m_E80",
+  "ea": "0x18034DFB0",
+  "runtime_va": "0x7FFAF434DFB0",
+  "class": "VRCNetworkBehaviourSibling_BF5Sibling_BCB4",
+  "method": "m_E80",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_40F1::m_30D",
+  "ea": "0x18035C650",
+  "runtime_va": "0x7FFAF335C650",
+  "class": "VRCPlayerSibling_40F1",
+  "method": "m_30D",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_001",
+  "ea": "0x180DBB310",
+  "runtime_va": "0x7FFAF3DBB310",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_001",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_062",
+  "ea": "0x180DB7F60",
+  "runtime_va": "0x7FFAF3DB7F60",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_062",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_0C2",
+  "ea": "0x180DB7D70",
+  "runtime_va": "0x7FFAF3DB7D70",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_0C2",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_0C4",
+  "ea": "0x180DBBE70",
+  "runtime_va": "0x7FFAF3DBBE70",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_0C4",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_118",
+  "ea": "0x180DB59B0",
+  "runtime_va": "0x7FFAF3DB59B0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_118",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_16C",
+  "ea": "0x180DBA2F0",
+  "runtime_va": "0x7FFAF3DBA2F0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_16C",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_178",
+  "ea": "0x180DBB200",
+  "runtime_va": "0x7FFAF3DBB200",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_178",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_1DC",
+  "ea": "0x180DBBEF0",
+  "runtime_va": "0x7FFAF3DBBEF0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_1DC",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_29C",
+  "ea": "0x180DBB4C0",
+  "runtime_va": "0x7FFAF3DBB4C0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_29C",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_40A",
+  "ea": "0x180DB6E80",
+  "runtime_va": "0x7FFAF3DB6E80",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_40A",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_4C1",
+  "ea": "0x180DBA1F0",
+  "runtime_va": "0x7FFAF3DBA1F0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_4C1",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_4CC",
+  "ea": "0x180DB7DE0",
+  "runtime_va": "0x7FFAF3DB7DE0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_4CC",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_4E7",
+  "ea": "0x180DB6BA0",
+  "runtime_va": "0x7FFAF3DB6BA0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_4E7",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_541",
+  "ea": "0x180DB60D0",
+  "runtime_va": "0x7FFAF3DB60D0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_541",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_57C",
+  "ea": "0x180DBB090",
+  "runtime_va": "0x7FFAF3DBB090",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_57C",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_586",
+  "ea": "0x180DB9890",
+  "runtime_va": "0x7FFAF3DB9890",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_586",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_617",
+  "ea": "0x180DBC6A0",
+  "runtime_va": "0x7FFAF3DBC6A0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_617",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_67C",
+  "ea": "0x180DB9FB0",
+  "runtime_va": "0x7FFAF3DB9FB0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_67C",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_7B7",
+  "ea": "0x180DBC270",
+  "runtime_va": "0x7FFAF3DBC270",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_7B7",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_7C9",
+  "ea": "0x180DB90D0",
+  "runtime_va": "0x7FFAF3DB90D0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_7C9",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_7E2",
+  "ea": "0x180DBAC60",
+  "runtime_va": "0x7FFAF3DBAC60",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_7E2",
+  "namespace": ""
+ },
+ {
+  "key": "VRCPlayerSibling_95B8::m_80D",
+  "ea": "0x180DBA0B0",
+  "runtime_va": "0x7FFAF3DBA0B0",
+  "class": "VRCPlayerSibling_95B8",
+  "method": "m_80D",
+  "namespace": ""
+ }
+]

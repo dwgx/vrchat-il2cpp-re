@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 1360
+// Methods: 1357
 
 namespace VRC.Misc
 {
@@ -51,6 +51,28 @@ namespace VRC.Misc
         public void m_ACF(){} // RVA: 0x77E70
         public void m_B8F(){} // RVA: 0x77900
         public void m_2F5(){} // RVA: 0x7E3E0
+    }
+
+    /// <summary>Originally: ÌÏÌÎÍÎÏÌÎÎÏÏÏÏÎÎÏÍÌÎÏÍÎ</summary>
+    public class RequiresStoringk__BackingFieldSibling_30F8 : ValueType
+    {
+        public object f_BEF;
+        public object f_BCB;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x77900
+        public void InternalEquals(){} // RVA: 0x47F10
+        public void DefaultEquals(){} // RVA: 0x47F10
+        public void GetHashCode(){} // RVA: 0x77ED0
+        public void InternalGetHashCode(){} // RVA: 0x47F10
+        public void ToString(){} // RVA: 0x77900
+        public void GetHashCodeOfPtr(){} // RVA: 0x77ED0
+        public void x(){} // RVA: 0x77ED0
+        // ── Unresolved (hash) ──
+        public void m_886(){} // RVA: 0x47F10
+        public void m_2F5(){} // RVA: 0x77E70
+        public void m_232(){} // RVA: 0x77E70
+        public void m_091(){} // RVA: 0x77E70
     }
 
     /// <summary>Originally: ÍÎÌÏÌÍÎÏÏÌÌÏÎÏÏÎÎÍÎÏÏÏÏ</summary>
@@ -1694,32 +1716,6 @@ namespace VRC.Misc
         public void m_C40(){} // RVA: 0x7E3E0
         public void m_ED3(){} // RVA: 0x117990
         public void m_A79(){} // RVA: 0x77ED0
-    }
-
-    /// <summary>Originally: ÎÍÎÌÌÌÌÍÏÍÌÍÍÎÏÌÎÏÏÍÏÏÎ</summary>
-    public class RequiresStoringk__BackingRelated_ADA3 : ValueType
-    {
-        public object f_C9F;
-        public object f_97F;
-        public object f_EF0;
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x7E450
-        public void InternalEquals(){} // RVA: 0x77ED0
-        public void DefaultEquals(){} // RVA: 0x77E70
-        public void GetHashCode(){} // RVA: 0x77ED0
-        public void InternalGetHashCode(){} // RVA: 0x77E70
-        public void ToString(){} // RVA: 0x1377D0
-        public void GetHashCodeOfPtr(){} // RVA: 0x137820
-        public void x(){} // RVA: 0x29580
-        // ── Unresolved (hash) ──
-        public void m_54D(){} // RVA: 0x77E60
-        public void m_95D(){} // RVA: 0x7E3E0
-        public void m_EAF(){} // RVA: 0x77ED0
-        public void m_BF5(){} // RVA: 0x77E60
-        public void m_A79(){} // RVA: 0x77ED0
-        public void m_A53(){} // RVA: 0x7E3E0
-        public void m_D92(){} // RVA: 0x29580
     }
 
     /// <summary>Originally: ÎÏÏÌÍÍÎÎÍÍÏÌÍÌÍÎÏÌÏÏÌÎÏ</summary>

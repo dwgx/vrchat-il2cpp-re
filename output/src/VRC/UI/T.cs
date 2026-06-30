@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 10
-// Methods: 200
+// Classes: 11
+// Methods: 201
 
 namespace VRC.UI
 {
@@ -382,6 +382,17 @@ namespace VRC.UI
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0x9B1D5D0
+    }
+
+    /// <summary>Originally: ÏÌÏÎÌÏÌÏÍÌÌÏÍÏÎÏÍÎÍÌÏÍÍ</summary>
+    public class TooltipButton : MonoBehaviour
+    {
+        public object button;
+        public object tooltip;
+        public object style;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
     /// <summary>Originally: ÏÏÌÎÎÎÍÎÌÍÏÌÌÎÏÎÌÌÍÌÍÏÏ</summary>

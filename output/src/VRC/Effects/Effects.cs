@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Effects
-// Classes: 10
-// Methods: 131
+// Classes: 12
+// Methods: 133
 
 namespace VRC.Effects
 {
@@ -153,6 +153,30 @@ namespace VRC.Effects
         public void StartCoroutine(){} // RVA: 0x2230D60
         public void StartCoroutine_Auto(){} // RVA: 0x2230DA0
         public void StopCoroutine(){} // RVA: 0x2230D60
+    }
+
+    /// <summary>Originally: ÌÎÏÌÌÎÎÏÍÍÍÎÍÎÍÍÌÎÎÏÍÎÎ</summary>
+    public class PulseEffectSpawner : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_89E;
+        public object _elementMessagePrefab;
+        public object _squarePulsePrefab;
+        public object _circlePulsePrefab;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+    }
+
+    /// <summary>Originally: ÏÍÎÏÍÍÍÎÌÏÍÎÎÎÌÌÏÌÏÎÏÍÏ</summary>
+    public class RippleEffectGraphic : MonoBehaviour
+    {
+        public object _id;
+        public object _graphic;
+        public object _rippleEffectParent;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
     }
 
     /// <summary>Originally: ÏÎÍÎÏÌÍÏÌÎÏÍÏÏÎÍÍÍÎÏÎÎÍ</summary>

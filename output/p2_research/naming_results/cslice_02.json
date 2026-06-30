@@ -1,0 +1,80 @@
+[
+  {
+    "obf_class": "BaseClass52Impl_39C3",
+    "proposed_name": "RectTransformSizeFitter",
+    "confidence": "medium",
+    "evidence": "m_9D8 reads RectTransform offsetMin/anchoredPosition/pivot/sizeDelta then calls set_sizeDelta to recompute size from anchor+pivot math; UI RectTransform layout driver."
+  },
+  {
+    "obf_class": "BaseClass52Impl_C90C",
+    "proposed_name": "RectTransformAnchorFitter",
+    "confidence": "medium",
+    "evidence": "m_9D8 calls RectTransform GetParentSize/get_anchorMax/get_anchorMin/get_sizeDelta to size element relative to parent anchors; parent-relative RectTransform layout."
+  },
+  {
+    "obf_class": "BaseClass45Impl_9681",
+    "proposed_name": "UnityObjectLifecycleManager",
+    "confidence": "medium",
+    "evidence": "40 methods driving UnityObjectWrapper_4 FindObjectsByType (under Monitor lock) + DestroyImmediate + Initialize + ForceLoadFromInstanceID; thread-safe find/create/destroy of Unity objects."
+  },
+  {
+    "obf_class": "BaseClass7Impl_9376",
+    "proposed_name": "ComponentTriggerHandler",
+    "confidence": "low",
+    "evidence": "Calls UpdateComponent_D7C9 OnTriggerExit/IsInvoking/get_didAwake and StopCoroutineFromEnumeratorManaged; m_F92 forwards trigger-exit data to a component. MonoBehaviour trigger/coroutine lifecycle, specific subsystem unclear."
+  },
+  {
+    "obf_class": "BaseClass45Impl_8104",
+    "proposed_name": "UnityObjectLifecycleService",
+    "confidence": "low",
+    "evidence": "Same UnityObjectWrapper_4 pattern as 9681 (FindObjectsByType under Monitor lock + DestroyImmediate + Initialize) but fewer methods; Unity object find/create/destroy. Suffix is a guess, evidence indistinguishable from sibling lifecycle classes."
+  },
+  {
+    "obf_class": "BaseClass45Impl_FD4C",
+    "proposed_name": "UnityObjectLifecycleController",
+    "confidence": "low",
+    "evidence": "Same UnityObjectWrapper_4 lifecycle pattern (FindObjectsByType under Monitor lock + DestroyImmediate + Initialize) over 26 methods; Unity object find/create/destroy. Suffix is a guess, evidence indistinguishable from sibling lifecycle classes."
+  },
+  {
+    "obf_class": "BaseClass45Impl_ED1F",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "Mixed/generic callees: Array::Clear + String::FormatHelper boilerplate plus a single ManagedUnityObject_17::FindObjectOfType; no coherent domain, insufficient to name."
+  },
+  {
+    "obf_class": "BaseClass5Impl_6C9C",
+    "proposed_name": "OscIntMessageHandler",
+    "confidence": "medium",
+    "evidence": "m_569 calls OscMessageValues::ReadIntElement, stores the int at +0x44 and invokes a delegate; OSC integer message receive/dispatch."
+  },
+  {
+    "obf_class": "BaseClass52Impl_2285",
+    "proposed_name": "StyleElementCoroutineBinding",
+    "confidence": "low",
+    "evidence": "Part of the UI BaseClass52 binding family; distinctive callee StyleElement::StopAllCoroutines in m_D53 stores result back to the element. Single weak UI-domain signal."
+  },
+  {
+    "obf_class": "BaseClass45Impl_0D93",
+    "proposed_name": "UnityObjectResolver",
+    "confidence": "medium",
+    "evidence": "Methods call UnityObjectWrapper_4 FindObjectsByType + ForceLoadFromInstanceID + IsNativeObjectAlive (no destroy/init); resolves and liveness-checks Unity objects by instance id."
+  },
+  {
+    "obf_class": "BaseClass52Impl_56C5",
+    "proposed_name": "StyleElementColorBinding",
+    "confidence": "medium",
+    "evidence": "m_9D8 reads color components via vtable getter (off 0x298) and conditionally writes them; distinctive callee StyleElementColorSetter::Destroy. UI color style driver."
+  },
+  {
+    "obf_class": "BaseClass52Impl_16E6",
+    "proposed_name": "LayoutGroupRebuildTrigger",
+    "confidence": "low",
+    "evidence": "m_9D8 does an il2cpp isinst/class-hierarchy cast then calls LayoutGroup::SetDirty; marks a LayoutGroup dirty for rebuild. UI layout family."
+  },
+  {
+    "obf_class": "BaseClass52Impl_F5A0",
+    "proposed_name": "StyleElementColorBinding",
+    "confidence": "medium",
+    "evidence": "Same UI binding family as 56C5; m_9D8 distinctive callee StyleElementColorSetter::Destroy with color-component handling. UI color style driver."
+  }
+]

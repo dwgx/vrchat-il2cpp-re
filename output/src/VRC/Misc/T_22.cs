@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 58
-// Methods: 171
+// Classes: 61
+// Methods: 177
 
 namespace VRC.Misc
 {
@@ -304,6 +304,39 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Initialize(){} // RVA: 0x5957F40
+    }
+
+    /// <summary>Originally: ÌÍÍÌÌÌÏÏÏÎÎÏÏÍÌÍÏÌÎÎÌÌÏ</summary>
+    public class Type2m2f_2AC6 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x5957F40
+    }
+
+    /// <summary>Originally: ÌÍÍÌÌÌÏÏÏÎÎÏÏÍÌÍÏÌÎÎÌÌÏ</summary>
+    public class Type2m2f_2AC6 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x5957F40
+    }
+
+    /// <summary>Originally: ÌÌÍÍÎÏÍÍÎÎÍÏÎÍÏÌÌÌÎÌÏÏÎ</summary>
+    public class Type2m2f_5A10 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x5945C10
     }
 
     /// <summary>Originally: ÌÌÍÍÎÏÍÍÎÎÍÏÎÍÏÌÌÌÎÌÏÏÎ</summary>

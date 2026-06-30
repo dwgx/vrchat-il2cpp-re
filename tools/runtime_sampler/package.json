@@ -1,0 +1,13 @@
+{
+  "name": "vrc-runtime-sampler",
+  "version": "1.0.0",
+  "description": "VRChat IL2CPP runtime instance-value sampler",
+  "scripts": {
+    "build": "frida-compile agent.ts -o agent.js"
+  },
+  "dependencies": {
+    "@types/frida-gum": "^19.7.0",
+    "frida-compile": "^19.0.5",
+    "frida-il2cpp-bridge": "^0.13.1"
+  }
+}

@@ -1,0 +1,15 @@
+[
+  {"obf_class": "BaseClass45Impl_A5E7", "proposed_name": "UIPanelTweenAnimator", "confidence": "high", "evidence": "callees 全是 UI 补间动画: DOTween::Sequence + DOTweenModuleUI::DOAnchorPosX + CanvasGroup::set_alpha + RectTransform::set_anchoredPosition + TweenExtensions::Kill,典型 UI 面板淡入/位移补间显隐控制"},
+  {"obf_class": "BaseClass45Impl_C93F", "proposed_name": null, "confidence": "low", "evidence": "callees 跨两个 UI 子系统(AchievementUnlockUI 与 SocialfriendParticipant)冲突,其余为 StartCoroutine/SetActive/FormatInt32 泛型 boilerplate,领域不自洽"},
+  {"obf_class": "BaseClass45Impl_2D0D", "proposed_name": null, "confidence": "medium", "evidence": "callees 仅 UnityObjectWrapper_4(FindObjectsByType/DestroyImmediate/ForceLoadFromInstanceID/Initialize)+Monitor 锁,纯 Unity 对象生命周期泛型,无领域词"},
+  {"obf_class": "BaseClass45Impl_A727", "proposed_name": null, "confidence": "low", "evidence": "callees 多为泛型(Array::Clear/Enumerable::Select/GameObject::SetActive),仅 PointerClickSubmitSibling::FindObjectsByType 为线索,不足以定领域"},
+  {"obf_class": "BackingFieldBase_k__BackingField_A8F6", "proposed_name": "ApiFileVersionResolver", "confidence": "medium", "evidence": "callees ApiFile::GetLatestCompleteVersionNumber + ApiFile::GetVersion + String::Concat + Buffer::Memcpy,围绕 VRChat ApiFile 版本号解析/处理"},
+  {"obf_class": "BaseClass45Impl_BB54", "proposed_name": null, "confidence": "medium", "evidence": "callees 仅 UnityObjectWrapper_4(DestroyImmediate/FindObjectsByType/Initialize)+Monitor 锁,与 2D0D 同型的 Unity 对象管理泛型,无领域词"},
+  {"obf_class": "BaseClass13Impl_263E", "proposed_name": "NetworkSyncableLogger", "confidence": "medium", "evidence": "callees VRCLogger::get_GlobalLogger + ZLoggerInterpolatedStringHandler::AppendLiteral + NetworkSyncableSibling::set_name,围绕 NetworkSyncable 对象的 ZLogger 日志输出"},
+  {"obf_class": "Struct2f_C737", "proposed_name": null, "confidence": "high", "evidence": "callees 全是 ThrowHelper::ThrowArgument* 异常 boilerplate,无任何领域信号"},
+  {"obf_class": "BaseClass52Impl_C361", "proposed_name": "HtmlColorStyleApplier", "confidence": "medium", "evidence": "callees ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy,解析 HTML 颜色字符串并应用到 UI StyleElement 颜色"},
+  {"obf_class": "BaseClass45Impl_4142", "proposed_name": null, "confidence": "medium", "evidence": "callees 仅 UnityObjectWrapper_4(FindObjectsByType/ForceLoadFromInstanceID/IsNativeObjectAlive),纯 Unity 原生对象存活/查找泛型,无领域词"},
+  {"obf_class": "BaseClass45Impl_7C14", "proposed_name": null, "confidence": "low", "evidence": "callees 均为混淆 sibling 类(Pointer 组件 StopCoroutineManaged / SerializableQuaternion op_Equality / targetObjectToDisable InvokeRepeating),跨旋转+UI禁用+协程,领域矛盾且无规范名"},
+  {"obf_class": "BaseClass52Impl_DF55", "proposed_name": "CompiledRegexRunner", "confidence": "medium", "evidence": "callees RegexCache::GetCachedPtr + ThrowHelper 索引/空引用异常,符合 .NET 源生成 Regex Runner 子类的匹配执行模式"},
+  {"obf_class": "BaseClass52Impl_416E", "proposed_name": "CompiledRegexRunner", "confidence": "medium", "evidence": "callees 与 DF55 同型: RegexCache::GetCachedPtr + ThrowHelper 异常,另一个 .NET 编译正则匹配执行类"}
+]

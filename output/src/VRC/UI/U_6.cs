@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
 // Classes: 100
-// Methods: 1638
+// Methods: 1462
 
 namespace VRC.UI
 {
@@ -633,38 +633,6 @@ namespace VRC.UI
         // ... 11 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÏÎÍÍÏÎÎÎÌÍÌÍÌÌÎÎÍÌÎÎÏÍ</summary>
-    public class UIPointerEnterPointerExitHandler_D156 : MonoBehaviour
-    {
-        public object labelText;
-        public object slider;
-        public object sliderDrag;
-        public object sliderPointer;
-        public object f_469;
-        public object f_F8D;
-        public object f_FD0;
-        public object f_FC7;
-
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0xCF9800
-        public void RaiseCancellation(){} // RVA: 0x9C39A70
-        public void .ctor(){} // RVA: 0xB43D60
-        public void OnPointerExit(){} // RVA: 0x9C39AA0
-        public void OnPointerEnter(){} // RVA: 0x9C39AD0
-        public void InvokeRepeating(){} // RVA: 0x9C39B00
-        public void StartCoroutine(){} // RVA: 0x9C39B10
-        public void StartCoroutine_Auto(){} // RVA: 0x9C3A2D0
-        public void StopCoroutine(){} // RVA: 0x9C39C40
-        public void StopAllCoroutines(){} // RVA: 0x9C39C70
-        public void get_useGUILayout(){} // RVA: 0x9C39D00
-        public void set_useGUILayout(){} // RVA: 0x9C39D30
-        public void Awake(){} // RVA: 0x9C39DD0
-        public void OnDestroy(){} // RVA: 0x9C3A540
-        public void print(){} // RVA: 0x9C3A5E0
-        public void Internal_CancelInvokeAll(){} // RVA: 0x9C3A680
-        public void Internal_IsInvokingAll(){} // RVA: 0x9C3A740
-    }
-
     /// <summary>Originally: ÍÌÏÎÎÏÎÏÎÎÌÎÌÍÌÎÏÎÌÍÌÌÌ</summary>
     public class UIReceiveAnalyticsSessionIdLauSibling_681D
     {
@@ -945,44 +913,19 @@ namespace VRC.UI
         // ... 30 more unresolved methods
     }
 
-    /// <summary>Originally: ÎÏÏÏÌÌÎÍÌÌÌÍÌÍÌÏÍÎÏÎÍÏÍ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_impostorToggleContainerfavoriteAvatarBut_93AD : UIRectTransformDimensionsChBeforeTransform_08BD
+    /// <summary>Originally: ÌÎÎÏÎÎÍÏÎÏÏÌÍÏÌÌÍÍÎÎÌÌÎ</summary>
+    public class UIRectTransformDimensionsRelated_1800 : ValueType
     {
-        public object f_A44;
-        public object _displayNameText;
-        public object _priceContainer;
-        public object _priceText;
-        public object _functionButtons;
-        public object _primaryButton;
-        public object _primaryButtonText;
-        public object _avatarDetailsButton;
-        public object _tryOnButton;
-        public object _favoriteAvatarButton;
-        public object _heightText;
-        public object _impostorToggleContainer;
-        public object _impostorToggle;
-        public object f_A9A;
-        public object f_121;
+        public object f_562;
 
         // ── Methods ──
-        public void OnPointerEnter(){} // RVA: 0x9FA7360
-        public void OnPointerExit(){} // RVA: 0x9FA7580
-        public void OnPointerDown(){} // RVA: 0x9FA76A0
-        public void OnPointerUp(){} // RVA: 0x9FA76D0
-        public void OnPointerClick(){} // RVA: 0x9FA7700
-        public void OnSelect(){} // RVA: 0x9F90D70
-        public void OnDeselect(){} // RVA: 0x9FA78A0
-        public void OnSubmit(){} // RVA: 0x9FA79C0
-        public void .cctor(){} // RVA: 0x9FA7AE0
-        public void OnCancel(){} // RVA: 0x9FA7C90
-        public void OnMove(){} // RVA: 0x9FA7E30
-        public void OnScroll(){} // RVA: 0x9FA7E60
-        public void OnValueChanged(){} // RVA: 0x9FA7F80
-        public void OnEndEdit(){} // RVA: 0x9FA9260
-        public void .ctor(){} // RVA: 0x9FA9420
-        public void Initialize(){} // RVA: 0x9FA9490
-        // ── Unresolved (hash) ──
-        public void m_FE9(){} // RVA: 0x9FA95B0
+        public void Equals(){} // RVA: 0x77900
+        public void InternalEquals(){} // RVA: 0x77900
+        public void DefaultEquals(){} // RVA: 0x93050
+        public void GetHashCode(){} // RVA: 0x77900
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x93050
+        public void GetHashCodeOfPtr(){} // RVA: 0x93050
     }
 
     /// <summary>Originally: ÎÎÎÎÌÌÌÎÌÎÌÏÍÍÍÌÏÌÍÎÎÎÍ</summary>
@@ -1071,6 +1014,43 @@ namespace VRC.UI
         public void m_600(){} // RVA: 0x8C700
         public void m_C40(){} // RVA: 0x7E3E0
         // ... 8 more unresolved methods
+    }
+
+    /// <summary>Originally: ÍÎÍÏÏÍÌÏÌÌÌÏÌÌÌÌÏÏÌÎÌÏÌ</summary>
+    public class UIRectTransformDimensionsRelated_4C2F : ValueType
+    {
+        public object f_BF5;
+        public object f_13D;
+        public object f_099;
+        public object f_A4C;
+        public object f_03F;
+        public object f_269;
+        public object f_8C8;
+        public object f_A9B;
+        public object f_F8D;
+        public object f_BB8;
+        public object f_C09;
+        public object f_0C2;
+        public object f_BDE;
+        public object f_88E;
+        public object f_0D6;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x123760
+        public void InternalEquals(){} // RVA: 0xA6A80
+        public void DefaultEquals(){} // RVA: 0xA62D0
+        public void GetHashCode(){} // RVA: 0xA6BD0
+        public void InternalGetHashCode(){} // RVA: 0xE31F0
+        public void ToString(){} // RVA: 0x123770
+        public void GetHashCodeOfPtr(){} // RVA: 0x92DD0
+        public void x(){} // RVA: 0xB1810
+        // ── 28 unresolved (hash) ──
+        public void m_3B2(){} // RVA: 0x123780
+        public void m_707(){} // RVA: 0x123790
+        public void m_ED9(){} // RVA: 0x77900
+        public void m_5AA(){} // RVA: 0xA6BC0
+        public void m_4C0(){} // RVA: 0xE31B0
+        // ... 23 more unresolved methods
     }
 
     /// <summary>Originally: ÍÍÌÎÌÎÏÍÎÍÍÌÎÎÏÍÍÍÍÎÌÎÌ</summary>
@@ -1220,6 +1200,62 @@ namespace VRC.UI
         public void m_ED1(){} // RVA: 0x77900
     }
 
+    /// <summary>Originally: ÌÌÍÌÍÎÍÌÏÎÌÏÏÎÏÌÎÏÌÎÎÎÍ</summary>
+    public class UIRectTransformDimensionsRelated_ADFC : ValueType
+    {
+        public object f_97F;
+        public object f_BF5;
+        public object f_562;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x77900
+        public void InternalEquals(){} // RVA: 0x77ED0
+        public void DefaultEquals(){} // RVA: 0x47F10
+        public void GetHashCode(){} // RVA: 0xE1E10
+        public void InternalGetHashCode(){} // RVA: 0x99090
+        public void ToString(){} // RVA: 0x77900
+        public void GetHashCodeOfPtr(){} // RVA: 0x77E70
+        public void x(){} // RVA: 0x77E70
+        // ── Unresolved (hash) ──
+        public void m_20B(){} // RVA: 0x47F10
+        public void m_359(){} // RVA: 0x7E450
+        public void m_ED3(){} // RVA: 0x99090
+        public void m_EAF(){} // RVA: 0x77900
+        public void m_9F3(){} // RVA: 0x77E70
+    }
+
+    /// <summary>Originally: ÌÎÌÍÏÌÌÏÌÍÎÎÏÎÎÏÏÏÌÌÏÌÌ</summary>
+    public class UIRectTransformDimensionsRelated_EDAD : ValueType
+    {
+        public object f_BB8;
+        public object f_BF5;
+        public object f_A4C;
+        public object f_F8D;
+        public object f_88E;
+        public object f_0D6;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0xA62E0
+        public void InternalEquals(){} // RVA: 0x77ED0
+        public void DefaultEquals(){} // RVA: 0xCFD80
+        public void GetHashCode(){} // RVA: 0xD9070
+        public void InternalGetHashCode(){} // RVA: 0x77ED0
+        public void ToString(){} // RVA: 0xD9070
+        public void GetHashCodeOfPtr(){} // RVA: 0xB1810
+        public void x(){} // RVA: 0xCFDC0
+        // ── Unresolved (hash) ──
+        public void m_FBA(){} // RVA: 0x47F10
+        public void m_A8F(){} // RVA: 0xBDDA0
+        public void m_5E5(){} // RVA: 0xA62C0
+        public void m_954(){} // RVA: 0x77900
+        public void m_F86(){} // RVA: 0xB1800
+        public void m_D30(){} // RVA: 0x47F10
+        public void m_AA1(){} // RVA: 0x77900
+        public void m_8C8(){} // RVA: 0xCFDC0
+        public void m_C40(){} // RVA: 0x77E70
+        public void m_4C0(){} // RVA: 0xA62C0
+    }
+
     /// <summary>Originally: ÎÍÌÍÎÌÏÍÌÌÌÌÎÏÎÎÌÍÌÎÏÏÌ</summary>
     public class UIScroll_943D
     {
@@ -1356,31 +1392,6 @@ namespace VRC.UI
         public void Internal_IsInvokingAll(){} // RVA: 0x9A58B40
         public void InvokeDelayed(){} // RVA: 0x9A58910
         public void IsObjectMonoBehaviour(){} // RVA: 0x9A58CF0
-    }
-
-    /// <summary>Originally: ÏÍÌÏÎÌÌÎÎÍÌÌÌÌÌÎÎÏÌÏÍÎÌ</summary>
-    public class UIcampaignTitleShadowTextcampaignTitleTextComponent_A9B2 : MonoBehaviour
-    {
-        public object campaignTitleText;
-        public object campaignTitleShadowText;
-        public object campaignInfoText;
-        public object learnMoreToMM;
-        public object confetti;
-        public object context;
-
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0x9B103E0
-        public void RaiseCancellation(){} // RVA: 0x9B10B30
-        public void Start(){} // RVA: 0x9B10BE0
-        public void CancelInvoke(){} // RVA: 0x9B10C90
-        public void Invoke(){} // RVA: 0x9B10DB0
-        public void InvokeRepeating(){} // RVA: 0x9B10ED0
-        public void StartCoroutine(){} // RVA: 0x9B11560
-        public void .ctor(){} // RVA: 0xB43D60
-        public void Initialize(){} // RVA: 0x9B11610
-        public void StopAllCoroutines(){} // RVA: 0x9B116C0
-        public void get_useGUILayout(){} // RVA: 0x9B11770
-        public void set_useGUILayout(){} // RVA: 0x9B11890
     }
 
     /// <summary>Originally: ÍÌÌÏÏÏÏÌÍÎÎÎÏÎÏÎÌÍÍÏÎÎÌ</summary>
@@ -1847,167 +1858,6 @@ namespace VRC.UI
         // ... 8 more unresolved methods
     }
 
-    /// <summary>Originally: ÏÏÏÏÏÏÍÎÎÏÍÏÏÎÏÍÌÍÎÎÌÏÌ</summary>
-    public class UIk__BackingField_4413 : BackingFieldBase_0287
-    {
-        public object f_99B;
-        public object f_685;
-        public object f_841;
-        public object f_E31;
-        public object _iD;
-        public object _description;
-        public object _buyer;
-        public object f_0DE;
-        public object _name;
-        public object f_7E0;
-        public object f_128;
-        public object f_2D9;
-        public object f_AF2;
-        public object f_242;
-
-        // ── Methods ──
-        public void Purchase(){} // RVA: 0x1269870
-        public void CompareTo(){} // RVA: 0x1269D70
-        public void GetHashCode(){} // RVA: 0x126A110
-        public void .ctor(){} // RVA: 0x1270100
-        public void Initialize(){} // RVA: 0x126B1E0
-        public void set_ID(){} // RVA: 0x126BC50
-        public void get_ID(){} // RVA: 0x126C0F0
-        public void System.IEquatable<VRC.DataModel.IDataProduct>.Equals(){} // RVA: 0x126D6F0
-        public void System.IComparable.CompareTo(){} // RVA: 0x126E2C0
-        public void set_Description(){} // RVA: 0xBE58B0
-        public void get_Description(){} // RVA: 0x126F200
-        public void System.IEquatable<VRC.Economy.IProduct>.Equals(){} // RVA: 0x126F3F0
-        public void set_Buyer(){} // RVA: 0x126F530
-        public void get_Buyer(){} // RVA: 0xBE2C60
-        public void .cctor(){} // RVA: 0x126F840
-        public void ToString(){} // RVA: 0x126FAB0
-        public void set_Name(){} // RVA: 0x1270020
-        public void get_Name(){} // RVA: 0x1270090
-        // ── 99 unresolved (hash) ──
-        public void m_D51(){} // RVA: 0x1269D90
-        public void m_EEE(){} // RVA: 0x1269E00
-        public void m_C64(){} // RVA: 0x1269E20
-        public void m_134(){} // RVA: 0x1269E40
-        public void m_AB6(){} // RVA: 0x1269E60
-        // ... 94 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÎÍÎÏÍÎÍÍÎÍÌÏÏÎÎÏÌÌÌÏÎÎ</summary>
-    public class UIk__BackingField_C5D7 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_16C;
-        public object f_8AA;
-        public object f_2DF;
-        public object f_58B;
-        public object f_F7A;
-        public object f_BCC;
-        public object f_139;
-        public object f_77B;
-        public object f_A30;
-        public object f_94C;
-        public object f_1DC;
-        public object f_858;
-        public object f_264;
-        public object f_9F6;
-        public object f_EEF;
-        public object f_2D1;
-        public object f_7C6;
-        public object f_64D;
-        public object f_5FC;
-        public object f_4E8;
-        public object f_E1A;
-        public object f_36A;
-        public object f_149;
-        public object f_8F1;
-        public object f_612;
-        public object f_7C2;
-        public object f_AB4;
-        public object f_3EC;
-        public object f_CCC;
-        public object f_7FD;
-        public object f_F7F;
-        public object f_FCB;
-        public object f_5F7;
-        public object f_8C9;
-        public object f_EE7;
-        public object f_CF2;
-        public object f_F18;
-        public object f_2E6;
-        public object f_7EB;
-        public object f_3D9;
-        public object f_A0A;
-        public object f_685;
-        public object f_44F;
-        public object f_DA7;
-        public object f_2E9;
-        public object f_152;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x1143F90
-        public void Equals(){} // RVA: 0x15B7570
-        public void GetHashCode(){} // RVA: 0x1AE2470
-        public void op_Implicit(){} // RVA: 0x1AE24A0
-        public void CompareBaseObjects(){} // RVA: 0x1AE2500
-        public void IsNativeObjectAlive(){} // RVA: 0x1AE2670
-        public void GetCachedPtr(){} // RVA: 0x12CDBF0
-        public void Finalize(){} // RVA: 0x1AE2740
-        public void set_name(){} // RVA: 0x1AE2A40
-        public void Instantiate(){} // RVA: 0x1AE2A50
-        public void Destroy(){} // RVA: 0x1AE2B70
-        public void DestroyImmediate(){} // RVA: 0x1AE2C40
-        public void FindObjectsOfType(){} // RVA: 0x1AE2D20
-        public void FindObjectsByType(){} // RVA: 0x1AE2D30
-        public void DontDestroyOnLoad(){} // RVA: 0x1AE2E80
-        public void get_hideFlags(){} // RVA: 0x1AE2FA0
-        public void .cctor(){} // RVA: 0x1AE3250
-        public void FindObjectOfType(){} // RVA: 0x10B9D50
-        public void Dispose(){} // RVA: 0x1AE3290
-        public void Cleanup(){} // RVA: 0x1AE3460
-        public void ToString(){} // RVA: 0xE62D00
-        public void op_Equality(){} // RVA: 0x1AE3600
-        public void op_Inequality(){} // RVA: 0x1AE3610
-        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x166A5F0
-        public void .ctor(){} // RVA: 0x1AE9B30
-        public void Initialize(){} // RVA: 0x1AE3A20
-        public void Internal_InstantiateSingle(){} // RVA: 0x1AE3AF0
-        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x1AE41A0
-        public void GetName(){} // RVA: 0x1AE41C0
-        public void IsPersistent(){} // RVA: 0x1AE4310
-        public void SetName(){} // RVA: 0x1998660
-        public void FindObjectFromInstanceID(){} // RVA: 0x1AE46E0
-        public void ForceLoadFromInstanceID(){} // RVA: 0x1AE4D80
-        public void Destroy_Injected(){} // RVA: 0x1AE51C0
-        public void DestroyImmediate_Injected(){} // RVA: 0x1AE52A0
-        public void DisposeAsync(){} // RVA: 0x1AE52D0
-        public void get_hideFlags_Injected(){} // RVA: 0x1AE5490
-        public void set_hideFlags_Injected(){} // RVA: 0x1AE5AC0
-        public void Internal_CloneSingle_Injected(){} // RVA: 0x1AE5AD0
-        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x1AE9510
-        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x1AE5D60
-        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x1AE5DB0
-        public void ToString_Injected(){} // RVA: 0xBC5D20
-        public void GetName_Injected(){} // RVA: 0x1AE2A40
-        public void IsPersistent_Injected(){} // RVA: 0x1AE60B0
-        public void SetName_Injected(){} // RVA: 0x15B42C0
-        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x1AE6280
-        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x1AE6520
-        public void h(){} // RVA: 0x1AE6530
-        public void CompareTo(){} // RVA: 0x1AE9B10
-        // ── 49 unresolved (hash) ──
-        public void m_CE3(){} // RVA: 0x1AE4F50
-        public void m_689(){} // RVA: 0x1AE50C0
-        public void m_D91(){} // RVA: 0x1AE66A0
-        public void m_08D(){} // RVA: 0x1AE66F0
-        public void m_8D5(){} // RVA: 0xE3D020
-        // ... 44 more unresolved methods
-    }
-
     /// <summary>Originally: ÍÏÎÍÎÎÍÏÍÏÏÏÍÌÌÏÎÌÎÌÎÍÏ</summary>
     public class UIk__BackingField_C94D : BackingFieldBase_0287
     {
@@ -2162,6 +2012,28 @@ namespace VRC.UI
         public void m_ED9(){} // RVA: 0x77900
         public void m_0EA(){} // RVA: 0x14790
         public void m_790(){} // RVA: 0x47F10
+    }
+
+    /// <summary>Originally: ÍÍÎÏÎÏÍÍÍÍÎÍÎÍÌÌÎÍÎÍÏÌÌ</summary>
+    public class UIk__BackingFieldisOnDispRelated_8EAD : ValueType
+    {
+        public object f_BF5;
+        public object f_DD3;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x14790
+        public void InternalEquals(){} // RVA: 0x14790
+        public void DefaultEquals(){} // RVA: 0x92DD0
+        public void GetHashCode(){} // RVA: 0x47F10
+        public void InternalGetHashCode(){} // RVA: 0x77900
+        public void ToString(){} // RVA: 0x77900
+        public void GetHashCodeOfPtr(){} // RVA: 0x77900
+        public void x(){} // RVA: 0x47F10
+        // ── Unresolved (hash) ──
+        public void m_ED9(){} // RVA: 0x77900
+        public void m_ACB(){} // RVA: 0x92DD0
+        public void m_834(){} // RVA: 0x47F10
+        public void m_6C5(){} // RVA: 0x92DD0
     }
 
     /// <summary>Originally: ÏÏÎÎÎÎÏÌÎÍÎÎÌÌÏÍÍÌÎÏÍÍÎ</summary>

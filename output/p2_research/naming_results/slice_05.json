@@ -1,0 +1,224 @@
+[
+  {
+    "obf_class": "BaseClass45Impl_A5E7",
+    "proposed_name": "CanvasGroupTweenAnimator",
+    "confidence": "high",
+    "evidence": "callees CanvasGroup::set_alpha+DOTween::Sequence+DOTweenModuleUI::DOAnchorPosX+RectTransform::set_anchoredPosition+Sequence::DoInsert+TweenExtensions::Kill 明确指向 DOTween 驱动的 CanvasGroup 淡入淡出/位移过渡动画"
+  },
+  {
+    "obf_class": "BaseClass45Impl_26F4",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "ColorUtility::ToHtmlStringRGB/TweenManager::FilteredOperation 有 UI/tween 信号但混入 Clone/FindObjectsByType/GetOffsetOfInstanceID 通用 Unity 对象样板,领域矛盾"
+  },
+  {
+    "obf_class": "BaseClass45Impl_9681",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "全是 Monitor::ThrowLockTakenException+UnityObjectWrapper CompareBaseObjects/DestroyImmediate/FindObjectsByType/Initialize 通用对象生命周期样板,无领域"
+  },
+  {
+    "obf_class": "BaseClass52Impl_D03A",
+    "proposed_name": "StyleColorHtmlSetter",
+    "confidence": "medium",
+    "evidence": "ColorUtility::TryParseHtmlString+StyleElementColorSetter::Destroy/GetInstanceID 指向解析 HTML 颜色并应用到 UI StyleElement"
+  },
+  {
+    "obf_class": "BaseClass52Impl_C461",
+    "proposed_name": "StyleColorHtmlApplier",
+    "confidence": "medium",
+    "evidence": "callees 与 D03A 相同(ColorUtility::TryParseHtmlString+StyleElementColorSetter),同为样式元素 HTML 颜色应用类(姊妹)"
+  },
+  {
+    "obf_class": "Static7m_CDE5",
+    "proposed_name": "ZLoggerLogStateEntryFactory",
+    "confidence": "medium",
+    "evidence": "StringFormatterLogState_1::CreateEntry+ZLoggerEntry_1::Return+Lookup/Grouping 指向 ZLogger 结构化日志状态创建/回收日志条目"
+  },
+  {
+    "obf_class": "BaseClass45Impl_48BD",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "Monitor+UnityObjectWrapper DestroyImmediate/FindObjectsByType/Initialize 通用对象样板,无领域"
+  },
+  {
+    "obf_class": "BaseClass45Impl_2367",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "纯集合样板 Array::Clear+Dictionary_2::TryInsert+List_1::AddWithResize/InsertRange,无领域语义"
+  },
+  {
+    "obf_class": "BackingFieldBaseImpl_630E",
+    "proposed_name": "AnimatedEmojiModerationState",
+    "confidence": "medium",
+    "evidence": "AnimatorModerationStateController::Initialize+PlayerOwnerCanUseAnimatedEmoji::get_FileId 两个 VRChat 动画表情/审核信号一致(XmlReader 为噪声)"
+  },
+  {
+    "obf_class": "BaseClass290Impl_k__BackingFieldImpl_28EE",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "Clone/op_Implicit/FindObjectsByType 等对象实例化样板,无具体领域"
+  },
+  {
+    "obf_class": "BackingFieldBaseImplSibling_7449",
+    "proposed_name": "ZLoggerFormatterPoolNode",
+    "confidence": "medium",
+    "evidence": "IZLoggerFormatter::get_WithLineBreak+IObjectPoolNode_1::get_NextNode 指向池化的 ZLogger 格式化器节点"
+  },
+  {
+    "obf_class": "Struct2f_2278",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper CompareBaseObjects/FindObjectsByType/ForceLoadFromInstanceID 通用对象样板"
+  },
+  {
+    "obf_class": "Struct3f_2433",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper 通用对象样板,无领域"
+  },
+  {
+    "obf_class": "Struct4f_FF65",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper 通用对象样板,无领域"
+  },
+  {
+    "obf_class": "Struct8f_F09B",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper 通用对象样板,无领域"
+  },
+  {
+    "obf_class": "BaseClass52Impl_A946",
+    "proposed_name": "RegexMatchAccessor",
+    "confidence": "low",
+    "evidence": "RegexCache::GetCachedPtr 指向正则领域,但仅 1 个领域 callee+ThrowHelper 样板,证据偏弱"
+  },
+  {
+    "obf_class": "Static3m_681F",
+    "proposed_name": "UdonDelayedEventScheduler",
+    "confidence": "medium",
+    "evidence": "IUdonEventReceiver::SendCustomEventDelayedFrames+IObjectPoolNode_1::get_NextNode 指向 Udon 延迟事件调度/队列节点"
+  },
+  {
+    "obf_class": "BackingFieldBase_k__BackingField_DC1C",
+    "proposed_name": "UserSearchResults",
+    "confidence": "medium",
+    "evidence": "APIUser::FetchUsersSearchResults 强领域信号(VRChat 用户搜索结果),DontDestroyOnLoad 为辅助"
+  },
+  {
+    "obf_class": "Static2m_3012",
+    "proposed_name": "ZLoggerFormattedEntryWriter",
+    "confidence": "medium",
+    "evidence": "IZLoggerFormatter::get_WithLineBreak+ZLoggerEntry_1::Return 指向 ZLogger 格式化条目写出/回收"
+  },
+  {
+    "obf_class": "Static2m_BD7E",
+    "proposed_name": "ZLoggerEntryPoolNode",
+    "confidence": "medium",
+    "evidence": "ZLoggerEntry_1::get_LogInfo+IObjectPoolNode_1::get_NextNode 指向池化的 ZLogger 日志条目节点"
+  },
+  {
+    "obf_class": "Static2m_C918",
+    "proposed_name": "ZLoggerFormatterState",
+    "confidence": "low",
+    "evidence": "IZLoggerFormatter::get_WithLineBreak+Grouping::get_HashCode,日志格式化信号但仅 1 个领域 callee"
+  },
+  {
+    "obf_class": "BaseClass52Impl_DBEE",
+    "proposed_name": "RegexMatchAccessor",
+    "confidence": "low",
+    "evidence": "RegexCache::GetCachedPtr+ThrowHelper,与 A946 同类正则缓存访问,证据偏弱"
+  },
+  {
+    "obf_class": "Static3m_1C89",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode_1::get_NextNode 通用对象池基础设施,非领域"
+  },
+  {
+    "obf_class": "BackingFieldBaseImpl_0211",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 FriendsManager::Initialize 一个 init 调用,动作通用,证据不足以定领域语义"
+  },
+  {
+    "obf_class": "BaseClass290ImplImplImpl_8B27",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 ZLoggerEntry_1::Return 单一池回收调用,证据不足"
+  },
+  {
+    "obf_class": "Static1m_2316",
+    "proposed_name": "TeleportMarkerHighlighter",
+    "confidence": "low",
+    "evidence": "TeleportMarkerBase::Highlight 单一但领域具体(传送标记高亮),低置信"
+  },
+  {
+    "obf_class": "Static2m_D8E5",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode_1::get_NextNode 通用池基础设施"
+  },
+  {
+    "obf_class": "BaseClass45Impl_70F2",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4::DestroyImmediate 通用销毁,无领域"
+  },
+  {
+    "obf_class": "Struct3f_9512",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4::IsNativeObjectAlive 通用对象存活检查"
+  },
+  {
+    "obf_class": "Struct1f_E25F",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 FromList_1::Dispose 通用集合释放,无领域"
+  },
+  {
+    "obf_class": "Struct2f_A98D",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4::set_name 通用属性,无领域"
+  },
+  {
+    "obf_class": "Static1m_F7F6",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode_1::get_NextNode 通用池基础设施"
+  },
+  {
+    "obf_class": "BackingFieldBaseImplSibling_803C",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode_1::get_NextNode 通用对象池节点,无领域"
+  },
+  {
+    "obf_class": "Static2m_BB92",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 Grouping_2::get_HashCode 通用哈希分组样板,无领域"
+  },
+  {
+    "obf_class": "Static4m_8F62",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode_1::get_NextNode 通用对象池基础设施"
+  },
+  {
+    "obf_class": "BaseClass290Impl_k__BackingFieldImpl_3D27",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 ZLoggerEntry_1::Return 单一池回收调用,证据不足"
+  },
+  {
+    "obf_class": "BaseClass52Impl_6FB3",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 ThrowHelper::ThrowArgumentOutOfRange_IndexException 通用边界检查样板,无领域"
+  }
+]

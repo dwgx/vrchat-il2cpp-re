@@ -1,0 +1,893 @@
+[
+ {
+  "original_name": "ÏÍÌÎÍÍÍÌÎÌÎÌÍÍÏÍÍÎÎÏÌÏÍ",
+  "instances": 289,
+  "current_name": "BaseClass290Impl_7051",
+  "parent": "BaseClass290_9961",
+  "n_methods": 20,
+  "domain_callees": [
+   [
+    "ZLoggerInterpolatedStringHandler",
+    33
+   ],
+   [
+    "VRCLogger",
+    15
+   ],
+   [
+    "EqualityComparer`1",
+    10
+   ],
+   [
+    "NumberFormatInfo",
+    5
+   ],
+   [
+    "UIalwaysShowscrollbarComponentSibling_1917",
+    2
+   ]
+  ],
+  "confidence": "medium"
+ },
+ {
+  "original_name": "ÎÏÌÍÌÎÍÏÌÌÍÏÎÍÌÎÎÏÎÏÎÎÏ",
+  "instances": 65,
+  "current_name": "BackingFieldBase_0287",
+  "parent": "Object",
+  "n_methods": 9,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÌÌÍÍÏÏÏÏÌÎÎÍÍÌÏÌÍÏÏÍÌÎ",
+  "instances": 61,
+  "current_name": "BaseClass290ImplImpl_828C",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 15,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÏÍÏÌÎÌÎÍÌÎÌÏÏÏÏÍÎÎÎÍÎÎ",
+  "instances": 56,
+  "current_name": "BaseClass290Impl_k__BackingField_BE98",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 30,
+  "domain_callees": [
+   [
+    "EventCallback`1",
+    20
+   ],
+   [
+    "MessageTemplateFormatter",
+    2
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÌÌÌÍÍÎÌÏÏÌÎÍÏÎÎÎÎÎÏÌÎÌÍ",
+  "instances": 55,
+  "current_name": "Type3m1f_EFB2",
+  "parent": "Object",
+  "n_methods": 3,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÍÏÎÌÌÏÎÍÏÌÎÎÏÎÍÎÌÎÌÏÍÌ",
+  "instances": 55,
+  "current_name": "Type3m1f_CAD5",
+  "parent": "Object",
+  "n_methods": 3,
+  "domain_callees": [
+   [
+    "List`1",
+    1
+   ],
+   [
+    "MessageTemplateFormatter",
+    1
+   ]
+  ],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÎÏÌÍÌÏÏÌÏÏÌÌÏÌÌÍÌÎÌÏÎÍ",
+  "instances": 55,
+  "current_name": "Type8m2f_123B",
+  "parent": "Object",
+  "n_methods": 8,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÌÍÌÍÍÍÎÏÌÎÍÏÏÌÌÍÍÍÌÌÎÎ",
+  "instances": 55,
+  "current_name": "Type2m1f_7E2A",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÏÌÍÏÎÎÌÌÌÌÏÍÎÌÎÏÍÏÍÎÎÏ",
+  "instances": 55,
+  "current_name": "Type2m1f_AD31",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [
+   [
+    "SynchronizationContext",
+    1
+   ]
+  ],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÌÍÍÎÏÍÍÎÎÍÏÎÍÏÌÌÌÎÌÏÏÎ",
+  "instances": 55,
+  "current_name": "Type2m2f_5A10",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÍÍÌÌÌÏÏÏÎÎÏÏÍÌÍÏÌÎÎÌÌÏ",
+  "instances": 55,
+  "current_name": "Type2m2f_2AC6",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [
+   [
+    "EventCallback`1",
+    4
+   ],
+   [
+    "List`1",
+    1
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÎÌÏÎÎÎÎÌÌÏÏÌÍÎÎÍÎÍÏÍÍÍÏ",
+  "instances": 49,
+  "current_name": "BaseClass7Sibling_9EC7",
+  "parent": "",
+  "n_methods": 4,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÍÎÎÍÌÌÍÍÏÎÏÏÎÏÍÍÍÌÏÏÍÎ",
+  "instances": 46,
+  "current_name": "Type8m2f_B2B1",
+  "parent": "Object",
+  "n_methods": 8,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÌÏÏÍÍÏÌÏÏÎÎÏÍÏÍÏÏÎÌÎÎÎ",
+  "instances": 45,
+  "current_name": "BaseClass290Impl_k__BackingField_B9B8",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 18,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÏÍÌÍÏÌÍÍÍÍÏÏÍÏÎÎÎÍÎÏÍÌ",
+  "instances": 43,
+  "current_name": "BaseClass290Impl_k__BackingFieldImpl_1ECE",
+  "parent": "BaseClass290Impl_k__BackingField_B9B8",
+  "n_methods": 9,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÎÎÌÌÏÍÍÏÍÏÎÍÏÎÌÍÍÍÏÌÍÌ",
+  "instances": 21,
+  "current_name": "Static9m_277F",
+  "parent": "Object",
+  "n_methods": 9,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÍÌÏÍÎÏÍÌÍÎÏÌÏÏÍÎÌÌÌÍÏÍ",
+  "instances": 21,
+  "current_name": "Static9m_B130",
+  "parent": "Object",
+  "n_methods": 9,
+  "domain_callees": [
+   [
+    "Encoding",
+    28
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÏÎÏÌÌÏÍÍÍÎÌÎÌÍÎÌÍÍÍÍÍÏÏ",
+  "instances": 18,
+  "current_name": "BaseClass290ImplImpl_BB81",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 2,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÏÎÍÍÏÍÏÏÏÏÌÍÌÏÏÌÌÏÍÎÏÍ",
+  "instances": 17,
+  "current_name": "BaseClass52_0B01",
+  "parent": "BaseClass21_8B43",
+  "n_methods": 4,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÏÌÎÏÎÎÍÌÏÏÎÏÎÏÌÍÌÏÍÎÎÎ",
+  "instances": 11,
+  "current_name": "Type11m1f_A714",
+  "parent": "Object",
+  "n_methods": 11,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÎÍÍÎÏÌÌÎÏÍÏÍÎÎÏÏÌÎÏÏÌÎ",
+  "instances": 10,
+  "current_name": "Struct3f_565F",
+  "parent": "ValueType",
+  "n_methods": 9,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÎÌÌÍÏÌÏÎÎÍÏÌÌÌÏÌÌÎÌÍÏÎ",
+  "instances": 8,
+  "current_name": "BaseClass7_B8A8",
+  "parent": "Object",
+  "n_methods": 14,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÎÎÎÎÎÌÍÏÌÏÌÏÌÌÏÍÍÌÌÏÎÍ",
+  "instances": 7,
+  "current_name": "Static1m_8DC1",
+  "parent": "",
+  "n_methods": 1,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÎÍÌÌÎÏÌÎÌÌÎÎÎÌÎÌÎÎÌÍÎÌ",
+  "instances": 7,
+  "current_name": "Static1m_0364",
+  "parent": "",
+  "n_methods": 1,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÎÏÏÌÎÍÌÏÎÎÏÏÎÏÌÏÌÌÌÌÌÍ",
+  "instances": 6,
+  "current_name": "BaseClass290ImplImpl_31B9",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 7,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÍÏÍÍÍÎÏÌÏÌÌÌÎÎÌÎÏÏÏÌÎÍ",
+  "instances": 6,
+  "current_name": "BaseClass290ImplImpl_DBDC",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 5,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÌÎÍÏÏÏÍÏÏÌÎÏÎÎÎÍÍÎÏÏÍÌ",
+  "instances": 6,
+  "current_name": "BaseClass290ImplImpl_1008",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 5,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÎÍÏÏÏÏÍÍÍÎÎÌÍÏÏÍÎÏÍÏÏÌ",
+  "instances": 6,
+  "current_name": "BaseClass290ImplImpl_3747",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 16,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÏÍÍÌÏÎÏÎÍÏÌÌÎÍÏÍÌÌÍÎÌÏ",
+  "instances": 6,
+  "current_name": "Static1m_6A58",
+  "parent": "",
+  "n_methods": 1,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÍÌÍÍÏÌÍÏÏÌÌÌÏÏÏÏÍÏÏÍÏÎ",
+  "instances": 5,
+  "current_name": "BackingFieldBaseSibling_C399",
+  "parent": "",
+  "n_methods": 10,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÍÍÏÎÎÎÍÏÏÏÎÎÍÎÏÍÎÍÌÌÍÍ",
+  "instances": 5,
+  "current_name": "BaseClass7Sibling_4F24",
+  "parent": "Object",
+  "n_methods": 22,
+  "domain_callees": [
+   [
+    "ZLoggerInterpolatedStringHandler",
+    66
+   ],
+   [
+    "VRCLogger",
+    32
+   ],
+   [
+    "SavePersistentViewData",
+    22
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÎÍÎÌÍÏÎÏÎÏÎÏÎÍÍÎÍÎÌÏÏÌÎ",
+  "instances": 5,
+  "current_name": "BackingFieldBase_0DA1",
+  "parent": "Object",
+  "n_methods": 24,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÏÎÌÌÏÌÌÏÍÌÎÌÎÏÌÎÏÎÌÏÌÎ",
+  "instances": 5,
+  "current_name": "Type2m1f_50E6",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÎÍÏÏÏÏÍÌÍÌÍÌÌÌÌÎÏÏÌÌÎÍ",
+  "instances": 5,
+  "current_name": "BackingFieldBase_k__BackingField_3738",
+  "parent": "BackingFieldBase_3DB7",
+  "n_methods": 16,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÏÏÎÎÏÍÏÍÍÌÏÍÎÎÏÏÏÏÌÌÍÎ",
+  "instances": 5,
+  "current_name": "Type8m3f_C26F",
+  "parent": "Object",
+  "n_methods": 8,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÏÌÍÍÏÍÌÌÎÏÏÍÌÌÎÎÎÏÏÏÎÏ",
+  "instances": 5,
+  "current_name": "Type8m1f_AEB4",
+  "parent": "Object",
+  "n_methods": 8,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÎÌÏÍÍÏÍÌÏÌÏÌÌÎÌÏÏÌÏÍÌÏ",
+  "instances": 5,
+  "current_name": "Type8m2f_9C11",
+  "parent": "Object",
+  "n_methods": 8,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÌÌÌÏÎÏÌÍÎÎÏÏÍÌÍÏÎÏÍÏÏÎ",
+  "instances": 5,
+  "current_name": "Type10m4f_7930",
+  "parent": "Object",
+  "n_methods": 10,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÏÏÌÎÌÌÏÏÌÎÍÏÎÌÍÏÎÍÎÏÎÌ",
+  "instances": 5,
+  "current_name": "Type9m3f_B3F7",
+  "parent": "Object",
+  "n_methods": 9,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÌÏÍÎÏÏÎÏÌÎÌÎÍÌÍÌÎÍÎÎÎÎ",
+  "instances": 5,
+  "current_name": "BaseClass7Impl_7F46",
+  "parent": "BaseClass7_D6C7",
+  "n_methods": 3,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÍÎÎÍÎÎÎÍÌÏÎÍÏÏÍÏÍÎÌÏÏÌ",
+  "instances": 5,
+  "current_name": "BaseClass5Impl_61A4",
+  "parent": "BaseClass5_1D88",
+  "n_methods": 15,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÌÍÏÎÍÍÌÎÌÌÌÍÏÎÍÎÎÏÌÏÍÍ",
+  "instances": 5,
+  "current_name": "BackingFieldBaseSibling_BB00",
+  "parent": "",
+  "n_methods": 6,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÌÏÍÎÍÌÏÎÌÏÎÍÎÎÏÌÍÏÍÏÍÏ",
+  "instances": 4,
+  "current_name": "BaseClass3_C997",
+  "parent": "Object",
+  "n_methods": 8,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÍÍÎÍÌÌÍÏÌÎÌÌÎÏÍÎÌÏÌÎÍÌ",
+  "instances": 4,
+  "current_name": "BackingFieldBaseSibling_BCEF",
+  "parent": "Object",
+  "n_methods": 11,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÌÌÏÍÎÌÍÎÎÏÌÌÏÎÎÎÍÎÌÎÏÌ",
+  "instances": 4,
+  "current_name": "Struct2f_715F",
+  "parent": "ValueType",
+  "n_methods": 7,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÎÍÌÍÍÍÏÏÌÎÎÎÎÎÌÏÍÌÎÍÍÎ",
+  "instances": 4,
+  "current_name": "BackingFieldBaseImplSibling_3337",
+  "parent": "Object",
+  "n_methods": 15,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÍÌÍÍÌÍÎÌÎÏÎÌÍÌÎÌÎÌÍÌÎÎ",
+  "instances": 4,
+  "current_name": "BackingFieldBase_k__BackingField_9F5F",
+  "parent": "BackingFieldBase_30CC",
+  "n_methods": 4,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÎÌÎÍÎÌÎÏÌÎÎÏÍÌÏÎÎÏÌÍÌÎ",
+  "instances": 4,
+  "current_name": "Type1m1f_649B",
+  "parent": "Object",
+  "n_methods": 1,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÎÏÍÎÌÎÏÎÎÌÎÏÍÏÍÎÏÌÍÎÏÏ",
+  "instances": 4,
+  "current_name": "Static3m_C194",
+  "parent": "Object",
+  "n_methods": 3,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÎÎÍÎÍÏÏÎÍÍÌÎÏÎÌÍÎÌÌÌÌÍ",
+  "instances": 4,
+  "current_name": "BaseClass7SiblingSibling_1F6F",
+  "parent": "Object",
+  "n_methods": 22,
+  "domain_callees": [
+   [
+    "EventCallback`1",
+    31
+   ],
+   [
+    "UIalwaysShowscrollbarComponentSibling_1917",
+    15
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÍÎÌÏÍÌÎÏÌÌÎÌÌÍÌÎÎÌÌÎÎÎÎ",
+  "instances": 3,
+  "current_name": "BaseClass290ImplImplImpl_98ED",
+  "parent": "BaseClass290ImplImpl_31B9",
+  "n_methods": 3,
+  "domain_callees": [
+   [
+    "List`1",
+    4
+   ],
+   [
+    "UnityObjectInstantiatable_07",
+    2
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÍÍÍÏÏÎÏÎÍÌÌÎÍÏÍÌÎÎÎÌÏÌÌ",
+  "instances": 3,
+  "current_name": "BaseClass7Impl_444C",
+  "parent": "BaseClass7_B8A8",
+  "n_methods": 11,
+  "domain_callees": [
+   [
+    "EventCallback`1",
+    47
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÎÏÏÌÏÏÌÍÌÍÏÏÍÍÌÍÏÏÏÎÌÏÌ",
+  "instances": 3,
+  "current_name": "Type2m1f_03D0",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÍÏÎÍÍÎÏÏÌÏÏÏÎÍÎÏÏÏÏÍÍÌ",
+  "instances": 3,
+  "current_name": "Type8m2f_8F1A",
+  "parent": "Object",
+  "n_methods": 8,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÍÏÍÏÏÏÍÌÌÎÍÌÏÏÏÍÍÌÌÏÍÎ",
+  "instances": 3,
+  "current_name": "Type2m2f_BFF7",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÌÎÌÍÎÎÏÍÍÍÎÏÌÏÎÏÎÏÌÍÌÍ",
+  "instances": 3,
+  "current_name": "Struct3f_0DFF",
+  "parent": "ValueType",
+  "n_methods": 1,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÏÍÎÌÎÍÎÎÌÏÎÏÍÏÎÌÏÍÍÍÌÏ",
+  "instances": 3,
+  "current_name": "BackingFieldBaseSibling_A459",
+  "parent": "Object",
+  "n_methods": 13,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÏÌÍÎÎÎÌÌÌÏÌÏÌÎÍÌÍÍÍÌÌÌ",
+  "instances": 3,
+  "current_name": "BaseClass290Impl_k__BackingFieldImpl_4C55",
+  "parent": "BaseClass290Impl_k__BackingField_B9B8",
+  "n_methods": 13,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÍÏÏÍÍÍÌÌÌÌÏÏÎÍÌÍÍÍÎÍÌÌ",
+  "instances": 3,
+  "current_name": "Type9m4f_29FA",
+  "parent": "Object",
+  "n_methods": 9,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÍÏÏÌÏÏÍÏÌÍÎÍÍÍÍÌÌÍÎÌÏÍ",
+  "instances": 3,
+  "current_name": "BaseClass5SiblingSibling_6482",
+  "parent": "Object",
+  "n_methods": 17,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÏÌÎÎÎÏÌÏÍÍÎÍÍÎÍÏÏÏÌÏÌÎ",
+  "instances": 3,
+  "current_name": "BaseClass290ImplImplImpl_BCC2",
+  "parent": "BaseClass290ImplImpl_BB81",
+  "n_methods": 3,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÌÌÌÎÎÏÌÍÎÏÏÏÌÎÎÍÍÍÌÎÎÍ",
+  "instances": 3,
+  "current_name": "BaseClass290Impl_k__BackingField_2869",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 26,
+  "domain_callees": [
+   [
+    "SavePersistentViewData",
+    17
+   ],
+   [
+    "EventCallback`1",
+    5
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÌÏÌÌÌÌÎÌÌÍÎÍÏÏÍÍÏÍÍÏÌÎÏ",
+  "instances": 3,
+  "current_name": "Type3m1f_4D87",
+  "parent": "Object",
+  "n_methods": 3,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÏÎÏÌÍÌÎÍÍÍÍÎÎÎÌÌÍÎÌÏÎÍ",
+  "instances": 3,
+  "current_name": "Type3m1f_282D",
+  "parent": "Object",
+  "n_methods": 3,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÏÏÌÍÌÏÍÏÍÍÎÎÍÎÌÎÎÏÎÏÌÎ",
+  "instances": 3,
+  "current_name": "Type2m2f_C958",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [
+   [
+    "TraceEventCache",
+    2
+   ]
+  ],
+  "confidence": "weak"
+ },
+ {
+  "original_name": "ÏÏÍÎÍÍÏÏÎÏÍÍÍÌÏÎÏÏÌÏÎÏÎ",
+  "instances": 3,
+  "current_name": "Type10m1f_EF7A",
+  "parent": "Object",
+  "n_methods": 10,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÌÍÎÍÏÏÏÎÎÍÍÏÌÍÍÌÏÍÌÏÍÎ",
+  "instances": 3,
+  "current_name": "BaseClass3Sibling_5082",
+  "parent": "",
+  "n_methods": 6,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÏÌÏÎÏÏÎÌÌÏÏÏÏÎÎÌÌÌÏÎÍÏ",
+  "instances": 3,
+  "current_name": "Static1m_27CF",
+  "parent": "",
+  "n_methods": 1,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÍÍÎÌÍÍÏÎÏÍÏÌÍÌÍÌÏÎÌÎÎÍ",
+  "instances": 3,
+  "current_name": "Static1m_C810",
+  "parent": "",
+  "n_methods": 1,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÏÎÎÌÌÌÍÎÏÎÍÍÎÍÍÎÏÎÍÌÌÏ",
+  "instances": 3,
+  "current_name": "Type12m2f_1F86",
+  "parent": "Object",
+  "n_methods": 12,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÌÌÍÎÎÎÍÍÏÏÎÎÌÍÏÏÎÌÌÎÏÎÌ",
+  "instances": 3,
+  "current_name": "BaseClass7Sibling_EE9F",
+  "parent": "Object",
+  "n_methods": 14,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÌÎÎÍÌÎÎÎÏÌÍÎÎÎÏÌÏÎÍÏÌÌ",
+  "instances": 2,
+  "current_name": "BaseClass290ImplImplImpl_37B2",
+  "parent": "BaseClass290ImplImpl_31B9",
+  "n_methods": 12,
+  "domain_callees": [
+   [
+    "EventCallback`1",
+    70
+   ],
+   [
+    "SavePersistentViewData",
+    8
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÎÏÍÎÏÍÍÏÍÌÍÍÍÌÍÍÌÏÎÏÌÌÏ",
+  "instances": 2,
+  "current_name": "BaseClass290ImplImpl_27D8",
+  "parent": "BaseClass290Impl_7051",
+  "n_methods": 9,
+  "domain_callees": [
+   [
+    "List`1",
+    16
+   ],
+   [
+    "HashSet`1",
+    4
+   ],
+   [
+    "SavePersistentViewData",
+    2
+   ],
+   [
+    "Attribute",
+    1
+   ]
+  ],
+  "confidence": "strong"
+ },
+ {
+  "original_name": "ÏÍÏÍÏÍÏÎÎÌÌÌÌÍÏÌÎÍÌÎÎÏÌ",
+  "instances": 2,
+  "current_name": "k__BackingField_216A",
+  "parent": "Pointerk__BackingField_8B17",
+  "n_methods": 9,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÏÍÎÎÏÌÌÎÏÏÌÍÏÍÎÌÏÏÏÌÌÏ",
+  "instances": 2,
+  "current_name": "Type10m2f_7491",
+  "parent": "Object",
+  "n_methods": 10,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÏÍÎÎÏÍÍÎÌÏÏÌÏÏÎÎÍÍÏÏÌÎÍ",
+  "instances": 2,
+  "current_name": "Type2m2f_B37A",
+  "parent": "Object",
+  "n_methods": 2,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÏÍÏÌÏÎÌÎÏÍÍÏÏÏÎÌÎÌÌÌÌÌ",
+  "instances": 2,
+  "current_name": "Struct3f_DBD4",
+  "parent": "ValueType",
+  "n_methods": 10,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÍÍÍÌÌÏÏÏÌÌÌÏÏÍÎÍÌÎÌÍÏÏ",
+  "instances": 2,
+  "current_name": "Type6m2f_0C5D",
+  "parent": "Object",
+  "n_methods": 6,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÍÏÌÌÌÍÍÌÎÎÏÏÎÏÎÏÎÏÍÍÏÍÌ",
+  "instances": 2,
+  "current_name": "BaseClass5SiblingSibling_0224",
+  "parent": "BaseClass5SiblingSibling_6482",
+  "n_methods": 8,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÏÏÏÏÍÍÍÍÎÎÎÍÍÏÏÏÏÎÏÍÎÎ",
+  "instances": 2,
+  "current_name": "BaseClass7SiblingRelated_0E3E",
+  "parent": "BaseClass290ImplImpl_828C",
+  "n_methods": 6,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÏÍÎÎÏÌÌÎÏÍÍÎÎÌÍÍÏÌÏÏÍÌ",
+  "instances": 2,
+  "current_name": "BaseClass290ImplImplImpl_8B27",
+  "parent": "BaseClass290ImplImpl_31B9",
+  "n_methods": 3,
+  "domain_callees": [
+   [
+    "EventCallback`1",
+    2
+   ]
+  ],
+  "confidence": "weak"
+ },
+ {
+  "original_name": "ÏÎÎÍÎÏÌÍÌÌÎÍÍÎÍÍÍÍÎÌÌÍÎ",
+  "instances": 2,
+  "current_name": "BaseClass7Impl_792F",
+  "parent": "BaseClass7_B8A8",
+  "n_methods": 12,
+  "domain_callees": [],
+  "confidence": "none"
+ },
+ {
+  "original_name": "ÎÎÏÌÏÎÍÌÎÍÍÏÍÍÍÌÍÎÍÍÏÍÌ",
+  "instances": 2,
+  "current_name": "Type7m1f_39B6",
+  "parent": "Object",
+  "n_methods": 7,
+  "domain_callees": [
+   [
+    "EventCallback`1",
+    6
+   ]
+  ],
+  "confidence": "strong"
+ }
+]

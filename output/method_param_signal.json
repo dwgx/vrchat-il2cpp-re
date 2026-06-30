@@ -1,0 +1,6558 @@
+{
+ "summary": {
+  "classes_with_param_types": 23630,
+  "weak_unnamed_with_signal": 501,
+  "idf_corpus_size": 23630,
+  "note": "method parameter types; excludes classes already named by the field-type and method-return passes (disjoint)."
+ },
+ "signals": [
+  {
+   "obf_name": "ÌÌÍÏÌÎÎÎÌÌÍÍÏÌÍÎÎÎÍÏÏÎÌ",
+   "current_name": "Static5m_F5A3",
+   "score": 41.0,
+   "distinct_types": 6,
+   "signal_params": [
+    {
+     "method": "ÎÏÍÌÏÏÏÏÎÏÏÏÍÌÎÍÍÌÏÍÍÍÏ",
+     "type": "VRC.Core.ApiAdminAssetBundleFile"
+    },
+    {
+     "method": "ÌÌÎÎÎÎÏÌÍÏÎÌÌÏÎÎÎÏÌÌÌÏÏ",
+     "type": "VRC.Core.ApiAvatarPart"
+    },
+    {
+     "method": "ÎÎÎÏÎÏÏÏÏÍÍÍÎÎÏÌÌÏÎÎÎÍÌ",
+     "type": "AvatarVariant"
+    },
+    {
+     "method": "ÏÏÌÎÍÌÌÏÍÎÎÍÏÏÍÎÌÎÎÍÌÎÌ",
+     "type": "VRC.Core.ApiProp"
+    },
+    {
+     "method": "ÎÎÎÏÎÏÏÏÏÍÍÍÎÎÏÌÌÏÎÎÎÍÌ",
+     "type": "VRC.Core.ApiAvatar"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÏÍÍÌÎÍÎÎÎÌÎÍÎÎÌÌÌÎÎÏ",
+   "current_name": "k__BackingFieldComponentSiblinSibling_9E72",
+   "score": 27.037,
+   "distinct_types": 5,
+   "signal_params": [
+    {
+     "method": "ÎÍÌÌÎÎÏÏÌÍÌÎÍÌÎÎÌÏÎÍÏÍÌ",
+     "type": "UnityEngine.Events.UnityAction"
+    },
+    {
+     "method": "ÏÏÌÎÎÎÌÏÎÏÎÌÏÌÍÍÍÎÍÍÏÏÍ",
+     "type": "UnityEngine.Sprite"
+    },
+    {
+     "method": "ÌÎÏÎÍÎÎÎÌÍÌÏÎÍÎÎÍÎÌÍÎÍÌ",
+     "type": "System.Text.StringBuilder"
+    },
+    {
+     "method": "ÍÍÎÍÍÎÏÏÏÏÎÍÍÌÏÍÏÍÏÏÍÎÍ",
+     "type": "UnityEngine.Color"
+    },
+    {
+     "method": "ÌÌÏÏÌÍÎÍÏÎÍÌÎÎÏÏÏÌÌÎÏÏÌ",
+     "type": "UnityEngine.Vector2"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÌÌÏÎÍÏÎÍÏÏÏÏÌÍÎÌÍÏÎÎÌ",
+   "current_name": "PhysicsraycastCollideruiShapeCSibling_1131",
+   "score": 25.804,
+   "distinct_types": 4,
+   "signal_params": [
+    {
+     "method": "ÎÎÏÍÌÏÍÌÎÎÏÏÌÏÎÍÌÎÎÌÌÌÌ",
+     "type": "VRC.SDK3.Avatars.ScriptableObjects.VRCExpressionsMenu"
+    },
+    {
+     "method": "ÎÎÌÎÎÏÏÍÍÏÏÍÍÌÏÍÍÌÏÍÏÍÏ",
+     "type": "Control"
+    },
+    {
+     "method": "ÎÎÌÎÎÏÏÍÍÏÏÍÍÌÏÍÍÌÏÍÏÍÏ",
+     "type": "VRC.Localization.LocalizableString"
+    },
+    {
+     "method": "ÎÎÌÎÎÏÏÍÍÏÏÍÍÌÏÍÍÌÏÍÏÍÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÎÏÏÎÌÌÎÍÌÌÏÍÎÏÏÍÌÌÏÍ",
+   "current_name": "Static3m_1703",
+   "score": 25.524,
+   "distinct_types": 5,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÍÍÎÌÏÏÌÍÎÍÎÍÍÍÍÌÏÎÎÏ",
+     "type": "UnityEngine.Canvas"
+    },
+    {
+     "method": "ÍÍÏÍÍÎÌÏÏÌÍÎÍÎÍÍÍÍÌÏÎÎÏ",
+     "type": "UnityEngine.RectTransform"
+    },
+    {
+     "method": "ÍÌÎÏÍÏÎÎÍÍÎÍÎÏÎÏÎÏÌÎÎÎÏ",
+     "type": "UnityEngine.Transform"
+    },
+    {
+     "method": "ÌÍÏÌÎÌÏÎÎÌÎÌÍÍÎÏÍÏÎÌÌÏÌ",
+     "type": "UnityEngine.GameObject"
+    },
+    {
+     "method": "ÍÍÏÍÍÎÌÏÏÌÍÎÍÎÍÍÍÍÌÏÎÎÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÌÏÏÌÍÍÏÍÍÏÌÏÎÍÎÏÏÌÎÍÌ",
+   "current_name": "Static8m_5D2B",
+   "score": 24.084,
+   "distinct_types": 4,
+   "signal_params": [
+    {
+     "method": "ÌÏÍÏÏÏÏÎÎÎÌÍÍÍÏÎÎÌÍÎÌÌÍ",
+     "type": "UnityEngine.UI.ScrollRect"
+    },
+    {
+     "method": "ÏÏÍÍÌÌÌÍÍÏÌÍÎÌÎÏÌÏÌÌÌÌÏ",
+     "type": "UnityEngine.RectTransform"
+    },
+    {
+     "method": "ÎÏÌÏÍÏÎÏÎÍÎÏÌÍÏÍÏÎÏÌÍÏÎ",
+     "type": "UnityEngine.Vector2"
+    },
+    {
+     "method": "ÌÎÌÌÏÍÏÌÌÌÌÏÎÎÌÌÏÎÌÌÏÎÏ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÎÏÍÎÍÍÌÏÏÌÏÎÏÍÍÎÌÏÌÌÏ",
+   "current_name": "VRC_MainSiblingSibling_9200",
+   "score": 23.965,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÏÍÎÍÍÎÏÌÎÏÎÍÌÌÏÎÎÍÌÌÏÎÍ",
+     "type": "VRC.Core.ApiModerationResult"
+    },
+    {
+     "method": "ÌÏÌÍÍÍÍÎÎÍÎÍÌÎÎÌÌÌÏÎÎÍÌ",
+     "type": "ModerationType"
+    },
+    {
+     "method": "ÌÍÌÏÌÌÎÍÏÌÍÎÏÏÏÍÍÍÍÎÏÌÍ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÎÎÏÏÎÎÍÎÎÎÌÎÍÌÌÎÌÏÎÍ",
+   "current_name": "Type3m6f_4062",
+   "score": 23.091,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÎÎÌÌÎÍÌÎÎÍÌÎÎÏÏÏÍÎÎÎÍÌÎ",
+     "type": "Transmtn.InventoryShareEvent"
+    },
+    {
+     "method": "ÎÌÏÌÌÎÍÌÏÍÍÎÍÌÌÏÎÌÌÌÏÍÍ",
+     "type": "Features.Sharing.SharableContentData"
+    },
+    {
+     "method": "ÎÌÏÌÌÎÍÌÏÍÍÎÍÌÌÏÎÌÌÌÏÍÍ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÎÍÏÏÏÌÏÎÍÎÎÎÎÎÍÎÏÎÎÎ",
+   "current_name": "Type17m2f_8FD1",
+   "score": 22.787,
+   "distinct_types": 4,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÏÌÍÏÏÎÍÎÌÍÍÏÍÏÌÌÌÍÍÏ",
+     "type": "VRC.Core.ApiFile"
+    },
+    {
+     "method": "ÏÌÏÍÍÏÍÌÎÌÌÌÎÌÏÌÏÏÍÌÌÌÍ",
+     "type": "UnityEngine.Texture2D"
+    },
+    {
+     "method": "ÎÌÏÎÍÍÍÎÍÎÌÎÎÎÎÏÏÌÎÍÌÏÍ",
+     "type": "VRC.Localization.LocalizableString"
+    },
+    {
+     "method": "ÎÌÎÎÌÍÍÌÌÎÌÌÏÏÏÍÍÌÌÍÍÌÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÍÏÍÍÌÌÌÌÎÍÌÎÌÌÌÏÎÏÎÍ",
+   "current_name": "Type11m3f_0585",
+   "score": 22.755,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÎÏÌÏÏÌÍÎÍÍÌÍÎÎÏÌÍÌÏÍ",
+     "type": "VRC.Core.ApiCalendarEntriesContainer"
+    },
+    {
+     "method": "ÍÍÎÎÏÌÏÏÌÍÎÍÍÌÍÎÎÏÌÍÌÏÍ",
+     "type": "VRC.Core.Services.APIEventSource"
+    },
+    {
+     "method": "ÍÍÎÎÏÌÏÏÌÍÎÍÍÌÍÎÎÏÌÍÌÏÍ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÍÏÎÌÎÍÌÍÍÍÌÎÏÏÌÎÏÍÌÎ",
+   "current_name": "Type9m3f_742C",
+   "score": 22.747,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÌÎÌÍÎÌÎÏÏÍÍÌÌÏÍÌÍÌÍÌ",
+     "type": "UploadFailureReason"
+    },
+    {
+     "method": "ÍÌÌÌÍÍÌÌÍÎÏÍÎÌÏÎÎÌÍÍÍÍÏ",
+     "type": "VRC.Core.ApiPrint"
+    },
+    {
+     "method": "ÏÎÏÌÎÌÍÎÌÎÏÏÍÍÌÌÏÍÌÍÌÍÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÍÍÌÏÎÏÍÏÏÎÍÏÏÌÏÌÍÏÌÏÍ",
+   "current_name": "Mono14m_0243",
+   "score": 21.957,
+   "distinct_types": 4,
+   "signal_params": [
+    {
+     "method": "ÏÏÏÏÎÎÎÍÎÌÎÌÍÌÎÎÍÏÌÏÌÎÍ",
+     "type": "UnityEngine.AudioClip"
+    },
+    {
+     "method": "ÍÍÍÏÌÌÌÌÍÏÏÎÎÎÎÌÏÍÏÏÎÏÎ",
+     "type": "UnityEngine.AudioSource"
+    },
+    {
+     "method": "ÌÎÎÏÍÍÎÌÎÎÌÌÏÌÏÍÍÎÎÎÎÎÏ",
+     "type": "UnityEngine.GameObject"
+    },
+    {
+     "method": "ÌÌÎÌÎÍÎÏÍÏÎÎÎÌÌÍÌÍÍÏÎÍÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÎÎÌÌÏÌÏÍÌÏÍÎÍÎÎÍÎÌÏÍ",
+   "current_name": "Static8m_FF9E",
+   "score": 21.613,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÎÌÍÌÌÎÏÎÌÌÍÎÍÏÏÌÏÍÌÍ",
+     "type": "VRC.Core.FavoriteListModel"
+    },
+    {
+     "method": "ÎÏÌÏÎÎÌÎÏÍÎÎÎÌÎÏÏÍÏÏÌÏÍ",
+     "type": "Transmtn.DTO.Notifications.Notification"
+    },
+    {
+     "method": "ÍÏÏÌÍÌÍÎÎÏÌÌÌÌÎÏÏÏÎÏÏÍÎ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÏÏÍÎÎÌÍÏÎÌÌÌÌÎÌÎÎÏÎÌÏ",
+   "current_name": "Type3m3f_CD16",
+   "score": 21.333,
+   "distinct_types": 4,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÏÌÎÎÎÏÌÎÏÎÌÌÍÌÎÏÏÎÌÍ",
+     "type": "UnityEngine.UI.Graphic"
+    },
+    {
+     "method": "ÌÌÎÏÌÎÎÎÏÌÎÏÎÌÌÍÌÎÏÏÎÌÍ",
+     "type": "UnityEngine.Camera"
+    },
+    {
+     "method": "ÌÌÎÏÌÎÎÎÏÌÎÏÎÌÌÍÌÎÏÏÎÌÍ",
+     "type": "UnityEngine.Vector2"
+    },
+    {
+     "method": "ÌÏÏÌÏÏÏÎÎÍÎÌÎÍÌÍÌÍÌÏÌÎÎ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÏÌÌÏÎÎÏÍÌÎÌÎÍÎÍÏÏÌÍÎ",
+   "current_name": "Static8m_1964",
+   "score": 20.804,
+   "distinct_types": 4,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÏÍÍÎÏÍÌÎÍÌÎÌÏÌÌÏÎÍÏÏ",
+     "type": "SpawnOrientation"
+    },
+    {
+     "method": "ÌÏÎÏÍÍÎÏÍÌÎÍÌÎÌÏÌÌÏÎÍÏÏ",
+     "type": "UnityEngine.Quaternion"
+    },
+    {
+     "method": "ÌÏÎÏÍÍÎÏÍÌÎÍÌÎÌÏÌÌÏÎÍÏÏ",
+     "type": "UnityEngine.Transform"
+    },
+    {
+     "method": "ÌÏÎÏÍÍÎÏÍÌÎÍÌÎÌÏÌÌÏÎÍÏÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÎÍÏÎÍÌÎÌÍÍÌÍÌÏÌÏÍÎÎÏÏ",
+   "current_name": "Static5m_2B1F",
+   "score": 19.946,
+   "distinct_types": 4,
+   "signal_params": [
+    {
+     "method": "ÎÌÏÏÏÎÍÎÍÍÎÎÏÏÎÏÏÌÍÏÍÍÌ",
+     "type": "UnityEngine.Bounds"
+    },
+    {
+     "method": "ÎÌÏÏÏÎÍÎÍÍÎÎÏÏÎÏÏÌÍÏÍÍÌ",
+     "type": "UnityEngine.Camera"
+    },
+    {
+     "method": "ÌÏÎÏÎÍÏÌÏÌÍÎÎÍÌÏÌÎÎÎÏÎÎ",
+     "type": "UnityEngine.Quaternion"
+    },
+    {
+     "method": "ÍÎÎÌÍÏÎÏÏÏÎÎÌÏÎÏÏÏÌÌÏÏÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÍÎÎÏÏÏÏÌÏÌÎÍÍÎÍÏÏÌÏÏ",
+   "current_name": "Type16m1f_E6D7",
+   "score": 19.858,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÎÎÍÍÍÌÏÎÌÏÏÏÎÍÏÎÌÏÎÎÎÌÎ",
+     "type": "System.Enum"
+    },
+    {
+     "method": "ÌÌÍÍÍÎÌÍÌÏÎÍÍÍÌÎÍÍÌÏÏÍÍ",
+     "type": "System.StringComparison"
+    },
+    {
+     "method": "ÍÌÎÌÎÏÏÌÏÌÌÎÍÏÌÍÌÌÍÏÍÍÎ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÎÎÎÎÎÎÎÎÎÏÌÌÏÏÏÍÏÌÏÏ",
+   "current_name": "Static12m_08D3",
+   "score": 19.406,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÎÏÌÏÌÍÎÍÌÍÎÏÎÍÌÏÏÎÏÌ",
+     "type": "UnityEngine.Rendering.PostProcessing.PostProcessLayer"
+    },
+    {
+     "method": "ÎÌÌÏÌÎÎÎÍÎÎÏÏÍÎÏÌÍÏÎÌÍÏ",
+     "type": "System.Reflection.BindingFlags"
+    },
+    {
+     "method": "ÎÌÌÏÌÎÎÎÍÎÎÏÏÍÎÏÌÍÏÎÌÍÏ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÎÎÌÏÌÎÍÏÎÌÍÎÎÏÌÍÏÎÏÌÏ",
+   "current_name": "Type5m1f_CA1E",
+   "score": 19.243,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÎÏÎÎÍÌÏÏÍÎÌÌÏÍÌÌÏÏÌÌ",
+     "type": "System.Collections.Hashtable"
+    },
+    {
+     "method": "ÍÏÍÎÏÎÎÍÌÏÏÍÎÌÌÏÍÌÌÏÏÌÌ",
+     "type": "System.Collections.IDictionary"
+    },
+    {
+     "method": "ÌÌÍÌÎÏÌÏÌÌÌÏÌÏÍÍÎÍÎÍÌÏÌ",
+     "type": "System.Reflection.MethodInfo"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÍÎÎÍÍÎÍÏÌÌÍÌÎÍÍÌÍÍÌÌ",
+   "current_name": "Type4m1f_E539",
+   "score": 17.976,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÍÏÌÏÍÍÎÏÏÏÌÌÏÍÎÍÌÏÏÌÌÎÎ",
+     "type": "UnityEngine.TextureFormat"
+    },
+    {
+     "method": "ÌÎÌÎÏÍÎÎÎÍÎÌÌÎÎÏÌÍÏÎÍÌÌ",
+     "type": "UnityEngine.Sprite"
+    },
+    {
+     "method": "ÎÍÍÌÎÌÌÌÎÎÏÏÏÍÍÎÎÏÌÏÍÌÍ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÏÎÌÌÌÏÍÎÌÎÏÏÌÏÍÎÏÏÎÎÌ",
+   "current_name": "k__BackingField_5C0C",
+   "score": 16.764,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÌÌÍÌÏÌÎÏÍÍÌÌÌÌÎÎÍÍÍÍÏÍÌ",
+     "type": "TMPro.TextAlignmentOptions"
+    },
+    {
+     "method": "ÌÌÍÌÏÌÎÏÍÍÌÌÌÌÎÎÍÍÍÍÏÍÌ",
+     "type": "VRC.Localization.LocalizableString"
+    },
+    {
+     "method": "ÌÍÌÍÌÏÏÏÎÎÏÏÍÍÎÌÎÌÍÎÌÎÌ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÍÎÌÍÏÎÎÎÍÌÍÌÌÌÍÌÌÌÍÌÎ",
+   "current_name": "k__BackingFieldSibling_F989",
+   "score": 16.764,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÎÍÏÏÏÎÏÎÌÎÎÏÌÌÏÏÎÏÌÍÏÏÎ",
+     "type": "TMPro.TextAlignmentOptions"
+    },
+    {
+     "method": "ÏÌÎÍÏÍÍÌÏÏÌÌÏÌÌÌÌÏÍÎÎÎÏ",
+     "type": "VRC.Localization.LocalizableString"
+    },
+    {
+     "method": "ÎÏÏÌÎÏÏÎÎÌÌÎÎÏÌÎÎÌÎÍÏÎÌ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÏÎÍÏÍÏÌÎÏÏÍÌÍÌÍÌÌÌÍÎÏ",
+   "current_name": "Static9m_D732",
+   "score": 16.646,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÎÌÏÎÎÏÌÎÏÏÌÎÎÏÍÌÍÍÌÍ",
+     "type": "UnityEngine.Component"
+    },
+    {
+     "method": "ÏÍÍÏÏÌÍÎÎÌÌÍÏÎÍÍÎÎÏÍÎÎÌ",
+     "type": "System.Uri"
+    },
+    {
+     "method": "ÎÎÍÎÎÎÍÍÎÏÏÎÏÏÍÎÎÍÏÎÍÌÍ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÍÏÏÎÌÏÎÏÌÌÏÎÍÏÏÌÌÏÏÎ",
+   "current_name": "Service35m_5A70",
+   "score": 16.503,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÌÌÌÌÍÏÏÏÏÍÌÌÍÍÌÌÎÍÎÎÏÌÍ",
+     "type": "VRC.Core.ApiAvatar"
+    },
+    {
+     "method": "ÏÏÎÎÌÏÍÎÎÌÍÎÍÍÌÍÍÎÎÎÎÏÍ",
+     "type": "VRC.Localization.LocalizableString"
+    },
+    {
+     "method": "ÍÍÎÌÍÌÎÌÏÏÏÎÏÎÏÎÌÍÎÌÏÍÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÏÌÌÌÏÌÎÌÎÍÎÍÌÍÍÏÍÌÌÍ",
+   "current_name": "Static18m_874D",
+   "score": 16.334,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÏÍÏÍÍÍÏÎÏÍÌÍÌÍÌÍÌÍÌÎÎ",
+     "type": "Photon.Realtime.AppSettings"
+    },
+    {
+     "method": "ÍÍÎÍÎÍÌÌÏÎÍÏÍÍÌÌÎÏÍÌÎÏÍ",
+     "type": "System.IDisposable"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÎÌÌÎÌÍÎÎÏÎÌÎÌÌÎÍÌÌÎÏ",
+   "current_name": "Static10m_F416",
+   "score": 16.133,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÌÎÎÌÎÌÌÍÏÏÎÎÍÌÎÌÍÍÌÌÏÍ",
+     "type": "VRC.ContentType"
+    },
+    {
+     "method": "ÎÌÎÎÌÎÌÌÍÏÏÎÎÍÌÎÌÍÍÌÌÏÍ",
+     "type": "UnityEngine.Networking.UnityWebRequest"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÎÌÍÍÏÏÍÌÌÎÏÎÎÍÎÍÍÏÎÎ",
+   "current_name": "BackingFieldBaseImpl_95C1",
+   "score": 16.08,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÍÏÌÎÌÎÏÍÎÎÌÏÌÍÌÌÌÍÏÏ",
+     "type": "VRC.Core.ApiProfileInventoryMetadata"
+    },
+    {
+     "method": "ÏÎÎÌÍÏÍÎÏÍÌÍÍÏÎÍÍÎÌÏÍÌÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÎÏÍÎÏÎÎÌÎÏÎÏÌÏÎÏÌÏÎÌ",
+   "current_name": "Static14m_2F25",
+   "score": 15.556,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÏÍÏÏÌÌÎÌÌÎÎÏÏÎÏÎÌÌÍÍ",
+     "type": "System.IO.FileInfo"
+    },
+    {
+     "method": "ÍÍÎÎÍÍÍÏÍÏÎÎÏÍÏÎÌÌÌÌÎÏÏ",
+     "type": "VRC.Core.ApiInfoPushSystem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÍÌÌÎÍÏÍÎÎÍÌÌÎÎÏÎÌÏÌÏ",
+   "current_name": "LifecycleComponentSibling_EA2D",
+   "score": 15.387,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÍÏÌÎÌÎÏÍÎÎÌÏÌÍÌÌÌÍÏÏ",
+     "type": "TMPro.TMP_Dropdown"
+    },
+    {
+     "method": "ÏÎÍÏÏÏÌÎÎÍÏÍÍÎÍÌÍÍÎÍÍÌÍ",
+     "type": "UnityEngine.Component"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÌÍÏÌÏÏÎÎÎÏÏÌÍÎÌÎÎÎÍÍ",
+   "current_name": "Type5m1f_80DB",
+   "score": 15.281,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÏÌÎÏÍÏÏÍÍÎÏÎÎÏÏÌÏÍÎÏÍÍ",
+     "type": "System.Reflection.EventInfo"
+    },
+    {
+     "method": "ÌÏÌÎÏÍÏÏÍÍÎÏÎÎÏÏÌÏÍÎÏÍÍ",
+     "type": "System.Delegate"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÏÏÎÎÏÏÏÍÍÎÎÍÏÏÌÎÎÍÏÍÏ",
+   "current_name": "Type13m2f_0A06",
+   "score": 14.987,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÌÌÏÌÌÍÌÌÌÌÏÎÌÎÎÌÎÌÌÏÍÏ",
+     "type": "VRC.Core.ApiPurchaseCancelSubscriptionInfo"
+    },
+    {
+     "method": "ÌÏÎÏÎÍÌÎÍÎÎÎÍÏÍÍÍÎÎÏÏÌÏ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÌÌÍÍÍÍÍÎÌÎÍÌÎÍÌÌÏÏÎÌ",
+   "current_name": "Static1m_CAB1",
+   "score": 14.699,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÌÏÌÍÍÌÍÌÎÎÍÎÍÍÍÍÎÍÍÌÏÌÌ",
+     "type": "UnityEngine.Sprite"
+    },
+    {
+     "method": "ÌÏÌÍÍÌÍÌÎÎÍÎÍÍÍÍÎÍÍÌÏÌÌ",
+     "type": "VRC.Localization.LocalizableString"
+    },
+    {
+     "method": "ÌÏÌÍÍÌÍÌÎÎÍÎÍÍÍÍÎÍÍÌÏÌÌ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÎÎÍÍÎÏÎÏÍÌÍÌÌÎÏÏÌÏÎÏ",
+   "current_name": "BaseClass3_0B37",
+   "score": 14.639,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÎÎÌÎÏÏÎÏÍÏÌÏÏÍÎÏÏÎÏÌ",
+     "type": "VRC.DataModel.Purchasing.ValidationParams"
+    },
+    {
+     "method": "ÍÌÎÎÎÏÍÌÎÌÌÏÍÌÏÏÏÌÎÎÎÌÏ",
+     "type": "UnityEngine.Purchasing.Product"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÏÌÍÏÍÎÏÌÍÏÏÌÎÌÏÍÌÎÍÏÍ",
+   "current_name": "BaseClass3Impl_E843",
+   "score": 14.639,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÎÎÌÎÏÏÎÏÍÏÌÏÏÍÎÏÏÎÏÌ",
+     "type": "VRC.DataModel.Purchasing.ValidationParams"
+    },
+    {
+     "method": "ÍÌÎÎÎÏÍÌÎÌÌÏÍÌÏÏÏÌÎÎÎÌÏ",
+     "type": "UnityEngine.Purchasing.Product"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÌÌÏÎÌÍÌÌÏÏÌÎÏÍÍÍÏÏÌÎ",
+   "current_name": "BaseClass3Impl_B3F1",
+   "score": 14.639,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÎÎÌÎÏÏÎÏÍÏÌÏÏÍÎÏÏÎÏÌ",
+     "type": "VRC.DataModel.Purchasing.ValidationParams"
+    },
+    {
+     "method": "ÎÌÍÎÎÌÎÏÏÎÏÍÏÌÏÏÍÎÏÏÎÏÌ",
+     "type": "UnityEngine.Purchasing.Product"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÌÍÌÌÏÏÏÎÏÏÍÍÍÏÎÍÌÍÏÌ",
+   "current_name": "BaseClass3Sibling_2007",
+   "score": 14.639,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÎÎÌÎÏÏÎÏÍÏÌÏÏÍÎÏÏÎÏÌ",
+     "type": "VRC.DataModel.Purchasing.ValidationParams"
+    },
+    {
+     "method": "ÍÍÏÏÌÍÎÎÍÍÎÌÎÎÌÏÎÍÏÎÌÍÍ",
+     "type": "UnityEngine.Purchasing.Product"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÏÎÏÌÌÏÌÎÏÏÎÍÎÏÍÍÏÏÎÍ",
+   "current_name": "BaseClass3Sibling_3CEC",
+   "score": 14.639,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÎÎÌÎÏÏÎÏÍÏÌÏÏÍÎÏÏÎÏÌ",
+     "type": "VRC.DataModel.Purchasing.ValidationParams"
+    },
+    {
+     "method": "ÍÌÎÎÎÏÍÌÎÌÌÏÍÌÏÏÏÌÎÎÎÌÏ",
+     "type": "UnityEngine.Purchasing.Product"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÍÏÎÏÌÎÍÎÏÌÌÎÎÌÎÍÎÏÌÎÌ",
+   "current_name": "Type4m1f_B942",
+   "score": 14.634,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÌÌÌÏÎÍÍÍÍÍÌÏÎÏÍÌÏÎÏÌÍÏÌ",
+     "type": "UnityEngine.Bounds"
+    },
+    {
+     "method": "ÌÌÌÏÎÍÍÍÍÍÌÏÎÏÍÌÏÎÏÌÍÏÌ",
+     "type": "UnityEngine.Transform"
+    },
+    {
+     "method": "ÎÍÌÎÍÌÎÍÍÏÍÎÏÎÌÌÌÎÌÍÍÎÍ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÏÍÏÎÏÏÌÏÏÌÏÏÌÌÏÌÏÌÌÌÎ",
+   "current_name": "Type9m1f_7583",
+   "score": 14.611,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÍÍÌÍÏÍÌÍÌÎÎÏÍÌÎÌÌÎÎÍ",
+     "type": "VRC.Core.FavoriteListModel"
+    },
+    {
+     "method": "ÏÎÎÏÍÌÌÏÏÏÎÌÌÍÌÌÏÍÏÏÏÎÏ",
+     "type": "VRC.Core.ApiWorld"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÏÍÎÍÌÌÏÍÌÏÌÎÏÎÌÎÎÏÌÌÌ",
+   "current_name": "BackingFieldBase_k__BackingField_A9FE",
+   "score": 14.611,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.SDK3.Avatars.Components.VRCAccessoryDescriptor"
+    },
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÏÎÌÍÌÎÎÎÍÌÎÎÍÏÍÌÍÌÌÎ",
+   "current_name": "Texturek__BackingFieldComponenSibling_1848",
+   "score": 14.471,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÎÎÌÏÌÎÍÌÍÏÎÏÌÌÎÍÍÎÎÎÍÎÌ",
+     "type": "UnityEngine.Texture2D"
+    },
+    {
+     "method": "ÏÏÎÍÏÌÍÎÌÎÏÏÌÍÎÍÍÏÏÍÍÌÌ",
+     "type": "VRC.Localization.LocalizableString"
+    },
+    {
+     "method": "ÎÏÏÏÌÍÌÏÍÌÎÎÌÎÏÍÍÎÏÏÌÏÏ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÎÌÎÍÍÍÏÎÌÍÍÏÎÌÏÌÌÌÏÌ",
+   "current_name": "Type16m2f_3672",
+   "score": 14.469,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÎÍÌÌÎÎÏÏÌÍÌÎÍÌÎÎÌÏÎÍÏÍÌ",
+     "type": "UnityEngine.RectTransform"
+    },
+    {
+     "method": "ÌÏÍÎÍÎÍÌÏÏÌÏÎÏÍÍÎÌÌÎÍÌÍ",
+     "type": "UnityEngine.Transform"
+    },
+    {
+     "method": "ÌÏÍÎÍÎÍÌÏÏÌÏÎÏÍÍÎÌÌÎÍÌÍ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÎÏÎÏÌÌÏÍÌÍÌÌÎÏÎÎÏÌÌÎ",
+   "current_name": "k__BackingFieldComponentSibling_AEA7",
+   "score": 13.481,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÌÍÌÍÏÍÍÎÎÏÏÍÌÎÍÍÎÏÏÏ",
+     "type": "VRC.Core.ApiAvatar"
+    },
+    {
+     "method": "ÎÎÏÎÌÍÌÌÎÎÌÍÎÏÏÎÏÌÌÍÌÍÌ",
+     "type": "VRC.SDKBase.Validation.Performance.PerformanceRating"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÎÍÏÌÏÌÏÎÎÌÍÌÎÏÎÎÏÌÌÌÌ",
+   "current_name": "Type13m2f_EF66",
+   "score": 13.378,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÏÍÏÎÌÎÏÎÍÏÌÏÍÎÌÌÍÎÎÎÏ",
+     "type": "VRC.Core.Services.APIEventSource"
+    },
+    {
+     "method": "ÏÍÏÍÏÎÌÎÏÎÍÏÌÏÍÎÌÌÍÎÎÎÏ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÏÌÌÍÎÌÌÎÍÍÎÍÏÎÏÏÍÍÎÍ",
+   "current_name": "Type11m2f_0F39",
+   "score": 13.37,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÎÌÍÎÍÌÍÍÌÎÎÎÍÎÌÍÎÏÍÏ",
+     "type": "VRC.Core.ApiPendingTransaction"
+    },
+    {
+     "method": "ÎÏÎÏÍÌÏÏÍÌÍÍÏÎÌÎÍÍÎÏÎÏÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÏÌÎÏÎÏÌÍÏÏÎÍÏÌÌÏÌÌÌÎ",
+   "current_name": "Type9m3f_E69D",
+   "score": 13.37,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÎÌÎÏÌÍÍÏÏÎÍÎÎÎÍÍÎÌÍÎÎ",
+     "type": "VRC.Core.ApiPrint"
+    },
+    {
+     "method": "ÍÍÎÌÍÌÏÎÍÌÎÌÌÎÏÎÍÌÎÏÏÌÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÏÍÍÍÎÍÍÏÍÏÍÍÏÍÏÏÍÏÍÎ",
+   "current_name": "k__BackingFieldSibling_B24F",
+   "score": 13.328,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÌÏÎÏÍÍÏÎÏÎÍÎÍÎÍÎÍÍÏÍ",
+     "type": "VRC.Core.FavoriteListModel"
+    },
+    {
+     "method": "ÌÎÎÏÌÏÍÍÏÌÎÎÍÌÍÍÍÏÏÌÎÏÌ",
+     "type": "System.Collections.IList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÍÍÌÌÌÎÎÍÍÌÎÏÌÌÎÌÏÌÍÌ",
+   "current_name": "Static3m_44C6",
+   "score": 13.253,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÍÍÌÏÏÏÏÌÍÍÏÍÏÍÍÏÏÌÎÍ",
+     "type": "UnityEngine.Purchasing.ProductDefinition"
+    },
+    {
+     "method": "ÎÌÍÎÏÎÍÏÎÎÌÌÎÏÏÏÏÏÎÏÎÍÍ",
+     "type": "UnityEngine.Purchasing.Product"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÌÌÍÎÎÏÎÍÍÍÎÎÎÏÌÎÏÌÏÌ",
+   "current_name": "Type11m2f_CBA6",
+   "score": 13.184,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÎÍÍÍÍÍÌÍÎÌÌÎÍÌÌÎÎÎÍÎ",
+     "type": "UnityEngine.Renderer"
+    },
+    {
+     "method": "ÏÎÎÏÍÍÍÍÌÏÍÎÎÍÏÍÌÏÌÎÌÏÌ",
+     "type": "UnityEngine.Collider"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÌÏÏÍÍÏÎÌÍÎÏÏÎÎÏÌÏÍÎÏ",
+   "current_name": "Playerk__BackingFieldloadingViSibling_E6D9",
+   "score": 13.12,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÍÍÍÏÌÌÎÏÍÌÏÌÏÌÎÌÍÎÌÎÍÍÌ",
+     "type": "VRC.SDK3.Props.PropKind"
+    },
+    {
+     "method": "ÍÎÎÍÌÍÌÍÍÎÏÌÌÍÏÌÏÍÍÌÍÌÌ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÌÍÏÌÎÍÏÏÍÎÏÍÏÍÎÏÍÍÎÏ",
+   "current_name": "Static2m_E72D",
+   "score": 12.848,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÌÍÌÍÎÍÌÌÎÎÏÌÌÌÎÏÍÎÌÏÏÏ",
+     "type": "VRC.UI.Voyager.Controls.LayoutPadding"
+    },
+    {
+     "method": "ÌÌÍÌÍÎÍÌÌÎÎÏÌÌÌÎÏÍÎÌÏÏÏ",
+     "type": "UnityEngine.Vector2"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÎÌÍÍÏÎÍÏÍÏÌÎÎÎÍÍÌÏÏÎÍ",
+   "current_name": "BackingFieldBase_k__BackingField_13FA",
+   "score": 12.665,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÍÎÌÎÎÎÌÍÌÏÌÍÌÍÌÌÏÌÌÍ",
+     "type": "Transmtn.DTO.Notifications.Notification"
+    },
+    {
+     "method": "ÍÏÍÎÏÎÎÏÏÏÏÍÎÌÌÎÍÎÌÎÏÌÌ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÍÏÏÏÏÍÎÌÎÍÌÏÏÍÍÍÏÎÎÎÌ",
+   "current_name": "BaseClass5ImplImpl_C937",
+   "score": 12.615,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "TMPro.TextAlignmentOptions"
+    },
+    {
+     "method": ".ctor",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÏÍÌÌÎÎÏÌÎÎÍÌÌÏÍÌÌÌÌÏ",
+   "current_name": "Type4m2f_2C70",
+   "score": 12.501,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÍÏÎÎÏÎÍÏÍÎÍÏÏÌÌÍÌÍÎÏÍÍÍ",
+     "type": "UnityEngine.Quaternion"
+    },
+    {
+     "method": "ÍÍÏÍÍÍÍÍÌÏÌÍÏÌÌÍÌÎÎÏÌÎÎ",
+     "type": "UnityEngine.GameObject"
+    },
+    {
+     "method": "ÍÏÎÎÏÎÍÏÍÎÍÏÏÌÌÍÌÍÎÏÍÍÍ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÏÎÎÎÏÏÎÌÍÌÌÍÍÌÎÍÎÎÌÏ",
+   "current_name": "k__BackingFieldComponentSibling_0CAB",
+   "score": 12.501,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÍÏÎÎÏÎÍÏÍÎÍÏÏÌÌÍÌÍÎÏÍÍÍ",
+     "type": "UnityEngine.Quaternion"
+    },
+    {
+     "method": "ÎÍÏÍÏÍÎÍÍÏÍÍÎÍÎÎÍÍÏÏÍÍÍ",
+     "type": "UnityEngine.GameObject"
+    },
+    {
+     "method": "ÍÏÎÎÏÎÍÏÍÎÍÏÏÌÌÍÌÍÎÏÍÍÍ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÌÌÏÌÏÏÍÍÌÏÌÍÍÌÎÏÏÎÍÎÌ",
+   "current_name": "Type13m2f_931E",
+   "score": 12.427,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÍÌÍÍÏÏÍÎÌÏÎÏÏÍÏÌÏÌÌÏ",
+     "type": "VRC.Dynamics.VRCConstraintBase"
+    },
+    {
+     "method": "ÌÏÌÌÎÏÎÍÍÍÏÏÏÍÎÌÏÍÏÌÍÌÍ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÌÌÏÏÎÏÎÍÍÌÏÏÎÎÌÌÌÍÏÌ",
+   "current_name": "Type12m2f_6FBF",
+   "score": 12.348,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÏÌÌÎÎÎÍÍÎÎÍÏÏÏÌÎÎÏÏÌÏÌ",
+     "type": "Transmtn.DTO.Notifications.Notification"
+    },
+    {
+     "method": "ÎÏÍÏÌÍÏÌÌÍÌÎÌÍÎÏÏÏÎÌÎÍÎ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÍÌÌÎÏÏÎÎÍÎÎÌÏÏÏÏÌÌÎÎ",
+   "current_name": "Type4m1f_86F4",
+   "score": 12.244,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÎÏÌÏÎÎÍÌÏÏÎÎÍÎÌÎÏÎÎÏÏ",
+     "type": "UnityEngine.HumanBodyBones"
+    },
+    {
+     "method": "ÏÍÎÏÌÏÎÎÍÌÏÏÎÎÍÎÌÎÏÎÎÏÏ",
+     "type": "UnityEngine.Quaternion"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÎÌÍÎÍÌÌÍÏÍÌÏÎÏÌÍÎÍÍÎ",
+   "current_name": "Camerak__BackingFieldComponentSibling_D86E",
+   "score": 12.229,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÏÌÏÎÍÌÌÎÍÌÌÏÍÏÌÍÏÌÎÍÎÏÏ",
+     "type": "UnityEngine.Vector2"
+    },
+    {
+     "method": "ÎÌÌÎÌÏÌÏÎÍÌÍÍÌÏÌÏÌÏÍÌÏÎ",
+     "type": "UnityEngine.GameObject"
+    },
+    {
+     "method": "ÌÏÍÏÍÎÌÌÌÌÌÍÎÌÍÍÏÏÍÎÍÏÎ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÎÏÏÌÎÎÏÍÏÍÏÏÎÍÎÏÌÎÎÌ",
+   "current_name": "Type16m1f_0A22",
+   "score": 12.17,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÏÎÎÌÏÌÎÌÍÍÏÍÎÏÏÎÏÍÍÍÏÏÍ",
+     "type": "UnityEngine.Transform"
+    },
+    {
+     "method": "ÍÏÍÏÏÎÍÏÏÍÎÎÍÎÏÍÍÌÍÏÌÏÍ",
+     "type": "UnityEngine.GameObject"
+    },
+    {
+     "method": "ÍÎÎÌÎÏÎÏÏÍÌÌÏÏÍÏÍÍÎÍÏÌÎ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÏÍÎÌÌÎÍÍÌÏÍÌÏÎÏÍÏÎÏÌ",
+   "current_name": "k__BackingFieldComponentSibling_1056",
+   "score": 12.17,
+   "distinct_types": 3,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÎÍÌÏÍÏÏÎÌÎÌÍÍÍÏÎÏÏÏÎ",
+     "type": "UnityEngine.Transform"
+    },
+    {
+     "method": "ÌÍÏÎÍÌÏÍÏÏÎÌÎÌÍÍÍÏÎÏÏÏÎ",
+     "type": "UnityEngine.GameObject"
+    },
+    {
+     "method": "ÌÍÏÎÍÌÏÍÏÏÎÌÎÌÍÍÍÏÎÏÏÏÎ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÍÍÍÌÏÍÌÍÎÌÍÎÏÍÎÎÍÍÌÌÏ",
+   "current_name": "Static3m_86C2",
+   "score": 12.08,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÏÏÍÍÎÏÏÏÌÌÎÏÌÍÎÌÌÍÏÏÌÎ",
+     "type": "UnityEngine.CanvasGroup"
+    },
+    {
+     "method": "ÍÎÍÌÌÌÍÎÌÌÎÏÏÎÎÏÏÎÏÎÏÌÏ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÏÏÎÌÍÌÏÎÎÌÎÏÎÌÎÎÌÎÌÎ",
+   "current_name": "Static5m_2759",
+   "score": 11.821,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÏÏÎÍÌÎÎÌÎÏÎÏÌÏÎÏÎÌÍÌÎÏ",
+     "type": "UnityEngine.MonoBehaviour"
+    },
+    {
+     "method": "ÏÌÍÎÏÏÍÍÌÏÎÍÎÎÍÌÍÏÍÎÍÌÎ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÏÎÎÍÍÎÏÎÎÍÏÎÏÎÏÌÏÏÍÍ",
+   "current_name": "Service34m_A7BE",
+   "score": 11.729,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÍÎÍÌÌÎÌÏÎÍÎÍÎÍÌÍÌÎÍÌÍÎ",
+     "type": "VRC.DataModel.SearchParameters"
+    },
+    {
+     "method": "ÎÏÌÍÌÍÍÌÌÌÏÍÌÌÏÍÎÎÌÎÌÎÌ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÎÍÏÏÍÍÍÏÌÏÎÏÍÎÏÍÌÏÏÌ",
+   "current_name": "Service21m_5662",
+   "score": 11.569,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÍÏÏÌÌÏÎÌÌÏÎÌÌÍÎÏÌÍÌÎ",
+     "type": "VRC.UI.Core.Styles.StyleElement"
+    },
+    {
+     "method": "ÍÏÎÎÎÏÏÍÌÍÍÎÌÎÌÌÍÏÎÌÌÌÌ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÎÎÎÍÎÎÌÍÍÎÏÍÍÏÏÌÏÎÎÍ",
+   "current_name": "Static28m_B0A2",
+   "score": 11.432,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÏÏÎÏÍÍÏÍÍÍÎÌÏÍÍÎÍÏÎÍ",
+     "type": "VRC.Core.ApiWorldInstance"
+    },
+    {
+     "method": "ÏÏÏÏÌÍÍÎÌÍÍÌÍÏÎÍÎÎÌÎÍÍÍ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÌÎÌÌÎÍÌÍÌÍÎÎÏÎÌÍÎÌÏÌ",
+   "current_name": "Type11m4f_F4A2",
+   "score": 11.201,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÍÏÎÌÍÍÏÌÍÏÌÎÎÎÌÌÏÍÍÌ",
+     "type": "VRC.Core.ApiWorldInstance"
+    },
+    {
+     "method": "ÌÎÏÎÌÎÌÌÌÎÎÎÍÌÌÏÏÍÍÏÍÌÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÎÎÎÎÍÌÏÌÎÏÌÎÎÎÎÌÍÏÎÌÍ",
+   "current_name": "Type11m3f_8626",
+   "score": 11.201,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÍÍÌÌÌÍÎÎÌÌÍÌÍÎÏÎÌÏÍÍ",
+     "type": "VRC.Core.ApiWorldInstance"
+    },
+    {
+     "method": "ÏÏÌÏÏÍÍÍÎÏÎÏÌÏÍÍÍÍÏÌÏÎÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÎÌÍÍÌÏÎÏÍÏÎÍÎÎÍÏÎÏÍÏ",
+   "current_name": "Type6m5f_6421",
+   "score": 11.0,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÏÏÌÌÏÎÍÏÎÎÎÎÌÏÍÎÌÏÌÌ",
+     "type": "UnityEngine.Renderer"
+    },
+    {
+     "method": "ÌÏÏÎÌÎÎÌÌÍÎÍÍÏÎÏÌÎÌÏÍÍÍ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÌÏÌÎÌÎÌÎÎÏÎÍÎÌÍÎÎÎÌÏÏ",
+   "current_name": "Static2m_7341",
+   "score": 10.96,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÎÌÎÏÌÌÌÏÍÌÌÍÎÍÍÌÌÎÌÏ",
+     "type": "UnityEngine.Texture"
+    },
+    {
+     "method": "ÍÌÎÏÍÍÎÌÎÌÍÍÎÌÍÏÎÍÏÎÎÌÏ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÌÍÏÌÎÏÍÌÍÏÎÏÎÌÍÌÌÎÍÏÎ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_824B",
+   "score": 10.718,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+     "type": "Content"
+    },
+    {
+     "method": "ÏÌÏÎÎÎÍÍÌÍÌÏÍÎÏÌÍÎÍÎÌÏÏ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÌÎÎÍÎÍÍÎÌÏÍÍÏÎÌÌÍÏÎÎ",
+   "current_name": "BackingFieldBaseImpl_3F4D",
+   "score": 10.504,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÏÍÏÎÍÏÏÍÌÎÍÎÍÍÎÎÏÌÌÌÌÍ",
+     "type": "VRC.Core.ApiInventoryItem"
+    },
+    {
+     "method": "ÍÏÎÌÌÎÏÌÏÎÏÍÎÏÍÌÏÍÎÎÍÍÏ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÎÍÏÏÏÌÎÎÎÌÌÍÏÏÌÏÏÌÌÎ",
+   "current_name": "BaseClass45Impl_5F64",
+   "score": 10.47,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÏÍÍÏÎÍÎÌÏÌÎÌÎÍÎÍÌÍÎÌÎÌ",
+     "type": "Content"
+    },
+    {
+     "method": "ÌÌÍÌÎÍÍÏÎÌÏÏÎÎÏÏÎÍÏÌÎÎÌ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÍÎÎÌÍÏÍÏÍÌÏÌÏÏÎÌÎÌÌÎ",
+   "current_name": "Type2m1f_59F6",
+   "score": 10.379,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÌÏÌÎÏÎÌÎÌÎÎÎÏÎÏÌÏÎÎÎÏÎ",
+     "type": "UnityEngine.RectTransform"
+    },
+    {
+     "method": "ÌÌÏÌÎÏÎÌÎÌÎÎÎÏÎÏÌÏÎÎÎÏÎ",
+     "type": "UnityEngine.Vector2"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÌÍÎÍÌÏÍÏÏÎÍÏÏÌÍÏÎÎÏÍ",
+   "current_name": "LifecycleComponentSibling_CB85",
+   "score": 10.372,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÏÎÌÎÍÍÌÍÍÎÍÏÌÍÏÍÏÎÎÎ",
+     "type": "System.Guid"
+    },
+    {
+     "method": "ÍÌÌÌÎÎÌÍÍÍÏÍÎÌÎÌÌÏÌÎÎÎÌ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÌÎÏÏÏÎÎÍÏÍÎÎÎÍÎÌÌÏÍÍ",
+   "current_name": "Pointerk__BackingFieldImplImplSibling_6624",
+   "score": 10.302,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÌÍÏÌÎÏÌÌÎÌÏÎÍÎÍÌÌÎÌÌÌÎ",
+     "type": "UnityEngine.Sprite"
+    },
+    {
+     "method": "ÍÏÏÍÏÍÏÌÍÏÍÎÏÍÍÏÍÍÏÏÏÎÌ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÌÏÏÎÍÏÍÍÍÌÏÌÎÎÌÌÍÏÍÌ",
+   "current_name": "Static5m_C805",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÍÍÌÍÌÎÌÎÌÍÌÌÌÎÍÍÌÏÌÍÎ",
+     "type": "Photon.Realtime.MatchmakingArguments"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÍÎÎÏÌÏÌÍÎÎÌÎÌÎÎÍÌÏÎÍ",
+   "current_name": "BackingFieldBase_k__BackingField_9A8E",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÏÍÌÍÏÎÎÎÎÎÍÍÏÎÌÎÍÌÍÎ",
+     "type": "VRC.Core.ApiInventoryBundle"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÍÌÌÏÌÌÌÎÍÎÏÌÌÏÎÍÌÌÍÍÌ",
+   "current_name": "Static1m_714E",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÏÌÌÍÏÏÍÎÍÎÍÏÌÎÌÍÌÏÎÍ",
+     "type": "VRC.SDKBase.VRCCustomAction"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÍÍÎÎÍÌÍÍÌÎÍÎÌÏÌÎÏÏÎÌ",
+   "current_name": "Type8m4f_D937",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÌÍÎÍÏÌÎÍÍÏÍÏÌÍÍÍÎÎÌÍ",
+     "type": "VRC.Devices.Store"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÌÎÎÏÌÎÏÍÏÎÎÏÌÌÎÌÍÌÍÍ",
+   "current_name": "BackingFieldBaseImpl_9B80",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiLeaderboardAnonymizationStatus"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÏÎÌÌÍÌÌÌÏÏÌÎÏÍÍÏÎÍÍÍ",
+   "current_name": "BackingFieldBaseImpl_12EE",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiLeaderboardRank"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÍÍÎÍÌÎÌÌÎÏÍÏÌÍÎÏÏÏÌÏÌ",
+   "current_name": "Type10m2f_1CDF",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÎÌÌÍÍÏÌÍÎÎÏÎÎÎÏÎÍÌÌÎ",
+     "type": "VRC.Core.ApiEconomyStore"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÎÏÏÏÌÎÎÍÎÍÏÌÌÌÌÏÌÍÏÏ",
+   "current_name": "BackingFieldBaseImpl_216B",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiCampaign"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÌÏÎÏÌÌÌÌÎÎÎÎÎÏÍÌÌÏÏÎ",
+   "current_name": "BackingFieldBase_k__BackingField_48DD",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiCampaignReward"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÍÎÍÌÍÏÏÍÍÎÍÏÏÎÌÏÌÏÌÎ",
+   "current_name": "UIHoldChangeDelayHolImpl_04FF",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.NetworkReachability"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÌÏÎÏÍÎÏÍÏÍÏÍÌÌÎÎÌÏÎÏ",
+   "current_name": "Type11m2f_C765",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÎÌÏÎÎÏÌÏÍÌÍÌÌÎÍÍÏÍÍÍ",
+     "type": "VRC.Core.ApiSearchWorldResults"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÎÍÏÏÍÎÏÌÏÎÍÎÎÎÍÎÌÍÍÍ",
+   "current_name": "Type9m3f_934D",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÍÍÍÏÎÏÍÍÎÍÎÌÏÍÏÎÏÍÏÍÍ",
+     "type": "VRC.Core.ApiSearchUserResults"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÎÍÎÌÏÏÌÎÎÍÎÏÍÍÎÎÍÎÌÎ",
+   "current_name": "Type9m3f_EBA1",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÍÍÍÏÎÏÍÍÎÍÎÌÏÍÏÎÏÍÏÍÍ",
+     "type": "VRC.Core.ApiCalendarResults"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÏÍÌÌÎÏÌÍÌÌÎÎÎÏÌÏÌÏÎÏ",
+   "current_name": "Type11m3f_F03D",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÍÍÍÏÎÏÍÍÎÍÎÌÏÍÏÎÏÍÏÍÍ",
+     "type": "VRC.Core.ApiSearchGroupResults"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÍÎÎÏÌÏÍÎÎÌÏÏÍÎÎÌÌÏÎÏ",
+   "current_name": "Type10m2f_4767",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÎÌÏÍÍÌÎÌÍÍÎÌÍÌÏÏÎÍÌÏÎ",
+     "type": "VRC.Core.APIQueue"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÍÍÌÏÎÌÍÍÌÏÌÌÌÍÌÍÏÍÎÍ",
+   "current_name": "Type10m4f_0849",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÏÎÏÎÍÌÎÏÍÎÏÎÎÏÏÍÎÏÌÏ",
+     "type": "VRC.Core.APIGroupPosts"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÍÎÌÌÎÌÌÎÎÌÎÎÎÌÏÌÌÌÍÏÏ",
+   "current_name": "Static1m_95C0",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÏÍÍÌÏÌÎÎÍÎÍÌÏÏÏÎÎÍÍÏ",
+     "type": "VRC.UI.Client.Emoji.EmojiCategoryList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÍÍÍÎÌÍÌÍÎÍÍÎÍÏÎÎÏÌÌÏÌ",
+   "current_name": "Static1m_688F",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÏÍÍÌÏÌÎÎÍÎÍÌÏÏÏÎÎÍÍÏ",
+     "type": "VRC.UI.Client.Emoji.EmojiDataList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÌÌÍÏÏÎÌÍÌÏÏÎÏÍÍÍÍÌÎÎ",
+   "current_name": "Type18m2f_5CAA",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.Profiling.CustomSampler"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÌÏÌÍÎÍÏÍÏÍÎÍÌÌÍÌÌÍÌÎ",
+   "current_name": "Type9m3f_407A",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÍÏÏÌÍÍÏÎÌÎÏÏÍÎÏÏÏÍÍÏÍ",
+     "type": "VRC.Core.APIGroupRoleList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÎÌÍÍÌÌÏÍÍÍÍÎÏÎÏÌÏÍÎÍ",
+   "current_name": "BackingFieldBase_k__BackingField_4D0C",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÌÎÌÏÏÌÍÏÍÏÌÌÍÌÎÌÎÍÎÍÍ",
+     "type": "VRC.Core.ApiInventoryAsset"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÍÍÎÍÎÏÎÌÍÍÍÏÍÏÍÌÍÍÎÎ",
+   "current_name": "Type7m3f_71E4",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÏÌÎÍÌÏÌÏÌÏÍÌÎÏÏÌÍÍÏÎ",
+     "type": "VRC.Core.ApiReportsContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÌÏÌÍÎÍÍÎÏÌÎÍÍÏÎÏÍÍÍÌ",
+   "current_name": "Static1m_76FA",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÏÎÍÏÍÌÎÏÎÏÎÏÎÍÎÏÍÏÌÍÍ",
+     "type": "UnityEngine.Behaviour"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÏÍÎÎÍÍÎÏÍÍÌÍÎÍÎÍÏÌÏÍ",
+   "current_name": "Type7m2f_ED60",
+   "score": 10.07,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÌÌÍÌÍÍÌÏÏÌÏÏÎÎÎÌÌÎÌÌÌ",
+     "type": "VRC.Core.ApiPurchaseSubscriptionCancelledInfo"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÏÍÌÌÏÎÍÍÌÎÎÌÍÎÎÌÍÍÎÎÎ",
+   "current_name": "LocalizationManagerSibling_A087",
+   "score": 9.659,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÎÎÍÎÎÍÏÍÌÏÏÏÏÏÏÏÏÍÍÎ",
+     "type": "System.DateTime"
+    },
+    {
+     "method": "ÎÌÍÏÌÌÎÎÏÎÏÍÌÏÏÌÎÏÎÏÌÍÍ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÎÏÍÏÎÎÏÍÏÏÍÍÍÌÏÏÌÏÏÎ",
+   "current_name": "Static1m_21F1",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÏÍÍÌÏÌÎÎÍÎÍÌÏÏÏÎÎÍÍÏ",
+     "type": "Valve.VR.CVROverlay"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÍÏÏÎÎÌÍÏÏÍÌÌÍÏÏÏÍÌÏÏ",
+   "current_name": "Type8m1f_2C72",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÍÌÎÏÎÌÌÌÌÏÏÏÍÍÏÎÌÍÍÍ",
+     "type": "VRC.Core.ApiInventoryItemContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÎÏÎÎÍÌÏÏÎÏÎÏÌÍÌÏÍÎÎÎ",
+   "current_name": "Type11m1f_A714",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÍÎÏÏÍÍÍÎÌÎÏÌÍÎÌÍÌÎÌÍ",
+     "type": "VRC.Core.ApiInventoryItemContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÏÍÏÌÍÎÍÍÌÍÏÌÍÏÏÎÏÏÍÍ",
+   "current_name": "Type7m1f_55F0",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÌÏÍÎÍÎÏÏÍÏÌÎÏÌÍÍÌÏÍÌÍ",
+     "type": "VRC.SDK3.Components.VRCPlayerObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÍÌÏÏÏÍÏÎÎÌÍÎÌÍÏÌÍÍÏÏÍ",
+   "current_name": "Type10m3f_7CF8",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÍÌÎÎÌÎÍÍÍÎÍÌÍÌÏÌÌÎÏÏÍ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPair"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÎÏÎÍÏÍÌÍÎÏÌÍÏÏÍÏÍÌÌÏÏ",
+   "current_name": "BackingFieldBaseImpl_EE2D",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiLeaderboard"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÍÏÎÏÌÏÍÍÏÌÏÏÍÎÎÎÌÍÏÎ",
+   "current_name": "BackingFieldBaseImpl_8751",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiLeaderboardData"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÍÍÌÍÍÌÌÎÎÎÎÎÎÎÏÌÎÌÎÏÍ",
+   "current_name": "BackingFieldBaseImpl_834D",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiLeaderboardUserStats"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÌÌÏÎÌÍÍÍÎÍÏÎÍÎÎÎÍÏÍÏÍ",
+   "current_name": "Static12m_3FDE",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÎÍÏÏÍÍÍÍÍÎÎÎÍÎÎÍÏÎÎÌ",
+     "type": "VRC.Core.ApiLeaderboard"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÍÎÎÍÏÍÏÏÏÍÌÌÏÎÌÎÌÎÍÏ",
+   "current_name": "UIk__BackingField_C94D",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiProductVariant"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÏÏÏÌÎÌÌÎÎÏÍÎÌÍÎÍÎÍÍÏ",
+   "current_name": "BackingFieldBaseImpl_454E",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.ApiCampaignRewardProgress"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÌÍÎÏÌÎÌÏÏÏÍÍÍÎÍÍÎÏÏÎÌ",
+   "current_name": "Type8m2f_B3D2",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÎÎÍÏÌÍÍÌÌÌÍÍÏÍÏÌÏÍÌÍ",
+     "type": "VRC.Core.APIGroupLocations"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÏÍÍÎÎÍÎÍÍÏÍÌÏÏÎÍÍÎÍÍÌ",
+   "current_name": "Type7m2f_20C8",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÎÌÌÎÍÌÎÌÍÏÌÏÌÎÎÎÏÎÌÎÍ",
+     "type": "VRC.Core.APIEmoji"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÎÌÎÌÍÏÎÌÎÏÏÌÌÎÍÌÏÍÍÏ",
+   "current_name": "UIHoldChangeDelayHolImpl_5252",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.SDKBase.Platform.VRCOrientation"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÏÌÎÍÎÍÍÍÍÏÍÌÍÏÍÏÏÌÌÎÎ",
+   "current_name": "Type10m2f_153B",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÌÎÎÏÌÍÏÌÍÎÎÍÎÍÎÍÍÎÏÎÎ",
+     "type": "VRC.Core.APIGroupLocations"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÎÎÎÎÌÎÍÎÌÍÍÍÍÍÏÎÌÌÎÍ",
+   "current_name": "Type8m4f_A886",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÎÎÎÏÏÍÍÍÌÏÏÏÏÎÎÌÎÍÍÏÍ",
+     "type": "VRC.Core.ApiReportResponse"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÎÏÎÍÍÌÎÌÏÎÏÍÎÍÌÎÏÎÎÎÍ",
+   "current_name": "BackingFieldBaseImpl_C0A1",
+   "score": 9.377,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.APIUIColorPalette"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÎÌÏÍÌÏÍÏÏÎÌÎÌÎÎÍÌÏÌÍ",
+   "current_name": "Pointerk__BackingFieldSibling_C38F",
+   "score": 9.237,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÌÎÍÍÍÍÌÏÏÎÌÍÎÏÍÌÏÎÍÎÍÏ",
+     "type": "VRC.Localization.LocalizableString"
+    },
+    {
+     "method": "ÍÍÎÍÍÎÏÏÏÏÎÍÍÌÏÍÏÍÏÏÍÎÍ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÎÍÌÍÍÎÎÏÍÏÎÍÌÎÍÌÌÎÍÏ",
+   "current_name": "k__BackingFieldComponentSiblinSibling_217E",
+   "score": 9.149,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÍÎÎÍÌÏÏÍÎÌÏÌÏÏÎÌÏÏÌÌÏÎÎ",
+     "type": "System.Collections.IList"
+    },
+    {
+     "method": "ÌÏÍÏÏÏÌÌÌÎÎÎÍÎÎÌÏÌÌÌÍÎÍ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÏÎÍÏÌÏÏÎÍÌÎÏÎÌÌÍÏÍÍÎÎ",
+   "current_name": "k__BackingField_9F14",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÌÍÏÍÌÌÍÏÏÍÎÏÏÌÎÎÌÎÌÍ",
+     "type": "VRC.DataModel.Challenges.ChallengeEvent"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÍÎÏÏÏÍÏÎÌÎÎÏÍÏÍÏÏÍÍÌ",
+   "current_name": "Type11m3f_880D",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÎÍÌÏÎÍÍÏÏÍÍÍÌÌÌÌÏÍÏÌ",
+     "type": "VRC.Core.ApiHypeTrainInstanceInfo"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÏÌÍÎÎÏÍÎÌÌÌÎÎÎÌÎÏÎÌÌÏ",
+   "current_name": "Type9m2f_F0C5",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÍÌÌÏÎÍÎÍÌÌÎÌÌÌÌÏÎÏÏÌÎ",
+     "type": "VRC.SDKBase.IAnimParameterAccess"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÍÌÎÎÏÍÏÎÍÌÍÌÍÏÍÏÍÎÍÎÎ",
+   "current_name": "BackingFieldBase_k__BackingField_222D",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÏÍÌÏÌÍÌÌÏÍÌÏÍÍÍÏÎÍÏÎÎ",
+     "type": "VRC.Core.ApiUserProfile"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÎÎÎÎÍÎÍÌÌÎÌÍÎÌÌÏÎÎÎÍÎ",
+   "current_name": "Type10m2f_0F26",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÏÎÌÎÌÍÏÏÎÍÌÌÌÏÏÎÍÏÌÏ",
+     "type": "VRC.Core.ApiUserProfile"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÎÏÍÎÌÎÏÍÏÍÏÎÍÌÌÏÏÎÍÍ",
+   "current_name": "Type14m2f_8CBD",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÌÎÏÏÍÎÎÍÏÍÏÎÎÎÏÌÎÎÍÌ",
+     "type": "VRC.SDKBase.IAnimParameterAccess"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÍÌÎÎÏÍÎÌÍÏÏÌÌÏÌÍÎÎÏÌÍ",
+   "current_name": "Type11m2f_92CE",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÎÏÏÏÌÎÎÏÍÏÌÎÍÏÎÎÏÌÏÎÏ",
+     "type": "Transmtn.Api"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÌÍÍÏÏÎÏÍÏÌÍÌÏÎÌÏÍÍÍÌÎ",
+   "current_name": "Type10m1f_C131",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÌÎÏÎÎÎÏÍÍÏÍÏÏÍÏÌÎÏÏÍÎ",
+     "type": "VRC.SDKBase.Network.NetworkIDPair"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÌÍÎÎÎÏÌÍÏÌÎÎÍÎÏÎÏÎÌÎ",
+   "current_name": "Type11m3f_F706",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÎÎÍÍÏÎÍÍÎÎÌÏÎÍÏÏÍÏÏÏ",
+     "type": "VRC.Core.APIGroupMemberList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÌÎÌÏÎÏÍÏÍÍÍÍÍÎÏÍÏÎÏÌ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_17F2",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÍÏÏÌÏÎÏÍÏÏÎÍÏÏÏÏÎÍÎÌÎ",
+     "type": "VRC.Core.ApiHypeTrainInfo"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÍÍÍÍÏÍÎÍÍÍÌÏÌÏÍÍÎÍÌÌ",
+   "current_name": "Type7m1f_609A",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÌÏÎÏÍÎÌÏÍÏÌÏÌÍÍÌÎÌÎÏÍ",
+     "type": "Discord.Sdk.UserHandle"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÎÏÌÎÎÌÏÍÌÍÌÌÎÍÍÏÍÎÌÎÌ",
+   "current_name": "Type7m1f_7122",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÍÍÍÍÌÍÎÌÍÎÎÏÏÎÍÏÎÌÍÎ",
+     "type": "Discord.Sdk.UserHandle"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÌÏÎÍÍÌÎÌÌÏÍÎÎÎÎÌÏÏÌÏÌ",
+   "current_name": "Type8m4f_C916",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÌÏÏÏÏÍÌÎÍÌÍÏÏÏÌÎÌÌÎÍÏ",
+     "type": "VRC.Core.ApiPurchase"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÏÍÌÍÌÍÌÍÎÍÏÎÏÏÎÍÏÎÍÏÌ",
+   "current_name": "Type11m2f_B4A0",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÏÍÌÏÌÎÌÌÏÏÎÏÏÎÍÍÌÏÎÍ",
+     "type": "VRC.Core.ApiPurchase"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÏÏÎÍÌÏÌÌÏÌÌÏÏÌÏÌÏÎÍÎ",
+   "current_name": "Type9m2f_74D2",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÌÍÌÏÎÌÏÏÏÍÏÏÏÎÌÌÌÌÎÎÍ",
+     "type": "VRC.Core.APIGroupMemberList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÌÍÎÎÍÏÏÌÎÌÍÎÎÌÍÌÍÍÎÌ",
+   "current_name": "BackingFieldBase_k__BackingField_F689",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÏÎÏÍÍÏÎÍÍÎÏÏÍÌÏÏÌÎÍÏÍ",
+     "type": "VRC.Core.ApiAdminAssetBundle"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÎÌÎÌÍÍÍÏÍÎÌÏÎÎÍÏÏÏÏÌÍ",
+   "current_name": "Type9m3f_9E2E",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÍÎÎÌÏÏÏÎÌÎÏÏÌÌÌÍÎÏÏÏ",
+     "type": "VRC.Core.ApiAdminAssetBundle"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÎÍÍÎÌÏÍÌÎÌÍÌÍÌÎÏÌÏÎÌ",
+   "current_name": "Type7m1f_64CB",
+   "score": 8.972,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÎÌÌÌÌÍÌÌÏÏÎÍÍÌÎÌÏÍÏÍÍ",
+     "type": "VRC.Core.ApiAdminAssetBundle"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÌÍÏÌÎÎÎÍÏÏÏÌÎÏÎÎÏÌÎÎÎ",
+   "current_name": "BackingFieldBaseImplSibling_7E8C",
+   "score": 8.881,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÍÎÏÌÍÍÎÌÌÎÏÍÍÍÌÏÍÍÏÍÏÌ",
+     "type": "UnityEngine.Color"
+    },
+    {
+     "method": "ÍÎÌÍÌÏÏÎÌÌÍÍÎÍÎÍÍÍÍÏÎÌÌ",
+     "type": "UnityEngine.Vector2"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÌÎÎÏÍÌÌÌÍÎÏÌÍÎÏÍÍÎÎÏ",
+   "current_name": "Type10m2f_CDBE",
+   "score": 8.684,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÎÍÍÏÎÎÎÎÌÏÍÎÎÎÏÏÌÎÌÍÏ",
+     "type": "VRC.Core.APIGiftActivationResult"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÎÍÌÎÏÎÏÏÌÍÍÍÌÏÏÍÍÏÎÎ",
+   "current_name": "Type10m2f_CEB5",
+   "score": 8.684,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÌÍÎÌÍÏÏÍÍÌÌÍÏÎÏÌÍÍÏÌÍ",
+     "type": "VRC.Core.ApiPrint"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÍÏÏÌÏÌÏÌÌÏÎÏÎÌÎÏÏÍÎÏ",
+   "current_name": "Static1m_EAC9",
+   "score": 8.684,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÏÌÏÌÍÍÌÌÎÌÌÍÎÏÏÌÌÏÏÍÍ",
+     "type": "Mediapipe.Unity.RunningMode"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÏÎÌÏÎÌÎÍÌÍÌÏÏÏÌÏÎÍÏÌÎ",
+   "current_name": "Type9m2f_EEBC",
+   "score": 8.684,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÏÌÏÌÌÏÍÍÍÌÎÎÌÌÌÌÍÍÎÎÌ",
+     "type": "VRC.Core.ApiPendingTransaction"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÍÌÎÎÏÍÏÍÏÏÎÍÏÏÎÌÎÎÏÏ",
+   "current_name": "Type9m2f_EA0E",
+   "score": 8.684,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÌÌÏÌÎÎÌÏÌÏÏÎÍÏÌÎÍÏÎÌÌ",
+     "type": "Error"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÏÎÏÏÏÏÎÌÎÌÌÍÍÏÌÍÎÎÏÏÍ",
+   "current_name": "BaseClass3ImplImpl_2803",
+   "score": 8.684,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.Services.IEventsService"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÎÍÌÎÎÏÎÏÏÏÎÎÎÍÍÌÎÌÏÍÌ",
+   "current_name": "BaseClass3ImplImpl_EA99",
+   "score": 8.684,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Core.Services.IEventsService"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÎÏÌÎÍÌÌÍÏÍÌÍÏÍÏÏÎÍÌÎ",
+   "current_name": "RequiresStoringk__BackingField_8E83",
+   "score": 8.684,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÎÍÍÏÎÏÍÌÏÌÎÌÎÌÌÎÌÌÍÍ",
+     "type": "VRC.Core.ApiPendingTransaction"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÎÎÎÍÏÌÍÍÎÌÎÏÍÎÍÍÍÍÌÍ",
+   "current_name": "BaseClass45ImplSibling_768A",
+   "score": 8.476,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÍÏÍÌÏÎÎÍÌÌÏÎÍÏÏÎÎÍÎÌ",
+     "type": "UnityEngine.Transform"
+    },
+    {
+     "method": "ÌÌÎÍÏÍÌÏÎÎÍÌÌÏÎÍÏÏÎÎÍÎÌ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÍÍÌÏÏÏÍÍÍÌÍÏÍÌÌÎÎÏÏÌ",
+   "current_name": "Static2m_D9C1",
+   "score": 8.476,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÍÎÍÏÌÎÏÌÌÌÍÎÎÌÌÌÏÌÌÎÌÍÌ",
+     "type": "UnityEngine.Transform"
+    },
+    {
+     "method": "ÌÎÌÌÏÍÏÌÌÌÌÏÎÎÌÌÏÎÌÌÏÎÏ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÍÏÍÏÎÌÌÏÏÍÏÎÍÎÎÏÏÏÎÌ",
+   "current_name": "Type9m1f_2F4A",
+   "score": 8.461,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÌÎÍÎÍÌÏÏÌÎÎÍÎÍÌÎÏÎÍÏ",
+     "type": "VRC.SDKBase.VRC_Interactable"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÎÎÍÌÎÍÎÎÏÎÌÌÍÍÍÍÌÌÌÎ",
+   "current_name": "Type10m1f_DCA7",
+   "score": 8.461,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÍÎÍÎÏÌÌÌÌÌÍÍÍÍÎÌÎÍÍÎ",
+     "type": "VRC.Core.ApiProduct"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÎÌÎÏÌÎÌÏÎÍÌÌÍÎÌÎÏÍÎÏÎ",
+   "current_name": "Type9m2f_A481",
+   "score": 8.461,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÌÌÏÍÍÎÍÌÍÏÍÏÎÏÌÌÎÎÏÍ",
+     "type": "TMPro.TextMeshPro"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÎÏÏÏÌÎÏÍÏÎÏÎÍÎÍÎÌÎÏÍ",
+   "current_name": "Type7m2f_4378",
+   "score": 8.461,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÏÏÎÎÌÎÌÌÎÏÍÎÏÏÎÎÌÍÎÌ",
+     "type": "TMPro.TextMeshPro"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÎÌÎÏÍÍÏÎÌÍÌÌÏÎÎÎÎÏÍÌ",
+   "current_name": "Type11m4f_EDA9",
+   "score": 8.461,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÎÌÏÌÌÍÌÏÍÎÏÍÍÏÎÎÍÍÎÏÎ",
+     "type": "VRC.Core.APIGroupMember"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÍÌÍÌÏÌÎÎÍÍÍÍÏÎÌÏÍÍÍÍ",
+   "current_name": "Type8m2f_6B4C",
+   "score": 8.461,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÍÏÍÏÏÏÌÌÌÎÎÌÎÍÏÏÌÏÍÎ",
+     "type": "VRC.Core.APIGroupMember"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÍÎÍÌÌÎÎÍÏÎÎÌÌÌÍÍÏÌÍÌ",
+   "current_name": "Type9m2f_93D0",
+   "score": 8.461,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÏÏÎÎÌÍÍÍÍÍÌÎÌÍÌÎÌÌÎÏÌ",
+     "type": "VRC.Core.APIGroupMember"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÏÌÏÌÏÌÍÍÏÏÏÍÎÌÏÎÍÌÍÏ",
+   "current_name": "Static1m_0176",
+   "score": 8.461,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÌÏÍÍÎÌÍÍÌÎÍÏÌÍÌÌÎÌÏÏÏ",
+     "type": "VRC.ContentType"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÌÌÍÍÎÌÌÌÏÎÌÍÌÏÍÎÍÏÌÎ",
+   "current_name": "Type9m4f_B7E0",
+   "score": 8.352,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÍÏÏÌÎÌÌÎÍÎÏÎÎÏÍÌÍÌÍÍÌÌÎ",
+     "type": "UnityEngine.Quaternion"
+    },
+    {
+     "method": "ÍÏÏÌÎÌÌÎÍÎÏÎÎÏÍÌÍÌÍÍÌÌÎ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÍÍÏÎÌÎÌÍÎÍÌÎÏÌÌÎÍÌÌÍ",
+   "current_name": "Static8m_7DDF",
+   "score": 8.352,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÎÌÍÌÏÍÍÍÏÍÏÍÎÎÏÌÌÎÎÏ",
+     "type": "UnityEngine.Quaternion"
+    },
+    {
+     "method": "ÎÎÌÎÏÍÌÍÎÎÌÏÍÎÏÎÍÌÏÎÏÌÎ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÏÎÎÏÌÌÌÎÎÌÎÌÌÌÏÏÌÍÏÏ",
+   "current_name": "Type9m4f_5B3F",
+   "score": 8.352,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÏÌÌÌÏÎÌÌÎÍÌÌÏÏÍÎÏÏÏÍ",
+     "type": "UnityEngine.Quaternion"
+    },
+    {
+     "method": "ÏÍÍÏÌÌÌÏÎÌÌÎÍÌÌÏÏÍÎÏÏÏÍ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÍÎÏÌÌÎÎÌÌÍÌÍÎÎÏÍÌÌÌÍ",
+   "current_name": "VRC_SecondarySiblingSibling_4ABD",
+   "score": 8.352,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÎÏÌÌÎÎÏÌÍÌÍÌÏÎÏÍÏÌÌÌÏÎÍ",
+     "type": "UnityEngine.Quaternion"
+    },
+    {
+     "method": "ÎÏÌÌÎÎÏÌÍÌÍÌÏÎÏÍÏÌÌÌÏÎÍ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÌÌÌÎÌÏÎÍÎÏÏÌÏÏÍÎÍÌÎÎ",
+   "current_name": "Static1m_CAA7",
+   "score": 8.279,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÌÏÏÍÌÎÌÌÏÏÍÎÏÎÍÍÏÏÎÍ",
+     "type": "System.Enum"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÎÍÎÍÌÎÍÎÏÎÎÍÍÎÌÎÍÎÏÍ",
+   "current_name": "Type17m4f_E734",
+   "score": 8.279,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÏÌÎÏÏÍÌÍÎÏÏÎÍÍÏÍÎÍÌÎÏ",
+     "type": "Photon.Client.ConnectionProtocol"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÏÌÏÌÏÌÏÎÍÍÎÏÍÌÎÍÌÌÍÌ",
+   "current_name": "Udonk__BackingFieldImpl_DA81",
+   "score": 8.279,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "Photon.Client.ConnectionProtocol"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÎÌÍÌÍÎÍÌÍÌÌÏÎÌÎÌÍÍÌÌÎ",
+   "current_name": "Type11m2f_EFA7",
+   "score": 8.279,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÍÎÌÍÍÍÍÍÍÍÎÌÏÌÌÍÏÍÌÏÌ",
+     "type": "VRC.Core.APICalendarEntry"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÌÏÎÏÍÎÍÍÍÌÍÎÎÌÎÍÌÌÏÏ",
+   "current_name": "Type10m1f_7D75",
+   "score": 8.279,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÎÎÍÍÎÌÎÍÍÎÎÌÎÌÎÍÍÌÍÌÍ",
+     "type": "System.TimeZoneInfo"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÌÌÏÎÎÍÌÍÍÌÍÏÏÍÏÏÎÍÍÌ",
+   "current_name": "Type7m1f_76AB",
+   "score": 8.279,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÎÍÍÌÌÌÍÏÌÌÌÍÎÎÍÎÏÍÌÍÏ",
+     "type": "VRC.Core.APICalendarEntry"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÌÌÏÎÍÎÎÌÏÍÍÎÌÍÏÍÍÏÍÌÎ",
+   "current_name": "Type10m1f_743F",
+   "score": 8.279,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÌÏÌÍÌÏÏÍÎÍÍÌÍÏÎÎÍÌÎÍÏ",
+     "type": "VRC.Core.APICalendarEntry"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÍÌÎÍÎÌÎÏÍÍÏÏÏÌÌÏÏÎÏÎÍ",
+   "current_name": "Static2m_9E5C",
+   "score": 8.188,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÏÌÌÍÍÏÌÏÎÎÎÍÌÏÍÌÍÏÏÍ",
+     "type": "UnityEngine.Color"
+    },
+    {
+     "method": "ÍÎÍÍÎÌÎÏÍÌÍÍÏÎÌÏÌÌÎÌÍÎÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÎÌÌÍÍÏÌÍÌÏÎÌÌÍÏÏÏÍÍÎ",
+   "current_name": "Type8m1f_732F",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÎÎÌÍÏÎÌÏÍÎÎÍÏÎÌÍÏÍÎÎÎ",
+     "type": "TriggerEvent"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÏÍÎÌÌÎÏÎÎÌÌÍÌÎÏÍÎÏÌÍ",
+   "current_name": "Type7m1f_D1C4",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÌÎÍÍÎÎÎÏÍÏÏÌÌÌÌÍÍÌÌÏÏ",
+     "type": "TriggerEvent"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÍÌÌÏÍÎÌÍÎÏÍÏÏÍÍÌÎÍÏÏÌ",
+   "current_name": "Type8m1f_C59B",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÌÌÎÏÏÍÏÍÍÌÏÍÏÌÏÍÌÌÏÏ",
+     "type": "System.IO.FileInfo"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÎÎÏÌÌÎÍÍÏÏÍÍÏÌÌÍÏÌÎÎÌ",
+   "current_name": "Type7m1f_1BD4",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÌÌÍÌÌÌÌÏÍÎÎÍÏÎÍÍÍÎÏÏÏ",
+     "type": "VRC.Core.APIGroup"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÌÍÍÏÏÎÍÎÎÏÌÌÎÏÍÎÍÎÍÏ",
+   "current_name": "Type7m1f_8498",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÏÏÎÌÌÍÏÍÌÌÍÎÎÌÍÍÌÎÏÍÌ",
+     "type": "VRC.Core.APIGroup"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÌÌÍÎÌÌÍÍÌÌÏÎÎÏÏÏÏÌÌÏ",
+   "current_name": "Type9m4f_C9A5",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÎÏÏÌÎÍÎÎÏÍÏÌÍÍÏÌÏÏÍÍÎ",
+     "type": "VRC.Core.ApiFile"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÎÍÌÍÌÎÏÎÏÍÏÏÏÌÍÍÏÌÍÏ",
+   "current_name": "Service23m_72B8",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÎÌÏÌÍÎÍÌÎÌÏÍÏÏÎÍÏÍÍÌÎ",
+     "type": "VRC.Core.ApiFile"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÏÍÍÍÌÌÌÌÏÏÎÍÌÍÍÍÎÍÌÌ",
+   "current_name": "Type9m4f_29FA",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÏÌÍÎÍÏÌÌÍÏÏÏÎÌÍÎÌÏÍÎ",
+     "type": "VRC.Core.ApiFile"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÎÎÎÍÎÍÏÎÍÎÎÎÌÎÏÎÏÏÍÍ",
+   "current_name": "Type9m4fImpl_FA31",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÍÎÏÎÏÌÎÌÍÏÍÎÍÏÏÎÎÍÌÏÌ",
+     "type": "VRC.Core.ApiFile"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÌÏÏÏÏÍÌÎÏÎÌÎÏÎÏÌÍÎÏÏ",
+   "current_name": "Type10m1f_FEDC",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÏÌÌÌÌÎÎÎÎÏÌÎÏÌÍÌÌÏÍÏ",
+     "type": "VRC.Core.APIGroup"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÌÍÍÏÎÍÍÏÍÌÎÍÏÏÌÌÏÌÍÌ",
+   "current_name": "Type9m4fImpl_C6B0",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÍÎÏÎÏÌÎÌÍÏÍÎÍÏÏÎÎÍÌÏÌ",
+     "type": "VRC.Core.ApiFile"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÍÌÏÍÏÌÎÌÏÏÍÌÌÍÎÍÎÍÍÍÎ",
+   "current_name": "Static1m_4F76",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÏÎÍÌÏÎÌÎÏÏÌÎÌÍÌÏÍÌÍÌÌ",
+     "type": "VRC.DataModel.ReportContentType"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÌÌÎÎÌÎÏÍÎÏÍÍÎÏÌÏÍÌÏÎ",
+   "current_name": "UIdescriptionFieldContainerselSibling_BE0B",
+   "score": 8.124,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÍÌÏÎÎÌÌÏÌÏÌÏÏÍÎÍÌÏÌÌÍ",
+     "type": "VRC.DataModel.ReportContentType"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÎÍÍÌÍÍÌÍÏÌÏÏÌÏÍÏÏÎÎÌÍ",
+   "current_name": "Type11m2f_15CC",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÍÏÌÎÍÍÌÍÍÏÍÌÍÌÏÏÍÍÍÏ",
+     "type": "VRC.Core.ApiInventoryJweToken"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÍÎÌÎÌÏÌÎÏÎÎÎÌÌÌÍÏÏÍÏ",
+   "current_name": "Type7m4f_6A1D",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÌÍÌÎÌÏÏÎÍÏÎÎÏÍÍÏÌÌÏÎÎ",
+     "type": "VRC.Core.ApiInventoryJweToken"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÍÎÌÏÌÌÎÍÎÏÏÍÌÌÏÏÌÎÌÍ",
+   "current_name": "Type10m1f_067B",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÏÎÌÌÏÍÎÎÌÎÌÏÍÌÍÌÏÏÏÏÏ",
+     "type": "VRC.Core.ApiInventoryJweToken"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÌÌÌÏÌÌÏÏÏÌÎÏÏÍÌÏÏÎÍÍ",
+   "current_name": "Type9m3f_DAF5",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÍÌÌÎÌÏÎÍÌÎÏÎÎÌÏÍÎÌÎÌÌ",
+     "type": "VRC.Core.ApiInventoryJweToken"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÎÏÎÍÏÎÍÏÍÌÌÍÍÎÎÏÌÌÍÏ",
+   "current_name": "Type10m3f_30D4",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÌÏÍÌÍÏÎÎÎÌÍÍÍÎÍÍÏÍÍÎ",
+     "type": "Discord.Sdk.ClientResult"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÍÌÌÏÌÎÏÌÎÌÌÎÍÍÍÌÏÏÏÎ",
+   "current_name": "Type10m1f_2DF8",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÍÏÍÏÎÎÌÏÎÌÌÌÎÍÍÏÎÏÍÍ",
+     "type": "Discord.Sdk.ClientResult"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÍÏÎÌÍÌÎÍÍÎÌÏÎÎÌÌÍÌÎÏÍ",
+   "current_name": "Type11m3f_4529",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÎÏÌÎÌÎÎÎÎÌÏÌÏÌÍÍÎÎÎÍÏ",
+     "type": "VRC.Core.ApiInventoryJweToken"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÎÏÏÎÏÏÍÏÏÌÏÌÌÏÏÌÌÏÏÍÍ",
+   "current_name": "Type7m1f_0A68",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÎÌÌÎÌÍÍÏÌÌÌÎÌÍÎÏÏÍÍÎÌ",
+     "type": "VRC.Core.ApiInventoryJweToken"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÎÌÌÍÎÏÌÍÍÍÍÍÌÏÍÍÌÍÏÌ",
+   "current_name": "Type8m3f_7DEE",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÌÎÌÌÌÌÍÏÏÌÏÍÍÎÌÌÎÌÌÍ",
+     "type": "VRC.Core.ApiInventoryJweToken"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÏÎÍÍÍÌÏÍÎÎÌÍÌÏÏÍÍÎÌÍ",
+   "current_name": "Avatark__BackingFieldComponentSibling_1B79",
+   "score": 7.991,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÏÎÎÏÍÍÎÎÍÎÍÍÎÏÎÏÌÏÌÎÏ",
+     "type": "AvatarVariant"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÌÏÌÏÎÎÌÎÍÎÍÏÎÎÍÍÌÏÌÎ",
+   "current_name": "Static2m_64E6",
+   "score": 7.873,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÎÎÍÏÌÏÏÏÌÌÏÏÎÍÏÍÌÏÍÏÍ",
+     "type": "System.Text.RegularExpressions.RegexOptions"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÎÍÌÏÍÌÌÌÍÎÎÏÍÍÎÍÎÏÏÌÏ",
+   "current_name": "updateWhenDisabledComponentSibling_75A4",
+   "score": 7.873,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÍÌÎÌÏÎÌÎÍÍÏÎÎÌÌÌÌÌÍÎ",
+     "type": "VRC.Core.FavoriteListModel"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÎÌÌÌÌÍÏÌÍÏÍÎÎÏÏÌÌÎÏÌ",
+   "current_name": "Type7m1f_4BC7",
+   "score": 7.873,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÎÍÍÍÌÍÍÍÎÏÌÍÏÍÌÏÏÎÍÌÌ",
+     "type": "VRC.Core.ApiProp"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÌÎÎÌÌÍÏÎÍÍÌÏÏÎÎÌÍÏÍÏ",
+   "current_name": "Static4m_BE93",
+   "score": 7.873,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÎÌÎÏÏÍÌÎÏÏÎÍÌÎÌÏÍÎÎÍÌ",
+     "type": "VRC.Core.ApiModel"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÎÌÎÍÎÎÌÏÎÏÍÏÎÌÏÍÍÍÌÏ",
+   "current_name": "BackingFieldBaseSibling_A459",
+   "score": 7.768,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÍÏÌÎÌÏÍÏÌÍÌÌÌÍÎÍÏÌÎÎ",
+     "type": "UnityEngine.Light"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÌÍÌÏÍÌÍÎÎÌÎÎÏÏÏÎÍÎÎÍ",
+   "current_name": "Type10m1f_AE79",
+   "score": 7.672,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÌÎÌÍÌÍÌÎÏÍÌÏÍÍÎÍÎÌÌÏ",
+     "type": "VRC.Core.ApiVRChatSubscription"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÌÍÍÎÏÍÎÌÍÏÍÏÍÌÏÌÍÍÌÍ",
+   "current_name": "k__BackingFieldSibling_BE18",
+   "score": 7.672,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.MonoBehaviour"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÌÌÎÎÎÍÏÎÌÏÍÌÎÍÏÌÏÎÍÏÎ",
+   "current_name": "Struct5f_B7B2",
+   "score": 7.672,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "Photon.Client.OperationResponse"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÌÌÌÌÍÎÏÎÎÎÍÎÎÎÍÍÏÌÌÎ",
+   "current_name": "Type10m1f_1DEC",
+   "score": 7.585,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÍÌÎÍÍÎÎÏÎÌÏÌÌÍÎÌÌÏÌÎÍ",
+     "type": "TMPro.TMP_FontAsset"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÌÌÌÎÏÌÌÎÍÏÍÎÌÏÏÎÌÌÎÏ",
+   "current_name": "Type7m1f_EFD5",
+   "score": 7.585,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÍÎÍÍÍÎÏÌÏÎÍÎÌÎÌÎÎÌÏÍ",
+     "type": "VRC.Udon.UdonBehaviour"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÍÍÌÌÏÍÌÎÏÌÌÏÍÌÍÌÏÎÏÎ",
+   "current_name": "Type8m1f_D315",
+   "score": 7.585,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÏÎÏÎÍÌÏÏÏÌÌÍÍÎÎÎÏÌÌÏ",
+     "type": "VRC.Udon.UdonBehaviour"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÏÌÏÌÌÎÌÍÎÎÎÎÎÏÏÎÏÌÏÌ",
+   "current_name": "Type10m2f_4FFC",
+   "score": 7.505,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÎÏÏÍÌÌÏÍÌÎÏÍÏÌÌÌÎÎÍÌÍ",
+     "type": "UnityEngine.Rendering.AsyncGPUReadbackRequest"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÎÎÎÍÍÏÍÎÌÍÍÎÏÌÍÎÏÏÏÍ",
+   "current_name": "Type9m2f_92E9",
+   "score": 7.431,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÌÏÏÍÎÌÌÎÏÍÎÎÌÌÏÎÏÌÌÏÌ",
+     "type": "VrcEvent"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÌÏÍÍÍÎÌÌÎÎÏÎÍÍÎÍÌÏÌÎ",
+   "current_name": "Type10m1f_5FBF",
+   "score": 7.431,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÎÌÌÍÌÎÍÎÏÎÎÎÎÎÎÌÍÍÏÎÌ",
+     "type": "Sentry.Scope"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÍÏÍÏÎÏÍÏÌÌÍÏÏÍÏÏÏÍÎÏ",
+   "current_name": "Type10m3f_F369",
+   "score": 7.431,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÎÏÍÌÎÎÌÍÎÎÌÍÍÎÌÍÌÏÌÎÏ",
+     "type": "VRC.Core.ApiInfoPushSystem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÎÍÏÌÏÍÍÎÎÌÎÏÏÌÍÏÏÌÎÎ",
+   "current_name": "Type10m7fImpl_5559",
+   "score": 7.362,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÍÎÌÍÍÌÍÍÏÏÎÎÏÏÏÍÎÍÏÌ",
+     "type": "VRC.Core.ApiDictContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÌÏÏÏÎÎÌÎÍÍÌÏÍÍÏÏÏÌÎÌ",
+   "current_name": "Type12m3f_A491",
+   "score": 7.362,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÌÌÏÍÍÍÏÌÌÎÎÌÍÏÎÌÏÎÏÏÌ",
+     "type": "VRC.Core.ApiDictContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÌÎÍÎÌÏÍÍÍÎÏÎÎÍÏÌÍÏÍÌÌ",
+   "current_name": "Static22m_C199",
+   "score": 7.298,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÌÌÎÎÏÎÌÏÏÏÍÏÌÍÏÌÏÏÎÎÎ",
+     "type": "CallbackContext"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÌÏÎÏÍÎÎÎÌÎÌÏÎÌÌÍÎÌÎÍ",
+   "current_name": "Static9m_7204",
+   "score": 7.298,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÏÎÍÌÍÌÏÏÍÏÌÎÏÍÎÌÍÍÏÌ",
+     "type": "CallbackContext"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÏÏÍÎÌÍÏÎÏÍÎÌÏÏÎÎÎÌÏÌ",
+   "current_name": "Static14m_A5B1",
+   "score": 7.298,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÍÌÌÏÍÎÌÎÏÌÍÎÍÎÏÏÌÏÏÎÍ",
+     "type": "CallbackContext"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÍÌÏÍÌÎÌÏÍÏÌÏÎÏÎÏÎÎÎÌ",
+   "current_name": "Static1m_189F",
+   "score": 7.298,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÎÍÍÏÍÌÍÏÏÏÍÏÍÍÍÏÌÎÌÎÏ",
+     "type": "Photon.Client.EventData"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÍÏÍÌÎÏÌÍÎÌÌÍÌÎÌÌÏÎÌÏÎ",
+   "current_name": "Type2m1f_C67F",
+   "score": 7.298,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "Photon.Client.EventData"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÎÌÎÏÍÍÏÌÏÎÍÍÍÌÏÎÍÌÏÍ",
+   "current_name": "Type8m1f_4DC0",
+   "score": 7.298,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÌÌÍÎÎÍÎÎÍÏÍÍÍÏÍÎÍÍÌÍÏ",
+     "type": "Photon.Client.PhotonHashtable"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÍÍÎÎÎÏÎÎÏÌÌÌÎÌÏÌÍÌÌÎÎ",
+   "current_name": "Static1m_E8BB",
+   "score": 7.298,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÏÍÌÎÍÎÏÏÎÌÌÌÏÎÌÍÎÌÌÌ",
+     "type": "Photon.Client.EventData"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÍÏÍÏÏÌÍÌÎÌÌÌÍÏÎÎÌÍÎÌ",
+   "current_name": "Static2m_9779",
+   "score": 7.18,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÏÍÎÏÏÏÎÍÌÎÌÎÎÌÌÎÌÎÍÎ",
+     "type": "UnityEngine.AudioClip"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÌÌÍÌÍÌÏÍÌÌÌÏÏÏÍÍÏÍÍÍÍ",
+   "current_name": "Type7m1f_97F5",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÎÌÎÍÌÌÎÍÏÌÏÌÍÌÌÍÎÎÎÏÏ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÎÍÌÌÎÌÍÍÎÏÏÎÏÌÎÍÏÏÌÏ",
+   "current_name": "Type10m1f_2440",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÌÎÍÏÎÎÎÍÍÍÍÎÎÏÎÌÎÌÍÍÏ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÌÎÏÍÍÏÏÎÏÏÍÍÌÎÏÎÌÌÎÏÌ",
+   "current_name": "Type7m1f_11C0",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÌÍÎÍÏÏÍÍÏÎÎÎÍÏÎÏÏÌÌÌ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÎÍÎÎÎÌÏÍÏÍÍÍÌÍÎÎÌÌÏÍ",
+   "current_name": "Type9m1f_2EAF",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÏÎÎÌÎÌÌÍÍÍÎÎÏÌÎÏÌÏÏÏ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÍÌÎÏÎÍÌÎÏÌÎÌÌÌÏÌÎÎÌÏ",
+   "current_name": "Type10m1f_7F5B",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÍÍÎÎÌÌÎÍÏÏÏÎÌÍÏÍÎÎÏÌ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÎÌÏÏÏÌÎÎÌÍÍÍÌÌÎÏÎÍÎÍ",
+   "current_name": "Type8m1f_D982",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÍÏÍÏÎÌÏÎÍÏÌÌÏÎÍÏÎÎÎÌÏ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÌÍÌÍÏÌÏÎÌÏÌÍÏÎÍÏÏÌÍÍ",
+   "current_name": "Type7m1f_8154",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÎÍÎÏÌÌÏÌÍÎÍÍÏÌÎÍÍÏÌÎÍ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÏÏÎÌÏÌÌÍÌÎÎÏÌÏÍÌÏÌÎÍ",
+   "current_name": "Type7m1f_7C7B",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÎÏÎÌÌÏÎÍÍÏÎÍÏÏÌÍÍÏÌÎÍ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÍÏÏÍÍÏÍÏÏÏÌÌÌÏÍÍÏÍÎÎ",
+   "current_name": "Type7m1f_2537",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÌÎÏÌÍÌÏÎÎÌÌÌÍÍÎÍÌÍÎÎÍ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÍÍÍÍÏÏÍÍÌÍÌÏÍÏÌÍÌÏÎÍÌ",
+   "current_name": "Type7m1f_5217",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÎÎÏÍÏÏÍÌÏÍÍÏÎÏÏÌÌÌÌÌ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÌÌÎÍÌÏÏÍÏÏÌÌÏÍÎÎÌÎÎÍ",
+   "current_name": "Type8m1f_4DCD",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÎÎÏÎÌÌÌÏÎÌÏÎÍÌÏÏÎÍÌÎ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÎÏÏÍÎÌÍÍÎÏÎÍÎÌÍÏÍÍÍÌ",
+   "current_name": "Type10m1f_674A",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÌÏÎÍÏÏÎÌÏÎÎÎÍÍÏÌÌÌÎÎÏ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÎÍÌÏÏÍÍÍÌÍÏÎÎÎÌÎÏÍÍÌ",
+   "current_name": "Type8m1f_096C",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÏÌÌÌÎÍÍÏÍÏÎÍÍÌÏÌÍÌÎÍÎ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÏÏÌÍÏÌÍÌÌÌÎÎÎÏÌÏÍÍÍÎÍ",
+   "current_name": "Type10m1f_924C",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÍÍÍÍÍÏÌÏÌÌÎÌÏÎÌÎÍÏÌÏ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÎÏÏÍÏÌÏÏÏÍÎÏÌÌÎÎÎÎÍÏÍ",
+   "current_name": "Type8m1f_6ECD",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÍÏÏÎÎÎÍÍÎÍÍÎÏÍÌÍÎÎÌÍÏ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÎÏÎÌÍÌÌÏÎÌÎÏÍÎÌÌÎÎÏÎÍ",
+   "current_name": "Type7m1f_4C8A",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÌÏÎÍÍÌÍÌÏÎÏÏÍÎÎÎÏÏÏÍÎ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÍÍÌÌÍÌÌÎÌÎÏÍÎÏÍÏÎÏÏÏ",
+   "current_name": "Type9m1f_7BAA",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÌÌÌÏÏÏÏÏÍÌÎÌÌÏÌÌÌÎÍÍ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÌÍÏÍÎÍÎÎÎÏÍÌÌÍÌÌÍÏÎÏ",
+   "current_name": "Type10m1f_9E8F",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÏÍÌÎÍÏÏÌÌÎÏÌÌÍÏÌÏÍÎÍ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÎÌÌÎÍÌÏÍÏÌÌÎÏÌÍÏÏÌÍÏ",
+   "current_name": "Type10m1f_3E37",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÎÏÌÏÌÏÏÌÎÌÍÎÌÎÏÍÏÍÎÍÍ",
+     "type": "VRC.Core.Networking.FlatBuffers.FlatBuffers32.PlayerDataPairT"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÎÍÍÎÎÏÎÌÎÍÌÏÏÏÍÏÎÌÌÌ",
+   "current_name": "Static2m_6829",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÎÌÏÌÏÏÌÎÎÌÎÎÏÌÎÌÏÍÎÍÌ",
+     "type": "VRC.UI.Core.Styles.StyleElement"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÎÌÏÎÌÎÏÎÏÌÎÏÍÍÏÍÏÏÌÏÌ",
+   "current_name": "Static4m_7D9B",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÌÎÎÌÎÏÍÎÌÍÌÎÎÎÏÏÌÏÏÎ",
+     "type": "VRC.Core.ApiAvatar"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÍÏÏÎÌÍÍÌÌÍÎÍÍÌÍÌÎÏÏÍÍ",
+   "current_name": "Static2m_7665",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÌÏÎÏÌÍÌÎÎÌÌÏÏÎÎÍÎÍÎÏ",
+     "type": "VRC.UI.Core.Styles.StyleElement"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÌÎÍÎÌÍÌÎÏÏÌÌÍÎÎÏÌÎÍÎÍ",
+   "current_name": "Struct4f_BA5A",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÍÍÏÌÎÏÌÏÌÍÍÌÍÌÏÌÎÏÏÍ",
+     "type": "VRC.UI.Core.Styles.StyleElement"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÍÎÌÎÌÎÌÎÏÎÏÌÎÎÍÏÍÌÌÎ",
+   "current_name": "Static2m_BFA5",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÎÌÏÌÏÏÌÎÎÌÎÎÏÌÎÌÏÍÎÍÌ",
+     "type": "VRC.UI.Core.Styles.StyleElement"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÍÍÎÌÍÌÏÍÌÏÌÌÏÍÎÍÎÍÍÍÏ",
+   "current_name": "Static2m_B53F",
+   "score": 7.075,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÌÏÎÏÌÍÌÎÎÌÌÏÏÎÎÍÎÍÎÏ",
+     "type": "VRC.UI.Core.Styles.StyleElement"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÎÎÌÌÏÏÏÍÌÌÌÍÌÏÎÌÎÏÏÎÌ",
+   "current_name": "Static2m_CF08",
+   "score": 7.026,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÌÍÌÍÏÍÏÎÎÏÏÍÌÌÎÌÎÌÏÍ",
+     "type": "VRC.SDKBase.VRCUrl"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÏÌÏÌÏÎÏÍÍÍÏÎÎÎÏÎÌÌÏÏÏ",
+   "current_name": "Type17m3f_8142",
+   "score": 7.026,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÎÍÎÍÏÌÏÌÍÌÎÏÏÌÌÏÍÎÏÍ",
+     "type": "UnityEngine.SceneManagement.Scene"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÌÎÍÍÎÏÌÌÎÏÌÍÎÏÍÍÎÏÎÏ",
+   "current_name": "Static1m_A870",
+   "score": 6.774,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÌÍÌÏÏÏÎÎÍÌÌÌÏÎÌÍÏÌÌÌ",
+     "type": "OscCore.OscMessageValues"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÎÎÏÏÍÍÌÏÎÏÍÌÍÎÎÎÎÌÎÍÌ",
+   "current_name": "BaseClass5Impl_6C9C",
+   "score": 6.774,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÌÍÌÏÏÏÎÎÍÌÌÌÏÎÌÍÏÌÌÌ",
+     "type": "OscCore.OscMessageValues"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÎÎÏÏÌÍÏÏÍÎÏÎÏÍÎÎÏÏÏÌ",
+   "current_name": "BaseClass5Impl_296A",
+   "score": 6.774,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÌÍÌÏÏÏÎÎÍÌÌÌÏÎÌÍÏÌÌÌ",
+     "type": "OscCore.OscMessageValues"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÌÎÏÌÍÌÏÎÏÍÎÏÌÏÌÏÎÎÏÎ",
+   "current_name": "BaseClass5Impl_E1D9",
+   "score": 6.774,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÌÍÌÏÏÏÎÎÍÌÌÌÏÎÌÍÏÌÌÌ",
+     "type": "OscCore.OscMessageValues"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÌÎÌÏÌÎÍÎÎÎÌÏÏÎÌÎÎÎÍÏ",
+   "current_name": "BaseClass5Impl_4A34",
+   "score": 6.774,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÌÍÌÏÏÏÎÎÍÌÌÌÏÎÌÍÏÌÌÌ",
+     "type": "OscCore.OscMessageValues"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÎÏÌÍÌÎÌÏÎÎÌÌÎÎÍÌÍÏÏÍ",
+   "current_name": "BaseClass5Impl_CCF9",
+   "score": 6.774,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÌÍÌÏÏÏÎÎÍÌÌÌÏÎÌÍÏÌÌÌ",
+     "type": "OscCore.OscMessageValues"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÏÍÎÏÏÎÍÎÏÍÌÍÌÎÎÏÏÍÍÌ",
+   "current_name": "Type10m2f_9DF4",
+   "score": 6.774,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÍÍÍÌÎÌÌÏÌÍÏÌÌÍÏÎÍÏÏÏ",
+     "type": "OscCore.OscMessageValues"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÎÎÎÎÌÌÏÏÌÍÎÎÍÎÍÏÍÍÍÏ",
+   "current_name": "BaseClass7Sibling_9EC7",
+   "score": 6.774,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÏÏÎÌÎÏÎÍÌÍÏÏÎÍÏÍÍÍÍÍÎ",
+     "type": "UnityEngine.Color32"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÍÏÏÎÍÌÎÍÌÍÎÏÌÏÍÌÍÌÏÎ",
+   "current_name": "Type11m1f_D1A0",
+   "score": 6.738,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÌÏÍÎÍÌÎÌÍÌÌÍÍÍÍÎÏÌÎÎÍ",
+     "type": "UnityEngine.Purchasing.ProductDefinition"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÏÍÍÏÌÍÎÍÎÏÍÎÍÏÏÎÏÍÌÏÎ",
+   "current_name": "Mono13m_E4F6",
+   "score": 6.703,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÍÌÍÎÏÏÎÎÌÍÏÏÎÍÎÏÏÎÏÌÌ",
+     "type": "UnityEngine.Component"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÍÍÌÍÌÌÍÍÌÎÌÍÏÏÍÌÎÎÎÌ",
+   "current_name": "Type13m2f_D99C",
+   "score": 6.703,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÌÎÎÎÏÌÍÍÏÍÌÌÎÍÌÌÌÏÌÎÍ",
+     "type": "System.Reflection.Assembly"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÎÌÏÏÏÎÎÍÍÍÎÎÏÎÎÏÍÎÎÍÏ",
+   "current_name": "Type9m1f_8776",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÌÍÎÎÍÎÎÎÎÍÎÍÌÌÌÎÎÎÍÍÏ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÌÎÌÎÌÎÎÌÏÎÍÎÎÎÏÎÌÎÎÏ",
+   "current_name": "Type12m2f_4131",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÎÎÎÎÌÎÎÍÍÌÌÌÌÏÌÎÍÏÌÍ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÍÎÌÍÌÎÌÍÏÏÎÍÏÎÎÏÏÏÎÍÍ",
+   "current_name": "Type11m2f_F469",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÍÏÏÎÎÍÌÎÌÎÌÍÎÍÍÎÎÏÏÏ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÏÎÌÏÍÎÎÏÌÎÌÎÌÌÎÎÌÎÏÎ",
+   "current_name": "BaseClass3Impl_B1B0",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÎÎÎÏÍÌÎÌÌÏÍÌÏÏÏÌÎÎÎÌÏ",
+     "type": "UnityEngine.Purchasing.Product"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÍÎÌÏÏÍÎÍÍÎÌÍÎÍÌÌÏÎÎÌ",
+   "current_name": "Type7m3f_1DBB",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÎÎÎÏÎÍÎÍÍÌÏÌÏÌÎÎÏÎÎÏÎ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÏÎÏÎÌÏÍÌÎÎÍÎÌÏÌÏÍÎÏÍÍ",
+   "current_name": "Type9m3f_DBC4",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÏÌÍÎÌÏÍÏÎÌÏÍÍÍÏÍÎÌÎÍÌ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÏÏÎÎÏÏÌÍÌÌÎÍÏÎÌÍÎÎÍÏÎ",
+   "current_name": "Type8m3f_3C6B",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÏÎÎÏÌÎÏÎÎÍÎÌÎÏÎÍÏÍÍÌ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÎÏÌÎÌÍÍÌÏÎÍÎÍÌÌÏÌÌÌÏ",
+   "current_name": "Type11m2f_FE21",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÏÌÎÎÏÍÌÏÌÏÌÍÎÎÌÌÏÎÍÍ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÍÎÌÏÏÎÍÏÎÏÎÎÎÎÌÏÎÎÎÎÎ",
+   "current_name": "Type10m1f_3577",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÏÌÎÎÏÍÌÏÌÏÌÍÎÎÌÌÏÎÍÍ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÎÍÎÍÎÌÍÌÏÏÌÏÌÏÍÌÌÍÎÎÌ",
+   "current_name": "Type8m2f_0463",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÏÍÍÏÏÎÎÍÌÌÏÏÏÎÏÌÏÏÌÌÍ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÍÌÏÎÍÌÎÏÌÍÏÌÌÏÏÎÎÎÌÎ",
+   "current_name": "Type8m2f_97CF",
+   "score": 6.515,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÍÌÏÌÏÏÏÏÌÎÌÍÍÎÌÌÏÏÌÏ",
+     "type": "VRC.Core.ApiWorldInstance"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÍÎÍÌÍÏÍÌÎÏÍÎÌÌÌÍÌÍÏÍ",
+   "current_name": "Texturek__BackingFieldComponenSibling_E368",
+   "score": 6.407,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÍÏÍÌÍÍÏÌÏÎÎÌÎÍÎÌÏÍÍÌ",
+     "type": "VRC.SDKBase.Validation.Performance.PerformanceRating"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÌÌÍÎÎÌÏÍÏÎÎÎÌÌÌÏÍÏÎÌ",
+   "current_name": "Type8m2f_1904",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÎÏÎÍÌÌÌÏÌÌÎÏÏÎÎÎÍÎÍÎÍ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÏÏÍÎÌÌÎÎÏÏÎÌÌÎÎÍÌÏÎÍ",
+   "current_name": "Type8m2f_15F0",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÌÎÎÍÎÎÌÍÌÌÍÎÏÎÌÏÌÌÌÌÎ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÎÎÌÍÍÎÏÎÏÌÌÎÍÏÍÏÏÎÌÌ",
+   "current_name": "Type10m3f_F204",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÎÎÍÏÏÍÌÌÏÌÌÎÌÍÍÎÏÏÍÌ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÏÎÍÏÌÌÌÌÌÏÏÌÏÍÎÌÏÌÍÍÍ",
+   "current_name": "Type10m3f_C13F",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÌÏÍÌÍÍÌÍÍÌÎÎÌÏÎÏÎÌÌÍÍ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÌÎÌÍÎÌÎÎÏÍÏÎÍÌÍÌÏÏÎÏÌ",
+   "current_name": "Service22m_7F6D",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÌÎÌÌÌÎÎÌÎÌÎÏÎÏÌÌÌÎÍÍ",
+     "type": "System.Delegate"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÏÏÏÍÎÏÏÌÏÎÎÌÎÍÎÌÏÏÎÌÏ",
+   "current_name": "Type9m2f_C0F8",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÌÏÏÍÌÎÎÏÍÏÏÍÏÎÎÌÍÌÍÏÎ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÌÏÌÍÏÎÎÌÍÌÌÏÎÌÌÏÍÌÏÎ",
+   "current_name": "Type10m2f_4A89",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÌÌÎÌÏÌÏÎÎÏÏÌÏÌÏÌÍÌÎÎÏ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÎÎÏÍÏÍÌÏÏÏÌÎÏÎÌÍÍÎÏÎ",
+   "current_name": "Type11m3f_2751",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÌÏÏÌÎÎÎÏÍÍÍÎÎÌÍÏÌÌÎÌ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÍÌÎÌÎÌÎÏÏÎÌÏÍÍÎÎÌÌÍÏ",
+   "current_name": "BackingFieldBaseImpl_BE25",
+   "score": 6.309,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÍÎÎÏÌÏÌÎÌÎÎÌÌÎÏÏÏÎÏÏÌ",
+     "type": "VRC.Core.APIUser"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÍÌÍÎÌÌÎÎÌÏÏÏÎÍÍÌÎÎÏÌ",
+   "current_name": "Type7m2f_6B77",
+   "score": 6.158,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÍÌÏÏÌÌÏÍÏÍÏÌÏÍÎÍÎÌÌÎÌ",
+     "type": "UnityEngine.Bounds"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÎÏÏÎÏÌÏÍÍÍÎÎÌÏÌÌÎÍÏÏÎ",
+   "current_name": "Delegate_DD17",
+   "score": 6.051,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "BeginInvoke",
+     "type": "System.AsyncCallback"
+    },
+    {
+     "method": "EndInvoke",
+     "type": "System.IAsyncResult"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÎÏÎÍÎÍÎÏÏÎÎÎÏÌÌÏÎÏÎÏ",
+   "current_name": "Delegate_8342",
+   "score": 6.051,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "BeginInvoke",
+     "type": "System.AsyncCallback"
+    },
+    {
+     "method": "EndInvoke",
+     "type": "System.IAsyncResult"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÌÍÏÏÎÌÌÍÌÌÎÏÏÎÌÎÎÌÍÌ",
+   "current_name": "Delegate_AEEB",
+   "score": 6.051,
+   "distinct_types": 2,
+   "signal_params": [
+    {
+     "method": "BeginInvoke",
+     "type": "System.AsyncCallback"
+    },
+    {
+     "method": "EndInvoke",
+     "type": "System.IAsyncResult"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÌÍÍÍÍÏÎÌÌÎÏÌÌÌÍÌÌÍÌÍ",
+   "current_name": "Type9m2f_81A5",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÏÌÌÏÎÍÌÌÌÏÌÍÍÏÌÎÏÎÎÍ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÍÎÏÌÏÌÎÌÌÎÏÌÍÎÎÏÍÌÍÌ",
+   "current_name": "Playerk__BackingFieldComponentSibling_1E18",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÏÏÎÏÌÌÏÎÍÎÍÎÏÏÏÏÏÍÌÏ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÍÍÏÌÍÏÎÍÏÏÎÎÎÌÌÎÍÏÏÎ",
+   "current_name": "ComplexComponentSibling_3111",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÌÍÌÎÌÍÍÏÍÎÍÍÌÎÎÍÏÎÌÎÏ",
+     "type": "UnityEngine.Animator"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÌÍÌÍÏÎÍÏÎÎÏÏÎÍÍÍÌÍÍÌ",
+   "current_name": "BackingFieldBase_k__BackingFieldImpl_26F9",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÏÍÌÍÏÎÎÎÎÎÍÍÏÎÌÎÍÌÍÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÌÌÌÍÌÌÎÌÍÎÎÏÍÍÎÍÎÎÍÍÍ",
+   "current_name": "Type8m2f_82FF",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÏÍÎÎÎÎÏÌÎÏÌÍÍÍÌÎÍÌÌÌ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÏÌÎÌÌÌÎÌÎÌÎÎÍÎÎÌÏÏÍÍÎ",
+   "current_name": "BackingFieldBase_k__BackingField_k__BackingField_258C",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÍÏÌÎÌÎÏÍÎÎÌÏÌÍÌÌÌÍÏÏ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÏÍÏÍÌÎÎÎÍÏÏÏÎÎÎÍÍÎÏÏÏ",
+   "current_name": "Type11m3f_C8E7",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÏÏÏÍÌÍÎÍÏÌÎÌÌÍÌÌÎÌÏÌÌ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÍÏÌÏÌÎÏÍÍÏÌÌÍÏÍÌÏÏÎÌÎ",
+   "current_name": "Type10m1f_0E34",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÌÌÎÌÌÍÌÍÎÎÍÏÏÎÍÍÌÍÏÎÍ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÎÎÏÎÎÍÏÍÎÎÏÍÎÏÎÌÍÏÎÎ",
+   "current_name": "Type8m3f_9893",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÏÏÍÍÎÎÍÎÏÌÌÍÌÍÏÏÎÌÌÎÍ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÌÌÏÎÏÌÍÎÎÏÏÍÌÍÏÎÏÍÏÏÎ",
+   "current_name": "Type10m4f_7930",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÏÎÏÌÏÍÏÎÏÍÌÏÌÌÎÏÌÎÎÌ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÏÌÌÏÍÌÎÍÍÍÍÏÍÍÎÌÏÌÎÏÍ",
+   "current_name": "Type8m3f_23A9",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÎÏÎÏÎÎÌÌÏÍÎÍÍÏÏÎÏÏÏÎÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÎÌÎÍÎÎÌÌÌÍÍÎÎÌÍÍÍÎÎÌ",
+   "current_name": "Type7m1f_0D57",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÏÎÍÌÌÏÎÎÌÎÌÌÍÏÍÎÎÎÍÏÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÎÍÍÎÏÎÎÍÎÏÌÌÏÎÎÏÍÌÎÍÎ",
+   "current_name": "Type8m1f_B045",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÏÍÎÌÏÌÌÎÎÏÍÎÏÍÌÍÎÏÎÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÎÍÍÎÍÎÏÍÌÍÏÏÌÍÏÌÌÍÍÍ",
+   "current_name": "BackingFieldBase_k__BackingField_E6CA",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÏÏÎÏÌÌÏÎÍÎÍÎÏÏÏÏÏÍÌÏ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÌÌÏÍÌÍÎÏÏÏÎÎÍÍÏÌÎÌÎÎÌ",
+   "current_name": "Type7m1f_11C8",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÍÍÏÏÎÍÏÏÍÌÎÎÎÍÏÎÎÌÏÍ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÏÌÍÎÍÌÌÏÌÌÎÎÍÍÌÎÎÎÎÌ",
+   "current_name": "Type9m2f_18F7",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÏÎÍÌÍÏÍÎÌÍÍÏÌÏÍÌÌÌÏÍÍ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÎÍÍÎÌÍÏÎÎÎÏÌÌÌÎÍÎÎÍÏÌ",
+   "current_name": "Type8m1f_4983",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÎÏÎÍÍÏÍÎÌÍÍÏÏÌÎÎÎÌÍÎÌ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÌÏÌÎÌÏÏÏÎÌÌÏÎÏÎÏÍÏÌÏ",
+   "current_name": "BackingFieldBase_k__BackingField_k__BackingField_k__BackingField_900F",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÏÍÌÍÏÎÎÎÎÎÍÍÏÎÌÎÍÌÍÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÌÌÎÍÎÎÍÌÎÏÏÎÌÍÎÍÏÌÌÍ",
+   "current_name": "Type8m2f_753A",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÌÎÌÌÌÎÎÍÏÎÍÌÌÎÌÌÏÎÍÌÏ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÏÎÍÌÏÏÍÍÏÎÌÏÎÌÏÎÏÎÌÎ",
+   "current_name": "BackingFieldBase_k__BackingField_k__BackingField_k__BackingField_0BDC",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÌÏÌÌÎÏÍÍÍÏÍÌÎÍÍÌÍÏÎÏÌ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÏÌÏÍÎÍÍÌÎÏÌÎÍÏÏÍÍÌÌÌ",
+   "current_name": "Type10m2f_8A93",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÍÏÌÏÌÌÌÌÏÍÏÍÎÎÏÌÍÍÌÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÌÏÎÌÏÍÎÏÎÍÎÏÍÌÎÌÌÌÏÏ",
+   "current_name": "BackingFieldBase_k__BackingField_k__BackingField_k__BackingField_D6D5",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÌÏÌÌÎÏÍÍÍÏÍÌÎÍÍÌÍÏÎÏÌ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÏÌÍÎÏÌÏÍÏÌÍÏÍÏÌÍÌÍÌÍ",
+   "current_name": "Type10m2f_B2F1",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÍÌÍÍÎÌÎÍÏÍÌÎÎÌÍÍÏÌÌÏÌ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÌÍÎÎÍÍÎÏÏÌÍÍÎÏÏÌÍÌÎÍ",
+   "current_name": "BackingFieldBase_k__BackingField_k__BackingField_3C6E",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÏÍÌÍÏÎÎÎÎÎÍÍÏÎÌÎÍÌÍÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÍÍÍÏÍÌÍÎÍÍÍÌÍÏÏÏÌÌÌÍÎ",
+   "current_name": "Type8m1f_E77C",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÏÎÎÎÏÏÎÌÎÌÌÌÎÌÏÍÍÎÎÍÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÏÍÌÍÎÌÌÎÌÍÍÎÌÌÏÌÎÎÌÌÏ",
+   "current_name": "BackingFieldBase_k__BackingField_k__BackingField_4DA2",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÏÍÌÍÏÎÎÎÎÎÍÍÏÎÌÎÍÌÍÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÏÌÏÏÎÍÍÌÎÏÎÎÏÌÏÍÌÎÍÍ",
+   "current_name": "Type7m1f_4F65",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÏÍÍÌÌÍÍÎÌÎÏÎÏÎÏÌÍÌÏÍÍ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÌÍÍÍÎÍÌÎÍÎÎÎÌÌÎÎÎÏÌÌ",
+   "current_name": "Type10m2f_0B37",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÍÌÍÍÎÌÎÍÏÍÌÎÎÌÍÍÏÌÌÏÌ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÏÌÏÌÍÏÌÎÍÌÎÌÎÏÏÍÌÎÏÎ",
+   "current_name": "BackingFieldBase_k__BackingField_k__BackingField_k__BackingField_499F",
+   "score": 6.01,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÏÍÌÍÏÎÎÎÎÎÍÍÏÎÌÎÍÌÍÎ",
+     "type": "VRC.Core.ApiInventoryItem"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÌÌÍÍÏÎÏÎÏÎÌÌÍÏÎÍÏÍÎÌÌ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_FE76",
+   "score": 5.976,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+     "type": "Content"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÌÏÎÏÎÏÌÏÎÏÏÍÍÍÌÌÏÍÌÍÍ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_22E2",
+   "score": 5.976,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+     "type": "Content"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÏÍÍÏÌÏÎÎÌÎÏÎÎÎÏÏÌÏÌÎ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_3534",
+   "score": 5.976,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+     "type": "Content"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÌÍÏÎÍÍÎÌÍÎÌÌÏÌÌÏÍÎÏÎ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_3360",
+   "score": 5.976,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+     "type": "Content"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÍÎÍÎÏÏÌÎÏÌÌÏÍÍÎÎÍÏÎÏÌ",
+   "current_name": "Type12m2fImpl_4F9A",
+   "score": 5.976,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "Content"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÏÏÎÍÍÍÎÍÍÎÎÍÎÌÍÍÎÍÌÏÍ",
+   "current_name": "BaseClass45Impl_05B5",
+   "score": 5.976,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÌÍÌÍÏÏÍÍÎÍÎÍÏÎÌÏÌÎÍÍ",
+     "type": "Content"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÌÏÌÍÌÌÌÌÌÍÎÎÌÌÌÎÏÌÎÏ",
+   "current_name": "Static1m_3485",
+   "score": 5.927,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÏÍÏÏÌÌÌÌÎÏÍÍÏÌÌÌÍÍÌÌÏ",
+     "type": "UnityEngine.Matrix4x4"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÍÌÌÎÌÎÌÎÌÎÍÌÌÎÍÌÎÏÌÌÍ",
+   "current_name": "BaseClass45_D92C",
+   "score": 5.808,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ToString",
+     "type": "System.IFormatProvider"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÎÍÌÏÌÎÌÍÍÎÍÏÎÎÌÍÏÍÍÏÏ",
+   "current_name": "BaseClass45Impl_4142",
+   "score": 5.808,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ToString",
+     "type": "System.IFormatProvider"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÎÎÌÍÎÏÎÎÎÏÎÏÍÍÎÏÍÎÍÏÍ",
+   "current_name": "BaseClass45Impl_205F",
+   "score": 5.808,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ToString",
+     "type": "System.IFormatProvider"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÌÌÎÍÏÍÍÍÍÎÎÎÌÎÌÎÏÎÏÍ",
+   "current_name": "BaseClass45Impl_0D93",
+   "score": 5.808,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ToString",
+     "type": "System.IFormatProvider"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÏÍÍÏÎÏÏÏÌÏÏÍÏÏÏÎÌÍÍÍ",
+   "current_name": "BaseClass290Impl_k__BackingFieldImpl_21C8",
+   "score": 5.808,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.Sprite"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÌÌÌÍÌÌÎÍÏÌÍÍÏÌÎÍÏÍÎÌ",
+   "current_name": "LifecycleComponentSibling_3FC0",
+   "score": 5.651,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÏÌÏÍÍÎÌÌÍÎÎÌÎÎÌÌÎÏÍÏ",
+     "type": "UnityEngine.Rect"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÎÍÏÍÍÌÌÏÍÏÏÍÎÏÏÌÌÌÍÌ",
+   "current_name": "Struct5f_1819",
+   "score": 5.651,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.Rect"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÍÎÏÏÌÌÎÌÏÏÎÎÏÏÏÎÎÏÌÎÏ",
+   "current_name": "Type5m1f_BE1E",
+   "score": 5.616,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÍÎÏÏÎÌÍÍÏÎÎÌÏÏÌÏÌÍÎÌÍ",
+     "type": "System.Uri"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÍÎÌÏÏÌÍÌÏÍÏÏÍÍÎÎÎÏÍÏÎ",
+   "current_name": "Type8m1f_5E8C",
+   "score": 5.604,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÎÎÏÌÎÏÎÌÎÏÍÍÌÍÍÏÍÏÎÏÍ",
+     "type": "UnityEngine.Material"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÌÏÌÎÏÎÏÏÌÏÎÏÍÍÌÏÍÎÌÌ",
+   "current_name": "Type11m1f_A834",
+   "score": 5.604,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÎÎÎÍÎÏÍÏÏÏÎÏÏÌÏÎÏÌÍÎ",
+     "type": "UnityEngine.Material"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÎÎÍÌÎÎÌÏÎÏÌÎÎÏÌÍÎÌÏÌ",
+   "current_name": "Type7m2f_AF50",
+   "score": 5.455,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÎÎÎÌÏÎÏÍÌÌÏÍÏÌÍÍÎÌÍÍÍ",
+     "type": "System.Collections.IList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÌÎÌÎÌÍÍÌÍÌÌÏÎÎÍÍÌÎÎÏ",
+   "current_name": "Type14m2f_920A",
+   "score": 5.455,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÌÌÎÍÌÌÎÌÎÏÍÎÌÍÍÏÏÏÎÎ",
+     "type": "System.Collections.IList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÌÌÏÎÏÏÎÌÎÏÍÏÌÌÌÏÏÍÎÏ",
+   "current_name": "Type10m1f_AD2D",
+   "score": 5.455,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÏÏÌÍÏÏÎÌÏÍÍÍÍÍÏÏÏÌÏÏÏ",
+     "type": "System.Collections.IList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÍÏÎÎÎÍÏÏÏÎÎÍÎÏÍÎÍÌÌÍÍ",
+   "current_name": "BaseClass7Sibling_4F24",
+   "score": 5.455,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÏÏÎÌÎÏÎÍÌÍÏÏÎÍÏÍÍÍÍÍÎ",
+     "type": "System.Collections.IList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÏÌÎÎÌÏÌÏÎÏÏÌÎÏÏÌÏÍÌÍ",
+   "current_name": "BaseClass45Impl_2367",
+   "score": 5.455,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÌÏÍÏÍÎÎÌÌÌÍÍÏÍÎÎÎÎÏÌ",
+     "type": "System.Collections.IList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÍÎÎÎÍÎÍÌÏÌÍÎÍÏÍÏÏÏÏÏ",
+   "current_name": "BaseClass45Impl_0B6F",
+   "score": 5.455,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÎÏÌÍÍÎÌÍÌÍÎÌÎÎÏÏÍÏÌÏÎ",
+     "type": "System.Collections.IList"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÏÎÌÍÍÍÏÎÍÍÏÏÍÍÌÌÍÎÌÌÍ",
+   "current_name": "Type4m2f_8150",
+   "score": 5.436,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÍÌÍÎÎÏÌÎÎÎÎÎÍÏÏÍÎÌÍÍÏ",
+     "type": "UnityEngine.Camera"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÏÌÎÌÎÌÎÏÏÎÏÎÌÏÍÏÌÍÌÏÌ",
+   "current_name": "Type10m2f_31C2",
+   "score": 5.436,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÎÍÌÎÍÏÏÏÏÍÌÎÎÌÏÌÏÍÍÎÎ",
+     "type": "UnityEngine.Camera"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÏÌÍÌÍÌÌÍÎÏÍÌÎÏÏÌÎÌÎÌÍ",
+   "current_name": "Type10m3f_94CE",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÏÌÍÎÎÏÎÏÌÏÏÏÌÎÏÌÎÏÎÍ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÏÌÌÎÍÍÍÎÌÍÏÍÍÍÏÏÎÍÏÏ",
+   "current_name": "Type9m2f_4267",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÌÌÏÍÍÎÎÎÏÌÎÎÌÎÌÎÎÍÎÍ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÎÌÎÌÍÌÌÌÍÍÏÌÎÏÎÍÌÌÌÌÌ",
+   "current_name": "Type10m2f_D6DB",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÌÌÍÏÎÍÌÎÍÍÌÌÏÎÏÏÌÏÍÎ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÍÌÌÎÍÍÎÍÌÎÍÏÍÌÏÏÍÏÏÌÍ",
+   "current_name": "Type9m3f_19D7",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÏÏÍÎÌÎÎÏÏÍÏÏÌÍÌÍÏÎÍÏÍ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÎÌÎÏÏÏÍÏÌÎÏÏÏÌÌÎÎÌÍÌ",
+   "current_name": "Type7m3f_0A21",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÏÏÍÎÌÎÎÏÏÍÏÏÌÍÌÍÏÎÍÏÍ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÌÎÌÍÍÌÍÌÍÎÎÏÏÍÏÍÎÎÌÏ",
+   "current_name": "Type7m2f_2FAB",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÏÎÎÏÎÏÍÎÍÏÎÍÎÎÌÎÎÍÌÍ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÏÍÏÍÌÏÌÌÌÎÏÍÌÍÎÌÏÌÎÍ",
+   "current_name": "Type7m2f_901D",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÎÍÎÎÎÌÏÏÌÏÏÏÍÍÌÎÎÌÌÏÏ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÌÏÌÌÎÎÏÎÌÌÏÎÎÎÍÍÎÏÏÌ",
+   "current_name": "Type10m2f_8EC9",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÍÍÌÎÌÌÏÍÌÏÎÏÎÍÏÌÍÍÏÎ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÌÌÌÌÏÌÏÍÏÏÏÌÏÌÎÌÎÏÍÍ",
+   "current_name": "BackingFieldBase_k__BackingField_4A58",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÏÍÍÎÍÏÏÎÌÏÌÌÎÌÌÌÌÏÍÏÎ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÎÍÏÍÍÍÍÍÎÏÏÏÍÌÍÎÏÌÍÍ",
+   "current_name": "Type10m2f_B701",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÏÎÍÏÌÍÏÏÍÎÌÎÍÌÌÍÍÌÌÌ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÎÌÎÎÍÎÏÍÏÎÎÌÌÍÏÌÏÍÌÎ",
+   "current_name": "Type11m2f_CC6A",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÏÍÍÎÌÍÏÏÌÍÎÌÎÎÍÌÏÌÌÍÏ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÏÍÍÏÎÏÎÏÎÌÏÎÏÍÏÎÏÎÏÌ",
+   "current_name": "Type7m2f_1013",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÎÎÌÌÎÌÎÌÌÎÌÎÌÏÏÌÌÌÏÌÏ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÏÎÍÏÏÌÌÎÌÏÌÏÎÏÍÍÎÍÎÍÎ",
+   "current_name": "Static18m_533D",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÌÌÍÎÏÌÍÎÎÎÎÌÍÎÏÌÎÏÍÏ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÏÍÌÎÏÌÌÎÌÌÍÌÎÎÌÌÎÎÎÎ",
+   "current_name": "BaseClass290ImplImplImpl_98ED",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÏÎÌÌÏÏÏÍÏÏÌÌÏÍÍÌÎÌÏÏ",
+   "current_name": "PictureManagerSibling_CF6C",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÎÎÏÌÏÎÏÌÌÍÏÍÍÌÌÎÏÌÎÌÌ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÌÌÎÏÍÌÍÍÎÎÍÍÍÌÍÌÎÌÎÌÍ",
+   "current_name": "k__BackingFieldComponentSibling_B28A",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÌÍÍÌÌÏÍÌÌÍÌÏÎÏÌÌÌÍÎÏÍ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÍÌÍÎÌÍÌÏÌÌÏÍÏÏÌÌÏÍÏÎ",
+   "current_name": "Static1m_9158",
+   "score": 5.234,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÏÍÍÏÏÍÎÍÏÎÌÌÎÌÏÌÍÏÍÎÌ",
+     "type": "UnityEngine.Texture2D"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÌÎÍÌÏÌÍÏÏÍÏÏÌÌÍÌÎÎÏÍÏ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_6289",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÍÏÌÏÏÎÏÌÍÏÍÌÎÎÎÌÎÍÌÍ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÏÍÌÎÌÎÍÏÎÎÏÏÏÌÏÍÎÏÌÌÏ",
+   "current_name": "BackingFieldBase_k__BackingField_16A1",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÌÏÎÌÏÌÎÌÌÌÏÏÏÍÎÍÏÌÍÎÏ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÎÌÍÍÎÌÍÌÌÍÏÌÍÌÌÎÏÏÎÏ",
+   "current_name": "Type13m3f_4984",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÏÍÎÍÎÌÏÍÏÏÏÌÍÏÏÏÎÌÎÌ",
+     "type": "System.Text.StringBuilder"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÏÍÏÌÍÌÏÌÍÏÏÌÌÍÌÍÎÍÎÏ",
+   "current_name": "Type10m2f_C5EE",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÏÌÌÌÏÏÍÏÍÏÍÎÎÌÌÏÌÏÏÌ",
+     "type": "System.Text.StringBuilder"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÍÎÌÌÌÍÎÌÎÎÏÍÏÌÍÎÌÌÏÏÍ",
+   "current_name": "BackingFieldBase_k__BackingField_3034",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÍÏÌÍÍÍÎÎÍÌÌÌÎÏÏÌÍÏÍÌÍ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÍÏÎÍÏÍÎÏÍÎÍÏÏÌÍÎÏÍÎÎ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_20EF",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÏÎÍÎÏÎÎÍÍÏÏÍÌÏÍÌÍÍÍÎ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÎÎÌÍÏÌÎÌÏÍÍÏÎÏÎÏÏÏÎÌ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_4C73",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÌÏÎÌÏÌÎÌÌÌÏÏÏÍÎÍÏÌÍÎÏ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÍÏÌÍÍÏÎÍÎÎÍÎÍÎÏÎÎÏÌÌÍ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_DC57",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÍÏÌÍÍÍÎÎÍÌÌÌÎÏÏÌÍÏÍÌÍ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÍÎÍÏÍÌÍÎÌÏÎÌÍÌÌÌÌÍÏÌ",
+   "current_name": "BackingFieldBase_16D7",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÌÎÌÎÎÍÏÎÏÍÏÎÍÍÌÌÎÍÌÍÏ",
+     "type": "System.Text.StringBuilder"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÍÌÏÎÎÍÎÌÌÎÎÏÌÌÏÎÌÌÏÎ",
+   "current_name": "BackingFieldBaseImpl_DAE3",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÌÎÌÎÎÍÏÎÏÍÏÎÍÍÌÌÎÍÌÍÏ",
+     "type": "System.Text.StringBuilder"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÎÍÏÌÏÎÌÍÎÏÍÌÎÏÌÎÍÍÌÍÏ",
+   "current_name": "BackingFieldBaseImpl_AAB5",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÌÎÌÎÎÍÏÎÏÍÏÎÍÍÌÌÎÍÌÍÏ",
+     "type": "System.Text.StringBuilder"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÌÍÌÎÏÌÍÏÎÌÏÎÎÍÌÏÎÎÎÌ",
+   "current_name": "BackingFieldBase_k__BackingField_AEFC",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÌÎÌÎÎÍÏÎÏÍÏÎÍÍÌÌÎÍÌÍÏ",
+     "type": "System.Text.StringBuilder"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÎÎÏÌÍÍÏÎÎÏÎÎÌÎÏÌÎÏÎÍÍ",
+   "current_name": "k__BackingFieldSibling_4EF5",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÌÎÍÌÌÎÌÏÍÍÎÎÍÌÍÏÎÌÎÏ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÍÏÎÎÎÏÏÍÎÎÎÎÌÍÍÌÌÌÍÎÍ",
+   "current_name": "Static3m_9144",
+   "score": 4.917,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÏÎÌÍÍÌÏÎÍÍÍÏÌÌÌÍÏÍÏÎÏ",
+     "type": "System.DateTime"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÎÌÏÏÍÌÍÍÎÌÏÏÌÌÍÏÎÍÎÎ",
+   "current_name": "Type7m2f_037D",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÍÍÏÍÌÎÎÏÎÎÏÏÎÍÍÍÌÎÏÌ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÍÎÍÎÍÌÎÍÍÎÏÌÎÏÌÍÎÎÍÏÍ",
+   "current_name": "Type8m2f_AC84",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÎÎÍÏÏÏÍÌÌÏÎÎÎÎÌÌÏÍÎÎ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÌÏÏÌÌÏÌÏÌÏÍÌÌÌÌÏÏÏÌÎ",
+   "current_name": "Type10m1f_79BF",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÎÌÏÍÏÌÍÌÍÎÍÍÌÌÌÎÌÎÍÎ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÎÍÏÏÍÎÍÌÌÏÍÎÍÎÎÌÎÌÎÌÎ",
+   "current_name": "Type9m2f_218A",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÎÍÌÌÎÍÏÌÍÎÌÎÍÍÎÎÎÏÌÍÌ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÌÌÎÍÎÌÎÌÏÍÌÎÌÎÎÍÍÏÎÎ",
+   "current_name": "Type9m1f_2837",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÎÌÌÎÍÎÍÍÎÌÌÌÏÏÌÌÏÏÍÌ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÏÏÌÍÍÍÏÎÌÌÎÍÏÌÌÍÎÏÍÏ",
+   "current_name": "Type10m1f_C501",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÍÌÎÍÏÍÎÏÌÍÎÎÏÎÏÍÍÏÍÏÌ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÎÌÎÏÍÍÌÎÍÌÌÎÎÌÎÍÌÍÏÍÍ",
+   "current_name": "Type8m1f_9DD1",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÍÏÎÍÎÏÌÏÌÌÍÌÎÍÌÍÌÍÍÌÍ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÏÌÏÌÏÎÏÌÌÏÏÌÏÏÌÌÍÎÌÍÍ",
+   "current_name": "Type10m1f_DF70",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÌÎÎÌÍÌÍÎÏÍÏÍÌÍÏÏÌÍÌÏÎ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÍÍÏÌÌÏÌÌÏÍÌÍÍÏÎÏÏÍÌÏ",
+   "current_name": "Type10m1f_2A37",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÎÍÏÍÏÌÍÎÎÍÏÌÏÎÎÎÏÎÏÏ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÌÏÌÏÌÌÏÎÎÌÌÍÎÏÌÍÎÎÌÍ",
+   "current_name": "Type8m2f_C010",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÏÏÏÎÌÌÎÍÌÎÎÍÎÏÌÌÌÏÌÍÎ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÎÎÍÍÌÌÌÌÎÏÍÍÍÌÎÎÍÏÍÌ",
+   "current_name": "Type10m1f_EB36",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÍÏÎÍÏÎÍÏÏÍÍÎÌÎÍÎÏÌÏÍÏ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÍÎÎÍÏÍÎÏÍÍÎÎÎÍÎÍÏÎÎÌÏ",
+   "current_name": "VRCUiManagerSibling_78C1",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÎÍÏÍÍÌÏÏÌÌÏÌÌÌÌÏÍÎÎÎÏ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÎÌÌÎÎÌÏÍÌÍÎÍÍÎÎÏÎÎÎÍÍ",
+   "current_name": "Type8m4f_F257",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÍÎÌÎÏÌÌÏÍÎÌÌÌÏÍÏÏÍÎÌ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÌÍÎÏÍÌÌÌÎÍÌÏÏÍÏÏÏÌÎÌ",
+   "current_name": "Static16m_1554",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÍÎÌÎÎÌÏÏÍÌÌÍÍÍÎÍÍÌÍÍ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÍÌÎÏÍÌÎÏÏÍÍÏÎÏÎÍÎÍÏÍ",
+   "current_name": "BaseClass7ImplImpl_352A",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÌÏÌÎÏÍÎÎÍÏÏÏÏÍÎÌÏÎÌÎÏ",
+   "current_name": "Static2m_5C8B",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÌÎÍÍÌÎÏÎÍÏÎÏÍÎÏÍÌÏÎÍÏ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÌÌÌÍÍÍÍÎÏÎÍÍÍÌÍÌÏÏÌÏÍ",
+   "current_name": "UICalculateLayoutInputHorRelated_3712",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÏÌÌÍÍÌÎÎÎÌÏÍÏÍÎÍÏÍÏÏ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÎÏÏÏÍÏÎÌÌÌÎÌÌÌÏÍÎÍÌÍ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_C043",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÍÌÎÏÌÏÎÎÌÌÍÎÎÏÏÍÎÌÎÎÌ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÍÌÌÍÍÍÎÌÍÌÏÏÍÎÌÎÍÍÍÎ",
+   "current_name": "Static16m_A4E8",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÎÌÏÍÎÎÌÍÎÍÍÌÍÍÎÎÎÎÏÍ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÎÏÌÎÌÏÏÎÌÏÍÎÍÍÏÌÎÌÏÌ",
+   "current_name": "Playerk__BackingFieldComponentSibling_FE10",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÌÌÎÌÌÏÍÎÍÏÏÍÎÍÍÎÍÎÏÍÍ",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÏÎÎÎÏÍÌÌÎÍÏÏÍÏÌÌÎÌÎÍ",
+   "current_name": "BackingFieldBase_k__BackiRelated_408D",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÍÎÏÏÌÍÏÍÏÍÍÏÏÌÌÏÍÍÎÍÏ",
+   "current_name": "BackingFieldBaseImplSibling_40F6",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÏÍÍÍÍÏÍÏÍÍÌÌÍÌÎÍÎÏÌÌÎ",
+   "current_name": "BaseClass5Impl_D8F7",
+   "score": 4.742,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "VRC.Localization.LocalizableString"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÎÎÏÍÎÎÎÏÏÌÏÍÍÍÌÍÌÍÌÎ",
+   "current_name": "Type10m3f_4B8E",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÌÌÏÏÌÍÎÍÌÏÎÏÏÍÎÌÎÌÎÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÌÏÏÎÍÏÏÎÏÏÏÌÏÏÌÏÎÎÎÌ",
+   "current_name": "Type11m3f_7D31",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÎÎÍÏÌÏÎÏÌÌÏÌÏÍÎÍÏÎÌÍÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÎÎÎÌÌÎÍÏÌÍÎÎÌÎÍÍÌÍÎÍ",
+   "current_name": "Type10m3f_E5AE",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÌÍÌÍÏÎÍÏÎÍÎÏÏÎÏÍÍÍÎÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÏÍÎÌÌÎÏÍÍÎÏÎÍÍÏÎÎÏÏÍ",
+   "current_name": "Type8m1f_51A2",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÏÎÎÍÍÌÏÍÍÍÏÏÎÍÍÍÏÏÌÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÌÏÌÎÍÏÌÌÌÍÏÏÏÌÏÏÍÏÌÏ",
+   "current_name": "Type8m1f_FBD9",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÏÎÌÍÌÎÌÎÌÎÎÏÎÌÌÏÏÎÌÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÌÍÎÏÍÍÌÎÍÏÏÍÏÏÏÌÎÍÌÎ",
+   "current_name": "Type11m3f_447C",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÍÏÌÍÌÍÍÌÍÌÏÎÎÎÎÎÌÎÌÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÍÎÏÌÏÍÌÍÏÌÏÏÌÌÏÌÎÏÎÎÌ",
+   "current_name": "Type11m3f_3474",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÎÌÏÎÍÍÏÍÍÌÏÏÎÌÍÎÍÍÌÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÌÏÎÎÌÎÏÎÎÍÍÏÏÎÎÌÏÏÏÏ",
+   "current_name": "Type8m1f_F735",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÏÏÌÍÌÏÎÏÌÌÌÍÎÍÏÍÏÏÏÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÌÏÍÏÏÎÍÏÏÍÎÌÍÏÍÎÌÌÏÌÌ",
+   "current_name": "Type7m1f_2555",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÏÏÎÎÍÎÎÍÎÎÎÏÎÎÌÏÌÏÏÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÍÎÏÌÍÏÍÌÎÌÏÌÍÎÏÍÎÍÎÏÌ",
+   "current_name": "Type10m3f_5947",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÏÍÎÏÎÌÌÎÏÌÍÍÍÌÌÏÌÎÌÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÌÎÏÏÍÏÍÎÍÍÎÌÎÍÍÌÌÎÎÍÍ",
+   "current_name": "Type9m3f_64A9",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÌÌÌÌÏÌÎÏÏÏÍÍÏÌÏÍÎÏÌÏÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÍÌÎÍÍÏÏÌÏÍÎÌÌÏÌÌÎÏÍÌÌ",
+   "current_name": "Type12m2f_B7E6",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÍÏÎÎÌÍÏÌÌÌÎÍÍÏÏÍÏÏÏÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÌÏÍÎÎÍÏÎÎÌÌÍÎÍÏÎÎÏÍÍÏ",
+   "current_name": "Type8m2f_8575",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÌÏÍÍÍÎÎÍÏÎÏÍÍÌÎÎÌÍÌÏÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÌÍÏÎÌÌÍÏÏÌÏÍÎÍÏÏÌÌÌÌ",
+   "current_name": "Type10m1f_CC5E",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÍÍÏÎÏÍÍÌÏÏÎÌÎÏÏÌÌÌÍÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÍÏÌÌÍÍÍÌÍÏÍÌÏÍÎÎÍÍÌÍ",
+   "current_name": "Type8m2f_6032",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÌÎÏÌÏÌÌÎÎÏÌÌÏÌÎÎÍÌÏÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÍÍÍÍÌÌÎÏÍÏÍÏÎÌÎÎÎÌÍÏÎ",
+   "current_name": "Type11m3f_DB7C",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÏÎÍÎÍÏÎÎÌÏÎÌÏÎÏÌÏÌÎÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÎÎÌÌÎÌÏÎÌÏÍÎÍÌÎÏÎÎÏÍÎ",
+   "current_name": "Type10m1f_AF36",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÏÏÏÏÌÌÍÏÎÍÍÏÌÍÏÍÍÌÏÏÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÌÏÍÌÌÌÍÏÌÏÌÎÍÏÌÏÎÏÌÌ",
+   "current_name": "Type8m1f_40F7",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÎÍÌÎÍÏÌÎÎÌÎÌÌÍÌÎÍÎÍÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÍÍÌÏÍÌÍÍÏÎÌÎÌÏÌÏÏÌÎÌ",
+   "current_name": "Type10m1f_FCC7",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÌÏÍÎÌÍÏÌÌÌÌÍÎÌÎÏÌÎÌÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÌÍÍÏÏÏÏÍÎÍÎÍÏÌÏÍÌÎÌÏ",
+   "current_name": "Type8m1f_8739",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÍÏÎÏÏÎÎÎÍÌÏÎÌÏÏÌÍÏÏÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÍÍÏÎÎÎÍÎÎÌÏÎÍÏÎÍÍÎÍÌ",
+   "current_name": "Type10m4f_D13D",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÌÏÏÌÌÎÍÌÏÏÍÎÏÎÍÎÎÍÎÎÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÍÍÎÌÌÍÍÏÌÎÏÍÌÍÌÍÍÎÌÏ",
+   "current_name": "Type9m1f_0164",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÏÌÏÌÏÎÌÌÏÌÏÎÏÎÏÏÍÎÏÌÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÌÍÏÎÎÎÏÌÏÎÍÎÏÍÌÎÏÎÌÍ",
+   "current_name": "Type11m1f_34B5",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÌÍÏÍÍÎÍÏÏÎÏÍÌÏÌÎÌÍÏÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÏÍÏÎÌÍÎÍÍÍÎÌÎÎÏÎÌÌÌÍÌ",
+   "current_name": "Type9m2f_D6EA",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÍÌÏÏÎÌÏÎÎÌÍÌÍÏÏÌÎÏÌÌÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÍÎÍÏÏÎÏÎÎÎÍÏÍÎÌÍÎÍÎÌÏ",
+   "current_name": "Type10m2f_08C1",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÏÍÌÌÏÍÍÌÍÌÏÍÌÏÌÎÍÎÍÌÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÍÌÏÍÏÏÍÏÎÏÎÎÍÍÌÏÌÏÍÍ",
+   "current_name": "Type9m2f_1D8D",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÌÍÎÍÌÍÏÌÌÏÏÏÍÌÍÏÎÏÍÏÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÌÌÎÍÍÏÎÎÌÎÎÌÌÌÏÏÌÌÌÎ",
+   "current_name": "Type11m2f_7FB9",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÍÏÍÍÎÌÌÏÏÏÍÎÍÏÎÏÏÎÍÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÍÍÌÎÌÎÍÌÌÌÍÏÌÎÍÌÎÎÌÎÌ",
+   "current_name": "Type8m3f_6A4B",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÍÎÏÌÎÍÎÌÌÎÍÌÏÎÏÌÏÌÎÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÌÌÎÏÌÏÌÏÍÎÌÌÌÏÎÎÍÏÏÍÎ",
+   "current_name": "Type10m2f_4D83",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÏÏÏÎÏÍÌÏÍÎÏÎÎÌÍÍÏÎÎÏÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÎÎÎÏÌÌÍÍÏÌÎÏÎÌÌÌÎÎÏÌ",
+   "current_name": "Type11m2f_6AAD",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÏÌÍÎÏÏÏÎÎÍÌÏÌÍÌÌÌÏÌÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÌÎÏÎÌÌÏÎÏÎÍÏÏÏÏÎÌÌÏÌ",
+   "current_name": "Type10m2f_EA2C",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÏÎÏÍÌÍÏÎÎÍÍÌÌÎÏÏÏÍÌÍÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÏÏÎÌÎÌÎÏÍÌÏÏÌÏÍÏÌÏÏÎÌ",
+   "current_name": "Type10m2f_C414",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÌÎÍÌÏÌÎÍÎÏÍÎÍÌÎÏÌÎÍÌÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÎÍÍÎÌÌÍÍÍÍÌÌÌÎÍÌÎÌÎÎÌ",
+   "current_name": "Type8m2f_3BBA",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÌÎÍÎÍÌÏÌÌÎÎÍÌÎÏÎÎÎÏÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÍÎÎÎÍÍÌÎÏÌÏÌÌÍÏÍÍÌÍÍÍ",
+   "current_name": "Type10m2f_0E03",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÍÏÌÌÌÌÎÎÎÏÍÎÍÏÌÌÍÌÍÏÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÌÎÍÍÌÎÎÌÍÏÏÏÍÎÎÏÌÍÏÏÏ",
+   "current_name": "Type11m2f_08F1",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÏÍÌÌÎÎÏÌÏÏÍÌÍÎÌÍÎÍÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÌÍÎÍÏÏÏÍÍÏÎÍÏÏÍÌÎÌÏÍÌ",
+   "current_name": "Type8m2f_9308",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÎÏÎÌÎÎÏÌÏÌÏÌÏÎÍÌÏÎÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÌÍÎÌÌÏÏÎÍÏÌÍÏÍÎÍÍÎÏÌÌ",
+   "current_name": "Type11m2f_E565",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÏÏÌÎÏÌÌÎÏÌÌÎÏÌÎÌÎÏÏÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÌÌÌÍÎÍÌÌÌÌÌÍÌÏÌÍÏÎÎÎ",
+   "current_name": "Type10m2f_A49A",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÌÏÎÍÎÏÌÏÏÏÎÎÍÌÎÎÌÎÏÏÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÌÎÍÏÎÎÌÏÏÏÎÍÌÍÎÍÎÏÎÏÏ",
+   "current_name": "Type11m2f_7B41",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÏÌÌÌÍÍÏÏÌÌÏÍÍÍÎÌÍÌÌÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÍÏÎÏÏÍÍÎÏÎÎÏÌÎÍÍÏÏÌÌ",
+   "current_name": "Type9m3f_0760",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÏÏÌÏÌÌÌÎÍÌÎÏÍÎÎÎÍÏÏÏÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÏÍÌÍÌÍÌÏÏÌÏÍÏÎÌÍÍÍÎÌ",
+   "current_name": "Type9m2f_1305",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÌÌÎÏÏÌÎÎÏÍÏÏÏÌÎÏÎÌÍÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÌÎÌÌÎÍÎÎÏÏÎÌÏÏÎÍÌÍÌÌ",
+   "current_name": "BackingFieldBase_k__BackingField_2112",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÎÎÎÎÎÌÍÌÌÎÏÌÏÍÍÌÎÏÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÎÎÎÌÎÍÍÌÍÍÌÎÏÏÌÌÌÌÌÍ",
+   "current_name": "Type11m3f_9655",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÎÌÎÏÌÏÍÌÍÎÍÎÎÏÎÌÏÌÏÏÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÎÏÎÌÏÏÎÎÍÍÏÎÍÏÍÏÏÍÏÌ",
+   "current_name": "Type10m3f_97DD",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÎÌÍÏÏÍÏÏÌÌÏÍÌÍÏÌÏÍÎÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÎÍÌÍÌÎÌÌÏÌÌÌÎÎÍÌÌÌÎÍ",
+   "current_name": "Type9m3f_20E3",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÎÌÏÍÎÎÍÍÎÌÏÏÎÌÏÌÎÏÍÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÏÎÏÏÏÌÌÌÎÍÌÌÎÏÏÎÏÌÏÎÎÌ",
+   "current_name": "Type9m2f_F9E8",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÍÎÎÏÍÎÍÏÏÍÍÏÌÎÍÏÏÌÍÍÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÍÌÎÌÎÍÏÌÍÎÍÌÏÍÍÎÏÍÎÏÏ",
+   "current_name": "Type11m3f_13AC",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÏÍÍÎÌÏÎÍÎÎÏÎÎÌÏÌÏÍÌÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÏÎÏÎÎÌÏÏÏÏÎÍÌÎÎÏÎÌÏÎ",
+   "current_name": "Type8m3f_D60F",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÏÎÎÍÍÎÌÏÏÍÌÎÌÏÌÎÎÌÍÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÌÏÏÍÍÎÌÏÍÌÌÌÍÏÍÎÎÎÌÌÍ",
+   "current_name": "Type11m3f_2689",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÍÎÌÍÍÌÌÍÌÌÏÏÌÍÎÏÏÍÍÏÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÎÍÎÌÎÏÏÏÍÍÌÌÍÍÌÍÏÍÍÍ",
+   "current_name": "Type8m2f_18A8",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÌÏÌÏÏÌÎÏÍÌÍÌÍÏÌÏÍÎÏÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÏÌÎÌÌÌÌÎÌÌÏÍÌÎÌÏÎÎÌÍÏ",
+   "current_name": "Type9m2f_AF4F",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÎÏÍÎÌÍÎÎÏÎÍÏÍÏÏÍÍÌÌÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÍÏÌÌÌÌÌÏÍÎÎÎÌÍÍÎÍÏÏÏÏ",
+   "current_name": "Type9m2f_C4EF",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÏÍÏÍÏÌÎÏÏÎÎÏÏÍÎÏÍÏÎÌÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÍÎÏÌÍÌÏÌÌÌÏÎÏÌÍÌÍÍÏÎ",
+   "current_name": "Type8m2f_7FC5",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÌÎÎÏÏÍÏÎÍÏÍÎÌÏÍÌÏÌÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÎÏÏÍÌÍÌÍÏÍÎÎÌÌÎÏÌÏÌÏ",
+   "current_name": "Type11m3f_E463",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÍÌÎÏÌÍÍÍÏÌÌÏÍÎÌÏÎÏÍÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÏÍÍÏÎÍÌÍÎÎÌÏÌÌÎÏÍÎÏÏ",
+   "current_name": "Type10m4f_AFBF",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÌÏÌÏÏÌÎÏÍÌÍÌÍÏÌÏÍÎÏÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÌÎÎÍÏÏÌÍÍÎÎÍÎÌÏÎÎÏÌÍÏ",
+   "current_name": "Type11m3f_477A",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÎÏÎÌÎÍÍÎÌÎÍÏÏÍÌÍÏÎÍÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÎÏÏÌÏÌÍÍÌÌÎÌÎÌÎÎÏÍÏÏ",
+   "current_name": "Type9m2f_4DF6",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÍÍÎÎÎÌÏÏÍÎÍÍÌÍÏÎÍÏÏÍÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÍÎÎÍÌÎÏÌÏÍÏÏÌÏÍÏÎÏÎÎÏ",
+   "current_name": "Type10m2f_3C96",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÏÍÎÍÏÌÎÏÌÎÌÏÍÌÌÏÌÌÍÏÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÌÍÍÏÌÏÎÍÌÏÍÌÏÎÎÌÍÌÎÌ",
+   "current_name": "Type11m2f_7713",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÏÌÌÍÍÏÏÍÍÍÎÍÌÌÏÏÏÌÎÍÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÏÏÌÍÌÍÍÎÍÏÍÎÍÍÍÍÎÎÎÎÌ",
+   "current_name": "Type10m3f_5643",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÏÎÌÏÍÌÎÌÏÎÌÎÏÏÌÏÍÍÍÏÌÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÌÏÌÌÎÎÌÎÏÍÌÍÌÍÏÎÍÍÎÍ",
+   "current_name": "Type12m2f_6E3C",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÌÏÏÍÎÎÎÎÏÌÍÎÍÍÎÎÏÍÏÌÎ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÎÌÌÍÏÍÏÏÎÏÎÌÏÏÌÎÌÏÍÌÏ",
+   "current_name": "Type8m4f_0576",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÍÎÌÌÏÍÎÌÏÏÏÎÌÎÌÍÍÎÍÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÏÌÎÌÍÍÏÌÌÎÎÏÏÌÍÍÏÌÏÏ",
+   "current_name": "Type9m4f_2154",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÌÌÎÍÌÌÎÌÏÎÎÌÎÎÎÏÌÍÎÍ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÌÌÌÏÏÏÌÍÎÎÌÌÏÎÍÍÎÎÌÏÎ",
+   "current_name": "Type11m2f_A731",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÎÌÎÍÏÍÌÎÎÏÌÍÌÍÍÌÌÎÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÍÎÍÏÍÏÏÍÍÏÌÎÌÏÌÏÏÏÏÍÎ",
+   "current_name": "Type10m2f_87BB",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÍÍÌÍÎÎÌÏÍÎÌÎÏÏÌÌÏÎÏÎÏ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÎÎÌÍÏÏÏÏÎÎÌÏÍÏÍÍÎÏÍÏ",
+   "current_name": "Type9m3f_D2B5",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÎÎÌÍÍÍÎÎÏÏÎÍÌÏÍÏÏÎÌÏÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÎÏÍÎÎÎÏÌÎÍÎÎÏÏÌÎÏÌÎÌ",
+   "current_name": "Type8m2f_3C0F",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÌÌÏÌÍÎÌÍÏÎÌÏÎÍÍÍÌÌÍÎÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÌÏÍÏÌÎÏÌÌÎÏÍÎÍÏÍÎÌÎÍ",
+   "current_name": "Type10m3f_EEC8",
+   "score": 4.686,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÌÌÌÌÍÏÌÌÏÏÎÎÌÏÎÏÍÎÍÍÌ",
+     "type": "VRC.Core.ApiContainer"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÏÎÏÌÎÎÎÌÍÌÍÍÏÍÎÌÎÎÎÍ",
+   "current_name": "Static4m_856B",
+   "score": 4.659,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÍÎÍÍÌÌÎÍÍÍÎÌÎÏÍÍÎÏÏÏÌ",
+     "type": "UnityEngine.Quaternion"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÎÏÍÎÏÏÌÍÎÌÌÌÌÍÌÏÌÌÌÌ",
+   "current_name": "Struct4f_79E5",
+   "score": 4.659,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÍÏÍÎÎÌÍÏÎÍÎÎÎÏÍÌÌÏÌÏ",
+     "type": "UnityEngine.Quaternion"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÎÌÎÍÍÏÏÌÌÏÍÌÎÍÎÏÍÌÌÍÍ",
+   "current_name": "Pointerk__BackingFieldImpl_DB00",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÍÍÎÏÏÏÏÎÍÍÌÏÍÏÍÏÏÍÎÍ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÏÌÍÏÎÎÌÌÌÏÏÏÎÏÎÍÎÌÎÎ",
+   "current_name": "Static1m_C0A7",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÍÏÎÎÎÏÌÏÏÌÏÏÌÍÌÎÎÍÍÎÍ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÏÍÌÏÌÏÍÍÍÌÏÍÍÎÍÏÎÍÍÍÏ",
+   "current_name": "Type9m2f_B927",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÌÍÍÍÍÌÏÎÏÎÏÍÎÌÎÏÏÎÎÍÎ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÍÌÍÌÍÍÍÏÎÎÎÍÍÍÏÍÎÌÍÏÍ",
+   "current_name": "Type11m1f_BABC",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÌÎÎÏÎÍÍÌÏÍÎÏÍÎÎÌÎÏÏÎÍ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÍÌÏÌÎÏÍÎÎÎÌÍÎÌÍÍÍÍÎÏ",
+   "current_name": "backgroundInnerStrokebackgrounSibling_1F54",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÏÍÍÍÎÏÌÌÌÎÎÏÌÌÎÎÎÍÏÏÏ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÌÍÏÍÌÏÍÎÎÌÌÎÍÌÎÍÌÎÎÏ",
+   "current_name": "UICalculateLayoutInputHorizforSibling_C078",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÍÌÏÌÎÎÌÏÍÏÍÌÏÎÏÎÍÍÍÎÏ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÏÌÏÏÎÌÎÎÍÌÍÎÍÌÏÎÌÍÍÍÍ",
+   "current_name": "ChallengeUpdateEventSiblingSibSibling_4037",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÎÌÏÌÎÎÍÍÏÏÏÎÏÎÎÌÌÌÏÌÌ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÌÍÍÏÍÍÌÍÎÌÍÏÎÎÏÏÌÎÌÏ",
+   "current_name": "k__BackingFieldComponentSibling_E4AE",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÏÌÌÍÌÌÏÌÏÏÌÍÏÌÍÌÍÍÎÍÍ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÌÏÌÎÏÍÍÌÎÎÍÍÏÌÎÌÏÍÏÏÎ",
+   "current_name": "Static23m_A445",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÌÍÍÎÏÍÏÏÎÏÏÎÌÌÍÍÏÎÌÌ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÍÎÌÍÎÍÌÍÎÍÍÏÍÌÍÎÍÌÎÍÏ",
+   "current_name": "BaseClass45Impl_26F4",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÎÏÎÌÏÎÍÏÍÍÎÌÍÏÎÌÌÍÏÏÌÍ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÎÎÍÌÍÏÌÎÌÌÎÎÌÎÌÎÌÍÌÌÎ",
+   "current_name": "Type12m3f_0B7D",
+   "score": 4.494,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÎÎÍÏÏÏÏÏÏÏÏÏÍÌÌÍÏÏÏÌÎ",
+     "type": "UnityEngine.Color"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÌÍÌÍÍÏÍÏÏÌÎÌÍÏÌÍÎÍÌÍÏÎ",
+   "current_name": "BackingFieldBase_30CC",
+   "score": 4.387,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÌÏÍÎÍÌÍÎÌÎÌÌÏÏÏÍÏÍÌÌÎÌ",
+     "type": "UnityEngine.Vector2"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÍÍÎÎÎÎÌÌÍÌÏÏÌÎÏÏÌÏÍÎ",
+   "current_name": "k__BackingFieldComponentSibling_32D7",
+   "score": 4.387,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÏÎÍÌÌÎÍÌÌÏÍÏÌÍÏÌÎÍÎÏÏ",
+     "type": "UnityEngine.Vector2"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÎÌÎÏÎÌÌÎÎÏÌÎÍÎÏÌÍÍÏÍ",
+   "current_name": "Mono6m_951C",
+   "score": 4.327,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÏÏÍÎÍÏÎÌÏÎÏÌÍÎÌÌÎÎÌÍ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÎÏÍÍÌÌÍÌÌÍÏÎÏÍÏÏÎÌÏÏÎ",
+   "current_name": "BackingFieldBaseImpl_1356",
+   "score": 4.327,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÎÎÏÎÌÏÏÍÍÌÏÏÍÌÏÎÌÌÎÏ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÍÏÎÏÎÌÌÎÍÍÎÍÎÍÌÌÍÌÌÍÍ",
+   "current_name": "Networkk__BackingField_k__BackSibling_6F38",
+   "score": 4.327,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÏÍÎÏÏÏÎÍÎÍÎÎÍÍÏÎÎÌÌÏÏ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÍÍÍÎÎÏÎÍÎÍÎÎÎÎÍÌÌÎÏÍÎ",
+   "current_name": "Networkk__BackingField_k__BackSibling_CF98",
+   "score": 4.327,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÏÍÎÏÏÏÎÍÎÍÎÎÍÍÏÎÎÌÌÏÏ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÎÎÏÍÏÏÍÍÌÌÌÌÎÏÎÎÎÎÏÏ",
+   "current_name": "Static1m_E082",
+   "score": 4.327,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÌÍÌÎÍÍÌÍÍÏÌÎÏÌÏÎÏÍÏÎÏ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÍÎÎÌÎÏÍÍÌÌÍÎÌÏÏÍÎÏÏÍÌ",
+   "current_name": "BaseClass13Sibling_6244",
+   "score": 4.327,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÍÏÍÍÍÍÍÌÏÌÍÏÌÌÍÌÎÎÏÌÎÎ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÌÎÎÌÏÏÍÏÎÏÏÏÍÌÌÌÍÍÎÏÍ",
+   "current_name": "Static2m_B528",
+   "score": 4.327,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÏÏÍÎÍÏÎÌÏÎÏÌÍÎÌÌÎÎÌÍ",
+     "type": "UnityEngine.Transform"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÎÎÎÌÍÏÍÌÍÎÌÎÏÏÎÌÎÏÌÍ",
+   "current_name": "Type10m1f_34C2",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÎÏÎÎÎÌÍÏÏÌÍÌÏÎÎÏÌÎÍÍÏ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÏÎÍÌÏÍÌÌÌÍÏÌÎÏÍÍÎÍÏÌÍ",
+   "current_name": "Static1m_E0FB",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÌÎÌÏÏÌÍÏÍÏÌÌÍÌÎÌÎÍÎÍÍ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÌÍÌÍÌÏÍÍÏÎÌÎÍÌÎÏÎÏÍÎÍ",
+   "current_name": "Static1m_3923",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÏÌÎÏÎÎÌÎÏÎÎÍÍÎÍÌÌÌÌÏÎ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÏÎÍÌÏÌÍÌÌÎÏÌÏÏÍÏÍÍÎÎÏ",
+   "current_name": "Type6m3f_9F1D",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÍÍÌÍÎÍÍÏÌÌÎÏÎÍÎÌÏÎÌÎÍÎ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÍÎÎÎÏÏÎÌÎÏÏÍÍÏÏÏÍÎÏÎÍÎ",
+   "current_name": "Type8m1f_9760",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÍÍÍÏÍÌÌÎÍÍÏÎÌÎÌÍÌÌÌÍÍÌ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÏÎÎÌÏÏÏÍÏÌÎÌÎÌÏÏÏÌÍÍÌ",
+   "current_name": "Type8m1f_05AC",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÎÍÎÌÌÍÏÎÌÏÏÎÏÍÍÎÎÏÏÎÏ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÏÎÌÌÎÌÍÏÎÌÏÏÌÌÏÍÎÌÎÌÍ",
+   "current_name": "Type9m2f_9C97",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÍÎÍÌÌÏÏÌÏÌÎÍÍÏÎÏÌÍÏÏÏ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÏÏÎÍÍÎÎÎÎÍÍÌÎÎÍÎÍÍÍÎÍ",
+   "current_name": "Type11m2f_E1E4",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÏÍÍÏÌÍÎÌÏÌÏÍÍÌÌÌÍÍÍÌ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÌÏÏÍÏÍÍÌÌÏÌÏÎÏÌÍÎÎÎÍ",
+   "current_name": "Type10m2f_842F",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÍÍÏÍÎÎÏÍÎÍÎÌÍÌÍÌÏÍÎÎ",
+   "current_name": "Type8m3f_FD47",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÍÎÌÏÍÎÏÎÏÎÌÏÏÍÎÌÏÍÏÎÏ",
+   "current_name": "Type20m3f_F25A",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÎÎÎÎÍÏÍÍÌÍÎÌÌÎÍÌÎÎÍÎÎÎ",
+   "current_name": "Static1m_F31F",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÎÌÍÏÌÎÌÎÏÍÎÎÌÏÌÍÌÌÌÍÏÏ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÌÌÎÏÎÎÍÎÍÎÍÎÎÎÏÌÌÍÍÎ",
+   "current_name": "BackingFieldBase_k__BackingFieSibling_54A7",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÎÍÍÎÌÎÎÎÏÏÌÎÎÎÍÍÎÍÌÏÎÏ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÌÎÍÎÎÎÌÌÍÏÍÍÍÏÎÍÎÏÍÍ",
+   "current_name": "Static2m_5D96",
+   "score": 4.149,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÏÎÏÎÏÌÌÍÎÎÍÍÎÍÎÍÏÎÌÏÎ",
+     "type": "UnityEngine.GameObject"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÌÏÍÎÌÎÍÌÏÎÍÏÏÍÌÏÏÎÎÍÍÏ",
+   "current_name": "Static4m_252B",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÍÌÏÎÏÎÎÎÍÌÎÏÍÍÌÌÎÍÍÍÎÎ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÏÍÏÌÍÎÍÏÌÌÌÎÏÏÎÏÏÌÎÎÌÏÏ",
+   "current_name": "Struct1f_B9A5",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": ".ctor",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÏÌÌÍÌÍÎÌÌÏÍÍÏÏÏÍÎÌÎÌÏ",
+   "current_name": "Static5m_47E4",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÌÏÌÌÏÌÍÌÏÍÍÍÎÎÍÏÏÍÌÎÌÎÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÏÍÌÍÌÏÌÌÎÍÌÌÎÎÏÍÎÌÏÍÍÏ",
+   "current_name": "Static2m_7492",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÎÌÍÌÎÌÍÍÏÍÎÍÍÌÎÎÍÏÎÌÎÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÏÌÍÍÍÏÏÎÏÍÏÏÏÎÎÏÎÌÌÏÎÍ",
+   "current_name": "Static1m_1E9C",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÍÌÏÏÏÎÏÏÌÎÏÎÎÏÍÏÏÌÏÌÌ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÌÎÏÎÎÎÎÏÎÎÎÍÌÍÎÌÏÌÍÌÏ",
+   "current_name": "Type1m1f_790A",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÎÍÏÌÏÏÏÌÌÍÏÌÎÏÌÍÌÌÏÍÌ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÍÌÎÌÌÏÍÌÏÍÏÎÎÍÎÏÍÎÌÏÌÎÏ",
+   "current_name": "Static2m_B7FD",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÎÌÍÏÌÍÌÏÏÌÌÏÌÌÏÎÏÏÏÍÎÎÍ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÌÏÏÌÌÌÎÎÍÏÌÍÌÏÍÍÌÎÏÍÎÏÍ",
+   "current_name": "Type6m6f_D83F",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÏÌÌÎÎÌÌÍÌÌÎÎÏÍÏÏÎÎÏÌÌÌ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÍÎÍÎÏÍÎÎÌÎÍÍÍÏÏÌÎÏÌÍÎÏ",
+   "current_name": "Type9m1f_7B03",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÍÌÌÏÌÎÎÍÍÌÍÌÍÏÏÏÎÍÎÎÌÏÌ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  },
+  {
+   "obf_name": "ÎÎÎÎÍÍÎÎÎÏÍÎÎÎÎÎÌÌÌÏÍÌÏ",
+   "current_name": "k__BackingFieldgiftDisplayRefeSibling_4C5C",
+   "score": 3.694,
+   "distinct_types": 1,
+   "signal_params": [
+    {
+     "method": "ÏÌÏÎÏÏÍÍÌÍÏÍÏÌÍÎÏÏÌÍÎÎÏ",
+     "type": "UnityEngine.Vector3"
+    }
+   ]
+  }
+ ]
+}

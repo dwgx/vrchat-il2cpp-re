@@ -1,0 +1,20 @@
+[
+  {"obf_class": "BaseClass52Impl_39C3", "proposed_name": "RectTransformLayoutAdjuster", "confidence": "medium", "evidence": "5 个 RectTransform 布局访问器(get/set anchoredPosition/offsetMin/pivot/sizeDelta)主导,RegexCache/ThrowHelper 为 boilerplate"},
+  {"obf_class": "BaseClass45Impl_C93F", "proposed_name": null, "confidence": "low", "evidence": "callee 同时指向 AchievementUnlockUI 与 SocialfriendParticipant 两个不同 UI 子系统,领域矛盾,无法自洽"},
+  {"obf_class": "BaseClass45Impl_D713", "proposed_name": "TweenSequenceManager", "confidence": "medium", "evidence": "DOTween::Kill + TweenManager::FilteredOperation 主导,明确的 DOTween 补间管理逻辑"},
+  {"obf_class": "BackingFieldBase_k__BackingField_k__BackingField_3C6E", "proposed_name": "InventoryItemEquipController", "confidence": "medium", "evidence": "ApiInventoryItem::Equip + ApiProfileInventoryMetadata::get_BaseAsset 指向库存物品装备,ZLogger 为日志辅助"},
+  {"obf_class": "BaseClass45Impl_DA9B", "proposed_name": null, "confidence": "low", "evidence": "callee 仅 Enumerable::Skip/Error::ArgumentNull/String::FormatHelper 等泛型 LINQ+格式化,无领域信号"},
+  {"obf_class": "BaseClass5Impl_6C9C", "proposed_name": "OscMessageIntReader", "confidence": "medium", "evidence": "OscMessageValues::ReadIntElement 为 distinctive OSC 信号,配合 debugDisplay InvokeDelayed"},
+  {"obf_class": "BaseClass52Impl_B32D", "proposed_name": "StyleElementCoroutineController", "confidence": "low", "evidence": "StyleElement::StopAllCoroutines 为唯一领域信号(UI 样式元素),RegexCache/ThrowHelper 为 boilerplate"},
+  {"obf_class": "BackingFieldBase_k__BackingField_k__BackingField_k__BackingField_499F", "proposed_name": "InventoryItemEquipLogger", "confidence": "medium", "evidence": "ApiInventoryItem::Equip + VRCLogger/ZLoggerInterpolatedStringHandler,库存装备并带日志"},
+  {"obf_class": "BaseClass52Impl_F5A0", "proposed_name": "StyleElementColorController", "confidence": "low", "evidence": "StyleElementColorSetter::Destroy 指向 UI 样式颜色设置,其余为 RegexCache/ThrowHelper boilerplate"},
+  {"obf_class": "BaseClass290Impl_k__BackingField_BE98", "proposed_name": "MainThreadTaskScheduler", "confidence": "low", "evidence": "MainThreadQueueDrainer::op_Implicit + Time::get_realtimeSinceStartup,伪代码按 realtime 做延时门控,疑似主线程定时调度"},
+  {"obf_class": "BackingFieldBaseImpl_8A6F", "proposed_name": "InventoryItemAnimatedTexture", "confidence": "low", "evidence": "AnimatedTexture::get_IsAnimated + InventoryItemHandler::Initialize,疑似带动画贴图的库存物品"},
+  {"obf_class": "BaseClass290Impl_k__BackingFieldImpl_B865", "proposed_name": null, "confidence": "low", "evidence": "仅 FindObjectsByType + Time::get_realtimeSinceStartup,泛型对象查找+计时,无足够领域信号"},
+  {"obf_class": "Struct9f_792A", "proposed_name": "AsciiByteEncoder", "confidence": "medium", "evidence": "Array::Copy + Encoding::get_ASCII,ASCII 字节编码/缓冲逻辑"},
+  {"obf_class": "RequiresStoringk__BackingRelated_BAA8", "proposed_name": "KeyEventModifierState", "confidence": "medium", "evidence": "KeyEvent::get_eventModifiers + set_eventModifiers,键盘事件修饰键状态"},
+  {"obf_class": "BackingFieldBaseImpl_B640", "proposed_name": "SatelliteResourceVersionProvider", "confidence": "low", "evidence": "ResourceManagerMediator::get_LookedForSatelliteContractVersion,.NET 卫星资源/本地化版本访问,单一 callee"},
+  {"obf_class": "BackingFieldBase_k__BackingField_C7AD", "proposed_name": null, "confidence": "low", "evidence": "唯一 callee 为混淆类 BackingFieldComponenSibling_3F37::DestroyImmediate_Injected,贴图销毁但证据被混淆,不足"},
+  {"obf_class": "BaseClass290ImplImpl_4C7F", "proposed_name": null, "confidence": "low", "evidence": "仅 String::FormatHelper,纯泛型字符串格式化,无领域"},
+  {"obf_class": "Struct6f_68FB", "proposed_name": "TextureLoadRequest", "confidence": "medium", "evidence": "唯一方法即 TextureLoadRequest::get_GenerateMipMaps 访问器(返回 +0x2c 字节),本类即贴图加载请求"}
+]

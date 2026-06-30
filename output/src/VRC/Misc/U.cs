@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 37
-// Methods: 547
+// Classes: 100
+// Methods: 3280
 
 namespace VRC.Misc
 {
@@ -126,6 +126,262 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0x1DA6F00
     }
 
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x87C0A0
+        public void Equals(){} // RVA: 0x894320
+        public void GetHashCode(){} // RVA: 0x87C0A0
+        public void op_Implicit(){} // RVA: 0x894320
+        public void CompareBaseObjects(){} // RVA: 0xA94080
+        public void IsNativeObjectAlive(){} // RVA: 0xA94080
+        public void GetCachedPtr(){} // RVA: 0x894290
+        public void get_name(){} // RVA: 0x8A2920
+        public void set_name(){} // RVA: 0x8944F0
+        public void Instantiate(){} // RVA: 0x894290
+        public void Destroy(){} // RVA: 0x87BF80
+        public void .ctor(){} // RVA: 0x894290
+    }
+
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x5A62CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x87C6B0
+        public void GetCachedPtr(){} // RVA: 0x5A62F80
+        public void get_name(){} // RVA: 0xB43310
+        public void set_name(){} // RVA: 0x5A630D0
+        public void Instantiate(){} // RVA: 0x30FBB60
+        public void Destroy(){} // RVA: 0x5A630F0
+        public void .ctor(){} // RVA: 0x5A635F0
+    }
+
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x5A62CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x87C6B0
+        public void GetCachedPtr(){} // RVA: 0x5A62F80
+        public void get_name(){} // RVA: 0xB43310
+        public void set_name(){} // RVA: 0x5A630D0
+        public void Instantiate(){} // RVA: 0x30FBB60
+        public void Destroy(){} // RVA: 0x5A630F0
+        public void .ctor(){} // RVA: 0x5A635F0
+    }
+
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x5A62CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x87C6B0
+        public void GetCachedPtr(){} // RVA: 0x5A62F80
+        public void get_name(){} // RVA: 0xB43310
+        public void set_name(){} // RVA: 0x5A630D0
+        public void Instantiate(){} // RVA: 0x30FBB60
+        public void Destroy(){} // RVA: 0x5A630F0
+        public void .ctor(){} // RVA: 0x5A635F0
+    }
+
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x5A62CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x87C6B0
+        public void GetCachedPtr(){} // RVA: 0x5A62F80
+        public void get_name(){} // RVA: 0xB43310
+        public void set_name(){} // RVA: 0x5A630D0
+        public void Instantiate(){} // RVA: 0x30FBB60
+        public void Destroy(){} // RVA: 0x5A630F0
+        public void .ctor(){} // RVA: 0x5A635F0
+    }
+
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x5A62CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x87C6B0
+        public void GetCachedPtr(){} // RVA: 0x5A62F80
+        public void get_name(){} // RVA: 0xB43310
+        public void set_name(){} // RVA: 0x5A630D0
+        public void Instantiate(){} // RVA: 0x30FBB60
+        public void Destroy(){} // RVA: 0x5A630F0
+        public void .ctor(){} // RVA: 0x5A635F0
+    }
+
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x5A62CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x87C6B0
+        public void GetCachedPtr(){} // RVA: 0x5A62F80
+        public void get_name(){} // RVA: 0xB43310
+        public void set_name(){} // RVA: 0x5A630D0
+        public void Instantiate(){} // RVA: 0x30FBB60
+        public void Destroy(){} // RVA: 0x5A630F0
+        public void .ctor(){} // RVA: 0x5A635F0
+    }
+
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x5A62CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x87C6B0
+        public void GetCachedPtr(){} // RVA: 0x5A62F80
+        public void get_name(){} // RVA: 0xB43310
+        public void set_name(){} // RVA: 0x5A630D0
+        public void Instantiate(){} // RVA: 0x30FBB60
+        public void Destroy(){} // RVA: 0x5A630F0
+        public void .ctor(){} // RVA: 0x5A635F0
+    }
+
+    /// <summary>Originally: ÎÌÎÌÍÏÏÏÎÏÎÏÍÎÏÎÍÏÌÍÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_2 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_789;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB465B0
+        public void Equals(){} // RVA: 0xBA9BA0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70100
+        public void CompareBaseObjects(){} // RVA: 0x5A62CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x87C6B0
+        public void GetCachedPtr(){} // RVA: 0x5A62F80
+        public void get_name(){} // RVA: 0xB43310
+        public void set_name(){} // RVA: 0x5A630D0
+        public void Instantiate(){} // RVA: 0x30FBB60
+        public void Destroy(){} // RVA: 0x5A630F0
+        public void .ctor(){} // RVA: 0x5A635F0
+    }
+
+    /// <summary>Originally: ÌÎÎÍÍÎÌÎÌÍÎÌÎÎÌÍÎÎÎÌÌÎÌ</summary>
+    public class UnityObjectInstantiableWrapper_3 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_38E;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xD33E60
+        public void Equals(){} // RVA: 0xB70100
+        public void GetHashCode(){} // RVA: 0xE62D00
+        public void op_Implicit(){} // RVA: 0x1033F40
+        public void CompareBaseObjects(){} // RVA: 0xB70160
+        public void IsNativeObjectAlive(){} // RVA: 0xD33E60
+        public void GetCachedPtr(){} // RVA: 0xB70160
+        public void get_name(){} // RVA: 0xD33E60
+        public void set_name(){} // RVA: 0xB5DBF0
+        public void Instantiate(){} // RVA: 0xB44DC0
+        public void Destroy(){} // RVA: 0xD05CA0
+        public void DestroyImmediate(){} // RVA: 0xD05CA0
+        public void FindObjectsOfType(){} // RVA: 0xB5DBF0
+        public void FindObjectsByType(){} // RVA: 0xB44D60
+        public void .ctor(){} // RVA: 0x1033F50
+        public void Initialize(){} // RVA: 0xB44D60
+        public void set_hideFlags(){} // RVA: 0xB700F0
+        public void FindObjectOfType(){} // RVA: 0x1033F40
+    }
+
     /// <summary>Originally: ÎÍÍÎÏÍÏÍÌÏÏÏÌÎÏÍÍÌÌÏÌÏÏ</summary>
     public class UnityObjectInstantiatable_03 : Object
     {
@@ -226,6 +482,321 @@ namespace VRC.Misc
         public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xFA53C0
         public void Internal_CloneSingle(){} // RVA: 0xFA5470
         public void Internal_CloneSingleWithParent(){} // RVA: 0xFA5520
+    }
+
+    /// <summary>Originally: ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ</summary>
+    public class UnityObjectInstantiatable_07 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_DA5;
+        public object f_07A;
+        public object f_0EC;
+        public object f_144;
+        public object f_4D2;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x87C0A0
+        public void Equals(){} // RVA: 0x87C0A0
+        public void GetHashCode(){} // RVA: 0x87C0A0
+        public void op_Implicit(){} // RVA: 0x87C0A0
+        public void CompareBaseObjects(){} // RVA: 0x87C0A0
+        public void IsNativeObjectAlive(){} // RVA: 0x87D280
+        public void GetCachedPtr(){} // RVA: 0x87C0A0
+        public void get_name(){} // RVA: 0x87C0A0
+        public void set_name(){} // RVA: 0x87C0A0
+        public void Instantiate(){} // RVA: 0x87C540
+        public void Destroy(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
+        public void Initialize(){} // RVA: 0x87C540
+        public void FindObjectsByType(){} // RVA: 0xA94080
+        public void DontDestroyOnLoad(){} // RVA: 0xA94080
+        public void get_hideFlags(){} // RVA: 0x894320
+        public void set_hideFlags(){} // RVA: 0x894320
+        public void FindObjectOfType(){} // RVA: 0x894320
+        public void FindFirstObjectByType(){} // RVA: 0x894320
+        public void CheckNullArgument(){} // RVA: 0x894320
+        public void ToString(){} // RVA: 0x894320
+        public void op_Equality(){} // RVA: 0x894320
+        public void op_Inequality(){} // RVA: 0x87C0A0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x87D280
+        public void Internal_CloneSingle(){} // RVA: 0x894750
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x87BEB0
+        public void Internal_InstantiateSingle(){} // RVA: 0x8943B0
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x87BEB0
+        public void GetName(){} // RVA: 0xA94080
+        public void IsPersistent(){} // RVA: 0xA94080
+        public void SetName(){} // RVA: 0x87BEB0
+        public void FindObjectFromInstanceID(){} // RVA: 0x899870
+        public void ForceLoadFromInstanceID(){} // RVA: 0xA94080
+        public void Destroy_Injected(){} // RVA: 0xA94080
+        public void DestroyImmediate_Injected(){} // RVA: 0xA94080
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0x894290
+        public void get_hideFlags_Injected(){} // RVA: 0x894290
+        public void set_hideFlags_Injected(){} // RVA: 0xA94080
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x894320
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x87D280
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x894320
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x894320
+        public void ToString_Injected(){} // RVA: 0x894290
+        // ── Unresolved (hash) ──
+        public void m_6FD(){} // RVA: 0xA94080
+        public void m_1B1(){} // RVA: 0x894290
+    }
+
+    /// <summary>Originally: ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ</summary>
+    public class UnityObjectInstantiatable_07 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_DA5;
+        public object f_07A;
+        public object f_0EC;
+        public object f_144;
+        public object f_4D2;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB5DBF0
+        public void Equals(){} // RVA: 0xB465B0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70160
+        public void CompareBaseObjects(){} // RVA: 0xD33E60
+        public void IsNativeObjectAlive(){} // RVA: 0x87D280
+        public void GetCachedPtr(){} // RVA: 0x87C0A0
+        public void get_name(){} // RVA: 0x87C0A0
+        public void set_name(){} // RVA: 0x87C0A0
+        public void Instantiate(){} // RVA: 0x87C540
+        public void Destroy(){} // RVA: 0x5C6B390
+        public void .ctor(){} // RVA: 0x5C6B3D0
+        public void Initialize(){} // RVA: 0x5C6B8F0
+        public void FindObjectsByType(){} // RVA: 0x5C6BAD0
+        public void DontDestroyOnLoad(){} // RVA: 0x894320
+        public void get_hideFlags(){} // RVA: 0x5C6BDE0
+        public void set_hideFlags(){} // RVA: 0x5C6C030
+        public void FindObjectOfType(){} // RVA: 0x5C6C1C0
+        public void FindFirstObjectByType(){} // RVA: 0x5C6C3D0
+        public void CheckNullArgument(){} // RVA: 0x5C6C560
+        public void ToString(){} // RVA: 0x5C6C560
+        public void op_Equality(){} // RVA: 0x5C6C560
+        public void op_Inequality(){} // RVA: 0x5C6C5A0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xE3F480
+        public void Internal_CloneSingle(){} // RVA: 0x1546550
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5C6C5D0
+        public void Internal_InstantiateSingle(){} // RVA: 0x5C6C720
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5C6C8A0
+        public void GetName(){} // RVA: 0x5C6C8E0
+        public void IsPersistent(){} // RVA: 0x5C6CE00
+        public void SetName(){} // RVA: 0x5C6D150
+        public void FindObjectFromInstanceID(){} // RVA: 0x5C6D290
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5C6D640
+        public void Destroy_Injected(){} // RVA: 0x5C6DBA0
+        public void DestroyImmediate_Injected(){} // RVA: 0xDAC980
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43310
+        public void get_hideFlags_Injected(){} // RVA: 0xB43310
+        public void set_hideFlags_Injected(){} // RVA: 0xDAC980
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5C6DC80
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5C6DCD0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5C6DCE0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5C6DF40
+        public void ToString_Injected(){} // RVA: 0x5C6E1A0
+        // ── Unresolved (hash) ──
+        public void m_6FD(){} // RVA: 0x5C6D8A0
+        public void m_1B1(){} // RVA: 0x5C6D940
+    }
+
+    /// <summary>Originally: ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ</summary>
+    public class UnityObjectInstantiatable_07 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_DA5;
+        public object f_07A;
+        public object f_0EC;
+        public object f_144;
+        public object f_4D2;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB5DBF0
+        public void Equals(){} // RVA: 0xB465B0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70160
+        public void CompareBaseObjects(){} // RVA: 0xD33E60
+        public void IsNativeObjectAlive(){} // RVA: 0x87D280
+        public void GetCachedPtr(){} // RVA: 0x87C0A0
+        public void get_name(){} // RVA: 0x87C0A0
+        public void set_name(){} // RVA: 0x87C0A0
+        public void Instantiate(){} // RVA: 0x87C540
+        public void Destroy(){} // RVA: 0x5C6B390
+        public void .ctor(){} // RVA: 0x5C6B3D0
+        public void Initialize(){} // RVA: 0x5C6B8F0
+        public void FindObjectsByType(){} // RVA: 0x5C6BAD0
+        public void DontDestroyOnLoad(){} // RVA: 0x894320
+        public void get_hideFlags(){} // RVA: 0x5C6BDE0
+        public void set_hideFlags(){} // RVA: 0x5C6C030
+        public void FindObjectOfType(){} // RVA: 0x5C6C1C0
+        public void FindFirstObjectByType(){} // RVA: 0x5C6C3D0
+        public void CheckNullArgument(){} // RVA: 0x5C6C560
+        public void ToString(){} // RVA: 0x5C6C560
+        public void op_Equality(){} // RVA: 0x5C6C560
+        public void op_Inequality(){} // RVA: 0x5C6C5A0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xE3F480
+        public void Internal_CloneSingle(){} // RVA: 0x1546550
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5C6C5D0
+        public void Internal_InstantiateSingle(){} // RVA: 0x5C6C720
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5C6C8A0
+        public void GetName(){} // RVA: 0x5C6C8E0
+        public void IsPersistent(){} // RVA: 0x5C6CE00
+        public void SetName(){} // RVA: 0x5C6D150
+        public void FindObjectFromInstanceID(){} // RVA: 0x5C6D290
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5C6D640
+        public void Destroy_Injected(){} // RVA: 0x5C6DBA0
+        public void DestroyImmediate_Injected(){} // RVA: 0xDAC980
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43310
+        public void get_hideFlags_Injected(){} // RVA: 0xB43310
+        public void set_hideFlags_Injected(){} // RVA: 0xDAC980
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5C6DC80
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5C6DCD0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5C6DCE0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5C6DF40
+        public void ToString_Injected(){} // RVA: 0x5C6E1A0
+        // ── Unresolved (hash) ──
+        public void m_6FD(){} // RVA: 0x5C6D8A0
+        public void m_1B1(){} // RVA: 0x5C6D940
+    }
+
+    /// <summary>Originally: ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ</summary>
+    public class UnityObjectInstantiatable_07 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_DA5;
+        public object f_07A;
+        public object f_0EC;
+        public object f_144;
+        public object f_4D2;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB5DBF0
+        public void Equals(){} // RVA: 0xB465B0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70160
+        public void CompareBaseObjects(){} // RVA: 0xD33E60
+        public void IsNativeObjectAlive(){} // RVA: 0x87D280
+        public void GetCachedPtr(){} // RVA: 0x87C0A0
+        public void get_name(){} // RVA: 0x87C0A0
+        public void set_name(){} // RVA: 0x87C0A0
+        public void Instantiate(){} // RVA: 0x87C540
+        public void Destroy(){} // RVA: 0x5C6B390
+        public void .ctor(){} // RVA: 0x5C6B3D0
+        public void Initialize(){} // RVA: 0x5C6B8F0
+        public void FindObjectsByType(){} // RVA: 0x5C6BAD0
+        public void DontDestroyOnLoad(){} // RVA: 0x894320
+        public void get_hideFlags(){} // RVA: 0x5C6BDE0
+        public void set_hideFlags(){} // RVA: 0x5C6C030
+        public void FindObjectOfType(){} // RVA: 0x5C6C1C0
+        public void FindFirstObjectByType(){} // RVA: 0x5C6C3D0
+        public void CheckNullArgument(){} // RVA: 0x5C6C560
+        public void ToString(){} // RVA: 0x5C6C560
+        public void op_Equality(){} // RVA: 0x5C6C560
+        public void op_Inequality(){} // RVA: 0x5C6C5A0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xE3F480
+        public void Internal_CloneSingle(){} // RVA: 0x1546550
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5C6C5D0
+        public void Internal_InstantiateSingle(){} // RVA: 0x5C6C720
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5C6C8A0
+        public void GetName(){} // RVA: 0x5C6C8E0
+        public void IsPersistent(){} // RVA: 0x5C6CE00
+        public void SetName(){} // RVA: 0x5C6D150
+        public void FindObjectFromInstanceID(){} // RVA: 0x5C6D290
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5C6D640
+        public void Destroy_Injected(){} // RVA: 0x5C6DBA0
+        public void DestroyImmediate_Injected(){} // RVA: 0xDAC980
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43310
+        public void get_hideFlags_Injected(){} // RVA: 0xB43310
+        public void set_hideFlags_Injected(){} // RVA: 0xDAC980
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5C6DC80
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5C6DCD0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5C6DCE0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5C6DF40
+        public void ToString_Injected(){} // RVA: 0x5C6E1A0
+        // ── Unresolved (hash) ──
+        public void m_6FD(){} // RVA: 0x5C6D8A0
+        public void m_1B1(){} // RVA: 0x5C6D940
+    }
+
+    /// <summary>Originally: ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ</summary>
+    public class UnityObjectInstantiatable_07 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_DA5;
+        public object f_07A;
+        public object f_0EC;
+        public object f_144;
+        public object f_4D2;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB5DBF0
+        public void Equals(){} // RVA: 0xB465B0
+        public void GetHashCode(){} // RVA: 0xB700F0
+        public void op_Implicit(){} // RVA: 0xB70160
+        public void CompareBaseObjects(){} // RVA: 0xD33E60
+        public void IsNativeObjectAlive(){} // RVA: 0x87D280
+        public void GetCachedPtr(){} // RVA: 0x87C0A0
+        public void get_name(){} // RVA: 0x87C0A0
+        public void set_name(){} // RVA: 0x87C0A0
+        public void Instantiate(){} // RVA: 0x87C540
+        public void Destroy(){} // RVA: 0x5C6B390
+        public void .ctor(){} // RVA: 0x5C6B3D0
+        public void Initialize(){} // RVA: 0x5C6B8F0
+        public void FindObjectsByType(){} // RVA: 0x5C6BAD0
+        public void DontDestroyOnLoad(){} // RVA: 0x894320
+        public void get_hideFlags(){} // RVA: 0x5C6BDE0
+        public void set_hideFlags(){} // RVA: 0x5C6C030
+        public void FindObjectOfType(){} // RVA: 0x5C6C1C0
+        public void FindFirstObjectByType(){} // RVA: 0x5C6C3D0
+        public void CheckNullArgument(){} // RVA: 0x5C6C560
+        public void ToString(){} // RVA: 0x5C6C560
+        public void op_Equality(){} // RVA: 0x5C6C560
+        public void op_Inequality(){} // RVA: 0x5C6C5A0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xE3F480
+        public void Internal_CloneSingle(){} // RVA: 0x1546550
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5C6C5D0
+        public void Internal_InstantiateSingle(){} // RVA: 0x5C6C720
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5C6C8A0
+        public void GetName(){} // RVA: 0x5C6C8E0
+        public void IsPersistent(){} // RVA: 0x5C6CE00
+        public void SetName(){} // RVA: 0x5C6D150
+        public void FindObjectFromInstanceID(){} // RVA: 0x5C6D290
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5C6D640
+        public void Destroy_Injected(){} // RVA: 0x5C6DBA0
+        public void DestroyImmediate_Injected(){} // RVA: 0xDAC980
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43310
+        public void get_hideFlags_Injected(){} // RVA: 0xB43310
+        public void set_hideFlags_Injected(){} // RVA: 0xDAC980
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5C6DC80
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5C6DCD0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5C6DCE0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5C6DF40
+        public void ToString_Injected(){} // RVA: 0x5C6E1A0
+        // ── Unresolved (hash) ──
+        public void m_6FD(){} // RVA: 0x5C6D8A0
+        public void m_1B1(){} // RVA: 0x5C6D940
     }
 
     /// <summary>Originally: ÏÍÏÏÏÏÌÎÎÎÌÌÎÍÎÍÌÎÌÌÎÎÍ</summary>
@@ -519,6 +1090,33 @@ namespace VRC.Misc
         public void get_name(){} // RVA: 0x1BF7F70
     }
 
+    /// <summary>Originally: ÌÍÍÏÎÎÎÏÎÏÌÎÌÍÏÍÍÎÎÏÎÎÌ</summary>
+    public class UnityObjectRegistry_1 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x2696120
+        public void op_Implicit(){} // RVA: 0x2695F90
+        public void CompareBaseObjects(){} // RVA: 0x2695FD0
+        public void IsNativeObjectAlive(){} // RVA: 0x2696020
+        public void GetCachedPtr(){} // RVA: 0x26960A0
+        public void get_name(){} // RVA: 0x2696380
+        public void ToString(){} // RVA: 0x26963B0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x26966F0
+        public void DestroyImmediate(){} // RVA: 0x2696910
+        public void FindObjectsOfType(){} // RVA: 0x2695F90
+        public void GetHashCode(){} // RVA: 0x2696970
+        // ── Unresolved (hash) ──
+        public void m_030(){} // RVA: 0x2695E90
+        public void m_472(){} // RVA: 0x2695F10
+    }
+
     /// <summary>Originally: ÍÌÎÌÌÏÎÎÌÎÏÍÏÏÎÏÌÍÏÎÏÍÍ</summary>
     public class UnityObjectVariant : Object
     {
@@ -603,6 +1201,38 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0xB43310
     }
 
+    /// <summary>Originally: ÌÏÏÌÎÏÎÎÍÍÏÏÌÍÏÍÍÎÍÏÎÏÍ</summary>
+    public class UnityObjectWithImmediateDestroy_1 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_FED;
+        public object f_898;
+        public object f_647;
+        public object f_257;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x9772860
+        public void Equals(){} // RVA: 0x9773CE0
+        public void GetHashCode(){} // RVA: 0x97740F0
+        public void op_Implicit(){} // RVA: 0x9774790
+        public void CompareBaseObjects(){} // RVA: 0x97748A0
+        public void IsNativeObjectAlive(){} // RVA: 0x9774970
+        public void GetCachedPtr(){} // RVA: 0x9774DE0
+        public void .ctor(){} // RVA: 0x9774F60
+        public void Initialize(){} // RVA: 0x9775020
+        public void Instantiate(){} // RVA: 0xF73960
+        public void .cctor(){} // RVA: 0x97750F0
+        public void DestroyImmediate(){} // RVA: 0x9775470
+        public void FindObjectsOfType(){} // RVA: 0x97756C0
+        public void FindObjectsByType(){} // RVA: 0x9775830
+        public void DontDestroyOnLoad(){} // RVA: 0xF73960
+        public void get_hideFlags(){} // RVA: 0x9775EE0
+    }
+
     /// <summary>Originally: ÎÍÍÍÌÍÌÎÎÍÍÎÎÎÍÎÌÍÎÎÍÍÌ</summary>
     public class UnityObjectWithImmediateDestroy_2 : Object
     {
@@ -663,6 +1293,3450 @@ namespace VRC.Misc
         public void FindObjectsByType(){} // RVA: 0xB43310
         public void .ctor(){} // RVA: 0x22F64E0
         public void Initialize(){} // RVA: 0x22F67E0
+    }
+
+    /// <summary>Originally: ÏÏÎÎÍÏÏÌÎÎÌÏÎÎÎÎÏÎÍÎÌÏÌ</summary>
+    public class UnityObjectWrapper_10 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_47E;
+        public object f_489;
+        public object f_886;
+        public object f_AD8;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xB44DC0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xB70100
+        public void op_Implicit(){} // RVA: 0xB44DC0
+        public void CompareBaseObjects(){} // RVA: 0xBE58A0
+        public void IsNativeObjectAlive(){} // RVA: 0x18A0130
+        public void GetCachedPtr(){} // RVA: 0xBE5890
+        public void get_name(){} // RVA: 0xD33E60
+        public void set_name(){} // RVA: 0x262A680
+        public void Instantiate(){} // RVA: 0xB700F0
+        public void Destroy(){} // RVA: 0x189D3F0
+        public void DestroyImmediate(){} // RVA: 0xB5DBF0
+        public void FindObjectsOfType(){} // RVA: 0xBA9BA0
+        public void FindObjectsByType(){} // RVA: 0x18A0130
+        public void DontDestroyOnLoad(){} // RVA: 0xB6A8C0
+        public void get_hideFlags(){} // RVA: 0xB70100
+        public void set_hideFlags(){} // RVA: 0xBC1B30
+        public void FindObjectOfType(){} // RVA: 0xBE5890
+        public void FindFirstObjectByType(){} // RVA: 0x262A680
+        public void .ctor(){} // RVA: 0x262A690
+        public void Initialize(){} // RVA: 0x1D46130
+        public void op_Equality(){} // RVA: 0xB708C0
+        public void op_Inequality(){} // RVA: 0xB465B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xB44D60
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x8943B0
+        public void Equals(){} // RVA: 0xA94080
+        public void GetHashCode(){} // RVA: 0x894320
+        public void op_Implicit(){} // RVA: 0x894750
+        public void CompareBaseObjects(){} // RVA: 0x894750
+        public void IsNativeObjectAlive(){} // RVA: 0x894320
+        public void GetCachedPtr(){} // RVA: 0x894290
+        public void get_name(){} // RVA: 0x894320
+        public void set_name(){} // RVA: 0x87D350
+        public void Instantiate(){} // RVA: 0x894320
+        public void Destroy(){} // RVA: 0x894320
+        public void DestroyImmediate(){} // RVA: 0x894320
+        public void FindObjectsOfType(){} // RVA: 0x87C0A0
+        public void FindObjectsByType(){} // RVA: 0x894290
+        public void DontDestroyOnLoad(){} // RVA: 0x8943B0
+        public void get_hideFlags(){} // RVA: 0x87C0A0
+        public void set_hideFlags(){} // RVA: 0x87D280
+        public void FindObjectOfType(){} // RVA: 0x894320
+        public void FindFirstObjectByType(){} // RVA: 0x894320
+        public void CheckNullArgument(){} // RVA: 0x894320
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x894290
+        public void op_Inequality(){} // RVA: 0x87C0A0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x894290
+        public void Internal_CloneSingle(){} // RVA: 0x87C0A0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x895FE0
+        public void Internal_InstantiateSingle(){} // RVA: 0x87D280
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xA94080
+        public void .ctor(){} // RVA: 0x894290
+        public void Initialize(){} // RVA: 0x894320
+        public void SetName(){} // RVA: 0x894320
+        public void FindObjectFromInstanceID(){} // RVA: 0x894750
+        public void ForceLoadFromInstanceID(){} // RVA: 0x894320
+        public void Destroy_Injected(){} // RVA: 0x894320
+        public void DestroyImmediate_Injected(){} // RVA: 0x87C0A0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0x87D350
+        public void get_hideFlags_Injected(){} // RVA: 0x894290
+        public void set_hideFlags_Injected(){} // RVA: 0x894320
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x894290
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x894290
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x894290
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x894290
+        public void ToString_Injected(){} // RVA: 0x87C0A0
+        public void GetName_Injected(){} // RVA: 0x894320
+        public void IsPersistent_Injected(){} // RVA: 0x87D350
+        public void SetName_Injected(){} // RVA: 0x87C0A0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x894320
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x894320
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0x87C0A0
+        public void m_DC9(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A0B7B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A0B300
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A0B380
+        public void GetCachedPtr(){} // RVA: 0x5A0B450
+        public void get_name(){} // RVA: 0x5A0B9D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A0B720
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A0B7B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A0B830
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A0B8B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A0BA40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A0BC90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A0BD00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A0BFC0
+        public void Initialize(){} // RVA: 0x5A0C3D0
+        public void SetName(){} // RVA: 0x5A0C4E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0C5F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0C670
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0C710
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0C7A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0C930
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0CC70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0CEC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0CF80
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A0B380
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0CFD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A3DC00
+        public void Equals(){} // RVA: 0xF73960
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A3D820
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A07270
+        public void GetCachedPtr(){} // RVA: 0x5A3D8A0
+        public void get_name(){} // RVA: 0x5A3DE20
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A3DB70
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A3DC00
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A3DC80
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A3DD00
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A3DE90
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A3E0E0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A3E150
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xF73A60
+        public void .ctor(){} // RVA: 0x5A3E410
+        public void Initialize(){} // RVA: 0x5A3E820
+        public void SetName(){} // RVA: 0x5A3E930
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A3EA40
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A3EAC0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A3EB60
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A3EBF0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A3ED80
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A3F0C0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A3F310
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A3F3D0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A07270
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A3F420
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A07680
+        public void Equals(){} // RVA: 0xF73960
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A071F0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A07270
+        public void GetCachedPtr(){} // RVA: 0x5A072E0
+        public void get_name(){} // RVA: 0x5A078A0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A075B0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A07680
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A07700
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A07780
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A07910
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A07BA0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A07C10
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xF73A60
+        public void .ctor(){} // RVA: 0x5A07ED0
+        public void Initialize(){} // RVA: 0x5A082E0
+        public void SetName(){} // RVA: 0x5A083F0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A08500
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A08580
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A08620
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A086B0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A08840
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A08B80
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A08DD0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A08E90
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A07270
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A08F10
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A0B7B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A0B300
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A0B380
+        public void GetCachedPtr(){} // RVA: 0x5A0B450
+        public void get_name(){} // RVA: 0x5A0B9D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A0B720
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A0B7B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A0B830
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A0B8B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A0BA40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A0BC90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A0BD00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A0BFC0
+        public void Initialize(){} // RVA: 0x5A0C3D0
+        public void SetName(){} // RVA: 0x5A0C4E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0C5F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0C670
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0C710
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0C7A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0C930
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0CC70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0CEC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0CF80
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A0B380
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0CFD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A0B7B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A0B300
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A0B380
+        public void GetCachedPtr(){} // RVA: 0x5A0B450
+        public void get_name(){} // RVA: 0x5A0B9D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A0B720
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A0B7B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A0B830
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A0B8B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A0BA40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A0BC90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A0BD00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A0BFC0
+        public void Initialize(){} // RVA: 0x5A0C3D0
+        public void SetName(){} // RVA: 0x5A0C4E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0C5F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0C670
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0C710
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0C7A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0C930
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0CC70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0CEC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0CF80
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A0B380
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0CFD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A45DC0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A459E0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A45A60
+        public void get_name(){} // RVA: 0x5A45FE0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A45D30
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A45DC0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A45E40
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A45EC0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A46050
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A462A0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A46310
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A465D0
+        public void Initialize(){} // RVA: 0x5A469E0
+        public void SetName(){} // RVA: 0x5A46AF0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A46C00
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A46C80
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A46D20
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A46DB0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A46F40
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A47280
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A474D0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A47590
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A475E0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A43C90
+        public void Equals(){} // RVA: 0x5138930
+        public void GetHashCode(){} // RVA: 0xBE2C70
+        public void op_Implicit(){} // RVA: 0x5A437B0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A43830
+        public void GetCachedPtr(){} // RVA: 0x5A438F0
+        public void get_name(){} // RVA: 0x5A43EC0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A43BC0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xCD3320
+        public void FindObjectsByType(){} // RVA: 0x5A43C50
+        public void DontDestroyOnLoad(){} // RVA: 0x5A43C90
+        public void get_hideFlags(){} // RVA: 0xC0FFC0
+        public void set_hideFlags(){} // RVA: 0x5A43D10
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xBBF900
+        public void CheckNullArgument(){} // RVA: 0x5A43D90
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A43F30
+        public void op_Inequality(){} // RVA: 0xBE2C60
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A44180
+        public void Internal_CloneSingle(){} // RVA: 0x5A441C0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A44230
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5A444F0
+        public void .ctor(){} // RVA: 0x5A44550
+        public void Initialize(){} // RVA: 0x5A44970
+        public void SetName(){} // RVA: 0x5A44A80
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A44B90
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A44C10
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xBBF8F0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A44CB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A44CC0
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A44D50
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A44EE0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A45220
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A45470
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A45540
+        public void SetName_Injected(){} // RVA: 0x5A45590
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A43830
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A455C0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC10050
+        public void m_DC9(){} // RVA: 0xC10060
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A338C0
+        public void Equals(){} // RVA: 0x19F92B0
+        public void GetHashCode(){} // RVA: 0xCA4DF0
+        public void op_Implicit(){} // RVA: 0x5A334E0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A1B0F0
+        public void GetCachedPtr(){} // RVA: 0x5A33560
+        public void get_name(){} // RVA: 0x5A33AF0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A33830
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBBFF90
+        public void FindObjectsByType(){} // RVA: 0x5A1B510
+        public void DontDestroyOnLoad(){} // RVA: 0x5A338C0
+        public void get_hideFlags(){} // RVA: 0xBBF8F0
+        public void set_hideFlags(){} // RVA: 0x5A33940
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xD09D70
+        public void CheckNullArgument(){} // RVA: 0x5A339C0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A33B60
+        public void op_Inequality(){} // RVA: 0xBE58B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A1BA40
+        public void Internal_CloneSingle(){} // RVA: 0x5A33DB0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A33E20
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427EDC0
+        public void .ctor(){} // RVA: 0x5A340E0
+        public void Initialize(){} // RVA: 0x5A34500
+        public void SetName(){} // RVA: 0x5A34610
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A34720
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A347A0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD05CA0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0xCFEDE0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A34840
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A348D0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A34A60
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A34DA0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A34FF0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A350B0
+        public void SetName_Injected(){} // RVA: 0x158DAC0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A1B0F0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A35100
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBE2C60
+        public void m_DC9(){} // RVA: 0xBE2C70
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A297F0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A29410
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A29490
+        public void get_name(){} // RVA: 0x5A29A10
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A29760
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A297F0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A29870
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A298F0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A29A80
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A29CD0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A29D40
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A2A000
+        public void Initialize(){} // RVA: 0x5A2A410
+        public void SetName(){} // RVA: 0x5A2A520
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A2A630
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A2A6B0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A2A750
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A2A7E0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A2A970
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A2ACB0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A2AF00
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A2AFC0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A2B010
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A19440
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A19060
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A190E0
+        public void get_name(){} // RVA: 0x5A19660
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A193B0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A19440
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A194C0
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A19540
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A196D0
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A19920
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A19990
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A19C50
+        public void Initialize(){} // RVA: 0x5A1A060
+        public void SetName(){} // RVA: 0x5A1A170
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A1A280
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A1A300
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A1A3A0
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A1A430
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A1A5C0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A1A900
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A1AB50
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A1AC10
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A1AC60
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A49DE0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A49A00
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A49A80
+        public void get_name(){} // RVA: 0x5A4A000
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A49D50
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A49DE0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A49E60
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A49EE0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A4A070
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A4A2C0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A4A330
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A4A5F0
+        public void Initialize(){} // RVA: 0x5A4AA00
+        public void SetName(){} // RVA: 0x5A4AB10
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A4AC20
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A4ACA0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A4AD40
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A4ADD0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A4AF60
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A4B2A0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A4B4F0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A4B5B0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A4B600
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A47DD0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A479F0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A47A70
+        public void get_name(){} // RVA: 0x5A47FF0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A47D40
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A47DD0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A47E50
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A47ED0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A48060
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A482B0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A48320
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A485E0
+        public void Initialize(){} // RVA: 0x5A489F0
+        public void SetName(){} // RVA: 0x5A48B00
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A48C10
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A48C90
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A48D30
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A48DC0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A48F50
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A49290
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A494E0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A495A0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A495F0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A15280
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A14DE0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A14F20
+        public void get_name(){} // RVA: 0x5A154A0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A151F0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A15280
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A15300
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A15380
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A15510
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A15760
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A157D0
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A15A90
+        public void Initialize(){} // RVA: 0x5A15EA0
+        public void SetName(){} // RVA: 0x5A15FB0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A160C0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A16140
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A161E0
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A16270
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A16400
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A16740
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A16990
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A16A50
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A16AA0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A318B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A314D0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A31550
+        public void get_name(){} // RVA: 0x5A31AD0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A31820
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A318B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A31930
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A319B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A31B40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A31D90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A31E00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A320C0
+        public void Initialize(){} // RVA: 0x5A324D0
+        public void SetName(){} // RVA: 0x5A325E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A326F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A32770
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A32810
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A328A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A32A30
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A32D70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A32FC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A33080
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A330D0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A277E0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A27400
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A27480
+        public void get_name(){} // RVA: 0x5A27A00
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A27750
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A277E0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A27860
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A278E0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A27A70
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A27CC0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A27D30
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A27FF0
+        public void Initialize(){} // RVA: 0x5A28400
+        public void SetName(){} // RVA: 0x5A28510
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A28620
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A286A0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A28740
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A287D0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A28960
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A28CA0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A28EF0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A28FB0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A29000
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A23810
+        public void Equals(){} // RVA: 0xF73960
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A23430
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A07270
+        public void GetCachedPtr(){} // RVA: 0x5A234B0
+        public void get_name(){} // RVA: 0x5A23A30
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A23780
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A23810
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A23890
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A23910
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A23AA0
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A23CF0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A23D60
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xF73A60
+        public void .ctor(){} // RVA: 0x5A24020
+        public void Initialize(){} // RVA: 0x5A24430
+        public void SetName(){} // RVA: 0x5A24540
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A24650
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A246D0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A24770
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A24800
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A24990
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A24CD0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A24F20
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A24FE0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A07270
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A25030
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A53FB0
+        public void Equals(){} // RVA: 0x5138930
+        public void GetHashCode(){} // RVA: 0xBE2C70
+        public void op_Implicit(){} // RVA: 0x5A53B10
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A53B90
+        public void GetCachedPtr(){} // RVA: 0x5A53C50
+        public void get_name(){} // RVA: 0x5A541E0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A53F20
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xCD3320
+        public void FindObjectsByType(){} // RVA: 0x5A43C50
+        public void DontDestroyOnLoad(){} // RVA: 0x5A53FB0
+        public void get_hideFlags(){} // RVA: 0xC0FFC0
+        public void set_hideFlags(){} // RVA: 0x5A54030
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xBBF900
+        public void CheckNullArgument(){} // RVA: 0x5A540B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A54250
+        public void op_Inequality(){} // RVA: 0xBE2C60
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A44180
+        public void Internal_CloneSingle(){} // RVA: 0x5A544A0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A54510
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5A547D0
+        public void .ctor(){} // RVA: 0x5A54830
+        public void Initialize(){} // RVA: 0x5A54C50
+        public void SetName(){} // RVA: 0x5A54D60
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A54E70
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A54EF0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xBBF8F0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A44CB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A54F90
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A55020
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A551B0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A554F0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A55740
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A55810
+        public void SetName_Injected(){} // RVA: 0x5A45590
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A53B90
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A55860
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC10050
+        public void m_DC9(){} // RVA: 0xC10060
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A257D0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A253F0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A25470
+        public void get_name(){} // RVA: 0x5A259F0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A25740
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A257D0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A25850
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A258D0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A25A60
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A25CB0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A25D20
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A25FE0
+        public void Initialize(){} // RVA: 0x5A263F0
+        public void SetName(){} // RVA: 0x5A26500
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A26610
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A26690
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A26730
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A267C0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A26950
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A26C90
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A26EE0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A26FA0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A26FF0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A3FBC0
+        public void Equals(){} // RVA: 0xF73960
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A3F7E0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A07270
+        public void GetCachedPtr(){} // RVA: 0x5A3F860
+        public void get_name(){} // RVA: 0x5A3FDE0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A3FB30
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A3FBC0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A3FC40
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A3FCC0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A3FE50
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A400A0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A40110
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xF73A60
+        public void .ctor(){} // RVA: 0x5A403D0
+        public void Initialize(){} // RVA: 0x5A407E0
+        public void SetName(){} // RVA: 0x5A408F0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A40A00
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A40A80
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A40B20
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A40BB0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A40D40
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A41080
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A412D0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A41390
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A07270
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A413E0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A2F880
+        public void Equals(){} // RVA: 0x19F92B0
+        public void GetHashCode(){} // RVA: 0xCA4DF0
+        public void op_Implicit(){} // RVA: 0x5A2F4A0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A1B0F0
+        public void GetCachedPtr(){} // RVA: 0x5A2F520
+        public void get_name(){} // RVA: 0x5A2FAB0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A2F7F0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBBFF90
+        public void FindObjectsByType(){} // RVA: 0x5A1B510
+        public void DontDestroyOnLoad(){} // RVA: 0x5A2F880
+        public void get_hideFlags(){} // RVA: 0xBBF8F0
+        public void set_hideFlags(){} // RVA: 0x5A2F900
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xD09D70
+        public void CheckNullArgument(){} // RVA: 0x5A2F980
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A2FB20
+        public void op_Inequality(){} // RVA: 0xBE58B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A1BA40
+        public void Internal_CloneSingle(){} // RVA: 0x5A2FD70
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A2FDE0
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427EDC0
+        public void .ctor(){} // RVA: 0x5A300A0
+        public void Initialize(){} // RVA: 0x5A304C0
+        public void SetName(){} // RVA: 0x5A305D0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A306E0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A30760
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD05CA0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0xCFEDE0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A30800
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A30890
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A30A20
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A30D60
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A30FB0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A31070
+        public void SetName_Injected(){} // RVA: 0x158DAC0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A1B0F0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A310C0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBE2C60
+        public void m_DC9(){} // RVA: 0xBE2C70
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A216C0
+        public void Equals(){} // RVA: 0x254D5E0
+        public void GetHashCode(){} // RVA: 0xC10060
+        public void op_Implicit(){} // RVA: 0x5A211D0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A21250
+        public void GetCachedPtr(){} // RVA: 0x5A21320
+        public void get_name(){} // RVA: 0x5A218F0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A215F0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xB813B0
+        public void FindObjectsByType(){} // RVA: 0x5A21680
+        public void DontDestroyOnLoad(){} // RVA: 0x5A216C0
+        public void get_hideFlags(){} // RVA: 0xBBFF90
+        public void set_hideFlags(){} // RVA: 0x5A21740
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xC0FFD0
+        public void CheckNullArgument(){} // RVA: 0x5A217C0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A21960
+        public void op_Inequality(){} // RVA: 0xC10050
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A21BB0
+        public void Internal_CloneSingle(){} // RVA: 0x5A21BF0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A21C60
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5A21F20
+        public void .ctor(){} // RVA: 0x5A21F90
+        public void Initialize(){} // RVA: 0x5A223B0
+        public void SetName(){} // RVA: 0x5A224C0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A225D0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A22650
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xC0FFC0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A226F0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A22700
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A22790
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A22920
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A22C60
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A22EB0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A22F80
+        public void SetName_Injected(){} // RVA: 0x5A22FD0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A21250
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A23000
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xCD48B0
+        public void m_DC9(){} // RVA: 0xCD3600
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A358F0
+        public void Equals(){} // RVA: 0x19F92B0
+        public void GetHashCode(){} // RVA: 0xCA4DF0
+        public void op_Implicit(){} // RVA: 0x5A35510
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A1B0F0
+        public void GetCachedPtr(){} // RVA: 0x5A35590
+        public void get_name(){} // RVA: 0x5A35B20
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A35860
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBBFF90
+        public void FindObjectsByType(){} // RVA: 0x5A1B510
+        public void DontDestroyOnLoad(){} // RVA: 0x5A358F0
+        public void get_hideFlags(){} // RVA: 0xBBF8F0
+        public void set_hideFlags(){} // RVA: 0x5A35970
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xD09D70
+        public void CheckNullArgument(){} // RVA: 0x5A359F0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A35B90
+        public void op_Inequality(){} // RVA: 0xBE58B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A1BA40
+        public void Internal_CloneSingle(){} // RVA: 0x5A35DE0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A35E50
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427EDC0
+        public void .ctor(){} // RVA: 0x5A36110
+        public void Initialize(){} // RVA: 0x5A36530
+        public void SetName(){} // RVA: 0x5A36640
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A36750
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A367D0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD05CA0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0xCFEDE0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A36870
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A36900
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A36A90
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A36DD0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A37020
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A370E0
+        public void SetName_Injected(){} // RVA: 0x158DAC0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A1B0F0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A37130
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBE2C60
+        public void m_DC9(){} // RVA: 0xBE2C70
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A51EE0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A51B00
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A51B80
+        public void get_name(){} // RVA: 0x5A52100
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A51E50
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A51EE0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A51F60
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A51FE0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A52170
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A523C0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A52430
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A526F0
+        public void Initialize(){} // RVA: 0x5A52B00
+        public void SetName(){} // RVA: 0x5A52C10
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A52D20
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A52DA0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A52E40
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A52ED0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A53060
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A533A0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A535F0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A536B0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A53700
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A41B80
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A417A0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A41820
+        public void get_name(){} // RVA: 0x5A41DA0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A41AF0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A41B80
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A41C00
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A41C80
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A41E10
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A42060
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A420D0
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A42390
+        public void Initialize(){} // RVA: 0x5A427A0
+        public void SetName(){} // RVA: 0x5A428B0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A429C0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A42A40
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A42AE0
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A42B70
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A42D00
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A43040
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A43290
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A43350
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A433A0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A10CE0
+        public void Equals(){} // RVA: 0x5A10790
+        public void GetHashCode(){} // RVA: 0xD5CC10
+        public void op_Implicit(){} // RVA: 0x5A107C0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A10840
+        public void GetCachedPtr(){} // RVA: 0x5A10930
+        public void get_name(){} // RVA: 0x5A10F10
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A10C00
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0x12EB090
+        public void FindObjectsByType(){} // RVA: 0x5A10C90
+        public void DontDestroyOnLoad(){} // RVA: 0x5A10CE0
+        public void get_hideFlags(){} // RVA: 0xB813B0
+        public void set_hideFlags(){} // RVA: 0x5A10D60
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xCD4740
+        public void CheckNullArgument(){} // RVA: 0x5A10DE0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A10F80
+        public void op_Inequality(){} // RVA: 0x1069350
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A111D0
+        public void Internal_CloneSingle(){} // RVA: 0x5A11220
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A11290
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5A11550
+        public void .ctor(){} // RVA: 0x5A115D0
+        public void Initialize(){} // RVA: 0x5A11A00
+        public void SetName(){} // RVA: 0x5A11B10
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A11C20
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A11CA0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xCD3320
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A11D40
+        public void set_hideFlags_Injected(){} // RVA: 0x5A11D50
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A11DE0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A11F70
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A122B0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A12500
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A125D0
+        public void SetName_Injected(){} // RVA: 0x5A12620
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A10840
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A12650
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0x106A050
+        public void m_DC9(){} // RVA: 0xD5CCD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A37A60
+        public void Equals(){} // RVA: 0x5A37540
+        public void GetHashCode(){} // RVA: 0xBBFFA0
+        public void op_Implicit(){} // RVA: 0x5A37560
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A375E0
+        public void GetCachedPtr(){} // RVA: 0x5A376C0
+        public void get_name(){} // RVA: 0x5A37C90
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A37990
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xCD48B0
+        public void FindObjectsByType(){} // RVA: 0x5A37A20
+        public void DontDestroyOnLoad(){} // RVA: 0x5A37A60
+        public void get_hideFlags(){} // RVA: 0xBE2C60
+        public void set_hideFlags(){} // RVA: 0x5A37AE0
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xCA4DF0
+        public void CheckNullArgument(){} // RVA: 0x5A37B60
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A37D00
+        public void op_Inequality(){} // RVA: 0xBBFF90
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A37F50
+        public void Internal_CloneSingle(){} // RVA: 0x5A37F90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A38000
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5A382C0
+        public void .ctor(){} // RVA: 0x5A38330
+        public void Initialize(){} // RVA: 0x5A38750
+        public void SetName(){} // RVA: 0x5A38860
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A38970
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A389F0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xBE58B0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0xCFDA90
+        public void set_hideFlags_Injected(){} // RVA: 0x5A38A90
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A38B20
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A38CB0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A38FF0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A39240
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A39310
+        public void SetName_Injected(){} // RVA: 0x18652B0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A375E0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A39360
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xCD3320
+        public void m_DC9(){} // RVA: 0xCD4740
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A1F5F0
+        public void Equals(){} // RVA: 0x1065D50
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A1F210
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A09350
+        public void GetCachedPtr(){} // RVA: 0x5A1F290
+        public void get_name(){} // RVA: 0x5A1F810
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A1F560
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A1F5F0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A1F670
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A1F6F0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A1F880
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A1FAD0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A1FB40
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x13233D0
+        public void .ctor(){} // RVA: 0x5A1FE00
+        public void Initialize(){} // RVA: 0x5A20210
+        public void SetName(){} // RVA: 0x5A20320
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A20430
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A204B0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A20550
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A205E0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A20770
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A20AB0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A20D00
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A20DC0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A09350
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A20E10
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A2B800
+        public void Equals(){} // RVA: 0x19F92B0
+        public void GetHashCode(){} // RVA: 0xCA4DF0
+        public void op_Implicit(){} // RVA: 0x5A2B420
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A1B0F0
+        public void GetCachedPtr(){} // RVA: 0x5A2B4A0
+        public void get_name(){} // RVA: 0x5A2BA30
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A2B770
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBBFF90
+        public void FindObjectsByType(){} // RVA: 0x5A1B510
+        public void DontDestroyOnLoad(){} // RVA: 0x5A2B800
+        public void get_hideFlags(){} // RVA: 0xBBF8F0
+        public void set_hideFlags(){} // RVA: 0x5A2B880
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xD09D70
+        public void CheckNullArgument(){} // RVA: 0x5A2B900
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A2BAA0
+        public void op_Inequality(){} // RVA: 0xBE58B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A1BA40
+        public void Internal_CloneSingle(){} // RVA: 0x5A2BCF0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A2BD60
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427EDC0
+        public void .ctor(){} // RVA: 0x5A2C020
+        public void Initialize(){} // RVA: 0x5A2C440
+        public void SetName(){} // RVA: 0x5A2C550
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A2C660
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A2C6E0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD05CA0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0xCFEDE0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A2C780
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A2C810
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A2C9A0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A2CCE0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A2CF30
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A2CFF0
+        public void SetName_Injected(){} // RVA: 0x158DAC0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A1B0F0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A2D040
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBE2C60
+        public void m_DC9(){} // RVA: 0xBE2C70
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A1D5C0
+        public void Equals(){} // RVA: 0x19F92B0
+        public void GetHashCode(){} // RVA: 0xCA4DF0
+        public void op_Implicit(){} // RVA: 0x5A1D1E0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A1B0F0
+        public void GetCachedPtr(){} // RVA: 0x5A1D260
+        public void get_name(){} // RVA: 0x5A1D7F0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A1D530
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBBFF90
+        public void FindObjectsByType(){} // RVA: 0x5A1B510
+        public void DontDestroyOnLoad(){} // RVA: 0x5A1D5C0
+        public void get_hideFlags(){} // RVA: 0xBBF8F0
+        public void set_hideFlags(){} // RVA: 0x5A1D640
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xD09D70
+        public void CheckNullArgument(){} // RVA: 0x5A1D6C0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A1D860
+        public void op_Inequality(){} // RVA: 0xBE58B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A1BA40
+        public void Internal_CloneSingle(){} // RVA: 0x5A1DAB0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A1DB20
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427EDC0
+        public void .ctor(){} // RVA: 0x5A1DDE0
+        public void Initialize(){} // RVA: 0x5A1E200
+        public void SetName(){} // RVA: 0x5A1E310
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A1E420
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A1E4A0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD05CA0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0xCFEDE0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A1E540
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A1E5D0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A1E760
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A1EAA0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A1ECF0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A1EDB0
+        public void SetName_Injected(){} // RVA: 0x158DAC0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A1B0F0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A1EE00
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBE2C60
+        public void m_DC9(){} // RVA: 0xBE2C70
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A1B550
+        public void Equals(){} // RVA: 0x19F92B0
+        public void GetHashCode(){} // RVA: 0xCA4DF0
+        public void op_Implicit(){} // RVA: 0x5A1B070
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A1B0F0
+        public void GetCachedPtr(){} // RVA: 0x5A1B1B0
+        public void get_name(){} // RVA: 0x5A1B780
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A1B480
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBBFF90
+        public void FindObjectsByType(){} // RVA: 0x5A1B510
+        public void DontDestroyOnLoad(){} // RVA: 0x5A1B550
+        public void get_hideFlags(){} // RVA: 0xBBF8F0
+        public void set_hideFlags(){} // RVA: 0x5A1B5D0
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xD09D70
+        public void CheckNullArgument(){} // RVA: 0x5A1B650
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A1B7F0
+        public void op_Inequality(){} // RVA: 0xBE58B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A1BA40
+        public void Internal_CloneSingle(){} // RVA: 0x5A1BA80
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A1BAF0
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427EDC0
+        public void .ctor(){} // RVA: 0x5A1BDB0
+        public void Initialize(){} // RVA: 0x5A1C1D0
+        public void SetName(){} // RVA: 0x5A1C2E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A1C3F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A1C470
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD05CA0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0xCFEDE0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A1C510
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A1C5A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A1C730
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A1CA70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A1CCC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A1CD80
+        public void SetName_Injected(){} // RVA: 0x158DAC0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A1B0F0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A1CDD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBE2C60
+        public void m_DC9(){} // RVA: 0xBE2C70
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A173A0
+        public void Equals(){} // RVA: 0x28D53F0
+        public void GetHashCode(){} // RVA: 0xC0FFD0
+        public void op_Implicit(){} // RVA: 0x5A16EB0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A16F30
+        public void GetCachedPtr(){} // RVA: 0x5A17000
+        public void get_name(){} // RVA: 0x5A175D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A172D0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xC10050
+        public void FindObjectsByType(){} // RVA: 0x5A17360
+        public void DontDestroyOnLoad(){} // RVA: 0x5A173A0
+        public void get_hideFlags(){} // RVA: 0xBE58B0
+        public void set_hideFlags(){} // RVA: 0x5A17420
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB6A8C0
+        public void CheckNullArgument(){} // RVA: 0x5A174A0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A17640
+        public void op_Inequality(){} // RVA: 0xC0FFC0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A17890
+        public void Internal_CloneSingle(){} // RVA: 0x5A178D0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A17940
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427F010
+        public void .ctor(){} // RVA: 0x5A17C00
+        public void Initialize(){} // RVA: 0x5A18020
+        public void SetName(){} // RVA: 0x5A18130
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A18240
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A182C0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xBC1B30
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A18360
+        public void set_hideFlags_Injected(){} // RVA: 0x5A18370
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A18400
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A18590
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A188D0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A18B20
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A18BF0
+        public void SetName_Injected(){} // RVA: 0x59FF690
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A16F30
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A18C40
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBBFF90
+        public void m_DC9(){} // RVA: 0xBBFFA0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A39B80
+        public void Equals(){} // RVA: 0x28D53F0
+        public void GetHashCode(){} // RVA: 0xC0FFD0
+        public void op_Implicit(){} // RVA: 0x5A397A0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A16F30
+        public void GetCachedPtr(){} // RVA: 0x5A39820
+        public void get_name(){} // RVA: 0x5A39DB0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A39AF0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xC10050
+        public void FindObjectsByType(){} // RVA: 0x5A17360
+        public void DontDestroyOnLoad(){} // RVA: 0x5A39B80
+        public void get_hideFlags(){} // RVA: 0xBE58B0
+        public void set_hideFlags(){} // RVA: 0x5A39C00
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB6A8C0
+        public void CheckNullArgument(){} // RVA: 0x5A39C80
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A39E20
+        public void op_Inequality(){} // RVA: 0xC0FFC0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A17890
+        public void Internal_CloneSingle(){} // RVA: 0x5A3A070
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A3A0E0
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427F010
+        public void .ctor(){} // RVA: 0x5A3A3A0
+        public void Initialize(){} // RVA: 0x5A3A7C0
+        public void SetName(){} // RVA: 0x5A3A8D0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A3A9E0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A3AA60
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xBC1B30
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A18360
+        public void set_hideFlags_Injected(){} // RVA: 0x5A3AB00
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A3AB90
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A3AD20
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A3B060
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A3B2B0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A3B380
+        public void SetName_Injected(){} // RVA: 0x59FF690
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A16F30
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A3B3D0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBBFF90
+        public void m_DC9(){} // RVA: 0xBBFFA0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A4BDF0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A4BA10
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A14E60
+        public void GetCachedPtr(){} // RVA: 0x5A4BA90
+        public void get_name(){} // RVA: 0x5A4C010
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A4BD60
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A4BDF0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A4BE70
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A4BEF0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A4C080
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A4C2D0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A4C340
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A4C600
+        public void Initialize(){} // RVA: 0x5A4CA10
+        public void SetName(){} // RVA: 0x5A4CB20
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A4CC30
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A4CCB0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A4CD50
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A4CDE0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A4CF70
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A4D2B0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A4D500
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A4D5C0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A14E60
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A4D610
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A0B7B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A0B300
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A0B380
+        public void GetCachedPtr(){} // RVA: 0x5A0B450
+        public void get_name(){} // RVA: 0x5A0B9D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A0B720
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A0B7B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A0B830
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A0B8B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A0BA40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A0BC90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A0BD00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A0BFC0
+        public void Initialize(){} // RVA: 0x5A0C3D0
+        public void SetName(){} // RVA: 0x5A0C4E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0C5F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0C670
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0C710
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0C7A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0C930
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0CC70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0CEC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0CF80
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A0B380
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0CFD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A0B7B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A0B300
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A0B380
+        public void GetCachedPtr(){} // RVA: 0x5A0B450
+        public void get_name(){} // RVA: 0x5A0B9D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A0B720
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A0B7B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A0B830
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A0B8B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A0BA40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A0BC90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A0BD00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A0BFC0
+        public void Initialize(){} // RVA: 0x5A0C3D0
+        public void SetName(){} // RVA: 0x5A0C4E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0C5F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0C670
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0C710
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0C7A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0C930
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0CC70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0CEC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0CF80
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A0B380
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0CFD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A4FF20
+        public void Equals(){} // RVA: 0xF73960
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A4FB40
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A07270
+        public void GetCachedPtr(){} // RVA: 0x5A4FBC0
+        public void get_name(){} // RVA: 0x5A50140
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A4FE90
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A4FF20
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A4FFA0
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A50020
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A501B0
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A50400
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A50470
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xF73A60
+        public void .ctor(){} // RVA: 0x5A50730
+        public void Initialize(){} // RVA: 0x5A50B40
+        public void SetName(){} // RVA: 0x5A50C50
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A50D60
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A50DE0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A50E80
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A50F10
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A510A0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A513E0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A51630
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A516F0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A07270
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A51740
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A0B7B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A0B300
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A0B380
+        public void GetCachedPtr(){} // RVA: 0x5A0B450
+        public void get_name(){} // RVA: 0x5A0B9D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A0B720
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A0B7B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A0B830
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A0B8B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A0BA40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A0BC90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A0BD00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A0BFC0
+        public void Initialize(){} // RVA: 0x5A0C3D0
+        public void SetName(){} // RVA: 0x5A0C4E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0C5F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0C670
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0C710
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0C7A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0C930
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0CC70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0CEC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0CF80
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A0B380
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0CFD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A09720
+        public void Equals(){} // RVA: 0x1065D50
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A092D0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A09350
+        public void GetCachedPtr(){} // RVA: 0x5A093C0
+        public void get_name(){} // RVA: 0x5A09940
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A09690
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A09720
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A097A0
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A09820
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A099B0
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A09C00
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A09C70
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x13233D0
+        public void .ctor(){} // RVA: 0x5A09F30
+        public void Initialize(){} // RVA: 0x5A0A340
+        public void SetName(){} // RVA: 0x5A0A450
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0A560
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0A5E0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0A680
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0A710
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0A8A0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0ABE0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0AE30
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0AEF0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A09350
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0AF40
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A3BBD0
+        public void Equals(){} // RVA: 0x19F92B0
+        public void GetHashCode(){} // RVA: 0xCA4DF0
+        public void op_Implicit(){} // RVA: 0x5A3B7F0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A1B0F0
+        public void GetCachedPtr(){} // RVA: 0x5A3B870
+        public void get_name(){} // RVA: 0x5A3BE00
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A3BB40
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBBFF90
+        public void FindObjectsByType(){} // RVA: 0x5A1B510
+        public void DontDestroyOnLoad(){} // RVA: 0x5A3BBD0
+        public void get_hideFlags(){} // RVA: 0xBBF8F0
+        public void set_hideFlags(){} // RVA: 0x5A3BC50
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xD09D70
+        public void CheckNullArgument(){} // RVA: 0x5A3BCD0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A3BE70
+        public void op_Inequality(){} // RVA: 0xBE58B0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A1BA40
+        public void Internal_CloneSingle(){} // RVA: 0x5A3C0C0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A3C130
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427EDC0
+        public void .ctor(){} // RVA: 0x5A3C3F0
+        public void Initialize(){} // RVA: 0x5A3C810
+        public void SetName(){} // RVA: 0x5A3C920
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A3CA30
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A3CAB0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD05CA0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0xCFEDE0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A3CB50
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A3CBE0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A3CD70
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A3D0B0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A3D300
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A3D3C0
+        public void SetName_Injected(){} // RVA: 0x158DAC0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A1B0F0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A3D410
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBE2C60
+        public void m_DC9(){} // RVA: 0xBE2C70
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A0B7B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A0B300
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A0B380
+        public void GetCachedPtr(){} // RVA: 0x5A0B450
+        public void get_name(){} // RVA: 0x5A0B9D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A0B720
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A0B7B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A0B830
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A0B8B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A0BA40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A0BC90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A0BD00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A0BFC0
+        public void Initialize(){} // RVA: 0x5A0C3D0
+        public void SetName(){} // RVA: 0x5A0C4E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0C5F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0C670
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0C710
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0C7A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0C930
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0CC70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0CEC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0CF80
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A0B380
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0CFD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A0B7B0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A0B300
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A0B380
+        public void GetCachedPtr(){} // RVA: 0x5A0B450
+        public void get_name(){} // RVA: 0x5A0B9D0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A0B720
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A0B7B0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A0B830
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A0B8B0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A0BA40
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A0BC90
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A0BD00
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xB44DC0
+        public void .ctor(){} // RVA: 0x5A0BFC0
+        public void Initialize(){} // RVA: 0x5A0C3D0
+        public void SetName(){} // RVA: 0x5A0C4E0
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A0C5F0
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A0C670
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A0C710
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A0C7A0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A0C930
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A0CC70
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A0CEC0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A0CF80
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A0B380
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A0CFD0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A560D0
+        public void Equals(){} // RVA: 0xB70160
+        public void GetHashCode(){} // RVA: 0xBBF900
+        public void op_Implicit(){} // RVA: 0x5A55C80
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A55D00
+        public void GetCachedPtr(){} // RVA: 0x5A55D70
+        public void get_name(){} // RVA: 0x5A562F0
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A56040
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBE2C60
+        public void FindObjectsByType(){} // RVA: 0x5A07640
+        public void DontDestroyOnLoad(){} // RVA: 0x5A560D0
+        public void get_hideFlags(){} // RVA: 0xBC1B30
+        public void set_hideFlags(){} // RVA: 0x5A56150
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB708C0
+        public void CheckNullArgument(){} // RVA: 0x5A561D0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A56360
+        public void op_Inequality(){} // RVA: 0xBBF8F0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A07B60
+        public void Internal_CloneSingle(){} // RVA: 0x5A565B0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A56620
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x116B360
+        public void .ctor(){} // RVA: 0x5A568E0
+        public void Initialize(){} // RVA: 0x5A56CF0
+        public void SetName(){} // RVA: 0x5A56E00
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A56F10
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A56F90
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xD33E60
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x21BFBB0
+        public void set_hideFlags_Injected(){} // RVA: 0x5A57030
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A570C0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A57250
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A57590
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A577E0
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A578A0
+        public void SetName_Injected(){} // RVA: 0x5A08EE0
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A55D00
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A578F0
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xC0FFC0
+        public void m_DC9(){} // RVA: 0xC0FFD0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A2D830
+        public void Equals(){} // RVA: 0x28D53F0
+        public void GetHashCode(){} // RVA: 0xC0FFD0
+        public void op_Implicit(){} // RVA: 0x5A2D450
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A16F30
+        public void GetCachedPtr(){} // RVA: 0x5A2D4D0
+        public void get_name(){} // RVA: 0x5A2DA60
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A2D7A0
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xC10050
+        public void FindObjectsByType(){} // RVA: 0x5A17360
+        public void DontDestroyOnLoad(){} // RVA: 0x5A2D830
+        public void get_hideFlags(){} // RVA: 0xBE58B0
+        public void set_hideFlags(){} // RVA: 0x5A2D8B0
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB6A8C0
+        public void CheckNullArgument(){} // RVA: 0x5A2D930
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A2DAD0
+        public void op_Inequality(){} // RVA: 0xC0FFC0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A17890
+        public void Internal_CloneSingle(){} // RVA: 0x5A2DD20
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A2DD90
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427F010
+        public void .ctor(){} // RVA: 0x5A2E050
+        public void Initialize(){} // RVA: 0x5A2E470
+        public void SetName(){} // RVA: 0x5A2E580
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A2E690
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A2E710
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xBC1B30
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A18360
+        public void set_hideFlags_Injected(){} // RVA: 0x5A2E7B0
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A2E840
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A2E9D0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A2ED10
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A2EF60
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A2F030
+        public void SetName_Injected(){} // RVA: 0x59FF690
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A16F30
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A2F080
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBBFF90
+        public void m_DC9(){} // RVA: 0xBBFFA0
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A13010
+        public void Equals(){} // RVA: 0x5A12AB0
+        public void GetHashCode(){} // RVA: 0xD5CCD0
+        public void op_Implicit(){} // RVA: 0x5A12AF0
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A12B70
+        public void GetCachedPtr(){} // RVA: 0x5A12C60
+        public void get_name(){} // RVA: 0x5A13240
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A12F30
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xBAE3B0
+        public void FindObjectsByType(){} // RVA: 0x5A12FC0
+        public void DontDestroyOnLoad(){} // RVA: 0x5A13010
+        public void get_hideFlags(){} // RVA: 0x106A7D0
+        public void set_hideFlags(){} // RVA: 0x5A13090
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xD5CBB0
+        public void CheckNullArgument(){} // RVA: 0x5A13110
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A132B0
+        public void op_Inequality(){} // RVA: 0x106A050
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A13500
+        public void Internal_CloneSingle(){} // RVA: 0x5A13550
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A135C0
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x5A13880
+        public void .ctor(){} // RVA: 0x5A13900
+        public void Initialize(){} // RVA: 0x5A13D30
+        public void SetName(){} // RVA: 0x5A13E40
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A13F50
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A13FD0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xB813B0
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A14070
+        public void set_hideFlags_Injected(){} // RVA: 0x5A14080
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A14110
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A142A0
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A145E0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A14830
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A14900
+        public void SetName_Injected(){} // RVA: 0x5A14950
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A12B70
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A14980
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBAE340
+        public void m_DC9(){} // RVA: 0xBAE350
+    }
+
+    /// <summary>Originally: ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ</summary>
+    public class UnityObjectWrapper_13 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_2C1;
+        public object f_546;
+        public object f_14A;
+        public object f_99E;
+        public object f_7C8;
+        public object f_112;
+        public object f_5D7;
+        public object f_BC7;
+        public object f_D91;
+        public object f_5BB;
+        public object f_5A7;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5A4DED0
+        public void Equals(){} // RVA: 0x28D53F0
+        public void GetHashCode(){} // RVA: 0xC0FFD0
+        public void op_Implicit(){} // RVA: 0x5A4DA20
+        public void CompareBaseObjects(){} // RVA: 0xB5DD60
+        public void IsNativeObjectAlive(){} // RVA: 0x5A4DAA0
+        public void GetCachedPtr(){} // RVA: 0x5A4DB70
+        public void get_name(){} // RVA: 0x5A4E100
+        public void set_name(){} // RVA: 0xB43320
+        public void Instantiate(){} // RVA: 0xB43310
+        public void Destroy(){} // RVA: 0x5A4DE40
+        public void DestroyImmediate(){} // RVA: 0xB70100
+        public void FindObjectsOfType(){} // RVA: 0xC10050
+        public void FindObjectsByType(){} // RVA: 0x5A17360
+        public void DontDestroyOnLoad(){} // RVA: 0x5A4DED0
+        public void get_hideFlags(){} // RVA: 0xBE58B0
+        public void set_hideFlags(){} // RVA: 0x5A4DF50
+        public void FindObjectOfType(){} // RVA: 0xB70100
+        public void FindFirstObjectByType(){} // RVA: 0xB6A8C0
+        public void CheckNullArgument(){} // RVA: 0x5A4DFD0
+        public void ToString(){} // RVA: 0xA94080
+        public void op_Equality(){} // RVA: 0x5A4E170
+        public void op_Inequality(){} // RVA: 0xC0FFC0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x5A17890
+        public void Internal_CloneSingle(){} // RVA: 0x5A4E3C0
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x5A4E430
+        public void Internal_InstantiateSingle(){} // RVA: 0xB5DD50
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x427F770
+        public void .ctor(){} // RVA: 0x5A4E6F0
+        public void Initialize(){} // RVA: 0x5A4EB10
+        public void SetName(){} // RVA: 0x5A4EC20
+        public void FindObjectFromInstanceID(){} // RVA: 0x5A4ED30
+        public void ForceLoadFromInstanceID(){} // RVA: 0x5A4EDB0
+        public void Destroy_Injected(){} // RVA: 0xB43310
+        public void DestroyImmediate_Injected(){} // RVA: 0xBC1B30
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xB43320
+        public void get_hideFlags_Injected(){} // RVA: 0x5A18360
+        public void set_hideFlags_Injected(){} // RVA: 0x5A4EE50
+        public void Internal_CloneSingle_Injected(){} // RVA: 0x5A4EEE0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x5A4F070
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x5A4F3B0
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x5A4F600
+        public void ToString_Injected(){} // RVA: 0xB700F0
+        public void GetName_Injected(){} // RVA: 0xB43310
+        public void IsPersistent_Injected(){} // RVA: 0x5A4F6D0
+        public void SetName_Injected(){} // RVA: 0x59FF690
+        public void FindObjectFromInstanceID_Injected(){} // RVA: 0x5A4DAA0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0x5A4F720
+        // ── Unresolved (hash) ──
+        public void m_4BB(){} // RVA: 0xBBFF90
+        public void m_DC9(){} // RVA: 0xBBFFA0
     }
 
     /// <summary>Originally: ÏÍÍÏÍÏÌÌÎÌÏÌÍÍÍÎÎÎÌÎÎÏÎ</summary>
@@ -742,53 +4816,6 @@ namespace VRC.Misc
         public void op_Equality(){} // RVA: 0x976AE30
         public void op_Inequality(){} // RVA: 0x976AF90
         public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x976B340
-    }
-
-    /// <summary>Originally: ÎÎÎÍÎÎÎÎÎÌÌÌÏÍÏÎÏÎÎÏÌÎÎ</summary>
-    public class UnityObjectWrapper_18 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_7F1;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x81DB9A0
-        public void Equals(){} // RVA: 0x1659BE0
-        public void GetHashCode(){} // RVA: 0x81DBD20
-        public void op_Implicit(){} // RVA: 0x81DBD70
-        public void CompareBaseObjects(){} // RVA: 0x81DBDF0
-        public void IsNativeObjectAlive(){} // RVA: 0x81DC220
-        public void .cctor(){} // RVA: 0x81DC6E0
-    }
-
-    /// <summary>Originally: ÏÎÎÏÌÌÎÎÌÍÎÎÏÌÎÎÍÌÎÍÍÌÍ</summary>
-    public class UnityObjectWrapper_19 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xA0BE530
-        public void Equals(){} // RVA: 0xA0BFA10
-        public void GetHashCode(){} // RVA: 0xA0BFE10
-        public void op_Implicit(){} // RVA: 0xA0C0670
-        public void CompareBaseObjects(){} // RVA: 0xA0C0D50
-        public void IsNativeObjectAlive(){} // RVA: 0xA0C0C00
-        public void GetCachedPtr(){} // RVA: 0xA0C0DC0
-        public void get_name(){} // RVA: 0xA0C0EE0
-        public void set_name(){} // RVA: 0xA0C0F80
-        public void Instantiate(){} // RVA: 0xA0C1350
-        public void Destroy(){} // RVA: 0xA0C15A0
-        public void DestroyImmediate(){} // RVA: 0xA0C18A0
-        public void FindObjectsOfType(){} // RVA: 0xA0C1B00
-        public void FindObjectsByType(){} // RVA: 0xA0C1F60
-        public void .cctor(){} // RVA: 0xA0C2C40
     }
 
     /// <summary>Originally: ÏÏÌÎÏÏÍÎÍÎÌÌÏÎÎÎÎÎÌÍÎÍÎ</summary>
@@ -934,6 +4961,85 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0xB44D60
         public void get_hideFlags(){} // RVA: 0x81CE4E0
         public void set_hideFlags(){} // RVA: 0x81CFDD0
+    }
+
+    /// <summary>Originally: ÎÏÏÍÌÍÌÏÎÎÍÌÌÍÏÎÎÏÏÍÌÌÍ</summary>
+    public class UnityObjectWrapper_6 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_16B;
+        public object f_101;
+        public object f_47E;
+        public object f_489;
+        public object f_661;
+        public object f_F82;
+        public object f_1C1;
+        public object f_515;
+        public object f_561;
+        public object f_CE0;
+        public object f_5B3;
+        public object f_886;
+        public object f_AD8;
+        public object f_E84;
+        public object f_6BC;
+        public object f_70C;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xD05CA0
+        public void Equals(){} // RVA: 0xD05CA0
+        public void GetHashCode(){} // RVA: 0xB6B1B0
+        public void op_Implicit(){} // RVA: 0xC0FFD0
+        public void CompareBaseObjects(){} // RVA: 0x17AFA20
+        public void IsNativeObjectAlive(){} // RVA: 0xCA4DF0
+        public void GetCachedPtr(){} // RVA: 0xB813B0
+        public void get_name(){} // RVA: 0xC10050
+        public void set_name(){} // RVA: 0xB700F0
+        public void Instantiate(){} // RVA: 0xCD3320
+        public void Destroy(){} // RVA: 0xBE58A0
+        public void DestroyImmediate(){} // RVA: 0xD33E60
+        public void FindObjectsOfType(){} // RVA: 0xB6B1A0
+        public void FindObjectsByType(){} // RVA: 0xD5CBB0
+        public void DontDestroyOnLoad(){} // RVA: 0xB44D60
+        public void get_hideFlags(){} // RVA: 0xC10060
+        public void set_hideFlags(){} // RVA: 0xC10060
+        public void FindObjectOfType(){} // RVA: 0x262A8F0
+        public void FindFirstObjectByType(){} // RVA: 0xB6B1A0
+        public void CheckNullArgument(){} // RVA: 0x11A0AB0
+        public void ToString(){} // RVA: 0xB70100
+        public void op_Equality(){} // RVA: 0xB70100
+        public void op_Inequality(){} // RVA: 0xC0FFC0
+        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xCD4740
+        public void Internal_CloneSingle(){} // RVA: 0xF3A940
+        public void Internal_CloneSingleWithParent(){} // RVA: 0x262A900
+        public void Internal_InstantiateSingle(){} // RVA: 0xD09D70
+        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x262A910
+        public void GetName(){} // RVA: 0x262A920
+        public void IsPersistent(){} // RVA: 0xB708C0
+        public void SetName(){} // RVA: 0xB70160
+        public void FindObjectFromInstanceID(){} // RVA: 0xE3F400
+        public void ForceLoadFromInstanceID(){} // RVA: 0x262A900
+        public void Destroy_Injected(){} // RVA: 0xBC1B30
+        public void DestroyImmediate_Injected(){} // RVA: 0xBE5890
+        public void DontDestroyOnLoad_Injected(){} // RVA: 0xBA9BA0
+        public void get_hideFlags_Injected(){} // RVA: 0xE3CFC0
+        public void set_hideFlags_Injected(){} // RVA: 0xB5DBF0
+        public void Internal_CloneSingle_Injected(){} // RVA: 0xBE58B0
+        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0xBBFF90
+        public void Internal_InstantiateSingle_Injected(){} // RVA: 0x262A940
+        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0xBE58A0
+        public void ToString_Injected(){} // RVA: 0xB708C0
+        public void GetName_Injected(){} // RVA: 0xBBFFA0
+        public void IsPersistent_Injected(){} // RVA: 0xF3A950
+        public void .ctor(){} // RVA: 0x262A950
+        public void Initialize(){} // RVA: 0xB6A8C0
+        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0xB465B0
+        // ── Unresolved (hash) ──
+        public void m_AC9(){} // RVA: 0xB44DC0
+        public void m_DD0(){} // RVA: 0x262A930
     }
 
     /// <summary>Originally: ÍÏÌÎÎÌÌÏÎÍÏÍÍÏÍÎÍÍÍÌÌÍÎ</summary>

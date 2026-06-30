@@ -1,0 +1,198 @@
+{
+ "ÏÎÎÌÌÌÏÎÌÌÍÎÏÏÏÌÎÎÏÎÎÎÍ": {
+  "name": "TransformChangedVisibility",
+  "tokens": [
+   "Transform",
+   "Changed",
+   "visibility"
+  ],
+  "evidence": {
+   "fields": [
+    "_id",
+    "_visibility",
+    "_isClickable",
+    "_tooltip"
+   ],
+   "methods": [
+    "Start",
+    "OnEnable",
+    "Update",
+    "LateUpdate",
+    "OnDestroy",
+    "OnRectTransformDimensionsChange",
+    "OnBeforeTransformParentChanged",
+    "OnTransformParentChanged"
+   ]
+  },
+  "semantic_source": "evidence:synthesized"
+ },
+ "ÏÏÏÌÍÎÏÍÏÏÍÏÌÎÏÌÏÌÍÌÌÌÎ": {
+  "name": "TitleContainerChild",
+  "tokens": [
+   "title",
+   "Container",
+   "child"
+  ],
+  "evidence": {
+   "fields": [
+    "_title",
+    "_titleContainer",
+    "_childIndicator",
+    "_messages",
+    "_separators",
+    "_tooltips"
+   ],
+   "methods": [
+    "OnDestroy",
+    "Awake",
+    "Initialize"
+   ]
+  },
+  "semantic_source": "evidence:synthesized"
+ },
+ "ÏÏÍÍÎÎÌÌÍÌÏÏÏÍÏÏÎÎÌÎÌÎÌ": {
+  "name": "CanvasBackOffset",
+  "tokens": [
+   "Canvas",
+   "back",
+   "Offset"
+  ],
+  "evidence": {
+   "fields": [
+    "printRenderer",
+    "canvas",
+    "frontCanvasGroup",
+    "backCanvasGroup",
+    "pickup",
+    "preview",
+    "printCollider",
+    "streamerModeTexture"
+   ],
+   "methods": [
+    "Start",
+    "Awake",
+    "Initialize",
+    "FixedUpdate",
+    "Update",
+    "OnDestroy"
+   ]
+  },
+  "semantic_source": "evidence:synthesized"
+ },
+ "ÎÏÍÍÍÎÌÌÎÌÏÏÌÎÍÌÏÏÌÎÎÎÌ": {
+  "name": "SliderInteractText",
+  "tokens": [
+   "Slider",
+   "interact",
+   "Text"
+  ],
+  "evidence": {
+   "fields": [
+    "_interactTextPlacement",
+    "_interactText",
+    "_interactTextGO",
+    "_proximity",
+    "_initialize",
+    "_checkValid",
+    "pointModel",
+    "anchorModel"
+   ],
+   "methods": [
+    "get_IsInteractive",
+    "get_Proximity",
+    "Awake",
+    "OnPickupUseUp",
+    "Update",
+    "Start",
+    "OnDrop",
+    "OnPickupUseDown"
+   ]
+  },
+  "semantic_source": "evidence:synthesized"
+ },
+ "ÍÍÏÍÎÍÏÎÌÌÌÏÎÌÍÍÎÏÎÏÍÎÍ": {
+  "name": "TextIcon",
+  "tokens": [
+   "text",
+   "icon"
+  ],
+  "evidence": {
+   "fields": [
+    "text",
+    "icon"
+   ],
+   "methods": [
+    "get_destroyCancellationToken",
+    "Initialize"
+   ]
+  },
+  "semantic_source": "evidence:synthesized"
+ },
+ "ÍÌÍÍÎÌÏÌÎÍÏÌÌÎÍÌÎÏÎÍÍÏÎ": {
+  "name": "BlurRenderTexture",
+  "tokens": [
+   "blur",
+   "render",
+   "Texture"
+  ],
+  "evidence": {
+   "fields": [
+    "renderTextureWidth",
+    "renderTextureHeight",
+    "blurDownsampleFactor",
+    "blurSize",
+    "blurIterations"
+   ],
+   "methods": [
+    "Initialize"
+   ]
+  },
+  "semantic_source": "evidence:synthesized"
+ },
+ "ÍÍÍÏÎÎÍÎÍÎÌÎÌÎÏÎÎÎÏÌÍÌÌ": {
+  "name": "MobileOpacityPulse",
+  "tokens": [
+   "mobile",
+   "Opacity",
+   "Pulse"
+  ],
+  "evidence": {
+   "fields": [
+    "mobilePulseSpeed",
+    "mobileMinimumOpacity",
+    "mobileMaximumOpacity"
+   ],
+   "methods": [
+    "Initialize"
+   ]
+  },
+  "semantic_source": "evidence:synthesized"
+ },
+ "ÏÏÏÏÏÏÍÎÎÏÍÏÏÎÏÍÌÍÎÎÌÏÌ": {
+  "name": "DescriptionBuyerName",
+  "tokens": [
+   "description",
+   "buyer",
+   "name"
+  ],
+  "evidence": {
+   "fields": [
+    "_iD",
+    "_description",
+    "_buyer",
+    "_name"
+   ],
+   "methods": [
+    "Purchase",
+    "CompareTo",
+    "Initialize",
+    "set_ID",
+    "get_ID",
+    "set_Description",
+    "get_Description",
+    "set_Buyer"
+   ]
+  },
+  "semantic_source": "evidence:synthesized"
+ }
+}

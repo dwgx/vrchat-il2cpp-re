@@ -1,0 +1,224 @@
+[
+  {
+    "obf_class": "BackingFieldBaseImpl_BE25",
+    "proposed_name": "FavoriteAreaListController",
+    "confidence": "medium",
+    "evidence": "多方法调用 FavoriteArea::FetchLists + FavoriteAreaListFetcher::GetCachedPtr,配合 Dictionary::TryGetValue/VRCLogger 做收藏夹列表缓存与拉取"
+  },
+  {
+    "obf_class": "Static16m_A4E8",
+    "proposed_name": "ZLoggerEntryObjectPool",
+    "confidence": "medium",
+    "evidence": "ZLoggerEntry::Return x4 + ObjectPool::TryPop + IObjectPoolNode::get_NextNode + IZLoggerFormatter,典型 ZLogger 日志条目对象池"
+  },
+  {
+    "obf_class": "BaseClass45Impl_5DBE",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4 的 CompareBaseObjects/FindObjectsByType/Initialize 等通用 UnityEngine.Object 生命周期 boilerplate"
+  },
+  {
+    "obf_class": "BaseClass45Impl_B682",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "Array::Clear/List::set_Item/UnityObjectWrapper 偏移 + 泛型 FindObjectsByType,均为容器与 Unity 对象 boilerplate"
+  },
+  {
+    "obf_class": "BaseClass45Impl_DA9B",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "Enumerable::Skip/Error::ArgumentNull/String::FormatHelper 等通用 LINQ 与错误 boilerplate"
+  },
+  {
+    "obf_class": "BaseClass290Impl_k__BackingFieldImpl_B865",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "List::Add/Remove + 泛型 FindObjectsByType + Time::realtimeSinceStartup,泛型集合与时间,无聚焦领域"
+  },
+  {
+    "obf_class": "BaseClass45Impl_0D93",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "全部为 UnityObjectWrapper_4 原生对象访问(CompareBaseObjects/IsNativeObjectAlive 等)boilerplate"
+  },
+  {
+    "obf_class": "BaseClass45Impl_831C",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "UnityObjectWrapper_4::DestroyImmediate/FindObjectsByType/Initialize + Monitor,通用 Unity 对象生命周期 boilerplate"
+  },
+  {
+    "obf_class": "Struct6f_F248",
+    "proposed_name": "VRCTimeInterval",
+    "confidence": "medium",
+    "evidence": "DateTime::op_Subtraction + TimeSpan::Interval + VRCTime::GetCachedPtr,6 字段结构做 VRC 时间差计算"
+  },
+  {
+    "obf_class": "BaseClass52Impl_045F",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "IOSelectorJob::MarkDisposed/RegexCache::GetInstanceID/StyleElement::StopAllCoroutines 三个互不相关领域,矛盾"
+  },
+  {
+    "obf_class": "BackingFieldBaseImplSibling_85BB",
+    "proposed_name": "ZLoggerFormatterPool",
+    "confidence": "low",
+    "evidence": "IObjectPoolNode::get_NextNode 多次 + IZLoggerFormatter::get_WithLineBreak x3,ZLogger 格式化器对象池,池节点偏 boilerplate"
+  },
+  {
+    "obf_class": "Struct6f_890E",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4 通用对象比较/查找 boilerplate"
+  },
+  {
+    "obf_class": "Struct3f_0582",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4 通用对象比较/查找 boilerplate"
+  },
+  {
+    "obf_class": "Struct2f_9829",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4 通用对象比较/查找 boilerplate"
+  },
+  {
+    "obf_class": "Struct2f_76F6",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4 通用对象比较/查找 boilerplate"
+  },
+  {
+    "obf_class": "BackingFieldBaseImplSibling_05CC",
+    "proposed_name": "ZLoggerLogStateFormatter",
+    "confidence": "medium",
+    "evidence": "StringFormatterLogState::CreateEntry + IZLoggerFormatter::get_WithLineBreak + IObjectPoolNode,ZLogger 字符串格式化日志状态"
+  },
+  {
+    "obf_class": "BaseClass290Impl_k__BackingField_BE98",
+    "proposed_name": "MainThreadQueueDispatcher",
+    "confidence": "low",
+    "evidence": "MainThreadQueueDrainer::op_Implicit x2 + Time::realtimeSinceStartup,主线程队列调度,op_Implicit 证据较弱"
+  },
+  {
+    "obf_class": "BaseClass52Impl_D32B",
+    "proposed_name": "RegexCacheAccessor",
+    "confidence": "medium",
+    "evidence": "全部 5 个方法稳定调用 RegexCache::GetCachedPtr,聚焦正则缓存访问"
+  },
+  {
+    "obf_class": "Static2m_B905",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "Grouping::get_HashCode + IObjectPoolNode::get_NextNode,泛型 LINQ 分组与池节点 boilerplate"
+  },
+  {
+    "obf_class": "Static2m_1D5F",
+    "proposed_name": "ZLoggerEntryPoolNode",
+    "confidence": "low",
+    "evidence": "IObjectPoolNode::get_NextNode + ZLoggerEntry::get_LogInfo,池化 ZLogger 条目访问,证据偏薄"
+  },
+  {
+    "obf_class": "Static4m_A9C0",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "DSA::ExportParameters(加密)与 ZLoggerEntry::get_LogInfo(日志)两个无关领域,矛盾"
+  },
+  {
+    "obf_class": "BaseClass52Impl_000C",
+    "proposed_name": "RegexCacheAccessor",
+    "confidence": "medium",
+    "evidence": "9 个方法均调用 RegexCache::GetCachedPtr,聚焦正则缓存访问"
+  },
+  {
+    "obf_class": "BaseClass7Impl_BAEC",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 ThrowHelper::ThrowNullReferenceException,纯异常 boilerplate"
+  },
+  {
+    "obf_class": "Static1m_1D1D",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "单方法单 callee IZLoggerFormatter::get_WithLineBreak 属性 getter,证据过薄"
+  },
+  {
+    "obf_class": "Static2m_580F",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode::get_NextNode,通用对象池链表 boilerplate"
+  },
+  {
+    "obf_class": "Static2m_8674",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode::get_NextNode,通用对象池链表 boilerplate"
+  },
+  {
+    "obf_class": "Static2m_E1E7",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode::get_NextNode,通用对象池链表 boilerplate"
+  },
+  {
+    "obf_class": "Struct2f_C206",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4::set_name,通用 Unity 对象命名 boilerplate"
+  },
+  {
+    "obf_class": "Struct2f_963D",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4::set_name,通用 Unity 对象命名 boilerplate"
+  },
+  {
+    "obf_class": "Struct3f_0FA6",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 UnityObjectWrapper_4::IsNativeObjectAlive,通用原生对象存活检查 boilerplate"
+  },
+  {
+    "obf_class": "BaseClass290ImplSiblingSibling_B8BE",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 FromList_1::Dispose,泛型集合释放 boilerplate"
+  },
+  {
+    "obf_class": "Struct1f_737B",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 FromList_1::Dispose,泛型集合释放 boilerplate"
+  },
+  {
+    "obf_class": "Static1m_410F",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode::get_NextNode,通用对象池链表 boilerplate"
+  },
+  {
+    "obf_class": "Static2m_6B60",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 IObjectPoolNode::get_NextNode,通用对象池链表 boilerplate"
+  },
+  {
+    "obf_class": "Static1m_01BC",
+    "proposed_name": "SteamVRActionSetReader",
+    "confidence": "medium",
+    "evidence": "单方法包装 ISteamVR_ActionSet::ReadRawSetActive,SteamVR 动作集激活状态读取"
+  },
+  {
+    "obf_class": "Static1m_80B8",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 DSA::ExportParameters,通用加密参数导出 boilerplate,无 VRChat 领域上下文"
+  },
+  {
+    "obf_class": "BaseClass52Impl_EB9A",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 ThrowHelper::ThrowArgumentOutOfRange_IndexException,纯索引越界异常 boilerplate"
+  }
+]

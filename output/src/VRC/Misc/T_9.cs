@@ -413,25 +413,6 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0xB43310
     }
 
-    /// <summary>Originally: ÌÎÏÌÎÏÍÏÏÏÎÎÎÍÎÍÍÌÏÎÎÏÍ</summary>
-    public class Type11m1f_0A4D : Object
-    {
-        public object _0A4D;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x14FAB90
-        public void Equals(){} // RVA: 0x14FAC30
-        public void GetHashCode(){} // RVA: 0x14FAC90
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x14FAD30
-        public void IsNativeObjectAlive(){} // RVA: 0x14FADD0
-        public void GetCachedPtr(){} // RVA: 0x14FAE30
-        public void get_name(){} // RVA: 0x14FAE90
-        public void set_name(){} // RVA: 0x14FAF30
-        public void Instantiate(){} // RVA: 0x14FAFD0
-        public void Destroy(){} // RVA: 0x14FB070
-    }
-
     /// <summary>Originally: ÍÍÌÌÏÏÍÍÎÌÌÍÎÌÍÍÏÍÌÌÏÍÏ</summary>
     public class Type11m1f_2A26 : Object
     {
@@ -780,6 +761,29 @@ namespace VRC.Misc
         public void DestroyImmediate(){} // RVA: 0x14510C0
     }
 
+    /// <summary>Originally: ÍÏÍÎÌÍÍÎÌÍÌÌÍÏÌÍÌÌÎÏÏÎÏ</summary>
+    public class Type13m3f_4984 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x131F930
+        public void Equals(){} // RVA: 0x131F9A0
+        public void .ctor(){} // RVA: 0xB44D60
+        public void Initialize(){} // RVA: 0x131FA10
+        public void CompareBaseObjects(){} // RVA: 0x131FBE0
+        public void IsNativeObjectAlive(){} // RVA: 0x131FCA0
+        public void GetCachedPtr(){} // RVA: 0x131FCD0
+        public void get_name(){} // RVA: 0x131FED0
+        public void set_name(){} // RVA: 0x1320080
+        public void Instantiate(){} // RVA: 0x1320090
+        public void Destroy(){} // RVA: 0x1320140
+        public void DestroyImmediate(){} // RVA: 0x1320150
+        public void FindObjectsOfType(){} // RVA: 0x1320370
+    }
+
     /// <summary>Originally: ÏÎÍÎÎÌÌÌÌÏÏÎÏÏÌÌÍÍÏÎÎÍÎ</summary>
     public class Type13m3f_57B7 : Object
     {
@@ -1070,6 +1074,22 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0xB43310
         public void Initialize(){} // RVA: 0x14CEA40
         public void GetCachedPtr(){} // RVA: 0x14CEAE0
+    }
+
+    /// <summary>Originally: ÌÎÌÎÏÏÏÌÎÏÍÏÎÏÎÍÎÍÎÌÎÏÍ</summary>
+    public class Type7m2f_4378 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x1314770
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x1314820
+        public void op_Implicit(){} // RVA: 0x13148D0
+        public void CompareBaseObjects(){} // RVA: 0x1314980
+        public void IsNativeObjectAlive(){} // RVA: 0x1314A30
+        public void GetCachedPtr(){} // RVA: 0x1314AE0
     }
 
     /// <summary>Originally: ÍÎÍÏÎÎÏÏÏÍÌÍÎÌÎÏÌÍÎÌÌÏÎ</summary>
@@ -1395,6 +1415,23 @@ namespace VRC.Misc
         public void set_name(){} // RVA: 0x14E5BA0
     }
 
+    /// <summary>Originally: ÍÌÏÏÏÍÏÏÌÍÍÎÌÍÎÍÌÌÎÏÎÎÎ</summary>
+    public class Type9m1f_1B89 : Object
+    {
+        public object _1B89;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x132D170
+        public void Equals(){} // RVA: 0x132D1D0
+        public void GetHashCode(){} // RVA: 0x132D1D0
+        public void op_Implicit(){} // RVA: 0x132D170
+        public void CompareBaseObjects(){} // RVA: 0x132D170
+        public void IsNativeObjectAlive(){} // RVA: 0x132D170
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x132D170
+        public void set_name(){} // RVA: 0x132D1D0
+    }
+
     /// <summary>Originally: ÌÍÍÍÍÏÌÌÌÍÍÍÎÏÍÎÌÏÏÌÍÍÎ</summary>
     public class Type9m1f_1BB5 : Object
     {
@@ -1410,23 +1447,6 @@ namespace VRC.Misc
         public void GetCachedPtr(){} // RVA: 0x1353D80
         public void .ctor(){} // RVA: 0xB43310
         public void Initialize(){} // RVA: 0x1353EE0
-    }
-
-    /// <summary>Originally: ÏÏÎÎÏÍÌÍÍÏÏÏÎÌÏÎÏÌÎÍÏÍÎ</summary>
-    public class Type9m1f_31FB : Object
-    {
-        public object _31FB;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x14F8CF0
-        public void Equals(){} // RVA: 0x14F8D50
-        public void GetHashCode(){} // RVA: 0x14F8DF0
-        public void op_Implicit(){} // RVA: 0x14F8E50
-        public void CompareBaseObjects(){} // RVA: 0x14F8EF0
-        public void IsNativeObjectAlive(){} // RVA: 0x14F8F90
-        public void GetCachedPtr(){} // RVA: 0x14F8FF0
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x14F9050
     }
 
     /// <summary>Originally: ÎÎÏÎÎÌÌÌÌÎÎÌÌÏÍÌÌÏÎÏÏÎÏ</summary>
@@ -1461,23 +1481,6 @@ namespace VRC.Misc
         public void GetCachedPtr(){} // RVA: 0x14CEB80
         public void get_name(){} // RVA: 0x14CEB80
         public void .ctor(){} // RVA: 0xB43310
-    }
-
-    /// <summary>Originally: ÌÏÏÍÍÏÎÍÌÍÎÍÌÌÏÌÌÌÌÏÍÍÍ</summary>
-    public class Type9m1f_7927 : Object
-    {
-        public object _kInstanceID_None;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xB5DBF0
-        public void Equals(){} // RVA: 0xB5DBF0
-        public void GetHashCode(){} // RVA: 0xB5DBF0
-        public void op_Implicit(){} // RVA: 0xB5DBF0
-        public void CompareBaseObjects(){} // RVA: 0xB5DBF0
-        public void .ctor(){} // RVA: 0x14F6DC0
-        public void Initialize(){} // RVA: 0xB5DBF0
-        public void get_name(){} // RVA: 0xB5DBF0
-        public void set_name(){} // RVA: 0xB5DBF0
     }
 
     /// <summary>Originally: ÎÏÎÍÌÍÍÏÏÏÌÌÌÍÍÏÎÍÌÏÌÌÌ</summary>

@@ -1,0 +1,20 @@
+[
+  {"obf_class": "Struct2f_C737", "proposed_name": "ByteBufferReader", "confidence": "medium", "evidence": "m_0BD 是 BitConverter.ToUInt16，从 length 前缀缓冲(长度@0x18,数据@0x20)按偏移读 ushort，配 Array.Copy + ThrowHelper 边界检查，典型二进制字节缓冲读取器"},
+  {"obf_class": "BaseClass52Impl_C90C", "proposed_name": "RectTransformLayoutHelper", "confidence": "medium", "evidence": "all_callees 集中在 RectTransform.GetParentSize/get_anchorMin/get_anchorMax/get_sizeDelta，按 anchor+父尺寸计算 UI 布局矩形"},
+  {"obf_class": "BaseClass45Impl_A727", "proposed_name": "GameObjectActivationManager", "confidence": "low", "evidence": "GameObject.SetActive + FindObjectsByType + Enumerable.Select + Array.Clear，查找一组 GameObject 并切换激活状态"},
+  {"obf_class": "BaseClass45Impl_BF9C", "proposed_name": null, "confidence": "low", "evidence": "仅 NativeObject set_hideFlags + VRCLogger/ZLogger 日志，无明确领域信号"},
+  {"obf_class": "RequiresStoringk__BackingRelated_BCAD", "proposed_name": null, "confidence": "low", "evidence": "callees 横跨 AccessibilityNodeData/ColorBlock/HumanDescription/PointerEvent，领域互相矛盾"},
+  {"obf_class": "BaseClass52Impl_2A54", "proposed_name": "StyleColorParser", "confidence": "medium", "evidence": "ColorUtility.TryParseHtmlString + StyleElementColorSetter.Destroy，从 HTML/hex 字符串解析颜色用于 UI 样式"},
+  {"obf_class": "BaseClass290Impl_k__BackingFieldImpl_28EE", "proposed_name": "ObjectInstantiationHelper", "confidence": "medium", "evidence": "Internal_CloneSingleWithParent + InstantiableObject op_Implicit + NativeObjectInstantiateWrapper.FindObjectsByType，对象克隆/实例化"},
+  {"obf_class": "BaseClass45Impl_7C14", "proposed_name": null, "confidence": "low", "evidence": "StopCoroutine + Quaternion op_Equality + InvokeRepeating 混杂，无自洽领域"},
+  {"obf_class": "BaseClass52Impl_F511", "proposed_name": "LayoutGroupInvalidator", "confidence": "low", "evidence": "distinctive callee LayoutGroup.SetDirty → UI 布局失效标脏(RegexCache 为共享辅助)"},
+  {"obf_class": "BaseClass7Impl_C724", "proposed_name": null, "confidence": "low", "evidence": "仅单个 StopCoroutineFromEnumerator 协程停止调用，无领域指向"},
+  {"obf_class": "BaseClass52Impl_66C0", "proposed_name": null, "confidence": "low", "evidence": "仅 StyleElement.StopAllCoroutines 单一协程调用，证据太薄"},
+  {"obf_class": "BaseClass290Impl_k__BackingFieldImpl_B9CA", "proposed_name": null, "confidence": "low", "evidence": "FixedUpdate + Time.get_realtimeSinceStartup，仅泛型时间驱动，无具体领域"},
+  {"obf_class": "BaseClass45Impl_43D6", "proposed_name": null, "confidence": "low", "evidence": "仅 Destroy + Start 生命周期调用，无领域语义"},
+  {"obf_class": "Struct19f_7980", "proposed_name": null, "confidence": "low", "evidence": "InputEventStream 与 Particle.set_startColor 领域互斥，矛盾"},
+  {"obf_class": "BaseClass3Impl_6E0C", "proposed_name": null, "confidence": "low", "evidence": "仅 PhotonConnectionHandler.print 单一泛型调用，不足以定域"},
+  {"obf_class": "BackingFieldBase_k__BackingField_5BA6", "proposed_name": null, "confidence": "low", "evidence": "仅 Array.IndexOf，纯泛型 boilerplate"},
+  {"obf_class": "Struct3f_ABC6", "proposed_name": "StencilStateConfigurator", "confidence": "low", "evidence": "distinctive callee StencilState.set_passOperationBack → 渲染模板(stencil)状态配置"},
+  {"obf_class": "Struct10f_3E81", "proposed_name": null, "confidence": "low", "evidence": "仅 PointerEvent.set_timestamp 单一 setter，证据太薄"}
+]

@@ -11,6 +11,9 @@ import json
 import re
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from name_quality import is_weak_name  # canonical criterion, shared with pipeline
+
 BASE = Path(__file__).resolve().parent.parent
 DUMP = BASE / 'output' / 'deobfuscated_dump.json'
 CV = BASE / 'output' / 'cross_version_method_names.json'
@@ -20,33 +23,36 @@ OBF_RE = re.compile(r'^[ÌÍÎÏ]{3,}$')
 HASH_RE = re.compile(r'^m_[0-9A-Fa-f]{3,}$')
 FHASH_RE = re.compile(r'^f_[0-9A-Fa-f]{3,}$')
 
-# Weak/fallback class-name detection — mirrors run_full_pipeline._is_weak_name
-# so coverage numbers stay consistent with the pipeline coverage report.
-WEAK_PREFIXES = (
-    'Obf_', 'Type', 'Struct', 'Mono', 'Service', 'Major', 'Static',
-    'DataOnly', 'EmptyType', 'EmptyStruct', 'EmptyClass', 'Record',
-    'Unknown', 'LargeClass', 'Class_',
-)
-WEAK_RE = re.compile(r'^(Type|Struct|Mono|Service|Major|Static)\d+[mf]')
+# Weak/fallback class-name detection now lives in name_quality.is_weak_name
+# (imported above) so the pipeline and this report can never disagree.
 
-
-def is_weak_name(name: str) -> bool:
-    if WEAK_RE.match(name):
-        return True
-    return name.startswith(WEAK_PREFIXES)
 
 
 def main():
     with open(DUMP, encoding='utf-8-sig') as f:
         data = json.load(f)
 
+    # Build identifier comes from the dump itself, never hardcoded.
+    _summary = data.get('summary', data.get('metadata', {}))
+    build_id = _summary.get('build', 'unknown')
+
     total_classes = 0
     obf_classes = 0       # classes that were originally obfuscated
     semantic_classes = 0  # obf classes with a meaningful name
     fallback_classes = 0  # obf classes with only a structural/hash name
 
+    # Source-type-level (generic-dedup) tracking. IL2CPP emits one Il2CppClass
+    # per generic instantiation (Foo<int>, Foo<string>, ...) but they share one
+    # source TypeDefinition, hence one obfuscated original_name. Counting each
+    # instance inflates the denominator; dedup by original_name to count
+    # distinct source types. Proven: see memory vrchat-beebyte-generic-dedup
+    # (4^23 name space => random collision prob 4.8e-7; observed groups share
+    # identical obfuscated field-name sets => same source definition).
+    src_named = {}  # original_name -> bool list (is this instance meaningfully named)
+
     total_methods = 0
     semantic_methods = 0
+    behavioral_methods = 0
     hash_methods = 0
     obf_methods = 0
 
@@ -61,10 +67,12 @@ def main():
             name = cls.get('name', '')
             if orig:  # was obfuscated
                 obf_classes += 1
-                if is_weak_name(name):
+                weak = is_weak_name(name)
+                if weak:
                     fallback_classes += 1
                 else:
                     semantic_classes += 1
+                src_named.setdefault(orig, []).append(not weak)
 
             for m in cls.get('methods', []):
                 if not isinstance(m, str):
@@ -74,6 +82,14 @@ def main():
                     obf_methods += 1
                 elif HASH_RE.match(m):
                     hash_methods += 1
+                elif m.startswith('Invoke_'):
+                    # item 16/18: behavioral annotation (method DRIVES this API),
+                    # 99% accurate as a descriptor but NOT a recovered original
+                    # name (~1-2% name-correlation, item 18). Counted semantic for
+                    # readability but tracked separately so coverage never claims
+                    # these as true-name recovery.
+                    behavioral_methods += 1
+                    semantic_methods += 1
                 else:
                     semantic_methods += 1
 
@@ -92,21 +108,38 @@ def main():
         with open(CV, encoding='utf-8-sig') as f:
             cv_count = len(json.load(f))
 
+    # Collapse generic instances to source types. A source type counts as named
+    # if a majority of its instances carry a meaningful name (they are codegen'd
+    # consistently, so this is virtually always unanimous).
+    src_total = len(src_named)
+    src_semantic = sum(1 for flags in src_named.values()
+                       if sum(flags) > len(flags) / 2)
+    generic_instances = obf_classes - src_total  # duplicate instantiations folded away
+
     stats = {
-        'build': '2026-06-05',
+        'build': build_id,
         'classes': {
             'total': total_classes,
             'obfuscated': obf_classes,
             'semantic': semantic_classes,
             'fallback': fallback_classes,
             'semantic_pct': round(100 * semantic_classes / obf_classes, 1) if obf_classes else 0,
+            # Source-type-level (generic-dedup) — the honest "distinct classes"
+            # number. Headline semantic_pct stays instance-level for continuity.
+            'source_types': src_total,
+            'source_types_semantic': src_semantic,
+            'source_types_semantic_pct': round(100 * src_semantic / src_total, 1) if src_total else 0,
+            'generic_instances_folded': generic_instances,
         },
         'methods': {
             'total': total_methods,
             'semantic': semantic_methods,
+            'behavioral_annotations': behavioral_methods,
+            'true_name_semantic': semantic_methods - behavioral_methods,
             'hash_fallback': hash_methods,
             'obfuscated': obf_methods,
             'semantic_pct': round(100 * semantic_methods / total_methods, 1) if total_methods else 0,
+            'true_name_pct': round(100 * (semantic_methods - behavioral_methods) / total_methods, 1) if total_methods else 0,
         },
         'fields': {
             'total': total_fields,

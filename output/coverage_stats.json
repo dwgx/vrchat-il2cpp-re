@@ -1,24 +1,31 @@
 {
-  "build": "2026-06-05",
+  "build": "unity6-6000.0",
   "classes": {
     "total": 64773,
     "obfuscated": 9928,
-    "semantic": 6223,
-    "fallback": 3705,
-    "semantic_pct": 62.7
+    "semantic": 5646,
+    "fallback": 4282,
+    "semantic_pct": 56.9,
+    "source_types": 8211,
+    "source_types_semantic": 4668,
+    "source_types_semantic_pct": 56.9,
+    "generic_instances_folded": 1717
   },
   "methods": {
     "total": 569859,
-    "semantic": 532986,
-    "hash_fallback": 36873,
+    "semantic": 533436,
+    "behavioral_annotations": 451,
+    "true_name_semantic": 532985,
+    "hash_fallback": 36423,
     "obfuscated": 0,
-    "semantic_pct": 93.5
+    "semantic_pct": 93.6,
+    "true_name_pct": 93.5
   },
   "fields": {
     "total": 188384,
-    "semantic": 155841,
-    "hash_fallback": 32543,
-    "semantic_pct": 82.7
+    "semantic": 160256,
+    "hash_fallback": 28128,
+    "semantic_pct": 85.1
   },
   "cross_version_entries": 40223
 }

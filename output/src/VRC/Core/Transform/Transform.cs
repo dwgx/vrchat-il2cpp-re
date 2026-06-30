@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Core.Transform
-// Classes: 9
-// Methods: 137
+// Classes: 10
+// Methods: 201
 
 namespace VRC.Core.Transform
 {
@@ -79,6 +79,68 @@ namespace VRC.Core.Transform
         public void .ctor(){} // RVA: 0xB43D60
         public void SwapTransform(){} // RVA: 0xB43310
         public void StopAllCoroutines(){} // RVA: 0xB43310
+    }
+
+    /// <summary>Originally: ÏÎÎÌÌÌÏÎÌÌÍÎÏÏÏÌÎÎÏÎÎÎÍ</summary>
+    public class TransformChangedVisibility : UIBehaviour
+    {
+        public object f_BBB;
+        public object f_A6F;
+        public object f_FFA;
+        public object f_ED6;
+        public object f_A7A;
+        public object f_801;
+        public object _id;
+        public object _visibility;
+        public object _isClickable;
+        public object f_D22;
+        public object f_41B;
+        public object f_7C8;
+        public object f_8CD;
+        public object f_911;
+        public object f_39B;
+        public object f_3FA;
+        public object _tooltip;
+        public object f_4FE;
+        public object f_DD2;
+
+        // ── Methods ──
+        public void Start(){} // RVA: 0xA08B440
+        public void OnEnable(){} // RVA: 0x1C556E0
+        public void Update(){} // RVA: 0x114DE40
+        public void LateUpdate(){} // RVA: 0xB43310
+        public void OnDestroy(){} // RVA: 0xA08B600
+        public void OnRectTransformDimensionsChange(){} // RVA: 0xCA4DF0
+        public void OnBeforeTransformParentChanged(){} // RVA: 0xA08B610
+        public void OnTransformParentChanged(){} // RVA: 0xBBFF90
+        public void OnDidApplyAnimationProperties(){} // RVA: 0xC10050
+        public void OnCanvasGroupChanged(){} // RVA: 0xA08B670
+        public void Awake(){} // RVA: 0xA08B870
+        public void IsDestroyed(){} // RVA: 0xA08B880
+        public void OnTriggerEnter(){} // RVA: 0xA08B8E0
+        public void OnTriggerStay(){} // RVA: 0xA08B8F0
+        public void OnTriggerExit(){} // RVA: 0xB43310
+        public void OnApplicationPause(){} // RVA: 0xCD3320
+        public void OnApplicationQuit(){} // RVA: 0xB43310
+        public void OnBecameVisible(){} // RVA: 0xA08BA90
+        public void OnBecameInvisible(){} // RVA: 0xA08BBA0
+        public void OnCollisionEnter(){} // RVA: 0xBE2B30
+        public void OnCollisionStay(){} // RVA: 0xA08BCB0
+        public void OnCollisionExit(){} // RVA: 0xBBFFA0
+        public void OnPointerEnter(){} // RVA: 0xA08BEC0
+        public void OnPointerClick(){} // RVA: 0xA08C0E0
+        public void FixedUpdate(){} // RVA: 0xA08C640
+        public void OnDisable(){} // RVA: 0xA08C8D0
+        public void OnPointerExit(){} // RVA: 0xA08CAC0
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0xA08CF80
+        // ── 35 unresolved (hash) ──
+        public void m_17A(){} // RVA: 0xA08B5D0
+        public void m_7A1(){} // RVA: 0xF73960
+        public void m_3FB(){} // RVA: 0x1125460
+        public void m_629(){} // RVA: 0xA08B980
+        public void m_C21(){} // RVA: 0xA08BDB0
+        // ... 30 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÌÎÏÌÏÎÌÏÎÏÏÌÌÎÌÏÏÏÏÍÎ</summary>

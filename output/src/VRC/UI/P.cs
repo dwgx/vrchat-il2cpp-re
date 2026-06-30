@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
 // Classes: 100
-// Methods: 1631
+// Methods: 1591
 
 namespace VRC.UI
 {
@@ -2290,6 +2290,44 @@ namespace VRC.UI
         public void CancelInvoke_Injected(){} // RVA: 0x9B4EAB0
     }
 
+    /// <summary>Originally: ÏÏÍÎÎÏÎÏÌÎÎÌÌÍÏÌÏÎÎÎÏÍÎ</summary>
+    public class Pointerk__BackingFieldHandler_E2CA : MonoBehaviour
+    {
+        public object _m_CancellationTokenSource;
+        public object f_68F;
+        public object f_43D;
+        public object f_94E;
+        public object f_012;
+        public object f_192;
+        public object f_33E;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0xB43310
+        public void RaiseCancellation(){} // RVA: 0xBBF8F0
+        public void IsInvoking(){} // RVA: 0xBBF900
+        public void OnPointerDown(){} // RVA: 0x21BFBB0
+        public void Invoke(){} // RVA: 0x21BFBC0
+        public void InvokeRepeating(){} // RVA: 0x21BFBE0
+        public void StartCoroutine(){} // RVA: 0xB43310
+        public void StartCoroutine_Auto(){} // RVA: 0x21BFDF0
+        public void StopCoroutine(){} // RVA: 0x21BFBB0
+        public void StopAllCoroutines(){} // RVA: 0x12CA530
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x21BFF10
+        public void get_didStart(){} // RVA: 0xB43310
+        public void get_didAwake(){} // RVA: 0xC00EC0
+        public void print(){} // RVA: 0x21BFFD0
+        public void Internal_CancelInvokeAll(){} // RVA: 0xB43310
+        public void Internal_IsInvokingAll(){} // RVA: 0xB43310
+        public void InvokeDelayed(){} // RVA: 0xC00ED0
+        public void IsObjectMonoBehaviour(){} // RVA: 0x21C0190
+        public void OnPointerUp(){} // RVA: 0xD01700
+        public void StartCoroutineManaged2(){} // RVA: 0xBBF900
+        public void StopCoroutineManaged(){} // RVA: 0x21C04C0
+        public void Start(){} // RVA: 0x21C05E0
+        public void GetScriptClassName(){} // RVA: 0x21C06A0
+    }
+
     /// <summary>Originally: ÏÌÍÍÎÏÏÎÍÌÏÎÍÌÍÌÎÎÌÍÍÏÌ</summary>
     public class Pointerk__BackingFieldImplImplImpl_65A6 : Pointerk__BackingFieldImplImpl_55ED
     {
@@ -2644,68 +2682,6 @@ namespace VRC.UI
         public void OnCancellationTokenCreated_Injected(){} // RVA: 0xB667B0
         // ── Unresolved (hash) ──
         public void m_1FF(){} // RVA: 0x1D5A3F0
-    }
-
-    /// <summary>Originally: ÏÎÎÌÌÌÏÎÌÌÍÎÏÏÏÌÎÎÏÎÎÎÍ</summary>
-    public class Pointerk__BackingField_8B17 : UIBehaviour
-    {
-        public object f_BBB;
-        public object f_A6F;
-        public object f_FFA;
-        public object f_ED6;
-        public object f_A7A;
-        public object f_801;
-        public object _id;
-        public object _visibility;
-        public object _isClickable;
-        public object f_D22;
-        public object f_41B;
-        public object f_7C8;
-        public object f_8CD;
-        public object f_911;
-        public object f_39B;
-        public object f_3FA;
-        public object _tooltip;
-        public object f_4FE;
-        public object f_DD2;
-
-        // ── Methods ──
-        public void Start(){} // RVA: 0xA08B440
-        public void OnEnable(){} // RVA: 0x1C556E0
-        public void Update(){} // RVA: 0x114DE40
-        public void LateUpdate(){} // RVA: 0xB43310
-        public void OnDestroy(){} // RVA: 0xA08B600
-        public void OnRectTransformDimensionsChange(){} // RVA: 0xCA4DF0
-        public void OnBeforeTransformParentChanged(){} // RVA: 0xA08B610
-        public void OnTransformParentChanged(){} // RVA: 0xBBFF90
-        public void OnDidApplyAnimationProperties(){} // RVA: 0xC10050
-        public void OnCanvasGroupChanged(){} // RVA: 0xA08B670
-        public void Awake(){} // RVA: 0xA08B870
-        public void IsDestroyed(){} // RVA: 0xA08B880
-        public void OnTriggerEnter(){} // RVA: 0xA08B8E0
-        public void OnTriggerStay(){} // RVA: 0xA08B8F0
-        public void OnTriggerExit(){} // RVA: 0xB43310
-        public void OnApplicationPause(){} // RVA: 0xCD3320
-        public void OnApplicationQuit(){} // RVA: 0xB43310
-        public void OnBecameVisible(){} // RVA: 0xA08BA90
-        public void OnBecameInvisible(){} // RVA: 0xA08BBA0
-        public void OnCollisionEnter(){} // RVA: 0xBE2B30
-        public void OnCollisionStay(){} // RVA: 0xA08BCB0
-        public void OnCollisionExit(){} // RVA: 0xBBFFA0
-        public void OnPointerEnter(){} // RVA: 0xA08BEC0
-        public void OnPointerClick(){} // RVA: 0xA08C0E0
-        public void FixedUpdate(){} // RVA: 0xA08C640
-        public void OnDisable(){} // RVA: 0xA08C8D0
-        public void OnPointerExit(){} // RVA: 0xA08CAC0
-        public void .ctor(){} // RVA: 0xB43D60
-        public void Initialize(){} // RVA: 0xA08CF80
-        // ── 35 unresolved (hash) ──
-        public void m_17A(){} // RVA: 0xA08B5D0
-        public void m_7A1(){} // RVA: 0xF73960
-        public void m_3FB(){} // RVA: 0x1125460
-        public void m_629(){} // RVA: 0xA08B980
-        public void m_C21(){} // RVA: 0xA08BDB0
-        // ... 30 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÍÍÍÏÌÍÎÏÌÌÏÍÌÎÍÌÏÍÌÌÍ</summary>

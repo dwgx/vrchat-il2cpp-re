@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 2578
+// Methods: 2495
 
 namespace VRC.Misc
 {
@@ -346,6 +346,16 @@ namespace VRC.Misc
         // ... 15 more unresolved methods
     }
 
+    /// <summary>Originally: ÍÎÏÏÏÌÍÍÍÎÍÌÌÎÏÍÍÌÎÏÍÍÍ</summary>
+    public class k__BackingFieldComponentSibling_22B7
+    {
+        // ── Unresolved (hash) ──
+        public void m_8D3(){} // RVA: 0x87C0A0
+        public void m_676(){} // RVA: 0x87C0A0
+        public void m_0B9(){} // RVA: 0x87C0A0
+        public void m_7F9(){} // RVA: 0x894320
+    }
+
     /// <summary>Originally: ÍÎÌÏÎÍÍÎÍÏÌÍÍÎÌÍÌÎÌÍÌÌÌ</summary>
     public class k__BackingFieldComponentSibling_2C7E : Object
     {
@@ -638,6 +648,19 @@ namespace VRC.Misc
         public void .cctor(){} // RVA: 0x2475A40
     }
 
+    /// <summary>Originally: ÌÏÌÏÍÎÎÍÍÌÏÌÌÏÌÍÎÎÍÎÌÍÍ</summary>
+    public class k__BackingFieldComponentSibling_8538
+    {
+        // ── Unresolved (hash) ──
+        public void m_8F1(){} // RVA: 0x87C0A0
+        public void m_A89(){} // RVA: 0x87C0A0
+        public void m_8E1(){} // RVA: 0x88C530
+        public void m_425(){} // RVA: 0x896840
+        public void m_6E9(){} // RVA: 0x894290
+        public void m_E3E(){} // RVA: 0x894290
+        public void m_604(){} // RVA: 0x894290
+    }
+
     /// <summary>Originally: ÏÌÎÍÎÍÍÎÏÍÍÏÌÌÌÍÎÍÍÍÍÏÏ</summary>
     public class k__BackingFieldComponentSibling_94B6
     {
@@ -759,6 +782,18 @@ namespace VRC.Misc
         public void DontDestroyOnLoad(){} // RVA: 0xB5DBF0
         public void get_hideFlags(){} // RVA: 0x149C6F0
         public void set_hideFlags(){} // RVA: 0xB700F0
+    }
+
+    /// <summary>Originally: ÌÌÌÌÎÏÍÌÍÍÎÎÍÍÍÌÍÌÎÌÎÌÍ</summary>
+    public class k__BackingFieldComponentSibling_B28A
+    {
+        // ── 20 unresolved (hash) ──
+        public void m_1BD(){} // RVA: 0x87C0A0
+        public void m_81D(){} // RVA: 0x87C0A0
+        public void m_644(){} // RVA: 0x87C0A0
+        public void m_BAE(){} // RVA: 0x87C0A0
+        public void m_5CE(){} // RVA: 0x87D280
+        // ... 15 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÏÍÏÌÍÍÌÎÌÌÎÎÎÎÌÌÎÌÎÌÎ</summary>
@@ -941,6 +976,18 @@ namespace VRC.Misc
         public void StopAllCoroutines(){} // RVA: 0x150CB20
         public void get_useGUILayout(){} // RVA: 0xB70160
         public void set_useGUILayout(){} // RVA: 0xB700F0
+    }
+
+    /// <summary>Originally: ÎÎÍÏÎÌÌÎÏÌÏÌÎÏÍÍÍÎÍÎÎÍÎ</summary>
+    public class k__BackingFieldComponentSibling_E472
+    {
+        // ── 18 unresolved (hash) ──
+        public void m_2BE(){} // RVA: 0x87C0A0
+        public void m_769(){} // RVA: 0x87C0A0
+        public void m_994(){} // RVA: 0x894750
+        public void m_384(){} // RVA: 0x894750
+        public void m_A8B(){} // RVA: 0x899250
+        // ... 13 more unresolved methods
     }
 
     /// <summary>Originally: ÎÏÏÌÍÍÏÍÍÌÍÎÌÍÏÎÎÏÏÌÎÌÏ</summary>
@@ -2329,27 +2376,6 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0xB43D60
     }
 
-    /// <summary>Originally: ÍÍÍÏÎÎÍÎÍÎÌÎÌÎÏÎÎÎÏÌÍÌÌ</summary>
-    public class k__BackingFieldSiblingSibling_18D0 : k__BackingField_0920
-    {
-        public object f_50A;
-        public object f_989;
-        public object mobilePulseSpeed;
-        public object mobileMinimumOpacity;
-        public object mobileMaximumOpacity;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D03820
-        public void Initialize(){} // RVA: 0x1D03890
-        // ── 12 unresolved (hash) ──
-        public void m_037(){} // RVA: 0x1D037A0
-        public void m_397(){} // RVA: 0x1D03910
-        public void m_DFC(){} // RVA: 0x1D03AC0
-        public void m_5B5(){} // RVA: 0x1D04B70
-        public void m_9B9(){} // RVA: 0x1D04BB0
-        // ... 7 more unresolved methods
-    }
-
     /// <summary>Originally: ÏÎÏÍÌÍÏÏÍÎÍÌÌÍÍÏÎÏÎÏÌÏÌ</summary>
     public class k__BackingFieldSibling_10DF
     {
@@ -2378,134 +2404,16 @@ namespace VRC.Misc
         // ... 42 more unresolved methods
     }
 
-    /// <summary>Originally: ÍÌÎÌÌÏÍÌÎÌÎÏÍÍÌÌÌÌÌÏÌÏÎ</summary>
-    public class k__BackingFieldSibling_367B : Object
+    /// <summary>Originally: ÍÎÎÎÏÌÍÍÏÎÎÏÎÎÌÎÏÌÎÏÎÍÍ</summary>
+    public class k__BackingFieldSibling_4EF5
     {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_7EC;
-        public object f_4FA;
-        public object f_550;
-        public object f_99C;
-        public object f_85E;
-        public object f_C49;
-        public object f_744;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xD33E60
-        public void Equals(){} // RVA: 0x1852B60
-        public void GetHashCode(){} // RVA: 0xD05CA0
-        public void op_Implicit(){} // RVA: 0x1852BB0
-        public void CompareBaseObjects(){} // RVA: 0xC0FFD0
-        public void IsNativeObjectAlive(){} // RVA: 0x1852C90
-        public void GetCachedPtr(){} // RVA: 0x1852E70
-        public void get_name(){} // RVA: 0x1853920
-        public void set_name(){} // RVA: 0xC0FFC0
-        public void Instantiate(){} // RVA: 0x1853020
-        public void Destroy(){} // RVA: 0x1853130
-        public void DestroyImmediate(){} // RVA: 0x1853180
-        public void FindObjectsOfType(){} // RVA: 0x18551A0
-        public void FindObjectsByType(){} // RVA: 0x1854F30
-        public void DontDestroyOnLoad(){} // RVA: 0x1853320
-        public void get_hideFlags(){} // RVA: 0x1853340
-        public void set_hideFlags(){} // RVA: 0x1853470
-        public void FindObjectOfType(){} // RVA: 0x1853490
-        public void FindFirstObjectByType(){} // RVA: 0x1854FC0
-        public void CheckNullArgument(){} // RVA: 0x181C510
-        public void ToString(){} // RVA: 0x1853730
-        public void op_Equality(){} // RVA: 0x18539B0
-        public void op_Inequality(){} // RVA: 0x1853A40
-        public void .ctor(){} // RVA: 0x1853AD0
-        public void Initialize(){} // RVA: 0x1854200
-        public void Internal_CloneSingleWithParent(){} // RVA: 0x1854390
-        public void Internal_InstantiateSingle(){} // RVA: 0xE49B40
-        public void Internal_InstantiateSingleWithParent(){} // RVA: 0x18543E0
-        public void GetName(){} // RVA: 0x18544A0
-        public void IsPersistent(){} // RVA: 0x13F9400
-        public void SetName(){} // RVA: 0xD05CA0
-        public void FindObjectFromInstanceID(){} // RVA: 0x1854540
-        public void ForceLoadFromInstanceID(){} // RVA: 0x1854640
-        public void Destroy_Injected(){} // RVA: 0xBFDA50
-        public void DestroyImmediate_Injected(){} // RVA: 0x1854D30
-        public void DontDestroyOnLoad_Injected(){} // RVA: 0x1854E30
-        public void get_hideFlags_Injected(){} // RVA: 0xBC1B30
-        public void set_hideFlags_Injected(){} // RVA: 0x18550C0
-        public void Internal_CloneSingle_Injected(){} // RVA: 0xBFDA50
-        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0x13F9340
-        public void Internal_InstantiateSingle_Injected(){} // RVA: 0xBFDA40
-        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0x1855230
-        public void ToString_Injected(){} // RVA: 0x1855330
-        public void GetName_Injected(){} // RVA: 0x1855580
-        public void IsPersistent_Injected(){} // RVA: 0x1855610
-        // ── Unresolved (hash) ──
-        public void m_854(){} // RVA: 0x1854AE0
-        public void m_BC6(){} // RVA: 0x1854B30
-    }
-
-    /// <summary>Originally: ÍÌÍÍÎÌÏÌÎÍÏÌÌÎÍÌÎÏÎÍÍÏÎ</summary>
-    public class k__BackingFieldSibling_3FE6 : k__BackingField_0920
-    {
-        public object f_26E;
-        public object f_BC8;
-        public object f_592;
-        public object f_03F;
-        public object f_1B4;
-        public object f_62E;
-        public object renderTextureWidth;
-        public object renderTextureHeight;
-        public object blurDownsampleFactor;
-        public object blurSize;
-        public object blurIterations;
-        public object f_FD2;
-        public object f_A9E;
-        public object f_E0E;
-        public object f_E37;
-        public object f_96F;
-        public object f_FEA;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x1D06170
-        public void Initialize(){} // RVA: 0x1D061F0
-        public void .cctor(){} // RVA: 0x1D073D0
-        // ── 16 unresolved (hash) ──
-        public void m_0B7(){} // RVA: 0x1D05430
-        public void m_884(){} // RVA: 0x1D056B0
-        public void m_89A(){} // RVA: 0x1D05930
-        public void m_7E4(){} // RVA: 0x1D05AB0
-        public void m_7BC(){} // RVA: 0x1D05D30
-        // ... 11 more unresolved methods
-    }
-
-    /// <summary>Originally: ÏÌÎÍÍÎÏÍÏÎÎÍÍÍÍÏÎÏÎÎÌÍÌ</summary>
-    public class k__BackingFieldSibling_9F5B : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_4A0;
-        public object f_932;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x9942AC0
-        public void Equals(){} // RVA: 0x9942CF0
-        public void GetHashCode(){} // RVA: 0x9942F20
-        public void op_Implicit(){} // RVA: 0x9943150
-        public void CompareBaseObjects(){} // RVA: 0x9943380
-        public void IsNativeObjectAlive(){} // RVA: 0x99435B0
-        public void GetCachedPtr(){} // RVA: 0x99436A0
-        public void get_name(){} // RVA: 0x9943790
-        public void set_name(){} // RVA: 0x99439A0
-        public void Instantiate(){} // RVA: 0x9943BB0
-        public void Destroy(){} // RVA: 0x9943CE0
-        public void DestroyImmediate(){} // RVA: 0x9943E80
-        public void FindObjectsOfType(){} // RVA: 0x9944020
-        public void FindObjectsByType(){} // RVA: 0x99442E0
-        public void .cctor(){} // RVA: 0x99444D0
+        // ── 14 unresolved (hash) ──
+        public void m_48A(){} // RVA: 0x87C0A0
+        public void m_38A(){} // RVA: 0x87C0A0
+        public void m_698(){} // RVA: 0x87C0A0
+        public void m_DB1(){} // RVA: 0x87C0A0
+        public void m_FB0(){} // RVA: 0x899290
+        // ... 9 more unresolved methods
     }
 
     /// <summary>Originally: ÌÍÏÏÍÍÍÎÍÍÏÍÏÍÍÏÍÏÏÍÏÍÎ</summary>
@@ -2691,111 +2599,6 @@ namespace VRC.Misc
         public void m_E1C(){} // RVA: 0x1362CF0
         public void m_050(){} // RVA: 0xE3C930
         // ... 105 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÍÌÎÎÎÍÎÎÏÎÏÎÏÏÌÏÌÌÍÌÍÍ</summary>
-    public class k__BackingField_350C : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_8EC;
-        public object f_C18;
-
-        // ── Methods ──
-        public void Clone(){} // RVA: 0x15BAA30
-        public void Equals(){} // RVA: 0xE62D00
-        public void GetHashCode(){} // RVA: 0x15BB2D0
-        public void op_Implicit(){} // RVA: 0x15BB690
-        public void CompareBaseObjects(){} // RVA: 0xB5DBF0
-        public void IsNativeObjectAlive(){} // RVA: 0x15BBCF0
-        public void GetCachedPtr(){} // RVA: 0x1033F40
-        public void get_name(){} // RVA: 0xB5DBF0
-        public void set_name(){} // RVA: 0x15BBD90
-        public void Instantiate(){} // RVA: 0xD96880
-        public void Destroy(){} // RVA: 0x15BC340
-        public void DestroyImmediate(){} // RVA: 0x15BC3C0
-        public void FindObjectsOfType(){} // RVA: 0x15BC780
-        public void .ctor(){} // RVA: 0x15BC820
-        public void Initialize(){} // RVA: 0x15BC9C0
-        public void get_hideFlags(){} // RVA: 0x15BCC80
-        public void set_hideFlags(){} // RVA: 0xB5DBF0
-    }
-
-    /// <summary>Originally: ÏÏÍÍÍÏÌÏÌÏÍÎÏÎÏÍÍÍÏÍÎÎÍ</summary>
-    public class k__BackingField_6A8E : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_0A5;
-        public object f_0D5;
-        public object f_F1C;
-        public object f_594;
-        public object f_878;
-        public object f_942;
-        public object f_35C;
-        public object f_487;
-        public object f_DAA;
-        public object f_9D9;
-        public object f_B14;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0xDD2EC0
-        public void .ctor(){} // RVA: 0xDD3030
-        public void OnPurchaseFailed(){} // RVA: 0xDD5C60
-        public void op_Implicit(){} // RVA: 0xDD3540
-        public void CompareBaseObjects(){} // RVA: 0xDD36E0
-        public void IsNativeObjectAlive(){} // RVA: 0xDD3940
-        public void GetCachedPtr(){} // RVA: 0xDD3BB0
-        public void get_name(){} // RVA: 0xDD3BC0
-        public void OnInitialized(){} // RVA: 0xDD3BE0
-        public void Instantiate(){} // RVA: 0xDD3BB0
-        public void Destroy(){} // RVA: 0xDD3F60
-        public void DestroyImmediate(){} // RVA: 0xDD40D0
-        public void FindObjectsOfType(){} // RVA: 0xDD4260
-        public void FindObjectsByType(){} // RVA: 0xB700F0
-        public void DontDestroyOnLoad(){} // RVA: 0xDD42A0
-        public void get_hideFlags(){} // RVA: 0xDD4620
-        public void set_hideFlags(){} // RVA: 0xDD46A0
-        public void FindObjectOfType(){} // RVA: 0xDD4880
-        public void FindFirstObjectByType(){} // RVA: 0xDD4A40
-        public void CheckNullArgument(){} // RVA: 0xDD5A40
-        public void Equals(){} // RVA: 0xDD5C50
-        public void op_Equality(){} // RVA: 0xDD61A0
-        public void op_Inequality(){} // RVA: 0xB70160
-        public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0xB70100
-        public void Internal_CloneSingle(){} // RVA: 0xDD62C0
-        public void Internal_CloneSingleWithParent(){} // RVA: 0xDD6450
-        public void Internal_InstantiateSingle(){} // RVA: 0xDD6950
-        public void Internal_InstantiateSingleWithParent(){} // RVA: 0xDD6DD0
-        public void GetName(){} // RVA: 0xDD6E40
-        public void IsPersistent(){} // RVA: 0xDD72C0
-        public void SetName(){} // RVA: 0xDD7450
-        public void FindObjectFromInstanceID(){} // RVA: 0xB44DC0
-        public void ForceLoadFromInstanceID(){} // RVA: 0xDD7460
-        public void GetHashCode(){} // RVA: 0xC120B0
-        public void ToString(){} // RVA: 0xDD75E0
-        public void Destroy_Injected(){} // RVA: 0xDD7630
-        public void DestroyImmediate_Injected(){} // RVA: 0xDD77C0
-        public void DontDestroyOnLoad_Injected(){} // RVA: 0xDD7A00
-        public void get_hideFlags_Injected(){} // RVA: 0xDD7A10
-        public void OnInitializeFailed(){} // RVA: 0xDD3BC0
-        public void Internal_CloneSingle_Injected(){} // RVA: 0xDD7F00
-        public void Internal_CloneSingleWithParent_Injected(){} // RVA: 0xDD80C0
-        public void Internal_InstantiateSingle_Injected(){} // RVA: 0xDD8370
-        public void Internal_InstantiateSingleWithParent_Injected(){} // RVA: 0xC120A0
-        public void ToString_Injected(){} // RVA: 0xDD8590
-        public void GetName_Injected(){} // RVA: 0xDD3BB0
-        public void .cctor(){} // RVA: 0xDD87D0
-        public void SetName_Injected(){} // RVA: 0xDD90F0
-        public void ProcessPurchase(){} // RVA: 0xDD4260
-        public void ForceLoadFromInstanceID_Injected(){} // RVA: 0xDD9740
-        public void h(){} // RVA: 0xDD9990
     }
 
     /// <summary>Originally: ÏÌÍÌÍÏÍÌÏÌÍÏÎÌÏÍÏÌÌÎÌÎÏ</summary>
@@ -3072,6 +2875,18 @@ namespace VRC.Misc
         public void OnDestroy(){} // RVA: 0x226CDB0
         public void get_useGUILayout_Injected(){} // RVA: 0x226CF80
         public void set_useGUILayout_Injected(){} // RVA: 0x226CFA0
+    }
+
+    /// <summary>Originally: ÎÎÎÎÍÍÎÎÎÏÍÎÎÎÎÎÌÌÌÏÍÌÏ</summary>
+    public class k__BackingFieldgiftDisplayRefeSibling_4C5C
+    {
+        // ── 17 unresolved (hash) ──
+        public void m_D47(){} // RVA: 0x87C0A0
+        public void m_961(){} // RVA: 0x894320
+        public void m_BDB(){} // RVA: 0x894320
+        public void m_BD5(){} // RVA: 0x87D280
+        public void m_D98(){} // RVA: 0x87C540
+        // ... 12 more unresolved methods
     }
 
     /// <summary>Originally: ÏÏÏÏÌÏÎÌÏÌÎÌÌÏÎÎÏÍÍÎÎÌÍ</summary>

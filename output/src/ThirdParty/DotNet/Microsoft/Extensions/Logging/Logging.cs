@@ -486,16 +486,6 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
         public void .cctor(){} // RVA: 0x662E6B0
     }
 
-    public class ProfilerMarkerDataType : Object
-    {
-        public object _currentValue;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x662E390
-        public void OnChange(){} // RVA: 0xDAC980
-        public void get_CurrentValue(){} // RVA: 0xB5DBF0
-    }
-
     public class ProviderAliasAttribute : Attribute
     {
         public object _alias;
@@ -540,6 +530,16 @@ namespace ThirdParty.DotNet.Microsoft.Extensions.Logging
         public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
         public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
         public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    }
+
+    public class StaticFilterOptionsMonitor : Object
+    {
+        public object _currentValue;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x662E390
+        public void OnChange(){} // RVA: 0xDAC980
+        public void get_CurrentValue(){} // RVA: 0xB5DBF0
     }
 
 }

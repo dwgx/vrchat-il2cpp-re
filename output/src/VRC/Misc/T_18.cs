@@ -65,16 +65,6 @@ namespace VRC.Misc
         public void Equals(){} // RVA: 0x28FE260
     }
 
-    /// <summary>Originally: ÌÍÍÏÌÌÍÍÌÏÌÍÌÏÏÏÏÏÏÌÍÌÎ</summary>
-    public class Type2m1f_17F1 : Object
-    {
-        public object _17F1;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x28FF610
-        public void Equals(){} // RVA: 0x28FF7D0
-    }
-
     /// <summary>Originally: ÏÌÏÌÏÍÏÍÌÌÎÎÌÎÍÍÎÏÍÏÍÍÌ</summary>
     public class Type2m1f_1B06 : Object
     {
@@ -83,6 +73,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x277B530
         public void Equals(){} // RVA: 0x277B6F0
+    }
+
+    /// <summary>Originally: ÍÌÌÍÍÍÌÌÍÍÎÍÍÍÍÏÎÏÎÎÎÍÎ</summary>
+    public class Type2m1f_1B81 : Object
+    {
+        public object _1B81;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x2760320
+        public void Equals(){} // RVA: 0x27604E0
     }
 
     /// <summary>Originally: ÏÏÏÏÍÎÏÏÍÌÍÌÌÏÎÏÍÍÌÌÎÌÍ</summary>
@@ -103,6 +103,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x288E630
         public void Equals(){} // RVA: 0x288E7F0
+    }
+
+    /// <summary>Originally: ÍÌÍÎÎÍÍÍÍÌÎÌÎÎÍÍÍÎÍÎÌÍÌ</summary>
+    public class Type2m1f_214B : Object
+    {
+        public object _214B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x27606C0
+        public void Equals(){} // RVA: 0x2760880
     }
 
     /// <summary>Originally: ÌÎÎÏÎÍÏÏÎÍÍÏÎÍÍÍÍÍÏÎÍÌÌ</summary>
@@ -255,6 +265,16 @@ namespace VRC.Misc
         public void Equals(){} // RVA: 0x286A0E0
     }
 
+    /// <summary>Originally: ÍÏÎÎÏÌÌÍÍÌÍÎÌÎÏÎÎÌÍÏÏÎÏ</summary>
+    public class Type2m1f_4B5A : Object
+    {
+        public object _4B5A;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x276A900
+        public void Equals(){} // RVA: 0x276AAC0
+    }
+
     /// <summary>Originally: ÎÏÏÍÎÎÏÏÍÌÏÍÏÌÌÍÎÍÏÍÌÎÍ</summary>
     public class Type2m1f_4DD1 : Object
     {
@@ -403,16 +423,6 @@ namespace VRC.Misc
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x276D4F0
         public void Equals(){} // RVA: 0x276D6B0
-    }
-
-    /// <summary>Originally: ÍÌÌÍÍÎÏÎÌÏÎÎÎÍÎÎÍÌÍÏÍÍÍ</summary>
-    public class Type2m1f_6CA2 : Object
-    {
-        public object _6CA2;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x28FF270
-        public void Equals(){} // RVA: 0x28FF430
     }
 
     /// <summary>Originally: ÌÍÎÎÏÌÌÍÌÎÏÍÎÍÍÌÌÌÏÏÍÌÎ</summary>
@@ -683,16 +693,6 @@ namespace VRC.Misc
         // ── Methods ──
         public void GetInstanceID(){} // RVA: 0x28FCED0
         public void Equals(){} // RVA: 0x28FD090
-    }
-
-    /// <summary>Originally: ÍÎÎÏÍÍÌÏÏÌÏÍÌÏÏÍÏÎÌÌÎÏÍ</summary>
-    public class Type2m1f_BA98 : Object
-    {
-        public object _bA98;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x28FF9A0
-        public void Equals(){} // RVA: 0x28FFB60
     }
 
     /// <summary>Originally: ÍÌÏÏÌÎÌÍÏÏÏÍÎÏÌÍÍÎÎÌÏÎÏ</summary>

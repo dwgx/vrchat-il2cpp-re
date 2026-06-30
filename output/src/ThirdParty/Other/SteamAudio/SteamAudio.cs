@@ -437,21 +437,6 @@ namespace ThirdParty.Other.SteamAudio
         public void Get(){} // RVA: 0xB5DBF0
     }
 
-    public class PanicFunction_ : Object
-    {
-        public object mContext;
-        public object mStaticMesh;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x6EE7EA0
-        public void Finalize(){} // RVA: 0x6EE7F90
-        public void Release(){} // RVA: 0x6EE7FD0
-        public void Get(){} // RVA: 0xB465B0
-        public void Save(){} // RVA: 0x6EE80A0
-        public void AddToScene(){} // RVA: 0x6EE81B0
-        public void RemoveFromScene(){} // RVA: 0x6EE8260
-    }
-
     public class PathingVisualizationCallback : MulticastDelegate
     {
         // ── Methods ──
@@ -642,6 +627,21 @@ namespace ThirdParty.Other.SteamAudio
         public void System.Collections.Generic.IEnumerable`1.GetEnumerator(){} // RVA: 0x2E7A4A0
         public void System.Collections.Generic.IReadOnlyList`1.get_Item(){} // RVA: 0x2E7A5B0
         public void System.Collections.Generic.IReadOnlyCollection`1.get_Count(){} // RVA: 0x6942190
+    }
+
+    public class StaticMesh : Object
+    {
+        public object mContext;
+        public object mStaticMesh;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x6EE7EA0
+        public void Finalize(){} // RVA: 0x6EE7F90
+        public void Release(){} // RVA: 0x6EE7FD0
+        public void Get(){} // RVA: 0xB465B0
+        public void Save(){} // RVA: 0x6EE80A0
+        public void AddToScene(){} // RVA: 0x6EE81B0
+        public void RemoveFromScene(){} // RVA: 0x6EE8260
     }
 
     public class SteamAudioAmbisonicSource : MonoBehaviour

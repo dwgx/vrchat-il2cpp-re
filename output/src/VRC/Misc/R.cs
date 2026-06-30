@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 1327
+// Methods: 1323
 
 namespace VRC.Misc
 {
@@ -83,28 +83,6 @@ namespace VRC.Misc
         public void x(){} // RVA: 0x77900
         // ── Unresolved (hash) ──
         public void m_8D3(){} // RVA: 0x77900
-    }
-
-    /// <summary>Originally: ÌÏÌÎÍÎÏÌÎÎÏÏÏÏÎÎÏÍÌÎÏÍÎ</summary>
-    public class RequiresStoringk__BackingFieldSibling_30F8 : ValueType
-    {
-        public object f_BEF;
-        public object f_BCB;
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77900
-        public void InternalEquals(){} // RVA: 0x47F10
-        public void DefaultEquals(){} // RVA: 0x47F10
-        public void GetHashCode(){} // RVA: 0x77ED0
-        public void InternalGetHashCode(){} // RVA: 0x47F10
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x77ED0
-        public void x(){} // RVA: 0x77ED0
-        // ── Unresolved (hash) ──
-        public void m_886(){} // RVA: 0x47F10
-        public void m_2F5(){} // RVA: 0x77E70
-        public void m_232(){} // RVA: 0x77E70
-        public void m_091(){} // RVA: 0x77E70
     }
 
     /// <summary>Originally: ÎÎÌÌÏÍÍÎÍÎÏÎÎÌÎÏÎÏÍÍÌÍÎ</summary>
@@ -2357,6 +2335,25 @@ namespace VRC.Misc
         public void m_C13(){} // RVA: 0x77ED0
         public void m_AB7(){} // RVA: 0x77ED0
         public void m_13C(){} // RVA: 0x77900
+    }
+
+    /// <summary>Originally: ÎÌÌÍÌÏÎÍÌÌÌÏÏÍÍÍÌÏÍÍÏÍÌ</summary>
+    public class RoleNameLabel : MonoBehaviour
+    {
+        public object roleNameText;
+        public object style;
+        public object f_F21;
+        public object f_E94;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x97E1150
+        public void RaiseCancellation(){} // RVA: 0x97E1310
+        public void IsInvoking(){} // RVA: 0x97E14D0
+        public void CancelInvoke(){} // RVA: 0x97E1670
+        public void Invoke(){} // RVA: 0x97E1830
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x97E19F0
+        public void StartCoroutine_Auto(){} // RVA: 0x97E1BB0
     }
 
     /// <summary>Originally: ÍÏÎÍÍÎÏÏÍÍÏÎÍÏÏÍÏÌÍÌÍÏÏ</summary>

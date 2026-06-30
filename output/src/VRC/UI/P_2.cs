@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 27
-// Methods: 466
+// Classes: 25
+// Methods: 420
 
 namespace VRC.UI
 {
@@ -505,83 +505,6 @@ namespace VRC.UI
         public void set_useGUILayout(){} // RVA: 0xC38360
         public void get_didStart(){} // RVA: 0xC38370
         public void OnBeginDrag(){} // RVA: 0x9BB5900
-    }
-
-    /// <summary>Originally: ÏÏÍÎÎÏÎÏÌÎÎÌÌÍÏÌÏÎÎÎÏÍÎ</summary>
-    public class Pointerk__BackingFieldHandler_E2CA : MonoBehaviour
-    {
-        public object _m_CancellationTokenSource;
-        public object f_68F;
-        public object f_43D;
-        public object f_94E;
-        public object f_012;
-        public object f_192;
-        public object f_33E;
-
-        // ── Methods ──
-        public void get_destroyCancellationToken(){} // RVA: 0xB43310
-        public void RaiseCancellation(){} // RVA: 0xBBF8F0
-        public void IsInvoking(){} // RVA: 0xBBF900
-        public void OnPointerDown(){} // RVA: 0x21BFBB0
-        public void Invoke(){} // RVA: 0x21BFBC0
-        public void InvokeRepeating(){} // RVA: 0x21BFBE0
-        public void StartCoroutine(){} // RVA: 0xB43310
-        public void StartCoroutine_Auto(){} // RVA: 0x21BFDF0
-        public void StopCoroutine(){} // RVA: 0x21BFBB0
-        public void StopAllCoroutines(){} // RVA: 0x12CA530
-        public void .ctor(){} // RVA: 0xB43D60
-        public void Initialize(){} // RVA: 0x21BFF10
-        public void get_didStart(){} // RVA: 0xB43310
-        public void get_didAwake(){} // RVA: 0xC00EC0
-        public void print(){} // RVA: 0x21BFFD0
-        public void Internal_CancelInvokeAll(){} // RVA: 0xB43310
-        public void Internal_IsInvokingAll(){} // RVA: 0xB43310
-        public void InvokeDelayed(){} // RVA: 0xC00ED0
-        public void IsObjectMonoBehaviour(){} // RVA: 0x21C0190
-        public void OnPointerUp(){} // RVA: 0xD01700
-        public void StartCoroutineManaged2(){} // RVA: 0xBBF900
-        public void StopCoroutineManaged(){} // RVA: 0x21C04C0
-        public void Start(){} // RVA: 0x21C05E0
-        public void GetScriptClassName(){} // RVA: 0x21C06A0
-    }
-
-    /// <summary>Originally: ÌÏÎÌÍÌÏÎÎÎÏÍÌÏÎÌÎÍÎÍÎÍÏ</summary>
-    public class Pointerk__BackingFieldImplImplSibling_4B25 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-        public object _offsetOfInstanceIDInCPlusPlusObject;
-        public object _objectIsNullMessage;
-        public object _cloneDestroyedMessage;
-        public object f_288;
-        public object f_B56;
-        public object f_098;
-        public object f_F31;
-        public object f_2E3;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0xA0954A0
-        public void Equals(){} // RVA: 0xA097060
-        public void op_Implicit(){} // RVA: 0xA0956C0
-        public void CompareBaseObjects(){} // RVA: 0xA0959A0
-        public void IsNativeObjectAlive(){} // RVA: 0xA095CC0
-        public void GetCachedPtr(){} // RVA: 0xA095E10
-        public void get_name(){} // RVA: 0xBC1B30
-        public void set_name(){} // RVA: 0xA0960D0
-        public void Instantiate(){} // RVA: 0xA096470
-        public void Destroy(){} // RVA: 0xA096790
-        public void DestroyImmediate(){} // RVA: 0xA0968D0
-        public void FindObjectsOfType(){} // RVA: 0xA096C30
-        public void FindObjectsByType(){} // RVA: 0xA096C90
-        public void DontDestroyOnLoad(){} // RVA: 0xBC1B30
-        public void get_hideFlags(){} // RVA: 0xBC1B30
-        public void set_hideFlags(){} // RVA: 0xA096CB0
-        public void FindObjectOfType(){} // RVA: 0xA097050
-        public void FindFirstObjectByType(){} // RVA: 0xA097200
-        public void CheckNullArgument(){} // RVA: 0xA096C90
-        public void GetHashCode(){} // RVA: 0xA097340
-        public void op_Equality(){} // RVA: 0xA097350
     }
 
     /// <summary>Originally: ÏÎÏÌÎÏÏÏÎÎÍÏÍÎÎÎÍÎÌÌÏÍÍ</summary>

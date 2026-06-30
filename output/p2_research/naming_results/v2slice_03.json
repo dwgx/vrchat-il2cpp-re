@@ -1,0 +1,20 @@
+[
+  {"obf_class": "BaseClass7Impl_2552", "proposed_name": null, "confidence": "low", "evidence": "唯一真实callee为Animator::StringToHash,其余callee(UpdateComponent_D7C9/PhysicsraycastCollider_B588)均为带hex后缀的fallback名,非可靠领域信号;m_09A仅在+0x68切换bool标志,领域不清"},
+  {"obf_class": "BaseClass13Impl_97AC", "proposed_name": "NumericValueParser", "confidence": "medium", "evidence": "callees集中于数值解析+日志:Boolean::TryParse/Number::TryParseInt32/NumberFormatInfo::get_CurrentInfo/Enumerable::Count + String::FormatHelper + ZLogger/VRCLogger,典型带日志的数值字符串解析器"},
+  {"obf_class": "BackingFieldBase_k__BackingField_2112", "proposed_name": "ApiFileVersionResolver", "confidence": "medium", "evidence": "ApiFile::GetLatestCompleteVersionNumber与ApiFile::GetVersion双真实callee锁定ApiFile版本处理,辅以Buffer::Memcpy/String::Concat/VRCLogger"},
+  {"obf_class": "BaseClass13Impl_263E", "proposed_name": null, "confidence": "low", "evidence": "真实callee仅Array::Clear与ZLogger/VRCLogger(均为通用/日志boilerplate),NetworkSyncableSibling_202E为fallback名不可信,领域不足"},
+  {"obf_class": "Struct10f_B079", "proposed_name": "ActionEventPhaseController", "confidence": "low", "evidence": "ActionEvent::get_phase/set_phase/get_stateIndex三个真实callee指向动作事件相位/状态管理;但18方法中仅3个触及,覆盖弱故低置信"},
+  {"obf_class": "BaseClass5Impl_4A34", "proposed_name": "OscMessageSender", "confidence": "medium", "evidence": "OscClient::Send为真实且distinctive的OSC领域callee,配合debug display组件的GetScriptClassName/InvokeDelayed,为OSC消息发送逻辑"},
+  {"obf_class": "BaseClass52Impl_2285", "proposed_name": null, "confidence": "low", "evidence": "callees为RegexCache::GetCachedPtr(IL2CPP通用)+ThrowHelper(boilerplate)+StyleElement::StopAllCoroutines,信号杂且偏boilerplate,无自洽领域"},
+  {"obf_class": "BaseClass45Impl_E847", "proposed_name": null, "confidence": "low", "evidence": "Enumerable::FirstOrDefault/NativeObject存活检查/Texture2D::get_whiteTexture三者各属不同子系统且通用,25方法仅少数触及,领域不收敛"},
+  {"obf_class": "BaseClass52Impl_16E6", "proposed_name": null, "confidence": "low", "evidence": "LayoutGroup::SetDirty(UI)夹杂RegexCache::get_name与ThrowHelper boilerplate,单一UI信号不足以定名"},
+  {"obf_class": "Mono6mImpl_E4FF", "proposed_name": null, "confidence": "low", "evidence": "仅Enumerable::Where与Error::ArgumentNull,纯LINQ/参数校验boilerplate,无领域"},
+  {"obf_class": "BaseClass52Impl_4D50", "proposed_name": null, "confidence": "low", "evidence": "仅RegexCache::get_name与ThrowHelper::ThrowArgumentOutOfRange,纯boilerplate"},
+  {"obf_class": "BackingFieldBase_k__BackingField_DC1C", "proposed_name": "ApiUserSearchHandler", "confidence": "medium", "evidence": "APIUser::FetchUsersSearchResults为真实distinctive callee锁定用户搜索域,配合DontDestroyOnLoad呈持久化处理逻辑"},
+  {"obf_class": "BaseClass5SiblingSiblingSibling_1257", "proposed_name": null, "confidence": "low", "evidence": "20方法仅产生GameObject::SetActive与String::FormatHelper两个通用callee,无领域区分度"},
+  {"obf_class": "Struct7f_8FBA", "proposed_name": null, "confidence": "low", "evidence": "InputInteractionContext::get_phase(输入)与ReadBufferState::get_IsFinalBlock(IO)分属两个不相关域,各仅1方法触及,矛盾故null"},
+  {"obf_class": "BackingFieldBase_k__BackingField_3738", "proposed_name": null, "confidence": "low", "evidence": "唯一真实callee API::SendDeleteRequest仅出现在10方法中的1个,覆盖过弱不足以定义类身份"},
+  {"obf_class": "BaseClass3Impl_10E0", "proposed_name": null, "confidence": "low", "evidence": "仅Time::get_time一个通用callee,无领域信息"},
+  {"obf_class": "BaseClass13Impl_899C", "proposed_name": null, "confidence": "low", "evidence": "仅NativeObjectInstantiateWrapper_7::Internal_InstantiateSingle(通用Unity实例化包装),无可定名领域"},
+  {"obf_class": "RequiresStoringk__BackingRelated_C084", "proposed_name": null, "confidence": "low", "evidence": "仅ControlItem::set_variants单callee单方法,虽为真实UI类型但证据量过薄,宁缺毋滥"}
+]

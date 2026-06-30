@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 15
-// Methods: 176
+// Classes: 20
+// Methods: 246
 
 namespace VRC.Misc
 {
@@ -38,6 +38,118 @@ namespace VRC.Misc
         public void GetHashCodeOfPtr(){} // RVA: 0x13E7E0
         // ── Unresolved (hash) ──
         public void m_999(){} // RVA: 0x13E780
+    }
+
+    /// <summary>Originally: ÍÌÎÌÎÏÏÍÍÎÏÎÎÏÏÎÌÌÎÎÎÎÌ</summary>
+    public class BackingFieldStore0287 : BackingFieldBase_0287
+    {
+        public object _dA66;
+        public object _dA662;
+        public object _dA663;
+        public object _dA664;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x17C4520
+        public void Initialize(){} // RVA: 0xB70100
+        // ── 24 unresolved (hash) ──
+        public void m_829(){} // RVA: 0x1287C20
+        public void m_075(){} // RVA: 0x12BAA90
+        public void m_97E(){} // RVA: 0xB700F0
+        public void m_719(){} // RVA: 0xB700F0
+        public void m_791(){} // RVA: 0x17C3F70
+        // ... 19 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ</summary>
+    public class BackingFieldStore_01 : BackingFieldBase_0DA1
+    {
+        public object _0F4C;
+        public object _0F4C2;
+        public object _0F4C3;
+        public object _0F4C4;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x894290
+        // ── Unresolved (hash) ──
+        public void m_AE3(){} // RVA: 0x87C130
+        public void m_DD2(){} // RVA: 0x8944F0
+        public void m_FC8(){} // RVA: 0x87C130
+        public void m_A76(){} // RVA: 0x8944F0
+        public void m_FA4(){} // RVA: 0x87D280
+        public void m_6A9(){} // RVA: 0x894750
+        public void m_9CD(){} // RVA: 0xA94080
+        public void m_FAD(){} // RVA: 0x894290
+        public void m_8EF(){} // RVA: 0x894290
+        public void m_C6D(){} // RVA: 0x894290
+    }
+
+    /// <summary>Originally: ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ</summary>
+    public class BackingFieldStore_01 : BackingFieldBase_0DA1
+    {
+        public object _0F4C;
+        public object _0F4C2;
+        public object _0F4C3;
+        public object _0F4C4;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        // ── Unresolved (hash) ──
+        public void m_AE3(){} // RVA: 0xE32C80
+        public void m_DD2(){} // RVA: 0xEEA060
+        public void m_FC8(){} // RVA: 0x15443F0
+        public void m_A76(){} // RVA: 0x15443E0
+        public void m_FA4(){} // RVA: 0xB6B1A0
+        public void m_6A9(){} // RVA: 0xB6B1B0
+        public void m_9CD(){} // RVA: 0x87C540
+        public void m_FAD(){} // RVA: 0x5A76A60
+        public void m_8EF(){} // RVA: 0x5A76E10
+        public void m_C6D(){} // RVA: 0x40066C0
+    }
+
+    /// <summary>Originally: ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ</summary>
+    public class BackingFieldStore_01 : BackingFieldBase_0DA1
+    {
+        public object _0F4C;
+        public object _0F4C2;
+        public object _0F4C3;
+        public object _0F4C4;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        // ── Unresolved (hash) ──
+        public void m_AE3(){} // RVA: 0xE32C80
+        public void m_DD2(){} // RVA: 0xEEA060
+        public void m_FC8(){} // RVA: 0x15443F0
+        public void m_A76(){} // RVA: 0x15443E0
+        public void m_FA4(){} // RVA: 0xB6B1A0
+        public void m_6A9(){} // RVA: 0xB6B1B0
+        public void m_9CD(){} // RVA: 0x87C540
+        public void m_FAD(){} // RVA: 0x5A76A60
+        public void m_8EF(){} // RVA: 0x5A76E10
+        public void m_C6D(){} // RVA: 0x40066C0
+    }
+
+    /// <summary>Originally: ÎÍÍÌÎÍÎÌÏÎÌÍÏÏÌÏÎÌÌÏÍÌÎ</summary>
+    public class BackingFieldStore_01 : BackingFieldBase_0DA1
+    {
+        public object _0F4C;
+        public object _0F4C2;
+        public object _0F4C3;
+        public object _0F4C4;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        // ── Unresolved (hash) ──
+        public void m_AE3(){} // RVA: 0xE32C80
+        public void m_DD2(){} // RVA: 0xEEA060
+        public void m_FC8(){} // RVA: 0x15443F0
+        public void m_A76(){} // RVA: 0x15443E0
+        public void m_FA4(){} // RVA: 0xB6B1A0
+        public void m_6A9(){} // RVA: 0xB6B1B0
+        public void m_9CD(){} // RVA: 0x87C540
+        public void m_FAD(){} // RVA: 0x5A76A60
+        public void m_8EF(){} // RVA: 0x5A76E10
+        public void m_C6D(){} // RVA: 0x40066C0
     }
 
     /// <summary>Originally: ÏÎÎÍÌÏÌÎÏÍÎÎÎÌÍÎÌÍÍÍÍÎÏ</summary>

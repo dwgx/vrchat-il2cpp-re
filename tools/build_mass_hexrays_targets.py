@@ -4,18 +4,17 @@
 import argparse
 import json
 import re
+import sys
 from collections import defaultdict
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from name_quality import is_weak_name  # single source of truth
 
 
 HASH_RE = re.compile(r"^m_[0-9A-F]{3}$")
 RUNTIME_BASE_MASK = ~0xFFFFFF
 IDA_BASE = 0x180000000
-WEAK_PREFIXES = (
-    "Obf_", "Type", "Struct", "Mono", "Service", "Major", "Static",
-    "DataOnly", "EmptyType", "EmptyStruct", "EmptyClass", "Record",
-    "Unknown", "LargeClass", "Class_",
-)
 COMPILER_GENERATED = {"<>c", "<>c__DisplayClass"}
 
 
@@ -32,14 +31,11 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def is_weak_name(name: str) -> bool:
-    if not name:
-        return True
-    if name.startswith(WEAK_PREFIXES):
-        return True
-    if re.match(r"^(Type|Struct|Mono|Service|Major|Static)\d+[mf]", name):
-        return True
-    return False
+def _removed_local_is_weak_name():
+    # The local bare-prefix duplicate was deleted; build_mass uses the canonical
+    # is_weak_name imported from name_quality (which correctly keeps real names
+    # like MonoBehaviour/ServiceProvider out of the weak set).
+    pass
 
 
 def is_compiler_generated(name: str) -> bool:

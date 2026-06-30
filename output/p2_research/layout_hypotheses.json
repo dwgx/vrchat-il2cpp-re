@@ -1,0 +1,148 @@
+{
+  "field_count_offset": {
+    "best": "0x120",
+    "confidence": "high",
+    "candidates": [
+      {
+        "off": "0x120",
+        "score": 0.7755,
+        "max": 285,
+        "in_range_frac": 0.7755,
+        "distinct": 24,
+        "mean_nonzero": 52.68,
+        "gates": [
+          "0x108",
+          "0x118",
+          "0x150",
+          "0xf8"
+        ]
+      }
+    ]
+  },
+  "method_count_offset": {
+    "best": null,
+    "confidence": "low",
+    "candidates": [],
+    "note": "No second clean u16 count is isolable offline -- the only bounded, varied count slot is the field_count. Other u16 slots near it overlap live pointer bytes (max==65535) and are noise. method_count must be read live near field_count."
+  },
+  "field_array_ptr_offset": {
+    "best": "0x108",
+    "confidence": "high",
+    "correlated_with_count": "0x120",
+    "candidates": [
+      {
+        "off": "0x108",
+        "corr": 0.9805,
+        "p1_cntpos_has_ptr": 0.9839,
+        "p0_cntzero_no_ptr": 0.9688,
+        "note": "present iff field_count>0"
+      },
+      {
+        "off": "0x118",
+        "corr": 0.976,
+        "p1_cntpos_has_ptr": 0.9871,
+        "p0_cntzero_no_ptr": 0.9376,
+        "note": "present iff field_count>0"
+      },
+      {
+        "off": "0x150",
+        "corr": 0.939,
+        "p1_cntpos_has_ptr": 0.9349,
+        "p0_cntzero_no_ptr": 0.9532,
+        "note": "present iff field_count>0"
+      },
+      {
+        "off": "0xf8",
+        "corr": 0.9275,
+        "p1_cntpos_has_ptr": 0.9813,
+        "p0_cntzero_no_ptr": 0.7416,
+        "note": "present iff field_count>0"
+      }
+    ]
+  },
+  "method_array_ptr_offset": {
+    "best": "0x20",
+    "confidence": "low",
+    "candidates": [
+      {
+        "off": "0x20",
+        "ptr_presence": 0.9945,
+        "note": "always-present structural pointer, not gated by field_count; candidate methods array"
+      },
+      {
+        "off": "0x78",
+        "ptr_presence": 0.9905,
+        "note": "always-present structural pointer, not gated by field_count; candidate methods array"
+      },
+      {
+        "off": "0x80",
+        "ptr_presence": 0.99,
+        "note": "always-present structural pointer, not gated by field_count; candidate methods array"
+      },
+      {
+        "off": "0x90",
+        "ptr_presence": 0.984,
+        "note": "always-present structural pointer, not gated by field_count; candidate methods array"
+      },
+      {
+        "off": "0xa8",
+        "ptr_presence": 0.975,
+        "note": "always-present structural pointer, not gated by field_count; candidate methods array"
+      },
+      {
+        "off": "0xb8",
+        "ptr_presence": 0.9775,
+        "note": "always-present structural pointer, not gated by field_count; candidate methods array"
+      }
+    ],
+    "note": "Methods array is an always-present pointer not gated by field_count. Cannot be confirmed offline (no method_count to correlate). Earliest non-excluded always-present pointer is the leading hypothesis per IL2CPP member order."
+  },
+  "self_ref_offsets": [
+    "0x68",
+    "0x170",
+    "0x190",
+    "0x130",
+    "0x180"
+  ],
+  "self_ref_detail": [
+    {
+      "off": "0x68",
+      "frac": 0.9855
+    },
+    {
+      "off": "0x170",
+      "frac": 0.3
+    },
+    {
+      "off": "0x190",
+      "frac": 0.2535
+    },
+    {
+      "off": "0x130",
+      "frac": 0.193
+    },
+    {
+      "off": "0x180",
+      "frac": 0.165
+    }
+  ],
+  "always_present_pointers": [
+    "0x0",
+    "0x20",
+    "0x50",
+    "0x78",
+    "0x80",
+    "0x90",
+    "0xa8",
+    "0xb8",
+    "0xc8",
+    "0xd8",
+    "0xe8",
+    "0x128"
+  ],
+  "sibling_pointer_notes": [
+    "0xf8 is -368 bytes from field_ptr in 1232/2000 classes (fixed delta -> adjacent member, not array bound)",
+    "0x118 is 368 bytes from field_ptr in 1281/2000 classes (fixed delta -> adjacent member, not array bound)"
+  ],
+  "limitations": "Derived from 2000 structs of 512 bytes. Pointer window 0x10000..0x7fffffffffff. The capture has NO pointee memory, so FieldInfo stride and the sub-offsets (field name ptr / field offset u32 / field type ptr) CANNOT be derived here -- they must be probed live by dereferencing the field_array_ptr candidate (+0x108) on a class with known fields."
+}

@@ -1,0 +1,283 @@
+{
+ "summary": {
+  "classes_scanned": 27799,
+  "weak_unnamed_with_iface_signal": 15,
+  "idf_corpus_size": 27799,
+  "note": "clean domain interfaces only (plumbing collection/async/iterator interfaces dropped); disjoint from all type passes."
+ },
+ "signals": [
+  {
+   "obf_name": "ÍÍÍÍÌÌÎÍÏÏÌÍÏÍÎÏÏÎÌÎÍÎÍ",
+   "current_name": "UnityEvent1Derived_BFD3",
+   "namespace": "",
+   "score": 63.281,
+   "n_ifaces": 11,
+   "interfaces": [
+    "ISubmitHandler",
+    "IMoveHandler",
+    "IDeselectHandler",
+    "ISelectHandler",
+    "IPointerDownHandler",
+    "IPointerUpHandler",
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "ISerializationCallbackReceiver",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÎÌÏÎÌÌÎÏÌÍÏÌÌÍÍÌÌÏÎÍÏÌÏ",
+   "current_name": "Pointerk__BackingFieldImplImpl_55ED",
+   "namespace": "",
+   "score": 19.29,
+   "n_ifaces": 4,
+   "interfaces": [
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    "ÌÏÏÎÏÏÏÍÌÎÎÍÎÌÏÍÍÎÎÏÌÍÍ",
+    "Awake",
+    "ÏÎÍÏÍÌÍÍÍÏÌÎÍÍÎÎÏÏÍÏÍÎÍ",
+    "ÌÎÍÍÎÍÌÎÏÍÌÍÍÌÌÎÏÌÌÍÍÎÏ",
+    "ÍÍÎÎÌÍÏÍÌÍÍÌÎÏÎÍÌÏÌÌÌÏÎ",
+    ".ctor",
+    "ÌÍÏÎÏÍÎÌÎÍÍÏÍÍÏÍÍÎÍÏÏÌÍ",
+    "ÎÍÌÌÍÎÎÍÍÌÏÏÌÎÎÎÌÎÎÎÍÌÎ"
+   ]
+  },
+  {
+   "obf_name": "ÏÎÌÌÍÍÏÎÏÎÏÎÌÌÍÏÎÍÏÍÎÌÌ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_FE76",
+   "namespace": "",
+   "score": 19.29,
+   "n_ifaces": 4,
+   "interfaces": [
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    "ÍÍÏÍÍÍÍÍÌÏÌÍÏÌÌÍÌÎÎÏÌÎÎ",
+    "ÌÎÍÎÏÎÏÎÍÎÌÍÏÍÌÎÌÏÌÌÏÍÎ",
+    "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+    "ÍÎÌÎÌÎÌÍÌÎÎÍÍÍÌÏÏÏÏÌÎÎÎ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÎÌÌÏÎÏÎÏÌÏÎÏÏÍÍÍÌÌÏÍÌÍÍ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_22E2",
+   "namespace": "",
+   "score": 19.29,
+   "n_ifaces": 4,
+   "interfaces": [
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+    "ÌÎÍÎÏÎÏÎÍÎÌÍÏÍÌÎÌÏÌÌÏÍÎ",
+    "ÍÍÏÍÍÍÍÍÌÏÌÍÏÌÌÍÌÎÎÏÌÎÎ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÏÌÍÍÎÏÏÎÍÌÏÎÍÌÍÌÎÎÌÍÍÏÌ",
+   "current_name": "Pointerk__BackingFieldImplImplImpl_65A6",
+   "namespace": "",
+   "score": 19.29,
+   "n_ifaces": 4,
+   "interfaces": [
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    "ÍÎÎÏÎÍÎÎÏÏÎÍÌÍÏÌÏÏÍÌÎÌÏ",
+    ".ctor",
+    "ÏÍÏÍÌÏÎÍÌÎÎÍÏÏÌÌÌÏÎÍÎÎÌ",
+    "ÌÎÎÍÌÌÌÌÏÍÌÌÎÏÏÍÎÏÌÎÏÎÏ",
+    "ÍÏÏÍÍÎÎÌÌÌÍÏÌÏÌÎÎÍÌÎÎÍÍ",
+    "ÎÏÌÍÎÏÏÌÌÎÌÌÌÎÎÏÏÎÍÏÌÏÍ",
+    "ÏÎÎÍÎÏÏÌÏÌÌÏÎÏÎÏÎÌÌÎÏÌÎ",
+    "ÎÍÍÍÍÍÍÎÎÌÌÎÏÌÌÎÏÌÏÌÏÎÌ"
+   ]
+  },
+  {
+   "obf_name": "ÌÎÏÏÍÍÏÌÏÎÎÌÎÏÎÎÎÏÏÌÏÌÎ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_3534",
+   "namespace": "",
+   "score": 19.29,
+   "n_ifaces": 4,
+   "interfaces": [
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    "ÌÎÍÎÏÎÏÎÍÎÌÍÏÍÌÎÌÏÌÌÏÍÎ",
+    "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+    "ÍÍÏÍÍÍÍÍÌÏÌÍÏÌÌÍÌÎÎÏÌÎÎ",
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÌÌÎÌÍÏÎÍÍÎÌÍÎÌÌÏÌÌÏÍÎÏÎ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_3360",
+   "namespace": "",
+   "score": 19.29,
+   "n_ifaces": 4,
+   "interfaces": [
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    "ÌÎÍÎÏÎÏÎÍÎÌÍÏÍÌÎÌÏÌÌÏÍÎ",
+    "ÎÏÍÏÏÎÍÏÍÍÍÏÌÍÌÌÏÌÍÏÎÌÌ",
+    "ÍÍÏÍÍÍÍÍÌÏÌÍÏÌÌÍÌÎÎÏÌÎÎ",
+    "ÍÍÎÎÍÌÎÎÎÍÎÌÍÌÌÍÍÌÎÌÏÏÎ",
+    "ÍÌÌÏÌÍÏÍÍÏÍÏÏÎÎÍÏÎÎÍÎÏÎ",
+    "ÏÎÌÎÌÍÏÎÌÏÏÏÍÌÎÌÌÌÍÍÏÏÌ",
+    "ÏÍÌÌÍÎÏÏÌÌÍÍÏÍÎÍÎÌÎÎÎÎÌ",
+    ".cctor"
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÏÍÎÏÎÍÎÌÍÌÌÎÎÌÍÌÌÏÌÌ",
+   "current_name": "Pointerk__BackingFieImpl_6149",
+   "namespace": "",
+   "score": 19.29,
+   "n_ifaces": 4,
+   "interfaces": [
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÍÎÎÎÎÏÍÏÍÎÏÍÎÎÌÏÍÎÍÍÏÍÍ",
+   "current_name": "UIRectTransformDimensionsChBeforeTransformImpl_C90C",
+   "namespace": "",
+   "score": 19.29,
+   "n_ifaces": 4,
+   "interfaces": [
+    "IPointerClickHandler",
+    "IPointerExitHandler",
+    "IPointerEnterHandler",
+    "IEventSystemHandler"
+   ],
+   "methods": [
+    "ÍÎÌÎÌÎÌÍÌÎÎÍÍÍÌÏÏÏÏÌÎÎÎ",
+    "ÍÍÏÌÎÍÎÌÌÎÌÎÎÏÍÏÏÏÎÎÏÍÍ",
+    "ÌÎÍÏÎÍÏÌÍÏÏÌÎÍÏÏÍÌÏÍÌÍÏ",
+    "ÍÏÍÍÎÍÍÌÎÌÌÎÏÎÍÏÏÎÏÏÏÍÌ",
+    "ÍÍÌÎÍÌÏÌÎÌÏÎÎÎÎÏÎÌÍÌÍÍÏ",
+    "ÌÎÍÎÏÎÏÎÍÎÌÍÏÍÌÎÌÏÌÌÏÍÎ",
+    "ÌÏÎÎÍÏÎÌÌÌÌÌÏÏÌÏÎÏÍÎÍÌÎ",
+    "ÎÎÎÌÌÎÌÏÌÌÏÏÏÏÌÎÌÍÏÏÎÍÏ"
+   ]
+  },
+  {
+   "obf_name": "ÎÌÎÏÌÏÌÏÌÏÎÍÍÎÏÍÌÎÍÌÌÍÌ",
+   "current_name": "Udonk__BackingFieldImpl_DA81",
+   "namespace": "",
+   "score": 9.134,
+   "n_ifaces": 1,
+   "interfaces": [
+    "IPhotonPeerListener"
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÏÏÍÌÌÍÎÌÏÌÍÎÏÍÌÌÎÍÏÍÍÎÍ",
+   "current_name": "UnityEvent1Derived_225E",
+   "namespace": "",
+   "score": 4.839,
+   "n_ifaces": 1,
+   "interfaces": [
+    "ISerializationCallbackReceiver"
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÍÏÎÏÌÍÌÌÍÍÎÌÏÏÍÌÎÌÍÍÏÏÎ",
+   "current_name": "UnityEvent1Derived_DA3A",
+   "namespace": "",
+   "score": 4.839,
+   "n_ifaces": 1,
+   "interfaces": [
+    "ISerializationCallbackReceiver"
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÏÌÎÏÎÎÌÍÌÍÏÌÎÎÏÍÍÎÏÏÏÍÍ",
+   "current_name": "UnityEvent1Derived_9E31",
+   "namespace": "",
+   "score": 4.839,
+   "n_ifaces": 1,
+   "interfaces": [
+    "ISerializationCallbackReceiver"
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  },
+  {
+   "obf_name": "ÍÎÌÎÏÏÎÌÎÌÌÏÏÏÍÎÏÌÌÍÍÌÎ",
+   "current_name": "BaseClass290ImplSibling_D9F7",
+   "namespace": "",
+   "score": 4.506,
+   "n_ifaces": 1,
+   "interfaces": [
+    "ICriticalNotifyCompletion"
+   ],
+   "methods": [
+    ".ctor",
+    "ÍÎÏÍÏÏÎÎÏÏÏÎÍÏÍÌÍÎÏÏÍÌÏ",
+    "ÌÏÌÌÌÏÎÏÎÏÏÏÌÍÍÍÌÎÍÎÎÍÍ",
+    "ÍÍÌÍÍÌÌÏÍÏÍÏÏÏÏÎÏÎÍÎÌÌÌ",
+    "ÎÏÍÌÏÏÏÏÎÎÌÎÎÌÍÎÎÏÎÍÌÎÏ",
+    "Dispose",
+    "ÏÎÎÌÎÏÌÌÏÍÍÏÌÌÌÏÎÏÎÏÎÌÌ"
+   ]
+  },
+  {
+   "obf_name": "ÍÍÎÎÍÎÍÌÍÎÏÎÏÌÍÍÌÌÍÌÏÏÌ",
+   "current_name": "PhotonHashtableDerived_E2EE",
+   "namespace": "",
+   "score": 3.642,
+   "n_ifaces": 1,
+   "interfaces": [
+    "IDeserializationCallback"
+   ],
+   "methods": [
+    ".ctor"
+   ]
+  }
+ ]
+}

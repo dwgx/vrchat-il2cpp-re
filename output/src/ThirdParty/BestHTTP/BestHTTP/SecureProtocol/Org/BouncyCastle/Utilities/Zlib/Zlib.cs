@@ -396,7 +396,7 @@ namespace ThirdParty.BestHTTP.BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities
         public void .ctor(){} // RVA: 0xB43310
     }
 
-    public class LowMemoryCallback : Object
+    public class StaticTree : Object
     {
         public object MAX_BITS;
         public object BL_CODES;

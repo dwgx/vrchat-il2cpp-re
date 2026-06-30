@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 48
-// Methods: 678
+// Classes: 49
+// Methods: 750
 
 namespace VRC.Misc
 {
@@ -670,6 +670,101 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0x2141C00
         public void IsModuleSupported(){} // RVA: 0xB43320
         public void ShouldActivateModule(){} // RVA: 0x2141C80
+    }
+
+    /// <summary>Originally: ÎÏÍÍÍÎÌÌÎÌÏÏÌÎÍÌÏÏÌÎÎÎÌ</summary>
+    public class SliderInteractText : VRC_Interactable
+    {
+        public object _interactTextPlacement;
+        public object _interactText;
+        public object _interactTextGO;
+        public object _proximity;
+        public object _initialize;
+        public object _checkValid;
+        public object f_8D6;
+        public object f_CFF;
+        public object f_A99;
+        public object f_A08;
+        public object f_484;
+        public object f_02F;
+        public object f_934;
+        public object f_22D;
+        public object f_5F9;
+        public object f_7D4;
+        public object pointModel;
+        public object anchorModel;
+        public object f_D7A;
+        public object f_F12;
+        public object f_686;
+        public object SpeedSlider;
+        public object DurationSlider;
+        public object ZoomSlider;
+        public object ExposureSlider;
+        public object FocalDistanceSlider;
+        public object ApertureSlider;
+        public object LookAtMeXOffsetSlider;
+        public object LookAtMeYOffsetSlider;
+        public object HueSlider;
+        public object LightnessSlider;
+        public object SaturationSlider;
+        public object MotionFoldout;
+        public object FocusFoldout;
+        public object LookAtMeFoldout;
+        public object GreenscreenFoldout;
+        public object SliderContent;
+        public object SliderFoldoutArrows;
+        public object DofSliderContentTitle;
+        public object DofSliderContentRect;
+        public object ZoomSliderParentRect;
+        public object FocalDistanceSliderParent;
+        public object ApertureSliderParent;
+        public object DeleteButton;
+        public object CopyToCameraButton;
+        public object NextPositionButton;
+        public object PreviousPositionButton;
+        public object NextSegmentButton;
+        public object PreviousSegmentButton;
+        public object IndexUIPathIndex;
+        public object IndexUIPointIndex;
+        public object UITitle;
+        public object PositionIndexText;
+        public object SegmentIndexText;
+        public object f_41A;
+        public object f_BEF;
+        public object f_096;
+        public object f_680;
+        public object f_977;
+        public object f_158;
+        public object f_1F1;
+        public object f_B05;
+        public object f_1A5;
+        public object f_2A1;
+        public object f_B62;
+        public object f_380;
+        public object f_E7F;
+        public object f_96F;
+        public object f_3C5;
+
+        // ── Methods ──
+        public void get_IsInteractive(){} // RVA: 0xB6B170
+        public void get_Proximity(){} // RVA: 0x18BB250
+        public void Awake(){} // RVA: 0x18BB280
+        public void OnPickupUseUp(){} // RVA: 0x18BB930
+        public void Update(){} // RVA: 0x18BCFF0
+        public void Start(){} // RVA: 0x18BDC30
+        public void OnDrop(){} // RVA: 0x18BDF60
+        public void OnPickupUseDown(){} // RVA: 0x18BE1D0
+        public void Interact(){} // RVA: 0xB43310
+        public void OnPickup(){} // RVA: 0x18BE660
+        public void .ctor(){} // RVA: 0x18BF380
+        public void Initialize(){} // RVA: 0x18BF450
+        // ── 59 unresolved (hash) ──
+        public void m_0C7(){} // RVA: 0xB6B1E0
+        public void m_466(){} // RVA: 0xB6B1F0
+        public void m_77E(){} // RVA: 0x18BB980
+        public void m_AE3(){} // RVA: 0xBE5870
+        public void m_E35(){} // RVA: 0x18BCCC0
+        // ... 54 more unresolved methods
     }
 
     /// <summary>Originally: ÌÌÍÍÌÍÏÎÏÏÌÍÎÍÏÎÍÍÎÌÏÏÌ</summary>

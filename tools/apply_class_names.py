@@ -27,17 +27,46 @@ DUMP = BASE / "output" / "deobfuscated_dump.json"
 SOURCES = [
     ("workflow", BASE / "output" / "workflow_class_names.json"),
     ("a1", BASE / "output" / "a1_class_names.json"),
+    ("synth", BASE / "output" / "synthesized_names.json"),
+    ("callgraph", BASE / "output" / "callgraph_class_names.json"),
+    ("field_type", BASE / "output" / "field_type_class_names.json"),
+    ("method_return", BASE / "output" / "method_return_class_names.json"),
+    ("method_param", BASE / "output" / "method_param_class_names.json"),
+    ("combined_type", BASE / "output" / "combined_type_class_names.json"),
+    ("interface", BASE / "output" / "interface_class_names.json"),
+    ("string_literal", BASE / "output" / "string_literal_class_names.json"),
+    ("call_target", BASE / "output" / "calltarget_class_names.json"),
+    ("field_compose", BASE / "output" / "fieldcompose_class_names.json"),
+    ("decompile_callee", BASE / "output" / "decompile_class_names.json"),
 ]
 
-# Mirror compute_final_stats.is_weak_name so we never re-introduce a weak name.
-WEAK_PREFIXES = ("Obf_", "Type", "Struct", "Mono", "Service", "Major", "Static",
-                 "DataOnly", "EmptyType", "EmptyStruct", "EmptyClass", "Record",
-                 "Unknown", "LargeClass", "Class_")
-WEAK_RE = re.compile(r"^(Type|Struct|Mono|Service|Major|Static)\d+[mf]")
+# semantic_source tag per source. Field-signature sources share one tag for
+# continuity; callgraph names are behaviour-inferred and get a distinct, honest
+# tag so they're never mistaken for recovered field-signature names.
+SRC_TAG = {
+    "workflow": "field_signature_workflow",
+    "a1": "field_signature_a1",
+    "synth": "field_signature_synth",
+    "callgraph": "callgraph_inferred",
+    "field_type": "field_type_signature",
+    "method_return": "method_return_type_signature",
+    "method_param": "method_param_type_signature",
+    "combined_type": "combined_type_signature",
+    "interface": "interface_signature",
+    "string_literal": "string_literal_disasm",
+    "call_target": "call_target_disasm",
+    "field_compose": "field_composition",
+    "decompile_callee": "decompile_callee_inference",
+}
+
+# Canonical weak/placeholder criterion, shared with the pipeline and stats tool
+# so all four call sites can never drift (the drift that inflated coverage once).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from name_quality import is_weak_name as is_weak
 
 
-def is_weak(n: str) -> bool:
-    return bool(WEAK_RE.match(n)) or n.startswith(WEAK_PREFIXES)
+def is_weak_placeholder(n: str) -> bool:
+    return is_weak(n)
 
 
 def is_obf(name: str) -> bool:
@@ -56,10 +85,12 @@ def load_sources():
             continue
         data = json.load(open(path, encoding="utf-8"))
         kept = 0
-        for orig, name in data.items():
+        for orig, val in data.items():
+            # value is either a bare name string or a {"name": ...} record
+            name = val.get("name") if isinstance(val, dict) else val
             if not name or is_weak(name):
                 continue  # never apply weak/placeholder names
-            merged[orig] = (name, f"field_signature_{src_tag}")
+            merged[orig] = (name, SRC_TAG[src_tag])
             kept += 1
         print(f"  source {path.name}: {kept} valid names")
     return merged
@@ -93,7 +124,7 @@ def main():
                 cur = c.get("name", "")
                 # Only apply where the current name is still obfuscated/weak.
                 # If the pipeline already gave it a good name, keep that.
-                if is_obf(cur) or is_weak(cur) or c.get("semantic_source", "").startswith("field_signature"):
+                if is_obf(cur) or is_weak(cur) or c.get("semantic_source", "").startswith(("field_signature", "callgraph")):
                     if cur != new_name or c.get("semantic_source") != src:
                         c["name"] = new_name
                         c["semantic_source"] = src

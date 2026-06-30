@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
 // Classes: 100
-// Methods: 2163
+// Methods: 2119
 
 namespace VRC.UI
 {
@@ -327,48 +327,6 @@ namespace VRC.UI
         public void m_243(){} // RVA: 0x9F90F10
         public void m_8DA(){} // RVA: 0x9FB5B60
         // ... 7 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_08BD : Pointerk__BackingField_8B17
-    {
-        public object f_C25;
-        public object f_292;
-        public object f_A7F;
-        public object f_14A;
-        public object f_43E;
-        public object f_5BB;
-        public object f_5A7;
-        public object f_3F0;
-        public object f_D11;
-        public object f_2A4;
-        public object f_07C;
-        public object f_FD5;
-        public object f_E48;
-        public object f_A2A;
-        public object f_57D;
-
-        // ── Methods ──
-        public void OnEnable(){} // RVA: 0x5A98770
-        public void OnDisable(){} // RVA: 0x5A987C0
-        public void OnDestroy(){} // RVA: 0x5AA49B0
-        public void Start(){} // RVA: 0x5A94920
-        public void IsActive(){} // RVA: 0x5A94940
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
-        public void OnTransformParentChanged(){} // RVA: 0x5A94920
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
-        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
-        public void .ctor(){} // RVA: 0x5AA5070
-        public void .cctor(){} // RVA: 0x5AA5680
-        // ── 35 unresolved (hash) ──
-        public void m_814(){} // RVA: 0x5A90900
-        public void m_CCA(){} // RVA: 0x5AA17E0
-        public void m_BBA(){} // RVA: 0x5AA1940
-        public void m_975(){} // RVA: 0x5AA19A0
-        public void m_658(){} // RVA: 0x5AA1A00
-        // ... 30 more unresolved methods
     }
 
     /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
@@ -2074,109 +2032,6 @@ namespace VRC.UI
         public void Initialize(){} // RVA: 0x9E597A0
     }
 
-    /// <summary>Originally: ÏÏÍÍÎÎÌÌÍÌÏÏÏÍÏÏÎÎÌÎÌÎÌ</summary>
-    public class UIk__BackingField_C61E : NetworkReadyHandler_D8EE
-    {
-        public object printRenderer;
-        public object canvas;
-        public object frontCanvasGroup;
-        public object backCanvasGroup;
-        public object pickup;
-        public object preview;
-        public object printCollider;
-        public object streamerModeTexture;
-        public object backCanvasMovableTransform;
-        public object backCanvasZOffsetStill;
-        public object backCanvasZOffsetMoving;
-        public object backCanvasZOffsetMovingDoubleRow;
-        public object printDuration;
-        public object scaleDuration;
-        public object developDuration;
-        public object targetScale;
-        public object printerScaleDuration;
-        public object printerTransform;
-        public object velocityMultiplier;
-        public object velocityLerpSpeed;
-        public object maxVelocity;
-        public object f_59A;
-        public object f_358;
-        public object editNoteButton;
-        public object saveToGalleryButton;
-        public object downloadButton;
-        public object hideButton;
-        public object deleteButton;
-        public object reportButton;
-        public object worldDetailsButton;
-        public object vrcPlusBanner;
-        public object vrcPlusAdvertisement;
-        public object vrcPlusButton;
-        public object buttonLayoutHandler;
-        public object hiddenMenu;
-        public object f_D1E;
-        public object f_3CC;
-        public object f_3B6;
-        public object f_537;
-        public object f_D7D;
-        public object f_3F1;
-        public object f_F04;
-        public object f_C19;
-        public object f_AE8;
-        public object f_AFC;
-        public object f_1C0;
-        public object f_683;
-        public object _selector;
-        public object f_5F3;
-        public object f_87C;
-        public object f_F57;
-        public object f_2E8;
-        public object f_0FD;
-        public object f_593;
-        public object f_8B8;
-        public object f_312;
-        public object f_964;
-        public object f_C40;
-        public object f_CC2;
-        public object f_C38;
-        public object f_4B7;
-        public object f_2BC;
-        public object f_B45;
-        public object f_E26;
-        public object f_96A;
-        public object f_49F;
-        public object f_681;
-        public object f_221;
-        public object f_2AB;
-        public object f_C08;
-        public object f_D6E;
-        public object f_95E;
-        public object f_564;
-        public object f_7EF;
-        public object f_5BE;
-        public object f_4D4;
-        public object f_051;
-        public object f_21C;
-        public object f_105;
-        public object f_546;
-        public object f_351;
-
-        // ── Methods ──
-        public void Start(){} // RVA: 0x22DFE30
-        public void Awake(){} // RVA: 0x22E0A80
-        public void .ctor(){} // RVA: 0x22E12D0
-        public void Initialize(){} // RVA: 0x22E1380
-        public void FixedUpdate(){} // RVA: 0x22E2C90
-        public void .cctor(){} // RVA: 0x22E3F30
-        public void Update(){} // RVA: 0x22E4350
-        public void OnDestroy(){} // RVA: 0x22E6BB0
-        // ── 47 unresolved (hash) ──
-        public void m_F5C(){} // RVA: 0x22DEDB0
-        public void m_604(){} // RVA: 0x22DF0D0
-        public void m_A2F(){} // RVA: 0x10F9390
-        public void m_DC6(){} // RVA: 0x22DF130
-        public void m_4A5(){} // RVA: 0x22DF630
-        // ... 42 more unresolved methods
-    }
-
     /// <summary>Originally: ÌÎÎÎÍÌÏÍÍÎÎÎÍÍÏÎÎÎÍÎÌÎÎ</summary>
     public class UIk__BackingFieldcontrolsContainerComponent_B656 : MonoBehaviour
     {
@@ -2445,6 +2300,31 @@ namespace VRC.UI
         public void IsObjectMonoBehaviour(){} // RVA: 0x99EFD20
     }
 
+    /// <summary>Originally: ÌÍÌÎÌÌÌÏÍÍÌÎÍÍÏÌÌÌÌÍÏÎÎ</summary>
+    public class UImarketPlaceButton_8390 : UIObservableListk__BackingField_9B4F
+    {
+        public object f_86E;
+        public object _marketPlaceButton;
+        public object f_D89;
+
+        // ── Methods ──
+        public void OnPointerEnter(){} // RVA: 0x9CDD040
+        public void OnPointerExit(){} // RVA: 0x9CDD170
+        public void OnPointerDown(){} // RVA: 0x9CDD330
+        public void .ctor(){} // RVA: 0x9CDD430
+        public void Initialize(){} // RVA: 0x9CDD500
+        public void OnPointerUp(){} // RVA: 0x9CDD6C0
+        public void OnPointerClick(){} // RVA: 0x9CDD7F0
+        public void OnSelect(){} // RVA: 0x9CDD8F0
+        public void OnDeselect(){} // RVA: 0x9CDDA10
+        public void OnSubmit(){} // RVA: 0x9CDDB40
+        public void OnCancel(){} // RVA: 0x9CDDC60
+        public void OnMove(){} // RVA: 0x9CDDD80
+        public void OnScroll(){} // RVA: 0x9CDDEA0
+        public void Start(){} // RVA: 0x9CDDFD0
+        public void OnValueChanged(){} // RVA: 0x9CDE280
+    }
+
     /// <summary>Originally: ÎÎÌÌÌÎÌÌÎÏÌÌÌÌÎÌÌÎÎÏÎÎÎ</summary>
     public class UImaskedListBindingoverlayDisplayComponent_0A71 : MonoBehaviour
     {
@@ -2656,6 +2536,100 @@ namespace VRC.UI
         public void m_09E(){} // RVA: 0x9F6E9B0
         public void m_95A(){} // RVA: 0x9F6E9B0
         public void m_50B(){} // RVA: 0x9F6EBF0
+    }
+
+    /// <summary>Originally: ÎÎÍÍÍÏÌÎÌÎÍÌÎÎÎÏÏÍÍÌÎÏÎ</summary>
+    public class UIperformanceLimitSelectioninstanceTypeSelComponent_71B6 : MonoBehaviour
+    {
+        public object parentModal;
+        public object backButton;
+        public object loadingDisplay;
+        public object instanceTypeSelectionCG;
+        public object instanceTypeSelectionCanvasToggle;
+        public object blockedCG;
+        public object blockedCanvasToggle;
+        public object groupSelectionCG;
+        public object groupSelectionCanvasToggle;
+        public object groupListBinding;
+        public object groupButtonPrefab;
+        public object noGroupsGa;
+        public object groupInstanceTypeCG;
+        public object groupInstanceTypeCanvasToggle;
+        public object instanceTypeSelectionPanel;
+        public object roleSelectionCG;
+        public object roleSelectionCanvasToggle;
+        public object roleSelectionManager;
+        public object createGroupInstanceCG;
+        public object createGroupInstanceCanvasToggle;
+        public object createGroupInstancePanel;
+        public object performanceLimitSelectionCG;
+        public object performanceLimitSelectionCanvasToggle;
+        public object performanceLimitSelectionPanel;
+        public object f_C2C;
+        public object f_010;
+        public object f_1FA;
+        public object f_0D2;
+        public object f_BE2;
+        public object f_A3C;
+        public object f_340;
+        public object f_FCE;
+        public object f_B31;
+        public object f_E32;
+        public object f_DB5;
+        public object f_027;
+        public object f_0F3;
+        public object f_CAC;
+        public object f_2E1;
+        public object f_92D;
+        public object f_8F1;
+        public object f_F1D;
+        public object f_FF7;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0xDA0520
+        public void RaiseCancellation(){} // RVA: 0x9D9AD70
+        public void IsInvoking(){} // RVA: 0x9D9AE00
+        public void CancelInvoke(){} // RVA: 0x9D9B470
+        public void Invoke(){} // RVA: 0xC10050
+        public void InvokeRepeating(){} // RVA: 0x9D9B670
+        public void StartCoroutine(){} // RVA: 0x9D9B7B0
+        public void StartCoroutine_Auto(){} // RVA: 0x9D9B7C0
+        public void StopCoroutine(){} // RVA: 0x9D9BA90
+        public void StopAllCoroutines(){} // RVA: 0x6CE7AD0
+        public void get_useGUILayout(){} // RVA: 0x9D9BAE0
+        public void set_useGUILayout(){} // RVA: 0x9D9BBC0
+        public void .ctor(){} // RVA: 0x9D9BCA0
+        public void Initialize(){} // RVA: 0xBC5BB0
+        public void print(){} // RVA: 0x9D9C090
+        public void Internal_CancelInvokeAll(){} // RVA: 0x9D9C3B0
+        public void Internal_IsInvokingAll(){} // RVA: 0x6CE7AE0
+        public void InvokeDelayed(){} // RVA: 0x9D9C800
+        public void IsObjectMonoBehaviour(){} // RVA: 0x9D9CA00
+        public void StartCoroutineManaged(){} // RVA: 0x9D9CC50
+        public void StartCoroutineManaged2(){} // RVA: 0x9D9CCE0
+        public void Start(){} // RVA: 0x9D9D2D0
+        public void StopCoroutineFromEnumeratorManaged(){} // RVA: 0x9D9D370
+        public void GetScriptClassName(){} // RVA: 0x9D9D490
+        public void OnCancellationTokenCreated(){} // RVA: 0x9D9D650
+        public void OnDisable(){} // RVA: 0x9D9D7D0
+        public void StopCoroutine_Injected(){} // RVA: 0x9D9D7E0
+        public void StopAllCoroutines_Injected(){} // RVA: 0x9D9D810
+        public void get_useGUILayout_Injected(){} // RVA: 0x9D9DE50
+        public void set_useGUILayout_Injected(){} // RVA: 0x9D9DF00
+        public void get_didStart_Injected(){} // RVA: 0x9D9DFE0
+        public void get_didAwake_Injected(){} // RVA: 0x9D9E200
+        public void Internal_CancelInvokeAll_Injected(){} // RVA: 0xD9D570
+        public void Internal_IsInvokingAll_Injected(){} // RVA: 0x9D9E320
+        public void InvokeDelayed_Injected(){} // RVA: 0x9D9E490
+        public void CancelInvoke_Injected(){} // RVA: 0x9D9EA10
+        public void IsInvoking_Injected(){} // RVA: 0x9D9ED30
+        public void IsObjectMonoBehaviour_Injected(){} // RVA: 0x9D9ED40
+        public void StartCoroutineManaged_Injected(){} // RVA: 0x9D9ED90
+        public void StartCoroutineManaged2_Injected(){} // RVA: 0x9D9D7E0
+        public void StopCoroutineManaged_Injected(){} // RVA: 0x9D9F030
+        public void StopCoroutineFromEnumeratorManaged_Injected(){} // RVA: 0x9D9F3C0
+        public void GetScriptClassName_Injected(){} // RVA: 0x9D9F580
+        public void OnCancellationTokenCreated_Injected(){} // RVA: 0x9D9F7E0
     }
 
     /// <summary>Originally: ÎÌÏÍÏÏÎÍÏÏÌÍÎÏÎÏÏÍÍÌÏÎÏ</summary>

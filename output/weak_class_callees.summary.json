@@ -1,0 +1,12 @@
+{
+ "source_types_with_callee": 1052,
+ "named_instances": 11,
+ "by_template": {
+  "AnimatorController": 5,
+  "ApiFileHandler": 1,
+  "AsyncCompletionSource": 2,
+  "CameraController": 1,
+  "CancellableOperation": 1,
+  "PlayerComponent": 1
+ }
+}

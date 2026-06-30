@@ -1,0 +1,74 @@
+[
+  {
+    "obf_class": "BaseClass45Impl_C335",
+    "proposed_name": "UIShareDeleteButtonController",
+    "confidence": "medium",
+    "evidence": "callees GameObject::SetActive + UIRectTransform deleteButton/shareButton::OnCancel + PointerClickSubmit::FindObjectsByType + Enumerable::Select 指向带分享/删除按钮的 UI 面板控制"
+  },
+  {
+    "obf_class": "BackingFieldBase_k__BackingField_2112",
+    "proposed_name": "ApiFileVersionResolver",
+    "confidence": "high",
+    "evidence": "callees ApiFile::GetLatestCompleteVersionNumber + ApiFile::GetVersion + String::Concat + Buffer::Memcpy + VRCLogger 明确指向 ApiFile 版本解析"
+  },
+  {
+    "obf_class": "BaseClass45Impl_C0B0",
+    "proposed_name": "UnityObjectLifecycleManager",
+    "confidence": "medium",
+    "evidence": "callees 全是 UnityObjectWrapper_4::Initialize/FindObjectsByType/ForceLoadFromInstanceID/DestroyImmediate + Monitor 锁，典型 Unity 对象生命周期管理"
+  },
+  {
+    "obf_class": "BackingFieldBase_k__BackingField_k__BackingField_3C6E",
+    "proposed_name": "ProfileInventoryEquipHandler",
+    "confidence": "medium",
+    "evidence": "callees ApiInventoryItem::Equip + ApiProfileInventoryMetadata::get_BaseAsset + ZLogger 指向档案库存物品装备处理"
+  },
+  {
+    "obf_class": "BaseClass45Impl_45DF",
+    "proposed_name": "UnityObjectManager",
+    "confidence": "medium",
+    "evidence": "callees UnityObjectWrapper_4::Initialize/FindObjectsByType/DestroyImmediate + Monitor 锁，Unity 对象查找与销毁管理"
+  },
+  {
+    "obf_class": "BaseClass45Impl_831C",
+    "proposed_name": "UnityObjectManager",
+    "confidence": "medium",
+    "evidence": "callees UnityObjectWrapper_4::Initialize/FindObjectsByType/DestroyImmediate + Monitor 锁，与 45DF 同构的 Unity 对象管理"
+  },
+  {
+    "obf_class": "BaseClass7Impl_36EA",
+    "proposed_name": "AnimatorCoroutineController",
+    "confidence": "medium",
+    "evidence": "callees Animator::StringToHash + UpdateComponent::StopCoroutineManaged/Internal_CancelInvokeAll 指向动画参数哈希与协程/Invoke 生命周期控制"
+  },
+  {
+    "obf_class": "BaseClass52Impl_D03A",
+    "proposed_name": "StyleElementColorParser",
+    "confidence": "medium",
+    "evidence": "callees ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy 指向 HTML 颜色解析与样式元素颜色设置"
+  },
+  {
+    "obf_class": "BackingFieldBase_k__BackingField_k__BackingField_k__BackingField_499F",
+    "proposed_name": "InventoryItemEquipHandler",
+    "confidence": "medium",
+    "evidence": "callees ApiInventoryItem::Equip + ZLogger/VRCLogger 指向库存物品装备处理"
+  },
+  {
+    "obf_class": "BaseClass45Impl_0B6F",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "callees 仅 Array::Clear + ThrowHelper 边界/空引用检查，纯集合 boilerplate，无领域信号"
+  },
+  {
+    "obf_class": "BaseClass52Impl_0925",
+    "proposed_name": "RegexCacheMatcher",
+    "confidence": "medium",
+    "evidence": "callees RegexCache::GetCachedPtr 在多个方法重复出现，配合 ThrowHelper 边界检查，指向正则缓存匹配"
+  },
+  {
+    "obf_class": "BaseClass52Impl_6286",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "callees RegexCache::GetCachedPtr 与 StyleElementColorSetter::Destroy 信号混杂(正则+UI样式)，领域不自洽，宁缺毋滥"
+  }
+]

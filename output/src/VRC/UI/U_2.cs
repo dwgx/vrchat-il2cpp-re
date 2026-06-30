@@ -243,48 +243,6 @@ namespace VRC.UI
         // ── Methods ──
         public void OnEnable(){} // RVA: 0x5A98770
         public void OnDisable(){} // RVA: 0x5A987C0
-        public void OnDestroy(){} // RVA: 0x5AB4D90
-        public void Start(){} // RVA: 0x5A94920
-        public void IsActive(){} // RVA: 0x5A94940
-        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
-        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
-        public void OnTransformParentChanged(){} // RVA: 0x5A94920
-        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
-        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
-        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
-        public void .ctor(){} // RVA: 0x5AB5450
-        public void .cctor(){} // RVA: 0x5AB5A60
-        // ── 35 unresolved (hash) ──
-        public void m_814(){} // RVA: 0x5A90900
-        public void m_CCA(){} // RVA: 0x5AB1C40
-        public void m_BBA(){} // RVA: 0x5AB1D90
-        public void m_975(){} // RVA: 0x5AB1DD0
-        public void m_658(){} // RVA: 0x5AB1E20
-        // ... 30 more unresolved methods
-    }
-
-    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
-    public class UIRectTransformDimensionsChBeforeTransform_08BD : Pointerk__BackingField_8B17
-    {
-        public object f_C25;
-        public object f_292;
-        public object f_A7F;
-        public object f_14A;
-        public object f_43E;
-        public object f_5BB;
-        public object f_5A7;
-        public object f_3F0;
-        public object f_D11;
-        public object f_2A4;
-        public object f_07C;
-        public object f_FD5;
-        public object f_E48;
-        public object f_A2A;
-        public object f_57D;
-
-        // ── Methods ──
-        public void OnEnable(){} // RVA: 0x5A98770
-        public void OnDisable(){} // RVA: 0x5A987C0
         public void OnDestroy(){} // RVA: 0x5B0E5C0
         public void Start(){} // RVA: 0x5A94920
         public void IsActive(){} // RVA: 0x5A94940
@@ -764,6 +722,48 @@ namespace VRC.UI
         public void m_BBA(){} // RVA: 0x5B4D460
         public void m_975(){} // RVA: 0x5B4D530
         public void m_658(){} // RVA: 0x5B4D600
+        // ... 30 more unresolved methods
+    }
+
+    /// <summary>Originally: ÎÎÎÌÎÎÎÌÍÍÎÎÌÌÏÌÎÏÍÎÏÌÏ</summary>
+    public class UIRectTransformDimensionsChBeforeTransform_08BD : Pointerk__BackingField_8B17
+    {
+        public object f_C25;
+        public object f_292;
+        public object f_A7F;
+        public object f_14A;
+        public object f_43E;
+        public object f_5BB;
+        public object f_5A7;
+        public object f_3F0;
+        public object f_D11;
+        public object f_2A4;
+        public object f_07C;
+        public object f_FD5;
+        public object f_E48;
+        public object f_A2A;
+        public object f_57D;
+
+        // ── Methods ──
+        public void OnEnable(){} // RVA: 0x5A98770
+        public void OnDisable(){} // RVA: 0x5A987C0
+        public void OnDestroy(){} // RVA: 0x5AA49B0
+        public void Start(){} // RVA: 0x5A94920
+        public void IsActive(){} // RVA: 0x5A94940
+        public void OnRectTransformDimensionsChange(){} // RVA: 0x5A94920
+        public void OnBeforeTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnTransformParentChanged(){} // RVA: 0x5A94920
+        public void OnDidApplyAnimationProperties(){} // RVA: 0x5A94920
+        public void OnCanvasGroupChanged(){} // RVA: 0x5A94920
+        public void OnCanvasHierarchyChanged(){} // RVA: 0x5A94920
+        public void .ctor(){} // RVA: 0x5AA5070
+        public void .cctor(){} // RVA: 0x5AA5680
+        // ── 35 unresolved (hash) ──
+        public void m_814(){} // RVA: 0x5A90900
+        public void m_CCA(){} // RVA: 0x5AA17E0
+        public void m_BBA(){} // RVA: 0x5AA1940
+        public void m_975(){} // RVA: 0x5AA19A0
+        public void m_658(){} // RVA: 0x5AA1A00
         // ... 30 more unresolved methods
     }
 

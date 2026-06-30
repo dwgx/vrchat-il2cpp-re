@@ -77,17 +77,6 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
         public void .ctor(){} // RVA: 0xB43310
     }
 
-    public class JobScheduleParameters : Attribute
-    {
-        public object _name;
-        public object _type;
-
-        // ── Methods ──
-        public void set_Name(){} // RVA: 0xB44D60
-        public void set_Type(){} // RVA: 0x1033F40
-        public void .ctor(){} // RVA: 0x2615F10
-    }
-
     public class ManagedSpanWrapper : ValueType
     {
         public object begin;
@@ -198,6 +187,17 @@ namespace ThirdParty.Unity.UnityEngine.Bindings
     {
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
+    }
+
+    public class StaticAccessorAttribute : Attribute
+    {
+        public object _name;
+        public object _type;
+
+        // ── Methods ──
+        public void set_Name(){} // RVA: 0xB44D60
+        public void set_Type(){} // RVA: 0x1033F40
+        public void .ctor(){} // RVA: 0x2615F10
     }
 
     public class StringMarshaller : Object

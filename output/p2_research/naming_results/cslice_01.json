@@ -1,0 +1,80 @@
+[
+  {
+    "obf_class": "BaseClass52Impl_D71D",
+    "proposed_name": "RectTransformStyleSetter",
+    "confidence": "medium",
+    "evidence": "all_callees 全是 RectTransform 布局 get/set(anchoredPosition/offsetMin/pivot/sizeDelta)+RegexCache,属于读写 RectTransform 布局的 UI 样式类"
+  },
+  {
+    "obf_class": "BaseClass13Impl_97AC",
+    "proposed_name": "VRCLoggerNumberFormatter",
+    "confidence": "medium",
+    "evidence": "callees=Number/Boolean::TryParse + String::FormatHelper + VRCLogger::get_GlobalLogger + ZLoggerInterpolatedStringHandler::AppendLiteral,数值解析后经 ZLogger 格式化输出"
+  },
+  {
+    "obf_class": "BaseClass45Impl_5DBE",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 Monitor::ThrowLockTakenException + UnityObjectWrapper_4 的 FindObjectsByType/DestroyImmediate/Initialize,是通用 Unity 对象生命周期管理 boilerplate,无具体领域信号"
+  },
+  {
+    "obf_class": "BaseClass45Impl_B682",
+    "proposed_name": "PointerClickSubmitActivator",
+    "confidence": "low",
+    "evidence": "GameObject::SetActive + PointerClickSubmitSibling_D314::FindObjectsByType,指向指针点击/提交时切换 UI 对象激活;但 PointerClickSubmit 本身仍是混淆兄弟类,证据偏弱"
+  },
+  {
+    "obf_class": "BaseClass45Impl_3D33",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "与 5DBE 同构:Monitor + UnityObjectWrapper_4 DestroyImmediate/FindObjectsByType/Initialize,通用 Unity 对象管理,无领域区分词"
+  },
+  {
+    "obf_class": "BaseClass45Impl_E971",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "同 5DBE/3D33 家族:Monitor + UnityObjectWrapper_4 通用对象生命周期调用,无具体领域语义"
+  },
+  {
+    "obf_class": "BaseClass45Impl_BF9C",
+    "proposed_name": "VRCObjectCreationLogger",
+    "confidence": "low",
+    "evidence": "NativeObjectCreateDestroyWrapper_2::set_hideFlags(原生对象创建)+ VRCLogger::get_GlobalLogger + ZLogger AppendLiteral,创建原生对象并记日志;仅 2 方法,置信偏低"
+  },
+  {
+    "obf_class": "Struct6f_F248",
+    "proposed_name": "VRCTimeIntervalTracker",
+    "confidence": "medium",
+    "evidence": "DateTime::op_Subtraction + TimeSpan::Interval + VRCTime::GetCachedPtr,m_63D 用 VRCTime 当前时间减去对象时间戳算时间间隔"
+  },
+  {
+    "obf_class": "BaseClass52Impl_B32D",
+    "proposed_name": "StyleElementController",
+    "confidence": "medium",
+    "evidence": "StyleElement::StopAllCoroutines + RegexCache::GetCachedPtr,操作 StyleElement(UI 样式元素)协程,属 BaseClass52Impl 样式家族"
+  },
+  {
+    "obf_class": "BaseClass45Impl_99E6",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "UnityObjectWrapper_4 FindObjectsByType/ForceLoadFromInstanceID/IsNativeObjectAlive,50 方法的通用 Unity 对象实例注册/存活查询,无具体领域词"
+  },
+  {
+    "obf_class": "BaseClass52Impl_4775",
+    "proposed_name": "HtmlColorStyleSetter",
+    "confidence": "medium",
+    "evidence": "ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy,解析 HTML 颜色字符串并设置 StyleElement 颜色"
+  },
+  {
+    "obf_class": "BaseClass52Impl_8F47",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "仅 RegexCache::GetCachedPtr + ThrowHelper x2,信号太薄;虽属 BaseClass52Impl 样式家族但无颜色/布局等具体领域词"
+  },
+  {
+    "obf_class": "BaseClass52Impl_C461",
+    "proposed_name": "HtmlColorStyleSetter",
+    "confidence": "medium",
+    "evidence": "与 4775 同构:ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy,HTML 颜色解析并设置 StyleElement 颜色"
+  }
+]

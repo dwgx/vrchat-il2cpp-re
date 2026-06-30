@@ -1,0 +1,821 @@
+[
+ {
+  "original_name": "ÏÍÍÏÎÎÎÍÏÏÏÎÎÍÎÏÍÎÍÌÌÍÍ",
+  "current_name": "BaseClass7Sibling_4F24",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "Cleanup",
+   "FindFirstObjectByType",
+   "CheckNullArgument"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÏÎÎÌÌÌÏÎÌÌÍÎÏÏÏÌÎÎÏÎÎÎÍ",
+  "current_name": "Pointerk__BackingField_8B17",
+  "fields": [
+   "_id",
+   "_visibility",
+   "_isClickable",
+   "_tooltip"
+  ],
+  "methods": [
+   "Start",
+   "OnEnable",
+   "Update",
+   "LateUpdate",
+   "OnDestroy",
+   "OnRectTransformDimensionsChange",
+   "OnBeforeTransformParentChanged",
+   "OnTransformParentChanged",
+   "OnDidApplyAnimationProperties",
+   "OnCanvasGroupChanged",
+   "Awake",
+   "IsDestroyed"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÎÎÏÌÌÏÏÌÌÍÎÍÍÏÍÎÏÎÍÌÏÎÏ",
+  "current_name": "k__BackingField_0210",
+  "fields": [],
+  "methods": [
+   "Awake",
+   "OnDestroy",
+   "OnEnable",
+   "Update",
+   "OnDisable",
+   "Initialize"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÎÏÏÏÍÎÏÏÍÌÎÏÎÌÍÏÍÏÎÍÌÏÏ",
+  "current_name": "k__BackingField_399C",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "FixedUpdate",
+   "Update",
+   "Awake",
+   "OnDestroy"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÏÏÏÌÍÎÏÍÏÏÍÏÌÎÏÌÏÌÍÌÌÌÎ",
+  "current_name": "UIk__BackingField_28DE",
+  "fields": [
+   "_title",
+   "_titleContainer",
+   "_childIndicator",
+   "_messages",
+   "_separators",
+   "_tooltips"
+  ],
+  "methods": [
+   "OnDestroy",
+   "Awake",
+   "Initialize"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÎÌÏÌÎÍÍÍÎÏÌÍÌÎÎÏÏÌÎÏÏÎ",
+  "current_name": "k__BackingField_DD2F",
+  "fields": [],
+  "methods": [
+   "Start",
+   "Awake",
+   "OnDestroy",
+   "Initialize"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÏÏÍÍÎÎÌÌÍÌÏÏÏÍÏÏÎÎÌÎÌÎÌ",
+  "current_name": "UIk__BackingField_C61E",
+  "fields": [
+   "printRenderer",
+   "canvas",
+   "frontCanvasGroup",
+   "backCanvasGroup",
+   "pickup",
+   "preview",
+   "printCollider",
+   "streamerModeTexture",
+   "backCanvasMovableTransform",
+   "backCanvasZOffsetStill",
+   "backCanvasZOffsetMoving",
+   "backCanvasZOffsetMovingDoubleRow"
+  ],
+  "methods": [
+   "Start",
+   "Awake",
+   "Initialize",
+   "FixedUpdate",
+   "Update",
+   "OnDestroy"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÎÏÍÍÍÎÌÌÎÌÏÏÌÎÍÌÏÏÌÎÎÎÌ",
+  "current_name": "UIk__BackingField_4C1B",
+  "fields": [
+   "_interactTextPlacement",
+   "_interactText",
+   "_interactTextGO",
+   "_proximity",
+   "_initialize",
+   "_checkValid",
+   "pointModel",
+   "anchorModel",
+   "SpeedSlider",
+   "DurationSlider",
+   "ZoomSlider",
+   "ExposureSlider"
+  ],
+  "methods": [
+   "get_IsInteractive",
+   "get_Proximity",
+   "Awake",
+   "OnPickupUseUp",
+   "Update",
+   "Start",
+   "OnDrop",
+   "OnPickupUseDown",
+   "Interact",
+   "OnPickup",
+   "Initialize"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÏÏÍÏÌÌÎÏÌÎÌÎÍÍÍÏÏÌÌÌÏÎ",
+  "current_name": "BackingFieldBaseImpl_229B",
+  "fields": [],
+  "methods": [
+   "OnEnable",
+   "Start",
+   "OnDisable",
+   "Update",
+   "Initialize"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÌÎÏÌÏÎÎÎÏÎÎÌÎÏÍÏÏÎÍÍÍÎ",
+  "current_name": "BackingFieldBaseImpl_929D",
+  "fields": [],
+  "methods": [
+   "Update",
+   "Start",
+   "Initialize",
+   "OnEnable"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÍÏÍÎÍÏÎÌÌÌÏÎÌÍÍÎÏÎÏÍÎÍ",
+  "current_name": "BaseClass7SiblingSibling_0C93",
+  "fields": [
+   "text",
+   "icon"
+  ],
+  "methods": [
+   "get_destroyCancellationToken",
+   "Initialize"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÏÎÏÎÍÏÎÍÌÏÍÎÍÌÏÏÌÍÍÍÎÍÎ",
+  "current_name": "k__BackingField_28FF",
+  "fields": [],
+  "methods": [
+   "Awake",
+   "OnDestroy",
+   "Start",
+   "Update",
+   "Initialize"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÍÍÏÍÎÍÍÍÏÎÌÍÍÏÌÎÏÎÎÌÏÌ",
+  "current_name": "k__BackingField_C74B",
+  "fields": [],
+  "methods": [
+   "OnDestroy",
+   "LateUpdate",
+   "Awake",
+   "OnPreRender",
+   "Initialize"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÌÍÍÎÌÏÌÎÍÏÌÌÎÍÌÎÏÎÍÍÏÎ",
+  "current_name": "k__BackingFieldSibling_3FE6",
+  "fields": [
+   "renderTextureWidth",
+   "renderTextureHeight",
+   "blurDownsampleFactor",
+   "blurSize",
+   "blurIterations"
+  ],
+  "methods": [
+   "Initialize"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÌÍÏÍÌÌÍÏÎÎÎÍÌÌÏÍÎÌÏÌÎÎ",
+  "current_name": "k__BackingField_0920",
+  "fields": [],
+  "methods": [
+   "Awake",
+   "OnDisable",
+   "OnDestroy",
+   "OnPreRender"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÏÍÌÍÏÏÏÏÌÏÏÌÌÏÌÌÌÍÍÏÎÎ",
+  "current_name": "k__BackingFieldImpl_35E8",
+  "fields": [],
+  "methods": [
+   "Awake",
+   "OnDestroy",
+   "Initialize",
+   "FixedUpdate",
+   "Update"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÍÍÏÎÎÍÎÍÎÌÎÌÎÏÎÎÎÏÌÍÌÌ",
+  "current_name": "k__BackingFieldSiblingSibling_18D0",
+  "fields": [
+   "mobilePulseSpeed",
+   "mobileMinimumOpacity",
+   "mobileMaximumOpacity"
+  ],
+  "methods": [
+   "Initialize"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÎÍÎÌÍÏÎÏÎÏÎÏÎÍÍÎÍÎÌÏÏÌÎ",
+  "current_name": "BackingFieldBase_0DA1",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "Initialize",
+   "GetOffsetOfInstanceIDInCPlusPlusObject"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÌÎÍÎÏÍÎÍÍÎÍÌÏÏÎÎÏÌÌÌÏÎÎ",
+  "current_name": "UIk__BackingField_C5D7",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "Cleanup",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Initialize",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent",
+   "SetName",
+   "FindObjectFromInstanceID",
+   "ForceLoadFromInstanceID",
+   "Destroy_Injected"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÏÌÍÌÍÏÍÌÏÌÍÏÎÌÏÍÏÌÌÎÌÎÏ",
+  "current_name": "k__BackingField_7850",
+  "fields": [],
+  "methods": [
+   "Reset",
+   "Initialize",
+   "set_keepWaiting",
+   "get_keepWaiting"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÎÏÌÍÏÍÎÎÎÎÍÎÏÎÎÍÎÍÍÍÎÎ",
+  "current_name": "BackingFieldBase_3DB7",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent",
+   "SetName"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÌÎÌÍÎÎÍÌÎÍÎÏÏÏÏÏÏÏÍÍÏÏ",
+  "current_name": "BackingFieldBaseSibling_7FCF",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÌÏÏÎÍÌÏÎÎÌÌÎÍÌÎÌÏÍÏÍÎÍ",
+  "current_name": "BaseClass3_BF56",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÏÏÍÍÍÏÌÏÌÏÍÎÏÎÏÍÍÍÏÍÎÎÍ",
+  "current_name": "k__BackingField_6A8E",
+  "fields": [],
+  "methods": [
+   "OnPurchaseFailed",
+   "OnInitialized",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÏÎÎÍÏÍÍÏÌÏÌÌÏÎÌÏÍÌÌÏÌÎÎ",
+  "current_name": "BackingFieldBase_5021",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÎÏÌÏÍÍÎÏÎÏÏÍÎÎÍÎÌÎÌÍÏÎ",
+  "current_name": "BackingFieldBaseImplSibling_8693",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÏÏÏÏÏÏÍÎÎÏÍÏÏÎÏÍÌÍÎÎÌÏÌ",
+  "current_name": "UIk__BackingField_4413",
+  "fields": [
+   "_iD",
+   "_description",
+   "_buyer",
+   "_name"
+  ],
+  "methods": [
+   "Purchase",
+   "CompareTo",
+   "Initialize",
+   "set_ID",
+   "get_ID",
+   "set_Description",
+   "get_Description",
+   "set_Buyer",
+   "get_Buyer",
+   "set_Name",
+   "get_Name"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÎÌÎÌÎÌÎÎÌÎÎÎÎÌÌÏÌÏÍÎÎÏÌ",
+  "current_name": "BackingFieldBaseImplSibling_7D1E",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent",
+   "SetName"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÎÍÌÎÎÎÍÎÎÏÎÏÎÏÏÌÏÌÌÍÌÍÍ",
+  "current_name": "k__BackingField_350C",
+  "fields": [],
+  "methods": [
+   "Clone",
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÌÎÌÌÏÍÌÎÌÎÏÍÍÌÌÌÌÌÏÌÏÎ",
+  "current_name": "k__BackingFieldSibling_367B",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "Initialize",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent",
+   "SetName",
+   "FindObjectFromInstanceID"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÎÎÌÎÎÏÎÏÍÌÌÌÎÏÍÌÎÏÍÍÏÌ",
+  "current_name": "BaseClass13_0A03",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent",
+   "SetName"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÏÍÍÎÌÎÏÏÎÍÌÌÌÍÏÏÌÎÌÏÍÌÍ",
+  "current_name": "BackingFieldBaseSibling_FF08",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÌÏÍÎÎÎÏÍÍÎÍÌÍÏÍÍÎÍÌÏÎÌ",
+  "current_name": "BaseClass13Sibling_A263",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "Initialize",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÏÎÌÍÌÏÎÎÎÏÍÌÏÎÌÎÍÎÍÎÍÏ",
+  "current_name": "Pointerk__BackingFieldImplImplSibling_4B25",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÌÎÎÍÌÌÌÌÏÏÎÌÏÎÏÎÎÏÎÌÎÎ",
+  "current_name": "BaseClass5_1D88",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent",
+   "SetName"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÎÏÏÏÏÎÍÎÍÍÍÎÍÍÏÌÏÎÍÎÍÏÎ",
+  "current_name": "BaseClass5Sibling_064E",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "Initialize",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÍÏÍÏÎÎÍÌÌÌÍÏÎÌÌÍÌÍÌÌÎÎÍ",
+  "current_name": "BackingFieldBaseSiblingSibling_13E9",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "Initialize",
+   "FindFirstObjectByType",
+   "CheckNullArgument"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÍÍÍÌÍÍÌÍÌÎÎÍÌÎÏÎÏÌÍÍÏÏ",
+  "current_name": "BaseClass7SiblingSibling_E260",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "Cleanup",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÏÎÎÌÎÍÏÏÌÍÍÏÏÎÏÏÎÍÍÌÎÎ",
+  "current_name": "BaseClass5Sibling_B108",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent",
+   "SetName"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ",
+  "current_name": "BaseClass7SiblingSiblingSibling_C343",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "Cleanup",
+   "set_hideFlags",
+   "FindFirstObjectByType"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÌÎÎÍÎÍÏÏÎÍÍÌÎÏÎÌÍÎÌÌÌÌÍ",
+  "current_name": "BaseClass7SiblingSibling_1F6F",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "Initialize",
+   "Cleanup"
+  ],
+  "provenance": null
+ },
+ {
+  "original_name": "ÎÏÏÍÌÍÌÏÎÎÍÌÌÍÏÎÎÏÏÍÌÌÍ",
+  "current_name": "BackingFieldBaseImplSibling_6DAA",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "GetName",
+   "IsPersistent",
+   "SetName"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÏÏÎÎÍÏÏÌÎÎÌÏÎÎÎÎÏÎÍÎÌÏÌ",
+  "current_name": "BackingFieldBaseImplSiblingSibling_FF3B",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "Initialize",
+   "GetOffsetOfInstanceIDInCPlusPlusObject"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÏÎÏÌÌÏÏÌÌÏÍÍÎÏÏÌÌÍÌÎÍÏ",
+  "current_name": "BaseClass45_FCC4",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent",
+   "Internal_InstantiateSingle",
+   "Internal_InstantiateSingleWithParent",
+   "Initialize",
+   "SetName",
+   "FindObjectFromInstanceID"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÎÎÎÎÍÎÍÍÏÌÍÏÌÎÍÍÎÌÍÌÍÏ",
+  "current_name": "BackingFieldBaseImplSiblingSibling_8E16",
+  "fields": [],
+  "methods": [
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Internal_CloneSingleWithParent"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÎÎÍÌÌÏÎÎÍÌÎÎÍÌÏÏÏÎÏÎÍÎ",
+  "current_name": "BaseClass5SiblingSibling_8F29",
+  "fields": [],
+  "methods": [
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument",
+   "GetOffsetOfInstanceIDInCPlusPlusObject",
+   "Internal_CloneSingle",
+   "Initialize",
+   "Internal_InstantiateSingleWithParent",
+   "GetName"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÍÍÌÎÎÌÎÎÏÎÍÍÍÌÎÎÎÏÏÏÍÍ",
+  "current_name": "BaseClass7SiblingSibling_D4BE",
+  "fields": [],
+  "methods": [
+   "Cleanup",
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÏÍÍÌÍÍÌÎÌÎÍÍÎÎÎÌÎÌÏÏÍÎÌ",
+  "current_name": "BaseClass7SiblingSibling_6B23",
+  "fields": [],
+  "methods": [
+   "Cleanup",
+   "Initialize",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÌÍÍÍÎÏÍÌÏÍÌÍÏÏÌÏÎÍÍÎÏÍ",
+  "current_name": "BaseClass7SiblingSiblingSibling_5A64",
+  "fields": [],
+  "methods": [
+   "Cleanup",
+   "get_hideFlags",
+   "set_hideFlags",
+   "FindFirstObjectByType"
+  ],
+  "provenance": "a1"
+ },
+ {
+  "original_name": "ÍÌÍÏÏÍÎÎÌÌÌÍÏÏÏÌÏÏÎÏÎÌÎ",
+  "current_name": "BaseClass7SiblingSibling_BE9C",
+  "fields": [],
+  "methods": [
+   "Cleanup",
+   "Initialize",
+   "set_hideFlags",
+   "FindFirstObjectByType",
+   "CheckNullArgument"
+  ],
+  "provenance": "a1"
+ }
+]

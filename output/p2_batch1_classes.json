@@ -1,0 +1,3536 @@
+[
+ {
+  "class": "\u00cd\u00ce\u00cf\u00ce\u00cd\u00cc\u00cf\u00cd\u00cc\u00cf\u00cd\u00cc\u00cd\u00cc\u00cd\u00cf\u00cf\u00ce\u00ce\u00cf\u00cc\u00ce\u00ce[]",
+  "va": "0x1DDE00E6118",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061d5f0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x1806623c0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062b630"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678440"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062b630"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00cc\u00cd\u00cf\u00cf\u00cd\u00cc\u00cc\u00cf\u00ce\u00cc\u00cf\u00cc\u00ce\u00cd\u00cd\u00cc\u00cd\u00cc\u00ce\u00ce\u00cd\u00cd[]",
+  "va": "0x1DDE00ECFB8",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00ce\u00ce\u00cc\u00cf\u00cf\u00ce\u00ce\u00ce\u00ce\u00cd\u00cf\u00cd\u00cd\u00cf\u00cc\u00cd\u00ce\u00cd\u00cd\u00cc\u00cf\u00cc[]",
+  "va": "0x1DDE00F05F0",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x1805e45e0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x18062e320"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a900"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180674160"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a900"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cf\u00cc\u00cd\u00cd\u00cc\u00cd\u00ce\u00ce\u00cc\u00ce\u00cd\u00ce\u00cd\u00cc\u00cc\u00cd\u00cd\u00cf\u00ce\u00ce\u00cc\u00ce[]",
+  "va": "0x1DDE00FDB30",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x1805e45e0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x18062e320"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a900"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180674160"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a900"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00ce\u00cd\u00cf\u00cd\u00ce\u00cf\u00cc\u00cc\u00ce\u00ce\u00cc\u00cf\u00cf\u00cf\u00cf\u00cd\u00cd\u00ce\u00ce\u00cf\u00cf\u00cc[]",
+  "va": "0x1DDE00FF228",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00cc\u00cf\u00cd\u00cd\u00cd\u00cf\u00ce\u00cd\u00ce\u00cc\u00cd\u00cc\u00ce\u00cc\u00cc\u00cd\u00cf\u00ce\u00cd\u00cf\u00cd\u00ce[]",
+  "va": "0x1DDE0101058",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x1805e42f0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x18062df60"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a5b0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180673b70"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a5b0"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cd\u00cd\u00cf\u00cd\u00cd\u00cc\u00cc\u00cd\u00cc\u00cf\u00cc\u00ce\u00cd\u00ce\u00ce\u00ce\u00cf\u00cc\u00ce\u00cd\u00cf\u00ce[]",
+  "va": "0x1DDE0109498",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061d5f0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x1806623c0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062b630"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678440"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062b630"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00ce\u00cc\u00cd\u00cc\u00ce\u00cf\u00cd\u00cd\u00cc\u00cf\u00cf\u00cc\u00cc\u00ce\u00cd\u00cd\u00cd\u00cd\u00cd\u00cc\u00cf\u00cc[]",
+  "va": "0x1DDE0110C40",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00ce\u00cf\u00cd\u00cc\u00ce\u00cd\u00cc\u00cc\u00cd\u00cd\u00cf\u00ce\u00cf\u00ce\u00cc\u00cc\u00cf\u00ce\u00cf\u00cf\u00cf\u00cd[]",
+  "va": "0x1DDE01160F8",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "Type15m2f_0DDD",
+  "va": "0x1DDE25B4E00",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Object",
+  "fields": [
+   "_kInstanceID_None",
+   "_m_CachedPtr"
+  ],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x18055ac10"
+   },
+   {
+    "method": "CompareBaseObjects",
+    "ea": "0x18055b0c0"
+   },
+   {
+    "method": "Destroy",
+    "ea": "0x1802f65b0"
+   },
+   {
+    "method": "DestroyImmediate",
+    "ea": "0x180359ba0"
+   },
+   {
+    "method": "DontDestroyOnLoad",
+    "ea": "0x18055b810"
+   },
+   {
+    "method": "Equals",
+    "ea": "0x18030dbf0"
+   },
+   {
+    "method": "FindObjectsByType",
+    "ea": "0x1802f65b0"
+   },
+   {
+    "method": "FindObjectsOfType",
+    "ea": "0x18055b5e0"
+   },
+   {
+    "method": "GetCachedPtr",
+    "ea": "0x18055b350"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x1802f4d60"
+   },
+   {
+    "method": "Instantiate",
+    "ea": "0x1802f65b0"
+   },
+   {
+    "method": "IsNativeObjectAlive",
+    "ea": "0x1802f4d60"
+   },
+   {
+    "method": "get_name",
+    "ea": "0x180359ba0"
+   },
+   {
+    "method": "op_Implicit",
+    "ea": "0x18055ae90"
+   },
+   {
+    "method": "set_name",
+    "ea": "0x180359ba0"
+   }
+  ]
+ },
+ {
+  "class": "Static15m_C097",
+  "va": "0x1DDE2740920",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "",
+  "fields": [],
+  "methods": [
+   {
+    "method": "m_05B",
+    "ea": "0x18002d050"
+   },
+   {
+    "method": "m_065",
+    "ea": "0x180038e40"
+   },
+   {
+    "method": "m_143",
+    "ea": "0x180034d90"
+   },
+   {
+    "method": "m_25C",
+    "ea": "0x180032e40"
+   },
+   {
+    "method": "m_2D8",
+    "ea": "0x180035140"
+   },
+   {
+    "method": "m_473",
+    "ea": "0x180032e40"
+   },
+   {
+    "method": "m_516",
+    "ea": "0x180034d90"
+   },
+   {
+    "method": "m_548",
+    "ea": "0x180034d90"
+   },
+   {
+    "method": "m_715",
+    "ea": "0x180034d90"
+   },
+   {
+    "method": "m_742",
+    "ea": "0x18002d050"
+   },
+   {
+    "method": "m_801",
+    "ea": "0x180033440"
+   },
+   {
+    "method": "m_86B",
+    "ea": "0x180034d90"
+   },
+   {
+    "method": "m_CBC",
+    "ea": "0x180034e50"
+   },
+   {
+    "method": "m_D21",
+    "ea": "0x180032e40"
+   },
+   {
+    "method": "m_E5C",
+    "ea": "0x180244080"
+   }
+  ]
+ },
+ {
+  "class": "BackingFieldBaseImplSibling_3337",
+  "va": "0x1DDE2847190",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Object",
+  "fields": [
+   "_kInstanceID_None",
+   "_m_CachedPtr",
+   "_offsetOfInstanceIDInCPlusPlusObject"
+  ],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x180244080"
+   },
+   {
+    "method": "CompareBaseObjects",
+    "ea": "0x180044320"
+   },
+   {
+    "method": "Destroy",
+    "ea": "0x180044320"
+   },
+   {
+    "method": "DestroyImmediate",
+    "ea": "0x180044320"
+   },
+   {
+    "method": "DontDestroyOnLoad",
+    "ea": "0x18002c0a0"
+   },
+   {
+    "method": "Equals",
+    "ea": "0x180244080"
+   },
+   {
+    "method": "FindObjectsByType",
+    "ea": "0x180044320"
+   },
+   {
+    "method": "FindObjectsOfType",
+    "ea": "0x180044320"
+   },
+   {
+    "method": "GetCachedPtr",
+    "ea": "0x18002c0a0"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x180244080"
+   },
+   {
+    "method": "Instantiate",
+    "ea": "0x180044320"
+   },
+   {
+    "method": "IsNativeObjectAlive",
+    "ea": "0x180244080"
+   },
+   {
+    "method": "get_name",
+    "ea": "0x180044320"
+   },
+   {
+    "method": "op_Implicit",
+    "ea": "0x18002c0a0"
+   },
+   {
+    "method": "set_name",
+    "ea": "0x18002c0a0"
+   }
+  ]
+ },
+ {
+  "class": "BaseClass52Impl_2285",
+  "va": "0x1DDE2864E10",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "BaseClass52_0B01",
+  "fields": [
+   "f_67D",
+   "f_585",
+   "f_315"
+  ],
+  "methods": [
+   {
+    "method": ".cctor",
+    "ea": "0x180b96a10"
+   },
+   {
+    "method": ".ctor",
+    "ea": "0x180b968a0"
+   },
+   {
+    "method": "GetHashCode",
+    "ea": "0x180b96840"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x180b96930"
+   },
+   {
+    "method": "m_02D",
+    "ea": "0x180b96700"
+   },
+   {
+    "method": "m_0DC",
+    "ea": "0x180b969d0"
+   },
+   {
+    "method": "m_161",
+    "ea": "0x180b96d60"
+   },
+   {
+    "method": "m_4D2",
+    "ea": "0x180b96400"
+   },
+   {
+    "method": "m_808",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "m_829",
+    "ea": "0x180b96260"
+   },
+   {
+    "method": "m_9D8",
+    "ea": "0x180b96ee0"
+   },
+   {
+    "method": "m_D53",
+    "ea": "0x180b96a90"
+   },
+   {
+    "method": "m_DAF",
+    "ea": "0x180b967a0"
+   },
+   {
+    "method": "m_ECE",
+    "ea": "0x180b96be0"
+   },
+   {
+    "method": "m_F7D",
+    "ea": "0x180b96580"
+   }
+  ]
+ },
+ {
+  "class": "Type15m2f_626D",
+  "va": "0x1DDE28A4E40",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Object",
+  "fields": [
+   "_kInstanceID_None",
+   "_m_CachedPtr"
+  ],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x1802f3310"
+   },
+   {
+    "method": "CompareBaseObjects",
+    "ea": "0x180e2ec00"
+   },
+   {
+    "method": "Destroy",
+    "ea": "0x180e2f430"
+   },
+   {
+    "method": "DestroyImmediate",
+    "ea": "0x180e2ebd0"
+   },
+   {
+    "method": "DontDestroyOnLoad",
+    "ea": "0x180e2f4c0"
+   },
+   {
+    "method": "Equals",
+    "ea": "0x180e2eba0"
+   },
+   {
+    "method": "FindObjectsByType",
+    "ea": "0x180e2f490"
+   },
+   {
+    "method": "FindObjectsOfType",
+    "ea": "0x180e2f460"
+   },
+   {
+    "method": "GetCachedPtr",
+    "ea": "0x180e2eff0"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x180e2eb40"
+   },
+   {
+    "method": "Instantiate",
+    "ea": "0x180e2eba0"
+   },
+   {
+    "method": "IsNativeObjectAlive",
+    "ea": "0x180e2ee70"
+   },
+   {
+    "method": "get_name",
+    "ea": "0x180e2f170"
+   },
+   {
+    "method": "op_Implicit",
+    "ea": "0x180e2ebd0"
+   },
+   {
+    "method": "set_name",
+    "ea": "0x180e2f1b0"
+   }
+  ]
+ },
+ {
+  "class": "BackingFieldBase_k__BackingFieldImpl_F86A",
+  "va": "0x1DDE28BC280",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "BackingFieldBase_k__BackingField_3738",
+  "fields": [
+   "f_330",
+   "f_711",
+   "_inventoryItemColorEntry"
+  ],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x180f52400"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x180f52750"
+   },
+   {
+    "method": "m_089",
+    "ea": "0x180f4faa0"
+   },
+   {
+    "method": "m_1B1",
+    "ea": "0x180f53a40"
+   },
+   {
+    "method": "m_273",
+    "ea": "0x180f50890"
+   },
+   {
+    "method": "m_4DF",
+    "ea": "0x180f505f0"
+   },
+   {
+    "method": "m_58C",
+    "ea": "0x180f53080"
+   },
+   {
+    "method": "m_667",
+    "ea": "0x180f53a00"
+   },
+   {
+    "method": "m_779",
+    "ea": "0x180f53c50"
+   },
+   {
+    "method": "m_908",
+    "ea": "0x180f4f890"
+   },
+   {
+    "method": "m_98F",
+    "ea": "0x180f50800"
+   },
+   {
+    "method": "m_9CF",
+    "ea": "0x180f511c0"
+   },
+   {
+    "method": "m_A28",
+    "ea": "0x180f503e0"
+   },
+   {
+    "method": "m_D54",
+    "ea": "0x180f51af0"
+   },
+   {
+    "method": "m_D91",
+    "ea": "0x180f53970"
+   }
+  ]
+ },
+ {
+  "class": "BackingFieldBaseImpl_5C4E",
+  "va": "0x1DDE28BF9E0",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "BackingFieldBase_0287",
+  "fields": [],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x180f75bd0"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x1809f27c0"
+   },
+   {
+    "method": "m_06B",
+    "ea": "0x180a37430"
+   },
+   {
+    "method": "m_3F7",
+    "ea": "0x1809f23e0"
+   },
+   {
+    "method": "m_423",
+    "ea": "0x180f75a90"
+   },
+   {
+    "method": "m_510",
+    "ea": "0x1809f27c0"
+   },
+   {
+    "method": "m_58D",
+    "ea": "0x180f75a40"
+   },
+   {
+    "method": "m_69C",
+    "ea": "0x180a37430"
+   },
+   {
+    "method": "m_69E",
+    "ea": "0x1809f23e0"
+   },
+   {
+    "method": "m_78E",
+    "ea": "0x1809f27c0"
+   },
+   {
+    "method": "m_939",
+    "ea": "0x180f75f20"
+   },
+   {
+    "method": "m_999",
+    "ea": "0x1809f2460"
+   },
+   {
+    "method": "m_9B6",
+    "ea": "0x180f75df0"
+   },
+   {
+    "method": "m_ACC",
+    "ea": "0x180f75900"
+   },
+   {
+    "method": "m_D8C",
+    "ea": "0x1809f27c0"
+   }
+  ]
+ },
+ {
+  "class": "BackingFieldBase_k__BackingField_8190",
+  "va": "0x1DDE31F0650",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "BackingFieldBase_DDBD",
+  "fields": [
+   "f_932",
+   "f_982",
+   "f_1AE"
+  ],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x1802f3310"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x1803b0ed0"
+   },
+   {
+    "method": "m_015",
+    "ea": "0x1803bffd0"
+   },
+   {
+    "method": "m_037",
+    "ea": "0x1803bffc0"
+   },
+   {
+    "method": "m_069",
+    "ea": "0x1803b0ed0"
+   },
+   {
+    "method": "m_341",
+    "ea": "0x1803bffd0"
+   },
+   {
+    "method": "m_451",
+    "ea": "0x180c6ed30"
+   },
+   {
+    "method": "m_4A3",
+    "ea": "0x1803b0ec0"
+   },
+   {
+    "method": "m_782",
+    "ea": "0x180c6a470"
+   },
+   {
+    "method": "m_83F",
+    "ea": "0x180c6a470"
+   },
+   {
+    "method": "m_869",
+    "ea": "0x1803bffc0"
+   },
+   {
+    "method": "m_AD4",
+    "ea": "0x1803bffc0"
+   },
+   {
+    "method": "m_BE9",
+    "ea": "0x1803bffc0"
+   },
+   {
+    "method": "m_DC8",
+    "ea": "0x180c6a470"
+   },
+   {
+    "method": "m_F4F",
+    "ea": "0x1803bffd0"
+   }
+  ]
+ },
+ {
+  "class": "Type15m3f_EBD7",
+  "va": "0x1DDE3234AC0",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Object",
+  "fields": [
+   "_kInstanceID_None",
+   "_m_CachedPtr",
+   "_offsetOfInstanceIDInCPlusPlusObject"
+  ],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x1802f3310"
+   },
+   {
+    "method": "Destroy",
+    "ea": "0x180630ac0"
+   },
+   {
+    "method": "DestroyImmediate",
+    "ea": "0x180630c30"
+   },
+   {
+    "method": "DontDestroyOnLoad",
+    "ea": "0x180630d80"
+   },
+   {
+    "method": "Equals",
+    "ea": "0x18062d0b0"
+   },
+   {
+    "method": "FindObjectsByType",
+    "ea": "0x180630d10"
+   },
+   {
+    "method": "FindObjectsOfType",
+    "ea": "0x180630ca0"
+   },
+   {
+    "method": "GetCachedPtr",
+    "ea": "0x18062e2e0"
+   },
+   {
+    "method": "GetHashCode",
+    "ea": "0x18062d120"
+   },
+   {
+    "method": "GetInstanceID",
+    "ea": "0x18062c2a0"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x18062d190"
+   },
+   {
+    "method": "Instantiate",
+    "ea": "0x180630a50"
+   },
+   {
+    "method": "IsNativeObjectAlive",
+    "ea": "0x18062d4c0"
+   },
+   {
+    "method": "get_name",
+    "ea": "0x18062f100"
+   },
+   {
+    "method": "set_name",
+    "ea": "0x18062ff20"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00cd\u00cf\u00ce\u00cd\u00cd\u00ce\u00ce\u00cd\u00cc\u00cf\u00cc\u00cc\u00cc\u00cc\u00cc\u00cd\u00cd\u00cd\u00cc\u00cc\u00cf\u00ce[]",
+  "va": "0x1DDE4A70A98",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00cc\u00cd\u00cc\u00ce\u00cf\u00cf\u00cd\u00cd\u00ce\u00cd\u00cc\u00cc\u00cf\u00cc\u00ce\u00ce\u00cf\u00cf\u00cd\u00ce\u00ce\u00cf[]",
+  "va": "0x1DE623C0698",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00cd\u00cc\u00cc\u00ce\u00cd\u00cd\u00cd\u00ce\u00cc\u00cc\u00cd\u00cc\u00cf\u00ce\u00cf\u00ce\u00cf\u00cd\u00cf\u00cc\u00cd\u00cd[]",
+  "va": "0x1DDE4A92AB0",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cc\u00cd\u00cc\u00cf\u00cf\u00cc\u00ce\u00cc\u00cf\u00ce\u00cf\u00cd\u00cd\u00cf\u00cd\u00cf\u00cc\u00cd\u00cc\u00ce\u00ce\u00cc[]",
+  "va": "0x1DDE4AAEFC0",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00cc\u00cd\u00cf\u00cf\u00ce\u00ce\u00cc\u00cf\u00cd\u00cf\u00cc\u00cc\u00cd\u00cc\u00cf\u00cf\u00cc\u00cf\u00cf\u00cd\u00cd\u00ce[]",
+  "va": "0x1DDE4AC2160",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00cd\u00ce\u00cf\u00cc\u00ce\u00ce\u00ce\u00cf\u00cf\u00cc\u00cf\u00ce\u00cd\u00ce\u00cd\u00cc\u00ce\u00cf\u00ce\u00cd\u00cf\u00ce[]",
+  "va": "0x1DDE4AD0E30",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00cd\u00cc\u00cc\u00cd\u00cc\u00cc\u00ce\u00ce\u00cf\u00ce\u00ce\u00cf\u00cc\u00cf\u00cd\u00cc\u00cd\u00cc\u00cf\u00cf\u00cd\u00cf[]",
+  "va": "0x1DDE4AE0318",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cc\u00cf\u00cc\u00ce\u00cf\u00ce\u00cd\u00cd\u00ce\u00ce\u00cf\u00cc\u00cd\u00cd\u00cf\u00cd\u00ce\u00ce\u00cf\u00cf\u00cf\u00ce[]",
+  "va": "0x1DE623ECE58",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cf\u00cf\u00cc\u00cc\u00cd\u00ce\u00cc\u00cf\u00ce\u00ce\u00cc\u00cc\u00ce\u00cd\u00cc\u00cd\u00cf\u00cf\u00cd\u00ce\u00ce\u00ce\u00cd[]",
+  "va": "0x1DDE4B032A8",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cd\u00cc\u00cc\u00cc\u00ce\u00cc\u00cc\u00cc\u00cd\u00ce\u00ce\u00ce\u00cd\u00cf\u00cd\u00cf\u00cd\u00cf\u00cf\u00cc\u00cd\u00ce[]",
+  "va": "0x1DDE4B203B8",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cf\u00ce\u00ce\u00cd\u00ce\u00cf\u00cd\u00cc\u00cf\u00cd\u00cc\u00ce\u00ce\u00cd\u00cf\u00ce\u00cc\u00cc\u00cd\u00cf\u00cd\u00cd\u00cd[]",
+  "va": "0x1DDE4B49F80",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00cd\u00cf\u00cd\u00cf\u00cc\u00cd\u00ce\u00cd\u00cc\u00cf\u00cf\u00cf\u00cf\u00cd\u00cf\u00cc\u00cd\u00cc\u00cd\u00cf\u00cd\u00cc[]",
+  "va": "0x1DDE4B52860",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cc\u00cd\u00ce\u00cc\u00cd\u00cc\u00cc\u00ce\u00cd\u00cf\u00cc\u00cd\u00cc\u00ce\u00cf\u00cd\u00cf\u00cf\u00cc\u00ce\u00cc\u00ce[]",
+  "va": "0x1DDE4B61C58",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00cd\u00cf\u00ce\u00ce\u00cd\u00cd\u00ce\u00cf\u00ce\u00cf\u00cd\u00cc\u00cd\u00cc\u00cc\u00ce\u00cf\u00cf\u00cc\u00cf\u00ce\u00cf[]",
+  "va": "0x1DDE2E1E658",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00cd\u00cd\u00cc\u00ce\u00cf\u00cf\u00cc\u00cc\u00cc\u00cf\u00cf\u00cd\u00cd\u00cf\u00cf\u00cd\u00ce\u00cd\u00cc\u00cd\u00cf\u00cf[]",
+  "va": "0x1DDE4BA0F50",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cc\u00cd\u00cc\u00ce\u00cf\u00cf\u00cf\u00cc\u00ce\u00ce\u00cc\u00ce\u00cd\u00cf\u00cc\u00ce\u00cf\u00ce\u00cd\u00cf\u00cd\u00ce[]",
+  "va": "0x1DDE4BB9890",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00ce\u00cd\u00cf\u00ce\u00cc\u00ce\u00cc\u00cf\u00cc\u00cf\u00ce\u00cf\u00cf\u00cf\u00ce\u00cd\u00cf\u00cd\u00cd\u00cc\u00ce\u00cc[]",
+  "va": "0x1DDE4BCF430",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cf\u00ce\u00cf\u00cf\u00ce\u00cf\u00cd\u00cc\u00cc\u00cd\u00cc\u00cf\u00ce\u00cf\u00cc\u00cf\u00cd\u00cd\u00ce\u00cd\u00cf\u00cf\u00cf[]",
+  "va": "0x1DE6295FB10",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cf\u00cd\u00cc\u00ce\u00cd\u00cd\u00cd\u00ce\u00cc\u00cf\u00cc\u00ce\u00cd\u00cc\u00cc\u00cd\u00cc\u00cc\u00cc\u00ce\u00cf\u00ce\u00cd[]",
+  "va": "0x1DDE4BC1810",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cc\u00ce\u00cf\u00ce\u00ce\u00ce\u00cf\u00ce\u00ce\u00cc\u00cf\u00ce\u00cc\u00cd\u00cf\u00ce\u00cd\u00cf\u00cf\u00cd\u00ce\u00cd[]",
+  "va": "0x1DDE4BDD958",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cc\u00ce\u00ce\u00ce\u00cc\u00cf\u00cc\u00cc\u00ce\u00cc\u00cc\u00ce\u00cd\u00cd\u00cd\u00cd\u00cc\u00cd\u00cc\u00cd\u00cf\u00cc[]",
+  "va": "0x1DE6297CFF0",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "BaseClass290ImplImpl_828C",
+  "va": "0x1DE61CD6D80",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "BaseClass290Impl_7051",
+  "fields": [
+   "f_FA5",
+   "f_0B3",
+   "f_BA3"
+  ],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x1803738a0"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x180372240"
+   },
+   {
+    "method": "m_580",
+    "ea": "0x1803722d0"
+   },
+   {
+    "method": "m_6CF",
+    "ea": "0x1803722c0"
+   },
+   {
+    "method": "m_6E7",
+    "ea": "0x1803722c0"
+   },
+   {
+    "method": "m_726",
+    "ea": "0x1803722d0"
+   },
+   {
+    "method": "m_9E9",
+    "ea": "0x1803735c0"
+   },
+   {
+    "method": "m_A3E",
+    "ea": "0x1803722c0"
+   },
+   {
+    "method": "m_ADA",
+    "ea": "0x1803722d0"
+   },
+   {
+    "method": "m_B97",
+    "ea": "0x1803722d0"
+   },
+   {
+    "method": "m_BB2",
+    "ea": "0x1803722d0"
+   },
+   {
+    "method": "m_C83",
+    "ea": "0x1803722d0"
+   },
+   {
+    "method": "m_CDE",
+    "ea": "0x180d83f40"
+   },
+   {
+    "method": "m_DCF",
+    "ea": "0x1803722c0"
+   },
+   {
+    "method": "m_F1F",
+    "ea": "0x1803722e0"
+   }
+  ]
+ },
+ {
+  "class": "BaseClass290ImplImpl_828C",
+  "va": "0x1DE61CD9A78",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "BaseClass290Impl_7051",
+  "fields": [
+   "f_FA5",
+   "f_0B3",
+   "f_BA3"
+  ],
+  "methods": [
+   {
+    "method": ".ctor",
+    "ea": "0x180373450"
+   },
+   {
+    "method": "Initialize",
+    "ea": "0x180372fe0"
+   },
+   {
+    "method": "m_580",
+    "ea": "0x180373080"
+   },
+   {
+    "method": "m_6CF",
+    "ea": "0x180d6f920"
+   },
+   {
+    "method": "m_6E7",
+    "ea": "0x180d6f920"
+   },
+   {
+    "method": "m_726",
+    "ea": "0x180373080"
+   },
+   {
+    "method": "m_9E9",
+    "ea": "0x180373150"
+   },
+   {
+    "method": "m_A3E",
+    "ea": "0x180d6f920"
+   },
+   {
+    "method": "m_ADA",
+    "ea": "0x180373080"
+   },
+   {
+    "method": "m_B97",
+    "ea": "0x180373080"
+   },
+   {
+    "method": "m_BB2",
+    "ea": "0x180373080"
+   },
+   {
+    "method": "m_C83",
+    "ea": "0x180373080"
+   },
+   {
+    "method": "m_CDE",
+    "ea": "0x1803735b0"
+   },
+   {
+    "method": "m_DCF",
+    "ea": "0x180d6f920"
+   },
+   {
+    "method": "m_F1F",
+    "ea": "0x180373090"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00ce\u00cf\u00cf\u00cf\u00cf\u00cd\u00cd\u00cc\u00cc\u00cd\u00cc\u00cc\u00cf\u00cf\u00cf\u00cc\u00ce\u00cf\u00ce\u00cf\u00cd\u00cc[]",
+  "va": "0x1DDE4E63D28",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061d5f0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x1806623c0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062b630"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678440"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062b630"
+   }
+  ]
+ },
+ {
+  "class": "\u00cc\u00ce\u00cf\u00cf\u00cc\u00cc\u00ce\u00cf\u00cd\u00cf\u00ce\u00cc\u00cd\u00cd\u00cd\u00cf\u00ce\u00cf\u00ce\u00cf\u00cd\u00ce\u00cf[]",
+  "va": "0x1DDE4E89938",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00cf\u00cf\u00cd\u00ce\u00ce\u00cf\u00cd\u00cd\u00ce\u00cf\u00cf\u00cc\u00cf\u00cc\u00cd\u00ce\u00cc\u00ce\u00ce\u00cf\u00cd\u00cf[]",
+  "va": "0x1DDE4E8DBA8",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00ce\u00cf\u00cd\u00cf\u00cd\u00cf\u00cc\u00cd\u00cf\u00ce\u00cd\u00cf\u00cc\u00cd\u00cf\u00cf\u00ce\u00cf\u00cd\u00ce\u00ce\u00cd[]",
+  "va": "0x1DDE4E9D6D8",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cf\u00cf\u00ce\u00cd\u00ce\u00cc\u00ce\u00cc\u00cf\u00cd\u00cd\u00ce\u00cc\u00ce\u00cc\u00cc\u00cc\u00cc\u00cd\u00cd\u00cf\u00cd\u00cc[]",
+  "va": "0x1DDE4EDDFF8",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00ce\u00cf\u00ce\u00cf\u00cd\u00cd\u00cd\u00cc\u00cc\u00cc\u00cc\u00cc\u00ce\u00cc\u00ce\u00cd\u00cf\u00cf\u00ce\u00ce\u00cf\u00cd\u00ce[]",
+  "va": "0x1DDE2D1CF90",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00cf\u00cf\u00cd\u00cf\u00cf\u00cf\u00cd\u00ce\u00cf\u00cd\u00cf\u00cd\u00ce\u00ce\u00cf\u00cf\u00ce\u00cd\u00cc\u00cf\u00cf\u00cd[]",
+  "va": "0x1DDE2D22968",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cf\u00cf\u00cd\u00ce\u00cd\u00cd\u00cd\u00ce\u00ce\u00ce\u00cc\u00ce\u00cd\u00cf\u00cc\u00cf\u00cd\u00cd\u00ce\u00cf\u00ce\u00cf\u00cc[]",
+  "va": "0x1DDE2D283C0",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ },
+ {
+  "class": "\u00cd\u00cd\u00cf\u00cd\u00cd\u00cf\u00cf\u00cd\u00ce\u00cc\u00cd\u00ce\u00cd\u00cf\u00cd\u00cf\u00cd\u00cd\u00ce\u00cc\u00cd\u00cf\u00cd[]",
+  "va": "0x1DDE2D2DCF8",
+  "nmethods": 15,
+  "domain_fields": 0,
+  "parent": "Array",
+  "fields": [],
+  "methods": [
+   {
+    "method": "System.Collections.Generic.ICollection`1.Add",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Clear",
+    "ea": "0x1800f5400"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Contains",
+    "ea": "0x18061f580"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.CopyTo",
+    "ea": "0x18062a410"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.Remove",
+    "ea": "0x1805b7db0"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.ICollection`1.get_IsReadOnly",
+    "ea": "0x1803de4c0"
+   },
+   {
+    "method": "System.Collections.Generic.IEnumerable`1.GetEnumerator",
+    "ea": "0x18062a4a0"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.IndexOf",
+    "ea": "0x180665200"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.Insert",
+    "ea": "0x180673b20"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.RemoveAt",
+    "ea": "0x1800f5450"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.get_Item",
+    "ea": "0x18062a660"
+   },
+   {
+    "method": "System.Collections.Generic.IList`1.set_Item",
+    "ea": "0x180678810"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyCollection`1.get_Count",
+    "ea": "0x1800f2190"
+   },
+   {
+    "method": "System.Collections.Generic.IReadOnlyList`1.get_Item",
+    "ea": "0x18062a660"
+   }
+  ]
+ }
+]

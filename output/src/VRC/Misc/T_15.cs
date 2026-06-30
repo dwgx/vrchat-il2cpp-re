@@ -269,7 +269,7 @@ namespace VRC.Misc
 
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x5C77A70
+        public void Initialize(){} // RVA: 0x5C77800
     }
 
     /// <summary>Originally: ÏÏÌÍÏÎÎÌÌÌÌÏÍÎÌÎÏÍÏÍÎÎÏ</summary>
@@ -649,6 +649,17 @@ namespace VRC.Misc
         public object _cAD5;
 
         // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x59B9380
+        public void Equals(){} // RVA: 0x5A7C5A0
+    }
+
+    /// <summary>Originally: ÎÍÏÎÌÌÏÎÍÏÌÎÎÏÎÍÎÌÎÌÏÍÌ</summary>
+    public class Type3m1f_CAD5 : Object
+    {
+        public object _cAD5;
+
+        // ── Methods ──
         public void Initialize(){} // RVA: 0x59B9380
         public void Equals(){} // RVA: 0x5A7C5A0
         public void .ctor(){} // RVA: 0xB43310
@@ -684,17 +695,6 @@ namespace VRC.Misc
         public void IsNativeObjectAlive(){} // RVA: 0x5A7C500
         public void GetCachedPtr(){} // RVA: 0x5A7C640
         public void get_name(){} // RVA: 0x5A7C6E0
-    }
-
-    /// <summary>Originally: ÎÍÏÎÌÌÏÎÍÏÌÎÎÏÎÍÎÌÎÌÏÍÌ</summary>
-    public class Type3m1f_CAD5 : Object
-    {
-        public object _cAD5;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x59B9380
-        public void Equals(){} // RVA: 0x5A7C5A0
     }
 
     /// <summary>Originally: ÎÍÏÎÌÌÏÎÍÏÌÎÎÏÎÍÎÌÎÌÏÍÌ</summary>

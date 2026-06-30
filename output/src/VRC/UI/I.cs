@@ -1,10 +1,28 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 5
-// Methods: 35
+// Classes: 6
+// Methods: 43
 
 namespace VRC.UI
 {
+    /// <summary>Originally: ÍÏÌÍÏÌÌÍÌÍÌÎÌÏÎÍÎÌÍÍÏÌÏ</summary>
+    public class ImageCropPreviewPanel : MonoBehaviour
+    {
+        public object notePreview;
+        public object preview;
+        public object cropControlsParent;
+
+        // ── Methods ──
+        public void get_destroyCancellationToken(){} // RVA: 0x1134300
+        public void RaiseCancellation(){} // RVA: 0x1134340
+        public void IsInvoking(){} // RVA: 0x11343C0
+        public void CancelInvoke(){} // RVA: 0x1134400
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0x1134340
+        public void StartCoroutine(){} // RVA: 0x1134470
+        public void StartCoroutine_Auto(){} // RVA: 0x1134340
+    }
+
     public class ImageEx : Image
     {
         // ── Methods ──

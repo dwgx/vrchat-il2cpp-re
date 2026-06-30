@@ -1697,6 +1697,32 @@ namespace VRC.Misc
         public void m_ED9(){} // RVA: 0x77900
     }
 
+    /// <summary>Originally: ÎÍÎÌÌÌÌÍÏÍÌÍÍÎÏÌÎÏÏÍÏÏÎ</summary>
+    public class RequiresStoringk__BackingRelated_ADA3 : ValueType
+    {
+        public object f_C9F;
+        public object f_97F;
+        public object f_EF0;
+
+        // ── Methods ──
+        public void Equals(){} // RVA: 0x7E450
+        public void InternalEquals(){} // RVA: 0x77ED0
+        public void DefaultEquals(){} // RVA: 0x77E70
+        public void GetHashCode(){} // RVA: 0x77ED0
+        public void InternalGetHashCode(){} // RVA: 0x77E70
+        public void ToString(){} // RVA: 0x1377D0
+        public void GetHashCodeOfPtr(){} // RVA: 0x137820
+        public void x(){} // RVA: 0x29580
+        // ── Unresolved (hash) ──
+        public void m_54D(){} // RVA: 0x77E60
+        public void m_95D(){} // RVA: 0x7E3E0
+        public void m_EAF(){} // RVA: 0x77ED0
+        public void m_BF5(){} // RVA: 0x77E60
+        public void m_A79(){} // RVA: 0x77ED0
+        public void m_A53(){} // RVA: 0x7E3E0
+        public void m_D92(){} // RVA: 0x29580
+    }
+
     /// <summary>Originally: ÎÏÏÏÏÍÌÎÍÍÎÍÎÍÌÌÍÏÏÍÎÍÍ</summary>
     public class RequiresStoringk__BackingRelated_AEB2 : ValueType
     {
@@ -1795,33 +1821,6 @@ namespace VRC.Misc
         public void m_EAF(){} // RVA: 0x77900
         public void m_ED9(){} // RVA: 0x7E450
         public void m_A79(){} // RVA: 0x77900
-    }
-
-    /// <summary>Originally: ÌÏÎÎÍÏÍÎÍÍÏÎÍÌÎÍÌÎÎÍÌÎÏ</summary>
-    public class RequiresStoringk__BackingRelated_BDEA : ValueType
-    {
-        public object f_97F;
-        public object f_BF5;
-        public object f_5AF;
-        public object f_91C;
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0xC53B0
-        public void InternalEquals(){} // RVA: 0x7E450
-        public void DefaultEquals(){} // RVA: 0x47F10
-        public void GetHashCode(){} // RVA: 0xE1BA0
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x77E70
-        public void x(){} // RVA: 0x7E450
-        // ── Unresolved (hash) ──
-        public void m_D29(){} // RVA: 0x7E3E0
-        public void m_ED9(){} // RVA: 0x77ED0
-        public void m_0FB(){} // RVA: 0x7E3E0
-        public void m_DF4(){} // RVA: 0xC53B0
-        public void m_05F(){} // RVA: 0x47F10
-        public void m_ED3(){} // RVA: 0x99090
-        public void m_977(){} // RVA: 0x7E450
     }
 
     /// <summary>Originally: ÍÎÌÎÏÌÎÎÏÎÎÎÍÍÎÎÌÍÎÏÍÍÎ</summary>

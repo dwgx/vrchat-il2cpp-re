@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 421
+// Methods: 438
 
 namespace VRC.Misc
 {
@@ -556,28 +556,6 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0x5957F40
     }
 
-    /// <summary>Originally: ÌÍÍÌÌÌÏÏÏÎÎÏÏÍÌÍÏÌÎÎÌÌÏ</summary>
-    public class Type2m2f_2AC6 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x5957F40
-    }
-
-    /// <summary>Originally: ÌÍÍÌÌÌÏÏÏÎÎÏÏÍÌÍÏÌÎÎÌÌÏ</summary>
-    public class Type2m2f_2AC6 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x5957F40
-    }
-
     /// <summary>Originally: ÌÌÍÍÎÏÍÍÎÎÍÏÎÍÏÌÌÌÎÌÏÏÎ</summary>
     public class Type2m2f_5A10 : Object
     {
@@ -853,17 +831,6 @@ namespace VRC.Misc
         public void Initialize(){} // RVA: 0x5947410
     }
 
-    /// <summary>Originally: ÌÌÍÍÎÏÍÍÎÎÍÏÎÍÏÌÌÌÎÌÏÏÎ</summary>
-    public class Type2m2f_5A10 : Object
-    {
-        public object _kInstanceID_None;
-        public object _m_CachedPtr;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0xB43310
-        public void Initialize(){} // RVA: 0x5945C10
-    }
-
     /// <summary>Originally: ÍÏÍÍÏÌÌÎÎÌÍÎÏÏÍÌÏÏÍÌÍÍÎ</summary>
     public class Type2m2f_678A : Object
     {
@@ -959,6 +926,38 @@ namespace VRC.Misc
         public void CompareBaseObjects(){} // RVA: 0x9F634E0
         public void IsNativeObjectAlive(){} // RVA: 0x9F634E0
         public void GetCachedPtr(){} // RVA: 0x9F634E0
+    }
+
+    /// <summary>Originally: ÏÎÏÌÏÌÏÎÎÌÍÏÏÍÍÍÍÎÍÍÎÎÎ</summary>
+    public class Type7m2f_7DFA : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xA04E1F0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0xA04E1F0
+        public void op_Implicit(){} // RVA: 0xA04E1F0
+        public void CompareBaseObjects(){} // RVA: 0xA04E1F0
+        public void IsNativeObjectAlive(){} // RVA: 0xA04E1F0
+        public void GetCachedPtr(){} // RVA: 0xA04E1F0
+    }
+
+    /// <summary>Originally: ÎÍÏÌÌÎÏÏÌÍÏÎÏÍÎÌÌÏÎÍÎÏÏ</summary>
+    public class Type7m2f_8582 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xA04F1D0
+        public void Equals(){} // RVA: 0xA04F340
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0xA04F4B0
+        public void CompareBaseObjects(){} // RVA: 0xA04F620
+        public void IsNativeObjectAlive(){} // RVA: 0xA04F790
+        public void GetCachedPtr(){} // RVA: 0xA04F900
     }
 
     /// <summary>Originally: ÎÌÏÏÎÏÍÌÍÍÍÎÎÍÌÎÍÌÌÍÍÎÎ</summary>
@@ -1315,6 +1314,25 @@ namespace VRC.Misc
         public void GetCachedPtr(){} // RVA: 0x9F5C4C0
         public void get_name(){} // RVA: 0x9F5C600
         public void set_name(){} // RVA: 0x9F5C740
+    }
+
+    /// <summary>Originally: ÎÌÏÍÏÏÍÍÎÍÎÌÎÎÌÍÏÌÏÏÏÏÍ</summary>
+    public class Type9m3f_DBCA : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xA04E220
+        public void Equals(){} // RVA: 0xA04E270
+        public void GetHashCode(){} // RVA: 0xA04E5B0
+        public void op_Implicit(){} // RVA: 0xA04E8F0
+        public void CompareBaseObjects(){} // RVA: 0xA04E940
+        public void IsNativeObjectAlive(){} // RVA: 0xA04EB00
+        public void GetCachedPtr(){} // RVA: 0xA04EE40
+        public void get_name(){} // RVA: 0xA04F180
+        public void .ctor(){} // RVA: 0xB43310
     }
 
 }

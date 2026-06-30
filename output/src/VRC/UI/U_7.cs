@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 45
-// Methods: 521
+// Classes: 40
+// Methods: 435
 
 namespace VRC.UI
 {
@@ -131,21 +131,6 @@ namespace VRC.UI
         public void m_102(){} // RVA: 0x87C0A0
     }
 
-    /// <summary>Originally: ÌÎÎÏÎÎÍÏÎÏÏÌÍÏÌÌÍÍÎÎÌÌÎ</summary>
-    public class UIRectTransformDimensionsRelated_1800 : ValueType
-    {
-        public object f_562;
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77900
-        public void InternalEquals(){} // RVA: 0x77900
-        public void DefaultEquals(){} // RVA: 0x93050
-        public void GetHashCode(){} // RVA: 0x77900
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x93050
-        public void GetHashCodeOfPtr(){} // RVA: 0x93050
-    }
-
     /// <summary>Originally: ÏÌÍÏÍÏÌÌÌÎÏÍÌÍÎÎÎÏÏÍÌÎÍ</summary>
     public class UIRectTransformDimensionsRelated_226D : ValueType
     {
@@ -159,43 +144,6 @@ namespace VRC.UI
         public void InternalGetHashCode(){} // RVA: 0x29580
         public void ToString(){} // RVA: 0x77E60
         public void GetHashCodeOfPtr(){} // RVA: 0x77E60
-    }
-
-    /// <summary>Originally: ÍÎÍÏÏÍÌÏÌÌÌÏÌÌÌÌÏÏÌÎÌÏÌ</summary>
-    public class UIRectTransformDimensionsRelated_4C2F : ValueType
-    {
-        public object f_BF5;
-        public object f_13D;
-        public object f_099;
-        public object f_A4C;
-        public object f_03F;
-        public object f_269;
-        public object f_8C8;
-        public object f_A9B;
-        public object f_F8D;
-        public object f_BB8;
-        public object f_C09;
-        public object f_0C2;
-        public object f_BDE;
-        public object f_88E;
-        public object f_0D6;
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x123760
-        public void InternalEquals(){} // RVA: 0xA6A80
-        public void DefaultEquals(){} // RVA: 0xA62D0
-        public void GetHashCode(){} // RVA: 0xA6BD0
-        public void InternalGetHashCode(){} // RVA: 0xE31F0
-        public void ToString(){} // RVA: 0x123770
-        public void GetHashCodeOfPtr(){} // RVA: 0x92DD0
-        public void x(){} // RVA: 0xB1810
-        // ── 28 unresolved (hash) ──
-        public void m_3B2(){} // RVA: 0x123780
-        public void m_707(){} // RVA: 0x123790
-        public void m_ED9(){} // RVA: 0x77900
-        public void m_5AA(){} // RVA: 0xA6BC0
-        public void m_4C0(){} // RVA: 0xE31B0
-        // ... 23 more unresolved methods
     }
 
     /// <summary>Originally: ÎÌÎÍÌÎÏÎÌÏÎÍÏÌÎÌÎÍÎÏÎÌÍ</summary>
@@ -248,30 +196,6 @@ namespace VRC.UI
         public void GetHashCodeOfPtr(){} // RVA: 0x47F10
         // ── Unresolved (hash) ──
         public void m_855(){} // RVA: 0x47F10
-    }
-
-    /// <summary>Originally: ÌÌÍÌÍÎÍÌÏÎÌÏÏÎÏÌÎÏÌÎÎÎÍ</summary>
-    public class UIRectTransformDimensionsRelated_ADFC : ValueType
-    {
-        public object f_97F;
-        public object f_BF5;
-        public object f_562;
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x77900
-        public void InternalEquals(){} // RVA: 0x77ED0
-        public void DefaultEquals(){} // RVA: 0x47F10
-        public void GetHashCode(){} // RVA: 0xE1E10
-        public void InternalGetHashCode(){} // RVA: 0x99090
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x77E70
-        public void x(){} // RVA: 0x77E70
-        // ── Unresolved (hash) ──
-        public void m_20B(){} // RVA: 0x47F10
-        public void m_359(){} // RVA: 0x7E450
-        public void m_ED3(){} // RVA: 0x99090
-        public void m_EAF(){} // RVA: 0x77900
-        public void m_9F3(){} // RVA: 0x77E70
     }
 
     /// <summary>Originally: ÏÎÍÏÍÎÏÍÌÍÌÍÏÍÏÌÎÎÌÎÍÍÏ</summary>
@@ -346,38 +270,6 @@ namespace VRC.UI
         public void m_FE9(){} // RVA: 0x77900
         public void m_8DE(){} // RVA: 0xA62E0
         // ... 6 more unresolved methods
-    }
-
-    /// <summary>Originally: ÌÎÌÍÏÌÌÏÌÍÎÎÏÎÎÏÏÏÌÌÏÌÌ</summary>
-    public class UIRectTransformDimensionsRelated_EDAD : ValueType
-    {
-        public object f_BB8;
-        public object f_BF5;
-        public object f_A4C;
-        public object f_F8D;
-        public object f_88E;
-        public object f_0D6;
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0xA62E0
-        public void InternalEquals(){} // RVA: 0x77ED0
-        public void DefaultEquals(){} // RVA: 0xCFD80
-        public void GetHashCode(){} // RVA: 0xD9070
-        public void InternalGetHashCode(){} // RVA: 0x77ED0
-        public void ToString(){} // RVA: 0xD9070
-        public void GetHashCodeOfPtr(){} // RVA: 0xB1810
-        public void x(){} // RVA: 0xCFDC0
-        // ── Unresolved (hash) ──
-        public void m_FBA(){} // RVA: 0x47F10
-        public void m_A8F(){} // RVA: 0xBDDA0
-        public void m_5E5(){} // RVA: 0xA62C0
-        public void m_954(){} // RVA: 0x77900
-        public void m_F86(){} // RVA: 0xB1800
-        public void m_D30(){} // RVA: 0x47F10
-        public void m_AA1(){} // RVA: 0x77900
-        public void m_8C8(){} // RVA: 0xCFDC0
-        public void m_C40(){} // RVA: 0x77E70
-        public void m_4C0(){} // RVA: 0xA62C0
     }
 
     /// <summary>Originally: ÏÎÌÎÎÍÏÍÍÍÌÎÎÌÌÎÏÍÌÍÌÌÎ</summary>
@@ -622,28 +514,6 @@ namespace VRC.UI
         public void m_C0F(){} // RVA: 0x47F10
         public void m_92E(){} // RVA: 0x92DD0
         public void m_834(){} // RVA: 0x47F10
-    }
-
-    /// <summary>Originally: ÍÍÎÏÎÏÍÍÍÍÎÍÎÍÌÌÎÍÎÍÏÌÌ</summary>
-    public class UIk__BackingFieldisOnDispRelated_8EAD : ValueType
-    {
-        public object f_BF5;
-        public object f_DD3;
-
-        // ── Methods ──
-        public void Equals(){} // RVA: 0x14790
-        public void InternalEquals(){} // RVA: 0x14790
-        public void DefaultEquals(){} // RVA: 0x92DD0
-        public void GetHashCode(){} // RVA: 0x47F10
-        public void InternalGetHashCode(){} // RVA: 0x77900
-        public void ToString(){} // RVA: 0x77900
-        public void GetHashCodeOfPtr(){} // RVA: 0x77900
-        public void x(){} // RVA: 0x47F10
-        // ── Unresolved (hash) ──
-        public void m_ED9(){} // RVA: 0x77900
-        public void m_ACB(){} // RVA: 0x92DD0
-        public void m_834(){} // RVA: 0x47F10
-        public void m_6C5(){} // RVA: 0x92DD0
     }
 
     /// <summary>Originally: ÎÏÎÌÏÍÌÏÎÌÎÍÍÌÍÎÎÍÌÍÌÌÏ</summary>

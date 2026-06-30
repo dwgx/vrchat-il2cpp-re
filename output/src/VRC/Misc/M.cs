@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
-// Classes: 42
-// Methods: 676
+// Classes: 56
+// Methods: 905
 
 namespace VRC.Misc
 {
@@ -86,6 +86,210 @@ namespace VRC.Misc
         public void Instantiate(){} // RVA: 0x1C88B10
         public void Destroy(){} // RVA: 0x1C88B10
         public void DestroyImmediate(){} // RVA: 0x1C88B10
+    }
+
+    /// <summary>Originally: ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ</summary>
+    public class ManagedNativeObjectFull_05 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_4AF;
+        public object f_E52;
+        public object f_301;
+        public object f_2ED;
+        public object f_74B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x894290
+        public void Equals(){} // RVA: 0x894290
+        public void .ctor(){} // RVA: 0x8999E0
+        public void Initialize(){} // RVA: 0x87C130
+        public void CompareBaseObjects(){} // RVA: 0x87C0A0
+        public void IsNativeObjectAlive(){} // RVA: 0x894320
+        public void GetCachedPtr(){} // RVA: 0x87C130
+        public void get_name(){} // RVA: 0xA94080
+        public void set_name(){} // RVA: 0x894290
+        public void Instantiate(){} // RVA: 0x894290
+        public void Destroy(){} // RVA: 0x87C0A0
+        public void DestroyImmediate(){} // RVA: 0xA94080
+        public void FindObjectsOfType(){} // RVA: 0x894290
+        public void FindObjectsByType(){} // RVA: 0x894320
+        public void DontDestroyOnLoad(){} // RVA: 0x894290
+        public void get_hideFlags(){} // RVA: 0x894290
+        public void set_hideFlags(){} // RVA: 0x894320
+    }
+
+    /// <summary>Originally: ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ</summary>
+    public class ManagedNativeObjectFull_05 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_4AF;
+        public object f_E52;
+        public object f_301;
+        public object f_2ED;
+        public object f_74B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x15CD1B0
+        public void Equals(){} // RVA: 0x59418C0
+        public void .ctor(){} // RVA: 0x5941AA0
+        public void Initialize(){} // RVA: 0xBE5850
+        public void CompareBaseObjects(){} // RVA: 0xD05CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x5941340
+        public void GetCachedPtr(){} // RVA: 0xBE5850
+        public void get_name(){} // RVA: 0xBE5870
+        public void set_name(){} // RVA: 0x59415D0
+        public void Instantiate(){} // RVA: 0x20B6780
+        public void Destroy(){} // RVA: 0xD05CA0
+        public void DestroyImmediate(){} // RVA: 0x5941CB0
+        public void FindObjectsOfType(){} // RVA: 0x20B6780
+        public void FindObjectsByType(){} // RVA: 0x5941CD0
+        public void DontDestroyOnLoad(){} // RVA: 0x5941810
+        public void get_hideFlags(){} // RVA: 0x20B6780
+        public void set_hideFlags(){} // RVA: 0x5941840
+    }
+
+    /// <summary>Originally: ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ</summary>
+    public class ManagedNativeObjectFull_05 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_4AF;
+        public object f_E52;
+        public object f_301;
+        public object f_2ED;
+        public object f_74B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x15CD1B0
+        public void Equals(){} // RVA: 0x5942530
+        public void .ctor(){} // RVA: 0x5942710
+        public void Initialize(){} // RVA: 0xBE5850
+        public void CompareBaseObjects(){} // RVA: 0xD05CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x5941340
+        public void GetCachedPtr(){} // RVA: 0xBE5850
+        public void get_name(){} // RVA: 0xB4B880
+        public void set_name(){} // RVA: 0x59415D0
+        public void Instantiate(){} // RVA: 0x20B6780
+        public void Destroy(){} // RVA: 0xD05CA0
+        public void DestroyImmediate(){} // RVA: 0x5942920
+        public void FindObjectsOfType(){} // RVA: 0x20B6780
+        public void FindObjectsByType(){} // RVA: 0x5942950
+        public void DontDestroyOnLoad(){} // RVA: 0x5941810
+        public void get_hideFlags(){} // RVA: 0x20B6780
+        public void set_hideFlags(){} // RVA: 0x5941840
+    }
+
+    /// <summary>Originally: ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ</summary>
+    public class ManagedNativeObjectFull_05 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_4AF;
+        public object f_E52;
+        public object f_301;
+        public object f_2ED;
+        public object f_74B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xD01700
+        public void Equals(){} // RVA: 0x5941EB0
+        public void .ctor(){} // RVA: 0x5942090
+        public void Initialize(){} // RVA: 0xBE5850
+        public void CompareBaseObjects(){} // RVA: 0xD05CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x5941340
+        public void GetCachedPtr(){} // RVA: 0xBE5850
+        public void get_name(){} // RVA: 0xBBF8F0
+        public void set_name(){} // RVA: 0x59415D0
+        public void Instantiate(){} // RVA: 0x21BFBB0
+        public void Destroy(){} // RVA: 0xD05CA0
+        public void DestroyImmediate(){} // RVA: 0x59422E0
+        public void FindObjectsOfType(){} // RVA: 0x21BFBB0
+        public void FindObjectsByType(){} // RVA: 0x5942350
+        public void DontDestroyOnLoad(){} // RVA: 0x5941810
+        public void get_hideFlags(){} // RVA: 0x21BFBB0
+        public void set_hideFlags(){} // RVA: 0x5941840
+    }
+
+    /// <summary>Originally: ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ</summary>
+    public class ManagedNativeObjectFull_05 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_4AF;
+        public object f_E52;
+        public object f_301;
+        public object f_2ED;
+        public object f_74B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x5941150
+        public void Equals(){} // RVA: 0x5941160
+        public void .ctor(){} // RVA: 0x59413C0
+        public void Initialize(){} // RVA: 0xBE5850
+        public void CompareBaseObjects(){} // RVA: 0xD05CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x5941340
+        public void GetCachedPtr(){} // RVA: 0xBE5850
+        public void get_name(){} // RVA: 0x23E22A0
+        public void set_name(){} // RVA: 0x59415D0
+        public void Instantiate(){} // RVA: 0x5941600
+        public void Destroy(){} // RVA: 0xD05CA0
+        public void DestroyImmediate(){} // RVA: 0x5941610
+        public void FindObjectsOfType(){} // RVA: 0x5941600
+        public void FindObjectsByType(){} // RVA: 0x5941630
+        public void DontDestroyOnLoad(){} // RVA: 0x5941810
+        public void get_hideFlags(){} // RVA: 0x5941600
+        public void set_hideFlags(){} // RVA: 0x5941840
+    }
+
+    /// <summary>Originally: ÌÌÍÍÍÍÏÌÌÌÍÍÏÎÎÍÎÏÌÌÌÎÏ</summary>
+    public class ManagedNativeObjectFull_05 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_4AF;
+        public object f_E52;
+        public object f_301;
+        public object f_2ED;
+        public object f_74B;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0xD01700
+        public void Equals(){} // RVA: 0x59438C0
+        public void .ctor(){} // RVA: 0x5942090
+        public void Initialize(){} // RVA: 0xBE5850
+        public void CompareBaseObjects(){} // RVA: 0xD05CA0
+        public void IsNativeObjectAlive(){} // RVA: 0x5941340
+        public void GetCachedPtr(){} // RVA: 0xBE5850
+        public void get_name(){} // RVA: 0xBBF8F0
+        public void set_name(){} // RVA: 0x59415D0
+        public void Instantiate(){} // RVA: 0x21BFBB0
+        public void Destroy(){} // RVA: 0xD05CA0
+        public void DestroyImmediate(){} // RVA: 0x5943AA0
+        public void FindObjectsOfType(){} // RVA: 0x21BFBB0
+        public void FindObjectsByType(){} // RVA: 0x5943B10
+        public void DontDestroyOnLoad(){} // RVA: 0x5941810
+        public void get_hideFlags(){} // RVA: 0x21BFBB0
+        public void set_hideFlags(){} // RVA: 0x5941840
     }
 
     /// <summary>Originally: ÍÎÎÍÏÏÌÌÌÌÏÎÏÏÏÌÎÍÌÏÏÎÏ</summary>
@@ -952,6 +1156,130 @@ namespace VRC.Misc
         public void set_hideFlags(){} // RVA: 0x173DBE0
     }
 
+    /// <summary>Originally: ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ</summary>
+    public class ManagedUnityObject_15 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x59E3620
+        public void GetInstanceID(){} // RVA: 0x59E3530
+        public void Equals(){} // RVA: 0x59E3580
+        public void GetHashCode(){} // RVA: 0x59E35D0
+        public void Initialize(){} // RVA: 0x59E3880
+        public void IsNativeObjectAlive(){} // RVA: 0x59E3930
+        public void GetCachedPtr(){} // RVA: 0x59E3A40
+        public void get_name(){} // RVA: 0xC120A0
+        public void set_name(){} // RVA: 0x59E3B30
+        public void Instantiate(){} // RVA: 0x59E3530
+        public void Destroy(){} // RVA: 0x59E3C20
+        public void DestroyImmediate(){} // RVA: 0x59E3530
+        public void FindObjectsOfType(){} // RVA: 0x59E3D30
+        public void FindObjectsByType(){} // RVA: 0xB43320
+        public void Dispose(){} // RVA: 0x59E3D80
+        public void Cleanup(){} // RVA: 0x59E3E40
+        public void set_hideFlags(){} // RVA: 0x59E3F30
+        public void FindObjectOfType(){} // RVA: 0x59E3580
+        public void FindFirstObjectByType(){} // RVA: 0x59E3F80
+    }
+
+    /// <summary>Originally: ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ</summary>
+    public class ManagedUnityObject_15 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x59E49A0
+        public void GetInstanceID(){} // RVA: 0x59E3530
+        public void Equals(){} // RVA: 0x59E3580
+        public void GetHashCode(){} // RVA: 0x59E35D0
+        public void Initialize(){} // RVA: 0x59E4C70
+        public void IsNativeObjectAlive(){} // RVA: 0x59E43B0
+        public void GetCachedPtr(){} // RVA: 0x59E4DA0
+        public void get_name(){} // RVA: 0x11E18A0
+        public void set_name(){} // RVA: 0x59E4E90
+        public void Instantiate(){} // RVA: 0x59E3530
+        public void Destroy(){} // RVA: 0x59E46A0
+        public void DestroyImmediate(){} // RVA: 0x59E3530
+        public void FindObjectsOfType(){} // RVA: 0x59E3D30
+        public void FindObjectsByType(){} // RVA: 0xB43320
+        public void Dispose(){} // RVA: 0x59E4F80
+        public void Cleanup(){} // RVA: 0x59E5040
+        public void set_hideFlags(){} // RVA: 0x59E3F30
+        public void FindObjectOfType(){} // RVA: 0x59E3580
+        public void FindFirstObjectByType(){} // RVA: 0x59E4960
+    }
+
+    /// <summary>Originally: ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ</summary>
+    public class ManagedUnityObject_15 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x59E6E60
+        public void GetInstanceID(){} // RVA: 0x59E3530
+        public void Equals(){} // RVA: 0x59E3580
+        public void GetHashCode(){} // RVA: 0x59E35D0
+        public void Initialize(){} // RVA: 0x59E7180
+        public void IsNativeObjectAlive(){} // RVA: 0x59E3930
+        public void GetCachedPtr(){} // RVA: 0x59E7290
+        public void get_name(){} // RVA: 0xB5DBF0
+        public void set_name(){} // RVA: 0x59E7380
+        public void Instantiate(){} // RVA: 0x59E3530
+        public void Destroy(){} // RVA: 0x59E3C20
+        public void DestroyImmediate(){} // RVA: 0x59E3530
+        public void FindObjectsOfType(){} // RVA: 0x59E3D30
+        public void FindObjectsByType(){} // RVA: 0xB43320
+        public void Dispose(){} // RVA: 0x59E7470
+        public void Cleanup(){} // RVA: 0x59E7530
+        public void set_hideFlags(){} // RVA: 0x59E3F30
+        public void FindObjectOfType(){} // RVA: 0x59E3580
+        public void FindFirstObjectByType(){} // RVA: 0xB5DBF0
+    }
+
+    /// <summary>Originally: ÍÍÎÏÍÍÌÍÍÌÏÏÌÏÍÏÏÎÏÌÌÎÍ</summary>
+    public class ManagedUnityObject_15 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x894290
+        public void Equals(){} // RVA: 0x894320
+        public void GetHashCode(){} // RVA: 0x894290
+        public void .ctor(){} // RVA: 0x8943B0
+        public void Initialize(){} // RVA: 0xA94080
+        public void IsNativeObjectAlive(){} // RVA: 0x894320
+        public void GetCachedPtr(){} // RVA: 0x894320
+        public void get_name(){} // RVA: 0xA94080
+        public void set_name(){} // RVA: 0x894320
+        public void Instantiate(){} // RVA: 0x894290
+        public void Destroy(){} // RVA: 0x894320
+        public void DestroyImmediate(){} // RVA: 0x894290
+        public void FindObjectsOfType(){} // RVA: 0x894320
+        public void FindObjectsByType(){} // RVA: 0x87D280
+        public void Dispose(){} // RVA: 0x894290
+        public void Cleanup(){} // RVA: 0x894320
+        public void set_hideFlags(){} // RVA: 0x894320
+        public void FindObjectOfType(){} // RVA: 0xA94080
+        public void FindFirstObjectByType(){} // RVA: 0x87C0A0
+    }
+
     /// <summary>Originally: ÏÌÌÍÎÌÎÏÏÌÎÏÍÍÌÍÏÎÏÎÎÌÌ</summary>
     public class ManagedUnityObject_16 : Object
     {
@@ -1118,6 +1446,60 @@ namespace VRC.Misc
         public void DestroyImmediate(){} // RVA: 0x14558D0
     }
 
+    /// <summary>Originally: ÎÎÍÍÍÏÌÍÍÌÏÌÎÏÎÌÎÍÌÍÌÎÍ</summary>
+    public class ManagedUnityObject_21 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x26A98F0
+        public void Equals(){} // RVA: 0x26A9A10
+        public void GetHashCode(){} // RVA: 0x26A9A90
+        public void .ctor(){} // RVA: 0x26A9BF0
+        public void Initialize(){} // RVA: 0x26A9D50
+        public void IsNativeObjectAlive(){} // RVA: 0x26A9E00
+        public void GetCachedPtr(){} // RVA: 0x26A9F20
+        public void get_name(){} // RVA: 0x26AA080
+        public void set_name(){} // RVA: 0x26AA550
+        public void Instantiate(){} // RVA: 0x26AAA20
+        public void Destroy(){} // RVA: 0x26AAB40
+    }
+
+    /// <summary>Originally: ÌÏÎÏÎÍÏÍÎÏÍÎÍÏÍÏÌÍÎÎÍÏÌ</summary>
+    public class ManagedUnityObject_24 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+        public object f_1CB;
+        public object f_9E0;
+        public object f_6C4;
+        public object f_428;
+        public object f_576;
+        public object f_523;
+        public object f_9C7;
+        public object f_83F;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x273D550
+        public void Equals(){} // RVA: 0x273D6D0
+        public void GetHashCode(){} // RVA: 0x273D950
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x273DBD0
+        public void IsNativeObjectAlive(){} // RVA: 0x273DC60
+        public void GetCachedPtr(){} // RVA: 0x273DCA0
+        public void get_name(){} // RVA: 0x273DD50
+        public void set_name(){} // RVA: 0x273DC60
+        public void Instantiate(){} // RVA: 0x273DFD0
+        public void Destroy(){} // RVA: 0x273E060
+    }
+
     /// <summary>Originally: ÍÏÌÏÎÌÍÍÎÏÎÍÏÏÎÎÏÏÎÌÏÍÍ</summary>
     public class ManagedUnityObject_25 : Object
     {
@@ -1265,6 +1647,33 @@ namespace VRC.Misc
         public void GetOffsetOfInstanceIDInCPlusPlusObject(){} // RVA: 0x14DCE10
     }
 
+    /// <summary>Originally: ÌÏÏÌÎÍÎÎÏÍÏÎÎÎÏÏÍÏÏÌÎÏÎ</summary>
+    public class ManagedUnityObject_7 : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+        public object _offsetOfInstanceIDInCPlusPlusObject;
+        public object _objectIsNullMessage;
+        public object _cloneDestroyedMessage;
+
+        // ── Methods ──
+        public void GetInstanceID(){} // RVA: 0x153C730
+        public void Equals(){} // RVA: 0x153C810
+        public void GetHashCode(){} // RVA: 0x153CBA0
+        public void op_Implicit(){} // RVA: 0x153CD10
+        public void CompareBaseObjects(){} // RVA: 0x153CDF0
+        public void .ctor(){} // RVA: 0x153D0B0
+        public void Initialize(){} // RVA: 0xB5DBF0
+        public void get_name(){} // RVA: 0x153D2E0
+        public void set_name(){} // RVA: 0xB465B0
+        public void Instantiate(){} // RVA: 0xB5DBF0
+        public void Destroy(){} // RVA: 0x153D5A0
+        public void DestroyImmediate(){} // RVA: 0xB5DBF0
+        public void FindObjectsOfType(){} // RVA: 0xB465B0
+        public void FindObjectsByType(){} // RVA: 0xB5DBF0
+        public void DontDestroyOnLoad(){} // RVA: 0x153D5C0
+    }
+
     /// <summary>Originally: ÏÏÎÍÏÎÎÏÏÌÌÍÎÍÍÏÍÏÍÏÎÏÌ</summary>
     public class ManagedUnityObject_8 : Object
     {
@@ -1358,6 +1767,27 @@ namespace VRC.Misc
         public void Unregister(){} // RVA: 0x87C0A0
         // ── Unresolved (hash) ──
         public void m_1FF(){} // RVA: 0x894D90
+    }
+
+    /// <summary>Originally: ÍÍÍÏÎÎÍÎÍÎÌÎÌÎÏÎÎÎÏÌÍÌÌ</summary>
+    public class MobileOpacityPulse : k__BackingField_0920
+    {
+        public object f_50A;
+        public object f_989;
+        public object mobilePulseSpeed;
+        public object mobileMinimumOpacity;
+        public object mobileMaximumOpacity;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x1D03820
+        public void Initialize(){} // RVA: 0x1D03890
+        // ── 12 unresolved (hash) ──
+        public void m_037(){} // RVA: 0x1D037A0
+        public void m_397(){} // RVA: 0x1D03910
+        public void m_DFC(){} // RVA: 0x1D03AC0
+        public void m_5B5(){} // RVA: 0x1D04B70
+        public void m_9B9(){} // RVA: 0x1D04BB0
+        // ... 7 more unresolved methods
     }
 
 }

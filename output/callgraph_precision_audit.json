@@ -1,0 +1,117 @@
+{
+ "counts": {
+  "pass": 11
+ },
+ "audit": [
+  {
+   "class": "CameraController_1140",
+   "assigned": "CameraController",
+   "expect_callee": "Camera",
+   "fresh_top": "Camera",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerComponent_6D09",
+   "assigned": "PlayerComponent",
+   "expect_callee": "VRCPlayer",
+   "fresh_top": "VRCPlayer",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AsyncCompletionSource_DAC1",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": "UniTaskCompletionSource`1",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "CancellableOperation_4CD6",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 7,
+   "concentration": 0.5,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AnimatorController_C9E1",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 18,
+   "concentration": 0.5,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "ApiFileHandler_B043",
+   "assigned": "ApiFileHandler",
+   "expect_callee": "ApiFile",
+   "fresh_top": "ApiFile",
+   "fresh_top_n": 8,
+   "concentration": 0.5,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AnimatorController_DFDD",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 12,
+   "concentration": 0.571,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AnimatorController_8300",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 12,
+   "concentration": 0.6,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AsyncCompletionSource_0963",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": "UniTaskCompletionSource`1",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "AnimatorController_FE21",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 12,
+   "concentration": 0.6,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AnimatorController_893A",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 12,
+   "concentration": 0.522,
+   "min_req": 6,
+   "verdict": "pass"
+  }
+ ]
+}

@@ -1,0 +1,1920 @@
+{
+ "counts": {
+  "weak": 60,
+  "drift": 45,
+  "pass": 78,
+  "pass_nondominant": 8
+ },
+ "audit": [
+  {
+   "class": "TraceListenerImpl_82BE",
+   "assigned": "TraceListenerImpl",
+   "expect_callee": "TraceEventCache",
+   "fresh_top": "TraceEventCache",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "weak"
+  },
+  {
+   "class": "CanvasFader_E552",
+   "assigned": "CanvasFader",
+   "expect_callee": "CanvasGroup",
+   "fresh_top": "Stack`1",
+   "fresh_top_n": 4,
+   "concentration": 0.8,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "CanvasFader_3FDC",
+   "assigned": "CanvasFader",
+   "expect_callee": "CanvasGroup",
+   "fresh_top": "CanvasGroup",
+   "fresh_top_n": 42,
+   "concentration": 0.792,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "LayoutController_0DBF",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "RectTransform",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AsyncCompletionSource_73B8",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "AsyncCompletionSource_0E4D",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "AsyncCompletionSource_FC1B",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": "UniTaskCompletionSource`1",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "CameraController_BD90",
+   "assigned": "CameraController",
+   "expect_callee": "Camera",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "LayoutController_0083",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "RectTransform",
+   "fresh_top_n": 12,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "GraphicsRenderer_7A1B",
+   "assigned": "GraphicsRenderer",
+   "expect_callee": "Graphics",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "GraphicsRenderer_4183",
+   "assigned": "GraphicsRenderer",
+   "expect_callee": "Graphics",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "GraphicsRenderer_E4A1",
+   "assigned": "GraphicsRenderer",
+   "expect_callee": "Graphics",
+   "fresh_top": "Graphics",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "ContextDispatcher_44BA",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "SynchronizationContext",
+   "fresh_top_n": 2,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "weak"
+  },
+  {
+   "class": "ContextDispatcher_4F6C",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "SynchronizationContext",
+   "fresh_top_n": 2,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "weak"
+  },
+  {
+   "class": "ContextDispatcher_3978",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "floatVal_7ACE",
+   "fresh_top_n": 8,
+   "concentration": 0.471,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "ApiFileHandler_6D80",
+   "assigned": "ApiFileHandler",
+   "expect_callee": "ApiFile",
+   "fresh_top": "ApiFile",
+   "fresh_top_n": 7,
+   "concentration": 0.389,
+   "min_req": 6,
+   "verdict": "pass_nondominant"
+  },
+  {
+   "class": "TimestampHandler_89B2",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "TimestampHandler_8C7B",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "DateTime",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AsyncCompletionSource_95D4",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": "UniTaskCompletionSource`1",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "PrefsStore_F839",
+   "assigned": "PrefsStore",
+   "expect_callee": "PlayerPrefs",
+   "fresh_top": "PlayerPrefs",
+   "fresh_top_n": 18,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "InteractableHandler_CA6F",
+   "assigned": "InteractableHandler",
+   "expect_callee": "VRC_Interactable",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "InteractableHandler_8DEE",
+   "assigned": "InteractableHandler",
+   "expect_callee": "VRC_Interactable",
+   "fresh_top": "VRC_Interactable",
+   "fresh_top_n": 4,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "CanvasFader_5152",
+   "assigned": "CanvasFader",
+   "expect_callee": "CanvasGroup",
+   "fresh_top": "VRC_Interactable",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "TimestampHandler_7A18",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "DateTime",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TraceListenerImpl_8381",
+   "assigned": "TraceListenerImpl",
+   "expect_callee": "TraceEventCache",
+   "fresh_top": "MeshGenerationCallback",
+   "fresh_top_n": 1,
+   "concentration": 0.5,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "CameraController_224E",
+   "assigned": "CameraController",
+   "expect_callee": "Camera",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "CameraController_224D",
+   "assigned": "CameraController",
+   "expect_callee": "Camera",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "StaticDataTable_F76E",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "OutputBuffer",
+   "fresh_top_n": 5,
+   "concentration": 0.455,
+   "min_req": 8,
+   "verdict": "drift"
+  },
+  {
+   "class": "LayoutController_6475",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "RectTransform",
+   "fresh_top_n": 3,
+   "concentration": 0.6,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "CancellableOperation_D057",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 13,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PrefsStore_F9FE",
+   "assigned": "PrefsStore",
+   "expect_callee": "PlayerPrefs",
+   "fresh_top": "PlayerPrefs",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "CameraController_4410",
+   "assigned": "CameraController",
+   "expect_callee": "Camera",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "FileSystemHandler_F46A",
+   "assigned": "FileSystemHandler",
+   "expect_callee": "FileSystemInfo",
+   "fresh_top": "FileSystemInfo",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "FileSystemHandler_EF07",
+   "assigned": "FileSystemHandler",
+   "expect_callee": "FileSystemInfo",
+   "fresh_top": "FileSystemInfo",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "FileSystemHandler_C806",
+   "assigned": "FileSystemHandler",
+   "expect_callee": "FileSystemInfo",
+   "fresh_top": "FileSystemInfo",
+   "fresh_top_n": 7,
+   "concentration": 0.438,
+   "min_req": 6,
+   "verdict": "pass_nondominant"
+  },
+  {
+   "class": "AnimatorController_1B0B",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 41,
+   "concentration": 0.436,
+   "min_req": 6,
+   "verdict": "pass_nondominant"
+  },
+  {
+   "class": "PlayerDataAccessor_ACD3",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 10,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_785B",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 12,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_C2CD",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 12,
+   "concentration": 0.667,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_84F7",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 16,
+   "concentration": 0.667,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_5286",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 18,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_DE9D",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 12,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_5AEC",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 12,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_7B42",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 4,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "PlayerDataAccessor_80D8",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_ACBD",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 10,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_36DE",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 12,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_F2F8",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 10,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_005B",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 28,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_F90A",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 54,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_037C",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 56,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_7A99",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 48,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_3D6C",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 64,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_97A4",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 72,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerDataAccessor_9133",
+   "assigned": "PlayerDataAccessor",
+   "expect_callee": "PlayerDataTypeUnion",
+   "fresh_top": "PlayerDataTypeUnion",
+   "fresh_top_n": 14,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "CancellableOperation_2F9C",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "CancellableOperation_1337",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AsyncCompletionSource_9FCC",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "AsyncCompletionSource_2DC5",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": "UniTaskCompletionSource`1",
+   "fresh_top_n": 18,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "CancellableOperation_1AFB",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "CancellableOperation_29EE",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "AsyncCompletionSource_3E86",
+   "assigned": "AsyncCompletionSource",
+   "expect_callee": "UniTaskCompletionSource`1",
+   "fresh_top": "UniTaskCompletionSource`1",
+   "fresh_top_n": 14,
+   "concentration": 0.412,
+   "min_req": 5,
+   "verdict": "pass_nondominant"
+  },
+  {
+   "class": "CameraController_1E4C",
+   "assigned": "CameraController",
+   "expect_callee": "Camera",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ApiFileHandler_7B25",
+   "assigned": "ApiFileHandler",
+   "expect_callee": "ApiFile",
+   "fresh_top": "ApiFile",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "ContextDispatcher_6D50",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "SynchronizationContext",
+   "fresh_top_n": 3,
+   "concentration": 0.429,
+   "min_req": 5,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_86DA",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "PlayerComponent_8886",
+   "assigned": "PlayerComponent",
+   "expect_callee": "VRCPlayer",
+   "fresh_top": "VRCPlayer",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "PlayerComponent_9BB2",
+   "assigned": "PlayerComponent",
+   "expect_callee": "VRCPlayer",
+   "fresh_top": "VRCPlayer",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "EditorViewState_A4A0",
+   "assigned": "EditorViewState",
+   "expect_callee": "GetViewDataDictionary",
+   "fresh_top": "GetViewDataDictionary",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "ColorConverter_DCD5",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 5,
+   "concentration": 0.833,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "ColorConverter_97B3",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 3,
+   "concentration": 0.75,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_91FC",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "ColorConverter_A3FB",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 3,
+   "concentration": 0.75,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "ColorConverter_07E5",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 5,
+   "concentration": 0.455,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "ColorConverter_61EF",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 5,
+   "concentration": 0.5,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "TraceListenerImpl_A7BD",
+   "assigned": "TraceListenerImpl",
+   "expect_callee": "TraceEventCache",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "TraceListenerImpl_067B",
+   "assigned": "TraceListenerImpl",
+   "expect_callee": "TraceEventCache",
+   "fresh_top": "TraceEventCache",
+   "fresh_top_n": 8,
+   "concentration": 0.533,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "TimestampHandler_503C",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "SavePersistentViewData",
+   "fresh_top_n": 4,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "TimestampHandler_87C7",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "DateTime",
+   "fresh_top_n": 64,
+   "concentration": 0.5,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "TimestampHandler_3649",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "TimestampHandler_0093",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "GraphicsRenderer_DCCD",
+   "assigned": "GraphicsRenderer",
+   "expect_callee": "Graphics",
+   "fresh_top": "Graphics",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "ApiModel_2B3C",
+   "assigned": "ApiModel",
+   "expect_callee": "ApiContainer",
+   "fresh_top": "ApiContainer",
+   "fresh_top_n": 21,
+   "concentration": 0.808,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "GroupsManager_A354",
+   "assigned": "GroupsManager",
+   "expect_callee": "GroupsStorage",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "GroupsManager_4D60",
+   "assigned": "GroupsManager",
+   "expect_callee": "GroupsStorage",
+   "fresh_top": "GroupsStorage",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "ApiModel_F7B5",
+   "assigned": "ApiModel",
+   "expect_callee": "ApiContainer",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ApiModel_86F5",
+   "assigned": "ApiModel",
+   "expect_callee": "ApiContainer",
+   "fresh_top": "ApiContainer",
+   "fresh_top_n": 14,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "CameraController_8033",
+   "assigned": "CameraController",
+   "expect_callee": "Camera",
+   "fresh_top": "Camera",
+   "fresh_top_n": 27,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "EditorViewState_F0AE",
+   "assigned": "EditorViewState",
+   "expect_callee": "GetViewDataDictionary",
+   "fresh_top": "GetViewDataDictionary",
+   "fresh_top_n": 24,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "ColorConverter_D14C",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "CancellableOperation_BADA",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 3,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "ApiFileHandler_CB60",
+   "assigned": "ApiFileHandler",
+   "expect_callee": "ApiFile",
+   "fresh_top": "ApiFile",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "ColorConverter_24C8",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ApiFileHandler_E8F5",
+   "assigned": "ApiFileHandler",
+   "expect_callee": "ApiFile",
+   "fresh_top": "ApiFileHandler_E8F5",
+   "fresh_top_n": 8,
+   "concentration": 0.615,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "EditorViewState_7916",
+   "assigned": "EditorViewState",
+   "expect_callee": "GetViewDataDictionary",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "EditorViewState_212B",
+   "assigned": "EditorViewState",
+   "expect_callee": "GetViewDataDictionary",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "TimestampHandler_220B",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "DateTime",
+   "fresh_top_n": 22,
+   "concentration": 0.667,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "ColorConverter_EACB",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ColorConverter_779E",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "EditorViewState_E5A9",
+   "assigned": "EditorViewState",
+   "expect_callee": "GetViewDataDictionary",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ColorConverter_7667",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ColorConverter_2AB1",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 14,
+   "concentration": 0.519,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "TimestampHandler_2905",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ColorConverter_9E7D",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "TimestampHandler_F9F3",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "DateTime",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "TimestampHandler_C4A7",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "ContextDispatcher_4EE5",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "CanvasFader_F19D",
+   "assigned": "CanvasFader",
+   "expect_callee": "CanvasGroup",
+   "fresh_top": "CanvasGroup",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "CanvasFader_097D",
+   "assigned": "CanvasFader",
+   "expect_callee": "CanvasGroup",
+   "fresh_top": "TweenExtensions",
+   "fresh_top_n": 5,
+   "concentration": 0.556,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "ContextDispatcher_1037",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "SynchronizationContext",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "ContextDispatcher_4BF4",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "SynchronizationContext",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "ContextDispatcher_EE8B",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "SynchronizationContext",
+   "fresh_top_n": 4,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "weak"
+  },
+  {
+   "class": "CanvasFader_8AFF",
+   "assigned": "CanvasFader",
+   "expect_callee": "CanvasGroup",
+   "fresh_top": "CanvasGroup",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "ContextDispatcher_E40F",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "SynchronizationContext",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 5,
+   "verdict": "pass"
+  },
+  {
+   "class": "ContextDispatcher_4FC0",
+   "assigned": "ContextDispatcher",
+   "expect_callee": "SynchronizationContext",
+   "fresh_top": "SynchronizationContext",
+   "fresh_top_n": 5,
+   "concentration": 0.227,
+   "min_req": 5,
+   "verdict": "pass_nondominant"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "LayoutController_2220",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "RectTransform",
+   "fresh_top_n": 18,
+   "concentration": 0.9,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "TimestampHandler_91DD",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 4,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "CancellableOperation_1FDF",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 8,
+   "concentration": 0.444,
+   "min_req": 6,
+   "verdict": "pass_nondominant"
+  },
+  {
+   "class": "TextCodec_317E",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 8,
+   "verdict": "drift"
+  },
+  {
+   "class": "CancellableOperation_C480",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellationTokenSource",
+   "fresh_top_n": 11,
+   "concentration": 0.917,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "CanvasFader_C88F",
+   "assigned": "CanvasFader",
+   "expect_callee": "CanvasGroup",
+   "fresh_top": "Dictionary`2",
+   "fresh_top_n": 2,
+   "concentration": 0.667,
+   "min_req": 5,
+   "verdict": "drift"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "TextCodec_1482",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 10,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TimestampHandler_B728",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "TimestampHandler_B728",
+   "fresh_top_n": 22,
+   "concentration": 0.55,
+   "min_req": 6,
+   "verdict": "pass_nondominant"
+  },
+  {
+   "class": "TimestampHandler_4A96",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "DateTime",
+   "fresh_top_n": 26,
+   "concentration": 0.4,
+   "min_req": 6,
+   "verdict": "pass_nondominant"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 9,
+   "concentration": 0.9,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "ColorConverter_FD5D",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ColorConverter_41F2",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "ColorConverter_125A",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 12,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "EditorViewState_78F3",
+   "assigned": "EditorViewState",
+   "expect_callee": "GetViewDataDictionary",
+   "fresh_top": "GetViewDataDictionary",
+   "fresh_top_n": 1,
+   "concentration": 0.5,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "EditorViewState_DA06",
+   "assigned": "EditorViewState",
+   "expect_callee": "GetViewDataDictionary",
+   "fresh_top": "GetViewDataDictionary",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_3D79",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 8,
+   "verdict": "drift"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 4,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "TimestampHandler_86B1",
+   "assigned": "TimestampHandler",
+   "expect_callee": "DateTime",
+   "fresh_top": "DateTime",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "ColorConverter_68D0",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 3,
+   "concentration": 0.75,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "CancellableOperation_C6F2",
+   "assigned": "CancellableOperation",
+   "expect_callee": "CancellationTokenSource",
+   "fresh_top": "CancellableOperation_C6F2",
+   "fresh_top_n": 2,
+   "concentration": 0.5,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 4,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "ColorConverter_469B",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 2,
+   "concentration": 0.667,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_9AB9",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_E5B1",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_56BB",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "LayoutController_C644",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "RectTransform",
+   "fresh_top_n": 5,
+   "concentration": 0.833,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "LayoutController_E38A",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "RectTransform",
+   "fresh_top_n": 5,
+   "concentration": 0.833,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "LayoutController_13AD",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "RectTransform",
+   "fresh_top_n": 2,
+   "concentration": 0.667,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "LayoutController_D010",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "RectTransform",
+   "fresh_top_n": 2,
+   "concentration": 0.667,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_3535",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_0954",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_F2D4",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "AnimatorController_5F59",
+   "assigned": "AnimatorController",
+   "expect_callee": "Animator",
+   "fresh_top": "Animator",
+   "fresh_top_n": 1,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "ColorConverter_8A6F",
+   "assigned": "ColorConverter",
+   "expect_callee": "ColorUtility",
+   "fresh_top": "ColorUtility",
+   "fresh_top_n": 3,
+   "concentration": 0.75,
+   "min_req": 6,
+   "verdict": "weak"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 11,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "LayoutController_BC2D",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": null,
+   "fresh_top_n": 0,
+   "concentration": 0.0,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 11,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 4,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "CameraController_011D",
+   "assigned": "CameraController",
+   "expect_callee": "Camera",
+   "fresh_top": "Camera",
+   "fresh_top_n": 51,
+   "concentration": 1.0,
+   "min_req": 6,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 7,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 5,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "LayoutController_627B",
+   "assigned": "LayoutController",
+   "expect_callee": "RectTransform",
+   "fresh_top": "TweenExtensions",
+   "fresh_top_n": 6,
+   "concentration": 0.429,
+   "min_req": 6,
+   "verdict": "drift"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 9,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  },
+  {
+   "class": "StaticDataTable_81CE",
+   "assigned": "StaticDataTable",
+   "expect_callee": "RuntimeHelpers",
+   "fresh_top": "RuntimeHelpers",
+   "fresh_top_n": 8,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "pass"
+  },
+  {
+   "class": "TextCodec_63AC",
+   "assigned": "TextCodec",
+   "expect_callee": "Encoding",
+   "fresh_top": "Encoding",
+   "fresh_top_n": 6,
+   "concentration": 1.0,
+   "min_req": 8,
+   "verdict": "weak"
+  }
+ ]
+}

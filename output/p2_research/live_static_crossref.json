@@ -1,0 +1,34 @@
+{
+  "live_real_classes": 17805,
+  "static_obfuscated_classes": 3600,
+  "recoveries": {
+    "high_confidence": [],
+    "plausible": [],
+    "ambiguous_count": 68780
+  },
+  "method": "Attempted every available join key between the LIVE substrate and the STATIC obfuscation/target inventories. Live records carry nf=0, empty fields[], and null/garbage ns for ALL 19,343 classes, so field-count, field-name, and namespace joins are structurally impossible. nm (method count) is polluted (335 distinct live names share nm=66; many 'names' are GameObject/Transform/UI-label instance strings, not type names), so it is not a reliable type-shape key. Exact-identity joins tried: live name vs obfclass keys, synthetic target names, full_targets class names, and Beebyte garbage values; klass-address joins tried: live klass VA vs runtime_sample VA and full_targets EA. Shape join (nfields+nmethods) reduces to nmethods-only and is recorded as ambiguous, never promoted to a recovery. A candidate is high-confidence ONLY on a unique exact-identity or address bridge; plausible requires nm shape corroborated by namespace or field names (unavailable here); everything else is counted ambiguous.",
+  "diagnostics": {
+    "live_total": 19343,
+    "live_real": 17805,
+    "live_weak": 1508,
+    "live_real_distinct_names": 2044,
+    "static_obfclass_keys": 548,
+    "static_synthetic_targets": 3543,
+    "static_full_targets_cls": 1265,
+    "live_records_with_nf_gt0": 0,
+    "live_records_with_fields": 0,
+    "live_records_with_real_ns": 218,
+    "join_overlaps": {
+      "live_real_name == static_obf_key": 0,
+      "live_weak_name == static_obf_key": 0,
+      "live_any_name == obfclass_keys": 0,
+      "live_any_name == synthetic_targets": 0,
+      "live_any_name == full_targets_cls": 0,
+      "live_any_name == obf_garbage_value": 0,
+      "live_klass_addr == runtime_sample_va": 0,
+      "live_klass_addr == full_targets_ea": 0
+    },
+    "shape_join_unique_on_both_sides_nm": 0,
+    "class_map_old_to_new_entries": 21388
+  }
+}

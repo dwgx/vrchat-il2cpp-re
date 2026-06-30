@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.Misc
 // Classes: 100
-// Methods: 391
+// Methods: 392
 
 namespace VRC.Misc
 {
@@ -316,34 +316,14 @@ namespace VRC.Misc
         public void .ctor(){} // RVA: 0xB43310
     }
 
-    /// <summary>Originally: ÍÌÌÍÍÍÌÌÍÍÎÍÍÍÍÏÎÏÎÎÎÍÎ</summary>
-    public class Type2m1f_1B81 : Object
+    /// <summary>Originally: ÍÌÍÌÍÍÍÎÏÌÎÍÏÏÌÌÍÍÍÌÌÎÎ</summary>
+    public class Type2m1f_7E2A : Object
     {
-        public object _1B81;
+        public object _7E2A;
 
         // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x2760320
-        public void Equals(){} // RVA: 0x27604E0
-    }
-
-    /// <summary>Originally: ÍÌÍÎÎÍÍÍÍÌÎÌÎÎÍÍÍÎÍÎÌÍÌ</summary>
-    public class Type2m1f_214B : Object
-    {
-        public object _214B;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x27606C0
-        public void Equals(){} // RVA: 0x2760880
-    }
-
-    /// <summary>Originally: ÍÏÎÎÏÌÌÍÍÌÍÎÌÎÏÎÎÌÍÏÏÎÏ</summary>
-    public class Type2m1f_4B5A : Object
-    {
-        public object _4B5A;
-
-        // ── Methods ──
-        public void GetInstanceID(){} // RVA: 0x276A900
-        public void Equals(){} // RVA: 0x276AAC0
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x59C8A30
     }
 
     /// <summary>Originally: ÍÌÍÌÍÍÍÎÏÌÎÍÏÏÌÌÍÍÍÌÌÎÎ</summary>
@@ -504,6 +484,16 @@ namespace VRC.Misc
         // ── Methods ──
         public void .ctor(){} // RVA: 0xB43310
         public void Initialize(){} // RVA: 0x59C8A30
+    }
+
+    /// <summary>Originally: ÏÏÌÍÏÎÎÌÌÌÌÏÍÎÌÎÏÍÏÍÎÎÏ</summary>
+    public class Type2m1f_AD31 : Object
+    {
+        public object _aD31;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0x5C77A70
     }
 
     /// <summary>Originally: ÏÏÌÍÏÎÎÌÌÌÌÏÍÎÌÎÏÍÏÍÎÎÏ</summary>
@@ -1124,6 +1114,18 @@ namespace VRC.Misc
         public void IsNativeObjectAlive(){} // RVA: 0x273D370
         public void GetCachedPtr(){} // RVA: 0x273D410
         public void get_name(){} // RVA: 0x273D4B0
+    }
+
+    /// <summary>Originally: ÍÎÏÌÍÌÏÏÌÏÏÌÌÏÌÌÍÌÎÌÏÎÍ</summary>
+    public class Type8m2f_123B : Object
+    {
+        public object _kInstanceID_None;
+        public object _m_CachedPtr;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43310
+        public void Initialize(){} // RVA: 0xEB0F90
+        public void Equals(){} // RVA: 0x10DF0F0
     }
 
     /// <summary>Originally: ÍÎÏÌÍÌÏÏÌÏÏÌÌÏÌÌÍÌÎÌÏÎÍ</summary>

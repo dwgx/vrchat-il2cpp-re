@@ -1,7 +1,7 @@
 // VRChat IL2CPP Deobfuscated Source
 // Namespace: VRC.UI
-// Classes: 4
-// Methods: 59
+// Classes: 5
+// Methods: 73
 
 namespace VRC.UI
 {
@@ -132,6 +132,32 @@ namespace VRC.UI
         public void get_didAwake(){} // RVA: 0x97DBF70
         public void print(){} // RVA: 0x97DB440
         public void Internal_CancelInvokeAll(){} // RVA: 0x97DC120
+    }
+
+    /// <summary>Originally: ÎÎÎÎÎÌÏÍÏÍÍÎÏÏÍÎÏÌÌÏÏÌÍ</summary>
+    public class StyledButtonIndicator : MonoBehaviour
+    {
+        public object button;
+        public object indicator;
+        public object textStyleElement;
+        public object f_FA6;
+        public object f_E1F;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0xB43D60
+        public void Initialize(){} // RVA: 0xB70100
+        public void IsInvoking(){} // RVA: 0x9F16190
+        public void CancelInvoke(){} // RVA: 0xB700F0
+        public void Invoke(){} // RVA: 0x9F162B0
+        public void InvokeRepeating(){} // RVA: 0xD16660
+        public void StartCoroutine(){} // RVA: 0x9F16420
+        public void StartCoroutine_Auto(){} // RVA: 0x9F16630
+        public void StopCoroutine(){} // RVA: 0x9F16770
+        public void StopAllCoroutines(){} // RVA: 0x9F168E0
+        public void get_useGUILayout(){} // RVA: 0x9F16AF0
+        public void set_useGUILayout(){} // RVA: 0x9F16C90
+        public void get_didStart(){} // RVA: 0x9F16DD0
+        public void get_didAwake(){} // RVA: 0x9F16FE0
     }
 
 }

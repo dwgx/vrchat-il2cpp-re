@@ -1992,38 +1992,6 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public void .ctor(){} // RVA: 0xF48510
     }
 
-    public class NotNullAttribute : Object
-    {
-        public object _name;
-        public object _priority;
-        public object _lookAt;
-        public object _follow;
-        public object _state;
-
-        // ── Methods ──
-        public void .ctor(){} // RVA: 0x25C73F0
-        public void SetState(){} // RVA: 0x25C74F0
-        public void get_Name(){} // RVA: 0xB5DBF0
-        public void set_Name(){} // RVA: 0xB44D60
-        public void get_Description(){} // RVA: 0x25C75A0
-        public void get_Priority(){} // RVA: 0xE62D00
-        public void set_Priority(){} // RVA: 0x1033F40
-        public void get_LookAt(){} // RVA: 0xB700F0
-        public void set_LookAt(){} // RVA: 0xB70100
-        public void get_Follow(){} // RVA: 0xB70160
-        public void set_Follow(){} // RVA: 0xB44DC0
-        public void get_State(){} // RVA: 0x25C75E0
-        public void set_State(){} // RVA: 0x25C7680
-        public void get_VirtualCameraGameObject(){} // RVA: 0xDAC980
-        public void get_IsValid(){} // RVA: 0xC2E4C0
-        public void get_ParentCamera(){} // RVA: 0xDAC980
-        public void IsLiveChild(){} // RVA: 0xB43320
-        public void UpdateCameraState(){} // RVA: 0xB43310
-        public void InternalUpdateCameraState(){} // RVA: 0xB43310
-        public void OnTransitionFromCamera(){} // RVA: 0xB43310
-        public void OnTargetObjectWarped(){} // RVA: 0xB43310
-    }
-
     public class OrbitalTransposerHeadingPropertyAttribute : PropertyAttribute
     {
         // ── Methods ──
@@ -2060,6 +2028,38 @@ namespace ThirdParty.Cinemachine.Cinemachine
         public void get_SignalDuration(){} // RVA: 0x890F90
         public void GetSignal(){} // RVA: 0x8A2770
         public void .ctor(){} // RVA: 0xDD1AC0
+    }
+
+    public class StaticPointVirtualCamera : Object
+    {
+        public object _name;
+        public object _priority;
+        public object _lookAt;
+        public object _follow;
+        public object _state;
+
+        // ── Methods ──
+        public void .ctor(){} // RVA: 0x25C73F0
+        public void SetState(){} // RVA: 0x25C74F0
+        public void get_Name(){} // RVA: 0xB5DBF0
+        public void set_Name(){} // RVA: 0xB44D60
+        public void get_Description(){} // RVA: 0x25C75A0
+        public void get_Priority(){} // RVA: 0xE62D00
+        public void set_Priority(){} // RVA: 0x1033F40
+        public void get_LookAt(){} // RVA: 0xB700F0
+        public void set_LookAt(){} // RVA: 0xB70100
+        public void get_Follow(){} // RVA: 0xB70160
+        public void set_Follow(){} // RVA: 0xB44DC0
+        public void get_State(){} // RVA: 0x25C75E0
+        public void set_State(){} // RVA: 0x25C7680
+        public void get_VirtualCameraGameObject(){} // RVA: 0xDAC980
+        public void get_IsValid(){} // RVA: 0xC2E4C0
+        public void get_ParentCamera(){} // RVA: 0xDAC980
+        public void IsLiveChild(){} // RVA: 0xB43320
+        public void UpdateCameraState(){} // RVA: 0xB43310
+        public void InternalUpdateCameraState(){} // RVA: 0xB43310
+        public void OnTransitionFromCamera(){} // RVA: 0xB43310
+        public void OnTargetObjectWarped(){} // RVA: 0xB43310
     }
 
     public class TagFieldAttribute : PropertyAttribute

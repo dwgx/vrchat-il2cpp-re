@@ -2,20 +2,24 @@
 
 > **2026-06-29 build — Unity 6 (6000.0.60f1)** — 64,773 classes, 569,859 methods, 188,384 fields
 > GameAssembly.dll (222 MB) | IL2CPP | **Unity 6 6000.0.60f1** | Beebyte Obfuscation
-> 🔒 **Baseline frozen** — see [`BASELINE.md`](BASELINE.md). Held stable until VRChat changes Unity version or obfuscator.
+> 🏁 **Project complete / archived (2026-07-01) — no longer maintained.** Final state frozen below. See [`BASELINE.md`](BASELINE.md).
 
-## Coverage (Unity 6 baseline, official criterion)
+## Coverage (Unity 6 baseline, official criterion — FINAL)
 
 | Metric | Count | Coverage |
 |--------|------:|----------|
-| Classes (semantic) | 6,223 / 9,928 obfuscated | **62.7%** semantic class names |
-| Methods (semantic) | 532,986 / 569,859 | **93.5%** semantic |
-| Methods (hash remaining) | 36,873 | 6.5% fallback (m_XXX) |
-| Fields (semantic) | 155,841 / 188,384 | **82.7%** semantic |
+| Classes (semantic) | 5,646 / 9,928 obfuscated | **56.9%** semantic class names |
+| Methods (semantic) | 533,436 / 569,859 | **93.5%** semantic |
+| Methods (hash remaining) | 36,423 | 6.5% fallback (m_XXX) |
+| Fields (semantic) | 160,256 / 188,384 | **85.1%** semantic |
 | cross_version entries | 40,223 | reusable across builds |
 | Pipeline runtime | ~30s full run | — |
 
-Canonical numbers live in `output/coverage_stats.json` (regenerated every pipeline run via `tools/compute_final_stats.py` — the single authoritative criterion). The 1,212 field-signature class names (workflow + A1 parallel-agent passes) are re-applied reproducibly by pipeline **stage 2d** (`tools/apply_class_names.py`, idempotent), so a rerun never drops them.
+> **Final result — structural ceiling reached (2026-07-01).** All three axes are at their structural limits: methods 93.5% and fields 85.1% are effectively saturated; classes plateau at **56.9%**. This is not effort-limited — it is a proven limit. Four independent type-signal approaches (field-type, parent, interface, method-return-type) each failed the decisive gate2 test (~9% recovery accuracy, far below the 15% acceptance line) because a class is a HAS-A/role over its field types, so type signals reveal *what it holds*, not *its role identity*. Metadata decryption was also confirmed a dead end: Beebyte destroys the original class names at compile time (they are stored as `ÌÍÎÏ` garbage in the metadata itself), so decrypting the structure tables yields no new real names. The remaining unexhausted signal is runtime instance values (strings/JSON keys), which static analysis cannot capture; it was scoped but not pursued to completion. Every assigned name here is an evidence-backed inference, not a recovered original.
+
+Canonical numbers live in `output/coverage_stats.json` (regenerated every pipeline run via `tools/compute_final_stats.py` — the single authoritative criterion, which delegates to `tools/name_quality.py`). The 1,212 field-signature class names (workflow + A1 parallel-agent passes) are re-applied reproducibly by pipeline **stage 2d** (`tools/apply_class_names.py`, idempotent), so a rerun never drops them.
+
+> **Coverage criterion fix (2026-06).** The previously reported 62.7% class coverage was inflated: the official weak-name test missed a whole class of *structural placeholders* (`BaseClass290ImplImpl_31B9`, `BackingFieldBase_16D7` — names synthesized from class topology with no semantics) and counted them as semantic. The corrected criterion (strip synthetic tokens; if nothing meaningful remains, it's fallback) lives in `tools/name_quality.py`, shared by the pipeline, stats, apply, and grader so they can never drift. The corrected baseline is **45.4%**; under the unified criterion the real field-signature names now correctly override placeholders and 8 evidence-synthesized names are added, reaching **46.7%** (4,641/9,928). Each obfuscated class also carries a deterministic evidence grade (A/B/C/D, see `tools/grade_evidence.py`) so every assigned name is auditable. Note: obfuscated real names were destroyed at compile time and are unrecoverable — every name here is an evidence-backed inference, not a recovered original.
 
 **Why Unity 6 was a full re-crack.** VRChat upgraded from Unity 2022 to Unity 6, which reshuffled the entire IL2CPP runtime layout — the old extractor failed completely. Metadata is encrypted and export symbols are stripped, so static tools (Il2CppDumper) do not work. The extractor uses **reverse MethodInfo enumeration**: scan all MethodInfo in the heap, resolve their klass, rebuild the type tree. Verified against ground truth (Vector3=x/y/z, Color=r/g/b/a, Transform=157 methods).
 

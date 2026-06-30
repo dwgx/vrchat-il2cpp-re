@@ -1,0 +1,20 @@
+[
+  {"obf_class": "BaseClass52Impl_D71D", "proposed_name": "RectTransformLayoutAdjuster", "confidence": "medium", "evidence": "多方法集中调用 RectTransform get/set anchoredPosition/offsetMin/pivot/sizeDelta,典型 UI 矩形布局调整逻辑"},
+  {"obf_class": "BaseClass45Impl_C335", "proposed_name": "ShareDeleteButtonController", "confidence": "medium", "evidence": "调用 deleteButton/shareButton 的 OnCancel + GameObject::SetActive + FindObjectsByType,指向带删除/分享按钮的 UI 面板控制"},
+  {"obf_class": "BaseClass45Impl_5F76", "proposed_name": "LocalizedTextVisibilityController", "confidence": "medium", "evidence": "LocalizedTextElement::OnDisable + TransformChangedVisibility::OnBecameInvisible + set_hideFlags + SetActive,本地化文本的显隐控制元素"},
+  {"obf_class": "BackingFieldBase_k__BackingField_A8F6", "proposed_name": "ApiFileVersionResolver", "confidence": "high", "evidence": "ApiFile::GetLatestCompleteVersionNumber + ApiFile::GetVersion + String::Concat,明确处理 ApiFile 版本号"},
+  {"obf_class": "BaseClass45Impl_26F4", "proposed_name": "ColorTweenUIController", "confidence": "medium", "evidence": "TweenManager::FilteredOperation(多次) + ColorUtility::ToHtmlStringRGB + FindObjectsByType,UI 颜色补间动画控制"},
+  {"obf_class": "Struct6f_F248", "proposed_name": "VRCTimeIntervalHelper", "confidence": "medium", "evidence": "VRCTime::GetCachedPtr + DateTime::op_Subtraction + TimeSpan::Interval,VRC 时间差/间隔计算"},
+  {"obf_class": "BaseClass52Impl_C361", "proposed_name": "StyleElementColorParser", "confidence": "medium", "evidence": "ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy,UI 样式元素的颜色解析与设置"},
+  {"obf_class": "BackingFieldBase_k__BackingField_4A58", "proposed_name": null, "confidence": "low", "evidence": "AvatarPerformanceStats::SetName 与 AnimatedEmoji::get_IsSpecialFX 分属不同子系统,信号矛盾,不强命名"},
+  {"obf_class": "BaseClass52Impl_C461", "proposed_name": "StyleElementColorParser", "confidence": "medium", "evidence": "与 C361 同构:ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy,样式元素颜色解析"},
+  {"obf_class": "Struct6f_3B58", "proposed_name": "NotificationAccessibilitySettings", "confidence": "high", "evidence": "NotificationContext 的 isBoldTextEnabled/isClosedCaptioningEnabled get/set,通知的无障碍(粗体/字幕)设置"},
+  {"obf_class": "BaseClass5Impl_E1D9", "proposed_name": "DebugDisplayRefreshService", "confidence": "medium", "evidence": "RefreshServicesdebugDisplayComponent::GetScriptClassName + InvokeDelayed,调试显示刷新服务组件"},
+  {"obf_class": "BaseClass52Impl_C6CF", "proposed_name": null, "confidence": "low", "evidence": "仅 RegexCache::get_name + ThrowHelper(boilerplate),信号过薄无法定域"},
+  {"obf_class": "BackingFieldBase_k__BackingField_319C", "proposed_name": null, "confidence": "low", "evidence": "仅 Buffer::Memcpy + String::LastIndexOfAny,泛型字符串/缓冲操作,看不出领域"},
+  {"obf_class": "BaseClass45Impl_C46D", "proposed_name": "GlobalLoggerComponent", "confidence": "medium", "evidence": "GameObject::GetComponent + VRCLogger::get_GlobalLogger,使用全局日志器的组件"},
+  {"obf_class": "BackingFieldBase_k__BackingField_07F7", "proposed_name": null, "confidence": "low", "evidence": "仅单个 AvatarPerformanceStatsReference::set_name,单调用证据不足"},
+  {"obf_class": "BaseClass52Impl_045F", "proposed_name": null, "confidence": "low", "evidence": "仅单个 StyleElement::StopAllCoroutines,信号不足"},
+  {"obf_class": "BaseClass290ImplImpl_248B", "proposed_name": null, "confidence": "low", "evidence": "仅 MainThreadQueueDrainer::op_Implicit(隐式转换),单一 cast 调用无法定域"},
+  {"obf_class": "Struct12f_DFD2", "proposed_name": null, "confidence": "low", "evidence": "仅单个 InteractionState::get_totalTimeoutCompletionTimeRemaining getter,证据不足不强命名"}
+]

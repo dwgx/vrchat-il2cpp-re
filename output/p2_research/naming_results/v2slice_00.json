@@ -1,0 +1,21 @@
+[
+  {"obf_class": "BaseClass45Impl_A5E7", "proposed_name": "CanvasGroupVisibilityTween", "confidence": "high", "evidence": "callees: DOTween::Sequence + DOTweenModuleUI::DOAnchorPosX + CanvasGroup::set_alpha + RectTransform::set_anchoredPosition + TransformChangedVisibility::Initialize + TweenExtensions::Kill — DOTween 驱动的 CanvasGroup 淡入淡出/位移显隐补间"},
+  {"obf_class": "BackingFieldBaseImpl_BE25", "proposed_name": "FavoriteAreaListLoader", "confidence": "medium", "evidence": "callees: FavoriteArea::FetchLists + FavoriteAreaListFetcher::GetCachedPtr + Buffer::Memcpy + VRCLogger — 拉取/加载收藏区域列表"},
+  {"obf_class": "Struct21f_DBC2", "proposed_name": "RenderParamsShadowConfigurator", "confidence": "medium", "evidence": "callees: RenderParams::set_shadowCastingMode/set_receiveShadows/set_sceneCullingMask/set_overrideSceneCullingMask — 配置渲染阴影与裁剪参数"},
+  {"obf_class": "BaseClass7Impl_9376", "proposed_name": "RaycastColliderTrigger", "confidence": "low", "evidence": "callees: PhysicsraycastCollideruiShapeComponent::StopCoroutineFromEnumeratorManaged + UpdateComponent::OnTriggerExit/IsInvoking — 射线碰撞器触发的 MonoBehaviour，证据偏弱"},
+  {"obf_class": "BaseClass45Impl_ED1F", "proposed_name": null, "confidence": "low", "evidence": "callees 仅 Array::Clear + ManagedUnityObject::FindObjectOfType + String::FormatHelper + ThrowHelper，全为泛型 boilerplate，无领域信号"},
+  {"obf_class": "BaseClass7Impl_36EA", "proposed_name": "AnimatorCoroutineController", "confidence": "low", "evidence": "callees: Animator::StringToHash + UpdateComponent::Internal_CancelInvokeAll/StopCoroutineManaged — Animator 参数哈希 + 协程取消，证据偏弱"},
+  {"obf_class": "BaseClass52Impl_D03A", "proposed_name": "HtmlColorStyleSetter", "confidence": "medium", "evidence": "callees: ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy — 解析 HTML 颜色字符串并设置样式颜色"},
+  {"obf_class": "BackingFieldBase_k__BackingFieldImpl_F86A", "proposed_name": "StyleColorLogFormatter", "confidence": "low", "evidence": "callees: ColorUtility::TryParseHtmlString + VRCLogger::get_GlobalLogger + ZLoggerInterpolatedStringHandler::AppendLiteral — 颜色解析 + ZLogger 格式化日志，组合偏弱"},
+  {"obf_class": "BaseClass52Impl_4775", "proposed_name": "HtmlColorStyleSetter", "confidence": "medium", "evidence": "callees: ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy — 与 D03A 同模式，HTML 颜色样式设置"},
+  {"obf_class": "BaseClass52Impl_AE72", "proposed_name": "HtmlColorStyleSetter", "confidence": "medium", "evidence": "callees: ColorUtility::TryParseHtmlString + StyleElementColorSetter::Destroy — 与 D03A/4775 同模式，HTML 颜色样式设置"},
+  {"obf_class": "BaseClass5Impl_296A", "proposed_name": "DebugDisplayRefresher", "confidence": "medium", "evidence": "callees: RefreshServicesdebugDisplayComponent::GetScriptClassName + InvokeDelayed — 调试显示组件的刷新服务"},
+  {"obf_class": "BaseClass52Impl_5523", "proposed_name": null, "confidence": "low", "evidence": "callees 仅 RegexCache::get_name + ThrowHelper，单一访问器无法确定领域"},
+  {"obf_class": "BackingFieldBaseImpl_5C4E", "proposed_name": "ApiGroupAnnouncementHandler", "confidence": "low", "evidence": "callees: ApiFile::PerformRegexMatch + ApiGroupInstanceAnnouncement::SendAnnouncement — VRChat API 组实例公告，两调用领域略散"},
+  {"obf_class": "BaseClass45Impl_E519", "proposed_name": null, "confidence": "low", "evidence": "callees 仅 GameObject::SetActive + Shader::Find，泛型 Unity 调用，无领域信号"},
+  {"obf_class": "BaseClass290ImplImpl_31B9", "proposed_name": null, "confidence": "low", "evidence": "callees 仅 MainThreadQueueDrainer::op_Implicit（隐式转换运算符），信号不足"},
+  {"obf_class": "BackingFieldBaseImpl_0211", "proposed_name": "FriendsManagerInitializer", "confidence": "low", "evidence": "callee 仅 FriendsManager::Initialize，领域明确(好友系统)但单调用证据弱"},
+  {"obf_class": "BaseClass7Impl_69A0", "proposed_name": null, "confidence": "low", "evidence": "callee 仅 UItransformPanelvariablesPanelComponent::Internal_IsInvokingAll，泛型 MonoBehaviour 调用"},
+  {"obf_class": "Struct3f_2E2E", "proposed_name": "StencilStateConfigurator", "confidence": "low", "evidence": "callee 仅 StencilState::set_compareFunctionBack，模板测试状态配置，领域明确但单调用"},
+  {"obf_class": "Struct2f_A7F9", "proposed_name": null, "confidence": "low", "evidence": "callee 仅 ZipGenericExtraField::get_Size，单一 zip 访问器，证据不足"}
+]

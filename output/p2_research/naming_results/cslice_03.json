@@ -1,0 +1,74 @@
+[
+  {
+    "obf_class": "BaseClass7Impl_2552",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "callees mix Animator::StringToHash + physics OnTriggerExit + UpdateComponent coroutine/invoke lifecycle (StopCoroutine/IsInvoking/CancelInvoke); generic MonoBehaviour boilerplate, no coherent domain"
+  },
+  {
+    "obf_class": "BaseClass45Impl_5F76",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "UI-ish signals spread thin (LocalizedTextElement::OnDisable, TransformChangedVisibility::OnBecameInvisible, GameObject::SetActive, PointerClickSubmit::FindObjectsByType) but no single coherent concept; mostly empty callees"
+  },
+  {
+    "obf_class": "BaseClass45Impl_567E",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "pure Unity object lifecycle boilerplate (UnityObjectWrapper_4 DestroyImmediate/FindObjectsByType/ForceLoadFromInstanceID/Initialize) + Monitor lock; no domain"
+  },
+  {
+    "obf_class": "BackingFieldBase_k__BackingField_4A58",
+    "proposed_name": "AvatarPerformanceStatsController",
+    "confidence": "medium",
+    "evidence": "calls AvatarPerformanceStatsReference::SetName/set_name and PlayerOwnerCanUseAnimatedEmoji::get_IsSpecialFX — coherent avatar performance/emoji domain"
+  },
+  {
+    "obf_class": "BaseClass45Impl_48BD",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "pure UnityObjectWrapper_4 lifecycle boilerplate (DestroyImmediate/FindObjectsByType/Initialize) + Monitor lock; no domain"
+  },
+  {
+    "obf_class": "BaseClass45Impl_B5AD",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "pure UnityObjectWrapper_4 lifecycle boilerplate (DestroyImmediate/FindObjectsByType/Initialize) + Monitor lock; no domain"
+  },
+  {
+    "obf_class": "BaseClass45Impl_26F4",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "mixed signals: TweenManager::FilteredOperation + ColorUtility::ToHtmlStringRGB + PointerClickSubmit + Array::Clear; tween/color/UI mix with no tight concept"
+  },
+  {
+    "obf_class": "BaseClass5Impl_4A34",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "single method; 2 of 3 callees hit RefreshServicesdebugDisplayComponent (GetScriptClassName/InvokeDelayed), only 1 OscClient::Send — mixed debug/OSC signal, not coherent enough"
+  },
+  {
+    "obf_class": "BaseClass290Impl_k__BackingFieldImpl_28EE",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "generic Unity instantiate/clone primitives (Internal_CloneSingleWithParent, InstantiableObject::op_Implicit, InstantiateWrapper::FindObjectsByType); mechanism not a domain"
+  },
+  {
+    "obf_class": "BaseClass45Impl_9CB4",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "pure UnityObjectWrapper_4 lifecycle boilerplate (DestroyImmediate/FindObjectsByType/ForceLoadFromInstanceID); no domain"
+  },
+  {
+    "obf_class": "BaseClass52Impl_2F3B",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "only BCL/internal helpers (RegexCache::GetCachedPtr, ThrowHelper ArgumentOutOfRange/NullReference); no VRChat domain"
+  },
+  {
+    "obf_class": "BaseClass52Impl_F511",
+    "proposed_name": null,
+    "confidence": "low",
+    "evidence": "mix of UI LayoutGroup::SetDirty + RegexCache::GetCachedPtr + ThrowHelper boilerplate; no coherent domain"
+  }
+]

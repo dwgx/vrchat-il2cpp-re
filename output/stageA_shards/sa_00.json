@@ -1,0 +1,136 @@
+[
+ {
+  "original_name": "ÎÎÎÎÎÌÏÍÏÍÍÎÏÏÍÎÏÌÌÏÏÌÍ",
+  "fields": [
+   "button",
+   "indicator",
+   "textStyleElement"
+  ],
+  "methods": [
+   "Initialize",
+   "StartCoroutine",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "StopAllCoroutines",
+   "get_useGUILayout",
+   "set_useGUILayout",
+   "get_didStart",
+   "get_didAwake"
+  ]
+ },
+ {
+  "original_name": "ÌÌÏÎÎÌÎÏÌÍÍÌÌÏÌÎÍÎÌÌÌÌÍ",
+  "fields": [
+   "_m_CancellationTokenSource",
+   "_buttonVisuals",
+   "_micActiveColor",
+   "_micMutedColor"
+  ],
+  "methods": [
+   "StartCoroutine",
+   "Initialize",
+   "StopAllCoroutines",
+   "get_useGUILayout",
+   "set_useGUILayout"
+  ]
+ },
+ {
+  "original_name": "ÌÎÏÍÌÏÍÏÎÍÌÏÍÏÌÎÍÌÍÎÏÏÌ",
+  "fields": [
+   "_m_CancellationTokenSource",
+   "canvasGroup",
+   "verticalLayoutGroup"
+  ],
+  "methods": [
+   "StartCoroutine",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "StopAllCoroutines",
+   "Initialize"
+  ]
+ },
+ {
+  "original_name": "ÎÏÎÍÎÏÎÎÌÍÎÍÏÍÎÎÌÎÌÏÍÍÌ",
+  "fields": [
+   "textPrefab",
+   "parentLayoutGroup"
+  ],
+  "methods": [
+   "Initialize",
+   "StartCoroutine",
+   "StartCoroutine_Auto",
+   "StopCoroutine",
+   "StopAllCoroutines"
+  ]
+ },
+ {
+  "original_name": "ÍÏÌÍÏÌÌÍÌÍÌÎÌÏÎÍÎÌÍÍÏÌÏ",
+  "fields": [
+   "notePreview",
+   "preview",
+   "cropControlsParent"
+  ],
+  "methods": [
+   "Initialize",
+   "StartCoroutine",
+   "StartCoroutine_Auto"
+  ]
+ },
+ {
+  "original_name": "ÌÎÏÌÌÎÎÏÍÍÍÎÍÎÍÍÌÎÎÏÍÎÎ",
+  "fields": [
+   "_m_CancellationTokenSource",
+   "_elementMessagePrefab",
+   "_squarePulsePrefab",
+   "_circlePulsePrefab"
+  ],
+  "methods": []
+ },
+ {
+  "original_name": "ÎÌÌÍÌÏÎÍÌÌÌÏÏÍÍÍÌÏÍÍÏÍÌ",
+  "fields": [
+   "roleNameText",
+   "style"
+  ],
+  "methods": [
+   "Initialize",
+   "StartCoroutine_Auto"
+  ]
+ },
+ {
+  "original_name": "ÏÌÏÎÌÏÌÏÍÌÌÏÍÏÎÏÍÎÍÌÏÍÍ",
+  "fields": [
+   "button",
+   "tooltip",
+   "style"
+  ],
+  "methods": []
+ },
+ {
+  "original_name": "ÏÍÎÏÍÍÍÎÌÏÍÎÎÎÌÌÏÌÏÎÏÍÏ",
+  "fields": [
+   "_id",
+   "_graphic",
+   "_rippleEffectParent"
+  ],
+  "methods": []
+ },
+ {
+  "original_name": "ÎÍÏÏÏÌÌÍÎÍÌÍÍÍÎÍÎÏÎÌÏÏÏ",
+  "fields": [
+   "label",
+   "toggle",
+   "iconImage"
+  ],
+  "methods": []
+ },
+ {
+  "original_name": "ÎÏÍÌÎÏÎÎÏÎÏÍÍÏÏÍÎÌÏÎÍÏÍ",
+  "fields": [
+   "servicesRoot",
+   "canvasRoot",
+   "dependencyManager"
+  ],
+  "methods": []
+ }
+]

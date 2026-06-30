@@ -2240,16 +2240,15 @@ namespace VRC.Player
         public void set_AnimationStyle(){} // RVA: 0x179DA30
         public void get_Frames(){} // RVA: 0x2512F00
         public void get_LoopStyle(){} // RVA: 0x2512F20
-        public void set_Frames(){} // RVA: 0x12BAA90
+        public void set_IsAnimated(){} // RVA: 0x12BAA90
         public void set_SpawnablePrefabName(){} // RVA: 0xC10060
         public void get_SpawnablePrefabName(){} // RVA: 0xB70160
-        public void set_IsAnimated(){} // RVA: 0x2512F80
+        public void set_Sprite(){} // RVA: 0x2512F80
         public void get_IsAnimated(){} // RVA: 0x2512FB0
         public void get_Sprite(){} // RVA: 0xDAC980
-        public void set_Sprite(){} // RVA: 0xB70160
+        public void set_DisplayTexture(){} // RVA: 0xB70160
         public void get_AnimationStyle(){} // RVA: 0x12427C0
-        public void set_DisplayTexture(){} // RVA: 0xBBFFA0
-        public void set_FPS(){} // RVA: 0x2512FD0
+        public void set_FPS(){} // RVA: 0xBBFFA0
         public void get_DisplayTexture(){} // RVA: 0xBBFF90
         public void set_EffectBundleID(){} // RVA: 0xD33E60
         public void get_FPS(){} // RVA: 0x188A0B0
@@ -2269,6 +2268,7 @@ namespace VRC.Player
         public void set_MaskTag(){} // RVA: 0xBE2C70
         public void get_MaskTag(){} // RVA: 0x12BAA90
         // ── Unresolved (hash) ──
+        public void m_603(){} // RVA: 0x2512FD0
         public void m_0F0(){} // RVA: 0x2513760
         public void m_2F2(){} // RVA: 0x179DA30
         public void m_F72(){} // RVA: 0x2513810

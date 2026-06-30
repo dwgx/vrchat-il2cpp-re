@@ -33,6 +33,9 @@ TOOLS_DIR = BASE_DIR / 'tools'
 OUTPUT_DIR = BASE_DIR / 'output'
 DATA_DIR = BASE_DIR / 'data'
 IDA_DIR = BASE_DIR / 'ida'
+
+sys.path.insert(0, str(TOOLS_DIR))
+from name_quality import is_weak_name as _nq_is_weak_name  # canonical criterion
 CACHE_PATH = OUTPUT_DIR / '.pipeline_cache.json'
 
 # Input dump
@@ -911,16 +914,12 @@ def _apply_additional_names(deobf_data: dict, class_map: dict, orig_index: dict)
 
 
 def _is_weak_name(name: str) -> bool:
-    """Check if a deobfuscated name is a weak/fallback name that should be overridden."""
-    weak_prefixes = (
-        'Obf_', 'Type', 'Struct', 'Mono', 'Service', 'Major', 'Static',
-        'DataOnly', 'EmptyType', 'EmptyStruct', 'EmptyClass', 'Record',
-        'Unknown', 'LargeClass', 'Class_',
-    )
-    # Also check for purely structural names like "Type42m5f_ABCD"
-    if re.match(r'^(Type|Struct|Mono|Service|Major|Static)\d+[mf]', name):
-        return True
-    return name.startswith(weak_prefixes)
+    """Check if a deobfuscated name is a weak/fallback name that should be overridden.
+
+    Delegates to the canonical criterion in name_quality so the pipeline and the
+    coverage report (compute_final_stats) can never disagree.
+    """
+    return _nq_is_weak_name(name)
 
 
 # ══════════════════════════════════════════════════════════════════════
@@ -1521,6 +1520,25 @@ Stages:
     print(f'  Force (no cache): {args.force}')
     print()
 
+    # Fail fast if the coverage criterion drifted — it controls the headline
+    # number and silently broke once (62.8% reported vs ~45% real).
+    guard = TOOLS_DIR / 'test_name_quality.py'
+    if guard.exists():
+        import subprocess
+        gr = subprocess.run([sys.executable, str(guard)],
+                            capture_output=True, text=True, encoding='utf-8', errors='replace')
+        # live-consistency check needs the prior run's stats; skip that line on a
+        # fresh/forced run by only treating golden+residual drift as fatal here.
+        fatal = 'golden cases drifted' in (gr.stdout or '') or \
+                'residual extraction drifted' in (gr.stdout or '')
+        if fatal:
+            print('  CRITERION GUARD FAILED — aborting before producing numbers:')
+            print('  ' + '\n  '.join((gr.stdout or '').splitlines()))
+            sys.exit(2)
+        print('  Criterion guard: golden cases hold')
+        print()
+
+
     # Check prerequisites
     if not BASE_DIR.exists():
         print(f'ERROR: Base directory not found: {BASE_DIR}')
@@ -1678,6 +1696,66 @@ Stages:
                 print(f'    WARN: apply_class_names exited {r.returncode}')
         except Exception as e:
             print(f'    WARN: field-signature class names skipped: {e}')
+
+    # ── Stage 2d-field: Type-derived FIELD names ─────────────────────────
+    # Names the f_HEX fields (Beebyte-obfuscated field names are unrecoverable)
+    # from their TYPES, which ARE recoverable. Runs AFTER class names so that
+    # field types pointing at now-named domain classes resolve (e.g. a field of
+    # type ApiAvatar -> _apiAvatar). build_ regenerates the map fresh from the
+    # dump each run; apply_ rewrites the `fields` lists and is idempotent.
+    if 3 in stages:
+        print('\n  [2d-field] Naming f_HEX fields from their types ...')
+        try:
+            import subprocess
+            for tool in ('build_fieldname_from_type.py', 'apply_field_names.py'):
+                r = subprocess.run([sys.executable, str(TOOLS_DIR / tool)],
+                                   capture_output=True, text=True, encoding='utf-8', errors='replace')
+                for line in (r.stdout or '').splitlines():
+                    if 'done' in line or 'applied field names' in line:
+                        print(f'  {line.strip()}')
+                if r.returncode != 0:
+                    print(f'    WARN: {tool} exited {r.returncode}')
+        except Exception as e:
+            print(f'    WARN: type-derived field names skipped: {e}')
+
+    # ── Stage 2d-method: Per-method call-target behavioral names ─────────
+    # Names m_HEX methods from the dominant DISTINCTIVE domain API their body
+    # calls (item 16). The expensive disasm BUILD (build_method_calltarget_
+    # signal.py, needs the dump) is run manually and its output committed as
+    # output/method_calltarget_names.json; here we only APPLY that map, the same
+    # way stage 2d applies the committed call-target CLASS names. Position-aligns
+    # obf method names to m_HEX and never clobbers an already-semantic name.
+    if 3 in stages and (OUTPUT_DIR / 'method_calltarget_names.json').exists():
+        print('\n  [2d-method] Applying behavioral method names (call-target) ...')
+        try:
+            import subprocess
+            r = subprocess.run([sys.executable, str(TOOLS_DIR / 'apply_method_calltarget_names.py')],
+                               capture_output=True, text=True, encoding='utf-8', errors='replace')
+            for line in (r.stdout or '').splitlines():
+                if 'applied behavioral' in line or 'skipped' in line:
+                    print(f'  {line.strip()}')
+            if r.returncode != 0:
+                print(f'    WARN: apply_method_calltarget_names exited {r.returncode}')
+        except Exception as e:
+            print(f'    WARN: behavioral method names skipped: {e}')
+
+    # ── Stage 2e: Refresh deterministic evidence grades ───────────────
+    # grade_evidence.py tags every obfuscated class A/B/C/D (confidence +
+    # semantic_source) using the shared name_quality criterion, so the audit
+    # trail regenerates with the dump and never goes stale.
+    if 3 in stages and (TOOLS_DIR / 'grade_evidence.py').exists():
+        print('\n  [2e] Refreshing evidence grades (A/B/C/D) ...')
+        try:
+            import subprocess
+            r = subprocess.run([sys.executable, str(TOOLS_DIR / 'grade_evidence.py'), '--apply'],
+                               capture_output=True, text=True, encoding='utf-8', errors='replace')
+            for line in (r.stdout or '').splitlines():
+                if 'Auditable' in line or 'Honestly' in line:
+                    print(f'  {line.strip()}')
+            if r.returncode != 0:
+                print(f'    WARN: grade_evidence exited {r.returncode}')
+        except Exception as e:
+            print(f'    WARN: evidence grading skipped: {e}')
 
     # ── Stage 3 ───────────────────────────────────────────────────────
     if 3 in stages:
