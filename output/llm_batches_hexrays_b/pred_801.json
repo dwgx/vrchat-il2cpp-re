@@ -1,6 +1,0 @@
-{
- "BehaviourHandler_0E09::m_6CD": "RefreshChainEndpointStates",
- "BehaviourHandler_0E09::m_889": "SetRootPosition",
- "BehaviourHandler_0E09::m_A8A": "SetRootPosition",
- "CameraQualitySettingsHandler_78B9::m_9E5": "CopyMainCameraQualitySettings"
-}

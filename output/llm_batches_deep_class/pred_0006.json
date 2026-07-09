@@ -1,6 +1,0 @@
-{
- "TransformPhysicsSystem_923C::m_508": "get_Value",
- "TransformPhysicsSystem_923C::m_513": "GetValueOrDefault",
- "TransformPhysicsSystem_923C::m_5C5": "SetEnabled",
- "TransformPhysicsSystem_923C::m_5D6": "CalculateColliderCenter"
-}

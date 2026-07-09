@@ -1,6 +1,0 @@
-{
- "PhysicsEffector2DHandler_6ECC::m_46F": "InverseTransformPoint",
- "PhysicsEffector2DHandler_6ECC::m_552": "GetEffectorTransform",
- "PhysicsEffector2DHandler_6ECC::m_643": "InitializeAnimationCurves",
- "PhysicsEffector2DHandler_6ECC::m_85D": "SetAnimationCurveKeys"
-}

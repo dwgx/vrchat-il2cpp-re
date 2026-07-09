@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_3E16::m_77C": "SetEnvironmentVariableString",
- "VRCNetworkBehaviourSibling_BF5Sibling_3F29::m_55E": "FormatDoubleToString",
- "VRCNetworkBehaviourSibling_BF5Sibling_3F29::m_77C": "ShouldRoundFloatingPointValue",
- "VRCNetworkBehaviourSibling_BF5Sibling_3F29::m_943": "MapStringWithLocaleFallback",
- "VRCNetworkBehaviourSibling_BF5Sibling_3F29::m_96F": "ResolveWinApiFunction"
-}

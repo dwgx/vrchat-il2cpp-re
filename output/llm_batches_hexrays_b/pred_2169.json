@@ -1,6 +1,0 @@
-{
- "TransformQuaternionHandler_90E5::m_9E2": "BuildGcDescriptor",
- "TransformQuaternionHandler_90E5::m_BF2": "BuildFieldGcBitmap",
- "TransformQuaternionHandler_90E5::m_DB9": "BuildFieldGcBitmap",
- "TransformQuaternionHandler_90E5::m_FFD": "GetPointerClass"
-}

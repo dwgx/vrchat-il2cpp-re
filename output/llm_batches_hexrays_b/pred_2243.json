@@ -1,9 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_3A1F::m_5F0": "Equals",
- "VRCNetworkBehaviourSibling_BF5Sibling_3A1F::m_61B": "Equals",
- "VRCNetworkBehaviourSibling_BF5Sibling_3A1F::m_646": "Equals",
- "VRCNetworkBehaviourSibling_BF5Sibling_3A25::m_016": "ResetHashTables",
- "VRCNetworkBehaviourSibling_BF5Sibling_3A25::m_24F": "ClearHashBuckets",
- "VRCNetworkBehaviourSibling_BF5Sibling_3A25::m_6F8": "ResetHashTables",
- "VRCNetworkBehaviourSibling_BF5Sibling_3A25::m_F2B": "StoreBytesAndUpdateHash"
-}

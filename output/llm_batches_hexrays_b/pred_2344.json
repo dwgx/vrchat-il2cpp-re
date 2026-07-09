@@ -1,5 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_BD0A::m_016": "GetFloatingPointControlWord",
- "VRCNetworkBehaviourSibling_BF5Sibling_BD0A::m_24F": "ConvertUIntToWideStringSafe",
- "VRCNetworkBehaviourSibling_BF5Sibling_BD0A::m_6F8": "Log10f"
-}

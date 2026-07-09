@@ -1,7 +1,0 @@
-{
- "LifecycleComponent_5FA7SiblingSibling_2E15::m_A04": "GetTypeInfoFromTypeDefinition",
- "LifecycleComponent_5FA7SiblingSibling_2E15::m_A66": "GetTypeInfoFromTypeDefinitionIndex",
- "LifecycleComponent_5FA7SiblingSibling_2E15::m_B77": "GetTypeInfoFromTypeIndex",
- "LifecycleComponent_5FA7SiblingSibling_2E15::m_C3B": "InitializeRuntimeMetadata",
- "LifecycleComponent_5FA7SiblingSibling_2E15::m_E7D": "CreateTypeInfoFromTypeDefinitionIndex"
-}

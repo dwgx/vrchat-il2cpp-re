@@ -1,7 +1,0 @@
-{
- "TransformComponentHandler_930A::m_227": "GetMethods",
- "TransformComponentHandler_930A::m_57B": "GetMethodFromNameFlags",
- "TransformComponentHandler_930A::m_80A": "IsAssignableFrom",
- "TransformComponentHandler_930A::m_8CB": "FromIl2CppType",
- "TransformComponentHandler_930A::m_AFF": "GetProperties"
-}

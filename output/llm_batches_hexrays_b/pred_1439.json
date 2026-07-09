@@ -1,6 +1,0 @@
-{
- "ApplicationTransformHandler_10BF::m_224": "ParseLocaleName",
- "ApplicationTransformHandler_10BF::m_5DA": "SetWideLocaleNoLock",
- "ApplicationTransformHandler_10BF::m_61A": "SetWideLocaleNoLock",
- "ApplicationTransformHandler_10BF::m_68A": "ParseLocaleName"
-}

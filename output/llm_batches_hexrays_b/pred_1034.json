@@ -1,7 +1,0 @@
-{
- "ONSPAmbisonicsNativeSibliRelated_5B90::m_F46": "InvokeNativeFunctionWithMarshaledString",
- "ONSPAmbisonicsNativeSibliRelated_5F0E::m_28F": "GetNextArrayElement",
- "ONSPAmbisonicsNativeSibliRelated_5F0E::m_338": "DisposeEnumerator",
- "ONSPAmbisonicsNativeSibliRelated_5F0E::m_3E8": "MoveEnumeratorNext",
- "ONSPAmbisonicsNativeSibliRelated_5F0E::m_889": "InvokeMulticastDelegates"
-}

@@ -1,5 +1,0 @@
-{
- "TextureUIHandler_22D3::m_5B4": "UnregisterSocketPoll",
- "TextureUIHandler_22D3::m_9C4": "RegisterSocketPoll",
- "TextureUIHandler_22D3::m_D18": "UnregisterSocketPoll"
-}

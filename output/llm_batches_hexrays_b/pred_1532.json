@@ -1,6 +1,0 @@
-{
- "MeshComponentHandler_D30A::m_0AD": "CopyIndexBuffer",
- "MeshComponentHandler_D30A::m_46F": "AllocateIndexBufferMemory",
- "MeshComponentHandler_D30A::m_C63": "AllocateIndexBuffer",
- "MeshComponentHandler_D30A::m_DBB": "SetIndexBufferValue"
-}

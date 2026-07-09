@@ -1,5 +1,0 @@
-{
- "VRC_MainSiblingRelated_F63D::m_D87": "AllocateAlignedMemory",
- "VRC_MainSiblingRelated_F63D::m_DE1": "ThrowCouldNotLoadTypeException",
- "VRC_MainSiblingRelated_F63D::m_DFD": "ThrowCouldNotFindWindowsRuntimeTypeException"
-}

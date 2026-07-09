@@ -1,7 +1,0 @@
-{
- "VRC_MainSibling_C23A::m_885": "MarshalNativeToManaged",
- "VRC_MainSibling_C23A::m_891": "MarshalManagedToNative",
- "VRC_MainSibling_C23A::m_8C2": "MarshalManagedToNative",
- "VRC_MainSibling_C23A::m_91E": "MarshalNativeToManaged",
- "VRC_MainSibling_C23A::m_926": "MarshalNativeToManaged"
-}

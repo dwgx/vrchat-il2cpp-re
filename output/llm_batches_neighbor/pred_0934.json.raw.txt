@@ -1,9 +1,0 @@
-{
-  "m_2CD": "FontData",
-  "m_F62": "Text",
-  "m_330": "TextCache",
-  "m_F9F": "TextCacheForLayout",
-  "m_864": "DefaultText",
-  "m_1E9": "DisableFontTextureRebuiltCallback",
-  "m_831": "TempVerts"
-}

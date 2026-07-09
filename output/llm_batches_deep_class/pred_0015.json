@@ -1,9 +1,0 @@
-{
- "TransformPhysicsSystem_923C::m_D74": "MarshalCollisionRecordToNative",
- "TransformPhysicsSystem_923C::m_D8C": "CalculateColliderCenter",
- "TransformPhysicsSystem_923C::m_DA7": "UpdateTransformPose",
- "TransformPhysicsSystem_923C::m_DE1": "MarshalCollisionRecordToNative",
- "TransformPhysicsSystem_923C::m_E18": "MarshalCollisionRecordToNative",
- "TransformPhysicsSystem_923C::m_E19": "get_Value",
- "TransformPhysicsSystem_923C::m_E28": "MarshalCollisionRecordShapeToNative"
-}

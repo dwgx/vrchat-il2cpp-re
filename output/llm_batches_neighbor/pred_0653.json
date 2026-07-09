@@ -1,9 +1,0 @@
-{
-  "m_E2F": "OnEnable",
-  "m_752": "FixedUpdate",
-  "m_43A": "OnCollisionExit",
-  "m_DBA": "OnTriggerEnter",
-  "m_D85": "OnTriggerStay",
-  "m_544": "OnTriggerExit",
-  "m_D1C": "OnControllerColliderHit"
-}

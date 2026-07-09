@@ -1,8 +1,0 @@
-{
- "TransformGameObjectHandler_AE64::m_86E": "ConvertMultiByteToWideChar",
- "TransformGameObjectHandler_AE64::m_879": "Sqrt",
- "TransformGameObjectHandler_AE64::m_AAC": "ConvertMultiByteToWideChar",
- "TransformGameObjectHandler_AE64::m_B64": "ReallocateHeapMemory",
- "TransformGameObjectHandler_AE64::m_CCD": "CloseAllStreams",
- "TransformGameObjectHandler_AE64::m_D9D": "CloseAllStreams"
-}

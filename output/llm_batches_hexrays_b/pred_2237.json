@@ -1,6 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_2FBC::m_552": "ConfigureNarrowArgv",
- "VRCNetworkBehaviourSibling_BF5Sibling_2FBC::m_6F8": "ParseCommandLineArguments",
- "VRCNetworkBehaviourSibling_BF5Sibling_2FBC::m_937": "InitializeNarrowEnvironment",
- "VRCNetworkBehaviourSibling_BF5Sibling_2FBC::m_C01": "ConfigureNarrowArgv"
-}

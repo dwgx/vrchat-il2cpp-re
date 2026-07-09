@@ -1,7 +1,0 @@
-{
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_346": "AllocateGCHandleSlot",
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_3AB": "SetGCHandleTarget",
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_466": "VisitGCHandles",
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_506": "AllocateWeakReferenceHandle",
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_538": "ClearWeakReferenceSlot"
-}

@@ -1,7 +1,0 @@
-{
- "TransformQuaternionHandler_4824::m_2B1": "ToString",
- "TransformQuaternionHandler_4824::m_4DA": "Equals",
- "TransformQuaternionHandler_4824::m_7C9": "ToString",
- "TransformQuaternionHandler_4824::m_852": "GetHashCode",
- "TransformQuaternionHandler_4824::m_A6A": "Equals"
-}

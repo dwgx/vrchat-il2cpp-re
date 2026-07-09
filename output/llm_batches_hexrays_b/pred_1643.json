@@ -1,6 +1,0 @@
-{
- "TransformGameObjectHandler_2728::m_402": "Equals",
- "TransformGameObjectHandler_2728::m_679": "Equals",
- "TransformGameObjectHandler_A3BD::m_280": "ConvertMultibyteToWideString",
- "TransformGameObjectHandler_A3BD::m_2E1": "WideCharToMultiByteWithCodePageFlags"
-}

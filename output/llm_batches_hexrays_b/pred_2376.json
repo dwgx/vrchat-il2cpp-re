@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_F05A::m_C01": "IsProbablyIncompressible",
- "VRCNetworkBehaviourSibling_BF5Sibling_F066::m_2F0": "Release",
- "VRCNetworkBehaviourSibling_BF5Sibling_F066::m_410": "Dispose",
- "VRCNetworkBehaviourSibling_BF5Sibling_F066::m_6F8": "AddRef",
- "VRCNetworkBehaviourSibling_BF5Sibling_F066::m_937": "QueryInterface"
-}

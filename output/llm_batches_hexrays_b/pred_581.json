@@ -1,6 +1,0 @@
-{
- "TransformQuaternionHandler_4824::m_D4C": "Equals",
- "TransformQuaternionHandler_4824::m_F6F": "ToString",
- "VFXBundleInfo::m_46E": "Equals",
- "VFXBundleInfo::m_BDA": "GetHashCode"
-}

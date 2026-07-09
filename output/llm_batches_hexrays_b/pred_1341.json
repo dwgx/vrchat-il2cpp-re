@@ -1,8 +1,0 @@
-{
- "TransformQuaternionHandler_67C8::m_615": "get_Span",
- "TransformQuaternionHandler_67C8::m_7D1": "TryCopyTo",
- "TransformQuaternionHandler_67C8::m_CE1": "Pin",
- "TransformQuaternionHandler_67C8::m_D09": "get_IsEmpty",
- "TransformQuaternionHandler_67C8::m_D2D": "Slice",
- "TransformQuaternionHandler_E3AB::m_9DD": "ToString"
-}

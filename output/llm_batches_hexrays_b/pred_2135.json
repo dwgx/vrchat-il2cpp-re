@@ -1,7 +1,0 @@
-{
- "TransformComponentHandler_8952::m_B3D": "GetStructuralHashCode",
- "TransformComponentHandler_8952::m_C81": "GetStructuralHashCode",
- "TransformComponentHandler_8952::m_E54": "GetStructuralHashCode",
- "TransformComponentHandler_8952::m_FF5": "GetStructuralHashCode",
- "TransformComponentHandler_8952::m_FFD": "Equals"
-}

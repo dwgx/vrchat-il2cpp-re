@@ -1,8 +1,0 @@
-{
- "TransformQuaternionHandler_A100::m_8EF": "Equals",
- "TransformQuaternionHandler_A100::m_8FC": "Equals",
- "TransformQuaternionHandler_A100::m_A1A": "CompareTo",
- "TransformQuaternionHandler_A100::m_BB7": "ToStringEnd",
- "TransformQuaternionHandler_A100::m_10B": "ToString",
- "TransformQuaternionHandler_A100::m_1FC": "ToString"
-}

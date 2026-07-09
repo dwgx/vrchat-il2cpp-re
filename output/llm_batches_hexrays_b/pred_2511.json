@@ -1,5 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_89D8::m_55E": "WriteByteRangeToBitstream",
- "VRCNetworkBehaviourSibling_BF5Sibling_89DA::m_016": "InitializeCrt",
- "VRCNetworkBehaviourSibling_BF5Sibling_89DA::m_51F": "RunCrtStartupInitializers"
-}

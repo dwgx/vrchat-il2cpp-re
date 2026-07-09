@@ -1,6 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_C1B0::m_CF3": "QueueThreadPoolWorkItem",
- "VRCNetworkBehaviourSibling_BF5Sibling_C2BD::m_2F0": "IsPrintfArgumentTypeCompatible",
- "VRCNetworkBehaviourSibling_BF5Sibling_C2BD::m_410": "IsPrintfArgumentTypeCompatible",
- "VRCNetworkBehaviourSibling_BF5Sibling_C2BD::m_937": "ConvertUnsignedIntToDecimalString"
-}

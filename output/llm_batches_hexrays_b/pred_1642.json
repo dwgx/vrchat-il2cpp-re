@@ -1,9 +1,0 @@
-{
- "TransformComponentHandler_D35C::m_5FD": "PutbackByte",
- "TransformComponentHandler_D35C::m_748": "ReadByte",
- "TransformComponentHandler_D35C::m_9D0": "WriteByte",
- "TransformComponentHandler_D35C::m_D88": "WriteBytes",
- "TransformComponentHandler_D35C::m_F7A": "PutbackByte",
- "TransformComponentHandler_F9FE::m_A0E": "FindMethodByName",
- "TransformComponentHandler_F9FE::m_AD7": "DumpMetadataStatistics"
-}

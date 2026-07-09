@@ -1,1 +1,0 @@
-{"m_74F":"Type","m_920":"ApplicationId","m_B96":"Name","m_AB3":"State","m_8DC":"Details","m_E14":"Timestamps","m_7A1":"Assets","m_C32":"Party","m_3C4":"Secrets","m_C12":"Instance"}

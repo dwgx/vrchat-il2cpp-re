@@ -1,8 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_DECA::m_943": "BrotliDecoderDecompressStream",
- "VRCNetworkBehaviourSibling_BF5Sibling_DECA::m_96F": "BrotliDecoderErrorString",
- "VRCNetworkBehaviourSibling_BF5Sibling_DF99::m_536": "InsertRepeatedCharacter",
- "VRCNetworkBehaviourSibling_BF5Sibling_DF99::m_575": "DecodeVarLenUint8",
- "VRCNetworkBehaviourSibling_BF5Sibling_DF99::m_77C": "BrotliDecoderCreateInstance",
- "VRCNetworkBehaviourSibling_BF5Sibling_DF99::m_943": "DecodeMetaBlockLength"
-}

@@ -1,6 +1,0 @@
-{
- "PointerReleaseBones_BCA3::m_7B8": "ClearReleaseBones",
- "PointerReleaseBones_BCA3::m_65C": "ClearReleaseBonesFromIndex",
- "PointerReleaseBones_BCA3::m_C99": "AddReleaseBone",
- "PointerReleaseBones_BCA3::m_D30": "InitializeReleaseBones"
-}

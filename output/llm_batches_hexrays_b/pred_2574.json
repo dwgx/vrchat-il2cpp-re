@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_21B0::m_575": "ParseAssemblyName",
- "VRCNetworkBehaviourSibling_BF5Sibling_21B0::m_77C": "ParseNestedTypeNames",
- "VRCNetworkBehaviourSibling_BF5Sibling_21B0::m_943": "ParseArraySpecifiers",
- "VRCNetworkBehaviourSibling_BF5Sibling_2225::m_55E": "CacheTransformPosition",
- "VRCNetworkBehaviourSibling_BF5Sibling_2369::m_536": "ResizeBuckets"
-}

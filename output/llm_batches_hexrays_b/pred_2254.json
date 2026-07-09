@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_4A79::m_2F0": "TryReadInt64",
- "VRCNetworkBehaviourSibling_BF5Sibling_4A79::m_51F": "TryReadDouble",
- "VRCNetworkBehaviourSibling_BF5Sibling_4A79::m_6EA": "TryReadDouble",
- "VRCNetworkBehaviourSibling_BF5Sibling_4A79::m_6F8": "TryReadInt64",
- "VRCNetworkBehaviourSibling_BF5Sibling_4A79::m_C01": "TryReadInt32"
-}

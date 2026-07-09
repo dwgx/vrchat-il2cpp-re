@@ -1,5 +1,0 @@
-{
- "PlayerJoinedPlayerLeft_2F78::m_FA6": "InvokePlayerJoinedPlayerLeft",
- "PointerClickPointerEnter_E972::m_6E8": "TryGetSpanSlice",
- "PointerClickPointerEnter_E972::m_A3A": "TryGetSpanSlice"
-}

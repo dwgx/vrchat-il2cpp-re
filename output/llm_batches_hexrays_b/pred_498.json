@@ -1,6 +1,0 @@
-{
- "PointerEnterUpdateMessage_7223::m_9B2": "InvokePointerEnterUpdateHandler",
- "PointerEnterUpdateMessage_7223::m_ACC": "ThrowTypeFieldMarshalNotSupported",
- "PointerEnterUpdateMessage_7223::m_DDC": "PrintGarbageCollectorObjectInfo",
- "PointerEnterUpdateMessage_7223::m_F02": "InvokePointerEnterUpdateHandlers"
-}

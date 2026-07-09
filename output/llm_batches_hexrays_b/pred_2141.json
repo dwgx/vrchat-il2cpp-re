@@ -1,5 +1,0 @@
-{
- "TransformHandler_0BB5::m_1C5": "SetGlobalTR",
- "TransformHandler_0BB5::m_2A0": "HasValidHandleFlags",
- "TransformHandler_0BB5::m_7EB": "GetMaskedHandleValue"
-}

@@ -1,7 +1,0 @@
-{
- "UIDescriptionPurchase_F7C6::m_209": "SwapIfGreater",
- "UIDescriptionPurchase_F7C6::m_323": "SortArraySegment",
- "UIDescriptionPurchase_F7C6::m_357": "SwapIfGreater",
- "UIDescriptionPurchase_F7C6::m_3EF": "InsertionSort",
- "UIDescriptionPurchase_F7C6::m_45E": "SortArraySegmentWithComparer"
-}

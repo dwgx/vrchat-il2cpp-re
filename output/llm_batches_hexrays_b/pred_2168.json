@@ -1,7 +1,0 @@
-{
- "TransformQuaternionHandler_7A5B::m_162": "ToString",
- "TransformQuaternionHandler_90E5::m_18B": "SetupGcDescriptor",
- "TransformQuaternionHandler_90E5::m_341": "SetupGcDescriptor",
- "TransformQuaternionHandler_90E5::m_359": "SetupGcDescriptor",
- "TransformQuaternionHandler_90E5::m_5C2": "MarkGcDescriptorFields"
-}

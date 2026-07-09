@@ -1,5 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_50DB::m_410": "ClampFloat",
- "VRCNetworkBehaviourSibling_BF5Sibling_56FF::m_24F": "WriteDouble",
- "VRCNetworkBehaviourSibling_BF5Sibling_56FF::m_6C6": "TryReadBytes16"
-}

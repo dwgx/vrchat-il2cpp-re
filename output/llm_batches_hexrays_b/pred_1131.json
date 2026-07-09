@@ -1,6 +1,0 @@
-{
- "ApplicationComponentSystem_9BB5::m_72C": "ConvertWideCharToMultiByte",
- "ApplicationComponentSystem_9BB5::m_7F3": "FlushFileStream",
- "ApplicationComponentSystem_9BB5::m_8AF": "RaiseFloatingPointException",
- "ApplicationComponentSystem_9BB5::m_9F1": "CalculateTextModeFileOffset"
-}

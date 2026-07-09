@@ -1,7 +1,0 @@
-{
- "PlayerMoveNext_C4E9::m_378": "ToString",
- "PlayerMoveNext_C4E9::m_82A": "ToStringEnd",
- "PlayerMoveNext_C4E9::m_8B5": "ToStringEnd",
- "PlayerMoveNext_C4E9::m_DB5": "Equals",
- "PlayerMoveNext_C4E9::m_E2B": "GetStructuralHashCode"
-}

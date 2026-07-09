@@ -277,3 +277,12 @@ data/*.dat
 data/precise_dump_unity6.json
 data/precise_dump_unity6_hq.json
 output/p2_research/trackB_metadata_decrypted.dat
+
+# === LLM batch scratch dirs that slipped tracking (regenerable) ===
+output/llm_batches_hexrays_b/
+output/llm_batches_deep_class/
+output/neighbor_context_batches/
+output/gemini_neighbor_batches/
+
+# === PE section cache (temp) ===
+data/_sections_tmp.json

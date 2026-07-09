@@ -1,4 +1,0 @@
-{
- "TransformPhysicsSystem_923C::m_249": "MarshalCollisionRecordToNative",
- "TransformPhysicsSystem_923C::m_253": "ThrowCollisionRecordShapeMarshalException"
-}

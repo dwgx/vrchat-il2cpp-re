@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_8750::m_B00": "GetHashCode",
- "VRCNetworkBehaviourSibling_BF5Sibling_8750::m_BD2": "ToString",
- "VRCNetworkBehaviourSibling_BF5Sibling_8750::m_DE0": "ToString",
- "VRCNetworkBehaviourSibling_BF5Sibling_87C6::m_016": "BuildHuffmanDecodeTable",
- "VRCNetworkBehaviourSibling_BF5Sibling_87C6::m_24F": "ClearHuffmanTables"
-}

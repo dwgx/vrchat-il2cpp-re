@@ -1,6 +1,0 @@
-{
- "TransformPhysicsSystem_923C::m_E33": "MarshalCollisionRecordShapeToNative",
- "TransformPhysicsSystem_923C::m_E8E": "MarshalObjectMetadataPairToNative",
- "TransformPhysicsSystem_923C::m_EC7": "MarshalObjectMetadataPairToNative",
- "TransformPhysicsSystem_923C::m_EDB": "MarshalCollisionRecordToNative"
-}

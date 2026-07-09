@@ -1,8 +1,0 @@
-{
- "AsyncStateMachine_A6A7::m_0A8": "AwaitUnsafeOnCompleted",
- "AsyncStateMachine_A6A7::m_124": "get_Task",
- "AsyncStateMachine_A6A7::m_4D8": "StartStateMachine",
- "AsyncStateMachine_A6A7::m_4E8": "get_Task",
- "AsyncStateMachine_A6A7::m_752": "AwaitUnsafeOnCompleted",
- "AsyncStateMachine_A6A7::m_7F6": "AwaitUnsafeOnCompleted"
-}

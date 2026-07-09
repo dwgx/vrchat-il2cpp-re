@@ -1,8 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_5B63::m_77C": "GetDelegateForFunctionPointer",
- "VRCNetworkBehaviourSibling_BF5Sibling_5D65::m_575": "ReadFileElements",
- "VRCNetworkBehaviourSibling_BF5Sibling_5D65::m_77C": "CloseFile",
- "VRCNetworkBehaviourSibling_BF5Sibling_5D65::m_943": "CompareStrings",
- "VRCNetworkBehaviourSibling_BF5Sibling_5D65::m_96F": "CompareStrings",
- "VRCNetworkBehaviourSibling_BF5Sibling_5E58::m_536": "ConvertStringVectorToArray"
-}

@@ -1,9 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_DCCD::m_C01": "Fmod",
- "VRCNetworkBehaviourSibling_BF5Sibling_DCCD::m_C31": "Fmod",
- "VRCNetworkBehaviourSibling_BF5Sibling_DCCD::m_F2B": "Floor",
- "VRCNetworkBehaviourSibling_BF5Sibling_DF4B::m_2F0": "CreateCouldNotLoadTypeException",
- "VRCNetworkBehaviourSibling_BF5Sibling_DF4B::m_51F": "CreateCouldNotLoadTypeException",
- "VRCNetworkBehaviourSibling_BF5Sibling_DF4B::m_C01": "CreateCouldNotLoadTypeException",
- "VRCNetworkBehaviourSibling_BF5Sibling_DF4B::m_CF3": "CreateWindowsRuntimeTypeNotFoundException"
-}

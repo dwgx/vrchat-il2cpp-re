@@ -1,6 +1,0 @@
-{
- "VRC_MainSiblingRelated_F63D::m_40E": "CreateThreadInterruptedException",
- "VRC_MainSiblingRelated_F63D::m_41D": "GetExceptionForHR",
- "VRC_MainSiblingRelated_F63D::m_4D2": "CreateWindowsRuntimeTypeNotFoundException",
- "VRC_MainSiblingRelated_F63D::m_67C": "GetActivationFactory"
-}

@@ -1,6 +1,0 @@
-{
- "VRC_MainSibling_C23A::m_4FC": "MarshalNativeToManaged",
- "VRC_MainSibling_C23A::m_504": "MarshalManagedToNative",
- "VRC_MainSibling_C23A::m_539": "GetNativeSize",
- "VRC_MainSibling_C23A::m_552": "MarshalManagedToNative"
-}

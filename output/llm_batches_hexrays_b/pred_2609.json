@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_A015::m_575": "MoveNext",
- "VRCNetworkBehaviourSibling_BF5Sibling_A015::m_77C": "MoveNext",
- "VRCNetworkBehaviourSibling_BF5Sibling_A209::m_575": "ToLowerLocale",
- "VRCNetworkBehaviourSibling_BF5Sibling_A209::m_77C": "FormatDoubleToStringBuffer",
- "VRCNetworkBehaviourSibling_BF5Sibling_A209::m_96F": "RaiseUnhandledException"
-}

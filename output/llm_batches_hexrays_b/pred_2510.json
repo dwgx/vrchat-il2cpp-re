@@ -1,6 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_8712::m_55E": "ReopenFileStreamWithLock",
- "VRCNetworkBehaviourSibling_BF5Sibling_8712::m_77C": "DuplicateWideString",
- "VRCNetworkBehaviourSibling_BF5Sibling_8712::m_943": "TryAdvanceFileBuffer",
- "VRCNetworkBehaviourSibling_BF5Sibling_8712::m_AEE": "CopyFileStreamState"
-}

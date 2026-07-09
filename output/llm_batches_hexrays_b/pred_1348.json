@@ -1,5 +1,0 @@
-{
- "UIRectTransformDimensionsChBefSibling_2A4F::m_1DD": "GetScaledDimensionChangeThreshold",
- "UIRectTransformDimensionsChBefSibling_2A4F::m_25C": "HasExceededDimensionChangeThreshold",
- "UIRectTransformDimensionsChBefSibling_2A4F::m_359": "ResetTrackedRectTransformDimensions"
-}

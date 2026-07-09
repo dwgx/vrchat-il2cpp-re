@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_8C71::m_016": "AllocateHeapBlock",
- "VRCNetworkBehaviourSibling_BF5Sibling_8C71::m_51F": "AllocateHeapBlock",
- "VRCNetworkBehaviourSibling_BF5Sibling_8C71::m_C01": "CreatePageMapChunk",
- "VRCNetworkBehaviourSibling_BF5Sibling_8C71::m_CF3": "ReleasePageMapSlot",
- "VRCNetworkBehaviourSibling_BF5Sibling_8C83::m_C01": "EnsureBufferCapacity"
-}

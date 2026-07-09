@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_5AD9::m_016": "InitializeExplicitGcTyping",
- "VRCNetworkBehaviourSibling_BF5Sibling_5AD9::m_51F": "MarkTypedGcObjectReferences",
- "VRCNetworkBehaviourSibling_BF5Sibling_5AD9::m_6EA": "InitializeExplicitGcTyping",
- "VRCNetworkBehaviourSibling_BF5Sibling_5AD9::m_95D": "MarkTypedGcObjectReferences",
- "VRCNetworkBehaviourSibling_BF5Sibling_5AD9::m_CF3": "InitializeExplicitGcTyping"
-}

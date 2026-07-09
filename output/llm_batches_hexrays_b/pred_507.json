@@ -1,7 +1,0 @@
-{
- "TransformPlayerPrefsHandler_396E::m_002": "GetSocketOptionInternal",
- "TransformPlayerPrefsHandler_396E::m_0D4": "GetAddressInfo",
- "TransformPlayerPrefsHandler_396E::m_1C6": "ShutdownSocket",
- "TransformPlayerPrefsHandler_396E::m_1E1": "ConvertSockaddrToSocketAddress",
- "TransformPlayerPrefsHandler_396E::m_217": "ReceiveInternal"
-}

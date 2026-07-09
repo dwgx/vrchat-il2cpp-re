@@ -1,9 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_A7B4::m_24F": "CopyConstructNetworkBehaviourSibling",
- "VRCNetworkBehaviourSibling_BF5Sibling_A7B4::m_CF3": "SnprintfSafe",
- "VRCNetworkBehaviourSibling_BF5Sibling_A7B4::m_EEE": "CopyConstructNetworkBehaviourSibling",
- "VRCNetworkBehaviourSibling_BF5Sibling_A812::m_016": "DecrementMultibyteStringPointer",
- "VRCNetworkBehaviourSibling_BF5Sibling_A812::m_24F": "CopyNullTerminatedString",
- "VRCNetworkBehaviourSibling_BF5Sibling_A812::m_6F8": "CopyNullTerminatedString",
- "VRCNetworkBehaviourSibling_BF5Sibling_A812::m_C31": "CopyNullTerminatedString"
-}

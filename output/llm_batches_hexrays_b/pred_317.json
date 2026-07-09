@@ -1,5 +1,0 @@
-{
- "PhotonConnectionHandler_D6F1::m_399": "RegisterPhotonCustomTypes",
- "PhotonConnectionHandler_D6F1::m_40E": "RegisterPhotonCustomTypes",
- "PhotonConnectionHandler_D6F1::m_4E0": "RealtimeFallbackThread"
-}

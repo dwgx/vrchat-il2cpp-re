@@ -1,8 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_8E1B::m_CF3": "EnsureCurrentFrameCountCached",
- "VRCNetworkBehaviourSibling_BF5Sibling_8E42::m_016": "AllocateHeapBlock",
- "VRCNetworkBehaviourSibling_BF5Sibling_8E42::m_51F": "CollectOrExpandHeap",
- "VRCNetworkBehaviourSibling_BF5Sibling_8E42::m_6F8": "CollectOrExpandHeap",
- "VRCNetworkBehaviourSibling_BF5Sibling_8E42::m_C01": "AllocateHeapBlock",
- "VRCNetworkBehaviourSibling_BF5Sibling_8E42::m_F2B": "AllocateHeapBlock"
-}

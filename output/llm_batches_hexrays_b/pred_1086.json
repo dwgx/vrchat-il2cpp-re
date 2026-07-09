@@ -1,4 +1,0 @@
-{
- "TransformGameObjectHandler_3ED3::m_829": "SetRigidbodyAngularVelocityToReachRotation",
- "TransformGameObjectHandler_3ED3::m_8EE": "SetRigidbodyVelocityToReachPosition"
-}

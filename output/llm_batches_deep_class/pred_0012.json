@@ -1,7 +1,0 @@
-{
- "TransformPhysicsSystem_923C::m_A2A": "MarshalCollisionRecordToNative",
- "TransformPhysicsSystem_923C::m_A30": "MarshalCollisionRecordShapeToNative",
- "TransformPhysicsSystem_923C::m_AB7": "get_Value",
- "TransformPhysicsSystem_923C::m_AE7": "GetBounds",
- "TransformPhysicsSystem_923C::m_B2E": "get_Value"
-}

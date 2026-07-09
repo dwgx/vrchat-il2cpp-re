@@ -1,8 +1,0 @@
-{
- "TransformHandler_5497::m_25A": "BrotliEncoderCompress",
- "TransformHandler_5497::m_27A": "BrotliEncoderCompress",
- "TransformHandler_5497::m_33C": "BrotliEncoderCompressStream",
- "TransformHandler_5497::m_3C1": "FindMemorySequence",
- "TransformHandler_5497::m_954": "FindUInt64Value",
- "TransformHandler_5497::m_BCF": "BrotliEncoderCompress"
-}

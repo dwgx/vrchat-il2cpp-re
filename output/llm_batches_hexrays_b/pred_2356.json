@@ -1,6 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_D079::m_2F0": "EnsureBufferCapacity",
- "VRCNetworkBehaviourSibling_BF5Sibling_D079::m_CF3": "BrotliEncoderSetParameter",
- "VRCNetworkBehaviourSibling_BF5Sibling_D194::m_016": "CSpecificHandler",
- "VRCNetworkBehaviourSibling_BF5Sibling_D194::m_410": "CxxFrameHandler3"
-}

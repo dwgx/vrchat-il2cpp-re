@@ -1,8 +1,0 @@
-{
- "TransformQuaternionHandler_6E0B::m_17C": "ToString",
- "TransformQuaternionHandler_6E0B::m_302": "GetHashCode",
- "TransformQuaternionHandler_6E0B::m_502": "Equals",
- "TransformQuaternionHandler_6E0B::m_538": "ToString",
- "TransformQuaternionHandler_6E0B::m_5A0": "Equals",
- "TransformQuaternionHandler_6E0B::m_62E": "GetHashCode"
-}

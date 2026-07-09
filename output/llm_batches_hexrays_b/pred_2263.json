@@ -1,9 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_5A84::m_016": "TryDecodeHuffmanSymbol",
- "VRCNetworkBehaviourSibling_BF5Sibling_5A84::m_24F": "DecodeDeflateBlock",
- "VRCNetworkBehaviourSibling_BF5Sibling_5A84::m_51F": "DecodeCodeLengths",
- "VRCNetworkBehaviourSibling_BF5Sibling_5A84::m_937": "DecodeCodeLengths",
- "VRCNetworkBehaviourSibling_BF5Sibling_5A84::m_95D": "DecodeDeflateBlock",
- "VRCNetworkBehaviourSibling_BF5Sibling_5A84::m_C01": "DecodeUncompressedBlock",
- "VRCNetworkBehaviourSibling_BF5Sibling_5A84::m_F2B": "TryDecodeHuffmanSymbol"
-}

@@ -1,7 +1,0 @@
-{
- "TransformPhysicsSystem_923C::m_074": "InvokeTransformPhysicsCallbacks",
- "TransformPhysicsSystem_923C::m_08A": "MarshalCollisionRecordShapeToNative",
- "TransformPhysicsSystem_923C::m_092": "MarshalCollisionRecordToNative",
- "TransformPhysicsSystem_923C::m_0B9": "MarshalCollisionRecordShapeToNative",
- "TransformPhysicsSystem_923C::m_0D8": "MarshalCollisionRecordToManaged"
-}

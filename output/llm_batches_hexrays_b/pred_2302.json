@@ -1,6 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_8B5A::m_016": "ToString",
- "VRCNetworkBehaviourSibling_BF5Sibling_8B5A::m_24F": "ReleaseSafeArrayResources",
- "VRCNetworkBehaviourSibling_BF5Sibling_8B5A::m_95D": "ToString",
- "VRCNetworkBehaviourSibling_BF5Sibling_8B5A::m_F2B": "GetHashCode"
-}

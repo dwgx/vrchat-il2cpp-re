@@ -1,9 +1,0 @@
-{
- "VRC_MainSiblingSiblingSibling_FEF3::m_4D2": "CleanupNativeMarshal",
- "VRC_MainSiblingSiblingSibling_FEF3::m_55D": "MarshalNativeToManaged",
- "VRC_MainSiblingSiblingSibling_FEF3::m_593": "MarshalManagedToCom",
- "VRC_MainSiblingSiblingSibling_FEF3::m_618": "MarshalNativeToManaged",
- "VRC_MainSiblingSiblingSibling_FEF3::m_6EA": "MarshalManagedToNative",
- "VRC_MainSiblingSiblingSibling_FEF3::m_84C": "MarshalNativeToManaged",
- "VRC_MainSiblingSiblingSibling_FEF3::m_A85": "MarshalNativeArrayToManaged"
-}

@@ -1,7 +1,0 @@
-{
- "TransformPhysicsSystem_923C::m_273": "MarshalObjectMetadataPairToNative",
- "TransformPhysicsSystem_923C::m_2AD": "MarshalObjectMetadataPairToNative",
- "TransformPhysicsSystem_923C::m_2B9": "MarshalCollisionRecordToNative",
- "TransformPhysicsSystem_923C::m_2E6": "MarshalCollisionRecordShapeToNative",
- "TransformPhysicsSystem_923C::m_312": "IsCollisionShapeAxisEnabled"
-}

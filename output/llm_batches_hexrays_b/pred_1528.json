@@ -1,8 +1,0 @@
-{
- "IsInteractiveInteractSibling_FCB9::m_31B": "GetMeshSpawnSpeed",
- "IsInteractiveInteractSibling_FCB9::m_A24": "GetSkinnedMeshRenderer",
- "IsInteractiveInteractSibling_FCB9::m_BB1": "GetTextureColorAffectsParticles",
- "IsInteractiveInteractSibling_FCB9::m_BFA": "GetNormalOffset",
- "IsInteractiveInteractSibling_FCB9::m_D5A": "SetRotation",
- "IsInteractiveInteractSibling_FCB9::m_D98": "SetMeshSpawnMode"
-}

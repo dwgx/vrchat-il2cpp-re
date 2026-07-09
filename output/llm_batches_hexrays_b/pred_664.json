@@ -1,5 +1,0 @@
-{
- "VRC_MainSiblingRelated_F63D::m_F01": "CreateTypeLoadException",
- "VRC_MainSiblingRelated_F63D::m_F27": "CreateMissingWindowsRuntimeTypeException",
- "VRC_MainSiblingRelated_F63D::m_FB8": "CreateCouldNotLoadTypeException"
-}

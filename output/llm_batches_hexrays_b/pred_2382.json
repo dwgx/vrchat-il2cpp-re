@@ -1,7 +1,0 @@
-{
- "VRCNetworkBehaviourSibling_BF5Sibling_F53D::m_6EA": "CountTreeCodeFrequencies",
- "VRCNetworkBehaviourSibling_BF5Sibling_F53D::m_6F8": "BuildHuffmanTree",
- "VRCNetworkBehaviourSibling_BF5Sibling_F53D::m_CF3": "WriteTreeCodeLengths",
- "VRCNetworkBehaviourSibling_BF5Sibling_F53D::m_DD6": "CountTreeCodeFrequencies",
- "VRCNetworkBehaviourSibling_BF5Sibling_F53D::m_EEE": "WriteTreeCodeLengths"
-}

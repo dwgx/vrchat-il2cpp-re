@@ -1,7 +1,0 @@
-{
- "TransformSystem_ACB1::m_A78": "SetDiscordActivitySecrets",
- "TransformSystem_ACB1::m_A80": "RefreshDiscordActivity",
- "TransformSystem_ACB1::m_A9F": "InitializeDiscordActivity",
- "TransformSystem_ACB1::m_BB7": "InitializeDiscordActivity",
- "TransformSystem_ACB1::m_F77": "SetDiscordActivitySecrets"
-}

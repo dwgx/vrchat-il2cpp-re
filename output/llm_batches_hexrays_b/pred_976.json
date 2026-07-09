@@ -1,6 +1,0 @@
-{
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_080": "InitializeGarbageCollector",
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_198": "SetGCHandleTarget",
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_1E3": "AllocateWeakReferenceHandle",
- "AnimatedTextureBaseImpl_0682Sibling_206E::m_1E6": "AllocateGCHandle"
-}

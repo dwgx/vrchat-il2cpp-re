@@ -1,8 +1,0 @@
-{
- "TransformHandler_364C::m_527": "Equals",
- "TransformHandler_364C::m_78F": "Equals",
- "TransformHandler_364C::m_E68": "Equals",
- "TransformHandler_3F71::m_2CD": "ComputeXxHash32",
- "TransformHandler_5497::m_012": "ThrowOutOfRangeException",
- "TransformHandler_5497::m_11B": "BrotliEncoderCompress"
-}

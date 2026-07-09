@@ -1,8 +1,0 @@
-{
- "TransformMaterialSystem_7035::m_985": "UpdateTargetTransformInEditMode",
- "TransformMaterialSystem_7035::m_988": "UpdateTargetTransformInEditMode",
- "TransformMaterialSystem_7035::m_AB6": "UpdateTargetTransformInEditMode",
- "TransformMaterialSystem_7035::m_D30": "CacheRigidbodySettings",
- "TransformMaterialSystem_7035::m_D67": "ValidateRigidbodyMassRatio",
- "TransformMaterialSystem_7035::m_E04": "RestoreRigidbodySettings"
-}
