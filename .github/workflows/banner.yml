@@ -1,11 +1,12 @@
 name: banner
 
 # Regenerates docs/assets/banner*.svg from repo-kit.toml and patches the
-# dwgx-banner block in README.md. The generator is fetched from dwgx/DWGX at
-# run time, so this repository keeps no copy of it and upgrades come from there.
+# dwgx-banner block in README.md. The generator is fetched from dwgx/DWGX at run
+# time, so this repository keeps no copy of it and upgrades come from there.
+#
+# The schedule stays off until a manual run has been watched go green: a failing
+# schedule means one email per repository, and a broken generator fails loudly.
 on:
-  schedule:
-    - cron: "23 */6 * * *"
   workflow_dispatch:
   push:
     paths:
@@ -30,11 +31,17 @@ jobs:
 
       - name: fetch generator
         run: |
+          set -euo pipefail
           mkdir -p /tmp/repokit
-          curl -fsSL -o /tmp/repokit/build.py \
-            https://raw.githubusercontent.com/dwgx/DWGX/main/repo-kit/build.py
-          curl -fsSL -o /tmp/repokit/styles.py \
-            https://raw.githubusercontent.com/dwgx/DWGX/main/repo-kit/styles.py
+          base=https://raw.githubusercontent.com/dwgx/DWGX/main/repo-kit
+          for f in build.py styles.py styles_ink.py ink.py; do
+            curl -fsSL -o "/tmp/repokit/$f" "$base/$f"
+          done
+          # fail here, not three steps later, if a file is missing
+          test -s /tmp/repokit/build.py
+          test -s /tmp/repokit/styles_ink.py
+          test -s /tmp/repokit/ink.py
+          python -c "import sys; sys.path.insert(0,'/tmp/repokit'); import build; print('generator ok, theme', build.THEME)"
 
       - name: render
         env:
