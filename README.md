@@ -4,16 +4,16 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="docs/assets/banner-light.svg" />
-  <img src="docs/assets/banner.svg" width="100%" alt="vrchat-il2cpp-re — VRChat IL2CPP 去混淆流水线 · Unity 6 基线 · 64K 类 / 570K 方法 / 188K 字段" />
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner.svg?t=2f397d97177e" />
+  <source media="(prefers-color-scheme: light)" srcset="docs/assets/banner-light.svg?t=2f397d97177e" />
+  <img src="docs/assets/banner.svg?t=2f397d97177e" width="100%" alt="vrchat-il2cpp-re — VRChat IL2CPP 去混淆流水线 · Unity 6 基线 · 64K 类 / 570K 方法 / 188K 字段" />
 </picture>
 
 <br/>
 
 C# · NOASSERTION · ★31
 
-[![docs](https://dwgx.github.io/vrchat-il2cpp-re/)](https://dwgx.github.io/vrchat-il2cpp-re/) [![releases](https://github.com/dwgx/vrchat-il2cpp-re/releases)](https://github.com/dwgx/vrchat-il2cpp-re/releases)
+[docs](https://dwgx.github.io/vrchat-il2cpp-re/) · [releases](https://github.com/dwgx/vrchat-il2cpp-re/releases)
 
 </div>
 <!-- dwgx-banner:END -->
