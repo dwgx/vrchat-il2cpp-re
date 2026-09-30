@@ -1,0 +1,54 @@
+name: banner
+
+# Regenerates docs/assets/banner*.svg from repo-kit.toml and patches the
+# dwgx-banner block in README.md. The generator is fetched from dwgx/DWGX at
+# run time, so this repository keeps no copy of it and upgrades come from there.
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "repo-kit.toml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: banner
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: fetch generator
+        run: |
+          mkdir -p /tmp/repokit
+          curl -fsSL -o /tmp/repokit/build.py \
+            https://raw.githubusercontent.com/dwgx/DWGX/main/repo-kit/build.py
+          curl -fsSL -o /tmp/repokit/styles.py \
+            https://raw.githubusercontent.com/dwgx/DWGX/main/repo-kit/styles.py
+
+      - name: render
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python /tmp/repokit/build.py "${GITHUB_REPOSITORY#*/}" \
+            --toml repo-kit.toml --out . --flat --inject
+
+      - name: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/assets
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "chore: refresh banner"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push

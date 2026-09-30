@@ -1,0 +1,14 @@
+# repo-kit · 本仓库的 banner 规格
+# 改这个文件，workflow 会重新渲染 docs/assets/banner*.svg 与 README 区块
+# 生成器：https://github.com/dwgx/DWGX/tree/main/repo-kit
+owner = "dwgx"
+
+[[repo]]
+name = "vrchat-il2cpp-re"
+style = "card"
+tagline = "VRChat IL2CPP 去混淆流水线 · Unity 6 基线 · 64K 类 / 570K 方法 / 188K 字段"
+install = ""
+lang = "C#"
+license = "NOASSERTION"
+topics = ["deobfuscation", "il2cpp", "reverse-engineering", "unity6", "vrchat"]
+links = [{ label = "docs", url = "https://dwgx.github.io/vrchat-il2cpp-re/" }, { label = "releases", url = "https://github.com/dwgx/vrchat-il2cpp-re/releases" }]
